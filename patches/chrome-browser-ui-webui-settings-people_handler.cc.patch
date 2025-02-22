@@ -1,0 +1,28 @@
+diff --git a/chrome/browser/ui/webui/settings/people_handler.cc b/chrome/browser/ui/webui/settings/people_handler.cc
+index fac742aedf4dd4be986646a16d5f54ae7b4a1138..21237005790996352b7f413f602543d5eace3ef1 100644
+--- a/chrome/browser/ui/webui/settings/people_handler.cc
++++ b/chrome/browser/ui/webui/settings/people_handler.cc
+@@ -1098,6 +1098,7 @@ void PeopleHandler::OnStateChanged(syncer::SyncService* sync_service) {
+ 
+ void PeopleHandler::BeforeUnloadDialogCancelled() {
+   // The before unload dialog is only shown during the first sync setup.
++  if (false)
+   DCHECK(IdentityManagerFactory::GetForProfile(profile_)->HasPrimaryAccount(
+       signin::ConsentLevel::kSync));
+   syncer::SyncService* service = GetSyncService();
+@@ -1147,6 +1148,7 @@ base::Value::Dict PeopleHandler::GetSyncStatusDictionary() const {
+       service && !disallowed_by_policy && service->IsSetupInProgress() &&
+           !service->GetUserSettings()->IsInitialSyncFeatureSetupComplete() &&
+           identity_manager->HasPrimaryAccount(signin::ConsentLevel::kSync));
++  BRAVE_GET_SYNC_STATUS_DICTIONARY
+ 
+   SyncStatusLabels status_labels;
+ 
+@@ -1358,6 +1360,7 @@ void PeopleHandler::MaybeMarkSyncConfiguring() {
+ }
+ 
+ bool PeopleHandler::IsProfileAuthNeededOrHasErrors() {
++  return false;
+   return !IdentityManagerFactory::GetForProfile(profile_)->HasPrimaryAccount(
+              signin::ConsentLevel::kSync) ||
+          SigninErrorControllerFactory::GetForProfile(profile_)->HasError();

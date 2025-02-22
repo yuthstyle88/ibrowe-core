@@ -1,0 +1,13 @@
+diff --git a/chrome/installer/mac/signing/signing.py b/chrome/installer/mac/signing/signing.py
+index 1c023d36a665ac49c19b62b32b637c52344f854f..f99a123052b5f7a01adf0a5a9c060cdd9778f4f4 100644
+--- a/chrome/installer/mac/signing/signing.py
++++ b/chrome/installer/mac/signing/signing.py
+@@ -23,7 +23,7 @@ class InvalidAppGeometryException(ValueError):
+ class Invoker(invoker.Base):
+ 
+     def codesign(self, config, product, path):
+-        command = ['codesign', '--sign', config.identity]
++        command = ['codesign', '--force', '--sign', config.identity]
+         if config.notarize.should_notarize():
+             # If the products will be notarized, the signature requires a secure
+             # timestamp.

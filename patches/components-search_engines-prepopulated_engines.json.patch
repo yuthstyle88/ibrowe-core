@@ -1,0 +1,55 @@
+diff --git a/components/search_engines/prepopulated_engines.json b/components/search_engines/prepopulated_engines.json
+index f14653e783edc142c89bafa9b8221459fc907b26..37926265e16a6f903adefaa5e26b93872e125bb9 100644
+--- a/components/search_engines/prepopulated_engines.json
++++ b/components/search_engines/prepopulated_engines.json
+@@ -113,22 +113,6 @@
+       "id": 68
+     },
+ 
+-    "duckduckgo": {
+-      "name": "DuckDuckGo",
+-      "keyword": "duckduckgo.com",
+-      "favicon_url": "https://duckduckgo.com/favicon.ico",
+-      "search_url": "https://duckduckgo.com/?q={searchTerms}",
+-      "suggest_url": "https://duckduckgo.com/ac/?q={searchTerms}&type=list",
+-      "new_tab_url": "https://duckduckgo.com/chrome_newtab",
+-      "type": "SEARCH_ENGINE_DUCKDUCKGO",
+-      "id": 92,
+-      "regulatory_extensions": [
+-        {
+-          "variant": "RegulatoryExtensionType::kAndroidEEA",
+-          "search_params": "t=euandroid"
+-        }
+-      ]
+-    },
+ 
+     "ecosia": {
+       "name": "Ecosia",
+@@ -287,27 +271,6 @@
+       "id": 108
+     },
+ 
+-    "qwant": {
+-      "name": "Qwant",
+-      "keyword": "qwant.com",
+-      "favicon_url": "https://www.qwant.com/favicon.ico",
+-      "search_url": "https://www.qwant.com/?q={searchTerms}",
+-      "suggest_url": "https://api.qwant.com/api/suggest/?q={searchTerms}",
+-      "type": "SEARCH_ENGINE_QWANT",
+-      "id": 94,
+-      "regulatory_extensions": [
+-        {
+-          "variant": "RegulatoryExtensionType::kDefault",
+-          "search_params": "client=cs-chrome",
+-          "suggest_params": "client=opensearch"
+-        },
+-        {
+-          "variant": "RegulatoryExtensionType::kAndroidEEA",
+-          "search_params": "client=acs",
+-          "suggest_params": "client=opensearch"
+-        }
+-      ]
+-    },
+ 
+     "seznam": {
+       "name": "Seznam.cz",

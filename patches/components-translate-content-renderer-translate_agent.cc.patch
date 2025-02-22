@@ -1,0 +1,13 @@
+diff --git a/components/translate/content/renderer/translate_agent.cc b/components/translate/content/renderer/translate_agent.cc
+index 45da5dd6a7153bf7002389bb146abe9c6f83934f..1fcfe3d35d2d4134056391d6ec7556bc5aacaf08 100644
+--- a/components/translate/content/renderer/translate_agent.cc
++++ b/components/translate/content/renderer/translate_agent.cc
+@@ -62,7 +62,7 @@ const int kTranslateInitCheckDelayMs = 150;
+ 
+ // The maximum number of times we'll check to see if the translate library
+ // injected in the page is ready.
+-const int kMaxTranslateInitCheckAttempts = 5;
++const int kMaxTranslateInitCheckAttempts = 11;
+ 
+ // The delay we wait in milliseconds before checking whether the translation has
+ // finished.

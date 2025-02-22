@@ -1,0 +1,12 @@
+diff --git a/third_party/blink/renderer/core/editing/commands/clipboard_commands.cc b/third_party/blink/renderer/core/editing/commands/clipboard_commands.cc
+index 271ca7ba88fc92b8f6bad5ee4cffedf7f1b05aee..bf177c95e4120751ae933937f429ad3b7ff4ee89 100644
+--- a/third_party/blink/renderer/core/editing/commands/clipboard_commands.cc
++++ b/third_party/blink/renderer/core/editing/commands/clipboard_commands.cc
+@@ -351,6 +351,7 @@ bool ClipboardCommands::ExecuteCopy(LocalFrame& frame,
+       frame.Selection().IsHidden())
+     return true;
+ 
++  BRAVE_CLIPBOARD_COMMANDS_CHECK_SOURCE
+   if (EnclosingTextControl(
+           frame.Selection().ComputeVisibleSelectionInDOMTree().Start())) {
+     frame.GetSystemClipboard()->WritePlainText(frame.SelectedTextForClipboard(),

@@ -1,0 +1,13 @@
+diff --git a/testing/xvfb.py b/testing/xvfb.py
+index abf0a6f1e426d2b50714c0f7b242a44142e819d6..05a89d1093227634c3ab407d36a887651648a142 100755
+--- a/testing/xvfb.py
++++ b/testing/xvfb.py
+@@ -103,7 +103,7 @@ def launch_dbus(env):  # pylint: disable=inconsistent-return-statements
+ def run_executable(cmd,
+                    env,
+                    stdoutfile=None,
+-                   use_openbox=True,
++                   use_openbox=False,
+                    use_xcompmgr=True,
+                    xvfb_whd=None,
+                    cwd=None):

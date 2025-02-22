@@ -1,0 +1,12 @@
+diff --git a/net/dns/BUILD.gn b/net/dns/BUILD.gn
+index 543b8ae16c1ddc33b3602adc7216a1756681f5fe..d53f7b5c54223df7bf05c3906a2662e4a119f28d 100644
+--- a/net/dns/BUILD.gn
++++ b/net/dns/BUILD.gn
+@@ -110,6 +110,7 @@ source_set("dns") {
+     "test_dns_config_service.cc",
+     "test_dns_config_service.h",
+   ]
++  sources += brave_net_dns_sources
+ 
+   if (is_win) {
+     sources += [

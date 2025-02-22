@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc b/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
+index 3edd4dad7a9a5311221c436a064c1c4173c0462c..20650ceb659112cae01e60dc78a65014329b6b91 100644
+--- a/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
++++ b/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
+@@ -128,6 +128,7 @@ content::WebUIDataSource* CreateAndAddBookmarksUIHTMLSource(Profile* profile) {
+     AddLocalizedString(source, str.name, str.id);
+   }
+ 
++  BRAVE_CREATE_BOOKMARKS_UI_HTML_SOURCE
+   return source;
+ }
+ 

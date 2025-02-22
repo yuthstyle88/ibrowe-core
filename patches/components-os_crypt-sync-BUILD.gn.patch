@@ -1,0 +1,12 @@
+diff --git a/components/os_crypt/sync/BUILD.gn b/components/os_crypt/sync/BUILD.gn
+index c85da95a847384311429febab48fd10c8f8e68f4..0adff77e3902304e95ee9b5ae298c926a209d241 100644
+--- a/components/os_crypt/sync/BUILD.gn
++++ b/components/os_crypt/sync/BUILD.gn
+@@ -88,6 +88,7 @@ component("os_crypt") {
+       defines += [ "USE_KWALLET" ]
+     }
+   }
++  import("//brave/components/os_crypt/sources.gni") deps += brave_components_os_crypt_deps
+ }
+ 
+ static_library("test_support") {

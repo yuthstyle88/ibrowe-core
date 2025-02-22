@@ -1,0 +1,23 @@
+diff --git a/chrome/browser/resources/bookmarks/reducers.ts b/chrome/browser/resources/bookmarks/reducers.ts
+index a39cfe3662872d5a0bec5e6cfec12cec77b90f53..34b52727ca37c045dcfbc2cffd5a54b7963ef9a3 100644
+--- a/chrome/browser/resources/bookmarks/reducers.ts
++++ b/chrome/browser/resources/bookmarks/reducers.ts
+@@ -193,6 +193,9 @@ function editBookmark(nodes: NodeMap, action: EditBookmarkAction): NodeMap {
+ function moveBookmark(nodes: NodeMap, action: MoveBookmarkAction): NodeMap {
+   const nodeModifications: NodeMap = {};
+   const id = action.id;
++  // Skip when new/old parent is invisible (Pending Bookmarks)
++  if (!nodes[action.oldParentId] || !nodes[action.parentId])
++    return nodes;
+ 
+   // Change node's parent.
+   nodeModifications[id] =
+@@ -330,7 +333,7 @@ export function updateFolderOpenState(
+           folderOpenState, nodes[(action as SelectFolderAction).id]!.parentId!,
+           nodes);
+     case 'move-bookmark':
+-      if (!nodes[(action as MoveBookmarkAction).id]!.children) {
++      if (!nodes[(action as MoveBookmarkAction).id] || !nodes[(action as MoveBookmarkAction).id]!.children) {
+         return folderOpenState;
+       }
+       return openFolderAndAncestors(

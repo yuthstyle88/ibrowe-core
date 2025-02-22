@@ -1,0 +1,12 @@
+diff --git a/tools/typescript/ts_library.gni b/tools/typescript/ts_library.gni
+index 74ca9154c551402ac60445620922a3c694c8fe4f..38b35fef7df4603e030a705c3d1f7f41b0dea79b 100644
+--- a/tools/typescript/ts_library.gni
++++ b/tools/typescript/ts_library.gni
+@@ -178,6 +178,7 @@ template("ts_library") {
+       ]
+     }
+ 
++    import("//brave/tools/typescript/sources.gni") foreach(mapping, brave_path_mappings) { path_mappings += [ mapping[0] + rebase_path(mapping[1], target_gen_dir) ] }
+     args += [ "--path_mappings" ] + path_mappings
+     if (defined(invoker.path_mappings)) {
+       args += invoker.path_mappings

@@ -1,0 +1,12 @@
+diff --git a/chrome/installer/setup/BUILD.gn b/chrome/installer/setup/BUILD.gn
+index 54affaef2d1b381ebcb8caf8a9122c12f25f80b9..4e2f39b88067d21cc4ed9443144a9c52cc9a301f 100644
+--- a/chrome/installer/setup/BUILD.gn
++++ b/chrome/installer/setup/BUILD.gn
+@@ -123,6 +123,7 @@ if (is_win) {
+         "channel_override_work_item.h",
+       ]
+     }
++    import("//brave/chromium_src/chrome/installer/setup/sources.gni") deps += brave_chromium_src_chrome_installer_setup_deps sources += brave_chromium_src_chrome_installer_setup_sources
+   }
+ 
+   process_version_rc_template("setup_exe_version") {

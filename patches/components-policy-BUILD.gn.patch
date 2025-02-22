@@ -1,0 +1,12 @@
+diff --git a/components/policy/BUILD.gn b/components/policy/BUILD.gn
+index b9d5654a206d2bae12b6e7b9e6e3635e99568b3c..20289cffa63b46083b2c27e30ef7a5b648814e6c 100644
+--- a/components/policy/BUILD.gn
++++ b/components/policy/BUILD.gn
+@@ -102,6 +102,7 @@ action("generate_policy_templates") {
+     "--depfile",
+     rebase_path(policy_templates_deps_file, root_build_dir),
+   ]
++  import("//brave/components/policy/resources/templates/policy_definitions/brave_policies.gni") inputs = brave_generate_policy_templates_inputs
+ }
+ 
+ # Translates policy_templates.json into various languages.

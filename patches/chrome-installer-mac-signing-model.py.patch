@@ -1,0 +1,13 @@
+diff --git a/chrome/installer/mac/signing/model.py b/chrome/installer/mac/signing/model.py
+index 8d3e463f4b40e0d7b1884db6af7657afb29b1191..dbdb00525ff74afcb8d49873663c6cba8abf0de3 100644
+--- a/chrome/installer/mac/signing/model.py
++++ b/chrome/installer/mac/signing/model.py
+@@ -420,7 +420,7 @@ class Paths(object):
+         Returns:
+             Path to the packaging directory.
+         """
+-        return os.path.join(self.input, '{} Packaging'.format(config.product))
++        return os.path.join(self.input, '{}_Packaging'.format(config.product.replace(' ', '_')))
+ 
+     def replace_work(self, new_work):
+         """Creates a new Paths with the same input and output directories, but
