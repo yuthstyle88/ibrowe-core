@@ -31,7 +31,7 @@ def force_sync_folders(source_path, destination_path):
 
 if __name__ == "__main__":
     # Define source and destination folders
-    source_folder = "../patches/images"
+    source_folder = "../patches/images/src"
     destination_folder = "../../brave"
 
     force_sync_folders(source_folder, destination_folder)
