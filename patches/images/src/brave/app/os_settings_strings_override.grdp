@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Settings-specific strings (included from generated_resources.grd). -->
+<grit-part>
+<if expr="is_chromeos">
+
+  <if expr="reven">
+    </if>
+  <if expr="not reven">
+    </if>
+  <message name="IDS_SETTINGS_ACCESSIBILITY_ADDITIONAL_FEATURES_TITLE" desc="In the settings tab, the title of a link that adds additional accessibility features not found in the built-in settings.">
+    Find more accessibility tools in the Web Store
+  </message>
+  <if expr="reven">
+    </if>
+  <if expr="not reven">
+    </if>
+  </if>
+</grit-part>
