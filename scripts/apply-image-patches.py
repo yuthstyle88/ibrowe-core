@@ -38,7 +38,7 @@ def copy_back_files(source_folder, dest_folder):
     logging.info(f"Copied back {count} files successfully!")
 
 if __name__ == "__main__":
-    source_root = os.path.abspath("../patches/images/src/brave")
+    source_root = os.path.abspath("../src/brave")
     brave_destination = get_destination_path()
 
     if os.path.exists(source_root):
