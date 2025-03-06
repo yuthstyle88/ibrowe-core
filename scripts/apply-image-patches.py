@@ -1,47 +1,56 @@
 import os
 import shutil
-import logging
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+def copy_brave_files(source_folder, destfolder, files_extensions):
+    """
+    Copies files with specified extensions from source_folder to destfolder.
 
-def get_destination_path():
-    return os.path.abspath("../../brave")
-
-def copy_back_files(source_folder, dest_folder):
+    - Does not create empty directories.
+    """
     count = 0
 
-    for root, dirs, files in os.walk(source_folder):
-        # Exclude directories that start with '.' or contain "node_modules"
-        dirs[:] = [d for d in dirs if not d.startswith(".") and "node_modules" not in d]
+    for root, _, files in os.walk(source_folder):
+        # Filter files based on extensions
+        files_to_copy = [file for file in files if any(file.lower().endswith(ext) for ext in files_extensions)]
 
-        if not files:
-            continue  # Skip empty directories
+        # **Skip this folder if it contains no matching files**
+        if not files_to_copy:
+            continue
 
+        # Determine relative path and target folder
         relative_path = os.path.relpath(root, source_folder)
-        target_folder = os.path.join(dest_folder, relative_path)
+        target_folder = os.path.join(destfolder, relative_path)
 
+        # **Create the folder only if it contains files to copy**
         os.makedirs(target_folder, exist_ok=True)
 
-        for file in files:
+        # Copy files
+        for file in files_to_copy:
             source_file = os.path.join(root, file)
             dest_file = os.path.join(target_folder, file)
 
             try:
                 shutil.copy2(source_file, dest_file)
                 count += 1
-                if count % 100 == 0:
-                    logging.info(f"Copied back {count} files so far...")
             except Exception as e:
-                logging.error(f"Error copying back {source_file} to {dest_file}: {e}")
+                print(f"Error copying file {source_file} to {dest_file}: {e}")
 
-    logging.info(f"Copied back {count} files successfully!")
+    print(f"Copied {count} files successfully from {source_folder} to {destfolder}!")
 
 if __name__ == "__main__":
-    source_root = os.path.abspath("../src/brave")
-    brave_destination = get_destination_path()
+    # Source folders
+    brave_source_path = os.path.abspath("../src/images/src/brave")
+    translates_source_path = os.path.abspath("../src/translates")
 
-    if os.path.exists(source_root):
-        copy_back_files(source_root, brave_destination)
+    destination_root = os.path.abspath("../../brave")
+    destination_language_root = os.path.abspath("../../brave")
+
+    if os.path.exists(brave_source_path):
+        copy_brave_files(brave_source_path, destination_root, {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"})
     else:
-        logging.error("Source folder does not exist.")
+        print(f"Source folder does not exist: {brave_source_path}")
+
+    if os.path.exists(translates_source_path):
+        copy_brave_files(translates_source_path, destination_language_root, {".grd", ".grdp", ".xtb", ".pak", ".strings"})
+    else:
+        print(f"Source folder does not exist: {translates_source_path}")
