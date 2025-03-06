@@ -40,6 +40,7 @@ if __name__ == "__main__":
     brave_source_path = get_brave_source_path()
     destination_root = os.path.join("..", "images/src/brave")
     destination_language_root = os.path.join("..", "translates")
+
     
     language_extensions = {".grd", ".grdp", ".xtb", ".pak", ".strings"}
     icon_image_extensions = {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"}
