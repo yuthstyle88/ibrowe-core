@@ -2,7 +2,7 @@ import os
 import shutil
 
 def get_brave_source_path():
-    return "../brave"
+    return "../../brave"
 
 def copy_brave_files(source_folder, destfolder, files_extensions):
     count = 0
@@ -38,7 +38,8 @@ def copy_brave_files(source_folder, destfolder, files_extensions):
 
 if __name__ == "__main__":
     brave_source_path = get_brave_source_path()
-    destination_root = os.path.join("..", "patches/images/src/brave")
+    destination_root = os.path.join("..", "images/src/brave")
+    destination_language_root = os.path.join("..", "translates")
     
     language_extensions = {".grd", ".grdp", ".xtb", ".pak", ".strings"}
     icon_image_extensions = {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"}
