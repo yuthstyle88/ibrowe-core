@@ -38,7 +38,7 @@ def copy_brave_files(source_folder, destfolder, files_extensions):
 
 if __name__ == "__main__":
     brave_source_path = get_brave_source_path()
-    destination_root = os.path.join("..", "images/src/brave")
+    destination_root = os.path.join("..", "images")
     destination_language_root = os.path.join("..", "translates")
 
     
