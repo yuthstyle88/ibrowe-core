@@ -30,6 +30,7 @@ def copy_brave_files(source_folder, destfolder, files_extensions):
 
             try:
                 shutil.copy2(source_file, dest_file)
+                print(f"Copying a file {source_file} to {dest_file}\n")
                 count += 1
             except Exception as e:
                 print(f"Error copying file {source_file} to {dest_file}: {e}")
@@ -38,15 +39,15 @@ def copy_brave_files(source_folder, destfolder, files_extensions):
 
 if __name__ == "__main__":
     brave_source_path = get_brave_source_path()
-    destination_root = os.path.join("..", "images")
-    destination_language_root = os.path.join("..", "translates")
+    # destination_root = os.path.join("..", "images")
+    destination_language_root = os.path.join("..", "src/", "translates")
 
     
     language_extensions = {".grd", ".grdp", ".xtb", ".pak", ".strings"}
-    icon_image_extensions = {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"}
+    # icon_image_extensions = {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"}
 
     if os.path.exists(brave_source_path):
-        copy_brave_files(brave_source_path, destination_root, icon_image_extensions)
+        # copy_brave_files(brave_source_path, destination_root, icon_image_extensions)
         copy_brave_files(brave_source_path, destination_language_root, language_extensions)
     else:
         print("Source folder does not exist.")
