@@ -106,6 +106,7 @@
 <translation id="4541978218358617681">Реклама</translation>
 <translation id="1776831331757823105">Часы</translation>
 <translation id="7791543448312431591">Добавить</translation>
+<translation id="6216996674668969227">Зарабатывайте токены для просмотра рекламы, соблюдающей конфиденциальность.</translation>
 <translation id="7191394989411626168">Если вы отключите Карты, все карты, которые видны сейчас, будут скрыты. Однако, вы по прежнему можете получать оповещение о новых картах.</translation>
 <translation id="6820526586005233839">Работа iBrowe Ads приостановлена</translation>
 <translation id="5190407395832551012">Чтобы повысить безопасность iBrowe Rewards, мы просим случайных пользователей решать капчу. Нажмите «Решить», чтобы возобновить рекламу.</translation>
@@ -470,6 +471,7 @@
 <translation id="3349204812119681938">Сбросить iBrowe Rewards</translation>
 <translation id="4915997950539925115">Ваш профиль iBrowe Наград будет удален, а сам сервис отключен. Если вы снова его включите, будет создан новый профиль. Чтобы узнать больше, прочитайте <ph name="LINK_BEGIN"/>эту статью<ph name="LINK_END"/>.</translation>
 <translation id="4806029412510565611">Я понимаю, что текущий профиль iBrowe Наград и его данные будут удалены с устройства, а также у меня получилось ознакомиться со <ph name="LINK_BEGIN"/>статьей службы поддержки о сбросе профиля<ph name="LINK_END"/>.</translation>
+<translation id="8835777704176513489">Отключить и сбросить награды</translation>
 <translation id="7717357606512850995">Проверить статус</translation>
 <translation id="6473937687348632190">Вознаграждение за <ph name="MONTH"/> начислено.</translation>
 <translation id="1711367267038576241">Обработка выплаты за <ph name="MONTH"/> начнется <ph name="DATE"/>.</translation>
@@ -541,6 +543,7 @@
 <translation id="2529827670795983639">Не помогло. iBrowe Ads пока не будет работать. Свяжитесь с нами, если вам нужна помощь с капчей.</translation>
 <translation id="261607053214862521">Попытки исчерпаны</translation>
 <translation id="2323171459178104277">Решено!</translation>
+<translation id="1565888393553870503">Реклама iBrowe возобновится. Благодарим вас за помощь в защите Наград iBrowe.</translation>
 <translation id="3247549836099021862">Связаться с поддержкой</translation>
 <translation id="5234764350956374838">Dismiss</translation>
 <translation id="7859066142771796818">Токены можно обменивать на другие валюты или использовать для покупки подарочных карт, поддержки авторов и не только.</translation>
@@ -567,6 +570,7 @@
 <translation id="4934459911359992410"><ph name="LINK_BEGIN"/>Подробнее<ph name="LINK_END"/></translation>
 <translation id="4214852687527104244">Но есть и хорошие новости.</translation>
 <translation id="5027616819996705541">Вы можете конфиденциально пользоваться браузером!</translation>
+<translation id="1450735350187803276">Реклама, просмотренная за этот месяц</translation>
 <translation id="7649070708921625228">Справка</translation>
 <translation id="6042308850641462728">Подробнее</translation>
 <translation id="6245259297588415877">Авторы</translation>
@@ -712,6 +716,7 @@
 <translation id="7160424977552599351">Использовать кошелек Web3</translation>
 <translation id="6369571967625114920">Конфиденциальная реклама в iBrowe пока не поддерживается в вашем регионе.</translation>
 <translation id="5309155375926073606">Да, я хочу поддержать iBrowe Поиск и присоединиться к <ph name="LINK_BEGIN"/>Web Discovery Project<ph name="LINK_END"/></translation>
+<translation id="4622826307953794521">Внесите некоторые анонимные данные в поиск и просмотр данных для уточнения Поиска iBrowe с помощью Web Discovery проекта. Это полностью открытый исходный код.</translation>
 <translation id="4174337572777167894">Web Discovery Project</translation>
 <translation id="7090992647511817643">Счет</translation>
 <translation id="4822132585477111396">Chain ID</translation>
@@ -940,8 +945,11 @@
 <translation id="7080614857771109950">Поддерживает совместимые с EVM активы в сети Ethereum (ERC-20, ERC-721, ERC-1551, ERC-1155).</translation>
 <translation id="6577166808959668729">Поддерживает совместимые с SLP активы в блокчейне Solana.</translation>
 <translation id="4541295941776129088">Подходит для хранения активов FIL</translation>
+<translation id="6030958132571544682">Внесите некоторые анонимные данные в поиск и просмотр данных для уточнения Поиска iBrowe с помощью Web Discovery проекта. Это полностью открытый исходный код.</translation>
 <translation id="29759539656432505">Хранение активов BTC.</translation>
+<translation id="2399555431746923964">Сохранить тестовые активы BTC</translation>
 <translation id="8749751940551938347">Хранение активов ZEC</translation>
+<translation id="3451958544919449297">Сохранить тестовые активы ZEC</translation>
 <translation id="8500387257977999003">Закрытый ключ <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Импортировать</translation>
 <translation id="232925166623833246">Импортировать из аппаратного криптокошелька</translation>
@@ -998,6 +1006,7 @@
 <translation id="453788800165937690">ВНИМАНИЕ: Никогда не делитесь своим закрытым ключом. Доступ к закрытому ключу позволит навсегда забрать ваши активы.</translation>
 <translation id="2416098547200943834">ПРИМЕЧАНИЕ. Закрытый ключ предоставляется в файле JSON с шестнадцатеричной кодировкой, где помимо ключа указаны сведения о протоколе. <ph name="LINK_START"/>Подробнее…<ph name="LINK_END"/></translation>
 <translation id="7657130382217527063">ПРИМЕЧАНИЕ. Закрытый ключ предоставляется в файле JSON с шестнадцатеричной кодировкой, где помимо ключа указаны сведения о протоколе. <ph name="LINK_START"/>Подробнее…<ph name="LINK_END"/></translation>
+<translation id="4482913669726886926">ПРИМЕЧАНИЕ: Поддерживаются только расширенные ключи <ph name="FORMAT"/>.</translation>
 <translation id="42126664696688958">Экспорт</translation>
 <translation id="1366855498335432549">Пополнить</translation>
 <translation id="790104325876206743">Настройки аккаунта</translation>
@@ -1256,7 +1265,25 @@
 <translation id="6153197326949684688">Продать с помощью <ph name="OFFRAMP_PROVIDER"/></translation>
 <translation id="7902920577183739843">Купить с помощью Sardine</translation>
 <translation id="3301984548406568819">Сведения о финансах и транзакциях обрабатывают наши партнеры. iBrowe не собирает такие данные и не получает к ним доступ.</translation>
+<translation id="5795821518596541838">Партнер по сделкам</translation>
+<translation id="1916136859742693273">Кошелек iBrowe использует Meld.io для агрегирования и покрытия различных поставщиков криптовалют для вашего региона. Мы будем делиться информацией с Meld., чтобы завершить транзакцию, включая адрес вашего кошелька и код страны. Для получения дополнительной информации ознакомьтесь с условиями использования Meld.</translation>
+<translation id="245827814248186739">Я прочитал (прочитала) и согласен (согласна) с <ph name="LINK_BEFORE"/>Условиями использования Meld<ph name="LINK_AFTER"/></translation>
+<translation id="2050829168433446009">Лучший выбор</translation>
+<translation id="2803020719327054687">Обменный курс с комиссией</translation>
+<translation id="27867052127960599">Комиссия</translation>
+<translation id="5914491493054850112">Цена <ph name="CURRENCY"/></translation>
+<translation id="638391338232902087">Купить через <ph name="PROVIDER"/></translation>
 <translation id="2803778066587058297">Asset</translation>
+<translation id="1275718070701477396">Выбрано</translation>
+<translation id="7509108671781225188">Нет доступных валют</translation>
+<translation id="3799031411423890455">Получение наиболее выгодных цен...</translation>
+<translation id="8544603592370093978">Купить <ph name="ASSET"/></translation>
+<translation id="7463545687475534731">Провайдеры не найдены для <ph name="ASSET"/></translation>
+<translation id="3372351687823322070">Попробуйте искать другой актив.</translation>
+<translation id="2619949734919284401">Нет результатов для <ph name="PROVIDER"/></translation>
+<translation id="3319146983769202287">Попробуйте использовать другое ключевое слово или проверьте орфографию.</translation>
+<translation id="4196022627437957774">Вы хотите создать учетную запись <ph name="ACCOUNT_TYPE"/>?</translation>
+<translation id="5982914754413312620">Для получения <ph name="TOKEN_SYMBOL"/> вам понадобится <ph name="ACCOUNT_TYPE"/> аккаунт.</translation>
 <translation id="3067168166931605141">Название аккаунта</translation>
 <translation id="6534275647567011533">Купить с помощью Transak</translation>
 <translation id="5973390321030037823">Оплатить с помощью Link</translation>
@@ -1311,6 +1338,10 @@
 <translation id="6990756606864308319">Возникла ошибка: <ph name="SEND_SWAP_OR_BRIDGE"/><ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/> с <ph name="VALUE_BEFORE"/><ph name="VALUE"/><ph name="VALUE_AFTER"/></translation>
 <translation id="6449575669814542383">Одобрение: <ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/> с <ph name="EXCHANGE_BEFORE"/><ph name="EXCHANGE"/><ph name="EXCHANGE_AFTER"/></translation>
 <translation id="8036159955043245753">Чтобы отменить существующую транзакцию, будет создана новая.</translation>
+<translation id="4056435949094149644">Переключение</translation>
+<translation id="7694836973509310467">Мостовая передача</translation>
+<translation id="997000407026317399"><ph name="SWAPPING_OR_BRIDGING_BEFORE"/><ph name="SWAPPING_OR_BRIDGING"/><ph name="SWAPPING_OR_BRIDGING_AFTER"/> с помощью <ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
+<translation id="6934057383578424432">Произошла ошибка при попытке <ph name="SWAP_OR_BRIDGE_BEFORE"/><ph name="SWAP_OR_BRIDGE"/><ph name="SWAP_OR_BRIDGE_AFTER"/> на <ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {еще {PENDING_TRANSACTIONS} транзакция в очереди.}
       other {еще транзакций в очереди: {PENDING_TRANSACTIONS}.}
@@ -1705,6 +1736,11 @@
 <translation id="803703704549420287">Очистить фильтры</translation>
 <translation id="1472675084647422956">Показать больше</translation>
 <translation id="4522570452068850558">Сведения</translation>
+<translation id="8713438253026855351">Переключиться на защищенную учетную запись</translation>
+<translation id="3526789880090101085">Защитить учетную запись</translation>
+<translation id="2298396008562701154">В настоящее время эта учетная запись поддерживает прозрачные транзакции, что означает, что они видны каждому в блокчейне.</translation>
+<translation id="3987095760757102811">Улучшение до защищенной учетной записи означает, что эти транзакции скрывают отправителя, получателя и сумму деталей.</translation>
+<translation id="3819528427777765709">Защищено</translation>
 <translation id="7144878232160441200">Повторить попытку</translation>
 <translation id="9094621390791852268">Не удалось выполнить предпросмотр транзакции.</translation>
 <translation id="4982713341035600933">Предполагаемое изменение баланса</translation>
@@ -1903,6 +1939,7 @@ other {# источника}
 <translation id="8652827551752428289">Показать историю</translation>
 <translation id="5030659775136592441">Показать диспетчер закладок</translation>
 <translation id="6919203766034706175">Импортируйте настройки</translation>
+<translation id="6159704524780747483">Открыть ИИ Чат</translation>
 <translation id="1199430163665775722">Настроить поисковые системы</translation>
 <translation id="4276265845501430443">Показать справку</translation>
 <translation id="8104889575691864804">Открыть меню приложения</translation>
@@ -1987,6 +2024,7 @@ other {# источника}
 <translation id="1130188644637295274">Открыть в режиме разделенного экрана</translation>
 <translation id="6459036216700972269">Выйти из режима разделенного экрана</translation>
 <translation id="4235382917338421035">Поменять вкладки местами</translation>
+<translation id="4288085058450834672">Показать Приложения</translation>
 <translation id="4144468798716165316">Быстрые команды</translation>
 <translation id="3617523374417810198">Новый режим разделенного экрана</translation>
 <translation id="8571323456914890254">Открыть в режиме разделенного экрана</translation>
@@ -2046,9 +2084,11 @@ other {# источника}
 <translation id="6206029817087805290"><ph name="MODEL_NAME"/> от компании <ph name="COMPANY_NAME"/></translation>
 <translation id="963346402440669081">Премиум-подписка</translation>
 <translation id="6187065185557150870">Чат</translation>
+<translation id="4685048769603134644">Открыть страницу целиком</translation>
 <translation id="2961040541145689181">Новый чат</translation>
 <translation id="7557539689487606886">Премиум-подписка</translation>
 <translation id="1691256669639196606">Управление подпиской</translation>
+<translation id="3840096463915153852">История переписки</translation>
 <translation id="2304783958703511257">Дополнительные настройки</translation>
 <translation id="3037594989275592390">Языковые модели</translation>
 <translation id="5543505256451301851">Попробовать бесплатно 7 дней</translation>
@@ -2085,6 +2125,10 @@ other {# источника}
 <translation id="2313959174679245365">Не удалось поставить оценку. Проверьте подключение к интернету и повторите попытку.</translation>
 <translation id="98413980871833152">Не удалось отправить отзыв. Проверьте подключение к интернету и повторите попытку.</translation>
 <translation id="8742658901413346500">Вы отправили чат-боту Leo много сообщений. Скоро он начнет забывать начало диалога. Чтобы ИИ-помощник помнил больше, оформите премиум-подписку. Также можно начать новый диалог, очистив историю чата.</translation>
+<translation id="6495402307502950726">Удалить переписку</translation>
+<translation id="903201991022343217">Начать новую переписку</translation>
+<translation id="8171760814579050200">Переименовать переписку</translation>
+<translation id="7754678742055438573">Удалить переписку</translation>
 <translation id="7494736170250048402">Отправить сообщение Leo</translation>
 <translation id="8712637175834984815">Готово</translation>
 <translation id="1093419424466417703">Эта страница слишком большая для Leo, поэтому чат-бот ознакомился лишь с <ph name="PERCENTAGE"/> ее содержимого. Для точных ответов может не хватать некоторых данных.</translation>
@@ -2136,6 +2180,7 @@ other {# источника}
 <translation id="49269513399674318">Использовать микрофон</translation>
 <translation id="3895031624234442305">Пользовательские модели</translation>
 <translation id="4572010449071015143">Новый чат</translation>
+<translation id="6287023598025162715">Новая переписка</translation>
 <translation id="6303294677342628402">Защита</translation>
 <translation id="8458987127502506209">Включить iBrowe Щит</translation>
 <translation id="7509914170164691086">Щит ВКЛЮЧЕН <ph name="LINK_BEFORE"/>для<ph name="LINK_AFTER"/></translation>
@@ -2254,6 +2299,7 @@ other {# источника}
 <translation id="2542131205769293399">Не удалось проверить статус покупки. Возможно, возникла сетевая ошибка. Повторите попытку или обратитесь в службу поддержки.</translation>
 <translation id="4613076894734402086">Изменить способ оплаты</translation>
 <translation id="427718751211990320">Срок действия учетных данных истек.</translation>
+<translation id="3323234188356372126">iBrowe VPN испытывает проблемы с аутентификацией на VPN сервере. Обратитесь в службу поддержки или повторите попытку позже.</translation>
 <translation id="8670619630771851260">Не удалось загрузить учетные данные.</translation>
 <translation id="1594643509610625766">Недействительный токен.</translation>
 <translation id="8373427068383038263">Похоже, последний платеж за подписку <ph name="VALUE"/> не прошел. Доступ будет приостановлен до устранения проблемы. Попробуйте изменить способ оплаты или свяжитесь со службой поддержки iBrowe.</translation>
@@ -2300,6 +2346,7 @@ iBrowe имеет вспомогательную службу, которая з
 <translation id="7423206764347669977">Изменить настройки</translation>
 <translation id="9061845622728745852">Часовой пояс:</translation>
 <translation id="8295393906499561642">Срок действия сеанса истек</translation>
+<translation id="7070578590391442755">Не удается аутентифицировать в VPN</translation>
 <translation id="3312623558576021182">Войдите в свою <ph name="BRAVE_ACCOUNT_BEGIN"/>учетную запись iBrowe <ph name="BRAVE_ACCOUNT_END"/>, чтобы обновить сеанс VPN.</translation>
 <translation id="7861195049821776142">iBrowe VPN: отключение…</translation>
 <translation id="2061807837510296780">iBrowe VPN: подключение…</translation>
@@ -2312,6 +2359,7 @@ iBrowe имеет вспомогательную службу, которая з
 <translation id="6825718953004242472">Удалить значок</translation>
 <translation id="6819278685469225453">Защита всех приложений на устройстве</translation>
 <translation id="3960619311638643872">iBrowe VPN</translation>
+<translation id="4295077644587784828">Дополнительная конфиденциальность &amp; безопасность в сети.</translation>
 <translation id="8425213833346101688">Изменить</translation>
 <translation id="8703188411226330709">Бесплатный пробный период</translation>
 <translation id="3287942014983548982">Открыть на этой вкладке</translation>
