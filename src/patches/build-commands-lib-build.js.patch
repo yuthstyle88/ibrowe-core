@@ -1,0 +1,20 @@
+diff --git a/build/commands/lib/build.js b/build/commands/lib/build.js
+index a4102dd3af5e9f10f77516159481805f75c7f13a..82249956a522b30c4b265138b2e0604f96325db8 100644
+--- a/build/commands/lib/build.js
++++ b/build/commands/lib/build.js
+@@ -3,6 +3,7 @@ const util = require('../lib/util')
+ const path = require('path')
+ const fs = require('fs-extra')
+ const Log = require('../lib/logging')
++const { copyFileToBrave } = require('../../../../ibrowe/scripts/copyFileToBrave')
+ 
+ /**
+  * Checks to make sure the src/chrome/VERSION matches brave-core's package.json version
+@@ -29,6 +30,7 @@ const build = async (buildConfig = config.defaultBuildConfig, options = {}) => {
+   checkVersionsMatch()
+ 
+   util.touchOverriddenFiles()
++  copyFileToBrave()
+   util.updateBranding()
+   await util.buildNativeRedirectCC()
+ 
