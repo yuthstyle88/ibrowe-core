@@ -3,7 +3,7 @@ const path = require("path");
 const util = require('../../brave/build/commands/lib/util')
 function copyRecursiveSync(src, dest) {
     if (!fs.existsSync(src)) {
-        console.error(❌ Not found : '${src}');
+        console.error(`❌ Not found : '${src}'`);
         return;
     }
 
@@ -16,13 +16,13 @@ function copyRecursiveSync(src, dest) {
         for (const file of files) {
             const srcPath = path.join(src, file);
             const destPath = path.join(dest, file);
-            copyRecursiveSync(srcPath, destPath); // เรียกตัวเองซ้ำ
+            copyRecursiveSync(srcPath, destPath);
         }
     } else {
         if (!fs.existsSync(dest) ||
             util.calculateFileChecksum(src) != util.calculateFileChecksum(dest)) {
             fs.copySync(src, dest)
-            console.log(✅ Copy : ${src} -> ${dest});
+            console.log(`✅ Copy : ${src} -> ${dest}`);
         }
     }
 }
