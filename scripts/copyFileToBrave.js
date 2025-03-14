@@ -24,9 +24,10 @@ function copyRecursiveSync(src, dest) {
             console.error(`❌ Not found : '${dest}' `);
             return;
         }
-        fs.copyFileSync(src, dest)
-        console.log(`✅ Copy : ${src} -> ${dest}`);
-
+        if (util.calculateFileChecksum(src) != util.calculateFileChecksum(dest)) {
+            fs.copyFileSync(src, dest)
+            console.log(`✅ Copy : ${src} -> ${dest}`);
+        }
     }
 }
 const ibroweImages = path.resolve(config.srcDir, 'ibrowe', 'src' , 'images')
