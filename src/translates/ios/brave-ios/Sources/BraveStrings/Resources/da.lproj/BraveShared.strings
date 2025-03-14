@@ -310,7 +310,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Udled";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or ibrowe.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Domænekomponent";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -2158,19 +2158,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Indsend";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" vil gerne have adgang til kameraet og mikrofonen";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestCameraPermissionPrompt" = "\"%@\" vil gerne have adgang til kameraet";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Tillad";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" vil gerne have adgang til en medieoptagelsesenhed";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" vil gerne have adgang til mikrofonen";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -3403,7 +3403,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Følg";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://ibrowe.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Få feeds fra";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */

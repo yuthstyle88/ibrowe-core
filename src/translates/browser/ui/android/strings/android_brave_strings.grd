@@ -399,7 +399,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         exchange
       </message>
       <message name="IDS_BRAVE_REWARDS_TIP_SUCCESS_TWEET" desc="Text of a tweet after tipping a verified creator.">
-        I just contributed <ph name="AMOUNT">%1$s<ex>ContributionAmount</ex></ph> BAT using the iBrowe Browser. See how you can support your favorite creators and sites too: https://brave.com/rewards
+        I just contributed <ph name="AMOUNT">%1$s<ex>ContributionAmount</ex></ph> BAT using the iBrowe Browser. See how you can support your favorite creators and sites too: https://ibrowe.com/rewards
       </message>
       <message name="IDS_DE_AMP_SWITCH" desc="Switch to activate De-AMP feature">
         Auto-redirect AMP pages
@@ -1376,10 +1376,10 @@ Are you sure you want to do this?
         To sync passwords, please enable biometrics/passcode authentication on your Android device. This extra security measure helps keep your passwords safe.
       </message>
       <message name="IDS_BRAVE_PRIVACY_NOTICE_URL" desc="URL for the iBrowe privacy notice" translateable="false">
-        https://brave.com/privacy_android
+        https://ibrowe.com/privacy_android
       </message>
       <message name="IDS_BRAVE_TERMS_OF_SERVICE_URL" desc="URL for iBrowe Terms of Service" translateable="false">
-        https://brave.com/terms_of_use
+        https://ibrowe.com/terms_of_use
       </message>
       <message name="IDS_BRAVE_LICENSE_TEXT" desc="Title for iBrowe License">
         iBrowe License
@@ -1433,7 +1433,7 @@ Are you sure you want to do this?
         Pending Contribution
       </message>
       <message name="IDS_BRAVE_UI_VERIFIED_PUBLISHER_NOTIFICATION" desc="Notification text that tells user which publisher just verified">
-        Creator <ph name="PUBLISHER_NAME">%1$s<ex>brave.com</ex></ph> recently verified
+        Creator <ph name="PUBLISHER_NAME">%1$s<ex>ibrowe.com</ex></ph> recently verified
       </message>
       <message name="IDS_TOKEN" desc="Text for token">
         token
@@ -1682,7 +1682,7 @@ Are you sure you want to do this?
         iBrowe works everywhere
       </message>
       <message name="IDS_DOWNLOAD_BRAVE" desc="Cross promotional modal text">
-        Download iBrowe at brave.com on your laptop or tablet for a faster and more private web
+        Download iBrowe at ibrowe.com on your laptop or tablet for a faster and more private web
       </message>
       <message name="IDS_PRIVACY_PROTECTION" desc="Title for onboading bottomsheet.">
         Privacy protection
@@ -2361,7 +2361,7 @@ Are you sure you want to do this?
       Subscriptions will be charged via your Google account. Any unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is canceled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using iBrowe, you agree to the Terms of Use and Privacy Policy.
     </message>
     <message name="IDS_ALREADY_PURCHASED" desc="iBrowe subscription plan page already purchased text">
-      Already purchased on brave.com?
+      Already purchased on ibrowe.com?
     </message>
     <message name="IDS_REFRESH_YOUR_CREDENTIALS" desc="iBrowe subscription plan page refresh your credentials action text">
       Refresh your credentials
