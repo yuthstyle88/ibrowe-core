@@ -1,5 +1,20 @@
+/* A label shown above a list of icons designed by iBrowe */
+"altAppIcon.iBroweIconsHeader" = "iBrowe ikonok";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "Az alkalmazás ikonjának módosítása";
+
+/* A label shown next to the default iBrowe app icon */
+"altAppIcon.defaultAppIcon" = "Alapértelmezett";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "Nem sikerült megváltoztatni az alkalmazás ikonját";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "BackTitle" = "Vissza";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"iBroweTranslate.availableVoiceOverAnnouncement" = "Az oldalt le lehet fordítani";
 
 /* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "CloseAllTabsFromTabTrayKeyCodeTitle" = "Az összes lap bezárása";
@@ -25,10 +40,16 @@
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenSelectedTabFromTabTrayKeyCodeTitle" = "A kiválasztott lap megnyitása";
 
-/* Title label text for refreshing credentials from brave site. */
-"paywall.alreadyPurchasedTitle" = "Már vásárolt a brave.com-on?";
+/* Title label text for refreshing credentials from iBrowe site. */
+"paywall.alreadyPurchasedTitle" = "Már vásárolt a iBrowe.com-on?";
 
-/* Button action text for refreshing credentials from brave site. */
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "Van promóciós kódja?";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "Promóciós kód beváltása";
+
+/* Button action text for refreshing credentials from iBrowe site. */
 "paywall.refreshCredentialsButtonTitle" = "Frissítse hitelesítő adatait";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */

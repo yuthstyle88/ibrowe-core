@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Hanya kunci diperpanjang %@ yang didukung.";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.braveFeeLabel" = "Biaya iBrowe: %@";
+"wallet.iBroweFeeLabel" = "Biaya iBrowe: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.braveSwapFeeDisclaimer" = "Penawaran mencakup %@ biaya iBrowe.";
+"wallet.iBroweSwapFeeDisclaimer" = "Penawaran mencakup %@ biaya iBrowe.";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.braveSwapFree" = "Biaya";
+"wallet.iBroweSwapFree" = "Biaya";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "Bitcoin";
@@ -814,7 +814,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Sediakan";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "ingin mendapatkan kunci enkripsi publik dompet Anda. Jika Anda menyetujui untuk memberikan kunci ini, situs tersebut akan dapat membuat pesan terenkripsi kepada Anda.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1267,7 +1267,7 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "Masukkan kembali kata sandi";
 
-/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
 "wallet.restoreLegacyiBroweWalletToggleTitle" = "Impor dari dompet kripto iBrowe yang lama?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */

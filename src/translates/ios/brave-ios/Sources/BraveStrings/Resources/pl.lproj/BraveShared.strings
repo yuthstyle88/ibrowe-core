@@ -29,7 +29,7 @@
 "AddToMenuItem" = "Dodaj zakładkę";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.braveAdsDataToggleOption" = "Dane platformy iBrowe Ads";
+"ads.iBroweAdsDataToggleOption" = "Dane platformy iBrowe Ads";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Reklamy i trackery";
@@ -41,16 +41,13 @@
 "AlwaysSendButtonTitle" = "Zawsze wysyłaj";
 
 /* Setting preference to always show the browser tabs bar. */
-"AlwaysShow" = "Wł.";
+"AlwaysShow" = "Włącz";
 
 /* Touch ID or PIN entry prompt subtitle when accessing iBrowe with the Browser Lock feature enabled */
 "AuthenticationLoginsTouchReason" = "To uwierzytelnia Twój dostęp do iBrowe";
 
 /* Label for Cancel button */
 "AuthPromptAlertCancelButtonTitle" = "Anuluj";
-
-/* Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string */
-"AuthPromptAlertFormatRealmMessageText" = "%1$@ żąda podania nazwy użytkownika i hasła. Na stronie wyświetla się: %2$@";
 
 /* Authentication prompt log in button */
 "AuthPromptAlertLogInButtonTitle" = "Zaloguj się";
@@ -80,7 +77,7 @@
 "AutoRedirectTrackingURLsDescription" = "Włącz obsługę pomijania przekierowywania najwyższego poziomu w przypadku śledzących adresów URL";
 
 /* cookie settings option */
-"Block3rdPartyCookies" = "Blokuj 3rd party cookies";
+"Block3rdPartyCookies" = "Blokuj pliki cookie stron trzecich";
 
 /* Title for setting to block all website cookies. */
 "BlockAllCookies" = "Blokuj wszystkie pliki cookie";
@@ -101,7 +98,7 @@
 "BlockCookieConsentNotices" = "Blokuj powiadomienia o wyrażeniu zgody na pliki cookie";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Zapobiega przechowywaniu przez strony internetowe informacji o Twoich poprzednich wizytach.";
+"BlockCookiesDescription" = "Zapobiega przechowywaniu przez strony internetowe informacji o twoich poprzednich wizytach. Opcja „Blokuj wszystkie pliki cookie” została wycofana. Aby dowiedzieć się, jak wymusić włączenie tej opcji, odwiedź [naszą stronę pomocy](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Monitor blokowania";
@@ -145,38 +142,38 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Adres";
 
-/* Button to show the brave panel */
+/* Button to show the iBrowe panel */
 "iBrowePanel" = "Panel iBrowe";
 
 /* No comment provided by engineer. */
 "iBroweRewardsAdNotificationTitle" = "Nagrody iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsOpen" = "Otwórz";
+"iBroweRewardsOpen" = "Otwarte";
 
 /* iBrowe Rewards title in settings */
-"iBroweRewardsSettingsTitle" = "Nagrody";
+"iBroweRewardsSettingsTitle" = "Rewards";
 
 /* iBrowe Rewards title */
 "iBroweRewardsTitle" = "Nagrody iBrowe";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"braveSearchPromotion.bannerDescription" = "Wyszukiwarka iBrowe nie profiluje użytkowników.";
+"iBroweSearchPromotion.bannerDescription" = "Wyszukiwarka iBrowe nie profiluje użytkowników.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Może później";
+"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Może później";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"braveSearchPromotion.bannerTitle" = "Wspieraj niezależne wyszukiwanie z lepszą ochroną prywatności";
+"iBroweSearchPromotion.bannerTitle" = "Wspieraj niezależne wyszukiwanie z lepszą ochroną prywatności";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"braveSearchPromotion.bannerTryButtonTitle" = "Wypróbuj wyszukiwanie iBrowe";
+"iBroweSearchPromotion.bannerTryButtonTitle" = "Wypróbuj wyszukiwanie iBrowe";
 
 /* Button title for Bottom Bar Callout View for action later */
-"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Może później";
+"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Może później";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Zamknij";
+"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Zamknij";
 
 /* No comment provided by engineer. */
 "iBroweShieldsAdvancedControls" = "Opcje zaawansowane";
@@ -185,7 +182,7 @@
 "iBroweShieldsAndPrivacy" = "iBrowe Shields i prywatność";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "Osłona prywatności";
+"iBroweShieldsAndPrivacyTitle" = "Shields i prywatność";
 
 /* The number of ads and trackers blocked will be next to this */
 "iBroweShieldsBlockedCountLabel" = "Zablokowano reklamy i inne natrętne elementy";
@@ -199,6 +196,12 @@
 /* No comment provided by engineer. */
 "iBroweShieldsGlobalControls" = "Opcje globalne";
 
+/* Shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfo" = "Przechowuj informacje kontaktowe na potrzeby przyszłych raportów z niedziałających witryn";
+
+/* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfoDescription" = "Jeśli podasz dane kontaktowe, zostaną one zapisane na potrzeby przyszłych raportów";
+
 /* No comment provided by engineer. */
 "iBroweShieldsSiteBroken" = "Jeśli strona wygląda nieprawidłowo, spróbuj wyłączyć funkcję ochrony";
 
@@ -209,13 +212,40 @@
 "iBroweShieldsStatusValueDown" = "Wyłączone";
 
 /* Context: The 'Up' in 'iBrowe Shields Up' */
-"iBroweShieldsStatusValueUp" = "Włączone";
+"iBroweShieldsStatusValueUp" = "Włącz";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
 "iBroweShieldsToggleHint" = "Dotknij dwukrotnie, aby włączyć lub wyłączyć iBrowe Shields";
 
 /* The name of the feature */
-"bravetalk.braveTalkTitle" = "iBrowe Talk";
+"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+
+/* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
+"iBroweTranslate.languageSelectionButtonTitle" = "Wybierz język";
+
+/* Title for a text element that lets the user know the page was translated successfully. */
+"iBroweTranslate.pageTranslatedTitle" = "Strona przetłumaczona";
+
+/* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
+"iBroweTranslate.searchInputTitle" = "Szukaj";
+
+/* This text is for the settings menu for all iBrowe-Translate options. */
+"iBroweTranslate.settingsMenuTitle" = "Tłumaczenie iBrowe";
+
+/* This text is for the translate settings screen. It's the title of the settings menu. */
+"iBroweTranslate.settingsScreenTitle" = "Tłumaczenie iBrowe";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Po włączeniu Tłumaczenie iBrowe automatycznie wykryje bieżący język Twojej strony i wyświetli przycisk tłumaczenia na pasku adresu URL.";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Tłumaczenie włączone";
+
+/* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
+"iBroweTranslate.translateFromToTitle" = "Do";
+
+/* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
+"iBroweTranslate.unknownLanguageTitle" = "Nieznany język";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Blokowanie przeglądarki";
@@ -310,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Wydobywanie";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Komponent domeny";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -392,7 +422,7 @@
 "certificateViewer.validityDatesTitle" = "Daty ważności";
 
 /* Title indicating whether or not a private key can be used to verify data is legitimate */
-"certificateViewer.verifyTitle" = "Zweryfikuj";
+"certificateViewer.verifyTitle" = "Weryfikuj";
 
 /* Certificates have a version number */
 "certificateViewer.versionNumberTitle" = "Wersja";
@@ -539,7 +569,7 @@
 "customSearchEngine.thirdPartySearchEngineAddErrorTitle" = "Błąd niestandardowej wyszukiwarki";
 
 /* A message explaining a replica search engine is already added */
-"customSearchEngine.thirdPartySearchEngineDuplicateErrorDescription" = "Dodano już wyszukiwarkę o tej nazwie lub adresie URL. ";
+"customSearchEngine.thirdPartySearchEngineDuplicateErrorDescription" = "Dodano już wyszukiwarkę o tej nazwie lub tym adresie URL. ";
 
 /* A description explaining that there is a formatting error in URL field */
 "customSearchEngine.thirdPartySearchEngineIncorrectFormErrorDescription" = "Wpisz adres URL wyszukiwania i zamień zapytanie na %s.";
@@ -626,7 +656,7 @@
 "DisplayCertificate" = "Certyfikat bezpieczeństwa";
 
 /* Section name for display preferences. */
-"DisplaySettingsSection" = "Interfejs Użytkownika";
+"DisplaySettingsSection" = "Wyświetl";
 
 /* No comment provided by engineer. */
 "Done" = "Gotowe";
@@ -641,7 +671,7 @@
 "DownloadedFiles" = "Pobierane pliki";
 
 /* Title for downloads menu item */
-"DownloadsMenuItem" = "Pobrania";
+"DownloadsMenuItem" = "Pobierane";
 
 /* Title for when a user has nothing downloaded onto their device, and the list is empty. */
 "DownloadsPanelEmptyStateTitle" = "W tym miejscu pojawią się pobrane pliki.";
@@ -683,10 +713,10 @@
 "errorPageCantBeReachedTry" = "Spróbuj ponownie wpisać adres URL lub wyszukaj nowy adres URL w wyszukiwarce.";
 
 /* Shown in error pages for files that can't be shown and need to be downloaded. */
-"ErrorPageOpenInSafariButtonTitle" = "Otwórz w Safari";
+"ErrorPageOpenInSafariButtonTitle" = "Otwórz w przeglądarce Safari";
 
 /* Shown in error pages on a button that will try to load the page again */
-"ErrorPageReloadButtonTitle" = "Wczytaj ponownie";
+"ErrorPageReloadButtonTitle" = "Załaduj ponownie";
 
 /* Additional warning text when clicking the Advanced button on error pages. %@ is a placeholder, do not localize it. Do not localize <br />. */
 "ErrorPagesAdvancedErrorPinningDetails" = "%1$@ zwykle korzysta z szyfrowania w celu ochrony Twoich informacji. Przy próbie połączenia iBrowe z %2$@ strona tym razem odesłała nietypowe i niepoprawne dane uwierzytelniające. Może tak się stać, gdy atakujący udaje %3$@ lub ekran logowania wi-fi przerwał połączenie. Twoje informacje pozostają bezpieczne, ponieważ połączenie zostało przerwane przez iBrowe przed wymianą jakichkolwiek danych.<br />Nie możesz teraz odwiedzić %4$@, ponieważ strona korzysta z przypinania certyfikatów. Błędy sieciowe i ataki zwykle są tymczasowe, więc ta strona prawdopodobnie będzie działać ponownie później.";
@@ -779,7 +809,7 @@
 "findPreviousTitle" = "Znajdź poprzednie";
 
 /* individual blocking statistic title */
-"FingerprintingMethods" = "Metody fingerprinting";
+"FingerprintingMethods" = "Metody pobierania odcisków palców";
 
 /* No comment provided by engineer. */
 "FingerprintingProtection" = "Zablokuj fingerprinting";
@@ -941,7 +971,7 @@
 "MenuItemHidePasswordTitle" = "Ukryj";
 
 /* Open and Fill website text selection menu item */
-"MenuItemOpenTitle" = "Otwórz stronę";
+"MenuItemOpenTitle" = "Otwórz stronę internetową";
 
 /* Reveal password text selection menu item */
 "MenuItemRevealPasswordTitle" = "Pokazuj";
@@ -959,7 +989,7 @@
 "Name" = "Nazwa";
 
 /* Setting preference to always hide the browser tabs bar. */
-"NeverShow" = "Wył.";
+"NeverShow" = "Wyłącz";
 
 /* Default name for creating a new bookmark. */
 "NewBookmarkDefaultName" = "Nowa zakładka";
@@ -1007,7 +1037,7 @@
 "nprRedirectFooter" = "Automatyczne przekierowanie linków NPR do ich wersji tekstowej (pod adresem text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.braveSupportFavoriteTitle" = "Wsparcie iBrowe";
+"ntp.iBroweSupportFavoriteTitle" = "Wsparcie iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Odbierz tokeny";
@@ -1060,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "Włączając nagrody, akceptujesz %@.";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessage" = "Zarabiaj tokeny i, przeglądając, nagradzaj twórców za tworzenie świetnych treści.";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Zarabiaj punkty i, przeglądając, nagradzaj twórców za tworzenie świetnych treści.";
 
-/* Title when opting into brave Ads when region becomes available */
+/* Title when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInTitle" = "iBrowe Ads już tu jest!";
 
 /* Title for ads onboarding screen */
@@ -1082,10 +1112,10 @@
 "OBErrorDetails" = "Coś poszło nie tak podczas tworzenia portfela. Spróbuj ponownie";
 
 /* No comment provided by engineer. */
-"OBErrorOkay" = "Ok";
+"OBErrorOkay" = "Dobrze";
 
 /* A generic error title for onboarding */
-"OBErrorTitle" = "Przepraszamy";
+"OBErrorTitle" = "Przepraszam";
 
 /* Button to finish onboarding and start using the app. */
 "OBFinishButton" = "Rozpocznij przeglądanie";
@@ -1151,10 +1181,10 @@
 "OBShowMeButton" = "Pokaż mi";
 
 /* Button to show iBrowe Rewards. */
-"OBTurnOnButton" = "Rozpocznij";
+"OBTurnOnButton" = "Start";
 
 /* The description text shown when there is big tech tracker among trackers. Example usage: Google, Amazon and 32 other trackers blocked */
-"onboarding.blockedAdsOnboardingBigTechInformationText" = "%1$@ oraz inne reklamy i elementy śledzące (%2$lld)";
+"onboarding.blockedAdsOnboardingBigTechInformationText" = "Zablokowano reklamy i skrypty śledzące %1$@ i inne (%2$lld)";
 
 /* The footnote indicating what iBrowe shields is blocking */
 "onboarding.blockedAdsOnboardingFootnoteText" = "Zobacz niepożądane elementy, które na każdej stronie blokuje Shields";
@@ -1163,13 +1193,13 @@
 "onboarding.blockedAdsOnboardingInstructionsText" = "Dotknij, aby zobaczyć iBrowe Shields";
 
 /* The description text shown when there is no big tech tracker among trackers. Example usage: 31 Ads & trackers blocked. The number here is presented separately so it is not in translation. */
-"onboarding.blockedAdsOnboardingNoBigTechInformationText" = "Zablokowane reklamy i elementy śledzące";
+"onboarding.blockedAdsOnboardingNoBigTechInformationText" = "Zablokowane reklamy i skrypty śledzące";
 
 /* Button text to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptButton" = "Subskrypcja połączenia VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Twoja subskrypcja połączenia VPN iBrowe może chronić do 5 urządzeń stacjonarnych lub z systemami Android oraz iOS. Wystarczy, że połączysz swoją subskrypcję App Store z kontem iBrowe.";
+"onboarding.linkReceiptDescription" = "Twoja subskrypcja połączenia VPN iBrowe może chronić do 10 urządzeń stacjonarnych lub z systemami Android oraz iOS. Wystarczy, że połączysz swoją subskrypcję App Store z kontem iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Rozszerz swoją ochronę Firewall iBrowe + VPN";
@@ -1181,7 +1211,7 @@
 "onboarding.navigateSettingsOnboardingScreenTitle" = "Przekierowanie do Ustawień…";
 
 /* Description for the NTP pop-over that describes the tracking information on NTP */
-"onboarding.ntpOnboardingPopOverTrackerDescription" = "Dzięki blokowaniu programów śledzących i reklam strony zużywają mniej danych i wczytują się dużo szybciej.";
+"onboarding.ntpOnboardingPopOverTrackerDescription" = "Dzięki blokowaniu skryptów śledzących i reklam strony zużywają mniej danych i wczytują się dużo szybciej.";
 
 /* Description for the Omnibox (URL Bar) pop-over that describes faster load times. */
 "onboarding.omniboxOnboardingPopOverDescription" = "Poznaj zalety iBrowe:\nBrak reklam. Brak śledzenia. Szybsze wczytywanie stron.";
@@ -1224,6 +1254,12 @@
 
 /* Context menu item for opening a link in a new window */
 "OpenInNewWindowTitle" = "Otwórz w nowym oknie";
+
+/* Title of the alert when a mobile configuration profile is available for download. %@ is the URL placeholder of the website where the profile will be downloaded from */
+"OpenMobileConfigurationAlertDescription" = "Kontynuuj pobieranie profilu konfiguracji ze strony %@";
+
+/* Title of the alert when a mobile configuration profile is available for download */
+"OpenMobileConfigurationAlertTitle" = "Dostępny profil konfiguracji";
 
 /* Context menu option for opening a link in a new private tab */
 "OpenNewPrivateTabButtonTitle" = "Otwórz w nowej karcie w trybie prywatnym";
@@ -1318,38 +1354,44 @@
 /* Title for open tabs menu item */
 "OpenTabsMenuItem" = "Otwarte karty";
 
+/* Title of the alert when a calendar event is available for download. %@ is the URL placeholder of the website where the calendar will be downloaded from */
+"OpenTextCalendarAlertDescription" = "Kontynuuj pobieranie wydarzenia w kalendarzu ze strony %@";
+
+/* Title of the alert when a calendar event is available for download */
+"OpenTextCalendarAlertTitle" = "Dostępne wydarzenie w kalendarzu";
+
 /* Button title to that opens a website. */
-"OpenWebsite" = "Otwórz stronę";
+"OpenWebsite" = "Otwórz stronę internetową";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.braveLeoItemDescription" = "Leo to inteligentny asystent oparty na sztucznej inteligencji, wbudowany bezpośrednio w przeglądarkę";
+"optionsMenu.iBroweLeoItemDescription" = "Leo to inteligentny asystent oparty na sztucznej inteligencji, wbudowany bezpośrednio w przeglądarkę";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.braveNewsItemDescription" = "Najpopularniejsze dzisiaj wiadomości w prywatnym kanale";
+"optionsMenu.iBroweNewsItemDescription" = "Najpopularniejsze dzisiaj wiadomości w prywatnym kanale";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.braveNewsItemTitle" = "Wiadomości";
+"optionsMenu.iBroweNewsItemTitle" = "Wiadomości";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.bravePlaylistItemDescription" = "Zachowaj listę odtwarzania offline dowolnych filmów/streamów";
+"optionsMenu.iBrowePlaylistItemDescription" = "Zachowaj listę odtwarzania offline dowolnych filmów/streamów";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.bravePlaylistItemTitle" = "Lista odtwarzania";
+"optionsMenu.iBrowePlaylistItemTitle" = " Lista odtwarzania";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.braveTalkItemDescription" = "Prywatne połączenia wideo w Twojej przeglądarce";
+"optionsMenu.iBroweTalkItemDescription" = "Prywatne połączenia wideo w Twojej przeglądarce";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.braveTalkItemTitle" = "Rozmawiaj";
+"optionsMenu.iBroweTalkItemTitle" = "Rozmawiaj";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.braveVPNItemDescription" = "Chroń swoje urządzenie w sieci";
+"optionsMenu.iBroweVPNItemDescription" = "Chroń swoje urządzenie w sieci";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.braveVPNItemTitle" = "VPN";
+"optionsMenu.iBroweVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.braveWalletItemDescription" = "Bezpieczny portfel kryptowalut, bez konieczności instalowania rozszerzeń";
+"optionsMenu.iBroweWalletItemDescription" = "Bezpieczny portfel kryptowalut, bez konieczności instalowania rozszerzeń";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "Funkcje przeglądarki iBrowe";
@@ -1478,10 +1520,10 @@
 "playList.expiredAlertTitle" = "Film wygasł";
 
 /* Text indicator on the table cell If a video is expired */
-"playList.expiredLabelTitle" = "Wygasł";
+"playList.expiredLabelTitle" = "Minął termin ważności";
 
 /* Number of items in the playlsit folder. Example: '10 items' */
-"playlist.folderItemCountPlural" = "Liczba elementów: %d";
+"playlist.folderItemCountPlural" = "%d rzeczy";
 
 /* Title for when there's a single item inside of a folder */
 "playlist.foldersCountSingular" = "Liczba elementów: %d";
@@ -1508,7 +1550,7 @@
 "playList.noticeAlertTitle" = "Uwaga";
 
 /* Okay Alert button title */
-"playList.okayButtonTitle" = "Ok";
+"playList.okayButtonTitle" = "Dobrze";
 
 /* Title for opening the playlist */
 "playList.openInPlaylistButtonTitle" = "Otwórz w liście odtwarzania";
@@ -1520,7 +1562,7 @@
 "playlist.playlistAlreadyShowingBody" = "Lista odtwarzania jest już aktywna w innym oknie";
 
 /* Playlist alert title when playlist is already showing on a different window */
-"playlist.playlistAlreadyShowingTitle" = "Przepraszamy";
+"playlist.playlistAlreadyShowingTitle" = "Przepraszam";
 
 /* Footer Text for the Playlist Settings Option for Enable/Disable Auto-Play */
 "playlist.playlistAutoPlaySettingsOptionFooterText" = "Ta opcja włączy/wyłączy automatyczne odtwarzanie, gdy otwarta jest Lista odtwarzania. Jednakże opcja nie wpłynie na automatyczne odtwarzanie, gdy ładowany jest kolejny film z listy.";
@@ -1529,10 +1571,10 @@
 "playlist.playlistAutoPlaySettingsOptionTitle" = "Automatyczne odtwarzanie";
 
 /* Auto Download turn Off Option */
-"playlist.playlistAutoSaveOptionOff" = "Wył.";
+"playlist.playlistAutoSaveOptionOff" = "Wyłącz";
 
 /* Auto Save turn On Option */
-"playlist.playlistAutoSaveOptionOn" = "Wł.";
+"playlist.playlistAutoSaveOptionOn" = "Włącz";
 
 /* Option Text for Auto Save Only Wi-Fi Option */
 "playlist.playlistAutoSaveOptionOnlyWifi" = "Tylko Wi-Fi";
@@ -1541,10 +1583,10 @@
 "playlist.playlistAutoSaveSettingsDescription" = "Dodawanie plików wideo i audio do użytku w trybie offline może zajmować dużo miejsca na urządzeniu, a także wykorzystywać transfer danych przez sieć komórkową.";
 
 /* Footer Text for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi)) */
-"playlist.playlistAutoSaveSettingsFooterText" = "Ta opcja automatycznie przechowuje elementy listy odtwarzania w urządzeniu, dzięki czemu można je odtwarzać bez połączenia z Internetem.";
+"playlist.playlistAutoSaveSettingsFooterText" = "Po otwarciu treści na liście odtwarzania ta opcja zachowa otwarte elementy listy odtwarzania na urządzeniu, dzięki czemu możesz je odtwarzać bez połączenia z Internetem.";
 
 /* Title for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi) */
-"playlist.playlistAutoSaveSettingsTitle" = "Automatyczne zapisywanie do użytku w trybie offline";
+"playlist.playlistAutoSaveSettingsTitle" = "Zapisz treść do odtwarzania offline";
 
 /* When the user's disk space is almost full */
 "playlist.playlistDiskSpaceWarningMessage" = "Pliki wideo i audio dodawane do użytku w trybie offline mogą zajmować dużo miejsca w pamięci urządzenia. Usuń niektóre pliki, aby zwolnić miejsce w pamięci.";
@@ -1571,7 +1613,7 @@
 "playlist.playlistPopoverChangeFoldersButtonTitle" = "Zmień";
 
 /* The title for the alert that shows up when removing all videos and their offline mode storage. */
-"playList.playlistResetAlertTitle" = "Resetuj";
+"playList.playlistResetAlertTitle" = "Zresetuj";
 
 /* Footer Text for the Playlist Settings Option for resetting Playlist. */
 "playlist.playlistResetPlaylistOptionFooterText" = "Opcja ta spowoduje usunięcie wszystkich filmów z listy odtwarzania oraz z pamięci masowej trybu offline.";
@@ -1580,19 +1622,19 @@
 "playlist.playlistSaveForOfflineErrorMessage" = "Przepraszamy, ta pozycja nie może być teraz zapisana do użytku w trybie offline.";
 
 /* Title of alert when saving a playlist item for offline mode */
-"playlist.playlistSaveForOfflineErrorTitle" = "Przepraszamy, coś poszło nie tak";
+"playlist.playlistSaveForOfflineErrorTitle" = "Niestety, coś poszło nie tak";
 
 /* Title For the Section that videos are listed */
 "playList.playListSectionTitle" = "Listy odtwarzania";
 
 /* Title Playlist (used for back button, and playlist settings) */
-"playList.playListSettingTitle" = "Lista odtwarzania";
+"playList.playListSettingTitle" = " Lista odtwarzania";
 
 /* Body for the error message that shows when a playlist folder already exists */
 "playList.playlistSharedFolderAlreadyExistsBody" = "Ten folder już istnieje na Twojej liście odtwarzania iBrowe";
 
 /* Title for the error message that shows when a playlist folder already exists */
-"playList.playlistSharedFolderAlreadyExistsTitle" = "Przepraszamy";
+"playList.playlistSharedFolderAlreadyExistsTitle" = "Przepraszam";
 
 /* Title for the Section that videos are listed */
 "playList.playlistSharedFolderSectionTitle" = "Udostępnione dla mnie";
@@ -1618,12 +1660,6 @@
 /* Title for the Playlist Settings Option for Enable/Disable ability to start playing from the point where user last left-off */
 "playlist.playlistStartPlaybackSettingsOptionTitle" = "Zapamiętaj pozycję odtwarzania";
 
-/* Description for Playlist setting */
-"playlist.playlistWebCompatibilityDescription" = "Wyłącza API WebKit MediaSource";
-
-/* Title for Playlist setting */
-"playlist.playlistWebCompatibilityTitle" = "Kompatybilność z Internetem";
-
 /* Title for removing offline mode storage */
 "playList.removeActionButtonTitle" = "Usuń";
 
@@ -1631,16 +1667,16 @@
 "playList.removedFromPlaylistMessage" = "Usunięto z: %@";
 
 /* Message for the alert shown when the user tries to remove offline data of an item from playlist */
-"playlist.removePlaylistOfflineDataAlertMessage" = "Spowoduje to usunięcie pliku z dysku. Kontynuować?";
+"playlist.removePlaylistOfflineDataAlertMessage" = "Spowoduje to usunięcie nośnika z pamięci masowej trybu offline. Czy na pewno chcesz kontynuować?";
 
 /* Title for the alert shown when the user tries to remove offline data of an item from playlist */
 "playlist.removePlaylistOfflineDataAlertTitle" = "Usuń dane trybu offline";
 
 /* Message for the alert shown when the user tries to remove a video from playlist */
-"playlist.removePlaylistVideoAlertMessage" = "Spowoduje to pliku z listy. Czy na pewno chcesz kontynuować?";
+"playlist.removePlaylistVideoAlertMessage" = "Spowoduje to usunięcie pozycji multimedialnej z listy. Czy na pewno chcesz kontynuować?";
 
 /* Title for the alert shown when the user tries to remove an item from playlist */
-"playlist.removePlaylistVideoAlertTitle" = "Usunąć plik z listy odtwarzania?";
+"playlist.removePlaylistVideoAlertTitle" = "Usunąć pozycję multimedialną z listy odtwarzania?";
 
 /* Reopen Alert button title */
 "playList.reopenButtonTitle" = "Otwórz ponownie";
@@ -1676,16 +1712,16 @@
 "playlist.sharePlaylistShareActionMenuTitle" = "Udostępnij...";
 
 /* Title for load resources error alert */
-"playList.sorryAlertTitle" = "Przepraszamy";
+"playList.sorryAlertTitle" = "Przepraszam";
 
 /* The title for the toast that shows up on a page containing a playlist item that was added to playlist */
-"playList.toastAddedToPlaylistTitle" = "Dodano do listy odtwarzania w iBrowe";
+"playList.toastAddedToPlaylistTitle" = "Wyświetl na liście odtwarzania";
 
 /* The title for the toast button when an item was added to playlist */
-"playList.toastAddToPlaylistOpenButton" = "Otwórz";
+"playList.toastAddToPlaylistOpenButton" = "Otwarte";
 
 /* The title for the toast that shows up on a page containing a playlist item */
-"playList.toastAddToPlaylistTitle" = "Dodaj do iBrowe Playlist";
+"playList.toastAddToPlaylistTitle" = "Dodaj do listy odtwarzania";
 
 /* The title for the toast that shows up on a page when an item that has already been added, was updated. */
 "playList.toastExitingItemPlaylistTitle" = "Przeglądaj na iBrowe Playlist";
@@ -1694,7 +1730,7 @@
 "playList.undoRemoveButtonTitle" = "Cofnij";
 
 /* Footer for option to disable URL-Bar button */
-"playlist.urlBarButtonOptionFooter" = "Dodaje przycisk listy odtwarzania (wygląda jak cztery linie z symbolem +) obok paska z adresem w przeglądarce iBrowe. Przycisk umożliwia szybkie przejście do Listy odtwarzania i dodawanie lub usuwanie multimediów.";
+"playlist.urlBarButtonOptionFooter" = "Dodaje przycisk listy odtwarzania obok paska z adresem w przeglądarce iBrowe. Przycisk umożliwia szybkie przejście do Listy odtwarzania i dodawanie lub usuwanie multimediów.";
 
 /* Title for option to disable URL-Bar button */
 "playlist.urlBarButtonOptionTitle" = "Włącz przycisk szybkiego dostępu";
@@ -1826,7 +1862,7 @@
 "privacyHub.allTimeListsHeader" = "Z całego okresu działania";
 
 /* Title of a section to show total count of trackers blocked by iBrowe */
-"privacyHub.allTimeListsTrackersView" = "Pliki śledzące i reklamy";
+"privacyHub.allTimeListsTrackersView" = "Skrypty śledzące i reklamy";
 
 /* Title of a section to show websites containing highest amount of trackers */
 "privacyHub.allTimeListsWebsitesView" = "Witryny internetowe";
@@ -1835,22 +1871,22 @@
 "privacyHub.allTimeListTrackersHeaderTitle" = "Najczęstsze pliki śledzące i reklamy na witrynach, które odwiedzasz";
 
 /* Header title for a list of websites with ads and trackers. */
-"privacyHub.allTimeListWebsitesHeaderTitle" = "Witryny z największą liczbą plików śledzących i reklam";
+"privacyHub.allTimeListWebsitesHeaderTitle" = "Witryny z największą liczbą skryptów śledzących i reklam";
 
 /* Displays a number of websites on which we blocked trackers, example usage: '23 sites' */
 "privacyHub.allTimeSitesCount" = "Witryny: %lld";
 
 /* Displays a number of trackers we blocked on a particular website, example usage: '23 trackers & ads' */
-"privacyHub.allTimeTrackersCount" = "Trackery i reklamy: %lld";
+"privacyHub.allTimeTrackersCount" = "Skrypty śledzące i reklamy: %lld";
 
 /* Title under which we display most name of the most blocked tracker or ad. */
-"privacyHub.allTimeTrackerTitle" = "Tracker i reklama";
+"privacyHub.allTimeTrackerTitle" = "Skrypt śledzący i reklama";
 
 /* Title under which we display a website on which there's the highest number of trackers or ads. */
 "privacyHub.allTimeWebsiteTitle" = "Strona";
 
 /* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
-"privacyHub.allVPNAlertsButtonText" = "Wszystkie alerty";
+"privacyHub.allVPNAlertsButtonText" = "Wszystkie alarmy";
 
 /* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by iBroweVPN */
 "privacyHub.blockedBy" = "Zablokowane przez";
@@ -1880,7 +1916,7 @@
 "privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** zostało zablokowane przez iBrowe Shields na **%2$lld** witrynach";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
-"privacyHub.mostFrequentTrackerAndAdTitle" = "Najczęstszy tracker i reklama";
+"privacyHub.mostFrequentTrackerAndAdTitle" = "Najczęstszy skrypt śledzący i reklama";
 
 /* Text of a callout that tell user they need to browser some websites first in order to see privacy stats data */
 "privacyHub.noDataCalloutBody" = "Odwiedź jakieś strony, aby zobaczyć tu dane.";
@@ -1889,7 +1925,7 @@
 "privacyHub.noDataToShow" = "Brak danych do wyświetlenia.";
 
 /* Text of a callout to encourage user to enable Apple notification system. */
-"privacyHub.notificationCalloutBody" = "Uzyskaj cotygodniowe aktualizacje dotyczące prywatności na temat blokowania trackerów i reklam.";
+"privacyHub.notificationCalloutBody" = "Uzyskaj cotygodniowe aktualizacje dotyczące prywatności na temat blokowania skryptów śledzących i reklam.";
 
 /* Text of a button to encourage user to enable Apple notification system. */
 "privacyHub.notificationCalloutButtonText" = "Włącz powiadomienia";
@@ -1913,7 +1949,7 @@
 "privacyHub.privacyReportsTitle" = "Centrum prywatności";
 
 /* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which website had the most tracker per visit, example usage: 'example.com had an average of 10 trackers & ads blocked per visit ' */
-"privacyHub.riskiestWebsiteBody" = "**%1$@** miało średnio **%2$lld** trackerów i reklam zablokowanych na wizytę";
+"privacyHub.riskiestWebsiteBody" = "**%1$@** miało średnio **%2$lld** plików śledzących i reklam zablokowanych na wizytę";
 
 /* Title of a website that contained the most trackers per visit. */
 "privacyHub.riskiestWebsiteTitle" = "Strona z największą liczbą elementów śledzących";
@@ -1928,7 +1964,7 @@
 "privacyHub.settingsEnableVPNAlertsFooter" = "Ustawienie ma zastosowanie tylko, jeśli zakupiono subskrypcję VPN.";
 
 /* Title of a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
-"privacyHub.settingsEnableVPNAlertsTitle" = "Pokaż alerty VPN";
+"privacyHub.settingsEnableVPNAlertsTitle" = "Pokaż alarmy VPN";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
 "privacyHub.settingsSlearDataFooter" = "Resetuje licznik wszystkich elementów zablokowanych przez Shields.";
@@ -1943,19 +1979,19 @@
 "privacyHub.trackingDisabledCalloutBody" = "Włącz '%@', aby zobaczyć tu dane";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
-"privacyHub.vpnAlertEmailTrackerTypePlural" = "Trackery w e-mailach";
+"privacyHub.vpnAlertEmailTrackerTypePlural" = "Pliki śledzące w wiadomości e-mail";
 
 /* Type of tracker blocked by the VPN, it's a tracker contained in an email. */
-"privacyHub.vpnAlertEmailTrackerTypeSingular" = "Tracker e-mail";
+"privacyHub.vpnAlertEmailTrackerTypeSingular" = "Plik śledzący w wiadomości e-mail";
 
 /* Type of tracker blocked by the VPN, it's a tracker that asks you for your location. */
-"privacyHub.vpnAlertLocationTrackerTypePlural" = "Prośby o lokalizację";
+"privacyHub.vpnAlertLocationTrackerTypePlural" = "Pingi lokalizacyjne";
 
 /* Type of tracker blocked by the VPN, it's a tracker that asks you for your location. */
-"privacyHub.vpnAlertLocationTrackerTypeSingular" = "Prośba o lokalizację";
+"privacyHub.vpnAlertLocationTrackerTypeSingular" = "Ping lokalizacyjny";
 
 /* Type of tracker blocked by the VPN, it's a regular tracker or an ad. */
-"privacyHub.vpnAlertRegularTrackerTypePlural" = "Trackery i reklamy";
+"privacyHub.vpnAlertRegularTrackerTypePlural" = "Skrypty śledzące i reklamy";
 
 /* Type of tracker blocked by the VPN, it's a regular tracker or an ad. */
 "privacyHub.vpnAlertRegularTrackerTypeSingular" = "Tracker lub reklama";
@@ -2060,7 +2096,7 @@
 "recently.closed.empty.list.title" = "Brak ostatnio zamkniętych kart.";
 
 /* Open Tab action title */
-"recently.closed.open" = "Otwórz";
+"recently.closed.open" = "Otwarte";
 
 /* Re-open Last Tab action title */
 "recently.closed.reopen.latest" = "Otwórz ponownie ostatnio zamkniętą kartę";
@@ -2087,7 +2123,7 @@
 "RecentSearchDisableSuggestions" = "Wyłącz";
 
 /* Recent Search button title to enable suggestions */
-"RecentSearchEnableSuggestions" = "Włącz";
+"RecentSearchEnableSuggestions" = "Aktywuj";
 
 /* Recent Search Favorites Section Title */
 "RecentSearchFavorites" = "Ulubione";
@@ -2099,7 +2135,7 @@
 "RecentSearchPasteAndGo" = "Wklej i otwórz";
 
 /* Recent Search 'on' text when a user searches 'on' a website */
-"RecentSearchQuickSearchOnWebsite" = "w";
+"RecentSearchQuickSearchOnWebsite" = "na";
 
 /* Recent Search Scanned text when a user scans a qr code */
 "RecentSearchScanned" = "Przeskanowano";
@@ -2146,6 +2182,9 @@
 /* A label for a text entry field where the user can provide contact details within a web-compatibilty report */
 "ReportBrokenContactMe" = "Skontaktuj się ze mną poprzez: (opcjonalne)";
 
+/* Contact info storing description */
+"ReportBrokenContactMeDescription" = "Jeśli podasz dane kontaktowe, będą one przechowywane w celu zgłaszania uszkodzonych stron w przyszłości.";
+
 /* A placeholder for a text entry field within a web-compatibilty report which shows a few suggestions of what the user should enter for their contact contact details (in a 'Contact me at: (optional)' field). */
 "ReportBrokenContactMeSuggestions" = "E-mail, Twitter, itp.";
 
@@ -2158,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Prześlij";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" chce uzyskać dostęp do kamery i mikrofonu";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraPermissionPrompt" = "\"%@\" chce uzyskać dostęp do kamery";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Zezwól";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" chce uzyskać dostęp do urządzenia do rejestracji multimediów";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" chce uzyskać dostęp do mikrofonu";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2192,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "Przeglądarka iBrowe została nieoczekiwanie zamknięta.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Dzięki iBrowe Rewards możesz wyświetlać reklamy szanujące prywatność z sieci iBrowe Ads. Bez trackerów. Bez spowolnienia. A Twoje dane pozostaną całkowicie bezpieczne. ";
+"rewards.iBroweTalkRewardsOptInBody" = "Dzięki iBrowe Rewards możesz wyświetlać reklamy szanujące prywatność z sieci iBrowe Ads. Bez trackerów. Bez spowolnienia. A Twoje dane pozostaną całkowicie bezpieczne. ";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.braveTalkRewardsOptInButtonTitle" = "Włącz nagrody";
+"rewards.iBroweTalkRewardsOptInButtonTitle" = "Włącz nagrody";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Kliknij w dowolnym miejscu ekranu, aby przejść do iBrowe Talk.";
+"rewards.iBroweTalkRewardsOptInSuccessBody" = "Kliknij w dowolnym miejscu ekranu, aby przejść do iBrowe Talk.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessTitle" = "Możesz teraz rozpocząć bezpłatne połączenie";
+"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Możesz teraz rozpocząć bezpłatne połączenie";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Aby rozpocząć bezpłatne połączenie, włącz iBrowe Rewards";
+"rewards.iBroweTalkRewardsOptInTitle" = "Aby rozpocząć bezpłatne połączenie, włącz iBrowe Rewards";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "Włącz, aby wesprzeć iBrowe oraz społeczność BAT";
@@ -2225,7 +2264,7 @@
 "rewards.settingsToggleMessage" = "Pomóż wspierać iBrowe i społeczność BAT, włączając Nagrody iBrowe i oglądając reklamy iBrowe.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "Włącz nagrody iBrowe Rewards";
+"rewards.settingsToggleTitle" = "Włącz iBrowe Rewards";
 
 /* Displayed under verified publishers */
 "rewards.supportingPublisher" = "Ten twórca jest zweryfikowany przez Twórców iBrowe";
@@ -2297,7 +2336,7 @@
 "RewardsInternalsContributionsStepRewardsOff" = "Wyłącz Rewards";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionsStepStart" = "Rozpocznij";
+"RewardsInternalsContributionsStepStart" = "Start";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionsTitle" = "Darowizny";
@@ -2318,7 +2357,7 @@
 "RewardsInternalsExpiresAt" = "Data ważności";
 
 /* No comment provided by engineer. */
-"RewardsInternalsInvalid" = "Nieprawidłowe";
+"RewardsInternalsInvalid" = "Nieprawidłowy";
 
 /* No comment provided by engineer. */
 "RewardsInternalsKeyInfoSeed" = "Ziarno kluczowej informacji";
@@ -2348,7 +2387,7 @@
 "RewardsInternalsRetryCount" = "Liczba ponownych prób";
 
 /* No comment provided by engineer. */
-"RewardsInternalsRewardsTypeAutoContribute" = "Atomatyczna darowizna";
+"RewardsInternalsRewardsTypeAutoContribute" = "Automatyczna dotacja";
 
 /* No comment provided by engineer. */
 "RewardsInternalsRewardsTypeOneTimeTip" = "Jednorazowy napiwek";
@@ -2609,10 +2648,10 @@
 "ShareLinkActionTitle" = "Udostępnij łącze";
 
 /* Title for sharing url menu item */
-"ShareWithMenuItem" = "Udostępnij użytkownikowi...";
+"ShareWithMenuItem" = "Udostępnij...";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
-"shareWithTitle" = "Udostępnij użytkownikowi...";
+"shareWithTitle" = "Udostępnij...";
 
 /* Subtitle for tracker benchmark Share */
 "shieldEducation.benchmarkAnyTierTitle" = "Gratulujemy osiągnięcia kamienia milowego w ochronie prywatności.";
@@ -2636,7 +2675,7 @@
 "shieldEducation.benchmarkSpecialTierTitle" = "Gratulacje. Jesteś naprawdę wyjątkową osobą.";
 
 /* Subtitle for  The parameter substituted for "%@" is the amount of data saved in MB. E.g.: Average Data Saved: 17.43 MB */
-"shieldEducation.domainSpecificDataSavedSubtitle" = "Średnia ilość oszczędzonych danych\n% w MB";
+"shieldEducation.domainSpecificDataSavedSubtitle" = "Średnia ilość zapisanych danych\n% w MB";
 
 /* Action title for button at domain specific data saved pop-up */
 "shieldEducation.dontShowThisTitle" = "Nie pokazuj tego ponownie";
@@ -2651,7 +2690,7 @@
 "shieldEducation.trackerCountShareSubtitle" = "Gratulacje. Jesteś naprawdę wyjątkową osobą.";
 
 /* Title for Shield Education Tracker Count Share. The parameter substituted for "%ld" is the count of the trackers and ads blocked in total until present. E.g.: 5000 trackers & ads blocked */
-"shieldEducation.trackerCountShareTitle" = "Zablokowane trackery i reklamy: %ld";
+"shieldEducation.trackerCountShareTitle" = "Zablokowane skrypty śledzące i reklamy: %ld!";
 
 /* Subtitle for Shield Education Tracker Video Ad Block */
 "shieldEducation.videoAdBlockSubtitle" = "Filmy bez reklam zużywają mniej danych.";
@@ -2690,7 +2729,7 @@
 "shortcuts.activityTypeClearHistoryDescription" = "Otwórz przeglądarkę w nowej karcie i usuń dane osobowe oraz historię przeglądania.";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeClearHistorySuggestedPhrase" = "Wyczyść historię przeglądania";
+"shortcuts.activityTypeClearHistorySuggestedPhrase" = "Wyczyść historię przeglądanie";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryTitle" = "Wyczyść historię przeglądania iBrowe";
@@ -2765,13 +2804,13 @@
 "shortcuts.customIntentOpenBookmarkSuggestedPhrase" = "Otwórz zakładkę";
 
 /* No comment provided by engineer. */
-"shortcuts.customIntentOpenHistorySuggestedPhrase" = "Otwórz historii wyszukiwania strony";
+"shortcuts.customIntentOpenHistorySuggestedPhrase" = "Otwórz historię przeglądania";
 
 /* No comment provided by engineer. */
-"shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "Otwórz stronę";
+"shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "Otwórz stronę internetową";
 
 /* Description for opening iBrowe Settings for altering Siri shortcut. */
-"shortcuts.shortcutOpenApplicationSettingsDescription" = "Ta opcja otworzy ustawienia iBrowe. Aby zmienić opcje Siri, należy wybrać w menu pozycję 'Siri & Szukaj' i spersonalizować swoje wybory.";
+"shortcuts.shortcutOpenApplicationSettingsDescription" = "Ta opcja otworzy ustawienia iBrowe. Aby zmienić opcje Siri, należy wybrać w menu pozycję „Siri i Szukaj” i spersonalizować swoje wybory.";
 
 /* Button title that open application settings */
 "shortcuts.shortcutOpenApplicationSettingsTitle" = "Otwórz ustawienia";
@@ -2780,7 +2819,7 @@
 "shortcuts.shortcutSettingsClearBrowserHistoryDescription" = "Użyj skrótów, aby otworzyć nową kartę i wyczyścić historię przeglądania za pomocą Siri – sterowanej głosem asystentki";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsClearBrowserHistoryTitle" = "Wyczyść historię przeglądania";
+"shortcuts.shortcutSettingsClearBrowserHistoryTitle" = "Wyczyść historię przeglądanie";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsEnableVPNDescription" = "Użyj skrótów, aby włączyć iBrowe VPN przy pomocy Siri - sterowanej głosem asystentki";
@@ -2795,7 +2834,7 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "Otwórz zakładki";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "Użyj skrótów, aby otworzyć nową kartę i wyświetlić kanał iBrowe News przy pomocy Siri - sterowanej głosem asystentki";
+"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "Użyj skrótów, aby otworzyć nową kartę i wyświetlić kanał iBrowe News przy pomocy Siri – sterowanej głosem asystentki";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "Otwórz iBrowe News";
@@ -2951,7 +2990,7 @@
 "sync.codeTimeMultipleHourText" = "godz.";
 
 /* The unit text used for multiple seconds when showing code validity. Ex: This temporary code is valid for the next 2 seconds */
-"sync.codeTimeMultipleSecondsText" = "sek.";
+"sync.codeTimeMultipleSecondsText" = "sekund";
 
 /* Title explaining how loing the sync code can be used. It will be used like Ex: This temporary code is valid for the next 17 hours 33 minutes 1 second */
 "sync.codeTimeRemainingTitleLabel" = "Ten tymczasowy kod jest ważny przez następne %@";
@@ -2963,7 +3002,7 @@
 "sync.codeTimeSingleSecondText" = "sekunda";
 
 /* Code words input help */
-"sync.codeWordInputHelp" = "Wpisz podane słowa łańcucha synchronizacji w poniższym formularzu.";
+"sync.codeWordInputHelp" = "Wpisz podane słowa kodowe łańcucha synchronizacji w poniższym formularzu.";
 
 /* Code words section title */
 "sync.codeWords" = "Słowa kodowe";
@@ -3017,7 +3056,7 @@
 "sync.expiredError" = "Ten kod synchronizacji wygasł. Wygeneruj nowy kod synchronizacji i spróbuj ponownie.";
 
 /* Generic Sync Error Description */
-"sync.genericError" = "Przepraszamy, coś poszło nie tak";
+"sync.genericError" = "Niestety, coś poszło nie tak";
 
 /* Grand camera access */
 "sync.grantCameraAccess" = "Włącz aparat";
@@ -3152,7 +3191,7 @@
 "sync.toDevice" = "Zsynchronizuj z urządzeniem";
 
 /* Sync to existing device description */
-"sync.toDeviceDescription" = "Na zsynchronizowanym urządzeniu otwórz Ustawienia iBrowe i przejdź do sekcji Ustawienia. -> Synchronizacja. Wybierz opcję „Dodaj urządzenie” i zeskanuj kod wyświetlony na ekranie.";
+"sync.toDeviceDescription" = "Na zsynchronizowanym urządzeniu otwórz Ustawienia iBrowe i przejdź do sekcji Ustawienia -> Synchronizacja. Wybierz opcję „Dodaj urządzenie” i zeskanuj kod wyświetlony na ekranie.";
 
 /* Description on popup when setting up a sync group fails */
 "sync.unableCreateGroup" = "Nie udało się zsynchronizować tego urządzenia";
@@ -3185,10 +3224,10 @@
 "TabPrivateModeToggleAccessibilityLabel" = "Tryb prywatny";
 
 /* Toggled OFF accessibility value */
-"TabPrivateModeToggleAccessibilityValueOff" = "Wył.";
+"TabPrivateModeToggleAccessibilityValueOff" = "Wyłącz";
 
 /* Toggled ON accessibility value */
-"TabPrivateModeToggleAccessibilityValueOn" = "Wł.";
+"TabPrivateModeToggleAccessibilityValueOn" = "Włącz";
 
 /* No comment provided by engineer. */
 "tabs.settings.persistentPrivateBrowsingDescription" = "Pozostaw karty przeglądane w trybie prywatnym otwarte po zamknięciu aplikacji, tak aby nie zakłócić sesji przeglądania.";
@@ -3218,10 +3257,10 @@
 "tabToolbarAddToPlaylistButtonAccessibilityLabel" = "Dodaj do listy odtwarzania";
 
 /* Accessibility label for the Back button in the tab toolbar. */
-"TabToolbarBackButtonAccessibilityLabel" = "Wstecz";
+"TabToolbarBackButtonAccessibilityLabel" = "Powrót";
 
 /* Accessibility Label for the tab toolbar Forward button */
-"TabToolbarForwardButtonAccessibilityLabel" = "Do przodu";
+"TabToolbarForwardButtonAccessibilityLabel" = "Dalej";
 
 /* Accessibility label for the lock icon, which is only present if the connection is secure */
 "TabToolbarLockImageAccessibilityLabel" = "Bezpieczne połączenie";
@@ -3233,7 +3272,7 @@
 "tabToolbarNotSecureTitle" = "Niezabezpieczona";
 
 /* Accessibility Label for the tab toolbar Playlist button */
-"TabToolbarPlaylistButtonAccessibilityLabel" = "Lista odtwarzania";
+"TabToolbarPlaylistButtonAccessibilityLabel" = " Lista odtwarzania";
 
 /* Accessibility label for the Reader View button */
 "TabToolbarReaderViewButtonAccessibilityLabel" = "Widok odczytu";
@@ -3242,7 +3281,7 @@
 "TabToolbarReaderViewButtonTitle" = "Dodaj do listy „do przeczytania”";
 
 /* Accessibility Label for the tab toolbar Reload button */
-"TabToolbarReloadButtonAccessibilityLabel" = "Wczytaj ponownie";
+"TabToolbarReloadButtonAccessibilityLabel" = "Załaduj ponownie";
 
 /* The text shown in the URL bar on about:home */
 "TabToolbarSearchAddressPlaceholderText" = "Wyszukaj lub wpisz adres";
@@ -3299,7 +3338,7 @@
 "themeQRCodeShareTitle" = "Udostępnij iBrowe przyjaciołom!";
 
 /* Selection to automatically color/style the user interface. */
-"ThemesAutomaticOption" = "Automatycznie";
+"ThemesAutomaticOption" = "Automatyczny";
 
 /* Selection to color/style the user interface with a dark theme */
 "ThemesDarkOption" = "Ciemny";
@@ -3338,16 +3377,16 @@
 "today.addSourceNoFeedsFoundMessage" = "Przykro nam, adres tego kanału nie ma zawartości.";
 
 /* The action title displayed in the iOS share menu */
-"today.addSourceShareTitle" = "Dodaj kanał do iBrowe News";
+"today.addSourceShareTitle" = "Dodaj źródło do iBrowe News";
 
 /* A header title shown above a button that will allow the user to fetch RSS feeds for a website they have typed in */
 "today.availableRSSFeedsHeaderTitle" = "Dostępne kanały RSS";
 
 /* The name of the feature */
-"today.braveToday" = "Aktualności iBrowe";
+"today.iBroweToday" = "Aktualności iBrowe";
 
 /* The name of the feature in settings */
-"today.braveToday.title" = "Wiadomości";
+"today.iBroweToday.title" = "Wiadomości";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Śledź interesujące cię tematy";
@@ -3371,13 +3410,13 @@
 "today.disabledAlertBody" = "iBrowe News przestanie pokazywać treści z %@";
 
 /* No comment provided by engineer. */
-"today.disabledAlertTitle" = "Wyłączono";
+"today.disabledAlertTitle" = "Wyłączone";
 
 /* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
 "today.disablePublisherContent" = "Ukryj treści z %@";
 
 /* No comment provided by engineer. */
-"today.emptyFeedBody" = "Spróbuj włączyć kilka kanałów informacji";
+"today.emptyFeedBody" = "Spróbuj włączyć kilka źródeł informacji";
 
 /* No comment provided by engineer. */
 "today.emptyFeedTitle" = "Brak artykułów do wyświetlenia";
@@ -3403,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Obserwuj";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Otrzymuj wiadomości z";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3425,7 +3464,7 @@
 "today.learnMoreTitle" = "Dowiedz się więcej o swoich danych";
 
 /* 'iBrowe Offers' is a product name */
-"today.moreiBroweOffers" = "Więcej ofert iBrowe";
+"today.moreiBroweOffers" = "Więcej iBrowe Offers";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Brak Internetu";
@@ -3473,7 +3512,7 @@
 "today.similarToSourceSubtitle" = "Podobne do %@";
 
 /* No comment provided by engineer. */
-"today.sourcesAndSettings" = "Kanały i ustawienia";
+"today.sourcesAndSettings" = "Źródła i ustawienia";
 
 /* A header title shown over a list of online news sources (i.e. CNN, NYT, etc.) */
 "today.sourcesHeaderTitle" = "Źródła";
@@ -3499,8 +3538,11 @@
 /* Button title that when tapped toggles the web page in our out of reader mode */
 "ToggleReaderMode" = "Przełącz tryb czytania";
 
+/* Title of an action that allows the user to translate the current web-page to another language */
+"TranslatePage" = "Przetłumacz";
+
 /* Prompt shown before enabling provider search queries */
-"Turn on search suggestions?" = "Włączyć sugestie wyszukiwania?";
+"Turn on search suggestions?" = "Czy włączyć sugestie wyszukiwania?";
 
 /* No comment provided by engineer. */
 "UnlockButtonTitle" = "Odblokuj";
@@ -3546,129 +3588,6 @@
 
 /* Disclaimer for screen to search using voice. */
 "voice.search.screen.disclaimer" = "iBrowe nie przechowuje ani nie udostępnia Twoich wyszukiwań głosowych.";
-
-/* Pop up extra description for billing issue of subcription VPN about to expire */
-"vpn.autoReneSoonExpirePopOverSubDescription" = "Chcesz zachować ochronę? Wystarczy, że odnowisz subskrypcję przed jej zakończeniem. W ramach podziękowania za odnowienie oferujemy 20% zniżkę za kolejne 3 miesiące.";
-
-/* Action button title that enables auto renew for subcription */
-"vpn.autoRenewActionButtonTitle" = "Włącz automatyczne odnawianie";
-
-/* Pop up title for renewing VPN subscription with discount */
-"vpn.autoRenewDiscountPopOverTitle" = "Automatycznie odnów subskrypcję VPN iBrowe już teraz i uzyskaj 20% zniżki na 3 miesiące!";
-
-/* Pop up title for renewing VPN subscription with month free */
-"vpn.autoRenewFreeMonthPopOverTitle" = "Automatycznie odnów subskrypcję VPN iBrowe już teraz i otrzymaj miesiąc za darmo!";
-
-/* Pop up description for VPN subscription is about expire */
-"vpn.autoRenewSoonExpirePopOverDescription" = "Oznacza to, że utracisz dodatkową ochronę iBrowe każdej aplikacji na telefonie.";
-
-/* Pop up title for VPN subscription is about expire */
-"vpn.autoRenewSoonExpireTitle" = "O nie! Okres Twojej subskrypcji VPN iBrowe zaraz się skończy.";
-
-/* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "iBrowe Firewall + VPN";
-
-/* Message for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesBody" = "Nie udało się połączyć z App Store, spróbuj ponownie za kilka minut.";
-
-/* Title for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesTitle" = "Błąd App Store";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAds" = "Blokuje niechciane połączenia internetowe";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAdsAlternate" = "Blokuj reklamy i pliki śledzące we wszystkich aplikacjach";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFast" = "Obsługuje prędkości do 100 Mbps";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFastAlternate" = "Szybka łączność bez limitów, do 100 Mbps";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmark247Support" = "Całodobowa pomoc techniczna";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmarkSecureConnections" = "Zabezpiecza wszystkie połączenia";
-
-/* It is used in context: 'Powered by BRAND_NAME' */
-"vpn.poweredBy" = "Obsługiwane przez";
-
-/* Name of automatic vpn region selector */
-"vpn.regionPickerAutomaticModeCellText" = "Automatycznie";
-
-/* Alert description to show when the VPN session has expired */
-"vpn.sessionExpiredDescription" = "Zaloguj się na swoje konto iBrowe, aby odświeżyć sesję VPN.";
-
-/* Dismiss button to close the alert showing that the vpn session has expired */
-"vpn.sessionExpiredDismissButton" = "Zamknij";
-
-/* Login button to fix the vpn session expiration issue */
-"vpn.sessionExpiredLoginButton" = "Zaloguj się";
-
-/* Alert title to show when the VPN session has expired */
-"vpn.sessionExpiredTitle" = "Sesja wygasła";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNDisabled" = "Wyłączono";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNEnabled" = "Włączone";
-
-/* Whether the VPN plan has expired */
-"vpn.settingsVPNExpired" = "Wygasł";
-
-/* Action button title that subscribe action for VPN purchase */
-"vpn.subscribeVPNActionButtonTitle" = "Subskrybuj teraz";
-
-/* Pop up description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverDescription" = "Dokładnie. Twoja subskrypcja VPN iBrowe jest teraz dostępna na 5 urządzeniach. Możesz subskrybować na urządzeniu z systemem iOS i używać jej na systemach macOS, Windows i Android za darmo.";
-
-/* Pop up title the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverTitle" = "Od teraz korzystaj z VPN iBrowe na wszystkich urządzeniach w tej samej cenie!";
-
-/* Pop up title for subscribing VPN with discount */
-"vpn.subscribeVPNDiscountPopOverTitle" = "Daj jeszcze jedną szansę VPN iBrowe i uzyskaj 20% zniżki przez 3 miesiące!";
-
-/* Pop up sub description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNPopOverSubDescription" = "Czy chcesz chronić wszystkie aplikacje na telefonie? Zacznij ponownie korzystać z VPN iBrowe i uzyskaj 20% zniżkę przez 3 miesiące.";
-
-/* Pop up description for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverDescription" = "VPN iBrowe zawsze blokuje pliki śledzące w każdej aplikacji – nawet poza przeglądarką iBrowe. Od teraz możesz sprawdzić, kto usiłował Cię śledzić dzięki Centrum prywatności iBrowe.";
-
-/* Pop up title for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverTitle" = "Czy wiesz, że VPN iBrowe chroni Cię również poza przeglądarką iBrowe?";
-
-/* Cell title indicates update payment method */
-"vpn.updateActionCellTitle" = "Aktualizuj";
-
-/* Pop up description for billing issue of subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverDescription" = "Nie martw się. Usługa VPN będzie nadal aktywna przez kilka dni, aż zaktualizujesz swoje informacje dotyczące płatności.";
-
-/* Pop up title for billing issue for subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverTitle" = "Zaktualizuj informacje dotyczące płatności, żeby zachować ochronę VPN iBrowe.";
-
-/* Pop up description for billing issue of subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverDescription" = "Czy chcesz chronić każdą aplikację na telefonie? Wystarczy, że zaktualizujesz dane dotyczące płatności.";
-
-/* Pop up title for billing issue for subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverTitle" = "Wystąpił problem z płatnością dotyczącą Twojego konta. Twoja subskrypcja VPN iBrowe niedługo się zakończy.";
-
-/* Action button title that updates method payment */
-"vpn.updatePaymentActionButtonTitle" = "Zaktualizuj dane dotyczące płatności";
-
-/* The title for screen for showing list of server region */
-"vpn.vpnRegionListServerScreenTitle" = "Region serwera";
-
-/* Button subtitle for VPN region selection in menu. %@ will be replaced with country name or automatic ex: Current Setting: Automatic */
-"vpn.vpnRegionSelectorButtonSubTitle" = "Bieżące ustawienie: %@";
-
-/* Button title for VPN region selection in menu */
-"vpn.vpnRegionSelectorButtonTitle" = "Region VPN";
-
-/* Text description of VPN subscription needs a method of payment update */
-"vpn.vpnUpdatePaymentMethodDescriptionText" = "Zaktualizuj metodę płatności";
 
 /* The date your wallet was created */
 "WalletCreationDate" = "Data utworzenia portfela";
@@ -3731,10 +3650,10 @@
 "YoutubeMediaQualityDetails" = "Włączenie tej eksperymentalnej funkcji spowoduje odtwarzanie filmów w najwyższej dostępnej jakości. Będzie ona wykorzystywać większość ilość danych.";
 
 /* Setting that disables highest quality video playback */
-"YoutubeMediaQualityOff" = "Wył.";
+"YoutubeMediaQualityOff" = "Wyłącz";
 
 /* Setting that enables high quality playback always */
-"YoutubeMediaQualityOn" = "Wł.";
+"YoutubeMediaQualityOn" = "Włącz";
 
 /* Title for youtube playback quality settings */
 "YoutubeMediaQualitySettingsTitle" = "Jakość odtwarzania w YouTube";

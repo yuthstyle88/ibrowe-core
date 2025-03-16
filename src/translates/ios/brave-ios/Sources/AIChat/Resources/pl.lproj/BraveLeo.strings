@@ -31,8 +31,8 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "Status";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
-"aichat.advancedSettingsViewReceiptTitle" = "Wyświetl paragon AppStore";
+/* The title for the button that allows the user to view the App Store Receipt */
+"aichat.advancedSettingsViewReceiptTitle" = "Wyświetl potwierdzenie transakcji sklepu App Store";
 
 /* The subtitle for the error showing there is an error from App Store */
 "aichat.appStoreErrorSubTitle" = "Nie można połączyć się ze sklepem App Store. Spróbuj ponownie później.";
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Niebezpieczna/szkodliwa";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium zapewnia dostęp do rozszerzonego zestawu modeli językowych zapewniających jeszcze większą szczegółowość odpowiedzi. [Dowiedz się więcej](https://brave.com/) - [Odrzuć](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium zapewnia dostęp do rozszerzonego zestawu modeli językowych zapewniających jeszcze większą szczegółowość odpowiedzi. [Dowiedz się więcej](https://iBrowe.com/) - [Odrzuć](iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Prześlij";
@@ -137,7 +137,7 @@
 "aichat.infoAboutPageContext" = "Formułuj odpowiedzi na podstawie zawartości strony";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "Cześć, nazywam się Leo. Jestem używany przez iBrowe za pośrednictwem serwera proxy i korzystam z modelu Claude 3 Haiku opracowanego przez Anthropic do obsługi zadań konwersacyjnych i przetwarzania tekstu.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "Cześć, nazywam się Leo. Jestem używany przez iBrowe za pośrednictwem serwera proxy i korzystam z modelu Claude Haiku opracowanego przez Anthropic do obsługi zadań konwersacyjnych i przetwarzania tekstu.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku od Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "Nieprawdopodobnie szybki czat";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "Cześć, nazywam się Leo. Jestem używany przez iBrowe za pośrednictwem serwera proxy i korzystam z modelu Claude 3.5 Sonnet opracowanego przez Anthropic do obsługi zadań konwersacyjnych i przetwarzania tekstu.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "Cześć, nazywam się Leo. Jestem używany przez iBrowe za pośrednictwem serwera proxy i korzystam z modelu Claude Sonnet opracowanego przez Anthropic do obsługi zadań konwersacyjnych i przetwarzania tekstu.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet od Anthropic";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Przykład kodu";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo jest obecnie wyłączony poprzez flagi funkcji. Aby ponownie włączyć Leo, odwiedź stronę brave://flags i włącz ją.";
+"aichat.leoDisabledMessageDescription" = "Leo jest obecnie wyłączony poprzez flagi funkcji. Aby ponownie włączyć Leo, odwiedź stronę iBrowe://flags i włącz ją.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo Niepełnosprawny";
@@ -338,7 +338,7 @@
 "aichat.resetLeoDataActionTitle" = "Resetuj i wyczyść dane Leo";
 
 /* The title of a button that will reset data for leo */
-"aichat.resetLeoDataAlertButtonTitle" = "Resetuj";
+"aichat.resetLeoDataAlertButtonTitle" = "Zresetuj";
 
 /* The description for the error whre leo data reset */
 "aichat.resetLeoDataErrorDescription" = "Na pewno chcesz zresetować i wyczyścić dane Leo?";

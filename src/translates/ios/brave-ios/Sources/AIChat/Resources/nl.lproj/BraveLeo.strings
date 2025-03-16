@@ -14,7 +14,7 @@
 "aichat.advancedSettingsDefaultModelTitle" = "Standaardmodel";
 
 /* The title for the header for adjusting leo ai settings */
-"aichat.advancedSettingsHeaderTitle" = "Leo is een slimme assistent op AI, ingebouwd in de browser.";
+"aichat.advancedSettingsHeaderTitle" = "Leo is een slimme AI-gestuurde assistent, ingebouwd in de browser.";
 
 /* The subtitle for the button which links purchase to iBrowe Account */
 "aichat.advancedSettingsLinkPurchaseActionSubTitle" = "Koppel uw App Store-aankoop aan uw iBrowe-account om Leo op andere apparaten te gebruiken.";
@@ -23,7 +23,7 @@
 "aichat.advancedSettingsLinkPurchaseActionTitle" = "Koppel aankoop aan iBrowe-account";
 
 /* The title for the label showing the date which subscription expires */
-"aichat.advancedSettingsSubscriptionExpiresTitle" = "Verloopt:";
+"aichat.advancedSettingsSubscriptionExpiresTitle" = "Verloopt op";
 
 /* The title for the header for subscription details */
 "aichat.advancedSettingsSubscriptionHeaderTitle" = "Abonnement";
@@ -31,7 +31,7 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "Status";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
+/* The title for the button that allows the user to view the App Store Receipt */
 "aichat.advancedSettingsViewReceiptTitle" = "Toon App Store-betalingsbewijs";
 
 /* The subtitle for the error showing there is an error from App Store */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Onveilig/gevaarlijk";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium geeft toegang tot een uitgebreide reeks taalmodellen voor nog betere antwoorden. [Meer informatie](https://brave.com/) - [Sluit](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium geeft toegang tot een uitgebreide reeks taalmodellen voor nog betere antwoorden. [Meer informatie](https://iBrowe.com/) - [Sluit](iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Stuur";
@@ -137,7 +137,7 @@
 "aichat.infoAboutPageContext" = "Baseer antwoorden op de content van de pagina";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "Hallo, ik ben Leo. Ik werk via een proxy van iBrowe en wordt mede mogelijk gemaakt door Claude 3 Haiku, een model dat door Anthropic is gemaakt voor gespreks- en tekstverwerkingstaken.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "Hallo, ik ben Leo. Ik werk via een proxy van iBrowe en word aangestuurd door Claude Haiku, een model dat door Anthropic is gemaakt voor gespreks- en tekstverwerkingstaken.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku van Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "Razendsnelle chat";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "Hallo, ik ben Leo. Ik word geproxied door iBrowe en aangedreven door Claude 3.5 Sonnet, een model gemaakt door Anthropic om conversatie- en tekst verwerkingstaken uit te voeren.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "Hallo, ik ben Leo. Ik werk via een proxy van iBrowe en word aangestuurd door Claude Sonnet, een model dat door Anthropic is gemaakt voor gespreks- en tekstverwerkingstaken.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet van Anthropic";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Voorbeeld van code";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo is momenteel uitgeschakeld via functievlaggen. Als je Leo opnieuw wilt inschakelen, ga je naar brave://flags.";
+"aichat.leoDisabledMessageDescription" = "Leo is momenteel uitgeschakeld via functievlaggen. Als je Leo opnieuw wilt inschakelen, ga je naar iBrowe://flags.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo is uitgeschakeld";
@@ -263,7 +263,7 @@
 "aichat.paywallPurchaseDeepNote" = "Alle abonnementen worden automatisch verlengd, maar kunnen altijd vóór de verlengdatum worden opgezegd.";
 
 /* The error description when in app purcahse is erroneous. */
-"aichat.paywallPurchaseErrorDescription" = "Aankoop kan niet worden voltooid. Probeer het opnieuw, of controleer eerst je betalingsgegevens bij Apple en probeer het dan opnieuw.";
+"aichat.paywallPurchaseErrorDescription" = "Aankoop kan niet worden afgerond. Probeer het opnieuw of controleer je betalingsgegevens bij Apple en probeer het dan opnieuw.";
 
 /* The subtitle for premium upseel when rate limit is shown after sending a message */
 "aichat.paywallRateLimitSubTitle" = "Krijg snellere en betere antwoorden met een Premium-abonnement, of probeer het later opnieuw.";
@@ -290,7 +290,7 @@
 "aichat.paywallUpsellCreativityTopicTitle" = "Laat je creativiteit de vrije loop";
 
 /* The subtitle model type entry in paywall upsell screen */
-"aichat.paywallUpsellModelTypeTopicSubTitle" = "Als eerste toegang tot krachtige modellen met verschillende vaardigheden.";
+"aichat.paywallUpsellModelTypeTopicSubTitle" = "Krijg als eerste toegang tot krachtige modellen met andere vaardigheden.";
 
 /* The title model type entry in paywall upsell screen */
 "aichat.paywallUpsellModelTypeTopicTitle" = "Ontdek andere AI-modellen";

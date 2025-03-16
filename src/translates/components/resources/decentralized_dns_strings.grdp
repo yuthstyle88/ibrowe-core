@@ -25,7 +25,7 @@
     Enable support of Ethereum Name Service (ENS) offchain lookup in iBrowe?
   </message>
   <message name="IDS_ENS_OFFCHAIN_LOOKUP_OPT_IN_PRIMARY_PARAGRAPH" desc="Main paragraph of ENS offchain lookup opt-in interstitial page.">
-    This .eth domain name is stored offchain and will be resolved by a third party gateway. If you enable ENS offchain lookup, the third party gateway will see that you're trying to visit the .eth domain. <ph name="BEGIN_BRAVE_LEARN_MORE_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_BRAVE_LEARN_MORE_LINK">&lt;/a&gt;</ph>.
+    This .eth domain name is stored offchain and will be resolved by a third party gateway. If you enable ENS offchain lookup, the third party gateway will see that you're trying to visit the .eth domain. <ph name="BEGIN_iBrowe_LEARN_MORE_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_iBrowe_LEARN_MORE_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_ENS_OFFCHAIN_LOOKUP_OPT_IN_PROCEED" desc="The text for the ENS offchain lookup opt-in interstitial proceed button.">
     Proceed with offchain lookup

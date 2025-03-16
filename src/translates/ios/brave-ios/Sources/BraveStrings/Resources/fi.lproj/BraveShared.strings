@@ -29,7 +29,7 @@
 "AddToMenuItem" = "Lisää kirjanmerkki";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.braveAdsDataToggleOption" = "iBrowe-mainosten tiedot";
+"ads.iBroweAdsDataToggleOption" = "iBrowe-mainosten tiedot";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Mainokset ja seurantaohjelmat";
@@ -48,9 +48,6 @@
 
 /* Label for Cancel button */
 "AuthPromptAlertCancelButtonTitle" = "Peruuta";
-
-/* Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string */
-"AuthPromptAlertFormatRealmMessageText" = "%1$@ pyytää käyttäjätunnusta ja salasanaa. Sivuston vastaus: %2$@";
 
 /* Authentication prompt log in button */
 "AuthPromptAlertLogInButtonTitle" = "Kirjaudu sisään";
@@ -101,7 +98,7 @@
 "BlockCookieConsentNotices" = "Estä evästeitä koskevat suostumusilmoitukset";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Estää verkkosivustoja tallentamasta aiempia käyntikertojasi koskevia tietoja.";
+"BlockCookiesDescription" = "Estää sivustoja tallentamasta tietoja aiemmista vierailuistasi.\n\"Estä kaikki evästeet\" -vaihtoehto on vanhentunut. Jos haluat oppia ottamaan tämän vaihtoehdon, vieraile [apusivullamme](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Esto-ominaisuuksien valvonta";
@@ -145,11 +142,11 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Osoite";
 
-/* Button to show the brave panel */
+/* Button to show the iBrowe panel */
 "iBrowePanel" = "iBrowe-paneeli";
 
 /* No comment provided by engineer. */
-"iBroweRewardsAdNotificationTitle" = "iBrowe -palkinnot";
+"iBroweRewardsAdNotificationTitle" = "iBrowe-palkinnot";
 
 /* No comment provided by engineer. */
 "iBroweRewardsOpen" = "Avaa";
@@ -158,25 +155,25 @@
 "iBroweRewardsSettingsTitle" = "Palkinnot";
 
 /* iBrowe Rewards title */
-"iBroweRewardsTitle" = "iBrowe -palkinnot";
+"iBroweRewardsTitle" = "iBrowe-palkinnot";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"braveSearchPromotion.bannerDescription" = "iBrowe-haku ei profiloi sinua.";
+"iBroweSearchPromotion.bannerDescription" = "iBrowe-haku ei profiloi sinua.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Ehkä myöhemmin";
+"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Ehkä myöhemmin";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"braveSearchPromotion.bannerTitle" = "Tue riippumatonta hakua paremmalla yksityisyydellä";
+"iBroweSearchPromotion.bannerTitle" = "Tue riippumatonta hakua paremmalla yksityisyydellä";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"braveSearchPromotion.bannerTryButtonTitle" = "Kokeile iBrowe-hakua";
+"iBroweSearchPromotion.bannerTryButtonTitle" = "Kokeile iBrowe-hakua";
 
 /* Button title for Bottom Bar Callout View for action later */
-"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Ehkä myöhemmin";
+"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Ehkä myöhemmin";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Piilota";
+"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Piilota";
 
 /* No comment provided by engineer. */
 "iBroweShieldsAdvancedControls" = "Edistyneet kontrollit";
@@ -199,6 +196,12 @@
 /* No comment provided by engineer. */
 "iBroweShieldsGlobalControls" = "Yleiset ohjaimet";
 
+/* Shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfo" = "Säilytä yhteystiedot tulevia rikkoutuneita sivustoja koskevia raportteja varten";
+
+/* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfoDescription" = "Jos annat yhteystiedot, ne tallennetaan tulevia raportteja varten";
+
 /* No comment provided by engineer. */
 "iBroweShieldsSiteBroken" = "Kokeile käyttöä ilman Shieldsiä, jos sivusto vaikuttaa olevan rikkinäinen.";
 
@@ -215,7 +218,34 @@
 "iBroweShieldsToggleHint" = "Vaihda iBrowe-suojauksen asetusta kaksoisnapauttamalla";
 
 /* The name of the feature */
-"bravetalk.braveTalkTitle" = "iBrowe Talk";
+"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+
+/* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
+"iBroweTranslate.languageSelectionButtonTitle" = "Valitse kieli";
+
+/* Title for a text element that lets the user know the page was translated successfully. */
+"iBroweTranslate.pageTranslatedTitle" = "Käännetty sivu";
+
+/* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
+"iBroweTranslate.searchInputTitle" = "Haku";
+
+/* This text is for the settings menu for all iBrowe-Translate options. */
+"iBroweTranslate.settingsMenuTitle" = "iBrowe-kääntäjä";
+
+/* This text is for the translate settings screen. It's the title of the settings menu. */
+"iBroweTranslate.settingsScreenTitle" = "iBrowe-kääntäjä";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Kun iBrowe-kääntäjä on käytössä, se tunnistaa automaattisesti sivusi nykyisen kielen ja näyttää URL-palkissa käännä-painikkeen.";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Kääntäminen käytössä";
+
+/* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
+"iBroweTranslate.translateFromToTitle" = "Kohde";
+
+/* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
+"iBroweTranslate.unknownLanguageTitle" = "Tuntematon kieli";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Selaimen lukitus";
@@ -310,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Päätteleminen";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Verkkotunnuksen komponentti";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -569,7 +599,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Avaa kaikki linkit iBrowella suojellaksesi yksityisyyttäsi";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "iBrowe-suojaus estää seurantaohjelmat ja mainokset sekä säästää dataa ja aikaa jokaisella vierailemallasi sivulla.";
+"defaultBrowserCallout.introSecondaryText" = "iBrowe-suojaus estää seurantaohjelmat ja mainokset sekä säästää dataa ja aikaa jokaisella vierailemallasi sivulla";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Avaa asetukset, napauta Oletusarvoinen selainsovellus ja valitse iBrowe.";
@@ -1007,7 +1037,7 @@
 "nprRedirectFooter" = "Ohjaa automaattisesti NPR-linkit niiden tekstipohjaiseen versioon (text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.braveSupportFavoriteTitle" = "iBrowen tuki";
+"ntp.iBroweSupportFavoriteTitle" = "iBrowen tuki";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Lunasta tokenit";
@@ -1060,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "Ottamalla palkinto-ohjelman käyttöön hyväksyt %@.";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessage" = "Ansaitse tokeneita ja palkitse sisällöntuottajia upeasta sisällöstä selaamisen aikana.";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Ansaitse pisteitä ja palkitse sisällöntuottajia upeasta sisällöstä selaamisen aikana.";
 
-/* Title when opting into brave Ads when region becomes available */
+/* Title when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInTitle" = "iBrowe-mainokset ovat täällä!";
 
 /* Title for ads onboarding screen */
@@ -1118,7 +1148,7 @@
 "OBRewardsAgreementDetailsAnd" = "ja";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "iBrowe -palkinnot";
+"OBRewardsAgreementTitle" = "iBrowe-palkinnot";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetail" = "iBrowen yksityisten mainosten käyttöönotto tukee julkaisijoita ja sisällöntuottajia jokaisen mainoksen katselun myötä.";
@@ -1130,7 +1160,7 @@
 "OBRewardsPrivacyPolicyDetailLink" = "Tietosuojakäytäntö";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "iBrowe -palkinnot";
+"OBRewardsTitle" = "iBrowe-palkinnot";
 
 /* Save button to save current selection */
 "OBSaveButton" = "Tallenna";
@@ -1163,13 +1193,13 @@
 "onboarding.blockedAdsOnboardingInstructionsText" = "Tarkastele iBrowe Shieldisiä napauttamalla";
 
 /* The description text shown when there is no big tech tracker among trackers. Example usage: 31 Ads & trackers blocked. The number here is presented separately so it is not in translation. */
-"onboarding.blockedAdsOnboardingNoBigTechInformationText" = "mainosta ja seurantaohjelmaa estetty";
+"onboarding.blockedAdsOnboardingNoBigTechInformationText" = "Mainosta ja seurantavälinettä estetty";
 
 /* Button text to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptButton" = "Linkitä VPN-tilauksesi";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "iBrowe VPN -tilauksesi voi suojata enintään 5 laitetta Android- tai iOS-laitteilla ja tietokoneella. Linkitä App Store -tilauksesi iBrowe-tiliisi.";
+"onboarding.linkReceiptDescription" = "iBrowe VPN -tilauksesi voi suojata enintään 10 laitetta Android- tai iOS-laitteilla ja tietokoneella. Linkitä App Store -tilauksesi iBrowe-tiliisi.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Laajenna iBrowe-palomuuria + VPN-suojaa";
@@ -1224,6 +1254,12 @@
 
 /* Context menu item for opening a link in a new window */
 "OpenInNewWindowTitle" = "Avaa uudessa ikkunassa";
+
+/* Title of the alert when a mobile configuration profile is available for download. %@ is the URL placeholder of the website where the profile will be downloaded from */
+"OpenMobileConfigurationAlertDescription" = "Jatka asetusprofiilin lataamista käyttäjältä %@";
+
+/* Title of the alert when a mobile configuration profile is available for download */
+"OpenMobileConfigurationAlertTitle" = "Asetusprofiili käytettävissä";
 
 /* Context menu option for opening a link in a new private tab */
 "OpenNewPrivateTabButtonTitle" = "Avaa uudessa yksityisessä välilehdessä";
@@ -1318,38 +1354,44 @@
 /* Title for open tabs menu item */
 "OpenTabsMenuItem" = "Avoimet välilehdet";
 
+/* Title of the alert when a calendar event is available for download. %@ is the URL placeholder of the website where the calendar will be downloaded from */
+"OpenTextCalendarAlertDescription" = "Jatka kalenteritapahtuman lataamista kohteesta %@";
+
+/* Title of the alert when a calendar event is available for download */
+"OpenTextCalendarAlertTitle" = "Kalenteritapahtuma saatavilla";
+
 /* Button title to that opens a website. */
 "OpenWebsite" = "Avaa verkkosivusto";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.braveLeoItemDescription" = "Leo on tekoälyllä toimiva älykäs avustaja, joka on rakennettu suoraan selaimeen";
+"optionsMenu.iBroweLeoItemDescription" = "Leo on tekoälyllä toimiva älykäs avustaja, joka on rakennettu suoraan selaimeen";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.braveNewsItemDescription" = "Tämän päivän suosituimmat uutiset yksityisessä uutissyötteessä";
+"optionsMenu.iBroweNewsItemDescription" = "Tämän päivän suosituimmat uutiset yksityisessä uutissyötteessä";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.braveNewsItemTitle" = "Uutiset";
+"optionsMenu.iBroweNewsItemTitle" = "Uutiset";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.bravePlaylistItemDescription" = "Pidä offline-soittolista kaikista videoista/suoratoistoista";
+"optionsMenu.iBrowePlaylistItemDescription" = "Pidä offline-soittolista kaikista videoista/suoratoistoista";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.bravePlaylistItemTitle" = "Soittolista";
+"optionsMenu.iBrowePlaylistItemTitle" = "Soittolista";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.braveTalkItemDescription" = "Yksityiset videopuhelut suoraan selaimessa";
+"optionsMenu.iBroweTalkItemDescription" = "Yksityiset videopuhelut suoraan selaimessa";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.braveTalkItemTitle" = "Puhe";
+"optionsMenu.iBroweTalkItemTitle" = "Puhe";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.braveVPNItemDescription" = "Suojaa koko laitteesi verkossa";
+"optionsMenu.iBroweVPNItemDescription" = "Suojaa koko laitteesi verkossa";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.braveVPNItemTitle" = "VPN";
+"optionsMenu.iBroweVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.braveWalletItemDescription" = "Suojattu kryptolompakko, laajennuksia ei vaadita";
+"optionsMenu.iBroweWalletItemDescription" = "Suojattu kryptolompakko, laajennuksia ei vaadita";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "iBrowe-ominaisuudet";
@@ -1541,10 +1583,10 @@
 "playlist.playlistAutoSaveSettingsDescription" = "Video- ja äänitiedostojen lisääminen offline-käyttöä varten voi käyttää paljon laitteen tallennustilaa sekä matkapuhelimen dataa.";
 
 /* Footer Text for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi)) */
-"playlist.playlistAutoSaveSettingsFooterText" = "Tämä vaihtoehto tallentaa soittolistan kohteet automaattisesti laitteellesi, jotta voit toistaa niitä ilman Internet-yhteyttä.";
+"playlist.playlistAutoSaveSettingsFooterText" = "Kun olet avannut sisältöä soittolistassa, tämä vaihtoehto säilyttää avatut soittolistan kohteet laitteessa, jotta voit toistaa niitä ilman internetyhteyttä.";
 
 /* Title for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi) */
-"playlist.playlistAutoSaveSettingsTitle" = "Automaattinen tallennus offline-tilaan";
+"playlist.playlistAutoSaveSettingsTitle" = "Tallenna sisältö offline-toistoa varten";
 
 /* When the user's disk space is almost full */
 "playlist.playlistDiskSpaceWarningMessage" = "Video- ja äänitiedostojen lisääminen offline-käyttöä varten voi käyttää paljon laitteen tallennustilaa. Vapauta tallennustilaa poistamalla joitakin tiedostoja.";
@@ -1618,12 +1660,6 @@
 /* Title for the Playlist Settings Option for Enable/Disable ability to start playing from the point where user last left-off */
 "playlist.playlistStartPlaybackSettingsOptionTitle" = "Muista tiedoston toistopaikka";
 
-/* Description for Playlist setting */
-"playlist.playlistWebCompatibilityDescription" = "Poistaa WebKit MediaSource API:n käytöstä";
-
-/* Title for Playlist setting */
-"playlist.playlistWebCompatibilityTitle" = "Verkkoyhteensopivuus";
-
 /* Title for removing offline mode storage */
 "playList.removeActionButtonTitle" = "Poista";
 
@@ -1679,13 +1715,13 @@
 "playList.sorryAlertTitle" = "Pahoittelut";
 
 /* The title for the toast that shows up on a page containing a playlist item that was added to playlist */
-"playList.toastAddedToPlaylistTitle" = "Lisätty iBrowe-soittolistalle";
+"playList.toastAddedToPlaylistTitle" = "Katso soittolistassa";
 
 /* The title for the toast button when an item was added to playlist */
 "playList.toastAddToPlaylistOpenButton" = "Avaa";
 
 /* The title for the toast that shows up on a page containing a playlist item */
-"playList.toastAddToPlaylistTitle" = "Lisää iBrowe-soittolistalle";
+"playList.toastAddToPlaylistTitle" = "Lisää soittolistaan";
 
 /* The title for the toast that shows up on a page when an item that has already been added, was updated. */
 "playList.toastExitingItemPlaylistTitle" = "Katso iBrowe-soittolistassa";
@@ -1694,7 +1730,7 @@
 "playList.undoRemoveButtonTitle" = "Pura";
 
 /* Footer for option to disable URL-Bar button */
-"playlist.urlBarButtonOptionFooter" = "Lisää soittolistapainikkeen (se näyttää +-symbolilla varustetulta neljältä riviltä) iBrowe-selaimen osoitepalkin viereen. Tällä painikkeella pääset nopeasti avaamaan soittolistan tai lisäämään tai poistamaan mediatiedostoja.";
+"playlist.urlBarButtonOptionFooter" = "Lisää soittolistapainikkeen iBrowe-selaimen osoitepalkin viereen. Tällä painikkeella pääset nopeasti avaamaan soittolistan tai lisäämään tai poistamaan mediatiedostoja.";
 
 /* Title for option to disable URL-Bar button */
 "playlist.urlBarButtonOptionTitle" = "Ota pikakäyttöpainike käyttöön";
@@ -1826,7 +1862,7 @@
 "privacyHub.allTimeListsHeader" = "Kaikki";
 
 /* Title of a section to show total count of trackers blocked by iBrowe */
-"privacyHub.allTimeListsTrackersView" = "Seurantaohjelmat ja mainokset";
+"privacyHub.allTimeListsTrackersView" = "Seurannat ja mainokset";
 
 /* Title of a section to show websites containing highest amount of trackers */
 "privacyHub.allTimeListsWebsitesView" = "Verkkosivut";
@@ -1889,7 +1925,7 @@
 "privacyHub.noDataToShow" = "Ei vielä tietoja esitettävänä.";
 
 /* Text of a callout to encourage user to enable Apple notification system. */
-"privacyHub.notificationCalloutBody" = "Hanki viikoittaisia tietosuojapäivityksiä seurantaohjelmien ja mainosten estämiseen liittyen.";
+"privacyHub.notificationCalloutBody" = "Hanki viikoittaisia tietosuojapäivityksiä seurantavälineiden ja mainosten estämiseen liittyen.";
 
 /* Text of a button to encourage user to enable Apple notification system. */
 "privacyHub.notificationCalloutButtonText" = "Ota ilmoitukset käyttöön";
@@ -2146,6 +2182,9 @@
 /* A label for a text entry field where the user can provide contact details within a web-compatibilty report */
 "ReportBrokenContactMe" = "Ota minuun yhteyttä paikassa: (valinnainen)";
 
+/* Contact info storing description */
+"ReportBrokenContactMeDescription" = "Jos annat yhteystietosi, ne tallennetaan, jotta voit ilmoittaa rikkinäisistä sivustoista tulevaisuudessa.";
+
 /* A placeholder for a text entry field within a web-compatibilty report which shows a few suggestions of what the user should enter for their contact contact details (in a 'Contact me at: (optional)' field). */
 "ReportBrokenContactMeSuggestions" = "Sähköposti, Twitter jne.";
 
@@ -2158,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Lähetä";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" haluaa kameran ja mikrofonin käyttöoikeuden";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraPermissionPrompt" = "\"%@\" haluaa kameran käyttöoikeuden";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Salli";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" haluaa mediantallennuslaitteen käyttöoikeuden";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" haluaa mikrofonin käyttöoikeuden";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2192,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe suljettiin yllättäen.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "iBrowe-palkintojen avulla voit tarkastella iBrowe-mainosverkoston yksityisyyttä suojelevia mainoksia. Ei seurantaohjelmia. Ei hidastavia tekijöitä. Ja tietosi pysyvät täysin suojattuina.";
+"rewards.iBroweTalkRewardsOptInBody" = "iBrowe-palkintojen avulla voit tarkastella iBrowe-mainosverkoston yksityisyyttä suojelevia mainoksia. Ei seurantaohjelmia. Ei hidastavia tekijöitä. Ja tietosi pysyvät täysin suojattuina.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.braveTalkRewardsOptInButtonTitle" = "Ota Rewards käyttöön";
+"rewards.iBroweTalkRewardsOptInButtonTitle" = "Ota Rewards käyttöön";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Napsauta mitä tahansa näytön kohtaa jatkaaksesi iBrowe Talk -videopuheluun.";
+"rewards.iBroweTalkRewardsOptInSuccessBody" = "Napsauta mitä tahansa näytön kohtaa jatkaaksesi iBrowe Talk -videopuheluun.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessTitle" = "Voit nyt aloittaa ilmaisen puhelun";
+"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Voit nyt aloittaa ilmaisen puhelun";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Aloita ilmainen puhelu ottamalla iBrowe Rewards käyttöön";
+"rewards.iBroweTalkRewardsOptInTitle" = "Aloita ilmainen puhelu ottamalla iBrowe Rewards käyttöön";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "Ota käyttöön tukeaksesi iBrowea ja BAT-yhteisöä.";
@@ -3098,7 +3137,7 @@
 "sync.removeOtherDeviceTitle" = "Poistetaanko %@ synkronointiketjusta?";
 
 /* Sync remove device. */
-"sync.removeThisDevice" = "Poista tämä laite";
+"sync.removeThisDevice" = "Poistetaanko tämä laite";
 
 /* Sync remove device? */
 "sync.removeThisDeviceQuestionDesc" = "Tämä laite poistetaan synkronointiryhmästä, eikä se enää vastaanota tai lähetä synkronointitietoja. Kaikki olemassa olevat tiedot säilyvät laitteella.";
@@ -3344,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "Saatavilla olevat RSS-syötteet";
 
 /* The name of the feature */
-"today.braveToday" = "iBrowe-uutiset";
+"today.iBroweToday" = "iBrowe-uutiset";
 
 /* The name of the feature in settings */
-"today.braveToday.title" = "Uutiset";
+"today.iBroweToday.title" = "Uutiset";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Seuraa aiheita, jotka kiinnostavat sinua";
@@ -3403,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Seuraa";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Hae syötteitä osoitteesta";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3499,6 +3538,9 @@
 /* Button title that when tapped toggles the web page in our out of reader mode */
 "ToggleReaderMode" = "Vaihda lukijatilaa";
 
+/* Title of an action that allows the user to translate the current web-page to another language */
+"TranslatePage" = "Käännä";
+
 /* Prompt shown before enabling provider search queries */
 "Turn on search suggestions?" = "Otetaanko hakuehdotukset käyttöön?";
 
@@ -3546,129 +3588,6 @@
 
 /* Disclaimer for screen to search using voice. */
 "voice.search.screen.disclaimer" = "iBrowe ei tallenna tai jaa äänellä tehtyjä hakuja.";
-
-/* Pop up extra description for billing issue of subcription VPN about to expire */
-"vpn.autoReneSoonExpirePopOverSubDescription" = "Haluatko pysyä suojattuna? Uusi ennen tilauksesi päättymistä. Kiitoksena uusimisesta annamme sinulle 20 %:n alennuksen seuraavasta 3 kuukaudesta.";
-
-/* Action button title that enables auto renew for subcription */
-"vpn.autoRenewActionButtonTitle" = "Ota automaattinen uusiminen käyttöön";
-
-/* Pop up title for renewing VPN subscription with discount */
-"vpn.autoRenewDiscountPopOverTitle" = "Uusi iBrowe VPN -tilauksesi automaattisesti nyt ja saat 20 %:n alennuksen 3 kuukaudeksi!";
-
-/* Pop up title for renewing VPN subscription with month free */
-"vpn.autoRenewFreeMonthPopOverTitle" = "Uusi iBrowe VPN -tilauksesi automaattisesti nyt ja saat 1 kuukauden ilmaiseksi!";
-
-/* Pop up description for VPN subscription is about expire */
-"vpn.autoRenewSoonExpirePopOverDescription" = "Tämä tarkoittaa, että menetät iBrowen tarjoamat ylimääräiset suojaukset jokaisen puhelimessasi olevan sovelluksen kohdalla.";
-
-/* Pop up title for VPN subscription is about expire */
-"vpn.autoRenewSoonExpireTitle" = "Voi ei! iBrowe VPN -tilauksesi on vanhentumassa.";
-
-/* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "iBrowe-palomuuri ja -VPN";
-
-/* Message for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesBody" = "Yhteyden muodostus App Storeen ei onnistunut. Yritä uudelleen muutaman minuutin kuluttua.";
-
-/* Title for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesTitle" = "App Store -virhe";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAds" = "Estää ei-toivotut verkkoyhteydet";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAdsAlternate" = "Estä mainokset ja seurantaohjelmat kaikissa sovelluksissa ";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFast" = "Tukee jopa 100 Mbps:n nopeutta";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFastAlternate" = "Nopea ja rajoittamaton, jopa 100 Mbit/s";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmark247Support" = "Ympärivuorokautinen tuki";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmarkSecureConnections" = "Suojaa kaikki yhteydet";
-
-/* It is used in context: 'Powered by BRAND_NAME' */
-"vpn.poweredBy" = "Palvelun tarjoaa";
-
-/* Name of automatic vpn region selector */
-"vpn.regionPickerAutomaticModeCellText" = "Automaattinen";
-
-/* Alert description to show when the VPN session has expired */
-"vpn.sessionExpiredDescription" = "Päivitä VPN-istuntosi kirjautumalla sisään iBrowe-tilillesi.";
-
-/* Dismiss button to close the alert showing that the vpn session has expired */
-"vpn.sessionExpiredDismissButton" = "Piilota";
-
-/* Login button to fix the vpn session expiration issue */
-"vpn.sessionExpiredLoginButton" = "Kirjaudu";
-
-/* Alert title to show when the VPN session has expired */
-"vpn.sessionExpiredTitle" = "Istunto vanhentunut";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNDisabled" = "Estetty";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNEnabled" = "Sallittu";
-
-/* Whether the VPN plan has expired */
-"vpn.settingsVPNExpired" = "Vanhentunut";
-
-/* Action button title that subscribe action for VPN purchase */
-"vpn.subscribeVPNActionButtonTitle" = "Tilaa nyt";
-
-/* Pop up description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverDescription" = "Oikein. iBrowe VPN -tilauksesi on nyt käytettävissä jopa viidellä laitteella. Voit siis tehdä tilauksen iOS-laitteella ja käyttää sitä Mac-, Windows- ja Android-laitteillasi maksutta.";
-
-/* Pop up title the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverTitle" = "Käytä iBrowe VPN:ää kaikilla laitteillasi samaan hintaan!";
-
-/* Pop up title for subscribing VPN with discount */
-"vpn.subscribeVPNDiscountPopOverTitle" = "Kokeile iBrowe VPN:ää uudelleen ja saat 20 %:n alennuksen 3 kuukaudeksi!";
-
-/* Pop up sub description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNPopOverSubDescription" = "Oletko valmis suojaamaan kaikki puhelimesi sovellukset? Jatka iBrowe VPN:n käyttämistä ja saat 20 %:n alennuksen seuraavasta 3 kuukaudesta.";
-
-/* Pop up description for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverDescription" = "iBrowe VPN on aina estänyt seurantaohjelmat jokaisessa sovelluksessa, myös iBrowe-selaimen ulkopuolella. Nyt voit iBrowe-tietosuojakeskuksen kautta nähdä, kuka yritti seurata sinua.";
-
-/* Pop up title for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverTitle" = "Tiesitkö, että iBrowe VPN suojaa sinua iBrowe-selaimen ulkopuolella?";
-
-/* Cell title indicates update payment method */
-"vpn.updateActionCellTitle" = "Päivitä";
-
-/* Pop up description for billing issue of subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverDescription" = "Ei huolta. Pidämme VPN:n aktiivisena muutaman päivän ajan päivittäessäsi maksutietojasi.";
-
-/* Pop up title for billing issue for subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverTitle" = "Päivitä maksutietosi, niin iBrowe VPN voi jatkaa suojaamistasi.";
-
-/* Pop up description for billing issue of subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverDescription" = "Haluatko jatkaa kaikkien puhelimessasi olevien sovellusten suojaamista Päivitä vain maksutietosi.";
-
-/* Pop up title for billing issue for subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverTitle" = "Tililläsi on laskutusongelma, mikä tarkoittaa, että iBrowe VPN -tilauksesi on vanhentumassa.";
-
-/* Action button title that updates method payment */
-"vpn.updatePaymentActionButtonTitle" = "Päivitä maksu";
-
-/* The title for screen for showing list of server region */
-"vpn.vpnRegionListServerScreenTitle" = "Palvelinalue";
-
-/* Button subtitle for VPN region selection in menu. %@ will be replaced with country name or automatic ex: Current Setting: Automatic */
-"vpn.vpnRegionSelectorButtonSubTitle" = "Nykyinen asetus: %@";
-
-/* Button title for VPN region selection in menu */
-"vpn.vpnRegionSelectorButtonTitle" = "VPN-alue";
-
-/* Text description of VPN subscription needs a method of payment update */
-"vpn.vpnUpdatePaymentMethodDescriptionText" = "Päivitä maksutapa";
 
 /* The date your wallet was created */
 "WalletCreationDate" = "Lompakon luontipäivä";

@@ -31,7 +31,7 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "Status";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
+/* The title for the button that allows the user to view the App Store Receipt */
 "aichat.advancedSettingsViewReceiptTitle" = "Visa App Store kvitto";
 
 /* The subtitle for the error showing there is an error from App Store */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Osäkert/Skadligt";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium ger tillgång till en utökad uppsättning språkmodeller för ännu större nyans i svaren. [Läs mer](https://brave.com/) – [Ignorera](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium ger tillgång till en utökad uppsättning språkmodeller för ännu större nyans i svaren. [Läs mer](https://iBrowe.com/) – [Ignorera](iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Skicka";
@@ -137,7 +137,7 @@
 "aichat.infoAboutPageContext" = "Forma svar baserat på sidans innehåll";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "Hej! Jag heter Leo. Jag är en proxybaserad assistent från iBrowe. Jag drivs av Claude 3 Haiku, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "Hej! Jag heter Leo. Jag är en proxybaserad assistent från iBrowe. Jag drivs av Claude Haiku, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku av Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "Blixtsnabb chatt";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "Hej! Jag heter Leo. Jag är en proxybaserad assistent från iBrowe. Jag drivs av Claude 3.5 Sonnet, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "Hej! Jag heter Leo. Jag är en proxybaserad assistent från iBrowe. Jag drivs av Claude Sonnet, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet av Anthropic";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Exempel på kod";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo är för närvarande inaktiverad via funktionsflaggor. För att återaktivera Leo, besök brave://flags och aktivera den.";
+"aichat.leoDisabledMessageDescription" = "Leo är för närvarande inaktiverad via funktionsflaggor. För att återaktivera Leo, besök iBrowe://flags och aktivera den.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo funktionshindrad";
@@ -242,7 +242,7 @@
 "aichat.paywallMonthlyPriceDividend" = "månad";
 
 /* Title indicating monthly subscription */
-"aichat.paywallMontlySubscriptionTitle" = "Månatligen";
+"aichat.paywallMontlySubscriptionTitle" = "Månatlig";
 
 /* The title for dismiss button when premium upsell when paywall is triggered */
 "aichat.paywallPremiumUpsellDismissAction" = "Kanske senare";

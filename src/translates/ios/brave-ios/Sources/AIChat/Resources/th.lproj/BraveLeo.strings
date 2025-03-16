@@ -31,14 +31,14 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "สถานะ";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
+/* The title for the button that allows the user to view the App Store Receipt */
 "aichat.advancedSettingsViewReceiptTitle" = "ดูใบเสร็จ AppStore";
 
 /* The subtitle for the error showing there is an error from App Store */
 "aichat.appStoreErrorSubTitle" = "ไม่สามารถเชื่อมต่อกับ App Store ได้ โปรดลองอีกครั้งในภายหลัง";
 
 /* The title for the error showing there is an error from App Store */
-"aichat.appStoreErrorTitle" = "ข้อผิดพลาดของ App Store";
+"aichat.appStoreErrorTitle" = "ข้อผิดพลาดใน App Store";
 
 /* The title of the search bar suggestion when prompting to Ask Leo */
 "aichat.askLeoSearchSuggestionTitle" = "ถาม Leo";
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "ไม่ปลอดภัย/เป็นอันตราย";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium ให้การเข้าถึงชุดโมเดลภาษาที่เพิ่มมากขึ้นเพื่อให้คำตอบที่แตกต่างกันมากขึ้น [ดูข้อมูลเพิ่มเติม](https://brave.com/) - [ปิด](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium ให้การเข้าถึงชุดโมเดลภาษาที่เพิ่มมากขึ้นเพื่อให้คำตอบที่แตกต่างกันมากขึ้น [ดูข้อมูลเพิ่มเติม](https://iBrowe.com/) - [ปิด](iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "ส่ง";
@@ -137,7 +137,7 @@
 "aichat.infoAboutPageContext" = "กำหนดคำตอบโดยอิงตามเนื้อหาของหน้า";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และทำงานด้วย Claude 3 Haiku ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ";
+"aichat.introMessageClaudeHaikuMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และทำงานด้วย Claude Haiku ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku โดย Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "การแชทที่รวดเร็วดุจสายฟ้า";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และทำงานด้วย Claude 3.5 Sonnet ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ";
+"aichat.introMessageClaudeSonnetMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และทำงานด้วย Claude Sonnet ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet โดย Anthropic";
@@ -179,13 +179,13 @@
 "aichat.introMessageTitle" = "แชท";
 
 /* The name of the AI-Assistant that's responsing to the user */
-"aichat.leoAssistantNameTitle" = "ลีโอ";
+"aichat.leoAssistantNameTitle" = "Leo";
 
 /* The default title displayed above a code block when the language of the code is not known. */
 "aichat.leoCodeExampleDefaultTitle" = "ตัวอย่างโค้ด";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo ถูกปิดใช้งานผ่านฟีเจอร์แฟล็กอยู่ หากต้องการเปิดใช้งานอีกครั้ง โปรดไปที่ brave://flags และเปิดใช้งานฟีเจอร์ดังกล่าว";
+"aichat.leoDisabledMessageDescription" = "Leo ถูกปิดใช้งานผ่านฟีเจอร์แฟล็กอยู่ หากต้องการเปิดใช้งานอีกครั้ง โปรดไปที่ iBrowe://flags และเปิดใช้งานฟีเจอร์ดังกล่าว";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo ปิดใช้งานอยู่";
@@ -263,7 +263,7 @@
 "aichat.paywallPurchaseDeepNote" = "การสมัครสมาชิกทั้งหมดจะได้รับการต่ออายุโดยอัตโนมัติ แต่สามารถยกเลิกได้ทุกเมื่อก่อนต่ออายุ";
 
 /* The error description when in app purcahse is erroneous. */
-"aichat.paywallPurchaseErrorDescription" = "ไม่สามารถดำเนินการซื้อให้เสร็จสิ้นได้ โปรดลองอีกครั้งหรือตรวจสอบรายละเอียดการชำระเงินบน Apple และลองอีกครั้ง";
+"aichat.paywallPurchaseErrorDescription" = "ไม่สามารถดำเนินการสั่งซื้อให้เสร็จสมบูรณ์ได้ โปรดลองอีกครั้ง หรือตรวจสอบรายละเอียดการชำระเงินของคุณบน Apple แล้วลองอีกครั้ง";
 
 /* The subtitle for premium upseel when rate limit is shown after sending a message */
 "aichat.paywallRateLimitSubTitle" = "ปลดล็อกอัตราการตอบสนองที่สูงขึ้นโดยสมัครใช้งาน Premium หรือลองอีกครั้งในภายหลัง";

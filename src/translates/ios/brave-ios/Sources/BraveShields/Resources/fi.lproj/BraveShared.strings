@@ -10,7 +10,7 @@
 /* A discription of the iBrowe Player. */
 "AntiAdBlockWarningiBrowePlayerDescription" = "**iBrowe-mediasoitin** takaa videokokemuksen ilman mainoksia ja keskeytyksiä.";
 
-/* A button that disables ad-blocking and uses brave player. */
+/* A button that disables ad-blocking and uses iBrowe player. */
 "AntiAdBlockWarningConfirmationButton" = "Säädä suojausta";
 
 /* A descriptive message explaining this site's ad-blocking crackdown. */
@@ -43,22 +43,22 @@
 /* A title for setting which blocks 'switch to app' popups */
 "blockMobileAnnoyances" = "Estä 'Vaihda sovellukseen' -ilmoitukset";
 
-/* Title for the brave player feature */
+/* Title for the iBrowe player feature */
 "iBrowePlayer" = "iBrowe Player";
 
-/* A label for a toggle that enables automatic launching of brave player for certain sites */
+/* A label for a toggle that enables automatic launching of iBrowe player for certain sites */
 "iBrowePlayerAlwaysOpenYouTubeLinks" = "Avaa aina tämän sivuston videot iBrowe-mediasoittimella";
 
-/* A button that confirms to use the brave player. */
+/* A button that confirms to use the iBrowe player. */
 "iBrowePlayerConfirmButton" = "Kokeile";
 
-/* A button that ignores the brave player */
+/* A button that ignores the iBrowe player */
 "iBrowePlayerDismissButton" = "Ei nyt";
 
-/* A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time. */
+/* A description of the iBrowe player that is presented on the info panel when clicing on the iBrowe player icon for the first time. */
 "iBrowePlayerInfoMessage" = "iBrowe-mediasoittimella voit katsella videoita ilman keskeytyksiä.";
 
-/* Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar. */
+/* Title for the iBrowe player info popup which appears when clicking on the iBrowe player icon on the navigation bar. */
 "iBrowePlayerInfoTitle" = "Katso sen sijaan iBrowe-mediasoittimessa";
 
 /* A title to the content filtering page under global shield settings and the title on the Content filtering page */
@@ -159,6 +159,30 @@
 
 /* This is a label on a button that updates filter lists which signifies that lists have been updated */
 "ListsUpdated" = "Luettelot päivitetty";
+
+/* A label displayed above a value indicating if the site is in aggressive mode in Blocked Requests view. */
+"shields.aggressiveLabel" = "Aggressiivinen";
+
+/* A label displayed above the location a request was blocked in Blocked Requests view. */
+"shields.blockedByLabel" = "Estänyt";
+
+/* The title displayed in the navigation bar of Blocked Requests view. */
+"shields.blockedRequestsTitle" = "Estetyt pyynnöt";
+
+/* Used to describe when a request was blocked by the Content Blocker in Blocked Requests view. */
+"shields.contentBlocker" = "Sisällön esto";
+
+/* Used to describe when a request was blocked by our request blocking scripts in Blocked Requests view. */
+"shields.requestBlocking" = "Pyydä estoa";
+
+/* A label displayed above the request url that was blocked in Blocked Requests view. */
+"shields.requestURLLabel" = "Pyydä URL";
+
+/* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
+"shields.resourceTypeLabel" = "Resurssityyppi";
+
+/* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
+"shields.sourceURLLabel" = "Lähteen URL";
 
 /* A button title when confirming to shred website data */
 "ShredDataButtonTitle" = "Silppua tiedot";

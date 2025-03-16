@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "%@ 확장 키만 지원됩니다.";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.braveFeeLabel" = "iBrowe 수수료: %@";
+"wallet.iBroweFeeLabel" = "iBrowe 수수료: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.braveSwapFeeDisclaimer" = "iBrowe 수수료 %@가 견적에 포함되어 있습니다.";
+"wallet.iBroweSwapFeeDisclaimer" = "iBrowe 수수료 %@가 견적에 포함되어 있습니다.";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.braveSwapFree" = "무료";
+"wallet.iBroweSwapFree" = "무료";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "비트코인";
@@ -814,7 +814,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "제공";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "월렛 공개 암호화 키를 요청합니다. 키 제공에 동의하시면 이 사이트가 암호화된 메시지를 작성하여 보내드릴 수 있습니다.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1267,7 +1267,7 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "비밀번호 다시 입력";
 
-/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
 "wallet.restoreLegacyiBroweWalletToggleTitle" = "레거시 iBrowe 암호화폐 월렛에서 가져오시겠습니까?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */

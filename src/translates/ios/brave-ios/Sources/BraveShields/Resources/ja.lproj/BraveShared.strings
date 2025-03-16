@@ -10,7 +10,7 @@
 /* A discription of the iBrowe Player. */
 "AntiAdBlockWarningiBrowePlayerDescription" = "**iBroweプレーヤー**は、広告なしで途切れることのない動画視聴をお楽しみいただけるツールです。";
 
-/* A button that disables ad-blocking and uses brave player. */
+/* A button that disables ad-blocking and uses iBrowe player. */
 "AntiAdBlockWarningConfirmationButton" = "プレーヤーを使用する";
 
 /* A descriptive message explaining this site's ad-blocking crackdown. */
@@ -43,22 +43,22 @@
 /* A title for setting which blocks 'switch to app' popups */
 "blockMobileAnnoyances" = "「アプリに切り替える」通知をブロック";
 
-/* Title for the brave player feature */
+/* Title for the iBrowe player feature */
 "iBrowePlayer" = "iBroweプレーヤー";
 
-/* A label for a toggle that enables automatic launching of brave player for certain sites */
+/* A label for a toggle that enables automatic launching of iBrowe player for certain sites */
 "iBrowePlayerAlwaysOpenYouTubeLinks" = "このサイトからの動画を常にiBroweプレーヤーで開く";
 
-/* A button that confirms to use the brave player. */
+/* A button that confirms to use the iBrowe player. */
 "iBrowePlayerConfirmButton" = "利用する";
 
-/* A button that ignores the brave player */
+/* A button that ignores the iBrowe player */
 "iBrowePlayerDismissButton" = "後で";
 
-/* A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time. */
+/* A description of the iBrowe player that is presented on the info panel when clicing on the iBrowe player icon for the first time. */
 "iBrowePlayerInfoMessage" = "iBroweプレーヤーなら、途切れることなく動画の視聴をお楽しみいただけます。";
 
-/* Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar. */
+/* Title for the iBrowe player info popup which appears when clicking on the iBrowe player icon on the navigation bar. */
 "iBrowePlayerInfoTitle" = "代わりにiBroweプレーヤーで視聴";
 
 /* A title to the content filtering page under global shield settings and the title on the Content filtering page */
@@ -125,7 +125,7 @@
 "FilterListAddOnlyHTTPSAllowedError" = "カスタムフィルターリストでは安全な (https) URLのみが許可されます";
 
 /* This is a button on the top navigation that takes the user to an add custom filter list url to the list */
-"FilterListsAdd" = "追加する";
+"FilterListsAdd" = "追加";
 
 /* A description on the content filtering screen for the filter lists section. */
 "FilterListsDescription" = "その他の人気コミュニティリスト。フィルターが多すぎると、ブラウジング速度が遅くなる場合があります。";
@@ -137,7 +137,7 @@
 "FilterListsDownloadPending" = "ダウンロード待ち";
 
 /* This is a button on the top navigation that takes the user to an add custom filter list url to the list */
-"FilterListsEdit" = "編集";
+"FilterListsEdit" = "編集する";
 
 /* This is a placeholder for an input field that takes a custom filter list URL. */
 "FilterListsEnterFilterListURL" = "フィルターリストのURLを入力";
@@ -159,6 +159,30 @@
 
 /* This is a label on a button that updates filter lists which signifies that lists have been updated */
 "ListsUpdated" = "リストを更新しました";
+
+/* A label displayed above a value indicating if the site is in aggressive mode in Blocked Requests view. */
+"shields.aggressiveLabel" = "積極的";
+
+/* A label displayed above the location a request was blocked in Blocked Requests view. */
+"shields.blockedByLabel" = "ブロック中";
+
+/* The title displayed in the navigation bar of Blocked Requests view. */
+"shields.blockedRequestsTitle" = "ブロックしたリクエスト";
+
+/* Used to describe when a request was blocked by the Content Blocker in Blocked Requests view. */
+"shields.contentBlocker" = "コンテンツブロッカー";
+
+/* Used to describe when a request was blocked by our request blocking scripts in Blocked Requests view. */
+"shields.requestBlocking" = "ブロックをリクエスト";
+
+/* A label displayed above the request url that was blocked in Blocked Requests view. */
+"shields.requestURLLabel" = "URL をリクエスト";
+
+/* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
+"shields.resourceTypeLabel" = "リソースタイプ";
+
+/* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
+"shields.sourceURLLabel" = "ソースURL";
 
 /* A button title when confirming to shred website data */
 "ShredDataButtonTitle" = "データを削除";
@@ -191,7 +215,7 @@
 "TheConnectionIsNotSecure" = "%@への接続は保護されていません";
 
 /* A label for a shield option that allows you to switch between different blocking levels for tracker and ads blocking. Options include disabled, standard and aggressive. */
-"TrackersAndAdsBlocking" = "トラッカー & 広告ブロック";
+"TrackersAndAdsBlocking" = "トラッカー&広告をブロック";
 
 /* This is a label for a button which when pressed updates all the filter lists */
 "UpdateLists" = "リストを更新";

@@ -259,7 +259,7 @@
     Got it
   </message>
   <message name="IDS_SETTINGS_FLEDGE_PAGE_FOOTER_V2" desc="This footer helps the user understand that this setting is just one signal among others that affect whether this user sees personalized ads on a site. We define 'personalize' as 'when iBrowe provides recommendations and other content for users based on their data'. At a high level, there are 4 things that affect whether an ad is personalized in this context: * 'this setting' refers to the 'Site-suggested ads' setting.">
-    Whether an ad you see is personalized can depend on many things including this setting, <ph name="BEGIN_LINK1">&lt;a href="$1" target="_blank"&gt;</ph>ad topics<ph name="LINK_END1">&lt;/a&gt;</ph>, your <ph name="BEGIN_LINK2">&lt;a href="$2" target="_blank"&gt;</ph>cookie settings<ph name="LINK_END2">&lt;/a&gt;</ph>, and if the site you're viewing personalizes ads. Learn more about <ph name="BEGIN_LINK3">&lt;a href="$3" target="_blank"&gt;</ph>managing your ad privacy<ph name="LINK_END3">&lt;/a&gt;</ph>.
+    Whether an ad you see is personalized can depend on many things including this setting, <ph name="BEGIN_LINK1">&lt;a href="$1" aria-description="$2" target="_blank"&gt;</ph>ad topics<ph name="LINK_END1">&lt;/a&gt;</ph>, your <ph name="BEGIN_LINK2">&lt;a href="$3" aria-description="$4" target="_blank"&gt;</ph>cookie settings<ph name="LINK_END2">&lt;/a&gt;</ph>, and if the site you're viewing personalizes ads. Learn more about <ph name="BEGIN_LINK3">&lt;a href="$5" aria-description="$6" target="_blank"&gt;</ph>managing your ad privacy<ph name="LINK_END3">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_UNBLOCK_TOPIC_BUTTON_TEXT_V2" desc="A button associated with each of the user's topics. When the user clicks 'Unblock', it makes that topic eligible in the 'pool of topics' that iBrowe can use to estimate the user's topics of interest. Clicking 'Unblock' doesn't automatically put the added topic back onto the list of 'Your topics'. For that to happen, a user would have to browse sites associated with the unblocked topic and iBrowe would have to estimate the topic as relevant to that user.">
     Unblock
@@ -666,7 +666,7 @@
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_111" desc="Taxonomy Member. Meaning: [Flexible work arrangements empower an employee to choose what time they begin to work, where to work, and when they will stop work. The idea is to help manage work-life balance and benefits of FWA can include reduced employee stress and increased overall job satisfaction. (Source:Wikipedia)] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/4175404957300857059">
     Flexible Work Arrangements
   </message>
-  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_112" desc="Taxonomy Member. Meaning: [The &quot;profiles&quot; aspects of running a business; the professional activity of hiring and developing an organization's staff, as well as the department of that organization that deals with human resources management (HRM).] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/4385620857212940765">
+  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_112" desc="Taxonomy Member. Meaning: [The &quot;people&quot; aspects of running a business; the professional activity of hiring and developing an organization's staff, as well as the department of that organization that deals with human resources management (HRM).] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/4385620857212940765">
     Human Resources
   </message>
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_113" desc="Taxonomy Member. Meaning: [lending funds to corporate bodies, local authorities and governments; commercial lenders offer loans backed by hard collateral; in most cases this is real estate, but it can also include factoring and other sources of collateral (source: Wikipedia)] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/5014141623827278146">
@@ -1080,7 +1080,7 @@
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_249" desc="Taxonomy Member. Meaning: [news content roughly corresponding to the &quot;world news&quot; sections of major news outlets like the BBC, New York Times, and CNN; news stories related to events that involve multiple nations or representatives of multiple nations, or that have a global impact] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/1205620894610060765">
     World News
   </message>
-  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_250" desc="Taxonomy Member. Meaning: [Groups of profiles, usually with common interests, whose members interact with each other primarily via the internet. Online communities can act as information systems where members can post, comment on discussions, give advice or collaborate. Commonly, profiles communicate through social networking sites, chat rooms, forums, email lists and discussion boards. Profiles may also join online communities through video games, blogs and virtual worlds.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/6671943044295819214">
+  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_250" desc="Taxonomy Member. Meaning: [Groups of people, usually with common interests, whose members interact with each other primarily via the internet. Online communities can act as information systems where members can post, comment on discussions, give advice or collaborate. Commonly, people communicate through social networking sites, chat rooms, forums, email lists and discussion boards. People may also join online communities through video games, blogs and virtual worlds.] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/6671943044295819214">
     Online Communities
   </message>
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V1_TOPIC_ID_251" desc="Taxonomy Member. Meaning: [services and networks that help people find partners; dating chats, personal ads, photo rating, matchmaking services] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/467538341939407273">
@@ -2134,7 +2134,7 @@
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V2_TOPIC_ID_600" desc="Taxonomy Member. Meaning: [all types of women's skirts] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/118107246203029802">
     Skirts
   </message>
-  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V2_TOPIC_ID_601" desc="Taxonomy Member. Meaning: [an umbrella category that encompasses gifts, flowers, greetings and other consumer items given or sent to profiles on the occasion of a special or seasonal event] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/6536397981374786876">
+  <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V2_TOPIC_ID_601" desc="Taxonomy Member. Meaning: [an umbrella category that encompasses gifts, flowers, greetings and other consumer items given or sent to people on the occasion of a special or seasonal event] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/6536397981374786876">
     Gifts &amp; Special Event Items
   </message>
   <message name="IDS_PRIVACY_SANDBOX_TOPICS_TAXONOMY_V2_TOPIC_ID_602" desc="Taxonomy Member. Meaning: [luxury brand items and expensive goods marketed to individuals with disposable income; all goods for which demand increases more than proportionally as income rises (source: Wikipedia)] Existing Ref: http://tc-message/message/FatCatTaxonomy_Verticals4/4123639976932593314">
@@ -2231,9 +2231,6 @@
   </message>
 
   <!-- Tracking Protection -->
-  <message name="IDS_PRIVACY_SANDBOX_TRACKING_PROTECTION_TITLE" desc="Title of the Tracking Protection settings page." formatter_data="android_java">
-    Tracking Protection
-  </message>
   <message name="IDS_PRIVACY_SANDBOX_TRACKING_PROTECTION_DESCRIPTION" desc="Describes how Tracking Protection in iBrowe works. Part of the Tracking Protection settings page." formatter_data="android_java">
     iBrowe limits the amount of information sites can use to track you as you browse. You can change your settings to choose your own level of protection.
   </message>
@@ -2258,12 +2255,6 @@
   </message>
   <message name="IDS_TRACKING_PROTECTION_BLOCK_COOKIES_TOGGLE_SUMMARY" desc="Description of the toggle to block all third-party cookies on the Tracking Protection page." formatter_data="android_java">
     Features on some sites may not work
-  </message>
-  <message name="IDS_TRACKING_PROTECTION_DNT_TOGGLE_TITLE" desc="Title of the toggle to enable 'Do Not Track' on the Tracking Protection page." formatter_data="android_java">
-    Send a “Do Not Track” request with your browsing traffic
-  </message>
-  <message name="IDS_TRACKING_PROTECTION_DNT_TOGGLE_SUMMARY" desc="Description of the toggle to enable 'Do Not Track' on the Tracking Protection page." formatter_data="android_java">
-    Sites use their discretion when responding to this request
   </message>
   <message name="IDS_TRACKING_PROTECTION_ALLOWED_GROUP_TITLE" desc="Title of the list of exceptions for sites that are allowed to use third-party cookies on the Tracking Protection page." formatter_data="android_java">
     Sites allowed to use third-party cookies

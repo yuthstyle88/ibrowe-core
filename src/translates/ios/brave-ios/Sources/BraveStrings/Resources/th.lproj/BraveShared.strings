@@ -29,7 +29,7 @@
 "AddToMenuItem" = "เพิ่มบุ๊กมาร์ก";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.braveAdsDataToggleOption" = "ข้อมูล iBrowe Ads";
+"ads.iBroweAdsDataToggleOption" = "ข้อมูล iBrowe Ads";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "โฆษณาและตัวติดตาม";
@@ -48,9 +48,6 @@
 
 /* Label for Cancel button */
 "AuthPromptAlertCancelButtonTitle" = "ยกเลิก";
-
-/* Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string */
-"AuthPromptAlertFormatRealmMessageText" = "ชื่อผู้ใช้และรหัสผ่านถูกร้องขอโดย %1$@ เว็บไซต์ตอบว่า: %2$@";
 
 /* Authentication prompt log in button */
 "AuthPromptAlertLogInButtonTitle" = "ลงชื่อเขาใช้";
@@ -101,7 +98,7 @@
 "BlockCookieConsentNotices" = "บล็อกการแจ้งเตือนความยินยอมในการจัดเก็บคุกกี้";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "ป้องกันเว็บไซต์จากการเก็บข้อมูลเกี่ยวกับการเยี่ยมชมเว็บก่อนหน้านี้ของคุณ";
+"BlockCookiesDescription" = "ป้องกันเว็บไซต์จากการเก็บข้อมูลเกี่ยวกับการเยี่ยมชมครั้งก่อนของคุณ\nตัวเลือก \"บล็อกคุกกี้ทั้งหมด\" ถูกยกเลิกแล้ว สำหรับข้อมูลเกี่ยวกับวิธีเปิดใช้งานตัวเลือกนี้ให้ไปที่ [หน้าช่วยเหลือ](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "การบล็อกตัวติดตาม";
@@ -145,7 +142,7 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "แอดเดรส";
 
-/* Button to show the brave panel */
+/* Button to show the iBrowe panel */
 "iBrowePanel" = "iBrowe Panel";
 
 /* No comment provided by engineer. */
@@ -161,31 +158,31 @@
 "iBroweRewardsTitle" = "iBrowe Rewards";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"braveSearchPromotion.bannerDescription" = "iBrowe Search จะไม่ทำการเก็บข้อมูลของคุณ";
+"iBroweSearchPromotion.bannerDescription" = "iBrowe Search จะไม่ทำการเก็บข้อมูลของคุณ";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "ภายหลัง";
+"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "ภายหลัง";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"braveSearchPromotion.bannerTitle" = "ค้นหาได้อย่างอิสระกับความเป็นส่วนตัวยิ่งขึ้น";
+"iBroweSearchPromotion.bannerTitle" = "ค้นหาได้อย่างอิสระกับความเป็นส่วนตัวยิ่งขึ้น";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"braveSearchPromotion.bannerTryButtonTitle" = "ลอง iBrowe Search";
+"iBroweSearchPromotion.bannerTryButtonTitle" = "ลอง iBrowe Search";
 
 /* Button title for Bottom Bar Callout View for action later */
-"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "ภายหลัง";
+"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "ภายหลัง";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "ปิด";
+"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "ปิด";
 
 /* No comment provided by engineer. */
 "iBroweShieldsAdvancedControls" = "การควบคุมขั้นสูง";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "iBrowe Shields และความเป็นส่วนตัว";
+"iBroweShieldsAndPrivacy" = "iBrowe Shield & ความเป็นส่วนตัว";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "Shields และความเป็นส่วนตัว";
+"iBroweShieldsAndPrivacyTitle" = "Shields & ความเป็นส่วนตัว";
 
 /* The number of ads and trackers blocked will be next to this */
 "iBroweShieldsBlockedCountLabel" = "บล็อกโฆษณาและสิ่งที่น่ากลัวต่างๆ แล้ว";
@@ -198,6 +195,12 @@
 
 /* No comment provided by engineer. */
 "iBroweShieldsGlobalControls" = "การควบคุมทั่วไป";
+
+/* Shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfo" = "บันทึกข้อมูลการติดต่อสำหรับการรายงานเว็บไซต์ที่เสียในอนาคต";
+
+/* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfoDescription" = "หากคุณให้ข้อมูลการติดต่อ ข้อมูลจะถูกบันทึกเพื่อใช้ในรายงานในอนาคต";
 
 /* No comment provided by engineer. */
 "iBroweShieldsSiteBroken" = "หากเว็บไซต์นี้ดูเหมือนมีปัญหา ให้ลองปิด Shields";
@@ -215,7 +218,34 @@
 "iBroweShieldsToggleHint" = "แตะสองครั้งเพื่อเปิดใช้ iBrowe Shields";
 
 /* The name of the feature */
-"bravetalk.braveTalkTitle" = "iBrowe Talk";
+"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+
+/* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
+"iBroweTranslate.languageSelectionButtonTitle" = "เลือกภาษา";
+
+/* Title for a text element that lets the user know the page was translated successfully. */
+"iBroweTranslate.pageTranslatedTitle" = "หน้าที่แปลแล้ว";
+
+/* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
+"iBroweTranslate.searchInputTitle" = "ค้นหา";
+
+/* This text is for the settings menu for all iBrowe-Translate options. */
+"iBroweTranslate.settingsMenuTitle" = "iBrowe Translate";
+
+/* This text is for the translate settings screen. It's the title of the settings menu. */
+"iBroweTranslate.settingsScreenTitle" = "iBrowe Translate";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "เมื่อเปิดใช้งาน iBrowe Translate จะตรวจจับภาษาปัจจุบันของหน้าเว็บของคุณโดยอัตโนมัติ และแสดงปุ่มแปลในแถบ URL";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "เปิดใช้งานการแปล";
+
+/* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
+"iBroweTranslate.translateFromToTitle" = "ถึง";
+
+/* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
+"iBroweTranslate.unknownLanguageTitle" = "ภาษาที่ไม่รู้จัก";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "ล็อกเบราว์เซอร์";
@@ -310,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "ได้รับจาก";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "ส่วนประกอบของโดเมน";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -455,7 +485,7 @@
 "CommonDownload" = "ดาวน์โหลด";
 
 /* Text to select sharing something (example: image, video, URL) */
-"CommonShare" = "แชร์";
+"CommonShare" = "แบ่งปัน";
 
 /* No comment provided by engineer. */
 "Confirm" = "ยืนยัน";
@@ -569,7 +599,7 @@
 "defaultBrowserCallout.introPrimaryText" = "เปิดลิงก์ทั้งหมดด้วย iBrowe เพื่อปกป้องความเป็นส่วนตัวของคุณ";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "iBrowe Shields ได้บล็อกเครื่องมือติดตามและโฆษณา บันทึกข้อมูล และช่วยให้คุณประหยัดเวลาในทุกเว็บไซต์ที่คุณเยี่ยมชม";
+"defaultBrowserCallout.introSecondaryText" = "iBrowe Shields ได้บล็อกเครื่องมือติดตาม & โฆษณา บันทึกข้อมูล และช่วยให้คุณประหยัดเวลาในทุกเว็บไซต์ที่คุณเยี่ยมชม";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "เปิดการตั้งค่า แตะที่แอปเบราว์เซอร์เริ่มต้น แล้วเลือก iBrowe";
@@ -629,7 +659,7 @@
 "DisplaySettingsSection" = "การแสดงผล";
 
 /* No comment provided by engineer. */
-"Done" = "เสร็จ";
+"Done" = "เสร็จแล้ว";
 
 /* cookie settings option */
 "DontBlockCookies" = "อย่าบล็อกคุกกี้";
@@ -755,7 +785,7 @@
 "FindInPage" = "ค้นหาในหน้าเว็บ";
 
 /* Done button in Find in Page Toolbar. */
-"FindInPageDoneButtonAccessibilityLabel" = "เสร็จ";
+"FindInPageDoneButtonAccessibilityLabel" = "เสร็จแล้ว";
 
 /* Find %@ text in page. */
 "FindInPageFormat" = "ค้นหา \"%@\"";
@@ -890,19 +920,19 @@
 "login.loginInfoSetPasscodeAlertDescription" = "หากต้องการมองเห็นรหัสผ่าน คุณจะต้องตั้งรหัสปลดล็อกบนอุปกรณ์ของคุณก่อน";
 
 /* The title displayed in alert when a user needs to set passcode */
-"login.loginInfoSetPasscodeAlertTitle" = "ตั้งรหัสปลดล็อก";
+"login.loginInfoSetPasscodeAlertTitle" = "ตั้งพาสเวิร์ด";
 
 /* The message displayed on the password list screen when there is not password found */
-"login.loginListEmptyScreenTitle" = "ไม่พบการลงชื่อเข้าใข้";
+"login.loginListEmptyScreenTitle" = "ไม่พบการลงชื่อเข้าใช้";
 
 /* Title for navigation bar of the login list screen */
-"login.loginListNavigationTitle" = "การลงชื่อเข้าใช้และรหัสผ่าน";
+"login.loginListNavigationTitle" = "การลงชื่อเข้าใช้ & รหัสผ่าน";
 
 /* The header title displayed over the never saved login list entry */
 "login.loginListNeverSavedHeaderTitle" = "ไม่เคยบันทึก";
 
 /* The header title displayed over the login list */
-"login.loginListSavedLoginsHeaderTitle" = "การลงชื่อเข้าใช้ที่บันทึกเอาไว้";
+"login.loginListSavedLoginsHeaderTitle" = "การลงชื่อเข้าใช้ที่บันทึก";
 
 /* The text for placeholder inside search bar in login list */
 "login.loginListSearchBarPlaceHolderTitle" = "ตัวกรอง";
@@ -1007,7 +1037,7 @@
 "nprRedirectFooter" = "เปลี่ยนเส้นทางลิงก์ NPR ไปยังเวอร์ชันที่เป็นข้อความโดยอัตโนมัติ (ที่ text.npr.org)";
 
 /* Bookmark title for iBrowe Support */
-"ntp.braveSupportFavoriteTitle" = "การสนับสนุนของ iBrowe";
+"ntp.iBroweSupportFavoriteTitle" = "การสนับสนุนของ iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "รับโทเค็น";
@@ -1043,7 +1073,7 @@
 "ntp.settingsDefaultImagesOnly" = "ภาพเริ่มต้น";
 
 /* A selection to let the users see sponsored image and video backgrounds when opening a new tab. */
-"ntp.settingsSponsoredImagesAndVideosSelection" = "ภาพและวิดีโอที่ได้รับการสนับสนุน";
+"ntp.settingsSponsoredImagesAndVideosSelection" = "ภาพ & วิดีโอที่ได้รับการสนับสนุน";
 
 /* A selection to let the users see sponsored image backgrounds when opening a new tab. */
 "ntp.settingsSponsoredImagesSelection" = "ภาพที่ได้รับการสนับสนุน";
@@ -1060,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "เมื่อเปิดใช้งาน Rewards จะถือว่าคุณยอมรับ %@";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessage" = "รับโทเค็นและให้รางวัลกับผู้สร้างเนื้อหาที่ยอดเยี่ยมขณะที่คุณท่องเว็บ";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "รับคะแนนและให้รางวัลกับผู้สร้างเนื้อหาที่ยอดเยี่ยมขณะที่คุณท่องเว็บ";
 
-/* Title when opting into brave Ads when region becomes available */
+/* Title when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInTitle" = "iBrowe Ads อยู่นี่แล้ว!";
 
 /* Title for ads onboarding screen */
@@ -1127,7 +1157,7 @@
 "OBRewardsDetailInAdRegion" = "รับโทเค็นและให้รางวัลกับผู้สร้างเนื้อหาที่ยอดเยี่ยมขณะที่คุณท่องเว็บ";
 
 /* Detail text for rewards agreement onboarding screen */
-"OBRewardsPrivacyPolicyDetailLink" = "นโยบายความเป็นส่วนตัว";
+"OBRewardsPrivacyPolicyDetailLink" = "นโยบายสความเป็นส่วนตัว";
 
 /* Title for rewards onboarding screen */
 "OBRewardsTitle" = "iBrowe Rewards";
@@ -1154,7 +1184,7 @@
 "OBTurnOnButton" = "เริ่ม";
 
 /* The description text shown when there is big tech tracker among trackers. Example usage: Google, Amazon and 32 other trackers blocked */
-"onboarding.blockedAdsOnboardingBigTechInformationText" = "บล็อกโฆษณาและเครื่องมือติดตาม %1$@ และ %2$lld อื่นๆ แล้ว";
+"onboarding.blockedAdsOnboardingBigTechInformationText" = "บล็อกโฆษณา & เครื่องมือติดตาม %1$@ และ %2$lld อื่นๆ แล้ว";
 
 /* The footnote indicating what iBrowe shields is blocking */
 "onboarding.blockedAdsOnboardingFootnoteText" = "ดูสิ่งรบกวนทั้งหมดที่ iBrowe บล็อกในทุกหน้าด้วย iBrowe Shields";
@@ -1163,13 +1193,13 @@
 "onboarding.blockedAdsOnboardingInstructionsText" = "แตะเพื่อดู iBrowe Shields";
 
 /* The description text shown when there is no big tech tracker among trackers. Example usage: 31 Ads & trackers blocked. The number here is presented separately so it is not in translation. */
-"onboarding.blockedAdsOnboardingNoBigTechInformationText" = "บล็อกโฆษณาและเครื่องมือติดตามแล้ว";
+"onboarding.blockedAdsOnboardingNoBigTechInformationText" = "บล็อกโฆษณา & ตัวติดตามแล้ว";
 
 /* Button text to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptButton" = "ลิงก์การสมัครสมาชิก VPN ของคุณ";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "การสมัครสมาชิก iBrowe VPN สามารถปกป้องอุปกรณ์ได้สูงสุด 5 รายการทั้ง Android, iOS และเดสก์ท็อป เพียงลิงก์การสมัครสมาชิก App Store กับบัญชี iBrowe ของคุณ";
+"onboarding.linkReceiptDescription" = "การสมัครสมาชิก iBrowe VPN สามารถปกป้องอุปกรณ์ได้สูงสุด 10 รายการทั้ง Android, iOS และเดสก์ท็อป เพียงลิงก์การสมัครสมาชิก App Store กับบัญชี iBrowe ของคุณ";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "ขยายการปกป้อง iBrowe Firewall + VPN ของคุณ";
@@ -1181,7 +1211,7 @@
 "onboarding.navigateSettingsOnboardingScreenTitle" = "กำลังนำคุณไปยังการตั้งค่า...";
 
 /* Description for the NTP pop-over that describes the tracking information on NTP */
-"onboarding.ntpOnboardingPopOverTrackerDescription" = "เมื่อทำการบล็อกโฆษณาและเครื่องมือติดตามแล้ว เว็บไศต์จะใช้ข้อมูลน้อยลง และโหลดได้รวดเร็วยิ่งขึ้น";
+"onboarding.ntpOnboardingPopOverTrackerDescription" = "เมื่อทำการบล็อกโฆษณา & เครื่องมือติดตามแล้ว เว็บไซต์จะใช้ข้อมูลน้อยลง และโหลดได้รวดเร็วยิ่งขึ้น";
 
 /* Description for the Omnibox (URL Bar) pop-over that describes faster load times. */
 "onboarding.omniboxOnboardingPopOverDescription" = "ดูความแตกต่างที่ iBrowe มอบให้:\nไม่มีโฆษณา ไม่มีตัวติดตาม โหลดหน้าเร็วกว่า";
@@ -1224,6 +1254,12 @@
 
 /* Context menu item for opening a link in a new window */
 "OpenInNewWindowTitle" = "เปิดในหน้าต่างใหม่";
+
+/* Title of the alert when a mobile configuration profile is available for download. %@ is the URL placeholder of the website where the profile will be downloaded from */
+"OpenMobileConfigurationAlertDescription" = "ดำเนินการดาวน์โหลดโปรไฟล์การตั้งค่าจาก %@";
+
+/* Title of the alert when a mobile configuration profile is available for download */
+"OpenMobileConfigurationAlertTitle" = "โปรไฟล์การตั้งค่าพร้อมใช้งาน";
 
 /* Context menu option for opening a link in a new private tab */
 "OpenNewPrivateTabButtonTitle" = "เปิดในแท็บส่วนตัวใหม่";
@@ -1318,38 +1354,44 @@
 /* Title for open tabs menu item */
 "OpenTabsMenuItem" = "เปิดแท็บ";
 
+/* Title of the alert when a calendar event is available for download. %@ is the URL placeholder of the website where the calendar will be downloaded from */
+"OpenTextCalendarAlertDescription" = "ดำเนินการดาวน์โหลดกิจกรรมปฏิทินจาก %@";
+
+/* Title of the alert when a calendar event is available for download */
+"OpenTextCalendarAlertTitle" = "กิจกรรมในปฏิทินพร้อมใช้งาน";
+
 /* Button title to that opens a website. */
 "OpenWebsite" = "เปิดเว็บไซต์";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.braveLeoItemDescription" = "Leo คือผู้ช่วยอัจฉริยะที่ทำงานด้วยระบบ AI ที่ถูกสร้างมาสำหรับเบราว์เซอร์นี้โดยเฉพาะ";
+"optionsMenu.iBroweLeoItemDescription" = "Leo คือผู้ช่วยอัจฉริยะที่ทำงานด้วยระบบ AI ที่ถูกสร้างมาสำหรับเบราว์เซอร์นี้โดยเฉพาะ";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.braveNewsItemDescription" = "เรื่องเด่นประจำวันนี้ในฟีดข่าวส่วนตัว";
+"optionsMenu.iBroweNewsItemDescription" = "เรื่องเด่นประจำวันนี้ในฟีดข่าวส่วนตัว";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.braveNewsItemTitle" = "ข่าวสาร";
+"optionsMenu.iBroweNewsItemTitle" = "ข่าวสาร";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.bravePlaylistItemDescription" = "เก็บเพลย์ลิสต์ออฟไลน์ของวิดีโอ/สตรีมใดก็ได้";
+"optionsMenu.iBrowePlaylistItemDescription" = "เก็บเพลย์ลิสต์ออฟไลน์ของวิดีโอ/สตรีมใดก็ได้";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.bravePlaylistItemTitle" = "เพลย์ลิสต์";
+"optionsMenu.iBrowePlaylistItemTitle" = "เพลย์ลิสต์";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.braveTalkItemDescription" = "วิดีโอคอลส่วนตัวโดยตรงบนเบราว์เซอร์ของคุณ";
+"optionsMenu.iBroweTalkItemDescription" = "วิดีโอคอลส่วนตัวโดยตรงบนเบราว์เซอร์ของคุณ";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.braveTalkItemTitle" = "พูดคุย";
+"optionsMenu.iBroweTalkItemTitle" = "พูดคุย";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.braveVPNItemDescription" = "ปกป้องอุปกรณ์ของคุณทั้งหมดทางออนไลน์";
+"optionsMenu.iBroweVPNItemDescription" = "ปกป้องอุปกรณ์ของคุณทั้งหมดทางออนไลน์";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.braveVPNItemTitle" = "VPN";
+"optionsMenu.iBroweVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.braveWalletItemDescription" = "คริปโตวอลเล็ทที่ปลอดภัย โดยไม่จำเป็นต้องใช้ส่วนขยาย";
+"optionsMenu.iBroweWalletItemDescription" = "คริปโตวอลเล็ทที่ปลอดภัย โดยไม่จำเป็นต้องใช้ส่วนขยาย";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "ฟีเจอร์ต่างๆ ของ iBrowe";
@@ -1463,7 +1505,7 @@
 "playlist.carplaySettingsSectionTitle" = "การตั้งค่า";
 
 /* The title of the playlist when in Carplay mode */
-"playlist.carplayTitle" = "iBrowe เพลย์ลิสต์";
+"playlist.carplayTitle" = "iBrowe Playlist";
 
 /* Title for changing the folder of the current media playlist item */
 "playList.changeFoldersButtonTitle" = "เปลี่ยนเพลย์ลิสต์";
@@ -1541,10 +1583,10 @@
 "playlist.playlistAutoSaveSettingsDescription" = "การเพิ่มไฟล์วิดีโอและเสียงสำหรับการใช้งานแบบออฟไลน์อาจใช้พื้นที่เก็บข้อมูลจำนวนมากบนอุปกรณ์ของคุณ รวมถึงใช้ข้อมูลมือถือของคุณด้วย";
 
 /* Footer Text for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi)) */
-"playlist.playlistAutoSaveSettingsFooterText" = "ตัวเลือกนี้จะเก็บรายการในเพลย์ลิสต์ของคุณไว้ในอุปกรณ์ของคุณโดยอัตโนมัติ เพื่อให้คุณสามารถเล่นได้โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต";
+"playlist.playlistAutoSaveSettingsFooterText" = "เมื่อคุณเปิดเนื้อหาในเพลย์ลิสต์ ตัวเลือกนี้จะทำให้รายการในเพลย์ลิสต์ที่เปิดอยู่ยังคงอยู่ในอุปกรณ์ของคุณเพื่อให้คุณสามารถเล่นได้โดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต";
 
 /* Title for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi) */
-"playlist.playlistAutoSaveSettingsTitle" = "บันทึกอัตโนมัติสำหรับเล่นออฟไลน์";
+"playlist.playlistAutoSaveSettingsTitle" = "บันทึกเนื้อหาสำหรับการเล่นแบบออฟไลน์";
 
 /* When the user's disk space is almost full */
 "playlist.playlistDiskSpaceWarningMessage" = "การเพิ่มไฟล์วิดีโอและไฟล์เสียงสำหรับการใช้งานแบบออฟไลน์อาจใช้พื้นที่เก็บข้อมูลบนอุปกรณ์ของคุณมาก โปรดลบไฟล์บางไฟล์ออกเพื่อเพิ่มพื้นที่เก็บข้อมูล";
@@ -1562,7 +1604,7 @@
 "playlist.playlistLongPressSettingsOptionTitle" = "เปิดใช้งานการกดค้าง";
 
 /* Text for Playlist Media & Offline Data Toggle while clearing the offline data storage in settings */
-"playlist.playlistMediaAndOfflineDataToggleOption" = "เพลย์ลิสต์สื่อและข้อมูลออฟไลน์";
+"playlist.playlistMediaAndOfflineDataToggleOption" = "เพลย์ลิสต์สื่อ & ข้อมูลออฟไลน์";
 
 /* Text for Playlist Offline Data Toggle while clearing the offline data storage in settings */
 "playlist.playlistOfflineDataToggleOption" = "เพลย์ลิสต์ข้อมูลออฟไลน์";
@@ -1617,12 +1659,6 @@
 
 /* Title for the Playlist Settings Option for Enable/Disable ability to start playing from the point where user last left-off */
 "playlist.playlistStartPlaybackSettingsOptionTitle" = "จำตำแหน่งการเล่นไฟล์";
-
-/* Description for Playlist setting */
-"playlist.playlistWebCompatibilityDescription" = "ปิดใช้งาน API ของ WebKit MediaSource";
-
-/* Title for Playlist setting */
-"playlist.playlistWebCompatibilityTitle" = "ความเข้ากันได้ของเว็บไซต์";
 
 /* Title for removing offline mode storage */
 "playList.removeActionButtonTitle" = "นำออก";
@@ -1679,13 +1715,13 @@
 "playList.sorryAlertTitle" = "ขออภัย";
 
 /* The title for the toast that shows up on a page containing a playlist item that was added to playlist */
-"playList.toastAddedToPlaylistTitle" = "เพิ่มไปยัง iBrowe Playlist แล้ว";
+"playList.toastAddedToPlaylistTitle" = "ดูในเพลย์ลิสต์";
 
 /* The title for the toast button when an item was added to playlist */
 "playList.toastAddToPlaylistOpenButton" = "เปิด";
 
 /* The title for the toast that shows up on a page containing a playlist item */
-"playList.toastAddToPlaylistTitle" = "เพิ่มไปยัง iBrowe Playlist";
+"playList.toastAddToPlaylistTitle" = "เพิ่มไปยังเพลย์ลิสต์";
 
 /* The title for the toast that shows up on a page when an item that has already been added, was updated. */
 "playList.toastExitingItemPlaylistTitle" = "ดูใน iBrowe Playlist";
@@ -1694,7 +1730,7 @@
 "playList.undoRemoveButtonTitle" = "เลิกทำ";
 
 /* Footer for option to disable URL-Bar button */
-"playlist.urlBarButtonOptionFooter" = "เพิ่มปุ่มเพลย์ลิสต์ (มีลักษณะเป็น 4 เส้นพร้อมเครื่องหมาย +) ข้างแถบแอดเดรสในเบราว์เซอร์ของ iBrowe ปุ่มนี้ช่วยให้คุณเข้าถึงเพลย์ลิสต์ที่เปิดอยู่ได้อย่างรวดเร็ว หรือเพิ่มหรือลบสื่อ";
+"playlist.urlBarButtonOptionFooter" = "เพิ่มปุ่มเพลย์ลิสต์ ข้างแถบแอดเดรสในเบราว์เซอร์ของ iBrowe ปุ่มนี้ช่วยให้คุณเข้าถึงเพลย์ลิสต์ที่เปิดอยู่ได้อย่างรวดเร็ว หรือเพิ่มหรือลบสื่อ";
 
 /* Title for option to disable URL-Bar button */
 "playlist.urlBarButtonOptionTitle" = "เปิดใช้งานปุ่มการเข้าถึงด่วน";
@@ -1718,7 +1754,7 @@
 "playlistFolders.editFolderScreenTitle" = "แก้ไขโฟลเดอร์";
 
 /* The title of the menu option that allows the user to edit the name of a folder */
-"playlistFolders.editMenuTitle" = "แก้ไขเพลย์ลิสต์";
+"playlistFolders.editMenuTitle" = "แกไขเพลย์ลิสต์";
 
 /* The error shown to the user when we cannot save their changes made on a folder */
 "playlistFolders.errorSavingMessage" = "ขออภัย เราไม่สามารถบันทึกการเปลี่ยนแปลงที่คุณทำกับโฟลเดอร์นี้ได้";
@@ -1826,25 +1862,25 @@
 "privacyHub.allTimeListsHeader" = "ตั้งแต่ต้น";
 
 /* Title of a section to show total count of trackers blocked by iBrowe */
-"privacyHub.allTimeListsTrackersView" = "เครื่องมือติดตามและโฆษณา";
+"privacyHub.allTimeListsTrackersView" = "ตัวติดตามและโฆษณา";
 
 /* Title of a section to show websites containing highest amount of trackers */
 "privacyHub.allTimeListsWebsitesView" = "เว็บไซต์";
 
 /* Header title for a list of most frequent ads and trackers detected. */
-"privacyHub.allTimeListTrackersHeaderTitle" = "เครื่องมือติดตามและโฆษณาที่คุณดูบ่อยที่สุดบนเว็บไซต์ที่คุณเยี่ยมชม";
+"privacyHub.allTimeListTrackersHeaderTitle" = "เครื่องมือติดตาม & โฆษณาที่คุณดูบ่อยที่สุดบนเว็บไซต์ที่คุณเยี่ยมชม";
 
 /* Header title for a list of websites with ads and trackers. */
-"privacyHub.allTimeListWebsitesHeaderTitle" = "เว็บไซต์ที่มีเครื่องมือติดตามและโฆษณามากที่สุด";
+"privacyHub.allTimeListWebsitesHeaderTitle" = "เว็บไซต์ที่มีเครื่องมือติดตาม & โฆษณามากที่สุด";
 
 /* Displays a number of websites on which we blocked trackers, example usage: '23 sites' */
 "privacyHub.allTimeSitesCount" = "%lld เว็บไซต์";
 
 /* Displays a number of trackers we blocked on a particular website, example usage: '23 trackers & ads' */
-"privacyHub.allTimeTrackersCount" = "เครื่องมือติดตามและโฆษณา %lld ตัว";
+"privacyHub.allTimeTrackersCount" = "%lld ตัวติดตาม & โฆษณา";
 
 /* Title under which we display most name of the most blocked tracker or ad. */
-"privacyHub.allTimeTrackerTitle" = "เครื่องมือติดตามและโฆษณา";
+"privacyHub.allTimeTrackerTitle" = "ตัวติดตาม & โฆษณา";
 
 /* Title under which we display a website on which there's the highest number of trackers or ads. */
 "privacyHub.allTimeWebsiteTitle" = "เว็บไซต์";
@@ -1880,7 +1916,7 @@
 "privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** ถูกบล็อคโดย iBrowe Shields บน **%2$lld** เว็บไซต์";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
-"privacyHub.mostFrequentTrackerAndAdTitle" = "เครื่องมือติดตามและโฆษณาที่พบบ่อยที่สุด";
+"privacyHub.mostFrequentTrackerAndAdTitle" = "เครื่องมือติดตาม & โฆษณาที่พบบ่อยที่สุด";
 
 /* Text of a callout that tell user they need to browser some websites first in order to see privacy stats data */
 "privacyHub.noDataCalloutBody" = "เยี่ยมชมเว็บไซต์บางแห่งเพื่อดูข้อมูลที่นี่";
@@ -1955,7 +1991,7 @@
 "privacyHub.vpnAlertLocationTrackerTypeSingular" = "การปิงตำแหน่ง";
 
 /* Type of tracker blocked by the VPN, it's a regular tracker or an ad. */
-"privacyHub.vpnAlertRegularTrackerTypePlural" = "เครื่องมือติดตามและโฆษณา";
+"privacyHub.vpnAlertRegularTrackerTypePlural" = "ตัวติดตาม & โฆษณา";
 
 /* Type of tracker blocked by the VPN, it's a regular tracker or an ad. */
 "privacyHub.vpnAlertRegularTrackerTypeSingular" = "เครื่องมือติดตามและโฆษณา";
@@ -2146,6 +2182,9 @@
 /* A label for a text entry field where the user can provide contact details within a web-compatibilty report */
 "ReportBrokenContactMe" = "ติดต่อฉันที่: (ไม่บังคับ)";
 
+/* Contact info storing description */
+"ReportBrokenContactMeDescription" = "หากคุณให้ข้อมูลติดต่อไว้ ข้อมูลนั้นจะถูกเก็บเพื่อรายงานปัญหาเว็บไซต์ที่เสียในอนาคต";
+
 /* A placeholder for a text entry field within a web-compatibilty report which shows a few suggestions of what the user should enter for their contact contact details (in a 'Contact me at: (optional)' field). */
 "ReportBrokenContactMeSuggestions" = "อีเมล, Twitter, ฯลฯ";
 
@@ -2158,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "ส่ง";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" ต้องการเข้าถึงกล้องและไมโครโฟน";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraPermissionPrompt" = "\"%@\" ต้องการเข้าถึงกล้อง";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "อนุญาต";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" ต้องการเข้าถึงอุปกรณ์จับภาพสื่อ";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" ต้องการเข้าถึงไมโครโฟน";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2183,7 +2222,7 @@
 "RestoreTabAffirmativeButtonTitle" = "ใช่";
 
 /* Restore Tabs Negative Action */
-"RestoreTabNegativeButtonTitle" = "ไม่";
+"RestoreTabNegativeButtonTitle" = "ไม่มี";
 
 /* Restore Tabs Prompt Description */
 "RestoreTabOnCrashAlertMessage" = "ขออภัย iBrowe ขัดข้องหรือไม่สามารถปิดได้อย่างถูกต้อง\nต้องการกู้คืนแท็บของคุณหรือไม่";
@@ -2192,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe ปิดตัวลงอย่างไม่คาดคิด";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "ด้วย iBrowe Rewards คุณสามารถดูโฆษณาที่รักษาความเป็นส่วนตัวจากเครือข่าย iBrowe Ads ได้ ไม่ต้องมีตัวติดตาม ไม่เกิดความล่าช้า และข้อมูลของคุณจะยังคงปลอดภัยอย่างสมบูรณ์";
+"rewards.iBroweTalkRewardsOptInBody" = "ด้วย iBrowe Rewards คุณสามารถดูโฆษณาที่รักษาความเป็นส่วนตัวจากเครือข่าย iBrowe Ads ได้ ไม่ต้องมีตัวติดตาม ไม่เกิดความล่าช้า และข้อมูลของคุณจะยังคงปลอดภัยอย่างสมบูรณ์";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.braveTalkRewardsOptInButtonTitle" = "เปิดใช้งาน Rewards";
+"rewards.iBroweTalkRewardsOptInButtonTitle" = "เปิดใช้งาน Rewards";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "คลิกที่ใดก็ได้บนหน้าจอเพื่อดำเนินการต่อใน iBrowe Talk";
+"rewards.iBroweTalkRewardsOptInSuccessBody" = "คลิกที่ใดก็ได้บนหน้าจอเพื่อดำเนินการต่อใน iBrowe Talk";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessTitle" = "คุณสามารถเริ่มการโทรฟรีได้เลยตอนนี้";
+"rewards.iBroweTalkRewardsOptInSuccessTitle" = "คุณสามารถเริ่มการโทรฟรีได้เลยตอนนี้";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "หากต้องการเริ่มการโทรฟรี ให้เปิดการทำงานของ iBrowe Rewards";
+"rewards.iBroweTalkRewardsOptInTitle" = "หากต้องการเริ่มการโทรฟรี ให้เปิดการทำงานของ iBrowe Rewards";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "เปิดใช้งานเพื่อช่วยสนับสนุน iBrowe และชุมชน BAT";
@@ -2357,7 +2396,7 @@
 "RewardsInternalsRewardsTypeRecurringTip" = "ทิปที่ให้ประจำ";
 
 /* No comment provided by engineer. */
-"RewardsInternalsSharableBasicDescription" = "โปรไฟล์ Rewards อุปกรณ์และข้อมูลยอดเงิน (แชร์เสมอ)";
+"RewardsInternalsSharableBasicDescription" = "ข้อมูลโปรไฟล์รางวัล อุปกรณ์ &ยอดคงเหลือ (แชร์เสมอ)";
 
 /* No comment provided by engineer. */
 "RewardsInternalsSharableBasicTitle" = "ข้อมูลเบื้องต้น";
@@ -2375,7 +2414,7 @@
 "RewardsInternalsSharableLogsDescription" = "การบันทึก Rewards แบบเฉพาะ";
 
 /* No comment provided by engineer. */
-"RewardsInternalsShare" = "แชร์";
+"RewardsInternalsShare" = "แบ่งปัน";
 
 /* 'Rewards' as in 'iBrowe Rewards' */
 "RewardsInternalsShareInternalsTitle" = "แชร์ Rewards ภายใน";
@@ -2459,7 +2498,7 @@
 "SearchesForSuggestionButtonAccessibilityText" = "ค้นหาคำแนะนำ";
 
 /* Section header for history and bookmarks and open tabs option */
-"SearchHistorySectionHeader" = "เปิดแท็บ บุ๊กมาร์ก และประวัติการเข้าชม";
+"SearchHistorySectionHeader" = "เปิดแท็บ & บุ๊กมาร์ค & ประวัติ";
 
 /* Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode */
 "SearchInputViewClearButtonTitle" = "ล้างการค้นหา";
@@ -2651,7 +2690,7 @@
 "shieldEducation.trackerCountShareSubtitle" = "ยินดีด้วย คุณเป็นคนพิเศษเลยทีเดียว";
 
 /* Title for Shield Education Tracker Count Share. The parameter substituted for "%ld" is the count of the trackers and ads blocked in total until present. E.g.: 5000 trackers & ads blocked */
-"shieldEducation.trackerCountShareTitle" = "บล็อกแอปติดตามและโฆษณาแล้ว %ld ตัว";
+"shieldEducation.trackerCountShareTitle" = "บล็อกแอปติดตาม & โฆษณาแล้ว %ld ตัว";
 
 /* Subtitle for Shield Education Tracker Video Ad Block */
 "shieldEducation.videoAdBlockSubtitle" = "วิดีโอที่ไม่มีโฆษณาใช้ข้อมูลน้อยกว่า ";
@@ -2690,7 +2729,7 @@
 "shortcuts.activityTypeClearHistoryDescription" = "เปิดเบราว์เซอร์ในแท็บใหม่และลบข้อมูลประวัติการเข้าชมเบราว์เซอร์ส่วนตัวทั้งหมด";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeClearHistorySuggestedPhrase" = "ล้างประวัติการเข้าชมเบราว์เซอร์ส่วนตัว";
+"shortcuts.activityTypeClearHistorySuggestedPhrase" = "ล่้างประวัติการเข้าชมเบราว์เซอร์";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryTitle" = "ล้างประวัติการเข้าชมเบราว์เซอร์ของ iBrowe";
@@ -2762,10 +2801,10 @@
 "shortcuts.activityTypeTabDescription" = "เริ่มค้นหาเว็บไซต์อย่างปลอดภัยด้วย iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.customIntentOpenBookmarkSuggestedPhrase" = "เปิดบุ๊กมาร์กเว็บไซต์";
+"shortcuts.customIntentOpenBookmarkSuggestedPhrase" = "เปิดเว็บไซต์ที่บุ๊กมาร์ก";
 
 /* No comment provided by engineer. */
-"shortcuts.customIntentOpenHistorySuggestedPhrase" = "เปิดประวัติการเข้าชมเว็บไซต์";
+"shortcuts.customIntentOpenHistorySuggestedPhrase" = "เปิดจากประวัติการเข้าชมเว็บไซต์";
 
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "เปิดเว็บไซต์";
@@ -2777,7 +2816,7 @@
 "shortcuts.shortcutOpenApplicationSettingsTitle" = "เปิดการตั้งค่า";
 
 /* Description of Clear Browser History Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsClearBrowserHistoryDescription" = "ใช้ทางลัดเพื่อเปิดแท็บใหม่และล้างประวัติเบราว์เซอร์ผ่าน Siri - Voice Assistant";
+"shortcuts.shortcutSettingsClearBrowserHistoryDescription" = "ใช้ทางลัดเพื่อเปิดแท็บใหม่ & ล้างประวัติเบราว์เซอร์ผ่าน Siri - Voice Assistant";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsClearBrowserHistoryTitle" = "ล่้างประวัติการเข้าชมเบราว์เซอร์";
@@ -2795,7 +2834,7 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "เปิดบุ๊กมาร์ก";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "ใช้ทางลัดเพื่อเปิดแท็บใหม่และแสดง iBrowe News Feed ผ่าน Siri - Voice Assistant";
+"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "ใช้ทางลัดเพื่อเปิดแท็บใหม่ & แสดง iBrowe News Feed ผ่าน Siri - Voice Assistant";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "เปิด iBrowe News";
@@ -3017,7 +3056,7 @@
 "sync.expiredError" = "โค้ดสำหรับซิงค์หมดอายุแล้ว ให้สร้างโค้ดใหม่แล้วลองอีกครั้ง";
 
 /* Generic Sync Error Description */
-"sync.genericError" = "ขออภัย มีบางอย่างผิดพลาด";
+"sync.genericError" = "ขออภัย มีบางอย่างผิดพลาดขึ้น";
 
 /* Grand camera access */
 "sync.grantCameraAccess" = "เปิดใช้งานกล้อง";
@@ -3071,7 +3110,7 @@
 "sync.removeCurrentDeviceMessage" = "ข้อมูลในเครื่องจะคงอยู่ไม่เปลี่ยนแปลงในทุกอุปกรณ์ อุปกรณ์อื่นๆ ในซิงค์เชนจะยังคงซิงค์กันอยู่";
 
 /* Title for removing the current device from Sync */
-"sync.removeCurrentDeviceTitle" = "ลบ %@ ออกจากซิงค์เชนหรือไม่";
+"sync.removeCurrentDeviceTitle" = "ลบ %@ จากซิงค์เชนหรือไม่";
 
 /* Action button for removing sync device. */
 "sync.removeDevice" = "นำออก";
@@ -3131,7 +3170,7 @@
 "sync.syncDeleteAccountAlertDescriptionPart3" = "การลบนั้นเป็นถาวรและจะไม่สามารถกู้คืนข้อมูลได้ ถ้าคุณตัดสินใจที่จะเริ่มใช้การซิงค์อีกครั้ง คุณจะต้องสร้างบัญชีใหม่และเพิ่มอุปกรณ์ใหม่ทีละเครื่อง";
 
 /* Sync you browser settings across devices. */
-"sync.Syncdevices" = "อุปกรณ์และการตั้งค่า";
+"sync.Syncdevices" = "อุปกรณ์ & การตั้งค่า";
 
 /* Sync remove device? */
 "sync.syncRemoveThisDeviceQuestion" = "ลบอุปกรณ์นี้หรือไม่";
@@ -3248,7 +3287,7 @@
 "TabToolbarSearchAddressPlaceholderText" = "ค้นหาหรือใส่แอดเดรสของคุณ";
 
 /* Accessibility Label for the browser toolbar Share button */
-"TabToolbarShareButtonAccessibilityLabel" = "แชร์";
+"TabToolbarShareButtonAccessibilityLabel" = "แบ่งปัน";
 
 /* Accessibility Label for the tab toolbar Stop button */
 "TabToolbarStopButtonAccessibilityLabel" = "หยุด";
@@ -3344,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "ฟีด RSS ที่พร้อมใช้งาน";
 
 /* The name of the feature */
-"today.braveToday" = "ข่าว iBrowe";
+"today.iBroweToday" = "ข่าว iBrowe";
 
 /* The name of the feature in settings */
-"today.braveToday.title" = "ข่าวสาร";
+"today.iBroweToday.title" = "ข่าวสาร";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "ติดตามหัวข้อที่คุณสนใจ";
@@ -3403,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "ติดตาม";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
 "today.getFeedsFromSiteButtonTitle" = "รับฟีดจาก";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3473,7 +3512,7 @@
 "today.similarToSourceSubtitle" = "คล้ายคลึงกับ %@";
 
 /* No comment provided by engineer. */
-"today.sourcesAndSettings" = "แหล่งที่มาและการตัั้งค่า";
+"today.sourcesAndSettings" = "แหล่งที่มา & การตัั้งค่า";
 
 /* A header title shown over a list of online news sources (i.e. CNN, NYT, etc.) */
 "today.sourcesHeaderTitle" = "แหล่งที่มา";
@@ -3498,6 +3537,9 @@
 
 /* Button title that when tapped toggles the web page in our out of reader mode */
 "ToggleReaderMode" = "สลับเป็นโหมดผู้อ่าน";
+
+/* Title of an action that allows the user to translate the current web-page to another language */
+"TranslatePage" = "แปล";
 
 /* Prompt shown before enabling provider search queries */
 "Turn on search suggestions?" = "ต้องการเปิดคำแนะนำในการค้นหาหรือไม่";
@@ -3530,7 +3572,7 @@
 "UserWalletGenericErrorMessage" = "มีปัญหาเกิดขึ้นขณะเข้าสู่ระบบของบัญชี Uphold ของคุณ โปรดลองใหม่อีกครั้ง";
 
 /* No comment provided by engineer. */
-"UserWalletGenericErrorTitle" = "ขออภัย เกิดข้อผิดพลาดบางอย่างขึ้น";
+"UserWalletGenericErrorTitle" = "ขออภัย มีบางอย่างผิดพลาดขึ้น";
 
 /* Version number of iBrowe shown in settings */
 "VersionTemplate" = "เวอร์ชัน %1$@ (%2$@)";
@@ -3542,133 +3584,10 @@
 "voice.search.microphone.description.required" = "โปรดอนุญาตให้เข้าถึงไมโครโฟนในการตั้งค่าระบบ iOS เพื่อให้ iBrowe ใช้การค้นหาด้วยเสียงโดยไม่เปิดเผยตัวตน";
 
 /* Title for warning alert microphone access is required. */
-"voice.search.microphone.title.required" = "จำเป็นต้องเข้าถึงไมโครโฟน";
+"voice.search.microphone.title.required" = "ต้องใช้การเข้าถึงไมโครโฟน";
 
 /* Disclaimer for screen to search using voice. */
 "voice.search.screen.disclaimer" = "iBrowe จะไม่จัดเก็บหรือแบ่งปันการค้นหาด้วยเสียงของคุณ";
-
-/* Pop up extra description for billing issue of subcription VPN about to expire */
-"vpn.autoReneSoonExpirePopOverSubDescription" = "ต้องการรับความคุ้มครองหรือไม่ เพียงต่ออายุก่อนที่การสมัครของคุณจะหมดอายุใช้งาน เพื่อเป็นการขอบคุณสำหรับการต่ออายุ เราจะลดราคา 20% เป็นเวลาถัดจากนี้อีก 3 เดือน";
-
-/* Action button title that enables auto renew for subcription */
-"vpn.autoRenewActionButtonTitle" = "เปิดใช้งานการต่ออายุอัตโนมัติ";
-
-/* Pop up title for renewing VPN subscription with discount */
-"vpn.autoRenewDiscountPopOverTitle" = "ต่ออายุการสมัครสมาชิก iBrowe VPN ของคุณโดยอัตโนมัติทันทีและรับส่วนลด 20% เป็นเวลา 3 เดือน!";
-
-/* Pop up title for renewing VPN subscription with month free */
-"vpn.autoRenewFreeMonthPopOverTitle" = "ต่ออายุการสมัครสมาชิก iBrowe VPN ของคุณโดยอัตโนมัติทันทีและรับฟรี 1 เดือน!";
-
-/* Pop up description for VPN subscription is about expire */
-"vpn.autoRenewSoonExpirePopOverDescription" = "นั่นหมายความว่าคุณจะสูญเสียการป้องกันพิเศษของ iBrowe สำหรับทุกแอปบนโทรศัพท์ของคุณ";
-
-/* Pop up title for VPN subscription is about expire */
-"vpn.autoRenewSoonExpireTitle" = "โอ้ ไม่นะ! การเป็นสมาชิก iBrowe VPN ของคุณกำลังจะหมดอายุ";
-
-/* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "iBrowe Firewall + VPN";
-
-/* Message for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesBody" = "ไม่สามารถเชื่อมต่อกับ App Store ได้ โปรดลองอีกครั้งในอีกไม่กี่นาที";
-
-/* Title for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesTitle" = "ข้อผิดพลาดใน App Store";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAds" = "บล็อกการเชื่อมต่อเครือข่ายที่ไม่ต้องการ";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAdsAlternate" = "บล็อกโฆษณาและตัวติดตามจากทุกแอป";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFast" = "รองรับความเร็วที่ 100 Mbps";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFastAlternate" = "เร็วและไม่จำกัด สูงสุด 100 Mbps";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmark247Support" = "การสนับสนุนทุกวันตลอด 24 ชม.";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmarkSecureConnections" = "รักษาความปลอดภัยให้กับทุกการเชื่อมต่อ";
-
-/* It is used in context: 'Powered by BRAND_NAME' */
-"vpn.poweredBy" = "สนับสนุนโดย";
-
-/* Name of automatic vpn region selector */
-"vpn.regionPickerAutomaticModeCellText" = "อัตโนมัติ";
-
-/* Alert description to show when the VPN session has expired */
-"vpn.sessionExpiredDescription" = "โปรดลงชื่อเข้าใช้บัญชี iBrowe ของคุณเพื่อรีเฟรชเซสชัน VPN ของคุณ";
-
-/* Dismiss button to close the alert showing that the vpn session has expired */
-"vpn.sessionExpiredDismissButton" = "ปิด";
-
-/* Login button to fix the vpn session expiration issue */
-"vpn.sessionExpiredLoginButton" = "ลงชื่อเข้าใช้";
-
-/* Alert title to show when the VPN session has expired */
-"vpn.sessionExpiredTitle" = "เซสชันหมดอายุ";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNDisabled" = "ปิดการใช้งานแล้ว";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNEnabled" = "เปิดใช้งานแล้ว";
-
-/* Whether the VPN plan has expired */
-"vpn.settingsVPNExpired" = "หมดอายุแล้ว";
-
-/* Action button title that subscribe action for VPN purchase */
-"vpn.subscribeVPNActionButtonTitle" = "สมัครสมาชิกเดี๋ยวนี้";
-
-/* Pop up description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverDescription" = "ใช่แล้ว ตอนนี้การสมัครใช้งาน iBrowe VPN ของคุณสามารถใช้ได้กับอุปกรณ์สูงสุด 5 เครื่อง ดังนั้นคุณสามารถสมัครใช้งานบน iOS และใช้งานได้บนอุปกรณ์ Mac, Windows และ Android ของคุณได้ฟรี";
-
-/* Pop up title the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverTitle" = "ตอนนี้ใช้ iBrowe VPN บนอุปกรณ์ทั้งหมดของคุณในราคาเดียว!";
-
-/* Pop up title for subscribing VPN with discount */
-"vpn.subscribeVPNDiscountPopOverTitle" = "ลองใช้ iBrowe VPN อีกครั้งแล้วรับส่วนลด 20% นาน 3 เดือน!";
-
-/* Pop up sub description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNPopOverSubDescription" = "พร้อมที่จะปกป้องทุกแอปบนโทรศัพท์ของคุณแล้วหรือยัง กลับมาใช้ iBrowe VPN และรับส่วนลด 20% ในอีก 3 เดือนต่อจากนี้";
-
-/* Pop up description for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverDescription" = "iBrowe VPN บล็อกตัวติดตามบนทุกแอปเสมอ แม้กระทั่งนอกเบราว์เซอร์ iBrowe ตอนนี้คุณสามารถดูว่าใครพยายามติดตามคุณด้วย iBrowe Privacy Hub";
-
-/* Pop up title for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverTitle" = "คุณรู้หรือไม่ว่า iBrowe VPN สามารถปกป้องคุณนอก iBrowe Browser ได้";
-
-/* Cell title indicates update payment method */
-"vpn.updateActionCellTitle" = "อัปเดต";
-
-/* Pop up description for billing issue of subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverDescription" = "ไม่ต้องกังวล เราจะเปิดใช้งาน VPN ต่อไปอีกสองสามวันระหว่างที่คุณกำลังอัปเดตข้อมูลการชำระเงิน";
-
-/* Pop up title for billing issue for subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverTitle" = "อัปเดตข้อมูลการชำระเงินของคุณเพื่อให้ได้รับการปกป้องด้วย iBrowe VPN";
-
-/* Pop up description for billing issue of subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverDescription" = "ต้องการปกป้องทุกแอปบนโทรศัพท์ของคุณต่อไปหรือไม่ เพียงทำการอัปเดตรายละเอียดการชำระเงินของคุณเท่านั้น";
-
-/* Pop up title for billing issue for subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverTitle" = "มีปัญหาด้านการเรียกเก็บเงินกับบัญชีของคุณ ซึ่งหมายถึงการสมัครใช้งาน iBrowe VPN ของคุณกำลังจะหมดอายุลง";
-
-/* Action button title that updates method payment */
-"vpn.updatePaymentActionButtonTitle" = "อัปเดตการชำระเงิน";
-
-/* The title for screen for showing list of server region */
-"vpn.vpnRegionListServerScreenTitle" = "ภูมิภาคของเซิร์ฟเวอร์";
-
-/* Button subtitle for VPN region selection in menu. %@ will be replaced with country name or automatic ex: Current Setting: Automatic */
-"vpn.vpnRegionSelectorButtonSubTitle" = "การตั้งค่าปัจจุบัน: %@";
-
-/* Button title for VPN region selection in menu */
-"vpn.vpnRegionSelectorButtonTitle" = "ภูมิภาคของ VPN";
-
-/* Text description of VPN subscription needs a method of payment update */
-"vpn.vpnUpdatePaymentMethodDescriptionText" = "โปรดอัปเดตวิธีการชำระเงินของคุณ";
 
 /* The date your wallet was created */
 "WalletCreationDate" = "วันที่สร้างวอลเล็ท";

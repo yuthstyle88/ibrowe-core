@@ -1,5 +1,20 @@
+/* A label shown above a list of icons designed by iBrowe */
+"altAppIcon.iBroweIconsHeader" = "Ícones do iBrowe";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "Alterar ícone do aplicativo";
+
+/* A label shown next to the default iBrowe app icon */
+"altAppIcon.defaultAppIcon" = "Padrão";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "Falha ao alterar ícone do aplicativo";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "BackTitle" = "Voltar";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"iBroweTranslate.availableVoiceOverAnnouncement" = "Tradução de página disponível";
 
 /* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "CloseAllTabsFromTabTrayKeyCodeTitle" = "Fechar todas as abas";
@@ -17,7 +32,7 @@
 "NewPrivateTabTitle" = "Nova guia privada";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
-"NewTabTitle" = "Nova guia";
+"NewTabTitle" = "Nova aba";
 
 /* Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenNewTabFromTabTrayKeyCodeTitle" = "Abrir nova aba";
@@ -25,10 +40,16 @@
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenSelectedTabFromTabTrayKeyCodeTitle" = "Abrir aba selecionada";
 
-/* Title label text for refreshing credentials from brave site. */
+/* Title label text for refreshing credentials from iBrowe site. */
 "paywall.alreadyPurchasedTitle" = "Já comprou em iBrowe.com?";
 
-/* Button action text for refreshing credentials from brave site. */
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "Você tem um código promocional?";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "Resgatar código promocional";
+
+/* Button action text for refreshing credentials from iBrowe site. */
 "paywall.refreshCredentialsButtonTitle" = "Atualize suas credenciais";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
@@ -62,7 +83,7 @@
 "ShowTabTrayFromTabKeyCodeTitle" = "Mostrar todas as abas";
 
 /* The title of the label that shows the Application Version */
-"storekitReceiptViewer.applicationVersionTitle" = "Versão de aplicação";
+"storekitReceiptViewer.applicationVersionTitle" = "Versão do aplicativo";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
 "storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo Mensal";
@@ -71,25 +92,25 @@
 "storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo Anual";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
-"storekitReceiptViewer.noReceiptFoundTitle" = "Lamentamos, mas não foram encontrados recibos da App Store";
+"storekitReceiptViewer.noReceiptFoundTitle" = "Desculpe, não foram encontrados recibos da App Store";
 
 /* The title of the label that shows the date when the product subscription was cancelled */
 "storekitReceiptViewer.receiptCancellationDate" = "Data de cancelamento";
 
 /* The title of the label that shows the date the receipt was created */
-"storekitReceiptViewer.receiptDateTitle" = "Data de receção";
+"storekitReceiptViewer.receiptDateTitle" = "Data do recibo";
 
 /* The title of the label that shows the date when the product subscription expired */
-"storekitReceiptViewer.receiptExpirationDate" = "Data de expiração";
+"storekitReceiptViewer.receiptExpirationDate" = "Data de validade";
 
 /* The title of the label that shows any invalid date - Not Available or N/A for short is displayed */
 "storekitReceiptViewer.receiptInvalidDate" = "N/D";
 
 /* The error message when the App Store Receipt was found in the Application Bundle, but could not be loaded */
-"storekitReceiptViewer.receiptLoadingErrorTitle" = "Lamentamos, mas não foi possível carregar o recibo da App Store";
+"storekitReceiptViewer.receiptLoadingErrorTitle" = "Desculpe, o recibo da App Store não pôde ser carregado";
 
 /* The title of the label that shows the Order ID of the user's purchase */
-"storekitReceiptViewer.receiptOrderIDTitle" = "ID da encomenda";
+"storekitReceiptViewer.receiptOrderIDTitle" = "ID do pedido";
 
 /* The title of the label that shows the date when the product subscription was first purchased */
 "storekitReceiptViewer.receiptOriginalPurchaseDateTitle" = "Data de compra original";
@@ -101,19 +122,19 @@
 "storekitReceiptViewer.receiptTransactionIDTitle" = "ID da transação";
 
 /* The title of the label that shows when the Receipt Viewer is still loading resources and subscription information */
-"storekitReceiptViewer.receiptViewerLoadingTitle" = "Carregando Aguarde por favor...";
+"storekitReceiptViewer.receiptViewerLoadingTitle" = "Carregando, por favor aguarde...";
 
 /* The title of the screen that shows the App Store Receipt */
 "storekitReceiptViewer.receiptViewerTitle" = "Recibo da App Store";
 
 /* The title of the button that shows a system action sheet, to share the receipt */
-"storekitReceiptViewer.shareReceiptTitle" = "Recibo de acções";
+"storekitReceiptViewer.shareReceiptTitle" = "Compartilhar recibo";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN Mensal";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "VPN iBrowe Mensal";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN Anual";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "VPN iBrowe Anual";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "Modo de navegação normal";

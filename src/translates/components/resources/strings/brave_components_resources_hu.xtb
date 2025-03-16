@@ -172,6 +172,7 @@
 <translation id="3110968385867124099">Ez az oldal nem jelenthető, mert nem HTTP/HTTPS protokollon keresztül került kiszolgálásra.</translation>
 <translation id="7907023135990310743">Ez az oldal egy helyi weboldal, és nem lehet jelenteni.</translation>
 <translation id="8740275226259417070">Ez egy hibaoldal. Nem jelenthető nem működő oldalként.</translation>
+<translation id="6367576083705149078">Ha kitölti elérhetőségi adatait, azokat tároljuk, hogy a jövőben bizonyos oldalakon felmerülő problémákat jelenthessünk.</translation>
 <translation id="6806248680442980382">Köszönjük, hogy segít a iBrowe továbbfejlesztésében. Ebben a jelentésben csak az oldal javításához számunkra szükséges információk szerepelnek.</translation>
 <translation id="6476216365964140603">További részletek (opcionális)</translation>
 <translation id="6145852496180774737">Kapcsolatba léphetnek velem itt: (opcionális)</translation>
@@ -397,7 +398,7 @@
 <translation id="7642372245223412840">Csatlakozás a bitFlyerhez</translation>
 <translation id="6143701117592994599">Ha csatlakoztatja a iBrowe jutalmakat egy bitFlyer-fiókhoz, BAT-t szerezhet, valamint lehívhatja BAT-bevételeit a iBrowe jutalmakból.</translation>
 <translation id="4354564238172327160">Legyen Ön is iBrowe-alkotó!</translation>
-<translation id="4639659520811817892">Látogasson a creators.brave.com-ra, regisztráljon még ma, és kezdjen el BAT-ot gyűjteni a rajongóitól és követőitől.</translation>
+<translation id="4639659520811817892">Látogasson a creators.iBrowe.com-ra, regisztráljon még ma, és kezdjen el BAT-ot gyűjteni a rajongóitól és követőitől.</translation>
 <translation id="4816455138209470435">A iBrowe támogatja a YouTube-ot, a Twitchet, a Vimeót, és még sok mást!</translation>
 <translation id="7404779623219601861">BAT beváltása ajándékkártyákért</translation>
 <translation id="6215565499749144110">A TAP Network hálózatában BAT-pontjait ajándékutalványokra válthatja közkedvelt márkáktól.</translation>
@@ -428,7 +429,7 @@
 <translation id="4335039108389860301">Engedélyezed az Ethereum Name Service (ENS) támogatást a iBrowe-ben?</translation>
 <translation id="807404806385418949">Ethereum-névszolgáltatás láncon kívül keresése</translation>
 <translation id="4049590838234508776">Engedélyezi az Ethereum-névszolgáltatások (ENS) láncon kívül keresését a iBrowe-ben?</translation>
-<translation id="5944991147217767764">Ez az .eth doménnév a blokkláncon kívüli tárolóban található, és harmadik féltől származó átjárón keresztül lesz feloldva. Ha engedélyezi az ENS blokkláncon kívüli keresést, a harmadik féltől származó átjáró látni fogja, hogy Ön az .eth domént próbálja felkeresni. <ph name="BEGIN_BRAVE_LEARN_MORE_LINK"/>További információ<ph name="END_BRAVE_LEARN_MORE_LINK"/>.</translation>
+<translation id="5944991147217767764">Ez az .eth doménnév a blokkláncon kívüli tárolóban található, és harmadik féltől származó átjárón keresztül lesz feloldva. Ha engedélyezi az ENS blokkláncon kívüli keresést, a harmadik féltől származó átjáró látni fogja, hogy Ön az .eth domént próbálja felkeresni. <ph name="BEGIN_iBrowe_LEARN_MORE_LINK"/>További információ<ph name="END_iBrowe_LEARN_MORE_LINK"/>.</translation>
 <translation id="4047002754575891955">Folytatás láncon kívüli kereséssel</translation>
 <translation id="531747189990625622">Solana Name Service</translation>
 <translation id="1090584614351290462">Engedélyezi a Solana Name Service (SNS) támogatását a iBrowe-ben?</translation>
@@ -497,6 +498,8 @@
 <translation id="3264975266761862670">Készen áll pénzt keresni?</translation>
 <translation id="2784412028126205842">Kifizető fiók csatlakoztatása</translation>
 <translation id="766126983336630294">{ADS_VIEWED, plural, =0 {Ön <ph name="COUNT_BEGIN"/># hirdetést látott<ph name="COUNT_END"/> ebben a hónapban} =1 {Lehetséges, hogy pénzt kap a megtekintett <ph name="COUNT_BEGIN"/># hirdetésért,<ph name="COUNT_END"/> melyet ebben a hónapban látott.} other {Lehetséges, hogy pénzt kap a megtekintett <ph name="COUNT_BEGIN"/># hirdetésért,<ph name="COUNT_END"/> melyet ebben a hónapban látott.}
+}</translation>
+<translation id="8611388433418909120">{ADS_VIEWED, plural, =0 {Ön <ph name="COUNT_BEGIN"/># hirdetést látott<ph name="COUNT_END"/> ebben a hónapban} =1 {Lehetséges, hogy pénzt kap a megtekintett <ph name="COUNT_BEGIN"/># hirdetésért,<ph name="COUNT_END"/> melyet ebben a hónapban látott.} other {Lehetséges, hogy pénzt kap a megtekintett <ph name="COUNT_BEGIN"/># hirdetésért,<ph name="COUNT_END"/> melyet ebben a hónapban látott.}
 }</translation>
 <translation id="6067959437127691361">A iBrowe Jutalmak használata segít Önnek támogatni a tartalomkészítőket, és lehetővé teszi, hogy BAT-t kereshessen.</translation>
 <translation id="944736176598169208">Jutalmak</translation>
@@ -605,7 +608,7 @@
 <translation id="5379685283876547860">Hozzájárulás elküldve!</translation>
 <translation id="7063168612616047608">Köszönjük, hogy támogatja a kedvenc alkotóit</translation>
 <translation id="1041398280582063935">Támogatás megosztása</translation>
-<translation id="4001190813297686107">Épp most küldtem <ph name="AMOUNT"/> BAT értékű hozzájárulást a iBrowe böngészővel! Tekintsétek meg, hogyan támogathatjátok ti is a kedvenc alkotóitokat és webhelyeiteket: https://brave.com/rewards</translation>
+<translation id="4001190813297686107">Épp most küldtem <ph name="AMOUNT"/> BAT értékű hozzájárulást a iBrowe böngészővel! Tekintsétek meg, hogyan támogathatjátok ti is a kedvenc alkotóitokat és webhelyeiteket: https://iBrowe.com/rewards</translation>
 <translation id="1950340257946519340">Váratlan hiba lépett fel</translation>
 <translation id="2605703631071131439">Kérjük, az újrapróbálkozáshoz nyissa meg ismét a hozzájárulás panelt.</translation>
 <translation id="8855543392451028706">Üdvözöljük! A felhasználók hozzájárulások küldésével támogathatják ezt a alkotót, ezzel mondva köszönetet az általa készített nagyszerű tartalmakért.</translation>
@@ -667,9 +670,7 @@
 <translation id="2446517297521536638">Meghatározhatja, milyen típusú iBrowe hirdetéseket lásson, és milyen gyakran. Minél többet tekint meg, annál több jutalmat kap.</translation>
 <translation id="5860033963881614850">Ki</translation>
 <translation id="5916664084637901428">Be</translation>
-<translation id="4284417062730522399"><ph name="NUM"/> kapott hirdetés ebben a hónapban</translation>
-<translation id="7697696066810593560">Az eddig bevétele ebben a hónapban: <ph name="NUM"/></translation>
-<translation id="6733193230212030816">Becsült bevételi tartomány: <ph name="RANGE"/></translation>
+<translation id="3977723631999461201"><ph name="NUM"/> Ebben a hónapban kapott hirdetések</translation>
 <translation id="7924320838799747606">Egyenleg</translation>
 <translation id="8714473477079007268"><ph name="PROVIDER"/> pénztárca</translation>
 <translation id="3175337080016717494">Kifizetési számla</translation>
@@ -678,15 +679,7 @@
 <translation id="8414447476773253869">Az egyenleg megtekintéséhez jelentkezzen be a következőbe: <ph name="PROVIDER"/></translation>
 <translation id="615483366383024791">Kifizetési számla</translation>
 <translation id="1060062421977823695">BAT-bevételeid erre a kifizetési számlára lesznek kifizetve.</translation>
-<translation id="2544805415966048917">Elküldendő összeg</translation>
-<translation id="6708522254106492579">Legfeljebb <ph name="AMOUNT"/> BAT</translation>
-<translation id="7666058404763778706">Weboldalak és tartalomkészítők támogatásának automatikus módja attól függően, hogy mennyi időt tölt el az általuk nyújtott tartalommal.</translation>
-<translation id="4319242254058427792">Az automatikus hozzájárulás le van tiltva</translation>
-<translation id="1091835891554961609">Az Ön által látogatott, ellenőrzött tartalomkészítők itt fognak megjelenni böngészéskor.</translation>
-<translation id="7714706530499503523">Az automatikus hozzájárulás automatikus havi hozzájárulásokat küld a iBrowe által ellenőrzött készítőknek az alapján, hogy mennyi időt tölt el az általuk nyújtott tartalommal.</translation>
-<translation id="2358028754328876971">Hogyan működik az automatikus hozzájárulás?</translation>
-<translation id="2870560284913253234">Webhely</translation>
-<translation id="1184072843013036520">Szerezzen iBrowe márkajelzéssel ellátott termékekeket.</translation>
+<translation id="2310070536993781610">Használja a promóciós kódot iBroweREWARDS, hogy 10% kedvezményt kapjon minden iBrowe termékre.</translation>
 <translation id="1170674812179664523">iBrowe termékek áruháza</translation>
 <translation id="8673202990286883068">Előnyök az Ön számára</translation>
 <translation id="3699766258844277472">Még nincs beállítva ismétlődő hozzájárulása.</translation>
@@ -713,6 +706,9 @@
 <translation id="5309155375926073606">Igen, szeretnék hozzájárulni a iBrowe-kereséshez is, és részt veszek a <ph name="LINK_BEGIN"/>Web Discovery Projektben<ph name="LINK_END"/>.</translation>
 <translation id="4622826307953794521">Anonim keresési és böngészési adatok megosztásával hozzájárulhat a iBrowe keresőjének finomításához a Web Discovery projekt segítségével, amely teljes mértékben nyílt forráskódú.</translation>
 <translation id="4174337572777167894">Web Discovery projekt</translation>
+<translation id="9034669711835382440">Közösség</translation>
+<translation id="845020633253356720">Bolt megtekintése</translation>
+<translation id="7777123407058400802">Basic Attention Token - BAT</translation>
 <translation id="7090992647511817643">fiók</translation>
 <translation id="4822132585477111396">Lánc azonosítója</translation>
 <translation id="3269475789479462358">domain</translation>
@@ -1144,6 +1140,12 @@
 <translation id="8214232307424031138">Aláírva</translation>
 <translation id="9065572743819293042">Legutóbbi tranzakciók</translation>
 <translation id="1702356231547761669">Tranzakciós hash</translation>
+<translation id="6030778062363728902">Memo</translation>
+<translation id="1288859203671057247">Beírhat egy üzenetet...</translation>
+<translation id="5466702869935634816">Üzenet (nem kötelező)</translation>
+<translation id="5715145706082194046">Feljegyzés hozzáadása</translation>
+<translation id="1922741261173258284">Feljegyzés eltávolítása</translation>
+<translation id="1762915190843068679">A feljegyzésnek 512 karakternél rövidebbnek kell lennie.</translation>
 <translation id="8941851657764077659">Maximum prioritási díj</translation>
 <translation id="8047527352810290817">Gas szerkesztése</translation>
 <translation id="9091334651803050473">Nincs rá garancia, de a bányászok nagyobb valószínűséggel részesítik előnyben a tranzakcióját, ha magasabb díjat fizet nekik.</translation>
@@ -1271,7 +1273,7 @@
 <translation id="2803778066587058297">Eszköz</translation>
 <translation id="1275718070701477396">Kiválasztva</translation>
 <translation id="7509108671781225188">Nincsenek rendelkezésre álló pénznemek</translation>
-<translation id="3799031411423890455">A legjobb árak keresése…</translation>
+<translation id="3799031411423890455">A legjobb árak keresése...</translation>
 <translation id="8544603592370093978">Vásárlás <ph name="ASSET"/></translation>
 <translation id="7463545687475534731">Nem találtunk szolgáltatót a <ph name="ASSET"/> néven</translation>
 <translation id="3372351687823322070">Próbáljon más eszközzel keresni.</translation>
@@ -1335,7 +1337,7 @@
 <translation id="8036159955043245753">Új tranzakció lesz létrehozva a meglévő tranzakció törléséhez.</translation>
 <translation id="4056435949094149644">Átváltás</translation>
 <translation id="7694836973509310467">Átvitel</translation>
-<translation id="997000407026317399"><ph name="SWAPPING_OR_BRIDGING_BEFORE"/><ph name="SWAPPING_OR_BRIDGING"/><ph name="SWAPPING_OR_BRIDGING_AFTER"/> on <ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
+<translation id="997000407026317399"><ph name="SWAPPING_OR_BRIDGING_BEFORE"/><ph name="SWAPPING_OR_BRIDGING"/><ph name="SWAPPING_OR_BRIDGING_AFTER"/> a <ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
 <translation id="6934057383578424432">Hiba történt a következő megkísérlésekor: <ph name="SWAP_OR_BRIDGE_BEFORE"/><ph name="SWAP_OR_BRIDGE"/><ph name="SWAP_OR_BRIDGE_AFTER"/><ph name="NETWORK_BEFORE"/> a következőre: <ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} további tranzakció folyamatban.}
@@ -1453,12 +1455,6 @@
 <translation id="3253669416991680932">A hardverpénztárca nem támogatja ezt a műveletet.</translation>
 <translation id="7457027586454688423">Adja meg iBrowe-pénztárcája jelszavát</translation>
 <translation id="7553242001898162573">Adja meg a jelszót</translation>
-<translation id="2873714185189940594">Megnyitja a Rainbow Bridge alkalmazást?</translation>
-<translation id="2069777099181262239">A Rainbow Bridge egy független szolgáltatás, amely segít az eszközök hálózatok közötti áthidalásában, valamint a kriptovaluták más hálózatokon és DApp-ökoszisztémákban történő használatában. Az eszközök más hálózatokhoz való áthidalása bizonyos kockázatokkal jár.</translation>
-<translation id="7387899248733396663">További tudnivalók a Rainbow Bridge használatáról</translation>
-<translation id="3890567288132019108">További tudnivalók a kockázatcsökkentésről a Rainbow Bridge-en</translation>
-<translation id="1792917191129448067">A Rainbow Bridge alkalmazás megnyitása</translation>
-<translation id="1522775706527775647">Áthidalás Aurorához</translation>
 <translation id="4903322403594141291">További információ a iBrowe-pénztárcáról</translation>
 <translation id="4427684901715566795">A jelszónak a következőket kell tartalmaznia:</translation>
 <translation id="8521329076169776625">Legalább 8 karakter</translation>
@@ -1736,6 +1732,22 @@
 <translation id="2298396008562701154">Ez a fiók jelenleg nyilvános, ami azt jelenti, hogy a tranzakciók mindenki számára láthatóak a blokkláncban.</translation>
 <translation id="3987095760757102811">Ha védett fiókra vált, a feladó, a címzett és a tranzakciók összege rejtve marad.</translation>
 <translation id="3819528427777765709">Védett</translation>
+<translation id="2142946302539262412">Egységesített</translation>
+<translation id="4438043733494739848">Átlátszó</translation>
+<translation id="1950406774300125954">Nincs szinkronban</translation>
+<translation id="68413355604013935">Nincs szinkronban (<ph name="BLOCKS"/> blokklánc késésben)</translation>
+<translation id="1597233669965903034">Szinkronizálja fiókját, hogy hozzáférjen a legfrissebb tranzakciókhoz és egyenleghez is.</translation>
+<translation id="7499262814309712782">Fiók szinkronizálása</translation>
+<translation id="2804568727504456403">Szinkronizálás <ph name="ACCOUNT"/></translation>
+<translation id="813913629614996137">Indítás...</translation>
+<translation id="4404141491825711928">Blokkok kezelése:</translation>
+<translation id="4983989175143324911"><ph name="BLOCKS"/> maradt</translation>
+<translation id="1703172100615786285"><ph name="BLOCKS"/>/<ph name="TOTAL_BLOCKS"/></translation>
+<translation id="5055918601206839704">Tartományok:</translation>
+<translation id="1178581264944972037">Szünet</translation>
+<translation id="7714298753782862705">A szinkronizálás befejeződött. Most bezárhatja ezt az ablakot.</translation>
+<translation id="7716113567047550378">Kérjük, ne zárja be ezt az ablakot, amíg a szinkronizálás be nem fejeződik.</translation>
+<translation id="5123590959308755060">Folytassa a pénztárca használatát egy új lapon</translation>
 <translation id="7144878232160441200">Újra</translation>
 <translation id="9094621390791852268">Nem sikerült megjeleníteni a tranzakció előnézetét.</translation>
 <translation id="4982713341035600933">Becsült egyenlegváltozás</translation>
@@ -1989,6 +2001,7 @@
 <translation id="5950760360751948276">A könyvjelzősáv mindig látható</translation>
 <translation id="2960757369920422313">Könyvjelzősáv megjelenítése az NTP-n</translation>
 <translation id="522953399371747698">Könyvjelzősáv elrejtése</translation>
+<translation id="9079813619990532635">Könyvjelzők exportálása</translation>
 <translation id="134184943774258988">Összes könyvtár gomb láthatóságának átkapcsolása</translation>
 <translation id="2158862020143233462">Pajzsok ki-/bekapcsolása</translation>
 <translation id="3010280727642018218">JavaScript kapcsolása</translation>
@@ -2059,7 +2072,7 @@
 <translation id="8637805148029768813">Az összefoglaló funkció jelenleg csak bizonyos cikkeknél és egyéb hosszú formátumú webhelyeknél elérhető.</translation>
 <translation id="1223498995510244364">Összefoglalás</translation>
 <translation id="7491773233732232424">Tudnivalók a Leóról</translation>
-<translation id="5208096220706490232">A iBrowe Leo egy privát MI-alapú okos asszisztens, ami tökéletesíti a módszert, amivel Ön az internetet használja. A Leo korlátozott hozzáférésű változata ingyenesen használható. A iBrowe Leo Prémium több modellt és magasabb határértékeket tartalmaz, valamint korai hozzáférést biztosít a felhasználónak az új funkciókhoz. Az alapértelmezett modell jelenleg minden felhasználó számára a Mixtral 8x7B. Tekintse meg a <ph name="LINK_BEFORE"/>iBrowe wikit<ph name="LINK_AFTER"/> további információért.</translation>
+<translation id="4885527781814382758">A iBrowe Leo egy MI-alapú intelligens asszisztens, amely tiszteletben tartja az Ön adatainak védelmét és javítja az internetfelhasználó élményt. A Leo korlátozott verzióban ingyenesen elérhető. A iBrowe Leo Prémium több modellt és nagyobb kapacitást kínál, és az előfizetőknek korai hozzáférést biztosít az új funkciókhoz. Az alapértelmezett modell változhat. További részletekért lásd a <ph name="LINK_BEFORE"/>iBrowe Súgóközpont<ph name="LINK_AFTER"/> .</translation>
 <translation id="7189603330209995455">Alapértelmezetten ha Ön feltesz egy kérdést a Leónak, akkor az elküldheti az Ön által megtekintett weboldal tartalmát, valamint az Ön által az oldalon kijelölt szövegeket a iBrowe Leónak a válaszadáshoz. A válaszok pontossága nem garantált; tartalmaz pontatlan, félrevezető vagy hamis adatokat. A Leo a iBrowe keresőmotorjának adatait használja a válaszok minőségének javításához. Ne adjon meg érzékeny vagy magánjellegű adatokat és legyen óvatos az egészséggel, pénzüggyel, személyes biztonsággal és hasonló témákkal kapcsolatos válaszokkal. A Leo beállításait bármikor módosíthatja a Beállításokban. Lépjen a Beállítások és Leo lehetőségre.</translation>
 <translation id="3038772045018370764">A Leo nem gyűjt olyan Önnel összeköthető egyedi azonosítókat, mint például az Ön IP-címe. Nem használunk adatokat az MI-modell kiképzésére és az MI-modelljeink semmilyen személyes adatot nem őriznek meg (kivéve az Anthropic-ot, ami 30 napig megőrzi azt adatokat, mielőtt törölné azokat). Tekintse meg <ph name="LINK_BEFORE"/>adatvédelmi szabályzatunkat<ph name="LINK_AFTER"/>, ha további információra van szüksége.</translation>
 <translation id="7839853125981164613">Itt tehet fel kérdéseket</translation>
@@ -2067,13 +2080,18 @@
 <translation id="4567071417854988869">Videó összefoglalása</translation>
 <translation id="7921782882718083488">Lap összefoglalása</translation>
 <translation id="7932221068776853847">Ha szeretné leállítani a tartalmak küldését a Leo számára, és új beszélgetést indítani, bontsa a kapcsolatot.</translation>
+<translation id="2712650703044366764">Ez a modell érvénytelen végponttal rendelkezik. Ellenőrizze a konfigurációt, majd próbálja meg újra.</translation>
 <translation id="1167803637855350748">Hálózati probléma lépett fel a Leo rendszeréhez való kapcsolódás során. Ellenőrizze a hálózati kapcsolatot, és próbálja újra.</translation>
 <translation id="1996126325390835277">Elérte a prémium gyakorisági korlátot. Néhány óra múlva próbálja újra.</translation>
+<translation id="3683964919745779766">Elérte a modell által megengedett használati mennyiséget, vagy nem rendelkezik elegendő kredittel a további használathoz. Kérjük próbálja meg később.</translation>
+<translation id="7692501701960747469">A modellhez konfigurált API-kulcs érvénytelen. Kérjük, ellenőrizze a konfigurációt, és próbálja meg újra.</translation>
+<translation id="7905602379229309187">A szolgáltatás jelenleg túlterhelt. Kérjük, próbálja meg később.</translation>
+<translation id="8151638057146502721">Konfiguráció</translation>
 <translation id="4177458398826096846">Üdvözlöm, Leo vagyok, a iBrowe AI-asszisztense. Llama 3.1 8B motorral működöm, amely egy, a Meta által kifejlesztett nagy teljesítményű modell számos használati eset kezelésére. <ph name="LINK_BEFORE"/>További tudnivalók<ph name="LINK_AFTER"/></translation>
 <translation id="6500567629965936637">Üdvözlöm, Leo vagyok, a iBrowe MI-asszisztense. Mixtral 8x7B motorral működöm, amely egy, a Mistral AI által az összetett feladatok végrehajtására kifejlesztett modell. <ph name="LINK_BEFORE"/>További tudnivalók<ph name="LINK_AFTER"/></translation>
 <translation id="4590776109659811206">Üdvözlöm, Leo vagyok. A iBrowe proxyval üzemeltet, a működésem pedig a Claude Instant modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére. <ph name="LINK_BEFORE"/>További tudnivalók<ph name="LINK_AFTER"/></translation>
-<translation id="8583558415545871403">Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude 3 Haiku modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére.</translation>
-<translation id="1107977270364670952">Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude 3.5 Sonnet modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére.</translation>
+<translation id="2001874998841390450">Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude  Sonnet modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére. <ph name="LINK_BEFORE"/>Tudjon meg többet<ph name="LINK_AFTER"/></translation>
+<translation id="3408745502133272006">Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude  Sonnet modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére. <ph name="LINK_BEFORE"/>Tudjon meg többet<ph name="LINK_AFTER"/></translation>
 <translation id="6206029817087805290"><ph name="MODEL_NAME"/>, a(z) <ph name="COMPANY_NAME"/> által</translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="6187065185557150870">Csevegés</translation>
@@ -2092,6 +2110,9 @@
 <translation id="4165928407303989823">Maradjon a témánál</translation>
 <translation id="2389665228467129817">Csevegjen hosszabb ideig</translation>
 <translation id="8556044455877152001"><ph name="PRICE_VALUE"/> USD/hó</translation>
+<translation id="9031958221569934724"><ph name="PRICE_VALUE"/> USD/év</translation>
+<translation id="1028627582482425924">Egy év</translation>
+<translation id="36366199652730057">Legjobb ajánlat</translation>
 <translation id="5151923271944811339">Váltás az ingyenes modellre</translation>
 <translation id="5474757891469990756">Engedje szabadjára a Leóban rejlő teljes potenciált a Prémiummal:</translation>
 <translation id="3453542753968940696">Kiemelt hozzáférés a különböző képességekkel rendelkező, nagy teljesítményű modellekhez.</translation>
@@ -2105,11 +2126,14 @@
 <translation id="6393149565874086128">Visszajelzés hozzáadása</translation>
 <translation id="3521125531016408657">Kedvelem a választ</translation>
 <translation id="8202517001427388906">Nem kedvelem a választ</translation>
+<translation id="3177073390279208955">Elküldi az értékelést, a beszélgetést, a modellt, a nyelvet, a verziót és az előfizetési státuszt.</translation>
 <translation id="1379399209929302811">Visszajelzés küldése a iBrowe MI-vel kapcsolatban</translation>
 <translation id="8442999546461118871">Válassza ki a visszajelzési témát</translation>
 <translation id="9018766373792005944">Mihez kapcsolódik a visszajelzése?</translation>
 <translation id="7355096922131918313">Itt adja meg a visszajelzést</translation>
 <translation id="3027575440738035995">A Leo Premium a nyelvmodellek szélesebb köréhez nyújt hozzáférést a még részletesebb válaszok érdekében. <ph name="LINK_BEFORE"/>További információ<ph name="LINK_AFTER"/></translation>
+<translation id="8261506727792406068">Törlés</translation>
+<translation id="6574153208133461043">Biztosan törli ezt a lejátszási listát és annak teljes tartalmát? Ezt a műveletet nem lehet visszavonni.</translation>
 <translation id="7488762544858401571">Szerkesztve</translation>
 <translation id="1406205536570262057">Válasz szerkesztése</translation>
 <translation id="2399439821649319175">Nem hasznos</translation>
@@ -2123,6 +2147,7 @@
 <translation id="8171760814579050200">Beszélgetés átnevezése</translation>
 <translation id="7754678742055438573">Beszélgetés törlése</translation>
 <translation id="7494736170250048402">Üzenet küldése a Leónak</translation>
+<translation id="8650874793377330048">Válasz megszakítása</translation>
 <translation id="8712637175834984815">Sikerült</translation>
 <translation id="1093419424466417703">Ez az oldal túl hosszú Leo számára. A kontextus egy része hiányozni fog a beszélgetésből. Leo ennyit tudott elolvasni az oldal tartalmából: <ph name="PERCENTAGE"/>.</translation>
 <translation id="2186990448773134544">Az oldal tartalma finomítva lett a legrelevánsabb információk kivonatolása révén, mert az oldal tartalma túl hosszú volt a Leo számára.</translation>
@@ -2130,6 +2155,11 @@
 <translation id="4370698775470316661">Ez a beszélgetés túl hosszúra nyúlt, és nem folytatható. Más modellek alkalmazásával a Leo képes lehet megőrizni a pontosságát a hosszabb beszélgetések esetében.</translation>
 <translation id="5719170755629028558">Válasz kibővítése a iBrowe-kereséssel...</translation>
 <translation id="5794962229997281366">Továbbfejlesztett válaszkeresés a következőhöz: <ph name="SEARCH_TERMS"/>.</translation>
+<translation id="8103700533980268469">Üzenet bezárása</translation>
+<translation id="2315654674554095762">A Leo mostantól emlékezni fog a beszélgetéseire, hogy visszatérhessen hozzájuk. A beszélgetések titkosítva tárolódnak a készülékén, és bármikor törölheti őket.</translation>
+<translation id="7821251979960635244">A beszélgetés előzményei itt jelennek meg, amint elkezd egy beszélgetést.</translation>
+<translation id="887511360213807449">Előzmények letiltása</translation>
+<translation id="5380979378058584412">Ahhoz, hogy megtekinthesse a Leóval folytatott korábbi beszélgetéseit, engedélyeznie kell a beszélgetési előzményeket.</translation>
 <translation id="6291843235651817590">Általános célú csevegés</translation>
 <translation id="8193130769524604031">Speciális csevegési feladatok</translation>
 <translation id="3185367320601718531">Beszélgetés és szöveg generálása</translation>
@@ -2173,6 +2203,7 @@
 <translation id="49269513399674318">Mikrofon használata</translation>
 <translation id="3895031624234442305">Egyedi modellek</translation>
 <translation id="4572010449071015143">Új beszélgetés indítása</translation>
+<translation id="345901077335355561">Visszatérés az aktív beszélgetéshez</translation>
 <translation id="6287023598025162715">Új beszélgetés</translation>
 <translation id="6303294677342628402">Védelmek</translation>
 <translation id="8458987127502506209">iBrowe pajzsok engedélyezése</translation>
@@ -2202,6 +2233,8 @@
 <translation id="6196640612572343990">Harmadik féltől származó cookie-k letiltása</translation>
 <translation id="693506469193748756">Felejtsen el, amikor bezárom ezt az oldalt</translation>
 <translation id="5471580724041424345">Törli a cookie-kat és egyéb webhelyadatokat, amikor bezár egy adott oldalt.</translation>
+<translation id="6486971767955110687">Tárolja a kapcsolattartási adatokat a jövőbeli hibás weboldal-jelentésekhez</translation>
+<translation id="4085787265464238844">Ha megadja az elérhetőségi adatokat, azokat a jövőbeli jelentésekhez tároljuk.</translation>
 <translation id="6883611015375728278">Összes süti blokkolása</translation>
 <translation id="5657156137487675418">Összes süti engedélyezése</translation>
 <translation id="8366221601425141146">Ujjlenyomat-olvasás letiltva</translation>
@@ -2244,7 +2277,7 @@ other {A iBrowe Pajzsok {BLOCKED_COUNT} követőt blokkolt itt: <ph name="SITE_U
 <translation id="1097073572755862978">Küldjön diagnosztikai jelentéseket, amikor a rendszer összeomlik vagy lefagy. <ph name="LINK_BEFORE"/>További információ.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Privát és anonim termékinformációk megosztása arról, hogy a iBrowe felhasználói milyen funkciókat használnak. <ph name="LINK_BEFORE"/>További információk:<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Beállítás befejezve</translation>
-<translation id="3141206739023333979">Változtasson ezen a iBrowe-beállításán bármikor itt: <ph name="LINK_BEFORE1"/>brave://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
+<translation id="3141206739023333979">Változtasson ezen a iBrowe-beállításán bármikor itt: <ph name="LINK_BEFORE1"/>iBrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
 <translation id="8321985064212130832">Olvassa el a teljes <ph name="LINK_BEFORE"/>Adatvédelmi szabályzatot<ph name="LINK_AFTER"/>.</translation>
 <translation id="2801098717523961746">Téma kiválasztása</translation>
 <translation id="6262510489122516114">Ezt bármikor módosíthatja a iBrowe beállításokban.</translation>
@@ -2331,7 +2364,7 @@ Azonban észleltük, hogy a szolgáltatás nem fut – mi pedig nem szeretnénk 
 <translation id="7082498599369566941">Úgy tűnik, hogy problémák vannak a WireGuard-kapcsolattal. Szeretné engedélyezni a visszatérést az IKEv2-re a megbízható VPN-hez? Egyszerűen változtassa meg a beállításokat.
 
 Segítségre van szüksége a kompatibilitással vagy a konfigurációval kapcsolatban? Forduljon készséges ügyfélszolgálatunkhoz.
-A brave://settings/system oldalon bármikor visszatérhet a WireGuardhoz.
+A iBrowe://settings/system oldalon bármikor visszatérhet a WireGuardhoz.
 
 Hozzuk létre kapcsolatát!</translation>
 <translation id="1657858090675311947">Ne figyelmeztessen többé.</translation>
@@ -2340,7 +2373,7 @@ Hozzuk létre kapcsolatát!</translation>
 <translation id="9061845622728745852">Időzóna:</translation>
 <translation id="8295393906499561642">A munkamenet lejárt</translation>
 <translation id="7070578590391442755">Nem lehet hitelesíteni a VPN-t</translation>
-<translation id="3312623558576021182">A VPN-munkamenet frissítéséhez jelentkezzen be a<ph name="BRAVE_ACCOUNT_BEGIN"/>iBrowe fiókjába<ph name="BRAVE_ACCOUNT_END"/>.</translation>
+<translation id="3312623558576021182">A VPN-munkamenet frissítéséhez jelentkezzen be a<ph name="iBrowe_ACCOUNT_BEGIN"/>iBrowe fiókjába<ph name="iBrowe_ACCOUNT_END"/>.</translation>
 <translation id="7861195049821776142">iBrowe VPN: kapcsolat bontása</translation>
 <translation id="2061807837510296780">iBrowe VPN: kapcsolódás</translation>
 <translation id="1313124107969703758">iBrowe VPN: hiba</translation>
@@ -2352,7 +2385,7 @@ Hozzuk létre kapcsolatát!</translation>
 <translation id="6825718953004242472">Ikon eltávolítása</translation>
 <translation id="6819278685469225453">Védje meg az összes alkalmazását</translation>
 <translation id="3960619311638643872">iBrowe VPN</translation>
-<translation id="4295077644587784828">Még nagyobb online adatvédelem és biztonság.</translation>
+<translation id="4295077644587784828">Még nagyobb online adatvédelem &amp;biztonság.</translation>
 <translation id="8425213833346101688">Módosítás</translation>
 <translation id="8703188411226330709">Ingyenes próbaidőszak megkezdése</translation>
 <translation id="3287942014983548982">Megnyitás itt</translation>
