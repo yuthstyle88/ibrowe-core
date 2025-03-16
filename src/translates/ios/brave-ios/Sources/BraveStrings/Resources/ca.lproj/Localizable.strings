@@ -1,5 +1,20 @@
+/* A label shown above a list of icons designed by iBrowe */
+"altAppIcon.iBroweIconsHeader" = "Icones de iBrowe";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "Canviar l'icona de l'aplicació";
+
+/* A label shown next to the default iBrowe app icon */
+"altAppIcon.defaultAppIcon" = "Predeterminat";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "No s'ha pogut canviar l'icona de l'aplicació";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "BackTitle" = "Enrere";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"iBroweTranslate.availableVoiceOverAnnouncement" = "Traducció de la pàgina disponible";
 
 /* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "CloseAllTabsFromTabTrayKeyCodeTitle" = "Tanca totes les pestanyes";
@@ -20,15 +35,21 @@
 "NewTabTitle" = "Pestanya nova";
 
 /* Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
-"OpenNewTabFromTabTrayKeyCodeTitle" = "Obre una pestanya nova";
+"OpenNewTabFromTabTrayKeyCodeTitle" = "Obre nova pestanya";
 
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenSelectedTabFromTabTrayKeyCodeTitle" = "Obre la pestanya seleccionada";
 
-/* Title label text for refreshing credentials from brave site. */
-"paywall.alreadyPurchasedTitle" = "Ja has comprat a brave.com?";
+/* Title label text for refreshing credentials from iBrowe site. */
+"paywall.alreadyPurchasedTitle" = "Ja has comprat a iBrowe.com?";
 
-/* Button action text for refreshing credentials from brave site. */
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "Tens un codi promocional?";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "Bescanviar codi promocional";
+
+/* Button action text for refreshing credentials from iBrowe site. */
 "paywall.refreshCredentialsButtonTitle" = "Actualitza les teves credencials";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */

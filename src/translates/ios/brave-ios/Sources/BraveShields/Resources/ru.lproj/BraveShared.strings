@@ -10,7 +10,7 @@
 /* A discription of the iBrowe Player. */
 "AntiAdBlockWarningiBrowePlayerDescription" = "Смотрите видео без рекламы и помех с **iBrowe Проигрывателем**.";
 
-/* A button that disables ad-blocking and uses brave player. */
+/* A button that disables ad-blocking and uses iBrowe player. */
 "AntiAdBlockWarningConfirmationButton" = "Изменить настройки щитов";
 
 /* A descriptive message explaining this site's ad-blocking crackdown. */
@@ -35,7 +35,7 @@
 "BlockAdsAndTrackingDescription" = "Блокирует загрузку рекламы, всплывающих окон и трекеров.";
 
 /* The option the user can select to disable ad and tracker blocking */
-"BlockAdsAndTrackingDisabled" = "Отключено";
+"BlockAdsAndTrackingDisabled" = "Выключено";
 
 /* The option the user can select to do standard (non-aggressive) ad and tracker blocking */
 "BlockAdsAndTrackingStandard" = "Стандартный";
@@ -43,22 +43,22 @@
 /* A title for setting which blocks 'switch to app' popups */
 "blockMobileAnnoyances" = "Блокировать всплывающие окна и не переходить в приложения";
 
-/* Title for the brave player feature */
+/* Title for the iBrowe player feature */
 "iBrowePlayer" = "iBrowe Проигрыватель";
 
-/* A label for a toggle that enables automatic launching of brave player for certain sites */
+/* A label for a toggle that enables automatic launching of iBrowe player for certain sites */
 "iBrowePlayerAlwaysOpenYouTubeLinks" = "Всегда открывать видео с этого сайта в iBrowe Проигрывателе";
 
-/* A button that confirms to use the brave player. */
+/* A button that confirms to use the iBrowe player. */
 "iBrowePlayerConfirmButton" = "Попробовать";
 
-/* A button that ignores the brave player */
+/* A button that ignores the iBrowe player */
 "iBrowePlayerDismissButton" = "Не сейчас";
 
-/* A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time. */
+/* A description of the iBrowe player that is presented on the info panel when clicing on the iBrowe player icon for the first time. */
 "iBrowePlayerInfoMessage" = "Смотрите видео без помех с iBrowe Проигрывателем.";
 
-/* Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar. */
+/* Title for the iBrowe player info popup which appears when clicking on the iBrowe player icon on the navigation bar. */
 "iBrowePlayerInfoTitle" = "Перейдите в iBrowe Проигрыватель";
 
 /* A title to the content filtering page under global shield settings and the title on the Content filtering page */
@@ -125,7 +125,7 @@
 "FilterListAddOnlyHTTPSAllowedError" = "Для списков пользовательских фильтров разрешается использовать только безопасные (https) URL-адреса";
 
 /* This is a button on the top navigation that takes the user to an add custom filter list url to the list */
-"FilterListsAdd" = "Добавить";
+"FilterListsAdd" = "Add";
 
 /* A description on the content filtering screen for the filter lists section. */
 "FilterListsDescription" = "Дополнительные популярные списки сообщества. Если включить слишком много фильтров, браузер будет работать медленнее.";
@@ -137,7 +137,7 @@
 "FilterListsDownloadPending" = "Ожидание загрузки";
 
 /* This is a button on the top navigation that takes the user to an add custom filter list url to the list */
-"FilterListsEdit" = "Изменить";
+"FilterListsEdit" = "Редактировать";
 
 /* This is a placeholder for an input field that takes a custom filter list URL. */
 "FilterListsEnterFilterListURL" = "Введите URL списка фильтров";
@@ -159,6 +159,30 @@
 
 /* This is a label on a button that updates filter lists which signifies that lists have been updated */
 "ListsUpdated" = "Списки обновлены";
+
+/* A label displayed above a value indicating if the site is in aggressive mode in Blocked Requests view. */
+"shields.aggressiveLabel" = "Агрессивный";
+
+/* A label displayed above the location a request was blocked in Blocked Requests view. */
+"shields.blockedByLabel" = "Заблокировано";
+
+/* The title displayed in the navigation bar of Blocked Requests view. */
+"shields.blockedRequestsTitle" = "Заблокированные запросы";
+
+/* Used to describe when a request was blocked by the Content Blocker in Blocked Requests view. */
+"shields.contentBlocker" = "Блокировка контента";
+
+/* Used to describe when a request was blocked by our request blocking scripts in Blocked Requests view. */
+"shields.requestBlocking" = "Блокировка запросов";
+
+/* A label displayed above the request url that was blocked in Blocked Requests view. */
+"shields.requestURLLabel" = "Запрос URL";
+
+/* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
+"shields.resourceTypeLabel" = "Тип ресурса";
+
+/* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
+"shields.sourceURLLabel" = "URL источника";
 
 /* A button title when confirming to shred website data */
 "ShredDataButtonTitle" = "Уничтожить данные";
@@ -191,7 +215,7 @@
 "TheConnectionIsNotSecure" = "Подключение к сайту %@ уязвимо";
 
 /* A label for a shield option that allows you to switch between different blocking levels for tracker and ads blocking. Options include disabled, standard and aggressive. */
-"TrackersAndAdsBlocking" = "Блокировка трекеров и рекламы";
+"TrackersAndAdsBlocking" = "Трекеры & Блокировка рекламы";
 
 /* This is a label for a button which when pressed updates all the filter lists */
 "UpdateLists" = "Обновить списки";

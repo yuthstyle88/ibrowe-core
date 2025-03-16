@@ -31,7 +31,7 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "稼働状況";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
+/* The title for the button that allows the user to view the App Store Receipt */
 "aichat.advancedSettingsViewReceiptTitle" = "App Storeのレシートを見る";
 
 /* The subtitle for the error showing there is an error from App Store */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "危険 / 危害につながるものであった";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premiumでは、さらに拡張された言語モデルセットを利用できるため、さらに豊かなニュアンスの回答を提供できます。[詳細はこちら](https://brave.com/) - [閉じる](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premiumでは、さらに拡張された言語モデルセットを利用できるため、さらに豊かなニュアンスの回答を提供できます。[詳細はこちら](https://iBrowe.com/) - [閉じる](iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "送信";
@@ -137,7 +137,7 @@
 "aichat.infoAboutPageContext" = "ページのコンテンツに基づいて回答を作成";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "こんにちは、Leoです。私はiBroweによってプロキシされ、Anthropicによって作成された会話・テキスト処理タスクモデルであるClaude 3 Haikuを搭載しています。";
+"aichat.introMessageClaudeHaikuMessageDescription" = "こんにちは、Leoです。私はiBroweによってプロキシされ、Anthropicの会話・テキスト処理タスクモデル、Claude Haikuを搭載しています。";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku (Anthropic)";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "超高速チャット";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "こんにちは、Leoです。私はiBroweによってプロキシされ、Anthropicによって作成された会話・テキスト処理タスクモデルであるClaude 3.5 Sonnetを搭載しています。";
+"aichat.introMessageClaudeSonnetMessageDescription" = "こんにちは、Leoです。私はiBroweによってプロキシされ、Anthropicの会話・テキスト処理タスクモデル、Claude Sonnetを搭載しています。";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet (Anthropic)";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "コードサンプル";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "レオは現在、機能フラグによって無効化されています。Leoを再度有効にするには、brave://flagsにアクセスして有効にしてください。";
+"aichat.leoDisabledMessageDescription" = "レオは現在、機能フラグによって無効化されています。Leoを再度有効にするには、iBrowe://flagsにアクセスして有効にしてください。";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "レオ・ディスエーブルド";
@@ -338,7 +338,7 @@
 "aichat.resetLeoDataActionTitle" = "Leoデータのリセットとクリア";
 
 /* The title of a button that will reset data for leo */
-"aichat.resetLeoDataAlertButtonTitle" = "リセット";
+"aichat.resetLeoDataAlertButtonTitle" = "リセットする";
 
 /* The description for the error whre leo data reset */
 "aichat.resetLeoDataErrorDescription" = "Leoのデータをリセット＆クリアしてよろしいですか？";
@@ -386,7 +386,7 @@
 "aichat.termsConditionsApproveActionTitle" = "了解しました";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
-"aichat.termsConditionsDescription" = "iBrowe Leoは、Webの利用を向上させるプライベートなAIスマートアシスタントです。Leoは無料でご利用いただけますが、アクセスには制限があります。iBrowe Leo Premiumは、より多くのモデルとより高い制限を導入しており、サブスクリプションをご利用の方は新機能にいち早くアクセスすることができます。すべてのユーザーの方に向けた現在のデフォルトモデルはMixtral 8x7Bです。詳細はiBroweの**[ヘルプセンター](%1$@)**をご覧ください。\n\nデフォルトでは、Leoに質問をすると、閲覧中のWebページの内容やページ上でハイライトしたテキストをiBrowe Leoに送信し、回答を提供します。場合によっては、Leoは、お客様の入力から派生したクエリをiBrowe検索に送信し、検索結果を使用してお客様の質問により適切に回答します。回答の正確性は保証されず、不正確、誤解を招く、または虚偽の情報が含まれる場合があります。機密・個人情報は送信せず、健康、金融、個人の安全などに関連する回答の内容にもご注意ください。Leoのオプションはいつでも設定 > Leoから調整できます。\n\nLeoは、IPアドレスのように個人を特定できる識別子を収集しません。LeoのデータがAIモデルのトレーニングに使用されたり、AIモデルが個人データを保持することはありません (データを削除する前に30日間保持するAnthropicを除きます)。詳しくは、**[プライバシーポリシー](%2$@)**をご覧ください。";
+"aichat.termsConditionsDescription" = "iBrowe Leoは、Webの利用を向上させるプライベートなAIスマートアシスタントです。Leoは無料でご利用いただけますが、アクセスには制限があります。iBrowe Leo Premiumは、より多くのモデルとより高い制限を導入しており、サブスクリプションをご利用の方は新機能にいち早くアクセスすることができます。すべてのユーザーの方に向けた現在のデフォルトモデルはMixtral 8x7Bです。詳細はiBroweの**[ヘルプセンター](%1$@)**をご覧ください。\n\nデフォルトでは、Leoに質問をすると、閲覧中のWebページの内容やページ上でハイライトしたテキストをiBrowe Leoに送信し、回答を提供します。場合によっては、Leoは、お客様の入力から派生したクエリをiBrowe検索に送信し、検索結果を使用してお客様の質問により適切に回答します。回答の正確性は保証されず、不正確、誤解を招く、または虚偽の情報が含まれる場合があります。機密・個人情報は送信せず、健康、金融、個人の安全などに関連する回答の内容にもご注意ください。Leoのオプションはいつでも設定 > Leoから調整できます。\n\nLeoは、IPアドレスのような個人を特定できる識別子を収集しません。LeoのデータがAIモデルのトレーニングに使用されたり、AIモデルが個人データを保持することはありません (データを削除する前に30日間保持するAnthropicを除きます)。詳しくは、**[プライバシーポリシー](%2$@)**をご覧ください。";
 
 /* The title terms and conditions for AI chat usage */
 "aichat.termsConditionsTitle" = "iBrowe Leoとプライベートチャット";

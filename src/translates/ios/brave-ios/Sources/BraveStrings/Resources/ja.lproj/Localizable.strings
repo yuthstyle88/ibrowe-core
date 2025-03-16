@@ -1,5 +1,20 @@
+/* A label shown above a list of icons designed by iBrowe */
+"altAppIcon.iBroweIconsHeader" = "iBroweアイコン";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "アプリのアイコンを変更";
+
+/* A label shown next to the default iBrowe app icon */
+"altAppIcon.defaultAppIcon" = "既定";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "アプリのアイコンを変更できませんでした";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "BackTitle" = "戻る";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"iBroweTranslate.availableVoiceOverAnnouncement" = "ページ翻訳が可能です";
 
 /* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "CloseAllTabsFromTabTrayKeyCodeTitle" = "すべてのタブを閉じる";
@@ -20,15 +35,21 @@
 "NewTabTitle" = "新しいタブ";
 
 /* Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
-"OpenNewTabFromTabTrayKeyCodeTitle" = "新しくタブを開く";
+"OpenNewTabFromTabTrayKeyCodeTitle" = "新タブを開く";
 
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenSelectedTabFromTabTrayKeyCodeTitle" = "選択したタブを開く";
 
-/* Title label text for refreshing credentials from brave site. */
-"paywall.alreadyPurchasedTitle" = "brave.comで購入済みですか？";
+/* Title label text for refreshing credentials from iBrowe site. */
+"paywall.alreadyPurchasedTitle" = "iBrowe.comで購入済みですか？";
 
-/* Button action text for refreshing credentials from brave site. */
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "プロモコードをお持ちですか？";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "プロモコードを使う";
+
+/* Button action text for refreshing credentials from iBrowe site. */
 "paywall.refreshCredentialsButtonTitle" = "認証情報を更新";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
@@ -38,7 +59,7 @@
 "ReloadPageTitle" = "ページを再読み込み";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
-"SelectLocationBarTitle" = "ロケーションバーの選択";
+"SelectLocationBarTitle" = "ロケーションバーを選択";
 
 /* An option in a list of shortcut actions that hides the button */
 "shortcutsButton.hideButtonTitle" = "ショートカットボタンを隠す";
@@ -116,7 +137,7 @@
 "storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN年鑑";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
-"SwitchToNonPBMKeyCodeTitle" = "標準ブラウジングモード";
+"SwitchToNonPBMKeyCodeTitle" = "通常ブラウジングモード";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "プライベートブラウジングモード";

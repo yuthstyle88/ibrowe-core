@@ -14,7 +14,7 @@
 "AccessPhotoDeniedAlertTitle" = "iBrowe ingin mengakses Foto anda";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
-"addBookmarkTitle" = "Tambah Penanda Halaman";
+"addBookmarkTitle" = "Tambah Penanda Buku";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "addFavouritesTitle" = "Tambahkan pada Kegemaran";
@@ -26,10 +26,10 @@
 "AddToFavorites" = "Tambah kepada Kegemaran";
 
 /* Title for the button to add a new website bookmark. */
-"AddToMenuItem" = "Tambah Penanda Halaman";
+"AddToMenuItem" = "Tambah Penanda Buku";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.braveAdsDataToggleOption" = "Data iBrowe Ads";
+"ads.iBroweAdsDataToggleOption" = "Data iBrowe Ads";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Iklan dan Penjejak";
@@ -48,9 +48,6 @@
 
 /* Label for Cancel button */
 "AuthPromptAlertCancelButtonTitle" = "Batal";
-
-/* Authentication prompt message with a realm. First parameter is the hostname. Second is the realm string */
-"AuthPromptAlertFormatRealmMessageText" = "Nama pengguna dan kata laluan sedang diminta oleh %1$@. Laman web itu menyatakan: %2$@";
 
 /* Authentication prompt log in button */
 "AuthPromptAlertLogInButtonTitle" = "Log masuk";
@@ -101,7 +98,7 @@
 "BlockCookieConsentNotices" = "Sekat Notis Persetujuan Kuki";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Menghalang laman web daripada menyimpan maklumat tentang lawatan anda sebelum ini.";
+"BlockCookiesDescription" = "Mencegah laman web daripada menyimpan maklumat tentang lawatan anda sebelum ini.\nPilihan \"Sekat Semua Kuki\" telah dihentikan. Untuk mengetahui cara memaksa pilihan ini diaktifkan, lawati [halaman bantuan kami](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Pemantau Penyekatan";
@@ -125,10 +122,10 @@
 "BookmarkInfo" = "Maklumat Penanda Buku";
 
 /* Title for root level bookmarks cell */
-"BookmarkRootLevelCellTitle" = "Penanda Halaman";
+"BookmarkRootLevelCellTitle" = "Penanda Buku";
 
 /* title for bookmarks panel */
-"Bookmarks" = "Penanda Halaman";
+"Bookmarks" = "Penanda Buku";
 
 /* Action to export bookmarks to another device. */
 "bookmarksExportAction" = "Eksport Penanda Buku";
@@ -137,7 +134,7 @@
 "bookmarksImportAction" = "Import Penanda Buku";
 
 /* Title for bookmarks menu item */
-"BookmarksMenuItem" = "Penanda Halaman";
+"BookmarksMenuItem" = "Penanda Buku";
 
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkTitlePlaceholderText" = "Nama";
@@ -145,7 +142,7 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Alamat";
 
-/* Button to show the brave panel */
+/* Button to show the iBrowe panel */
 "iBrowePanel" = "Panel iBrowe";
 
 /* No comment provided by engineer. */
@@ -161,28 +158,28 @@
 "iBroweRewardsTitle" = "iBrowe Rewards";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"braveSearchPromotion.bannerDescription" = "Carian iBrowe tidak mengumpulkan profil anda.";
+"iBroweSearchPromotion.bannerDescription" = "Carian iBrowe tidak mengumpulkan profil anda.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Mungkin kemudian";
+"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Mungkin kemudian";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"braveSearchPromotion.bannerTitle" = "Sokong carian bebas dengan privasi lebih terjamin";
+"iBroweSearchPromotion.bannerTitle" = "Sokong carian bebas dengan privasi lebih terjamin";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"braveSearchPromotion.bannerTryButtonTitle" = "Cuba gunakan Carian iBrowe";
+"iBroweSearchPromotion.bannerTryButtonTitle" = "Cuba gunakan Carian iBrowe";
 
 /* Button title for Bottom Bar Callout View for action later */
-"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Mungkin kemudian";
+"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Mungkin kemudian";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Singkirkan";
+"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Singkirkan";
 
 /* No comment provided by engineer. */
 "iBroweShieldsAdvancedControls" = "Kawalan lanjutan";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "iBrowe Shields & Privasi";
+"iBroweShieldsAndPrivacy" = "Perisai iBrowe & Privasi";
 
 /* No comment provided by engineer. */
 "iBroweShieldsAndPrivacyTitle" = "Perisai & Privasi";
@@ -198,6 +195,12 @@
 
 /* No comment provided by engineer. */
 "iBroweShieldsGlobalControls" = "Kawalan Global";
+
+/* Shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfo" = "Simpan maklumat hubungan untuk laporan laman rosak pada masa hadapan";
+
+/* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
+"iBroweShieldsSaveContactInfoDescription" = "Jika anda memberikan maklumat hubungan, ia akan disimpan untuk laporan pada masa hadapan";
 
 /* No comment provided by engineer. */
 "iBroweShieldsSiteBroken" = "Jika laman ini kelihatan rosak, cubalah Pelindung di bawah";
@@ -215,7 +218,34 @@
 "iBroweShieldsToggleHint" = "Ketik dua kali untuk togol iBrowe Shields";
 
 /* The name of the feature */
-"bravetalk.braveTalkTitle" = "iBrowe Talk";
+"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+
+/* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
+"iBroweTranslate.languageSelectionButtonTitle" = "Pilih Bahasa";
+
+/* Title for a text element that lets the user know the page was translated successfully. */
+"iBroweTranslate.pageTranslatedTitle" = "Laman Diterjemahkan";
+
+/* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
+"iBroweTranslate.searchInputTitle" = "Cari";
+
+/* This text is for the settings menu for all iBrowe-Translate options. */
+"iBroweTranslate.settingsMenuTitle" = "Terjemahan iBrowe";
+
+/* This text is for the translate settings screen. It's the title of the settings menu. */
+"iBroweTranslate.settingsScreenTitle" = "Terjemahan iBrowe";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Apabila diaktifkan, Terjemahan iBrowe akan mengenal pasti bahasa laman anda secara automatik dan memaparkan butang terjemah di bar URL.";
+
+/* This text is for a Toggle that allows the user to enable or disable page translation. */
+"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Terjemahan Diaktifkan";
+
+/* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
+"iBroweTranslate.translateFromToTitle" = "Kepada";
+
+/* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
+"iBroweTranslate.unknownLanguageTitle" = "Bahasa Tidak Diketahui";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Kunci Pelayar";
@@ -310,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Terbitan";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Komponen Domain";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -410,7 +440,7 @@
 "ClearPrivateDataAlertCancelButtonTitle" = "Batal";
 
 /* No comment provided by engineer. */
-"ClearPrivateDataAlertMessage" = "Anda pasti?";
+"ClearPrivateDataAlertMessage" = "Adakah anda pasti?";
 
 /* The button that clears private data. */
 "ClearPrivateDataAlertOkButtonTitle" = "OK";
@@ -458,7 +488,7 @@
 "CommonShare" = "Kongsi";
 
 /* No comment provided by engineer. */
-"Confirm" = "Sahkan";
+"Confirm" = "Sah";
 
 /* Cookie settings option title */
 "CookieControl" = "Kawalan Kuki";
@@ -530,7 +560,7 @@
 "customSearchEngine.thirdPartySearchEngineAddAlertDescription" = "Enjin carian baharu akan muncul dalam bar carian pantas.";
 
 /* The title that asks the user to Add the search provider */
-"customSearchEngine.thirdPartySearchEngineAddAlertTitle" = "Tambah Penyedia Carian?";
+"customSearchEngine.thirdPartySearchEngineAddAlertTitle" = "Tambah Pembekal Carian?";
 
 /* A descriotion explaining that there is error while adding a search engine */
 "customSearchEngine.thirdPartySearchEngineAddErrorDescription" = "Enjin carian tersuai tidak dapat ditambah. Sila cuba lagi kemudian.";
@@ -557,7 +587,7 @@
 "CustomSearchEngines" = "Enjin Carian Tersuai";
 
 /* The success message that appears after a user sucessfully adds a new search engine */
-"custonmSearchEngine.thirdPartySearchEngineAddedToastTitle" = "Menambah enjin Carian!";
+"custonmSearchEngine.thirdPartySearchEngineAddedToastTitle" = "Enjin carian ditambah!";
 
 /* Button text to close the default browser popup. */
 "defaultBrowserCallout.introCancelButtonText" = "Bukan Sekarang";
@@ -569,7 +599,7 @@
 "defaultBrowserCallout.introPrimaryText" = "Buka semua pautan dengan iBrowe untuk melindungi privasi anda  ";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "iBrowe Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati     ";
+"defaultBrowserCallout.introSecondaryText" = "iBrowe Shields menyekat penjejak & iklan, menjimatkan data, dan menjimatkan masa anda pada setiap laman yang anda lawati";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "Buka Tetapan, ketik Aplikasi Penyemak Imbas Lalai, dan pilih iBrowe.  ";
@@ -605,7 +635,7 @@
 "DeleteLoginAlertSyncedDevicesMessage" = "Log masuk akan dikeluarkan dari semua peranti yang disambungkan.";
 
 /* Prompt title when deleting logins */
-"DeleteLoginAlertTitle" = "Anda pasti?";
+"DeleteLoginAlertTitle" = "Adakah anda pasti?";
 
 /* Label for the button used to delete the current login. */
 "DeleteLoginButtonTitle" = "Padam";
@@ -641,7 +671,7 @@
 "DownloadedFiles" = "Fail-fail yang dimuat turun";
 
 /* Title for downloads menu item */
-"DownloadsMenuItem" = "Muat Turun";
+"DownloadsMenuItem" = "Muat Turu";
 
 /* Title for when a user has nothing downloaded onto their device, and the list is empty. */
 "DownloadsPanelEmptyStateTitle" = "Fail-fail yang dimuat turun akan kelihatan di sini.";
@@ -686,7 +716,7 @@
 "ErrorPageOpenInSafariButtonTitle" = "Buka dalam Safari";
 
 /* Shown in error pages on a button that will try to load the page again */
-"ErrorPageReloadButtonTitle" = "Muatkan semula";
+"ErrorPageReloadButtonTitle" = "Muat semula";
 
 /* Additional warning text when clicking the Advanced button on error pages. %@ is a placeholder, do not localize it. Do not localize <br />. */
 "ErrorPagesAdvancedErrorPinningDetails" = "%1$@ biasanya menggunakan penyulitan untuk melindungi maklumat anda. Apabila iBrowe cuba berhubung dengan %2$@ kali ini, laman web tersebut menghantar kembali bukti kelayakan yang luar biasa dan salah. Perkara ini mungkin berlaku apabila penyerang cuba menyamar sebagai %3$@, atau skrin log masuk Wi-Fi telah mengganggu sambungan tersebut. Maklumat anda masih selamat kerana iBrowe menghentikan sambungan sebelum mana-mana data telah ditukar.<br />Anda tidak boleh melawat %4$@ sekarang kerana laman web tersebut menggunakan pencematan sijil. Ralat dan serangan rangkaian selalunya berlaku buat sementara waktu jadi halaman ini mungkin akan berfungsi sebentar lagi.";
@@ -731,16 +761,16 @@
 "ErrorPagesProceedAnywayButton" = "Teruskan ke %@ (tidak selamat)";
 
 /* %@ will launch an external application */
-"ExternalAppURLAlertMessage" = "% @ akan melancarkan aplikasi luaran";
+"ExternalAppURLAlertMessage" = "%@ akan melancarkan sebuah aplikasi luaran";
 
 /* Allow link to switch apps? */
-"ExternalAppURLAlertTitle" = "Benarkan pautan untuk menukar apl?";
+"ExternalAppURLAlertTitle" = "Benarkan pautan untuk bertukar aplikasi?";
 
 /* Allow iBrowe to open the external app URL */
 "ExternalAppURLAllow" = "Benarkan";
 
 /* Don't allow iBrowe to open the external app URL */
-"ExternalAppURLDontAllow" = "Tidak Benarkan";
+"ExternalAppURLDontAllow" = "Jangan Benarkan";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
 "FavoritesLocationFooterText" = "Kegemaran terletak pada skrin halaman utama anda. Penanda buku ini tidak disegerakkan dengan peranti lain.";
@@ -893,7 +923,7 @@
 "login.loginInfoSetPasscodeAlertTitle" = "Tetapkan Kod Laluan";
 
 /* The message displayed on the password list screen when there is not password found */
-"login.loginListEmptyScreenTitle" = "Log masuk tidak ditemukan";
+"login.loginListEmptyScreenTitle" = "Tiada log masuk ditemui";
 
 /* Title for navigation bar of the login list screen */
 "login.loginListNavigationTitle" = "Log masuk & Kata laluan";
@@ -923,7 +953,7 @@
 "LoginListDeselectAllButtonTitle" = "Nyahpilih Semua";
 
 /* Label displayed when no logins are found after searching. */
-"LoginListNoLoginTitle" = "Log masuk tidak ditemukan";
+"LoginListNoLoginTitle" = "Tiada log masuk ditemui";
 
 /* Title for Logins List View screen. */
 "LoginListScreenTitle" = "Log masuk";
@@ -980,7 +1010,7 @@
 "NewPrivateWindowTitle" = "Tetingkap Sulit Baru";
 
 /* New Tab title */
-"NewTab" = "Tab Baharu";
+"NewTab" = "Tab Bahar";
 
 /* Context menu item for opening a new window */
 "NewWindowTitle" = "Tetingkap Baharu";
@@ -1007,7 +1037,7 @@
 "nprRedirectFooter" = "Mengubah hala pautan NPR secara automatik kepada versi berasaskan teks mereka (di text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.braveSupportFavoriteTitle" = "Sokongan iBrowe";
+"ntp.iBroweSupportFavoriteTitle" = "Sokongan iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Tuntut Token";
@@ -1031,7 +1061,7 @@
 "ntp.learnMoreAboutSI" = "Ketahui lebih lanjut tentang imej tajaan";
 
 /* A setting to enable or disable the device's keyboard from opening automatically when creating a new tab. */
-"ntp.settingsAutoOpenKeyboard" = "Papan Kekunci Buka Secara Automatik";
+"ntp.settingsAutoOpenKeyboard" = "Papan Kekunci Terbuka Auto";
 
 /* A setting to enable or disable background on the NTP screen. */
 "ntp.settingsBackgroundImages" = "Latar Belakang";
@@ -1052,7 +1082,7 @@
 "ntp.settingsTitle" = "Halaman Tab Baru";
 
 /* A button title to show more bookmarks, that opens a new menu. */
-"ntp.showMoreFavorites" = "Tunjukkan Lagi";
+"ntp.showMoreFavorites" = "Tunjukkan Selanjutnya";
 
 /* No comment provided by engineer. */
 "ntp.sponsoredImageDescription" = "Anda menyokong pencipta dan penerbit kandungan dengan melihat imej yang ditaja ini.";
@@ -1060,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "Dengan menghidupkan Ganjaran, anda bersetuju dengan %@.";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessage" = "Dapatkan token dan beri ganjaran kepada pencipta untuk kandungan hebat sambil anda menyemak lalu.";
 
-/* Message when opting into brave Ads when region becomes available */
+/* Message when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Dapatkan mata dan beri ganjaran kepada pencipta untuk kandungan hebat sambil anda menyemak lalu.";
 
-/* Title when opting into brave Ads when region becomes available */
+/* Title when opting into iBrowe Ads when region becomes available */
 "OBAdsOptInTitle" = "Iklan iBrowe tersedia!";
 
 /* Title for ads onboarding screen */
@@ -1082,7 +1112,7 @@
 "OBErrorDetails" = "Terdapat masalah semasa mencipta dompet anda. Sila cuba lagi";
 
 /* No comment provided by engineer. */
-"OBErrorOkay" = "Okey";
+"OBErrorOkay" = "Okay";
 
 /* A generic error title for onboarding */
 "OBErrorTitle" = "Maaf";
@@ -1112,7 +1142,7 @@
 "OBRewardsAgreementDetail" = "Apabila anda mengetik Ya, maksudnya anda bersetuju dengan";
 
 /* Detail text for rewards agreement onboarding screen */
-"OBRewardsAgreementDetailLink" = "Terma Perkhidmatan";
+"OBRewardsAgreementDetailLink" = "Syarat Perkhidmatan";
 
 /* Detail text for rewards agreement onboarding screen */
 "OBRewardsAgreementDetailsAnd" = "dan";
@@ -1169,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Pautkan langganan VPN anda";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Langganan VPN iBrowe anda boleh melindungi hingga 5 peranti merentasi Android, iOS dan desktop. Hanya pautkan langganan App Store anda dengan akaun iBrowe anda.";
+"onboarding.linkReceiptDescription" = "Langganan VPN iBrowe anda boleh melindungi hingga 10 peranti merentasi Android, iOS dan desktop. Hanya pautkan langganan App Store anda dengan akaun iBrowe anda.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Lanjutkan perlindungan Tembok Api iBrowe + VPN anda";
@@ -1224,6 +1254,12 @@
 
 /* Context menu item for opening a link in a new window */
 "OpenInNewWindowTitle" = "Buka dalam Tetingkap Baharu";
+
+/* Title of the alert when a mobile configuration profile is available for download. %@ is the URL placeholder of the website where the profile will be downloaded from */
+"OpenMobileConfigurationAlertDescription" = "Teruskan memuat turun profil konfigurasi daripada %@";
+
+/* Title of the alert when a mobile configuration profile is available for download */
+"OpenMobileConfigurationAlertTitle" = "Profil konfigurasi tersedia";
 
 /* Context menu option for opening a link in a new private tab */
 "OpenNewPrivateTabButtonTitle" = "Buka dalam Tab Peribadi Baharu";
@@ -1318,38 +1354,44 @@
 /* Title for open tabs menu item */
 "OpenTabsMenuItem" = "Tab Terbuka";
 
+/* Title of the alert when a calendar event is available for download. %@ is the URL placeholder of the website where the calendar will be downloaded from */
+"OpenTextCalendarAlertDescription" = "Teruskan memuat turun acara kalendar daripada %@";
+
+/* Title of the alert when a calendar event is available for download */
+"OpenTextCalendarAlertTitle" = "Acara Kalendar tersedia";
+
 /* Button title to that opens a website. */
 "OpenWebsite" = "Buka Laman Web";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.braveLeoItemDescription" = "Leo ialah pembantu pintar yang dikuasakan oleh AI, dibina terus dalam penyemak imbas";
+"optionsMenu.iBroweLeoItemDescription" = "Leo ialah pembantu pintar dikuasakan AI, dibina terus dalam pelayar";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.braveNewsItemDescription" = "Kisah teratas hari ini dalam suapan berita peribadi";
+"optionsMenu.iBroweNewsItemDescription" = "Kisah teratas hari ini dalam suapan berita peribadi";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.braveNewsItemTitle" = "Berita";
+"optionsMenu.iBroweNewsItemTitle" = "Berita";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.bravePlaylistItemDescription" = "Simpan senarai main luar talian untuk sebarang video/strim";
+"optionsMenu.iBrowePlaylistItemDescription" = "Simpan senarai main luar talian untuk sebarang video/strim";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.bravePlaylistItemTitle" = "Senarai Main";
+"optionsMenu.iBrowePlaylistItemTitle" = "Senarai main";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.braveTalkItemDescription" = "Panggilan video peribadi, terus daripada pelayar anda";
+"optionsMenu.iBroweTalkItemDescription" = "Panggilan video peribadi, terus daripada pelayar anda";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.braveTalkItemTitle" = "Cakap";
+"optionsMenu.iBroweTalkItemTitle" = "Cakap";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.braveVPNItemDescription" = "Lindungi seluruh peranti anda dalam talian";
+"optionsMenu.iBroweVPNItemDescription" = "Lindungi seluruh peranti anda dalam talian";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.braveVPNItemTitle" = "VPN";
+"optionsMenu.iBroweVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.braveWalletItemDescription" = "Dompet kripto yang selamat, tidak memerlukan sambungan";
+"optionsMenu.iBroweWalletItemDescription" = "Dompet kripto yang selamat, tidak memerlukan sambungan";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "Ciri iBrowe";
@@ -1478,7 +1520,7 @@
 "playList.expiredAlertTitle" = "Video Tamat Tempoh";
 
 /* Text indicator on the table cell If a video is expired */
-"playList.expiredLabelTitle" = "Tamat Tempoh";
+"playList.expiredLabelTitle" = "Tamat tempoh";
 
 /* Number of items in the playlsit folder. Example: '10 items' */
 "playlist.folderItemCountPlural" = "%d item";
@@ -1508,7 +1550,7 @@
 "playList.noticeAlertTitle" = "Notis";
 
 /* Okay Alert button title */
-"playList.okayButtonTitle" = "Okey";
+"playList.okayButtonTitle" = "Okay";
 
 /* Title for opening the playlist */
 "playList.openInPlaylistButtonTitle" = "Buka Dalam Senarai Main";
@@ -1541,10 +1583,10 @@
 "playlist.playlistAutoSaveSettingsDescription" = "Menambahkan fail video dan audio untuk penggunaan luar talian boleh menggunakan banyak storan pada peranti anda dan juga menggunakan data selular anda";
 
 /* Footer Text for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi)) */
-"playlist.playlistAutoSaveSettingsFooterText" = "Pilihan ini akan menyimpan item senarai main anda pada peranti anda secara automatik supaya anda dapat memainkannya tanpa sambungan internet.";
+"playlist.playlistAutoSaveSettingsFooterText" = "Apabila anda membuka kandungan dalam Senarai Main, pilihan ini akan menyimpan item senarai main yang telah dibuka pada peranti anda, membolehkan anda memainkannya tanpa sambungan internet.";
 
 /* Title for the Playlist Settings Option for Auto Save Videos for Offline (Off/On/Only Wi-fi) */
-"playlist.playlistAutoSaveSettingsTitle" = "Simpan Auto untuk Luar Talian";
+"playlist.playlistAutoSaveSettingsTitle" = "Simpan Kandungan untuk Main Balik Luar Talian";
 
 /* When the user's disk space is almost full */
 "playlist.playlistDiskSpaceWarningMessage" = "Menambah fail video dan audio untuk penggunaan luar talian boleh menggunakan banyak storan pada peranti anda. Sila alih keluar sesetengah fail untuk mengosongkan ruang storan.";
@@ -1571,7 +1613,7 @@
 "playlist.playlistPopoverChangeFoldersButtonTitle" = "Tukar";
 
 /* The title for the alert that shows up when removing all videos and their offline mode storage. */
-"playList.playlistResetAlertTitle" = "Tetapkan semula";
+"playList.playlistResetAlertTitle" = "Tetap semula";
 
 /* Footer Text for the Playlist Settings Option for resetting Playlist. */
 "playlist.playlistResetPlaylistOptionFooterText" = "Pilihan ini akan mengalih keluar semua video dari Senarai Main dan juga storan mod Luar Talian.";
@@ -1580,13 +1622,13 @@
 "playlist.playlistSaveForOfflineErrorMessage" = "Maaf, item ini tidak boleh disimpan untuk mod luar talian pada masa ini.";
 
 /* Title of alert when saving a playlist item for offline mode */
-"playlist.playlistSaveForOfflineErrorTitle" = "Maaf, ada kesilapan berlaku";
+"playlist.playlistSaveForOfflineErrorTitle" = "Maaf, sesuatu tidak betul";
 
 /* Title For the Section that videos are listed */
 "playList.playListSectionTitle" = "Senarai Main";
 
 /* Title Playlist (used for back button, and playlist settings) */
-"playList.playListSettingTitle" = "Senarai Main";
+"playList.playListSettingTitle" = "Senarai main";
 
 /* Body for the error message that shows when a playlist folder already exists */
 "playList.playlistSharedFolderAlreadyExistsBody" = "Folder ini sudah sedia ada dalam Senarai Main iBrowe anda";
@@ -1618,14 +1660,8 @@
 /* Title for the Playlist Settings Option for Enable/Disable ability to start playing from the point where user last left-off */
 "playlist.playlistStartPlaybackSettingsOptionTitle" = "Ingat Kedudukan Main Semula Fail";
 
-/* Description for Playlist setting */
-"playlist.playlistWebCompatibilityDescription" = "Menyahdayakan API WebKit MediaSource";
-
-/* Title for Playlist setting */
-"playlist.playlistWebCompatibilityTitle" = "Keserasian Web";
-
 /* Title for removing offline mode storage */
-"playList.removeActionButtonTitle" = "Alih Keluar";
+"playList.removeActionButtonTitle" = "Alih keluar";
 
 /* A message shown when the user removes media from the playlist. '%@' will be replaced by the folder it was added to. Example: 'Removed from Play Later' */
 "playList.removedFromPlaylistMessage" = "Dialih keluar daripada %@";
@@ -1679,13 +1715,13 @@
 "playList.sorryAlertTitle" = "Maaf";
 
 /* The title for the toast that shows up on a page containing a playlist item that was added to playlist */
-"playList.toastAddedToPlaylistTitle" = "Ditambah ke Senarai Main iBrowe";
+"playList.toastAddedToPlaylistTitle" = "Lihat dalam Senarai Main";
 
 /* The title for the toast button when an item was added to playlist */
 "playList.toastAddToPlaylistOpenButton" = "Buka";
 
 /* The title for the toast that shows up on a page containing a playlist item */
-"playList.toastAddToPlaylistTitle" = "Tambah ke Senarai Main iBrowe";
+"playList.toastAddToPlaylistTitle" = "Tambahkan pada Senarai Main";
 
 /* The title for the toast that shows up on a page when an item that has already been added, was updated. */
 "playList.toastExitingItemPlaylistTitle" = "Lihat dalam Senarai Main iBrowe";
@@ -1694,7 +1730,7 @@
 "playList.undoRemoveButtonTitle" = "Buat Asal";
 
 /* Footer for option to disable URL-Bar button */
-"playlist.urlBarButtonOptionFooter" = "Menambah butang senarai main (nampak seperti 4 baris dengan simbol +) di sebelah bar alamat di penyemak imbas iBrowe. Butang ini memberi anda akses pantas untuk membuka Senarai Main, atau menambah atau mengalih keluar media.";
+"playlist.urlBarButtonOptionFooter" = "Menambah butang senarai main di sebelah bar alamat di penyemak imbas iBrowe. Butang ini memberi anda akses pantas untuk membuka Senarai Main, atau menambah atau mengalih keluar media.";
 
 /* Title for option to disable URL-Bar button */
 "playlist.urlBarButtonOptionTitle" = "Dayakan butang akses pantas";
@@ -1841,7 +1877,7 @@
 "privacyHub.allTimeSitesCount" = "Tapak %lld";
 
 /* Displays a number of trackers we blocked on a particular website, example usage: '23 trackers & ads' */
-"privacyHub.allTimeTrackersCount" = "Penjejak & iklan %lld";
+"privacyHub.allTimeTrackersCount" = "%lld penjejak & iklan";
 
 /* Title under which we display most name of the most blocked tracker or ad. */
 "privacyHub.allTimeTrackerTitle" = "Penjejak & Iklan";
@@ -2087,7 +2123,7 @@
 "RecentSearchDisableSuggestions" = "Nyahdayakan";
 
 /* Recent Search button title to enable suggestions */
-"RecentSearchEnableSuggestions" = "Dayakan";
+"RecentSearchEnableSuggestions" = "Mendayakan";
 
 /* Recent Search Favorites Section Title */
 "RecentSearchFavorites" = "Kegemaran";
@@ -2146,6 +2182,9 @@
 /* A label for a text entry field where the user can provide contact details within a web-compatibilty report */
 "ReportBrokenContactMe" = "Hubungi saya melalui: (pilihan)";
 
+/* Contact info storing description */
+"ReportBrokenContactMeDescription" = "Jika anda memberikan maklumat hubungan, ia akan disimpan untuk melaporkan laman rosak pada masa hadapan.";
+
 /* A placeholder for a text entry field within a web-compatibilty report which shows a few suggestions of what the user should enter for their contact contact details (in a 'Contact me at: (optional)' field). */
 "ReportBrokenContactMeSuggestions" = "E-mel, Twitter, dll.";
 
@@ -2158,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Serah";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" Ingin Mengakses Kamera dan Mikrofon";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCameraPermissionPrompt" = "\"%@\" Ingin Mengakses Kamera";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Benarkan";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" Ingin Mengakses Peranti Tangkapan Media";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" Ingin Mengakses Mikrofon";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2192,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe Tertutup Secara Tidak Dijangka.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Dengan iBrowe Rewards, anda boleh melihat iklan yang menjaga privasi daripada rangkaian iBrowe Ads. Tiada penjejak. Tiada kelewatan. Data anda selamat sepenuhnya.";
+"rewards.iBroweTalkRewardsOptInBody" = "Dengan iBrowe Rewards, anda boleh melihat iklan yang menjaga privasi daripada rangkaian iBrowe Ads. Tiada penjejak. Tiada kelewatan. Data anda selamat sepenuhnya.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.braveTalkRewardsOptInButtonTitle" = "Hidupkan Rewards";
+"rewards.iBroweTalkRewardsOptInButtonTitle" = "Hidupkan Ganjaran";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Klik di mana sahaja di skrin untuk meneruskan ke iBrowe Talk.";
+"rewards.iBroweTalkRewardsOptInSuccessBody" = "Klik di mana sahaja di skrin untuk meneruskan ke iBrowe Talk.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessTitle" = "Anda kini boleh memulakan panggilan percuma";
+"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Anda kini boleh memulakan panggilan percuma";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Untuk memulakan panggilan percuma, hidupkan iBrowe Rewards";
+"rewards.iBroweTalkRewardsOptInTitle" = "Untuk memulakan panggilan percuma, hidupkan iBrowe Rewards";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "Hidupkan untuk membantu dalam menyokong iBrowe dan komuniti BAT.";
@@ -2318,7 +2357,7 @@
 "RewardsInternalsExpiresAt" = "Tamat Tempoh Pada";
 
 /* No comment provided by engineer. */
-"RewardsInternalsInvalid" = "Tidak Sah";
+"RewardsInternalsInvalid" = "Tidak sah";
 
 /* No comment provided by engineer. */
 "RewardsInternalsKeyInfoSeed" = "Benih Maklumat Penting";
@@ -2357,7 +2396,7 @@
 "RewardsInternalsRewardsTypeRecurringTip" = "Tip berulang";
 
 /* No comment provided by engineer. */
-"RewardsInternalsSharableBasicDescription" = "Maklumat profil, peranti & baki ganjaran (sentiasa dikongsi)";
+"RewardsInternalsSharableBasicDescription" = "Profil ganjaran, maklumat peranti & baki (sentiasa dikongsi)";
 
 /* No comment provided by engineer. */
 "RewardsInternalsSharableBasicTitle" = "Maklumat Asas";
@@ -2471,7 +2510,7 @@
 "SearchInputViewTextFieldAccessibilityLabel" = "Medan Input Carian";
 
 /* Title for the search field at the top of the Logins list screen */
-"SearchInputViewTitle" = "Carian";
+"SearchInputViewTitle" = "Cari";
 
 /* Add Custom Search Engine Table Cell Row Title */
 "searchSettingAddCustomEngineCellTitle" = "Tambah Enjin Carian Tersuai";
@@ -2483,7 +2522,7 @@
 "SearchSettingBrowserSuggestionCellTitle" = "Tunjukkan Cadangan Pelayar";
 
 /* Navigation title for search settings. */
-"SearchSettingNavTitle" = "Carian";
+"SearchSettingNavTitle" = "Cari";
 
 /* Label for showing recent search setting. */
 "SearchSettingRecentSearchesCellTitle" = "Tunjuk Carian Terkini";
@@ -2504,7 +2543,7 @@
 "SearchSuggestionSectionTitleFormat" = "Carian %@";
 
 /* Section Title when showing search suggestions and the engine does not contain the word 'Search'. */
-"SearchSuggestionSectionTitleNoSearchFormat" = "Carian";
+"SearchSuggestionSectionTitleNoSearchFormat" = "Cari";
 
 /* Section header for search suggestions option */
 "SearchSuggestionsSectionHeader" = "Cadangan Carian";
@@ -2561,7 +2600,7 @@
 "settings.highestQualityPlaybackDetail" = "Membolehkan peleraian berkualiti tinggi";
 
 /* Header for the general settings section */
-"settings.media.general" = "Umum";
+"settings.media.general" = "Umu";
 
 /* Setting title for 'Media' sections. Media section offerts various options to manipulate media playback */
 "settings.media.rootSetting" = "Media";
@@ -2675,10 +2714,10 @@
 "ShieldsOverviewFooter" = "Nota: Sesetengah tapak mungkin memerlukan skrip untuk berfungsi dengan betul supaya perisai ini dimatikan secara lalai.";
 
 /* Quick Action for 3D-Touch on the Application Icon */
-"ShortcutItemTitleNewPrivateTab" = "Tab Peribadi Baru";
+"ShortcutItemTitleNewPrivateTab" = "Tab Peribadi Baharu";
 
 /* Quick Action for 3D-Touch on the Application Icon */
-"ShortcutItemTitleNewTab" = "Tab Baharu";
+"ShortcutItemTitleNewTab" = "Tab Bahar";
 
 /* Quick Action for 3D-Touch on the Application Icon */
 "ShortcutItemTitleQRCode" = "Imbas Kod QR";
@@ -2711,7 +2750,7 @@
 "shortcuts.activityTypeNewPrivateTabTitle" = "Buka Tab Pelayar Peribadi Baharu";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeNewTabSuggestedPhrase" = "Buka Tab Baharu";
+"shortcuts.activityTypeNewTabSuggestedPhrase" = "Buka Tab Baru";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeNewTabTitle" = "Buka Tab Pelayar Baharu";
@@ -2771,7 +2810,7 @@
 "shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "Buka Laman Web";
 
 /* Description for opening iBrowe Settings for altering Siri shortcut. */
-"shortcuts.shortcutOpenApplicationSettingsDescription" = "Pilihan ini akan membuka Tetapan iBrowe. Untuk mengubah pelbagai pilihan Siri, pilih item menu 'Siri & Cari' dan sesuaikan pilihan anda.";
+"shortcuts.shortcutOpenApplicationSettingsDescription" = "Pilihan ini akan membuka Tetapan iBrowe. Untuk mengubah pelbagai pilihan Siri, sila pilih item menu 'Siri & Cari' dan sesuaikan pilihan anda.";
 
 /* Button title that open application settings */
 "shortcuts.shortcutOpenApplicationSettingsTitle" = "Buka Tetapan";
@@ -2804,7 +2843,7 @@
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "Gunakan Pintasan untuk membuka skrin sejarah pelayar melalui Siri - Pembantu Suara";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpenHistoryListTitle" = "Buka Sejarah Pelayar";
+"shortcuts.shortcutSettingsOpenHistoryListTitle" = "Buka Sejarah Penyemak Imbas";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenNewPrivateTabDescription" = "Gunakan Pintasan untuk membuka tab peribadi baharu melalui Siri - Pembantu Suara";
@@ -2816,7 +2855,7 @@
 "shortcuts.shortcutSettingsOpenNewTabDescription" = "Gunakan Pintasan untuk membuka tab baharu melalui Siri - Pembantu Suara";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpenNewTabTitle" = "Buka Tab Baharu";
+"shortcuts.shortcutSettingsOpenNewTabTitle" = "Buka Tab Baru";
 
 /* Description of Open Playlist Siri Shortcut in Settings Screen */
 "shortcuts.shortcutSettingsOpenPlaylistDescription" = "Gunakan Pintasan untuk membuka Senarai Main melalui Siri - Pembantu Suara";
@@ -2840,10 +2879,10 @@
 "showDownloadsTitle" = "Tunjukkan Muat Turun";
 
 /* Button to show the history list */
-"ShowHistory" = "Tunjukkan Sejarah";
+"ShowHistory" = "Tunjuk Sejarah";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
-"showHistoryTitle" = "Tunjukkan Sejarah";
+"showHistoryTitle" = "Tunjuk Sejarah";
 
 /* Setting preference to only show the browser tabs bar when the device is in the landscape orientation. */
 "ShowInLandscapeOnly" = "Landskap Sahaja";
@@ -2915,7 +2954,7 @@
 "sync.bookmarksIExportPopupFailureMessage" = "Eksport Penanda Halaman Gagal";
 
 /* Title of the bookmark import popup. */
-"sync.bookmarksImportPopupErrorTitle" = "Penanda Halaman";
+"sync.bookmarksImportPopupErrorTitle" = "Penanda Buku";
 
 /* Message of the popup if bookmark import fails. */
 "sync.bookmarksImportPopupFailureMessage" = "Import Penanda Buku Gagal";
@@ -3017,7 +3056,7 @@
 "sync.expiredError" = "Kod segerak ini sudah tamat tempoh, sila jana kod segerak yang baharu dan cuba lagi.";
 
 /* Generic Sync Error Description */
-"sync.genericError" = "Maaf, ada kesilapan berlaku";
+"sync.genericError" = "Maaf, sesuatu tidak betul";
 
 /* Grand camera access */
 "sync.grantCameraAccess" = "Aktifkan Kamera";
@@ -3152,7 +3191,7 @@
 "sync.toDevice" = "Segerakkan kepada peranti";
 
 /* Sync to existing device description */
-"sync.toDeviceDescription" = "Dengan menggunakan peranti disegerakkan yang sedia ada, buka Tetapan iBrowe dan navigasi kepada Tetapan -> Penyegerakan. Pilih \"Tambah Peranti\" dan imbas kod yang dipaparkan pada skrin.";
+"sync.toDeviceDescription" = "Dengan menggunakan peranti yang telah disegerakkan, buka Tetapan iBrowe dan pergi ke Tetapan -> Penyegerakan. Pilih \"Tambah Peranti\" dan imbas kod yang dipaparkan pada skrin.";
 
 /* Description on popup when setting up a sync group fails */
 "sync.unableCreateGroup" = "Tidak dapat menyegerakkan peranti ini";
@@ -3233,7 +3272,7 @@
 "tabToolbarNotSecureTitle" = "Tidak Selamat";
 
 /* Accessibility Label for the tab toolbar Playlist button */
-"TabToolbarPlaylistButtonAccessibilityLabel" = "Senarai Main";
+"TabToolbarPlaylistButtonAccessibilityLabel" = "Senarai main";
 
 /* Accessibility label for the Reader View button */
 "TabToolbarReaderViewButtonAccessibilityLabel" = "Paparan Pembaca";
@@ -3242,7 +3281,7 @@
 "TabToolbarReaderViewButtonTitle" = "Tambah ke Senarai Bacaan";
 
 /* Accessibility Label for the tab toolbar Reload button */
-"TabToolbarReloadButtonAccessibilityLabel" = "Muatkan semula";
+"TabToolbarReloadButtonAccessibilityLabel" = "Muat semula";
 
 /* The text shown in the URL bar on about:home */
 "TabToolbarSearchAddressPlaceholderText" = "Cari atau masukkan alamat";
@@ -3278,7 +3317,7 @@
 "TabTrayMultiTabPositionFormatVoiceOverText" = "Tabs %1$@ hingga %2$@ daripada %3$@";
 
 /* Accessibility label for the New Tab button in the tab toolbar. */
-"TabTrayNewTabButtonAccessibilityLabel" = "Tab Baharu";
+"TabTrayNewTabButtonAccessibilityLabel" = "Tab Bahar";
 
 /* Title displayed for placeholder inside Search Bar in Tab Tray */
 "TabTraySearchBarTitle" = "Tab Carian";
@@ -3287,7 +3326,7 @@
 "TabTraySingleTabPositionFormatVoiceOverText" = "Tab %1$@ daripada %2$@";
 
 /* No comment provided by engineer. */
-"TermsOfService" = "Terma Perkhidmatan";
+"TermsOfService" = "Syarat Perkhidmatan";
 
 /* Show iBrowe Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Terma Penggunaan";
@@ -3311,7 +3350,7 @@
 "ThemesDisplayBrightnessFooter" = "Tetapan ini tidak terpakai dalam mod pelayaran peribadi.";
 
 /* Selection to color/style the user interface with a light theme. */
-"ThemesLightOption" = "Terang";
+"ThemesLightOption" = "Cerah";
 
 /* Name for app theme settings */
 "themesSettings" = "Tema";
@@ -3320,7 +3359,7 @@
 "Title" = "Tajuk";
 
 /* History tableview section header */
-"Today" = "Hari ini";
+"Today" = "Hari Ini";
 
 /* To add a list of 1 or more rss feeds */
 "today.addSourceAddButtonTitle" = "Tambah";
@@ -3344,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "Suapan RSS Yang Tersedia";
 
 /* The name of the feature */
-"today.braveToday" = "iBrowe News";
+"today.iBroweToday" = "iBrowe News";
 
 /* The name of the feature in settings */
-"today.braveToday.title" = "Berita";
+"today.iBroweToday.title" = "Berita";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Ikuti topik yang menaik minat anda";
@@ -3371,7 +3410,7 @@
 "today.disabledAlertBody" = "iBrowe News akan berhenti menunjukkan kandungan daripada %@";
 
 /* No comment provided by engineer. */
-"today.disabledAlertTitle" = "Dinyahaktif";
+"today.disabledAlertTitle" = "Dinyahdayakan";
 
 /* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
 "today.disablePublisherContent" = "Sembunyikan kandungan daripada %@";
@@ -3403,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Ikuti";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Dapatkan suapan daripada";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3499,6 +3538,9 @@
 /* Button title that when tapped toggles the web page in our out of reader mode */
 "ToggleReaderMode" = "Togol Mod Pembaca";
 
+/* Title of an action that allows the user to translate the current web-page to another language */
+"TranslatePage" = "Terjemah";
+
 /* Prompt shown before enabling provider search queries */
 "Turn on search suggestions?" = "Hidupkan cadangan carian?";
 
@@ -3530,7 +3572,7 @@
 "UserWalletGenericErrorMessage" = "Terdapat masalah untuk log masuk ke akaun Uphold anda. Sila cuba lagi";
 
 /* No comment provided by engineer. */
-"UserWalletGenericErrorTitle" = "Maaf, ada kesilapan berlaku";
+"UserWalletGenericErrorTitle" = "Maaf, sesuatu tidak betul";
 
 /* Version number of iBrowe shown in settings */
 "VersionTemplate" = "Versi %1$@ (%2$@)";
@@ -3546,129 +3588,6 @@
 
 /* Disclaimer for screen to search using voice. */
 "voice.search.screen.disclaimer" = "iBrowe tidak menyimpan atau mengongsikan carian suara anda.";
-
-/* Pop up extra description for billing issue of subcription VPN about to expire */
-"vpn.autoReneSoonExpirePopOverSubDescription" = "Mahu kekal terlindung? Hanya perbaharui sebelum langganan anda tamat. Sebagai penghargaan atas pembaharuan, kami akan berikan potongan 20% bagi 3 bulan yang seterusnya.";
-
-/* Action button title that enables auto renew for subcription */
-"vpn.autoRenewActionButtonTitle" = "Dayakan Auto Baharui";
-
-/* Pop up title for renewing VPN subscription with discount */
-"vpn.autoRenewDiscountPopOverTitle" = "Auto baharui Langganan VPN iBrowe anda sekarang dan dapatkan potongan 20% untuk 3 bulan!";
-
-/* Pop up title for renewing VPN subscription with month free */
-"vpn.autoRenewFreeMonthPopOverTitle" = "Auto baharui Langganan VPN iBrowe anda sekarang dan dapatkan 1 bulan percuma!";
-
-/* Pop up description for VPN subscription is about expire */
-"vpn.autoRenewSoonExpirePopOverDescription" = "Maksudnya, anda akan kehilangan perlindungan tambahan iBrowe bagi setiap apl pada telefon anda.";
-
-/* Pop up title for VPN subscription is about expire */
-"vpn.autoRenewSoonExpireTitle" = "Alamak! Langganan VPN iBrowe anda hampir tamat tempoh.";
-
-/* Title for screen to buy the VPN. */
-"vpn.buyVPNTitle" = "Tembok Api Berani + VPN";
-
-/* Message for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesBody" = "Tidak dapat menyambung ke App Store, sila cuba lagi dalam beberapa minit.";
-
-/* Title for an alert when the VPN can't get prices from the App Store */
-"vpn.errorCantGetPricesTitle" = "Ralat App Store";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAds" = "Blok sambungan rangkaian yang tidak diingini";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxBlockAdsAlternate" = "Sekat iklan & penjejak pada semua apl";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFast" = "Menyokong kelajuan hingga 100 Mbps";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckboxFastAlternate" = "Cepat dan tanpa had sehingga 100 Mbps";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmark247Support" = "sokongan 24/7";
-
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.popupCheckmarkSecureConnections" = "Melindungi semua sambungan";
-
-/* It is used in context: 'Powered by BRAND_NAME' */
-"vpn.poweredBy" = "Dikuasakan oleh";
-
-/* Name of automatic vpn region selector */
-"vpn.regionPickerAutomaticModeCellText" = "Automatik";
-
-/* Alert description to show when the VPN session has expired */
-"vpn.sessionExpiredDescription" = "Sila log masuk ke Akaun iBrowe anda untuk menyegarkan semula sesi VPN anda.";
-
-/* Dismiss button to close the alert showing that the vpn session has expired */
-"vpn.sessionExpiredDismissButton" = "Singkirkan";
-
-/* Login button to fix the vpn session expiration issue */
-"vpn.sessionExpiredLoginButton" = "Log masuk";
-
-/* Alert title to show when the VPN session has expired */
-"vpn.sessionExpiredTitle" = "Sesi luput";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNDisabled" = "Dinyahaktif";
-
-/* Whether the VPN is enabled or not */
-"vpn.settingsVPNEnabled" = "Mendayakan";
-
-/* Whether the VPN plan has expired */
-"vpn.settingsVPNExpired" = "Tamat Tempoh";
-
-/* Action button title that subscribe action for VPN purchase */
-"vpn.subscribeVPNActionButtonTitle" = "Langgan Sekarang";
-
-/* Pop up description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverDescription" = "Betul. Langganan VPN iBrowe anda kini boleh digunakan pada hingga 5 peranti. Jadi, anda boleh melanggan pada iOS dan menggunakannya pada peranti Mac, Windows dan Android secara percuma.";
-
-/* Pop up title the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNAllDevicesPopOverTitle" = "Kini, gunakan VPN iBrowe pada semua peranti anda pada harga yang sama!";
-
-/* Pop up title for subscribing VPN with discount */
-"vpn.subscribeVPNDiscountPopOverTitle" = "Cuba gunakan lagi VPN iBrowe dan dapatkan potongan 20% untuk 3 bulan!";
-
-/* Pop up sub description the subscription for VPN can be used for all platforms */
-"vpn.subscribeVPNPopOverSubDescription" = "Bersedia untuk melindungi setiap apl pada telefon anda? Gunakan VPN iBrowe kembali dan dapatkan potongan 20% untuk 3 bulan yang seterusnya.";
-
-/* Pop up description for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverDescription" = "VPN iBrowe sentiasa menyekat penjejak pada setiap apl, walau pun di luar penyemak imbas iBrowe. Kini anda boleh melihat orang yang cuba menjejak anda dengan Hab Privasi iBrowe.";
-
-/* Pop up title for subscribing VPN explaning VPN protects user outside the iBrowe */
-"vpn.subscribeVPNProtectionPopOverTitle" = "Adakah anda tahu bahawa VPN iBrowe melindungi anda di luar Penyemak Imbas iBrowe?";
-
-/* Cell title indicates update payment method */
-"vpn.updateActionCellTitle" = "Kemas kini";
-
-/* Pop up description for billing issue of subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverDescription" = "Usah bimbang. Kami akan pastikan VPN terus aktif selama beberapa hari sementara anda mengemaskinikan maklumat pembayaran anda.";
-
-/* Pop up title for billing issue for subcription VPN already expired */
-"vpn.updateBillingExpiredPopOverTitle" = "Kemas kinikan maklumat pembayaran anda agar sentiasa dilindungi dengan VPN iBrowe.";
-
-/* Pop up description for billing issue of subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverDescription" = "Ingin sentiasa melindungi setiap apl pada telefon anda? Hanya kemas kinikan butiran pembayaran anda.";
-
-/* Pop up title for billing issue for subcription VPN about to expire */
-"vpn.updateBillingSoonExpirePopOverTitle" = "Terdapat isu pengebilan pada akaun anda yang bermaksud bahawa langganan VPN iBrowe anda hampir tamat tempoh.";
-
-/* Action button title that updates method payment */
-"vpn.updatePaymentActionButtonTitle" = "Kemas Kinikan Pembayaran";
-
-/* The title for screen for showing list of server region */
-"vpn.vpnRegionListServerScreenTitle" = "Wilayah Pelayan";
-
-/* Button subtitle for VPN region selection in menu. %@ will be replaced with country name or automatic ex: Current Setting: Automatic */
-"vpn.vpnRegionSelectorButtonSubTitle" = "Tetapan Terkini: %@";
-
-/* Button title for VPN region selection in menu */
-"vpn.vpnRegionSelectorButtonTitle" = "Rantau VPN";
-
-/* Text description of VPN subscription needs a method of payment update */
-"vpn.vpnUpdatePaymentMethodDescriptionText" = "Sila kemas kinikan kaedah pembayaran anda";
 
 /* The date your wallet was created */
 "WalletCreationDate" = "Tarikh Penciptaan Dompet";
@@ -3701,7 +3620,7 @@
 "websiteData.removeAllDataRecords" = "Alih Keluar Semua";
 
 /* Shown when a user has attempted to delete a single webpage data record such as cookies, caches, or local storage that has been persisted on their device. Tapping it will delete that records and remove it from the list */
-"websiteData.removeDataRecord" = "Alih Keluar";
+"websiteData.removeDataRecord" = "Alih keluar";
 
 /* Shown on a button when a user has selected multiple webpage data records (such as cookies, caches, or local storage) that has been persisted on their device. Tapping it will delete those records and remove them from the list */
 "websiteData.removeSelectedDataRecord" = "Alih keluar %ld item";

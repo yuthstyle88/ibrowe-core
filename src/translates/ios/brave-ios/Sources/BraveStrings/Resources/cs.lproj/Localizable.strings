@@ -1,5 +1,20 @@
+/* A label shown above a list of icons designed by iBrowe */
+"altAppIcon.iBroweIconsHeader" = "Ikony iBrowe";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "Změnit ikonu aplikace";
+
+/* A label shown next to the default iBrowe app icon */
+"altAppIcon.defaultAppIcon" = "Výchozí";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "Nepodařilo se změnit ikonu aplikace";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "BackTitle" = "Back";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"iBroweTranslate.availableVoiceOverAnnouncement" = "Je k dispozici překlad stránky";
 
 /* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "CloseAllTabsFromTabTrayKeyCodeTitle" = "Zavřít všechny karty";
@@ -25,10 +40,16 @@
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenSelectedTabFromTabTrayKeyCodeTitle" = "Otevřít vybranou kartu";
 
-/* Title label text for refreshing credentials from brave site. */
-"paywall.alreadyPurchasedTitle" = "Už jste na brave.com provedli nákup?";
+/* Title label text for refreshing credentials from iBrowe site. */
+"paywall.alreadyPurchasedTitle" = "Už jste na iBrowe.com provedli nákup?";
 
-/* Button action text for refreshing credentials from brave site. */
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "Máte promo kód?";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "Uplatnit promo kód";
+
+/* Button action text for refreshing credentials from iBrowe site. */
 "paywall.refreshCredentialsButtonTitle" = "Obnovte si své identifikační údaje";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */

@@ -10,7 +10,7 @@
 /* A discription of the iBrowe Player. */
 "AntiAdBlockWarningiBrowePlayerDescription" = "**Přehrávač iBrowe** je vaše vstupenka na video bez reklam a nepřerušované zážitky z videa.";
 
-/* A button that disables ad-blocking and uses brave player. */
+/* A button that disables ad-blocking and uses iBrowe player. */
 "AntiAdBlockWarningConfirmationButton" = "Upravit moje štíty";
 
 /* A descriptive message explaining this site's ad-blocking crackdown. */
@@ -43,22 +43,22 @@
 /* A title for setting which blocks 'switch to app' popups */
 "blockMobileAnnoyances" = "Oznámení bloku „Přepnout na aplikaci";
 
-/* Title for the brave player feature */
+/* Title for the iBrowe player feature */
 "iBrowePlayer" = "Přehrávač iBrowe";
 
-/* A label for a toggle that enables automatic launching of brave player for certain sites */
+/* A label for a toggle that enables automatic launching of iBrowe player for certain sites */
 "iBrowePlayerAlwaysOpenYouTubeLinks" = "Vždy otevírejte videa z této webové stránky pomocí přehrávače iBrowe";
 
-/* A button that confirms to use the brave player. */
+/* A button that confirms to use the iBrowe player. */
 "iBrowePlayerConfirmButton" = "Vyzkoušejte to";
 
-/* A button that ignores the brave player */
+/* A button that ignores the iBrowe player */
 "iBrowePlayerDismissButton" = "Teď ne";
 
-/* A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time. */
+/* A description of the iBrowe player that is presented on the info panel when clicing on the iBrowe player icon for the first time. */
 "iBrowePlayerInfoMessage" = "Přehrávač iBrowe vám umožňuje sledovat videa bez přerušení.";
 
-/* Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar. */
+/* Title for the iBrowe player info popup which appears when clicking on the iBrowe player icon on the navigation bar. */
 "iBrowePlayerInfoTitle" = "Místo toho sledujte v přehrávači iBrowe";
 
 /* A title to the content filtering page under global shield settings and the title on the Content filtering page */
@@ -159,6 +159,30 @@
 
 /* This is a label on a button that updates filter lists which signifies that lists have been updated */
 "ListsUpdated" = "Seznamy aktualizovány";
+
+/* A label displayed above a value indicating if the site is in aggressive mode in Blocked Requests view. */
+"shields.aggressiveLabel" = "Agresivní";
+
+/* A label displayed above the location a request was blocked in Blocked Requests view. */
+"shields.blockedByLabel" = "Blokuje";
+
+/* The title displayed in the navigation bar of Blocked Requests view. */
+"shields.blockedRequestsTitle" = "Blokované žádosti";
+
+/* Used to describe when a request was blocked by the Content Blocker in Blocked Requests view. */
+"shields.contentBlocker" = "Blokování obsahu";
+
+/* Used to describe when a request was blocked by our request blocking scripts in Blocked Requests view. */
+"shields.requestBlocking" = "Vyžádat blokování";
+
+/* A label displayed above the request url that was blocked in Blocked Requests view. */
+"shields.requestURLLabel" = "Adresa URL žádosti";
+
+/* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
+"shields.resourceTypeLabel" = "Typ zdroje";
+
+/* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
+"shields.sourceURLLabel" = "Zdrojová adresa URL";
 
 /* A button title when confirming to shred website data */
 "ShredDataButtonTitle" = "Smazat data";

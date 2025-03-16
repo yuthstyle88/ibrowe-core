@@ -31,8 +31,8 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "Status";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
-"aichat.advancedSettingsViewReceiptTitle" = "Zobrazení účtenky App Store";
+/* The title for the button that allows the user to view the App Store Receipt */
+"aichat.advancedSettingsViewReceiptTitle" = "Zobrazit stvrzenku z App Store";
 
 /* The subtitle for the error showing there is an error from App Store */
 "aichat.appStoreErrorSubTitle" = "Nepodařilo se připojit k App Store, zkuste to prosím znovu později.";
@@ -104,13 +104,13 @@
 "aichat.feedbackOptionTitleNotHelpful" = "Neužitečné";
 
 /* The title for other feedback option */
-"aichat.feedbackOptionTitleOther" = "Ostatní";
+"aichat.feedbackOptionTitleOther" = "Jiné";
 
 /* The title for unsafe/harmful feedback option */
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Nebezpečné/urážlivé";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium poskytuje přístup k rozšířené sadě jazykových modelů pro ještě větší nuance odpovědí. [Zjistit více](https://brave.com/) – [Zavřít](braveai: //zavřít)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium poskytuje přístup k rozšířené sadě jazykových modelů pro ještě větší nuance odpovědí. [Zjistit více](https://iBrowe.com/) – [Zavřít](iBroweai: //zavřít)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Submit";
@@ -131,13 +131,13 @@
 "aichat.feedbackViewMainTitle" = "Odeslat zpětnou vazbu k umělé inteligenci iBrowe";
 
 /* The button title for opening paywall screen */
-"aichat.goPremiumButtonTitle" = "Přejít na verzi Premium";
+"aichat.goPremiumButtonTitle" = "Přejít na Premium";
 
 /* Description about answers are changing with page context */
 "aichat.infoAboutPageContext" = "Tvarujte odpovědi na základě obsahu stránky";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "Ahoj, jsem Leo. Zastupuji iBrowe a jsem poháněn pomocí Claude 3 Haiku – modelu vytvořeného společností Anthropic, který slouží k podpoře úloh konverzace a zpracování textu.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "Ahoj, jsem Leo. Zastupuji iBrowe a jsem poháněn pomocí Claude Haiku – modelu vytvořeného společností Anthropic, který slouží k podpoře úloh konverzace a zpracování textu.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku od Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "Bleskově rychlý chat";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "Dobrý den, jsem Leo. Jsem na proxy serveru společnosti iBrowe a využívám model 3.5 Sonnet, který vytvořila společnost Anthropic, aby podporoval úkoly konverzace a úkoly zpracování textu.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "Ahoj, jsem Leo. Zastupuji iBrowe a jsem poháněn pomocí Claude Sonnet – modelu vytvořeného společností Anthropic, který slouží k podpoře úloh konverzace a zpracování textu.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet od Anthropic";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Příklad kódu";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo je v současné době zakázán pomocí příznaků funkcí. Chcete-li funkci Leo znovu povolit, navštivte brave://flags a povolte ji.";
+"aichat.leoDisabledMessageDescription" = "Leo je v současné době zakázán pomocí příznaků funkcí. Chcete-li funkci Leo znovu povolit, navštivte iBrowe://flags a povolte ji.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo Disabled";

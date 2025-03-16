@@ -31,7 +31,7 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "Κατάσταση";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
+/* The title for the button that allows the user to view the App Store Receipt */
 "aichat.advancedSettingsViewReceiptTitle" = "Προβολή απόδειξης AppStore";
 
 /* The subtitle for the error showing there is an error from App Store */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Μη ασφαλές/Επιβλαβές";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Το Leo Premium παρέχει πρόσβαση σε ένα διευρυμένο σύνολο μοντέλων γλώσσας για ακόμη μεγαλύτερη διαφοροποίηση απαντήσεων. [Μάθετε περισσότερα](https://brave.com/) - [Παράβλεψη] (braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Το Leo Premium παρέχει πρόσβαση σε ένα διευρυμένο σύνολο μοντέλων γλώσσας για ακόμη μεγαλύτερη διαφοροποίηση απαντήσεων. [Μάθετε περισσότερα](https://iBrowe.com/) - [Παράβλεψη] (iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Υποβολή";
@@ -131,13 +131,13 @@
 "aichat.feedbackViewMainTitle" = "Παροχή σχολίων για το iBrowe AI";
 
 /* The button title for opening paywall screen */
-"aichat.goPremiumButtonTitle" = "Επιλογή Premium";
+"aichat.goPremiumButtonTitle" = "Επιλέξτε το Premium";
 
 /* Description about answers are changing with page context */
 "aichat.infoAboutPageContext" = "Διαμόρφωση απαντήσεων με βάση τα περιεχόμενα της σελίδας";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "Γεια σας, είναι ο Leo. Με προσφέρει το iBrowe και αξιοποιώ το Claude 3 Haiku, ένα μοντέλο που δημιουργήθηκε από την Anthropic για την ενίσχυση των εργασιών επεξεργασίας συζητήσεων και μηνυμάτων κειμένου.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "Γεια, είμαι το Leo. Παρέχομαι μέσω της iBrowe και με την υποστήριξη του Claude Haiku, ενός μοντέλου που δημιουργήθηκε από την Anthropic για να υποστηρίζει εργασίες συνομιλίας και επεξεργασίας κειμένου.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku από Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "Ταχύτατη συζήτηση";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "Γεια σας, είμαι ο Leo. Με προσφέρει το iBrowe και αξιοποιώ το Claude 3.5 Sonnet, ένα μοντέλο που δημιουργήθηκε από την Anthropic για την ενίσχυση των εργασιών επεξεργασίας συζητήσεων και μηνυμάτων κειμένου.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "Γεια, είμαι ο Leo. Με προσφέρει το iBrowe και αξιοποιώ το Claude  Sonnet, ένα μοντέλο που δημιουργήθηκε από την Anthropic για την ενίσχυση των εργασιών επεξεργασίας συζητήσεων και μηνυμάτων κειμένου.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet από Anthropic";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Παράδειγμα κώδικα";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Ο Leo είναι προς το παρόν απενεργοποιημένος μέσω των σημαιών χαρακτηριστικών. Για να ενεργοποιήσετε ξανά το Leo, επισκεφθείτε το brave://flags και ενεργοποιήστε το.";
+"aichat.leoDisabledMessageDescription" = "Ο Leo είναι προς το παρόν απενεργοποιημένος μέσω των σημαιών χαρακτηριστικών. Για να ενεργοποιήσετε ξανά το Leo, επισκεφθείτε το iBrowe://flags και ενεργοποιήστε το.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo Disabled";
@@ -215,7 +215,7 @@
 "aichat.leoSlashToolsOptionNull" = "Καμία";
 
 /* The text that's displayed when the user selects an invalid slash tools option */
-"aichat.leoSlashToolsOptionUnknown" = "Άγνωστο";
+"aichat.leoSlashToolsOptionUnknown" = "Άγνωστη";
 
 /* The title to display when the duration of the subscription is unknown */
 "aichat.leoSubscriptionUnknownDateTitle" = "Δ/Υ";
@@ -386,7 +386,7 @@
 "aichat.termsConditionsApproveActionTitle" = "Καταλαβαίνω";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
-"aichat.termsConditionsDescription" = "Το iBrowe Leo είναι ένας ιδιωτικός έξυπνος βοηθός AI που εμπλουτίζει τη χρήση του Internet. Το Leo είναι δωρεάν για χρήση με περιορισμένη πρόσβαση. Το iBrowe Leo Premium προσφέρει περισσότερα μοντέλα, υψηλότερα όρια και παρέχει στους συνδρομητές πρόσβαση πριν από τους υπόλοιπους χρήστες σε νέες δυνατότητες. Το προεπιλεγμένο μοντέλο για όλους τους χρήστες είναι αυτήν τη στιγμή το Mixtral 8x7B. Δείτε το **[Help Center](%1$@)** του iBrowe για περισσότερες πληροφορίες.\n\nΑπό προεπιλογή, όταν κάνετε μια ερώτηση στο Leo, μπορεί να στέλνει και να χρησιμοποιεί το περιεχόμενο της ιστοσελίδας που βλέπετε ή οποιοδήποτε κείμενο επισημαίνετε σε μια σελίδα στο iBrowe Leo, για να σας δώσει μια απάντηση. Σε κάποιες περιπτώσεις, το Leo θα στείλει ερωτήματα που προέρχονται από την καταχώρισή σας στην Αναζήτηση iBrowe και θα χρησιμοποιήσει τα αποτελέσματα αναζήτησης για να απαντήσει καλύτερα στην ερώτησή σας. Η ακρίβεια των απαντήσεων δεν είναι εγγυημένη και μπορεί να περιλαμβάνουν ανακριβείς, παραπλανητικές ή ψευδείς πληροφορίες. Μην υποβάλλετε ευαίσθητες ή ιδιωτικές πληροφορίες, και να αντιμετωπίζετε με επιφύλαξη απαντήσεις που σχετίζονται με την υγεία, τα οικονομικά, την προσωπική ασφάλεια ή παρόμοια θέματα. Μπορείτε να προσαρμόσετε τις επιλογές του Leo στις Ρυθμίσεις ανά πάσα στιγμή. Μεταβείτε στις Ρυθμίσεις > Leo.\n\nΤο Leo δεν συλλέγει αναγνωριστικά, όπως τη διεύθυνση IP σας, που μπορούν να συνδεθούν με εσάς. Δεν χρησιμοποιούνται δεδομένα για την εκπαίδευση των μοντέλων AI και δεν διατηρούνται προσωπικά δεδομένα από τα μοντέλα AI (εκτός από το Anthropic που διατηρεί δεδομένα για 30 ημέρες πριν να τα διαγράψει). Δείτε την **[privacy policy](%2$@)** για περισσότερες πληροφορίες.";
+"aichat.termsConditionsDescription" = "Το iBrowe Leo είναι ένας ιδιωτικός έξυπνος βοηθός AI που βελτιώνει τη χρήση του Internet. Το Leo είναι δωρεάν με περιορισμένη πρόσβαση. Το iBrowe Leo Premium προσφέρει περισσότερα μοντέλα, υψηλότερα όρια και παρέχει στους συνδρομητές πρόσβαση πριν από τους υπόλοιπους χρήστες σε νέες δυνατότητες. Το προεπιλεγμένο μοντέλο για όλους τους χρήστες είναι αυτήν τη στιγμή το Mixtral 8x7B. Δείτε το **[Κέντρο βοήθειας](%1$@)** του iBrowe για περισσότερες πληροφορίες.\n\nΑπό προεπιλογή, όταν κάνετε μια ερώτηση στο Leo, μπορεί να στέλνει και να χρησιμοποιεί το περιεχόμενο της ιστοσελίδας που βλέπετε ή οποιοδήποτε κείμενο επισημαίνετε σε μια σελίδα στο iBrowe Leo, για να σας δώσει μια απάντηση. Σε κάποιες περιπτώσεις, το Leo θα στείλει ερωτήματα που προέρχονται από την καταχώρισή σας στην Αναζήτηση iBrowe και θα χρησιμοποιήσει τα αποτελέσματα αναζήτησης για να απαντήσει καλύτερα στην ερώτησή σας. Η ακρίβεια των απαντήσεων δεν είναι εγγυημένη και μπορεί να περιλαμβάνουν ανακριβείς, παραπλανητικές ή ψευδείς πληροφορίες. Μην υποβάλλετε ευαίσθητες ή προσωπικές πληροφορίες, και να αντιμετωπίζετε με επιφύλαξη απαντήσεις που σχετίζονται με την υγεία, τα οικονομικά, την προσωπική ασφάλεια ή παρόμοια θέματα. Μπορείτε να προσαρμόσετε τις επιλογές του Leo στις Ρυθμίσεις ανά πάσα στιγμή. Μεταβείτε στις Ρυθμίσεις > Leo.\n\nΤο Leo δεν συλλέγει αναγνωριστικά, όπως τη διεύθυνση IP σας, που μπορούν να συνδεθούν με εσάς. Δεν χρησιμοποιούνται δεδομένα για την εκπαίδευση των μοντέλων AI και δεν διατηρούνται προσωπικά δεδομένα από τα μοντέλα AI (εκτός από το Anthropic που διατηρεί δεδομένα για 30 ημέρες πριν να τα διαγράψει). Δείτε την **[Πολιτική απορρήτου](%2$@)** για περισσότερες πληροφορίες.";
 
 /* The title terms and conditions for AI chat usage */
 "aichat.termsConditionsTitle" = "Συνομιλήστε ιδιωτικά με το iBrowe Leo";

@@ -4,6 +4,15 @@
 /* A button title that when tapped will advance the onboarding to guide a user to add some content to Playlist */
 "advanceStep2OnboardingButtonTitle" = "Thử ngay!";
 
+/* A button that allows the user to disable the iBrowe translate feature. When pressed, the page will not be automatically translated to the user's language. */
+"iBroweTranslateOnboarding.disableTranslateButtonTitle" = "Tắt tính năng này";
+
+/* A text element that describes the translation feature and explains that hte user might have to download or configure languages on their device. */
+"iBroweTranslateOnboarding.translateDescription" = "Có thể dịch trang thành các ngôn ngữ được thiết bị iOS của bạn hỗ trợ. Có thể bạn sẽ cần cấu hình các lựa chọn ngôn ngữ trong lần đầu sử dụng tính năng này.";
+
+/* A text element that explains we're translating pages. */
+"iBroweTranslateOnboarding.translateTitle" = "Bản dịch trang";
+
 /* A button title that when tapped opens iBrowe Playlist */
 "confirmationActionButtonTitle" = "Đưa tôi đến Danh sách phát";
 
@@ -20,7 +29,7 @@
 "dismissOnboardingButtonTitle" = "Bỏ qua";
 
 /* A button title that allows the user to dismiss the popup explaining the iBrowe Playlist feature */
-"dismissStep2OnboardingButtonTitle" = "Có lẽ Để sau";
+"dismissStep2OnboardingButtonTitle" = "Có lẽ để sau";
 
 /* A button title that allows the user to dismiss the popup explaining the iBrowe Playlist feature */
 "dismissStep4OnboardingButtonTitle" = "Đóng";

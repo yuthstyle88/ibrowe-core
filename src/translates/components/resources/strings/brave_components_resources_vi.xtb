@@ -172,6 +172,7 @@
 <translation id="3110968385867124099">Không thể báo cáo trang này vì trang này không được phân phối qua HTTP/HTTPS.</translation>
 <translation id="7907023135990310743">Trang này là trang web nội bộ và không đủ điều kiện để báo cáo.</translation>
 <translation id="8740275226259417070">Đây là trang lỗi. Không thể báo cáo đây là trang web bị lỗi.</translation>
+<translation id="6367576083705149078">Nếu bạn cung cấp thông tin liên hệ, thông tin đó sẽ được lưu trữ cho các báo cáo trong tương lai.</translation>
 <translation id="6806248680442980382">Cảm ơn bạn đã giúp iBrowe trở nên tốt hơn cho tất cả mọi người. Báo cáo này sẽ chỉ chứa thông tin cần thiết để chúng tôi sửa trang web này.</translation>
 <translation id="6476216365964140603">Chi tiết thêm (tùy chọn)</translation>
 <translation id="6145852496180774737">Liên hệ với tôi tại: (tùy chọn)</translation>
@@ -397,7 +398,7 @@
 <translation id="7642372245223412840">Kết nối với bitFlyer</translation>
 <translation id="6143701117592994599">Kết nối iBrowe Phần thưởng với tài khoản bitFlyer sẽ cho phép bạn kiếm BAT và rút BAT kiếm được của bạn từ iBrowe Phần thưởng.</translation>
 <translation id="4354564238172327160">Trở thành Người tạo nội dung iBrowe!</translation>
-<translation id="4639659520811817892">Truy cập creators.brave.com để đăng ký ngay hôm nay và bắt đầu kiếm BAT từ người hâm mộ và người theo dõi của bạn.</translation>
+<translation id="4639659520811817892">Truy cập creators.iBrowe.com để đăng ký ngay hôm nay và bắt đầu kiếm BAT từ người hâm mộ và người theo dõi của bạn.</translation>
 <translation id="4816455138209470435">iBrowe hỗ trợ YouTube, Twitch, Vimeo và hơn thế nữa!</translation>
 <translation id="7404779623219601861">Đổi BAT lấy Thẻ quà tặng</translation>
 <translation id="6215565499749144110">Với Mạng TAP, bạn có thể đổi BAT của mình lấy các thẻ quà tặng nhãn hiệu nổi tiếng.</translation>
@@ -428,7 +429,7 @@
 <translation id="4335039108389860301">Bật hỗ trợ Dịch vụ Cung cấp Tên miền Ethereum (ENS) trong iBrowe?</translation>
 <translation id="807404806385418949">Tra cứu chuỗi ngoại tuyến dịch vụ tên Ethereum</translation>
 <translation id="4049590838234508776">Bật hỗ trợ tra cứu chuỗi ngoại tuyến Ethereum Name Service (ENS) trong iBrowe?</translation>
-<translation id="5944991147217767764">Tên miền .eth này được lưu trữ ngoài chuỗi và sẽ được giải quyết bằng cổng của bên thứ ba. Nếu bạn bật tra cứu ngoại tuyến ENS, cổng của bên thứ ba sẽ thấy rằng bạn đang cố truy cập miền .eth. <ph name="BEGIN_BRAVE_LEARN_MORE_LINK"/>Tìm hiểu thêm<ph name="END_BRAVE_LEARN_MORE_LINK"/>.</translation>
+<translation id="5944991147217767764">Tên miền .eth này được lưu trữ ngoài chuỗi và sẽ được giải quyết bằng cổng của bên thứ ba. Nếu bạn bật tra cứu ngoại tuyến ENS, cổng của bên thứ ba sẽ thấy rằng bạn đang cố truy cập miền .eth. <ph name="BEGIN_iBrowe_LEARN_MORE_LINK"/>Tìm hiểu thêm<ph name="END_iBrowe_LEARN_MORE_LINK"/>.</translation>
 <translation id="4047002754575891955">Tiếp tục với tra cứu chuỗi ngoại tuyến</translation>
 <translation id="531747189990625622">Dịch vụ tên miền Solana</translation>
 <translation id="1090584614351290462">Bật hỗ trợ Dịch vụ tên miền Solana (SNS) trong iBrowe?</translation>
@@ -500,6 +501,11 @@
       =0 {Bạn đã xem <ph name="COUNT_BEGIN"/># Quảng cáo<ph name="COUNT_END"/> tháng này}
       =1 {Bạn có thể được trả tiền cho <ph name="COUNT_BEGIN"/># Quảng cáo<ph name="COUNT_END"/> bạn đã xem tháng này.}
       other {Bạn có thể được trả tiền cho <ph name="COUNT_BEGIN"/># Quảng cáo<ph name="COUNT_END"/> bạn đã xem tháng này.}
+    }</translation>
+<translation id="8611388433418909120">{ADS_VIEWED, plural,
+      =0 {Bạn đã xem <ph name="COUNT_BEGIN"/># Quảng cáo<ph name="COUNT_END"/> tháng này}
+      =1 {Bạn được chi trả nhờ đã xem <ph name="COUNT_BEGIN"/># Quảng cáo<ph name="COUNT_END"/> tháng này}
+      other {Bạn được chi trả nhờ đã xem <ph name="COUNT_BEGIN"/># Quảng cáo<ph name="COUNT_END"/> tháng này}
     }</translation>
 <translation id="6067959437127691361">Sử dụng iBrowe Phần thưởng giúp hỗ trợ người sáng tạo nội dung và cho phép bạn kiếm BAT.</translation>
 <translation id="944736176598169208">Phần thưởng</translation>
@@ -608,7 +614,7 @@
 <translation id="5379685283876547860">Đã gửi đóng góp!</translation>
 <translation id="7063168612616047608">Cảm ơn bạn vì đã ủng hộ những người sáng tạo nội dung yêu thích của mình</translation>
 <translation id="1041398280582063935">Chia sẻ hỗ trợ của bạn</translation>
-<translation id="4001190813297686107">Tôi vừa đóng góp <ph name="AMOUNT"/> BAT bằng iBrowe Trình duyệt! Xem cách bạn có thể hỗ trợ những người sáng tạo và trang web yêu thích của mình: https://brave.com/rewards</translation>
+<translation id="4001190813297686107">Tôi vừa đóng góp <ph name="AMOUNT"/> BAT bằng iBrowe Trình duyệt! Xem cách bạn có thể hỗ trợ những người sáng tạo và trang web yêu thích của mình: https://iBrowe.com/rewards</translation>
 <translation id="1950340257946519340">Đã xảy ra lỗi không mong muốn</translation>
 <translation id="2605703631071131439">Vui lòng mở lại bảng đóng góp để thử lại.</translation>
 <translation id="8855543392451028706">Chào mừng! Người dùng có thể hỗ trợ người sáng tạo nội dung này bằng cách gửi đóng góp cho họ. Đó là một cách để cảm ơn họ vì đã tạo ra nội dung tuyệt vời.</translation>
@@ -670,9 +676,7 @@
 <translation id="2446517297521536638">Kiểm soát những loại quảng cáo iBrowe mà bạn nhìn thấy, và tần suất. Bạn càng xem nhiều thì càng kiếm được nhiều.</translation>
 <translation id="5860033963881614850">Tắt</translation>
 <translation id="5916664084637901428">Bật</translation>
-<translation id="4284417062730522399"><ph name="NUM"/> quảng cáo đã nhận tháng này</translation>
-<translation id="7697696066810593560">Bạn đã kiếm được <ph name="NUM"/> trong tháng này</translation>
-<translation id="6733193230212030816">Bạn ước tính có thể kiếm được khoảng: <ph name="RANGE"/></translation>
+<translation id="3977723631999461201">Đã nhận được <ph name="NUM"/> Quảng cáo tháng này</translation>
 <translation id="7924320838799747606">Số dư của bạn</translation>
 <translation id="8714473477079007268">Ví <ph name="PROVIDER"/></translation>
 <translation id="3175337080016717494">Tài khoản thanh toán</translation>
@@ -681,15 +685,7 @@
 <translation id="8414447476773253869">Đăng nhập vào <ph name="PROVIDER"/> để xem số dư của bạn</translation>
 <translation id="615483366383024791">Tài khoản thanh toán</translation>
 <translation id="1060062421977823695">Thu nhập BAT của bạn sẽ được trả vào tài khoản thanh toán này.</translation>
-<translation id="2544805415966048917">Bạn sẽ gửi</translation>
-<translation id="6708522254106492579">Lên đến <ph name="AMOUNT"/> BAT</translation>
-<translation id="7666058404763778706">Cách tự động hỗ trợ các trang web và người sáng tạo nội dung, dựa trên thời gian bạn dành cho nội dung của họ.</translation>
-<translation id="4319242254058427792">Tự động đóng góp đã bị tắt</translation>
-<translation id="1091835891554961609">Những người sáng tạo đã được xác minh mà bạn truy cập sẽ hiển thị ở đây khi bạn duyệt web.</translation>
-<translation id="7714706530499503523">Tính năng tự động đóng góp sẽ tự động gửi các khoản đóng góp hàng tháng cho những người sáng tạo đã xác minh bằng iBrowe, dựa trên thời gian bạn dành cho nội dung của họ.</translation>
-<translation id="2358028754328876971">Tính năng Tự động đóng góp hoạt động như thế nào?</translation>
-<translation id="2870560284913253234">Trang web</translation>
-<translation id="1184072843013036520">Nhận các sản phẩm mang thương hiệu iBrowe.</translation>
+<translation id="2310070536993781610">Sử dụng mã khuyến mãi iBroweREWARDS để được giảm 10% cho tất cả sản phẩm của cửa hàng của iBrowe.</translation>
 <translation id="1170674812179664523">Cửa hàng bán đồ iBrowe</translation>
 <translation id="8673202990286883068">Quyền lợi của bạn</translation>
 <translation id="3699766258844277472">Bạn chưa thiết lập bất kỳ đóng góp định kỳ nào.</translation>
@@ -716,6 +712,9 @@
 <translation id="5309155375926073606">Có, tôi cũng muốn đóng góp cho iBrowe Tìm kiếm và chọn tham gia <ph name="LINK_BEGIN"/>Dự án khám phá web<ph name="LINK_END"/>.</translation>
 <translation id="4622826307953794521">Đóng góp một số dữ liệu tìm kiếm và duyệt ẩn danh để tinh chỉnh Tìm kiếm iBrowe với Web Discovery Project. Mã nguồn mở hoàn toàn.</translation>
 <translation id="4174337572777167894">Web Discovery Project</translation>
+<translation id="9034669711835382440">Cộng đồng</translation>
+<translation id="845020633253356720">Xem Cửa hàng</translation>
+<translation id="7777123407058400802">Basic Attention Token – BAT</translation>
 <translation id="7090992647511817643">tài khoản</translation>
 <translation id="4822132585477111396">Chain ID</translation>
 <translation id="3269475789479462358">tên miền</translation>
@@ -1147,6 +1146,12 @@
 <translation id="8214232307424031138">Signed</translation>
 <translation id="9065572743819293042">Giao dịch gần đây</translation>
 <translation id="1702356231547761669">Giao dịch hash</translation>
+<translation id="6030778062363728902">Ghi chú</translation>
+<translation id="1288859203671057247">Bạn có thể nhập nội dung...</translation>
+<translation id="5466702869935634816">Tin nhắn (Tùy chọn)</translation>
+<translation id="5715145706082194046">Thêm ghi chú</translation>
+<translation id="1922741261173258284">Xóa ghi chú</translation>
+<translation id="1762915190843068679">Ghi chú phải ít hơn 512 ký tự.</translation>
 <translation id="8941851657764077659">Phí ưu tiên tối đa</translation>
 <translation id="8047527352810290817">Sửa xăng</translation>
 <translation id="9091334651803050473">Mặc dù không đây không phải là một sự bảo đảm, người đào tiền nhiều khả năng sẽ ưu tiên giao dịch của bạn nếu bạn trả một khoản phí cao hơn.</translation>
@@ -1456,12 +1461,6 @@
 <translation id="3253669416991680932">Ví cứng này không hỗ trợ tác vụ này.</translation>
 <translation id="7457027586454688423">Nhập mật khẩu Ví iBrowe của bạn</translation>
 <translation id="7553242001898162573">Nhập mật khẩu của bạn</translation>
-<translation id="2873714185189940594">Mở ứng dụng Rainbow Bridge?</translation>
-<translation id="2069777099181262239">Rainbow Bridge là dịch vụ độc lập giúp bạn kết nối các tài sản trên các mạng và sử dụng tiền điện tử của bạn trên các mạng và hệ sinh thái DApp khác. Kết nối tài sản với các mạng khác sẽ có một số rủi ro.</translation>
-<translation id="7387899248733396663">Tìm hiểu thêm về việc sử dụng Rainbow Bridge</translation>
-<translation id="3890567288132019108">Tìm hiểu thêm về cách giảm thiểu rủi ro trên Rainbow Bridge</translation>
-<translation id="1792917191129448067">Mở ứng dụng Rainbow Bridge</translation>
-<translation id="1522775706527775647">Bridge sang Aurora</translation>
 <translation id="4903322403594141291">Tìm hiểu thêm về Ví iBrowe</translation>
 <translation id="4427684901715566795">Mật khẩu phải chứa:</translation>
 <translation id="8521329076169776625">Ít nhất 8 ký tự</translation>
@@ -1739,6 +1738,22 @@
 <translation id="2298396008562701154">Hiện tại, tài khoản này hỗ trợ các giao dịch minh bạch, nghĩa là mọi người trên blockchain đều có thể nhìn thấy chúng.</translation>
 <translation id="3987095760757102811">Nâng cấp lên tài khoản có lá chắn đồng nghĩa với việc những giao dịch này sẽ ẩn thông tin người gửi, người nhận và số lượng giao dịch.</translation>
 <translation id="3819528427777765709">Đã có lá chắn</translation>
+<translation id="2142946302539262412">Unified</translation>
+<translation id="4438043733494739848">Transparent</translation>
+<translation id="1950406774300125954">Không đồng bộ</translation>
+<translation id="68413355604013935">Không đồng bộ (thiếu <ph name="BLOCKS"/> khối)</translation>
+<translation id="1597233669965903034">Đồng bộ hóa tài khoản của bạn để truy cập các giao dịch và số dư mới nhất.</translation>
+<translation id="7499262814309712782">Đồng bộ hóa tài khoản</translation>
+<translation id="2804568727504456403">Đồng bộ hóa <ph name="ACCOUNT"/></translation>
+<translation id="813913629614996137">Đang khởi tạo...</translation>
+<translation id="4404141491825711928">Đang xử lý khối:</translation>
+<translation id="4983989175143324911">Còn lại <ph name="BLOCKS"/></translation>
+<translation id="1703172100615786285"><ph name="BLOCKS"/> của <ph name="TOTAL_BLOCKS"/></translation>
+<translation id="5055918601206839704">Phạm vi:</translation>
+<translation id="1178581264944972037">Tạm dừng</translation>
+<translation id="7714298753782862705">Đã hoàn tất đồng bộ hóa. Giờ bạn có thể đóng cửa sổ này.</translation>
+<translation id="7716113567047550378">Vui lòng không đóng cửa sổ này cho đến khi quá trình đồng bộ hóa hoàn tất.</translation>
+<translation id="5123590959308755060">Tiếp tục sử dụng ví ở thẻ mới</translation>
 <translation id="7144878232160441200">Thử lại</translation>
 <translation id="9094621390791852268">Xem trước giao dịch không thành công.</translation>
 <translation id="4982713341035600933">Số dư ước tính thay đổi</translation>
@@ -1992,6 +2007,7 @@
 <translation id="5950760360751948276">Luôn hiển thị thanh dấu trang</translation>
 <translation id="2960757369920422313">Hiển thị thanh dấu trang trên trang tab mới</translation>
 <translation id="522953399371747698">Ẩn thanh dấu trang</translation>
+<translation id="9079813619990532635">Xuất tất cả dấu trang</translation>
 <translation id="134184943774258988">Tắt/Bật hiển thị nút Tất cả dấu trang</translation>
 <translation id="2158862020143233462">Tắt/Bật khiên</translation>
 <translation id="3010280727642018218">Tắt/Bật JavaScript</translation>
@@ -2062,7 +2078,7 @@
 <translation id="8637805148029768813">Tính năng tóm tắt hiện chỉ khả dụng cho các bài được chọn và các trang web dạng dài khác.</translation>
 <translation id="1223498995510244364">Tóm tắt</translation>
 <translation id="7491773233732232424">Về Leo</translation>
-<translation id="5208096220706490232">iBrowe Leo là trợ lý thông minh AI riêng tư giúp nâng cao việc sử dụng Internet của bạn. Leo được sử dụng miễn phí với quyền truy cập hạn chế. iBrowe Leo Premium cung cấp nhiều mẫu hơn, hạn mức cao hơn và cung cấp cho người đăng ký quyền truy cập sớm vào các tính năng mới. Model mặc định cho tất cả người dùng hiện tại là Mixtral 8x7B. Xem <ph name="LINK_BEFORE"/>iBrowe wiki<ph name="LINK_AFTER"/> để biết thêm chi tiết.</translation>
+<translation id="4885527781814382758">iBrowe Leo là trợ lý thông minh AI riêng tư giúp nâng cấp trải nghiệm sử dụng Internet của bạn. Có thể sử dụng Leo miễn phí với quyền truy cập hạn chế. iBrowe Leo Premium cung cấp nhiều mô hình hơn, hạn mức cao hơn và cung cấp cho người dùng có đăng ký gói quyền truy cập sớm các tính năng mới. Mô hình mặc định sẽ thay đổi theo thời gian. Tham khảo <ph name="LINK_BEFORE"/>Trung tâm Trợ giúp của iBrowe<ph name="LINK_AFTER"/> để biết thêm chi tiết.</translation>
 <translation id="7189603330209995455">Theo mặc định, khi bạn hỏi Leo một câu hỏi, Leo có thể gửi và sử dụng nội dung của trang web bạn đang xem hoặc bất kỳ văn bản nào bạn đánh dấu trên trang tới iBrowe Leo để đưa ra câu trả lời. Độ chính xác của các câu trả lời không được đảm bảo và có thể bao gồm thông tin không chính xác, gây hiểu lầm hoặc sai lệch. Leo sử dụng dữ liệu từ iBrowe Tìm kiếm để cải thiện chất lượng phản hồi. Không gửi thông tin nhạy cảm hoặc riêng tư và hãy thận trọng với bất kỳ câu trả lời nào liên quan đến sức khỏe, tài chính, an toàn cá nhân hoặc tương tự. Bạn có thể điều chỉnh các tùy chọn của Leo trong Cài đặt bất kỳ lúc nào. Đi tới Cài đặt &gt; Leo.</translation>
 <translation id="3038772045018370764">Leo không thu thập các thông tin nhận dạng như địa chỉ IP có thể được liên kết với bạn. Không có dữ liệu nào được sử dụng để huấn luyện các mô hình AI và không có dữ liệu cá nhân nào được các mô hình AI giữ lại (ngoại trừ Anthropic lưu giữ dữ liệu trong 30 ngày trước khi xóa dữ liệu đó). Xem <ph name="LINK_BEFORE"/>chính sách quyền riêng tư<ph name="LINK_AFTER"/> để biết thêm thông tin.</translation>
 <translation id="7839853125981164613">Nhập lời nhắc ở đây</translation>
@@ -2070,13 +2086,18 @@
 <translation id="4567071417854988869">Tóm tắt video này</translation>
 <translation id="7921782882718083488">Tóm tắt trang này</translation>
 <translation id="7932221068776853847">Ngắt kết nối để ngừng gửi nội dung trang này cho Leo và bắt đầu cuộc trò chuyện mới</translation>
+<translation id="2712650703044366764">Mô hình này có điểm cuối không hợp lệ. Vui lòng kiểm tra cấu hình của bạn và thử lại.</translation>
 <translation id="1167803637855350748">Đã xảy ra sự cố mạng khi kết nối với Leo. Hãy kiểm tra kết nối của bạn và thử lại.</translation>
 <translation id="1996126325390835277">Bạn đã đạt đến giới hạn premium. Vui lòng thử lại sau vài giờ nữa.</translation>
+<translation id="3683964919745779766">Bạn đã đạt giới hạn tần suất của mô hình này hoặc đã hết tín dụng. Vui lòng thử lại sau.</translation>
+<translation id="7692501701960747469">Khóa API được cấu hình cho mô hình này không hợp lệ. Vui lòng kiểm tra cấu hình của bạn và thử lại.</translation>
+<translation id="7905602379229309187">Điểm cuối hiện đang quá tải. Vui lòng thử lại sau.</translation>
+<translation id="8151638057146502721">Cấu hình</translation>
 <translation id="4177458398826096846">Xin chào, tôi là Leo. Tôi là một trợ lý AI được lưu trữ hoàn toàn bởi iBrowe. Tôi được hỗ trợ bởi Llama 3.1 8B, một mô hình do Meta tạo ra để hoạt động hiệu quả và có thể áp dụng cho nhiều trường hợp sử dụng. <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
 <translation id="6500567629965936637">Xin chào, tôi là Leo. Tôi là một trợ lý AI được lưu trữ hoàn toàn bởi iBrowe. Tôi được hỗ trợ bởi Mixtral 8x7B, một mô hình do Mistral AI tạo ra để xử lý các tác vụ nâng cao. <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
 <translation id="4590776109659811206">Xin chào, tôi là Leo. Tôi được iBrowe ủy quyền và được hỗ trợ bởi Claude Instant, một mô hình do Anthropic tạo ra để hỗ trợ xử lý các tác vụ đàm thoại và xử lý văn bản. <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
-<translation id="8583558415545871403">Xin chào, tôi là Leo. Tôi được iBrowe ủy quyền và được hỗ trợ bởi Claude 3 Haiku, một mô hình do Anthropic tạo ra để hỗ trợ các tác vụ xử lý văn bản và đàm thoại.</translation>
-<translation id="1107977270364670952">Xin chào, tôi là Leo. Tôi được iBrowe ủy quyền và được hỗ trợ bởi Claude 3.5 Sonnet, một mô hình do Anthropic tạo ra để hỗ trợ các tác vụ xử lý văn bản và đàm thoại.</translation>
+<translation id="2001874998841390450">Xin chào, tôi là Leo. Tôi được cung cấp bởi iBrowe, dựa trên Claude Haiku, một mô hình do Anthropic tạo ra để hỗ trợ các tác vụ xử lý văn bản và đàm thoại. <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
+<translation id="3408745502133272006">Xin chào, tôi là Leo. Tôi được cung cấp bởi iBrowe, dựa trên Claude Sonnet, một mô hình do Anthropic tạo ra để hỗ trợ các tác vụ xử lý văn bản và đàm thoại. <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
 <translation id="6206029817087805290"><ph name="MODEL_NAME"/> bởi <ph name="COMPANY_NAME"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="6187065185557150870">Trò chuyện</translation>
@@ -2095,6 +2116,9 @@
 <translation id="4165928407303989823">Tập trung vào chủ đề</translation>
 <translation id="2389665228467129817">Trò chuyện lâu hơn</translation>
 <translation id="8556044455877152001"><ph name="PRICE_VALUE"/> USD $/tháng</translation>
+<translation id="9031958221569934724"><ph name="PRICE_VALUE"/> USD $/năm</translation>
+<translation id="1028627582482425924">Một năm</translation>
+<translation id="36366199652730057">Giá trị tốt nhất</translation>
 <translation id="5151923271944811339">Chuyển sang mô hình miễn phí</translation>
 <translation id="5474757891469990756">Giải phóng toàn bộ sức mạnh của Leo với Premium:</translation>
 <translation id="3453542753968940696">Ưu tiên truy cập vào các mô hình mạnh mẽ với các kỹ năng khác nhau.</translation>
@@ -2108,11 +2132,14 @@
 <translation id="6393149565874086128">Thêm phản hồi</translation>
 <translation id="3521125531016408657">Thích câu trả lời</translation>
 <translation id="8202517001427388906">Không thích câu trả lời</translation>
+<translation id="3177073390279208955">Gửi đánh giá, cuộc trò chuyện, mô hình, ngôn ngữ, phiên bản và trạng thái premium</translation>
 <translation id="1379399209929302811">Cung cấp phản hồi iBrowe AI</translation>
 <translation id="8442999546461118871">Chọn chủ đề phản hồi của bạn</translation>
 <translation id="9018766373792005944">Phản hồi của bạn là gì?</translation>
 <translation id="7355096922131918313">Cung cấp phản hồi tại đây</translation>
 <translation id="3027575440738035995">Leo Premium cung cấp quyền truy cập vào bộ mô hình ngôn ngữ mở rộng để có được sắc thái câu trả lời thậm chí còn lớn hơn. <ph name="LINK_BEFORE"/>Tìm hiểu thêm<ph name="LINK_AFTER"/></translation>
+<translation id="8261506727792406068">Xóa</translation>
+<translation id="6574153208133461043">Bạn có chắc muốn xóa cuộc trò chuyện này? Hành động này không thể hoàn tác.</translation>
 <translation id="7488762544858401571">Đã sửa</translation>
 <translation id="1406205536570262057">Sửa câu trả lời</translation>
 <translation id="2399439821649319175">Không hữu dụng</translation>
@@ -2126,6 +2153,7 @@
 <translation id="8171760814579050200">Đổi tên cuộc trò chuyện</translation>
 <translation id="7754678742055438573">Xóa cuộc trò chuyện</translation>
 <translation id="7494736170250048402">Gửi tin nhắn cho Leo</translation>
+<translation id="8650874793377330048">Dừng trả lời</translation>
 <translation id="8712637175834984815">Bỏ qua</translation>
 <translation id="1093419424466417703">Trang này quá dài đối với Leo. Một số bối cảnh có thể bị thiếu trong cuộc trò chuyện. Leo đã có thể đọc <ph name="PERCENTAGE"/> nội dung của trang.</translation>
 <translation id="2186990448773134544">Nội dung trang đã được tinh chỉnh bằng cách trích xuất thông tin có liên quan nhất vì nó quá dài đối với Leo.</translation>
@@ -2133,6 +2161,11 @@
 <translation id="4370698775470316661">Cuộc trò chuyện này quá dài và không thể tiếp tục. Có thể có sẵn các mô hình khác mà Leo có khả năng duy trì độ chính xác cho các cuộc trò chuyện dài hơn.</translation>
 <translation id="5719170755629028558">Đang cải thiện câu trả lời của bạn với Tìm kiếm iBrowe…</translation>
 <translation id="5794962229997281366">Câu trả lời được cải thiện đang tìm kiếm <ph name="SEARCH_TERMS"/>.</translation>
+<translation id="8103700533980268469">Đóng thông báo này</translation>
+<translation id="2315654674554095762">Giờ đây Leo sẽ nhớ các cuộc trò chuyện để bạn có thể quay lại và tiếp tục. Các cuộc trò chuyện được lưu trữ mã hóa trên thiết bị của bạn và bạn có thể xóa bất kỳ lúc nào.</translation>
+<translation id="7821251979960635244">Lịch sử trò chuyện của bạn sẽ hiển thị ở đây khi bạn bắt đầu một cuộc trò chuyện.</translation>
+<translation id="887511360213807449">Lịch sử không được bật</translation>
+<translation id="5380979378058584412">Để xem các cuộc trò chuyện với Leo trước đây, bạn cần bật lịch sử trò chuyện.</translation>
 <translation id="6291843235651817590">Trò chuyện cho mục đích chung</translation>
 <translation id="8193130769524604031">Tác vụ trò chuyện nâng cao</translation>
 <translation id="3185367320601718531">Cuộc trò chuyện và tạo văn bản</translation>
@@ -2176,6 +2209,7 @@
 <translation id="49269513399674318">Sử dụng micrô</translation>
 <translation id="3895031624234442305">Mô hình tùy chỉnh</translation>
 <translation id="4572010449071015143">Bắt đầu cuộc trò chuyện mới</translation>
+<translation id="345901077335355561">Quay lại cuộc trò chuyện trước</translation>
 <translation id="6287023598025162715">Cuộc trò chuyện mới</translation>
 <translation id="6303294677342628402">Lá chắn</translation>
 <translation id="8458987127502506209">Bật Lá chắn iBrowe</translation>
@@ -2205,6 +2239,8 @@
 <translation id="6196640612572343990">Chặn cookie của bên thứ ba</translation>
 <translation id="693506469193748756">Quên tôi khi tôi đóng trang web này</translation>
 <translation id="5471580724041424345">Xóa cookie và dữ liệu trang web khác khi bạn đóng một trang web.</translation>
+<translation id="6486971767955110687">Lưu thông tin liên hệ cho mục đích báo cáo trang web hỏng trong tương lai</translation>
+<translation id="4085787265464238844">Nếu bạn cung cấp thông tin liên hệ, thông tin đó sẽ được lưu trữ cho các báo cáo trong tương lai</translation>
 <translation id="6883611015375728278">Chặn tất cả cookie</translation>
 <translation id="5657156137487675418">Cho phép mọi cookie.</translation>
 <translation id="8366221601425141146">Đã chặn tính năng tạo dấu vân tay</translation>
@@ -2247,7 +2283,7 @@
 <translation id="1097073572755862978">Gửi báo cáo chẩn đoán nếu bạn gặp sự cố hoặc đóng băng. <ph name="LINK_BEFORE"/>Tìm hiểu thêm.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Chia sẻ thông tin chi tiết về sản phẩm riêng tư và ẩn danh về các tính năng đang được người dùng iBrowe sử dụng. <ph name="LINK_BEFORE"/>Tìm hiểu thêm.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Cài đặt hoàn thành</translation>
-<translation id="3141206739023333979">Thay đổi những lựa chọn này bất kỳ lúc nào trong iBrowe tại <ph name="LINK_BEFORE1"/>brave://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
+<translation id="3141206739023333979">Thay đổi những lựa chọn này bất kỳ lúc nào trong iBrowe tại <ph name="LINK_BEFORE1"/>iBrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
 <translation id="8321985064212130832">Đọc <ph name="LINK_BEFORE"/>Chính sách quyền riêng tư<ph name="LINK_AFTER"/> đầy đủ của chúng tôi</translation>
 <translation id="2801098717523961746">Chọn chủ đề của bạn</translation>
 <translation id="6262510489122516114">Bạn có thể thay đổi điều này bất cứ lúc nào trong cài đặt iBrowe.</translation>
@@ -2334,7 +2370,7 @@ Tuy nhiên, chúng tôi nhận thấy dịch vụ trợ giúp này đang không 
 <translation id="7082498599369566941">Có vẻ như có một số vấn đề với kết nối WireGuard. Bạn muốn bật chế độ dự phòng IKEv2 cho VPN đáng tin cậy? Chỉ cần thay đổi cài đặt.
 
 Bạn cần trợ giúp về khả năng tương thích hoặc cấu hình? Hãy liên hệ với nhóm hỗ trợ thân thiện của chúng tôi.
-Bạn luôn có thể quay lại WireGuard trên brave://settings/system.
+Bạn luôn có thể quay lại WireGuard trên iBrowe://settings/system.
 
 Chúng tôi sẽ giúp bạn kết nối!</translation>
 <translation id="1657858090675311947">Không cảnh báo tôi về điều này nữa.</translation>
@@ -2343,7 +2379,7 @@ Chúng tôi sẽ giúp bạn kết nối!</translation>
 <translation id="9061845622728745852">Múi giờ:</translation>
 <translation id="8295393906499561642">Phiên hết hạn</translation>
 <translation id="7070578590391442755">Không thể xác thực với VPN</translation>
-<translation id="3312623558576021182">Vui lòng đăng nhập vào <ph name="BRAVE_ACCOUNT_BEGIN"/>Tài khoản iBrowe<ph name="BRAVE_ACCOUNT_END"/> để làm mới phiên VPN của bạn.</translation>
+<translation id="3312623558576021182">Vui lòng đăng nhập vào <ph name="iBrowe_ACCOUNT_BEGIN"/>Tài khoản iBrowe<ph name="iBrowe_ACCOUNT_END"/> để làm mới phiên VPN của bạn.</translation>
 <translation id="7861195049821776142">iBrowe VPN: Đang ngắt kết nối</translation>
 <translation id="2061807837510296780">iBrowe VPN: Đang kết nối</translation>
 <translation id="1313124107969703758">iBrowe VPN: Lỗi</translation>

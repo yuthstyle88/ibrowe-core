@@ -172,6 +172,7 @@
 <translation id="3110968385867124099">No es pot informar d'aquesta pàgina perquè no s'ha distribuït a través de HTTP/HTTPS.</translation>
 <translation id="7907023135990310743">Aquesta pàgina és una pàgina web local i no és elegible per informar.</translation>
 <translation id="8740275226259417070">Això és una pàgina d'error. No es pot informar com a lloc trencat.</translation>
+<translation id="6367576083705149078">Si introdueixes la teva informació de contacte, aquesta serà emmagatzemada per a futurs informes.</translation>
 <translation id="6806248680442980382">Gràcies per ajudar a fer iBrowe millor per a tothom. Aquest informe només contindrà la informació necessària perquè puguem corregir aquest lloc.</translation>
 <translation id="6476216365964140603">Informació addicional (opcional)</translation>
 <translation id="6145852496180774737">Contacta amb mi a través de: (opcional)</translation>
@@ -397,7 +398,7 @@
 <translation id="7642372245223412840">Connecta a bitFlyer</translation>
 <translation id="6143701117592994599">Vincular Recompenses de iBrowe a un compte de bitFlyer et permetrà guanyar BAT i retirar els teus guanys de BAT de Recompenses de iBrowe.</translation>
 <translation id="4354564238172327160">Converteix-te en un Creador de iBrowe!</translation>
-<translation id="4639659520811817892">Visita creators.brave.com per registrar-t'hi avui i començar a guanyar BAT dels teus fans i seguidors.</translation>
+<translation id="4639659520811817892">Visita creators.iBrowe.com per registrar-t'hi avui i començar a guanyar BAT dels teus fans i seguidors.</translation>
 <translation id="4816455138209470435">iBrowe accepta YouTube, Twitch, Vimeo i d'altres!</translation>
 <translation id="7404779623219601861">Bescanvia BAT per targetes regal</translation>
 <translation id="6215565499749144110">Amb TAP Network, pots bescanviar els teus BAT per targetes regal de marques populars.</translation>
@@ -429,7 +430,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4335039108389860301">Vols activar el suport del Servei de Noms d'Ethereum (ENS) a iBrowe?</translation>
 <translation id="807404806385418949">Cerca fora de la cadena del Servei de Noms d'Ethereum</translation>
 <translation id="4049590838234508776">Vols habilitar l'assistència de la cerca fora de cadena del Servei de Noms d'Ethereum (ENS) a iBrowe?</translation>
-<translation id="5944991147217767764">Aquest nom de domini .eth s'emmagatzema fora de la cadena i es resoldrà amb una passarel·la de tercers. Si habilites la cerca fora de cadena de l'ENS, la passarel·la de tercers veurà que estàs intentant visitar el domini .eth. <ph name="BEGIN_BRAVE_LEARN_MORE_LINK"/>Més informació <ph name="END_BRAVE_LEARN_MORE_LINK"/>.</translation>
+<translation id="5944991147217767764">Aquest nom de domini .eth s'emmagatzema fora de la cadena i es resoldrà amb una passarel·la de tercers. Si habilites la cerca fora de cadena de l'ENS, la passarel·la de tercers veurà que estàs intentant visitar el domini .eth. <ph name="BEGIN_iBrowe_LEARN_MORE_LINK"/>Més informació <ph name="END_iBrowe_LEARN_MORE_LINK"/>.</translation>
 <translation id="4047002754575891955">Procedeix amb la cerca fora de la cadena</translation>
 <translation id="531747189990625622">Servei de Noms de Solana</translation>
 <translation id="1090584614351290462">Voleu activar el suport del servei de noms Solana (SNS) a iBrowe?</translation>
@@ -501,6 +502,11 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
       =0 {Heu vist <ph name="COUNT_BEGIN"/># anuncis<ph name="COUNT_END"/> aquest mes}
       =1 {Podríeu cobrar per <ph name="COUNT_BEGIN"/>l'anunci<ph name="COUNT_END"/> que heu vist aquest mes.}
       other {Podríeu cobrar pels <ph name="COUNT_BEGIN"/># anuncis<ph name="COUNT_END"/> que heu vist aquest mes.}
+    }</translation>
+<translation id="8611388433418909120">{ADS_VIEWED, plural,
+      =0 {Has vist <ph name="COUNT_BEGIN"/># anuncis<ph name="COUNT_END"/> aquest mes}
+      =1 {Rebràs recompenses per veure <ph name="COUNT_BEGIN"/># anunci<ph name="COUNT_END"/> aquest mes}
+      other {Rebràs recompenses per veure <ph name="COUNT_BEGIN"/># anuncis<ph name="COUNT_END"/> aquest mes}
     }</translation>
 <translation id="6067959437127691361">L'ús de Recompenses de iBrowe ajuda a donar suport als creadors de contingut, i permet guanyar BAT.</translation>
 <translation id="944736176598169208">Recompenses</translation>
@@ -609,7 +615,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="5379685283876547860">Contribució enviada!</translation>
 <translation id="7063168612616047608">Gràcies per donar suport als teus creadors preferits</translation>
 <translation id="1041398280582063935">Comparteix el teu suport</translation>
-<translation id="4001190813297686107">Acabo de contribuir amb <ph name="AMOUNT"/> BAT utilitzant el navegador de iBrowe! Mira com pots donar suport als teus creadors i llocs preferits: https://brave.com/rewards</translation>
+<translation id="4001190813297686107">Acabo de contribuir amb <ph name="AMOUNT"/> BAT utilitzant el navegador de iBrowe! Mira com pots donar suport als teus creadors i llocs preferits: https://iBrowe.com/rewards</translation>
 <translation id="1950340257946519340">S'ha produït un error inesperat</translation>
 <translation id="2605703631071131439">Torna a obrir el panell de contribució per tornar-ho a provar.</translation>
 <translation id="8855543392451028706">Benvingut/da! Els usuaris poden donar suport a aquest creador de contingut enviant-los contribucions. És una manera d'agrair-los que fan un gran contingut.</translation>
@@ -671,9 +677,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="2446517297521536638">Controla els tipus d'anuncis de iBrowe que veus i amb quina freqüència els veus. Com més els vegis, més pots guanyar.</translation>
 <translation id="5860033963881614850">Desactivat</translation>
 <translation id="5916664084637901428">Activat</translation>
-<translation id="4284417062730522399">Has rebut <ph name="NUM"/> anuncis aquest mes</translation>
-<translation id="7697696066810593560">Fins ara, aquest mes has guanyat <ph name="NUM"/></translation>
-<translation id="6733193230212030816">Es calcula que guanyaràs entre: <ph name="RANGE"/></translation>
+<translation id="3977723631999461201">Aquest mes, has rebut <ph name="NUM"/> anuncis</translation>
 <translation id="7924320838799747606">El teu balanç</translation>
 <translation id="8714473477079007268">Cartera <ph name="PROVIDER"/></translation>
 <translation id="3175337080016717494">Compte de pagament</translation>
@@ -682,15 +686,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="8414447476773253869">Inicia la sessió a <ph name="PROVIDER"/> per veure el teu saldo</translation>
 <translation id="615483366383024791">Compte de pagament</translation>
 <translation id="1060062421977823695">Els guanys de BAT es pagaran a aquest compte de pagament.</translation>
-<translation id="2544805415966048917">Enviaràs</translation>
-<translation id="6708522254106492579">Fins a <ph name="AMOUNT"/> BAT</translation>
-<translation id="7666058404763778706">Una manera automàtica de donar suport a llocs web i creadors de contingut, en funció del temps que dediquis al seu contingut.</translation>
-<translation id="4319242254058427792">La contribució automàtica està desactivada.</translation>
-<translation id="1091835891554961609">Els creadors verificats que visitis apareixeran aquí mentre navegues</translation>
-<translation id="7714706530499503523">La contribució automàtica envia automàticament contribucions mensuals als creadors verificats a iBrowe, en funció del temps que dediquis al seu contingut.</translation>
-<translation id="2358028754328876971">Com funciona la contribució automàtica?</translation>
-<translation id="2870560284913253234">Lloc</translation>
-<translation id="1184072843013036520">Aconsegueix productes de marca iBrowe.</translation>
+<translation id="2310070536993781610">Utilitza el codi promocional iBroweREWARDS i obtingues un 10% de descompte a tots els articles de la iBrowe Merch Store.</translation>
 <translation id="1170674812179664523">Botiga de marxandatge de iBrowe</translation>
 <translation id="8673202990286883068">Els teus beneficis</translation>
 <translation id="3699766258844277472">Encara no tens cap contribució recurrent configurada.</translation>
@@ -717,6 +713,9 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="5309155375926073606">Sí, també m'agradaria contribuir al Cercador de iBrowe y participar al <ph name="LINK_BEGIN"/>Web Discovery Project<ph name="LINK_END"/>.</translation>
 <translation id="4622826307953794521">Ajuda a recopilar, de manera anònima, dades de cerca i navegació per refinar el Cercador de iBrowe amb Web Discovery Project. És 100% de codi obert.</translation>
 <translation id="4174337572777167894">Web Discovery Project</translation>
+<translation id="9034669711835382440">Comunitat</translation>
+<translation id="845020633253356720">Veure Botiga</translation>
+<translation id="7777123407058400802">Basic Attention Token – BAT</translation>
 <translation id="7090992647511817643">compte</translation>
 <translation id="4822132585477111396">cadena ID</translation>
 <translation id="3269475789479462358">domini</translation>
@@ -1148,6 +1147,12 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="8214232307424031138">Signat</translation>
 <translation id="9065572743819293042">Transaccions recents</translation>
 <translation id="1702356231547761669">Hash de la transacció</translation>
+<translation id="6030778062363728902">Memo</translation>
+<translation id="1288859203671057247">Pots escriure un missatge...</translation>
+<translation id="5466702869935634816">Missatge (opcional)</translation>
+<translation id="5715145706082194046">Afegir memo</translation>
+<translation id="1922741261173258284">Eliminar nota</translation>
+<translation id="1762915190843068679">Les notes han de tenir menys de 512 caràcters.</translation>
 <translation id="8941851657764077659">Tarifa màx. de prioritat</translation>
 <translation id="8047527352810290817">Edita el gas</translation>
 <translation id="9091334651803050473">Tot i que no és una garantia, és probable que els minaires prioritzin la teva transacció si pagues una tarifa més alta.</translation>
@@ -1456,12 +1461,6 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="3253669416991680932">Aquesta cartera física (hardware) no admet aquesta operació.</translation>
 <translation id="7457027586454688423">Introdueix la teva contrasenya de Cartera de iBrowe</translation>
 <translation id="7553242001898162573">Introdueix la contrasenya</translation>
-<translation id="2873714185189940594">Vols obrir l'aplicació Rainbow Bridge?</translation>
-<translation id="2069777099181262239">Rainbow Bridge és un servei independent que ajuda a vincular els actius a través de les xarxes, i utilitza la teva criptografia en altres xarxes i ecosistemes DApp. El finançament d'actius a altres xarxes té alguns riscos.</translation>
-<translation id="7387899248733396663">Més informació sobre l'ús de Rainbow Bridge</translation>
-<translation id="3890567288132019108">Més informació sobre com disminuir el risc a Rainbow Bridge</translation>
-<translation id="1792917191129448067">Obre l'aplicació de Rainbow Bridge</translation>
-<translation id="1522775706527775647">Bridge a Aurora</translation>
 <translation id="4903322403594141291">Més informació sobre Cartera de iBrowe</translation>
 <translation id="4427684901715566795">La contrasenya ha de tenir:</translation>
 <translation id="8521329076169776625">Com a mínim 8 caràcters</translation>
@@ -1739,6 +1738,22 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="2298396008562701154">Actualment, aquest compte processa transaccions transparents; això vol dir que aquestes són visibles per tothom a la cadena de blocs.</translation>
 <translation id="3987095760757102811">Si canvies a un compte protegit, aquestes transaccions ocultaran la informació referent a l'emissor, el receptor i la quantitat.</translation>
 <translation id="3819528427777765709">Protegit</translation>
+<translation id="2142946302539262412">Unificat</translation>
+<translation id="4438043733494739848">Transparent</translation>
+<translation id="1950406774300125954">Dessincronitzat</translation>
+<translation id="68413355604013935">Dessincronitzat (falten <ph name="BLOCKS"/> blocs)</translation>
+<translation id="1597233669965903034">Sincronitza el teu compte per accedir a les darreres transaccions i saldo.</translation>
+<translation id="7499262814309712782">Sincronitzar compte</translation>
+<translation id="2804568727504456403">Sincronitzar <ph name="ACCOUNT"/></translation>
+<translation id="813913629614996137">Iniciant...</translation>
+<translation id="4404141491825711928">Processant bloc:</translation>
+<translation id="4983989175143324911">queden <ph name="BLOCKS"/></translation>
+<translation id="1703172100615786285"><ph name="BLOCKS"/> de <ph name="TOTAL_BLOCKS"/></translation>
+<translation id="5055918601206839704">Rangs:</translation>
+<translation id="1178581264944972037">Pausa</translation>
+<translation id="7714298753782862705">S'ha completat la sincronització. Pots tancar aquesta finestra.</translation>
+<translation id="7716113567047550378">No tanquis aquesta finestra fins que no es completi la sincronització.</translation>
+<translation id="5123590959308755060">Continuar utilitzant la cartera en una nova pestanya</translation>
 <translation id="7144878232160441200">Torna-ho a intentar</translation>
 <translation id="9094621390791852268">Error en la vista prèvia de la transacció.</translation>
 <translation id="4982713341035600933">Canvi en el saldo calculat</translation>
@@ -1992,6 +2007,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="5950760360751948276">Mostra la barra de l'adreça d'interès</translation>
 <translation id="2960757369920422313">Mostra la barra de l'adreça d'interès a una pàgina de pestanya nova</translation>
 <translation id="522953399371747698">Amaga la barra de l'adreça d'interès</translation>
+<translation id="9079813619990532635">Exportar totes les adreces d'interès</translation>
 <translation id="134184943774258988">Activa/Desactiva la visibilitat del botó de totes les adreces d'interès</translation>
 <translation id="2158862020143233462">Activa/Desactiva els escuts</translation>
 <translation id="3010280727642018218">Activa/desactiva JavaScript</translation>
@@ -2062,7 +2078,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="8637805148029768813">La funció de resum actualment només està disponible per a articles seleccionats i altres pàgines web de llarg format.</translation>
 <translation id="1223498995510244364">Resumeix</translation>
 <translation id="7491773233732232424">Sobre Leo</translation>
-<translation id="5208096220706490232">iBrowe Leo és un assistent intel·ligent d'IA privat que optimitza l'ús que fas d'Internet. Leo és gratuït amb un accés limitat. iBrowe Leo Premium ofereix més models, límits més alts i dóna als subscriptors accés anticipat a noves funcions. El model per defecte per a tots els usuaris actualment és Mixtral 8x7B. Consulta la <ph name="LINK_BEFORE"/>wiki de iBrowe<ph name="LINK_AFTER"/> per a més detalls.</translation>
+<translation id="4885527781814382758">iBrowe Leo és un assistent intel·ligent d'IA que millora l'ús que fas d'Internet. Pots utilitzar Leo de manera gratuïta amb accés limitat. iBrowe Leo Premium inclou més models i té límits més alts; a més, ofereix als seus subscriptors accés anticipat a les noves funcions. El model per defecte canviarà de tant en tant. Per a més informació, consulta el <ph name="LINK_BEFORE"/>Centre d'ajuda de iBrowe<ph name="LINK_AFTER"/>.</translation>
 <translation id="7189603330209995455">De manera predeterminada, quan li fas una pregunta a Leo, aquest pot enviar i utilitzar el contingut de la pàgina web que estàs veient o qualsevol text que destaquis a una pàgina a iBrowe Leo per donar una resposta. L'exactitud de les respostes no està garantida i pot incloure informació inexacta, enganyosa o falsa. Leo fa servir dades del Cercador de iBrowe per millorar la qualitat de les respostes. No enviïs informació delicada o privada i ves amb compte amb les respostes relacionades amb la salut, les finances, la seguretat personal o temes similars. Pots ajustar les opcions de Leo a Configuració en qualsevol moment. Ves a Configuració &gt; Leo.</translation>
 <translation id="3038772045018370764">Leo no recopila identificadors com l'adreça IP que puguin vincular-se amb tu. No s'utilitza cap dada per entrenar els models d'IA i aquests no retenen cap dada personal (excepte Anthropic, que reté les dades durant 30 dies abans d'eliminar-les). Per a més informació, consulta la <ph name="LINK_BEFORE"/>política de privacitat<ph name="LINK_AFTER"/>.</translation>
 <translation id="7839853125981164613">Introdueix un missatge aquí</translation>
@@ -2070,13 +2086,18 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4567071417854988869">Resumeix aquest vídeo</translation>
 <translation id="7921782882718083488">Resumeix aquesta pàgina</translation>
 <translation id="7932221068776853847">Desconnecta per deixar d'enviar el contingut d'aquesta pàgina a Leo i inicia una nova conversa</translation>
+<translation id="2712650703044366764">Aquest model té un punt final no vàlid. Revisa les teves configuracions i torna-ho a intentar.</translation>
 <translation id="1167803637855350748">Hi ha hagut un problema de xarxa en connectar amb Leo, comprova la connexió i intenta-ho de nou.</translation>
 <translation id="1996126325390835277">Has arribat al límit de la tarifa Premium. Torna-ho a provar d'aquí a unes hores.</translation>
+<translation id="3683964919745779766">Has assolit el límit de taxa per aquest model i no et queden crèdits. Torna-ho a provar més tard.</translation>
+<translation id="7692501701960747469">La clau API configurada per a aquest model no és vàlida. Comprova la teva configuració i torna-ho a provar.</translation>
+<translation id="7905602379229309187">En aquests moments, el punt final està sobrecarregat. Torna-ho a provar més tard.</translation>
+<translation id="8151638057146502721">Configurar</translation>
 <translation id="4177458398826096846">Hola, soc en Leo, un assistent d'IA totalment allotjat per iBrowe. Tinc la tecnologia Llama 3.1 8B, un model creat per Meta per ser eficient i aplicable a molts casos d'ús. <ph name="LINK_BEFORE"/>Més informació<ph name="LINK_AFTER"/></translation>
 <translation id="6500567629965936637">Hola, soc en Leo. Soc un assistent d'IA totalment allotjat de iBrowe. Funciono amb Mixtral 8x7B, un model creat per Mistral AI per gestionar tasques avançades. <ph name="LINK_BEFORE"/>Per a més informació<ph name="LINK_AFTER"/></translation>
 <translation id="4590776109659811206">Hola, soc en Leo. Estic en un servidor intermedi de iBrowe i funciono amb Claude Instant, un model creat per Anthropic per permetre tasques de conversa i de processament de textos. <ph name="LINK_BEFORE"/>Per a més informació<ph name="LINK_AFTER"/></translation>
-<translation id="8583558415545871403">Hola, soc en Leo. Estic en un servidor intermedi de iBrowe i funciono amb Claude 3 Haiku, un model creat per Anthropic per permetre tasques de conversa i de processament de textos.</translation>
-<translation id="1107977270364670952">Hola, soc en Leo. Estic en un servidor intermedi de iBrowe i funciono amb Claude 3.5 Sonnet, un model creat per Anthropic per permetre tasques de conversa i de processament de textos.</translation>
+<translation id="2001874998841390450">Hola, soc en Leo. Estic en un servidor intermedi de iBrowe i funciono amb Claude Haiku, un model creat per Anthropic per permetre tasques de conversa i de processament de textos. <ph name="LINK_BEFORE"/>Més informació<ph name="LINK_AFTER"/></translation>
+<translation id="3408745502133272006">Hola, soc en Leo. Estic en un servidor intermedi de iBrowe i funciono amb Claude Sonnet, un model creat per Anthropic per permetre tasques de conversa i de processament de textos. <ph name="LINK_BEFORE"/>Més informació<ph name="LINK_AFTER"/></translation>
 <translation id="6206029817087805290"><ph name="MODEL_NAME"/> de <ph name="COMPANY_NAME"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="6187065185557150870">Xat</translation>
@@ -2095,6 +2116,9 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4165928407303989823">Segueix amb el tema</translation>
 <translation id="2389665228467129817">Xateja durant més temps</translation>
 <translation id="8556044455877152001"><ph name="PRICE_VALUE"/> USD/mes</translation>
+<translation id="9031958221569934724"><ph name="PRICE_VALUE"/> USD $/any</translation>
+<translation id="1028627582482425924">Un any</translation>
+<translation id="36366199652730057">Millor oferta</translation>
 <translation id="5151923271944811339">Canvia al model gratuït</translation>
 <translation id="5474757891469990756">Allibera tot el poder de Leo amb Premium:</translation>
 <translation id="3453542753968940696">Accés prioritari a models potents amb diferents habilitats.</translation>
@@ -2108,11 +2132,14 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="6393149565874086128">Afegiu suggeriments</translation>
 <translation id="3521125531016408657">Fes "M'agrada" a la resposta</translation>
 <translation id="8202517001427388906">Fes "No m'agrada" a la resposta</translation>
+<translation id="3177073390279208955">Envia valoracions, converses, model, idioma, versió i estatus premium</translation>
 <translation id="1379399209929302811">Envia suggeriments sobre la IA de iBrowe</translation>
 <translation id="8442999546461118871">Selecciona el tema dels teus comentaris</translation>
 <translation id="9018766373792005944">De què tracten els teus suggeriments?</translation>
 <translation id="7355096922131918313">Proporciona els teus suggeriments aquí</translation>
 <translation id="3027575440738035995">Leo Premium proporciona accés a un conjunt ampliat de models de llenguatge per a unes respostes amb encara més matisos. <ph name="LINK_BEFORE"/>Més informació<ph name="LINK_AFTER"/></translation>
+<translation id="8261506727792406068">Suprimeix</translation>
+<translation id="6574153208133461043">Segur que vols eliminar aquesta conversa? Aquesta acció no es pot desfer.</translation>
 <translation id="7488762544858401571">Editat</translation>
 <translation id="1406205536570262057">Edita la resposta</translation>
 <translation id="2399439821649319175">No és útil</translation>
@@ -2126,6 +2153,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="8171760814579050200">Canviar el nom de la conversa</translation>
 <translation id="7754678742055438573">Esborra conversa</translation>
 <translation id="7494736170250048402">Envia un missatge a Leo</translation>
+<translation id="8650874793377330048">Aturar les respostes</translation>
 <translation id="8712637175834984815">D'acord</translation>
 <translation id="1093419424466417703">La pàgina és massa llarga per a Leo. Podria faltar part del context de la conversa. Leo ha pogut llegir el <ph name="PERCENTAGE"/> dels continguts de la pàgina.</translation>
 <translation id="2186990448773134544">El contingut de la pàgina s'ha perfeccionat mitjançant l'extracció de la informació més rellevant de la pàgina perquè era massa llarg per a Leo.</translation>
@@ -2133,6 +2161,11 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="4370698775470316661">Aquesta conversa és massa llarga i no pot continuar. Pot ser que hi hagi altres models disponibles amb els quals Leo pugui mantenir la precisió en converses més llargues.</translation>
 <translation id="5719170755629028558">Millora de la teva resposta amb el cercador de iBrowe…</translation>
 <translation id="5794962229997281366">Millora de la cerca de respostes per a <ph name="SEARCH_TERMS"/>.</translation>
+<translation id="8103700533980268469">Tancar aquest avís</translation>
+<translation id="2315654674554095762">A partir d'ara, Leo recordarà les vostres converses perquè puguis consultar-les de nou. S'emmagatzemen xifrades al teu aparell i pots esborrar-les quan vulguis.</translation>
+<translation id="7821251979960635244">Un cop comencis una conversa, el teu historial de converses apareixerà aquí.</translation>
+<translation id="887511360213807449">L'historial està deshabilitat</translation>
+<translation id="5380979378058584412">Per poder accedir a les teves converses anteriors amb Leo, hauràs d'habilitar l'historial de converses.</translation>
 <translation id="6291843235651817590">Xat de tipus general</translation>
 <translation id="8193130769524604031">Tasques de xat avançades</translation>
 <translation id="3185367320601718531">Conversa i generació de text</translation>
@@ -2176,6 +2209,7 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="49269513399674318">Utilitza el micròfon</translation>
 <translation id="3895031624234442305">Personalitza models</translation>
 <translation id="4572010449071015143">Inicia una conversa nova</translation>
+<translation id="345901077335355561">Tornar a la conversa activa</translation>
 <translation id="6287023598025162715">Nova conversa</translation>
 <translation id="6303294677342628402">Escuts</translation>
 <translation id="8458987127502506209">Activa els Escuts de iBrowe</translation>
@@ -2205,6 +2239,8 @@ condicions d'ús <ph name="END_PROVIDER_TOU_LINK"/> i <ph name="BEGIN_PROVIDER_P
 <translation id="6196640612572343990">Bloqueja les galetes de tercers</translation>
 <translation id="693506469193748756">Oblida'm quan tanqui aquest lloc</translation>
 <translation id="5471580724041424345">Esborra les galetes i altres dades dels llocs quan tanquis un espai.</translation>
+<translation id="6486971767955110687">Desar informació de contacte per a futurs informes d'errors del lloc</translation>
+<translation id="4085787265464238844">Si introdueixes la teva informació de contacte, aquesta serà emmagatzemada per a futurs informes</translation>
 <translation id="6883611015375728278">Bloqueja totes les galetes</translation>
 <translation id="5657156137487675418">Permet totes les galetes</translation>
 <translation id="8366221601425141146">Empremtes digitals bloquejades</translation>
@@ -2247,7 +2283,7 @@ other {Escuts de iBrowe ha bloquejat {BLOCKED_COUNT} rastrejadors a <ph name="SI
 <translation id="1097073572755862978">Envia informes de diagnòstic si es produeix un bloqueig o una congelació. <ph name="LINK_BEFORE"/>Més informació.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Compartiu la informació privada i anònima de productes sobre quines funcions fan servir els usuaris de iBrowe. <ph name="LINK_BEFORE"/>Més informació.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">S'ha completat la configuració</translation>
-<translation id="3141206739023333979">Canvia aquestes opcions de iBrowe en qualsevol moment a <ph name="LINK_BEFORE1"/>brave://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
+<translation id="3141206739023333979">Canvia aquestes opcions de iBrowe en qualsevol moment a <ph name="LINK_BEFORE1"/>iBrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
 <translation id="8321985064212130832">Llegeix la nostra <ph name="LINK_BEFORE"/>Política de privadesa<ph name="LINK_AFTER"/> completa</translation>
 <translation id="2801098717523961746">Tria el tema de color</translation>
 <translation id="6262510489122516114">Pots canviar aquesta opció en qualsevol moment a la configuració de iBrowe.</translation>
@@ -2334,7 +2370,7 @@ Hem canviat la configuració de DNS al navegador per protegir-te d'aquesta divul
 <translation id="7082498599369566941">Sembla que hi ha problemes amb la connexió de WireGuard. Voleu habilitar el sistema alternatiu IKEv2 per tenir una VPN fiable? Només cal que canvieu la configuració.
 
 Necessiteu ajuda amb la compatibilitat o la configuració? Poseu-vos en contacte amb el nostre amable equip d'assistència.
-Sempre podreu tornar a WireGuard a brave://settings/system.
+Sempre podreu tornar a WireGuard a iBrowe://settings/system.
 
 Connecteu-vos-hi ara mateix!</translation>
 <translation id="1657858090675311947">No em tornis a avisar sobre això.</translation>
@@ -2343,7 +2379,7 @@ Connecteu-vos-hi ara mateix!</translation>
 <translation id="9061845622728745852">Fus horari</translation>
 <translation id="8295393906499561642">La sessió ha caducat</translation>
 <translation id="7070578590391442755">No es pot autentificar al VPN</translation>
-<translation id="3312623558576021182">Inicia sessió al teu <ph name="BRAVE_ACCOUNT_BEGIN"/>compte de iBrowe<ph name="BRAVE_ACCOUNT_END"/> per actualitzar la sessió VPN.</translation>
+<translation id="3312623558576021182">Inicia sessió al teu <ph name="iBrowe_ACCOUNT_BEGIN"/>compte de iBrowe<ph name="iBrowe_ACCOUNT_END"/> per actualitzar la sessió VPN.</translation>
 <translation id="7861195049821776142">VPN de iBrowe: desconnectant-se</translation>
 <translation id="2061807837510296780">VPN de iBrowe: connectant-se</translation>
 <translation id="1313124107969703758">VPN de iBrowe: error</translation>

@@ -10,7 +10,7 @@
 /* A discription of the iBrowe Player. */
 "AntiAdBlockWarningiBrowePlayerDescription" = "**iBrowe Player** คือวิธีการในการสัมผัสกับการรับชมวิดีโอแบบไม่มีโฆษณาคั่นและไม่มีสะดุด";
 
-/* A button that disables ad-blocking and uses brave player. */
+/* A button that disables ad-blocking and uses iBrowe player. */
 "AntiAdBlockWarningConfirmationButton" = "ปรับ Shields สำหรับฉัน";
 
 /* A descriptive message explaining this site's ad-blocking crackdown. */
@@ -43,22 +43,22 @@
 /* A title for setting which blocks 'switch to app' popups */
 "blockMobileAnnoyances" = "บล็อกการแจ้งเตือน 'การเปลี่ยนเป็นแอป'";
 
-/* Title for the brave player feature */
+/* Title for the iBrowe player feature */
 "iBrowePlayer" = "iBrowe Player";
 
-/* A label for a toggle that enables automatic launching of brave player for certain sites */
+/* A label for a toggle that enables automatic launching of iBrowe player for certain sites */
 "iBrowePlayerAlwaysOpenYouTubeLinks" = "เปิดวิดีโอจากเว็บไซต์นี้ด้วย iBrowe Player เสมอ";
 
-/* A button that confirms to use the brave player. */
+/* A button that confirms to use the iBrowe player. */
 "iBrowePlayerConfirmButton" = "ลองเลย";
 
-/* A button that ignores the brave player */
+/* A button that ignores the iBrowe player */
 "iBrowePlayerDismissButton" = "ไม่ใช่ตอนนี้";
 
-/* A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time. */
+/* A description of the iBrowe player that is presented on the info panel when clicing on the iBrowe player icon for the first time. */
 "iBrowePlayerInfoMessage" = "iBrowe Player จะทำให้คุณดูวิดีโอได้อย่างไม่มีสะดุด";
 
-/* Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar. */
+/* Title for the iBrowe player info popup which appears when clicking on the iBrowe player icon on the navigation bar. */
 "iBrowePlayerInfoTitle" = "ดูใน iBrowe Player แทน";
 
 /* A title to the content filtering page under global shield settings and the title on the Content filtering page */
@@ -160,6 +160,30 @@
 /* This is a label on a button that updates filter lists which signifies that lists have been updated */
 "ListsUpdated" = "อัปเดตรายการแล้ว";
 
+/* A label displayed above a value indicating if the site is in aggressive mode in Blocked Requests view. */
+"shields.aggressiveLabel" = "รุนแรง";
+
+/* A label displayed above the location a request was blocked in Blocked Requests view. */
+"shields.blockedByLabel" = "ถูกบล็อกโดย";
+
+/* The title displayed in the navigation bar of Blocked Requests view. */
+"shields.blockedRequestsTitle" = "คำขอที่ถูกบล็อก";
+
+/* Used to describe when a request was blocked by the Content Blocker in Blocked Requests view. */
+"shields.contentBlocker" = "ตัวบล็อกเนื้อหา";
+
+/* Used to describe when a request was blocked by our request blocking scripts in Blocked Requests view. */
+"shields.requestBlocking" = "การบล็อกคำขอ";
+
+/* A label displayed above the request url that was blocked in Blocked Requests view. */
+"shields.requestURLLabel" = "URL ของคำขอ";
+
+/* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
+"shields.resourceTypeLabel" = "ประเภทแหล่งข้อมูล";
+
+/* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
+"shields.sourceURLLabel" = "URL แหล่งที่มา";
+
 /* A button title when confirming to shred website data */
 "ShredDataButtonTitle" = "ย่อยข้อมูล";
 
@@ -191,7 +215,7 @@
 "TheConnectionIsNotSecure" = "การเชื่อมต่อกับ %@ ไม่ปลอดภัย";
 
 /* A label for a shield option that allows you to switch between different blocking levels for tracker and ads blocking. Options include disabled, standard and aggressive. */
-"TrackersAndAdsBlocking" = "การบล็อกตัวติดตามและโฆษณา";
+"TrackersAndAdsBlocking" = "การบล็อกตัวติดตาม&โฆษณา";
 
 /* This is a label for a button which when pressed updates all the filter lists */
 "UpdateLists" = "อัปเดตรายการ";

@@ -1,5 +1,20 @@
+/* A label shown above a list of icons designed by iBrowe */
+"altAppIcon.iBroweIconsHeader" = "iBrowe-pictogrammen";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "Wijzig app-pictogram";
+
+/* A label shown next to the default iBrowe app icon */
+"altAppIcon.defaultAppIcon" = "Standaard";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "App-pictogram kon niet worden gewijzigd";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
-"BackTitle" = "Ga terug";
+"BackTitle" = "Vorige";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"iBroweTranslate.availableVoiceOverAnnouncement" = "Vertaling voor pagina beschikbaar";
 
 /* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "CloseAllTabsFromTabTrayKeyCodeTitle" = "Sluit alle tabbladen";
@@ -25,10 +40,16 @@
 /* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "OpenSelectedTabFromTabTrayKeyCodeTitle" = "Open geselecteerd tabblad";
 
-/* Title label text for refreshing credentials from brave site. */
-"paywall.alreadyPurchasedTitle" = "Al gekocht op brave.com?";
+/* Title label text for refreshing credentials from iBrowe site. */
+"paywall.alreadyPurchasedTitle" = "Al gekocht op iBrowe.com?";
 
-/* Button action text for refreshing credentials from brave site. */
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "Heb je een promotiecode?";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "Wissel promotiecode in";
+
+/* Button action text for refreshing credentials from iBrowe site. */
 "paywall.refreshCredentialsButtonTitle" = "Vernieuw inloggegevens";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */

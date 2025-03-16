@@ -31,8 +31,8 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "סטטוס";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
-"aichat.advancedSettingsViewReceiptTitle" = "הצגת קבלה מ-AppStore";
+/* The title for the button that allows the user to view the App Store Receipt */
+"aichat.advancedSettingsViewReceiptTitle" = "הצגת קבלה מ-App Store";
 
 /* The subtitle for the error showing there is an error from App Store */
 "aichat.appStoreErrorSubTitle" = "לא ניתן לקשר ל-App Store, נא לנסות שוב מאוחר יותר.";
@@ -86,7 +86,7 @@
 "aichat.defaultModelLanguageSectionTitle" = "מודלי שפה";
 
 /* The title of the menu where user can change the default model */
-"aichat.defaultModelViewTitle" = "מודל ברירת מחדל";
+"aichat.defaultModelViewTitle" = "מודל ברירת מחדל ";
 
 /* The text displayed under an edited user prompt/message beside a timestamp. */
 "aichat.editedMessageCaption" = "נערך";
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "לא בטוח/מזיק";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo פרימיום מספק גישה למבחר מורחב של מודלי שפה המציעים תשובות מדויקות אפילו יותר. [מידע נוסף](https://brave.com/) - [סגירה](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo פרימיום מספק גישה למבחר מורחב של מודלי שפה המציעים תשובות מדויקות אפילו יותר. [מידע נוסף](https://iBrowe.com/) - [סגירה](iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "שלח";
@@ -137,7 +137,7 @@
 "aichat.infoAboutPageContext" = "התאמת תשובות על סמך תוכן העמוד";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "שלום, שמי Leo. אני מוצג על ידי iBrowe ומונע על ידי Claude 3 Haiku, מודל שנוצר על ידי Anthropic להפעלת משימות שיחה ולעיבוד טקסט.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "היי, אני Leo. אני מתווך על ידי iBrowe ומופעל באמצעות Claude Haiku, מודל שנוצר על ידי Anthropic כדי לאפשר משימות עיבוד של שיחה וטקסט.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Claude Haiku מאת Anthropic";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "צ'אט מהיר כברק";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "שלום, שמי Leo. אני מוצג על ידי iBrowe ומופעל על ידי Claude 3.5 Sonnet, דגם שנוצר על ידי Anthropic להפעלת משימות שיחה ולעיבוד טקסט.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "היי, אני Leo. אני מתווך על ידי iBrowe ומופעל באמצעות Claude Sonnet, מודל שנוצר על ידי Anthropic כדי לאפשר משימות עיבוד של שיחה וטקסט.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Claude Sonnet מאת Anthropic";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "דוגמת קוד";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo מושבת כרגע דרך הגדרות ניהול הפיצ׳רים. כדי להפעיל מחדש את Leo, אפשר לבקר בכתובת brave://flags.";
+"aichat.leoDisabledMessageDescription" = "Leo מושבת כרגע דרך הגדרות ניהול הפיצ׳רים. כדי להפעיל מחדש את Leo, אפשר לבקר בכתובת iBrowe://flags.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo מושבת";
@@ -263,7 +263,7 @@
 "aichat.paywallPurchaseDeepNote" = "כל המינויים מתחדשים באופן אוטומטי אך ניתן לבטלם בכל עת לפני החידוש.";
 
 /* The error description when in app purcahse is erroneous. */
-"aichat.paywallPurchaseErrorDescription" = "לא ניתן להשלים את הרכישה. יש לנסות שוב, או לבדוק את פרטי התשלום שלך ב-Apple ואז לנסות שוב.";
+"aichat.paywallPurchaseErrorDescription" = "לא ניתן להשלים את הרכישה. יש לנסות שוב או לבדוק את פרטי התשלום שלך ב-Apple ואז לנסות שוב.";
 
 /* The subtitle for premium upseel when rate limit is shown after sending a message */
 "aichat.paywallRateLimitSubTitle" = "אפשר לקבל שיעור תגובה גבוה יותר באמצעות הרשמה לפרימיום, או לנסות שוב מאוחר יותר.";
@@ -326,7 +326,7 @@
 "aichat.quickMenuGoPremiumActionTitle" = "לעבור לפרימיום";
 
 /* The title of action for quick menu which display subscription management view */
-"aichat.quickMenuManageSubscriptionActionTitle" = "ניהול מינויים";
+"aichat.quickMenuManageSubscriptionActionTitle" = "ניהול מנויים";
 
 /* The title for error when rating a response is not success */
 "aichat.rateAnswerActionErrorText" = "שגיאה בדירוג תגובה";

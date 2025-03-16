@@ -31,8 +31,8 @@
 /* The title for the label showing status if the subscription */
 "aichat.advancedSettingsSubscriptionStatusTitle" = "Állapot";
 
-/* The title for the button that allows the user to view the AppStore Receipt */
-"aichat.advancedSettingsViewReceiptTitle" = "AppStore nyugta megtekintése";
+/* The title for the button that allows the user to view the App Store Receipt */
+"aichat.advancedSettingsViewReceiptTitle" = "App Store nyugta megtekintése";
 
 /* The subtitle for the error showing there is an error from App Store */
 "aichat.appStoreErrorSubTitle" = "Nem sikerült csatlakozni az App Store-hoz, próbálja újra később.";
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Nem biztonságos/ártalmas";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "A Leo Premium nyelvi modellek bővített készletéhez biztosít hozzáférést a még árnyaltabb válaszok érdekében. [További tudnivalók](https://brave.com/) - [Elvetés] (braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "A Leo Premium nyelvi modellek bővített készletéhez biztosít hozzáférést a még árnyaltabb válaszok érdekében. [További tudnivalók](https://iBrowe.com/) - [Elvetés] (iBroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Elküldés";
@@ -131,13 +131,13 @@
 "aichat.feedbackViewMainTitle" = "Visszajelzés küldése a iBrowe MI-vel kapcsolatban";
 
 /* The button title for opening paywall screen */
-"aichat.goPremiumButtonTitle" = "Váltás Premiumra";
+"aichat.goPremiumButtonTitle" = "Prémium előfizetés";
 
 /* Description about answers are changing with page context */
 "aichat.infoAboutPageContext" = "Alakítsa a válaszokat az oldal tartalma alapján";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeHaikuMessageDescription" = "Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude 3 Haiku modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére.";
+"aichat.introMessageClaudeHaikuMessageDescription" = "Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude Haiku modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére.";
 
 /* The model and creator for intro message - Claude Haiku is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeHaikuModelDescription" = "Anthropic - Claude Haiku";
@@ -146,7 +146,7 @@
 "aichat.introMessageClaudeHaikuModelPurposeDescription" = "Villámgyors csevegés";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageClaudeSonnetMessageDescription" = "Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude 3.5 Sonnet modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére.";
+"aichat.introMessageClaudeSonnetMessageDescription" = "Üdv, Leo vagyok. A iBrowe proxyval üzemeltetnek, a működésem pedig a Claude Sonnet modellen alapul, amelyet az Anthropic fejlesztett ki beszélgetési és szövegfeldolgozási feladatok elvégzésére.";
 
 /* The model and creator for intro message - Claude Sonnet is the model -- Anthropic is the creator */
 "aichat.introMessageClaudeSonnetModelDescription" = "Anthropic - Claude Sonnet";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Kód példa";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo jelenleg le van tiltva a funkciójelzőkkel. A Leo újbóli engedélyezéséhez kérjük, látogasson el a brave://flags oldalra, és engedélyezze.";
+"aichat.leoDisabledMessageDescription" = "Leo jelenleg le van tiltva a funkciójelzőkkel. A Leo újbóli engedélyezéséhez kérjük, látogasson el a iBrowe://flags oldalra, és engedélyezze.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo Disabled";
@@ -386,7 +386,7 @@
 "aichat.termsConditionsApproveActionTitle" = "Megértettem";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
-"aichat.termsConditionsDescription" = "A iBrowe Leo egy privát mesterséges intelligens asszisztens, amely javítja az internethasználatot. A Leo korlátozott hozzáféréssel ingyenesen használható. A iBrowe Leo Premium több modellt, magasabb korlátokat kínál, és korai hozzáférést biztosít az előfizetőknek az új funkciókhoz. Az összes felhasználó alapértelmezett modellje jelenleg a Mixtral 8x7B. A további részleteket lásd: iBrowe **[Súgó] (%1$ @)**.\n\nAlapértelmezetten, amikor feltesz egy kérdést Leónak, elküldheti a iBrowe Leo számára és a válaszadáshoz felhasználhatja az éppen megtekintett weboldal tartalmát vagy az Ön által kiemelt szöveget. Bizonyos esetekben a Leo az Ön által megadott adatokból származó lekérdezéseket küld a iBrowe keresőnek, és a keresési eredményeket felhasználja az Ön kérdésének jobb megválaszolására. A válaszok pontossága nem garantált, és tartalmazhat pontatlan, félrevezető vagy hamis információkat. Ne adjon meg bizalmas vagy magánjellegű információkat, és legyen körültekintő az egészséggel, pénzügyekkel, személyes biztonsággal vagy hasonlókkal kapcsolatos válaszokkal. A Leo beállításait bármikor módosíthatja a Beállításokban. Ehhez lépjen a Beállítások > Leo lehetőségre.\n\nA Leo nem gyűjt olyan azonosítókat, mint például az Ön IP-címe, amely összekapcsolható Önnel. Az MI-modellek betanításához nem kerülnek felhasználásra adatok, és az MI-modellek nem tárolnak személyes adatokat (az Anthropic kivételével, amely 30 napig tárolja az adatokat törlés előtt). További információkat lásd: **[adatvédelmi szabályzat](%2$ @)**.";
+"aichat.termsConditionsDescription" = "A iBrowe Leo egy privát mesterséges intelligens asszisztens, amely javítja az internethasználatot. A Leo korlátozott hozzáféréssel ingyenesen használható. A iBrowe Leo Premium több modellt, magasabb korlátokat kínál, és korai hozzáférést biztosít az előfizetőknek az új funkciókhoz. Az összes felhasználó alapértelmezett modellje jelenleg a Mixtral 8x7B. A további részleteket lásd: iBrowe **[Súgó] (%1$@)**.\n\nAlapértelmezetten, amikor feltesz egy kérdést Leónak, elküldheti a iBrowe Leo számára és a válaszadáshoz felhasználhatja az éppen megtekintett weboldal tartalmát vagy az Ön által kiemelt szöveget. Bizonyos esetekben a Leo az Ön által megadott adatokból származó lekérdezéseket küld a iBrowe keresőnek, és a keresési eredményeket felhasználja az Ön kérdésének jobb megválaszolására. A válaszok pontossága nem garantált, és tartalmazhat pontatlan, félrevezető vagy hamis információkat. Ne adjon meg bizalmas vagy magánjellegű információkat, és legyen körültekintő az egészséggel, pénzügyekkel, személyes biztonsággal vagy hasonlókkal kapcsolatos válaszokkal. A Leo beállításait bármikor módosíthatja a Beállításokban. Ehhez lépjen a Beállítások > Leo lehetőségre.\n\nA Leo nem gyűjt olyan azonosítókat, mint például az Ön IP-címe, amely összekapcsolható Önnel. Az MI-modellek betanításához nem kerülnek felhasználásra adatok, és az MI-modellek nem tárolnak személyes adatokat (az Anthropic kivételével, amely 30 napig tárolja az adatokat törlés előtt). További információkat lásd: **[adatvédelmi szabályzat](%2$@)**.";
 
 /* The title terms and conditions for AI chat usage */
 "aichat.termsConditionsTitle" = "Csevegjen privátban a iBrowe Leóval";
