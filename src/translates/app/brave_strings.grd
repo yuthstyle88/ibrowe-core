@@ -2039,7 +2039,7 @@ iBrowe is unable to recover your settings.
         You usually block notifications. To let this site notify you, click the notification icon on the right corner of your location bar.
       </message>
 
-      <!-- BraveLabs bubble -->
+      <!-- iBroweLabs bubble -->
       <message name="IDS_CHROMELABS_RELAUNCH_FOOTER_MESSAGE" desc="Text that shows in the footer of the iBrowe Labs bubble when relaunch is needed for changes to take effect.">
         Your changes will take effect the next time you relaunch iBrowe.
       </message>
@@ -2078,7 +2078,7 @@ iBrowe is unable to recover your settings.
         iBrowe runs faster and features that use JavaScript should work as designed (recommended)
       </message>
 
-      <!-- BraveUpdater Strings -->
+      <!-- iBroweUpdater Strings -->
       <if expr="is_win">
         <message name="IDS_FRIENDLY_COMPANY_NAME" desc="Company name" translateable="false">
           iBrowe
@@ -2189,7 +2189,7 @@ iBrowe is unable to recover your settings.
 
         <!--Network errors.-->
         <message name="IDS_NO_NETWORK_PRESENT_ERROR" desc="Error message displayed in the main dialog when the Updater is unable to connect to the network.">
-          Unable to connect to the Internet. If you use a firewall, please ensure <ph name="PRODUCT_EXE_NAME">$1<ex>BraveUpdater.exe</ex></ph> is in the allowlist.
+          Unable to connect to the Internet. If you use a firewall, please ensure <ph name="PRODUCT_EXE_NAME">$1<ex>iBroweUpdater.exe</ex></ph> is in the allowlist.
         </message>
         <message name="IDS_ERROR_HTTPSTATUS_UNAUTHORIZED" desc="Error message displayed in the main dialog when an update check or download fails due to unauthorized access, usually due to proxy problems.">
           Unable to connect to the Internet. HTTP 401 Unauthorized. Please check your proxy configuration.
