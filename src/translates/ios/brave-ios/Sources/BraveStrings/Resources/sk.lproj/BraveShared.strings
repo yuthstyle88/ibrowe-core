@@ -2,10 +2,10 @@
 "About" = "Informácie";
 
 /* The title of the screen explaining iBrowe Shields */
-"AboutiBroweShields" = "O iBrowe štítoch";
+"AboutBraveShields" = "O iBrowe štítoch";
 
 /* The body of the screen explaining iBrowe Shields */
-"AboutiBroweShieldsBody" = "Stránky často obsahujú súbory cookie a skripty, ktoré sa snažia identifikovať vás a vaše zariadenie. Chcú zistiť, kto ste, a sledovať vás na webe – sledovať, čo robíte na každej stránke.\n\niBrowe blokuje ich blokuje, takže stránky môžete prehliadať bez toho, aby vás niekto sledoval.";
+"AboutBraveShieldsBody" = "Stránky často obsahujú súbory cookie a skripty, ktoré sa snažia identifikovať vás a vaše zariadenie. Chcú zistiť, kto ste, a sledovať vás na webe – sledovať, čo robíte na každej stránke.\n\nBrave blokuje ich blokuje, takže stránky môžete prehliadať bez toho, aby vás niekto sledoval.";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "To vám umožní uložiť obrázok do galérie.";
@@ -29,7 +29,7 @@
 "AddToMenuItem" = "Pridať záložku";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.iBroweAdsDataToggleOption" = "Údaje iBrowe Ads";
+"ads.braveAdsDataToggleOption" = "Údaje iBrowe Ads";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Reklamy a sledovače";
@@ -98,7 +98,7 @@
 "BlockCookieConsentNotices" = "Blokovať oznámenia o súhlase so súbormi cookie";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Zabraňuje webovým stránkam ukladať informácie o vašich predchádzajúcich návštevách.\nMožnosť \"Blokovať všetky súbory cookie\" bola zrušená. Ak sa chcete dozvedieť, ako túto možnosť vynútene povoliť, navštívte [našu stránku pomoci](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
+"BlockCookiesDescription" = "Zabraňuje webovým stránkam ukladať informácie o vašich predchádzajúcich návštevách.\nMožnosť \"Blokovať všetky súbory cookie\" bola zrušená. Ak sa chcete dozvedieť, ako túto možnosť vynútene povoliť, navštívte [našu stránku pomoci](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Monitor blokovania";
@@ -142,110 +142,110 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Adresa";
 
-/* Button to show the iBrowe panel */
-"iBrowePanel" = "Panel iBrowe";
+/* Button to show the brave panel */
+"BravePanel" = "Panel iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsAdNotificationTitle" = "Odmeny iBrowe";
+"BraveRewardsAdNotificationTitle" = "Odmeny iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsOpen" = "Otvoriť";
+"BraveRewardsOpen" = "Otvoriť";
 
 /* iBrowe Rewards title in settings */
-"iBroweRewardsSettingsTitle" = "Odmeny";
+"BraveRewardsSettingsTitle" = "Odmeny";
 
 /* iBrowe Rewards title */
-"iBroweRewardsTitle" = "Odmeny iBrowe";
+"BraveRewardsTitle" = "Odmeny iBrowe";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"iBroweSearchPromotion.bannerDescription" = "Vyhľadávanie iBrowe vás neprofiluje.";
+"braveSearchPromotion.bannerDescription" = "Vyhľadávanie iBrowe vás neprofiluje.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Možno neskôr";
+"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Možno neskôr";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"iBroweSearchPromotion.bannerTitle" = "Podporte nezávislé vyhľadávanie s lepším zabezpečením ochrany osobných údajov";
+"braveSearchPromotion.bannerTitle" = "Podporte nezávislé vyhľadávanie s lepším zabezpečením ochrany osobných údajov";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"iBroweSearchPromotion.bannerTryButtonTitle" = "Vyskúšajte nástroj iBrowe Search";
+"braveSearchPromotion.bannerTryButtonTitle" = "Vyskúšajte nástroj iBrowe Search";
 
 /* Button title for Bottom Bar Callout View for action later */
-"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Možno neskôr";
+"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Možno neskôr";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Zatvoriť";
+"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Zatvoriť";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAdvancedControls" = "Pokročilé ovládanie";
+"BraveShieldsAdvancedControls" = "Pokročilé ovládanie";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "Štíty iBrowe a súkromie";
+"BraveShieldsAndPrivacy" = "Štíty iBrowe a súkromie";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "Štíty a súkromie";
+"BraveShieldsAndPrivacyTitle" = "Štíty a súkromie";
 
 /* The number of ads and trackers blocked will be next to this */
-"iBroweShieldsBlockedCountLabel" = "Blokovanie reklám a ďalších nechutných záležitostí";
+"BraveShieldsBlockedCountLabel" = "Blokovanie reklám a ďalších nechutných záležitostí";
 
 /* What the screen reader will read out when the user has VoiceOver on and taps on the question-mark info button on the shields panel */
-"iBroweShieldsBlockedInfoButtonAccessibilityLabel" = "Zjistěte více.";
+"BraveShieldsBlockedInfoButtonAccessibilityLabel" = "Zjistěte více.";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalChangeButton" = "Zmena globálnych predvolených nastavení štítov";
+"BraveShieldsGlobalChangeButton" = "Zmena globálnych predvolených nastavení štítov";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalControls" = "Globálne ovládacie prvky";
+"BraveShieldsGlobalControls" = "Globálne ovládacie prvky";
 
 /* Shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfo" = "Uložiť kontaktné údaje pre budúce správy o nefunkčných stránkach";
+"BraveShieldsSaveContactInfo" = "Uložiť kontaktné údaje pre budúce správy o nefunkčných stránkach";
 
 /* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfoDescription" = "Ak poskytnete kontaktné údaje, budú uložené pre budúce správy";
+"BraveShieldsSaveContactInfoDescription" = "Ak poskytnete kontaktné údaje, budú uložené pre budúce správy";
 
 /* No comment provided by engineer. */
-"iBroweShieldsSiteBroken" = "Ak sa táto stránka javí ako nefunkčná, skúste štíty vypnúť";
+"BraveShieldsSiteBroken" = "Ak sa táto stránka javí ako nefunkčná, skúste štíty vypnúť";
 
 /* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
-"iBroweShieldsStatusTitle" = "iBrowe štíty";
+"BraveShieldsStatusTitle" = "iBrowe štíty";
 
 /* Context: The 'Down' in 'iBrowe Shields Down' */
-"iBroweShieldsStatusValueDown" = "dolu";
+"BraveShieldsStatusValueDown" = "dolu";
 
 /* Context: The 'Up' in 'iBrowe Shields Up' */
-"iBroweShieldsStatusValueUp" = "Hore";
+"BraveShieldsStatusValueUp" = "Hore";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"iBroweShieldsToggleHint" = "Dvojitým klepnutím prepínate štíty iBrowe";
+"BraveShieldsToggleHint" = "Dvojitým klepnutím prepínate štíty iBrowe";
 
 /* The name of the feature */
-"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+"bravetalk.braveTalkTitle" = "iBrowe Talk";
 
 /* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
-"iBroweTranslate.languageSelectionButtonTitle" = "Vyberte jazyk";
+"BraveTranslate.languageSelectionButtonTitle" = "Vyberte jazyk";
 
 /* Title for a text element that lets the user know the page was translated successfully. */
-"iBroweTranslate.pageTranslatedTitle" = "Preložená stránka";
+"BraveTranslate.pageTranslatedTitle" = "Preložená stránka";
 
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
-"iBroweTranslate.searchInputTitle" = "Vyhľadávanie";
+"BraveTranslate.searchInputTitle" = "Vyhľadávanie";
 
 /* This text is for the settings menu for all iBrowe-Translate options. */
-"iBroweTranslate.settingsMenuTitle" = "Prekladač iBrowe";
+"BraveTranslate.settingsMenuTitle" = "Prekladač iBrowe";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
-"iBroweTranslate.settingsScreenTitle" = "Prekladač iBrowe";
+"BraveTranslate.settingsScreenTitle" = "Prekladač iBrowe";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Keď je táto funkcia zapnutá, Prekladač iBrowe automaticky zistí aktuálny jazyk vašej stránky a v paneli s URL adresou zobrazí tlačidlo na preklad.";
+"BraveTranslate.settingsTranslateEnabledOptionDescription" = "Keď je táto funkcia zapnutá, Prekladač iBrowe automaticky zistí aktuálny jazyk vašej stránky a v paneli s URL adresou zobrazí tlačidlo na preklad.";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Prekladač povolený";
+"BraveTranslate.settingsTranslateEnabledOptionTitle" = "Prekladač povolený";
 
 /* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
-"iBroweTranslate.translateFromToTitle" = "Komu";
+"BraveTranslate.translateFromToTitle" = "Komu";
 
 /* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
-"iBroweTranslate.unknownLanguageTitle" = "Neznámy jazyk";
+"BraveTranslate.unknownLanguageTitle" = "Neznámy jazyk";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Zámok prehliadača";
@@ -340,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Odvodiť";
 
-/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Komponent domény";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -1037,7 +1037,7 @@
 "nprRedirectFooter" = "Automaticky presmeruje odkazy NPR na ich textovú verziu (na text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.iBroweSupportFavoriteTitle" = "Podpora iBrowe";
+"ntp.braveSupportFavoriteTitle" = "Podpora iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Získať tokeny";
@@ -1090,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "Zapnutím odmien vyjadrujete súhlas s %@.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessage" = "Zarábajte tokeny a odmeňujte tvorcov za skvelý obsah počas prehliadania.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Počas prehliadania získavajte body a odmeňujte tvorcov za skvelý obsah.";
 
-/* Title when opting into iBrowe Ads when region becomes available */
+/* Title when opting into brave Ads when region becomes available */
 "OBAdsOptInTitle" = "Reklamy iBrowe sú tu!";
 
 /* Title for ads onboarding screen */
@@ -1235,7 +1235,7 @@
 "OpenAllBookmarks" = "Otvoriť všetko (%i)";
 
 /* Button title for opening the iBrowe Rewards panel to settings */
-"OpeniBroweRewardsSettings" = "Otvorte nastavenia Odmeny iBrowe";
+"OpenBraveRewardsSettings" = "Otvorte nastavenia Odmeny iBrowe";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Pri otváraní priečinka Stiahnuté súbory v aplikácii Súbory sa vyskytla neznáma chyba.";
@@ -1364,34 +1364,34 @@
 "OpenWebsite" = "Otvoriť webovú stránku";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.iBroweLeoItemDescription" = "Leo predstavuje inteligentného asistenta využívajúceho AI, ktorý je integrovaný priamo do prehliadača";
+"optionsMenu.braveLeoItemDescription" = "Leo predstavuje inteligentného asistenta využívajúceho AI, ktorý je integrovaný priamo do prehliadača";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.iBroweNewsItemDescription" = "Dnešné top príbehy v súkromnom kanáli";
+"optionsMenu.braveNewsItemDescription" = "Dnešné top príbehy v súkromnom kanáli";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBroweNewsItemTitle" = "News";
+"optionsMenu.braveNewsItemTitle" = "News";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.iBrowePlaylistItemDescription" = "Uchovávajte si offline zoznam videí alebo streamov";
+"optionsMenu.bravePlaylistItemDescription" = "Uchovávajte si offline zoznam videí alebo streamov";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBrowePlaylistItemTitle" = "Zoznam";
+"optionsMenu.bravePlaylistItemTitle" = "Zoznam";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.iBroweTalkItemDescription" = "Súkromné ​​videohovory priamo vo vašom prehliadači";
+"optionsMenu.braveTalkItemDescription" = "Súkromné ​​videohovory priamo vo vašom prehliadači";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.iBroweTalkItemTitle" = "Hovoriť";
+"optionsMenu.braveTalkItemTitle" = "Hovoriť";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.iBroweVPNItemDescription" = "Chráňte celé svoje zariadenie online";
+"optionsMenu.braveVPNItemDescription" = "Chráňte celé svoje zariadenie online";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.iBroweVPNItemTitle" = "VPN";
+"optionsMenu.braveVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.iBroweWalletItemDescription" = "Bezpečná krypto peňaženka, nevyžaduje sa žiadne rozšírenie";
+"optionsMenu.braveWalletItemDescription" = "Bezpečná krypto peňaženka, nevyžaduje sa žiadne rozšírenie";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "Funkcie iBrowe";
@@ -1888,7 +1888,7 @@
 /* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Všetky upozornenia";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by iBroweVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Blokované používateľom";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -2036,7 +2036,7 @@
 "QuickSearchEngines" = "Rýchle vyhľadávače";
 
 /* Open the App Store to rate iBrowe. */
-"RateiBrowe" = "Ohodnotiť iBrowe";
+"RateBrave" = "Ohodnotiť iBrowe";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Zväčšiť veľkosť textu";
@@ -2197,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Odeslat";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "„%@“ chce získať prístup k fotoaparátu a mikrofónu";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraPermissionPrompt" = "„%@“ chce získať prístup k fotoaparátu";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Povoliť";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCaptureDevicePermissionPrompt" = "„%@“ chce získať prístup k zariadeniu na zachytávanie médií";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestMicrophonePermissionPrompt" = "„%@“ chce získať prístup k mikrofónu";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2231,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe bol nečakane zatvorený.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInBody" = "S odmenami iBrowe si môžete prezerať reklamy zo siete iBrowe, ktoré chránia súkromie. Žiadne sledovače. Žiadne spomalenia. A vaše dáta zostanú úplne v bezpečí.";
+"rewards.braveTalkRewardsOptInBody" = "S odmenami iBrowe si môžete prezerať reklamy zo siete iBrowe, ktoré chránia súkromie. Žiadne sledovače. Žiadne spomalenia. A vaše dáta zostanú úplne v bezpečí.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.iBroweTalkRewardsOptInButtonTitle" = "Zapnúť odmeny";
+"rewards.braveTalkRewardsOptInButtonTitle" = "Zapnúť odmeny";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessBody" = "Kliknite kamkoľvek na obrazovke a pokračujte na iBrowe Talk.";
+"rewards.braveTalkRewardsOptInSuccessBody" = "Kliknite kamkoľvek na obrazovke a pokračujte na iBrowe Talk.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Teraz môžete začať bezplatný hovor";
+"rewards.braveTalkRewardsOptInSuccessTitle" = "Teraz môžete začať bezplatný hovor";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInTitle" = "Ak chcete začať bezplatný hovor, zapnite iBrowe Rewards";
+"rewards.braveTalkRewardsOptInTitle" = "Ak chcete začať bezplatný hovor, zapnite iBrowe Rewards";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "Zapnite na podporu značky iBrowe a komunity BAT.";
@@ -2294,7 +2294,7 @@
 "RewardsInternalsContributionAmount" = "Výška daru";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessoriBroweTokens" = "Tokeny iBrowe";
+"RewardsInternalsContributionProcessorBraveTokens" = "Tokeny iBrowe";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Žiadne";
@@ -2549,7 +2549,7 @@
 "SearchSuggestionsSectionHeader" = "Návrhy vyhľadávania";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithiBrowe" = "Vyhľadávanie pomocou iBrowe";
+"SearchWithBrave" = "Vyhľadávanie pomocou iBrowe";
 
 /* Settings security section title */
 "Security" = "Bezpečnosť";
@@ -2606,7 +2606,7 @@
 "settings.media.rootSetting" = "Médiá";
 
 /* A toggle label which lets the user always open YouTube urls in iBrowe */
-"settings.openYouTubeIniBrowe" = "Otvoriť odkazy na YouTube v prehliadači iBrowe";
+"settings.openYouTubeInBrave" = "Otvoriť odkazy na YouTube v prehliadači iBrowe";
 
 /* No comment provided by engineer. */
 "settings.privacy.screenTimeSetting" = "Povoliť Čas pred obrazovkou";
@@ -2723,7 +2723,7 @@
 "ShortcutItemTitleQRCode" = "Skenovať QR kód";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeiBroweNewsDescription" = "Otvorte Správy iBrowe a pozrite si dnešné hlavné novinky";
+"shortcuts.activityTypeBraveNewsDescription" = "Otvorte Správy iBrowe a pozrite si dnešné hlavné novinky";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "Otvoriť prehliadač na novej karte a odstrániť všetky súkromné ​​údaje histórie prehliadača";
@@ -2765,10 +2765,10 @@
 "shortcuts.activityTypeOpenBookmarksTitle" = "Otvoriť záložky prehliadača iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweNewsTitle" = "Otvoriť Správy iBrowe";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "Otvoriť Správy iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweTodaySuggestedPhrase" = "Otvoriť Správy iBrowe";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Otvoriť Správy iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenHistoryListDescription" = "Otvorte obrazovku História prehliadača";
@@ -2834,10 +2834,10 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "Otvoriť Záložky";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "Pomocou skratiek otvorte novú kartu a zobrazte kanál Správy iBrowe cez Siri – hlasového asistenta";
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Pomocou skratiek otvorte novú kartu a zobrazte kanál Správy iBrowe cez Siri – hlasového asistenta";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "Otvoriť Správy iBrowe";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Otvoriť Správy iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "Pomocou skratiek otvorte obrazovku histórie prehliadača cez Siri – hlasového asistenta";
@@ -3383,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "Dostupné kanály RSS";
 
 /* The name of the feature */
-"today.iBroweToday" = "Novinky iBrowe";
+"today.braveToday" = "Novinky iBrowe";
 
 /* The name of the feature in settings */
-"today.iBroweToday.title" = "News";
+"today.braveToday.title" = "News";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Sledujte témy, ktoré vás zaujímajú";
@@ -3442,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Sledovať";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Získajte informačné kanály z";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3464,7 +3464,7 @@
 "today.learnMoreTitle" = "Získajte viac informácií o svojich údajoch";
 
 /* 'iBrowe Offers' is a product name */
-"today.moreiBroweOffers" = "Viac ponúk iBrowe";
+"today.moreBraveOffers" = "Viac ponúk iBrowe";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Žiadny internet";
@@ -3488,19 +3488,19 @@
 "today.promoted" = "Propagovaný";
 
 /* Title for long press action sheet list which has item for rate / hide */
-"today.rateiBroweCardActionSheetTitle" = "Ohodnotiť iBrowe v obchode App Store";
+"today.rateBraveCardActionSheetTitle" = "Ohodnotiť iBrowe v obchode App Store";
 
 /* Title for long press action that will hide iBrowe Rate Card */
-"today.rateiBroweCardHideActionTitle" = "Skrýt";
+"today.rateBraveCardHideActionTitle" = "Skrýt";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
-"today.rateiBroweCardRateActionTitle" = "Ohodnotiť iBrowe";
+"today.rateBraveCardRateActionTitle" = "Ohodnotiť iBrowe";
 
 /* Subtitle shown on the Rate iBrowe Card */
-"today.rateiBroweCardSubtitle" = "Povedzte nám, čo si myslíte!";
+"today.rateBraveCardSubtitle" = "Povedzte nám, čo si myslíte!";
 
 /* Title shown on the Rate iBrowe Card */
-"today.rateiBroweCardTitle" = "Páči sa vám prehliadač iBrowe?";
+"today.rateBraveCardTitle" = "Páči sa vám prehliadač iBrowe?";
 
 /* No comment provided by engineer. */
 "today.refresh" = "Obnoviť";
@@ -3527,7 +3527,7 @@
 "today.suggestedTitle" = "Navrhované";
 
 /* No comment provided by engineer. */
-"today.turnOniBroweToday" = "Zapnúť novinky iBrowe";
+"today.turnOnBraveToday" = "Zapnúť novinky iBrowe";
 
 /* A toggle title shown next to a source or channel that the user can unfollow. When tapped switches to 'Follow' */
 "today.unfollowToggleTitle" = "Zrušiť sledovanie";

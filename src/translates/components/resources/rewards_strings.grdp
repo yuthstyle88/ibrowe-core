@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grit-part>
   <!-- Rewards Reset -->
-  <message name="IDS_iBrowe_UI_RESET" desc="">
+  <message name="IDS_BRAVE_UI_RESET" desc="">
     Reset
   </message>
-  <message name="IDS_iBrowe_UI_RESET_WALLET" desc="">
+  <message name="IDS_BRAVE_UI_RESET_WALLET" desc="">
     Reset iBrowe Rewards
   </message>
-  <message name="IDS_iBrowe_UI_REWARDS_RESET_TEXT" desc="">
+  <message name="IDS_BRAVE_UI_REWARDS_RESET_TEXT" desc="">
     By resetting, your current iBrowe Rewards profile will be deleted, and iBrowe Rewards will no longer be enabled. If you enable iBrowe Rewards again later, you will start with a new profile. Read our <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">$2</ph> for more details.
   </message>
-  <message name="IDS_iBrowe_UI_REWARDS_RESET_CONSENT" desc="">
+  <message name="IDS_BRAVE_UI_REWARDS_RESET_CONSENT" desc="">
     I understand that my current iBrowe Rewards profile and iBrowe Rewards data will be deleted from my device, and I've read the <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">$2</ph>.
   </message>
   <message name="IDS_REWARDS_RESET_REWARDS_BUTTON_LABEL" desc="">
@@ -122,7 +122,7 @@
   <message name="IDS_REWARDS_WIDGET_ABOUT_REWARDS" desc="">
     Using iBrowe Rewards helps support content creators, and lets you earn BAT.
   </message>
-  <message name="IDS_REWARDS_WIDGET_iBrowe_REWARDS" desc="">
+  <message name="IDS_REWARDS_WIDGET_BRAVE_REWARDS" desc="">
     Rewards
   </message>
   <message name="IDS_REWARDS_WIDGET_CONTINUE" desc="">
@@ -285,64 +285,64 @@
   </message>
 
   <!-- Rewards onboarding tour -->
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_CLOSE" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_CLOSE" desc="">
     Close
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_DONE" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_DONE" desc="">
     Done
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_CONTINUE" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_CONTINUE" desc="">
     Continue
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_EARN_HEADER" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_EARN_HEADER" desc="">
     Earn tokens for private ads you see in iBrowe
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_EARN_TEXT" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_EARN_TEXT" desc="">
     Use tokens to buy gift cards, exchange for other currencies, support content creators, and more.
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_HOW_DOES_IT_WORK" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_HOW_DOES_IT_WORK" desc="">
     How does it work?
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_ERROR_HEADER" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_HEADER" desc="">
     Something went wrong
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_ERROR_HEADER_DISABLED" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_HEADER_DISABLED" desc="">
     iBrowe Rewards not available
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_ERROR_TEXT" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_TEXT" desc="">
     Unfortunately, there was an error while trying to set up iBrowe Rewards. Please try again.
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_ERROR_TEXT_DECLARE_COUNTRY" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_TEXT_DECLARE_COUNTRY" desc="">
     Unfortunately, there was an error while trying to set your country. Please try again.
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_ERROR_TEXT_DISABLED" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_TEXT_DISABLED" desc="">
     New signups for iBrowe Rewards are currently disabled in your region. However, you can always try again later. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph>
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_GEO_HEADER" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_GEO_HEADER" desc="">
     Select your country
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_GEO_SUCCESS_HEADER" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_GEO_SUCCESS_HEADER" desc="">
     Woohoo! You’re all set!
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_GEO_SUCCESS_TEXT" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_GEO_SUCCESS_TEXT" desc="">
     Now you can get rewarded for viewing ads. You're helping make the web a better place for everyone. And that's awesome!
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_HOW_DOES_iBrowe_REWARDS_WORK" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_HOW_DOES_BRAVE_REWARDS_WORK" desc="">
     How does iBrowe Rewards work?
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_GEO_TEXT" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_GEO_TEXT" desc="">
     Select your country so we can show you the right options and ads for your region.
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_SELECT_COUNTRY" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_SELECT_COUNTRY" desc="">
     Select
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_START_USING_REWARDS" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_START_USING_REWARDS" desc="">
     Start using Rewards
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_START_USING_REWARDS_TEXT_ONLY" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_START_USING_REWARDS_TEXT_ONLY" desc="">
     Press the <ph name="BAT_ICON">$1</ph> BAT icon in the URL bar to start.
   </message>
-  <message name="IDS_iBrowe_REWARDS_ONBOARDING_TERMS" desc="">
+  <message name="IDS_BRAVE_REWARDS_ONBOARDING_TERMS" desc="">
     By proceeding, you agree to the <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Service<ph name="TOS_LINK_END">$2</ph> and <ph name="PP_LINK_BEGIN">$3</ph>Privacy Policy<ph name="PP_LINK_END">$4</ph>.
   </message>
   <message name="IDS_REWARDS_COUNTRY_SELECT_TITLE" desc="">
@@ -368,24 +368,24 @@
   </message>
 
   <!-- Rewards unsupported region notice -->
-  <message name="IDS_iBrowe_REWARDS_UNSUPPORTED_REGION_NOTICE_HEADER" desc="">
+  <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_HEADER" desc="">
     Sorry, iBrowe Rewards is not available
   </message>
-  <message name="IDS_iBrowe_REWARDS_UNSUPPORTED_REGION_NOTICE_SUBHEADER" desc="">
+  <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_SUBHEADER" desc="">
     Unfortunately, it looks like you’re in a region where iBrowe Rewards is not available.
   </message>
-  <message name="IDS_iBrowe_REWARDS_UNSUPPORTED_REGION_NOTICE_LEARN_MORE" desc="">
+  <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_LEARN_MORE" desc="">
     <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph>
   </message>
-  <message name="IDS_iBrowe_REWARDS_UNSUPPORTED_REGION_NOTICE_TEXT_1" desc="">
+  <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_TEXT_1" desc="">
     Don’t worry.
   </message>
-  <message name="IDS_iBrowe_REWARDS_UNSUPPORTED_REGION_NOTICE_TEXT_2" desc="">
+  <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_TEXT_2" desc="">
     You can still browse privately!
   </message>
 
   <!-- Rewards common strings -->
-  <message name="IDS_iBrowe_REWARDS_LOADING_LABEL" desc="">
+  <message name="IDS_BRAVE_REWARDS_LOADING_LABEL" desc="">
     Loading...
   </message>
   <message name="IDS_REWARDS_LEARN_MORE" desc="">
@@ -533,7 +533,7 @@
     Share your support
   </message>
   <message name="IDS_REWARDS_TIP_SHARE_TEXT" desc="">
-    I just contributed <ph name="AMOUNT">$1</ph> BAT using the iBrowe Browser! See how you can support your favorite creators and sites too: https://iBrowe.com/rewards
+    I just contributed <ph name="AMOUNT">$1</ph> BAT using the iBrowe Browser! See how you can support your favorite creators and sites too: https://brave.com/rewards
   </message>
   <message name="IDS_REWARDS_TIP_UNEXPECTED_ERROR_TITLE" desc="">
     An unexpected error has occurred
@@ -820,7 +820,7 @@
   </message>
 
   <message name="IDS_REWARDS_BENEFITS_STORE_SUBTEXT" desc="">
-    Use promo code iBroweREWARDS to get 10% off on all iBrowe merch store items.
+    Use promo code BRAVEREWARDS to get 10% off on all iBrowe merch store items.
   </message>
   <message name="IDS_REWARDS_BENEFITS_STORE_TEXT" desc="">
     iBrowe merch store

@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "仅支持 %@ 扩展密钥。";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.iBroweFeeLabel" = "iBrowe 费用： %@";
+"wallet.braveFeeLabel" = "iBrowe 费用： %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.iBroweSwapFeeDisclaimer" = "报价含 %@ iBrowe 费用。";
+"wallet.braveSwapFeeDisclaimer" = "报价含 %@ iBrowe 费用。";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.iBroweSwapFree" = "免费";
+"wallet.braveSwapFree" = "免费";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "比特币";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "提供";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "正在请求您的钱包的公共加密密钥。如果您同意，本站点就能编写要发送给您的加密消息。";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1294,8 +1294,8 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "重新输入密码";
 
-/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
-"wallet.restoreLegacyiBroweWalletToggleTitle" = "从旧版 iBrowe 加密钱包导入？";
+/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+"wallet.restoreLegacyBraveWalletToggleTitle" = "从旧版 iBrowe 加密钱包导入？";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "还原钱包";
@@ -1304,10 +1304,10 @@
 "wallet.restoreWalletButtonTitle" = "恢复";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
-"wallet.restoreWalletImportFromLegacyiBroweWallet" = "我有一个 24 字的恢复密语";
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "我有一个 24 字的恢复密语";
 
 /* A button title when 24 recovery-word grids are displayed for users to restore legacy wallet. Users can click this button to display the 12 recovery-word grids to restore regular wallet. */
-"wallet.restoreWalletImportFromRegulariBroweWallet" = "我有一个 12 字的恢复短语";
+"wallet.restoreWalletImportFromRegularBraveWallet" = "我有一个 12 字的恢复短语";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "新密码";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "交易已完成簽署";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWallet" = "用 iBrowe 钱包登录";
+"wallet.signInWithBraveWallet" = "用 iBrowe 钱包登录";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWalletMessage" = "您正在登录 %1$@。iBrowe 钱包将与 %2$@ 共享您的钱包地址。";
+"wallet.signInWithBraveWalletMessage" = "您正在登录 %1$@。iBrowe 钱包将与 %2$@ 共享您的钱包地址。";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "偵測到連續的換行字元！";

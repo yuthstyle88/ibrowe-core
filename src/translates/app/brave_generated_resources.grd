@@ -2,180 +2,180 @@
 <grit base_dir="." latest_public_release="0" current_release="1"
       output_all_resource_defines="false" source_lang_id="en" enc_check="möl">
   <outputs>
-    <output filename="grit/iBrowe_generated_resources.h" type="rc_header">
+    <output filename="grit/brave_generated_resources.h" type="rc_header">
       <emit emit_type='prepend'></emit>
     </output>
-    <output filename="iBrowe_generated_resources.pak" type="data_package" />
-    <output filename="iBrowe_generated_resources_af.pak" type="data_package" lang="af" />
-    <output filename="iBrowe_generated_resources_am.pak" type="data_package" lang="am" />
-    <output filename="iBrowe_generated_resources_ar.pak" type="data_package" lang="ar" />
-    <output filename="iBrowe_generated_resources_as.pak" type="data_package" lang="as" />
-    <output filename="iBrowe_generated_resources_az.pak" type="data_package" lang="az" />
-    <output filename="iBrowe_generated_resources_be.pak" type="data_package" lang="be" />
-    <output filename="iBrowe_generated_resources_bg.pak" type="data_package" lang="bg" />
-    <output filename="iBrowe_generated_resources_bn.pak" type="data_package" lang="bn" />
-    <output filename="iBrowe_generated_resources_bs.pak" type="data_package" lang="bs" />
-    <output filename="iBrowe_generated_resources_ca.pak" type="data_package" lang="ca" />
-    <output filename="iBrowe_generated_resources_cs.pak" type="data_package" lang="cs" />
-    <output filename="iBrowe_generated_resources_cy.pak" type="data_package" lang="cy" />
-    <output filename="iBrowe_generated_resources_da.pak" type="data_package" lang="da" />
-    <output filename="iBrowe_generated_resources_de.pak" type="data_package" lang="de" />
-    <output filename="iBrowe_generated_resources_el.pak" type="data_package" lang="el" />
-    <output filename="iBrowe_generated_resources_en-GB.pak" type="data_package" lang="en-GB" />
-    <output filename="iBrowe_generated_resources_en-US.pak" type="data_package" lang="en" />
-    <output filename="iBrowe_generated_resources_es.pak" type="data_package" lang="es" />
+    <output filename="brave_generated_resources.pak" type="data_package" />
+    <output filename="brave_generated_resources_af.pak" type="data_package" lang="af" />
+    <output filename="brave_generated_resources_am.pak" type="data_package" lang="am" />
+    <output filename="brave_generated_resources_ar.pak" type="data_package" lang="ar" />
+    <output filename="brave_generated_resources_as.pak" type="data_package" lang="as" />
+    <output filename="brave_generated_resources_az.pak" type="data_package" lang="az" />
+    <output filename="brave_generated_resources_be.pak" type="data_package" lang="be" />
+    <output filename="brave_generated_resources_bg.pak" type="data_package" lang="bg" />
+    <output filename="brave_generated_resources_bn.pak" type="data_package" lang="bn" />
+    <output filename="brave_generated_resources_bs.pak" type="data_package" lang="bs" />
+    <output filename="brave_generated_resources_ca.pak" type="data_package" lang="ca" />
+    <output filename="brave_generated_resources_cs.pak" type="data_package" lang="cs" />
+    <output filename="brave_generated_resources_cy.pak" type="data_package" lang="cy" />
+    <output filename="brave_generated_resources_da.pak" type="data_package" lang="da" />
+    <output filename="brave_generated_resources_de.pak" type="data_package" lang="de" />
+    <output filename="brave_generated_resources_el.pak" type="data_package" lang="el" />
+    <output filename="brave_generated_resources_en-GB.pak" type="data_package" lang="en-GB" />
+    <output filename="brave_generated_resources_en-US.pak" type="data_package" lang="en" />
+    <output filename="brave_generated_resources_es.pak" type="data_package" lang="es" />
     <if expr="is_ios">
       <!-- iOS uses es-MX for es-419 -->
-      <output filename="iBrowe_generated_resources_es-MX.pak" type="data_package" lang="es-419" />
+      <output filename="brave_generated_resources_es-MX.pak" type="data_package" lang="es-419" />
     </if>
     <if expr="not is_ios">
-      <output filename="iBrowe_generated_resources_es-419.pak" type="data_package" lang="es-419" />
+      <output filename="brave_generated_resources_es-419.pak" type="data_package" lang="es-419" />
     </if>
-    <output filename="iBrowe_generated_resources_et.pak" type="data_package" lang="et" />
-    <output filename="iBrowe_generated_resources_eu.pak" type="data_package" lang="eu" />
-    <output filename="iBrowe_generated_resources_fa.pak" type="data_package" lang="fa" />
-    <output filename="iBrowe_generated_resources_fi.pak" type="data_package" lang="fi" />
-    <output filename="iBrowe_generated_resources_fil.pak" type="data_package" lang="fil" />
-    <output filename="iBrowe_generated_resources_fr.pak" type="data_package" lang="fr" />
-    <output filename="iBrowe_generated_resources_fr-CA.pak" type="data_package" lang="fr-CA" />
-    <output filename="iBrowe_generated_resources_gl.pak" type="data_package" lang="gl" />
-    <output filename="iBrowe_generated_resources_gu.pak" type="data_package" lang="gu" />
-    <output filename="iBrowe_generated_resources_he.pak" type="data_package" lang="he" />
-    <output filename="iBrowe_generated_resources_hi.pak" type="data_package" lang="hi" />
-    <output filename="iBrowe_generated_resources_hr.pak" type="data_package" lang="hr" />
-    <output filename="iBrowe_generated_resources_hu.pak" type="data_package" lang="hu" />
-    <output filename="iBrowe_generated_resources_hy.pak" type="data_package" lang="hy" />
-    <output filename="iBrowe_generated_resources_id.pak" type="data_package" lang="id" />
-    <output filename="iBrowe_generated_resources_it.pak" type="data_package" lang="it" />
-    <output filename="iBrowe_generated_resources_is.pak" type="data_package" lang="is" />
-    <output filename="iBrowe_generated_resources_ja.pak" type="data_package" lang="ja" />
-    <output filename="iBrowe_generated_resources_ka.pak" type="data_package" lang="ka" />
-    <output filename="iBrowe_generated_resources_kk.pak" type="data_package" lang="kk" />
-    <output filename="iBrowe_generated_resources_km.pak" type="data_package" lang="km" />
-    <output filename="iBrowe_generated_resources_kn.pak" type="data_package" lang="kn" />
-    <output filename="iBrowe_generated_resources_ko.pak" type="data_package" lang="ko" />
-    <output filename="iBrowe_generated_resources_ky.pak" type="data_package" lang="ky" />
-    <output filename="iBrowe_generated_resources_lo.pak" type="data_package" lang="lo" />
-    <output filename="iBrowe_generated_resources_lt.pak" type="data_package" lang="lt" />
-    <output filename="iBrowe_generated_resources_lv.pak" type="data_package" lang="lv" />
-    <output filename="iBrowe_generated_resources_mk.pak" type="data_package" lang="mk" />
-    <output filename="iBrowe_generated_resources_ml.pak" type="data_package" lang="ml" />
-    <output filename="iBrowe_generated_resources_mn.pak" type="data_package" lang="mn" />
-    <output filename="iBrowe_generated_resources_mr.pak" type="data_package" lang="mr" />
-    <output filename="iBrowe_generated_resources_ms.pak" type="data_package" lang="ms" />
-    <output filename="iBrowe_generated_resources_my.pak" type="data_package" lang="my" />
-    <output filename="iBrowe_generated_resources_ne.pak" type="data_package" lang="ne" />
-    <output filename="iBrowe_generated_resources_nl.pak" type="data_package" lang="nl" />
+    <output filename="brave_generated_resources_et.pak" type="data_package" lang="et" />
+    <output filename="brave_generated_resources_eu.pak" type="data_package" lang="eu" />
+    <output filename="brave_generated_resources_fa.pak" type="data_package" lang="fa" />
+    <output filename="brave_generated_resources_fi.pak" type="data_package" lang="fi" />
+    <output filename="brave_generated_resources_fil.pak" type="data_package" lang="fil" />
+    <output filename="brave_generated_resources_fr.pak" type="data_package" lang="fr" />
+    <output filename="brave_generated_resources_fr-CA.pak" type="data_package" lang="fr-CA" />
+    <output filename="brave_generated_resources_gl.pak" type="data_package" lang="gl" />
+    <output filename="brave_generated_resources_gu.pak" type="data_package" lang="gu" />
+    <output filename="brave_generated_resources_he.pak" type="data_package" lang="he" />
+    <output filename="brave_generated_resources_hi.pak" type="data_package" lang="hi" />
+    <output filename="brave_generated_resources_hr.pak" type="data_package" lang="hr" />
+    <output filename="brave_generated_resources_hu.pak" type="data_package" lang="hu" />
+    <output filename="brave_generated_resources_hy.pak" type="data_package" lang="hy" />
+    <output filename="brave_generated_resources_id.pak" type="data_package" lang="id" />
+    <output filename="brave_generated_resources_it.pak" type="data_package" lang="it" />
+    <output filename="brave_generated_resources_is.pak" type="data_package" lang="is" />
+    <output filename="brave_generated_resources_ja.pak" type="data_package" lang="ja" />
+    <output filename="brave_generated_resources_ka.pak" type="data_package" lang="ka" />
+    <output filename="brave_generated_resources_kk.pak" type="data_package" lang="kk" />
+    <output filename="brave_generated_resources_km.pak" type="data_package" lang="km" />
+    <output filename="brave_generated_resources_kn.pak" type="data_package" lang="kn" />
+    <output filename="brave_generated_resources_ko.pak" type="data_package" lang="ko" />
+    <output filename="brave_generated_resources_ky.pak" type="data_package" lang="ky" />
+    <output filename="brave_generated_resources_lo.pak" type="data_package" lang="lo" />
+    <output filename="brave_generated_resources_lt.pak" type="data_package" lang="lt" />
+    <output filename="brave_generated_resources_lv.pak" type="data_package" lang="lv" />
+    <output filename="brave_generated_resources_mk.pak" type="data_package" lang="mk" />
+    <output filename="brave_generated_resources_ml.pak" type="data_package" lang="ml" />
+    <output filename="brave_generated_resources_mn.pak" type="data_package" lang="mn" />
+    <output filename="brave_generated_resources_mr.pak" type="data_package" lang="mr" />
+    <output filename="brave_generated_resources_ms.pak" type="data_package" lang="ms" />
+    <output filename="brave_generated_resources_my.pak" type="data_package" lang="my" />
+    <output filename="brave_generated_resources_ne.pak" type="data_package" lang="ne" />
+    <output filename="brave_generated_resources_nl.pak" type="data_package" lang="nl" />
     <!-- The translation console uses 'no' for Norwegian Bokmål. It should
          be 'nb'. -->
-    <output filename="iBrowe_generated_resources_nb.pak" type="data_package" lang="no" />
-    <output filename="iBrowe_generated_resources_or.pak" type="data_package" lang="or" />
-    <output filename="iBrowe_generated_resources_pa.pak" type="data_package" lang="pa" />
-    <output filename="iBrowe_generated_resources_pl.pak" type="data_package" lang="pl" />
-    <output filename="iBrowe_generated_resources_pt-BR.pak" type="data_package" lang="pt-BR" />
-    <output filename="iBrowe_generated_resources_pt-PT.pak" type="data_package" lang="pt-PT" />
-    <output filename="iBrowe_generated_resources_ro.pak" type="data_package" lang="ro" />
-    <output filename="iBrowe_generated_resources_ru.pak" type="data_package" lang="ru" />
-    <output filename="iBrowe_generated_resources_si.pak" type="data_package" lang="si" />
-    <output filename="iBrowe_generated_resources_sk.pak" type="data_package" lang="sk" />
-    <output filename="iBrowe_generated_resources_sl.pak" type="data_package" lang="sl" />
-    <output filename="iBrowe_generated_resources_sq.pak" type="data_package" lang="sq" />
-    <output filename="iBrowe_generated_resources_sr.pak" type="data_package" lang="sr" />
-    <output filename="iBrowe_generated_resources_sr-Latn.pak" type="data_package" lang="sr-Latn" />
-    <output filename="iBrowe_generated_resources_sv.pak" type="data_package" lang="sv" />
-    <output filename="iBrowe_generated_resources_sw.pak" type="data_package" lang="sw" />
-    <output filename="iBrowe_generated_resources_ta.pak" type="data_package" lang="ta" />
-    <output filename="iBrowe_generated_resources_te.pak" type="data_package" lang="te" />
-    <output filename="iBrowe_generated_resources_th.pak" type="data_package" lang="th" />
-    <output filename="iBrowe_generated_resources_tr.pak" type="data_package" lang="tr" />
-    <output filename="iBrowe_generated_resources_uk.pak" type="data_package" lang="uk" />
-    <output filename="iBrowe_generated_resources_ur.pak" type="data_package" lang="ur" />
-    <output filename="iBrowe_generated_resources_uz.pak" type="data_package" lang="uz" />
-    <output filename="iBrowe_generated_resources_vi.pak" type="data_package" lang="vi" />
-    <output filename="iBrowe_generated_resources_zh-CN.pak" type="data_package" lang="zh-CN" />
-    <output filename="iBrowe_generated_resources_zh-HK.pak" type="data_package" lang="zh-HK" />
-    <output filename="iBrowe_generated_resources_zh-TW.pak" type="data_package" lang="zh-TW" />
-    <output filename="iBrowe_generated_resources_zu.pak" type="data_package" lang="zu" />
+    <output filename="brave_generated_resources_nb.pak" type="data_package" lang="no" />
+    <output filename="brave_generated_resources_or.pak" type="data_package" lang="or" />
+    <output filename="brave_generated_resources_pa.pak" type="data_package" lang="pa" />
+    <output filename="brave_generated_resources_pl.pak" type="data_package" lang="pl" />
+    <output filename="brave_generated_resources_pt-BR.pak" type="data_package" lang="pt-BR" />
+    <output filename="brave_generated_resources_pt-PT.pak" type="data_package" lang="pt-PT" />
+    <output filename="brave_generated_resources_ro.pak" type="data_package" lang="ro" />
+    <output filename="brave_generated_resources_ru.pak" type="data_package" lang="ru" />
+    <output filename="brave_generated_resources_si.pak" type="data_package" lang="si" />
+    <output filename="brave_generated_resources_sk.pak" type="data_package" lang="sk" />
+    <output filename="brave_generated_resources_sl.pak" type="data_package" lang="sl" />
+    <output filename="brave_generated_resources_sq.pak" type="data_package" lang="sq" />
+    <output filename="brave_generated_resources_sr.pak" type="data_package" lang="sr" />
+    <output filename="brave_generated_resources_sr-Latn.pak" type="data_package" lang="sr-Latn" />
+    <output filename="brave_generated_resources_sv.pak" type="data_package" lang="sv" />
+    <output filename="brave_generated_resources_sw.pak" type="data_package" lang="sw" />
+    <output filename="brave_generated_resources_ta.pak" type="data_package" lang="ta" />
+    <output filename="brave_generated_resources_te.pak" type="data_package" lang="te" />
+    <output filename="brave_generated_resources_th.pak" type="data_package" lang="th" />
+    <output filename="brave_generated_resources_tr.pak" type="data_package" lang="tr" />
+    <output filename="brave_generated_resources_uk.pak" type="data_package" lang="uk" />
+    <output filename="brave_generated_resources_ur.pak" type="data_package" lang="ur" />
+    <output filename="brave_generated_resources_uz.pak" type="data_package" lang="uz" />
+    <output filename="brave_generated_resources_vi.pak" type="data_package" lang="vi" />
+    <output filename="brave_generated_resources_zh-CN.pak" type="data_package" lang="zh-CN" />
+    <output filename="brave_generated_resources_zh-HK.pak" type="data_package" lang="zh-HK" />
+    <output filename="brave_generated_resources_zh-TW.pak" type="data_package" lang="zh-TW" />
+    <output filename="brave_generated_resources_zu.pak" type="data_package" lang="zu" />
     <!-- Pseudolocales -->
-    <output filename="iBrowe_generated_resources_ar-XB.pak" type="data_package" lang="ar-XB" />
-    <output filename="iBrowe_generated_resources_en-XA.pak" type="data_package" lang="en-XA" />
+    <output filename="brave_generated_resources_ar-XB.pak" type="data_package" lang="ar-XB" />
+    <output filename="brave_generated_resources_en-XA.pak" type="data_package" lang="en-XA" />
   </outputs>
   <translations>
-    <file path="resources/iBrowe_generated_resources_am.xtb" lang="am" />
-    <file path="resources/iBrowe_generated_resources_ar.xtb" lang="ar" />
-    <file path="resources/iBrowe_generated_resources_az.xtb" lang="az" />
-    <file path="resources/iBrowe_generated_resources_bg.xtb" lang="bg" />
-    <file path="resources/iBrowe_generated_resources_bn.xtb" lang="bn" />
-    <file path="resources/iBrowe_generated_resources_ca.xtb" lang="ca" />
-    <file path="resources/iBrowe_generated_resources_cs.xtb" lang="cs" />
-    <file path="resources/iBrowe_generated_resources_da.xtb" lang="da" />
-    <file path="resources/iBrowe_generated_resources_de.xtb" lang="de" />
-    <file path="resources/iBrowe_generated_resources_el.xtb" lang="el" />
-    <file path="resources/iBrowe_generated_resources_en-GB.xtb" lang="en-GB" />
-    <file path="resources/iBrowe_generated_resources_es.xtb" lang="es" />
-    <file path="resources/iBrowe_generated_resources_es-419.xtb" lang="es-419" />
-    <file path="resources/iBrowe_generated_resources_et.xtb" lang="et" />
-    <file path="resources/iBrowe_generated_resources_fa.xtb" lang="fa" />
-    <file path="resources/iBrowe_generated_resources_fi.xtb" lang="fi" />
-    <file path="resources/iBrowe_generated_resources_fil.xtb" lang="fil" />
-    <file path="resources/iBrowe_generated_resources_fr.xtb" lang="fr" />
-    <file path="resources/iBrowe_generated_resources_fr-CA.xtb" lang="fr-CA" />
-    <file path="resources/iBrowe_generated_resources_gl.xtb" lang="gl" />
-    <file path="resources/iBrowe_generated_resources_gu.xtb" lang="gu" />
-    <file path="resources/iBrowe_generated_resources_hi.xtb" lang="hi" />
-    <file path="resources/iBrowe_generated_resources_hr.xtb" lang="hr" />
-    <file path="resources/iBrowe_generated_resources_hu.xtb" lang="hu" />
-    <file path="resources/iBrowe_generated_resources_id.xtb" lang="id" />
-    <file path="resources/iBrowe_generated_resources_it.xtb" lang="it" />
+    <file path="resources/brave_generated_resources_am.xtb" lang="am" />
+    <file path="resources/brave_generated_resources_ar.xtb" lang="ar" />
+    <file path="resources/brave_generated_resources_az.xtb" lang="az" />
+    <file path="resources/brave_generated_resources_bg.xtb" lang="bg" />
+    <file path="resources/brave_generated_resources_bn.xtb" lang="bn" />
+    <file path="resources/brave_generated_resources_ca.xtb" lang="ca" />
+    <file path="resources/brave_generated_resources_cs.xtb" lang="cs" />
+    <file path="resources/brave_generated_resources_da.xtb" lang="da" />
+    <file path="resources/brave_generated_resources_de.xtb" lang="de" />
+    <file path="resources/brave_generated_resources_el.xtb" lang="el" />
+    <file path="resources/brave_generated_resources_en-GB.xtb" lang="en-GB" />
+    <file path="resources/brave_generated_resources_es.xtb" lang="es" />
+    <file path="resources/brave_generated_resources_es-419.xtb" lang="es-419" />
+    <file path="resources/brave_generated_resources_et.xtb" lang="et" />
+    <file path="resources/brave_generated_resources_fa.xtb" lang="fa" />
+    <file path="resources/brave_generated_resources_fi.xtb" lang="fi" />
+    <file path="resources/brave_generated_resources_fil.xtb" lang="fil" />
+    <file path="resources/brave_generated_resources_fr.xtb" lang="fr" />
+    <file path="resources/brave_generated_resources_fr-CA.xtb" lang="fr-CA" />
+    <file path="resources/brave_generated_resources_gl.xtb" lang="gl" />
+    <file path="resources/brave_generated_resources_gu.xtb" lang="gu" />
+    <file path="resources/brave_generated_resources_hi.xtb" lang="hi" />
+    <file path="resources/brave_generated_resources_hr.xtb" lang="hr" />
+    <file path="resources/brave_generated_resources_hu.xtb" lang="hu" />
+    <file path="resources/brave_generated_resources_id.xtb" lang="id" />
+    <file path="resources/brave_generated_resources_it.xtb" lang="it" />
     <!-- The translation console uses 'iw' for Hebrew, but we use 'he'. -->
-    <file path="resources/iBrowe_generated_resources_iw.xtb" lang="he" />
-    <file path="resources/iBrowe_generated_resources_ja.xtb" lang="ja" />
-    <file path="resources/iBrowe_generated_resources_ka.xtb" lang="ka" />
-    <file path="resources/iBrowe_generated_resources_km.xtb" lang="km" />
-    <file path="resources/iBrowe_generated_resources_kn.xtb" lang="kn" />
-    <file path="resources/iBrowe_generated_resources_ko.xtb" lang="ko" />
-    <file path="resources/iBrowe_generated_resources_lt.xtb" lang="lt" />
-    <file path="resources/iBrowe_generated_resources_lv.xtb" lang="lv" />
-    <file path="resources/iBrowe_generated_resources_mk.xtb" lang="mk" />
-    <file path="resources/iBrowe_generated_resources_ml.xtb" lang="ml" />
-    <file path="resources/iBrowe_generated_resources_mn.xtb" lang="mn" />
-    <file path="resources/iBrowe_generated_resources_mr.xtb" lang="mr" />
-    <file path="resources/iBrowe_generated_resources_ms.xtb" lang="ms" />
-    <file path="resources/iBrowe_generated_resources_my.xtb" lang="my" />
-    <file path="resources/iBrowe_generated_resources_nl.xtb" lang="nl" />
-    <file path="resources/iBrowe_generated_resources_no.xtb" lang="no" />
-    <file path="resources/iBrowe_generated_resources_pl.xtb" lang="pl" />
-    <file path="resources/iBrowe_generated_resources_pt-BR.xtb" lang="pt-BR" />
-    <file path="resources/iBrowe_generated_resources_pt-PT.xtb" lang="pt-PT" />
-    <file path="resources/iBrowe_generated_resources_ro.xtb" lang="ro" />
-    <file path="resources/iBrowe_generated_resources_ru.xtb" lang="ru" />
-    <file path="resources/iBrowe_generated_resources_si.xtb" lang="si" />
-    <file path="resources/iBrowe_generated_resources_sk.xtb" lang="sk" />
-    <file path="resources/iBrowe_generated_resources_sl.xtb" lang="sl" />
-    <file path="resources/iBrowe_generated_resources_sq.xtb" lang="sq" />
-    <file path="resources/iBrowe_generated_resources_sr.xtb" lang="sr" />
-    <file path="resources/iBrowe_generated_resources_sr-Latn.xtb" lang="sr-Latn" />
-    <file path="resources/iBrowe_generated_resources_sv.xtb" lang="sv" />
-    <file path="resources/iBrowe_generated_resources_sw.xtb" lang="sw" />
-    <file path="resources/iBrowe_generated_resources_ta.xtb" lang="ta" />
-    <file path="resources/iBrowe_generated_resources_te.xtb" lang="te" />
-    <file path="resources/iBrowe_generated_resources_th.xtb" lang="th" />
-    <file path="resources/iBrowe_generated_resources_tr.xtb" lang="tr" />
-    <file path="resources/iBrowe_generated_resources_uk.xtb" lang="uk" />
-    <file path="resources/iBrowe_generated_resources_uz.xtb" lang="uz" />
-    <file path="resources/iBrowe_generated_resources_vi.xtb" lang="vi" />
-    <file path="resources/iBrowe_generated_resources_zh-CN.xtb" lang="zh-CN" />
-    <file path="resources/iBrowe_generated_resources_zh-TW.xtb" lang="zh-TW" />
+    <file path="resources/brave_generated_resources_iw.xtb" lang="he" />
+    <file path="resources/brave_generated_resources_ja.xtb" lang="ja" />
+    <file path="resources/brave_generated_resources_ka.xtb" lang="ka" />
+    <file path="resources/brave_generated_resources_km.xtb" lang="km" />
+    <file path="resources/brave_generated_resources_kn.xtb" lang="kn" />
+    <file path="resources/brave_generated_resources_ko.xtb" lang="ko" />
+    <file path="resources/brave_generated_resources_lt.xtb" lang="lt" />
+    <file path="resources/brave_generated_resources_lv.xtb" lang="lv" />
+    <file path="resources/brave_generated_resources_mk.xtb" lang="mk" />
+    <file path="resources/brave_generated_resources_ml.xtb" lang="ml" />
+    <file path="resources/brave_generated_resources_mn.xtb" lang="mn" />
+    <file path="resources/brave_generated_resources_mr.xtb" lang="mr" />
+    <file path="resources/brave_generated_resources_ms.xtb" lang="ms" />
+    <file path="resources/brave_generated_resources_my.xtb" lang="my" />
+    <file path="resources/brave_generated_resources_nl.xtb" lang="nl" />
+    <file path="resources/brave_generated_resources_no.xtb" lang="no" />
+    <file path="resources/brave_generated_resources_pl.xtb" lang="pl" />
+    <file path="resources/brave_generated_resources_pt-BR.xtb" lang="pt-BR" />
+    <file path="resources/brave_generated_resources_pt-PT.xtb" lang="pt-PT" />
+    <file path="resources/brave_generated_resources_ro.xtb" lang="ro" />
+    <file path="resources/brave_generated_resources_ru.xtb" lang="ru" />
+    <file path="resources/brave_generated_resources_si.xtb" lang="si" />
+    <file path="resources/brave_generated_resources_sk.xtb" lang="sk" />
+    <file path="resources/brave_generated_resources_sl.xtb" lang="sl" />
+    <file path="resources/brave_generated_resources_sq.xtb" lang="sq" />
+    <file path="resources/brave_generated_resources_sr.xtb" lang="sr" />
+    <file path="resources/brave_generated_resources_sr-Latn.xtb" lang="sr-Latn" />
+    <file path="resources/brave_generated_resources_sv.xtb" lang="sv" />
+    <file path="resources/brave_generated_resources_sw.xtb" lang="sw" />
+    <file path="resources/brave_generated_resources_ta.xtb" lang="ta" />
+    <file path="resources/brave_generated_resources_te.xtb" lang="te" />
+    <file path="resources/brave_generated_resources_th.xtb" lang="th" />
+    <file path="resources/brave_generated_resources_tr.xtb" lang="tr" />
+    <file path="resources/brave_generated_resources_uk.xtb" lang="uk" />
+    <file path="resources/brave_generated_resources_uz.xtb" lang="uz" />
+    <file path="resources/brave_generated_resources_vi.xtb" lang="vi" />
+    <file path="resources/brave_generated_resources_zh-CN.xtb" lang="zh-CN" />
+    <file path="resources/brave_generated_resources_zh-TW.xtb" lang="zh-TW" />
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
       <!-- iBrowe Settings WebUI strings -->
-      <part file="iBrowe_settings_strings.grdp" />
+      <part file="brave_settings_strings.grdp" />
 
       <!--Add new items to the appropriate sections below -->
 
       <!-- App Menu -->
-      <message name="IDS_SHOW_iBrowe_REWARDS" desc="The show iBrowe Rewards menu in the app menu">
+      <message name="IDS_SHOW_BRAVE_REWARDS" desc="The show iBrowe Rewards menu in the app menu">
         iBrowe Rewards
       </message>
       <message name="IDS_BOOKMAR_BAR_MENU_SHOW_ALWAYS" desc="The name of the context menu item to always show bookmark bar">
@@ -198,10 +198,10 @@
         Copy clean link
       </message>
       <if expr="use_titlecase">
-        <message name="IDS_iBrowe_NEW_INCOGNITO_WINDOW" desc="The text label of a menu item for opening a new Private window">
+        <message name="IDS_BRAVE_NEW_INCOGNITO_WINDOW" desc="The text label of a menu item for opening a new Private window">
           New &amp;Private Window
         </message>
-        <message name="IDS_SHOW_iBrowe_WEBCOMPAT_REPORTER" desc="The menu item to report a broken site in the app menu">
+        <message name="IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER" desc="The menu item to report a broken site in the app menu">
           Report a Broken Site
         </message>
         <message name="IDS_COPY_CLEAN_LINK" desc="The name of the context menu item to copy clean link">
@@ -212,10 +212,10 @@
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_iBrowe_NEW_INCOGNITO_WINDOW" desc="The text label of a menu item for opening a new Private window">
+        <message name="IDS_BRAVE_NEW_INCOGNITO_WINDOW" desc="The text label of a menu item for opening a new Private window">
           New &amp;private window
         </message>
-        <message name="IDS_SHOW_iBrowe_WEBCOMPAT_REPORTER" desc="The menu item to report a broken site in the app menu">
+        <message name="IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER" desc="The menu item to report a broken site in the app menu">
           Report a broken site
         </message>
         <message name="IDS_COPY_CLEAN_LINK" desc="The name of the context menu item to copy clean link">
@@ -225,10 +225,10 @@
            Only on the new tab page
         </message>
       </if>
-      <message name="IDS_SHOW_iBrowe_SYNC" desc="The show iBrowe sync menu in the app menu">
+      <message name="IDS_SHOW_BRAVE_SYNC" desc="The show brave sync menu in the app menu">
         Sync
       </message>
-      <message name="IDS_SHOW_iBrowe_WALLET" desc="The show iBrowe Wallet menu item (app menu)">
+      <message name="IDS_SHOW_BRAVE_WALLET" desc="The show iBrowe Wallet menu item (app menu)">
         Wallet
       </message>
       <message name="IDS_TOGGLE_AI_CHAT" desc="The show iBrowe Leo AI Chat menu item (app menu)">
@@ -262,15 +262,15 @@
       </message>
       <message name="IDS_WIDEVINE_PERMISSIONS_BUBBLE_FOOTNOTE_TEXT" desc="Message shown on the bottom of the widevine permissions bubble.">
         <ph name="LEARN_MORE_ABOUT_WIDEVINE">$1<ex>Learn more about Widevine</ex></ph>.
-Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/extensions</ex></ph>.
+Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/extensions</ex></ph>.
       </message>
       <message name="IDS_WIDEVINE_PERMISSIONS_BUBBLE_LEARN_MORE" desc="Message shown on the bottom of the widevine permissions bubble.">
         Learn more about Widevine
       </message>
       <message name="IDS_PERMISSIONS_BUBBLE_SETTINGS_EXTENSIONS_LINK" desc="Settings extenions link in the widevine permission bubble footnote description." translateable="false">
-        iBrowe://settings/extensions
+        brave://settings/extensions
       </message>
-      <message name="IDS_iBrowe_PERMISSIONS_BUBBLE_PROMPT" desc="The label that is used to introduce permission request details to the user in a popup.">
+      <message name="IDS_BRAVE_PERMISSIONS_BUBBLE_PROMPT" desc="The label that is used to introduce permission request details to the user in a popup.">
         <ph name="SITE_NAME">$1<ex>google.com</ex></ph> is asking you to
       </message>
 
@@ -296,7 +296,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- Tor -->
-      <message name="IDS_iBrowe_TOR_SETTINGS_SECTION" desc="Open Tor settings section">
+      <message name="IDS_BRAVE_TOR_SETTINGS_SECTION" desc="Open Tor settings section">
         Tor windows
       </message>
       <message name="IDS_NEW_TOR_IDENTITY" desc="The text label of a menu item for requesting new Tor identity">
@@ -337,22 +337,22 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- Sync Infobars -->
-      <message name="IDS_iBrowe_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_iBrowe_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
         This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,<ph name="LINK_TEXT">$1<ex>re-create the account</ex></ph>
       </message>
-      <message name="IDS_iBrowe_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_iBrowe_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
         <ph name="INFOBAR_TEXT">$1<ex>This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,</ex></ph>re-create the account
       </message>
-      <message name="IDS_iBrowe_SYNC_ACCOUNT_DELETED_INFOBAR_BUTTON" desc="Button text shown to users who's Sync account was disabled. This button prevents further show of the infobar.">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_BUTTON" desc="Button text shown to users who's Sync account was disabled. This button prevents further show of the infobar.">
         OK
       </message>
-      <message name="IDS_iBrowe_SYNC_CANNOT_RUN_INFOBAR_MESSAGE" desc="Message text shown to users when Sync service cannot run and additional attention is required">
+      <message name="IDS_BRAVE_SYNC_CANNOT_RUN_INFOBAR_MESSAGE" desc="Message text shown to users when Sync service cannot run and additional attention is required">
         Sync service could not be started, iBrowe Sync is not running
       </message>
-      <message name="IDS_iBrowe_SYNC_CANNOT_RUN_INFOBAR_DONT_SHOW_BUTTON" desc="Button text on Sync is not running informer. This button makes the informer fo not appear again">
+      <message name="IDS_BRAVE_SYNC_CANNOT_RUN_INFOBAR_DONT_SHOW_BUTTON" desc="Button text on Sync is not running informer. This button makes the informer fo not appear again">
         Don't show again
       </message>
-      <message name="IDS_iBrowe_SYNC_CANNOT_RUN_INFOBAR_CHECK_DETAILS_BUTTON" desc="Button text on Sync is not running informer. This button opens Sync settings">
+      <message name="IDS_BRAVE_SYNC_CANNOT_RUN_INFOBAR_CHECK_DETAILS_BUTTON" desc="Button text on Sync is not running informer. This button opens Sync settings">
         Check details
       </message>
 
@@ -415,35 +415,35 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
 
       <!-- iBrowe Rewards Extension -->
       <if expr="use_titlecase">
-        <message name="IDS_HIDE_iBrowe_REWARDS_ACTION_ICON" desc="The menu item to hide the iBrowe Rewards icon on the location bar">
+        <message name="IDS_HIDE_BRAVE_REWARDS_ACTION_ICON" desc="The menu item to hide the iBrowe Rewards icon on the location bar">
           Hide iBrowe Rewards Icon
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_HIDE_iBrowe_REWARDS_ACTION_ICON" desc="The menu item to hide the iBrowe Rewards icon on the location bar">
+        <message name="IDS_HIDE_BRAVE_REWARDS_ACTION_ICON" desc="The menu item to hide the iBrowe Rewards icon on the location bar">
           Hide iBrowe Rewards icon
         </message>
       </if>
 
       <!-- iBrowe Wallet Extension -->
       <if expr="use_titlecase">
-        <message name="IDS_HIDE_iBrowe_WALLET_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe Wallet icon on the toolbar">
+        <message name="IDS_HIDE_BRAVE_WALLET_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe Wallet icon on the toolbar">
           Hide iBrowe Wallet Icon
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_HIDE_iBrowe_WALLET_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe Wallet icon on the toolbar">
+        <message name="IDS_HIDE_BRAVE_WALLET_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe Wallet icon on the toolbar">
           Hide iBrowe Wallet icon
         </message>
       </if>
 
       <if expr="use_titlecase">
-        <message name="IDS_HIDE_iBrowe_AI_CHAT_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe AI Chat icon on the toolbar">
+        <message name="IDS_HIDE_BRAVE_AI_CHAT_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe AI Chat icon on the toolbar">
           Hide Leo AI Icon
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_HIDE_iBrowe_AI_CHAT_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe AI Chat icon on the toolbar">
+        <message name="IDS_HIDE_BRAVE_AI_CHAT_ICON_ON_TOOLBAR" desc="The description for hiding the iBrowe AI Chat icon on the toolbar">
           Hide Leo AI icon
         </message>
       </if>
@@ -452,37 +452,37 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- Extensions page strings -->
-      <message name="IDS_EXTENSIONS_iBrowe_ITEM_SOURCE_WEBSTORE" desc="The text to indicate that an extension is from the Web Extensions Store.">
+      <message name="IDS_EXTENSIONS_BRAVE_ITEM_SOURCE_WEBSTORE" desc="The text to indicate that an extension is from the Web Extensions Store.">
         Web Extensions Store
       </message>
-      <message name="IDS_EXTENSIONS_iBrowe_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Web Extensions Store.">
+      <message name="IDS_EXTENSIONS_BRAVE_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Web Extensions Store.">
         View in Web Extensions Store
       </message>
-      <message name="IDS_EXTENSIONS_iBrowe_PRIVATE_WARNING" desc="Warns the user that iBrowe cannot prevent extensions from recording history in private mode and Tor mode">
+      <message name="IDS_EXTENSIONS_BRAVE_PRIVATE_WARNING" desc="Warns the user that iBrowe cannot prevent extensions from recording history in private mode and Tor mode">
         Warning: iBrowe cannot prevent extensions from recording your browsing history.
       </message>
-      <message name="IDS_EXTENSIONS_iBrowe_SPANNING_WARNING" desc="Warns the user that extension will make network connection not through Tor when it is in spanning mode">
+      <message name="IDS_EXTENSIONS_BRAVE_SPANNING_WARNING" desc="Warns the user that extension will make network connection not through Tor when it is in spanning mode">
         If this extension makes network requests, they will not use Tor or private mode.
       </message>
-      <message name="IDS_EXTENSIONS_iBrowe_PRIVATE_AND_TOR_WARNING" desc="Displayed in extensions management UI after an extension is selected to be run in private mode and Tor mode.">
+      <message name="IDS_EXTENSIONS_BRAVE_PRIVATE_AND_TOR_WARNING" desc="Displayed in extensions management UI after an extension is selected to be run in private mode and Tor mode.">
         To disable this extension in private mode and Tor mode, unselect this option.
       </message>
 
       <!-- App shortcuts -->
       <if expr="not is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_iBrowe_NIGHTLY" desc="Name for the iBrowe Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_NIGHTLY" desc="Name for the iBrowe Apps Start Menu folder name.">
           iBrowe Browser Nightly Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_iBrowe_BETA" desc="Name for the iBrowe Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_BETA" desc="Name for the iBrowe Apps Start Menu folder name.">
           iBrowe Browser Beta Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_iBrowe_DEV" desc="Name for the iBrowe Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEV" desc="Name for the iBrowe Apps Start Menu folder name.">
           iBrowe Browser Dev Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_iBrowe_STABLE" desc="Name for the iBrowe Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_STABLE" desc="Name for the iBrowe Apps Start Menu folder name.">
           iBrowe Browser Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_iBrowe_DEVELOPMENT" desc="Name for the iBrowe Apps Start Menu folder name.">
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEVELOPMENT" desc="Name for the iBrowe Apps Start Menu folder name.">
           iBrowe Browser Development Apps
         </message>
       </if>
@@ -545,55 +545,55 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
           Don't ask me again
         </message>
         <!-- iBrowe search conversion promotion -->
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_B_TITLE" desc="The text for the banner type title">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_B_TITLE" desc="The text for the banner type title">
           Don't Google it. Can't Bing it. Just iBrowe it.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_B_DESC" desc="The text for the banner type description">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_B_DESC" desc="The text for the banner type description">
           iBrowe Search doesn't profile you. And it's 100% independent.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_TITLE" desc="The text for the banner type title">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_TITLE" desc="The text for the banner type title">
           Search and you will find. Privately.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_DESC" desc="The text for the banner type description">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_DESC" desc="The text for the banner type description">
           iBrowe Search doesn't profile you. And it's 100% independent of Big Tech.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_TITLE" desc="The text for the banner type title">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_TITLE" desc="The text for the banner type title">
           AI-infused search with a unique index.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_DESC" desc="The text for the banner type description">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_DESC" desc="The text for the banner type description">
           Fully private, 100% independent, and with great AI features.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_DDG_TITLE" desc="The text for the banner type title">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_DDG_TITLE" desc="The text for the banner type title">
           Get better results
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_DDG_DESC" desc="The text for the banner type description">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_C_DDG_DESC" desc="The text for the banner type description">
           iBrowe Search is independently verified to have better results than Bing (or Bing clones like DuckDuckGo).
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_DDG_TITLE" desc="The text for the banner type title">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_DDG_TITLE" desc="The text for the banner type title">
           Improve search results
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_DDG_DESC" desc="The text for the banner type description">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_PROMOTION_BANNER_TYPE_D_DDG_DESC" desc="The text for the banner type description">
           iBrowe Search has better results than DuckDuckGo for most queries. And it’s truly private.
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_TRY_BUTTON_LABEL" desc="The text for the try button in the promotion match">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_TRY_BUTTON_LABEL" desc="The text for the try button in the promotion match">
           Try iBrowe Search
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_CLOSE_BUTTON_TOOLTIP" desc="The tooltip text for the dismiss button in a promotion match">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_CLOSE_BUTTON_TOOLTIP" desc="The tooltip text for the dismiss button in a promotion match">
           Dismiss
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_SET_AS_DEFAULT_BUTTON_LABEL" desc="The text for the set as default button in a promotion match">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_SET_AS_DEFAULT_BUTTON_LABEL" desc="The text for the set as default button in a promotion match">
           Set iBrowe as default
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_MAYBE_LATER_BUTTON_TOOLTIP" desc="The tooltip text for the maybe later button in a promotion match">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_MAYBE_LATER_BUTTON_TOOLTIP" desc="The tooltip text for the maybe later button in a promotion match">
           Maybe later
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_MAYBE_LATER_BUTTON_LABEL" desc="The text for the maybe later button in a promotion match">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_MAYBE_LATER_BUTTON_LABEL" desc="The text for the maybe later button in a promotion match">
           Maybe later
         </message>
-        <message name="IDS_ACC_iBrowe_SEARCH_CONVERSION_DISMISS_BUTTON" desc="Announcement when the dismiss button is focused.">
+        <message name="IDS_ACC_BRAVE_SEARCH_CONVERSION_DISMISS_BUTTON" desc="Announcement when the dismiss button is focused.">
           Dismiss iBrowe search conversion, press Enter to remove this suggestion
         </message>
-        <message name="IDS_iBrowe_SEARCH_CONVERSION_BUTTON_LABEL" desc="The text for the search conversion promotion button">
+        <message name="IDS_BRAVE_SEARCH_CONVERSION_BUTTON_LABEL" desc="The text for the search conversion promotion button">
           Switch to iBrowe Search
         </message>
 
@@ -601,7 +601,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
         <message name="IDS_WEB_DISCOVERY_INFOBAR_MESSAGE" desc="The text for web discovery infobar message">
           Help improve <ph name="SEARCH_NAME">$1<ex>iBrowe Search</ex></ph> by sending anonymous usage data.  <ph name="MORE_INFO">$2<ex>More info</ex></ph>
         </message>
-        <message name="IDS_WEB_DISCOVERY_INFOBAR_MESSAGE_iBrowe_SEARCH" desc="The text for iBrowe search part in message">
+        <message name="IDS_WEB_DISCOVERY_INFOBAR_MESSAGE_BRAVE_SEARCH" desc="The text for brave search part in message">
           iBrowe Search
         </message>
         <message name="IDS_WEB_DISCOVERY_INFOBAR_MESSAGE_MORE_INFO" desc="The text for more info link part in message">
@@ -653,28 +653,28 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       <message name="IDS_UTILITY_PROCESS_REWARDS_NAME" desc="The utility process running rewards">
         Bat Rewards Service
       </message>
-      <message name="IDS_iBrowe_ADS_NOTIFICATION_AD_CLOSE_BUTTON" desc="Text to be spoken for the notification ad close button">
+      <message name="IDS_BRAVE_ADS_NOTIFICATION_AD_CLOSE_BUTTON" desc="Text to be spoken for the notification ad close button">
         Close
       </message>
-      <message name="IDS_iBrowe_ADS_NOTIFICATION_AD_ACCESSIBLE_NAME" desc="Text to be spoken when a notification ad is shown">
+      <message name="IDS_BRAVE_ADS_NOTIFICATION_AD_ACCESSIBLE_NAME" desc="Text to be spoken when a notification ad is shown">
         iBrowe Notification Ad
       </message>
-      <message name="IDS_iBrowe_ADS_NOTIFICATION_EXTERNAL_WALLET_CONNECTED_TITLE" desc="The notification title to show when an external wallet is connected">
+      <message name="IDS_BRAVE_ADS_NOTIFICATION_EXTERNAL_WALLET_CONNECTED_TITLE" desc="The notification title to show when an external wallet is connected">
         &#x1F389; You're now earning!
       </message>
-      <message name="IDS_iBrowe_ADS_NOTIFICATION_EXTERNAL_WALLET_CONNECTED_BODY" desc="The notification body to show when an external wallet is connected">
+      <message name="IDS_BRAVE_ADS_NOTIFICATION_EXTERNAL_WALLET_CONNECTED_BODY" desc="The notification body to show when an external wallet is connected">
         You earn whenever a notification like this appears on your screen. You don't need to click to earn.
       </message>
-      <message name="IDS_iBrowe_ADS_NOTIFICATION_CLICKED_SAME_AD_MULTIPLE_TIMES_TITLE" desc="The notification title to show when a user clicks an ad multiple times">
+      <message name="IDS_BRAVE_ADS_NOTIFICATION_CLICKED_SAME_AD_MULTIPLE_TIMES_TITLE" desc="The notification title to show when a user clicks an ad multiple times">
         You earn when a iBrowe Ads notification appears
       </message>
-      <message name="IDS_iBrowe_ADS_NOTIFICATION_CLICKED_SAME_AD_MULTIPLE_TIMES_BODY" desc="The notification body to show when a user clicks an ad multiple times">
+      <message name="IDS_BRAVE_ADS_NOTIFICATION_CLICKED_SAME_AD_MULTIPLE_TIMES_BODY" desc="The notification body to show when a user clicks an ad multiple times">
         You don't need to click to earn, but do click if you're interested!
       </message>
-      <message name="IDS_iBrowe_ADS_SEARCH_RESULT_AD_CLICKED_INFOBAR_MESSAGE" desc="The text label of creative search result ad infobar message">
+      <message name="IDS_BRAVE_ADS_SEARCH_RESULT_AD_CLICKED_INFOBAR_MESSAGE" desc="The text label of creative search result ad infobar message">
         Thanks for supporting iBrowe Search by clicking a private ad. Unlike Big Tech, we measure ad performance anonymously to preserve your privacy.
       </message>
-      <message name="IDS_iBrowe_ADS_SEARCH_RESULT_AD_LEARN_MORE_OPT_OUT_CHOICES_LABEL" desc="The text label of creative search result ad learn more / opt out choices link">
+      <message name="IDS_BRAVE_ADS_SEARCH_RESULT_AD_LEARN_MORE_OPT_OUT_CHOICES_LABEL" desc="The text label of creative search result ad learn more / opt out choices link">
         Learn more / opt out choices
       </message>
 
@@ -687,7 +687,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- iBrowe Tooltips -->
-      <message name="IDS_iBrowe_TOOLTIPS_iBrowe_TOOLTIP_ACCESSIBLE_NAME" desc="Text to be spoken when a tooltip is shown">
+      <message name="IDS_BRAVE_TOOLTIPS_BRAVE_TOOLTIP_ACCESSIBLE_NAME" desc="Text to be spoken when a tooltip is shown">
         iBrowe Tooltip
       </message>
 
@@ -818,56 +818,56 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </if>
 
       <!-- Stats -->
-      <message name="IDS_iBrowe_STATS_USAGE_PING_SETTING" desc="Description that shows in settings for toggling stats usage pings">
+      <message name="IDS_BRAVE_STATS_USAGE_PING_SETTING" desc="Description that shows in settings for toggling stats usage pings">
         Automatically send daily usage ping to iBrowe
       </message>
-      <message name="IDS_iBrowe_STATS_USAGE_PING_SETTING_SUBITEM" desc="Description that shows under main toggle setting for usage pings">
+      <message name="IDS_BRAVE_STATS_USAGE_PING_SETTING_SUBITEM" desc="Description that shows under main toggle setting for usage pings">
         This private ping lets iBrowe estimate active users.
       </message>
 
       <!-- P3A -->
-      <message name="IDS_iBrowe_CONFIRM_P3A_INFO_BAR" desc="Text that shows on the info bar where user acknowledges the P3A message">
+      <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR" desc="Text that shows on the info bar where user acknowledges the P3A message">
         iBrowe uses completely private product analytics to estimate the overall usage of certain features
       </message>
-      <message name="IDS_iBrowe_CONFIRM_P3A_INFO_BAR_ACKNOWLEDGE" desc="OK button that shows on the info bar where user acknowledges the P3A message">
+      <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR_ACKNOWLEDGE" desc="OK button that shows on the info bar where user acknowledges the P3A message">
         Got it
       </message>
-      <message name="IDS_iBrowe_CONFIRM_P3A_INFO_BAR_DISABLE" desc="Disable button that shows on the info bar where user acknowledges the P3A message">
+      <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR_DISABLE" desc="Disable button that shows on the info bar where user acknowledges the P3A message">
         Disable
       </message>
-      <message name="IDS_iBrowe_P3A_ENABLE_SETTING" desc="Description that shows in settings for toggling P3A">
+      <message name="IDS_BRAVE_P3A_ENABLE_SETTING" desc="Description that shows in settings for toggling P3A">
         Allow privacy-preserving product analytics (P3A)
       </message>
-      <message name="IDS_iBrowe_P3A_ENABLE_SETTING_SUBITEM" desc="Description that shows under main toggle setting for P3A">
+      <message name="IDS_BRAVE_P3A_ENABLE_SETTING_SUBITEM" desc="Description that shows under main toggle setting for P3A">
         These private responses help iBrowe estimate the overall usage of certain features and make them better for you.
       </message>
 
       <!-- Web3 detection -->
-      <message name="IDS_iBrowe_CRYPTO_WALLETS_LAZY_LOAD_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
+      <message name="IDS_BRAVE_CRYPTO_WALLETS_LAZY_LOAD_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
         Would you like to start Crypto Wallets for Ethereum support?
       </message>
-      <message name="IDS_iBrowe_CRYPTO_WALLETS_INFOBAR_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
+      <message name="IDS_BRAVE_CRYPTO_WALLETS_INFOBAR_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
         Set up Crypto Wallets to interact with this app and others like it.
       </message>
-      <message name="IDS_iBrowe_CRYPTO_WALLETS_SETUP_CRYPTO_WALLETS" desc="Set up Crypto Wallets">
+      <message name="IDS_BRAVE_CRYPTO_WALLETS_SETUP_CRYPTO_WALLETS" desc="Set up Crypto Wallets">
         Set up Crypto Wallets
       </message>
-       <message name="IDS_iBrowe_CRYPTO_WALLETS_START_AND_RELOAD" desc="Start Crypto Wallets and reload">
+       <message name="IDS_BRAVE_CRYPTO_WALLETS_START_AND_RELOAD" desc="Start Crypto Wallets and reload">
         Start Crypto Wallets and reload
       </message>
-      <message name="IDS_iBrowe_CRYPTO_WALLETS_SETTINGS" desc="Open Crypto Wallets settings">
+      <message name="IDS_BRAVE_CRYPTO_WALLETS_SETTINGS" desc="Open Crypto Wallets settings">
         Settings
       </message>
-      <message name="IDS_iBrowe_CRYPTO_WALLETS_DONT_ASK" desc="Sets provider to none">
+      <message name="IDS_BRAVE_CRYPTO_WALLETS_DONT_ASK" desc="Sets provider to none">
         Don't ask again
       </message>
-      <message name="IDS_iBrowe_WALLET_SETTINGS_SECTION" desc="Open Wallet settings section">
+      <message name="IDS_BRAVE_WALLET_SETTINGS_SECTION" desc="Open Wallet settings section">
         Wallet
       </message>
-      <message name="IDS_iBrowe_WEB3_SETTINGS_SECTION" desc="Open Web3 settings section">
+      <message name="IDS_BRAVE_WEB3_SETTINGS_SECTION" desc="Open Web3 settings section">
         Web3
       </message>
-      <message name="IDS_iBrowe_WEB3_DOMAINS_SETTINGS_SECTION" desc="Open Web3 Domains settings section">
+      <message name="IDS_BRAVE_WEB3_DOMAINS_SETTINGS_SECTION" desc="Open Web3 Domains settings section">
         Web3 Domains
       </message>
       <!-- iBrowe Wallet -->
@@ -876,27 +876,27 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- iBrowe Wayback Machine -->
-      <message name="IDS_iBrowe_WAYBACK_MACHINE_BUBBLE_SORRY_HEADER_TEXT" desc="The label for sorry message when page is not available on bubble">
+      <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_SORRY_HEADER_TEXT" desc="The label for sorry message when page is not available on bubble">
         Sorry, that page is missing.
       </message>
-      <message name="IDS_iBrowe_WAYBACK_MACHINE_BUBBLE_CANT_FIND_HEADER_TEXT" desc="The label for sorry message when page is not available on bubble">
+      <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_CANT_FIND_HEADER_TEXT" desc="The label for sorry message when page is not available on bubble">
         Couldn't load saved version
       </message>
-      <message name="IDS_iBrowe_WAYBACK_MACHINE_BUBBLE_ASK_ABOUT_CHECK_TEXT" desc="The label for asking to check from wayback machine">
+      <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_ASK_ABOUT_CHECK_TEXT" desc="The label for asking to check from wayback machine">
         Do you want to check if a saved version is available on the Wayback Machine?
       </message>
-      <message name="IDS_iBrowe_WAYBACK_MACHINE_BUBBLE_NOT_AVAILABLE_TEXT" desc="The label for wayback machine doesn't have saved version">
+      <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_NOT_AVAILABLE_TEXT" desc="The label for wayback machine doesn't have saved version">
         Wayback Machine couldn't find a saved version of this site.
       </message>
-      <message name="IDS_iBrowe_WAYBACK_MACHINE_BUBBLE_CHECK_BUTTON_TEXT" desc="The label for check button on wayback infobar">
+      <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_CHECK_BUTTON_TEXT" desc="The label for check button on wayback infobar">
         Check saved version
       </message>
-      <message name="IDS_iBrowe_WAYBACK_MACHINE_BUBBLE_DISMISS_BUTTON_TEXT" desc="Text to show for the no thanks button.">
+      <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_DISMISS_BUTTON_TEXT" desc="Text to show for the no thanks button.">
         Dismiss
       </message>
 
       <!-- iBrowe's copyright statement -->
-      <message name="IDS_iBrowe_VERSION_UI_LICENSE" desc="The label below the copyright message, containing the URLs.">
+      <message name="IDS_BRAVE_VERSION_UI_LICENSE" desc="The label below the copyright message, containing the URLs.">
         iBrowe is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) and includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
         You can read <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>instructions on how to download and build for yourself<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>source code used to create this copy<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.
       </message>
@@ -975,14 +975,14 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </if>
 
       <!-- iBrowe VPN -->
-      <if expr="enable_iBrowe_vpn">
+      <if expr="enable_brave_vpn">
         <message name="IDS_SETTINGS_VPN_PAGE_TITLE" desc="Title of the vpn settings page">
           iBrowe VPN
         </message>
         <message name="IDS_SETTINGS_VPN_PAGE_USE_WIREGUARD_TITLE" desc="Title of the WireGuard option on the vpn settings page">
           Use WireGuard protocol in iBrowe VPN
         </message>
-        <message name="IDS_SETTINGS_VPN_PAGE_SUBLABEL_VPN_CONNECTED" desc="Title of the WireGuard sub label on the vpn settings page when iBrowe vpn connected">
+        <message name="IDS_SETTINGS_VPN_PAGE_SUBLABEL_VPN_CONNECTED" desc="Title of the WireGuard sub label on the vpn settings page when brave vpn connected">
           This setting cannot be changed while iBrowe VPN is connected.
         </message>
         <message name="IDS_SETTINGS_SHOW_VPN_BUTTON" desc="The label for showing vpn button in the toolbar">
@@ -991,61 +991,61 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
         <message name="IDS_SETTINGS_SHOW_VPN_BUTTON_SUB_LABEL" desc="The sub label for vpn button setting">
             Shows the VPN button in the toolbar
         </message>
-        <message name="IDS_iBrowe_VPN_TOOLBAR_BUTTON_TEXT" desc="Text for vpn button in toolbar.">
+        <message name="IDS_BRAVE_VPN_TOOLBAR_BUTTON_TEXT" desc="Text for vpn button in toolbar.">
           VPN
         </message>
-        <message name="IDS_iBrowe_VPN_TOGGLE_MENU_ITEM_TEXT" desc="Text for vpn toggle button in app menu.">
+        <message name="IDS_BRAVE_VPN_TOGGLE_MENU_ITEM_TEXT" desc="Text for vpn toggle button in app menu.">
           Toggle VPN
         </message>
-        <message name="IDS_iBrowe_VPN_MENU" desc="The iBrowe VPN item (app menu)">
+        <message name="IDS_BRAVE_VPN_MENU" desc="The iBrowe VPN item (app menu)">
           iBrowe VPN
         </message>
-        <message name="IDS_iBrowe_VPN_ABOUT_VPN_MENU_ITEM" desc="The menu item for showing about vpn">
+        <message name="IDS_BRAVE_VPN_ABOUT_VPN_MENU_ITEM" desc="The menu item for showing about vpn">
           About iBrowe VPN
         </message>
-        <message name="IDS_iBrowe_VPN_STATUS_LABEL_CONNECTING" desc="The text for vpn status label in connecting">
+        <message name="IDS_BRAVE_VPN_STATUS_LABEL_CONNECTING" desc="The text for vpn status label in connecting">
           Connecting...
         </message>
-        <message name="IDS_iBrowe_VPN_STATUS_LABEL_CONNECTED" desc="The text for vpn status label in connected">
+        <message name="IDS_BRAVE_VPN_STATUS_LABEL_CONNECTED" desc="The text for vpn status label in connected">
           Connected
         </message>
-        <message name="IDS_iBrowe_VPN_STATUS_LABEL_DISCONNECTING" desc="The text for vpn status label in disconnecting">
+        <message name="IDS_BRAVE_VPN_STATUS_LABEL_DISCONNECTING" desc="The text for vpn status label in disconnecting">
           Disconnecting...
         </message>
-        <message name="IDS_iBrowe_VPN_STATUS_LABEL_DISCONNECTED" desc="The text for vpn status label in disconnected">
+        <message name="IDS_BRAVE_VPN_STATUS_LABEL_DISCONNECTED" desc="The text for vpn status label in disconnected">
           Disconnected
         </message>
         <if expr="use_titlecase">
-          <message name="IDS_iBrowe_VPN_SHOW_VPN_BUTTON_MENU_ITEM" desc="The menu item for showing vpn button in toolbar">
+          <message name="IDS_BRAVE_VPN_SHOW_VPN_BUTTON_MENU_ITEM" desc="The menu item for showing vpn button in toolbar">
             Show VPN Button in Toolbar
           </message>
-          <message name="IDS_iBrowe_VPN_HIDE_VPN_BUTTON_MENU_ITEM" desc="The menu item for hiding vpn button in toolbar">
+          <message name="IDS_BRAVE_VPN_HIDE_VPN_BUTTON_MENU_ITEM" desc="The menu item for hiding vpn button in toolbar">
             Hide VPN Button in Toolbar
           </message>
-          <message name="IDS_iBrowe_VPN_SHOW_VPN_TRAY_ICON_MENU_ITEM" desc="The menu item for showing vpn tray icon in windows">
+          <message name="IDS_BRAVE_VPN_SHOW_VPN_TRAY_ICON_MENU_ITEM" desc="The menu item for showing vpn tray icon in windows">
             Show VPN Tray Icon
           </message>
-          <message name="IDS_iBrowe_VPN_SHOW_FEEDBACK_MENU_ITEM" desc="The menu item for sending feedback">
+          <message name="IDS_BRAVE_VPN_SHOW_FEEDBACK_MENU_ITEM" desc="The menu item for sending feedback">
             Send Feedback
           </message>
-          <message name="IDS_iBrowe_VPN_MANAGE_MY_PLAN_MENU_ITEM" desc="The menu item for managing my vpn plan">
+          <message name="IDS_BRAVE_VPN_MANAGE_MY_PLAN_MENU_ITEM" desc="The menu item for managing my vpn plan">
             Manage My Plan
           </message>
         </if>
         <if expr="not use_titlecase">
-          <message name="IDS_iBrowe_VPN_SHOW_VPN_BUTTON_MENU_ITEM" desc="The menu item for showing vpn button in toolbar">
+          <message name="IDS_BRAVE_VPN_SHOW_VPN_BUTTON_MENU_ITEM" desc="The menu item for showing vpn button in toolbar">
             Show VPN button in toolbar
           </message>
-          <message name="IDS_iBrowe_VPN_HIDE_VPN_BUTTON_MENU_ITEM" desc="The menu item for hiding vpn button in toolbar">
+          <message name="IDS_BRAVE_VPN_HIDE_VPN_BUTTON_MENU_ITEM" desc="The menu item for hiding vpn button in toolbar">
             Hide VPN button in toolbar
           </message>
-          <message name="IDS_iBrowe_VPN_SHOW_VPN_TRAY_ICON_MENU_ITEM" desc="The menu item for showing vpn tray icon in windows">
+          <message name="IDS_BRAVE_VPN_SHOW_VPN_TRAY_ICON_MENU_ITEM" desc="The menu item for showing vpn tray icon in windows">
             Show VPN tray icon
           </message>
-          <message name="IDS_iBrowe_VPN_SHOW_FEEDBACK_MENU_ITEM" desc="The menu item for sending feedback">
+          <message name="IDS_BRAVE_VPN_SHOW_FEEDBACK_MENU_ITEM" desc="The menu item for sending feedback">
             Send feedback
           </message>
-          <message name="IDS_iBrowe_VPN_MANAGE_MY_PLAN_MENU_ITEM" desc="The menu item for managing my vpn plan">
+          <message name="IDS_BRAVE_VPN_MANAGE_MY_PLAN_MENU_ITEM" desc="The menu item for managing my vpn plan">
             Manage my plan
           </message>
         </if>
@@ -1071,7 +1071,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- Bookmarks -->
-      <message name="IDS_iBrowe_BOOKMARK_MANAGER_EMPTY_LIST" desc="">
+      <message name="IDS_BRAVE_BOOKMARK_MANAGER_EMPTY_LIST" desc="">
         To add a bookmark, click the bookmark button next to the address bar
       </message>
       <message name="IDS_BOOKMARK_BAR_IMPORT_LINK" desc="text shown for importing ">
@@ -1112,7 +1112,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </if>
 
       <!-- Importer -->
-      <message name="IDS_iBrowe_IMPORT_FROM_EDGE" desc="browser combo box: Microsoft Edge Legacy">
+      <message name="IDS_BRAVE_IMPORT_FROM_EDGE" desc="browser combo box: Microsoft Edge Legacy">
         Microsoft Edge Legacy
       </message>
       <message name="IDS_IMPORTED_FROM_BOOKMARK_FOLDER" desc="Name for bookmark panel folder imported from another browser">
@@ -1349,28 +1349,28 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </if> <!-- enable_playlist_webui -->
 
       <!-- File select -->
-      <message name="IDS_iBrowe_FILE_SELECT_OPEN_TITLE" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_OPEN_TITLE" desc="">
         <ph name="SITE">$1<ex>http://foo.com</ex></ph> wants to open
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_OPEN_TITLE_IFRAME" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_OPEN_TITLE_IFRAME" desc="">
         An embedded page at <ph name="SITE">$1<ex>http://foo.com</ex></ph> wants to open
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_OPEN_TITLE_NONSTANDARD_URL" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_OPEN_TITLE_NONSTANDARD_URL" desc="">
         This page wants to open
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_OPEN_TITLE_NONSTANDARD_URL_IFRAME" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_OPEN_TITLE_NONSTANDARD_URL_IFRAME" desc="">
         An embedded page on this page wants to open
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_SAVE_TITLE" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_SAVE_TITLE" desc="">
         <ph name="SITE">$1<ex>http://foo.com</ex></ph> wants to save
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_SAVE_TITLE_IFRAME" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_SAVE_TITLE_IFRAME" desc="">
         An embedded page at <ph name="SITE">$1<ex>http://foo.com</ex></ph> wants to save
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_SAVE_TITLE_NONSTANDARD_URL" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_SAVE_TITLE_NONSTANDARD_URL" desc="">
         This page wants to save
       </message>
-      <message name="IDS_iBrowe_FILE_SELECT_SAVE_TITLE_NONSTANDARD_URL_IFRAME" desc="">
+      <message name="IDS_BRAVE_FILE_SELECT_SAVE_TITLE_NONSTANDARD_URL_IFRAME" desc="">
         An embedded page on this page wants to save
       </message>
       <!--Add new items to the appropriate sections above -->

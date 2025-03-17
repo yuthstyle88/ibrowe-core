@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- iBrowe Settings WebUI strings (included from iBrowe_generated_resources.grd). -->
+<!-- iBrowe Settings WebUI strings (included from brave_generated_resources.grd). -->
 <grit-part>
 
   <!--Add new items to the appropriate sections below -->
@@ -22,134 +22,134 @@
   </message>
 
   <!-- Settings / Get started -->
-  <message name="IDS_SETTINGS_iBrowe_GET_STARTED_TITLE" desc="The title for the Get Started section in settings">
+  <message name="IDS_SETTINGS_BRAVE_GET_STARTED_TITLE" desc="The title for the Get Started section in settings">
     Get started
   </message>
 
   <!-- <iBrowe Account> -->
   <!-- Row: -->
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the iBrowe Account row in the Get Started section">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the iBrowe Account row in the Get Started section">
     Sign in or create a iBrowe account
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ROW_DESCRIPTION" translateable="false" desc="Description of the iBrowe Account row in the Get Started section">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_DESCRIPTION" translateable="false" desc="Description of the iBrowe Account row in the Get Started section">
     A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_GET_STARTED_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Entry' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_GET_STARTED_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Entry' dialog">
     Get started
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_MANAGE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to their iBrowe Account settings">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_MANAGE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to their iBrowe Account settings">
     Manage account
   </message>
 
   <!-- 'Entry' dialog: -->
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ENTRY_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can choose to create a iBrowe Account, or sign in">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can choose to create a iBrowe Account, or sign in">
     Get started with your iBrowe account
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ENTRY_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can choose to create a iBrowe Account, or sign in">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can choose to create a iBrowe Account, or sign in">
     A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ENTRY_DIALOG_CREATE_iBrowe_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Create' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_CREATE_BRAVE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Create' dialog">
     Create a iBrowe account
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ALREADY_HAVE_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Sign In' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ALREADY_HAVE_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Sign In' dialog">
     Already have an account? Sign in
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_SELF_CUSTODY_DESCRIPTION" translateable="false" desc="Description of the self-custody option which we provide for advanced users">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SELF_CUSTODY_DESCRIPTION" translateable="false" desc="Description of the self-custody option which we provide for advanced users">
     For advanced users, we also support self-custody of your iBrowe account keys for an extra layer of privacy. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_SELF_CUSTODY_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the self-custody settings">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SELF_CUSTODY_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the self-custody settings">
     Use self-custody
   </message>
 
   <!-- 'Create' dialog: -->
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CREATE_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can create their iBrowe Account">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can create their iBrowe Account">
     Create your account
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their iBrowe Account">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their iBrowe Account">
     A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @iBrowealias.com email address when creating their iBrowe Account">
-    You can't use @iBrowealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @bravealias.com email address when creating their iBrowe Account">
+    You can't use @bravealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CREATE_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Create a password' input field">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Create a password' input field">
     Create a password
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_PASSWORD_STRENGTH_METER_WEAK" translateable="false" desc="The password strength meter's 'weak' state">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_STRENGTH_METER_WEAK" translateable="false" desc="The password strength meter's 'weak' state">
     Weak
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_PASSWORD_STRENGTH_METER_MEDIUM" translateable="false" desc="The password strength meter's 'medium' state">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_STRENGTH_METER_MEDIUM" translateable="false" desc="The password strength meter's 'medium' state">
     Medium
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_PASSWORD_STRENGTH_METER_STRONG" translateable="false" desc="The password strength meter's 'strong' state">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_STRENGTH_METER_STRONG" translateable="false" desc="The password strength meter's 'strong' state">
     Strong
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CONFIRM_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Confirm password' input field">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Confirm password' input field">
     Confirm password
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CONFIRM_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Confirm password' input field">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Confirm password' input field">
     Confirm your password
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CONFIRM_PASSWORD_INPUT_ERROR_MESSAGE" translateable="false" desc="Message for a failed password confirmation">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_ERROR_MESSAGE" translateable="false" desc="Message for a failed password confirmation">
     Passwords don't match
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CONFIRM_PASSWORD_INPUT_SUCCESS_MESSAGE" translateable="false" desc="Message for a successful password confirmation">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_SUCCESS_MESSAGE" translateable="false" desc="Message for a successful password confirmation">
     Passwords match
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CONSENT_CHECKBOX_LABEL" translateable="false" desc="Label for the checkbox where the user consents to the Terms of service and Privacy agreement">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONSENT_CHECKBOX_LABEL" translateable="false" desc="Label for the checkbox where the user consents to the Terms of service and Privacy agreement">
     I have read and accept the <ph name="BEGIN_LINK_1">&lt;a target="_blank" href="$1"&gt;</ph>Terms of service<ph name="END_LINK_1">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK_2">&lt;a target="_blank" href="$2"&gt;</ph>Privacy agreement<ph name="END_LINK_2">&lt;/a&gt;</ph>.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CREATE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Create' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Create' dialog">
     Create account
   </message>
 
   <!-- 'Sign In' dialog: -->
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_SIGN_IN_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can sign in to their iBrowe Account">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can sign in to their iBrowe Account">
     Sign in to your account
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_SIGN_IN_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can sign in to their iBrowe Account">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can sign in to their iBrowe Account">
     A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Password' input field">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Password' input field">
     Password
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_FORGOT_PASSWORD_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Forgot Password' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Forgot Password' dialog">
     Forgot your password?
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Sign In' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Sign In' dialog">
     Sign in
   </message>
 
   <!-- 'Forgot Password' dialog: -->
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_FORGOT_PASSWORD_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can reset their iBrowe Account password">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can reset their iBrowe Account password">
     Forgot your password?
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_FORGOT_PASSWORD_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can reset their iBrowe Account password">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can reset their iBrowe Account password">
     Confirm your iBrowe account email and we'll email you a link to reset your password. The link will only be valid for 30 minutes.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_ALERT_MESSAGE" translateable="false" desc="Alert message explaining that if the user resets their password without having an active login, all their data will be deleted">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ALERT_MESSAGE" translateable="false" desc="Alert message explaining that if the user resets their password without having an active login, all their data will be deleted">
     [Explain that if they reset their password without having an active login, all the user data will be deleted]
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_CANCEL_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user back to the 'Sign In' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CANCEL_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user back to the 'Sign In' dialog">
     Cancel
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_RESET_PASSWORD_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Forgot Password' dialog">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_RESET_PASSWORD_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Forgot Password' dialog">
     Reset your password
   </message>
 
   <!-- Common: -->
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_EMAIL_INPUT_LABEL" translateable="false" desc="Label for the 'Email address' input field">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_LABEL" translateable="false" desc="Label for the 'Email address' input field">
     Email address
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_EMAIL_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Email address' input field">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Email address' input field">
     Enter your email address
   </message>
-  <message name="IDS_SETTINGS_iBrowe_ACCOUNT_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Create a password'/'Password' input fields">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Create a password'/'Password' input fields">
     Enter your password
   </message>
   <!-- </iBrowe Account> -->
 
   <!-- Settings / Get started / Profile name and icon -->
-  <message name="IDS_SETTINGS_iBrowe_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
+  <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
     Profile name and icon
   </message>
 
@@ -162,27 +162,27 @@
   </message>
 
   <!-- Settings / Appearance -->
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_THEMES" desc="The label for iBrowe theme change setting options">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
     iBrowe colors
   </message>
-  <message name="IDS_iBrowe_THEME_TYPE_LIGHT" desc="Text for light theme type">
+  <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">
     Light
   </message>
-  <message name="IDS_iBrowe_THEME_TYPE_DARK" desc="Text for dark theme type">
+  <message name="IDS_BRAVE_THEME_TYPE_DARK" desc="Text for dark theme type">
     Dark
   </message>
   <if expr="is_linux">
-    <message name="IDS_iBrowe_THEME_TYPE_SYSTEM" desc="Text for system theme type">
+    <message name="IDS_BRAVE_THEME_TYPE_SYSTEM" desc="Text for system theme type">
       Same as Linux
     </message>
   </if>
   <if expr="is_win">
-    <message name="IDS_iBrowe_THEME_TYPE_SYSTEM" desc="Text for system theme type">
+    <message name="IDS_BRAVE_THEME_TYPE_SYSTEM" desc="Text for system theme type">
       Same as Windows
     </message>
   </if>
   <if expr="is_macosx">
-    <message name="IDS_iBrowe_THEME_TYPE_SYSTEM" desc="Text for system theme type">
+    <message name="IDS_BRAVE_THEME_TYPE_SYSTEM" desc="Text for system theme type">
       Same as macOS
     </message>
     <message name="IDS_SHOW_TOOLBAR_IN_FULL_SCREEN" desc="Text for showing toolbar in fullscreen">
@@ -192,7 +192,7 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_GET_MORE_THEMES" desc="The label for opening theme web store">
     Get more themes
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_DEFAULT_IMAGES_OPTION_LABEL" desc="The label for choosing default images over super referral">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_DEFAULT_IMAGES_OPTION_LABEL" desc="The label for choosing default images over super referral">
     iBrowe default images
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_TOOLBAR_SECTION" desc="The label for section containing settings related to toolbar">
@@ -213,34 +213,34 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_TABS_USE_FLOATING_VERTICAL_TABS" desc="The label for enabling floating mode for vertical tab strip">
     Expand vertical tabs panel on mouseover when collapsed
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_HOVER_MODE" desc="The label for the settings select controlling what happens when a user hovers over a tab.">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_HOVER_MODE" desc="The label for the settings select controlling what happens when a user hovers over a tab.">
     Tab hover mode
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_VERTICAL_TAB_POSITION" desc="Title for radio group to set vertical tab position">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_POSITION" desc="Title for radio group to set vertical tab position">
     Position
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_VERTICAL_TAB_EXPANDED_STATE_PER_WINDOW" desc="Title for checkbox to set expanded state per window">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_EXPANDED_STATE_PER_WINDOW" desc="Title for checkbox to set expanded state per window">
     Expand vertical tabs independently per window
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_VERTICAL_TAB_SHOW_SCROLLBAR" desc="Title for checkbox to show scrollbar on vertical tabs">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_SHOW_SCROLLBAR" desc="Title for checkbox to show scrollbar on vertical tabs">
     Show scrollbar
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_VERTICAL_TAB_ON_RIGHT" desc="The label for radio button to show vertical tab on right">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_ON_RIGHT" desc="The label for radio button to show vertical tab on right">
     Show on the right
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_VERTICAL_TAB_ON_LEFT" desc="The label for radio button to show vertical tab on left">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_ON_LEFT" desc="The label for radio button to show vertical tab on left">
     Show on the left
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_HOVER_MODE_CARD" desc="The label name of the tab hover mode where a card with the title and origin of the site is shown.">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_HOVER_MODE_CARD" desc="The label name of the tab hover mode where a card with the title and origin of the site is shown.">
     Card
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_HOVER_MODE_CARD_WITH_PREVIEW" desc="The label name of the tab hover mode where a card with the title, origin, and a preview of the site is shown.">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_HOVER_MODE_CARD_WITH_PREVIEW" desc="The label name of the tab hover mode where a card with the title, origin, and a preview of the site is shown.">
     Card with preview
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_TAB_HOVER_MODE_TOOLTIP" desc="The label name of the tab hover mode where a tooltip with the site title is shown.">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_HOVER_MODE_TOOLTIP" desc="The label name of the tab hover mode where a tooltip with the site title is shown.">
     Tooltip
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_iBrowe_SHARED_PINNED_TAB" desc="The label name of a toggle button for Shared Pinned Tab feature">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_SHARED_PINNED_TAB" desc="The label name of a toggle button for Shared Pinned Tab feature">
     Show pinned tabs in all windows
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_SHOW_BOOKMARKS_BUTTON" desc="The label for whether the bookmarks button should be shown or not">
@@ -267,7 +267,7 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_LEO" desc="The label for settings checkbox en/disabling autcomplete provider with Leo assistant">
     Leo AI Assistant
   </message>
-  <message name="IDS_SETTINGS_SHOW_iBrowe_NEWS_BUTTON_LABEL" desc="The label for the settings switch controlling whether the iBrowe News button is shown in the toolbar">
+  <message name="IDS_SETTINGS_SHOW_BRAVE_NEWS_BUTTON_LABEL" desc="The label for the settings switch controlling whether the iBrowe News button is shown in the toolbar">
     Show iBrowe News button
   </message>
   <message name="IDS_SETTINGS_SHOW_LEO_BUTTON_LABEL" desc="The label for the settings switch controlling whether the Leo button is shown in the toolbar">
@@ -326,10 +326,10 @@
   </if>
 
   <!-- Settings / Autofill -->
-  <message name="IDS_SETTINGS_iBrowe_AUTOFILL_PRIVATE_WINDOWS_LABEL" desc="The label to enable autofill in private profiles">
+  <message name="IDS_SETTINGS_BRAVE_AUTOFILL_PRIVATE_WINDOWS_LABEL" desc="The label to enable autofill in private profiles">
     Allow auto-fill in private windows
   </message>
-  <message name="IDS_SETTINGS_iBrowe_AUTOFILL_PRIVATE_WINDOWS_DESC" desc="The description for the label to enable autofill in private profiles">
+  <message name="IDS_SETTINGS_BRAVE_AUTOFILL_PRIVATE_WINDOWS_DESC" desc="The description for the label to enable autofill in private profiles">
     Info from regular windows can be read/auto-filled in private windows
   </message>
 
@@ -337,7 +337,7 @@
   <message name="IDS_SETTINGS_NEW_TAB" desc="The text label for the New Tab settings page">
     New Tab Page
   </message>
-  <message name="IDS_SETTINGS_NEW_TAB_iBrowe_REWARDS" desc="The label for iBrowe Rewards show/hide feature toggle">
+  <message name="IDS_SETTINGS_NEW_TAB_BRAVE_REWARDS" desc="The label for iBrowe Rewards show/hide feature toggle">
     iBrowe Rewards
   </message>
   <message name="IDS_SETTINGS_NEW_TAB_NEW_TAB_PAGE_SHOWS" desc="The label for New Tab Page shows customization">
@@ -401,19 +401,19 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_SHIELDS_DOWN" desc="Label for shields status down site settings.">
     Shields Down
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_TITLE" desc="The title for iBrowe shields section in settings">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for iBrowe shields section in settings">
     Shields
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_DEFAULTS_TITLE" desc="The title for iBrowe shields Defaults sub-section in settings">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for iBrowe shields Defaults sub-section in settings">
     Block trackers and ads which follow you across the web.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for iBrowe shields Defaults sub-section in settings">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for iBrowe shields Defaults sub-section in settings">
     These are the default Shields settings. They apply to all websites unless you change something in the Shields panel on a particular site. Changing these won't affect your existing per-site settings.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The description for iBrowe shields Defaults sub-section in settings.">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The description for iBrowe shields Defaults sub-section in settings.">
     This will block most ads on websites.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_SHOW_STATS_BLOCKED_BADGE_LABEL" desc="Default iBrowe show stats blocked badge control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_SHOW_STATS_BLOCKED_BADGE_LABEL" desc="Default iBrowe show stats blocked badge control setting label">
     Show the number of blocked items on the Shields icon
   </message>
   <message name="IDS_SETTINGS_DE_AMP_LABEL" desc="The label to activate De-AMP feature">
@@ -428,13 +428,13 @@
   <message name="IDS_SETTINGS_DEBOUNCE_SUB_LABEL" desc="The sub-label describing debounce feature">
     Enable support for bypassing top-level redirect tracking URLs.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_REDUCE_LANGUAGE_CONTROL_LABEL" desc="Default iBrowe reduce language control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_REDUCE_LANGUAGE_CONTROL_LABEL" desc="Default iBrowe reduce language control setting label">
     Prevent sites from fingerprinting me based on my language preferences
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_REDUCE_LANGUAGE_SUBITEM" desc="Description that shows under main toggle setting for reduce language control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_REDUCE_LANGUAGE_SUBITEM" desc="Description that shows under main toggle setting for reduce language control setting label">
     Enabling this setting reduces how much web sites can learn about your language preferences.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_AD_CONTROL_LABEL" desc="Default iBrowe block cross-site trackers control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default iBrowe block cross-site trackers control setting label">
     Trackers &amp; ads blocking
   </message>
   <message name="IDS_SETTINGS_BLOCK_ADS_TRACKERS_AGGRESSIVE" desc="Select value">
@@ -446,10 +446,10 @@
   <message name="IDS_SETTINGS_ALLOW_ADS_TRACKERS" desc="Select value">
     Disabled
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default iBrowe script blocking control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default iBrowe script blocking control setting label">
     Block scripts
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default iBrowe fingerprinting control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default iBrowe fingerprinting control setting label">
     Block fingerprinting
   </message>
   <message name="IDS_SETTINGS_STANDARD_FINGERPRINTING" desc="Select value">
@@ -461,7 +461,7 @@
   <message name="IDS_SETTINGS_STRICT_FINGERPRINTING" desc="Select value">
     Strict, may break sites
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_HTTPS_UPGRADE_CONTROL_LABEL" desc="Default iBrowe https upgrade control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_UPGRADE_CONTROL_LABEL" desc="Default iBrowe https upgrade control setting label">
     Upgrade connections to HTTPS
   </message>
   <message name="IDS_SETTINGS_STANDARD_HTTPS_UPGRADE" desc="Select value">
@@ -473,10 +473,10 @@
   <message name="IDS_SETTINGS_STRICT_HTTPS_UPGRADE" desc="Select value">
     Strict
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default iBrowe cookies control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default iBrowe cookies control setting label">
     Block cookies
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_COOKIE_CONTROL_BLOCK_ALL_DEPRECATED_LABEL" desc="Block all cookies deprecation warning">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_BLOCK_ALL_DEPRECATED_LABEL" desc="Block all cookies deprecation warning">
     The "Block all Cookies" option has been deprecated. To learn how to force-enable this option, visit <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>our help page<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_BLOCK_3RD_PARTY_COOKIES" desc="Select value">
@@ -488,162 +488,162 @@
   <message name="IDS_SETTINGS_BLOCK_ALL_COOKIES" desc="Select value">
     Block all cookies
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default iBrowe view title label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default iBrowe view title label">
     Default view
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default iBrowe simple view title label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default iBrowe simple view title label">
     Simple view
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default iBrowe advanced view title label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default iBrowe advanced view title label">
     Advanced view
   </message>
 
   <!-- Settings / Shields / ContentFilters -->
-  <message name="IDS_iBrowe_ADBLOCK_CONTENT_FILTERING_LABEL" desc="Label for Content Filtering">
+  <message name="IDS_BRAVE_ADBLOCK_CONTENT_FILTERING_LABEL" desc="Label for Content Filtering">
     Content filtering
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CONTENT_FILTER_LABEL_DESCRIPTION" desc="Long description describing what Content Filtering does">
+  <message name="IDS_BRAVE_ADBLOCK_CONTENT_FILTER_LABEL_DESCRIPTION" desc="Long description describing what Content Filtering does">
     Enable custom filters that block regional and language-specific trackers and Annoyances.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_ADD_CUSTOM_FILTERS_LISTS_LABEL" desc="Label for custom filters lists section">
+  <message name="IDS_BRAVE_ADBLOCK_ADD_CUSTOM_FILTERS_LISTS_LABEL" desc="Label for custom filters lists section">
     Add custom filter lists
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_ADD_CUSTOM_FILTERS_LISTS_DESC" desc="Description for custom filters lists section">
+  <message name="IDS_BRAVE_ADBLOCK_ADD_CUSTOM_FILTERS_LISTS_DESC" desc="Description for custom filters lists section">
     Add additional lists created and maintained by your trusted community.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_ADD_CUSTOM_FILTERS_LISTS_NOTE" desc="Note for custom filters lists section">
+  <message name="IDS_BRAVE_ADBLOCK_ADD_CUSTOM_FILTERS_LISTS_NOTE" desc="Note for custom filters lists section">
     Only subscribe to lists from entities you trust. Your browser will periodically check for list updates from the URL you enter, revealing your IP address to their server.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_FILTERS_LABEL" desc="Label for custom filters section">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_FILTERS_LABEL" desc="Label for custom filters section">
     Create custom filters
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_FILTERS_DESC" desc="Description for custom filters section">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_FILTERS_DESC" desc="Description for custom filters section">
     Add custom filters you've created, one per line, in the field below. Be sure to use the <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Adblock filter syntax<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_ADD_LISTS_BUTTON_LABEL" desc="Label for button that adds filter lists URL">
+  <message name="IDS_BRAVE_ADBLOCK_ADD_LISTS_BUTTON_LABEL" desc="Label for button that adds filter lists URL">
     Add
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_FILTER_LISTS_TABLE_TITLE_HEADER" desc="List URL header label for custom filters table">
+  <message name="IDS_BRAVE_ADBLOCK_FILTER_LISTS_TABLE_TITLE_HEADER" desc="List URL header label for custom filters table">
     List title
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_FILTER_LISTS_TABLE_UPDATED_HEADER" desc="Last updated header label for custom filters table">
+  <message name="IDS_BRAVE_ADBLOCK_FILTER_LISTS_TABLE_UPDATED_HEADER" desc="Last updated header label for custom filters table">
     Last updated
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_UPDATE_NOW_BUTTON_LABEL" desc="Button label to update the custom filter lists item">
+  <message name="IDS_BRAVE_ADBLOCK_UPDATE_NOW_BUTTON_LABEL" desc="Button label to update the custom filter lists item">
     Update now
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_VIEW_SOURCE_BUTTON_LABEL" desc="Button label to view custom filter lists item source">
+  <message name="IDS_BRAVE_ADBLOCK_VIEW_SOURCE_BUTTON_LABEL" desc="Button label to view custom filter lists item source">
     View source
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_UNSUBSCRIBE_BUTTON_LABEL" desc="Button label to delete custom filter lists item from the table">
+  <message name="IDS_BRAVE_ADBLOCK_UNSUBSCRIBE_BUTTON_LABEL" desc="Button label to delete custom filter lists item from the table">
     Unsubscribe
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_SAVE_BUTTON_LABEL" desc="Button label to save custom filters text">
+  <message name="IDS_BRAVE_ADBLOCK_SAVE_BUTTON_LABEL" desc="Button label to save custom filters text">
     Save changes
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_TRACKING_FILTERS_LABEL" desc="Title for tracking filters">
+  <message name="IDS_BRAVE_ADBLOCK_TRACKING_FILTERS_LABEL" desc="Title for tracking filters">
     Filter lists
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_TRACKING_FILTERS_DESC" desc="Description for tracking filters section">
+  <message name="IDS_BRAVE_ADBLOCK_TRACKING_FILTERS_DESC" desc="Description for tracking filters section">
     Additional popular community lists. Note that enabling too many filters will degrade browsing speeds.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_SUBSCRIBE_URL_DOWNLOAD_FAILED" desc="A label shown when a subscription has failed to download for the first time">
+  <message name="IDS_BRAVE_ADBLOCK_SUBSCRIBE_URL_DOWNLOAD_FAILED" desc="A label shown when a subscription has failed to download for the first time">
    Download failed
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_SUBSCRIBE_URL_UPDATE_FAILED" desc="A label shown when a subscription has failed to download on a subsquent update">
+  <message name="IDS_BRAVE_ADBLOCK_SUBSCRIBE_URL_UPDATE_FAILED" desc="A label shown when a subscription has failed to download on a subsquent update">
    Update failed
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_LISTS_LABEL" desc="A label to indicate custom lists table">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_LISTS_LABEL" desc="A label to indicate custom lists table">
    Custom lists
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_SHOW_FULL_LISTS_BUTTON_LABEL" desc="A button label to expand full custom filter lists">
+  <message name="IDS_BRAVE_ADBLOCK_SHOW_FULL_LISTS_BUTTON_LABEL" desc="A button label to expand full custom filter lists">
     Show full list
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_UPDATE_LISTS_BUTTON_LABEL" desc="A button label to update all active filter lists">
+  <message name="IDS_BRAVE_ADBLOCK_UPDATE_LISTS_BUTTON_LABEL" desc="A button label to update all active filter lists">
     Update lists
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_UPDATE_LISTS_RETRY_BUTTON_LABEL" desc="A button label to retry the update of all active filter lists">
+  <message name="IDS_BRAVE_ADBLOCK_UPDATE_LISTS_RETRY_BUTTON_LABEL" desc="A button label to retry the update of all active filter lists">
     Update failed - Retry
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_UPDATE_LISTS_UPDATED_BUTTON_LABEL" desc="A button label when list updates have finished">
+  <message name="IDS_BRAVE_ADBLOCK_UPDATE_LISTS_UPDATED_BUTTON_LABEL" desc="A button label when list updates have finished">
     Lists updated
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_UPDATE_LISTS_UPDATING_BUTTON_LABEL" desc="A button label when lists are updating">
+  <message name="IDS_BRAVE_ADBLOCK_UPDATE_LISTS_UPDATING_BUTTON_LABEL" desc="A button label when lists are updating">
     Lists updating
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_FILTER_LISTS_INPUT_PLACEHOLDER" desc="A placeholder label for the input form to ask the user to enter a URL">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_FILTER_LISTS_INPUT_PLACEHOLDER" desc="A placeholder label for the input form to ask the user to enter a URL">
     Enter filter list URL
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CONTENT_FILTERS" desc="A button label that navigates to Content Filters page">
+  <message name="IDS_BRAVE_ADBLOCK_CONTENT_FILTERS" desc="A button label that navigates to Content Filters page">
     Content Filters
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_FILTER_LISTS_INPUT_PLACEHOLDER" desc="A placeholder label for the input form to allow the user to filter from a list of content filters">
+  <message name="IDS_BRAVE_ADBLOCK_FILTER_LISTS_INPUT_PLACEHOLDER" desc="A placeholder label for the input form to allow the user to filter from a list of content filters">
     Filter lists
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_DEVELOPER_MODE_LABEL" desc="Label for custom scriptlets lists section">
+  <message name="IDS_BRAVE_ADBLOCK_DEVELOPER_MODE_LABEL" desc="Label for custom scriptlets lists section">
     Developer mode
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_DEVELOPER_MODE_DESC" desc="Label for custom scriptlets lists section">
+  <message name="IDS_BRAVE_ADBLOCK_DEVELOPER_MODE_DESC" desc="Label for custom scriptlets lists section">
     Allow adding custom filters and scriptlets
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLETS_LIST_LABEL" desc="Label for custom scriptlets lists section">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLETS_LIST_LABEL" desc="Label for custom scriptlets lists section">
     Custom scriptlets
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_ADD_CUSTOM_SCRIPTLET_BUTTON" desc="A label for the add custom scriptlet button">
+  <message name="IDS_BRAVE_ADBLOCK_ADD_CUSTOM_SCRIPTLET_BUTTON" desc="A label for the add custom scriptlet button">
     Add new scriptlet
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_ADD_CUSTOM_SCRIPTLET_DIALOG_TITLE" desc="A title for the add custom scriptlet dialog">
+  <message name="IDS_BRAVE_ADBLOCK_ADD_CUSTOM_SCRIPTLET_DIALOG_TITLE" desc="A title for the add custom scriptlet dialog">
     Add new scriptlet
   </message>  
-  <message name="IDS_iBrowe_ADBLOCK_EDIT_CUSTOM_SCRIPTLET_DIALOG_TITLE" desc="A title for the edit custom scriptlet dialog">
+  <message name="IDS_BRAVE_ADBLOCK_EDIT_CUSTOM_SCRIPTLET_DIALOG_TITLE" desc="A title for the edit custom scriptlet dialog">
     Edit scriptlet
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_NAME_LABEL" desc="A label for the custom scriptlet name field">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_NAME_LABEL" desc="A label for the custom scriptlet name field">
     Name
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_CONTENT_LABEL" desc="A label for the custom scriptlet content field">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_CONTENT_LABEL" desc="A label for the custom scriptlet content field">
     Content
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_CANCEL_BUTTON" desc="A label for the custom scriptlet content cancel button">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_CANCEL_BUTTON" desc="A label for the custom scriptlet content cancel button">
     Cancel
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_SAVE_BUTTON" desc="A label for the custom scriptlet content save button">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_DIALOG_SAVE_BUTTON" desc="A label for the custom scriptlet content save button">
     Save
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_DELETE_CONFIRMATION" desc="A confirmation message for the custom scriptlet deletion">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_DELETE_CONFIRMATION" desc="A confirmation message for the custom scriptlet deletion">
     Are you sure you want to delete this scriptlet? If this scriptlet is used in any custom filter, it will no longer work.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_ALREADY_EXISTS_ERROR" desc="Error message">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_ALREADY_EXISTS_ERROR" desc="Error message">
     Scriptlet already exists.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_INVALID_NAME_ERROR" desc="Error message">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_INVALID_NAME_ERROR" desc="Error message">
     Invalid scriptlet name.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_NOT_FOUND_ERROR" desc="Error message">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_NOT_FOUND_ERROR" desc="Error message">
     Scriptlet is not found.
   </message>
-  <message name="IDS_iBrowe_ADBLOCK_CUSTOM_SCRIPTLET_WARNING" desc="A warning message in Scriptlet editor.">
+  <message name="IDS_BRAVE_ADBLOCK_CUSTOM_SCRIPTLET_WARNING" desc="A warning message in Scriptlet editor.">
     Don’t paste code here that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer.
   </message>
 
-  <message name="IDS_SETTINGS_iBrowe_SHORTCUTS_TITLE" desc="The text label for the shortcuts settings page">
+  <message name="IDS_SETTINGS_BRAVE_SHORTCUTS_TITLE" desc="The text label for the shortcuts settings page">
     Shortcuts
   </message>
 
   <!-- Settings / iBrowe Rewards -->
-  <message name="IDS_SETTINGS_iBrowe_REWARDS_TITLE" desc="The text label for the Rewards settings page">
+  <message name="IDS_SETTINGS_BRAVE_REWARDS_TITLE" desc="The text label for the Rewards settings page">
     iBrowe Rewards
   </message>
-  <message name="IDS_SETTINGS_iBrowe_REWARDS_DISABLED_LABEL" desc="The text label for the Rewards disabled state">
+  <message name="IDS_SETTINGS_BRAVE_REWARDS_DISABLED_LABEL" desc="The text label for the Rewards disabled state">
     iBrowe Rewards is disabled
   </message>
-  <message name="IDS_SETTINGS_iBrowe_REWARDS_DISABLED_SUB_LABEL" desc="The text sublabel for the Rewards disabled state">
+  <message name="IDS_SETTINGS_BRAVE_REWARDS_DISABLED_SUB_LABEL" desc="The text sublabel for the Rewards disabled state">
     Open Rewards panel to enable and get started
   </message>
-  <message name="IDS_SETTINGS_iBrowe_REWARDS_PAGE_LABEL" desc="The text label for the link to the Rewards settings page">
+  <message name="IDS_SETTINGS_BRAVE_REWARDS_PAGE_LABEL" desc="The text label for the link to the Rewards settings page">
     Open full iBrowe Rewards settings
   </message>
-  <message name="IDS_SETTINGS_iBrowe_REWARDS_SHOW_iBrowe_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of iBrowe Rewards button">
+  <message name="IDS_SETTINGS_BRAVE_REWARDS_SHOW_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of iBrowe Rewards button">
     Show iBrowe Rewards button
   </message>
 
@@ -651,19 +651,19 @@
   <message name="IDS_SETTINGS_SOCIAL_BLOCKING_DEFAULTS_TITLE" desc="The title the settings section which has options for blocking third-party embeds, commonly from social media sites">
     Social media blocking
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_FACEBOOK_EMBEDDED_POSTS_LABEL" desc="Label for a switch control which allows Facebook embedded posts">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_FACEBOOK_EMBEDDED_POSTS_LABEL" desc="Label for a switch control which allows Facebook embedded posts">
     Allow Facebook logins and embedded posts
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_TWITTER_EMBEDDED_TWEETS_LABEL" desc="Label for a switch control which allows Twitter embedded tweets">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_TWITTER_EMBEDDED_TWEETS_LABEL" desc="Label for a switch control which allows Twitter embedded tweets">
     Allow X (previously Twitter) embedded tweets
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SHIELDS_LINKEDIN_EMBEDDED_POSTS_LABEL" desc="Label for a switch control which allows LinkedIn embedded posts">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_LINKEDIN_EMBEDDED_POSTS_LABEL" desc="Label for a switch control which allows LinkedIn embedded posts">
     Allow LinkedIn embedded posts
   </message>
 
 
   <!-- Settings / Privacy and security -->
-  <message name="IDS_SETTINGS_iBrowe_BLOCK_COOKIES_LINK_ROW_LABEL" desc="This text is the label of a page. Here, it serves as a button that opens the new page.">
+  <message name="IDS_SETTINGS_BRAVE_BLOCK_COOKIES_LINK_ROW_LABEL" desc="This text is the label of a page. Here, it serves as a button that opens the new page.">
     Block cookies
   </message>
   <!-- WebRTC Policy Setting -->
@@ -690,10 +690,10 @@
     Use Google services for push messaging
   </message>
   <!-- Diagnostic reports -->
-  <message name="IDS_iBrowe_DIAGNOSTIC_REPORTS_PREF" desc="The label of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
+  <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF" desc="The label of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
     Automatically send diagnostic reports
   </message>
-  <message name="IDS_iBrowe_DIAGNOSTIC_REPORTS_PREF_DESC" desc="The description of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
+  <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF_DESC" desc="The description of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
     Help improve iBrowe's product stability by automatically sending diagnostic reports when the iBrowe Browser crashes or freezes.
   </message>
   <!-- Request OTR -->
@@ -715,15 +715,15 @@
     </message>
   </if>
   <!-- Data collection -->
-  <message name="IDS_iBrowe_DATA_COLLECTION_SETTINGS_SECTION" desc="Open Data collection settings section">
+  <message name="IDS_BRAVE_DATA_COLLECTION_SETTINGS_SECTION" desc="Open Data collection settings section">
     Data collection
   </message>
 
   <!-- Settings / Privacy and security / Clear Browsing Data dialog -->
-  <message name="IDS_SETTINGS_iBrowe_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
+  <message name="IDS_SETTINGS_BRAVE_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
     On exit
   </message>
-  <message name="IDS_SETTINGS_CLEAR_iBrowe_ADS_DATA" desc="The label for the link to clear 'iBrowe Ads' data">
+  <message name="IDS_SETTINGS_CLEAR_BRAVE_ADS_DATA" desc="The label for the link to clear 'iBrowe Ads' data">
     Clear iBrowe Ads data...
   </message>
   <message name="IDS_SETTINGS_RESET_REWARDS_DATA" desc="The label for opening rewards manage wallet dialog">
@@ -809,10 +809,10 @@
 
   <!-- Settings / Privacy and security / Security -->
   <!-- Safe browsing -->
-  <message name="IDS_SETTINGS_iBrowe_SAFEBROWSING_STANDARD_BULLET_TWO" desc="Second bullet point under the safe browsing standard protection mode">
+  <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_STANDARD_BULLET_TWO" desc="Second bullet point under the safe browsing standard protection mode">
     Checks URLs with a list of unsafe sites stored in iBrowe.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SAFEBROWSING_NONE_DESC" desc="Description for safe browsing no protection mode">
+  <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_NONE_DESC" desc="Description for safe browsing no protection mode">
     Does not protect you against dangerous websites, downloads, and extensions.
   </message>
 
@@ -885,232 +885,232 @@
   </message>
 
   <!-- AI chat setting -->
-  <message name="IDS_SETTINGS_SITE_SETTINGS_iBrowe_OPEN_AI_CHAT" desc="Label for opening Leo AI chat site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_BRAVE_OPEN_AI_CHAT" desc="Label for opening Leo AI chat site settings.">
     Leo AI chat
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_iBrowe_OPEN_AI_CHAT_ASK" desc="Label for the enabled option of opening Leo AI chat site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_BRAVE_OPEN_AI_CHAT_ASK" desc="Label for the enabled option of opening Leo AI chat site settings.">
     Sites can ask to open Leo AI chat
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_iBrowe_OPEN_AI_CHAT_BLOCK" desc="Label for the disabled option of opening Leo AI chat site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_BRAVE_OPEN_AI_CHAT_BLOCK" desc="Label for the disabled option of opening Leo AI chat site settings.">
     Don't allow site to open Leo AI chat
   </message>
 
   <!-- Settings / Sync -->
-  <message name="IDS_SETTINGS_iBrowe_SYNC_TITLE" desc="The title for iBrowe Sync in settings">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for iBrowe Sync in settings">
     Sync
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_SETUP_ACTION_LABEL" desc="iBrowe Sync setup action label">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_ACTION_LABEL" desc="iBrowe Sync setup action label">
     Start using sync
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_SETUP_TITLE" desc="Title for the iBrowe Sync settings setup section">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_TITLE" desc="Title for the iBrowe Sync settings setup section">
     Sync Setup
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_SETUP_SUBTITLE" desc="Subtitle for the iBrowe Sync settings setup section">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_SUBTITLE" desc="Subtitle for the iBrowe Sync settings setup section">
     To start, you will need iBrowe installed on all the devices you plan to sync. Then, securely link them together with a sync code.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_MANAGE_ACTION_LABEL" desc="iBrowe Sync manage action label">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGE_ACTION_LABEL" desc="iBrowe Sync manage action label">
     Manage your synced devices
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_COULD_NOT_SYNC_ACTION_LABEL" desc="Could not sync devices action label. It is displayed in the case when iBrowe Sync could not decrypt code words and start work">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_COULD_NOT_SYNC_ACTION_LABEL" desc="Could not sync devices action label. It is displayed in the case when iBrowe Sync could not decrypt code words and start work">
     Could not sync iBrowe on your devices
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_MANAGER_TITLE" desc="iBrowe Sync manager title">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGER_TITLE" desc="iBrowe Sync manager title">
     Sync Manager
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_SETTINGS_TITLE" desc="iBrowe Sync settings title">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_TITLE" desc="iBrowe Sync settings title">
     Sync Settings
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_SETTINGS_SUBTITLE" desc="iBrowe Sync settings subtitle">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_SUBTITLE" desc="iBrowe Sync settings subtitle">
     Manage what information you would like to sync between devices. These settings only affect this device.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_DEVICE_LIST_TITLE" desc="iBrowe Sync device list title">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_TITLE" desc="iBrowe Sync device list title">
     Device List
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_DEVICE_LIST_SUBTITLE" desc="iBrowe Sync device list subtitle">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_SUBTITLE" desc="iBrowe Sync device list subtitle">
     The device list below includes all devices in your sync chain. Each device can be managed from any other device.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_DEVICE_LIST_NAME_COLUMN" desc="iBrowe Sync device list table column title for device name">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_COLUMN" desc="iBrowe Sync device list table column title for device name">
     Device Name
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_DEVICE_LIST_NAME_THIS_DEVICE" desc="iBrowe Sync device list label for device which is the device the user is currently using">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_THIS_DEVICE" desc="iBrowe Sync device list label for device which is the device the user is currently using">
     <ph name="DEVICE_NAME">$1<ex>my-computer-1</ex></ph> (This Device)
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_DEVICE_LIST_LAST_ACTIVE_COLUMN" desc="iBrowe Sync device list table column title for last active date">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_LAST_ACTIVE_COLUMN" desc="iBrowe Sync device list table column title for last active date">
     Last Active
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_DEVICE_LIST_REMOVE_COLUMN" desc="iBrowe Sync device list table column title for remove other device buttons">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_REMOVE_COLUMN" desc="iBrowe Sync device list table column title for remove other device buttons">
     Remove
   </message>
-  <message name="IDS_iBrowe_SYNC_SETUP_TITLE" desc="The iBrowe Sync title.">
+  <message name="IDS_BRAVE_SYNC_SETUP_TITLE" desc="The iBrowe Sync title.">
     Sync Setup
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_WORD_COUNT" desc="Text for iBrowe Sync word count message.">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_WORD_COUNT" desc="Text for iBrowe Sync word count message.">
     Word count: <ph name="WORD_COUNT">$1<ex>24</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_COPIED_TEXT" desc="The success state telling the user that a secret code was copied to the clipboard">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_COPIED_TEXT" desc="The success state telling the user that a secret code was copied to the clipboard">
     Copied!
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_QR_IMAGE_ALT" desc="The description of the QR image, for accessibility and screen readers.">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_QR_IMAGE_ALT" desc="The description of the QR image, for accessibility and screen readers.">
     A QR code to be scanned with a mobile device in order to transmit your sync code
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SYNC_QR_ERROR" desc="The message to be displayed when there is an error generating a QR code of the sync password">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_QR_ERROR" desc="The message to be displayed when there is an error generating a QR code of the sync password">
     There was an error displaying the QR code, please refresh and try again.
   </message>
-  <message name="IDS_iBrowe_SYNC_SETUP_DESCRIPTION" desc="The Sync phrase explaining what happens when you start a new sync chain. Appears when sync is disabled.">
+  <message name="IDS_BRAVE_SYNC_SETUP_DESCRIPTION" desc="The Sync phrase explaining what happens when you start a new sync chain. Appears when sync is disabled.">
     To start, you will need iBrowe installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.
   </message>
-  <message name="IDS_iBrowe_SYNC_START_NEW_CHAIN_BUTTON" desc="The Sync button that triggers a modal to start a new sync chian">
+  <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN_BUTTON" desc="The Sync button that triggers a modal to start a new sync chian">
     Start a new Sync Chain
   </message>
-  <message name="IDS_iBrowe_SYNC_ENTER_CODE_BUTTON" desc="The Sync button that triggers a modal asking for the sync chain code passphrase">
+  <message name="IDS_BRAVE_SYNC_ENTER_CODE_BUTTON" desc="The Sync button that triggers a modal asking for the sync chain code passphrase">
     I have a Sync Code
   </message>
-  <message name="IDS_iBrowe_SYNC_VIEW_CODE_BUTTON" desc="The Sync button `view sync code` for viewing the passphrase and qr code needed to add a new device. triggers a modal with sync code">
+  <message name="IDS_BRAVE_SYNC_VIEW_CODE_BUTTON" desc="The Sync button `view sync code` for viewing the passphrase and qr code needed to add a new device. triggers a modal with sync code">
     View Sync Code
   </message>
-  <message name="IDS_iBrowe_SYNC_CHOOSE_DEVICE_MOBILE_TITLE" desc="The Sync Phone/tablet word below the phone/tablet image. Appears in the `choose device type` modal">
+  <message name="IDS_BRAVE_SYNC_CHOOSE_DEVICE_MOBILE_TITLE" desc="The Sync Phone/tablet word below the phone/tablet image. Appears in the `choose device type` modal">
     Phone/Tablet
   </message>
-  <message name="IDS_iBrowe_SYNC_CHOOSE_DEVICE_COMPUTER_TITLE" desc="The Sync Computer word below the computer image. Appears in the `choose device type` modal">
+  <message name="IDS_BRAVE_SYNC_CHOOSE_DEVICE_COMPUTER_TITLE" desc="The Sync Computer word below the computer image. Appears in the `choose device type` modal">
     Computer
   </message>
-  <message name="IDS_iBrowe_SYNC_SCAN_CODE_TITLE" desc="The Sync title for the `scan sync code` modal">
+  <message name="IDS_BRAVE_SYNC_SCAN_CODE_TITLE" desc="The Sync title for the `scan sync code` modal">
     Sync Chain QR Code
   </message>
-  <message name="IDS_iBrowe_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `scan sync code` modal partial phrase (1)">
+  <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `scan sync code` modal partial phrase (1)">
     On your mobile device, navigate to iBrowe Sync in the Settings panel and click the button
   </message>
-  <message name="IDS_iBrowe_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `scan sync code` modal partial phrase (2)">
+  <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `scan sync code` modal partial phrase (2)">
     “Scan Sync Code”.
   </message>
-  <message name="IDS_iBrowe_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_3" desc="The Sync instructions for the `scan sync code` modal partial phrase (3)">
+  <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_3" desc="The Sync instructions for the `scan sync code` modal partial phrase (3)">
     Use your camera to scan the QR Code below.
   </message>
-  <message name="IDS_iBrowe_SYNC_VIEW_CODE_TITLE" desc="The Sync title for the `view sync code` modal">
+  <message name="IDS_BRAVE_SYNC_VIEW_CODE_TITLE" desc="The Sync title for the `view sync code` modal">
     Sync Chain Code
   </message>
-  <message name="IDS_iBrowe_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `view sync code` modal partial phrase (1)">
+  <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `view sync code` modal partial phrase (1)">
     On your target computer, navigate to iBrowe Sync in settings and click the button
   </message>
-  <message name="IDS_iBrowe_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `view sync code` modal partial phrase (2)">
+  <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `view sync code` modal partial phrase (2)">
     “I have a Sync Code”.
   </message>
-  <message name="IDS_iBrowe_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_3" desc="The Sync instructions for the `view sync code` modal partial phrase (3)">
+  <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_3" desc="The Sync instructions for the `view sync code` modal partial phrase (3)">
     Enter the sync chain code words shown below.
   </message>
-  <message name="IDS_iBrowe_SYNC_CODE_WARNING" desc="The warning for the user to keep their sync code private and secure.">
+  <message name="IDS_BRAVE_SYNC_CODE_WARNING" desc="The warning for the user to keep their sync code private and secure.">
     Treat this code like a password. If someone gets ahold of it, they can read and modify your synced data.
   </message>
-  <message name="IDS_iBrowe_SYNC_VIEW_CODE_QR_CODE_BUTTON" desc="The Sync description suggesting where to go with the current sync code">
+  <message name="IDS_BRAVE_SYNC_VIEW_CODE_QR_CODE_BUTTON" desc="The Sync description suggesting where to go with the current sync code">
     View QR Code
   </message>
-  <message name="IDS_iBrowe_SYNC_ENTER_CODE_TITLE" desc="The Sync modal title for `enter sync code`">
+  <message name="IDS_BRAVE_SYNC_ENTER_CODE_TITLE" desc="The Sync modal title for `enter sync code`">
     Enter a sync code
   </message>
-  <message name="IDS_iBrowe_SYNC_ENTER_CODE_DESCRIPTION" desc="The Sync modal text for `enter sync code`">
+  <message name="IDS_BRAVE_SYNC_ENTER_CODE_DESCRIPTION" desc="The Sync modal text for `enter sync code`">
     Enter your sync chain passphrase below.
   </message>
-  <message name="IDS_iBrowe_SYNC_ADD_DEVICE_BUTTON" desc="The Sync button `add device` for adding a new device to the sync chain. triggers a modal with device options">
+  <message name="IDS_BRAVE_SYNC_ADD_DEVICE_BUTTON" desc="The Sync button `add device` for adding a new device to the sync chain. triggers a modal with device options">
     Add New Device
   </message>
-  <message name="IDS_iBrowe_SYNC_CHOOSE_DEVICE_TITLE" desc="The Sync title to sync a new device. Appears in the `choose device type` modal">
+  <message name="IDS_BRAVE_SYNC_CHOOSE_DEVICE_TITLE" desc="The Sync title to sync a new device. Appears in the `choose device type` modal">
     Choose Device Type
   </message>
-  <message name="IDS_iBrowe_SYNC_CHOOSE_DEVICE_DESCRIPTION" desc="The Sync title to select which device to sync. Appears in the `choose device type` modal">
+  <message name="IDS_BRAVE_SYNC_CHOOSE_DEVICE_DESCRIPTION" desc="The Sync title to select which device to sync. Appears in the `choose device type` modal">
     Which type of device would you like to sync to?
   </message>
-  <message name="IDS_iBrowe_SYNC_INVALID_SYNC_CODE_TITLE" desc="Error message in dialog for when sync words are invalid (title)">
+  <message name="IDS_BRAVE_SYNC_INVALID_SYNC_CODE_TITLE" desc="Error message in dialog for when sync words are invalid (title)">
     Invalid sync code, please check and try again.
   </message>
-  <message name="IDS_iBrowe_SYNC_CODE_INVALID" desc="Text for general sync setup error.">
+  <message name="IDS_BRAVE_SYNC_CODE_INVALID" desc="Text for general sync setup error.">
     This code is invalid
   </message>
-  <message name="IDS_iBrowe_SYNC_CODE_EMPTY" desc="Text for empty sync setup code provided error.">
+  <message name="IDS_BRAVE_SYNC_CODE_EMPTY" desc="Text for empty sync setup code provided error.">
     This code is empty
   </message>
-  <message name="IDS_iBrowe_SYNC_INTERNAL_SETUP_ERROR" desc="Text for rarely occured sync setup error.">
+  <message name="IDS_BRAVE_SYNC_INTERNAL_SETUP_ERROR" desc="Text for rarely occured sync setup error.">
     Internal sync setup error
   </message>
-  <message name="IDS_iBrowe_SYNC_INTERNAL_ACCOUNT_DELETE_ERROR" desc="Text for rarely occured permanently delete sync account error.">
+  <message name="IDS_BRAVE_SYNC_INTERNAL_ACCOUNT_DELETE_ERROR" desc="Text for rarely occured permanently delete sync account error.">
     Internal account delete error
   </message>
-  <message name="IDS_iBrowe_SYNC_CODE_FROM_DEPRECATED_VERSION" desc="Text for error when trying to use old version sync code after v1 sunset date.">
+  <message name="IDS_BRAVE_SYNC_CODE_FROM_DEPRECATED_VERSION" desc="Text for error when trying to use old version sync code after v1 sunset date.">
     This code was generated by a deprecated version of iBrowe, please upgrade your other device first
   </message>
-  <message name="IDS_iBrowe_SYNC_CODE_EXPIRED" desc="Text for error when trying to use the sync code which has expired.">
+  <message name="IDS_BRAVE_SYNC_CODE_EXPIRED" desc="Text for error when trying to use the sync code which has expired.">
     This code has expired. Please generate a new one on your other device and try again.
   </message>
-  <message name="IDS_iBrowe_SYNC_CODE_VALID_FOR_TOO_LONG" desc="Text for error when trying to use the sync code which is valid till the time too far in the future.">
+  <message name="IDS_BRAVE_SYNC_CODE_VALID_FOR_TOO_LONG" desc="Text for error when trying to use the sync code which is valid till the time too far in the future.">
     This code is invalid. Please check that the time and timezone are set correctly on your device.
   </message>
-  <message name="IDS_iBrowe_SYNC_RESET_BUTTON" desc="The Sync button that opens a modal to leave the current sync chain">
+  <message name="IDS_BRAVE_SYNC_RESET_BUTTON" desc="The Sync button that opens a modal to leave the current sync chain">
     Leave Sync Chain
   </message>
-  <message name="IDS_iBrowe_SYNC_RESET_CONFIRMATION" desc="Confirmation message prompt to make sure the user is ok with leaving sync">
+  <message name="IDS_BRAVE_SYNC_RESET_CONFIRMATION" desc="Confirmation message prompt to make sure the user is ok with leaving sync">
     If you reset Sync, you will have to re-enter a sync code from another device in order to sync with it. Are you sure you want to proceed?
   </message>
-  <message name="IDS_iBrowe_SYNC_DELETE_DEVICE_CONFIRMATION" desc="Confirmation message prompt to make sure the user is ok to delete other device from the chain">
+  <message name="IDS_BRAVE_SYNC_DELETE_DEVICE_CONFIRMATION" desc="Confirmation message prompt to make sure the user is ok to delete other device from the chain">
     Are you sure you want to remove the selected device from the sync chain?
   </message>
-  <message name="IDS_iBrowe_SYNC_FINAL_SECURITY_WARNING_TEXT" desc="Confirmation message prompt to make sure the user aware his data will be shared with other devices in chain">
+  <message name="IDS_BRAVE_SYNC_FINAL_SECURITY_WARNING_TEXT" desc="Confirmation message prompt to make sure the user aware his data will be shared with other devices in chain">
     Warning: this will share your iBrowe data, including potentially your passwords, with the device that generated these code words.
 
     Please double check that these code words were generated by a device that you own.
 
     Are you sure you want to do this?
   </message>
-  <message name="IDS_iBrowe_SYNC_PASSPHRASE_DECRYPTION_ERROR_MESSAGE" desc="Warning message that informs user about iBrowe Sync is not running and browser needs to have access to secure OS passwords store">
+  <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_ERROR_MESSAGE" desc="Warning message that informs user about iBrowe Sync is not running and browser needs to have access to secure OS passwords store">
     iBrowe could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for iBrowe Sync to connect your browser profile between devices. This means iBrowe Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>iBrowe Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
   </message>
-  <message name="IDS_iBrowe_SYNC_PASSPHRASE_DECRYPTION_SS_UNLOCKED_ERROR_MESSAGE" desc="Warning">
+  <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_SS_UNLOCKED_ERROR_MESSAGE" desc="Warning">
     It looks like the sync encryption key is different from the one used when you first set up iBrowe Sync. The easiest fix here is to reset and re-join the sync chain using the passphrase from one of your other synced devices.
   </message>
-  <message name="IDS_iBrowe_SYNC_LEAVE_AND_REJOIN_THE_CHAIN_BUTTON" desc="Button which does reset the sync and offers to re-join the sync chain">
+  <message name="IDS_BRAVE_SYNC_LEAVE_AND_REJOIN_THE_CHAIN_BUTTON" desc="Button which does reset the sync and offers to re-join the sync chain">
     Reset and re-join sync chain
   </message>
-  <message name="IDS_iBrowe_DELETE_SYNC_ACCOUNT_BUTTON_AND_DIALOG_TITLE" desc="The button that opens Permanently delete account confirmation dialog. Also this string is the dialog title">
+  <message name="IDS_BRAVE_DELETE_SYNC_ACCOUNT_BUTTON_AND_DIALOG_TITLE" desc="The button that opens Permanently delete account confirmation dialog. Also this string is the dialog title">
     Delete Sync account
   </message>
-  <message name="IDS_iBrowe_SYNC_PERMANENTLY_DELETE_ACCOUNT_BUTTON" desc="The Sync button that leads to permanently delete Sync account">
+  <message name="IDS_BRAVE_SYNC_PERMANENTLY_DELETE_ACCOUNT_BUTTON" desc="The Sync button that leads to permanently delete Sync account">
     Permanently delete account
   </message>
-  <message name="IDS_iBrowe_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_1" desc="">
+  <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_1" desc="">
     Deleting your account will remove your encrypted data from iBrowe servers and disable Sync on all of your connected devices.
   </message>
-  <message name="IDS_iBrowe_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_2" desc="">
+  <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_2" desc="">
     It will not however delete the data that is stored locally on those devices.
   </message>
-  <message name="IDS_iBrowe_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_3" desc="">
+  <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_3" desc="">
     This deletion is permanent and there is no way to recover the data. Should you decide to
     start using Sync again, you will need to create a new account and re-add each device one by one.
   </message>
-  <message name="IDS_iBrowe_SYNC_PERMANENTLY_DELETE_ACCOUNT_IN_PROGRESS" desc="The string which indicates that Sync account deletion happens now">
+  <message name="IDS_BRAVE_SYNC_PERMANENTLY_DELETE_ACCOUNT_IN_PROGRESS" desc="The string which indicates that Sync account deletion happens now">
     Account deletion is in progress...
   </message>
-  <message name="IDS_iBrowe_SYNC_JOINING_DELETED_ACCOUNT" desc="The error text for the case when trying to connect to the permanently deleted chain">
+  <message name="IDS_BRAVE_SYNC_JOINING_DELETED_ACCOUNT" desc="The error text for the case when trying to connect to the permanently deleted chain">
     Could not join this sync chain. The sync chain was deleted.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_AUTOFILL_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing autofill settings between multiple browser instances.">
+  <message name="IDS_SETTINGS_BRAVE_AUTOFILL_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing autofill settings between multiple browser instances.">
     Phone numbers, emails, and addresses
   </message>
-  <message name="IDS_SETTINGS_iBrowe_APPS_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing apps between multiple browser instances.">
+  <message name="IDS_SETTINGS_BRAVE_APPS_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing apps between multiple browser instances.">
     Web apps (PWAs)
   </message>
-  <message name="IDS_SETTINGS_iBrowe_PASSWORDS_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing passwords between multiple browser instances.">
+  <message name="IDS_SETTINGS_BRAVE_PASSWORDS_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing passwords between multiple browser instances.">
     Passwords
   </message>
 
   <!-- Settings / Search engine -->
-  <message name="IDS_SETTINGS_iBrowe_SEARCH_ENGINES_SEARCH_SUGGEST_LABEL" desc="The label of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
+  <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_LABEL" desc="The label of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
     Show search suggestions
   </message>
-  <message name="IDS_SETTINGS_iBrowe_SEARCH_ENGINES_SEARCH_SUGGEST_DESC" desc="The desc of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
+  <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_DESC" desc="The desc of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
     When you type in the address bar or search box, iBrowe sends what you type to your default search engine to get better suggestions. This is not available in private windows.
   </message>
-  <message name="IDS_SETTINGS_iBrowe_OTHER_SEARCH_ENGINES_LABEL" desc="The label for the settings switch controlling the addition of custom search engines">
+  <message name="IDS_SETTINGS_BRAVE_OTHER_SEARCH_ENGINES_LABEL" desc="The label for the settings switch controlling the addition of custom search engines">
     Index other search engines
   </message>
-  <message name="IDS_SETTINGS_iBrowe_OTHER_SEARCH_ENGINES_DESC" desc="The description for the settings switch controlling the addition of custom search engines">
+  <message name="IDS_SETTINGS_BRAVE_OTHER_SEARCH_ENGINES_DESC" desc="The description for the settings switch controlling the addition of custom search engines">
     Automatically indexes websites that follow the OpenSearch spec.
   </message>
   <message name="IDS_SETTINGS_NORMAL_PROFILE_SEARCH_EXPLANATION" desc="Explanation for the search engine setting.">
@@ -1133,7 +1133,7 @@
   </message>
 
   <!-- Settings / Extensions -->
-  <message name="IDS_SETTINGS_iBrowe_DEFAULT_EXTENSIONS_TITLE" desc="The title for iBrowe default extensions in settings">
+  <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for iBrowe default extensions in settings">
     Extensions
   </message>
   <message name="IDS_SETTINGS_GOOGLE_LOGIN_FOR_EXTENSIONS" desc="Label for a switch control which allows Google login for extension">
@@ -1280,10 +1280,10 @@
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_LABEL" desc="The label of manage extensions link in settings">
     Manage extensions
   </message>
-  <message name="IDS_iBrowe_SETTINGS_GET_MORE_EXTENSIONS_LABEL" desc="The label of get more extensions link in settings">
+  <message name="IDS_BRAVE_SETTINGS_GET_MORE_EXTENSIONS_LABEL" desc="The label of get more extensions link in settings">
     Get more extensions
   </message>
-  <message name="IDS_iBrowe_SETTINGS_GET_MORE_EXTENSIONS_SUBLABEL" desc="The sub-label of get more extensions link in settings">
+  <message name="IDS_BRAVE_SETTINGS_GET_MORE_EXTENSIONS_SUBLABEL" desc="The sub-label of get more extensions link in settings">
     Open Web Store
   </message>
 
@@ -1294,19 +1294,19 @@
   <message name="IDS_SETTINGS_DEFAULT_SOLANA_WALLET_DESC" desc="The default cryptocurrency wallet for the Solana blockchain">
     Default Solana wallet
   </message>
-  <message name="IDS_iBrowe_WALLET_WEB3_PROVIDER_iBrowe" desc="Select control value for which web3 provider to use">
+  <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_BRAVE" desc="Select control value for which web3 provider to use">
     iBrowe Wallet
   </message>
-  <message name="IDS_iBrowe_WALLET_WEB3_PROVIDER_ASK" desc="Select control value for which web3 provider to use">
+  <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_ASK" desc="Select control value for which web3 provider to use">
     Ask
   </message>
-  <message name="IDS_iBrowe_WALLET_WEB3_PROVIDER_NONE" desc="Select control value for which web3 provider to use">
+  <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_NONE" desc="Select control value for which web3 provider to use">
     Extensions (no fallback)
   </message>
-  <message name="IDS_iBrowe_WALLET_WEB3_PROVIDER_CRYPTO_WALLETS_DEPRECATED" desc="Select control value for which web3 provider to use">
+  <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_CRYPTO_WALLETS_DEPRECATED" desc="Select control value for which web3 provider to use">
     Crypto Wallets (Deprecated)
   </message>
-  <message name="IDS_iBrowe_WALLET_WEB3_PROVIDER_iBrowe_PREFER_EXTENSIONS" desc="Select control value for which web3 provider to use">
+  <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_BRAVE_PREFER_EXTENSIONS" desc="Select control value for which web3 provider to use">
     Extensions (iBrowe Wallet fallback)
   </message>
   <message name="IDS_SETTINGS_DEFAULT_BASE_CURRENCY_DESC" desc="The default base currency to use for the wallet prices">
@@ -1315,7 +1315,7 @@
   <message name="IDS_SETTINGS_DEFAULT_BASE_CRYPTOCURRENCY_DESC" desc="The default base cryptocurrency to use for the wallet prices">
     Default base cryptocurrency
   </message>
-  <message name="IDS_SETTINGS_SHOW_iBrowe_WALLET_ICON_ON_TOOLBAR" desc="The description for showing the iBrowe wallet panel icon on the toolbar">
+  <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_ICON_ON_TOOLBAR" desc="The description for showing the iBrowe wallet panel icon on the toolbar">
     Show iBrowe Wallet button
   </message>
   <message name="IDS_SETTINGS_ENABLE_NFT_DISCOVERY_LABEL" desc="The label for enabling NFT discovery">
@@ -1324,10 +1324,10 @@
   <message name="IDS_SETTINGS_ENABLE_NFT_DISCOVERY_DESC" desc="The description for enabling NFT discovery">
     Automatically add NFTs you own to the Wallet using third party APIs.
   </message>
-  <message name="IDS_SETTINGS_ENABLE_iBrowe_WALLET_IN_PRIVATE_WINDOWS_LABEL" desc="The label for enabling private window support">
+  <message name="IDS_SETTINGS_ENABLE_BRAVE_WALLET_IN_PRIVATE_WINDOWS_LABEL" desc="The label for enabling private window support">
     Enable iBrowe Wallet in Private Windows.
   </message>
-  <message name="IDS_SETTINGS_ENABLE_iBrowe_WALLET_IN_PRIVATE_WINDOWS_DESC" desc="The description for enabling private window support">
+  <message name="IDS_SETTINGS_ENABLE_BRAVE_WALLET_IN_PRIVATE_WINDOWS_DESC" desc="The description for enabling private window support">
     Warning: Reusing a wallet address in a private window session can enable a site to link a private window session to a non-private window session.
   </message>
   <message name="IDS_SETTINGS_AUTO_LOCK_MINUTES" desc="The title for the amount of minutes it takes for the iBrowe Wallet to automatically lock">
@@ -1363,7 +1363,7 @@
   <message name="IDS_SETTINGS_WALLET_RESET_CONFIRMATION_PHRASE" desc="The phrase users should type to reset wallet">
     Yes
   </message>
-  <message name="IDS_iBrowe_WALLET_TRANSACTION_SIMULATIONS_DESC" desc="The description for the user's opt-in status of the transaction simulations service">
+  <message name="IDS_BRAVE_WALLET_TRANSACTION_SIMULATIONS_DESC" desc="The description for the user's opt-in status of the transaction simulations service">
     See the results of transactions before you sign. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>&lt;u&gt;Learn more&lt;/u&gt;<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
@@ -1383,7 +1383,7 @@
   <message name="IDS_SETTINGS_WALLET_ZEC_NETWORK_LIST_TITLE" desc="The title of the list with wallet Zcash networks">
     Zcash networks
   </message>
-  <message name="IDS_SETTINGS_SHOW_iBrowe_WALLET_TEST_NETWORKS" desc="The description for showing the iBrowe wallet test networks">
+  <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_TEST_NETWORKS" desc="The description for showing the iBrowe wallet test networks">
     Show test networks
   </message>
 
@@ -1480,10 +1480,10 @@
   </message>
 
   <!-- Settings / Content -->
-  <message name="IDS_SETTINGS_iBrowe_MRU_CYCLING_LABEL" desc="The label to activate MRU cycling with Ctrl-tab">
+  <message name="IDS_SETTINGS_BRAVE_MRU_CYCLING_LABEL" desc="The label to activate MRU cycling with Ctrl-tab">
     Cycle through the most recently used tabs with Ctrl-Tab
   </message>
-  <message name="IDS_SETTINGS_SHOW_iBrowe_WAYBACK_MACHINE_PROMPT" desc="The label describing the 'wayback machine' toggle option">
+  <message name="IDS_SETTINGS_SHOW_BRAVE_WAYBACK_MACHINE_PROMPT" desc="The label describing the 'wayback machine' toggle option">
     Show Wayback Machine prompt on 404 pages
   </message>
 
@@ -1608,7 +1608,7 @@ Leo AI. This action can't be undone.
     The address you entered appears to be from a private network—like your router or a local server. iBrowe blocks these automatically to keep you safe, but you can enable them if you're confident it's secure.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PRIVATE_IP_NOT_ALLOWED_INSTRUCTIONS" desc="Instructions on how to enable private IPs">
-    To proceed, visit iBrowe://flags/, search for "iBrowe-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
+    To proceed, visit brave://flags/, search for "brave-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_NEW_BUTTON_LABEL" desc="A label for a button that opens a panel with input forms for a user to add model">
     Add new model
@@ -1666,114 +1666,114 @@ Leo AI. This action can't be undone.
 
 <!-- Avatars. Generated via zsh and node:
         declare -i a=56
-        for file in $(cat < avatarlist); do node -e "console.log(\`<message name=\"IDS_iBrowe_AVATAR_LABEL_$a\" desc=\"The label for the $file avatar.\">
+        for file in $(cat < avatarlist); do node -e "console.log(\`<message name=\"IDS_BRAVE_AVATAR_LABEL_$a\" desc=\"The label for the $file avatar.\">
     \${\`$file\`.split('_').map(w => w[0].toUpperCase() + w.substr(1)).join(' ').replace('.png', '')}
 </message>\`)"; a=a+1; done | pbcopy
       -->
-  <message name="IDS_iBrowe_AVATAR_LABEL_PLACEHOLDER" desc="The label for the avatar_edgy_rewards.png avatar.">
+  <message name="IDS_BRAVE_AVATAR_LABEL_PLACEHOLDER" desc="The label for the avatar_edgy_rewards.png avatar.">
     Avatar Edgy Rewards
   </message>
   <if expr="not is_android">
-    <message name="IDS_iBrowe_AVATAR_LABEL_56" desc="The label for the avatar_edgy_iBrowe.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_brave.png avatar.">
       Avatar Edgy iBrowe
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
       Avatar Edgy Ocean
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_58" desc="The label for the avatar_edgy_grass.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_58" desc="The label for the avatar_edgy_grass.png avatar.">
       Avatar Edgy Grass
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_59" desc="The label for the avatar_edgy_corn.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_59" desc="The label for the avatar_edgy_corn.png avatar.">
       Avatar Edgy Corn
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_60" desc="The label for the avatar_edgy_royal.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_60" desc="The label for the avatar_edgy_royal.png avatar.">
       Avatar Edgy Royal
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_61" desc="The label for the avatar_edgy_ninja.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_61" desc="The label for the avatar_edgy_ninja.png avatar.">
       Avatar Edgy Ninja
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_62" desc="The label for the avatar_paladin_rewards.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_62" desc="The label for the avatar_paladin_rewards.png avatar.">
       Avatar Paladin Rewards
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_63" desc="The label for the avatar_paladin_iBrowe.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_brave.png avatar.">
       Avatar Paladin iBrowe
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
       Avatar Paladin Ocean
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_65" desc="The label for the avatar_paladin_grass.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_65" desc="The label for the avatar_paladin_grass.png avatar.">
       Avatar Paladin Grass
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_66" desc="The label for the avatar_paladin_corn.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_66" desc="The label for the avatar_paladin_corn.png avatar.">
       Avatar Paladin Corn
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_67" desc="The label for the avatar_paladin_royal.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_67" desc="The label for the avatar_paladin_royal.png avatar.">
       Avatar Paladin Royal
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_68" desc="The label for the avatar_paladin_ninja.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_68" desc="The label for the avatar_paladin_ninja.png avatar.">
       Avatar Paladin Ninja
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_69" desc="The label for the avatar_gleam_rewards.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_69" desc="The label for the avatar_gleam_rewards.png avatar.">
       Avatar Gleam Rewards
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_70" desc="The label for the avatar_gleam_iBrowe.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_brave.png avatar.">
       Avatar Gleam iBrowe
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
       Avatar Gleam Ocean
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_72" desc="The label for the avatar_gleam_grass.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_72" desc="The label for the avatar_gleam_grass.png avatar.">
       Avatar Gleam Grass
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_73" desc="The label for the avatar_gleam_corn.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_73" desc="The label for the avatar_gleam_corn.png avatar.">
       Avatar Gleam Corn
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_74" desc="The label for the avatar_gleam_royal.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_74" desc="The label for the avatar_gleam_royal.png avatar.">
       Avatar Gleam Royal
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_75" desc="The label for the avatar_gleam_ninja.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_75" desc="The label for the avatar_gleam_ninja.png avatar.">
       Avatar Gleam Ninja
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_76" desc="The label for the avatar_oval_rewards.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_76" desc="The label for the avatar_oval_rewards.png avatar.">
       Avatar Oval Rewards
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_77" desc="The label for the avatar_oval_iBrowe.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_brave.png avatar.">
       Avatar Oval iBrowe
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
       Avatar Oval Ocean
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_79" desc="The label for the avatar_oval_grass.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_79" desc="The label for the avatar_oval_grass.png avatar.">
       Avatar Oval Grass
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_80" desc="The label for the avatar_oval_corn.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_80" desc="The label for the avatar_oval_corn.png avatar.">
       Avatar Oval Corn
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_81" desc="The label for the avatar_oval_royal.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_81" desc="The label for the avatar_oval_royal.png avatar.">
       Avatar Oval Royal
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_82" desc="The label for the avatar_oval_ninja.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_82" desc="The label for the avatar_oval_ninja.png avatar.">
       Avatar Oval Ninja
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_83" desc="The label for the avatar_bonbon_rewards.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_83" desc="The label for the avatar_bonbon_rewards.png avatar.">
       Avatar Bonbon Rewards
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_iBrowe.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_brave.png avatar.">
       Avatar Bonbon iBrowe
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
       Avatar Bonbon Ocean
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_86" desc="The label for the avatar_bonbon_grass.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_86" desc="The label for the avatar_bonbon_grass.png avatar.">
       Avatar Bonbon Grass
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_87" desc="The label for the avatar_bonbon_corn.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_87" desc="The label for the avatar_bonbon_corn.png avatar.">
       Avatar Bonbon Corn
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_88" desc="The label for the avatar_bonbon_royal.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_88" desc="The label for the avatar_bonbon_royal.png avatar.">
       Avatar Bonbon Royal
     </message>
-    <message name="IDS_iBrowe_AVATAR_LABEL_89" desc="The label for the avatar_bonbon_ninja.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_89" desc="The label for the avatar_bonbon_ninja.png avatar.">
       Avatar Bonbon Ninja
     </message>
   </if>

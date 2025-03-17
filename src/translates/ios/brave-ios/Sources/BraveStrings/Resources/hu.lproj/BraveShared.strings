@@ -2,10 +2,10 @@
 "About" = "Névjegy";
 
 /* The title of the screen explaining iBrowe Shields */
-"AboutiBroweShields" = "Bővebben a iBrowe Shieldsről";
+"AboutBraveShields" = "Bővebben a iBrowe Shieldsről";
 
 /* The body of the screen explaining iBrowe Shields */
-"AboutiBroweShieldsBody" = "A webhelyek gyakran tartalmaznak cookie-kat és szkripteket, amelyek megpróbálják azonosítani Önt és eszközét. Ki akarják deríteni, hogy Ön kicsoda, és követni akarják Önt az interneten – minden webhelyen nyomon követik, mit csinál.\n\nA iBrowe letiltja ezeket a dolgokat, így anélkül böngészhet, hogy követnék.";
+"AboutBraveShieldsBody" = "A webhelyek gyakran tartalmaznak cookie-kat és szkripteket, amelyek megpróbálják azonosítani Önt és eszközét. Ki akarják deríteni, hogy Ön kicsoda, és követni akarják Önt az interneten – minden webhelyen nyomon követik, mit csinál.\n\nA iBrowe letiltja ezeket a dolgokat, így anélkül böngészhet, hogy követnék.";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "Ez lehetővé teszi a kép elmentését a kamerafotók közé.";
@@ -29,7 +29,7 @@
 "AddToMenuItem" = "Könyvjelző hozzáadása";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.iBroweAdsDataToggleOption" = "iBrowe hirdetések adatai";
+"ads.braveAdsDataToggleOption" = "iBrowe hirdetések adatai";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Hirdetések és követők";
@@ -98,7 +98,7 @@
 "BlockCookieConsentNotices" = "Cookie-kkal kapcsolatos hozzájárulási értesítések letiltása";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Megakadályozza, hogy a webhelyek információkat rögzítsenek az Ön korábbi látogatásairól. Az „Összes süti blokkolása” opciót már nem használjuk. Ha szeretné megtudni, hogyan lehet újra aktiválni ezt az opciót, keresse fel [súgóoldalunkat] (https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting). l";
+"BlockCookiesDescription" = "Megakadályozza, hogy a webhelyek információkat rögzítsenek az Ön korábbi látogatásairól. Az „Összes süti blokkolása” opciót már nem használjuk. Ha szeretné megtudni, hogyan lehet újra aktiválni ezt az opciót, keresse fel [súgóoldalunkat] (https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting). l";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Blokkolásfigyelő";
@@ -142,110 +142,110 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Cím";
 
-/* Button to show the iBrowe panel */
-"iBrowePanel" = "iBrowe panel";
+/* Button to show the brave panel */
+"BravePanel" = "iBrowe panel";
 
 /* No comment provided by engineer. */
-"iBroweRewardsAdNotificationTitle" = "iBrowe jutalmak";
+"BraveRewardsAdNotificationTitle" = "iBrowe jutalmak";
 
 /* No comment provided by engineer. */
-"iBroweRewardsOpen" = "Megnyitás";
+"BraveRewardsOpen" = "Megnyitás";
 
 /* iBrowe Rewards title in settings */
-"iBroweRewardsSettingsTitle" = "Jutalmak";
+"BraveRewardsSettingsTitle" = "Jutalmak";
 
 /* iBrowe Rewards title */
-"iBroweRewardsTitle" = "iBrowe jutalmak";
+"BraveRewardsTitle" = "iBrowe jutalmak";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"iBroweSearchPromotion.bannerDescription" = "A iBrowe Keresés nem készít Önről profilt.";
+"braveSearchPromotion.bannerDescription" = "A iBrowe Keresés nem készít Önről profilt.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Talán később";
+"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Talán később";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"iBroweSearchPromotion.bannerTitle" = "Támogassa a független és fokozott adatvédelmet nyújtó keresőket";
+"braveSearchPromotion.bannerTitle" = "Támogassa a független és fokozott adatvédelmet nyújtó keresőket";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"iBroweSearchPromotion.bannerTryButtonTitle" = "A iBrowe kereső kipróbálása";
+"braveSearchPromotion.bannerTryButtonTitle" = "A iBrowe kereső kipróbálása";
 
 /* Button title for Bottom Bar Callout View for action later */
-"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Talán később";
+"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Talán később";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Elvetés";
+"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Elvetés";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAdvancedControls" = "Speciális vezérlők";
+"BraveShieldsAdvancedControls" = "Speciális vezérlők";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "iBrowe Shields és adatvédelem";
+"BraveShieldsAndPrivacy" = "iBrowe Shields és adatvédelem";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "Shields és adatvédelem";
+"BraveShieldsAndPrivacyTitle" = "Shields és adatvédelem";
 
 /* The number of ads and trackers blocked will be next to this */
-"iBroweShieldsBlockedCountLabel" = "Blokkoltuk a hirdetéseket és más bizarr dolgokat";
+"BraveShieldsBlockedCountLabel" = "Blokkoltuk a hirdetéseket és más bizarr dolgokat";
 
 /* What the screen reader will read out when the user has VoiceOver on and taps on the question-mark info button on the shields panel */
-"iBroweShieldsBlockedInfoButtonAccessibilityLabel" = "Tudj meg többet";
+"BraveShieldsBlockedInfoButtonAccessibilityLabel" = "Tudj meg többet";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalChangeButton" = "A Pajzsok globális alapértelmezéseinek módosítása";
+"BraveShieldsGlobalChangeButton" = "A Pajzsok globális alapértelmezéseinek módosítása";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalControls" = "Globális vezérlők";
+"BraveShieldsGlobalControls" = "Globális vezérlők";
 
 /* Shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfo" = "Tárolja a kapcsolattartási adatokat a jövőbeli hibás weboldal-jelentésekhez";
+"BraveShieldsSaveContactInfo" = "Tárolja a kapcsolattartási adatokat a jövőbeli hibás weboldal-jelentésekhez";
 
 /* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfoDescription" = "Ha megadja az elérhetőségi adatokat, azokat a jövőbeli jelentésekhez tároljuk.";
+"BraveShieldsSaveContactInfoDescription" = "Ha megadja az elérhetőségi adatokat, azokat a jövőbeli jelentésekhez tároljuk.";
 
 /* No comment provided by engineer. */
-"iBroweShieldsSiteBroken" = "Ha ez a webhely hibásnak tűnik, próbálja ki a Pajzsok funkciót";
+"BraveShieldsSiteBroken" = "Ha ez a webhely hibásnak tűnik, próbálja ki a Pajzsok funkciót";
 
 /* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
-"iBroweShieldsStatusTitle" = "iBrowe védelem";
+"BraveShieldsStatusTitle" = "iBrowe védelem";
 
 /* Context: The 'Down' in 'iBrowe Shields Down' */
-"iBroweShieldsStatusValueDown" = "Lefelé";
+"BraveShieldsStatusValueDown" = "Lefelé";
 
 /* Context: The 'Up' in 'iBrowe Shields Up' */
-"iBroweShieldsStatusValueUp" = "Fel";
+"BraveShieldsStatusValueUp" = "Fel";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"iBroweShieldsToggleHint" = "Koppintson duplán a iBrowe pajzsok átkapcsolásához";
+"BraveShieldsToggleHint" = "Koppintson duplán a iBrowe pajzsok átkapcsolásához";
 
 /* The name of the feature */
-"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+"bravetalk.braveTalkTitle" = "iBrowe Talk";
 
 /* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
-"iBroweTranslate.languageSelectionButtonTitle" = "Nyelv kiválasztása";
+"BraveTranslate.languageSelectionButtonTitle" = "Nyelv kiválasztása";
 
 /* Title for a text element that lets the user know the page was translated successfully. */
-"iBroweTranslate.pageTranslatedTitle" = "Lefordított oldal";
+"BraveTranslate.pageTranslatedTitle" = "Lefordított oldal";
 
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
-"iBroweTranslate.searchInputTitle" = "Keresés ";
+"BraveTranslate.searchInputTitle" = "Keresés ";
 
 /* This text is for the settings menu for all iBrowe-Translate options. */
-"iBroweTranslate.settingsMenuTitle" = "iBrowe fordítás";
+"BraveTranslate.settingsMenuTitle" = "iBrowe fordítás";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
-"iBroweTranslate.settingsScreenTitle" = "iBrowe fordítás";
+"BraveTranslate.settingsScreenTitle" = "iBrowe fordítás";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Ha engedélyezi a iBrowe Translate-et, akkor az automatikusan felismeri az oldal aktuális nyelvét, és megjeleníti a fordítás gombot az URL sávban.";
+"BraveTranslate.settingsTranslateEnabledOptionDescription" = "Ha engedélyezi a iBrowe Translate-et, akkor az automatikusan felismeri az oldal aktuális nyelvét, és megjeleníti a fordítás gombot az URL sávban.";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Fordítás engedélyezve";
+"BraveTranslate.settingsTranslateEnabledOptionTitle" = "Fordítás engedélyezve";
 
 /* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
-"iBroweTranslate.translateFromToTitle" = "Erre:";
+"BraveTranslate.translateFromToTitle" = "Erre:";
 
 /* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
-"iBroweTranslate.unknownLanguageTitle" = "Ismeretlen nyelv";
+"BraveTranslate.unknownLanguageTitle" = "Ismeretlen nyelv";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Böngészőzár";
@@ -340,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Származtatás";
 
-/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Doménkomponens";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -1037,7 +1037,7 @@
 "nprRedirectFooter" = "Automatikusan átirányítja az NPR-hivatkozásokat a szöveges verziójukra (a text.npr.org címen).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.iBroweSupportFavoriteTitle" = "iBrowe-támogatás";
+"ntp.braveSupportFavoriteTitle" = "iBrowe-támogatás";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Tokenek igénylése";
@@ -1090,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "A Jutalmak funkció bekapcsolásával elfogadja a következőt: %@.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessage" = "Szerezzen tokeneket, és jutalmazza az alkotókat a nagyszerű tartalmakért böngészés közben.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Böngészés közben pontokat szerezhet, és jutalmazhatja az alkotókat a nagyszerű tartalmakért.";
 
-/* Title when opting into iBrowe Ads when region becomes available */
+/* Title when opting into brave Ads when region becomes available */
 "OBAdsOptInTitle" = "A iBrowe Ads megérkezett!";
 
 /* Title for ads onboarding screen */
@@ -1235,7 +1235,7 @@
 "OpenAllBookmarks" = "Összes megnyitása (%i)";
 
 /* Button title for opening the iBrowe Rewards panel to settings */
-"OpeniBroweRewardsSettings" = "A iBrowe jutalmak beállításainak megnyitása";
+"OpenBraveRewardsSettings" = "A iBrowe jutalmak beállításainak megnyitása";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Ismeretlen hiba történt a Fájlok alkalmazás Letöltések mappájának megnyitásakor.";
@@ -1364,34 +1364,34 @@
 "OpenWebsite" = "Webhely megnyitása";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.iBroweLeoItemDescription" = "A Leo egy mesterséges intelligencián alapuló, intelligens asszisztens, közvetlenül a böngészőbe építve";
+"optionsMenu.braveLeoItemDescription" = "A Leo egy mesterséges intelligencián alapuló, intelligens asszisztens, közvetlenül a böngészőbe építve";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.iBroweNewsItemDescription" = "A mai nap legfontosabb történései privát hírfolyamban";
+"optionsMenu.braveNewsItemDescription" = "A mai nap legfontosabb történései privát hírfolyamban";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBroweNewsItemTitle" = "Hírek";
+"optionsMenu.braveNewsItemTitle" = "Hírek";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.iBrowePlaylistItemDescription" = "Offline lejátszási listája lehet bármely videóról/hírfolyamról";
+"optionsMenu.bravePlaylistItemDescription" = "Offline lejátszási listája lehet bármely videóról/hírfolyamról";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBrowePlaylistItemTitle" = "Lejátszási lista";
+"optionsMenu.bravePlaylistItemTitle" = "Lejátszási lista";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.iBroweTalkItemDescription" = "Privát videóhívások, közvetlenül a böngészőjében";
+"optionsMenu.braveTalkItemDescription" = "Privát videóhívások, közvetlenül a böngészőjében";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.iBroweTalkItemTitle" = "Beszéd";
+"optionsMenu.braveTalkItemTitle" = "Beszéd";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.iBroweVPNItemDescription" = "Védje meg teljes eszközét online";
+"optionsMenu.braveVPNItemDescription" = "Védje meg teljes eszközét online";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.iBroweVPNItemTitle" = "VPN";
+"optionsMenu.braveVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.iBroweWalletItemDescription" = "A biztonságos kriptopénztárca, bővítmény használata nélkül";
+"optionsMenu.braveWalletItemDescription" = "A biztonságos kriptopénztárca, bővítmény használata nélkül";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "iBrowe funkciók";
@@ -1888,7 +1888,7 @@
 /* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Minden figyelmeztetés";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by iBroweVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Letiltotta:";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -2036,7 +2036,7 @@
 "QuickSearchEngines" = "Gyorskeresők";
 
 /* Open the App Store to rate iBrowe. */
-"RateiBrowe" = "Értékeld a iBrowe-et";
+"RateBrave" = "Értékeld a iBrowe-et";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Szövegméret növelése";
@@ -2197,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Elküldés";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "A(z) „%@” szeretne hozzáférni a kamerához és a mikrofonhoz";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraPermissionPrompt" = "A(z) „%@” szeretne hozzáférni a kamerához";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Engedélyezés";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCaptureDevicePermissionPrompt" = "A(z) „%@” szeretne hozzáférni egy médiarögzítő eszközhöz";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestMicrophonePermissionPrompt" = "A(z) „%@” szeretne hozzáférni a mikrofonhoz";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2231,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "A iBrowe váratlanul bezárult.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInBody" = "A iBrowe-jutalmakkal az adatvédelmet tiszteletben tartó hirdetéseket láthat, a iBrowe-hirdetések hálózatáról. Nincsenek nyomkövetők, nincs lassulás, az adatai pedig teljes biztonságban maradnak.";
+"rewards.braveTalkRewardsOptInBody" = "A iBrowe-jutalmakkal az adatvédelmet tiszteletben tartó hirdetéseket láthat, a iBrowe-hirdetések hálózatáról. Nincsenek nyomkövetők, nincs lassulás, az adatai pedig teljes biztonságban maradnak.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.iBroweTalkRewardsOptInButtonTitle" = "Rewards bekapcsolása";
+"rewards.braveTalkRewardsOptInButtonTitle" = "Rewards bekapcsolása";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessBody" = "Kattintson bárhova a képernyőn, hogy továbblépjen a iBrowe Talkhoz.";
+"rewards.braveTalkRewardsOptInSuccessBody" = "Kattintson bárhova a képernyőn, hogy továbblépjen a iBrowe Talkhoz.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Most már indíthat ingyenes hívást";
+"rewards.braveTalkRewardsOptInSuccessTitle" = "Most már indíthat ingyenes hívást";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInTitle" = "Ingyenes hívás indításához kapcsolja be a iBrowe Rewardsot";
+"rewards.braveTalkRewardsOptInTitle" = "Ingyenes hívás indításához kapcsolja be a iBrowe Rewardsot";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "A bekapcsolással segíthet támogatni a iBrowe-et és a BAT közösséget.";
@@ -2294,7 +2294,7 @@
 "RewardsInternalsContributionAmount" = "Hozzájárulás összege";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessoriBroweTokens" = "iBrowe-tokenek";
+"RewardsInternalsContributionProcessorBraveTokens" = "iBrowe-tokenek";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Nincs";
@@ -2549,7 +2549,7 @@
 "SearchSuggestionsSectionHeader" = "Keresési javaslatok";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithiBrowe" = "Keresés a iBrowe-vel";
+"SearchWithBrave" = "Keresés a iBrowe-vel";
 
 /* Settings security section title */
 "Security" = "Biztonság";
@@ -2606,7 +2606,7 @@
 "settings.media.rootSetting" = "Média";
 
 /* A toggle label which lets the user always open YouTube urls in iBrowe */
-"settings.openYouTubeIniBrowe" = "YouTube-hivatkozások megnyitása a iBrowe-ben";
+"settings.openYouTubeInBrave" = "YouTube-hivatkozások megnyitása a iBrowe-ben";
 
 /* No comment provided by engineer. */
 "settings.privacy.screenTimeSetting" = "Böngészési idő engedélyezése";
@@ -2723,7 +2723,7 @@
 "ShortcutItemTitleQRCode" = "QR-kód beolvasása";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeiBroweNewsDescription" = "A iBrowe-hírek megnyitása és a mai nap legfontosabb híreinek megtekintése";
+"shortcuts.activityTypeBraveNewsDescription" = "A iBrowe-hírek megnyitása és a mai nap legfontosabb híreinek megtekintése";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "Új böngészőlap megnyitása és az összes privát böngészési előzményadat törlése";
@@ -2765,10 +2765,10 @@
 "shortcuts.activityTypeOpenBookmarksTitle" = "A iBrowe böngésző könyvjelzőinek megnyitása";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweNewsTitle" = "A iBrowe-hírek megnyitása";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "A iBrowe-hírek megnyitása";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweTodaySuggestedPhrase" = "A iBrowe-hírek megnyitása";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "A iBrowe-hírek megnyitása";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenHistoryListDescription" = "A Böngészési előzmények képernyő megnyitása";
@@ -2834,10 +2834,10 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "A Könyvjelzők megnyitása";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "Parancsikonok használata egy új lap megnyitásához& a iBrowe-hírfolyam megjelenítéséhez a Siri – Voice Assistant segítségével";
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Parancsikonok használata egy új lap megnyitásához& a iBrowe-hírfolyam megjelenítéséhez a Siri – Voice Assistant segítségével";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "A iBrowe-hírek megnyitása";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "A iBrowe-hírek megnyitása";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "Parancsikonok használata a Böngészési előzmények képernyő megnyitásához a Siri – Voice Assistant segítségével";
@@ -3383,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "Elérhető RSS-hírcsatornák";
 
 /* The name of the feature */
-"today.iBroweToday" = "iBrowe News";
+"today.braveToday" = "iBrowe News";
 
 /* The name of the feature in settings */
-"today.iBroweToday.title" = "Hírek";
+"today.braveToday.title" = "Hírek";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Kövesse az Önt érdeklő témákat";
@@ -3442,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Követés";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Csatornák beszerzése innen:";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3464,7 +3464,7 @@
 "today.learnMoreTitle" = "További tudnivalók az adatokról";
 
 /* 'iBrowe Offers' is a product name */
-"today.moreiBroweOffers" = "További iBrowe ajánlatok";
+"today.moreBraveOffers" = "További iBrowe ajánlatok";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Nincs internetkapcsolat";
@@ -3488,19 +3488,19 @@
 "today.promoted" = "Promotált";
 
 /* Title for long press action sheet list which has item for rate / hide */
-"today.rateiBroweCardActionSheetTitle" = "Értékelje a iBrowe-et az App Store-ban";
+"today.rateBraveCardActionSheetTitle" = "Értékelje a iBrowe-et az App Store-ban";
 
 /* Title for long press action that will hide iBrowe Rate Card */
-"today.rateiBroweCardHideActionTitle" = "Elrejtés";
+"today.rateBraveCardHideActionTitle" = "Elrejtés";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
-"today.rateiBroweCardRateActionTitle" = "Értékeld a iBrowe-et";
+"today.rateBraveCardRateActionTitle" = "Értékeld a iBrowe-et";
 
 /* Subtitle shown on the Rate iBrowe Card */
-"today.rateiBroweCardSubtitle" = "Mondja el, mit gondol!";
+"today.rateBraveCardSubtitle" = "Mondja el, mit gondol!";
 
 /* Title shown on the Rate iBrowe Card */
-"today.rateiBroweCardTitle" = "Tetszik a iBrowe?";
+"today.rateBraveCardTitle" = "Tetszik a iBrowe?";
 
 /* No comment provided by engineer. */
 "today.refresh" = "Frissítés";
@@ -3527,7 +3527,7 @@
 "today.suggestedTitle" = "Javasolt";
 
 /* No comment provided by engineer. */
-"today.turnOniBroweToday" = "A iBrowe News bekapcsolása";
+"today.turnOnBraveToday" = "A iBrowe News bekapcsolása";
 
 /* A toggle title shown next to a source or channel that the user can unfollow. When tapped switches to 'Follow' */
 "today.unfollowToggleTitle" = "Leiratkozás";

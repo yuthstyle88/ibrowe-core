@@ -2,10 +2,10 @@
 "About" = "מידע כללי";
 
 /* The title of the screen explaining iBrowe Shields */
-"AboutiBroweShields" = "אודות iBrowe Shields";
+"AboutBraveShields" = "אודות iBrowe Shields";
 
 /* The body of the screen explaining iBrowe Shields */
-"AboutiBroweShieldsBody" = "אתרים לרוב כוללים קובצי עוגיות וסקריפטים שמנסים לזהות אותך ואת המכשיר שלך במטרה להבין מי את/ה ולעקוב אחריך ברחבי הרשת  — תוך מעקב אחר הפעולות שלך בכל אתר.\n\niBrowe חוסם את הדברים האלה כדי שתהיה לך אפשרות לגלוש בלי שיעקבו אחריך.";
+"AboutBraveShieldsBody" = "אתרים לרוב כוללים קובצי עוגיות וסקריפטים שמנסים לזהות אותך ואת המכשיר שלך במטרה להבין מי את/ה ולעקוב אחריך ברחבי הרשת  — תוך מעקב אחר הפעולות שלך בכל אתר.\n\nBrave חוסם את הדברים האלה כדי שתהיה לך אפשרות לגלוש בלי שיעקבו אחריך.";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "זה מאפשר לך לשמור את התמונה בסרט הצילום שלך.";
@@ -29,7 +29,7 @@
 "AddToMenuItem" = "הוספת סימנייה";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.iBroweAdsDataToggleOption" = "נתוני מודעות iBrowe";
+"ads.braveAdsDataToggleOption" = "נתוני מודעות iBrowe";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "פרסומות ועוקבים";
@@ -98,7 +98,7 @@
 "BlockCookieConsentNotices" = "חסימת התראות הסכמה לקובצי עוגיות";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "מונע מאתרים לאחסן מידע על הביקורים הקודמים שלך.\nהאפשרות ״חסימת כל קובצי ה-cookie״ הוסרה. כדי ללמוד איך לאפשר את האפשרות הזו בכל זאת, אפשר לבקר ב[דף העזרה שלנו](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
+"BlockCookiesDescription" = "מונע מאתרים לאחסן מידע על הביקורים הקודמים שלך.\nהאפשרות ״חסימת כל קובצי ה-cookie״ הוסרה. כדי ללמוד איך לאפשר את האפשרות הזו בכל זאת, אפשר לבקר ב[דף העזרה שלנו](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "מוניטור חסימה";
@@ -142,110 +142,110 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "כתובת";
 
-/* Button to show the iBrowe panel */
-"iBrowePanel" = "פאנל iBrowe";
+/* Button to show the brave panel */
+"BravePanel" = "פאנל iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsAdNotificationTitle" = "iBrowe Rewards";
+"BraveRewardsAdNotificationTitle" = "iBrowe Rewards";
 
 /* No comment provided by engineer. */
-"iBroweRewardsOpen" = "פתח";
+"BraveRewardsOpen" = "פתח";
 
 /* iBrowe Rewards title in settings */
-"iBroweRewardsSettingsTitle" = "פרסים";
+"BraveRewardsSettingsTitle" = "פרסים";
 
 /* iBrowe Rewards title */
-"iBroweRewardsTitle" = "iBrowe Rewards";
+"BraveRewardsTitle" = "iBrowe Rewards";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"iBroweSearchPromotion.bannerDescription" = "iBrowe Search לא יוצר עבורכם פרופיל.";
+"braveSearchPromotion.bannerDescription" = "iBrowe Search לא יוצר עבורכם פרופיל.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "אולי מאוחר יותר";
+"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "אולי מאוחר יותר";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"iBroweSearchPromotion.bannerTitle" = "לתמוך בחיפוש עצמאי עם פרטיות טובה יותר.";
+"braveSearchPromotion.bannerTitle" = "לתמוך בחיפוש עצמאי עם פרטיות טובה יותר.";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"iBroweSearchPromotion.bannerTryButtonTitle" = "שווה לנסות את iBrowe Search";
+"braveSearchPromotion.bannerTryButtonTitle" = "שווה לנסות את iBrowe Search";
 
 /* Button title for Bottom Bar Callout View for action later */
-"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "אולי מאוחר יותר";
+"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "אולי מאוחר יותר";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "סגור";
+"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "סגור";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAdvancedControls" = "בקרות מתקדמות";
+"BraveShieldsAdvancedControls" = "בקרות מתקדמות";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "מגני iBrowe ופרטיות";
+"BraveShieldsAndPrivacy" = "מגני iBrowe ופרטיות";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "מגנים ופרטיות";
+"BraveShieldsAndPrivacyTitle" = "מגנים ופרטיות";
 
 /* The number of ads and trackers blocked will be next to this */
-"iBroweShieldsBlockedCountLabel" = "פרסומות ומטרדים אחרים נחסמו";
+"BraveShieldsBlockedCountLabel" = "פרסומות ומטרדים אחרים נחסמו";
 
 /* What the screen reader will read out when the user has VoiceOver on and taps on the question-mark info button on the shields panel */
-"iBroweShieldsBlockedInfoButtonAccessibilityLabel" = "למידע נוסף";
+"BraveShieldsBlockedInfoButtonAccessibilityLabel" = "למידע נוסף";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalChangeButton" = "שינוי הגדרות ברירת מחדל גלובליות של מגנים";
+"BraveShieldsGlobalChangeButton" = "שינוי הגדרות ברירת מחדל גלובליות של מגנים";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalControls" = "הגדרות גלובליות";
+"BraveShieldsGlobalControls" = "הגדרות גלובליות";
 
 /* Shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfo" = "אחסון פרטי קשר עבור דוחות עתידיים על אתרים לא תקינים";
+"BraveShieldsSaveContactInfo" = "אחסון פרטי קשר עבור דוחות עתידיים על אתרים לא תקינים";
 
 /* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfoDescription" = "אם סיפקת פרטי קשר, הם יאוחסנו עבור דוחות עתידיים";
+"BraveShieldsSaveContactInfoDescription" = "אם סיפקת פרטי קשר, הם יאוחסנו עבור דוחות עתידיים";
 
 /* No comment provided by engineer. */
-"iBroweShieldsSiteBroken" = "אם האתר לא מופיע כהלכה, אפשר לנסות לכבות את המגנים";
+"BraveShieldsSiteBroken" = "אם האתר לא מופיע כהלכה, אפשר לנסות לכבות את המגנים";
 
 /* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
-"iBroweShieldsStatusTitle" = "iBrowe Shields";
+"BraveShieldsStatusTitle" = "iBrowe Shields";
 
 /* Context: The 'Down' in 'iBrowe Shields Down' */
-"iBroweShieldsStatusValueDown" = "למטה";
+"BraveShieldsStatusValueDown" = "למטה";
 
 /* Context: The 'Up' in 'iBrowe Shields Up' */
-"iBroweShieldsStatusValueUp" = "למעלה";
+"BraveShieldsStatusValueUp" = "למעלה";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"iBroweShieldsToggleHint" = "יש ללחוץ לחיצה כפולה כדי להפעיל או לכבות את המגנים של iBrowe";
+"BraveShieldsToggleHint" = "יש ללחוץ לחיצה כפולה כדי להפעיל או לכבות את המגנים של iBrowe";
 
 /* The name of the feature */
-"iBrowetalk.iBroweTalkTitle" = "iBrowe Talk";
+"bravetalk.braveTalkTitle" = "iBrowe Talk";
 
 /* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
-"iBroweTranslate.languageSelectionButtonTitle" = "בחירת שפה";
+"BraveTranslate.languageSelectionButtonTitle" = "בחירת שפה";
 
 /* Title for a text element that lets the user know the page was translated successfully. */
-"iBroweTranslate.pageTranslatedTitle" = "דף תורגם";
+"BraveTranslate.pageTranslatedTitle" = "דף תורגם";
 
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
-"iBroweTranslate.searchInputTitle" = "חיפוש";
+"BraveTranslate.searchInputTitle" = "חיפוש";
 
 /* This text is for the settings menu for all iBrowe-Translate options. */
-"iBroweTranslate.settingsMenuTitle" = "תרגום iBrowe";
+"BraveTranslate.settingsMenuTitle" = "תרגום iBrowe";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
-"iBroweTranslate.settingsScreenTitle" = "תרגום iBrowe";
+"BraveTranslate.settingsScreenTitle" = "תרגום iBrowe";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "כשהדבר אפשרי, Bravw תרגום יזהה אטומטית את השפה הנוכחית של הדף שלך ויציג כפתור תרגום בשורת הכתובת.";
+"BraveTranslate.settingsTranslateEnabledOptionDescription" = "כשהדבר אפשרי, Bravw תרגום יזהה אטומטית את השפה הנוכחית של הדף שלך ויציג כפתור תרגום בשורת הכתובת.";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "תרגום מופעל";
+"BraveTranslate.settingsTranslateEnabledOptionTitle" = "תרגום מופעל";
 
 /* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
-"iBroweTranslate.translateFromToTitle" = "אל";
+"BraveTranslate.translateFromToTitle" = "אל";
 
 /* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
-"iBroweTranslate.unknownLanguageTitle" = "שפה לא ידועה";
+"BraveTranslate.unknownLanguageTitle" = "שפה לא ידועה";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "נעילת דפדפן";
@@ -340,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "הסקה";
 
-/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "רכיב דומיין";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -1037,7 +1037,7 @@
 "nprRedirectFooter" = "מפנה אוטומטית קישורי NPR לגרסה מבוססת הטקסט שלהם (ב-text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.iBroweSupportFavoriteTitle" = "תמיכת iBrowe";
+"ntp.braveSupportFavoriteTitle" = "תמיכת iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "לתבוע אסימונים";
@@ -1090,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "הפעלה של תגמולים מהווה את הסכמתך ל%@.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessage" = "להרוויח אסימונים ולתגמל יוצרים על תוכן נהדר בזמן הגלישה.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "להרוויח נקודות ולתגמל יוצרים על תוכן נהדר בזמן הגלישה.";
 
-/* Title when opting into iBrowe Ads when region becomes available */
+/* Title when opting into brave Ads when region becomes available */
 "OBAdsOptInTitle" = "מודעות iBrowe כבר כאן!";
 
 /* Title for ads onboarding screen */
@@ -1235,7 +1235,7 @@
 "OpenAllBookmarks" = "פתיחת הכול (%i)";
 
 /* Button title for opening the iBrowe Rewards panel to settings */
-"OpeniBroweRewardsSettings" = "פתיחת הגדרות תגמולים של iBrowe";
+"OpenBraveRewardsSettings" = "פתיחת הגדרות תגמולים של iBrowe";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "אירעה שגיאה לא ידועה במהלך הפתיחה של תיקיית ההורדות באפליקציית הקבצים.";
@@ -1364,34 +1364,34 @@
 "OpenWebsite" = "פתיחת אתר";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.iBroweLeoItemDescription" = "Leo הוא עוזר חכם המופעל על ידי AI, המובנה ישירות בדפדפן";
+"optionsMenu.braveLeoItemDescription" = "Leo הוא עוזר חכם המופעל על ידי AI, המובנה ישירות בדפדפן";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.iBroweNewsItemDescription" = "הידיעות החשובות של היום בפיד חדשות פרטי";
+"optionsMenu.braveNewsItemDescription" = "הידיעות החשובות של היום בפיד חדשות פרטי";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBroweNewsItemTitle" = "חדשות";
+"optionsMenu.braveNewsItemTitle" = "חדשות";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.iBrowePlaylistItemDescription" = "שמירת פלייליסט לא מקוון של כל סרטון/פריט נגינה";
+"optionsMenu.bravePlaylistItemDescription" = "שמירת פלייליסט לא מקוון של כל סרטון/פריט נגינה";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBrowePlaylistItemTitle" = "רשימת השמעה";
+"optionsMenu.bravePlaylistItemTitle" = "רשימת השמעה";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.iBroweTalkItemDescription" = "שיחות וידאו פרטיות, ממש בתוך הדפדפן שלך";
+"optionsMenu.braveTalkItemDescription" = "שיחות וידאו פרטיות, ממש בתוך הדפדפן שלך";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.iBroweTalkItemTitle" = "שיחות";
+"optionsMenu.braveTalkItemTitle" = "שיחות";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.iBroweVPNItemDescription" = "הגנה כוללת על המכשיר שלך ברשת";
+"optionsMenu.braveVPNItemDescription" = "הגנה כוללת על המכשיר שלך ברשת";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.iBroweVPNItemTitle" = "VPN";
+"optionsMenu.braveVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.iBroweWalletItemDescription" = "ארנק הקריפטו המאובטח, בלי שום תוסף";
+"optionsMenu.braveWalletItemDescription" = "ארנק הקריפטו המאובטח, בלי שום תוסף";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "הפיצ׳רים של iBrowe";
@@ -1888,7 +1888,7 @@
 /* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "כל ההתראות";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by iBroweVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "נחסם על ידי";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -2036,7 +2036,7 @@
 "QuickSearchEngines" = "מנועי חיפוש מהיר";
 
 /* Open the App Store to rate iBrowe. */
-"RateiBrowe" = "דרג/י את iBrowe";
+"RateBrave" = "דרג/י את iBrowe";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "הגדלת טקסט";
@@ -2197,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "שלח";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" מבקש גישה למצלמה והמיקרופון";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraPermissionPrompt" = "\"%@\" מבקש גישה למצלמה";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "לאפשר";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" מבקש גישה למכשיר צילום או הקלטת מדיה";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" מבקש גישה למיקרופון";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2231,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe נסגר באופן לא צפוי.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInBody" = "עם תגמולי iBrowe, יש לך אפשרות לצפות במודעות משמרות-פרטיות מרשת מודעות iBrowe. בלי כלי מעקב. בלי האטות. והנתונים שלך נשארים בטוחים לחלוטין.";
+"rewards.braveTalkRewardsOptInBody" = "עם תגמולי iBrowe, יש לך אפשרות לצפות במודעות משמרות-פרטיות מרשת מודעות iBrowe. בלי כלי מעקב. בלי האטות. והנתונים שלך נשארים בטוחים לחלוטין.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.iBroweTalkRewardsOptInButtonTitle" = "הפעל את Rewards";
+"rewards.braveTalkRewardsOptInButtonTitle" = "הפעל את Rewards";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessBody" = "הקש בכל מקום על המסך על מנת להמשיך ל-iBrowe Talk";
+"rewards.braveTalkRewardsOptInSuccessBody" = "הקש בכל מקום על המסך על מנת להמשיך ל-iBrowe Talk";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessTitle" = "כעת תוכל/י להתחיל שיחה בחינם";
+"rewards.braveTalkRewardsOptInSuccessTitle" = "כעת תוכל/י להתחיל שיחה בחינם";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInTitle" = "להתחלת שיחה שיחה בחינם, יש להפעיל את iBrowe Rewards";
+"rewards.braveTalkRewardsOptInTitle" = "להתחלת שיחה שיחה בחינם, יש להפעיל את iBrowe Rewards";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "יש להפעיל כדי לתמוך ב-iBrowe ובקהילת BAT.";
@@ -2294,7 +2294,7 @@
 "RewardsInternalsContributionAmount" = "סכום התרומה";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessoriBroweTokens" = "אסימונים של iBrowe";
+"RewardsInternalsContributionProcessorBraveTokens" = "אסימונים של iBrowe";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "ללא";
@@ -2549,7 +2549,7 @@
 "SearchSuggestionsSectionHeader" = "הצעות חיפוש";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithiBrowe" = "חיפוש ב-iBrowe";
+"SearchWithBrave" = "חיפוש ב-iBrowe";
 
 /* Settings security section title */
 "Security" = "אבטחה";
@@ -2606,7 +2606,7 @@
 "settings.media.rootSetting" = "מדיה";
 
 /* A toggle label which lets the user always open YouTube urls in iBrowe */
-"settings.openYouTubeIniBrowe" = "פתיחת קישורי יוטיוב ב-iBrowe";
+"settings.openYouTubeInBrave" = "פתיחת קישורי יוטיוב ב-iBrowe";
 
 /* No comment provided by engineer. */
 "settings.privacy.screenTimeSetting" = "הפעלת זמן מסך";
@@ -2723,7 +2723,7 @@
 "ShortcutItemTitleQRCode" = "סריקת קוד QR";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeiBroweNewsDescription" = "לפתוח את חדשות iBrowe ולגלות את הידיעות המובילות של היום";
+"shortcuts.activityTypeBraveNewsDescription" = "לפתוח את חדשות iBrowe ולגלות את הידיעות המובילות של היום";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "לפתוח את הדפדפן בכרטיסיה חדשה ולמחוק את כל נתוני היסטוריית הגלישה הפרטיים";
@@ -2765,10 +2765,10 @@
 "shortcuts.activityTypeOpenBookmarksTitle" = "לפתוח את הסימניות של דפדפן iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweNewsTitle" = "פתיחת חדשות iBrowe";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "פתיחת חדשות iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweTodaySuggestedPhrase" = "פתיחת חדשות iBrowe";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "פתיחת חדשות iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenHistoryListDescription" = "לפתוח את מסך ההיסטוריה של הדפדפן";
@@ -2834,10 +2834,10 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "פתיחת סימניות";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "שימוש בקיצורי דרך כדי לפתור כרטיסיה חדשה ולהציג את פיד חדשות iBrowe דרך Siri - Voice Assistant";
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "שימוש בקיצורי דרך כדי לפתור כרטיסיה חדשה ולהציג את פיד חדשות iBrowe דרך Siri - Voice Assistant";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "פתיחת חדשות iBrowe";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "פתיחת חדשות iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "שימוש בקיצורי דרך כדי לפתוח את מסך היסטוריית הדפדפן של iBrowe דרך Siri - Voice Assistant";
@@ -3383,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "פידים זמינים של RSS";
 
 /* The name of the feature */
-"today.iBroweToday" = "חדשות iBrowe";
+"today.braveToday" = "חדשות iBrowe";
 
 /* The name of the feature in settings */
-"today.iBroweToday.title" = "חדשות";
+"today.braveToday.title" = "חדשות";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "לעקוב אחרי נושאים שמעניינים אותך";
@@ -3442,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "עקוב";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
 "today.getFeedsFromSiteButtonTitle" = "קבלת פידים מ-";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3464,7 +3464,7 @@
 "today.learnMoreTitle" = "מידע נוסף אודות נתוניך";
 
 /* 'iBrowe Offers' is a product name */
-"today.moreiBroweOffers" = "עוד מבצעים של iBrowe";
+"today.moreBraveOffers" = "עוד מבצעים של iBrowe";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "אין אינטרנט";
@@ -3488,19 +3488,19 @@
 "today.promoted" = "מקודם";
 
 /* Title for long press action sheet list which has item for rate / hide */
-"today.rateiBroweCardActionSheetTitle" = "דירוג iBrowe ב-App Store";
+"today.rateBraveCardActionSheetTitle" = "דירוג iBrowe ב-App Store";
 
 /* Title for long press action that will hide iBrowe Rate Card */
-"today.rateiBroweCardHideActionTitle" = "הסתר";
+"today.rateBraveCardHideActionTitle" = "הסתר";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
-"today.rateiBroweCardRateActionTitle" = "דרג/י את iBrowe";
+"today.rateBraveCardRateActionTitle" = "דרג/י את iBrowe";
 
 /* Subtitle shown on the Rate iBrowe Card */
-"today.rateiBroweCardSubtitle" = "אנו מעוניינים בדעתך!";
+"today.rateBraveCardSubtitle" = "אנו מעוניינים בדעתך!";
 
 /* Title shown on the Rate iBrowe Card */
-"today.rateiBroweCardTitle" = "אהבת את iBrowe?";
+"today.rateBraveCardTitle" = "אהבת את iBrowe?";
 
 /* No comment provided by engineer. */
 "today.refresh" = "רענון";
@@ -3527,7 +3527,7 @@
 "today.suggestedTitle" = "הצעות";
 
 /* No comment provided by engineer. */
-"today.turnOniBroweToday" = "הפעל את חדשות iBrowe";
+"today.turnOnBraveToday" = "הפעל את חדשות iBrowe";
 
 /* A toggle title shown next to a source or channel that the user can unfollow. When tapped switches to 'Follow' */
 "today.unfollowToggleTitle" = "בטל מעקב";

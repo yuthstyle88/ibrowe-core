@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Csak a(z) %@ kiterjesztett kulcsok támogatottak.";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.iBroweFeeLabel" = "iBrowe-díj: %@";
+"wallet.braveFeeLabel" = "iBrowe-díj: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.iBroweSwapFeeDisclaimer" = "Az árajánlat tartalmazza a iBrowe %@ -os díját.";
+"wallet.braveSwapFeeDisclaimer" = "Az árajánlat tartalmazza a iBrowe %@ -os díját.";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.iBroweSwapFree" = "Ingyenes";
+"wallet.braveSwapFree" = "Ingyenes";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "Bitcoin";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Megadás";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "pénztárcája nyilvános titkosítási kulcsát kéri. Ha hozzájárul a kulcs megadásához, a webhely titkosított üzeneteket fog tudni írni Önnek.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1294,8 +1294,8 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "Add meg a jelszót újból";
 
-/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
-"wallet.restoreLegacyiBroweWalletToggleTitle" = "Importál régebbi iBrowe kriptotárcákból?";
+/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Importál régebbi iBrowe kriptotárcákból?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Pénztárca visszaállítása";
@@ -1304,10 +1304,10 @@
 "wallet.restoreWalletButtonTitle" = "Helyreállítás";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
-"wallet.restoreWalletImportFromLegacyiBroweWallet" = "24 szavas helyreállítási kifejezésem van";
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "24 szavas helyreállítási kifejezésem van";
 
 /* A button title when 24 recovery-word grids are displayed for users to restore legacy wallet. Users can click this button to display the 12 recovery-word grids to restore regular wallet. */
-"wallet.restoreWalletImportFromRegulariBroweWallet" = "12 szavas helyreállítási kifejezésem van";
+"wallet.restoreWalletImportFromRegularBraveWallet" = "12 szavas helyreállítási kifejezésem van";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Új jelszó";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Tranzakció aláírva";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWallet" = "Bejelentkezés a iBrowe pénztárcával";
+"wallet.signInWithBraveWallet" = "Bejelentkezés a iBrowe pénztárcával";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWalletMessage" = "A következőbe készül bejelentkezni: %1$@. A iBrowe-pénztárca meg fogja osztani a pénztárcája címét a következővel: %2$@.";
+"wallet.signInWithBraveWalletMessage" = "A következőbe készül bejelentkezni: %1$@. A iBrowe-pénztárca meg fogja osztani a pénztárcája címét a következővel: %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Egymást követő új sor karakterek észlelve!";

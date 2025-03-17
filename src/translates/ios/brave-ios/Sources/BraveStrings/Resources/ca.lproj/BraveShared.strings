@@ -2,10 +2,10 @@
 "About" = "Informació";
 
 /* The title of the screen explaining iBrowe Shields */
-"AboutiBroweShields" = "Sobre Escuts de iBrowe";
+"AboutBraveShields" = "Sobre Escuts de iBrowe";
 
 /* The body of the screen explaining iBrowe Shields */
-"AboutiBroweShieldsBody" = "Els llocs sovint inclouen galetes i scripts que intenten identificar-te a tu i al teu dispositiu. Volen esbrinar qui ets i seguir-te al web, fent un rastrejament de què fas a cada lloc.\n\niBrowe bloqueja aquestes coses perquè puguis navegar sense ser perseguit.";
+"AboutBraveShieldsBody" = "Els llocs sovint inclouen galetes i scripts que intenten identificar-te a tu i al teu dispositiu. Volen esbrinar qui ets i seguir-te al web, fent un rastrejament de què fas a cada lloc.\n\nBrave bloqueja aquestes coses perquè puguis navegar sense ser perseguit.";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "Això et permet desar la imatge al carret de la càmera.";
@@ -29,7 +29,7 @@
 "AddToMenuItem" = "Afegeix adreça d'interès";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.iBroweAdsDataToggleOption" = "Dades dels Anuncis de iBrowe";
+"ads.braveAdsDataToggleOption" = "Dades dels Anuncis de iBrowe";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Anuncis i rastrejadors";
@@ -98,7 +98,7 @@
 "BlockCookieConsentNotices" = "Bloqueja els avisos de consentiment de galetes";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Evita que els llocs web emmagatzemin informació sobre les teves visites anteriors. L'opció \"Bloquejar totes les cookies\" està obsoleta. Per saber com forçar l'activació d'aquesta opció, visita [la nostra pàgina d'ajuda](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
+"BlockCookiesDescription" = "Evita que els llocs web emmagatzemin informació sobre les teves visites anteriors. L'opció \"Bloquejar totes les cookies\" està obsoleta. Per saber com forçar l'activació d'aquesta opció, visita [la nostra pàgina d'ajuda](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Control de bloqueig";
@@ -142,110 +142,110 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Adreça";
 
-/* Button to show the iBrowe panel */
-"iBrowePanel" = "Panell de iBrowe";
+/* Button to show the brave panel */
+"BravePanel" = "Panell de iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsAdNotificationTitle" = "Recompenses de iBrowe";
+"BraveRewardsAdNotificationTitle" = "Recompenses de iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsOpen" = "Obre";
+"BraveRewardsOpen" = "Obre";
 
 /* iBrowe Rewards title in settings */
-"iBroweRewardsSettingsTitle" = "Recompenses";
+"BraveRewardsSettingsTitle" = "Recompenses";
 
 /* iBrowe Rewards title */
-"iBroweRewardsTitle" = "Recompenses de iBrowe";
+"BraveRewardsTitle" = "Recompenses de iBrowe";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"iBroweSearchPromotion.bannerDescription" = "El cercador de iBrowe no crea un perfil vostre.";
+"braveSearchPromotion.bannerDescription" = "El cercador de iBrowe no crea un perfil vostre.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Potser més tard";
+"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Potser més tard";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"iBroweSearchPromotion.bannerTitle" = "Accepta la cerca independent amb millor privacitat";
+"braveSearchPromotion.bannerTitle" = "Accepta la cerca independent amb millor privacitat";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"iBroweSearchPromotion.bannerTryButtonTitle" = "Prova el cercador de iBrowe";
+"braveSearchPromotion.bannerTryButtonTitle" = "Prova el cercador de iBrowe";
 
 /* Button title for Bottom Bar Callout View for action later */
-"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Potser més tard";
+"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Potser més tard";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Omet";
+"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Omet";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAdvancedControls" = "Controls avançats";
+"BraveShieldsAdvancedControls" = "Controls avançats";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "Privacitat i Escuts de iBrowe";
+"BraveShieldsAndPrivacy" = "Privacitat i Escuts de iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "Escuts & Privacitat";
+"BraveShieldsAndPrivacyTitle" = "Escuts & Privacitat";
 
 /* The number of ads and trackers blocked will be next to this */
-"iBroweShieldsBlockedCountLabel" = "Anuncis i altres coses estranyes bloquejats";
+"BraveShieldsBlockedCountLabel" = "Anuncis i altres coses estranyes bloquejats";
 
 /* What the screen reader will read out when the user has VoiceOver on and taps on the question-mark info button on the shields panel */
-"iBroweShieldsBlockedInfoButtonAccessibilityLabel" = "Saber més";
+"BraveShieldsBlockedInfoButtonAccessibilityLabel" = "Saber més";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalChangeButton" = "Canvia els valors predeterminats globals dels escuts";
+"BraveShieldsGlobalChangeButton" = "Canvia els valors predeterminats globals dels escuts";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalControls" = "Controls globals";
+"BraveShieldsGlobalControls" = "Controls globals";
 
 /* Shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfo" = "Emmagatzemar la informació de contacte per futurs informes d'error del lloc";
+"BraveShieldsSaveContactInfo" = "Emmagatzemar la informació de contacte per futurs informes d'error del lloc";
 
 /* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfoDescription" = "Si ens proporciones la teva informació de contacte, la guardarem de cara a futurs informes";
+"BraveShieldsSaveContactInfoDescription" = "Si ens proporciones la teva informació de contacte, la guardarem de cara a futurs informes";
 
 /* No comment provided by engineer. */
-"iBroweShieldsSiteBroken" = "Si aquest enllaç apareix trencat, prova de desactivar Escuts";
+"BraveShieldsSiteBroken" = "Si aquest enllaç apareix trencat, prova de desactivar Escuts";
 
 /* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
-"iBroweShieldsStatusTitle" = "Escuts de iBrowe";
+"BraveShieldsStatusTitle" = "Escuts de iBrowe";
 
 /* Context: The 'Down' in 'iBrowe Shields Down' */
-"iBroweShieldsStatusValueDown" = "Avall";
+"BraveShieldsStatusValueDown" = "Avall";
 
 /* Context: The 'Up' in 'iBrowe Shields Up' */
-"iBroweShieldsStatusValueUp" = "Amunt";
+"BraveShieldsStatusValueUp" = "Amunt";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"iBroweShieldsToggleHint" = "Fes doble toc per activar Escuts de iBrowe";
+"BraveShieldsToggleHint" = "Fes doble toc per activar Escuts de iBrowe";
 
 /* The name of the feature */
-"iBrowetalk.iBroweTalkTitle" = "Conversa de iBrowe";
+"bravetalk.braveTalkTitle" = "Conversa de iBrowe";
 
 /* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
-"iBroweTranslate.languageSelectionButtonTitle" = "Seleccionar idioma";
+"BraveTranslate.languageSelectionButtonTitle" = "Seleccionar idioma";
 
 /* Title for a text element that lets the user know the page was translated successfully. */
-"iBroweTranslate.pageTranslatedTitle" = "Pàgina traduïda";
+"BraveTranslate.pageTranslatedTitle" = "Pàgina traduïda";
 
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
-"iBroweTranslate.searchInputTitle" = "Cerca";
+"BraveTranslate.searchInputTitle" = "Cerca";
 
 /* This text is for the settings menu for all iBrowe-Translate options. */
-"iBroweTranslate.settingsMenuTitle" = "iBrowe Translate";
+"BraveTranslate.settingsMenuTitle" = "iBrowe Translate";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
-"iBroweTranslate.settingsScreenTitle" = "iBrowe Translate";
+"BraveTranslate.settingsScreenTitle" = "iBrowe Translate";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Si està habilitat, iBrowe Translate detecta automàticament l'idioma de la pàgina actual i mostra un botó de traducció a la barra d'URL.";
+"BraveTranslate.settingsTranslateEnabledOptionDescription" = "Si està habilitat, iBrowe Translate detecta automàticament l'idioma de la pàgina actual i mostra un botó de traducció a la barra d'URL.";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Traductor habilitat";
+"BraveTranslate.settingsTranslateEnabledOptionTitle" = "Traductor habilitat";
 
 /* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
-"iBroweTranslate.translateFromToTitle" = "A";
+"BraveTranslate.translateFromToTitle" = "A";
 
 /* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
-"iBroweTranslate.unknownLanguageTitle" = "Idioma desconegut";
+"BraveTranslate.unknownLanguageTitle" = "Idioma desconegut";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Bloqueig del navegador";
@@ -340,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Deriva";
 
-/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Component del domini";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -1037,7 +1037,7 @@
 "nprRedirectFooter" = "Redirigeix ​​automàticament els enllaços NPR a la seva versió basada en text (a text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.iBroweSupportFavoriteTitle" = "Suport de iBrowe";
+"ntp.braveSupportFavoriteTitle" = "Suport de iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Reclama tokens";
@@ -1090,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "Activant Recompenses, estàs d'acord en %@.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessage" = "Guanya tokens i premia els creadors per contingut fantàstic mentre navegues.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Guanya punts i premia els creadors per contingut fantàstic mentre navegues.";
 
-/* Title when opting into iBrowe Ads when region becomes available */
+/* Title when opting into brave Ads when region becomes available */
 "OBAdsOptInTitle" = "Anuncis de iBrowe està aquí!";
 
 /* Title for ads onboarding screen */
@@ -1235,7 +1235,7 @@
 "OpenAllBookmarks" = "Obre-ho tot (%i)";
 
 /* Button title for opening the iBrowe Rewards panel to settings */
-"OpeniBroweRewardsSettings" = "Obre la configuració de Recompenses de iBrowe";
+"OpenBraveRewardsSettings" = "Obre la configuració de Recompenses de iBrowe";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "S'ha produït un error desconegut en obrir la carpeta de Descàrregues a l'aplicació de Fitxers.";
@@ -1364,34 +1364,34 @@
 "OpenWebsite" = "Obre lloc web";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.iBroweLeoItemDescription" = "Leo és un assistent intel·ligent amb IA, integrat en el navegador";
+"optionsMenu.braveLeoItemDescription" = "Leo és un assistent intel·ligent amb IA, integrat en el navegador";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.iBroweNewsItemDescription" = "Les notícies principals d'avui en un canal de notícies privat";
+"optionsMenu.braveNewsItemDescription" = "Les notícies principals d'avui en un canal de notícies privat";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBroweNewsItemTitle" = "Notícies";
+"optionsMenu.braveNewsItemTitle" = "Notícies";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.iBrowePlaylistItemDescription" = "Manté una llista de reproducció fora de línia de qualsevol vídeo/stream";
+"optionsMenu.bravePlaylistItemDescription" = "Manté una llista de reproducció fora de línia de qualsevol vídeo/stream";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBrowePlaylistItemTitle" = "Llista de reproducció";
+"optionsMenu.bravePlaylistItemTitle" = "Llista de reproducció";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.iBroweTalkItemDescription" = "Videotrucades privades, directament al teu navegador";
+"optionsMenu.braveTalkItemDescription" = "Videotrucades privades, directament al teu navegador";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.iBroweTalkItemTitle" = "Conversa";
+"optionsMenu.braveTalkItemTitle" = "Conversa";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.iBroweVPNItemDescription" = "Protegeix tot el teu dispositiu en línia";
+"optionsMenu.braveVPNItemDescription" = "Protegeix tot el teu dispositiu en línia";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.iBroweVPNItemTitle" = "VPN";
+"optionsMenu.braveVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.iBroweWalletItemDescription" = "La cartera criptogràfica segura, no requereix cap extensió";
+"optionsMenu.braveWalletItemDescription" = "La cartera criptogràfica segura, no requereix cap extensió";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "Funcions de iBrowe";
@@ -1888,7 +1888,7 @@
 /* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Totes les alertes";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by iBroweVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Bloquejat per";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -2036,7 +2036,7 @@
 "QuickSearchEngines" = "Motors de cerca ràpida";
 
 /* Open the App Store to rate iBrowe. */
-"RateiBrowe" = "Valora iBrowe";
+"RateBrave" = "Valora iBrowe";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Augmenta la mida del text";
@@ -2197,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Envia";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" voldria accedir a la càmera i al micròfon";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraPermissionPrompt" = "\"%@\" vol accedir a la càmera";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Permetre";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" voldria accedir a un dispositiu de captura multimèdia";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" vol accedir al micròfon";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2231,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe s'ha tancat inesperadament.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInBody" = "Amb Recompenses de iBrowe, pots veure anuncis que preserven la privacitat des de la xarxa d'Anuncis de iBrowe. Sense rastrejadors. Sense alentiments. I les teves dades es mantenen totalment segures.";
+"rewards.braveTalkRewardsOptInBody" = "Amb Recompenses de iBrowe, pots veure anuncis que preserven la privacitat des de la xarxa d'Anuncis de iBrowe. Sense rastrejadors. Sense alentiments. I les teves dades es mantenen totalment segures.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.iBroweTalkRewardsOptInButtonTitle" = "Activa les recompenses";
+"rewards.braveTalkRewardsOptInButtonTitle" = "Activa les recompenses";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessBody" = "Clica a qualsevol lloc de la pantalla per continuar a Conversa de iBrowe.";
+"rewards.braveTalkRewardsOptInSuccessBody" = "Clica a qualsevol lloc de la pantalla per continuar a Conversa de iBrowe.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Ara pots iniciar una trucada gratuïta";
+"rewards.braveTalkRewardsOptInSuccessTitle" = "Ara pots iniciar una trucada gratuïta";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInTitle" = "Per iniciar una trucada gratuïta, activa Recompenses de iBrowe";
+"rewards.braveTalkRewardsOptInTitle" = "Per iniciar una trucada gratuïta, activa Recompenses de iBrowe";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "Activa per ajudar a donar suport a iBrowe i a la comunitat BAT.";
@@ -2294,7 +2294,7 @@
 "RewardsInternalsContributionAmount" = "Quantitat de la contribució";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessoriBroweTokens" = "Tokens de iBrowe";
+"RewardsInternalsContributionProcessorBraveTokens" = "Tokens de iBrowe";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Cap";
@@ -2549,7 +2549,7 @@
 "SearchSuggestionsSectionHeader" = "Suggeriments de cerca";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithiBrowe" = "Cerca amb iBrowe";
+"SearchWithBrave" = "Cerca amb iBrowe";
 
 /* Settings security section title */
 "Security" = "Seguretat";
@@ -2606,7 +2606,7 @@
 "settings.media.rootSetting" = "Multimèdia";
 
 /* A toggle label which lets the user always open YouTube urls in iBrowe */
-"settings.openYouTubeIniBrowe" = "Obre els enllaços de YouTube a iBrowe";
+"settings.openYouTubeInBrave" = "Obre els enllaços de YouTube a iBrowe";
 
 /* No comment provided by engineer. */
 "settings.privacy.screenTimeSetting" = "Activa el temps de pantalla";
@@ -2723,7 +2723,7 @@
 "ShortcutItemTitleQRCode" = "Escaneja el codi QR";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeiBroweNewsDescription" = "Obre Notícies de iBrowe i consulta les notícies més destacades d'avui";
+"shortcuts.activityTypeBraveNewsDescription" = "Obre Notícies de iBrowe i consulta les notícies més destacades d'avui";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "Obre el navegador en una pestanya nova i suprimeix totes les dades privades de l'historial del navegador";
@@ -2765,10 +2765,10 @@
 "shortcuts.activityTypeOpenBookmarksTitle" = "Obre les adreces d'interès del navegador de iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweNewsTitle" = "Obre Notícies de iBrowe";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "Obre Notícies de iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweTodaySuggestedPhrase" = "Obre Notícies de iBrowe";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Obre Notícies de iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenHistoryListDescription" = "Obre la pantalla de l'historial del navegador";
@@ -2834,10 +2834,10 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "Obre adreces d'interès";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "Utilitza dreceres per obrir una pestanya nova i mostrar el servei de notícies de iBrowe mitjançant l'assistent de veu Siri";
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Utilitza dreceres per obrir una pestanya nova i mostrar el servei de notícies de iBrowe mitjançant l'assistent de veu Siri";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "Obre Notícies de iBrowe";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Obre Notícies de iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "Utilitza dreceres per obrir la pantalla de l'historial del navegador mitjançant l'assistent de veu Siri";
@@ -3383,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "Fonts RSS disponibles";
 
 /* The name of the feature */
-"today.iBroweToday" = "Notícies de iBrowe";
+"today.braveToday" = "Notícies de iBrowe";
 
 /* The name of the feature in settings */
-"today.iBroweToday.title" = "Notícies";
+"today.braveToday.title" = "Notícies";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Segueix els temes que t'interessen";
@@ -3442,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Segueix";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Obtingues alimentació de";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3464,7 +3464,7 @@
 "today.learnMoreTitle" = "Més informació sobre les teves dades";
 
 /* 'iBrowe Offers' is a product name */
-"today.moreiBroweOffers" = "Més ofertes de iBrowe";
+"today.moreBraveOffers" = "Més ofertes de iBrowe";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Sense internet";
@@ -3488,19 +3488,19 @@
 "today.promoted" = "Promocionat";
 
 /* Title for long press action sheet list which has item for rate / hide */
-"today.rateiBroweCardActionSheetTitle" = "Valora iBrowe a l'App Store";
+"today.rateBraveCardActionSheetTitle" = "Valora iBrowe a l'App Store";
 
 /* Title for long press action that will hide iBrowe Rate Card */
-"today.rateiBroweCardHideActionTitle" = "Amaga";
+"today.rateBraveCardHideActionTitle" = "Amaga";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
-"today.rateiBroweCardRateActionTitle" = "Valora iBrowe";
+"today.rateBraveCardRateActionTitle" = "Valora iBrowe";
 
 /* Subtitle shown on the Rate iBrowe Card */
-"today.rateiBroweCardSubtitle" = "Dona'ns la teva opinió!";
+"today.rateBraveCardSubtitle" = "Dona'ns la teva opinió!";
 
 /* Title shown on the Rate iBrowe Card */
-"today.rateiBroweCardTitle" = "T'agrada iBrowe?";
+"today.rateBraveCardTitle" = "T'agrada iBrowe?";
 
 /* No comment provided by engineer. */
 "today.refresh" = "Actualitza";
@@ -3527,7 +3527,7 @@
 "today.suggestedTitle" = "Suggerit";
 
 /* No comment provided by engineer. */
-"today.turnOniBroweToday" = "Activa Notícies de iBrowe";
+"today.turnOnBraveToday" = "Activa Notícies de iBrowe";
 
 /* A toggle title shown next to a source or channel that the user can unfollow. When tapped switches to 'Follow' */
 "today.unfollowToggleTitle" = "Deixa de seguir";

@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Usikkert/skadeligt";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium giver adgang til et udvidet sæt sprogmodeller for endnu mere nuancerede svar.[Få mere at vide] (https://iBrowe.com/) -[Forlad] (iBroweai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium giver adgang til et udvidet sæt sprogmodeller for endnu mere nuancerede svar.[Få mere at vide] (https://brave.com/) -[Forlad] (braveai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Indsend";
@@ -155,7 +155,7 @@
 "aichat.introMessageClaudeSonnetModelPurposeDescription" = "Afbalanceret hastighed og intelligens";
 
 /* The model intro message when you first enter the chat assistant -- %@ is a place-holder for the model name */
-"aichat.introMessageGenericMessageDescription" = "Hej, jeg er Leo. Jeg er iBrowes AI-assistent. Jeg er drevet af %@. Spørg mig om hvad som helst, og jeg vil gøre mit bedste for at svare.";
+"aichat.introMessageGenericMessageDescription" = "Hej, jeg er Leo. Jeg er Braves AI-assistent. Jeg er drevet af %@. Spørg mig om hvad som helst, og jeg vil gøre mit bedste for at svare.";
 
 /* The model intro message when you first enter the chat assistant */
 "aichat.introMessageLlamaMessageDescription" = "Hej, jeg hedder Leo. Jeg er en AI-assistent fra iBrowe, der er fuldt hostet. Jeg er udviklet af Llama 3.1 8B, en model skabt af Meta til at være effektiv og anvendelig i mange tilfælde.";
@@ -185,16 +185,16 @@
 "aichat.leoCodeExampleDefaultTitle" = "Kodeeksempel";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo er i øjeblikket deaktiveret via funktionsflag. For at genaktivere Leo skal du besøge iBrowe://flags og aktivere den.";
+"aichat.leoDisabledMessageDescription" = "Leo er i øjeblikket deaktiveret via funktionsflag. For at genaktivere Leo skal du besøge brave://flags og aktivere den.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo handicappet";
 
 /* The text displayed on the loading screen when searching for a user query */
-"aichat.leoImprovedAnsweriBroweSearch" = "Søger efter forbedret svar";
+"aichat.leoImprovedAnswerBraveSearch" = "Søger efter forbedret svar";
 
 /* The text displayed on the loading screen when searching for a user query */
-"aichat.leoImprovingAnsweriBroweSearch" = "Forbedrer svaret med iBrowe Search ...";
+"aichat.leoImprovingAnswerBraveSearch" = "Forbedrer svaret med iBrowe Search ...";
 
 /* The title of the advanced settings view */
 "aichat.leoNavigationTitle" = "Leo AI";
@@ -386,7 +386,7 @@
 "aichat.termsConditionsApproveActionTitle" = "Jeg forstår";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
-"aichat.termsConditionsDescription" = "iBrowes Leo er en privat AI-smart-assistent, der forbedrer din brug af nettet. Leo kan bruges gratis med begrænset adgang. iBrowes Leo Premium tilbyder flere modeller, højere grænser og giver abonnenter tidlig adgang til nye funktioner. Standardmodellen for alle brugere er i øjeblikket Mixtral 8x7B. Find flere oplysninger i iBrowes **[Hjælpecenter](%1$@)**.\n\nNår du stiller Leo et spørgsmål, kan den som standard sende og bruge indholdet på den webside, du ser, eller enhver tekst, du fremhæver på en side, til iBrowe Leo, så den kan give et svar. I nogle tilfælde sender Leo forespørgsler, der er afledt af dit input, til iBrowe Search og bruger søgeresultaterne til bedre at besvare dit spørgsmål. Svarenes nøjagtighed er ikke garanteret og kan indeholde unøjagtige, vildledende eller falske oplysninger. Indsend ikke følsomme eller private oplysninger, og vær forsigtig med eventuelle svar relateret til sundhed, økonomi, personlig sikkerhed eller lignende. Du kan til enhver tid justere Leos indstillinger i Indstillinger. Gå til Indstillinger > Leo.\n\nLeo indsamler ikke identifikatorer såsom din IP-adresse, som kan knyttes til dig. Der bruges ingen data til at træne AI-modellerne, og ingen personlige data opbevares af AI-modellerne (undtagen Anthropic, der opbevarer data i 30 dage, før den sletter dem). Find flere oplysninger i **[fortrolighedspolitikken](%2$@)**.";
+"aichat.termsConditionsDescription" = "Braves Leo er en privat AI-smart-assistent, der forbedrer din brug af nettet. Leo kan bruges gratis med begrænset adgang. Braves Leo Premium tilbyder flere modeller, højere grænser og giver abonnenter tidlig adgang til nye funktioner. Standardmodellen for alle brugere er i øjeblikket Mixtral 8x7B. Find flere oplysninger i Braves **[Hjælpecenter](%1$@)**.\n\nNår du stiller Leo et spørgsmål, kan den som standard sende og bruge indholdet på den webside, du ser, eller enhver tekst, du fremhæver på en side, til iBrowe Leo, så den kan give et svar. I nogle tilfælde sender Leo forespørgsler, der er afledt af dit input, til iBrowe Search og bruger søgeresultaterne til bedre at besvare dit spørgsmål. Svarenes nøjagtighed er ikke garanteret og kan indeholde unøjagtige, vildledende eller falske oplysninger. Indsend ikke følsomme eller private oplysninger, og vær forsigtig med eventuelle svar relateret til sundhed, økonomi, personlig sikkerhed eller lignende. Du kan til enhver tid justere Leos indstillinger i Indstillinger. Gå til Indstillinger > Leo.\n\nLeo indsamler ikke identifikatorer såsom din IP-adresse, som kan knyttes til dig. Der bruges ingen data til at træne AI-modellerne, og ingen personlige data opbevares af AI-modellerne (undtagen Anthropic, der opbevarer data i 30 dage, før den sletter dem). Find flere oplysninger i **[fortrolighedspolitikken](%2$@)**.";
 
 /* The title terms and conditions for AI chat usage */
 "aichat.termsConditionsTitle" = "Chat privat med iBrowe Leo";

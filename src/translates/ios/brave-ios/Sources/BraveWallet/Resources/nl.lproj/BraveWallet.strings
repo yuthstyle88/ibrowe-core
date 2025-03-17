@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Er worden maar %@ uitgebreide sleutels ondersteund.";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.iBroweFeeLabel" = "iBrowe-vergoeding: %@";
+"wallet.braveFeeLabel" = "iBrowe-vergoeding: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.iBroweSwapFeeDisclaimer" = "Bij de offerte is een iBrowe-vergoeding van %@ inbegrepen.";
+"wallet.braveSwapFeeDisclaimer" = "Bij de offerte is een iBrowe-vergoeding van %@ inbegrepen.";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.iBroweSwapFree" = "Gratis";
+"wallet.braveSwapFree" = "Gratis";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "Bitcoin";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Verleen";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "vraagt de openbare encryptiesleutel van je wallet. Als je deze sleutel geeft, kan de site geëncrypte berichten naar jou sturen.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1294,8 +1294,8 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "Voer het wachtwoord opnieuw in";
 
-/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
-"wallet.restoreLegacyiBroweWalletToggleTitle" = "Importeren vanuit verouderde iBrowe-cryptowallets?";
+/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Importeren vanuit verouderde iBrowe-cryptowallets?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Herstel Wallet";
@@ -1304,10 +1304,10 @@
 "wallet.restoreWalletButtonTitle" = "Herstel";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
-"wallet.restoreWalletImportFromLegacyiBroweWallet" = "Ik heb een herstelzin van 24 woorden";
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Ik heb een herstelzin van 24 woorden";
 
 /* A button title when 24 recovery-word grids are displayed for users to restore legacy wallet. Users can click this button to display the 12 recovery-word grids to restore regular wallet. */
-"wallet.restoreWalletImportFromRegulariBroweWallet" = "Ik heb een herstelzin van 12 woorden";
+"wallet.restoreWalletImportFromRegularBraveWallet" = "Ik heb een herstelzin van 12 woorden";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Nieuw wachtwoord";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Transactie getekend";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWallet" = "Log in bij iBrowe Wallet";
+"wallet.signInWithBraveWallet" = "Log in bij iBrowe Wallet";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWalletMessage" = "Je logt in bij %1$@. iBrowe Wallet deelt het adres van je wallet met %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Je logt in bij %1$@. iBrowe Wallet deelt het adres van je wallet met %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Opeenvolgende tekens voor een nieuwe regel gedetecteerd.";

@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Podržani su samo produženi ključevi %@.";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.iBroweFeeLabel" = "Naknada preglednika iBrowe: %@";
+"wallet.braveFeeLabel" = "Naknada preglednika iBrowe: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.iBroweSwapFeeDisclaimer" = "Ponudom se uključuje naknada od %@ za preglednik iBrowe.";
+"wallet.braveSwapFeeDisclaimer" = "Ponudom se uključuje naknada od %@ za preglednik iBrowe.";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.iBroweSwapFree" = "Besplatno";
+"wallet.braveSwapFree" = "Besplatno";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "Bitcoin";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Pružiti";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "traži javni ključ za šifriranje vašeg novčanika. Ako pristanete na davanje ključa, mrežnim mjestom mogu vam se slati šifrirane poruke.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1294,8 +1294,8 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "Ponovno upiši lozinku";
 
-/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
-"wallet.restoreLegacyiBroweWalletToggleTitle" = "Uvoziti iz starijih kriptonovčanika iBrowe?";
+/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Uvoziti iz starijih kriptonovčanika iBrowe?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Obnavljanje novčanika";
@@ -1304,10 +1304,10 @@
 "wallet.restoreWalletButtonTitle" = "Vrati";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
-"wallet.restoreWalletImportFromLegacyiBroweWallet" = "Imam rečenicu za oporavak od 24 riječi";
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Imam rečenicu za oporavak od 24 riječi";
 
 /* A button title when 24 recovery-word grids are displayed for users to restore legacy wallet. Users can click this button to display the 12 recovery-word grids to restore regular wallet. */
-"wallet.restoreWalletImportFromRegulariBroweWallet" = "Imam rečenicu za oporavak od 12 riječi";
+"wallet.restoreWalletImportFromRegularBraveWallet" = "Imam rečenicu za oporavak od 12 riječi";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Nova lozinka";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Transakcija potpisana";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWallet" = "Prijava Novčanikom iBrowe";
+"wallet.signInWithBraveWallet" = "Prijava Novčanikom iBrowe";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWalletMessage" = "Prijavljujete se u %1$@. Novčanikom iBrowe dijeli se adresa vašeg novčanika s uslugom %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Prijavljujete se u %1$@. Novčanikom iBrowe dijeli se adresa vašeg novčanika s uslugom %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Otkriveni uzastopni znakovi za novi redak!";

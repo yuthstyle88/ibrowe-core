@@ -2,10 +2,10 @@
 "About" = "Thông tin";
 
 /* The title of the screen explaining iBrowe Shields */
-"AboutiBroweShields" = "Thông tin về Lá chắn của iBrowe";
+"AboutBraveShields" = "Thông tin về Lá chắn của iBrowe";
 
 /* The body of the screen explaining iBrowe Shields */
-"AboutiBroweShieldsBody" = "Các trang web thường bao gồm cookie và tập lệnh cố gắng xác định bạn và thiết bị của bạn. Các trang đó muốn tìm ra bạn là ai và theo dõi bạn trên khắp môi trường mạng, theo dõi những gì bạn làm trên mọi trang web.\n\niBrowe chặn những thứ này để bạn có thể duyệt web mà không bị theo dõi.";
+"AboutBraveShieldsBody" = "Các trang web thường bao gồm cookie và tập lệnh cố gắng xác định bạn và thiết bị của bạn. Các trang đó muốn tìm ra bạn là ai và theo dõi bạn trên khắp môi trường mạng, theo dõi những gì bạn làm trên mọi trang web.\n\nBrave chặn những thứ này để bạn có thể duyệt web mà không bị theo dõi.";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "Điều này cho phép bạn lưu ảnh vào Cuộn camera.";
@@ -29,7 +29,7 @@
 "AddToMenuItem" = "Thêm Dấu trang";
 
 /* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.iBroweAdsDataToggleOption" = "Dữ liệu Quảng cáo iBrowe";
+"ads.braveAdsDataToggleOption" = "Dữ liệu Quảng cáo iBrowe";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Quảng cáo và trình theo dõi";
@@ -98,7 +98,7 @@
 "BlockCookieConsentNotices" = "Chặn thông báo chấp thuận cookie";
 
 /* No comment provided by engineer. */
-"BlockCookiesDescription" = "Ngăn các trang web lưu trữ thông tin về các lần truy cập trước của bạn.\nTùy chọn \"Chặn tất cả Cookie\" đã bị loại bỏ. Để tìm hiểu cách bắt buộc bật tùy chọn này, hãy truy cập [trang trợ giúp của chúng tôi](https://github.com/iBrowe/iBrowe-browser/wiki/Block-all-cookies-global-Shields-setting)";
+"BlockCookiesDescription" = "Ngăn các trang web lưu trữ thông tin về các lần truy cập trước của bạn.\nTùy chọn \"Chặn tất cả Cookie\" đã bị loại bỏ. Để tìm hiểu cách bắt buộc bật tùy chọn này, hãy truy cập [trang trợ giúp của chúng tôi](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Màn hình chặn";
@@ -142,110 +142,110 @@
 /* Placeholder text for adding or editing a bookmark */
 "BookmarkUrlPlaceholderText" = "Địa chỉ";
 
-/* Button to show the iBrowe panel */
-"iBrowePanel" = "Bảng điều khiển iBrowe";
+/* Button to show the brave panel */
+"BravePanel" = "Bảng điều khiển iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsAdNotificationTitle" = "Phần thưởng iBrowe";
+"BraveRewardsAdNotificationTitle" = "Phần thưởng iBrowe";
 
 /* No comment provided by engineer. */
-"iBroweRewardsOpen" = "Mở";
+"BraveRewardsOpen" = "Mở";
 
 /* iBrowe Rewards title in settings */
-"iBroweRewardsSettingsTitle" = "Phần thưởng";
+"BraveRewardsSettingsTitle" = "Phần thưởng";
 
 /* iBrowe Rewards title */
-"iBroweRewardsTitle" = "Phần thưởng iBrowe";
+"BraveRewardsTitle" = "Phần thưởng iBrowe";
 
 /* iBrowe Search Banner Promotion description content in Search Suggestions */
-"iBroweSearchPromotion.bannerDescription" = "Tìm kiếm iBrowe không thu thập thông tin về bạn.";
+"braveSearchPromotion.bannerDescription" = "Tìm kiếm iBrowe không thu thập thông tin về bạn.";
 
 /* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
-"iBroweSearchPromotion.bannerMaybeLaterButtonTitle" = "Có lẽ để sau";
+"braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Có lẽ để sau";
 
 /* iBrowe Search Banner Promotion title in Search Suggestions */
-"iBroweSearchPromotion.bannerTitle" = "Hỗ trợ tìm kiếm độc lập với quyền riêng tư tốt hơn";
+"braveSearchPromotion.bannerTitle" = "Hỗ trợ tìm kiếm độc lập với quyền riêng tư tốt hơn";
 
 /* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"iBroweSearchPromotion.bannerTryButtonTitle" = "Dùng thử Tìm kiếm iBrowe";
+"braveSearchPromotion.bannerTryButtonTitle" = "Dùng thử Tìm kiếm iBrowe";
 
 /* Button title for Bottom Bar Callout View for action later */
-"iBroweSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Có lẽ để sau";
+"braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Có lẽ để sau";
 
 /* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
-"iBroweSearchPromotion.iBroweSearchPromotionBannerDismissButtonTitle" = "Bỏ qua";
+"braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Bỏ qua";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAdvancedControls" = "Nút điều khiển nâng cao";
+"BraveShieldsAdvancedControls" = "Nút điều khiển nâng cao";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacy" = "Lá chắn iBrowe & Quyền riêng tư";
+"BraveShieldsAndPrivacy" = "Lá chắn iBrowe & Quyền riêng tư";
 
 /* No comment provided by engineer. */
-"iBroweShieldsAndPrivacyTitle" = "Lá chắn & Quyền riêng tư";
+"BraveShieldsAndPrivacyTitle" = "Lá chắn & Quyền riêng tư";
 
 /* The number of ads and trackers blocked will be next to this */
-"iBroweShieldsBlockedCountLabel" = "Quảng cáo và những thứ đáng sợ khác bị chặn";
+"BraveShieldsBlockedCountLabel" = "Quảng cáo và những thứ đáng sợ khác bị chặn";
 
 /* What the screen reader will read out when the user has VoiceOver on and taps on the question-mark info button on the shields panel */
-"iBroweShieldsBlockedInfoButtonAccessibilityLabel" = "Tìm hiểu thêm";
+"BraveShieldsBlockedInfoButtonAccessibilityLabel" = "Tìm hiểu thêm";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalChangeButton" = "Chỉnh mặc định toàn cầu của Lá chắn";
+"BraveShieldsGlobalChangeButton" = "Chỉnh mặc định toàn cầu của Lá chắn";
 
 /* No comment provided by engineer. */
-"iBroweShieldsGlobalControls" = "Kiểm soát toàn cục";
+"BraveShieldsGlobalControls" = "Kiểm soát toàn cục";
 
 /* Shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfo" = "Lưu thông tin liên hệ cho mục đích báo cáo trang web hỏng trong tương lai";
+"BraveShieldsSaveContactInfo" = "Lưu thông tin liên hệ cho mục đích báo cáo trang web hỏng trong tương lai";
 
 /* Description for shields panel toggle label that would save webcompat report contact info data when enabled. */
-"iBroweShieldsSaveContactInfoDescription" = "Nếu bạn cung cấp thông tin liên hệ, thông tin đó sẽ được lưu trữ cho các báo cáo trong tương lai";
+"BraveShieldsSaveContactInfoDescription" = "Nếu bạn cung cấp thông tin liên hệ, thông tin đó sẽ được lưu trữ cho các báo cáo trong tương lai";
 
 /* No comment provided by engineer. */
-"iBroweShieldsSiteBroken" = "Nếu trang web hiển thị lỗi, hãy thử tắt Lá chắn";
+"BraveShieldsSiteBroken" = "Nếu trang web hiển thị lỗi, hãy thử tắt Lá chắn";
 
 /* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
-"iBroweShieldsStatusTitle" = "Lá chắn iBrowe";
+"BraveShieldsStatusTitle" = "Lá chắn iBrowe";
 
 /* Context: The 'Down' in 'iBrowe Shields Down' */
-"iBroweShieldsStatusValueDown" = "Tắt";
+"BraveShieldsStatusValueDown" = "Tắt";
 
 /* Context: The 'Up' in 'iBrowe Shields Up' */
-"iBroweShieldsStatusValueUp" = "Bật";
+"BraveShieldsStatusValueUp" = "Bật";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"iBroweShieldsToggleHint" = "Nhấn đúp để hiển thị Lá chắn iBrowe";
+"BraveShieldsToggleHint" = "Nhấn đúp để hiển thị Lá chắn iBrowe";
 
 /* The name of the feature */
-"iBrowetalk.iBroweTalkTitle" = "Trò chuyện iBrowe";
+"bravetalk.braveTalkTitle" = "Trò chuyện iBrowe";
 
 /* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
-"iBroweTranslate.languageSelectionButtonTitle" = "Chọn ngôn ngữ";
+"BraveTranslate.languageSelectionButtonTitle" = "Chọn ngôn ngữ";
 
 /* Title for a text element that lets the user know the page was translated successfully. */
-"iBroweTranslate.pageTranslatedTitle" = "Trang đã được dịch";
+"BraveTranslate.pageTranslatedTitle" = "Trang đã được dịch";
 
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
-"iBroweTranslate.searchInputTitle" = "Tìm kiếm";
+"BraveTranslate.searchInputTitle" = "Tìm kiếm";
 
 /* This text is for the settings menu for all iBrowe-Translate options. */
-"iBroweTranslate.settingsMenuTitle" = "iBrowe Dịch";
+"BraveTranslate.settingsMenuTitle" = "iBrowe Dịch";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
-"iBroweTranslate.settingsScreenTitle" = "iBrowe Dịch";
+"BraveTranslate.settingsScreenTitle" = "iBrowe Dịch";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionDescription" = "Khi được bật, iBrowe Dịch sẽ tự động phát hiện ngôn ngữ hiện tại của trang và hiển thị nút dịch trên thanh URL.";
+"BraveTranslate.settingsTranslateEnabledOptionDescription" = "Khi được bật, iBrowe Dịch sẽ tự động phát hiện ngôn ngữ hiện tại của trang và hiển thị nút dịch trên thanh URL.";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"iBroweTranslate.settingsTranslateEnabledOptionTitle" = "Đã bật Dịch";
+"BraveTranslate.settingsTranslateEnabledOptionTitle" = "Đã bật Dịch";
 
 /* The word 'to', is used in the sentenced: Translate [language-a] to [language-b] */
-"iBroweTranslate.translateFromToTitle" = "Đến";
+"BraveTranslate.translateFromToTitle" = "Đến";
 
 /* This text is used as a placeholder for languages when the language detected on the page is unsupported or unknown. */
-"iBroweTranslate.unknownLanguageTitle" = "Ngôn ngữ không xác định";
+"BraveTranslate.unknownLanguageTitle" = "Ngôn ngữ không xác định";
 
 /* Title for setting to enable the browser lock privacy feature */
 "BrowserLock" = "Khóa trình duyệt";
@@ -340,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "Tạo";
 
-/* Title of the section for the Domain Component such as: DNS or iBrowe.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "Thành phần của domain";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -1037,7 +1037,7 @@
 "nprRedirectFooter" = "Tự động chuyển hướng các liên kết NPR đến phiên bản dạng văn bản (tại text.npr.org).";
 
 /* Bookmark title for iBrowe Support */
-"ntp.iBroweSupportFavoriteTitle" = "Hỗ trợ iBrowe";
+"ntp.braveSupportFavoriteTitle" = "Hỗ trợ iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Nhận token";
@@ -1090,13 +1090,13 @@
 /* The placeholder says 'Terms of Service'. So full sentence goes like: 'By turning Rewards, you agree to the Terms of Service'. */
 "ntp.turnRewardsTos" = "Khi bật Phần thưởng, bạn đồng ý với %@.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessage" = "Nhận được mã thông báo và thưởng cho người sáng tạo có nội dung tuyệt vời khi bạn duyệt web.";
 
-/* Message when opting into iBrowe Ads when region becomes available */
+/* Message when opting into brave Ads when region becomes available */
 "OBAdsOptInMessageJapan" = "Thu thập điểm và thưởng cho các nhà sáng tạo có nội dung tuyệt vời khi bạn duyệt web.";
 
-/* Title when opting into iBrowe Ads when region becomes available */
+/* Title when opting into brave Ads when region becomes available */
 "OBAdsOptInTitle" = "Xin giới thiệu Quảng cáo iBrowe!";
 
 /* Title for ads onboarding screen */
@@ -1235,7 +1235,7 @@
 "OpenAllBookmarks" = "Mở tất cả (%i)";
 
 /* Button title for opening the iBrowe Rewards panel to settings */
-"OpeniBroweRewardsSettings" = "Mở cài đặt Phần thưởng iBrowe";
+"OpenBraveRewardsSettings" = "Mở cài đặt Phần thưởng iBrowe";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Đã xảy ra lỗi không xác định khi mở thư mục Tải xuống trong ứng dụng Tệp.";
@@ -1364,34 +1364,34 @@
 "OpenWebsite" = "Mở trang web";
 
 /* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
-"optionsMenu.iBroweLeoItemDescription" = "Leo là trợ lý thông minh được hỗ trợ bởi AI, được tích hợp ngay trên trình duyệt";
+"optionsMenu.braveLeoItemDescription" = "Leo là trợ lý thông minh được hỗ trợ bởi AI, được tích hợp ngay trên trình duyệt";
 
 /* The subtitle description of menu item iBrowe News */
-"optionsMenu.iBroweNewsItemDescription" = "Các tin tức hàng đầu hôm nay trong trang tin tức riêng tư";
+"optionsMenu.braveNewsItemDescription" = "Các tin tức hàng đầu hôm nay trong trang tin tức riêng tư";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBroweNewsItemTitle" = "Tin tức";
+"optionsMenu.braveNewsItemTitle" = "Tin tức";
 
 /* The subtitle description of menu item iBrowe Playlist */
-"optionsMenu.iBrowePlaylistItemDescription" = "Giữ một danh sách phát ngoại tuyến của bất kỳ video/luồng nào";
+"optionsMenu.bravePlaylistItemDescription" = "Giữ một danh sách phát ngoại tuyến của bất kỳ video/luồng nào";
 
 /* iBrowe News Item Menu title */
-"optionsMenu.iBrowePlaylistItemTitle" = "Danh sách phát";
+"optionsMenu.bravePlaylistItemTitle" = "Danh sách phát";
 
 /* The subtitle description of menu item iBrowe Talk */
-"optionsMenu.iBroweTalkItemDescription" = "Gọi video riêng tư, ngay trong trình duyệt của bạn";
+"optionsMenu.braveTalkItemDescription" = "Gọi video riêng tư, ngay trong trình duyệt của bạn";
 
 /* iBrowe Talk Item Menu title */
-"optionsMenu.iBroweTalkItemTitle" = "Trò chuyện";
+"optionsMenu.braveTalkItemTitle" = "Trò chuyện";
 
 /* The subtitle description of menu item iBrowe VPN */
-"optionsMenu.iBroweVPNItemDescription" = "Bảo vệ toàn bộ thiết bị của bạn khi trực tuyến";
+"optionsMenu.braveVPNItemDescription" = "Bảo vệ toàn bộ thiết bị của bạn khi trực tuyến";
 
 /* iBrowe VPN Item Menu title */
-"optionsMenu.iBroweVPNItemTitle" = "VPN";
+"optionsMenu.braveVPNItemTitle" = "VPN";
 
 /* The subtitle description of menu item iBrowe Wallet */
-"optionsMenu.iBroweWalletItemDescription" = "Ví tiền điện tử bảo mật, không yêu cầu tiện ích";
+"optionsMenu.braveWalletItemDescription" = "Ví tiền điện tử bảo mật, không yêu cầu tiện ích";
 
 /* Privacy Features Section title */
 "optionsMenu.menuSectionTitle" = "Tính năng của iBrowe";
@@ -1888,7 +1888,7 @@
 /* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Tất cả cảnh báo";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by iBroweVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Đã chặn bởi";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -2036,7 +2036,7 @@
 "QuickSearchEngines" = "Tìm nhanh công cụ tìm kiếm";
 
 /* Open the App Store to rate iBrowe. */
-"RateiBrowe" = "Đánh giá iBrowe";
+"RateBrave" = "Đánh giá iBrowe";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Tăng kích thước chữ";
@@ -2197,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Gửi";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "\"%@\" muốn truy cập camera và micrô";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCameraPermissionPrompt" = "\"%@\" muốn truy cập camera";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "Cho phép";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestCaptureDevicePermissionPrompt" = "\"%@\" muốn truy cập thiết bị ghi đa phương tiện";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.iBrowe.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
 "requestMicrophonePermissionPrompt" = "\"%@\" muốn truy cập micrô";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2231,19 +2231,19 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe đóng đột ngột.";
 
 /* Body for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInBody" = "Với Phần thưởng iBrowe, bạn có thể xem quảng cáo với cam kết bảo vệ quyền riêng tư từ mạng lưới Quảng cáo iBrowe. Không có trình theo dõi. Không làm giảm tốc độ. Và dữ liệu của bạn được bảo mật hoàn toàn.";
+"rewards.braveTalkRewardsOptInBody" = "Với Phần thưởng iBrowe, bạn có thể xem quảng cáo với cam kết bảo vệ quyền riêng tư từ mạng lưới Quảng cáo iBrowe. Không có trình theo dõi. Không làm giảm tốc độ. Và dữ liệu của bạn được bảo mật hoàn toàn.";
 
 /* Title for iBrowe Talk rewards opt-in screen button */
-"rewards.iBroweTalkRewardsOptInButtonTitle" = "Bật Phần thưởng";
+"rewards.braveTalkRewardsOptInButtonTitle" = "Bật Phần thưởng";
 
 /* Body for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessBody" = "Nhấp vào bất cứ đâu trên màn hình để tiếp tục đến Trò chuyện iBrowe.";
+"rewards.braveTalkRewardsOptInSuccessBody" = "Nhấp vào bất cứ đâu trên màn hình để tiếp tục đến Trò chuyện iBrowe.";
 
 /* Title for successful iBrowe Talk rewards opt-in */
-"rewards.iBroweTalkRewardsOptInSuccessTitle" = "Giờ đây bạn có thể bắt đầu một cuộc gọi miễn phí";
+"rewards.braveTalkRewardsOptInSuccessTitle" = "Giờ đây bạn có thể bắt đầu một cuộc gọi miễn phí";
 
 /* Title for iBrowe Talk rewards opt-in screen */
-"rewards.iBroweTalkRewardsOptInTitle" = "Để bắt đầu một cuộc gọi miễn phí, hãy bật Phần thưởng iBrowe";
+"rewards.braveTalkRewardsOptInTitle" = "Để bắt đầu một cuộc gọi miễn phí, hãy bật Phần thưởng iBrowe";
 
 /* Displayed when iBrowe Rewards is disabled */
 "rewards.disabledBody" = "Bật để góp phần hỗ trợ iBrowe và cộng đồng BAT.";
@@ -2294,7 +2294,7 @@
 "RewardsInternalsContributionAmount" = "Khoản tiền đóng góp";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessoriBroweTokens" = "Mã thông báo iBrowe";
+"RewardsInternalsContributionProcessorBraveTokens" = "Mã thông báo iBrowe";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Không";
@@ -2549,7 +2549,7 @@
 "SearchSuggestionsSectionHeader" = "Gợi ý tìm kiếm";
 
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithiBrowe" = "Tìm kiếm với iBrowe";
+"SearchWithBrave" = "Tìm kiếm với iBrowe";
 
 /* Settings security section title */
 "Security" = "Bảo mật";
@@ -2606,7 +2606,7 @@
 "settings.media.rootSetting" = "Truyền thông";
 
 /* A toggle label which lets the user always open YouTube urls in iBrowe */
-"settings.openYouTubeIniBrowe" = "Mở liên kết YouTube trong iBrowe";
+"settings.openYouTubeInBrave" = "Mở liên kết YouTube trong iBrowe";
 
 /* No comment provided by engineer. */
 "settings.privacy.screenTimeSetting" = "Bật Thống kê thời gian";
@@ -2723,7 +2723,7 @@
 "ShortcutItemTitleQRCode" = "Quét mã QR";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeiBroweNewsDescription" = "Mở Tin tức iBrowe và xem các tin tức hàng đầu của hôm nay";
+"shortcuts.activityTypeBraveNewsDescription" = "Mở Tin tức iBrowe và xem các tin tức hàng đầu của hôm nay";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "Mở trình duyệt trong thẻ mới và xóa tất cả dữ liệu lịch sử của trình duyệt riêng tư";
@@ -2765,10 +2765,10 @@
 "shortcuts.activityTypeOpenBookmarksTitle" = "Mở Dấu trang của trình duyệt iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweNewsTitle" = "Mở Tin tức iBrowe";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "Mở Tin tức iBrowe";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpeniBroweTodaySuggestedPhrase" = "Mở Tin tức iBrowe";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Mở Tin tức iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenHistoryListDescription" = "Mở màn hình Lịch sử trình duyệt";
@@ -2834,10 +2834,10 @@
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "Mở dấu trang";
 
 /* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpeniBroweNewsDescription" = "Sử dụng Phím tắt để mở thẻ mới & hiển thị bảng tin Tin tức iBrowe qua Siri - Trợ lý giọng nói";
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Sử dụng Phím tắt để mở thẻ mới & hiển thị bảng tin Tin tức iBrowe qua Siri - Trợ lý giọng nói";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpeniBroweNewsTitle" = "Mở Tin tức iBrowe";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Mở Tin tức iBrowe";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "Sử dụng Phím tắt để mở màn hình lịch sử của trình duyệt qua Siri - Trợ lý giọng nói";
@@ -3383,10 +3383,10 @@
 "today.availableRSSFeedsHeaderTitle" = "Nguồn cấp RSS khả dụng";
 
 /* The name of the feature */
-"today.iBroweToday" = "Tin tức iBrowe";
+"today.braveToday" = "Tin tức iBrowe";
 
 /* The name of the feature in settings */
-"today.iBroweToday.title" = "Tin tức";
+"today.braveToday.title" = "Tin tức";
 
 /* Shown below 'Channels' explaining what will be shown when tapping on it. */
 "today.channelsButtonSubtitle" = "Theo dõi các chủ đề mà bạn quan tâm";
@@ -3442,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "Theo dõi";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://iBrowe.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
 "today.getFeedsFromSiteButtonTitle" = "Nhận dữ liệu từ";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3464,7 +3464,7 @@
 "today.learnMoreTitle" = "Tìm hiểu thêm về dữ liệu của bạn";
 
 /* 'iBrowe Offers' is a product name */
-"today.moreiBroweOffers" = "Thêm ưu đãi iBrowe";
+"today.moreBraveOffers" = "Thêm ưu đãi iBrowe";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Không có internet";
@@ -3488,19 +3488,19 @@
 "today.promoted" = "Được quảng bá";
 
 /* Title for long press action sheet list which has item for rate / hide */
-"today.rateiBroweCardActionSheetTitle" = "Đánh giá iBrowe trên App Store";
+"today.rateBraveCardActionSheetTitle" = "Đánh giá iBrowe trên App Store";
 
 /* Title for long press action that will hide iBrowe Rate Card */
-"today.rateiBroweCardHideActionTitle" = "Ẩn";
+"today.rateBraveCardHideActionTitle" = "Ẩn";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
-"today.rateiBroweCardRateActionTitle" = "Đánh giá iBrowe";
+"today.rateBraveCardRateActionTitle" = "Đánh giá iBrowe";
 
 /* Subtitle shown on the Rate iBrowe Card */
-"today.rateiBroweCardSubtitle" = "Hãy cho chúng tôi biết bạn nghĩ gì!";
+"today.rateBraveCardSubtitle" = "Hãy cho chúng tôi biết bạn nghĩ gì!";
 
 /* Title shown on the Rate iBrowe Card */
-"today.rateiBroweCardTitle" = "Thích iBrowe?";
+"today.rateBraveCardTitle" = "Thích iBrowe?";
 
 /* No comment provided by engineer. */
 "today.refresh" = "Làm mới";
@@ -3527,7 +3527,7 @@
 "today.suggestedTitle" = "Đã đề xuất";
 
 /* No comment provided by engineer. */
-"today.turnOniBroweToday" = "Bật Tin tức iBrowe";
+"today.turnOnBraveToday" = "Bật Tin tức iBrowe";
 
 /* A toggle title shown next to a source or channel that the user can unfollow. When tapped switches to 'Follow' */
 "today.unfollowToggleTitle" = "Hủy theo dõi";

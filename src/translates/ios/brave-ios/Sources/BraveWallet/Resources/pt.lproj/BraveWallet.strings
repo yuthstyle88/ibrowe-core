@@ -233,13 +233,13 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Apenas %@ chaves estendidas são compatíveis.";
 
 /* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.iBroweFeeLabel" = "Comissão do iBrowe: %@";
+"wallet.braveFeeLabel" = "Comissão do iBrowe: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.iBroweSwapFeeDisclaimer" = "A cotação inclui uma taxa de %@ do iBrowe.";
+"wallet.braveSwapFeeDisclaimer" = "A cotação inclui uma taxa de %@ do iBrowe.";
 
 /* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
-"wallet.iBroweSwapFree" = "Grátis";
+"wallet.braveSwapFree" = "Grátis";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
 "wallet.btcAccountDescription" = "Bitcoin";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Providenciar";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://iBrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "está solicitando a chave de criptografia pública da sua carteira. Se você consentir com o fornecimento dessa chave, o site poderá criar mensagens criptografadas para você.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -1294,8 +1294,8 @@
 /* A placeholder string that will be used on repeat password text fields */
 "wallet.repeatedPasswordPlaceholder" = "Inserir senha novamente";
 
-/* A label for toggle for user to use to indicate importing a legacy iBrowe wallet or not */
-"wallet.restoreLegacyiBroweWalletToggleTitle" = "Importar das carteiras de criptomoedas legadas do iBrowe?";
+/* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Importar das carteiras de criptomoedas legadas do iBrowe?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Restaurar carteira";
@@ -1304,10 +1304,10 @@
 "wallet.restoreWalletButtonTitle" = "Restaurar";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
-"wallet.restoreWalletImportFromLegacyiBroweWallet" = "Eu tenho uma frase de recuperação de 24 palavras";
+"wallet.restoreWalletImportFromLegacyBraveWallet" = "Eu tenho uma frase de recuperação de 24 palavras";
 
 /* A button title when 24 recovery-word grids are displayed for users to restore legacy wallet. Users can click this button to display the 12 recovery-word grids to restore regular wallet. */
-"wallet.restoreWalletImportFromRegulariBroweWallet" = "Eu tenho uma frase de recuperação de 12 palavras";
+"wallet.restoreWalletImportFromRegularBraveWallet" = "Eu tenho uma frase de recuperação de 12 palavras";
 
 /* A title displayed above 2 text fields for entering a new wallet password */
 "wallet.restoreWalletNewPasswordTitle" = "Nova senha";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Transação assinada";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWallet" = "Iniciar sessão com a Carteira iBrowe";
+"wallet.signInWithBraveWallet" = "Iniciar sessão com a Carteira iBrowe";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithiBroweWalletMessage" = "Você iniciou sessão em %1$@. A iBrowe Wallet vai compartilhar o endereço da sua carteira com %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Você iniciou sessão em %1$@. A iBrowe Wallet vai compartilhar o endereço da sua carteira com %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Caracteres de nova linha consecutivos detectados.";
