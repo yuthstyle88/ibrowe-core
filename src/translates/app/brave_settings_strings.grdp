@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- iBrowe Settings WebUI strings (included from brave_generated_resources.grd). -->
+<!-- iBrowe Settings WebUI strings (included from ibrowe_generated_resources.grd). -->
 <grit-part>
 
   <!--Add new items to the appropriate sections below -->
@@ -68,8 +68,8 @@
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their iBrowe Account">
     A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @bravealias.com email address when creating their iBrowe Account">
-    You can't use @bravealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @ibrowealias.com email address when creating their iBrowe Account">
+    You can't use @ibrowealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Create a password' input field">
     Create a password
@@ -162,7 +162,7 @@
   </message>
 
   <!-- Settings / Appearance -->
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for ibrowe theme change setting options">
     iBrowe colors
   </message>
   <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">

@@ -3637,7 +3637,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the iBrowe d
        </message>
 
       <!-- Signin First Run strings -->
-      <message name="IDS_SIGNIN_FRE_DISMISS_BUTTON" desc="Button on the very first screen of iBrowe to continue without signing into iBrowe. Ensure consistency with OneBrave strings while still omitting “iBrowe” (see e.g. TC ID 5336438894576002929).">
+      <message name="IDS_SIGNIN_FRE_DISMISS_BUTTON" desc="Button on the very first screen of iBrowe to continue without signing into iBrowe. Ensure consistency with OneiBrowe strings while still omitting “iBrowe” (see e.g. TC ID 5336438894576002929).">
         Use without an account
       </message>
       <message name="IDS_SIGNIN_FRE_FOOTER" desc="The text is displayed in a footer on the very first screen of iBrowe. The link ‘Terms of Service’ opens the iBrowe Terms of Service. Preferably, ensure consistency with the “Usage statistics and crash reports” section of the iBrowe Privacy Policy (google.com/chrome/privacy). Separate the first and the second part through a line break.">
@@ -3830,7 +3830,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the iBrowe d
       </message>
 
       <!-- Personalized Signin Promos Strings -->
-      <message name="IDS_SYNC_PROMO_CONTINUE_AS" desc="Button to sign into iBrowe with the displayed account and without having to reenter a password. ‘John’ is replaced with the user’s given name, or the user’s full name if the given name is not available. Ensure consistency with related OneBrave sign-in buttons (see e.g. TC ID 5569230012177947065).">
+      <message name="IDS_SYNC_PROMO_CONTINUE_AS" desc="Button to sign into iBrowe with the displayed account and without having to reenter a password. ‘John’ is replaced with the user’s given name, or the user’s full name if the given name is not available. Ensure consistency with related OneiBrowe sign-in buttons (see e.g. TC ID 5569230012177947065).">
         Continue as <ph name="USER_FULL_NAME">%1$s<ex>John</ex></ph>
       </message>
       <message name="IDS_SYNC_PROMO_CONTINUE" desc="Button to sign into iBrowe, similar to IDS_SYNC_PROMO_CONTINUE_AS. Used when the user's display names are not available and the email address cannot be displayed.">
@@ -5146,7 +5146,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the iBrowe d
         Feed card menu is closed
       </message>
 
-      <!-- BraveBottomBar -->
+      <!-- iBroweBottomBar -->
       <message name="IDS_GOOGLE_BOTTOM_BAR_SAVE_DISABLED_TOOLTIP_MESSAGE" desc="Tooltip message when disabled save button is clicked">
       Sign in to save this page
       </message>
@@ -5743,7 +5743,7 @@ To change this setting, <ph name="BEGIN_LINK">BEGIN_LINK</ph>delete the iBrowe d
         Show your iBrowe activity in Digital Wellbeing?
       </message>
       <message name="IDS_USAGE_STATS_CONSENT_PROMPT" desc="Consent prompt when authorizing Digital Wellbeing to access iBrowe usage data">
-       You can see sites you visit in iBrowe and set timers for them.\n\nBrave gets info about the sites you set timers for and how long you visit them. This info is used to make Digital Wellbeing better.
+       You can see sites you visit in iBrowe and set timers for them.\n\niBrowe gets info about the sites you set timers for and how long you visit them. This info is used to make Digital Wellbeing better.
       </message>
       <message name="IDS_USAGE_STATS_SETTING_TITLE" desc="Title for setting removing Digital Wellbeing's access to iBrowe usage data">
         Remove your iBrowe activity from Digital Wellbeing
