@@ -7,7 +7,7 @@ index 7f096468d707b4b7b9f3ed55af6d4514da0ae9a3..02c194d8ac004ccb5ccf42f70f83c30f
                                        profile->GetURLLoaderFactory()) {
    base::MakeRefCounted<shell_integration::DefaultSchemeClientWorker>(
 -      GURL("https://browser-education.brave.com"))
-+      GURL("https://browser-education.ibrowe.com"))
++      GURL("https://browser-education.brave.com"))
        ->StartCheckIsDefaultAndGetDefaultClientName(
            base::BindOnce(&WelcomeDOMHandler::OnGetDefaultBrowser,
                           weak_ptr_factory_.GetWeakPtr()));

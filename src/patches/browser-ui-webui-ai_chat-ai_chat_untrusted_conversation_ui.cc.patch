@@ -16,7 +16,7 @@ index 4b8ad90e14e03320a256d4f04bb51687f054b50a..ba2af7657a5b54fcbf931347552894cd
        return;
      }
 -    OpenURL(GURL("https://search.brave.com/search?q=" +
-+    OpenURL(GURL("https://search.ibrowe.com/search?q=" +
++    OpenURL(GURL("https://search.brave.com/search?q=" +
                   base::EscapeQueryParamValue(search_query, true)));
    }
  
