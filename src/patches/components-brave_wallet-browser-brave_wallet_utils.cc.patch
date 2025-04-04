@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet/browser/brave_wallet_utils.cc b/components/brave_wallet/browser/brave_wallet_utils.cc
+index 8f4ee64c0e7825db0832ef08dd9779fabf599d84..3cf3890153ccf5d01a268837ab3a31060d511e83 100644
+--- a/components/brave_wallet/browser/brave_wallet_utils.cc
++++ b/components/brave_wallet/browser/brave_wallet_utils.cc
+@@ -200,7 +200,7 @@ bool EncodeStringArrayInternal(base::span<const StringType> input,
+ }  // namespace
+ 
+ bool IsEndpointUsingBraveWalletProxy(const GURL& url) {
+-  return url.DomainIs("wallet.brave.com") ||
++  return url.DomainIs("wallet.ibrowe.com") ||
+          url.DomainIs("wallet.bravesoftware.com") ||
+          url.DomainIs("wallet.s.brave.io");
+ }

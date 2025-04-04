@@ -1,0 +1,13 @@
+diff --git a/components/brave_rewards/resources/page/components/ads_panel.tsx b/components/brave_rewards/resources/page/components/ads_panel.tsx
+index dba12d7cacb6c8bb8d449ce96484854aedd8f72e..6c19831ab4928858cb34e11103a6ed455a153479 100644
+--- a/components/brave_rewards/resources/page/components/ads_panel.tsx
++++ b/components/brave_rewards/resources/page/components/ads_panel.tsx
+@@ -30,7 +30,7 @@ import { AlertIcon } from './icons/alert_icon'
+ import * as urls from '../../shared/lib/rewards_urls'
+ import * as style from './ads_panel.style'
+ 
+-const adsFaqURL = 'https://support.brave.com/hc/en-us/articles/360026361072-Brave-Ads-FAQ'
++const adsFaqURL = 'https://support.ibrowe.com/hc/en-us/articles/360026361072-Brave-Ads-FAQ'
+ 
+ export function AdsPanel () {
+   const { getString } = React.useContext(LocaleContext)

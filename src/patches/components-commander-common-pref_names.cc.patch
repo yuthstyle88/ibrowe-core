@@ -1,0 +1,11 @@
+diff --git a/components/commander/common/pref_names.cc b/components/commander/common/pref_names.cc
+index d537a9a674621649cf4001b1cf710d81f808db36..fca0cea693dd729a280798bdf0a932bdc8705835 100644
+--- a/components/commander/common/pref_names.cc
++++ b/components/commander/common/pref_names.cc
+@@ -7,5 +7,5 @@
+ 
+ namespace commander::prefs {
+ 
+-constexpr char kCommanderFrecencies[] = "brave.commander.command_frecencies";
++constexpr char kCommanderFrecencies[] = "ibrowe.commander.command_frecencies";
+ }

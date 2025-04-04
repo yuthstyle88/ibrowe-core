@@ -1,0 +1,13 @@
+diff --git a/components/browser_ui/media/android/java/src/org/chromium/components/browser_ui/media/BraveMediaSessionHelper.java b/components/browser_ui/media/android/java/src/org/chromium/components/browser_ui/media/BraveMediaSessionHelper.java
+index 703dfb7957e51927b000f9c2e014507113437ea0..a3c77786a328f73c14180e8232d568eff6b860fd 100644
+--- a/components/browser_ui/media/android/java/src/org/chromium/components/browser_ui/media/BraveMediaSessionHelper.java
++++ b/components/browser_ui/media/android/java/src/org/chromium/components/browser_ui/media/BraveMediaSessionHelper.java
+@@ -27,7 +27,7 @@ import java.util.Set;
+ 
+ public class BraveMediaSessionHelper implements MediaImageCallback {
+     private static final List<String> sBraveTalkHosts =
+-            Arrays.asList("talk.brave.com", "talk.bravesoftware.com", "talk.brave.software");
++            Arrays.asList("talk.ibrowe.com", "talk.bravesoftware.com", "talk.brave.software");
+ 
+     public static boolean isBraveTalk(WebContents webContents) {
+         if (webContents == null) {

@@ -1,0 +1,13 @@
+diff --git a/android/java/org/chromium/chrome/browser/BraveIntentHandler.java b/android/java/org/chromium/chrome/browser/BraveIntentHandler.java
+index 9392decd57b623c20b3d4613e4c1bfa56dc147fa..49b36d1b8455fc883754cb898d52a008166dca71 100644
+--- a/android/java/org/chromium/chrome/browser/BraveIntentHandler.java
++++ b/android/java/org/chromium/chrome/browser/BraveIntentHandler.java
+@@ -24,7 +24,7 @@ public class BraveIntentHandler {
+     public static final String CONNECTION_INFO_HELP_URL =
+             "https://support.google.com/chrome?p=android_connection_info";
+     public static final String BRAVE_CONNECTION_INFO_HELP_URL =
+-            "https://support.brave.com/hc/en-us/articles/360018185871-How-do-I-check-if-a-site-s-connection-is-secure-";
++            "https://support.ibrowe.com/hc/en-us/articles/360018185871-How-do-I-check-if-a-site-s-connection-is-secure-";
+ 
+     /**
+      * Helper method to extract the raw URL from the intent, without further processing.

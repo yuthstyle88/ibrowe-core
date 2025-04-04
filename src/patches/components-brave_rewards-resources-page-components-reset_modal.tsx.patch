@@ -1,0 +1,13 @@
+diff --git a/components/brave_rewards/resources/page/components/reset_modal.tsx b/components/brave_rewards/resources/page/components/reset_modal.tsx
+index 6dd0739ee0cb0d3997e45b5e7305488744146392..51f37b380bc3ed87bac8d608a56374bea672c6e4 100644
+--- a/components/brave_rewards/resources/page/components/reset_modal.tsx
++++ b/components/brave_rewards/resources/page/components/reset_modal.tsx
+@@ -14,7 +14,7 @@ import { PageModal } from './page_modal'
+ 
+ import * as style from './reset_modal.style'
+ 
+-const supportURL = 'https://support.brave.com/hc/en-us/articles/10007969237901'
++const supportURL = 'https://support.ibrowe.com/hc/en-us/articles/10007969237901'
+ 
+ interface Props {
+   onReset: () => void

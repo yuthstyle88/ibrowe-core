@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/browser/ads_service_impl.cc b/components/brave_ads/browser/ads_service_impl.cc
+index 1b0ea15494418580120d44dfe2d4982f1c172153..b4000f42fc619b28dde75430036f61b6c4d9e1ec 100644
+--- a/components/brave_ads/browser/ads_service_impl.cc
++++ b/components/brave_ads/browser/ads_service_impl.cc
+@@ -164,7 +164,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
+       policy {
+         cookies_allowed: NO
+         setting:
+-          "You can enable or disable this feature by visiting brave://rewards."
++          "You can enable or disable this feature by visiting ibrowe://rewards."
+         policy_exception_justification:
+           "Not implemented."
+       }

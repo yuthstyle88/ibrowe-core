@@ -1,0 +1,47 @@
+diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
+index e453fdb2d3267c0632330b8519a23489b861e053..b065c076c046a4f6767031b7d5e63fc3ce0e2563 100644
+--- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
++++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
+@@ -49,14 +49,14 @@ namespace settings {
+ namespace {
+ 
+ constexpr char16_t kBraveAccountSelfCustodyLearnMoreURL[] =
+-    u"https://search.brave.com";
++    u"https://search.ibrowe.com";
+ constexpr char16_t kBraveAccountTermsOfServiceURL[] =
+-    u"https://brave.com/terms-of-use/";
++    u"https://ibrowe.com/terms-of-use/";
+ constexpr char16_t kBraveAccountPrivacyAgreementURL[] =
+-    u"https://brave.com/privacy/browser/";
++    u"https://ibrowe.com/privacy/browser/";
+ 
+ constexpr char16_t kWebRTCLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
+ constexpr char16_t kBraveBuildInstructionsUrl[] =
+     u"https://github.com/brave/brave-browser/wiki";
+@@ -72,11 +72,11 @@ constexpr char16_t kUnstoppableDomainsLearnMoreURL[] =
+ constexpr char16_t kEnsOffchainLookupLearnMoreURL[] =
+     u"https://github.com/brave/brave-browser/wiki/ENS-offchain-lookup";
+ constexpr char16_t kBraveSyncGuideUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/360047642371-Sync-FAQ";
++    u"https://support.ibrowe.com/hc/en-us/articles/360047642371-Sync-FAQ";
+ constexpr char16_t kDeAmpLearnMoreUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/8611298579981";
++    u"https://support.ibrowe.com/hc/en-us/articles/8611298579981";
+ constexpr char16_t kDebounceLearnMoreUrl[] =
+-    u"https://brave.com/privacy-updates/11-debouncing/";
++    u"https://ibrowe.com/privacy-updates/11-debouncing/";
+ constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
+     u"https://github.com/brave/brave-browser/wiki/"
+     u"NFT-Discovery";
+@@ -1011,7 +1011,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+   BravePrivacyHandler::AddLoadTimeData(html_source, profile);
+   BraveAddSyncStrings(html_source);
+ 
+-  // Load time data for brave://settings/extensions
++  // Load time data for ibrowe://settings/extensions
+   html_source->AddBoolean(
+       "signInAllowedOnNextStartupInitialValue",
+       profile->GetPrefs()->GetBoolean(prefs::kSigninAllowedOnNextStartup));

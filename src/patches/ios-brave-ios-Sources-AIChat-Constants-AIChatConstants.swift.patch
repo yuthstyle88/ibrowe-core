@@ -1,0 +1,21 @@
+diff --git a/ios/brave-ios/Sources/AIChat/Constants/AIChatConstants.swift b/ios/brave-ios/Sources/AIChat/Constants/AIChatConstants.swift
+index 877ed635f1ed12b9300cf81cc1e474db04182fcf..ce441fd1fb22ffce6a952a1bbf52deefe1b9c09c 100644
+--- a/ios/brave-ios/Sources/AIChat/Constants/AIChatConstants.swift
++++ b/ios/brave-ios/Sources/AIChat/Constants/AIChatConstants.swift
+@@ -6,13 +6,13 @@
+ import Foundation
+ 
+ public struct AIChatConstants {
+-  static let braveLeoPrivacyPolicyURL = URL(string: "https://brave.com/privacy/browser/#brave-leo")!
++  static let braveLeoPrivacyPolicyURL = URL(string: "https://ibrowe.com/privacy/browser/#brave-leo")!
+   static let braveLeoLearnMore = URL(
+-    string: "https://support.brave.com/hc/en-us/categories/20990938292237-Brave-Leo"
++    string: "https://support.ibrowe.com/hc/en-us/categories/20990938292237-Brave-Leo"
+   )!
+   static let braveLeoSearchLearnMore = URL(
+     string:
+-      "https://support.brave.com/hc/en-us/articles/27586048343309-How-does-Leo-get-current-information"
++      "https://support.ibrowe.com/hc/en-us/articles/27586048343309-How-does-Leo-get-current-information"
+   )!
+   static let braveSearchURL = URL(string: "https://search.brave.com/search")!
+ }

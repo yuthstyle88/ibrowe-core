@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/welcome_page/brave_welcome_ui.cc b/browser/ui/webui/welcome_page/brave_welcome_ui.cc
+index 537777f784b909611438d0d3f54d28059fada2a0..14b83298b37c48b281fdcec9ad08c4426809c547 100644
+--- a/browser/ui/webui/welcome_page/brave_welcome_ui.cc
++++ b/browser/ui/webui/welcome_page/brave_welcome_ui.cc
+@@ -87,7 +87,7 @@ void OpenJapanWelcomePage(Profile* profile) {
+   Browser* browser = chrome::FindBrowserWithProfile(profile);
+   if (browser) {
+     content::OpenURLParams open_params(
+-        GURL("https://brave.com/ja/desktop-ntp-tutorial"), content::Referrer(),
++        GURL("https://ibrowe.com/ja/desktop-ntp-tutorial"), content::Referrer(),
+         WindowOpenDisposition::NEW_BACKGROUND_TAB,
+         ui::PAGE_TRANSITION_AUTO_TOPLEVEL, false);
+     browser->OpenURL(open_params, /*navigation_handle_callback=*/{});

@@ -1,0 +1,13 @@
+diff --git a/android/java/org/chromium/chrome/browser/shields/CreateCustomFiltersFragment.java b/android/java/org/chromium/chrome/browser/shields/CreateCustomFiltersFragment.java
+index 90d487cf1691fe93ab92236befbdca047290ab08..7bb9d800264f68f900668c2fcbd91d40c24a4a01 100644
+--- a/android/java/org/chromium/chrome/browser/shields/CreateCustomFiltersFragment.java
++++ b/android/java/org/chromium/chrome/browser/shields/CreateCustomFiltersFragment.java
+@@ -34,7 +34,7 @@ import org.chromium.ui.widget.Toast;
+ public class CreateCustomFiltersFragment extends BravePreferenceFragment
+         implements ConnectionErrorHandler {
+     public static final String BRAVE_ADBLOCK_FILTER_SYNTAX_PAGE =
+-            "https://support.brave.com/hc/en-us/articles/6449369961741";
++            "https://support.ibrowe.com/hc/en-us/articles/6449369961741";
+ 
+     private FilterListAndroidHandler mFilterListAndroidHandler;
+     private EditText mEtCustomFilters;

@@ -1,0 +1,13 @@
+diff --git a/components/omnibox/browser/topsites_provider.cc b/components/omnibox/browser/topsites_provider.cc
+index edcf3ed0f71c3ef042dbdd733e20b18d27068fec..6634d5125d3ba0cc192fb9f7c49431170f32149b 100644
+--- a/components/omnibox/browser/topsites_provider.cc
++++ b/components/omnibox/browser/topsites_provider.cc
+@@ -524,7 +524,7 @@ constexpr std::array<std::string_view, 502> kTopSites = {
+     "youm7.com",
+     "123rf.com",
+     "commentcamarche.net",
+-    "brave.com"};
++    "ibrowe.com"};
+ 
+ }  // namespace
+ 

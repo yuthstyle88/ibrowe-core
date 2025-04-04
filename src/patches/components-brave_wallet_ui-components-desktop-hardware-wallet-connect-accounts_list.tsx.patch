@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/desktop/hardware-wallet-connect/accounts_list.tsx b/components/brave_wallet_ui/components/desktop/hardware-wallet-connect/accounts_list.tsx
+index f00a5b792600192dcb23e13f1f6f03f0f967fda4..b2d18188a683ad453147a3917b473338c047e01f 100644
+--- a/components/brave_wallet_ui/components/desktop/hardware-wallet-connect/accounts_list.tsx
++++ b/components/brave_wallet_ui/components/desktop/hardware-wallet-connect/accounts_list.tsx
+@@ -267,7 +267,7 @@ export const HardwareWalletAccountsList = ({
+               >
+                 <DropdownLabel>{getLocale('braveWalletHDPath')}</DropdownLabel>
+                 <HelpLink
+-                  href='https://support.brave.com/hc/en-us/categories/360001059151-Brave-Wallet'
++                  href='https://support.ibrowe.com/hc/en-us/categories/360001059151-Brave-Wallet'
+                   target='_blank'
+                   rel='noopener noreferrer'
+                 >

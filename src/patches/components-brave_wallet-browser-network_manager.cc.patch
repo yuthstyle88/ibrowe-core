@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet/browser/network_manager.cc b/components/brave_wallet/browser/network_manager.cc
+index fd383d08722d8f4ae40e425c9931ba7df99c3ba1..589ed9d1c79aa65b02bda164d1db9a40b14c4a56 100644
+--- a/components/brave_wallet/browser/network_manager.cc
++++ b/components/brave_wallet/browser/network_manager.cc
+@@ -98,7 +98,7 @@ std::optional<GURL> GetURLForKnownChainId(std::string_view chain_id) {
+     return std::nullopt;
+   }
+   return GURL(
+-      base::StringPrintf("https://%s.wallet.brave.com", subdomain.c_str()));
++      base::StringPrintf("https://%s.wallet.ibrowe.com", subdomain.c_str()));
+ }
+ 
+ const mojom::NetworkInfo* GetEthMainnet() {

@@ -1,0 +1,22 @@
+diff --git a/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc b/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc
+index 4b8ad90e14e03320a256d4f04bb51687f054b50a..ba2af7657a5b54fcbf931347552894cdf6b8bb6f 100644
+--- a/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc
++++ b/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc
+@@ -37,7 +37,7 @@
+ 
+ namespace {
+ constexpr char kURLLearnMoreBraveSearchLeo[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "27586048343309-How-does-Leo-get-current-information";
+ 
+ // Implments the interface to calls from the UI to the browser
+@@ -63,7 +63,7 @@ class UIHandler : public ai_chat::mojom::UntrustedUIHandler {
+     if (!web_ui_->GetRenderFrameHost()->HasTransientUserActivation()) {
+       return;
+     }
+-    OpenURL(GURL("https://search.brave.com/search?q=" +
++    OpenURL(GURL("https://search.ibrowe.com/search?q=" +
+                  base::EscapeQueryParamValue(search_query, true)));
+   }
+ 

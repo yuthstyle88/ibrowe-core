@@ -1,0 +1,13 @@
+diff --git a/components/permissions/android/java/src/org/chromium/components/permissions/BravePermissionDialogModel.java b/components/permissions/android/java/src/org/chromium/components/permissions/BravePermissionDialogModel.java
+index 72bb8ab9de5bf9c63863ad9d4cab3bc80a5f9496..6bcc0247d666f141d214b12778eabcd038638d42 100644
+--- a/components/permissions/android/java/src/org/chromium/components/permissions/BravePermissionDialogModel.java
++++ b/components/permissions/android/java/src/org/chromium/components/permissions/BravePermissionDialogModel.java
+@@ -40,7 +40,7 @@ import org.chromium.ui.util.ColorUtils;
+ class BravePermissionDialogModel {
+     // Link for Widevine
+     private static final String URL_WIDEVINE_LEARN_MORE =
+-            "https://support.brave.com/hc/en-us/articles/17428756610061";
++            "https://support.ibrowe.com/hc/en-us/articles/17428756610061";
+ 
+     public static PropertyModel getModel(
+             ModalDialogProperties.Controller controller,

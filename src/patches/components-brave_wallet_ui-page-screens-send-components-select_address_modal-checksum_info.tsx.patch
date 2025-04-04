@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/page/screens/send/components/select_address_modal/checksum_info.tsx b/components/brave_wallet_ui/page/screens/send/components/select_address_modal/checksum_info.tsx
+index 1737d14cc081be2d6bc6ae0cf245512f63c18059..d4b0b52addb12e86b23149953ae5289b22a742c2 100644
+--- a/components/brave_wallet_ui/page/screens/send/components/select_address_modal/checksum_info.tsx
++++ b/components/brave_wallet_ui/page/screens/send/components/select_address_modal/checksum_info.tsx
+@@ -110,7 +110,7 @@ export const ChecksumInfo = () => {
+         >
+           {getLocale('braveWalletChecksumModalNeedHelp')}{' '}
+           <Link
+-            href='https://support.brave.com/hc/en-us/articles/4415497656461-Brave-Wallet-FAQ'
++            href='https://support.ibrowe.com/hc/en-us/articles/4415497656461-Brave-Wallet-FAQ'
+             target='_blank'
+             rel='noopener noreferrer'
+           >

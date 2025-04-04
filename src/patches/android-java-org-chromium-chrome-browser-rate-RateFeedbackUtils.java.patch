@@ -1,0 +1,13 @@
+diff --git a/android/java/org/chromium/chrome/browser/rate/RateFeedbackUtils.java b/android/java/org/chromium/chrome/browser/rate/RateFeedbackUtils.java
+index caa95201b4e18574cb4dc571c65aace1e54854ae..38d2ddcdd783dab42c63d6c26349ac73b4cd4301 100644
+--- a/android/java/org/chromium/chrome/browser/rate/RateFeedbackUtils.java
++++ b/android/java/org/chromium/chrome/browser/rate/RateFeedbackUtils.java
+@@ -35,7 +35,7 @@ import java.nio.charset.StandardCharsets;
+ 
+ public class RateFeedbackUtils {
+     private static final String TAG = "Rate_Brave";
+-    private static final String RATE_URL = "https://feedback.brave.com/1/feedback";
++    private static final String RATE_URL = "https://feedback.ibrowe.com/1/feedback";
+ 
+     public interface RateFeedbackCallback {
+         void rateFeedbackSubmitted();
