@@ -1,0 +1,13 @@
+diff --git a/browser/ui/views/brave_news/brave_news_bubble_view.cc b/browser/ui/views/brave_news/brave_news_bubble_view.cc
+index 0f069998645c80365eee75df9764ac8b7aac7bd4..ef2c3982fed9dd485ff07934a24343e3284fab3d 100644
+--- a/browser/ui/views/brave_news/brave_news_bubble_view.cc
++++ b/browser/ui/views/brave_news/brave_news_bubble_view.cc
+@@ -148,7 +148,7 @@ BraveNewsBubbleView::~BraveNewsBubbleView() = default;
+ void BraveNewsBubbleView::OpenManageFeeds() {
+   auto* browser = chrome::FindBrowserWithTab(contents_);
+   browser->OpenURL(
+-      {GURL("brave://newtab/?openSettings=BraveNews"), content::Referrer(),
++      {GURL("ibrowe://newtab/?openSettings=BraveNews"), content::Referrer(),
+        WindowOpenDisposition::NEW_FOREGROUND_TAB, ui::PAGE_TRANSITION_LINK,
+        false},
+       /*navigation_handle_callback=*/{});

@@ -1,0 +1,40 @@
+diff --git a/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift b/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift
+index 61f460230627218e18d8d45e92d1697cb75d7a1a..08a9a7fda5d03e6db15d855bcf99d224fcc16e38 100644
+--- a/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift
++++ b/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift
+@@ -28,7 +28,7 @@ public struct WalletConstants {
+ 
+   /// The url to Brave Help Center for Wallet.
+   static let braveWalletSupportURL = URL(
+-    string: "https://support.brave.com/hc/en-us/categories/360001059151-Brave-Wallet"
++    string: "https://support.ibrowe.com/hc/en-us/categories/360001059151-Brave-Wallet"
+   )!
+ 
+   // TODO: update wiki link
+@@ -64,7 +64,7 @@ public struct WalletConstants {
+     string: "https://github.com/brave/brave-browser/wiki/NFT-Discovery"
+   )!
+ 
+-  public static let braveWalletTermsOfUse = URL(string: "https://brave.com/terms-of-use/")!
++  public static let braveWalletTermsOfUse = URL(string: "https://ibrowe.com/terms-of-use/")!
+ 
+   /// The currently supported test networks.
+   static let supportedTestNetworkChainIds = [
+@@ -158,7 +158,7 @@ public struct WalletConstants {
+ 
+   /// The link for users to learn more about Solana SPL token account creation in transaction confirmation screen
+   static let splTokenAccountCreationLink = URL(
+-    string: "https://support.brave.com/hc/en-us/articles/5546517853325"
++    string: "https://support.ibrowe.com/hc/en-us/articles/5546517853325"
+   )!
+ 
+   /// The list of token contract addresses that are supported to bridge to Aurora app
+@@ -205,7 +205,7 @@ public struct WalletConstants {
+ 
+   /// The link for for users to learn more about sign transactions
+   static let signTransactionRiskLink: URL = URL(
+-    string: "https://support.brave.com/hc/en-us/articles/4409513799693"
++    string: "https://support.ibrowe.com/hc/en-us/articles/4409513799693"
+   )!
+ 
+   /// Solana Transacation Instruction Type Name

@@ -1,0 +1,31 @@
+diff --git a/browser/about_flags.cc b/browser/about_flags.cc
+index 50c00b6f7f8c6ff39b93714e25685ac0bc198b76..f6af68b4bf99a4efef3ab9d91254dee1f5c2b7b2 100644
+--- a/browser/about_flags.cc
++++ b/browser/about_flags.cc
+@@ -541,7 +541,7 @@
+           "brave-adblock-cookie-list-default",                                 \
+           "Treat 'Easylist-Cookie List' as a default list source",             \
+           "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
+-          "brave://adblock hasn't otherwise been modified",                    \
++          "ibrowe://adblock hasn't otherwise been modified",                    \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(                                                  \
+               brave_shields::features::kBraveAdblockCookieListDefault),        \
+@@ -587,7 +587,7 @@
+           "source",                                                            \
+                                                                                \
+           "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
+-          "its toggle in brave://adblock hasn't otherwise been modified",      \
++          "its toggle in ibrowe://adblock hasn't otherwise been modified",      \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(brave_shields::features::                         \
+                                  kBraveAdblockMobileNotificationsListDefault), \
+@@ -606,7 +606,7 @@
+           "source",                                                            \
+                                                                                \
+           "Enables the 'Brave Experimental Adblock Rules' regional list if "   \
+-          "its toggle in brave://adblock hasn't otherwise been modified",      \
++          "its toggle in ibrowe://adblock hasn't otherwise been modified",      \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(                                                  \
+               brave_shields::features::kBraveAdblockExperimentalListDefault),  \

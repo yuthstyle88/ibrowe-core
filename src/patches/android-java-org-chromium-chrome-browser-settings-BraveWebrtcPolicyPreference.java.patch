@@ -1,0 +1,13 @@
+diff --git a/android/java/org/chromium/chrome/browser/settings/BraveWebrtcPolicyPreference.java b/android/java/org/chromium/chrome/browser/settings/BraveWebrtcPolicyPreference.java
+index 40c454ac5f49e5e3a310dd72a14a8f86098b5e3a..63d5dad982ad6e0a51c41e2e068984c75c486e64 100644
+--- a/android/java/org/chromium/chrome/browser/settings/BraveWebrtcPolicyPreference.java
++++ b/android/java/org/chromium/chrome/browser/settings/BraveWebrtcPolicyPreference.java
+@@ -45,7 +45,7 @@ public class BraveWebrtcPolicyPreference
+     private TextView mLearnMore;
+     private ArrayList<RadioButtonWithDescription> mButtons;
+     protected static final String FALLBACK_SUPPORT_URL =
+-            "https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
++            "https://support.ibrowe.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
+ 
+     @SuppressLint("WrongConstant")
+     public BraveWebrtcPolicyPreference(Context context, AttributeSet attrs) {

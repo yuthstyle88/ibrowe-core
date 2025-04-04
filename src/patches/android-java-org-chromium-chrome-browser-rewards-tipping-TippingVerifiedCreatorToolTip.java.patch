@@ -1,0 +1,13 @@
+diff --git a/android/java/org/chromium/chrome/browser/rewards/tipping/TippingVerifiedCreatorToolTip.java b/android/java/org/chromium/chrome/browser/rewards/tipping/TippingVerifiedCreatorToolTip.java
+index 72464be2fc7f1b87eb407a40862bfa10dea41b3c..d6265ac83bb0cd5002019dc712aeb8f3d6abd67e 100644
+--- a/android/java/org/chromium/chrome/browser/rewards/tipping/TippingVerifiedCreatorToolTip.java
++++ b/android/java/org/chromium/chrome/browser/rewards/tipping/TippingVerifiedCreatorToolTip.java
+@@ -31,7 +31,7 @@ import org.chromium.ui.text.ChromeClickableSpan;
+ 
+ public class TippingVerifiedCreatorToolTip {
+     private static final String NEW_SIGNUP_DISABLED_URL =
+-            "https://support.brave.com/hc/en-us/articles/9312922941069";
++            "https://support.ibrowe.com/hc/en-us/articles/9312922941069";
+ 
+     private PopupWindow mPopupWindow;
+     public TippingVerifiedCreatorToolTip(@NonNull Context context) {

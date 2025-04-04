@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/private_new_tab_page/brave_private_new_tab_page_handler.cc b/browser/ui/webui/private_new_tab_page/brave_private_new_tab_page_handler.cc
+index d84524ec6321d5bedbf1222e063e4881ce78b10e..e3b0102f132cf95e9528a288eb3dca3a4bd68d70 100644
+--- a/browser/ui/webui/private_new_tab_page/brave_private_new_tab_page_handler.cc
++++ b/browser/ui/webui/private_new_tab_page/brave_private_new_tab_page_handler.cc
+@@ -138,7 +138,7 @@ void BravePrivateNewTabPageHandler::GoToBraveSupport() {
+     web_contents = web_contents_;
+ 
+   web_contents->OpenURL(
+-      content::OpenURLParams(GURL("https://support.brave.com/"),
++      content::OpenURLParams(GURL("https://support.ibrowe.com/"),
+                              content::Referrer(),
+                              WindowOpenDisposition::NEW_FOREGROUND_TAB,
+                              ui::PageTransition::PAGE_TRANSITION_LINK, false),

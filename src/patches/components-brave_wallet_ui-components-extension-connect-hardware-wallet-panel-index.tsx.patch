@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx b/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx
+index 2de33749cf44111e99304895112f12ceea043193..49f19c0bad3ca2a1e93ca8f46757a236fdd23693 100644
+--- a/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx
++++ b/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx
+@@ -55,7 +55,7 @@ export interface Props {
+ }
+ 
+ const onClickInstructions = () => {
+-  const url = 'https://support.brave.com/hc/en-us/articles/4409309138701'
++  const url = 'https://support.ibrowe.com/hc/en-us/articles/4409309138701'
+ 
+   chrome.tabs.create({ url }, () => {
+     if (chrome.runtime.lastError) {
