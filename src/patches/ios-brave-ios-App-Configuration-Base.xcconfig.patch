@@ -1,0 +1,10 @@
+diff --git a/ios/brave-ios/App/Configuration/Base.xcconfig b/ios/brave-ios/App/Configuration/Base.xcconfig
+index dd5561b77e60ee4c60b77afccba221584429db8c..a9b730ab8908830396a9302442b0acb9dcff1407 100644
+--- a/ios/brave-ios/App/Configuration/Base.xcconfig
++++ b/ios/brave-ios/App/Configuration/Base.xcconfig
+@@ -17,4 +17,4 @@ BASE_BUNDLE_ID = $(FRAMEWORK_BASE_BUNDLE_ID).ios
+ 
+ DEVELOPMENT_TEAM = KL8N8XSYF4
+ 
+-BRAVE_URL_SCHEME = brave
++BRAVE_URL_SCHEME = ibrowe
