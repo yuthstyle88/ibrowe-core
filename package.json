@@ -16,10 +16,13 @@
   },
   "scripts": {
     "apply_patches": "cd src/brave && npm run apply_patches --",
+    "create_brave_tag": "node ./scripts/createBraveTag.js",
     "generate_patches": "node ./scripts/commands/libs/patchGenerator.js",
     "apply_ibrowe_patches": "node ./scripts/applyNewPatches.js",
     "audit_deps": "cd src/brave && npm run audit_deps --",
+    "prebuild": "npm run create_brave_tag",
     "build": "cd src/brave && npm run build --",
+    "postbuild": "node ./scripts/resetBraveTag.js",
     "chromium_rebase_l10n": "cd src/brave && npm run chromium_rebase_l10n --",
     "cibuild": "cd src/brave && npm run cibuild --",
     "create_dist": "cd src/brave && npm run create_dist --",
@@ -57,7 +60,7 @@
         "repository": {
           "url": "https://github.com/yuthstyle88/ibrowe-core.git"
         },
-        "tag": "v1.76.75"
+        "tag": "v1.0.0"
       }
     }
   },
