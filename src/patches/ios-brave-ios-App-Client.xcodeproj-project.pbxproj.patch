@@ -1,0 +1,349 @@
+diff --git a/ios/brave-ios/App/Client.xcodeproj/project.pbxproj b/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
+index 89ef080b47cd43f746d025d266818b66464c773e..a3fe1f354ef1390a009729c764931bc19edbcacd 100644
+--- a/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
++++ b/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
+@@ -451,6 +451,7 @@
+ 		7DDB12122CFE43AE008D75E5 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+ 		7DDB12132CFE43AE008D75E5 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = "Supporting Files/vi.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+ 		7DDB12142CFE43AE008D75E5 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = Shortcuts/vi.lproj/BrowserIntents.strings; sourceTree = "<group>"; };
++		ADB801EF2DAA37A100CD26BF /* BraveWidgetsExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BraveWidgetsExtensionRelease.entitlements; sourceTree = "<group>"; };
+ 		CA0391B2271E1023000EB13C /* BraveWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BraveWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+ 		CA0391B3271E1023000EB13C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+ 		CA0391B5271E1023000EB13C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+@@ -794,6 +795,7 @@
+ 		F84B21B51A090F8100AAB793 = {
+ 			isa = PBXGroup;
+ 			children = (
++				ADB801EF2DAA37A100CD26BF /* BraveWidgetsExtensionRelease.entitlements */,
+ 				270ECFC628381E270089B8B7 /* brave-ios */,
+ 				27D67621282DAD3700BCE16E /* BrowserIntents.intentdefinition */,
+ 				0A60A1882358AF9E00953CA8 /* Brave.xctestplan */,
+@@ -1666,7 +1668,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development AutoFill Provider";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development AutoFill Provider";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -1699,7 +1701,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly AutoFill Provider";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly AutoFill Provider";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -1732,7 +1734,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release AutoFill Provider";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release AutoFill Provider";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -1799,7 +1801,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta AutoFill Provider";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta AutoFill Provider";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -1825,7 +1827,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = ActionExtension;
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly Action Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly Action Extension";
+ 				SWIFT_VERSION = 5.0;
+ 				VALIDATE_PRODUCT = YES;
+ 			};
+@@ -1909,7 +1911,7 @@
+ 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
+ 				PRODUCT_MODULE_NAME = Client;
+ 				PRODUCT_NAME = Client;
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development";
+ 				SWIFT_VERSION = 5.0;
+ 			};
+ 			name = "Debug (AppStore)";
+@@ -1969,7 +1971,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development Share Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development Share Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+ 				SWIFT_VERSION = 5.0;
+@@ -2002,7 +2004,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development Intents Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development Intents Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2038,7 +2040,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development Widgets Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development Widgets Extension";
+ 				SDKROOT = iphoneos;
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+@@ -2122,8 +2124,10 @@
+ 				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOS/Entitlements/Release.entitlements";
+ 				CODE_SIGN_STYLE = Automatic;
+ 				DEVELOPMENT_ASSET_PATHS = "\"$(PROJECT_DIR)/../Sources/Brave/Frontend/Preview Content\"";
++				DEVELOPMENT_TEAM = VJ4PQMKSUA;
+ 				ENABLE_TESTABILITY = YES;
+ 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.browser;
+ 				PRODUCT_MODULE_NAME = Client;
+ 				PRODUCT_NAME = Client;
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+@@ -2165,6 +2169,7 @@
+ 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+ 				CODE_SIGN_STYLE = Automatic;
+ 				COPY_PHASE_STRIP = NO;
++				DEVELOPMENT_TEAM = VJ4PQMKSUA;
+ 				ENABLE_NS_ASSERTIONS = NO;
+ 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+ 				GCC_C_LANGUAGE_STANDARD = gnu11;
+@@ -2184,6 +2189,7 @@
+ 				MTL_ENABLE_DEBUG_INFO = NO;
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
++				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.ibrowe.ios.browser.ShareExtension;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SKIP_INSTALL = YES;
+@@ -2312,7 +2318,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly Share Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly Share Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_COMPILATION_MODE = wholemodule;
+ 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+@@ -2375,7 +2381,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Share Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release Share Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_COMPILATION_MODE = wholemodule;
+ 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+@@ -2438,7 +2444,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta Share Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta Share Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_COMPILATION_MODE = wholemodule;
+ 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+@@ -2462,6 +2468,7 @@
+ 				CODE_SIGN_STYLE = Automatic;
+ 				COPY_PHASE_STRIP = NO;
+ 				DEBUG_INFORMATION_FORMAT = dwarf;
++				DEVELOPMENT_TEAM = VJ4PQMKSUA;
+ 				ENABLE_TESTABILITY = YES;
+ 				GCC_C_LANGUAGE_STANDARD = gnu11;
+ 				INFOPLIST_FILE = BrowserIntents/Info.plist;
+@@ -2504,7 +2511,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly Intents Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly Intents Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2535,7 +2542,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Intents Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release Intents Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2598,7 +2605,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta Intents Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta Intents Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2673,7 +2680,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development WireGuard Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development WireGuard Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_EMIT_LOC_STRINGS = NO;
+ 				SWIFT_VERSION = 5.0;
+@@ -2707,7 +2714,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly Wireguard Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly Wireguard Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_EMIT_LOC_STRINGS = NO;
+ 				SWIFT_VERSION = 5.0;
+@@ -2742,7 +2749,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release WireGuard Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release WireGuard Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_EMIT_LOC_STRINGS = NO;
+ 				SWIFT_VERSION = 5.0;
+@@ -2813,7 +2820,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta Wireguard Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta Wireguard Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_EMIT_LOC_STRINGS = NO;
+ 				SWIFT_VERSION = 5.0;
+@@ -2879,7 +2886,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS - Development Action Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS - Development Action Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2906,7 +2913,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Action Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release Action Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2928,6 +2935,7 @@
+ 				CODE_SIGN_IDENTITY = "Apple Development";
+ 				CODE_SIGN_STYLE = Automatic;
+ 				COPY_PHASE_STRIP = NO;
++				DEVELOPMENT_TEAM = VJ4PQMKSUA;
+ 				GCC_C_LANGUAGE_STANDARD = gnu17;
+ 				GENERATE_INFOPLIST_FILE = NO;
+ 				INFOPLIST_FILE = ActionExtension/ActionExtension.plist;
+@@ -2935,6 +2943,7 @@
+ 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
++				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.ibrowe.ios.browser.ActionExtension;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
+ 				SKIP_INSTALL = YES;
+@@ -2964,7 +2973,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta Action Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta Action Extension";
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -3036,7 +3045,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly Widgets Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly Widgets Extension";
+ 				SDKROOT = iphoneos;
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+@@ -3070,7 +3079,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Widgets Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release Widgets Extension";
+ 				SDKROOT = iphoneos;
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+@@ -3088,12 +3097,13 @@
+ 				CLANG_ENABLE_OBJC_WEAK = YES;
+ 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+ 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+-				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/BraveWidgets/Entitlements/WidgetRelease.entitlements";
++				CODE_SIGN_ENTITLEMENTS = BraveWidgetsExtensionRelease.entitlements;
+ 				CODE_SIGN_STYLE = Automatic;
+ 				COPY_PHASE_STRIP = NO;
+ 				CURRENT_PROJECT_VERSION = 1;
+ 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+ 				DEVELOPMENT_ASSET_PATHS = "$(SRCROOT)/BraveWidgets/Development\\ Assets";
++				DEVELOPMENT_TEAM = VJ4PQMKSUA;
+ 				GCC_C_LANGUAGE_STANDARD = gnu11;
+ 				INFOPLIST_FILE = BraveWidgets/Info.plist;
+ 				LD_RUNPATH_SEARCH_PATHS = (
+@@ -3139,7 +3149,7 @@
+ 				MTL_FAST_MATH = YES;
+ 				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta Widgets Extension";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta Widgets Extension";
+ 				SDKROOT = iphoneos;
+ 				SKIP_INSTALL = YES;
+ 				SWIFT_VERSION = 5.0;
+@@ -3226,7 +3236,7 @@
+ 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
+ 				PRODUCT_MODULE_NAME = Client;
+ 				PRODUCT_NAME = Client;
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Release";
+ 				SWIFT_VERSION = 5.0;
+ 			};
+ 			name = "Release (AppStore)";
+@@ -3312,7 +3322,7 @@
+ 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
+ 				PRODUCT_MODULE_NAME = Client;
+ 				PRODUCT_NAME = Client;
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Nightly";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Nightly";
+ 				SWIFT_VERSION = 5.0;
+ 			};
+ 			name = Nightly;
+@@ -3396,7 +3406,7 @@
+ 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
+ 				PRODUCT_MODULE_NAME = Client;
+ 				PRODUCT_NAME = Client;
+-				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Beta";
++				PROVISIONING_PROFILE_SPECIFIER = "iBrowe iOS Beta";
+ 				SWIFT_VERSION = 5.0;
+ 			};
+ 			name = Beta;
+@@ -3476,8 +3486,10 @@
+ 				CODE_SIGN_STYLE = Automatic;
+ 				DEBUG_INFORMATION_FORMAT = dwarf;
+ 				DEVELOPMENT_ASSET_PATHS = "\"$(PROJECT_DIR)/../Sources/Brave/Frontend/Preview Content\"";
++				DEVELOPMENT_TEAM = VJ4PQMKSUA;
+ 				GCC_OPTIMIZATION_LEVEL = 0;
+ 				INFOPLIST_FILE = "iOS/Supporting Files/Info.plist";
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.BrowserBeta;
+ 				PRODUCT_MODULE_NAME = Client;
+ 				PRODUCT_NAME = Client;
+ 				PROVISIONING_PROFILE_SPECIFIER = "";
