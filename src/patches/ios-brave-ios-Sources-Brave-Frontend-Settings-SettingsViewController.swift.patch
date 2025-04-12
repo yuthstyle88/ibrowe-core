@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
+index ec243f38879e3eebce2baffcace037d32006dd8e..759c8b37dd84f9bc650e9902079279d93cc903a1 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
+@@ -950,7 +950,7 @@ class SettingsViewController: TableViewController {
+             // Rate Brave
+             guard
+               let writeReviewURL = URL(
+-                string: "https://itunes.apple.com/app/id1052879175?action=write-review"
++                string: "https://itunes.apple.com/app/id6741485553?action=write-review"
+               )
+             else { return }
+             UIApplication.shared.open(writeReviewURL)
