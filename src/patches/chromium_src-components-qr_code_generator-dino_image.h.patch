@@ -1,0 +1,105 @@
+diff --git a/chromium_src/components/qr_code_generator/dino_image.h b/chromium_src/components/qr_code_generator/dino_image.h
+index f2ab254f28509850a7132ee189ad90e886663047..ee1c70ec13604d9dddad9db48eb762aa248b8a6d 100644
+--- a/chromium_src/components/qr_code_generator/dino_image.h
++++ b/chromium_src/components/qr_code_generator/dino_image.h
+@@ -6,63 +6,62 @@
+ #ifndef BRAVE_CHROMIUM_SRC_COMPONENTS_QR_CODE_GENERATOR_DINO_IMAGE_H_
+ #define BRAVE_CHROMIUM_SRC_COMPONENTS_QR_CODE_GENERATOR_DINO_IMAGE_H_
+ 
+-// Contains constants clients use to to render a lion on top of a QR image.
++// Contains constants clients use to render a lion on top of a QR image.
+ namespace dino_image {
+ 
+-// Width of the lion pixel data.
++// Width of the dino pixel data.
+ static constexpr int kDinoWidth = 22;
+-// Height of the lion pixel data.
++// Height of the dino pixel data.
+ static constexpr int kDinoHeight = 24;
+-// Height of the lion pixel data, top segment.
++// Height of the dino pixel data, top segment.
+ static constexpr int kDinoHeadHeight = 1;
+-// Height of the lion image data, body segment.
++// Height of the dino image data, body segment.
+ static constexpr int kDinoBodyHeight = kDinoHeight - kDinoHeadHeight;
+-// Width of the lion image data.
+-static constexpr int kDinoWidthBytes = (kDinoWidth + 7) / 8;
++// Width of the dino image data.
++static constexpr int kDinoWidthBytes = 3;
+ 
+-// Pixel data for the lion's head (original lion)
+-static const unsigned char kDinoHeadRight[kDinoWidthBytes * kDinoHeadHeight] = {
++// Pixel data for the lion's head (left side)
++static const unsigned char kDinoHeadLeft[kDinoWidthBytes * kDinoHeadHeight] = {
+     // clang-format off
+-  0b00000000, 0b11111100, 0b00000000,
++    0x10, 0x38, 0x10,
+     // clang-format on
+ };
+ 
+-// Pixel data for the lion's head (original lion, maybe add sunglasses later?)
+-static const unsigned char kDinoHeadLeft[kDinoWidthBytes * kDinoHeadHeight] = {
++// Pixel data for the lion's head (right side, mirrored from left)
++static const unsigned char kDinoHeadRight[kDinoWidthBytes * kDinoHeadHeight] = {
+     // clang-format off
+-  0b00000000, 0b11111100, 0b00000000,
++    0x08, 0x1C, 0x08,
+     // clang-format on
+ };
+ 
+-// Pixel data for the lion's body.
++// Pixel data for the dino's body.
+ static const unsigned char kDinoBody[kDinoWidthBytes * kDinoBodyHeight] = {
+     // clang-format off
+-  0b00000011, 0b11111111, 0b00000000,
+-  0b00011111, 0b11111111, 0b11100000,
+-  0b00111111, 0b11111111, 0b11110000,
+-  0b01111000, 0b00000000, 0b01111000,
+-  0b00110000, 0b00000000, 0b00110000,
+-  0b01110011, 0b11001111, 0b00111000,
+-  0b01100000, 0b11001100, 0b00011000,
+-  0b01100000, 0b10000100, 0b00011000,
+-  0b01110000, 0b00000000, 0b00111000,
+-  0b00111000, 0b11001100, 0b01110000,
+-  0b00111100, 0b01111000, 0b11110000,
+-  0b00011100, 0b00110000, 0b11100000,
+-  0b00011000, 0b00110000, 0b01100000,
+-  0b00011100, 0b01111000, 0b11100000,
+-  0b00011111, 0b10000111, 0b11100000,
+-  0b00001111, 0b00000011, 0b11000000,
+-  0b00001111, 0b10000111, 0b11000000,
+-  0b00001111, 0b11001111, 0b11000000,
+-  0b00000111, 0b11111111, 0b10000000,
+-  0b00000011, 0b11111111, 0b00000000,
+-  0b00000001, 0b11111110, 0b00000000,
+-  0b00000000, 0b01111000, 0b00000000,
+-  0b00000000, 0b00110000, 0b00000000,
++    0x00, 0x00, 0x00,
++    0x0C, 0xFC, 0xC0,
++    0x0C, 0xFC, 0xC0,
++    0x0C, 0xFC, 0xC0,
++    0x0F, 0x03, 0xC0,
++    0x3F, 0x03, 0xF0,
++    0x3F, 0x03, 0xF0,
++    0x31, 0x86, 0x30,
++    0x31, 0xCE, 0x30,
++    0x31, 0xFE, 0x30,
++    0x39, 0xFE, 0x70,
++    0x38, 0xFC, 0x70,
++    0x18, 0xFC, 0x60,
++    0x18, 0xFC, 0x60,
++    0x18, 0xCC, 0x60,
++    0x1C, 0xCC, 0xE0,
++    0x1C, 0xCC, 0xE0,
++    0x0E, 0xFD, 0xC0,
++    0x0F, 0xFF, 0xC0,
++    0x07, 0xFF, 0x80,
++    0x03, 0xFF, 0x00,
++    0x01, 0xFE, 0x00,
++    0x00, 0xFC, 0x00,
+     // clang-format on
+ };
+ 
+ }  // namespace dino_image
+-
+ #endif  // BRAVE_CHROMIUM_SRC_COMPONENTS_QR_CODE_GENERATOR_DINO_IMAGE_H_
