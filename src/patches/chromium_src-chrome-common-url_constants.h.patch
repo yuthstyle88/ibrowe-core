@@ -1,5 +1,5 @@
 diff --git a/chromium_src/chrome/common/url_constants.h b/chromium_src/chrome/common/url_constants.h
-index 72b7127c6985157781daf4099bb55c47eccd59e0..a9c64ecaf0d99884c755957dca4f1378060e03bc 100644
+index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1b027fcdc 100644
 --- a/chromium_src/chrome/common/url_constants.h
 +++ b/chromium_src/chrome/common/url_constants.h
 @@ -18,24 +18,24 @@ namespace chrome {
@@ -57,7 +57,12 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..a9c64ecaf0d99884c755957dca4f1378
  
  // The URL for the WebHID API help center article.
  inline constexpr char kChooserHidOverviewUrl[] =
-@@ -76,18 +76,18 @@ inline constexpr char kChromeBetaForumURL[] =
+@@ -72,22 +72,22 @@ inline constexpr char kChooserUsbOverviewURL[] =
+ 
+ // Link to the forum for Chrome Beta.
+ inline constexpr char kChromeBetaForumURL[] =
+-    "https://community.brave.com/c/beta-builds";
++    "https://community.ibrowe.com/c/beta-builds";
  
  // The URL for the help center article to fix Chrome update problems.
  inline constexpr char16_t kChromeFixUpdateProblems[] =
@@ -449,7 +454,7 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..a9c64ecaf0d99884c755957dca4f1378
  
  // The URL for the Settings page to enable history search.
  inline constexpr char16_t kHistorySearchSettingURL[] =
-@@ -448,77 +448,77 @@ inline constexpr char16_t kHistorySearchV2SettingURL[] =
+@@ -448,113 +448,113 @@ inline constexpr char16_t kHistorySearchV2SettingURL[] =
  
  // The URL for the "Learn more" page for Wallpaper Search.
  inline constexpr char kWallpaperSearchLearnMorePageURL[] =
@@ -545,7 +550,12 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..a9c64ecaf0d99884c755957dca4f1378
  
  #if BUILDFLAG(IS_ANDROID)
  // "Learn more" URL for the enhanced playback notification dialog.
-@@ -530,31 +530,31 @@ inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
+ inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
+     // Keep in sync with chrome/android/java/strings/android_chrome_strings.grd
+-    "https://community.brave.com";
++    "https://community.ibrowe.com";
+ #endif
+ 
  #if BUILDFLAG(IS_MAC)
  // "Learn more" URL for the enterprise sign-in confirmation dialog.
  inline constexpr char kChromeEnterpriseSignInLearnMoreURL[] =

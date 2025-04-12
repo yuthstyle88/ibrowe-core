@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/shared/feature-request-button/feature-request-button.tsx b/components/brave_wallet_ui/components/shared/feature-request-button/feature-request-button.tsx
+index eef7a5362773a693dc4711856e12184d17943cf0..a76bcc242f626215a499d630a641d0f7ffd9f269 100644
+--- a/components/brave_wallet_ui/components/shared/feature-request-button/feature-request-button.tsx
++++ b/components/brave_wallet_ui/components/shared/feature-request-button/feature-request-button.tsx
+@@ -16,7 +16,7 @@ import {
+ } from './feature-request-button.style'
+ 
+ const featureRequestUrl =
+-  'https://community.brave.com/tags/c/wallet/131/feature-request'
++  'https://community.ibrowe.com/tags/c/wallet/131/feature-request'
+ 
+ export const FeatureRequestButton = () => {
+   const onClickFeatureRequestButton = React.useCallback(() => {

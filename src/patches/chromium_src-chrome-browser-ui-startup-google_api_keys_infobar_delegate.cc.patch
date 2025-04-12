@@ -1,0 +1,13 @@
+diff --git a/chromium_src/chrome/browser/ui/startup/google_api_keys_infobar_delegate.cc b/chromium_src/chrome/browser/ui/startup/google_api_keys_infobar_delegate.cc
+index 521f35815d874e958007b9e5e4ecc18fdf7a6997..b7216cbe61b4b5987115ae3aacf08af3950eccd9 100644
+--- a/chromium_src/chrome/browser/ui/startup/google_api_keys_infobar_delegate.cc
++++ b/chromium_src/chrome/browser/ui/startup/google_api_keys_infobar_delegate.cc
+@@ -7,7 +7,7 @@
+ 
+ namespace google_apis {
+ constexpr char kBraveAPIKeysDevelopersHowToURL[] =
+-    "https://community.brave.com";
++    "https://community.ibrowe.com";
+ }  // namespace google_apis
+ 
+ #define kAPIKeysDevelopersHowToURL kBraveAPIKeysDevelopersHowToURL

@@ -1,0 +1,22 @@
+diff --git a/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift b/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift
+index 51a1d534e7ed52e68fd69a937c384dd5ad969591..c9e2846cbea195ae52df4b9e94c6dd0b802de862 100644
+--- a/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift
++++ b/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift
+@@ -26,7 +26,7 @@ class DomainUserScriptTests: XCTestCase {
+     let badURLs = [
+       URL(string: "https://talk.brave.com"),
+       URL(string: "https://search.brave.software.com"),
+-      URL(string: "https://community.brave.com"),
++      URL(string: "https://community.ibrowe.com"),
+       URL(string: "https://subdomain.search.brave.com"),
+       URL(string: "https://brave.com"),
+     ].compactMap { $0 }
+@@ -52,7 +52,7 @@ class DomainUserScriptTests: XCTestCase {
+       URL(string: "https://search-dev.brave.com"),
+       URL(string: "https://search.brave.com/custom/path"),
+       URL(string: "https://search-dev.brave.com/custom/path"),
+-      URL(string: "https://community.brave.com"),
++      URL(string: "https://community.ibrowe.com"),
+       URL(string: "https://subdomain.brave.com"),
+       URL(string: "https://brave.com"),
+     ].compactMap { $0 }
