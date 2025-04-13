@@ -1,8 +1,8 @@
 diff --git a/chromium_src/components/qr_code_generator/dino_image.h b/chromium_src/components/qr_code_generator/dino_image.h
-index f2ab254f28509850a7132ee189ad90e886663047..ee1c70ec13604d9dddad9db48eb762aa248b8a6d 100644
+index f2ab254f28509850a7132ee189ad90e886663047..7022add08f162e1244766fc2ecad39a6b0baa958 100644
 --- a/chromium_src/components/qr_code_generator/dino_image.h
 +++ b/chromium_src/components/qr_code_generator/dino_image.h
-@@ -6,63 +6,62 @@
+@@ -6,63 +6,61 @@
  #ifndef BRAVE_CHROMIUM_SRC_COMPONENTS_QR_CODE_GENERATOR_DINO_IMAGE_H_
  #define BRAVE_CHROMIUM_SRC_COMPONENTS_QR_CODE_GENERATOR_DINO_IMAGE_H_
  
@@ -74,28 +74,29 @@ index f2ab254f28509850a7132ee189ad90e886663047..ee1c70ec13604d9dddad9db48eb762aa
 -  0b00000001, 0b11111110, 0b00000000,
 -  0b00000000, 0b01111000, 0b00000000,
 -  0b00000000, 0b00110000, 0b00000000,
-+  0x06, 0x01, 0x40,
-+  0x0B, 0x01, 0x40,
-+  0x13, 0xBA, 0x40,
-+  0x12, 0x7F, 0x80,
-+  0x16, 0x85, 0x00,
-+  0x02, 0xCB, 0xC0,
-+  0x0B, 0x41, 0x80,
-+  0x1D, 0xD6, 0xC0,
-+  0x07, 0xC7, 0x60,
-+  0x39, 0x8C, 0x50,
-+  0x74, 0x80, 0xC0,
-+  0x30, 0x30, 0x50,
-+  0x1C, 0x30, 0xD0,
-+  0x1C, 0x20, 0x90,
-+  0x24, 0xE1, 0x90,
-+  0x2C, 0x0E, 0x60,
-+  0x14, 0x48, 0xA0,
-+  0x08, 0x50, 0x80,
-+  0x0C, 0x00, 0x00,
-+  0x04, 0x00, 0x00,
-+  0x02, 0x02, 0x00,
-+  0x00, 0x3C, 0x00,
++    0b00001100, 0b00000000, 0b0011000,
++    0b00000110, 0b00000000, 0b01100000,
++    0b00001011, 0b00000000, 0b11010000,
++    0b00010011, 0b10111101, 0b11001000,
++    0b00010010, 0b01111110, 0b01001000,
++    0b00010110, 0b10000001, 0b01101000,
++    0b00000010, 0b11000011, 0b01000000,
++    0b00001011, 0b01000010, 0b11010000,
++    0b00011101, 0b11011011, 0b1011000,
++    0b00000111, 0b11000011, 0b11100000,
++    0b00111001, 0b10000001, 0b10011100,
++    0b01110100, 0b10000001, 0b00101110,
++    0b00110000, 0b00111100, 0b00001100,
++    0b00011100, 0b00111100, 0b00111000,
++    0b00011100, 0b00100100, 0b01110000,
++    0b00100100, 0b11100111, 0b00100100,
++    0b00101100, 0b00000000, 0b00110100,
++    0b00010100, 0b01000010, 0b00101000,
++    0b00001000, 0b01011010, 0b00010000,
++    0b00001100, 0b00000000, 0b00110000,
++    0b00000100, 0b00000000, 0b00100000,
++    0b00000011, 0b11111111, 0b11000000
+     // clang-format on
  };
  
  }  // namespace dino_image
