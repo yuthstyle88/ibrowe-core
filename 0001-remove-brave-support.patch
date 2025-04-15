@@ -1,0 +1,46 @@
+From 2a075edc68188b902016c0345173b98d6f8a2b94 Mon Sep 17 00:00:00 2001
+From: Khoi Tran <khoitran.lord@gmail.com>
+Date: Wed, 9 Apr 2025 23:42:37 +0700
+Subject: [PATCH] remove brave support
+
+---
+ .../Browser/Favorites/Data/FavoritesPreloadedData.swift    | 5 +----
+ ios/brave-ios/Sources/Favicon/Assets/top_sites.json        | 7 -------
+ 2 files changed, 1 insertion(+), 11 deletions(-)
+
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
+index 0334d9c498a..01679f65bde 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
+@@ -33,10 +33,7 @@ struct FavoritesPreloadedData {
+ 
+       if let url = URL(string: "https://reddit.com/") {
+         list.append(FavoriteSite(url: url, title: "Reddit"))
+-      }
+-
+-      if let url = URL(string: "https://brave.com/msupport/") {
+-        list.append(FavoriteSite(url: url, title: Strings.NTP.braveSupportFavoriteTitle))
++      
+       }
+ 
+       return list
+diff --git a/ios/brave-ios/Sources/Favicon/Assets/top_sites.json b/ios/brave-ios/Sources/Favicon/Assets/top_sites.json
+index 34a2a123fe3..914200ae32d 100644
+--- a/ios/brave-ios/Sources/Favicon/Assets/top_sites.json
++++ b/ios/brave-ios/Sources/Favicon/Assets/top_sites.json
+@@ -1397,12 +1397,5 @@
+     "image_url": "zillow-com.png",
+     "background_color": "#98c554",
+     "domain": "zillow.com"
+-  },
+-  {	
+-    "title": "brave-support",	
+-    "url": "https://brave.com/msupport/",	
+-    "image_url": "brave-support.png",	
+-    "background_color": "#495057",	
+-    "domain": "brave.com"	
+   }
+ ]
+-- 
+2.39.5 (Apple Git-154)
+
