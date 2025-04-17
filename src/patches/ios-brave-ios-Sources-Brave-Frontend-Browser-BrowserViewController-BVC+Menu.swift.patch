@@ -1,0 +1,37 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/BrowserViewController/BVC+Menu.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/BrowserViewController/BVC+Menu.swift
+index 64f25218ab55a6a50169d3e127fc4b01ee5c2cdd..2499818e799e5ba82eba8e283596947b4f519c05 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Browser/BrowserViewController/BVC+Menu.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/BrowserViewController/BVC+Menu.swift
+@@ -865,19 +865,19 @@ extension BrowserViewController {
+         }
+         return .none
+       },
+-      .init(id: .braveTalk) { @MainActor [unowned self] _ in
+-        self.dismiss(animated: true) {
+-          guard let url = URL(string: "https://talk.brave.com/") else { return }
+-          self.popToBVC()
+-          if pageURL == nil {
+-            // Already on NTP
+-            self.finishEditingAndSubmit(url)
+-          } else {
+-            self.openURLInNewTab(url, isPrivileged: false)
+-          }
+-        }
+-        return .none
+-      },
++//      .init(id: .braveTalk) { @MainActor [unowned self] _ in
++//        self.dismiss(animated: true) {
++//          guard let url = URL(string: "https://talk.brave.com/") else { return }
++//          self.popToBVC()
++//          if pageURL == nil {
++//            // Already on NTP
++//            self.finishEditingAndSubmit(url)
++//          } else {
++//            self.openURLInNewTab(url, isPrivileged: false)
++//          }
++//        }
++//        return .none
++//      },
+     ]
+   }
+ 
