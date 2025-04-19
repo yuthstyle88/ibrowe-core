@@ -1,0 +1,15 @@
+diff --git a/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntents.entitlements b/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntents.entitlements
+index a9502b44bbf72448e27509740f1dfe5e73c75e9a..6610d0883a4b10490e623de078c14d9e99b8099b 100644
+--- a/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntents.entitlements
++++ b/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntents.entitlements
+@@ -4,7 +4,9 @@
+ <dict>
+ 	<key>com.apple.security.application-groups</key>
+ 	<array>
+-		<string>group.com.brave.ios.BrowserBeta.unique</string>
++		<string>group.com.ibrowe.ios.BrowserBeta.unique</string>
++		<string>group.com.ibrowe.ios.browser</string>
++		<string>group.com.ibrowe.ios.browser.beta</string>
+ 	</array>
+ </dict>
+ </plist>

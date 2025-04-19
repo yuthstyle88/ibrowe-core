@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/App/iOS/Entitlements/Release.entitlements b/ios/brave-ios/App/iOS/Entitlements/Release.entitlements
+index 80e85c3ea19989a5e440f3ae460185b8ee9b5fe9..02b294b00eeb77126b13132af9949a2c41d730e4 100644
+--- a/ios/brave-ios/App/iOS/Entitlements/Release.entitlements
++++ b/ios/brave-ios/App/iOS/Entitlements/Release.entitlements
+@@ -27,6 +27,8 @@
+ 	<key>com.apple.security.application-groups</key>
+ 	<array>
+ 		<string>group.$(MOZ_BUNDLE_ID)</string>
++		<string>group.com.ibrowe.ios.BrowserBeta.unique</string>
++		<string>group.com.ibrowe.ios.browser.beta</string>
+ 	</array>
+ </dict>
+ </plist>

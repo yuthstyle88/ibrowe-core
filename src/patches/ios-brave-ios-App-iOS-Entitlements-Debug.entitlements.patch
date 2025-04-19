@@ -1,0 +1,24 @@
+diff --git a/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements b/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements
+index 6fd26ea80ec06ea489a1706bd0000256beacb42a..fcbf210913acd48c5dc03a388bdf53100b5b2224 100644
+--- a/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements
++++ b/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements
+@@ -10,6 +10,8 @@
+ 	</array>
+ 	<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+ 	<true/>
++	<key>com.apple.developer.carplay-audio</key>
++	<true/>
+ 	<key>com.apple.developer.networking.networkextension</key>
+ 	<array>
+ 		<string>packet-tunnel-provider</string>
+@@ -27,8 +29,8 @@
+ 	<key>com.apple.security.application-groups</key>
+ 	<array>
+ 		<string>group.$(MOZ_BUNDLE_ID).unique</string>
++		<string>group.com.ibrowe.ios.browser</string>
++		<string>group.com.ibrowe.ios.browser.beta</string>
+ 	</array>
+-	<key>com.apple.developer.carplay-audio</key>
+-	<true/>
+ </dict>
+ </plist>
