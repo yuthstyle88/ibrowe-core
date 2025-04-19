@@ -1,15 +1,10 @@
 diff --git a/ios/brave-ios/App/iOS/Entitlements/Nightly.entitlements b/ios/brave-ios/App/iOS/Entitlements/Nightly.entitlements
-index ab4a17804994bfea3931f0a9fc0a8f07bcd3e9b9..7b49366b1e9dc58f48422d12cb3e3997669bdeaa 100644
+index ab4a17804994bfea3931f0a9fc0a8f07bcd3e9b9..fc612b3b012bd4fbd5bf55fc396c11dde84c124c 100644
 --- a/ios/brave-ios/App/iOS/Entitlements/Nightly.entitlements
 +++ b/ios/brave-ios/App/iOS/Entitlements/Nightly.entitlements
-@@ -26,13 +26,9 @@
- 	<true/>
- 	<key>com.apple.security.application-groups</key>
+@@ -28,11 +28,5 @@
  	<array>
--		<string>group.$(MOZ_BUNDLE_ID).unique</string>
-+		<string>group.com.ibrowe.ios.BrowserBeta.unique</string>
-+		<string>group.com.ibrowe.ios.browser</string>
-+		<string>group.com.ibrowe.ios.browser.beta</string>
+ 		<string>group.$(MOZ_BUNDLE_ID).unique</string>
  	</array>
 -	<key>com.apple.developer.web-browser</key>
 -	<true/>

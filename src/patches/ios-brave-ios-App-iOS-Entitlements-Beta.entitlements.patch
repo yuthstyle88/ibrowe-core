@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/App/iOS/Entitlements/Beta.entitlements b/ios/brave-ios/App/iOS/Entitlements/Beta.entitlements
-index ed7f35a6d8ab490fc6590ea962bd54ef54ad6f28..35e298796086ca03dc50173f9b45f64e4d58f2e4 100644
+index ed7f35a6d8ab490fc6590ea962bd54ef54ad6f28..737331d8dce3353b855fcfdcc78bfbbddee03af0 100644
 --- a/ios/brave-ios/App/iOS/Entitlements/Beta.entitlements
 +++ b/ios/brave-ios/App/iOS/Entitlements/Beta.entitlements
 @@ -2,18 +2,16 @@
@@ -23,7 +23,7 @@ index ed7f35a6d8ab490fc6590ea962bd54ef54ad6f28..35e298796086ca03dc50173f9b45f64e
  	<key>com.apple.developer.networking.networkextension</key>
  	<array>
  		<string>packet-tunnel-provider</string>
-@@ -26,13 +24,17 @@
+@@ -26,13 +24,15 @@
  	<array>
  		<string>TAG</string>
  	</array>
@@ -36,8 +36,6 @@ index ed7f35a6d8ab490fc6590ea962bd54ef54ad6f28..35e298796086ca03dc50173f9b45f64e
  	<key>com.apple.security.application-groups</key>
  	<array>
  		<string>group.$(MOZ_BUNDLE_ID)</string>
-+		<string>group.com.ibrowe.ios.BrowserBeta.unique</string>
-+		<string>group.com.ibrowe.ios.browser</string>
  	</array>
 -	<key>com.apple.developer.web-browser</key>
 -	<true/>
