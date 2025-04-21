@@ -1,0 +1,69 @@
+diff --git a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
+index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58b8b4b1c3 100644
+--- a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
++++ b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
+@@ -144,7 +144,7 @@ extension Strings {
+       "aichat.feedbackViewMainTitle",
+       tableName: "BraveLeo",
+       bundle: .module,
+-      value: "Provide Brave AI Feedback",
++      value: "Provide iBrowe AI Feedback",
+       comment: "The title for view which user type feedback"
+     )
+     public static let feedbackSubmitActionTitle = NSLocalizedString(
+@@ -172,7 +172,7 @@ extension Strings {
+       "aichat.chatIntroSubTitle",
+       tableName: "BraveLeo",
+       bundle: .module,
+-      value: "An AI-powered intelligent assistant, built right into Brave.",
++      value: "An AI-powered intelligent assistant, built right into iBrowe.",
+       comment: "The subtitle for intro view"
+     )
+     public static let chatIntroWebsiteHelpTitle = NSLocalizedString(
+@@ -591,15 +591,15 @@ extension Strings {
+       "aichat.advancedSettingsLinkPurchaseActionTitle",
+       tableName: "BraveLeo",
+       bundle: .module,
+-      value: "Link purchase to your Brave account",
+-      comment: "The title for the button which links purchase to Brave Account"
++      value: "Link purchase to your iBrowe account",
++      comment: "The title for the button which links purchase to iBrowe Account"
+     )
+     public static let advancedSettingsLinkPurchaseActionSubTitle = NSLocalizedString(
+       "aichat.advancedSettingsLinkPurchaseActionSubTitle",
+       tableName: "BraveLeo",
+       bundle: .module,
+-      value: "Link your App Store purchase to your Brave account to use Leo on other devices.",
+-      comment: "The subtitle for the button which links purchase to Brave Account"
++      value: "Link your App Store purchase to your iBrowe account to use Leo on other devices.",
++      comment: "The subtitle for the button which links purchase to iBrowe Account"
+     )
+     public static let advancedSettingsSubscriptionHeaderTitle = NSLocalizedString(
+       "aichat.advancedSettingsSubscriptionHeaderTitle",
+@@ -745,7 +745,7 @@ extension Strings {
+       "aichat.termsConditionsTitle",
+       tableName: "BraveLeo",
+       bundle: .module,
+-      value: "Chat Privately with Brave Leo",
++      value: "Chat Privately with iBrowe Leo",
+       comment: "The title terms and conditions for AI chat usage"
+     )
+     public static let termsConditionsDescription = NSLocalizedString(
+@@ -762,7 +762,7 @@ extension Strings {
+       tableName: "BraveLeo",
+       bundle: .module,
+       value: "I Understand",
+-      comment: "The title for expressing acknowledgement for the terms and conditions of Brave AI"
++      comment: "The title for expressing acknowledgement for the terms and conditions of iBrowe AI"
+     )
+     public static let feedbackPremiumAdTitle = NSLocalizedString(
+       "aichat.feedbackPremiumAdTitle",
+@@ -777,7 +777,7 @@ extension Strings {
+       "aichat.speechRecognizerDisclaimer",
+       tableName: "BraveLeo",
+       bundle: .module,
+-      value: "Brave does not store or share your voice inputs.",
++      value: "iBrowe does not store or share your voice inputs.",
+       comment:
+         "The description indicating voice inputs from user is not store or shared and these inpurs are totally private."
+     )

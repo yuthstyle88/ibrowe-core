@@ -1,0 +1,312 @@
+diff --git a/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift b/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift
+index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d48642bd8fdc 100644
+--- a/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift
++++ b/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift
+@@ -12,7 +12,7 @@ extension Strings {
+       "vpn.buyVPNTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Brave Firewall + VPN",
++      value: "iBrowe Firewall + VPN",
+       comment: "Title for screen to buy the VPN."
+     )
+ 
+@@ -69,7 +69,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Blocks unwanted network connections",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let popupCheckboxBlockAdsAlternate = NSLocalizedString(
+@@ -77,7 +77,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Block ads & trackers across all apps ",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let popupCheckboxFast = NSLocalizedString(
+@@ -85,7 +85,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Supports speeds of up to 100 Mbps",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let popupCheckboxFastAlternate = NSLocalizedString(
+@@ -93,7 +93,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Fast and unlimited up to 100 Mbps",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let popupCheckmarkSecureConnections = NSLocalizedString(
+@@ -101,7 +101,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Secures all connections",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let popupCheckmark247Support = NSLocalizedString(
+@@ -109,7 +109,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "24/7 support",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let infoCheckPrivacy = NSLocalizedString(
+@@ -117,7 +117,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Extra privacy & security online",
+-      comment: "Information text shown to users for using Brave VPN"
++      comment: "Information text shown to users for using iBrowe VPN"
+     )
+ 
+     public static let infoCheckLocation = NSLocalizedString(
+@@ -125,7 +125,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Hide your IP & change your location",
+-      comment: "Information Text shown to users for using Brave VPN"
++      comment: "Information Text shown to users for using iBrowe VPN"
+     )
+ 
+     public static let infoCheckServers = NSLocalizedString(
+@@ -133,7 +133,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Hundreds of servers around the world",
+-      comment: "Information Text shown to users for using Brave VPN"
++      comment: "Information Text shown to users for using iBrowe VPN"
+     )
+ 
+     public static let infoCheckConnectionSpeed = NSLocalizedString(
+@@ -141,7 +141,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Lightning-fast connection speeds",
+-      comment: "Information shown to users for using Brave VPN"
++      comment: "Information shown to users for using iBrowe VPN"
+     )
+ 
+     public static let infoCheckLimitDevice = NSLocalizedString(
+@@ -149,14 +149,14 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value: "Protect up to 10 devices with one plan",
+-      comment: "Information shown to users for using Brave VPN"
++      comment: "Information shown to users for using iBrowe VPN"
+     )
+ 
+     public static let autoRenewSoonExpirePopOverTitle = NSLocalizedString(
+       "vpn.autoRenewSoonExpireTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Oh no! Your Brave VPN subscription is about to expire.",
++      value: "Oh no! Your iBrowe VPN subscription is about to expire.",
+       comment: "Pop up title for VPN subscription is about expire"
+     )
+ 
+@@ -164,7 +164,7 @@ extension Strings {
+       "vpn.autoRenewDiscountPopOverTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Auto-renew your Brave VPN Subscription now and get 20% off for 3 months!",
++      value: "Auto-renew your iBrowe VPN Subscription now and get 20% off for 3 months!",
+       comment: "Pop up title for renewing VPN subscription with discount"
+     )
+ 
+@@ -172,7 +172,7 @@ extension Strings {
+       "vpn.autoRenewFreeMonthPopOverTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Auto-renew your Brave VPN Subscription now and get 1 month free!",
++      value: "Auto-renew your iBrowe VPN Subscription now and get 1 month free!",
+       comment: "Pop up title for renewing VPN subscription with month free"
+     )
+ 
+@@ -189,7 +189,7 @@ extension Strings {
+       "vpn.updateBillingExpiredPopOverTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Update your payment info to stay protected with Brave VPN.",
++      value: "Update your payment info to stay protected with iBrowe VPN.",
+       comment: "Pop up title for billing issue for subcription VPN already expired"
+     )
+ 
+@@ -197,7 +197,7 @@ extension Strings {
+       "vpn.autoRenewSoonExpirePopOverDescription",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "That means you'll lose Brave's extra protections for every app on your phone.",
++      value: "That means you'll lose iBrowe's extra protections for every app on your phone.",
+       comment: "Pop up description for VPN subscription is about expire"
+     )
+ 
+@@ -222,7 +222,7 @@ extension Strings {
+       "vpn.subscribeVPNDiscountPopOverTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Give Brave VPN another try and get 20% off for 3 months!",
++      value: "Give iBrowe VPN another try and get 20% off for 3 months!",
+       comment: "Pop up title for subscribing VPN with discount"
+     )
+ 
+@@ -230,15 +230,15 @@ extension Strings {
+       "vpn.subscribeVPNProtectionPopOverTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Did you know that Brave VPN protects you outside of Brave Browser?",
+-      comment: "Pop up title for subscribing VPN explaning VPN protects user outside the Brave"
++      value: "Did you know that iBrowe VPN protects you outside of Brave Browser?",
++      comment: "Pop up title for subscribing VPN explaning VPN protects user outside the iBrowe"
+     )
+ 
+     public static let subscribeVPNAllDevicesPopOverTitle = NSLocalizedString(
+       "vpn.subscribeVPNAllDevicesPopOverTitle",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Now, use Brave VPN on all your devices for the same price!",
++      value: "Now, use iBrowe VPN on all your devices for the same price!",
+       comment: "Pop up title the subscription for VPN can be used for all platforms"
+     )
+ 
+@@ -282,7 +282,7 @@ extension Strings {
+       "vpn.sessionExpiredDescription",
+       tableName: "BraveShared",
+       bundle: .module,
+-      value: "Please login to your Brave Account to refresh your VPN session.",
++      value: "Please login to your iBrowe Account to refresh your VPN session.",
+       comment: "Alert description to show when the VPN session has expired"
+     )
+ 
+@@ -465,42 +465,42 @@ extension Strings {
+       "vpn.checkboxProtectYourDevices",
+       bundle: .module,
+       value: "Protect every app & your whole device",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let checkboxSaferWifi = NSLocalizedString(
+       "vpn.checkboxSaferWifi",
+       bundle: .module,
+       value: "Safer for home or public Wi-Fi",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let checkboxSpeedFast = NSLocalizedString(
+       "vpn.checkboxSpeedFast",
+       bundle: .module,
+       value: "Lightning-fast, up to 100 Mbps",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let checkboxGeoLocation = NSLocalizedString(
+       "vpn.checkboxGeoLocation",
+       bundle: .module,
+       value: "Choose your geo/country location",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let checkboxNoIPLog = NSLocalizedString(
+       "vpn.checkboxNoIPLog",
+       bundle: .module,
+-      value: "Brave never logs your activity",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      value: "iBrowe never logs your activity",
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let checkboxDevicesProtect = NSLocalizedString(
+       "vpn.checkboxDevicesProtect",
+       bundle: .module,
+       value: "Protect 5 devices on 1 subscription",
+-      comment: "Text for a checkbox to present the user benefits for using Brave VPN"
++      comment: "Text for a checkbox to present the user benefits for using iBrowe VPN"
+     )
+ 
+     public static let installTitle = NSLocalizedString(
+@@ -513,7 +513,7 @@ extension Strings {
+     public static let installProfileTitle = NSLocalizedString(
+       "vpn.installProfileTitle",
+       bundle: .module,
+-      value: "Brave will now install a VPN profile.",
++      value: "iBrowe will now install a VPN profile.",
+       comment: ""
+     )
+ 
+@@ -577,7 +577,7 @@ extension Strings {
+     public static let settingsLinkReceipt = NSLocalizedString(
+       "vpn.settingsLinkReceipt",
+       bundle: .module,
+-      value: "Link purchase to your Brave account",
++      value: "Link purchase to your iBrowe account",
+       comment: "Button to link your VPN receipt to other devices."
+     )
+ 
+@@ -643,21 +643,21 @@ extension Strings {
+       "vpn.enableButton",
+       bundle: .module,
+       value: "Enable",
+-      comment: "Button text to enable Brave VPN"
++      comment: "Button text to enable iBrowe VPN"
+     )
+ 
+     public static let buyButton = NSLocalizedString(
+       "vpn.buyButton",
+       bundle: .module,
+       value: "Buy",
+-      comment: "Button text to buy Brave VPN"
++      comment: "Button text to buy iBrowe VPN"
+     )
+ 
+     public static let tryForFreeButton = NSLocalizedString(
+       "vpn.learnMore",
+       bundle: .module,
+       value: "Start 7-Day Free Trial",
+-      comment: "Button text to try free Brave VPN"
++      comment: "Button text to try free iBrowe VPN"
+     )
+ 
+     public static let settingHeaderBody = NSLocalizedString(
+@@ -960,7 +960,7 @@ extension Strings {
+     public static let contactFormTitle = NSLocalizedString(
+       "vpn.contactFormTitle",
+       bundle: .module,
+-      value: "Brave Firewall + VPN Issue",
++      value: "iBrowe Firewall + VPN Issue",
+       comment: "Title for contact form email."
+     )
+ 
+@@ -981,14 +981,14 @@ extension Strings {
+     public static let vpnBackgroundNotificationTitle = NSLocalizedString(
+       "vpn.vpnBackgroundNotificationTitle",
+       bundle: .module,
+-      value: "Brave Firewall + VPN is ON",
++      value: "iBrowe Firewall + VPN is ON",
+       comment: "Notification title to tell user that the vpn is turned on even in background"
+     )
+ 
+     public static let vpnBackgroundNotificationBody = NSLocalizedString(
+       "vpn.vpnBackgroundNotificationBody",
+       bundle: .module,
+-      value: "Even in the background, Brave will continue to protect you.",
++      value: "Even in the background, iBrowe will continue to protect you.",
+       comment: "Notification title to tell user that the vpn is turned on even in background"
+     )
+ 
