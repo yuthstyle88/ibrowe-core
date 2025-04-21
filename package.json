@@ -1,0 +1,24 @@
+{
+    "name": "ibrowe",
+    "version": "1.0.0",
+    "description": "Next generation iBrowe browser for macOS, Windows, Linux, and Android",
+    "homepage": "https://github.com/yuthstyle88/brave-browser#readme",
+    "config": {
+      "projects": {
+        "chrome": {
+          "dir": "src",
+          "tag": "134.0.6998.95",
+          "repository": {
+            "url": "https://github.com/brave/chromium"
+          }
+        },
+        "depot_tools": {
+          "dir": "vendor/depot_tools",
+          "repository": {
+            "url": "https://chromium.googlesource.com/chromium/tools/depot_tools.git"
+          }
+        }
+      }
+    }
+  }
+  
