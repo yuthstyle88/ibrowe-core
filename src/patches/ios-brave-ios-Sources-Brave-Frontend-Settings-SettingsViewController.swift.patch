@@ -1,8 +1,75 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
-index ec243f38879e3eebce2baffcace037d32006dd8e..759c8b37dd84f9bc650e9902079279d93cc903a1 100644
+index ec243f38879e3eebce2baffcace037d32006dd8e..922c291299b401e5eaa88bcab420982ffa57f2ed 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
-@@ -950,7 +950,7 @@ class SettingsViewController: TableViewController {
+@@ -219,23 +219,6 @@ class SettingsViewController: TableViewController {
+       aboutSection,
+     ]
+ 
+-    let shouldShowVPNSection = { () -> Bool in
+-      if !BraveVPNProductInfo.isComplete || Preferences.VPN.vpnSettingHeaderWasDismissed.value {
+-        return false
+-      }
+-
+-      switch BraveVPN.vpnState {
+-      case .notPurchased, .expired:
+-        return true
+-      case .purchased:
+-        return false
+-      }
+-    }()
+-
+-    if shouldShowVPNSection {
+-      list.insert(enableBraveVPNSection, at: 0)
+-    }
+-
+     // Always show debug section in local builds and show if previously shown
+     if !AppConstants.isOfficialBuild || Preferences.Debug.developerOptionsEnabled.value {
+       list.append(debugSection)
+@@ -246,29 +229,6 @@ class SettingsViewController: TableViewController {
+ 
+   // MARK: - Sections
+ 
+-  private lazy var enableBraveVPNSection: Static.Section = {
+-    let header = BraveVPNEnableSettingsHeaderView(
+-      enableVPNTapped: { [weak self] in
+-        self?.enableVPNTapped()
+-      },
+-      dismissHeaderTapped: { [weak self] in
+-        self?.dismissVPNHeaderTapped()
+-      }
+-    )
+-    let headerHostingVC = UIHostingController(rootView: header)
+-
+-    let calculatedSize = headerHostingVC.view.systemLayoutSizeFitting(
+-      CGSize(width: navigationController?.navigationBar.frame.width ?? 0, height: 300),
+-      withHorizontalFittingPriority: .required,
+-      verticalFittingPriority: .fittingSizeLevel
+-    )
+-
+-    headerHostingVC.view.backgroundColor = .clear
+-    headerHostingVC.view.bounds = CGRect(size: calculatedSize)
+-
+-    return Static.Section(header: .view(headerHostingVC.view))
+-  }()
+-
+   private lazy var defaultBrowserSection: Static.Section = {
+     var section = Static.Section(
+       rows: [
+@@ -397,12 +357,6 @@ class SettingsViewController: TableViewController {
+       )
+     )
+ 
+-    if !tabManager.privateBrowsingManager.isPrivateBrowsing && FeatureList.kAIChat.enabled {
+-      section.rows.append(leoSettingsRow)
+-    }
+-
+-    section.rows.append(vpnSettingsRow)
+-
+     section.rows.append(
+       Row(
+         text: Strings.PlayList.playListTitle,
+@@ -950,7 +904,7 @@ class SettingsViewController: TableViewController {
              // Rate Brave
              guard
                let writeReviewURL = URL(
