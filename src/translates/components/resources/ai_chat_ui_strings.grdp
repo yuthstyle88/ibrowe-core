@@ -45,9 +45,6 @@
   <message name="IDS_CHAT_UI_PAGE_CONTENT_WARNING" desc="Description about page content being sent to a remote LLM">
      Disconnect to stop sending this page content to Leo, and start a new conversation
   </message>
-  <message name="IDS_CHAT_UI_ERROR_INTERNAL" desc="A general error message for processing user requests">
-    Something went wrong while processing your request. Please try again later.
-  </message>
   <message name="IDS_CUSTOM_MODEL_ENDPOINT_INVALID_ERROR" desc="An error presented when the model endpoint is invalid">
     This model has an invalid endpoint. Please check your configuration and try again.
   </message>
@@ -73,28 +70,25 @@
      Configure
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_BASIC" desc="AI Chat intro message for the default model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Llama 3.1 8B, a model created by Meta to be performant and applicable to many use cases. Llama is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Llama 3.1 8B, a model created by Meta to be performant and applicable to many use cases. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_QWEN" desc="AI Chat intro message for the qwen model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Qwen 14B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
-  </message>
-  <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_DEEPSEEK_R1" desc="AI Chat intro message for the deepseek-r1 model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by DeepSeek R1, a model created by DeepSeek to perform deep reasoning tasks. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Qwen 14B, a model created by Alibaba Cloud to be performant and applicable to many use cases. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_LEO_EXPANDED" desc="AI Chat intro message for the expanded model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Mixtral 8x7B, a model created by Mistral AI to handle advanced tasks. Mixtral is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Mixtral 8x7B, a model created by Mistral AI to handle advanced tasks. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_LEO_CLAUDE_INSTANT" desc="AI Chat intro message for the Claude Instant model">
-    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. Claude Instant is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_LEO_CLAUDE_HAIKU" desc="AI Chat intro message for the Claude Haiku model">
-    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Haiku, a model created by Anthropic to power conversational and text processing tasks. Claude Haiku is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Haiku, a model created by Anthropic to power conversational and text processing tasks. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_LEO_CLAUDE_SONNET" desc="AI Chat intro message for the Claude Sonnet model">
-    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Sonnet, a model created by Anthropic to power conversational and text processing tasks. Claude Sonnet is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Sonnet, a model created by Anthropic to power conversational and text processing tasks. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
   </message>
-  <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_VISION_BASIC" desc="AI Chat intro message for the default vision model">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Llama Vision, a model created by Meta to be performant and applicable to many use cases. Llama Vision is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+  <message name="IDS_CHAT_UI_MODEL_NAME_SYNTAX" desc="Sentence structure for model name">
+    <ph name="MODEL_NAME">$1<ex>llama2-13b</ex></ph> by <ph name="COMPANY_NAME">$2<ex>Meta</ex></ph>
   </message>
   <message name="IDS_CHAT_UI_MODEL_PREMIUM_LABEL_NON_PREMIUM" desc="Label indentifying that an AI Chat model is a premium model">
     Premium
@@ -306,18 +300,6 @@
   <message name="IDS_CHAT_UI_SHOW_DETAILS_BUTTON_LABEL" desc="A button label to show details of the AI Assistant reasoning">
     Show details
   </message>
-  <message name="IDS_CHAT_UI_OPEN_LABEL" desc="A button label to open a link">
-    Open
-  </message>
-  <message name="IDS_CHAT_UI_OPEN_EXTERNAL_LINK" desc="A button label to open a link">
-    Open external link?
-  </message>
-  <message name="IDS_CHAT_UI_OPEN_EXTERNAL_LINK_INFO" desc="Info text to open a link">
-    Leo AI wants to open a website in a new tab. Do you want to continue?
-  </message>
-  <message name="IDS_CHAT_UI_OPEN_EXTERNAL_LINK_CHECKBOX_LABEL" desc="A checkbox label to open a link without asking me again">
-    Open links without asking me again
-  </message>
   <message name="IDS_CHAT_UI_SEND_CHAT_BUTTON_LABEL" desc="A button label for sending a chat message">
     Send message to Leo
   </message>
@@ -329,9 +311,6 @@
   </message>
   <message name="IDS_CHAT_UI_PAGE_CONTENT_TOO_LONG_WARNING" desc="A warning issued when the user is trying to summarize a long content page">
     The page is too long for Leo. Some context could be missing from the conversation. Leo was able to read <ph name="PERCENTAGE">$1<ex>75.5%</ex></ph> of the page's contents.
-  </message>
-  <message name="IDS_CHAT_UI_TRIMMED_TOKENS_WARNING" desc="A warning issued when the user is trying to summarize a long content page">
-    Some context could be missing from the conversation. Leo was able to retain <ph name="PERCENTAGE">$1<ex>75.5%</ex></ph> of the conversation's associated content.
   </message>
   <message name="IDS_CHAT_UI_PAGE_CONTENT_REFINED_WARNING" desc="A warning issued when the page content has been refined">
     The page content has been refined through extracting the most relevant information from the page because it was too long for Leo.
@@ -404,12 +383,6 @@
   </message>
   <message name="IDS_CHAT_UI_CHAT_QWEN_SUBTITLE" desc="A description for qwen model">
       General purpose chat, coding, and more
-  </message>
-  <message name="IDS_CHAT_UI_CHAT_VISION_BASIC_SUBTITLE" desc="A description for llama vision model">
-    General purpose vision
-  </message>
-  <message name="IDS_CHAT_UI_CHAT_DEEPSEEK_R1_SUBTITLE" desc="A description for deepseek-r1 model">
-    Reasoning model
   </message>
   <message name="IDS_CHAT_UI_LEO_SETTINGS_TOOLTIP_LABEL" desc="A label for leo settings tooltip">
     Leo settings
@@ -521,21 +494,6 @@
   </message>
   <message name="IDS_AI_CHAT_LEO_TOOLS_BUTTON_LABEL" desc="The button label for Leo's slash tools">
     Leo tools
-  </message>
-  <message name="IDS_AI_CHAT_LEO_ATTACHMENT_MENU_BUTTON_LABEL" desc="The button label for Leo's attachment menu">
-    Attachment
-  </message>
-  <message name="IDS_AI_CHAT_UPLOAD_FILE_BUTTON_LABEL" desc="The button label for upload file">
-    Upload file...
-  </message>
-  <message name="IDS_AI_CHAT_TAKE_A_PICTURE_BUTTON_LABEL" desc="The button label for upload a picture from camera">
-    Take a picture...
-  </message>
-  <message name="IDS_AI_CHAT_SCREENSHOT_BUTTON_LABEL" desc="The button label for screenshot">
-    Screenshot
-  </message>
-  <message name="IDS_AI_CHAT_CURRENT_TAB_CONTENTS_BUTTON_LABEL" desc="The button label for current tab contents">
-    Current tab contents
   </message>
   <message name="IDS_AI_CHAT_USE_MICROPHONE_BUTTON_LABEL" desc="The button label for Leo's microphone feature">
     Use microphone

@@ -281,9 +281,6 @@
       <message name="IDS_BRAVE_NEW_TAB_SHOW_REWARDS" desc="Text for settings show rewards option">Show Brave Rewards</message>
       <message name="IDS_BRAVE_NEW_TAB_SHOW_CARDS" desc="Text for cards option">Cards</message>
       <message name="IDS_BRAVE_NEW_TAB_BRANDED_WALLPAPER_OPT_IN" desc="Text for setting to opt-in to Branded Wallpapers on New Tab Page">Show Sponsored Images</message>
-      <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_CAN_EARN_DESCRIPTION" desc="Description text for learn more label for Sponsored Images setting on New Tab Page that informs users they can earn BAT">You can earn for seeing Sponsored Images.</message>
-      <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_EARNING_DESCRIPTION" desc="Description text for learn more label for Sponsored Images setting on New Tab Page that informs users they are currently earning BAT">You're earning BAT for Sponsored Images. Disabling Sponsored Images will reduce how much you earn.</message>
-      <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_LEARN_MORE" desc="Learn more link text for Sponsored Images setting on New Tab Page">Learn more</message>
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_EARNING_TITLE" desc="Title of message about already earning from sponsored images">You're earning BAT for Sponsored Images.</message>
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_ENABLE_REWARDS" desc="Text of the button to enable Rewards">Enable Rewards</message>
       <message name="IDS_BRAVE_NEW_TAB_SPONSORED_IMAGE_NOT_EARNING_TITLE" desc="Title of message about not yet earning from sponsored images">You can earn for seeing Sponsored Images.</message>
@@ -408,7 +405,7 @@
         <message name="IDS_BRAVE_PRIVATE_NEW_TAB_THIS_IS_A" desc="">This is a</message>
         <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW" desc="">Private Window</message>
         <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC" desc="">Brave doesn’t remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you’re done. Private Windows don’t make you completely anonymous online, though.</message>
-        <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC1" desc="">Brave never remembers what you do in a Private Window. Sites you visit won't show up in your history. Cookies, form data, and site data vanish once you close all open private windows.</message>
+        <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC1" desc="">Brave never remembers what you do in a Private Window. Sites you visit won't show up in your history. Cookies, form data, and site data vanish when you close the window.</message>
         <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC2" desc="">Note that your activity could still be visible to your internet service provider, passive network observers, or your employer (if you're using a work machine or network). For more privacy, open a private window with Tor.</message>
         <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_BUTTON" desc="">Learn more.</message>
         <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR" desc="">Private Window with Tor connectivity</message>
@@ -808,7 +805,6 @@
       <part file="ai_chat_prompts.grdp" />
       <part file="ai_chat_ui_strings.grdp" />
       <if expr="not is_android">
-        <part file="brave_new_tab_page_strings.grdp" />
         <part file="brave_shields_strings.grdp" />
         <part file="brave_welcome_strings.grdp" />
       </if>
