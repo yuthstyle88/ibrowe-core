@@ -50,7 +50,7 @@ if __name__ == "__main__":
     # else:
     #     print(f"Source folder does not exist: {brave_source_path}")
 
-    if os.path.exists(translates_source_path):
+    if os.path.exists(brave_source_path):
         copy_brave_files(brave_source_path, translates_source_path, {".grd", ".grdp", ".xtb", ".pak", ".strings"})
     else:
         print(f"Source folder does not exist: {translates_source_path}")
