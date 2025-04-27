@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
   <message name="IDS_APP_META_KEY" desc="The name of the Windows/Command/Meta key on Linux">
     Meta
   </message>
-  <!--
-    Please reuse existing strings as much as possible rather than adding new
-    strings here.
-
-    If the command is only available on a platform we don't support (i.e.
-    ChromeOS) prefer to not add the command.
-  -->
+  
   <message name="IDS_IDC_BACK">
     Back
   </message>
@@ -238,7 +232,6 @@
   <message name="IDS_IDC_IMPORT_SETTINGS">
     Import settings
   </message>
-
   <message name="IDS_IDC_OPEN_FULL_PAGE_CHAT">
     Open AI Chat
   </message>
@@ -444,7 +437,7 @@
     Show Wayback Machine bubble
   </message>
 
-  <!-- Commander composite commands -->
+  
   <message name="IDS_COMMANDER_OPEN_BOOKMARK" desc="Text for the command to begin opening a bookmark">
     Open bookmark...
   </message>
@@ -467,7 +460,7 @@
     Unpin tab...
   </message>
 
-  <!-- Shortcuts Page UI Strings -->
+  
   <message name="IDS_SHORTCUTS_PAGE_SEARCH_PLACEHOLDER" desc="Placeholder text in the search box">
     Search for a command or shortcut
   </message>

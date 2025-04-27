@@ -86,7 +86,7 @@
 "wallet.addCustomTokenTitle" = "Токен";
 
 /* The description of the view shown over a dapps website that describes what adding a new network will do. */
-"wallet.addNetworkDescription" = "Це дозволить використовувати цю мережу в гаманці iBrowe.";
+"wallet.addNetworkDescription" = "Це дозволить використовувати цю мережу в гаманці Brave.";
 
 /* The subtitle of the view shown over a dapps website that requests permission from the user to add a new network. */
 "wallet.addNetworkSubtitle" = "Дозволити цьому сайту додавати мережу?";
@@ -161,7 +161,7 @@
 "wallet.auroraPopupDontShowAgain" = "Більше не показувати";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Тривалість очікування в хвилинах до автоматичного блокування гаманця iBrowe";
+"wallet.autoLockFooter" = "Тривалість очікування в хвилинах до автоматичного блокування гаманця Brave";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Автоматично блокувати за";
@@ -221,10 +221,10 @@
 "wallet.biometricsSetupFaceId" = "Face ID";
 
 /* The sub-title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupSubTitle" = "Застосувати %@, щоб розблокувати гаманець iBrowe?";
+"wallet.biometricsSetupSubTitle" = "Застосувати %@, щоб розблокувати гаманець Brave?";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupTitle" = "Розблокувати гаманець iBrowe за допомогою %@";
+"wallet.biometricsSetupTitle" = "Розблокувати гаманець Brave за допомогою %@";
 
 /* Type of biometrics. This will be used in Biometric setup screen. */
 "wallet.biometricsSetupTouchId" = "Touch ID";
@@ -232,13 +232,13 @@
 /* The label displayed in Add Account above the private key box when adding or importing a Bitcoin account. The '%@' is the standard supported for the selected network (for example "Only zprv extended keys are supported.") */
 "wallet.bitcoinImportExtendedKeyWarning" = "Підтримується лише %@ розширених ключів.";
 
-/* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.braveFeeLabel" = "Комісія iBrowe: %@";
+/* The title for Brave Fee label in Swap. The fee percentage is displayed beside the label. */
+"wallet.braveFeeLabel" = "Комісія Brave: %@";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.braveSwapFeeDisclaimer" = "Вартість передбачає комісію iBrowe розміром %@.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
+"wallet.braveSwapFeeDisclaimer" = "Вартість передбачає комісію Brave розміром %@.";
 
-/* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
+/* The text beside the striked-through percentage Brave would normally charge for a swap. */
 "wallet.braveSwapFree" = "Безкоштовно";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
@@ -251,7 +251,7 @@
 "wallet.btcAvailableBalanceTitle" = "Доступно\n";
 
 /* A warning displayed in row before the Send button in Send Crypto view when a Bitcoin asset is selected. */
-"wallet.btcOrdinalsUnsupportedWarning" = "Гаманець iBrowe наразі не підтримує Bitcoin NFT (ординали). Надсилаючи BTC з адреси, що має ординали, можна ненавмисно їх передати.";
+"wallet.btcOrdinalsUnsupportedWarning" = "Гаманець Brave наразі не підтримує Bitcoin NFT (ординали). Надсилаючи BTC з адреси, що має ординали, можна ненавмисно їх передати.";
 
 /* Description displayed in row beside users pending balance. */
 "wallet.btcPendingBalanceDesc" = "Очікується зміна балансу гаманця.";
@@ -446,7 +446,7 @@
 "wallet.creatingWallet" = "Створення гаманця…";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Гаманець iBrowe";
+"wallet.cryptoTitle" = "Гаманець Brave";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "URL-адреси оглядача блоків";
@@ -517,14 +517,14 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Додати користувацький актив";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with iBrowe Wallet" */
-"wallet.dappsConnectionNotificationOriginTitle" = "Користувач %@ хоче взаємодіяти з гаманцем iBrowe";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with Brave Wallet" */
+"wallet.dappsConnectionNotificationOriginTitle" = "Користувач %@ хоче взаємодіяти з гаманцем Brave";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Ця сторінка хоче взаємодіяти з iBrowe Wallet";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Ця сторінка хоче взаємодіяти з Brave Wallet";
 
 /* A message that will be displayed under the section header when there is no dapps have been granted wallet connection. */
-"wallet.dappsSettingsConnectedSitesSectionEmpty" = "Підключені до гаманця iBrowe децентралізовані програми відображатимуться тут";
+"wallet.dappsSettingsConnectedSitesSectionEmpty" = "Підключені до гаманця Brave децентралізовані програми відображатимуться тут";
 
 /* The title of the section that will list all the permitted dapp connections */
 "wallet.dappsSettingsConnectedSitesSectionTitle" = "Підключені децентралізовані програми";
@@ -587,7 +587,7 @@
 "wallet.decimalsPrecision" = "Точність у знаках після коми";
 
 /* The message displayed when the user takes a screenshot of their dapp decrypt request. */
-"wallet.decryptMessageScreenshotDetectedMessage" = "Попередження: знімок екрана з вашим повідомленням може бути збережено у файловому сховищі, його зможе прочитати будь-який додаток із доступом до фотографій. iBrowe рекомендує не зберігати цей знімок екрана та якомога швидше його видалити.";
+"wallet.decryptMessageScreenshotDetectedMessage" = "Попередження: знімок екрана з вашим повідомленням може бути збережено у файловому сховищі, його зможе прочитати будь-який додаток із доступом до фотографій. Brave рекомендує не зберігати цей знімок екрана та якомога швидше його видалити.";
 
 /* The title of the button to approve a decrypt request from a dapps website. */
 "wallet.decryptRequestApprove" = "Дозволити";
@@ -694,7 +694,7 @@
 /* The amount of current permitted wallet accounts to the dapp site. It is displayed below the origin url of the dapp site in edit site connection screen. '%lld' refers to a number, %@ is `account` for singular and `accounts` for plural (for example "1 account connected" or "2 accounts connected") */
 "wallet.editSiteConnectionConnectedAccount" = "Підключено %1$lld %2$@";
 
-/* The navigation title of the screen for users to edit dapps site connection with users' iBrowe Wallet accounts. */
+/* The navigation title of the screen for users to edit dapps site connection with users' Brave Wallet accounts. */
 "wallet.editSiteConnectionScreenTitle" = "Підключення";
 
 /* The error alert body when something is wrong when users try to edit transaction gas fee, priority fee, nonce value or allowance value. */
@@ -706,23 +706,23 @@
 /* The button title for showing the screen to change what assets are visible */
 "wallet.editVisibleAssetsButtonTitle" = "Редагувати видимі активи";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS domain they entered. */
 "wallet.ensDomainInterstitialPageButtonProceed" = "Продовжити з використанням сервера Infura";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "iBrowe використовуватиме Infura для обробки доменних імен .eth, які є в реєстрі Ethereum Name Service (ENS). iBrowe приховає вашу IP-адресу. Якщо ввімкнути цей параметр, Infura бачитиме лише те, що хтось намагається відвідати домени .eth. Див. <a href=%1$@>%2$@</a> та <a href=%3$@>%4$@</a> Infura.";
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+"wallet.ensDomainInterstitialPageDescription" = "Brave використовуватиме Infura для обробки доменних імен .eth, які є в реєстрі Ethereum Name Service (ENS). Brave приховає вашу IP-адресу. Якщо ввімкнути цей параметр, Infura бачитиме лише те, що хтось намагається відвідати домени .eth. Див. <a href=%1$@>%2$@</a> та <a href=%3$@>%4$@</a> Infura.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS domain to be resolved every time they enter one. */
-"wallet.ensDomainInterstitialPageTitle" = "Увімкнути підтримку Ethereum Name Service (ENS) у iBrowe?";
+/* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
+"wallet.ensDomainInterstitialPageTitle" = "Увімкнути підтримку Ethereum Name Service (ENS) у Brave?";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS offchain lookup for the domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS offchain lookup for the domain they entered. */
 "wallet.ensOffchainDomainInterstitialPageButtonProceed" = "Продовжити пошук за межами мережі";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
 "wallet.ensOffchainDomainInterstitialPageDescription" = "Це доменне ім’я .eth зберігається поза мережею та оброблятиметься стороннім шлюзом. Якщо ви ввімкнете пошук поза мережею ENS, сторонній шлюз побачить, що ви намагаєтеся відвідати домен .eth. <a href=%1$@>%2$@</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
-"wallet.ensOffchainDomainInterstitialPageTitle" = "Увімкнути підтримку пошуку за межами мережі Ethereum Name Service (ENS) у iBrowe?";
+/* Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
+"wallet.ensOffchainDomainInterstitialPageTitle" = "Увімкнути підтримку пошуку за межами мережі Ethereum Name Service (ENS) у Brave?";
 
 /* Button title when requesting to do an ENS off chain lookup. */
 "wallet.ensOffchainGatewayButton" = "Використати домен мережі ENS";
@@ -731,7 +731,7 @@
 "wallet.ensOffchainGatewayDesc" = "Схоже, ви ввели ENS-адресу. Для вирішення цього запиту буде використано сторонній засіб. Це допоможе переконатися, що ваш домен .eth не розкрито, а транзакція безпечна.";
 
 /* Title shown send address / ENS domain when requesting to do an ENS off chain lookup. */
-"wallet.ensOffchainGatewayTitle" = "iBrowe підтримує використання позамережевих шлюзів для вирішення доменів .eth.";
+"wallet.ensOffchainGatewayTitle" = "Brave підтримує використання позамережевих шлюзів для вирішення доменів .eth.";
 
 /* The description for the options to allow Ethereum Name service domain names offchain. '%@' will be replaced with a url to explain more about ENS offchain lookup. */
 "wallet.ensOffchainResolveMethodDescription" = "[Детальніше](%@) про використання позамережевих шлюзів ENS з метою конфіденційності.";
@@ -953,7 +953,7 @@
 "wallet.legalTitle" = "Перед початком";
 
 /* The responsibility explained in screen for users to check indicates they understand before setting up a wallet. */
-"wallet.legalUserResponsibility" = "Я розумію, що це гаманець із самостійним зберіганням ключів і що лише я відповідаю за будь-які пов’язані кошти, активи чи рахунки, а також за вжиття відповідних заходів для убезпечення, захисту та резервного копіювання мого гаманця. Я розумію, що iBrowe НЕ може отримати доступ до мого гаманця чи скасувати транзакції від мого імені й що моя фраза для відновлення є ЄДИНИМ способом відновити доступ у разі втрати пароля, викрадення пристрою чи за подібних обставин.";
+"wallet.legalUserResponsibility" = "Я розумію, що це гаманець із самостійним зберіганням ключів і що лише я відповідаю за будь-які пов’язані кошти, активи чи рахунки, а також за вжиття відповідних заходів для убезпечення, захисту та резервного копіювання мого гаманця. Я розумію, що Brave НЕ може отримати доступ до мого гаманця чи скасувати транзакції від мого імені й що моя фраза для відновлення є ЄДИНИМ способом відновити доступ у разі втрати пароля, викрадення пристрою чи за подібних обставин.";
 
 /* The title of the lock option inside the menu when user clicks the three dots button beside assets search button. */
 "wallet.lock" = "Заблокувати";
@@ -1003,8 +1003,8 @@
 /* The title of the edit gas fee screen for EIP-1559 transactions */
 "wallet.maxPriorityFeeTitle" = "Макс. пріоритетна комісія";
 
-/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as iBrowe Wallet in wallet settings. */
-"wallet.module" = "Гаманець iBrowe";
+/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as Brave Wallet in wallet settings. */
+"wallet.module" = "Гаманець Brave";
 
 /* A button title for user to open more option in asset details screen other than buy/send/swap. */
 "wallet.more" = "Більше";
@@ -1021,7 +1021,7 @@
 /* The title for the label that is shown above the name of the network on a request to switch networks or add a new network from a dapps website. */
 "wallet.networkNameTitle" = "Назва мережі";
 
-/* A placeholder in Buy Screen, when user switched to a network that iBrowe currently doesn't support token purchasing. */
+/* A placeholder in Buy Screen, when user switched to a network that Brave currently doesn't support token purchasing. */
 "wallet.networkNotSupportedForBuyToken" = "Покупки не підтримуються для вибраної мережі";
 
 /* The title of the section for primary networks in the network selection view. */
@@ -1052,7 +1052,7 @@
 "wallet.newSiteConnectFooter" = "Підключайтеся лише до сайтів, яким ви довіряєте.";
 
 /* The message displayed below the dapp's origin url in new site connection screen. */
-"wallet.newSiteConnectMessage" = "Підключити до гаманця iBrowe";
+"wallet.newSiteConnectMessage" = "Підключити до гаманця Brave";
 
 /* The transaction edit error alert button which will dismiss the alert. */
 "wallet.newSiteConnectScreenTitle" = "Підключити";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Стандарт токена";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "iBrowe Wallet може використовувати сторонні сервіси для автоматичного відображення ваших NFT. iBrowe розкриє адреси ваших гаманців сервісу SimpleHash, щоб він працював. Детальніше.";
+"wallet.nftDiscoveryCalloutDescription" = "Brave Wallet може використовувати сторонні сервіси для автоматичного відображення ваших NFT. Brave розкриє адреси ваших гаманців сервісу SimpleHash, щоб він працював. Детальніше.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Докладніше";
@@ -1136,10 +1136,10 @@
 "wallet.nftRemoveFromWallet" = "Не показувати в гаманці";
 
 /* The description of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertDescription" = "NFT буде видалено з гаманця iBrowe, але залишено в блокчейні. Якщо ви видалите його, а потім передумаєте, потрібно буде виконати імпорт уручну.";
+"wallet.nftRemoveFromWalletAlertDescription" = "NFT буде видалено з гаманця Brave, але залишено в блокчейні. Якщо ви видалите його, а потім передумаєте, потрібно буде виконати імпорт уручну.";
 
 /* The title of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertTitle" = "Видалити з гаманця iBrowe?";
+"wallet.nftRemoveFromWalletAlertTitle" = "Видалити з гаманця Brave?";
 
 /* The description of the NFTs row in Account Details when user has zero or multiple NFTs. */
 "wallet.nftsDescription" = "%d NFT";
@@ -1181,7 +1181,7 @@
 "wallet.onboardingCompletedButtonTitle" = "Перейти в мій портфель";
 
 /* The subtitle of the last step of creating a new wallet. */
-"wallet.onbordingCompletedSubTitle" = "Гаманець iBrowe готовий до використання.";
+"wallet.onbordingCompletedSubTitle" = "Гаманець Brave готовий до використання.";
 
 /* The title of the last step of creating a new wallet. */
 "wallet.onbordingCompletedTitle" = "Усе готово!";
@@ -1235,7 +1235,7 @@
 "wallet.portfolioPageTitle" = "Портфель";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Попередження: знімок екрана з вашим особистим ключем може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. iBrowe рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Попередження: знімок екрана з вашим особистим ключем може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. Brave рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
 
 /* The title for Protocol Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.protocolFeeLabel" = "Комісія за протокол: %@";
@@ -1262,7 +1262,7 @@
 "wallet.rampNetworkProviderShortName" = "Ramp";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Попередження: знімок екрана з вашою фразою для відновлення може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. iBrowe рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Попередження: знімок екрана з вашою фразою для відновлення може бути збережено на хмарному файловому сервісі, його зможе зчитати будь-який додаток з доступом до фото. Brave рекомендує не зберігати знімок екрана й видалити його якомога швидше.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Оновити ринкову ціну";
@@ -1295,12 +1295,12 @@
 "wallet.repeatedPasswordPlaceholder" = "Ще раз уведіть пароль";
 
 /* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
-"wallet.restoreLegacyBraveWalletToggleTitle" = "Імпортувати із застарілих криптовалютних гаманців iBrowe?";
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Імпортувати із застарілих криптовалютних гаманців Brave?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Відновити гаманець";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into iBrowe */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
 "wallet.restoreWalletButtonTitle" = "Відновити";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
@@ -1496,7 +1496,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Цю дію неможливо буде скасувати. Ваша фраза для відновлення — це єдиний спосіб відновлення доступу до ваших криптовалютних активів.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Дійсно скинути налаштування гаманця iBrowe?";
+"wallet.settingsResetWalletAlertTitle" = "Дійсно скинути налаштування гаманця Brave?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Ласкаво просимо";
@@ -1505,13 +1505,13 @@
 "wallet.setupCryptoButtonTitle" = "Почати";
 
 /* The subtitle displayed in the section for user that need to create a brand new wallet */
-"wallet.setupCryptoCreateNewSubTitle" = "Починайте роботу з гаманцем iBrowe за лічені хвилини.";
+"wallet.setupCryptoCreateNewSubTitle" = "Починайте роботу з гаманцем Brave за лічені хвилини.";
 
 /* The title displayed in the section for user that need to create a brand new wallet */
 "wallet.setupCryptoCreateNewTitle" = "Потрібен новий гаманець?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe і логотип iBrowe logo є зареєстрованими знаками для товарів і послуг iBrowe. Інші назви й логотипи продуктів можуть бути знаками для товарів і послуг відповідних компаній. Усі права захищено.";
+"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave і логотип Brave logo є зареєстрованими знаками для товарів і послуг Brave. Інші назви й логотипи продуктів можуть бути знаками для товарів і послуг відповідних компаній. Усі права захищено.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Імпортуйте наявний гаманець.";
@@ -1520,7 +1520,7 @@
 "wallet.setupCryptoRestoreTitle" = "Маєте гаманець?";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Візьміть у свої руки контроль над ресурсами в криптовалютах і NFT. Гаманець iBrowe підтримує Ethereum, монети EVM, Solana тощо.";
+"wallet.setupCryptoSubtitle" = "Візьміть у свої руки контроль над ресурсами в криптовалютах і NFT. Гаманець Brave підтримує Ethereum, монети EVM, Solana тощо.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
 "wallet.setupCryptoTitle" = "Розроблено для браузеру.\nСамостійний контроль.\nІ багатомережність.";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Транзакцію підписано";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithBraveWallet" = "Увійти до гаманця iBrowe";
+"wallet.signInWithBraveWallet" = "Увійти до гаманця Brave";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithBraveWalletMessage" = "Ви входите в %1$@. iBrowe Wallet передасть адресу вашого гаманця %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Ви входите в %1$@. Brave Wallet передасть адресу вашого гаманця %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Виявлено символи нового рядка, що йдуть підряд!";
@@ -1585,56 +1585,56 @@
 /* The title of the view shown over a dapps website that requests the user sign a transaction. */
 "wallet.signTransactionTitle" = "Підписати транзакцію";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the address. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the address. */
 "wallet.siweAddressLabel" = "Адреса";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the chain ID. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the chain ID. */
 "wallet.siweChainIDLabel" = "ID мережі";
 
-/* The title of the details view for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The title of the details view for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweDetailsTitle" = "Відомості";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the expiration time. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the expiration time. */
 "wallet.siweExpirationTimeLabel" = "Закінчення терміну дії";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the issued at date. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the issued at date. */
 "wallet.siweIssuedAtLabel" = "Видано:";
 
 /* The label displayed above the Sign In With Ethereum message. */
 "wallet.siweMessageLabel" = "Повідомлення";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the nonce. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the nonce. */
 "wallet.siweNonceLabel" = "Нонс";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the origin. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the origin. */
 "wallet.siweOriginLabel" = "Походження";
 
 /* The label displayed above the Sign In With Ethereum resources. */
 "wallet.siweResourcesLabel" = "Ресурси";
 
-/* The label displayed on the button to sign in for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The label displayed on the button to sign in for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweSignInButtonTitle" = "Вхід";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the statement. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the statement. */
 "wallet.siweStatementLabel" = "Виписка";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the URI. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the URI. */
 "wallet.siweURILabel" = "URI";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the version. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the version. */
 "wallet.siweVersionLabel" = "Версія";
 
 /* The button title to skip recovery phrase backup */
 "wallet.skipButtonTitle" = "Пропустити";
 
-/* Title on the button that users can click to enable iBrowe to resolve the SNS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the SNS domain they entered. */
 "wallet.snsDomainInterstitialPageButtonProceed" = "Продовжити з використанням сервера SNS";
 
-/* Description displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "iBrowe використовуватиме сторонній сервіс для розрішення доменних імен .sol. iBrowe приховує вашу IP-адресу. Якщо ви активуєте цю функцію, сторонній сервіс побачить, що хтось намагається відвідати домени .sol, але нічого більше. Для отримання додаткової інформації про сторонні сервіси, які ми використовуємо, та їхні політики конфіденційності, перегляньте нашу <a href=%@>сторінку довідки</a>.";
+/* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
+"wallet.snsDomainInterstitialPageDescription" = "Brave використовуватиме сторонній сервіс для розрішення доменних імен .sol. Brave приховує вашу IP-адресу. Якщо ви активуєте цю функцію, сторонній сервіс побачить, що хтось намагається відвідати домени .sol, але нічого більше. Для отримання додаткової інформації про сторонні сервіси, які ми використовуємо, та їхні політики конфіденційності, перегляньте нашу <a href=%@>сторінку довідки</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. */
-"wallet.snsDomainInterstitialPageTitle" = "Увімкнути в iBrowe підтримку для Solana Name Service (SNS)?";
+/* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
+"wallet.snsDomainInterstitialPageTitle" = "Увімкнути в Brave підтримку для Solana Name Service (SNS)?";
 
 /* A description of an Solana account, displayed in Accounts tab. */
 "wallet.solAccountDescription" = "Solana + SVM Chains";
@@ -1741,8 +1741,8 @@
 /* The title on top of a separater, and the transaction details will be displayed below the separater. */
 "wallet.solanaSignTransactionDetails" = "Відомості";
 
-/* The warning message to let users understand the risk of using iBrowe Wallet to sign any transaction. */
-"wallet.solanaSignTransactionWarning" = "Зверніть увагу, що iBrowe не зможе перевірити, що буде відбуватися, якщо ви підпишетесь. Підпис може авторизувати майже будь-яку операцію у вашому обліковому записі або від вашого імені, зокрема (але без обмежень) надання повного контролю над вашим обліковим записом і криптоактивами сайту, який робить запит. Підпишіться лише в тому разі, якщо ви впевнені, що хочете виконати цю дію й довіряєте сайту, який робить запит.";
+/* The warning message to let users understand the risk of using Brave Wallet to sign any transaction. */
+"wallet.solanaSignTransactionWarning" = "Зверніть увагу, що Brave не зможе перевірити, що буде відбуватися, якщо ви підпишетесь. Підпис може авторизувати майже будь-яку операцію у вашому обліковому записі або від вашого імені, зокрема (але без обмежень) надання повного контролю над вашим обліковим записом і криптоактивами сайту, який робить запит. Підпишіться лише в тому разі, якщо ви впевнені, що хочете виконати цю дію й довіряєте сайту, який робить запит.";
 
 /* The title displayed above the value of a Solana swap transaction in transaction confirmation view, transaction details view and transaction summary rows. */
 "wallet.solanaSwapTransactionTitle" = "Своп-транзакція";
@@ -1844,7 +1844,7 @@
 "wallet.swapCryptoToTitle" = "Кому";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Наразі iBrowe не підтримує свопи в %@. Перейдіть на підтримуваний блокчейн.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Наразі Brave не підтримує свопи в %@. Перейдіть на підтримуваний блокчейн.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Непідтримуваний блокчейн.";
@@ -1852,11 +1852,11 @@
 /* The description of a swap button on the buy/send/swap/deposit modal */
 "wallet.swapDescription" = "Обмін токенів і активів.";
 
-/* A longer disclaimer about the DEX aggrigator used by iBrowe for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "%1$@ опрацьовуватиме адресу %2$@ і IP-адресу для транзакції (зокрема, отримання цін). %3$@ використовуватиме ці дані ЛИШЕ для проведення транзакцій.";
 
 /* A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "iBrowe використовує %@ як агрегатор DEX.";
+"wallet.swapDexAggrigatorNote" = "Brave використовує %@ як агрегатор DEX.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Ліміт";
@@ -2108,11 +2108,11 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title for the button. User would tap on this button to view the transaction status in the `Activity` tab. */
 "wallet.txStatusViewInActivity" = "Переглянути в розділі «Активність»";
 
-/* Description displayed when users chose iBrowe to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.udDomainInterstitialPageDescription" = "iBrowe використовуватиме Infura для обробки доменних імен .crypto (а також %1$@), які є в реєстрі Unstoppable Domains. iBrowe приховає вашу IP-адресу. Якщо ввімкнути цей параметр, Infura бачитиме лише те, що хтось намагається відвідати ці домени. Див. <a href=%2$@>%3$@</a> та <a href=%4$@>%5$@</a> Infura.";
+/* Description displayed when users chose Brave to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+"wallet.udDomainInterstitialPageDescription" = "Brave використовуватиме Infura для обробки доменних імен .crypto (а також %1$@), які є в реєстрі Unstoppable Domains. Brave приховає вашу IP-адресу. Якщо ввімкнути цей параметр, Infura бачитиме лише те, що хтось намагається відвідати ці домени. Див. <a href=%2$@>%3$@</a> та <a href=%4$@>%5$@</a> Infura.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
-"wallet.udDomainInterstitialPageTitle" = "Увімкнути підтримку Unstoppable Domains у iBrowe?";
+/* Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
+"wallet.udDomainInterstitialPageTitle" = "Увімкнути підтримку Unstoppable Domains у Brave?";
 
 /* The description for the options to allow Unstoppable Domain domain names. '%@' will be replaced with a url to explain more about Unstoppable Domains. */
 "wallet.udResolveMethodDescription" = "[Докладніше](%@) про використання доменів Unstoppable Domains із метою конфіденційності.";
@@ -2165,7 +2165,7 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* A button title when a user will tap to reveal the recovery phrases. */
 "wallet.viewRecoveryPhraseButtonTitle" = "Переглянути мою фразу для відновлення";
 
-/* The title shown on the menu to access iBrowe Wallet */
+/* The title shown on the menu to access Brave Wallet */
 "wallet.wallet" = "Гаманець";
 
 /* The label read out when a user is using VoiceOver and highlights the two-arrow button on the wallet panel top left corner. */
@@ -2198,22 +2198,22 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title shown on the settings menu to Web3 settings. */
 "wallet.web3" = "Web3";
 
-/* Title on the button that users can click to disable iBrowe to resolve the ENS/SNS domain they entered. */
+/* Title on the button that users can click to disable Brave to resolve the ENS/SNS domain they entered. */
 "wallet.web3DomainInterstitialPageButtonDisable" = "Вимкнути";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPagePrivacyPolicy" = "політику конфіденційності";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPageTAndU" = "умови використання";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means iBrowe will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means Brave will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionAsk" = "Запитати";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means iBrowe will disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means Brave will disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionDisabled" = "Вимкнено";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means iBrowe will enable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means Brave will enable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionEnabled" = "Увімкнено";
 
 /* The header for the options to resolve Solana Name service domain names. */

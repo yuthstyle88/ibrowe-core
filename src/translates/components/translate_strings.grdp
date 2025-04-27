@@ -1,9 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
 
   <if expr="is_android">
-   <!-- Translate Message -->
+   
   <message name="IDS_TRANSLATE_INFOBAR_OPTIONS_NOT_SOURCE_LANGUAGE" desc="Text for the menu item that lets the user open a dialog to choose another language as the source language for translation, from a list of available languages.">
     Page is not in <ph name="language">$1<ex>French</ex></ph>?
   </message>
@@ -53,7 +52,7 @@
       </message>
   </if>
 
-  <!-- Translate Notifications -->
+  
   <message name="IDS_TRANSLATE_NOTIFICATION_UNDO" desc="A text label on the translate snackbar widget to undo the this selection.">
     Undo
   </message>

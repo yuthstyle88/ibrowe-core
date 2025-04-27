@@ -1,8 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
 
-  <!-- History UI -->
+  
   <message name="IDS_HISTORY_ACTION_MENU_DESCRIPTION" desc="Text used to identify the history entry drop-down menu for screen readers">
     Actions
   </message>
@@ -85,7 +84,7 @@
     Remove from history
   </message>
   <message name="IDS_HISTORY_REMOVE_PAGE_SUCCESS" desc="Screen reader message that is read after user successfully removes one history item from the item's options menu. The message will reference the page's title.">
-    '<ph name="PAGE_TITLE">$1<ex>iBrowe Store - My Cart</ex></ph>' deleted
+    '<ph name="PAGE_TITLE">$1<ex>Brave Store - My Cart</ex></ph>' deleted
   </message>
   <message name="IDS_HISTORY_REMOVE_SELECTED_ITEMS" desc="Title of the button that allows the user to remove the selected history items">
     Remove selected items
@@ -121,6 +120,9 @@
       &amp;History
     </message>
   </if>
+  <message name="IDS_HISTORY_SHOW_SIDE_PANEL" desc="Label of the item in drop-down menu that allows user to open the history in the side panel.">
+    History
+  </message>
   <message name="IDS_HISTORY_SHOWFULLHISTORY_LINK" desc="The label of the Show Full History link at the bottom of the back/forward menu.">
     Show Full History
   </message>
@@ -136,6 +138,9 @@
 
   <message name="IDS_HISTORY_EMBEDDINGS_DISCLAIMER" desc="On the history page, the persistent disclaimer text shown below the search box indicating what content is sent to iBrowe for the history search feature.">
     Your searches, best matches, and their page contents are sent to iBrowe and may be seen by human reviewers to improve this feature.
+  </message>
+  <message name="IDS_HISTORY_EMBEDDINGS_DISCLAIMER_LOGGING_OFF" desc="On the history page, the persistent disclaimer text shown below the search box indicating what content is sent to iBrowe for the history search feature when logging is disabled by policy.">
+    Your searches, best matches, and their page contents are sent to iBrowe. It will not be used by human reviewers to improve AI. Your organization may change these settings at any time.
   </message>
   <message name="IDS_HISTORY_EMBEDDINGS_PROMO_LABEL" desc="On the history page, the accessiblility label for the promo for history search powered by AI." translateable="false">
     Promo
@@ -240,7 +245,7 @@
     Something went wrong. Please try again later.
   </message>
 
-  <!-- For Compare -->
+  
   <message name="IDS_COMPARE_HISTORY_EMPTY" desc="Text shown for comparison tables tab when no sets are present.">
     No comparison tables
   </message>

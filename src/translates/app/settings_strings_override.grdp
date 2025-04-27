@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- Settings-specific strings (included from generated_resources.grd). -->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
   <if expr="not is_chromeos">
     <message name="IDS_RELAUNCH_CONFIRMATION_DIALOG_BODY" desc="The body of the modal dialog that we show when users click on relaunch and they have open Private windows. The dialog serves to warn the users about losing their Private windows if they proceed with the relaunch.">
@@ -31,6 +30,8 @@
     </if>
   <if expr="is_macosx">
     </if>
+  <if expr="not chromeos_ash">
+    </if>
 
   <if expr="is_chromeos">
     </if>
@@ -46,9 +47,6 @@
   </message>
   <message name="IDS_SETTINGS_AUTO_PIN_NEW_TAB_GROUPS" desc="Label for the checkbox which enables or disables auto pin new tab groups.">
     Automatically pin new tab groups created on any device to the bookmarks
-  </message>
-  <message name="IDS_SETTINGS_WEB_STORE" desc="Sub-label about choosing something from the Web Store.">
-    Open Web Store
   </message>
   <if expr="is_macosx">
     </if>

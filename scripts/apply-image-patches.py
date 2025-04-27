@@ -39,18 +39,18 @@ def copy_brave_files(source_folder, destfolder, files_extensions):
 
 if __name__ == "__main__":
     # Source folders
-    brave_source_path = os.path.abspath("../src/images/src/brave")
+    brave_source_path = os.path.abspath("/Users/yut/CLionProjects/brave-core")
     translates_source_path = os.path.abspath("../src/translates")
 
-    destination_root = os.path.abspath("../../brave")
-    destination_language_root = os.path.abspath("../../brave")
+    # destination_root = os.path.abspath("../../brave")
+    # destination_language_root = os.path.abspath("../../brave")
 
-    if os.path.exists(brave_source_path):
-        copy_brave_files(brave_source_path, destination_root, {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"})
-    else:
-        print(f"Source folder does not exist: {brave_source_path}")
+    # if os.path.exists(brave_source_path):
+    #     copy_brave_files(brave_source_path, translates_source_path, {".icns", ".ico", ".icon", ".xpm", ".png", ".gif", ".svg", ".jpg", ".jpeg", ".webp"})
+    # else:
+    #     print(f"Source folder does not exist: {brave_source_path}")
 
     if os.path.exists(translates_source_path):
-        copy_brave_files(translates_source_path, destination_language_root, {".grd", ".grdp", ".xtb", ".pak", ".strings"})
+        copy_brave_files(brave_source_path, translates_source_path, {".grd", ".grdp", ".xtb", ".pak", ".strings"})
     else:
         print(f"Source folder does not exist: {translates_source_path}")

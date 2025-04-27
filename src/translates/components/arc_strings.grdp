@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
-  <!-- ARC app compatibility mode -->
+  
   <message name="IDS_ASH_ARC_APP_COMPAT_DISABLED_COMPAT_MODE_BUTTON_TOOLTIP_PHONE" desc="Tooltip text that describes the compatibility mode button only supports the phone size">
     This app supports only this size.
   </message>
@@ -70,7 +69,7 @@
     You can now resize the app
   </message>
 
-  <!-- ARC ghost window -->
+  
   <message name="IDS_ARC_GHOST_WINDOW_APP_LAUNCHING_ICON" desc="The icon of launching app.">
     App icon
   </message>
@@ -89,7 +88,7 @@
     Starting your app may take longer than usual.
   </message>
 
-  <!-- ARC Passpoint approval dialog -->
+  
   <message name="IDS_ASH_ARC_PASSPOINT_APP_APPROVAL_TITLE" desc="Dialog title that asks user to allow an app to set up WiFi networks through Passpoint">
     Allow the <ph name="APP_NAME">$1<ex>OpenRoaming</ex></ph> app to set up Wi-Fi networks?
   </message>
@@ -208,7 +207,7 @@
     Send a report
   </message>
 
- <!-- ARC VM preload notification -->
+ 
   <message name="IDS_ARC_VM_PRELOAD_NOTIFICATION_TITLE" desc="Title of the notification to keep users informed about the download progress of ArcVm.">
     ArcVm preload progress update
   </message>

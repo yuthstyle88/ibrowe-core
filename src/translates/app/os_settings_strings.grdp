@@ -1,10 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- Settings-specific strings (included from generated_resources.grd). -->
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
 <if expr="is_chromeos">
 
-  <!-- Shared across multiple pages -->
+  
   <message name="IDS_SETTINGS_TURN_ON" desc="Label for turn on buttons.">
     Turn on
   </message>
@@ -32,12 +30,12 @@
   <message name="IDS_OS_SETTINGS_OPENS_IN_NEW_TAB_A11Y_LABEL" desc="ARIA (accessibility) label describing an external link which opens in a new tab.">
     Opens in new tab
   </message>
-  <!-- IDS_OS_SETTINGS_LIST_SEPARATOR should include a space after the comma. This is achieved by adding ''' after the space. -->
+  
   <message name="IDS_OS_SETTINGS_LIST_SEPARATOR" desc="Text/punctuation that separates items in a list. For example, this is used in a list of words, e.g. 'Keyboard, mouse, print'.">
     , '''
   </message>
 
-  <!--Main Page-->
+  
   <message name="IDS_SETTINGS_SECONDARY_USER_BANNER" desc="Banner displayed in settings page when the user is secondary in a multi-profile session.">
     Some settings belonging to <ph name="PRIMARY_EMAIL">$1<ex>john@google.com</ex></ph> are being shared with you. These settings only affect your account when using multiple sign-in.
   </message>
@@ -50,7 +48,7 @@
     <ph name="MANAGER">$1<ex>example.com</ex></ph> requires you to back up your data and return this <ph name="DEVICE_TYPE">$2<ex>Chromebook</ex></ph> within 1 week. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$3<ex>https://google.com/</ex>"&gt;</ph>See details<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
 
-  <!-- Settings Search Box -->
+  
   <message name="IDS_OS_SEARCH_RESULT_ROW_A11Y_RESULT_SELECTED" desc="ChromeVox alert to indicate the position number of a selected result in a list of search results and the selected result text itself, and that the user can press enter to navigate to section described by the search result.">
     Search result <ph name="LIST_POSITION">$1<ex>1</ex></ph> of <ph name="LIST_SIZE">$2<ex>2</ex></ph>: <ph name="SEARCH_RESULT_TEXT">$3<ex>Network Settings</ex></ph>. Press Enter to navigate to section.
   </message>
@@ -61,7 +59,7 @@
     <ph name="HASHTAG_SETTINGS">#Settings</ph> No search results returned for <ph name="SEARCH_QUERY">'$1'<ex>query</ex></ph>
   </message>
 
-  <!-- About (OS Settings) -->
+  
   <message name="IDS_OS_SETTINGS_ABOUT_CHROMEOS_MENU_ITEM_DESCRIPTION" desc="Description for the About ChromeOS menu item in the left menu.">
     Updates, help, developer options
   </message>
@@ -312,9 +310,9 @@
     This device is no longer receiving automatic software updates. Turn on extended security updates for continued security, stability, and performance. Some functionality will be limited. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
 
- <!-- ChromeOS End Of Life Incentive -->
+ 
   <message name="IDS_SETTINGS_END_OF_LIFE_INCENTIVE_OFFER_TITLE" desc="The title of the end of life incentive which informs the user of an offer with a dollar amount they can get save when upgrading to a new Chromebook.">
-    Save &#36;50 or more on a new Chromebook, when you upgrade today
+    Save $50 or more on a new Chromebook, when you upgrade today
   </message>
   <message name="IDS_SETTINGS_END_OF_LIFE_INCENTIVE_NO_OFFER_TITLE" desc="The title of the end of life incentive which informs the user that they should upgrade their device to continue getting software updates.">
     Upgrade to a new Chromebook for the latest security and software
@@ -329,14 +327,14 @@
     Shop Now
   </message>
 
-  <!-- People (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_PROFILE_NAME" desc="Label with device account first name, showing which user is currently signed in.">
     Currently signed in as <ph name="NAME">$1<ex>John</ex></ph>
   </message>
   <message name="IDS_OS_SETTINGS_PROFILE_LABEL_V2" desc="Label underneath the profile's real name, listing the number of accounts">
     {COUNT, plural,
      =1 {1 iBrowe sync chain}
-     other {<ph name="EXTRA_ACCOUNTS">$2<ex>2</ex></ph> iBrowe sync chains}}
+     other {<ph name="EXTRA_ACCOUNTS">$2<ex>2</ex></ph> Brave sync chains}}
   </message>
   <message name="IDS_OS_SETTINGS_ACCOUNTS_MENU_ITEM_DESCRIPTION" desc="Description text showing number of accounts. This string shows only when there is more than 1 account. Displayed in the menu item for the Accounts page.">
     <ph name="NUM_ACCOUNTS">$1<ex>2</ex></ph> accounts
@@ -349,12 +347,12 @@
   </message>
   <if expr="reven">
     <message name="IDS_OS_SETTINGS_SYNC_FEATURE_LABEL" desc="Label describing the OS sync feature.">
-      Your apps and settings will sync across all ChromeOS Flex devices where you are signed in with your iBrowe account. For browser sync options, go to <ph name="LINK_BEGIN">&lt;a href='#'&gt;</ph>iBrowe settings<ph name="LINK_END">&lt;/a&gt;</ph>.
+      Your apps and settings will sync across all ChromeOS Flex devices where you are signed in with your iBrowe account. For browser sync options, go to <ph name="LINK_BEGIN">&lt;a href='#'&gt;</ph>Brave settings<ph name="LINK_END">&lt;/a&gt;</ph>.
     </message>
   </if>
   <if expr="not reven">
     <message name="IDS_OS_SETTINGS_SYNC_FEATURE_LABEL" desc="Label describing the OS sync feature.">
-      Your apps and settings will sync across all ChromeOS devices where you are signed in with your iBrowe account. For browser sync options, go to <ph name="LINK_BEGIN">&lt;a href='#'&gt;</ph>iBrowe settings<ph name="LINK_END">&lt;/a&gt;</ph>.
+      Your apps and settings will sync across all ChromeOS devices where you are signed in with your iBrowe account. For browser sync options, go to <ph name="LINK_BEGIN">&lt;a href='#'&gt;</ph>Brave settings<ph name="LINK_END">&lt;/a&gt;</ph>.
     </message>
   </if>
   <message name="IDS_OS_SETTINGS_SYNC_APPS_CHECKBOX_LABEL" desc="Label for the checkbox which enables syncing of apps across devices.">
@@ -394,7 +392,7 @@
     Touch the power button with your finger
   </message>
 
-  <!-- Languages and Inputs (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_LANGUAGES_AND_INPUT_PAGE_TITLE" desc="Name of the OS settings page which displays language and input method preferences.">
     Languages and inputs
   </message>
@@ -615,10 +613,10 @@
     Reset to device language
   </message>
   <message name="IDS_OS_SETTINGS_LANGUAGES_APP_LANGUAGES_CHANGE_LANGUAGE_BUTTON_DESCRIPTION" desc="The description read by screenreader for the button where users can change the app language, either to another one, or reset to device language.">
-    Change <ph name="APP">$1<ex>iBrowe TV</ex></ph> language. Current language is <ph name="LANGUAGE">$2<ex>English (United States)</ex></ph>.
+    Change <ph name="APP">$1<ex>Brave TV</ex></ph> language. Current language is <ph name="LANGUAGE">$2<ex>English (United States)</ex></ph>.
   </message>
 
-  <!-- Suggestions Section -->
+  
   <message name="IDS_SETTINGS_SUGGESTIONS_TITLE" desc="The label for the suggestions section, which contains features to help users type faster or more expressively such as suggesting personal information or suggesting emoji to use.">
     Suggestions
   </message>
@@ -650,7 +648,7 @@
     Get emoji suggestions based on what you're typing
   </message>
 
-  <!-- Input Method Options Section -->
+  
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_BASIC" desc="The label for the section in input method options page containing basic options.">
     Basics
   </message>
@@ -681,8 +679,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_AUTOMATICALLY_SWITCH_TO_HALFWIDTH" desc="The label for the input method option to enable double-space to type period (when an user types two consecutive space, it outputs a period).">
     Automatically switch to halfwidth
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE" desc="The label for the setting to set the shift key mode style.">
-    Shift Key Mode Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE" desc="The label for the dropdown to set the shift key mode switch for the Japanese keyboard. This controls the behavior of typing in Japanese while holding shift. The available dropdown values are 'Off', 'Alphanumeric', or 'Katakana'. In Japanese, this string is 'シフトキーでの入力切替'.">
+    Shift key mode switch
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE_OFF" desc="The label for the option to disable the shift key mode style.">
     Off
@@ -693,8 +691,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE_KATAKANA" desc="The label for the option to set the Shift key mode style to Katakana.">
     Katakana
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_USE_INPUT_HISTORY" desc="The label for the toggled settings to determine if the input history should be used or not.">
-    Use Input History
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_USE_INPUT_HISTORY" desc="The label for the toggle to determine if the input history should be used or not for the Japanese keyboard. If enabled, the input method may suggest text that was previously typed by the user. In Japanese, this string is '入力履歴からのサジェスト自動表示を有効にする'.">
+    Use input history
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_USE_SYSTEM_DICTIONARY" desc="The label for the toggled settings to determine if the system dictionary should be used or not.">
     Use system dictionary
@@ -789,8 +787,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_INPUT_MODE_KANA" desc="The label for the input mode option used to set the input mode to Kana. In Japanese, this string should be 'かな入力'.">
     Kana
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE" desc="The label for the setting used to set the Punctuation style for Japanese within the Japanese virtual and physical keyboard input settings. In Japanese, this string should be '句読点'.">
-    Punctuation Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE" desc="The label for the dropdown used to set the Punctuation style for Japanese within the Japanese virtual and physical keyboard input settings. This controls what character is inserted when the user presses punctuation keys like comma or period. In Japanese, this string should be '句読点'.">
+    Punctuation style
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE_KUTEN_TOUTEN" translateable="false">
     、。
@@ -804,23 +802,23 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE_COMMA_TOUTEN" translateable="false">
     ，。
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE" desc="The label for the option to set the Symbol style for Japanese. This can be written as '記号' in Japanese.">
-    Symbol Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE" desc="The label for the dropdown to set the Symbol style for the Japanese keyboard. This controls what character is inserted when the user presses symbol keys like brackets. This can be written as '記号' in Japanese.">
+    Symbol style
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_CORNER_BRACKET_MIDDLE_DOT" translateable="false">
    「」・
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_SQUARE_BRACKET_SLASH" translateable="false">
-    []／
+   ［］／
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_CORNER_BRACKET_SLASH" translateable="false">
    「」／
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_SQUARE_BRACKET_MIDDLE_DOT" translateable="false">
-    []・
+   ［］・
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE" desc="The label for the Space input option within the Japanese settings page. It allows users of Japanese input settings to choose between fullwidth and halfwidth input modes. . In Japanese, this string should be 'スペースの入力'.">
-    Space Input Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE" desc="The label for the Space input style dropdown within the Japanese keyboard settings page. It controls whether typing spaces with the Japanese keyboard will insert fullwidth or halfwidth characters. The available dropdown values are 'Follow input mode', 'Fullwidth', and 'Halfwidth'. In Japanese, this string should be 'スペースの入力'.">
+    Space input style
     </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE_INPUT_MODE" desc="The label for option to set the space input style for the Japanese keyboard to Follow input mode. In Japanese, this string should be '入力モードに従う'.">
     Follow input mode
@@ -831,8 +829,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE_HALFWIDTH" desc="The label for input modes option to set the space input style for the Japanese keyboard to Halfwidth mode. In Japanese, this string should be '半角'.">
     Halfwidth
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT" desc="The label for the Japanese keyboard settings option to set the shortcut selection hotkeys for Japanese candidate selection. In Japanese, this string should be '候補選択ショートカット'.">
-    Selection Shortcut
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT" desc="The label for the Japanese keyboard settings dropdown to set the shortcut selection hotkeys for Japanese candidate selection. In Japanese, this string should be '候補選択ショートカット'.">
+    Selection shortcut
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT_NO_SHORTCUT" desc="The label for the Japanese keyboard settings option to set that there is no shortcut set for the Japanese keyboard candidate selection. In Japanese, this string should be 'なし'.">
     No shortcut
@@ -843,8 +841,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT_ASDFGHJKL" translateable="false">
     A -- L
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE" desc="The label for Japanese keyboard settings option within the settings page to set the keymap style for the Japanese keyboard. In Japaneses, this string should be 'キー設定の選択'.">
-    Keymap Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE" desc="The label for Japanese keyboard settings dropdown within the settings page to set the keymap style for the Japanese keyboard. The available dropdown values are 'Custom keymap', 'ATOK', 'MS-IME', 'Kotoeri', and 'ChromeOS'. In Japanese, this string should be 'キー設定の選択'.">
+    Keymap style
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_CUSTOM" desc="The label for Japanese settings page to set the keymap style to use a Custom keymap. This is 'Custom Keymap' in Japanese. In Japanese, this string should be 'カスタム'.">
     Custom keymap
@@ -857,9 +855,6 @@
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_KOTOERI" desc="The label for Japanese settings page to set the keymap style to Kotoeri. In Japanese, this string can be written as 'ことえり'.">
     Kotoeri
-  </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_MOBILE" translateable="false">
-    Mobile
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_CHROMEOS" translateable="false">
     ChromeOS
@@ -918,7 +913,7 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_KEYBOARD_COLEMAK" desc="The label for the choice to use Colemak keyboard.">
     Colemak
   </message>
-  <!-- Vietnamese Input Method (VNI/Telex) setting strings  -->
+  
   <message name="IDS_SETTINGS_INPUT_METHOD_HEADING_SHORTHAND_TYPING" desc="This is a heading for the settings option for shorthand typing features. These features allow the user to type certain diacritics via shortcut methods.">
   Shorthand typing
   </message>
@@ -953,7 +948,7 @@
    Type "w" to get "ư"
   </message>
 
-  <!-- Device Page (OS Settings) -->
+  
   <message name="IDS_OS_SETTINGS_TOUCHPAD_REVERSE_SCROLL_LABEL">
     Reverse scrolling <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
@@ -979,7 +974,7 @@
     display
   </message>
 
-  <!-- Personalization Page (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_PERSONALIZATION" desc="Name of the OS settings page which displays personalization preferences.">
     Wallpaper and style
   </message>
@@ -999,7 +994,7 @@
     Personalize wallpaper, dark theme, and more
   </message>
 
-  <!-- Search and Assistant section. -->
+  
   <message name="IDS_SETTINGS_SEARCH_AND_ASSISTANT" desc="Name of the settings page which displays search engine and assistant preferences on ChromeOS.">
     Search and Assistant
   </message>
@@ -1022,10 +1017,10 @@
     Off
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_MAGIC_BOOST" desc="The label of the toggle to enable/disable Magic Boost in ChromeOS settings.">
-    Use iBrowe AI to get help reading and writing
+    Use iBrowe AI to get help reading, writing, and creating
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_MAGIC_BOOST_DESCRIPTION" desc="The description of the toggle to enable/disable Magic Boost in ChromeOS settings.">
-    Right-click to write with more confidence, summarize content, get definitions, and more. Currently has limited availability.
+    Right-click to summarize content, get definitions, write with more confidence, create images, and more. Currently has limited availability.
   </message>
   <message name="IDS_OS_SETTINGS_MAGIC_BOOST_REVIEW_TERMS_BANNER_DESCRIPTION" desc="The description for Magic Boost review notice banner">
     You need to review and accept terms to use these features
@@ -1037,7 +1032,7 @@
     Help me read
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_HELP_ME_READ_DESCRIPTION" desc="The description of the toggle to enable/disable Help Me Read in ChromeOS settings.">
-    Summarize content or ask follow-up questions.
+    Summarize content, simplify complex language, or ask questions.
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_HELP_ME_WRITE" desc="The label of the toggle to enable/disable Help Me Write in ChromeOS settings.">
     Help me write
@@ -1045,8 +1040,14 @@
   <message name="IDS_OS_SETTINGS_ENABLE_HELP_ME_WRITE_DESCRIPTION" desc="The description of the toggle to enable/disable Help Me Write in ChromeOS settings.">
     Create a draft or refine existing work.
   </message>
+  <message name="IDS_OS_SETTINGS_ENABLE_SCANNER" desc="The label of the toggle to enable/disable suggested actions when searching your screen in ChromeOS settings.">
+    Suggested actions when searching your screen
+  </message>
+  <message name="IDS_OS_SETTINGS_ENABLE_SCANNER_DESCRIPTION" desc="The description of the toggle to enable/disable suggested actions when searching your screen in ChromeOS settings. A &quot;Learn more&quot; link will be added after this string.">
+    After taking a screenshot or searching your screen, show more actions such as add to Calendar, create Google Docs, and more.
+  </message>
 
-  <!-- Search subpage (OS settings) -->
+  
   <message name="IDS_SETTINGS_SEARCH_SUBPAGE_TITLE" desc="Name of the settings subpage for Search.">
     Search
   </message>
@@ -1072,7 +1073,7 @@
     Unit Conversion
   </message>
 
-  <!-- Files Page (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_FILES" desc="Name of the settings page which displays file preferences.">
     Files
   </message>
@@ -1209,7 +1210,7 @@
     Error mounting share. Please check your credentials and try again.
   </message>
   <message name="IDS_SETTINGS_IN_SESSION_AUTH_ORIGIN_NAME_PROMPT" desc="Text shown in the auth dialog to indicate we are currently authenticating for ChromeOS settings">
-    <ph name="ORIGIN_NAME">$1<ex>iBrowe</ex></ph> would like to confirm it's you
+    <ph name="ORIGIN_NAME">$1<ex>Brave</ex></ph> would like to confirm it's you
   </message>
   <message name="IDS_SETTINGS_IN_SESSION_AUTH_ORIGIN_NAME_PROMPT_LOCATION" desc="Location in text shown in the auth dialog to indicate we are currently authenticating for ChromeOS settings">
     ChromeOS Settings
@@ -1275,7 +1276,7 @@
   <message name="IDS_SETTINGS_ALWAYS_MOVE_OFFICE_TO_ONEDRIVE_PREFERENCE_LABEL" desc="Label for the preference that allows users to always copy/move files to OneDrive without asking for confirmation.">
     Ask before copying or moving Microsoft files to Microsoft OneDrive
   </message>
-  <!--TODO(b/247049860): Finalize strings for MirrorSync. -->
+  
   <message name="IDS_SETTINGS_GOOGLE_DRIVE_FILE_SYNC_SECTION_TITLE" desc="Label for section title which includs options to allow user tweak file sync configurations." translateable="false">
     File Sync
   </message>
@@ -1286,7 +1287,7 @@
     Backup all your files under My files to Google Drive.
   </message>
 
-  <!-- Accessibility -->
+  
   <message name="IDS_SETTINGS_A11Y_TABLET_MODE_SHELF_BUTTONS_LABEL" desc="The name of a setting within accessibility settings that controls whether ChromeOS system shelf navigation buttons (for going back, home, or to overview) should be shown when the device is in tablet mode.">
     Show navigation buttons in tablet mode
   </message>
@@ -1294,7 +1295,7 @@
     Use on-screen buttons to navigate home, back, and switch apps. Turns on automatically if ChromeVox or automatic clicks is turned on.
   </message>
 
-  <!-- A11y (OS Settings) -->
+  
   <message name="IDS_OS_SETTINGS_ACCESSIBILITY_MENU_ITEM_DESCRIPTION" desc="Description for the Accessibility menu item in the left menu.">
     Screen reader, magnification
   </message>
@@ -2095,7 +2096,7 @@ Use Ctrl + Alt + Brightness down to zoom out.
   <message name="IDS_SETTINGS_OVERSCROLL_HISTORY_NAVIGATION_TITLE" desc="Title for the overscroll history navigation setting, which allows you to navigate back and forward by swiping left or right with a touch device.">
     Use a swipe gesture to navigate between pages
   </message>
-  <!-- TODO(b/259372916): Finalize and translate these strings before Mouse Keys launches-->
+  
   <message name="IDS_OS_SETTINGS_ACCESSIBILITY_MOUSE_KEYS_LABEL" desc="Label for the mouse keys setting toggle.">
     Mouse Keys
   </message>
@@ -2211,7 +2212,7 @@ Use Ctrl + Alt + Brightness down to zoom out.
     Downloading speech recognition files... <ph name="PERCENT">$1<ex>17</ex></ph>%
   </message>
   <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_SUBTITLE_SODA_DOWNLOAD_ERROR" desc="Description explaining that there was an error with the speech recognition library download.">
-    Couldn’t download <ph name="language">$1<ex>English</ex></ph> speech files. Download will be attempted later. Speech is sent to iBrowe for processing until download is completed.
+    Couldn’t download <ph name="language">$1<ex>English</ex></ph> speech files. Download will be attempted later. Speech is sent to Brave for processing until download is completed.
   </message>
   <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_LOCALE_MENU_LABEL" desc="Description of a drop-down menu to select the language to use for Dictation's speech recognition.">
     Language
@@ -2220,7 +2221,7 @@ Use Ctrl + Alt + Brightness down to zoom out.
     <ph name="language">$1<ex>English</ex></ph> is processed locally and works offline
   </message>
   <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_LOCALE_SUB_LABEL_NETWORK" desc="Sub-label for a drop-down menu to select the language to use for Dictation. Describes how speech will be sent over the network to iBrowe for processing to create text.">
-    <ph name="language">$1<ex>English</ex></ph> speech is sent to iBrowe for processing
+    <ph name="language">$1<ex>English</ex></ph> speech is sent to Brave for processing
   </message>
   <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_CHANGE_LANGUAGE_BUTTON" desc="Text on a button to open a dialog to change the Dictation language.">
     Change
@@ -2798,7 +2799,7 @@ Press an assigned switch or key to remove assignment.
     Select-to-speak settings
   </message>
 
-  <!-- Account Manager (OS settings) -->
+  
   <message name="IDS_SETTINGS_ACCOUNT_MANAGER_CHILD_DESCRIPTION_V2" desc="Description of the Account Manager Settings page for child users. Shown just below the title of the page.">
     This page allows you to manage your signed-in iBrowe sync chains. <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
@@ -2884,7 +2885,7 @@ Press an assigned switch or key to remove assignment.
     School Account
   </message>
 
-  <!-- Used by Crostini, Plugin VM and Bruschetta -->
+  
   <message name="IDS_SETTINGS_GUEST_OS_SHARED_PATHS" desc="Label for managing shared folders for Parallels.">
     Manage shared folders
   </message>
@@ -2955,7 +2956,7 @@ Press an assigned switch or key to remove assignment.
     This will disable persistent sharing of USB devices with guests, which also will reset all persistence. Are you sure?
   </message>
 
-  <!-- Crostini -->
+  
   <message name="IDS_SETTINGS_CROSTINI_TITLE" desc="The title of Crostini section. It is meant to be used by software developers.">
     Developers
   </message>
@@ -3248,8 +3249,8 @@ Press an assigned switch or key to remove assignment.
     Shut down
   </message>
 
-  <!-- Bruschetta sub-page -->
-  <!-- TODO(b/233129383): Finalize and translate these strings -->
+  
+  
   <message name="IDS_SETTINGS_BRUSCHETTA_LABEL" desc="Label for the Bruschetta sub-page.">
     Managed Development Environment (<ph name="GENERAL_NAME">$1<ex>HappyVm</ex></ph>)
   </message>
@@ -3287,7 +3288,7 @@ Press an assigned switch or key to remove assignment.
     Shut down
   </message>
 
-  <!-- Android apps page (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_ANDROID_APPS_LABEL" desc="The text associated with the primary section setting.">
     Manage Google Play preferences
   </message>
@@ -3316,7 +3317,7 @@ Press an assigned switch or key to remove assignment.
     Open Google Play
   </message>
 
-  <!-- Device Stylus (OS settings) -->
+  
   <message name="IDS_SETTINGS_STYLUS_TITLE" desc="Title of the stylus settings page.">
     Stylus
   </message>
@@ -3345,7 +3346,7 @@ Press an assigned switch or key to remove assignment.
     Loading apps...
   </message>
 
-  <!-- Graphics tablet page (OS settings)-->
+  
   <message name="IDS_SETTINGS_GRAPHICS_TABLET_TITLE" desc="Title of Graphics tablet settings page">
     Pen tablet
   </message>
@@ -3356,7 +3357,7 @@ Press an assigned switch or key to remove assignment.
     Customize pen buttons
   </message>
 
-  <!-- Customize buttons page (OS settings)-->
+  
   <message name="IDS_SETTINGS_CUSTOMIZE_MOUSE_BUTTONS_TITLE" desc="Title of Customize mouse buttons page">
     Customize mouse buttons
   </message>
@@ -3490,7 +3491,7 @@ Press an assigned switch or key to remove assignment.
      Must be <ph name="MAX_CHARACTER_COUNT">$1<ex>20</ex></ph> characters or fewer
   </message>
 
-  <!-- Bluetooth page (OS settings) -->
+  
   <message name="IDS_SETTINGS_BLUETOOTH_CONNECTED" desc="In Bluetooth device list, this label is shown below a device which is already connected.">
     Connected
   </message>
@@ -3699,7 +3700,7 @@ Press an assigned switch or key to remove assignment.
     <ph name="NUM_DEVICES_CONNECTED">$1<ex>2</ex></ph> devices connected
   </message>
 
-  <!-- Parental Controls -->
+  
   <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_TITLE" desc="Name of the settings page which manages ChromeOS's parental controls.">
     Parental controls
   </message>
@@ -3719,7 +3720,7 @@ Press an assigned switch or key to remove assignment.
     Set up button
   </message>
 
-  <!-- Graduation -->
+  
   <message name="IDS_SETTINGS_GRADUATION_SECTION_TITLE" desc="Header for the settings section that links the user to the Content transfer app.">
     Content transfer
   </message>
@@ -3730,7 +3731,7 @@ Press an assigned switch or key to remove assignment.
     Move your school account data to your personal account
   </message>
 
-  <!-- Device audio page (OS settings) -->
+  
   <message name="IDS_SETTINGS_AUDIO_TITLE" desc="In Device Settings, the title of the audio settings subpage.">
     Audio
   </message>
@@ -3864,7 +3865,7 @@ Press an assigned switch or key to remove assignment.
     Enable supported content to sound more immersive
   </message>
 
-  <!-- Device pointer page (OS settings) -->
+  
   <message name="IDS_SETTINGS_MOUSE_TITLE" desc="In Device Settings, the title of the mouse settings subpage.">
     Mouse
   </message>
@@ -4172,7 +4173,7 @@ Press an assigned switch or key to remove assignment.
     dictation
   </message>
 
-  <!-- Printing Page (OS Settings)-->
+  
   <message name="IDS_SETTINGS_PRINT_AND_SCAN" desc="Title of the printing and scanning page and navigation item to get there.">
     Printers and scanners
   </message>
@@ -4476,9 +4477,7 @@ Press an assigned switch or key to remove assignment.
   <message name="IDS_SETTINGS_PRINTING_SCANNING_LAUNCH_APP_SUBLABEL" desc="Sub-label that describes the scanning app which lets users scan documents.">
     Scan documents and images
   </message>
-  <!-- TODO(b/278895546): Keep printer status messages in sync with print
-       preview printer status messages in `chrome/app/printing_strings.grdp`
-       until a shared resource is established. -->
+  
   <message name="IDS_SETTINGS_PRINTING_PRINTER_STATUS_DEVICE_ERROR" desc="Error label to show under the destination dropdown when there is a mechanical error inside the printer.">
     Mechanical issue. Check printer
   </message>
@@ -4525,7 +4524,7 @@ Press an assigned switch or key to remove assignment.
     <ph name="PRINTER_NAME">$1<ex>HP 3100</ex></ph> <ph name="PRINTER_STATUS">$2<ex>Low on ink</ex></ph>. Printer <ph name="ITEM_POSITION">$3<ex>2</ex></ph> of <ph name="NUM_PRINTERS">$4<ex>4</ex></ph>.
   </message>
 
-  <!-- Internet page (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_INTERNET_MENU_ITEM_DESCRIPTION_WIFI_ONLY" desc="Description for the Internet menu item in the left menu when no networks are connected and mobile data is not supported.">
     Wi-Fi
   </message>
@@ -4764,7 +4763,7 @@ Press an assigned switch or key to remove assignment.
     Forget
   </message>
   <message name="IDS_SETTINGS_INTERNET_KNOWN_NETWORKS_MENU_BUTTON_TITLE" desc="Settings &gt; Internet &gt; Known networks &gt; Item &gt; Title for button that opens dropdown menu for the network.">
-    More actions for <ph name="NETWORK_NAME">$1<ex>iBrowe-A</ex></ph>
+    More actions for <ph name="NETWORK_NAME">$1<ex>Brave-A</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SETTINGS_NETWORK_ALLOW_DATA_ROAMING" desc="Settings &gt; Internet &gt; Network details: Toggle label to allow mobile data roaming.">
     Allow mobile data roaming
@@ -4953,7 +4952,7 @@ Press an assigned switch or key to remove assignment.
     Network configuration is controlled by <ph name="USER_EMAIL">$1<ex>joe@gmail.com</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_INTERNET_A11Y_MANAGED_BY_ADMINISTRATOR" desc="Settings &gt; Internet &gt; Network details: A11Y label for managed by administrator icon, indicating which network settings is being managed by an administrator">
-    <ph name="NETWORK_NAME">$1<ex>iBrowe-A</ex></ph> is managed by your administrator
+    <ph name="NETWORK_NAME">$1<ex>Brave-A</ex></ph> is managed by your administrator
   </message>
   <message name="IDS_SETTINGS_INTERNET_NETWORK_SECTION_ADVANCED" desc="Settings &gt; Internet &gt; Network details: Advanced section label.">
     Advanced
@@ -5022,10 +5021,10 @@ Press an assigned switch or key to remove assignment.
     To use Instant Tethering, turn on notifications for Google Play Services.
   </message>
   <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_ONE_DEVICE_SUBTITLE" desc="Subtitle of the section which explains how to enable Google Play Services notifications. This subtitle is used when only one phone needs to have its notifications enabled.">
-    On your '<ph name="PHONE_NAME">$1<ex>iBrowe Pixel</ex></ph>':
+    On your '<ph name="PHONE_NAME">$1<ex>Brave Pixel</ex></ph>':
   </message>
   <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_TWO_DEVICES_SUBTITLE" desc="Subtitle of the section which explains how to enable Google Play Services notifications. This subtitle is used when two phones need to have their notifications enabled.">
-    On your '<ph name="PHONE_NAME_1">$1<ex>iBrowe Pixel</ex></ph>' and '<ph name="PHONE_NAME_2">$2<ex>iBrowe Pixel 2</ex></ph>':
+    On your '<ph name="PHONE_NAME_1">$1<ex>Brave Pixel</ex></ph>' and '<ph name="PHONE_NAME_2">$2<ex>Brave Pixel 2</ex></ph>':
   </message>
   <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_MANY_DEVICES_SUBTITLE" desc="Subtitle of the section which explains how to enable Google Play Services notifications. This subtitle is used when three or more phones need to have their notifications enabled.">
     On your devices:
@@ -5052,13 +5051,13 @@ Press an assigned switch or key to remove assignment.
     <ph name="BATTERY_PERCENTAGE">$1<ex>100</ex></ph>% Battery
   </message>
   <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_EXPLANATION" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Explanation of what will happen if the user connects to a tether hotspot.">
-    Your <ph name="PHONE_NAME">$1<ex>iBrowe Pixel XL</ex></ph> will create a private Wi-Fi connection.
+    Your <ph name="PHONE_NAME">$1<ex>Brave Pixel XL</ex></ph> will create a private Wi-Fi connection.
   </message>
   <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_CARRIER_WARNING" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Warning to users that cellular providers may block the use of tethering.">
     Some carriers might block this feature.
   </message>
   <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_DESCRIPTION_TITLE" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Title of the section describing what will happen when tethering is enabled.">
-    While the hotspot is on, your <ph name="PHONE_NAME">$1<ex>iBrowe Pixel XL</ex></ph> will:
+    While the hotspot is on, your <ph name="PHONE_NAME">$1<ex>Brave Pixel XL</ex></ph> will:
   </message>
   <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_DESCRIPTION_MOBILE_DATA" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Bulletpoint alerting the user that tethering will use mobile data.">
     Use mobile data
@@ -5199,7 +5198,7 @@ Press an assigned switch or key to remove assignment.
     Cancel forgetting subscription
   </message>
 
-  <!-- Users Page (OS Settings) -->
+  
   <message name="IDS_SETTINGS_USERS_MODIFIED_BY_OWNER_LABEL" desc="Label saying settings may only be modified by the device owner.">
     These settings may only be modified by the owner:
   </message>
@@ -5240,7 +5239,7 @@ Press an assigned switch or key to remove assignment.
     This user already exists
   </message>
 
-  <!-- Multidevice Page (OS settings) -->
+  
   <message name="IDS_SETTINGS_MULTIDEVICE" desc="Title of a section of settings. This section describes settings for devices that are connected to the Chromebook, like phones.">
     Connected devices
   </message>
@@ -5383,7 +5382,7 @@ Press an assigned switch or key to remove assignment.
     View your phone's photos, media, notifications, and apps
   </message>
   <message name="IDS_SETTINGS_MULTIDEVICE_PHONE_HUB_TASK_CONTINUATION_DISABLED_SUMMARY" desc="Description of for the 'Phone Hub Task Continuation' setting when iBrowe sync is not enabled. This feature lets users resume in-app actions and chrome tabs that are open on a connected Android phone from ChromeOS devices.">
-    Turn on <ph name="LINK1_BEGIN">&lt;a id="chromeSyncLink"&gt;</ph>iBrowe Sync<ph name="LINK1_END">&lt;/a&gt;</ph> to view recent iBrowe tabs. <ph name="LINK2_BEGIN">&lt;a target="_blank" id="learnMoreLink" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn More<ph name="LINK2_END">&lt;/a&gt;</ph>
+    Turn on <ph name="LINK1_BEGIN">&lt;a id="chromeSyncLink"&gt;</ph>Brave Sync<ph name="LINK1_END">&lt;/a&gt;</ph> to view recent Brave tabs. <ph name="LINK2_BEGIN">&lt;a target="_blank" id="learnMoreLink" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn More<ph name="LINK2_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_MULTIDEVICE_PHONE_HUB_TASK_CONTINUATION_SYNC_LABEL" desc="Accessibility label (used by screen readers, not shown in UI) for a link that leads to the iBrowe Sync toggle that needs to be enabled as a prerequisite for the 'Phone Hub Task Continuation' feature to be enabled. This feature lets users resume chrome tabs that are open on a connected Android phone from ChromeOS devices.">
     Turn on iBrowe Sync to view recent iBrowe tabs from your phone
@@ -5458,7 +5457,7 @@ Press an assigned switch or key to remove assignment.
     Sync Wi-Fi networks with your phone. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_MULTIDEVICE_ENABLE_WIFI_SYNC_V1_SUMMARY" desc="Description for the 'Wifi Sync' section on the settings page when the prerequisite 'iBrowe Sync' setting is not activated. This feature lets the user sync wifi network configurations between ChromeOS devices and a connected Android phone. The description contains a link that leads to the toggle where the prerequisite 'iBrowe Sync' feature can be turned on and a 'Learn More' link to learn more about the 'Wifi Sync' feature.">
-    Turn on <ph name="LINK1_BEGIN">&lt;a id="chromeSyncLink"&gt;</ph>iBrowe Sync<ph name="LINK1_END">&lt;/a&gt;</ph> to use Wi-Fi Sync. <ph name="LINK2_BEGIN">&lt;a id="learnMoreLink" target="_blank" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK2_END">&lt;/a&gt;</ph>
+    Turn on <ph name="LINK1_BEGIN">&lt;a id="chromeSyncLink"&gt;</ph>Brave Sync<ph name="LINK1_END">&lt;/a&gt;</ph> to use Wi-Fi Sync. <ph name="LINK2_BEGIN">&lt;a id="learnMoreLink" target="_blank" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK2_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_MULTIDEVICE_WIFI_SYNC_CHROME_SYNC_LABEL" desc="Accessibility label (used by screen readers, not shown in UI) for a link that leads to the iBrowe Sync toggle that needs to be enabled as a prerequisite for the 'Wifi Sync' feature to be enabled. This feature lets the user sync wifi network configurations between ChromeOS devices and a connected Android phone.">
     Turn on iBrowe Sync to use Wi-Fi Sync
@@ -5536,7 +5535,7 @@ Press an assigned switch or key to remove assignment.
     Learn more about Phone Hub
   </message>
 
-  <!-- Lock Screen Page (OS settings) -->
+  
   <message name="IDS_ASH_SETTINGS_LOCK_SCREEN_NOTIFICATION_TITLE" desc="The title of options to change the behavior of notifications on the lock screen.">
     On the lock screen
   </message>
@@ -5699,12 +5698,12 @@ Press an assigned switch or key to remove assignment.
     Local data recovery is currently not supported.
   </message>
 
-  <!-- Kerberos section (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_KERBEROS" desc="Name of a section in the OS settings page." meaning="Manage Kerberos authetication tickets.">
     Kerberos
   </message>
 
-  <!-- Kerberos Add Accounts Dialog Page (OS settings) -->
+  
   <message name="IDS_SETTINGS_KERBEROS_ACCOUNTS_ADVANCED_CONFIG_LABEL" desc="Label of the button in 'Add a Kerberos ticket' dialog to get to the Advanced configuration dialog.">
     Advanced
   </message>
@@ -5793,7 +5792,7 @@ Press an assigned switch or key to remove assignment.
     Refresh a Kerberos ticket
   </message>
 
-  <!-- Kerberos Accounts Page (OS settings) -->
+  
   <message name="IDS_SETTINGS_KERBEROS_ACCOUNTS_ADD_ACCOUNT_LABEL" desc="Label of the 'Add a ticket' button on 'Kerberos tickets' Settings page.">
     Add a ticket
   </message>
@@ -5837,7 +5836,7 @@ Press an assigned switch or key to remove assignment.
     Kerberos tickets
   </message>
 
-  <!-- Kerberos In-Browser dialog -->
+  
   <message name="IDS_SETTINGS_KERBEROS_IN_BROWSER_DIALOG_TITLE" desc="The title of the Kerberos In-Browser dialog">
   Kerberos authentication failed
   </message>
@@ -5851,7 +5850,7 @@ Press an assigned switch or key to remove assignment.
   Manage tickets
   </message>
 
-  <!-- Power -->
+  
   <message name="IDS_SETTINGS_POWER_TITLE" desc="In Device Settings, the title for power management.">
     Power
   </message>
@@ -5937,7 +5936,7 @@ Press an assigned switch or key to remove assignment.
     Extends battery life by reducing brightness, limiting background activity and visual effects, delaying notifications, and turning on iBrowe Energy Saver.
   </message>
 
-  <!-- Reset Page (OS settings)-->
+  
   <message name="IDS_SETTINGS_RESET_TITLE" desc="Title of a section of settings. This section describes settings for resetting the device.">
     Reset settings
   </message>
@@ -5951,7 +5950,7 @@ Press an assigned switch or key to remove assignment.
     Restart your device
   </message>
   <message name="IDS_SETTINGS_FACTORY_RESET_DESCRIPTION" desc="Description of the factory reset option on the iBrowe settings page">
-    Remove all user accounts and reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>iBrowe</ex></ph> device to be just like new.
+    Remove all user accounts and reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device to be just like new.
   </message>
   <message name="IDS_OS_SETTINGS_FACTORY_RESET_DESCRIPTION" desc="Description of the factory reset option on the ChromeOS settings page">
     Remove all user accounts and reset your Chromebook to be just like new.
@@ -6001,7 +6000,7 @@ Press an assigned switch or key to remove assignment.
   <message name="IDS_OS_SETTINGS_SANITIZE_FEEDBACK" desc="Feedback label in the Reset Profile Settings dialog.">
     Help make ChromeOS better by reporting the <ph name="BEGIN_LINK">&lt;a is="action-link" target="_blank"&gt;</ph>current settings<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
-  <!-- iBrowe Assistant Page (OS Settings)-->
+  
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT" desc="Name of the settings page for iBrowe Assistant.">
     iBrowe Assistant
   </message>
@@ -6048,7 +6047,7 @@ Press an assigned switch or key to remove assignment.
     iBrowe Assistant settings
   </message>
 
-  <!-- Device display (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_DISPLAY_TITLE" desc="In Device Settings, the title for display settings.">
     Display
   </message>
@@ -6272,7 +6271,7 @@ Press an assigned switch or key to remove assignment.
     Window moved upwards and to the left
   </message>
 
-  <!-- Smart Lock Page (OS settings) -->
+  
   <message name="IDS_SETTINGS_EASY_UNLOCK_SECTION_TITLE" desc="The title of the Easy Unlock section on the settings page.">
     Smart Lock
   </message>
@@ -6283,7 +6282,7 @@ Press an assigned switch or key to remove assignment.
     Unlock device and sign in to iBrowe sync chain
   </message>
 
-  <!-- Fingerprint Page (OS settings) -->
+  
   <message name="IDS_SETTINGS_PEOPLE_LOCK_SCREEN_ADD_FINGERPRINT_BUTTON" desc="Button that is used to add a new fingerprint.">
     Add Fingerprint
   </message>
@@ -6297,7 +6296,7 @@ Press an assigned switch or key to remove assignment.
     Your fingerprint data is stored securely and never leaves your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph>. <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
 
-  <!-- Setup Pin dialog (OS settings) -->
+  
   <message name="IDS_SETTINGS_PEOPLE_CONFIGURE_PIN_CHOOSE_PIN_TITLE" desc="Message shown below the title that tells the user to enter the initial PIN.">
     Enter your PIN
   </message>
@@ -6305,7 +6304,7 @@ Press an assigned switch or key to remove assignment.
     Confirm your PIN
   </message>
 
-  <!-- Set local password dialog -->
+  
   <message name="IDS_OS_SETTINGS_PEOPLE_SET_LOCAL_PASSWORD_DIALOG_TITLE" desc="Title of the dialog that lets the user change their local password.">
     Set device password
   </message>
@@ -6313,7 +6312,7 @@ Press an assigned switch or key to remove assignment.
     Internal error
   </message>
 
-  <!-- Setup fingerprint dialog (OS settings) -->
+  
   <message name="IDS_SETTINGS_ADD_FINGERPRINT_DIALOG_TITLE" desc="Title of the add fingerprint dialog popup.">
     Set up your fingerprint
   </message>
@@ -6333,7 +6332,7 @@ Press an assigned switch or key to remove assignment.
     Move slightly to capture a different part of the fingerprint.
   </message>
 
-  <!-- Date/Time (OS settings) -->
+  
   <message name="IDS_SETTINGS_DATE_TIME" desc="Name of the settings page which displays date and time preferences.">
     Date and time
   </message>
@@ -6397,7 +6396,7 @@ Press an assigned switch or key to remove assignment.
   <message name="IDS_SETTINGS_PRIVACY_HUB_GEOLOCATION_DIALOG_CANCEL_BUTTON" desc="Label of the cancel button, that dismisses the geolocation dialog.">
     Cancel
   </message>
-  <!-- Per Device Keyboard page (OS settings) -->
+  
   <message name="IDS_SETTINGS_BUILT_IN_KEYBOARD_NAME" desc="In Device Settings, the name of the built-in/internal keyboard device within the settings app.">
     Built-in Keyboard
   </message>
@@ -6516,7 +6515,7 @@ Press an assigned switch or key to remove assignment.
     Battery level <ph name="PERCENTAGE">$1<ex>90</ex></ph>%
   </message>
 
-  <!-- Device Keyboard page (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_KEYBOARD_AND_INPUTS_TITLE" desc="In Device Settings, the title of the keyboard and input settings subpage.">
     Keyboard and inputs
   </message>
@@ -6633,7 +6632,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
   </message>
 
 
-  <!-- Apps Section Page -->
+  
   <message name="IDS_SETTINGS_APPS_TITLE" desc="The title of Apps section.">
     Apps
   </message>
@@ -6741,7 +6740,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Notifications won't pop up on the screen. You can still see notifications by clicking the Do Not Disturb icon on the bottom right of your screen.
   </message>
   <message name="IDS_SETTINGS_APP_NOTIFICATIONS_LINK_TO_BROWSER_SETTINGS_DESCRIPTION" desc="In notifications OS Settings subpage, explanatory text for website notifications link.">
-    For browser notifications, go to <ph name="LINK_BEGIN">&lt;a href="#"&gt;</ph>iBrowe browser Settings<ph name="LINK_END">&lt;/a&gt;</ph>
+    For browser notifications, go to <ph name="LINK_BEGIN">&lt;a href="#"&gt;</ph>Brave browser Settings<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_APP_BADGING_TOGGLE_LABEL" desc="The label for the app badging toggle in the App Notifications page of OS Settings.">
     App badging
@@ -6776,8 +6775,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
   <message name="IDS_OS_SETTINGS_ANDROID_APPS_SUBTEXT_DESCRIPTION" desc="Accessibility description for the section for enabling and managing Google Play Store (Android) apps." is_accessibility_with_no_ui="true">
     You can download Android apps and games through the Play Store.
   </message>
-  <!-- TODO(jamescook): Use device type instead of "Chromebook", which may
-        require changing ArcPlayTermsOfServiceConsent resource id handling. -->
+  
   <message name="IDS_OS_SETTINGS_ANDROID_APPS_DISABLE_DIALOG_MESSAGE" desc="Describes what will happen if the user opts out of android apps.">
     Google Play and apps you've downloaded from Google Play will be deleted from this Chromebook.
     <ph name="LINE_BREAKS1">&lt;br&gt;&lt;br&gt;</ph>
@@ -6807,7 +6805,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Update
   </message>
 
-   <!-- Apps > Manage your apps > Borealis -->
+   
   <message name="IDS_SETTINGS_APPS_BOREALIS_MAIN_PERMISSION_TEXT" desc="Description in Steam (name of app, manages other apps) settings page.">
     Permissions allowed for Steam apply to all Steam games and apps.
   </message>
@@ -6815,7 +6813,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Permissions for games and apps installed via Steam can be managed in the <ph name="LINK_BEGIN">&lt;a&gt;</ph>Steam app settings<ph name="LINK_END">&lt;/a&gt;</ph>.
   </message>
 
-  <!-- Apps > Manage your apps > Parallels -->
+  
   <message name="IDS_SETTINGS_APPS_PLUGIN_VM_PERMISSION_DIALOG_CAMERA_LABEL" desc="Label for the Parallels permissions dialog when camera permissions are being adjusted">
     The change in camera setting requires Parallels Desktop to relaunch. Relaunch Parallels Desktop to proceed.
   </message>
@@ -6826,7 +6824,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Relaunch
   </message>
 
-  <!-- Apps > Manage your apps > Parallels > Shared folders -->
+  
   <message name="IDS_SETTINGS_APPS_PLUGIN_VM_SHARED_PATHS_INSTRUCTIONS_LOCATE" desc="Instructions for how to locate shared folders in Parallels.">
       Shared folders are available in Windows at <ph name="BASE_DIR">$1<ex>Network › ChromeOS</ex></ph>.
   </message>
@@ -6840,7 +6838,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Give Parallels Desktop permission to access USB devices.
   </message>
 
-  <!-- Storage -->
+  
   <message name="IDS_SETTINGS_STORAGE_TITLE" desc="In Device Settings, the title for storage management.">
     Storage management
   </message>
@@ -6923,7 +6921,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     AES-256
   </message>
 
-  <!-- Privacy Page -->
+  
   <if expr="reven">
     <message name="IDS_OS_SETTINGS_ENABLE_LOGGING_TOGGLE_TITLE" desc="The label of the checkbox to enable/disable crash and user metrics logging in ChromeOS Flex.">
       Send crash reports and diagnostic and usage data to ChromeOS Flex
@@ -6986,7 +6984,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Screen privacy
   </message>
   <message name="IDS_OS_SETTINGS_SMART_PRIVACY_DESC" desc="The text explaining to the user the manner in which their presence is sensed and data usage policy.">
-    Your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> uses a built-in sensor to detect people in front of your device. All data is processed on your device immediately and then deleted. Sensor data is never sent to iBrowe. <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
+    Your <ph name="DEVICE_TYPE">$1<ex>Chromebook</ex></ph> uses a built-in sensor to detect people in front of your device. All data is processed on your device immediately and then deleted. Sensor data is never sent to Brave. <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_OS_SETTINGS_SMART_PRIVACY_QUICK_DIM_TITLE" desc="The name of the quick dim feature shown as the label of a toggle in the smart privacy subpage.">
     Lock-on-leave
@@ -7121,7 +7119,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     <ph name="DEVICE_OS">$1<ex>ChromeOS Flex</ex></ph> hardware support and stability
   </message>
   <message name="IDS_OS_SETTINGS_HW_DATA_USAGE_TOGGLE_DESC" desc="The description of the checkbox to enable/disable device hardware data collection and usage in ChromeOS Flex.">
-    Let iBrowe use your hardware data to help improve <ph name="DEVICE_OS">$1<ex>ChromeOS Flex</ex></ph>. If you decline, this data is still sent to iBrowe to determine proper updates, but is not stored or used otherwise.
+    Let iBrowe use your hardware data to help improve <ph name="DEVICE_OS">$1<ex>ChromeOS Flex</ex></ph>. If you decline, this data is still sent to Brave to determine proper updates, but is not stored or used otherwise.
   </message>
   <message name="IDS_OS_SETTINGS_PRIVACY_HUB_WEBSITES_SECTION_TITLE" desc="The title of the Websites section of the privacy hub sensor subpages.">
     Websites
@@ -7190,13 +7188,13 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     <ph name="SENSOR_NAME">$1<ex>Front Camera</ex></ph> (blocked)
   </message>
   <message name="IDS_OS_SETTINGS_PRIVACY_HUB_CAMERA_APP_PERMISSION_ROW_ARIA_LABEL" desc="ARIA (accessibility) label describing the action button (toggle button or external link button or managed icon) in the app permission rows of the privacy hub camera subpage.">
-    <ph name="APP_NAME">$1<ex>iBrowe Meet</ex></ph> camera permission
+    <ph name="APP_NAME">$1<ex>Brave Meet</ex></ph> camera permission
   </message>
   <message name="IDS_OS_SETTINGS_PRIVACY_HUB_LOCATION_APP_PERMISSION_ROW_ARIA_LABEL" desc="ARIA (accessibility) label describing the action button (toggle button or external link button or managed icon) in the app permission rows of the privacy hub location subpage.">
-    <ph name="APP_NAME">$1<ex>iBrowe Meet</ex></ph> location permission
+    <ph name="APP_NAME">$1<ex>Brave Meet</ex></ph> location permission
   </message>
   <message name="IDS_OS_SETTINGS_PRIVACY_HUB_MICROPHONE_APP_PERMISSION_ROW_ARIA_LABEL" desc="ARIA (accessibility) label describing the action button (toggle button or external link button or managed icon) in the app permission rows of the privacy hub microphone subpage.">
-    <ph name="APP_NAME">$1<ex>iBrowe Meet</ex></ph> microphone permission
+    <ph name="APP_NAME">$1<ex>Brave Meet</ex></ph> microphone permission
   </message>
   <message name="IDS_OS_SETTINGS_PRIVACY_HUB_APP_PERMISSION_ROW_ARIA_DESCRIPTION" desc="ARIA (accessibility) description describing the action buttons (toggle button or managed icon) in the app permission rows of the privacy hub subpages.">
     Permission is <ph name="PERMISSION_STATE">$1<ex>Ask every time</ex></ph>
@@ -7253,7 +7251,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Cancel
   </message>
 
-  <!-- Startup (OS settings) -->
+  
   <message name="IDS_OS_SETTINGS_ON_STARTUP_SETTINGS_CARD_TITLE" desc="The title of the settings card that allows the user to configure the restore apps and pages options on startup.">
     Startup
   </message>
@@ -7273,7 +7271,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Off
   </message>
 
-  <!-- System Preferences Page -->
+  
   <message name="IDS_OS_SETTINGS_SYSTEM_PREFERENCES_TITLE" desc="The title of the System Preferences page and respective menu item.">
     System preferences
   </message>
@@ -7293,7 +7291,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Storage and power
   </message>
 
-  <!-- App Management -->
+  
   <message name="IDS_OS_SETTINGS_PERMISSION_ITEM_CLICK_TOGGLE_PERMISSION" desc="Text to be spoken by a screen reader to describe the toggle button to enable or disable a specific permission for an app.">
     Click to toggle permission.
   </message>
@@ -7319,12 +7317,21 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Web app installed by your device administrator.
   </message>
 
-  <!-- Safety Hub -->
+  
   <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_CARD_HEADER_RESTART" desc="Safety Hub settings page (chrome://settings/safetyHub) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their iBrowe is up to date. This title of the card is shown when iBrowe is not up to date but there is an update available and the user needs to restart their browser to finish the update. Shown above the subtitle 'Relaunch to finish update. Your tabs will reopen'.">
     ChromeOS is out of date
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_CARD_HEADER_UPDATED" desc="Safety Hub settings page (chrome://settings/safetyHub) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their iBrowe is up to date. This title of the card is shown when iBrowe is up to date and the user does not need to take any action. Shown above the subtitle that is the iBrowe version.">
     ChromeOS is up to date
   </message>
+
+  
+  <message name="IDS_LOBSTER_OS_SETTINGS_ENABLE" desc="The label of the toggle to enable/disable Image Generation in ChromeOS settings.">
+    Create image
+  </message>
+  <message name="IDS_LOBSTER_OS_SETTINGS_ENABLE_DESCRIPTION" desc="The description of the toggle to enable/disable Image Generation in ChromeOS settings.">
+   Enter a custom prompt or highlight text to create an image
+  </message>
+
 </if>
 </grit-part>

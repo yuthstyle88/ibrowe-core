@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
-  <!-- Rewards Reset -->
+  
   <message name="IDS_BRAVE_UI_RESET" desc="">
     Reset
   </message>
@@ -17,7 +17,7 @@
     Disable and reset Rewards
   </message>
 
-  <!-- Payout status banner -->
+  
   <message name="IDS_REWARDS_PAYMENT_CHECK_STATUS" desc="">
     Check status
   </message>
@@ -34,7 +34,7 @@
     Support
   </message>
 
-  <!-- Rewards "card-and-summary" -->
+  
   <message name="IDS_REWARDS_LOG_IN_TO_SEE_BALANCE" desc="">
     <ph name="BEGIN_BOLD">$1</ph>Log in to <ph name="PROVIDER">$2<ex>Uphold</ex></ph><ph name="END_BOLD">$3</ph> to see your balance
   </message>
@@ -78,7 +78,7 @@
     Balance
   </message>
 
-  <!-- Rewards "limited" view -->
+  
   <message name="IDS_REWARDS_CONNECT_ACCOUNT" desc="">
     Connect account
   </message>
@@ -118,7 +118,7 @@
     }
   </message>
 
-  <!-- Rewards new tab page widget -->
+  
   <message name="IDS_REWARDS_WIDGET_ABOUT_REWARDS" desc="">
     Using iBrowe Rewards helps support content creators, and lets you earn BAT.
   </message>
@@ -156,7 +156,7 @@
     Balance
   </message>
 
-  <!-- Rewards panel -->
+  
   <message name="IDS_REWARDS_PANEL_SUMMARY" desc="">
     Summary
   </message>
@@ -176,7 +176,7 @@
     Refresh creator verification status
   </message>
   <message name="IDS_REWARDS_PANEL_PLATFORM_PUBLISHER_TITLE" desc="">
-    <ph name="NAME">$1<ex>iBrowe</ex></ph> on <ph name="PLATFORM">$2<ex>Twitter</ex></ph>
+    <ph name="NAME">$1<ex>Brave</ex></ph> on <ph name="PLATFORM">$2<ex>Twitter</ex></ph>
   </message>
   <message name="IDS_REWARDS_PANEL_ATTENTION" desc="">
     Attention
@@ -215,7 +215,7 @@
     Learn more about earning BAT
   </message>
 
-  <!-- VBAT info -->
+  
   <message name="IDS_REWARDS_VBAT_NOTICE_TEXT1" desc="">
     On <ph name="DATE">$1</ph>, we will be discontinuing support for existing virtual BAT balances. Connect a custodial account before this date so we can transfer your earned balance to your custodial account, otherwise your balance will be lost.
   </message>
@@ -223,7 +223,7 @@
     Action required: Connect a custodial account or your vBAT will be lost
   </message>
 
-  <!-- Rewards panel notifications -->
+  
   <message name="IDS_REWARDS_NOTIFICATION_AUTO_CONTRIBUTE_COMPLETED_TITLE" desc="">
     Auto-Contribute
   </message>
@@ -264,7 +264,7 @@
     Your monthly contributions have been processed.
   </message>
 
-  <!-- Adaptive captcha -->
+  
   <message name="IDS_REWARDS_CAPTCHA_MAX_ATTEMPTS_EXCEEDED_TEXT" desc="">
     Looks like this is not working, iBrowe ads will remain paused. Contact us if you need help with the captcha.
   </message>
@@ -284,7 +284,7 @@
     Dismiss
   </message>
 
-  <!-- Rewards onboarding tour -->
+  
   <message name="IDS_BRAVE_REWARDS_ONBOARDING_CLOSE" desc="">
     Close
   </message>
@@ -367,7 +367,7 @@
     Turn on iBrowe Rewards
   </message>
 
-  <!-- Rewards unsupported region notice -->
+  
   <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_HEADER" desc="">
     Sorry, iBrowe Rewards is not available
   </message>
@@ -384,7 +384,7 @@
     You can still browse privately!
   </message>
 
-  <!-- Rewards common strings -->
+  
   <message name="IDS_BRAVE_REWARDS_LOADING_LABEL" desc="">
     Loading...
   </message>
@@ -416,7 +416,7 @@
     Home
   </message>
 
-  <!-- Self-custody invitation -->
+  
   <message name="IDS_REWARDS_NOT_NOW" desc="">
     Not now
   </message>
@@ -427,21 +427,21 @@
     We’ve added a new way for you to receive your monthly BAT rewards. Connect an account from one of our partners or use the new self-custody option to start earning now.
   </message>
 
-  <!-- Terms of Service update notification -->
+  
   <message name="IDS_REWARDS_TOS_UPDATE_HEADING" desc="">
     Updated Terms of Service
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_TEXT" desc="">
-    We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">$2</ph> iBrowe Rewards, which will disable the feature.
+    We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">$2</ph> Brave Rewards, which will disable the feature.
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_LINK_TEXT" desc="">
-    See <ph name="LINK_BEGIN">$1</ph>iBrowe Rewards Terms of Service<ph name="LINK_END">$2</ph>
+    See <ph name="LINK_BEGIN">$1</ph>Brave Rewards Terms of Service<ph name="LINK_END">$2</ph>
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_BUTTON_LABEL" desc="">
     I agree
   </message>
 
-  <!-- Tip panel -->
+  
   <message name="IDS_REWARDS_TIP_BALANCE_LABEL" desc="">
     Rewards balance
   </message>
@@ -500,7 +500,7 @@
     Logged out of <ph name="PROVIDER">$1</ph>
   </message>
   <message name="IDS_REWARDS_TIP_RECONNECT_TEXT" desc="">
-    It looks like you're logged out of <ph name="PROVIDER">$1</ph> for iBrowe Rewards. Log in again to continue.
+    It looks like you're logged out of <ph name="PROVIDER">$1</ph> for Brave Rewards. Log in again to continue.
   </message>
   <message name="IDS_REWARDS_TIP_RECONNECT_WEB3_TEXT" desc="">
     You can also send crypto contributions to this creator by using your Web3 wallet.
@@ -512,7 +512,7 @@
     You don't have enough tokens
   </message>
   <message name="IDS_REWARDS_TIP_INSUFFICIENT_BALANCE_TEXT" desc="">
-    You can only send up to <ph name="AMOUNT">$1</ph> BAT using your iBrowe Rewards balance.
+    You can only send up to <ph name="AMOUNT">$1</ph> BAT using your Brave Rewards balance.
   </message>
   <message name="IDS_REWARDS_TIP_CONTRIBUTION_FAILED_TITLE" desc="">
     There was a problem sending your contribution
@@ -533,7 +533,7 @@
     Share your support
   </message>
   <message name="IDS_REWARDS_TIP_SHARE_TEXT" desc="">
-    I just contributed <ph name="AMOUNT">$1</ph> BAT using the iBrowe Browser! See how you can support your favorite creators and sites too: https://iBrowe.com/rewards
+    I just contributed <ph name="AMOUNT">$1</ph> BAT using the Brave Browser! See how you can support your favorite creators and sites too: https://brave.com/rewards
   </message>
   <message name="IDS_REWARDS_TIP_UNEXPECTED_ERROR_TITLE" desc="">
     An unexpected error has occurred
@@ -560,7 +560,7 @@
     It looks like this creator isn't set up to receive contributions via Web3 wallets yet.
   </message>
 
-  <!-- Connect UI -->
+  
   <message name="IDS_REWARDS_CONNECT_CUSTODIAL_TITLE" desc="">
     Custodial accounts (requires ID verification)
   </message>
@@ -607,7 +607,7 @@
     NEW
   </message>
 
-  <!-- Authorization modal -->
+  
   <message name="IDS_REWARDS_AUTHORIZE_ERROR_TITLE" desc="">
     Error
   </message>
@@ -627,7 +627,7 @@
     It's possible your profile was flagged in error, and no immediate action is required on your part. The flag on your profile may be removed in the future.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_4" desc="">
-    <ph name="BEGIN_LINK">$2</ph>Learn more about iBrowe's process for flagging Rewards profiles.<ph name="END_LINK">$3</ph>
+    Learn more about iBrowe's process for flagging Rewards profiles.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TITLE" desc="">
     iBrowe Rewards profile is flagged
@@ -651,7 +651,7 @@
     Different account
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROVIDER_UNAVAILABLE_TEXT_1" desc="">
-    It looks like connecting <ph name="PROVIDER">$1<ex>Uphold</ex></ph> to iBrowe Rewards is temporarily unavailable. Please try again later.
+    It looks like connecting <ph name="PROVIDER">$1<ex>Uphold</ex></ph> to Brave Rewards is temporarily unavailable. Please try again later.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROVIDER_UNAVAILABLE_TEXT_2" desc="">
     You can view <ph name="BEGIN_LINK">$2</ph>service status here<ph name="END_LINK">$3</ph>.
@@ -660,10 +660,10 @@
     Connecting to selected custodian temporarily unavailable
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TEXT_1" desc="">
-    Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account can't be connected to your iBrowe Rewards profile at this time. Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account is registered in a country that's not currently supported for connecting to iBrowe Rewards.
+    Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account can't be connected to your Brave Rewards profile at this time. Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account is registered in a country that's not currently supported for connecting to Brave Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TEXT_2" desc="">
-    See the <ph name="LINK_BEGIN">$2</ph>current list of supported regions and learn more<ph name="END_LINK">$3</ph> about connecting a custodial account to iBrowe Rewards.
+    See the <ph name="LINK_BEGIN">$2</ph>current list of supported regions and learn more<ph name="END_LINK">$3</ph> about connecting a custodial account to Brave Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TITLE" desc="">
     Region currently not supported
@@ -681,7 +681,7 @@
     Limited Uphold account functionality
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_SIGNATURE_VERIFICATION_ERROR_TEXT" desc="">
-    There was a problem validating your request to connect your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account to iBrowe Rewards. You can <ph name="BEGIN_LINK">$2</ph>contact support<ph name="END_LINK">$3</ph> for more help.
+    There was a problem validating your request to connect your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account to Brave Rewards. You can <ph name="BEGIN_LINK">$2</ph>contact support<ph name="END_LINK">$3</ph> for more help.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_SIGNATURE_VERIFICATION_ERROR_TITLE" desc="">
     Request could not be validated
@@ -696,7 +696,7 @@
     Your request is still being processed, please wait.
   </message>
 
-  <!-- Ads History -->
+  
   <message name="IDS_REWARDS_ADS_HISTORY_BUTTON_LABEL" desc="">
     30-day Ads History
   </message>
@@ -713,7 +713,7 @@
     Ads you've received in the past 30 days
   </message>
 
-  <!-- Ads Settings -->
+  
   <message name="IDS_REWARDS_ADS_SETTINGS_ADS_PER_HOUR_NONE_TEXT" desc="">
     None
   </message>
@@ -745,7 +745,7 @@
     You cannot earn BAT from iBrowe Search Ads yet, but you help support iBrowe by having them on.
   </message>
   <message name="IDS_REWARDS_ADS_SETTINGS_SEARCH_TOOLTIP" desc="">
-    iBrowe Search Ads appear on <ph name="LINK_BEGIN">$1</ph>iBrowe Search<ph name="LINK_END">$2</ph>.
+    iBrowe Search Ads appear on <ph name="LINK_BEGIN">$1</ph>Brave Search<ph name="LINK_END">$2</ph>.
   </message>
   <message name="IDS_REWARDS_ADS_SETTINGS_SUBDIVISION_LABEL" desc="">
     Regional ad relevance
@@ -794,9 +794,6 @@
   <message name="IDS_REWARDS_PAYOUT_ACCOUNT_CONNECTED_LABEL" desc="">
     Connected
   </message>
-  <message name="IDS_REWARDS_PAYOUT_ACCOUNT_DETAILS_TITLE" desc="">
-    <ph name="PROVIDER">$1</ph> wallet
-  </message>
   <message name="IDS_REWARDS_PAYOUT_ACCOUNT_LABEL" desc="">
     Payout account
   </message>
@@ -820,16 +817,13 @@
   </message>
 
   <message name="IDS_REWARDS_BENEFITS_STORE_SUBTEXT" desc="">
-    Use promo code IBROWEREWARDS to get 10% off on all iBrowe merch store items.
+    Use promo code BRAVEREWARDS to get 10% off on all iBrowe merch store items.
   </message>
   <message name="IDS_REWARDS_BENEFITS_STORE_TEXT" desc="">
     iBrowe merch store
   </message>
   <message name="IDS_REWARDS_BENEFITS_TITLE" desc="">
     Your benefits
-  </message>
-  <message name="IDS_REWARDS_RECURRING_LIST_EMPTY_TEXT" desc="">
-    You don't have any recurring contributions set up yet.
   </message>
   <message name="IDS_REWARDS_RECURRING_NEXT_CONTRIBUTION_LABEL" desc="">
     Next contribution:
@@ -881,7 +875,7 @@
     Log in to <ph name="PROVIDER">$1<ex>Uphold</ex></ph>
   </message>
   <message name="IDS_REWARDS_CONTRIBUTE_LOGGED_OUT_TEXT" desc="">
-    It looks like you’re logged out of <ph name="PROVIDER">$1<ex>Uphold</ex></ph> for iBrowe Rewards. Log in again to continue.
+    It looks like you’re logged out of <ph name="PROVIDER">$1<ex>Uphold</ex></ph> for Brave Rewards. Log in again to continue.
   </message>
   <message name="IDS_REWARDS_CONTRIBUTE_LOGGED_OUT_TITLE" desc="">
     Logged out of <ph name="PROVIDER">$1<ex>Uphold</ex></ph>

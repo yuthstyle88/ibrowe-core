@@ -1,7 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
-  <!-- Site settings top level entry -->
+  
   <message name="IDS_PREFS_SITE_SETTINGS" desc="Title of the Website Settings screen. [CHAR_LIMIT=32]">
     Site settings
   </message>
@@ -13,7 +12,7 @@
     Content
   </message>
 
-  <!-- Site settings categories -->
+  
   <message name="IDS_ALL_SITES" desc="Title of the &quot;All sites&quot; settings screen that allows the user to see permissions for all websites. [CHAR_LIMIT=32]">
     All sites
   </message>
@@ -129,7 +128,7 @@
     Embedded content
   </message>
 
-  <!-- Site settings global toggles -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ALLOWED" desc="Summary text explaining that a permission is allowed, e.g. JavaScript: allowed.">
     Allowed
@@ -156,7 +155,7 @@
     Blocked
   </message>
 
-  <!-- Site settings supplemental global toggle settings -->
+  
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_NOTIFICATIONS_QUIET" desc="A setting that, if turned on will enable a quieter permission prompt for notifications.">
     Use quieter messaging (blocks notification prompts from interrupting you)
   </message>
@@ -178,14 +177,20 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PERMISSION_LOUD" desc="Label for the loud version of the permission prompt.">
     Expand all requests
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PERMISSION_TITLE" desc="Label as the title for the CPSS permission prompt.">
+    How to show requests
+  </message>
 
-  <!-- Site settings: general category strings -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_ALLOWED_GROUP_HEADING" desc="The heading for a list of websites that have been allowed to use a particular permission, e.g. allowed to access a user's location.">
     Allowed
   </message>
   <message name="IDS_WEBSITE_SETTINGS_BLOCKED_GROUP_HEADING" desc="The heading for a list of websites that have been blocked from using a particular permission, e.g. blocked from accessing the user's location.">
     Blocked
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_NOT_ALLOWED_GROUP_HEADING" desc="The heading for a list of websites that have been blocked from using a particular permission, e.g. blocked from accessing the user's location.">
+    Not Allowed
   </message>
   <message name="IDS_WEBSITE_SETTINGS_EXCEPTIONS_GROUP_HEADING" desc="The heading for a list of websites that have been granted an exception to access a particular permission, e.g. to access the user's location.">
     Exceptions
@@ -203,10 +208,10 @@
     Managed by app
   </message>
   <message name="IDS_ANDROID_PERMISSION_OFF" desc="Text at the top of the Website list, explaining to the user that a permission, such as the location service, is turned off. Contains a link to the settings menu to change it.">
-    Turn on permission for <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    Turn on permission for <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
   <message name="IDS_ANDROID_PERMISSION_OFF_PLURAL" desc="Text at the top of the Website list, explaining to the user that multiple permissions, such as the location service, are turned off. Contains a link to the settings menu to change it.">
-    Turn on permissions for <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    Turn on permissions for <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
   <message name="IDS_WEBSITE_SETTINGS_EMBEDDED_ON" desc="String used to indicate the embedder origin of a site">
       Embedded on <ph name="WEBSITE_URL">%1$s<ex>google.com</ex></ph>
@@ -226,7 +231,7 @@
   <message name="IDS_COOKIES_COUNT" desc="Used to display how many cookies are associated with a given site/domain.">
     {COOKIES, plural, =1 {# cookie} other {# cookies}}
   </message>
-  <!-- Site settings: Possible permission values for a single site -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_SITE_CATEGORY" desc="The headline above the website name on the website details page.">
     Site
@@ -262,7 +267,7 @@
     }
   </message>
 
-  <!-- Site settings Add Exception dialog -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_ADD_SITE" desc="The label for the button to add a new website to the exception list.">
     Add site exception
@@ -283,7 +288,7 @@
     Enter web address
   </message>
 
-  <!-- Site settings Edit Exception dialog -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_EDIT_SITE_DIALOG_TITLE" desc="The title of the dialog to edit permissions for a website from a list.">
     Site preference
@@ -292,7 +297,7 @@
     Select an option for <ph name="SITE_NAME">%1$s<ex>google.com</ex></ph>
   </message>
 
-  <!-- Site settings Delete Data Dialog and other ways of resetting permissions -->
+  
 
   <message name="IDS_WEBSTORAGE_DELETE_DATA_DIALOG_TITLE" desc="Title of the confirmation dialog when the user ask to delete all data for an origin">
     Delete site data?
@@ -367,9 +372,9 @@
     Are you sure you want to reset all site permissions for <ph name="CHOSEN_OBJECT_NAME">%1$s<ex>Weblight</ex></ph>?
   </message>
 
-  <!-- Site settings specific permission strings, per category: -->
+  
 
-  <!-- Ads -->
+  
 
   <message name="IDS_INTRUSIVE_ADS_INFORMATION" desc="The extra information at the top of the Site Details page when the site tends to show intrusive ads">
     This site shows intrusive or misleading ads
@@ -389,7 +394,11 @@
   <message name="IDS_SITE_SETTINGS_PAGE_INTRUSIVE_ADS_A11Y" desc="The screen reader announcement describing a toggle with two states to either allow all ads or to block intrusive ads. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can show any ad to you. When off, sites can’t show intrusive or misleading ads.
   </message>
-  <!-- Anti-abuse -->
+  <message name="IDS_WEBSITE_SETTINGS_ADS_PAGE_DESCRIPTION" desc="Description of intrusive ads content setting.">
+    Sites usually show ads so that they can provide content or services free of charge. But, some sites are known to show intrusive or misleading ads.
+  </message>
+
+  
 
   <message name="IDS_ANTI_ABUSE_DESCRIPTION" desc="A setting that, if turned on, will enable anti-abuse functionality.">
     Sites you visit can verify that you're a real person and not a bot
@@ -419,7 +428,7 @@
     This setting works without identifying you or allowing sites to see your browsing history, though sites can share a small amount of info as part of the verification
   </message>
 
-  <!-- Augmented reality -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_AR_ASK" desc="Summary text explaining that sites need to ask for permission before using AR and that it is the recommended setting.">
     Ask before allowing sites to create a 3D map of your surroundings or track camera position (recommended)
@@ -431,18 +440,36 @@
     When on, sites can ask to track your camera position and learn about your surroundings. When off, sites can’t track your camera position or learn about your surroundings.
   </message>
   <message name="IDS_ANDROID_AR_CAMERA_PERMISSION_OFF" desc="The message to show when the camera permission needs to be turned on in Android settings in order to use Augmented Reality.">
-    To let <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> use AR, also turn on camera in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    To let <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> use AR, also turn on camera in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_AR_PAGE_DESCRIPTION" desc="Description of Augmented reality content setting.">
+    Sites usually track your camera position for AR features, like games or heads-up directions
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_AR_ASK" desc="Primary text corresponding to the ask button in the AR permission radio button group.">
+    Sites can ask to create a 3D map of your surroundings or track camera position
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_AR_BLOCK" desc="Primary text corresponding to the block button in the AR permission radio button group.">
+    Don't allow sites to create a 3D map of your surroundings or track camera position
   </message>
 
-  <!-- Automatic downloads -->
+  
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_AUTOMATIC_DOWNLOADS_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can request permission to download multiple files at once. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can ask to automatically download multiple files. When off, sites can’t automatically download multiple files.
   </message>
   <message name="IDS_WEBSITE_SETTINGS_ADD_SITE_DESCRIPTION_AUTOMATIC_DOWNLOADS" desc="The description for the allow Automatic Downloads for website dialog.">
     Allow a site to download multiple files automatically.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_AUTOMATIC_DOWNLOADS_PAGE_DESCRIPTION" desc="Description of automatic downloads content setting.">
+    Sites might automatically download related files together to save you time
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_AUTOMATIC_DOWNLOADS_ASK" desc="Primary text corresponding to the ask button in the automatic downloads permission radio button group.">
+    Sites can ask to automatically download multiple files
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_AUTOMATIC_DOWNLOADS_BLOCK" desc="Primary text corresponding to the block button in the automatic downloads permission radio button group.">
+    Don't allow sites to automatically download multiple files
+  </message>
 
-  <!-- Background sync -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_BACKGROUND_SYNC_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can use syncronize data in the background. It is important to keep this string as two full sentences terminated by a period.">
     When on, recently-closed sites can finish sending and receiving data. When off, recently-closed sites can’t finish sending or receiving data.
@@ -450,8 +477,20 @@
   <message name="IDS_WEBSITE_SETTINGS_ADD_SITE_DESCRIPTION_BACKGROUND_SYNC" desc="The description for the allow Background Sync for website dialog.">
     Allow Background Sync for a specific site.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_BACKGROUND_SYNC_PAGE_DESCRIPTION" desc="Description of background sync content setting.">
+    After you leave a site, it can keep syncing to finish tasks, like uploading photos or sending a chat message
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_BACKGROUND_SYNC_ALLOW" desc="Primary text corresponding to the allow button in the background sync permission radio button group.">
+    Recently closed sites can finish sending and receiving data
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_BACKGROUND_SYNC_BLOCK" desc="Primary text corresponding to the block button in the background sync permission radio button group.">
+    Don't allow closed sites to finish sending or receiving data
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_BACKGROUND_SYNC_BLOCK_DESCRIPTION" desc="Description of block background sync permission.">
+    After closing a page, tasks you started might not finish
+  </message>
 
-  <!-- Javascript Optimizer -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_JAVASCRIPT_OPTIMIZER_A11Y" desc="The screen reader announcement describing a toggle with two states, controlling whether Javascript Optimizer is enabled. Disabling the JavaScript optimizer reduces performance but makes the JavaScript engine more resilient to attacks by malicious actors.">
     When on, iBrowe runs faster and features that use JavaScript should work as designed. When off, this reduces performance but makes V8 more resistant to attacks.
@@ -485,7 +524,7 @@
     Turn on additional protection in iBrowe’s JavaScript and WebAssembly engine
   </message>
 
-  <!-- Bluetooth -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_BLUETOOTH_ASK" desc="Summary text explaining that the Bluetooth permission is set to ask the user for permission to access individual devices. To be shown in the list of permission categories.">
     Ask before allowing sites to connect to a device (recommended)
@@ -500,7 +539,7 @@
     Bluetooth
   </message>
 
-  <!-- Bluetooth Scanning -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_BLUETOOTH_SCANNING_ASK" desc="Summary text explaining that the Bluetooth scanning permission is set to ask the user for permission to do Bluetooth scanning. To be shown in the list of permission categories.">
     Ask when a site wants to discover nearby Bluetooth devices (recommended)
@@ -509,7 +548,7 @@
     When on, sites can ask to look for Bluetooth devices. When off, sites can’t look for Bluetooth devices.
   </message>
 
-  <!-- Camera -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_CAMERA_ASK" desc="Summary text explaining that sites need to ask for permission before accessing the camera and that it is the recommended setting.">
     Ask first before allowing sites to use your camera (recommended)
@@ -518,10 +557,22 @@
     When on, sites can ask to use your camera. When off, sites can’t use your camera.
   </message>
   <message name="IDS_ANDROID_CAMERA_PERMISSION_OFF" desc="The message to show when the camera permission needs to be turned on not just in iBrowe, but also in Android settings.">
-    To let <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> access your camera, also turn on camera in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    To let <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> access your camera, also turn on camera in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CAMERA_PAGE_DESCRIPTION" desc="Description of camera content setting.">
+    Sites usually use your video camera for communication features like video chatting
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CAMERA_ASK" desc="Primary text corresponding to the ask button in the camera permission radio button group.">
+    Site can ask for your camera
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CAMERA_BLOCK" desc="Primary text corresponding to the block button in the camera permission radio button group.">
+    Don't allow sites to see your location
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CAMERA_BLOCK_DESCRIPTION" desc="Description of block camera permission.">
+    Features that need a camera won't work
   </message>
 
-  <!-- Clipboard -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_CLIPBOARD_ASK" desc="Summary text explaining that sites need to ask for permission before reading from the clipboard and that it is the recommended setting.">
     Ask before allowing sites to read text and images from the clipboard (recommended)
@@ -535,8 +586,17 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_CLIPBOARD_BLOCKED_LIST" desc="Summary text explaining that the clipboard permission is set to block read access on some sites. To be shown in the list of permission categories.">
     Blocked from reading clipboard
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_CLIPBOARD_PAGE_DESCRIPTION" desc="Description of clipboard content setting.">
+    Sites usually read your clipboard for features like keeping the formatting of text that you copied
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CLIPBOARD_ASK" desc="Primary text corresponding to the ask button in the clipboard permission radio button group.">
+    Sites can ask to see text and images on your clipboard
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CLIPBOARD_BLOCK" desc="Primary text corresponding to the block button in the clipboard permission radio button group.">
+    Don't allow sites to see text or images on your clipboard
+  </message>
 
-  <!-- Site data page -->
+  
   <message name="IDS_WEBSITE_SETTINGS_SITE_DATA_PAGE_DESCRIPTION" desc="A paragraph that appear beneath the page title: 'On-device site data'. It defines what on-device site data is. What is 'On-device site data'? When you interact with a site, that site can remember things about what you do. For example, you might place a pair of shoes in a shopping cart, close down your browser, and find those same shoes in your shopping cart when you visit the same site a week later. Sometimes that info is saved in the Cloud. Sometimes that info is saved on the user's device. There are several ways a site can save info to the user's device—for example, with cookies (text files saved to your device), small JavaScript databases, and even iBrowe's new ad settings that are part of the Privacy Sandbox project (see details below). This page introduces the concept of on-device site data, allows the user to see which sites are using it, and allows the user to delete all saved data or just data from specific sites.  **** CONTEXT PRIVACY SANDBOX **** iBrowe’s Privacy Sandbox initiative 1) deprecates third-party cookies in iBrowe, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com.">
     A site you visit can save info about what you’re doing so that it works as expected — for example, to keep you signed in to a site or to save items in your shopping cart. Often sites save this info temporarily on your device.
   </message>
@@ -568,7 +628,7 @@
     Cancel
   </message>
 
-  <!-- Third-party cookies page -->
+  
   <message name="IDS_WEBSITE_SETTINGS_THIRD_PARTY_COOKIES_PAGE_DESCRIPTION" desc="An explanation of what third-party cookies are that appear beneath the page title: 'Third-party cookies'. * 'embed': A site you visit uses HTML to construct the page. Tags like img src='filename.jpg' are used to show an image. 'filename.jpg' can be a local file owned by the site you visit or a site can embed an external file with something like img src='www.third-party-site.com/images/filename.jpg' This image is embedded into the site you visit and www.third-party-site.com can set a third-party cookie onto your device.">
     A site you visit can embed content from other sites, for example, images, ads, and text. Cookies set by these other sites are called third-party cookies.
   </message>
@@ -614,6 +674,9 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_COOKIE_BLOCK_THIRD_PARTY_SUBTITLE" desc="Text used as subtitle for the block third-party cookies subpage option in settings">
     Block third-party cookies:
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_COOKIE_ALLOW_THIRD_PARTY_SUBTITLE" desc="" translateable="false">
+    Allow third-party cookies:
+  </message>
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_COOKIE_RWS_TOGGLE_TITLE" desc="Related Website Sets toggle title in the cookie site settings subpage.">
     Allow related sites to see your activity in the group
   </message>
@@ -624,11 +687,6 @@
     {COUNT, plural,
       =1 {<ph name="RWS_MEMBERS_COUNT">%1$s<ex>1</ex></ph> site in <ph name="RWS_OWNER">%2$s<ex>gannette.com</ex></ph>'s group of sites that can see your activity in the group}
       other {<ph name="RWS_MEMBERS_COUNT">%1$s<ex>1</ex></ph> sites in <ph name="RWS_OWNER">%2$s<ex>gannette.com</ex></ph>'s group of sites that can see your activity in the group}}
-  </message>
-  <message name="IDS_RWS_SUMMARY" desc="Related Website Sets information, shown as item summary in the all sites settings page for every site which is in the RWS." translateable="false">
-    {COUNT, plural,
-      =1 {<ph name="RWS_MEMBERS_COUNT">%1$s<ex>1</ex></ph> site in <ph name="RWS_OWNER">%2$s<ex>gannette.com</ex></ph>'s group}
-      other {<ph name="RWS_MEMBERS_COUNT">%1$s<ex>1</ex></ph> sites in <ph name="RWS_OWNER">%2$s<ex>gannette.com</ex></ph>'s group}}
   </message>
   <message name="IDS_ALLSITES_RWS_LIST_SUMMARY" desc="Related Website Sets cookie info, shown as site summary in the all sites list settings page.">
     {COUNT, plural,
@@ -642,7 +700,7 @@
     This site is in a group that can see your activity. The group is defined by <ph name="RWS_OWNER">%1$s<ex>google.com</ex></ph>
   </message>
 
-  <!-- Desktop Site -->
+  
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_DESKTOP_SITE_ALLOWED" desc="Summary text explaining that desktop view of sites will be requested by default.">
     Request desktop view
   </message>
@@ -670,8 +728,11 @@
   <message name="IDS_WEBSITE_SETTINGS_DESKTOP_SITE_BLOCK" desc="Summary text explaining that iBrowe will request mobile view for a website.">
     Mobile site
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_DESKTOP_SITE_PAGE_DESCRIPTION" desc="Description of Desktop site content setting.">
+    You can ask to see the desktop version of sites
+  </message>
 
-  <!-- Federated Identity -->
+  
   <message name="IDS_WEBSITE_SETTINGS_ADD_SITE_DESCRIPTION_FEDERATED_IDENTITY_ALLOW" desc="The description for the allow third-party sign-in for website dialog.">
     Allow third-party sign-in for a specific site.
   </message>
@@ -687,16 +748,28 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_FEDERATED_IDENTITY_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can request permission to use AR. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can show sign-in prompts. When off, sites can't show sign-in prompts.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_FEDERATED_IDENTITY_PAGE_DESCRIPTION" desc="Description of third-party sign-in content setting.">
+    Lets you sign in to websites using the account that you have with an identity service
+  </message>
 
-  <!-- File editing -->
+  
   <message name="IDS_WEBSITE_SETTINGS_FILE_EDITING_GRANTS_CATEGORY" desc="The headline above the list of files that a website can view or edit.">
     Files this site can view or edit
   </message>
   <message name="IDS_WEBSITE_SETTINGS_FILE_EDITING_GRANT_REVOKE" desc="Content description for the button that revokes a file editing grant.">
     Delete file editing grant? <ph name="FILE">%1$s<ex>file.txt</ex></ph>
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_FILE_EDITING_ASK" desc="Primary text corresponding to the ask button in the file editing permission radio button group.">
+    Sites can ask to edit files and folders on your device
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_FILE_EDITING_BLOCK" desc="Primary text corresponding to the block button in the file editing permission radio button group.">
+    Don't allow sites to edit files or folders on your device
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_FILE_EDITING_PAGE_DESCRIPTION" desc="Description of file editing content setting.">
+    Sites usually access files and folders on your device for features like automatically saving your work
+  </message>
 
-  <!-- Hand Tracking -->
+  
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_HAND_TRACKING_ASK" desc="Summary text explaining that sites need to ask for permission before using hand tracking and that it is the recommended setting.">
     Ask before allowing sites to track your hands (recommended)
   </message>
@@ -707,10 +780,10 @@
     When on, sites can ask to track your hands. When off, sites can’t track your hands.
   </message>
   <message name="IDS_ANDROID_HAND_TRACKING_PERMISSION_OFF" desc="The message to show when the hand tracking permission needs to be turned on in Android settings.">
-    To let <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> use hand tracking, also turn on hand tracking in <ph name="BEGIN_LINK">&lt;link&gt;</ph>system settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    To let <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> use hand tracking, also turn on hand tracking in <ph name="BEGIN_LINK">&lt;link&gt;</ph>system settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
 
-  <!-- Idle Detection -->
+  
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_IDLE_DETECTION_ASK" desc="The description for the option to allow sites to ask for permission to access your activity state">
     Ask when a site wants to know when you're actively using this device
   </message>
@@ -720,8 +793,17 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_IDLE_DETECTION_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can request permission to use idle detection. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can ask to know when you’re actively using your device. When off, sites can’t know when you’re actively using your device.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_IDLE_DETECTION_PAGE_DESCRIPTION" desc="Description of your device use content setting.">
+    Sites usually detect when you're actively using your device to set your availability on chat apps
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_IDLE_DETECTION_ASK" desc="Primary text corresponding to the ask button in the Your device use permission radio button group.">
+    Sites can ask to know when you're actively using your device
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_IDLE_DETECTION_BLOCK" desc="Primary text corresponding to the block button in the Your device use permission radio button group.">
+    Don't allow sites to know when you're actively using your device
+  </message>
 
-  <!-- JavaScript -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_JAVASCRIPT_ALLOWED" desc="Summary text explaining that sites are allowed to run Javascript and that it is the recommended setting.">
     Allow sites to run JavaScript (recommended)
@@ -735,8 +817,17 @@
   <message name="IDS_WEBSITE_SETTINGS_ADD_SITE_DESCRIPTION_JAVASCRIPT_BLOCK" desc="The description for the block Javascript for website dialog.">
     Block JavaScript for a specific site.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_JAVASCRIPT_PAGE_DESCRIPTION" desc="Description of the JavaScript content setting.">
+    Sites usually use JavaScript to display interactive features, like video games or web forms
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_JAVASCRIPT_ALLOW" desc="Primary text corresponding to the allow button in the Javascript permission radio button group.">
+    Sites can use JavaScript
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_JAVASCRIPT_BLOCK" desc="Primary text corresponding to the block button in the Javascript permission radio button group.">
+    Don't allow sites to use JavaScript
+  </message>
 
-  <!-- Location -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_LOCATION_ASK" desc="Summary text explaining that sites need to ask for permission before knowing location and that it is the recommended setting.">
     Ask before allowing sites to know your location (recommended)
@@ -751,13 +842,22 @@
     Location access is off for this device. Turn it on in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
   <message name="IDS_ANDROID_LOCATION_PERMISSION_OFF" desc="The message to show when the location permission needs to be turned on not just in iBrowe, but also in Android settings.">
-    To let <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> access your location, also turn on location in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    To let <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> access your location, also turn on location in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
   <message name="IDS_WEBSITE_LOCATION_SETTINGS" is_accessibility_with_no_ui="true" desc="Accessibility string for the location settings">
     Open Location Settings
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_LOCATION_PAGE_DESCRIPTION" desc="Description of the location content setting.">
+    Sites usually use your location for relevant features or info, like local news or nearby shops
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_LOCATION_ASK" desc="Primary text corresponding to the ask button in the location permission radio button group.">
+    Sites can ask for your location
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_LOCATION_BLOCK" desc="Primary text corresponding to the block button in the location permission radio button group.">
+    Don't allow sites to see your location
+  </message>
 
-  <!-- Microphone -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_MIC_ASK" desc="Summary text explaining that sites need to ask for permission before accessing the microphone and that it is the recommended setting.">
     Ask first before allowing sites to use your microphone (recommended)
@@ -766,10 +866,22 @@
     When on, sites can ask to use your microphone. When off, sites can’t use your microphone.
   </message>
   <message name="IDS_ANDROID_MICROPHONE_PERMISSION_OFF" desc="The message to show when the microphone permission needs to be turned on not just in iBrowe, but also in Android settings.">
-    To let <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> access your microphone, also turn on microphone in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    To let <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> access your microphone, also turn on microphone in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MIC_PAGE_DESCRIPTION" desc="Description of the microphone content settings.">
+    Sites usually use your microphone for communication features like video chatting
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MIC_ASK" desc="Primary text corresponding to the ask button in the microphone permission radio button group.">
+    Sites can ask for your microphone
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MIC_BLOCK" desc="Primary text corresponding to the block button in the microphone permission radio button group.">
+    Don't allow sites to use your microphone
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MIC_BLOCK_DESCRIPTION" desc="Description of block microphone permission.">
+    Features that need a microphone won't work
   </message>
 
-  <!-- Motion/Light sensors -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_SENSORS_ALLOWED" desc="Summary text explaining that sites are allowed to use device's sensors and that it is the recommended setting.">
     Allow sites to access sensors (recommended)
@@ -789,8 +901,20 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_MOTION_SENSORS_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can request permission to access motion sensors. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can use your device’s motion sensors. When off, sites can’t use motion sensors.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_MOTION_SENSORS_PAGE_DESCRIPTION" desc="Description of the motion sensors content setting.">
+    Sites usually use your device's motion sensors for features like virtual reality or fitness tracking
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MOTION_SENSORS_ALLOW" desc="Primary text corresponding to the allow button in the motion sensors permission radio buttons group.">
+    Sites can use motion sensors
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MOTION_SENSORS_BLOCK" desc="Primary text corresponding to the block button in the motion sensors permission radio buttons group.">
+    Don't allow sites to use motion sensors
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_MOTION_SENSORS_BLOCK_DESCRIPTION" desc="Description of block motion sensors permission.">
+    Features that need motion sensors won't work
+  </message>
 
-  <!-- NFC -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_NFC_ASK" desc="Summary text explaining that sites need to ask for permission before using NFC and that it is the recommended setting.">
     Ask before allowing sites to see and change information on NFC devices (recommended)
@@ -807,8 +931,17 @@
   <message name="IDS_ANDROID_NFC_UNSUPPORTED" desc="The message to show when NFC is not supported globally in Android">
     This device can't read NFC
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_NFC_PAGE_DESCRIPTION" desc="Description of the NFC content setting.">
+    Sites usually use near-field communication (NFC) to work with nearby tags or devices, like scanning badges or tapping to pay
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_NFC_ASK" desc="Primary text corresponding to the ask button in the NFC permission radio button group.">
+    Sites can ask to use NFC devices
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_NFC_BLOCK" desc="Primary text corresponding to the block button in the NFC permission radio button group.">
+    Don't allow sites to use NFC devices
+  </message>
 
-  <!-- Notifications -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_NOTIFICATIONS_BLOCK" desc="Summary text explaining that sites will not be able to send notifications.">
     Sites can't ask to send notifications
@@ -823,13 +956,19 @@
     Managed by <ph name="APP_NAME">%1$s<ex>App Name</ex></ph>
   </message>
   <message name="IDS_ANDROID_NOTIFICATIONS_PERMISSION_OFF" desc="The message to show when the notifications permission needs to be turned on not just in iBrowe, but also in Android settings.">
-    To let <ph name="APP_NAME">%1$s<ex>iBrowe</ex></ph> send you notifications, also turn on notifications in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+    To let <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> send you notifications, also turn on notifications in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
   </message>
   <message name="IDS_WEBSITE_NOTIFICATION_SETTINGS" desc="Accessibility string for the notification settings">
     Open notification settings
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_NOTIFICATIONS_PAGE_DESCRIPTION" desc="Description of the notifications content setting.">
+    Sites usually send notifications to let you know about breaking news or chat messages.
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_NOTIFICATIONS_BLOCK" desc="Primary text corresponding to the block button in the notifications permission radio buttons group.">
+    Don't allow sites to send notifications
+  </message>
 
-  <!-- Pop-ups and redirects -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_POPUPS_REDIRECTS_BLOCKED" desc="Summary text explaining that sites are blocked from showing popups/redirects and that it is the recommended setting.">
     Block sites from showing pop-ups and redirects (recommended)
@@ -837,8 +976,17 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_POPUPS_REDIRECTS_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can use pop-ups and redirects. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can use pop-ups and redirects. When off, sites can’t use pop-ups and redirects.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_POPUPS_PAGE_DESCRIPTION" desc="Description of the pop-ups content setting.">
+    Sites might send pop-ups to show ads, or use redirects to lead you to websites you may not want to visit
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_POPUPS_REDIRECTS_ALLOW" desc="Primary text corresponding to the allow button in the Pop-ups and redirects permission radio button group.">
+    Sites can send pop-ups and use redirects
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_POPUPS_REDIRECTS_BLOCK" desc="Primary text corresponding to the block button in the Pop-ups and redirects permission radio button group.">
+    Don't allow sites to send pop-ups and use redirects
+  </message>
 
-  <!-- Protected content -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PROTECTED_CONTENT_ALLOWED_RECOMMENDED" desc="Summary text explaining that sites are allowed to play protected content and that it is the recommended setting.">
     Allow sites to play protected content (recommended)
@@ -849,8 +997,20 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_PROTECTED_CONTENT_BLOCKED" desc="Summary text explaining that sites are blocked from playing protected content.">
     Block sites from playing protected content
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_PROTECTED_CONTENT_PAGE_DESCRIPTION" desc="Description of the protected content content setting.">
+    To play content protected by copyright, sites may need to use a content protection service. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Learn more<ph name="END_LINK">&lt;/link&gt;</ph>
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_PROTECTED_CONTENT_ALLOW" desc="Primary text explaining that sites are allowed to play protected content.">
+    Sites can play protected content
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_PROTECTED_CONTENT_ASK" desc="Primary text explaining that sites need to ask for permission before playing protected content.">
+    Sites can ask to play protected content
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_PROTECTED_CONTENT_BLOCK" desc="Primary text explaining that sites are blocked from playing protected content.">
+    Don't allow sites to play protected content
+  </message>
 
-  <!-- Sound -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_SOUND_ALLOWED" desc="Summary text explaining that sites are allowed to play sound and that it is the recommended setting.">
     Allow sites to play sound (recommended)
@@ -870,8 +1030,20 @@
   <message name="IDS_WEBSITE_SETTINGS_ADD_SITE_DESCRIPTION_SOUND_BLOCK" desc="The description for the mute sound for website dialog.">
     Mute sound for a specific site.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_SOUND_PAGE_DESCRIPTION" desc="Description of the sound content setting.">
+    Sites might play sound to provide audio for music, videos and other media
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SOUND_ALLOW" desc="Primary text corresponding to the allow button in the sound permission radio button group.">
+    Sites can play sound
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SOUND_BLOCK" desc="Primary text corresponding to the block button in the sound permission radio button group.">
+    Don't allow sites to play sound
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SOUND_BLOCK_DESCRIPTION" desc="Description of block sound permission.">
+    Features that need sound won't work
+  </message>
 
-  <!-- Storage -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_STORAGE" desc="Title for Storage settings which show how much data websites are storing on the user's device. [CHAR_LIMIT=32]">
     Data stored
@@ -886,7 +1058,7 @@
     Delete all data
   </message>
 
-  <!-- ZOOM -->
+  
 
   <message name="IDS_SITE_SETTINGS_EMPTY_ZOOM_LEVELS_MESSAGE" desc="Text to display when there are no saved zooms">
     Sites that you save a custom zoom level for will appear here
@@ -901,7 +1073,7 @@
     Delete saved zoom level
   </message>
 
-  <!-- USB -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_USB_ASK" desc="Summary text explaining that the USB permission is set to ask the user for permission to access individual devices. To be shown in the list of permission categories.">
     Ask before allowing sites to connect to a device (recommended)
@@ -922,8 +1094,17 @@
   <message name="IDS_WEBSITE_SETTINGS_USB" desc="Title for USB settings, which control which of the user's USB devices can be accessed from websites.">
     USB
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_USB_PAGE_DESCRIPTION" desc="Description of the USB devices content settings">
+    Sites usually connect to USB devices for features like printing a document or saving to a storage device
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_USB_ASK" desc="Primary text corresponding to the ask button in the USB permission radio button group.">
+    Sites can ask to connect to USB devices
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_USB_BLOCK" desc="Primary text corresponding to the block button in the USB permission radio button group.">
+    Don't allow sites to connect to USB devices
+  </message>
 
-  <!-- Virtual reality -->
+  
 
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_VR_ASK" desc="Summary text explaining that sites need to ask for permission before using VR and that it is the recommended setting.">
     Ask before allowing sites to use your virtual reality device and data (recommended)
@@ -934,8 +1115,17 @@
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_VR_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether sites can request permission to use VR. It is important to keep this string as two full sentences terminated by a period.">
     When on, sites can ask to use virtual reality devices. When off, sites can’t use virtual reality devices.
   </message>
+  <message name="IDS_WEBSITE_SETTINGS_VR_PAGE_DESCRIPTION" desc="Description of the virtual reality content setting.">
+    Sites usually use your virtual reality devices and data to let you enter VR sessions
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_VR_ASK" desc="Primary text corresponding to the ask button in the VR permission radio button group.">
+    Sites can ask to use virtual reality devices and data
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_VR_BLOCK" desc="Primary text corresponding to the block button in the VR permission radio button group.">
+    Don't allow sites to use virtual reality devices or data
+  </message>
 
-  <!-- Auto-darken web content -->
+  
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_AUTO_DARK_ALLOWED" desc="Summary text explaining that sites are alllowed to be darkend with iBrowe branded darkening algorithm.">
     Apply dark theme to sites when iBrowe uses dark theme, when possible
   </message>
@@ -946,28 +1136,51 @@
     Don’t apply dark theme for a specific site
   </message>
 
-  <!-- Storage access -->
-  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_STORAGE_ACCESS_ALLOWED" desc="One of two radio buttons on the Embedded content settings page. If a user chooses this option, they're allowing a new permission prompt that may get shown as the user browses sites. In the description below, “Google Docs” is just used as an example. 1) “use info” means retrieve existing info and save additional info. 2) “they've' saved about you”: Google Docs can only prompt the user for permission on www.myfavoritesite.com if the user has previously used Google Docs.">
-    Sites can ask to use info they've saved about you
+  
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_STORAGE_ACCESS_ALLOWED" desc="One of two radio buttons on the Embedded content settings page. If a user chooses this option, they're allowing a new permission prompt that may get shown as the user browses sites. In the description below, “Google Docs” is just used as an example. 1) “use information” means retrieve existing info and save additional info. 2) “they've' saved about you”: Google Docs can only prompt the user for permission on www.myfavoritesite.com if the user has previously used Google Docs.">
+    Sites can ask to use information they've saved about you
   </message>
-  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_STORAGE_ACCESS_BLOCKED" desc="The second of two radio buttons on the Embedded content settings page. If a user chooses this option, they're not allowing a new permission prompt that may get shown as the user browses sites. In the description below, “www.myfavoritesite.com” and “Google Docs” are just used as examples. 1) “use info” means retrieve existing info and save additional info. 2) “they've' saved about you”: Google Docs can only prompt the user for permission on www.myfavoritesite.com if the user has previously used Google Docs.">
-    Sites are blocked from asking you to use info they've saved about you
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_STORAGE_ACCESS_BLOCKED" desc="The second of two radio buttons on the Embedded content settings page. If a user chooses this option, they're not allowing a new permission prompt that may get shown as the user browses sites. In the description below, “www.myfavoritesite.com” and “Google Docs” are just used as examples. 1) “use information” means retrieve existing info and save additional info. 2) “they've' saved about you”: Google Docs can only prompt the user for permission on www.myfavoritesite.com if the user has previously used Google Docs.">
+    Sites are blocked from asking you to use information they've saved about you
   </message>
   <message name="IDS_WEBSITE_SETTINGS_CATEGORY_STORAGE_ACCESS_A11Y" desc="The screen reader announcement describing a toggle with two states, controling whether embedded content on a website can retrieve existing info and save additional info. It is important to keep this string as two full sentences terminated by a period">
-    When on, sites can ask to use info they've saved about you. When off, sites can't ask you to use info they've saved about you.
+    When on, sites can ask to use information they've saved about you. When off, sites can't ask you to use info they've saved about you.
   </message>
   <message name="IDS_WEBSITE_SETTINGS_STORAGE_ACCESS_PAGE_DESCRIPTION" desc="The body description on the Embedded content settings page.">
-    Sites you visit can embed content from other sites, for example images, ads, and text. These other sites can ask for permission to use info they've saved about you as you browse the site. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Learn more about embedded content<ph name="END_LINK">&lt;/link&gt;</ph>
+    Sites you visit can embed content from other sites, for example images, ads, and text. These other sites can ask for permission to use information they've saved about you as you browse the site. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Learn more about embedded content<ph name="END_LINK">&lt;/link&gt;</ph>
   </message>
-  <message name="IDS_WEBSITE_SETTINGS_STORAGE_ACCESS_ALLOWED_SUBTITLE" desc="Text that explains that a webite is allowed to “use their info“ on one or more sites that follow this text. Previously, the user 1) visited a site, such as www.myfavoritesite.com 2)  www.myfavoritesite.com embeds content and services, such as Google Docs. 3) Google Docs prompted the user for permission to use data Google Docs has previously saved related to the user. 4) The user says yes. 5) Later in settings, the user sees the site exception with this text and can revoke its access.">
-    <ph name="SITE">%1$s<ex>google.com</ex></ph> can use your info as you browse
+  <message name="IDS_WEBSITE_SETTINGS_STORAGE_ACCESS_ALLOWED_SUBTITLE" desc="Text that explains that a webite is allowed to “use their information“ on one or more sites that follow this text. Previously, the user 1) visited a site, such as www.myfavoritesite.com 2)  www.myfavoritesite.com embeds content and services, such as Google Docs. 3) Google Docs prompted the user for permission to use data Google Docs has previously saved related to the user. 4) The user says yes. 5) Later in settings, the user sees the site exception with this text and can revoke its access.">
+    <ph name="SITE">%1$s<ex>google.com</ex></ph> can use your information as you browse
   </message>
-  <message name="IDS_WEBSITE_SETTINGS_STORAGE_ACCESS_BLOCKED_SUBTITLE" desc="Text that explains that a webite is not allowed to “use their info“ on one or more sites that follow this text. Previously, the user 1) visited a site, such as www.myfavoritesite.com 2)  www.myfavoritesite.com embeds content and services, such as Google Docs. 3) Google Docs prompted the user for permission to use data Google Docs has previously saved related to the user. 4) The user says yes. 5) Later in settings, the user sees the site exception with this text and can unblock the site.">
-    <ph name="SITE">%1$s<ex>google.com</ex></ph> is blocked from using your info on
+  <message name="IDS_WEBSITE_SETTINGS_STORAGE_ACCESS_BLOCKED_SUBTITLE" desc="Text that explains that a webite is not allowed to “use their information“ on one or more sites that follow this text. Previously, the user 1) visited a site, such as www.myfavoritesite.com 2)  www.myfavoritesite.com embeds content and services, such as Google Docs. 3) Google Docs prompted the user for permission to use data Google Docs has previously saved related to the user. 4) The user says yes. 5) Later in settings, the user sees the site exception with this text and can unblock the site.">
+    <ph name="SITE">%1$s<ex>google.com</ex></ph> is blocked from using your information on
   </message>
   <message name="IDS_NUMBER_SITES" desc="Number of embedded sites associated with a permission">
     {COUNT, plural,
       =1 {<ph name="SITE_COUNT">%1$s<ex>1</ex></ph> site}
       other {<ph name="SITE_COUNT">%1$s<ex>9</ex></ph> sites}}
+  </message>
+
+  
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_SERIAL_PORT_ASK" desc="Summary text explaining that the serial port permission is set to ask the user for permission to access individual devices. To be shown in the list of permission categories.">
+    Ask before allowing sites to connect to a device (recommended)
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_SERIAL_PORT_BLOCKED" desc="Summary text explaining that the serial port permission is set to block all requests for access to devices. To be shown in the list of permission categories.">
+    Block sites from connecting to devices
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_CATEGORY_SERIAL_PORT_A11Y" desc="The screen reader announcement describing a toggle with two states, controlling sites can request permission to use serial ports. It is important to keep this string as two full sentences terminated by a period.">
+    When on, sites can ask to use serial ports. When off, sites can’t use serial ports.
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SERIAL_PORT" desc="Title for serial port settings, which control which of the user's serial ports can be accessed from websites.">
+    Serial port
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SERIAL_PORT_PAGE_DESCRIPTION" desc="Description of the serial ports content settings">
+    Sites usually connect to serial ports for data transfer features, like setting up your network
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SERIAL_PORT_ASK" desc="Primary text corresponding to the ask button in the serial port permission radio button group.">
+    Sites can ask to connect to serial ports
+  </message>
+  <message name="IDS_WEBSITE_SETTINGS_SERIAL_PORT_BLOCK" desc="Primary text corresponding to the block button in the serial port permission radio button group.">
+    Don't allow sites to connect to serial ports
   </message>
 </grit-part>
