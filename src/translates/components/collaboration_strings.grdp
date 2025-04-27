@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Collaboration -->
   <message name="IDS_COLLABORATION_SIGNIN_TITLE" desc="The title of the collaboration signin screen." formatter_data="android_java">
     Collaborate in tab groups
   </message>
@@ -37,7 +38,7 @@
   <message name="IDS_COLLABORATION_LOADING_TEXT" desc="The text message that appears when tab group is loading." formatter_data="android_java">
     Loading tab group
   </message>
-  
+  <!-- Error Messages -->
   <message name="IDS_COLLABORATION_SOMETHING_WENT_WRONG_HEADER" desc="The header of the error dialog something went wrong.">
     Something went wrong.
   </message>
@@ -80,11 +81,11 @@
   <message name="IDS_COLLABORATION_ENTREPRISE_SYNC_DISABLED_BODY" desc="The body of the error dialog when entreprise sync disabled.">
     When your organization limits saving to your iBrowe sync chain, you can’t share or join tab groups
   </message>
-  
-  
+  <!-- Error Messages -->
+  <!-- /Collaboration -->
 
-  
-  
+  <!-- Data Sharing -->
+  <!-- Error Messages -->
   <if expr="is_android">
     <message name="IDS_COLLABORATION_SHARE_SHEET_TITLE" desc="The title of the share sheet when sharing a tab group." formatter_data="android_java">
       Collaborate on tab group
@@ -96,10 +97,10 @@
       Shared tab group
     </message>
   </if>
-  
-  
+  <!-- Error Messages -->
+  <!-- /Data Sharing -->
 
-  
+  <!-- Recent Activity -->
   <message name="IDS_DATA_SHARING_RECENT_ACTIVITY_USER_SELF" desc="Text on a recent activity bottom sheet row that indicates that the user themselves took an action, e.g. user themselves changed the tab as opposed to another user changing the tab. Used as the first part of another string.">
     You
   </message>
@@ -146,6 +147,6 @@
   <message name="IDS_DATA_SHARING_RECENT_ACTIVITY_UNKNOWN_USER" desc="The user name to show on the recent activity bottom sheet row if the user info cannot be found, e.g. deleted their account.">
     Deleted account
   </message>
-  
+  <!-- Recent Activity -->
 
 </grit-part>

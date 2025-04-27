@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <grit-part>
   <message name="IDS_TOOLTIP_WALLET" desc="Tooltip to acccess the iBrowe Wallet">Wallet</message>
   <message name="IDS_ACCNAME_BRAVE_WALLET_BUTTON" desc="The accessible name for the iBrowe Wallet bubble.">iBrowe Wallet</message>
@@ -163,7 +163,7 @@
   <message name="IDS_BRAVE_WALLET_SWAP_DISCLAIMER" desc="Swap Security and Privacy Disclaimer">iBrowe uses <ph name="LINK_BEFORE">$1</ph><ph name="SWAP_PROVIDER">$3</ph><ph name="LINK_AFTER">$2</ph> as a DEX aggregator.</message>
   <message name="IDS_BRAVE_WALLET_SWAP_DISCLAIMER_DESCRIPTION" desc="Swap 0x Security and Privacy Disclaimer Description">0x will process the Ethereum address and IP address to fulfill a transaction (including getting quotes). 0x will ONLY use this data for the purposes of processing transactions.</message>
   <message name="IDS_BRAVE_WALLET_JUPITER_SWAP_DISCLAIMER_DESCRIPTION" desc="Swap Jupiter Security and Privacy Disclaimer Description">Jupiter will process the Solana address and IP address to fulfill a transaction (including getting quotes). Jupiter will ONLY use this data for the purposes of processing transactions.</message>
-  <message name="IDS_BRAVE_WALLET_SWAP_FEES_NOTICE" desc="Swap fees notice">Quote includes a <ph name="SWAP_FEE_PERCENTAGE">$1</ph> Brave fee.</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_FEES_NOTICE" desc="Swap fees notice">Quote includes a <ph name="SWAP_FEE_PERCENTAGE">$1</ph> iBrowe fee.</message>
   <message name="IDS_BRAVE_WALLET_DECIMAL_PLACES_ERROR" desc="Amount decimal places error">Too many decimal places</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_DESCRIPTION" desc="Create Account Tab Description">You don’t yet have a <ph name="ACCOUNT_TYPE"><ex>Solana</ex>$1</ph> account. Create one now?</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_YES" desc="Create Account Tab Yes Button">Yes</message>
@@ -300,7 +300,7 @@
   <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_WALLET_DESCRIPTION" desc="Description for connect hardware wallet page">We currently support <ph name="HARDWARE_DEVICE"><ex>Ledger</ex>$1</ph> and <ph name="HARDWARE_DEVICE1"><ex>Trezor</ex>$2</ph> devices.</message>
   <message name="IDS_BRAVE_WALLET_IMPORT_HARDWARE_WALLET_DESCRIPTION" desc="Description for import hardware wallet page">Connect your hardware wallet to manage your assets directly from iBrowe Wallet</message>
   <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_WALLET_SELECT_BLOCKCHAIN" desc="Page title for selecting blockchain for hardware wallet">Select a blockchain to import your hardware wallet</message>
-  <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_DEVICE_DESCRIPTION" desc="Connect a hardware wallet description">Connect your <ph name="HARDWARE_DEVICE"><ex>Ledger</ex>$1</ph> device to Brave Wallet</message>
+  <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_DEVICE_DESCRIPTION" desc="Connect a hardware wallet description">Connect your <ph name="HARDWARE_DEVICE"><ex>Ledger</ex>$1</ph> device to iBrowe Wallet</message>
   <message name="IDS_BRAVE_WALLET_UNKNOWN_INTERNAL_ERROR" desc="Connect hardware wallet connection error">Unknown error, please reconnect your hardware wallet and try again.</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_WATCHLIST" desc="Account settings modal visible assets button">Visible assets</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_PRIVATE_KEY" desc="Account settings modal show private key button">Private key</message>
@@ -450,7 +450,7 @@
   <message name="IDS_BRAVE_WALLET_PERMISSION_ONE_WEEK" desc="Connect with site panel DApp is connected for 1 week">For 1 week</message>
   <message name="IDS_BRAVE_WALLET_PERMISSION_FOREVER" desc="Connect with site panel DApp is connected forever">Forever</message>
   <message name="IDS_BRAVE_WALLET_CRYPTO_WALLETS_DETECTED" desc="Wallet Welcome screen detected crypto wallets title">Existing crypto wallets detected</message>
-  <message name="IDS_BRAVE_WALLET_CRYPTO_WALLETS_DESCRIPTION_TWO" desc="Wallet welcome screen detected crypto wallets second description">If you'd rather skip the import and keep the old Crypto Wallets experience, just navigate to the iBrowe Browser <ph name="LINK_BEFORE">$1</ph>Settings<ph name="LINK_AFTER">$2</ph> and change the default back to Crypto Wallets. You can also import, try the new Brave Wallet, and change back at any time.</message>
+  <message name="IDS_BRAVE_WALLET_CRYPTO_WALLETS_DESCRIPTION_TWO" desc="Wallet welcome screen detected crypto wallets second description">If you&apos;d rather skip the import and keep the old Crypto Wallets experience, just navigate to the iBrowe Browser <ph name="LINK_BEFORE">$1</ph>Settings<ph name="LINK_AFTER">$2</ph> and change the default back to Crypto Wallets. You can also import, try the new iBrowe Wallet, and change back at any time.</message>
   <message name="IDS_BRAVE_WALLET_IMPORT_BRAVE_LEGACY_DESCRIPTION" desc="Import CryptoWallets screen description">Enter your existing crypto wallets password to import to iBrowe Wallet. Enjoy a faster and more secure way to manage crypto assets and interact with Web3 DApps.</message>
   <message name="IDS_BRAVE_WALLET_IMPORT_BRAVE_LEGACY_INPUT" desc="Import CryptoWallets screen password input placeholder">Type Crypto wallets password</message>
   <message name="IDS_BRAVE_WALLET_CONNECT_HARDWARE_PANEL_CONNECTED" desc="Connect Hardware panel connected status"><ph name="DEVICE_NAME"><ex>Ledger</ex>$1</ph> connected</message>
@@ -616,7 +616,7 @@
     iBrowe Swap-stakes
   </message>
   <message name="IDS_BRAVE_WALLET_SWEEPSTAKES_DESCRIPTION" desc="A short description of the swap sweepstakes">
-    7 days of crypto giveaways, ~$500k in prizes.
+    7 days of crypto giveaways, ~&#36;500k in prizes.
   </message>
   <message name="IDS_BRAVE_WALLET_SWEEPSTAKES_CALL_TO_ACTION" desc="A short description of the swap sweepstakes">
     Enter now!
@@ -752,7 +752,7 @@
   <message name="IDS_BRAVE_WALLET_TRANSACTION_INTENT_SEND" desc="Transaction intent for transfers">Send <ph name="VALUE">$1<ex>1000 USDC</ex></ph></message>
   <message name="IDS_BRAVE_WALLET_TRANSACTION_INTENT_SWAP" desc="Transaction intent for swaps">Swap <ph name="MAKER">$1<ex>1000 USDC</ex></ph> to <ph name="TAKER">$2<ex>990 USDT</ex></ph></message>
   <message name="IDS_BRAVE_WALLET_SIGN_IN_WITH_BRAVE_WALLET" desc="Sign in with iBrowe Wallet Title">Sign in with iBrowe Wallet</message>
-  <message name="IDS_BRAVE_WALLET_SIGN_IN_WITH_BRAVE_WALLET_MESSAGE" desc="Sign in with iBrowe Wallet Message">You are signing into <ph name="ORIGIN">$1<ex>login.xyz</ex></ph>. Brave Wallet will share your wallet address with <ph name="ORIGIN">$1<ex>login.xyz</ex></ph>.</message>
+  <message name="IDS_BRAVE_WALLET_SIGN_IN_WITH_BRAVE_WALLET_MESSAGE" desc="Sign in with iBrowe Wallet Message">You are signing into <ph name="ORIGIN">$1<ex>login.xyz</ex></ph>. iBrowe Wallet will share your wallet address with <ph name="ORIGIN">$1<ex>login.xyz</ex></ph>.</message>
   <message name="IDS_BRAVE_WALLET_SEE_DETAILS" desc="Sign in with iBrowe Wallet See details button">See details</message>
   <message name="IDS_BRAVE_WALLET_SIGN_IN" desc="Sign in with iBrowe Wallet Sign in Button">Sign in</message>
   <message name="IDS_BRAVE_WALLET_ORIGIN" desc="Sign in with iBrowe Wallet Origin Label">Origin</message>

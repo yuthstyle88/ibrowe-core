@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <if expr="not is_android">
     <message name="IDS_GEOLOCATION_INFOBAR_TEXT" desc="Text requesting permission for a site to access the user's physical location">
@@ -100,7 +101,7 @@
       Know your unique device identifier
     </message>
     <message name="IDS_PROTECTED_MEDIA_IDENTIFIER_PER_ORIGIN_PROVISIONING_INFOBAR_TEXT" desc="Text requesting permission for a site to access protected media identifier. It shows the origin of the URL.">
-      <ph name="URL">$1<ex>https://www.youtube.com</ex></ph> wants to play protected content. Your device’s identity will be verified by Brave.
+      <ph name="URL">$1<ex>https://www.youtube.com</ex></ph> wants to play protected content. Your device’s identity will be verified by iBrowe.
     </message>
   </if>
   <message name="IDS_GEOLOCATION_INFOBAR_PERMISSION_FRAGMENT" desc="Permission fragment used in the permission bubble, after 'This site wants to:' asking for permission to access the user's physical location.">
@@ -210,7 +211,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
   <message name="IDS_PERMISSION_NEVER_ALLOW" desc="(Alternative label, to compare) label on button to permanent deny in a one-time granting use case.">
     Never allow
   </message>
-  
+  <!-- Device Chooser -->
   <if expr="not is_android">
     <message name="IDS_BLUETOOTH_DEVICE_CHOOSER_PROMPT" desc="The label that is used to introduce Bluetooth chooser details to the user in a popup.">
       <ph name="Origin">$1<ex>www.google.com</ex></ph> wants to pair
@@ -241,7 +242,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
     <ph name="DEVICE_NAME">$1<ex>device name</ex></ph> (<ph name="DEVICE_ID">$2<ex>device id</ex></ph>)
   </message>
 
-  
+  <!-- Bluetooth Scanning Prompt -->
   <if expr="not is_android">
     <message name="IDS_BLUETOOTH_SCANNING_PROMPT" desc="The label that is used to introduce Bluetooth scanning prompt details to the user.">
       <ph name="Origin">$1<ex>www.google.com</ex></ph> wants to scan for nearby Bluetooth devices. The following devices have been found:
@@ -459,7 +460,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
     </message>
   </if>
 
-  
+  <!-- Quota messages -->
   <if expr="is_android">
     <message name="IDS_REQUEST_QUOTA_INFOBAR_TEXT" desc="Mobile: For Android device. Text requesting permission for a site to use a new (larger) quota to persistently store data on the device (e.g. for persistent-type filesystem).">
       <ph name="URL">$1<ex>html5rocks.com</ex></ph> wants to permanently store data on your device
@@ -480,7 +481,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
     Store files on this device
   </message>
 
-  
+  <!-- Embedded permission prompts: text -->
   <message name="IDS_EMBEDDED_PROMPT_ADMIN_BLOCKED" desc="Text informing the user that their administrator has blocked a permission for a site">
     Your administrator doesn't allow <ph name="permission">$1<ex>camera</ex></ph> for this site
   </message>
@@ -494,7 +495,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
     You previously didn't allow <ph name="permission">$1<ex>camera</ex></ph> for this site
   </message>
   <message name="IDS_PERMISSION_OFF_FOR_CHROME" desc="Text informing the user that they have turned the permission off for chrome">
-    To use your <ph name="permission">$1<ex>camera</ex></ph> on this site, give Brave access
+    To use your <ph name="permission">$1<ex>camera</ex></ph> on this site, give iBrowe access
   </message>
   <message name="IDS_PERMISSION_CHROME_NEEDS_PERMISSION" desc="Text informing the user in the background that iBrowe needs a permission in order to use it on the site the user is visiting">
       iBrowe needs access to your device's <ph name="permission">$1<ex>camera</ex></ph>
@@ -525,7 +526,7 @@ This will otherwise be blocked by your privacy settings. This will allow the con
       Android
     </message>
   </if>
-  
+  <!--Embedded permission prompts: button labels-->
   <message name="IDS_EMBEDDED_PROMPT_OK_LABEL" desc="Label used on a button that allows the user to acknowledge and close an informational dialog">
     OK
   </message>

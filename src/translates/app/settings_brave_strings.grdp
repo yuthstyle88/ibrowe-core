@@ -1,12 +1,14 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Settings-specific iBrowe strings (included from chromium_strings.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Shared across multiple page -->
   <if expr="not is_chromeos">
     <message name="IDS_RELAUNCH_CONFIRMATION_DIALOG_TITLE" desc="The title of the modal dialog that we show when users click on relaunch and they have open Private windows. The dialog serves to warn the users about losing their Private windows if they proceed with the relaunch.">
       Relaunch iBrowe?
     </message>
   </if>
-  
+  <!-- About Page -->
   <if expr="_is_chrome_for_testing_branded">
     <then>
       <message name="IDS_SETTINGS_ABOUT_PROGRAM" desc="Menu title for the About iBrowe for Testing page.">
@@ -48,7 +50,7 @@
     </message>
   </if>
 
-  
+  <!-- Autofill Page -->
   <message name="IDS_SETTINGS_CHECK_PASSWORDS_ERROR_OFFLINE" desc="Error message when the password check can't be completed because the user is offline.">
     iBrowe can't check your passwords. Try checking your internet connection.
   </message>
@@ -59,7 +61,7 @@
     No saved passwords. iBrowe can check your passwords when you save them.
   </message>
   <message name="IDS_SETTINGS_CHECK_PASSWORDS_ERROR_QUOTA_LIMIT_GOOGLE_ACCOUNT" desc="Error message when the password check can't be completed since the user hit the quota limit, but the user is able to check their passwords in their iBrowe account.">
-    iBrowe can't check your passwords. Try again after 24 hours or <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>check passwords in your Brave sync chain<ph name="END_LINK">&lt;/a&gt;</ph>.
+    iBrowe can't check your passwords. Try again after 24 hours or <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>check passwords in your iBrowe sync chain<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_CHECK_PASSWORDS_ERROR_QUOTA_LIMIT" desc="Error message when the password check can't be completed since the user hit the quota limit.">
     iBrowe can't check your passwords. Try again after 24 hours.
@@ -71,10 +73,10 @@
     iBrowe will notify you when you sign in with a compromised password
   </message>
   <message name="IDS_SETTINGS_SIGNED_OUT_USER_LABEL" desc="Label which is shown at the top of the compromised password section if user is signed out.">
-    To check if your passwords are safe from data breaches and other security issues, <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>sign in to Brave<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To check if your passwords are safe from data breaches and other security issues, <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>sign in to iBrowe<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_SIGNED_OUT_USER_HAS_COMPROMISED_CREDENTIALS_LABEL" desc="Label which is shown at the bottom of the compromised password section if user is signed out and has compromised credentials.">
-    To check if your other passwords are safe from data breaches and other security issues, <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>sign in to Brave<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To check if your other passwords are safe from data breaches and other security issues, <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>sign in to iBrowe<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_WEAK_PASSWORDS_DESCRIPTION_GENERATION" desc="Information about why weak passwords are a security issue and what syncing user should do to fix the problem. Has a link.">
     Weak passwords are easy to guess. Let iBrowe <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>create and remember strong passwords for you<ph name="END_LINK">&lt;/a&gt;</ph>.
@@ -83,7 +85,7 @@
     If so, please edit your saved password in iBrowe so it matches your new password.
   </message>
 
-  
+  <!-- Autofill with AI Page-->
   <message name="IDS_SETTINGS_AUTOFILL_PREDICTION_IMPROVEMENTS_WHEN_ON_SAVED_INFO" desc="One of the items describing what happens when improved autofill predictions are enabled.">
     iBrowe will ask if you want to save form information, such as your birthday, age, and passport number
   </message>
@@ -94,10 +96,10 @@
     iBrowe understands forms better and can autofill them faster for you
   </message>
   <message name="IDS_SETTINGS_AUTOFILL_PREDICTION_IMPROVEMENTS_TOGGLE_SUB_LABEL" desc="The description of the main toggle that enables/disables improved autofill predictions.">
-    iBrowe understands forms better and can autofill them faster for you. Learn more about <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Brave Autofill<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
+    iBrowe understands forms better and can autofill them faster for you. Learn more about <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>iBrowe Autofill<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
 
-  
+  <!-- Default Browser Page -->
   <if expr="not is_chromeos">
     <message name="IDS_SETTINGS_DEFAULT_BROWSER_DEFAULT" desc="The text displayed when iBrowe is the default browser">
       iBrowe is your default browser
@@ -122,7 +124,7 @@
     </if>
   </if>
 
-  
+  <!-- Preloading Page-->
   <message name="IDS_SETTINGS_PRELOAD_PAGES_STANDARD_PRELOADING_WHEN_ON_BULLET_TWO" desc="Bullet point in the standard preloading and when on column. Informs the user about what the standard preloading setting does.">
     iBrowe preloads pages you're likely to visit, so that they load more quickly when you visit them
   </message>
@@ -136,7 +138,7 @@
     If you allow cookies, iBrowe may use them when preloading
   </message>
 
-  
+  <!-- Privacy Page -->
   <message name="IDS_SETTINGS_SPELLING_PREF_DESC" desc="Description of using a web serviced to help resolve spelling errors. It is important to convey that what the user types will be sent to iBrowe.">
     To fix spelling errors, iBrowe sends the text you type in text fields to iBrowe
   </message>
@@ -153,7 +155,7 @@
     </message>
   </if>
 
-  
+  <!-- Site Settings -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_PDFS_BLOCKED" desc="Label for the disabled option of the pdfs content setting.">
     Open PDFs in iBrowe
   </message>
@@ -176,7 +178,7 @@
     To use your microphone on these sites, give iBrowe access in <ph name="BEGIN_LINK">&lt;a href="#" id="openSystemSettingsLink" &gt;</ph>system settings<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
 
-    
+    <!-- Site Settings - Site Data Page-->
   <message name="IDS_SETTINGS_SITE_DATA_PAGE_CLEAR_ON_EXIT_WITH_EXCEPTION_RADIO_SUBLABEL" desc="A description of the benefit/cost of choosing 'Sites can save content on your device. In short, a site will remember your preferences, shopping cart content, etc. during this browser session. But once you close all open windows, and then visit the site again, it's as if you're coming to the site for the first time.">
     Sites will probably work as expected. You'll be signed out of most sites when you close all iBrowe windows, except your iBrowe sync chain if you're signed in to iBrowe.
   </message>
@@ -184,7 +186,7 @@
     Always delete site data from your device when you close iBrowe
   </message>
 
-  
+  <!-- Privacy Guide -->
   <message name="IDS_SETTINGS_PRIVACY_GUIDE_PROMO_BODY" desc="Body text of a card in the settings page that explains what the 'Privacy Guide' feature is.">
     Review key privacy and security controls in iBrowe
   </message>
@@ -207,7 +209,7 @@
     If you also share iBrowe usage reports, those reports include the URLs you visit
   </message>
 
-  
+  <!-- Privacy Sandbox -->
   <message name="IDS_SETTINGS_PRIVACY_SANDBOX_LEARN_MORE_DIALOG_TOPICS_TITLE" desc="TOPICS API A sub title that describes the first of 2 ways a site can get info from iBrowe in order to target ads to the user. Topics of interest include things like “Live comedy” and “Rock music”. iBrowe estimates these interests based on the sites users visit. * “Your”: we need to convey a sense of ownership, even if the user didn’t explicitly choose the interests we’re talking about. Without the “your”, it could sound like iBrowe is simply building a generic library of interests. * “estimated”: It’s an “estimation”, and we don’t want to suggest that we know with certainty the user’s interests. Avoid words like “guess”, “establish”, “define”, etc. (in place of “estimate”). * “by iBrowe”: This is new behavior for a browser (iBrowe) to take an active role in processing user data for the purposes of showing ads. It’s important to convey “chrome”, the actor in this case.">
     Your interests as estimated by iBrowe
   </message>
@@ -257,12 +259,12 @@
     When trials are on, Ad measurement allows sites you visit to request information from iBrowe that helps the site measure the performance of their ads. Ad measurement restricts cross-site tracking by transferring as little information as possible between sites.
   </message>
 
-  
+  <!-- Safety check -->
   <message name="IDS_SETTINGS_SAFETY_CHECK_UNUSED_SITE_PERMISSIONS_SETTING_SUBLABEL" desc="By default iBrowe auto-revokes (disables) permissions (e.g. Camera, Location, etc.) for websites that were not visited for a while. This sublabel is for the toggle that allows users to switch off/on this functionality.">
     To protect your data, let iBrowe remove permissions from sites you haven't visited recently. Doesn't stop notifications.
   </message>
 
-  
+  <!-- Safe Browsing -->
   <message name="IDS_SETTINGS_SAFEBROWSING_ENHANCED_BULLET_TWO" desc="Bullet point under the safe browsing enhanced protection mode">
     Keeps you safe on iBrowe and may be used to improve your security in other iBrowe apps when you are signed in
   </message>
@@ -273,18 +275,18 @@
     Warns you about dangerous sites, even ones iBrowe didn't know about before, by analyzing more data from sites than standard protection. You can choose to skip iBrowe warnings.
   </message>
   <message name="IDS_SETTINGS_SAFEBROWSING_ENHANCED_LEARN_MORE_LABEL" desc="The text for a link to a help center article that gives more information about Safe Browsing.">
-    Learn more about <ph name="BEGIN_LINK">&lt;a href="#" id="enhancedProtectionLearnMoreLink" on-click="onEnhancedProtectionLearnMoreClick_"&gt;</ph>how Brave keeps your data private<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
+    Learn more about <ph name="BEGIN_LINK">&lt;a href="#" id="enhancedProtectionLearnMoreLink" on-click="onEnhancedProtectionLearnMoreClick_"&gt;</ph>how iBrowe keeps your data private<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SECURE_DNS_DESCRIPTION" desc="Secondary, continued explanation of secure DNS in Privacy options">
     Make it harder for people with access to your internet traffic to see which sites you visit. iBrowe uses a secure connection to look up a site's IP address in the DNS (Domain Name System).
   </message>
 
-  
+  <!-- People Page -->
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_DELETE_PROFILE_WARNING_WITH_COUNTS_SINGULAR" desc="Warning message displayed in the Sign out of iBrowe dialog that indicates profile browsing data will be removed from the device.">
     This will delete 1 item from this device. To retrieve your data later, sign in to iBrowe as <ph name="USER_EMAIL">$1<ex>foo@example.com</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_DELETE_PROFILE_WARNING_WITH_COUNTS_PLURAL" desc="Warning message displayed in the Sign out of iBrowe dialog that indicates profile browsing data will be removed from the device.">
-    This will delete <ph name="ITEMS_COUNT">$1<ex>66</ex></ph> items from this device. To retrieve your data later, sign in to Brave as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
+    This will delete <ph name="ITEMS_COUNT">$1<ex>66</ex></ph> items from this device. To retrieve your data later, sign in to iBrowe as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_DELETE_PROFILE_WARNING_WITHOUT_COUNTS" desc="Warning message displayed in the Sign out of iBrowe dialog that indicates profile browsing data will be removed from the device.">
     This will delete your browsing data from this device. To retrieve your data later, sign in to iBrowe as <ph name="USER_EMAIL">$1<ex>foo@example.com</ex></ph>.
@@ -315,10 +317,10 @@
     Sign in to iBrowe when you sign in to other iBrowe services
   </message>
   <message name="IDS_SETTINGS_SIGNIN_CHROME_SIGNIN_OPTIONS_DESC" desc="Description of the settings that controls whether a user gets signed in to iBrowe when signing in to iBrowe Services.">
-    When signing into iBrowe services like Gmail or Youtube with <ph name="USER_EMAIL">$1<ex>foo@example.com</ex></ph>, you can automatically sign in to Brave with the same account
+    When signing into iBrowe services like Gmail or Youtube with <ph name="USER_EMAIL">$1<ex>foo@example.com</ex></ph>, you can automatically sign in to iBrowe with the same account
   </message>
 
-  
+  <!-- Sync Page -->
   <message name="IDS_SETTINGS_SYNC_DATA_ENCRYPTED_TEXT" desc="Text alerting the user that synced data is encrypted.">
     For added security, iBrowe will encrypt your data.
   </message>
@@ -359,12 +361,12 @@
     Sign out of iBrowe
   </message>
 
-  
+  <!-- Page content -->
   <message name="IDS_SETTINGS_PAGE_CONTENT_THINGS_TO_CONSIDER_BULLET_TWO" desc="Bullet point in the 'Things to consider' column of the description of the setting that enables features that provide contextual help for currently opened pages.">
     To help improve these features, iBrowe sends your interactions with them to iBrowe. This data may be read, processed, and annotated by human reviewers.
   </message>
 
-  
+  <!-- Performance Page -->
   <message name="IDS_SETTINGS_PERFORMANCE_MEMORY_SAVER_MODE_SETTING_DESCRIPTION" desc="Description for the memory saver mode setting">
     iBrowe frees up memory from inactive tabs. This gives active tabs and other apps more computer resources and keeps iBrowe fast. Your inactive tabs automatically become active again when you go back to them. <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank" id="learn-more" aria-description="$2"&gt;</ph>Learn more about Memory Saver<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
@@ -375,7 +377,7 @@
     iBrowe preloads pages which makes browsing and searching faster. <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank" id="learn-more" aria-description="$2"&gt;</ph>Learn more about preload pages<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  
+  <!-- Languages Page -->
   <if expr="is_win">
     <message name="IDS_SETTINGS_LANGUAGES_IS_DISPLAYED_IN_THIS_LANGUAGE" desc="The label for a language that is currently used as the UI display language.">
       This language is used to display menus, settings, alerts, and other text in iBrowe
@@ -385,19 +387,19 @@
     </message>
   </if>
 
-  
+  <!-- System Page -->
   <if expr="not is_chromeos">
     <message name="IDS_SETTINGS_SYSTEM_BACKGROUND_APPS_LABEL" desc="Label for the checkbox to allow apps to run in the background, when iBrowe is closed.">
       Continue running background apps when iBrowe is closed
     </message>
   </if>
 
-  
+  <!-- Reset Page -->
   <message name="IDS_SETTINGS_RESET_PROFILE_FEEDBACK" desc="Feedback label in the Reset Profile Settings dialog">
     Help make iBrowe better by reporting the <ph name="BEGIN_LINK">&lt;a is="action-link" target="_blank"&gt;</ph>current settings<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  
+  <!-- iBrowe Root Store -->
   <message name="IDS_SETTINGS_CHROME_CERTIFICATES" desc="Text for manage certificates button in Privacy options">
     Certificates managed by iBrowe
   </message>
@@ -405,7 +407,7 @@
     Information about how iBrowe manages its root certificates
   </message>
 
-  
+  <!-- Safety Hub -->
   <message name="IDS_SETTINGS_SAFETY_HUB_ENTRY_POINT_NOTHING_TO_DO" desc="This text describes what Safety Hub does (regularly checking whether iBrowe settings are safe) and indicates whether the user should take action. This text is shown when Safety Hub has not identified any issues at this time. There is nothing to do for the user. As future checks of Safety Hub may identify issues, this state may change. This text is shown on a card in privacy settings next to a button that leads to Safety Hub.">
     iBrowe regularly checks to make sure your browser has the safest settings. We'll let you know if anything needs your review.
   </message>
@@ -431,13 +433,13 @@
     iBrowe's safety tools
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_USER_EDU_DATA_SUBHEADER" desc="The subheader of the first item in the 'User Education Module' in the Safety Hub page. This item explains how iBrowe's tools help user to keep their data safe.">
-    With <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>tools from Brave<ph name="END_LINK">&lt;/a&gt;</ph>, you can browse safely and stay in control
+    With <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>tools from iBrowe<ph name="END_LINK">&lt;/a&gt;</ph>, you can browse safely and stay in control
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_USER_EDU_INCOGNITO_HEADER" desc="The header of the second item in the 'User Education Module' in the Safety Hub page. This item explains Private mode.">
     iBrowe Private
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_USER_EDU_SAFE_BROWSING_SUBHEADER" desc="The header of the second item in the 'User Education Module' in the Safety Hub page. This item explains Safe Browsing.">
-    <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>Brave warns you<ph name="END_LINK">&lt;/a&gt;</ph> about unsafe sites and downloads
+    <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>iBrowe warns you<ph name="END_LINK">&lt;/a&gt;</ph> about unsafe sites and downloads
   </message>
   <if expr="not is_chromeos">
     <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_CARD_HEADER_RESTART" desc="Safety Hub settings page (chrome://settings/safetyHub) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their iBrowe is up to date. This title of the card is shown when iBrowe is not up to date but there is an update available and the user needs to restart their browser to finish the update. Shown above the subtitle 'Relaunch to finish update. Your tabs will reopen'.">
@@ -469,7 +471,7 @@
     Dangerous site. iBrowe removed notifications.
   </message>
 
-  
+  <!-- Secure connections -->
   <message name="IDS_SETTINGS_SECURE_CONNECTIONS_SECTION_DESCRIPTION" desc="Description for the Secure Connections section in Security settings, explaining the baseline behavior of the browser even if the 'Always use secure connections' toggle is disabled.">
     iBrowe upgrades insecure connections to HTTPS automatically when possible
   </message>

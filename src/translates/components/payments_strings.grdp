@@ -1,7 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
 
-  
+  <!-- Dialog titles, sentence-cased -->
   <message name="IDS_PAYMENTS_TITLE" desc="Title of the dialog that presents a request for payment for some good or service. Sentence-cased.">
     Review your payment
   </message>
@@ -9,9 +10,9 @@
     Payment not completed
   </message>
 
-  
+  <!-- Section labels and buttons which are title-cased on certain platforms. Make sure to keep the title-cased and sentence-cased variants in sync. -->
 
-  
+  <!-- General titles, sentence-cased -->
   <if expr="not use_titlecase">
     <message name="IDS_PAYMENTS_METHOD_OF_PAYMENT_LABEL" desc="The title for the section that lets the user select the method of payment. Sentence-cased." formatter_data="android_java">
       Payment method
@@ -61,8 +62,8 @@
     <message name="IDS_PAYMENTS_SHIPPING_OPTION_LABEL" desc="The title for the section that lets the user select how the product should be shipped. Shipping is typically used for packages. Sentence-cased." formatter_data="android_java">
       Shipping method
     </message>
-  </if>  
-  
+  </if>  <!-- not use_titlecase -->
+  <!-- General Titles, Title-Cased -->
   <if expr="use_titlecase">
     <message name="IDS_PAYMENTS_METHOD_OF_PAYMENT_LABEL" desc="The title for the section that lets the user select the method of payment. Title-Cased.">
       Payment Method
@@ -112,9 +113,9 @@
     <message name="IDS_PAYMENTS_SHIPPING_OPTION_LABEL" desc="The title for the section that lets the user select how the product should be shipped. Shipping is typically used for packages. Title-Cased.">
       Shipping Method
     </message>
-  </if>  
+  </if>  <!-- use_titlecase -->
 
-  
+  <!-- Delivery titles, sentence-cased -->
   <if expr="not use_titlecase">
     <message name="IDS_PAYMENTS_DELIVERY_SUMMARY_LABEL" desc="The title for the section of delivery information. Delivery is commonly faster than shipping. For example, it might be used for food delivery. Sentence-cased." formatter_data="android_java">
       Delivery
@@ -125,8 +126,8 @@
     <message name="IDS_PAYMENTS_DELIVERY_OPTION_LABEL" desc="The title for the section that lets the user select how the product should be delivered. Delivery is commonly faster than shipping. For example, it might be used for food delivery. Sentence-cased." formatter_data="android_java">
       Delivery method
     </message>
-  </if>  
-  
+  </if>  <!-- not use_titlecase -->
+  <!-- Delivery Titles, Title-Cased -->
   <if expr="use_titlecase">
     <message name="IDS_PAYMENTS_DELIVERY_SUMMARY_LABEL" desc="The title for the section of delivery information. Delivery is commonly faster than shipping. For example, it might be used for food delivery. Title-Cased.">
       Delivery
@@ -137,9 +138,9 @@
     <message name="IDS_PAYMENTS_DELIVERY_OPTION_LABEL" desc="The title for the section that lets the user select how the product should be delivered. Delivery is commonly faster than shipping. For example, it might be used for food delivery. Title-Cased.">
       Delivery Method
     </message>
-  </if>  
+  </if>  <!-- use_titlecase -->
 
-  
+  <!-- Pickup titles, sentence-cased -->
   <if expr="not use_titlecase">
     <message name="IDS_PAYMENTS_PICKUP_SUMMARY_LABEL" desc="The title for the section of information needed for a service to pick up items from a customer. For example, this could be the address for laundry pickup. 'Pickup' is a noun. Sentence-cased." formatter_data="android_java">
       Pickup
@@ -150,8 +151,8 @@
     <message name="IDS_PAYMENTS_PICKUP_OPTION_LABEL" desc="The title for the section that lets the user select how their service item should be picked up. This item can be laundry to be cleaned, for example. 'Pickup' functions as an adjective. Sentence-cased." formatter_data="android_java">
       Pickup method
     </message>
-  </if>  
-  
+  </if>  <!-- not use_titlecase -->
+  <!-- Pickup Titles, Title-Cased -->
   <if expr="use_titlecase">
     <message name="IDS_PAYMENTS_PICKUP_SUMMARY_LABEL" desc="The title for the section of information needed for a service to pick up items from a customer. For example, this could be the address for laundry pickup. 'Pickup' is a noun. Title-Cased.">
       Pickup
@@ -162,9 +163,9 @@
     <message name="IDS_PAYMENTS_PICKUP_OPTION_LABEL" desc="The title for the section that lets the user select how their service item should be picked up. This item can be laundry to be cleaned, for example. 'Pickup' functions as an adjective. Title-Cased.">
       Pickup Method
     </message>
-  </if>  
+  </if>  <!-- use_titlecase -->
 
-  
+  <!-- Buttons, sentence-cased -->
   <if expr="not use_titlecase">
     <message name="IDS_PAYMENTS_EDIT_BUTTON" desc="The label for the button that lets the user edit their payment options. Sentence-cased." formatter_data="android_java">
       Edit
@@ -190,8 +191,8 @@
     <message name="IDS_PAYMENTS_CANCEL_PAYMENT" desc="Label of the secondary button in payment request editors. Clicking that button closes the dialog and aborts the payment request completely. Sentence-cased.">
       Cancel payment
     </message>
-  </if>  
-  
+  </if>  <!-- not use_titlecase -->
+  <!-- Buttons, Title-Cased -->
   <if expr="use_titlecase">
     <message name="IDS_PAYMENTS_EDIT_BUTTON" desc="The label for the button that lets the user edit their payment options. Title-Cased.">
       Edit
@@ -217,9 +218,9 @@
     <message name="IDS_PAYMENTS_CANCEL_PAYMENT" desc="Label of the secondary button in payment request editors. Clicking that button closes the dialog and aborts the payment request completely. Title-Cased.">
       Cancel Payment
     </message>
-  </if>  
+  </if>  <!-- use_titlecase -->
 
-  
+  <!-- Fields & Editors, sentence-cased -->
   <if expr="not use_titlecase">
     <message name="IDS_PAYMENTS_NAME_FIELD_IN_CONTACT_DETAILS" desc="The label for text input field containing the full name of a person. Sentence-cased. [CHAR_LIMIT=32]" meaning="Name of a person" formatter_data="android_java">
       Name
@@ -242,8 +243,8 @@
     <message name="IDS_PAYMENTS_UPDATED_LABEL" desc="The text that informs the user that the total value of their cart has been updated. Sentence-cased." formatter_data="android_java">
       Updated
     </message>
-  </if>  
-  
+  </if>  <!-- not use_titlecase -->
+  <!-- Fields & Editors, Title-cased -->
   <if expr="use_titlecase">
     <message name="IDS_PAYMENTS_NAME_FIELD_IN_CONTACT_DETAILS" desc="The label for text input field containing the full name of a person. Title-Cased. [CHAR_LIMIT=32]" meaning="Name of a person" formatter_data="android_java">
       Name
@@ -266,9 +267,9 @@
     <message name="IDS_PAYMENTS_UPDATED_LABEL" desc="The text that informs the user that the total value of their cart has been updated. Title-Cased." formatter_data="android_java">
       Updated
     </message>
-  </if>  
+  </if>  <!-- use_titlecase -->
 
-  
+  <!-- Fields, descriptive sentences, and other strings which are never title-cased. -->
   <message name="IDS_PAYMENTS_ERROR_MESSAGE" desc="The text that informs the user that there is error in verifying and charging the payment." formatter_data="android_java">
     There was an error processing your order. Please try again.
   </message>
@@ -292,7 +293,7 @@
     Allow sites to check if you have payment methods saved
   </message>
 
-  
+  <!-- Validation strings which are never title-cased. -->
   <message name="IDS_PAYMENTS_REQUIRED_FIELD_MESSAGE" desc="The text that informs the user that '*' character indicates an input field that is required. The '*' character should not be changed." formatter_data="android_java">
      * Field is required
   </message>
@@ -333,20 +334,20 @@
     Name required
   </message>
 
-  
+  <!-- Validation, sentence-cased -->
   <if expr="not use_titlecase">
     <message name="IDS_PREF_EDIT_DIALOG_FIELD_REQUIRED_VALIDATION_MESSAGE" desc="The text that informs the user that an input field is required. 'Required' is an adjective. Sentence-cased." formatter_data="android_java">
       Required field
     </message>
-  </if>  
-  
+  </if>  <!-- not use_titlecase -->
+  <!-- Validation, Title-Cased -->
   <if expr="use_titlecase">
     <message name="IDS_PREF_EDIT_DIALOG_FIELD_REQUIRED_VALIDATION_MESSAGE" desc="The text that informs the user that an input field is required. 'Required' is an adjective. Title-Cased.">
       Required Field
     </message>
-  </if>  
+  </if>  <!-- use_titlecase -->
 
-  
+  <!-- Order Summary Data Formatting -->
   <message name="IDS_PAYMENT_REQUEST_ORDER_SUMMARY_SECTION_TOTAL_FORMAT" desc="The format specifier of the Total label in the Order Summary section of the Payment Sheet of the Payment Request dialog.">
     <ph name="TOTAL_LABEL">$1<ex>Total</ex></ph> <ph name="CURRENCY_CODE">$2<ex>USD</ex></ph> <ph name="FORMATTED_TOTAL_AMOUNT">$3<ex>$ 12.34</ex></ph>
   </message>
@@ -362,7 +363,7 @@
     Multiple
   </message>
 
-  
+  <!-- Shipping address descriptive strings -->
   <message name="IDS_PAYMENTS_SELECT_SHIPPING_ADDRESS_FOR_SHIPPING_METHODS" desc="Text implying that a user needs to pick a shipping address to see the shipping methods. Shipping is typically used for packages." formatter_data="android_java">
     To see shipping methods and requirements, select an address
   </message>
@@ -373,7 +374,7 @@
     This shipping method isn’t available. Try a different method.
   </message>
 
-  
+  <!-- Delivery address descriptive strings -->
   <message name="IDS_PAYMENTS_SELECT_DELIVERY_ADDRESS_FOR_DELIVERY_METHODS" desc="Text implying that a user needs to pick a delivery address to see the delivery methods. Delivery is commonly faster than shipping. For example, it might be used for food delivery." formatter_data="android_java">
     To see delivery methods and requirements, select an address
   </message>
@@ -381,7 +382,7 @@
     Can’t deliver to this address. Select a different address.
   </message>
 
-  
+  <!-- Pickup address descriptive strings-->
   <message name="IDS_PAYMENTS_SELECT_PICKUP_ADDRESS_FOR_PICKUP_METHODS" desc="Text implying that a user needs to choose a pickup address to see the pickup methods. For example, this could be the address for laundry pickup. 'Pickup' functions as an adjective." formatter_data="android_java">
     To see pickup methods and requirements, select an address
   </message>
@@ -389,7 +390,7 @@
     Can’t pick up from this address. Select a different address.
   </message>
 
-  
+  <!-- Payment Apps -->
   <message name="IDS_PAYMENTS_ANDROID_APP_ERROR" desc="Error message that is shown when an Android payment application fails to start." formatter_data="android_java">
     Can’t open payment app
   </message>
@@ -399,7 +400,7 @@
     </message>
   </if>
 
-  
+  <!-- Payment Request section preview strings. They are slightly different on desktop and android because the pluralization and formatting code behaves differently. -->
   <if expr="not is_android">
     <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to iBrowe, plus an indication of the number of additional payment methods the user has saved. Its function is to show the user has payment methods that can be used to complete a payment, and thus doesn't have to type the entire payment method. [ICU Syntax]">
     {PAYMENT_METHOD, plural,
@@ -427,7 +428,7 @@
     </message>
   </if>
 
-  
+  <!-- a11y strings -->
   <message name="IDS_PAYMENTS_BACK" desc="The screen reader string for the back arrow button in the Desktop Payments dialog">
     Back
   </message>
@@ -453,7 +454,7 @@
     Order Summary, <ph name="TOTAL_LABEL">$1<ex>Total, USD $10.00</ex></ph>, More Details
   </message>
 
-  
+  <!-- Payment Handler strings -->
   <message name="IDS_PAYMENT_HANDLER_SHEET_DESCRIPTION" desc="Accessibility string read when the payment-handler bottom sheet is opened. It describes the payment-handler where users can fill in the payment info." formatter_data="android_java">
     Payment handler sheet
   </message>
@@ -470,12 +471,12 @@
     Payment handler icon
   </message>
 
-  
+  <!-- Secure Payment Confirmation strings -->
   <message name="IDS_SECURE_PAYMENT_CONFIRMATION_INLINE_TITLE" desc="The title string on a payment confirmation dialog that confirms the details of the payment that the user is about to verify. The user has the option to click 'Cancel' or 'Continue', and clicking 'Continue' will open the system interface to verify their identity, for example with their fingerprint.">
     <ph name="PROVIDER_ORIGIN">$1<ex>bank.com</ex></ph> wants to verify it's you
   </message>
   <if expr="not is_win and not is_macosx">
-    
+    <!-- Strings that don't refer to specific platform authenticator names -->
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_VERIFY_PURCHASE" desc="The title string on a payment confirmation dialog that confirms the details of the payment that the user is about to verify. The user has the option to click 'Cancel' or 'Continue', and clicking 'Continue' will open the system interface to verify their identity, for example with their fingerprint." formatter_data="android_java">
         Verify your purchase
     </message>
@@ -498,7 +499,7 @@
           You chose to verify with an authenticator device on websites that use <ph name="PROVIDER_ORIGIN">$1<ex>example.com</ex></ph>. This provider may have stored information about your payment method, which you can <ph name="LINK_TEXT">$2<ex>request to be deleted</ex></ph>.
       </message>
     </if>
-  </if> 
+  </if> <!-- not is_win and not is_macosx -->
   <if expr="is_macosx">
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_VERIFY_PURCHASE" desc="The title string on a payment confirmation dialog that confirms the details of the payment that the user is about to verify. The user has the option to click 'Cancel' or 'Verify', and clicking 'Verify' will open the system interface to verify their identity with the Touch ID fingerprint sensor.">
         Use Touch ID to verify and complete your purchase?
@@ -509,7 +510,7 @@
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_OPT_OUT_LABEL" desc="Text on a dialog that explains to the user that they previously opted into this behavior for a given provider. Includes link text that they can click to request that the provider deletes their data.">
         You chose to verify with Touch ID on websites that use <ph name="PROVIDER_ORIGIN">$1<ex>example.com</ex></ph>. This provider may have stored information about your payment method, which you can <ph name="LINK_TEXT">$2<ex>request to be deleted</ex></ph>.
     </message>
-  </if> 
+  </if> <!-- is_macosx -->
   <if expr="is_win">
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_VERIFY_PURCHASE" desc="The title string on a payment confirmation dialog that confirms the details of the payment that the user is about to verify. The user has the option to click 'Cancel' or 'Verify', and clicking 'Verify' will open the system interface to verify their identity with the Windows Hello biometric sensor, such as fingerprint or face recognition.">
         Use Windows Hello to verify and complete your purchase?
@@ -520,7 +521,7 @@
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_OPT_OUT_LABEL" desc="Text on a dialog that explains to the user that they previously opted into this behavior for a given provider. Includes link text that they can click to request that the provider deletes their data.">
         You chose to verify with Windows Hello on websites that use <ph name="PROVIDER_ORIGIN">$1<ex>example.com</ex></ph>. This provider may have stored information about your payment method, which you can <ph name="LINK_TEXT">$2<ex>request to be deleted</ex></ph>.
     </message>
-  </if>  
+  </if>  <!-- is_win -->
   <message name="IDS_SECURE_PAYMENT_CONFIRMATION_STORE_LABEL" desc="In a secure payment confirmation dialog, this is the label for the row of data that shows the store name, e.g. merchant.com." formatter_data="android_java">
     Store
   </message>
@@ -550,7 +551,7 @@
     </message>
   </if>
 
-  
+  <!-- Accessibility strings -->
   <if expr="is_android">
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_AUTHENTICATION_SHEET_DESCRIPTION" desc="Accessibility string read when the payment credential authentication bottom sheet is opened. It describes where the users can verify their purchase." formatter_data="android_java">
       Secure payment credential authentication sheet
@@ -570,5 +571,5 @@
     <message name="IDS_SECURE_PAYMENT_CONFIRMATION_NO_MATCHING_CREDENTIAL_SHEET_CLOSED" desc="Accessibility string read when the bottom sheet of no matching payment credential is closed." formatter_data="android_java">
       Secure payment credential no matching credential sheet is closed
     </message>
-  </if>  
+  </if>  <!-- is_android -->
 </grit-part>

@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Settings-specific strings (included from generated_resources.grd). -->
 <grit-part>
   <if expr="not is_chromeos">
     <message name="IDS_RELAUNCH_CONFIRMATION_DIALOG_BODY" desc="The body of the modal dialog that we show when users click on relaunch and they have open Private windows. The dialog serves to warn the users about losing their Private windows if they proceed with the relaunch.">

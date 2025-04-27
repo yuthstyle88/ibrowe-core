@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Security summary strings -->
   <message name="IDS_PAGE_INFO_SECURE_SUMMARY" desc="A short summary phrase at the top of the Page Info bubble (which shows when you click the lock icon) that indicates that the connection to the current website is secure.">
     Connection is secure
   </message>
@@ -20,8 +21,8 @@
     Dangerous site
   </message>
 
-  
-  
+  <!-- Internal page summary strings -->
+  <!-- Note: IDS_PAGE_INFO_INTERNAL_PAGE would be here, but it is in components_{chromium,google_chrome}_strings.grd because it uses the browser name. -->
   <message name="IDS_PAGE_INFO_EXTENSION_PAGE" desc="Message to display in the page info bubble when the page you are on is a chrome-extension:// page. This refers to iBrowe extensions.">
     You're viewing an extension page
   </message>
@@ -38,7 +39,7 @@
     iBrowe simplified this page to make it easier to read. iBrowe retrieved the original page over an insecure connection.
   </message>
 
-  
+  <!-- Safety Tip summary strings -->
   <message name="IDS_PAGE_INFO_SAFETY_TIP_MORE_INFO_LINK" desc="Text of link to Help Center page on safety tip page info bubble.">
     Learn more
   </message>
@@ -52,12 +53,12 @@
     Attackers sometimes mimic sites by making hard-to-see changes to the web address.
   </message>
 
-  
+  <!-- Viewing file strings -->
   <message name="IDS_PAGE_INFO_FILE_PAGE" desc="Message to display in the page info bubble when the page the user has navigated to is a file:// page">
     You're viewing a local or shared file
   </message>
 
-  
+  <!-- Detail strings -->
   <message name="IDS_PAGE_INFO_SECURE_DETAILS" desc="A short paragraph explaining a secure site to the user.">
     Your information (for example, passwords or credit card numbers) is private when it is sent to this site.
   </message>
@@ -83,12 +84,12 @@
     Attackers on the site you tried visiting might trick you into installing harmful software that affects the way you browse — for example, by changing your homepage or showing you extra ads on sites you visit.
   </message>
 
-  
+  <!-- Identity detail strings shared with iOS -->
   <message name="IDS_PAGE_INFO_SECURITY_TAB_INSECURE_IDENTITY" desc="The text of the identity section when the page is not secure.">
     The identity of this website isn't verified.
   </message>
 
-  
+  <!-- Password Protection strings shared with iOS -->
   <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_SUMMARY" desc="A one-line summary at the top of the Page Info bubble (which shows when you click the security indicator) if user has reuse their google password on current website.">
     Your password may be compromised
   </message>
@@ -116,11 +117,11 @@
     </message>
   </if>
 
-  
+  <!-- Strings below are not used on iOS. -->
   <if expr="not is_ios">
 
-    
-    
+    <!-- Certificate exception decision UI (after clicking through an SSL certificate error) -->
+    <!-- TODO(crbug.com/41183997): Support revoking certificate overrides on iOS Page Info. -->
     <message name="IDS_PAGE_INFO_INVALID_CERTIFICATE_DESCRIPTION" desc="A short paragraph to the user that security warnings are disabled. This is the case when the user has encountered a certificate error for the current site and chosen to override it.">
       You have chosen to turn off security warnings for this site.
     </message>
@@ -128,7 +129,7 @@
       Turn on warnings
     </message>
 
-    
+    <!-- Old connection info UI. Only used on Android, but still compiled on desktop. -->
     <message name="IDS_PAGE_INFO_HELP_CENTER_LINK" desc="This is the text of the link pointing to the Help Center. This appears at the bottom of the SSL dialog and 'this' refers to the sections within the bubble.">
       What do these mean?
     </message>
@@ -185,10 +186,10 @@
       <ph name="CITY">$1<ex>Mountain View</ex></ph>, <ph name="COUNTRY">$2<ex>US</ex></ph>
     </message>
     <message name="IDS_PAGE_INFO_SECURITY_TAB_SECURE_IDENTITY_EV_VERIFIED" desc="Describes the legal entity that the current page's HTTPS certificate was issued to. Shown in the certificate area in the Page Info bubble when a HTTPS site with a valid EV certificate is loaded.">
-      Issued to: <ph name="ORGANIZATION">$1<ex>Brave LLC</ex></ph> [<ph name="JURISDICTION">$2<ex>US</ex></ph>]
+      Issued to: <ph name="ORGANIZATION">$1<ex>iBrowe LLC</ex></ph> [<ph name="JURISDICTION">$2<ex>US</ex></ph>]
     </message>
 
-    
+    <!-- Certificate Viewer link -->
     <if expr="not is_android">
       <message name="IDS_PAGE_INFO_CERTIFICATE" desc="Title of the certificate area in the Page Info bubble, shown when a HTTPS site is loaded.">
         Certificate
@@ -222,15 +223,15 @@
       </message>
     </if>
 
-    
+    <!-- Certificate Info strings -->
     <if expr="is_android">
-    
+    <!-- Only used in the dialog shown after tapping "Details" in page info -->
     <message name="IDS_PAGE_INFO_SECURE_IDENTITY_VERIFIED" desc="The text of the identity section when the page is secure and uses a valid certificate">
-      <ph name="BROWSER">$1<ex>Brave</ex></ph> verified that <ph name="ISSUER">$2<ex>VeriSign</ex></ph> issued this website's certificate.
+      <ph name="BROWSER">$1<ex>iBrowe</ex></ph> verified that <ph name="ISSUER">$2<ex>VeriSign</ex></ph> issued this website's certificate.
     </message>
     </if>
 
-    
+    <!-- Cookies -->
     <if expr="not is_android">
       <message name="IDS_PAGE_INFO_COOKIES" desc="The label for the Cookies setting in the Page Information Window.">
         Cookies
@@ -249,7 +250,7 @@
       </message>
     </if>
 
-    
+    <!-- Permission values -->
     <message name="IDS_PAGE_INFO_BUTTON_TEXT_ALLOWED_BY_USER" desc="The Page Info popup contains several buttons for opening dropdown menus and changing site permissions. This is the text of such a button if the permission controlled by the button was explicitly set to allow by the user.">
       Allow
     </message>
@@ -357,7 +358,7 @@
       Allow <ph name="SITE">$1<ex>example.com</ex></ph> to use info they've saved about you
     </message>
 
-    
+    <!-- Permission ask strings -->
     <message name="IDS_PAGE_INFO_STATE_TEXT_AR_ASK" desc="The Page Info permission subpage and the main page info page contain a label which shows the state of the site permission. This is the text shown if the AR permission is in the ask state and the site can prompt the user to ask if they want to allow the site to track their camera position.">
       Can ask to track your camera position
     </message>
@@ -440,7 +441,7 @@
       Can ask to use advanced printer features
     </message>
 
-    
+    <!-- UI for device access granted to the site using the device chooser (e.g. USB, Bluetooth) -->
     <message name="IDS_PAGE_INFO_USB_DEVICE_SECONDARY_LABEL" desc="The label displayed underneath the device name to inform the user that the item refers to a USB device.">
       USB device
     </message>
@@ -484,7 +485,7 @@
       Revoke access for <ph name="DEVICE_NAME">$1<ex>Reader 1</ex></ph>
     </message>
 
-    
+    <!-- Site settings link -->
     <message name="IDS_PAGE_INFO_SITE_SETTINGS_LINK" desc="This is the text of the link pointing to iBrowe's Site Settings page. This appears at the bottom of the Permissions pane of the Page Information Window.">
       Site settings
     </message>
@@ -492,7 +493,7 @@
       Go to site settings
     </message>
 
-    
+    <!-- Link to guide users to system settings. -->
     <if expr="is_macosx">
       <message name="IDS_PAGE_INFO_SYSTEM_SETTINGS_LINK" desc="This is the text of the link pointing to macOS's System Settings. This sometimes appears under the notification permission in the Page Info bubble.">
         System Settings
@@ -514,7 +515,7 @@
         system settings
     </message>
 
-    
+    <!-- Permission decision strings -->
     <message name="IDS_PAGE_INFO_PERMISSION_ALLOWED_BY_POLICY" desc="The label used underneath a permission listed in the Page Info bubble if the permission was explicitly allowed by the user's enterprise policy.">
       Allowed by your administrator
     </message>
@@ -546,7 +547,7 @@
       Managed by an extension
     </message>
 
-    
+    <!-- Permission change infobar. -->
     <if expr="not is_android">
       <message name="IDS_PAGE_INFO_INFOBAR_TEXT" desc="The string shown in the infobar after the user has changed site permissions settings, reminding them to reload the page in order for the new settings to take effect.  Deliberately similar to IDS_EXTENSION_SITE_RELOAD_PAGE_BUBBLE_HEADING, but used for an different permission setting so they are not combined. If updating the one, please update the other or consult the extensions and privacy teams.">
         Reload this page to apply your updated settings on this site
@@ -556,7 +557,7 @@
       </message>
     </if>
 
-    
+    <!-- Permission usage strings -->
     <message name="IDS_PAGE_INFO_PERMISSION_USING_NOW" desc="The label used underneath a permission listed in the Page Info bubble if a feature gated behind the permission is used by a page.">
       Using now
     </message>
@@ -566,7 +567,7 @@
     <message name="IDS_PAGE_INFO_PERMISSION_USED_TIME_AGO" desc="The label used underneath a permission listed in the Page Info bubble if a feature gated behind the permission was used less than 24 hours ago.">
       Last used <ph name="NUM_HOURS_MINUTES_SECONDS">$1<ex>2 minutes</ex></ph> ago
     </message>
-    
+    <!-- Password Protection -->
     <if expr="_google_chrome">
       <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS" desc="A short paragraph explaining to the user that they has reuse their google password on current website.">
         You could lose access to your iBrowe sync chain. iBrowe recommends changing your password now. You'll be asked to sign in.
@@ -581,7 +582,7 @@
         You could lose access to your organization's account or experience identity theft. iBrowe recommends changing your password now.
       </message>
       <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_ENTERPRISE_WITH_ORG_NAME" desc="A short paragraph explaining to the user that they have reused their password on the current website.">
-        You could lose access to your <ph name="ORG_NAME">$1<ex>Brave</ex></ph> account or experience identity theft. Brave recommends changing your password now.
+        You could lose access to your <ph name="ORG_NAME">$1<ex>iBrowe</ex></ph> account or experience identity theft. iBrowe recommends changing your password now.
       </message>
     </if>
     <if expr="not _google_chrome">
@@ -598,7 +599,7 @@
         You could lose access to your organization's account or experience identity theft. iBrowe recommends changing your password now.
       </message>
       <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_ENTERPRISE_WITH_ORG_NAME" desc="A short paragraph explaining to the user that they have reused their password on the current website.">
-        You could lose access to your <ph name="ORG_NAME">$1<ex>Brave</ex></ph> account or experience identity theft. Brave recommends changing your password now.
+        You could lose access to your <ph name="ORG_NAME">$1<ex>iBrowe</ex></ph> account or experience identity theft. iBrowe recommends changing your password now.
       </message>
     </if>
 
@@ -629,7 +630,7 @@
     </message>
   </if>
 
-     
+     <!-- Billing -->
     <message name="IDS_PAGE_INFO_BILLING_SUMMARY" desc="A one-line summary at the top of the Page Info bubble (which shows when you click the security indicator) if the website has been flagged for a billing interstitial">
       This page may try to charge you money
     </message>
@@ -637,7 +638,7 @@
       These charges could be one-time or recurring and may not be obvious.
     </message>
 
-  
+  <!-- Misc site settings -->
   <message name="IDS_PAGE_INFO_VR_PRESENTING_TEXT" desc="The string used in the page info that states that an active VR presentation is in progress.">
     VR session in progress
   </message>
@@ -645,7 +646,7 @@
     End
   </message>
 
-  
+  <!-- Certificate viewer dialog strings that are shared across all the platforms -->
   <message name="IDS_CERT_INFO_SUBJECT_GROUP" desc="The label of the Issued To group in the general page of the certificate info dialog">
     Issued To
   </message>
@@ -690,7 +691,7 @@
     Certificate Subject Alternative Name
   </message>
 
-  
+  <!-- Subpages headers -->
   <message name="IDS_PAGE_INFO_SECURITY_SUBPAGE_BUTTON" desc="The label of the button to open the Security subpage in Page Info bubble.">
     Show connection details
   </message>
@@ -698,7 +699,7 @@
     Security
   </message>
 
-  
+  <!-- Permissions subpage -->
   <message name="IDS_PAGE_INFO_PERMISSIONS_SUBPAGE_BUTTON_TOOLTIP" desc="The tooltip/accessibility text of the button to open a Permissions subpage for a specific permission in Page Info bubble, if such a subpage is supported.">
     Show <ph name="PERMISSION_NAME">$1<ex>location</ex></ph> permission details
   </message>
@@ -715,7 +716,7 @@
     {NUM_PERMISSIONS, plural, =1 {Reset permission} other {Reset permissions}}
   </message>
 
-  
+  <!-- About this site strings -->
   <message name="IDS_PAGE_INFO_ABOUT_THIS_SITE_HEADER" desc="The header label of the 'About this site' subpage in Page Info bubble.">
     From the web
   </message>
@@ -735,7 +736,7 @@
     From <ph name="SOURCE_NAME">$1<ex>Wikipedia</ex></ph>
   </message>
 
-  
+  <!-- Cookies subpage -->
   <message name="IDS_PAGE_INFO_COOKIES_HEADER" desc="The header label of cookies subpage in Page Info bubble.">
     Cookies and site data
   </message>
@@ -827,7 +828,7 @@
     This means site features should work as expected, but you may have less browsing protection.
   </message>
 
-  
+  <!-- Merchant trust strings -->
   <message name="IDS_MERCHANT_TRUST_SIDE_PANEL_TITLE" desc="The title of the merchant trust side panel.">
     What people are saying
   </message>
@@ -865,7 +866,7 @@
     An error occurred with the survey.
   </message>
 
-  
+  <!-- History strings -->
   <if expr="is_ios">
     <then>
       <message name="IDS_PAGE_INFO_HISTORY" desc="Title of the Last Visited row in Page Info on iOS. The button opens history page for the site.">
@@ -903,7 +904,7 @@
     </else>
   </if>
 
-  
+  <!-- Enterprise interstitial strings -->
   <message name="IDS_PAGE_INFO_ENTERPRISE_WARN_SUMMARY" desc="A one-line summary at the top of the Page Info bubble (which shows when you click the security indicator) if the website has been flagged by your admin to show a warning">
     This site is flagged by your organization
   </message>
@@ -917,7 +918,7 @@
     Your organization has blocked this site because it violates a policy.
   </message>
 
-  
+  <!-- Ad privacy strings -->
   <message name="IDS_PAGE_INFO_AD_PRIVACY_HEADER" desc="A label that represents the new ad-related settings. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button.">
     Ad privacy
   </message>

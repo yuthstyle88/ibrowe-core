@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Desktop only -->
   <if expr="not is_android and not is_ios">
-    
-    
+    <!-- Discount consent strings -->
+    <!-- TODO(crbug.com/40868354): Delete the following strings. -->
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_TITLE" desc="The title shown on the consent bubble for getting discount.">
       Get discount on <ph name="MERCHANT_NAME">$1</ph> and more
     </message>
@@ -25,14 +26,15 @@
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_ACCEPTED_CONFIRMATION_DONE" desc="The text shown on the consent confirmation bubble bubble. User can click this button to close the bubble.">
       Done
     </message>
-    
+    <!-- Discount consent strings -->
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_ACCEPT_BUTTON" desc="Text shown on the accept button of the consent dialog. By clicking this button, users has chosen to accept the consent to let iBrowe find discounts for your carts.">
       Yes, I'm in
     </message>
-    
-    
+    <!-- This string can skip translation because the feature is targeted en-us locale. Only the
+         en-us user can access the feature UI. -->
+    <!-- TODO(crbug.com/40241740): Remove the special character and enable translation. -->
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_TITLE" translateable="false" desc="The title shown on the native consent dialog for getting discount.">
-      Let iBrowe help you finddiscounts for your carts
+      Let iBrowe help you find&#13;discounts for your carts
     </message>
 
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_BODY" desc="The actual consent descrition that shows in the native consent dialog.">
@@ -42,7 +44,7 @@
       Let iBrowe help you find discounts for your carts
     </message>
 
-    
+    <!-- For Desktop Price Tracking -->
     <message name="IDS_OMNIBOX_TRACK_PRICE" desc="Text shown for a button in the omnibox when the user is on a product page and the product's price is not currently being tracked. User can click this button to open a dialog and track this product from the dialog.">
       Track price
     </message>
@@ -74,7 +76,7 @@
       Cancel
     </message>
 
-    
+    <!-- Generic price tracking strings -->
     <message name="IDS_PRICE_TRACKING_SAVE_DESCRIPTION" desc="Text displayed to the user explaining that the product on the web page is being tracked.">
       You’re tracking this product.
     </message>
@@ -82,7 +84,7 @@
       This page is saved in <ph name="LAST_BOOKMARKS_FOLDER">$1<ex>Other Bookmarks</ex></ph>.
     </message>
 
-    
+    <!-- Email consent dialog for price tracking -->
     <message name="IDS_PRICE_TRACKING_EMAIL_CONSENT_BODY" desc="The main body text that is shown in the price drop email consent dialog offering to send an email notification when the product price drops on any site.">
       Get emails sent to <ph name="EMAIL">$1<ex>example@example.com</ex></ph> when the price of items you track drops on any site.
     </message>
@@ -172,7 +174,7 @@
       <message name="IDS_PRICE_TRACKING_SIDE_PANEL_ERROR_BUTTON" desc="Text shown in side panel toast button when an attempt to track or untrack a product failed. Clicking the button would retry the failed attempt to track or untrack a product.">
         Try Again
       </message>
-    </if> 
+    </if> <!-- use_titlecase -->
     <if expr="not use_titlecase">
       <message name="IDS_SIDE_PANEL_UNTRACK_BUTTON" desc="Text shown when user right-clicks a tracked product from the side panel. User can click this button to untrack this product.">
         Untrack price
@@ -195,7 +197,7 @@
       <message name="IDS_PRICE_TRACKING_SIDE_PANEL_ERROR_BUTTON" desc="Text shown in side panel toast button when an attempt to track or untrack a product failed. Clicking the button would retry the failed attempt to track or untrack a product.">
         Try again
       </message>
-    </if> 
+    </if> <!-- not use_titlecase -->
 
     <message name="IDS_PRICE_TRACKING_SETTINGS_TITLE" desc="Text shown in chrome settings. User can turn on or off the toggle next to this setting item to manage whether they want to receive price drop notifications.">
       Get price tracking notifications
@@ -217,14 +219,14 @@
       <message name="IDS_SHOPPING_COLLECTION_IPH_BODY" desc="The body text of the in-product-help explaining what the shopping list bookmark folder is.">
         A new smart folder that helps you save all your shopping pages in one place, and automatically track prices, get price insights, and more.
       </message>
-    </if> 
+    </if> <!-- use_titlecase -->
     <if expr="not use_titlecase">
       <message name="IDS_SHOPPING_COLLECTION_IPH_BODY" desc="The body text of the in-product-help explaining what the shopping list bookmark folder is.">
         A new smart folder that helps you save all your shopping pages in one place, and automatically track prices, get price insights, and more
       </message>
-    </if> 
+    </if> <!-- not use_titlecase -->
 
-    
+    <!-- For Desktop Price Insights -->
     <if expr="use_titlecase">
       <message name="IDS_SHOPPING_INSIGHTS_SIDE_PANEL_TITLE" desc="The title name of the Shopping Insights feature in the side panel combo box.">
         Shopping Insights
@@ -250,7 +252,7 @@
       <message name="IDS_SHOPPING_INSIGHTS_ICON_TOOLTIP_TEXT" desc="The tooltip text for the price insights icon in the location bar.">
         Shopping Insights
       </message>
-    </if> 
+    </if> <!-- use_titlecase -->
     <if expr="not use_titlecase">
       <message name="IDS_SHOPPING_INSIGHTS_SIDE_PANEL_TITLE" desc="The title name of the Shopping Insights feature in the side panel combo box.">
         Shopping insights
@@ -276,7 +278,7 @@
       <message name="IDS_SHOPPING_INSIGHTS_ICON_TOOLTIP_TEXT" desc="The tooltip text for the price insights icon in the location bar.">
         Shopping insights
       </message>
-    </if> 
+    </if> <!-- not use_titlecase -->
 
     <message name="IDS_SHOPPING_INSIGHTS_BUYING_OPTIONS" desc="Text shown in Shopping Insights side panel. Clicking this link will bring users to a new tab where users can check price insights of all available buying options.">
       Buying options
@@ -324,7 +326,7 @@
       Something went wrong. Your change wasn't saved.
     </message>
 
-    
+    <!-- For Desktop Discounts on navigation -->
     <message name="IDS_DISCOUNT_USE_THIS_CODE_AT_CHECKOUT_WITH_EXPIRATION_DATE" desc="Text shown in the discount dialog to tell users where to use the discount code and the discount expiration date.">
       Use this code at checkout. Valid until <ph name="DATE">$1<ex>2023-01-01</ex></ph>.
     </message>
@@ -354,9 +356,9 @@
     </message>
   </if>
 
-  
+  <!-- Android only -->
   <if expr="is_android">
-    
+    <!-- For Android Price Tracking -->
     <message name="IDS_PRICE_ANNOTATIONS_SETTINGS_TITLE" desc="The title text for price annotations settings in iBrowe services. User can turn on or off the toggle next to this item to manage whether they want to see price drops on their open tabs.">
       Show price drops on tabs
     </message>
@@ -395,7 +397,7 @@
     </message>
   </if>
 
-  
+  <!-- For Price Tracking on all platforms -->
   <message name="IDS_PRICE_DROP_POPUP_CONTENT_TITLE" desc="Text shown on the price drop popup notification. It tells users how much price drop on the corresponding product." formatter_data="android_java">
     <ph name="PRICE_DROP">%1$s<ex>$100</ex></ph> price drop on <ph name="PRODUCT_NAME">%2$s<ex>Chromebook</ex></ph>
   </message>
@@ -502,7 +504,7 @@
     <message name="IDS_SHOPPING_INSIGHTS_ICON_EXPANDED_TEXT_HIGH_PRICE" desc="The expanded text for the price insights icon in the location bar, indicating an option has relatively high price.">
       Price is High
     </message>
-  </if> 
+  </if> <!-- use_titlecase -->
   <if expr="not use_titlecase">
     <message name="IDS_PRICE_HISTORY_TITLE_SINGLE_OPTION" desc="The title of the Price History section in the Shopping Insights side panel when we only find one option of this product.">
       Price history across the web
@@ -513,13 +515,13 @@
     <message name="IDS_SHOPPING_INSIGHTS_ICON_EXPANDED_TEXT_HIGH_PRICE" desc="The expanded text for the price insights icon in the location bar, indicating an option has relatively high price.">
       Price is high
     </message>
-  </if> 
+  </if> <!-- not use_titlecase -->
 
   <message name="IDS_SHOPPING_COLLECTION_FOLDER_NAME" desc="The name of bookmark folder that is automatically created when a user bookmarks a product page.">
     Shopping list
   </message>
 
-  
+  <!-- For Discounts -->
   <message name="IDS_DISCOUNT_CODE_COPY_BUTTON_TEXT" desc="The copy button text. User uses this button to copy the discount code, so that they can paste the code during checkout." formatter_data="android_java" translateable="false">
       Copy
   </message>
@@ -527,13 +529,13 @@
     <message name="IDS_DISCOUNT_ICON_EXPANDED_TEXT" desc="The text to use when the icon is expanded in the location bar, indicating discount has been found for the viewing product." formatter_data="android_java">
       Discount Found
     </message>
-  </if> 
+  </if> <!-- use_titlecase -->
   <if expr="not use_titlecase">
     <message name="IDS_DISCOUNT_ICON_EXPANDED_TEXT" desc="The text to use when the icon is expanded in the location bar, indicating discount has been found for the viewing product." formatter_data="android_java">
       Discount found
     </message>
-  </if> 
-    
+  </if> <!-- not use_titlecase -->
+    <!-- Discounts Android only -->
   <if expr="is_android">
     <message name="IDS_DISCOUNT_CODE_COPIED_BUTTON_TEXT" desc="The copy button text. User uses this button to copy the discount code, so that they can paste the code during checkout. This text will show on the button after user has clicked on the copy button to indicate that the discount code has been copied." formatter_data="android_java">
       Copied
@@ -556,9 +558,9 @@
     <message name="IDS_COMMERCE_BOTTOM_SHEET_CONTENT_OPENED_HALF" desc="Accessibility string that describes half opening the commerce bottom sheet." formatter_data="android_java">
       Commerce bottom sheet opened at half height
     </message>
-    </if> 
+    </if> <!-- is_android -->
 
-  
+  <!-- For Compare -->
   <message name="IDS_COMPARE_ADD_NEW_COLUMN" translateable="false" desc="Label shown on hover for the button for adding a new column in comparison table.">
     Add similar products you want to compare
   </message>
@@ -719,7 +721,7 @@
   <message name="IDS_COMPARE_DESCRIPTION_NOT_AVAILABLE" desc="The tooltip displayed when a description or value is not available for an attribute for a product.">
     Not available
   </message>
-  
+  <!-- For Compare Disclosure -->
   <message name="IDS_COMPARE_DISCLOSURE_TITLE" desc="The text for the title of the Compare first-run experience disclosure bubble.">
     Compare similar products side-by-side
   </message>
@@ -745,7 +747,7 @@
     <message name="IDS_COMPARE_DISCLOSURE_DECLINE" desc="The text for the decline button on the Compare first-run experience disclosure.">
       No Thanks
     </message>
-  </if> 
+  </if> <!-- use_titlecase -->
   <if expr="not use_titlecase">
     <message name="IDS_COMPARE_DISCLOSURE_ACCEPT" desc="The text for the accept button on the Compare first-run experience disclosure.">
       Let's go
@@ -753,8 +755,8 @@
     <message name="IDS_COMPARE_DISCLOSURE_DECLINE" desc="The text for the decline button on the Compare first-run experience disclosure.">
       No thanks
     </message>
-  </if> 
-  
+  </if> <!-- not use_titlecase -->
+  <!-- For Comparison tables app menu -->
   <if expr="use_titlecase">
     <then>
       <message name="IDS_COMPARE_MENU_LABEL" desc="The label for the comparison tables submenu item under the bookmarks and lists app menu.">
@@ -784,5 +786,5 @@
         New comparison table
       </message>
     </else>
-  </if> 
+  </if> <!-- use_titlecase -->
 </grit-part>

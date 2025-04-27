@@ -1,9 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- iBrowe Settings WebUI strings (included from brave_generated_resources.grd). -->
 <grit-part>
 
-  
+  <!--Add new items to the appropriate sections below -->
 
-  
+  <!-- Strings not associated with a particular section-->
   <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch iBrowe">
     Your changes will take effect the next time you relaunch iBrowe.
   </message>
@@ -20,13 +21,13 @@
     Ask
   </message>
 
-  
+  <!-- Settings / Get started -->
   <message name="IDS_SETTINGS_BRAVE_GET_STARTED_TITLE" desc="The title for the Get Started section in settings">
     Get started
   </message>
 
-  
-  
+  <!-- <iBrowe Account> -->
+  <!-- Row: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the iBrowe Account row in the Get Started section">
     Sign in or create a iBrowe account
   </message>
@@ -40,7 +41,7 @@
     Manage account
   </message>
 
-  
+  <!-- 'Entry' dialog: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can choose to create a iBrowe Account, or sign in">
     Get started with your iBrowe account
   </message>
@@ -60,7 +61,7 @@
     Use self-custody
   </message>
 
-  
+  <!-- 'Create' dialog: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can create their iBrowe Account">
     Create your account
   </message>
@@ -101,7 +102,7 @@
     Create account
   </message>
 
-  
+  <!-- 'Sign In' dialog: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can sign in to their iBrowe Account">
     Sign in to your account
   </message>
@@ -118,7 +119,7 @@
     Sign in
   </message>
 
-  
+  <!-- 'Forgot Password' dialog: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can reset their iBrowe Account password">
     Forgot your password?
   </message>
@@ -135,7 +136,7 @@
     Reset your password
   </message>
 
-  
+  <!-- Common: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_LABEL" translateable="false" desc="Label for the 'Email address' input field">
     Email address
   </message>
@@ -145,14 +146,14 @@
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Create a password'/'Password' input fields">
     Enter your password
   </message>
-  
+  <!-- </iBrowe Account> -->
 
-  
+  <!-- Settings / Get started / Profile name and icon -->
   <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
     Profile name and icon
   </message>
 
-  
+  <!-- Settings / Get started / Import bookmarks and settings dialog -->
   <message name="IDS_SETTINGS_IMPORT_EXTENSIONS_CHECKBOX" desc="Checkbox for importing extensions list">
     Extensions
   </message>
@@ -160,7 +161,7 @@
     Payment methods
   </message>
 
-  
+  <!-- Settings / Appearance -->
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
     iBrowe colors
   </message>
@@ -330,7 +331,7 @@
     </message>
   </if>
 
-  
+  <!-- Settings / Autofill -->
   <message name="IDS_SETTINGS_BRAVE_AUTOFILL_PRIVATE_WINDOWS_LABEL" desc="The label to enable autofill in private profiles">
     Allow auto-fill in private windows
   </message>
@@ -338,7 +339,7 @@
     Info from regular windows can be read/auto-filled in private windows
   </message>
 
-  
+  <!-- Settings / New tab page -->
   <message name="IDS_SETTINGS_NEW_TAB" desc="The text label for the New Tab settings page">
     New Tab Page
   </message>
@@ -361,7 +362,7 @@
     Customize new tab page
   </message>
 
-  
+  <!-- Settings / Pin shortcut-->
   <if expr="enable_pin_shortcut">
     <if expr="is_win">
       <message name="IDS_SETTINGS_CAN_PIN_SHORTCUT" desc="The label for pin to taskbar settings">
@@ -390,7 +391,7 @@
     </if>
   </if>
 
-  
+  <!-- Settings / Shields -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_SHIELDS" desc="Label for shields site settings.">
     Shields settings
   </message>
@@ -503,7 +504,7 @@
     Advanced view
   </message>
 
-  
+  <!-- Settings / Shields / ContentFilters -->
   <message name="IDS_BRAVE_ADBLOCK_CONTENT_FILTERING_LABEL" desc="Label for Content Filtering">
     Content filtering
   </message>
@@ -635,7 +636,7 @@
     Shortcuts
   </message>
 
-  
+  <!-- Settings / iBrowe Rewards -->
   <message name="IDS_SETTINGS_BRAVE_REWARDS_TITLE" desc="The text label for the Rewards settings page">
     iBrowe Rewards
   </message>
@@ -652,7 +653,7 @@
     Show iBrowe Rewards button
   </message>
 
-  
+  <!-- Settings / Social media blocking -->
   <message name="IDS_SETTINGS_SOCIAL_BLOCKING_DEFAULTS_TITLE" desc="The title the settings section which has options for blocking third-party embeds, commonly from social media sites">
     Social media blocking
   </message>
@@ -667,11 +668,11 @@
   </message>
 
 
-  
+  <!-- Settings / Privacy and security -->
   <message name="IDS_SETTINGS_BRAVE_BLOCK_COOKIES_LINK_ROW_LABEL" desc="This text is the label of a page. Here, it serves as a button that opens the new page.">
     Block cookies
   </message>
-  
+  <!-- WebRTC Policy Setting -->
   <message name="IDS_SETTINGS_WEBRTC_POLICY_LABEL" desc="WebRTC policy setting label">
     WebRTC IP handling policy
   </message>
@@ -690,18 +691,18 @@
   <message name="IDS_SETTINGS_WEBRTC_POLICY_DISABLE_NON_PROXIED_UDP" desc="Select value">
     Disable non-proxied UDP
   </message>
-  
+  <!-- Push Messaging -->
   <message name="IDS_SETTINGS_PUSH_MESSAGING" desc="Select value">
     Use Google services for push messaging
   </message>
-  
+  <!-- Diagnostic reports -->
   <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF" desc="The label of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
     Automatically send diagnostic reports
   </message>
   <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF_DESC" desc="The description of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
     Help improve iBrowe's product stability by automatically sending diagnostic reports when the iBrowe Browser crashes or freezes.
   </message>
-  
+  <!-- Request OTR -->
   <if expr="enable_request_otr">
     <message name="IDS_SETTINGS_REQUEST_OTR_LABEL" desc="Request OTR setting label">
       Go Off-The-Record when visiting sensitive sites
@@ -719,12 +720,12 @@
       Never
     </message>
   </if>
-  
+  <!-- Data collection -->
   <message name="IDS_BRAVE_DATA_COLLECTION_SETTINGS_SECTION" desc="Open Data collection settings section">
     Data collection
   </message>
 
-  
+  <!-- Settings / Privacy and security / Clear Browsing Data dialog -->
   <message name="IDS_SETTINGS_BRAVE_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
     On exit
   </message>
@@ -735,7 +736,7 @@
     Reset iBrowe Rewards data...
   </message>
 
-  
+  <!-- Settings / Privacy and security / Cookies and other site data -->
   <message name="IDS_SETTINGS_COOKIES_USE_EPHEMERAL_STORAGE_EXCEPTIONS" desc="Title of the list containing sites to clear cookies when all windows with the site are closed">
     Sites that clear cookies when you close them
   </message>
@@ -743,8 +744,8 @@
     Clear on site close
   </message>
 
-  
-  
+  <!-- Settings / Privacy and security / Cookies and other site data / See all site data and permissions -->
+  <!-- These settings were reinstated after being deleted upstream -->
   <message name="IDS_SETTINGS_COOKIES_COOKIE_CONTENT_LABEL" desc="The Cookie Content label">
     Content
   </message>
@@ -812,8 +813,8 @@
     Quota-managed storage
   </message>
 
-  
-  
+  <!-- Settings / Privacy and security / Security -->
+  <!-- Safe browsing -->
   <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_STANDARD_BULLET_TWO" desc="Second bullet point under the safe browsing standard protection mode">
     Checks URLs with a list of unsafe sites stored in iBrowe.
   </message>
@@ -824,11 +825,11 @@
     Protects against sites, downloads, and extensions that are known to be dangerous.
   </message>
 
-  
+  <!-- Settings / Privacy and security / Site and Shields Settings -->
   <message name="IDS_SETTINGS_SITE_AND_SHIELDS_SETTINGS" desc="Label for site and shields settings in clear browsing data dialog">
     Site and Shields Settings
   </message>
-  
+  <!-- Autoplay -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_AUTOPLAY" desc="Label for autoplay site settings.">
     Autoplay
   </message>
@@ -838,7 +839,7 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_AUTOPLAY_BLOCK" desc="Label for autoplay site settings.">
     Block sites from autoplaying videos
   </message>
-  
+  <!-- Ethereum -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM" desc="Label for ethereum site settings.">
     Ethereum
   </message>
@@ -848,7 +849,7 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM_BLOCK" desc="Label for ethereum site settings.">
     Block sites from accessing the Ethereum provider API
   </message>
-  
+  <!-- Solana -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA" desc="Label for solana site settings.">
     Solana
   </message>
@@ -858,7 +859,7 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA_BLOCK" desc="Label for solana site settings.">
     Block sites from accessing the Solana provider API
   </message>
-  
+  <!-- Google Sign-In setting -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_GOOGLE_SIGN_IN" desc="Label for G sign-in site settings.">
     Google Sign-In
   </message>
@@ -875,7 +876,7 @@
     Allowed to use third-party cookies for legacy Google Sign-In
   </message>
 
-  
+  <!-- Localhost access setting -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_LOCALHOST_ACCESS" desc="Label for localhost site settings.">
     Localhost access
   </message>
@@ -892,7 +893,7 @@
     Allowed to access localhost resources
   </message>
 
-  
+  <!-- AI chat setting -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_BRAVE_OPEN_AI_CHAT" desc="Label for opening Leo AI chat site settings.">
     Leo AI chat
   </message>
@@ -903,7 +904,7 @@
     Don't allow site to open Leo AI chat
   </message>
 
-  
+  <!-- Settings / Sync -->
   <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for iBrowe Sync in settings">
     Sync
   </message>
@@ -1068,7 +1069,7 @@
     Are you sure you want to do this?
   </message>
   <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_ERROR_MESSAGE" desc="Warning message that informs user about iBrowe Sync is not running and browser needs to have access to secure OS passwords store">
-    iBrowe could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for iBrowe Sync to connect your browser profile between devices. This means iBrowe Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>Brave Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
+    iBrowe could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for iBrowe Sync to connect your browser profile between devices. This means iBrowe Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>iBrowe Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_SS_UNLOCKED_ERROR_MESSAGE" desc="Warning">
     It looks like the sync encryption key is different from the one used when you first set up iBrowe Sync. The easiest fix here is to reset and re-join the sync chain using the passphrase from one of your other synced devices.
@@ -1108,7 +1109,7 @@
     Passwords
   </message>
 
-  
+  <!-- Settings / Search engine -->
   <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_LABEL" desc="The label of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
     Improve search suggestions
   </message>
@@ -1137,10 +1138,10 @@
     Search engine for Private Windows
   </message>
   <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_CHOICE_SETTINGS_CONFIRMATION_TOAST_LABEL" desc="This confirmation message is intended to help users understand that their choice is now saved. It appears after the user changes their default private search engine in iBrowe settings. (A search engine provides answers to search queries; this is different from a browser, which displays web pages. A search engine powers many experiences within a browser.)">
-    <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph> is now your default search engine for private windows
+    <ph name="SEARCH_ENGINE_NAME">$1<ex>iBrowe</ex></ph> is now your default search engine for private windows
   </message>
 
-  
+  <!-- Settings / Extensions -->
   <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for iBrowe default extensions in settings">
     Extensions
   </message>
@@ -1262,25 +1263,25 @@
     Remove
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_NO_SCRIPT_NAME" desc="Manifest V2 extension toggle's label">
-    Enable NoScript™
+    Enable NoScript&#x2122;
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_NO_SCRIPT_DESC" desc="Manifest V2 extension toggle's sub label">
     NoScript is a Manifest V2 extension that allows you to block and unblock individual scripts running or attempting to run on a given page.
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_UBLOCK_ORIGIN_NAME" desc="Manifest V2 extension toggle's label">
-    Enable uBlock Origin™
+    Enable uBlock Origin&#x2122;
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_UBLOCK_ORIGIN_DESC" desc="Manifest V2 extension toggle's sub label">
     uBlock Origin is a Manifest V2 extension that provides powerful content blocking tools with lots of options for advanced users.
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_UMATRIX_NAME" desc="Manifest V2 extension toggle's label">
-    Enable uMatrix™
+    Enable uMatrix&#x2122;
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_UMATRIX_DESC" desc="Manifest V2 extension toggle's sub label">
     uMatrix is a Manifest V2 extension that provides point-and-click matrix-based firewall, with many privacy-enhancing tools.
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_ADGUARD_NAME" desc="Manifest V2 extension toggle's label">
-    Enable AdGuard™
+    Enable AdGuard&#x2122;
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_ADGUARD_DESC" desc="Manifest V2 extension toggle's sub label">
     AdGuard is a Manifest V2 extension that provides ad blocking, parental control options, and integration with other AdGuard service offerings.
@@ -1295,7 +1296,7 @@
     Open Web Store
   </message>
 
-  
+  <!-- Settings / Wallet -->
   <message name="IDS_SETTINGS_DEFAULT_ETHEREUM_WALLET_DESC" desc="The default cryptocurrency wallet for the Ethereum blockchain">
     Default Ethereum wallet
   </message>
@@ -1375,7 +1376,7 @@
     See the results of transactions before you sign. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>&lt;u&gt;Learn more&lt;/u&gt;<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  
+  <!-- Settings / Wallet / Networks -->
   <message name="IDS_SETTINGS_WALLET_ETH_NETWORK_LIST_TITLE" desc="The title of the list with wallet ethereum networks">
     Ethereum networks
   </message>
@@ -1398,7 +1399,7 @@
     Show test networks
   </message>
 
-  
+  <!-- Settings / Wallet / Networks / Add new network dialog -->
   <message name="IDS_SETTINGS_WALLET_ADD_NETWORK_TITLE" desc="The title for the wallet network dialog">
     Edit or add new network
   </message>
@@ -1490,7 +1491,7 @@
     Do you want to update the existing network?
   </message>
 
-  
+  <!-- Settings / Content -->
   <message name="IDS_SETTINGS_BRAVE_MRU_CYCLING_LABEL" desc="The label to activate MRU cycling with Ctrl-tab">
     Cycle through the most recently used tabs with Ctrl-Tab
   </message>
@@ -1498,7 +1499,7 @@
     Show Wayback Machine prompt on 404 pages
   </message>
 
-  
+  <!-- Settings / System -->
   <message name="IDS_SETTINGS_WINDOW_CLOSING_CONFIRM_OPTION_LABEL" desc="The text for settings option">
     Warn me before closing window with multiple tabs
   </message>
@@ -1509,7 +1510,7 @@
     Show full screen reminder to press Esc on exit
   </message>
 
-  
+  <!-- Settings / Leo Assistant -->
   <message name="IDS_SETTINGS_LEO_ASSISTANT" desc="Title for an item in the 'Leo Assistant' section of iBrowe Settings">
     Leo
   </message>
@@ -1646,13 +1647,13 @@ Leo AI. This action can't be undone.
     System Prompt
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_MODEL_SYSTEM_PROMPT_DESC" desc="A description message for the custom model system prompt">
-    Custom instructions and/or context given to the model to guide its responses in a specific direction or style. Use %datetime% where you would like the current date and time to be inserted.
+    Custom instructions and/or context given to the model to guide its responses in a specific direction or style. Use &#x25;datetime&#x25; where you would like the current date and time to be inserted.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_TOKENS_COUNT" desc="A label for the (estimated) number of tokens in the system prompt">
     ≈<ph name="TOKENS_COUNT">$1<ex>175</ex></ph> tokens
   </message>
 
-  
+  <!-- Settings / Playlist -->
   <message name="IDS_SETTINGS_PLAYLIST_ENABLE_PLAYLIST_LABEL" desc="The text for setting to en/disable Playlist feature">
     Enable Playlist
   </message>
@@ -1663,7 +1664,7 @@ Leo AI. This action can't be undone.
     This option will automatically cache media files so you can play them without an Internet connection.
   </message>
 
-  
+  <!-- Settings / Secure DNS -->
   <message name="IDS_SETTINGS_AUTOMATIC_MODE_WITH_QUAD9_DESCRIPTION" desc="Text of the select option that puts secure DNS in auto-upgrade mode that falls back to Quad9">
     OS default or Quad9
   </message>
@@ -1675,7 +1676,12 @@ Leo AI. This action can't be undone.
   </message>
 
 
-
+<!-- Avatars. Generated via zsh and node:
+        declare -i a=56
+        for file in $(cat < avatarlist); do node -e "console.log(\`<message name=\"IDS_BRAVE_AVATAR_LABEL_$a\" desc=\"The label for the $file avatar.\">
+    \${\`$file\`.split('_').map(w => w[0].toUpperCase() + w.substr(1)).join(' ').replace('.png', '')}
+</message>\`)"; a=a+1; done | pbcopy
+      -->
   <message name="IDS_BRAVE_AVATAR_LABEL_PLACEHOLDER" desc="The label for the avatar_edgy_rewards.png avatar.">
     Avatar Edgy Rewards
   </message>
@@ -1784,6 +1790,6 @@ Leo AI. This action can't be undone.
     </message>
   </if>
 
-  
+  <!--Add new items to the appropriate sections above -->
 
   </grit-part>
