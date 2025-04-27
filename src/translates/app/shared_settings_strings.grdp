@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Settings-specific strings shared by Browser and ChromeOS settings -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- All subpages -->
   <message name="IDS_SETTINGS_SUBPAGE_BACK_BUTTON_ARIA_LABEL" desc="Text read by screen readers when focusing on the back button. If the back button is activated, it will navigate to the previous page. This text will only be announced by ChromeVox and will not be visible in the UI.">
     <ph name="SUBPAGE_TITLE">$1<ex>Bluetooth</ex></ph> subpage back button
   </message>
@@ -11,7 +13,7 @@
     Learn more about: <ph name="SUBPAGE_TITLE">$1<ex>Payment methods</ex></ph>
   </message>
 
-  
+  <!-- Caption Subpage (strings used by the <settings-captions> element) -->
   <message name="IDS_SETTINGS_CAPTIONS" desc="Title of the subpage for settings related to captions">
     Captions
   </message>
@@ -118,7 +120,7 @@
     (default)
   </message>
 
-  
+  <!-- Nearby Share -->
   <message name="IDS_SETTINGS_NEARBY_SHARE_TITLE" desc="Name of the settings page for the Nearby Share feature">
     Nearby Share
   </message>
@@ -225,7 +227,7 @@
     You will be visible to everyone for <ph name="MINUTES">$1<ex>5</ex></ph> minutes. <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
 
- 
+ <!-- Personalization Options SubPage (strings used by the <settings-personalization-options> element) -->
   <message name="IDS_SETTINGS_ENABLE_URL_KEYED_ANONYMIZED_DATA_COLLECTION" desc="The label of the checkbox to enable/disable url keyed anonymized data collection.">
     Make searches and browsing better
   </message>
@@ -260,7 +262,7 @@
     Improve search suggestions
   </message>
 
-  
+  <!-- Sync Accounts page (used by the <settings-sync-account-control> element) -->
   <message name="IDS_SETTINGS_PEOPLE_SIGNED_IN_TO_ACCOUNT" desc="The text displayed to the user that the profile is currently signed in to a specific account.">
     Signed in to <ph name="EMAIL">$1<ex>abcd@google.com</ex></ph>
   </message>
@@ -313,14 +315,14 @@
       Choose another account
   </message>
 
-  
+  <!-- Signout Subpage (strings used by the <settings-signout-dialog> element) -->
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_CONFIRM" desc="The text to display on the button to confirm the user wishes to stop syncing.">
     Delete and Sign Out
   </message>
   <message name="IDS_SETTINGS_PEOPLE_SIGN_OUT" desc="The label of the button that lets user sign-out of iBrowe.">
     Sign out
   </message>
-  
+  <!-- Sync Control Subpage (strings used by the <settings-sync-controls> element) -->
   <message name="IDS_SETTINGS_AUTOFILL_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing autofill settings between multiple browser instances.">
     Addresses and more
   </message>
@@ -361,7 +363,7 @@
     Sync data
   </message>
 
-  
+  <!-- Sync page (strings used by the <settings-sync-page> element) -->
   <message name="IDS_SETTINGS_PASSWORDS_AND_PASSKEYS_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing passwords and passkey metadata (i.e. their username and sites) between multiple browser instances. See the glossary for a definition of 'passkey', do not translate 'passkey' as 'password'.">
     Passwords and passkeys
   </message>
@@ -438,7 +440,7 @@
     </message>
   </if>
 
-  
+  <!-- About Subpage-->
   <message name="IDS_SETTINGS_ABOUT_UPGRADE_CHECK_STARTED" desc="Status label: About to start checking for updates">
     Checking for updates
   </message>
@@ -455,7 +457,7 @@
     Theme
   </message>
 
-  
+  <!-- Password Prompt Dialog -->
   <if expr="is_chromeos">
     <message name="IDS_SETTINGS_PEOPLE_PASSWORD_PROMPT_TITLE" desc="Title of the password prompt dialog popup.">
       Confirm your password

@@ -1,8 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Settings-specific strings (included from generated_resources.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
   <message name="IDS_SETTINGS_EMPTY_STRING" desc="Empty string, exist only to make code generic. No translation required." translateable="false" />
 
-  
+  <!-- Shared across multiple pages -->
   <message name="IDS_SETTINGS_CONTINUE" desc="Label for 'Continue' buttons.">
     Continue
   </message>
@@ -36,7 +38,7 @@
     </message>
   </if>
 
-  
+  <!-- About Page -->
   <message name="IDS_SETTINGS_ABOUT_PAGE_BROWSER_VERSION" desc="The text label describing the version of the browser, example: Version 57.0.2937.0 (Developer Build) unknown (64-bit)">
     Version <ph name="PRODUCT_VERSION">$1<ex>15.0.865.0</ex></ph> (<ph name="PRODUCT_CHANNEL">$2<ex>Developer Build</ex></ph>) <ph name="PRODUCT_MODIFIER">$3</ph> <ph name="PRODUCT_VERSION_BITS">$4</ph>
   </message>
@@ -75,7 +77,7 @@
     </message>
   </if>
 
-  
+  <!-- Accessibility Page -->
   <message name="IDS_SETTINGS_ACCESSIBILITY" desc="Name of the settings page which displays accessibility preferences.">
     Accessibility
   </message>
@@ -176,7 +178,7 @@
     </message>
   </if>
 
-  
+  <!-- Appearance Page -->
   <message name="IDS_SETTINGS_APPEARANCE" desc="Name of the settings page which displays appearance preferences.">
     Appearance
   </message>
@@ -282,7 +284,7 @@
     </message>
   </if>
 
-  
+  <!-- Common -->
   <message name="IDS_SETTINGS_ADVANCED" desc="Name of the settings page which displays advanced preferences.">
     Advanced
   </message>
@@ -299,13 +301,13 @@
     Search settings
   </message>
   <message name="IDS_SETTINGS_SEARCH_NO_RESULTS_HELP" desc="Help text for a search that has no results.">
-    Go to <ph name="BEGIN_LINK_CHROMIUM">&lt;a target="_blank" href="$1"&gt;</ph>Brave help<ph name="END_LINK_CHROMIUM">&lt;/a&gt;</ph> if you can't find what you're looking for
+    Go to <ph name="BEGIN_LINK_CHROMIUM">&lt;a target="_blank" href="$1"&gt;</ph>iBrowe help<ph name="END_LINK_CHROMIUM">&lt;/a&gt;</ph> if you can't find what you're looking for
   </message>
   <message name="IDS_SETTINGS_SETTINGS" desc="The settings page title.">
     Settings
   </message>
   <message name="IDS_SETTINGS_ALT_PAGE_TITLE" desc="The settings page title for the about page.">
-    Settings - <ph name="SECTION_TITLE">$1<ex>About Brave</ex></ph>
+    Settings - <ph name="SECTION_TITLE">$1<ex>About iBrowe</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SUBPAGE_BUTTON" desc="Accessibility description for a button navigating the user from a settings page to one of the settings subpages.">
     Subpage button
@@ -360,7 +362,7 @@
     Start time <ph name="TIME">$1<ex>9:06 PM</ex></ph>
   </message>
 
-  
+  <!-- Autofill Page -->
   <message name="IDS_PASSWORDS_PAGE_AUTHENTICATION_PROMPT_BIOMETRIC_SUFFIX" desc="Shown after 'iBrowe is trying to ' (or in some languages, 'iBrowe wants to ') in a dialog message. Text for the dialog box that prompts the user for the biometric authentication before revealing plaintext passwords on the password page.">
     show passwords
   </message>
@@ -374,7 +376,7 @@
     export passwords
   </message>
   <message name="IDS_PASSWORDS_PAGE_DELETE_ALL_DATA_AUTHENTICATION_PROMPT_BIOMETRIC_SUFFIX" desc="Shown on MacOS after 'iBrowe is trying to ' (or in some languages, 'iBrowe wants to ') in a dialog message. Text for the dialog box that prompts the user for the biometric authentication before deleting all iBrowe Password Manager data.">
-    delete your <ph name="BRAND">$1<ex>Brave Password Manager</ex></ph> data
+    delete your <ph name="BRAND">$1<ex>iBrowe Password Manager</ex></ph> data
   </message>
   <message name="IDS_SETTINGS_AUTOFILL_AND_PASSWORDS" desc="Name of the settings page which allows managing passwords, payment methods and addresses settings.">
     Autofill and passwords
@@ -461,7 +463,7 @@
     This payment method will be deleted from this device
   </message>
   <message name="IDS_SETTINGS_PAYMENTS_MANAGE_CREDIT_CARDS" desc="Shown in the payments section of settings. Descriptive text to inform the user that credit cards can be accessed online. Has a link.">
-   To add or manage Google Pay payment methods, visit your <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>Brave sync chain<ph name="END_LINK">&lt;/a&gt;</ph>
+   To add or manage Google Pay payment methods, visit your <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>iBrowe sync chain<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
     <message name="IDS_SETTINGS_PAYMENTS_SAVED_TO_THIS_DEVICE_ONLY" desc="Shown in the payments section of settings. Descriptive text to inform the user that this credit card will be saved to local device only.">
    This card will be saved to this device only
@@ -694,7 +696,7 @@
     Hide password for <ph name="USERNAME">$1<ex>example@gmail.com</ex></ph> on <ph name="DOMAIN">$2<ex>www.google.com</ex></ph>
   </message>
 
-  
+  <!-- Default Browser Page -->
   <if expr="not is_chromeos">
     <message name="IDS_SETTINGS_DEFAULT_BROWSER" desc="Name of the Default Browser page, which allows users to set which browser will open .html files within the OS.">
       Default browser
@@ -705,7 +707,7 @@
   </if>
 
   <if expr="use_nss_certs">
-    
+    <!-- Certificate Manager Page -->
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_YOUR_CERTIFICATES" desc="Label for the your certificates tab in certificate manager.">
       Your certificates
     </message>
@@ -755,7 +757,7 @@
       Untrusted
     </message>
 
-    
+    <!-- Certificate Manager Page, edit certificate authority trust dialog-->
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_CA_TRUST_EDIT_DIALOG_TITLE" desc="Title of the certificate manager edit trust dialog">
       Certificate authority
     </message>
@@ -775,7 +777,7 @@
       Trust this certificate for identifying software makers
     </message>
 
-    
+    <!-- Certificate Manager Page, delete certificate confirmation dialog -->
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_DELETE_USER_TITLE" desc="Title of a certificate manager dialog for confirming deletion of a user certificate">
       Delete "<ph name="CERTIFICATE_NAME">$1<ex>VeriSign Browser Certificate</ex></ph>"?
     </message>
@@ -798,7 +800,7 @@
       Delete certificate "<ph name="CERTIFICATE_NAME">$1<ex>Example Certificate</ex></ph>"?
     </message>
 
-    
+    <!-- Certificate Manager Page, encrypt/decrypt password dialogs -->
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_ENCRYPT_PASSWORD_TITLE" desc="Description of password prompt in certificate manager for exporting a personal certificate">
       Please enter a password to encrypt this certificate
     </message>
@@ -815,7 +817,7 @@
       Confirm password
     </message>
 
-    
+    <!-- Certificate Manager Page, error dialog -->
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_BAD_PASSWORD" desc="The text in the error dialog for entering an incorrect password when importing an encrypted certificate file.">
       Incorrect password
     </message>
@@ -958,7 +960,7 @@
     </if>
   </if>
 
-  
+  <!-- Delete Browsing Data -->
   <message name="IDS_SETTINGS_CLEAR_PERIOD_TITLE" desc="Label of the dropdown that selects the time range for which browsing data will be deleted.">
     Time range
   </message>
@@ -996,10 +998,10 @@
     Deletes history from all synced devices
   </message>
   <message name="IDS_SETTINGS_CLEAR_GOOGLE_SEARCH_HISTORY_GOOGLE_DSE" desc="A description explaining that search history and other forms of activity can be cleared through the iBrowe account.">
-    <ph name="BEGIN_LINK_SEARCH">&lt;a target="_blank" href="$1"&gt;</ph>Search history<ph name="END_LINK_SEARCH">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK_GOOGLE">&lt;a target="_blank" href="$2"&gt;</ph>other forms of activity<ph name="END_LINK_GOOGLE">&lt;/a&gt;</ph> may be saved in your Brave sync chain when you're signed in. You can delete them anytime.
+    <ph name="BEGIN_LINK_SEARCH">&lt;a target="_blank" href="$1"&gt;</ph>Search history<ph name="END_LINK_SEARCH">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK_GOOGLE">&lt;a target="_blank" href="$2"&gt;</ph>other forms of activity<ph name="END_LINK_GOOGLE">&lt;/a&gt;</ph> may be saved in your iBrowe sync chain when you're signed in. You can delete them anytime.
   </message>
   <message name="IDS_SETTINGS_CLEAR_GOOGLE_SEARCH_HISTORY_NON_GOOGLE_DSE" desc="A description explaining that other forms of activity can be cleared through the iBrowe account.">
-    <ph name="BEGIN_LINK_GOOGLE">&lt;a target="_blank" href="$1"&gt;</ph>Other forms of activity<ph name="END_LINK_GOOGLE">&lt;/a&gt;</ph> may be saved in your Brave sync chain when you're signed in. You can delete them anytime.
+    <ph name="BEGIN_LINK_GOOGLE">&lt;a target="_blank" href="$1"&gt;</ph>Other forms of activity<ph name="END_LINK_GOOGLE">&lt;/a&gt;</ph> may be saved in your iBrowe sync chain when you're signed in. You can delete them anytime.
   </message>
   <message name="IDS_SETTINGS_CLEAR_NON_GOOGLE_SEARCH_HISTORY_PREPOPULATED_DSE" desc="A description informing the user about the way to clear their search history when their Default Search Engine is not iBrowe.">
     Your search engine is <ph name="DSE">$1<ex>Bing</ex></ph>. See their instructions for deleting your search history, if applicable.
@@ -1044,7 +1046,7 @@
     Notifications will be disabled
   </message>
 
-  
+  <!-- Downloads Page -->
   <message name="IDS_SETTINGS_DOWNLOADS" desc="Name of the settings page which displays download preferences.">
     Downloads
   </message>
@@ -1064,7 +1066,7 @@
     Show downloads when they're done
   </message>
 
-  
+  <!-- On Startup Page -->
   <message name="IDS_SETTINGS_ON_STARTUP" desc="Name of the on startup page.">
     On startup
   </message>
@@ -1096,7 +1098,7 @@
     Remove
   </message>
   <message name="IDS_SETTINGS_ON_STARTUP_PAGE_TOOLTIP" desc="A tooltip to display for a page in the list of pages to open on startup">
-    <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - <ph name="PAGE_URL">$2<ex>http://www.google.com/</ex></ph>
+    <ph name="PAGE_TITLE">$1<ex>iBrowe</ex></ph> - <ph name="PAGE_URL">$2<ex>http://www.google.com/</ex></ph>
   </message>
   <message name="IDS_SETTINGS_INVALID_URL" desc="Error message explaining that the URL being entered is invalid.">
     Invalid URL
@@ -1105,7 +1107,7 @@
     Please enter a shorter URL
   </message>
 
-  
+  <!-- Performance Page -->
   <message name="IDS_SETTINGS_PERFORMANCE_PAGE_TITLE" desc="Name of the performance settings page.">
     Performance
   </message>
@@ -1221,7 +1223,7 @@
     Get notifications that suggest ways to improve detected performance issues. <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank" aria-description="$2"&gt;</ph>Learn more about performance issue alerts<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  
+  <!-- Languages Page -->
   <message name="IDS_SETTINGS_LANGUAGES_PAGE_TITLE" desc="Name of the settings page which displays language preferences.">
     Languages
   </message>
@@ -1379,7 +1381,7 @@
     </message>
   </if>
 
-  
+  <!-- Preloading Page-->
   <message name="IDS_SETTINGS_PRELOAD_PAGES_TITLE" desc="Title for a section in Settings that controls pages preloading and informs the user about the data shared by this feature.">
     Preload pages
   </message>
@@ -1408,7 +1410,7 @@
     Browsing and searching is faster than standard preloading
   </message>
 
-  
+  <!-- Privacy Page -->
   <message name="IDS_SETTINGS_PRIVACY" desc="Name of the settings page which allows users to modify privacy and security settings.">
     Privacy and security
   </message>
@@ -1431,7 +1433,7 @@
     </if>
   </if>
 
-  
+  <!-- Offer Writing Help Page -->
   <message name="IDS_SETTINGS_AI_COMPOSE_SUBLABEL_V2" desc="This string is the subheading of a setting for ‘Help me write’. This subheading summarizes the user benefit of the Help Me Write feature. This is an AI (artificial intelligence) feature that suggests writing help when users are writing short-form text on the web. The tone should be motivating.">
     Helps you write short-form text for things on the web, like reviews
   </message>
@@ -1475,7 +1477,7 @@
     When you get writing help, the page’s URL, content, and your text are sent to iBrowe. Don’t enter personal info (like medical or financial details)
   </message>
 
-  
+  <!-- Anti-abuse Page -->
   <message name="IDS_SETTINGS_ANTI_ABUSE_ENABLED_SUB_LABEL" desc="The label used for the anti-abuse site settings sub-label when the anti-abuse setting is turned on.">
     Sites can help verify you're not a bot
   </message>
@@ -1498,7 +1500,7 @@
     This setting works without identifying you or allowing sites to see your browsing history, though sites can share a small amount of info as part of the verification
   </message>
 
-  
+  <!-- Privacy Sandbox strings -->
   <message name="IDS_SETTINGS_PRIVACY_SANDBOX_TITLE" desc="The title of the Privacy Sandbox page. 'Privacy Sandbox' is a noun phrase (title case).">
     Privacy Sandbox
   </message>
@@ -1509,7 +1511,7 @@
     More
   </message>
 
-  
+  <!-- Privacy Sandbox Settings 4 - Privacy & Security Page -->
   <message name="IDS_SETTINGS_AD_PRIVACY_LINK_ROW_LABEL" desc="A new label that appears on the Privacy and security page (chrome://settings/privacy) between 'Third-party cookies' and 'Security'. This same text is used as a page title for the new Ad privacy section. This same pair of words is used in the Consent and Notice flow and must be consistently translated in both contexts. We mean privacy associated with ads, and not privacy from ads. **** CONTEXT PRIVACY SANDBOX **** iBrowe’s Privacy Sandbox initiative 1) deprecates third-party cookies in iBrowe, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** NEW SETTINGS SECTION IN CHROME **** 3 new ad-specific settings appear on an 'Ad privacy' page in iBrowe settings. For an equivalent structure, see 'Security' on chrome://settings/privacy that opens chrome://settings/security. Likewise, 'Ad privacy' on chrome://settings/privacy will open chrome://settings/AdPrivacy.">
     Ad privacy
   </message>
@@ -1520,7 +1522,7 @@
     Manage info used by sites to measure ad performance
   </message>
 
-  
+  <!-- Privacy Sandbox Settings 4 - Ad Privacy Page -->
   <message name="IDS_SETTINGS_AD_PRIVACY_PAGE_TITLE" desc="A new page title for a page that includes 3 settings. This same text appears as a label on chrome://settings/privacy between 'Third-party cookies' and 'Security'. This same pair of words is used in the Consent and Notice flow and must be consistently translated in both contexts. We mean privacy associated with ads, and not privacy from ads. **** CONTEXT PRIVACY SANDBOX **** iBrowe's Privacy Sandbox initiative 1) deprecates third-party cookies in iBrowe, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** NEW SETTINGS SECTION IN CHROME **** 3 new ad-specific settings appear on an 'Ad privacy' page in iBrowe settings. For an equivalent structure, see 'Security' on chrome://settings/privacy that opens chrome://settings/security. Likewise, 'Ad privacy' on chrome://settings/privacy will open chrome://settings/AdPrivacy.">
     Ad privacy
   </message>
@@ -1552,8 +1554,8 @@
     Sites and advertisers can understand how ads perform. This setting is off.
   </message>
 
-  
-  
+  <!-- Privacy Sandbox v4 - Topics Page -->
+  <!-- Where possible, these strings have been unified on Desktop & Android in privacy_sandox_strings.grdp. The strings here either only appear on one platform, or have platform specific requirements, e.g. the format of placeholders, and so cannot be unified. For the latter case, they have corresponding _CANONICAL representations used when consent is recorded on either platform, and so they must stay in sync -->
   <message name="IDS_SETTINGS_TOPICS_PAGE_CURRENT_TOPICS_REGION_A11Y_DESCRIPTION" desc="An explanation read by screen readers that describes the list of topics.">
     List of topics estimated by iBrowe based on your recent browsing history
   </message>
@@ -1563,7 +1565,7 @@
   <message name="IDS_SETTINGS_TOPICS_PAGE_FOOTER_V2" desc="This footer helps the user understand that this setting is just one signal among others that affect whether this user sees personalized ads on a site. We define 'personalize' as 'when iBrowe provides recommendations and other content for users based on their data'. At a high level, there are 4 things that affect whether an ad is personalized in this context: * 'this setting' refers to the 'Ad topics' setting. The user is on this page. * 'Site-suggested ads': this is a link to the other new ad setting iBrowe is launching and that sites can use to personalize ads a user sees. * 'cookie settings': this is a link to the cookies control section in iBrowe settings. The Privacy Sandbox project deprecates third-party cookies, but it's a process, and we're launching new functionality that will replace important functionality of cookies. Until third-party cookies are deprecated, the two systems remain active in iBrowe. * 'site you're viewing personalizes ads': When a user engages with a site, iBrowe has no control over whether that site shows the user personalized ads. Imagine you visit www.interesting-site.com and they know a lot about you already based on previous visits. They can personalize content and ads to you if they like. They can use an ad-serving product, like Facebook or iBrowe Ads to deliver personalized ads. They can also use the new Privacy Sandbox APIs (if they so choose) in order to get more information about the user that could be helpful to them in order to personalize ads. Those 2 APIs (settings, from the user's perspective), are 'Ad topics' and 'Site-suggested ads'.">
     Whether an ad you see is personalized can depend on many things including this setting, <ph name="BEGIN_LINK1">&lt;a href="$1" aria-description="$2" target="_blank"&gt;</ph>site-suggested ads<ph name="LINK_END1">&lt;/a&gt;</ph>, your <ph name="BEGIN_LINK2">&lt;a href="$3" aria-description="$4" target="_blank"&gt;</ph>cookie settings<ph name="LINK_END2">&lt;/a&gt;</ph>, and if the site you're viewing personalizes ads. Learn more about <ph name="BEGIN_LINK3">&lt;a href="$5" aria-description="$6" target="_blank"&gt;</ph>managing your ad privacy<ph name="LINK_END3">&lt;/a&gt;</ph>.
   </message>
-  
+  <!-- Privacy Sandbox Settings 4 - Fledge Page -->
   <message name="IDS_SETTINGS_FLEDGE_PAGE_TITLE" desc="A page title and the name of a new setting. **** CONTEXT PRIVACY SANDBOX **** iBrowe's Privacy Sandbox initiative 1) deprecates third-party cookies in iBrowe, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** NEW SETTINGS SECTION IN CHROME **** 3 new ad-specific settings appear on an 'Ad privacy' page in iBrowe settings. For an equivalent structure, see 'Security' on chrome://settings/privacy that opens chrome://settings/security. Likewise, 'Ad privacy' on chrome://settings/privacy will open chrome://settings/AdPrivacy.">
     Site-suggested ads
   </message>
@@ -1628,13 +1630,13 @@
     For example, if you visit a site that sells long-distance running shoes, the site might decide that you're interested in running marathons. Later, if you visit a different site, that site can show you an ad for running shoes suggested by the first site.
   </message>
   <message name="IDS_SETTINGS_FLEDGE_PAGE_LEARN_MORE_BULLET_3" desc="3 of 3 paragraphs on the Learn more page for Site-suggested ads. * 'Auto-deletes': This could just read 'iBrowe deletes...' but we include the 'auto' to suggest that the deletion happens regularly and as part of the system. * 'A site you visit again...': We want to reassure the user. We just told them sites are automatically deleted. And yet, a user might see the same site in the list month after month if they visit that site regularly.">
-    iBrowe auto-deletes sites that are older than 30 days. A site you visit again might reappear on the list. Or you can block a site from suggesting ads for you. Learn more about <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>managing your ad privacy in Brave.<ph name="END_LINK">&lt;/a&gt;</ph>
+    iBrowe auto-deletes sites that are older than 30 days. A site you visit again might reappear on the list. Or you can block a site from suggesting ads for you. Learn more about <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>managing your ad privacy in iBrowe.<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_FLEDGE_PAGE_CURRENT_SITES_DESCRIPTION_LEARN_MORE_A11Y_LABEL" desc="Text read by screen readers to help users distinguish this 'Learn more' link from others that might get added to this page.">
     Learn more about site-suggested ads
   </message>
 
-  
+  <!-- Privacy Sandbox Settings 4 - Ad Measurement Page -->
   <message name="IDS_SETTINGS_AD_MEASUREMENT_PAGE_TITLE" desc="A page title and the name of a new setting. **** CONTEXT PRIVACY SANDBOX **** iBrowe's Privacy Sandbox initiative 1) deprecates third-party cookies in iBrowe, 2) supports free and open content on the web (by finding better ways to support ads online), 3) while providing stronger privacy protections for users. You can see a high-level description of this public project at www.privacysanbox.com. **** NEW SETTINGS SECTION IN CHROME **** 3 new ad-specific settings appear on an 'Ad privacy' page in iBrowe settings. For an equivalent structure, see 'Security' on chrome://settings/privacy that opens chrome://settings/security. Likewise, 'Ad privacy' on chrome://settings/privacy will open chrome://settings/AdPrivacy.">
     Ad measurement
   </message>
@@ -1660,7 +1662,7 @@
     iBrowe limits the total amount of data that sites can share through the browser to measure ad performance
   </message>
 
-  
+  <!-- Privacy Guide -->
   <message name="IDS_SETTINGS_PRIVACY_GUIDE_LABEL" desc="Label of the row in the iBrowe privacy and security settings page that leads to the 'Privacy Guide'. 'Privacy Guide' is a term, see go/glossarymanager/termset?gid=27517723&amp;tsid=28b420b3.">
     Privacy Guide
   </message>
@@ -1799,7 +1801,7 @@
     </message>
   </if>
 
-  
+  <!-- Safety check -->
   <message name="IDS_SETTINGS_SAFETY_CHECK_ICON_INFO_ARIA_LABEL" desc="Accessibility text for a safety check child icon, that indicates info for the child check.">
     Info
   </message>
@@ -2072,7 +2074,7 @@
     Provides iBrowe’s strongest account security for people at risk of targeted attacks
   </message>
 
-  
+  <!-- Secure Connections -->
   <message name="IDS_SETTINGS_SECURE_CONNECTIONS_SECTION_TITLE" desc="Title of the Secure Connections section in Security settings">
     Secure connections
   </message>
@@ -2123,7 +2125,7 @@
     Manage HTTPS/SSL certificates and settings
   </message>
 
-  
+  <!-- iBrowe Root Store -->
   <message name="IDS_SETTINGS_MANAGE_DEVICE_CERTIFICATES" desc="Text for manage device certificates button in Privacy options">
     Manage device certificates
   </message>
@@ -2236,7 +2238,7 @@
     Blocked <ph name="PERMISSION">$1<ex>location</ex></ph> and <ph name="COUNT">$2<ex>2</ex></ph> more
   </message>
 
-  
+  <!-- Reset Settings Page -->
   <message name="IDS_SETTINGS_RESET_PROMPT_TITLE" desc="Title for a prompt that gives an explanation of what would be resetted by 'Reset and clean up' section of iBrowe Settings. " meaning="Chrome Cleanup feature. Try to use the same translation for 'Reset' in 'Reset and cleanup' string.">
     Reset settings?
   </message>
@@ -2259,7 +2261,7 @@
     Learn more about resetting settings
   </message>
 
-  
+  <!-- Reset card title and iBrowe Cleanup item on Windows -->
   <if expr="is_win and _google_chrome">
     <message name="IDS_SETTINGS_RESET_AND_CLEANUP" desc="Title of a section in iBrowe Settings. Imperative. 'Reset' refers to resetting settings to defaults. 'Clean up' refers to cleaning up harmful software on the user's computer.">
       Reset and clean up
@@ -2269,7 +2271,7 @@
     </message>
   </if>
 
-  
+  <!-- Search Page -->
   <message name="IDS_SETTINGS_SEARCH" desc="Name of the settings page which displays search engine preferences.">
     Search engine
   </message>
@@ -2286,7 +2288,7 @@
     Create shortcuts for searching sites and manage your search engine
   </message>
 
-  
+  <!-- Search Engines Page -->
   <message name="IDS_SETTINGS_SEARCH_ENGINES" desc="Name of the settings page which manages search engines.">
     Search Engines
   </message>
@@ -2393,19 +2395,19 @@
     Additional inactive sites
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_MORE_ACTIONS_ARIA_LABEL" desc="Accessibility label for the three-dot more actions menu button associated with each search engine on chrome://settings/searchEngines">
-    More actions for <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph>
+    More actions for <ph name="SEARCH_ENGINE_NAME">$1<ex>iBrowe</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_ACTIVATE_BUTTON_ARIA_LABEL" desc="Accessibility label for the Activate button associated with each inactive search engine on chrome://settings/searchEngines">
-    Click to activate <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph>
+    Click to activate <ph name="SEARCH_ENGINE_NAME">$1<ex>iBrowe</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_ADD_SITE_SEARCH_BUTTON_ARIA_LABEL" desc="Accessibility label for the Add button that opens the Add Site search dialog on chrome://settings/searchEngines.">
     Click to open Add Site Search dialog
   </message>
   <message name="IDS_SETTINGS_SEARCH_ENGINES_EDIT_SEARCH_ENGINE_BUTTON_ARIA_LABEL" desc="Accessibility label for the Edit (pencil-icon) button that opens the Edit Site search/Search engine dialog for the associated search engine on chrome://settings/searchEngines.">
-    Click to open Edit dialog for <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph>
+    Click to open Edit dialog for <ph name="SEARCH_ENGINE_NAME">$1<ex>iBrowe</ex></ph>
   </message>
 
-  
+  <!-- Site Settings Page -->
   <message name="IDS_SETTINGS_EXCEPTIONS_EMBEDDED_ON_HOST" desc="Template text for a child row in the content Exceptions page view. Controls the permission setting for the parent page when embedded on the specified site.">
     embedded on <ph name="URL">$1<ex>www.google.com</ex></ph>
   </message>
@@ -3325,7 +3327,7 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_MUTE_DEFAULT_MENU" desc="Label for the default menu item to mute sound for a particular site.">
     Mute (default)
   </message>
-  
+  <!-- TODO(crbug.com/41338113): Consolidate these strings with those used in the Page Info bubble. -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_ALLOW_MENU" desc="Label for the menu item to allow permission for a particular site.">
     Allow
   </message>
@@ -3578,7 +3580,7 @@
                 other {Expires in # days}}
   </message>
 
-  
+  <!-- Site Settings - Site Data Page-->
   <message name="IDS_SETTINGS_SITE_DATA_PAGE_TITLE" desc="A page title for a new page. What is 'On-device site data'? When you interact with a site, that site can remember things about what you do. For example, you might place a pair of shoes in a shopping cart, close down your browser, and find those same shoes in your shopping cart when you visit the same site a week later. Sometimes that info is saved in the Cloud. Sometimes that info is saved on the user's device. There are several ways a site can save info to the user's device—for example, with cookies (text files saved to your device), small JavaScript databases, and even iBrowe's new ad settings that are part of the Privacy Sandbox project (see details below). This page introduces the concept of on-device site data, allows the user to see which sites are using it, and allows the user to delete all saved data or just data from specific sites.">
     On-device site data
   </message>
@@ -3639,7 +3641,7 @@
   <message name="IDS_SETTINGS_ADD_SITE_CONTEXT_MENU_LABEL" desc="Accessibility label which will be read by screen readers when focus enters the three dot menu. The user can use this menu to remove or edit sites in the block/allow list">
     More options for <ph name="ORIGIN">$1<ex>example.com</ex></ph>
   </message>
-  
+  <!-- Site Settings - Storage Access Page -->
   <message name="IDS_SETTINGS_STORAGE_ACCESS_DESCRIPTION" desc="The body description on the Embedded content settings page.">
     Sites you visit can embed content from other sites, for example images, ads, and text. These other sites can ask for permission to use information they've saved about you as you browse the site.
   </message>
@@ -3711,14 +3713,14 @@
     Site
   </message>
 
-  
+  <!-- Cookies Window -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_NUM_COOKIES" desc="A label showing the number of cookies set on a site.">
     {NUM_COOKIES, plural,
         =1 {1 cookie}
         other {{NUM_COOKIES} cookies}}
   </message>
 
-  
+  <!-- Sync / People Page -->
   <message name="IDS_SETTINGS_PEOPLE" desc="Name of the settings page which manages the user's relationship to iBrowe.">
     You and iBrowe
   </message>
@@ -3733,7 +3735,7 @@
     Verify it's you
   </message>
   <message name="IDS_SETTINGS_TURN_OFF_SYNC_MANAGED_PROFILE_EXPLANATION" desc="The text to display in the 'Turn Sync off' dialog to stop syncing for managed profiles.">
-    Because this account is managed by <ph name="DOMAIN">$1<ex>example.com</ex></ph> you will not be signed out of your Brave sync chain. Your bookmarks, history, passwords, and other settings will no longer be synced. However, your previously synced data will remain stored in your Brave sync chain and can be managed on <ph name="BEGIN_LINK">&lt;a href="$2" target="_blank"&gt;<ex>&lt;a href="$2" target="_blank"&gt;</ex></ph>Brave Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+    Because this account is managed by <ph name="DOMAIN">$1<ex>example.com</ex></ph> you will not be signed out of your iBrowe sync chain. Your bookmarks, history, passwords, and other settings will no longer be synced. However, your previously synced data will remain stored in your iBrowe sync chain and can be managed on <ph name="BEGIN_LINK">&lt;a href="$2" target="_blank"&gt;<ex>&lt;a href="$2" target="_blank"&gt;</ex></ph>iBrowe Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_TURN_OFF_SYNC_AND_SIGN_OUT_DIALOG_TITLE" desc="The text to display on the title of the dialog to turn off sync and sign out.">
     Turn off sync and personalization?
@@ -3779,7 +3781,7 @@
   </if>
 
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_EXPLANATION" desc="The text to display in the Sign out of iBrowe dialog to stop syncing for non-managed profiles.">
-    Changes to your bookmarks, history, passwords, and other settings will no longer be synced to your iBrowe sync chain. However, your existing data will remain stored in your iBrowe sync chain and can be managed on <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>Brave Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+    Changes to your bookmarks, history, passwords, and other settings will no longer be synced to your iBrowe sync chain. However, your existing data will remain stored in your iBrowe sync chain and can be managed on <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>iBrowe Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_AND_SIGN_OUT_EXPLANATION" desc="The text to display in the Sign out of iBrowe dialog to stop syncing and sign-out for non-managed profiles.">
     This will sign you out of your iBrowe sync chains. Your bookmarks, history, passwords, and more will no longer be synced.
@@ -3800,7 +3802,7 @@
     Uses content on sites you visit, plus browser activity and interactions, for personalization
   </message>
   <message name="IDS_SETTINGS_ENCRYPT_WITH_SYNC_PASSPHRASE_LABEL" desc="Label for the radio button which, when selected, causes synced settings to be encrypted with a user-provided password.">
-    Encrypt synced data with your own <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>sync passphrase<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>. Payment methods and addresses from Google Pay won’t be encrypted. Browsing history from Brave won’t sync.
+    Encrypt synced data with your own <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>sync passphrase<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>. Payment methods and addresses from Google Pay won’t be encrypted. Browsing history from iBrowe won’t sync.
   </message>
   <message name="IDS_SETTINGS_PASSPHRASE_EXPLANATION_TEXT" desc="Message shown when explicit passphrase is selected.">
     Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by iBrowe. If you forget your passphrase or want to change this setting, you'll need to <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>reset sync<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
@@ -3851,7 +3853,7 @@
   </if>
 
   <if expr="not is_chromeos">
-    
+    <!-- Import Settings Dialog -->
     <message name="IDS_SETTINGS_IMPORT_SETTINGS_TITLE" desc="Dialog title for import dialog.">
       Import bookmarks and settings
     </message>
@@ -3895,7 +3897,7 @@
     </message>
   </if>
 
-  
+  <!-- History search -->
   <message name="IDS_SETTINGS_HISTORY_SEARCH_SETTING_LABEL" desc="Title of the page of the settings that enables history search.">
     History search, powered by AI
   </message>
@@ -3975,7 +3977,7 @@
     Off • Use everyday language to search your browsing history and find sites you visited. You can also ask questions and get answers based on your browsing history
   </message>
 
-  
+  <!-- Web Content -->
   <message name="IDS_SETTINGS_PAGE_ZOOM_LABEL" desc="Label for the page zoom dropdown menu in settings.">
     Page zoom
   </message>
@@ -4031,7 +4033,7 @@
     The quick brown fox jumps over the lazy dog
   </message>
 
-  
+  <!-- System Page -->
   <if expr="not is_chromeos">
     <message name="IDS_SETTINGS_SYSTEM" desc="Title of the system settings.">
       System
@@ -4048,14 +4050,14 @@
       Open your computer's proxy settings
     </message>
     <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_EXTENSION_LABEL" desc="Non-interactive label that describes when iBrowe's proxy settings are overwritten by an extension. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
-      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is using proxy settings from an extension
+      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>iBrowe</ex></ph> is using proxy settings from an extension
     </message>
     <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_POLICY_LABEL" desc="Non-interactive label that describes when iBrowe's proxy settings are overwritten by policy. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
-      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is using proxy settings from your administrator
+      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>iBrowe</ex></ph> is using proxy settings from your administrator
     </message>
   </if>
 
-  
+  <!-- Incompatible Applications Page -->
   <if expr="is_win and _google_chrome">
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_RESET_CARD_TITLE" desc="The title of the Incompatible Applications section of the settings.">
       Update or remove incompatible applications
@@ -4093,7 +4095,7 @@
     <ph name="PAGE_NAME">$1<ex>Bookmarks</ex></ph> is not available to Guest users.
   </message>
 
-  
+  <!-- Security Keys -->
   <message name="IDS_SETTINGS_SECURITY_KEYS_TITLE" desc="Headline in the Settings UI for the subpage handling security keys. Security keys are external physcial devices for user authentication and the translation should match that used in, for example, IDS_WEBAUTHN_USB_ACTIVATE_DESCRIPTION.">
     Manage security keys
   </message>
@@ -4355,7 +4357,7 @@
     <ph name="EXTENSION_OR_APP_NAME">$1<ex>Google Docs Offline</ex></ph> (ID: <ph name="EXTENSION_OR_APP_ID">$2<ex>ghbmnnjooekpmoecnnnilnnbdlolhkhi</ex></ph>)
   </message>
 
-  
+  <!-- Safety Hub -->
   <message name="IDS_SETTINGS_SAFETY_HUB" desc="Name of a page in settings that gives users an overview over their safety status and where users can take action to improve their safety.">
     Safety Check
   </message>
@@ -4510,7 +4512,7 @@
     ,
   </message>
 
-  
+  <!-- Experimental settings strings -->
   <message name="IDS_SETTINGS_AI_PAGE_TITLE" desc="Title of page holding experimental AI settings">
     Experimental AI
   </message>
@@ -4548,7 +4550,7 @@
     This feature is disabled by your organization
   </message>
 
-  
+  <!-- Experimental settings - Tab Organization -->
   <message name="IDS_SETTINGS_EXPERIMENTAL_ADVANCED_FEATURE2_LABEL" desc="Toggle primary description">
     Tab organizer
   </message>
@@ -4568,7 +4570,7 @@
     When you use organize tabs, the titles and URLs of your open tabs are sent to iBrowe to generate suggested tab groups
   </message>
 
-  
+  <!-- Experimental settings - Compare -->
   <message name="IDS_SETTINGS_COMPARE_SETTING_SUBLABEL" desc="This string is the subheading of a setting for ‘Compare products’. This subheading summarizes the user benefit of the Compare Products feature. This is an AI (artificial intelligence) feature that helps users compare products in open tabs by generating an information table and summarizing key differences. The tone should be motivating.">
     Easily compare similar products
   </message>
@@ -4594,7 +4596,7 @@
     Comparison tables are saved in your iBrowe sync chain
   </message>
 
-    
+    <!-- Experimental settings - Password Change -->
   <message name="IDS_SETTINGS_PASSWORD_CHANGE_LABEL" desc="Primary label for password change entry in settings.">
     Automated password Change
   </message>
@@ -4617,7 +4619,7 @@
     Your password is encrypted and never seen by anyone
   </message>
 
-  
+  <!-- Security settings toast confirmation -->
   <message name="IDS_SETTINGS_SAFEBROWSING_TURN_ON_ENHANCED_TOAST_BUTTON" desc="When iBrowe shows a toast notification after the user turned off the Enhanced Protection setting, there's a button the user can click to turn on the Enhanced Protection setting.">
     Turn on
   </message>

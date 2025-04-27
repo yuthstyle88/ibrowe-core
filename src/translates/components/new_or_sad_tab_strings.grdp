@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
 
       <message name="IDS_DEFAULT_TAB_TITLE" desc="The default title in a tab.">
@@ -8,7 +9,7 @@
         Download
       </message>
 
-      
+      <!-- Sad Tab Strings -->
       <message name="IDS_SAD_TAB_TITLE" desc="The title of the sad tab page that is shown when a tab crashes. This is intended to be a humorous exclamation of dismay." formatter_data="android_java">
         Aw, Snap!
       </message>
@@ -110,7 +111,7 @@
 	</else>
       </if>
 
-      
+      <!-- New Tab -->
       <message name="IDS_NEW_TAB_TITLE" desc="Title of the new tab page, not to be confused with the action of opening a new tab.">
         New Tab
       </message>
@@ -138,8 +139,8 @@
         Undo
       </message>
 
-      
-      
+      <!-- Private Tab redesign strings -->
+      <!-- TODO(msramek): Merge with the above section once this is fully launched. -->
 
       <message name="IDS_NEW_TAB_OTR_TITLE" desc="Title of the Private new tab page. The Private mode provides private browsing experience by hiding browsing activity from other people using the same device. However, it does not make the user completely invisible or anonymous; please don't translate it as such." formatter_data="android_java">
         You’ve gone Private
@@ -190,7 +191,7 @@
         When on, sites can't use cookies that track you across the web. Features on some sites may break.
       </message>
 
-      
+      <!-- 3P Cookie Depreciation  -->
       <message name="IDS_NEW_TAB_OTR_THIRD_PARTY_BLOCKED_COOKIE" desc="Text informing users that 3rd-party cookies are blocked." formatter_data="android_java">
         Third-party cookies are blocked
       </message>

@@ -1,7 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
 
-  
+  <!-- TODO(crbug.com/40266549): Remove when Undo launches on iOS. -->
   <message name="IDS_AUTOFILL_CLEAR_FORM_MENU_ITEM" desc="iOS: The entry in the suggestions keyboard accessory that clears an auto-filled form.">
     Clear form
   </message>
@@ -120,7 +121,7 @@
     The delete address option was selected
   </message>
 
-  
+  <!-- TODO(crbug.com/40266549): Update when Undo launches on iOS. -->
   <message name="IDS_AUTOFILL_A11Y_ANNOUNCE_CLEARED_FORM" desc="Screen reader announcement indicating that current form autofilled values were cleared.">
     The autofilled info was cleared from the form
   </message>
@@ -245,11 +246,11 @@
     You can now use addresses from your iBrowe sync chain
   </message>
 
-  
+  <!-- Autofill suggestion label separator -->
   <message name="IDS_AUTOFILL_SUGGESTION_LABEL_SEPARATOR" desc="A separator to place between different elements of a suggestion's label. Labels sometimes have more than one type of information, such as a phone number and an email address or a street address, a phone number, and an email address. A symbol, in this case a bullet •, with a white space before it and a white space after it, is used to separate the parts of the label that appear on the same line, e.g. (877) 733-7699 • fanfeedback@redsox.com or 465 Huntington Ave • (617) 267-9300 • matthewt@mfa.org. A bullet • is preferred for separating the label parts; however, if the bullet • resembles another symbol in the language, please translate the bullet • as a symbol (A) that is not easily mistaken for a number or letter in the language and (B) that is typically used to separate elements.">
   ''' • '''</message>
 
-  
+  <!-- Autofill credit card suggestion popup -->
   <message name="IDS_AUTOFILL_CREDIT_CARD_EXPIRATION_DATE_ABBR" desc="Abbreviated label for credit card expiration date. [CHAR_LIMIT=32]">
     Exp: <ph name="EXPIRATION_MONTH">$1<ex>06</ex></ph>/<ph name="EXPIRATION_YEAR">$2<ex>17</ex></ph>
   </message>
@@ -268,7 +269,7 @@
     Loading...
   </message>
 
-  
+  <!-- Autofill settings -->
   <message name="IDS_AUTOFILL_ADDRESSES" desc="Title for the list of addresses that chrome has saved for use in filling in forms.">
     Addresses
   </message>
@@ -358,12 +359,12 @@
     </message>
   </if>
 
-  
+  <!-- Autofill/Wallet integration preferences -->
   <message name="IDS_SYNC_DATATYPE_PAYMENTS" desc="Label for the checkbox that controls the Autofill/Payments integration feature used for Autofill Home. 'Google Pay' should not be translated as it is the product name. Sentence-Cased.">
     Payment methods, offers, and addresses using Google Pay
   </message>
 
-  
+  <!-- Manual filling (keyboard accessory) strings -->
   <if expr="is_android">
     <message name="IDS_MANUAL_FILLING_CREDIT_CARD_SHEET_ALL_ADDRESSES_LINK" desc="The text of the link in the address sheet that opens the address management section.">
       Manage payment methods
@@ -379,8 +380,8 @@
     </message>
   </if>
 
-  
-  
+  <!-- Explicit save/update address prompt strings -->
+  <!-- Common on all platforms (platform-specific defined later): -->
   <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_OK_BUTTON_LABEL" desc="Label of the OK button in the prompt that offers the user to save a new address.">
     Save
   </message>
@@ -429,7 +430,7 @@
   <message name="IDS_AUTOFILL_SAVE_PROMPT_EMAIL_SECTION_A11Y_LABEL" desc="The 'Save address' email section a11y announcement, accompanied with a label to make it clear that the content being read is an email.">
     Email: <ph name="EMAIL">$1<ex>alexpark@gmai.com</ex></ph>.
   </message>
-  
+  <!-- Used on Android: -->
   <if expr="is_android">
     <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to save a new address.">
       Save address?
@@ -450,7 +451,7 @@
       Edit address
     </message>
   </if>
-  
+  <!-- Used on iOS: -->
   <if expr="is_ios">
     <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_MESSAGE_TITLE" desc="Title shown in the message that offers the user to proceed with saving a new address." meaning="In Title Case for iOS">
       Save address?
@@ -489,7 +490,7 @@
       You can use saved addresses across iBrowe products. This address will be saved in your iBrowe sync chain, <ph name="USER_EMAIL">$1<ex>janedoe@google.com</ex></ph>.
     </message>
   </if>
-  
+  <!-- Used on Desktop: -->
   <if expr="not is_android and not is_ios">
     <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to save a new address.">
       Save address?
@@ -571,8 +572,8 @@
     </message>
   </if>
 
-  
-  
+  <!-- Autofill Address Edit Dialog -->
+  <!-- Common on all platforms -->
   <message name="IDS_AUTOFILL_ADDRESS_EDIT_DIALOG_HISPANIC_MUNICIPIO" desc="The label shown in address edit dialogs representing a municipio (Spanish) / município (Portuguese) in an address, see https://en.wikipedia.org/wiki/Municipio. This is a subdivision of a state and currently introduced for Mexico.">
     Municipality
   </message>

@@ -39,7 +39,7 @@ def copy_brave_files(source_folder, destfolder, files_extensions):
 
 if __name__ == "__main__":
     # Source folders
-    brave_source_path = os.path.abspath("/Users/yut/CLionProjects/brave-core")
+    brave_source_path = os.path.abspath("/Users/yut/CLionProjects/brave")
     translates_source_path = os.path.abspath("../src/translates")
 
     # destination_root = os.path.abspath("../../brave")

@@ -1,7 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
-  
+  <!-- TODO(crbug.com/395807244): Make entity strings translateable. -->
+  <!-- Entities -->
   <message name="IDS_AUTOFILL_AI_PASSPORT_ENTITY_NAME" desc="Used as a general label for the passport entity." translateable="false">
     Passport
   </message>
@@ -12,8 +13,8 @@
     Driver's license
   </message>
 
-  
-  
+  <!-- TODO(crbug.com/395807244): Make entity strings translateable. -->
+  <!-- Add entity strings -->
   <message name="IDS_AUTOFILL_AI_ADD_PASSPORT_ENTITY" desc="The title of the &quot;Add passport&quot; settings UI." translateable="false">
     Add passport
   </message>
@@ -24,8 +25,8 @@
     Add driver's license
   </message>
 
-  
-  
+  <!-- TODO(crbug.com/395807244): Make entity strings translateable. -->
+  <!-- Edit entity strings -->
   <message name="IDS_AUTOFILL_AI_EDIT_PASSPORT_ENTITY" desc="The title of the &quot;Edit passport&quot; settings UI." translateable="false">
     Edit passport
   </message>
@@ -36,8 +37,8 @@
     Edit driver's license
   </message>
 
-  
-  
+  <!-- TODO(crbug.com/395807244): Make passport strings translateable. -->
+  <!-- Attributes of the passport entity -->
   <message name="IDS_AUTOFILL_AI_PASSPORT_NAME_ATTRIBUTE_NAME" desc="Used as a general label for the passport name attribute." translateable="false">
     Name
   </message>
@@ -54,8 +55,8 @@
     Issue date
   </message>
 
-  
-  
+  <!-- TODO(crbug.com/395807244): Make vehicle strings translateable. -->
+  <!-- Attributes of the vehicle entity -->
   <message name="IDS_AUTOFILL_AI_VEHICLE_OWNER_ATTRIBUTE_NAME" desc="Used as a general label for the vehicle owner attribute." translateable="false">
     Owner
   </message>
@@ -72,8 +73,8 @@
     Model
   </message>
 
-  
-  
+  <!-- TODO(crbug.com/395807244): Make driver's license strings translateable. -->
+  <!-- Attributes of the driver's license entity -->
   <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_NAME_ATTRIBUTE_NAME" desc="Used as a general label for the driver's license name attribute." translateable="false">
     Name
   </message>
@@ -90,16 +91,16 @@
     Issue date
   </message>
 
-  
+  <!-- Fill suggestion -->
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_FILL_ALL_MAIN_TEXT" desc="Suggestion shown on the second level menu of Autofill with AI, used to fill all fields.">
     Fill fields with AI
   </message>
-  
+  <!-- Manage suggestion -->
   <message name="IDS_AUTOFILL_AI_MANAGE_SUGGESTION_MAIN_TEXT" desc="Main text for the suggestion that opens the Autofill AI section in settings" translateable="false">
     Manage information
   </message>
 
-  
+  <!-- Save/Update prompt -->
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_SAVE_DIALOG_TITLE" desc="Text displayed on the top of the save autofill with AI dialog.">
     Save your info to autofill
   </message>
@@ -110,15 +111,15 @@
     Save
   </message>
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_SAVE_DIALOG_FOOTER_DETAILS" desc="Text displayed on the footer of the save dialog giving users details about how Autofill with AI data is saved.">
-    Saved info and the page from <ph name="WEBSITE">$1<ex>airline.com</ex></ph> are sent to Brave and may be seen by human reviewers to improve this feature.
+    Saved info and the page from <ph name="WEBSITE">$1<ex>airline.com</ex></ph> are sent to iBrowe and may be seen by human reviewers to improve this feature.
   </message>
 
-  
+  <!-- General -->
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_MANAGE_PREDICTION_IMPROVEMENTS" desc="Text displayed on different surfaces that is a link which will redirect the user to the settings page.">
     Manage autofill with AI
   </message>
 
-  
+  <!-- Loading suggestions -->
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_LOADING_SUGGESTIONS_A11Y_HINT" desc="The a11y announcement for the loading prediction improvements suggestions popup.">
     Loading suggestions
   </message>
@@ -126,12 +127,12 @@
     Suggestions loaded
   </message>
 
-  
+  <!-- Prediction improvements details -->
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_DETAILS" desc="Text displayed on the feedback suggestion giving users details about Autofill with AI.">
     Info you have saved and this page get sent to iBrowe to see if autofill can help fill this form. Data may be seen by human reviewers to improve this feature.
   </message>
 
-  
+  <!-- Iph -->
   <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_IPH_TITLE" desc="Text displayed in the prediction improvements iph title.">
     Prediction improvements
   </message>
@@ -142,7 +143,7 @@
     Go to settings
   </message>
 
-  
+  <!-- Save/ Update dialog-->
   <message name="IDS_AUTOFILL_AI_SAVE_VEHICLE_ENTITY_DIALOG_TITLE" desc="Used as title on the dialog prompting users whether they want to save a vehicle entity" translateable="false">
     Save vehicle?
   </message>

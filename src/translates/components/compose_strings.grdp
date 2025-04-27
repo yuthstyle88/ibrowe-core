@@ -1,10 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Nudge -->
   <message name="IDS_COMPOSE_SUGGESTION_MAIN_TEXT" desc="Text a user sees in the Autofill popup as the entry point for the Help me write feature.">
     Help me write
   </message>
-  <if expr="is_macosx"> 
+  <if expr="is_macosx"> <!-- Title Case for Mac -->
     <message name="IDS_COMPOSE_CONTEXT_MENU_TEXT" desc="Text a user sees in the context menu as the entry point for the Help me write feature.">
       Help Me Write
     </message>
@@ -39,7 +40,7 @@
     Go to Settings
   </message>
 
-  
+  <!-- FRE dialog -->
   <message name="IDS_COMPOSE_FRE_TITLE" desc="The title of the Help me write disclaimer dialog.">
     Write with more confidence anywhere on the web
   </message>
@@ -53,7 +54,7 @@
     OK
   </message>
 
-  
+  <!-- MSBB consent dialog -->
   <message name="IDS_COMPOSE_FRE_MSBB_TITLE" desc="The title of the MSBB consent dialog.">
     To use this feature, turn on Make Searches and Browsing Better
   </message>
@@ -61,17 +62,17 @@
     <message name="IDS_COMPOSE_FRE_MSBB_MAIN" desc="The main text of the MSBB consent dialog.">
       After you turn on this setting, come back to this tab to start writing.
     </message>
-  </if> 
+  </if> <!-- is_macosx -->
   <if expr="not is_macosx">
     <message name="IDS_COMPOSE_FRE_MSBB_MAIN" desc="The main text of the MSBB consent dialog.">
        After you turn on this setting, come back to this tab to start writing
     </message>
-  </if> 
+  </if> <!-- not is_macosx -->
   <message name="IDS_COMPOSE_FRE_MSBB_SETTINGS_BUTTON" desc="Open the settings page from the MSBB consent dialog.">
     Go to Settings
   </message>
 
-  
+  <!-- In product help bubble dialog for MSBB Settings -->
   <message name="IDS_COMPOSE_MSBB_IPH_BUBBLE_TEXT" desc="The text on an In-Product-Help bubble that is shown when a user navigates to the security settings page from an MSBB dialog">
     Turn on this setting to use Help me write
   </message>
@@ -82,7 +83,7 @@
     Close tip
   </message>
 
-  
+  <!-- Input dialog -->
   <message name="IDS_COMPOSE_DIALOG_TITLE" desc="Compose input dialog title.">
     Help me write
   </message>
@@ -118,7 +119,7 @@
     Update
   </message>
 
-  
+  <!-- Result dialog -->
   <message name="IDS_COMPOSE_EDIT" desc="Label shown on hover and read by screen-readers for button that allows user to edit their input.">
     Edit your input
   </message>
@@ -192,7 +193,7 @@
     Redoing result
   </message>
 
-  
+  <!-- Errors -->
   <message name="IDS_COMPOSE_ERROR_TOO_SHORT" desc="Error that the input was too short.">
     Enter 3 or more words to get writing help
   </message>
@@ -226,7 +227,7 @@
     Check your internet connection and try again
   </message>
 
-  
+  <!-- Cross-dialog -->
   <message name="IDS_COMPOSE_FOOTER_FISHFOOD" desc="The footer text used for Fishfood in the input and result dialogs." translateable="false">
     This feature is experimental.
     <ph name="BEGIN_BUG_LINK">&lt;a href="#" id="bugLink" role="button"&gt;</ph>File a bug<ph name="END_BUG_LINK">&lt;/a&gt;</ph>
@@ -245,7 +246,7 @@
     On-device evaluation used.
   </message>
 
-  
+  <!-- Miscellaneous -->
   <message name="IDS_COMPOSE_FEEDBACK_PLACEHOLDER" desc="Placeholder text for the Help me write feedback form">
     Send feedback for Help me write.
   </message>

@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Profiles specific strings (included from generated_resources.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Supervised User (Legacy and Accounts for Kids) Avatar Menu -->
   <message name="IDS_AVATAR_BUTTON_GUEST" desc="Short label for the avatar button when the user is in guest mode and the number of open guest windows if there are more than one guest window open. [ICU Syntax]" meaning="This window is browsing in guest mode and there are more than one guest windows open. The counter is not shown when there is only one guest window open.">
     {0, plural,
       =1 {Guest}
@@ -53,7 +55,7 @@
     Hi, <ph name="PROFILE_NAME">$1<ex>User</ex></ph>
   </message>
 
-  
+  <!-- Multi-profile -->
   <message name="IDS_PROFILES_MENU_NAME" desc="The name of menu for profiles (Mac and linux) and name for the launcher menu section (Mac).">
     Profiles
   </message>
@@ -513,9 +515,9 @@
     </message>
   </if>
 
-  
+  <!-- Android does not support multiple profiles and supervised users -->
   <if expr="not is_android">
-    
+    <!-- User manager web UI -->
     <if expr="use_titlecase">
       <message name="IDS_SCREEN_LOCK_SIGN_OUT">
         Sign Out
@@ -546,7 +548,7 @@
   </if>
 
   <if expr="not is_chromeos and not is_android">
-    
+    <!-- Profile Customization Web UI -->
     <message name="IDS_PROFILE_CUSTOMIZATION_DONE_BUTTON_LABEL" desc="Text for the Done button on the profile customization bubble">
       Done
     </message>
@@ -575,7 +577,7 @@
       Back from avatar selection page
     </message>
 
-    
+    <!-- Enterprise profile welcome screen -->
     <message name="IDS_ENTERPRISE_PROFILE_WELCOME_TITLE" desc="Title of the enterprise profile welcome screen. It is part of the profile creation flow, shown after sign-in to enterprise users.">
       Welcome to your new profile
     </message>
@@ -772,7 +774,7 @@
       You currently have <ph name="NUMBERED_ITEM">$1<ex>10 bookmarks</ex></ph>, and more. Your organization will be able to see and manage this data
     </message>
 
-    
+    <!-- Supervised user profile signin IPH -->
     <message name="IDS_SUPERVISED_USER_PROFILE_SIGNIN_IPH_TITLE" desc="Title of a reminder message, which is intended to help supervised users understand that they have been signed in to iBrowe.">
       Welcome, <ph name="CHILD_NAME">$1<ex>Charlie</ex></ph>
     </message>
@@ -781,17 +783,17 @@
       Your parent's choices will now keep you safer online
     </message>
 
-    
+    <!-- Supervised user profile avatar badge -->
     <message name="IDS_MANAGED_BY_PARENT_A11Y" desc="Accessibility label that describes the information conveyed by the iBrowe Family Link 'Kite' icon. When shown account profile photo or elsewhere in settings it indicates that the account is supervised.">
       Managed by your parent
     </message>
 
-    
+    <!-- Signout from a supervised user profile -->
     <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_KIDS_BODY" desc="This confirmation message is intended to help supervised users understand what will happen when they sign out of iBrowe. It appears on a dialog after users click to sign out of iBrowe. It motivates kids to get their parents' help to stay safer online.">
       Your parent's choices won't apply after you sign out
     </message>
 
-    
+    <!-- Profile Picker -->
     <message name="IDS_PROFILE_PICKER_ADD_SPACE_BUTTON" desc="Text for the add space button on the profile picker main view">
       Add
     </message>
@@ -799,7 +801,7 @@
       Guest mode
     </message>
     <message name="IDS_PROFILE_PICKER_BACK_BUTTON_ARIA_LABEL" desc="Label for a button that navigates user to the previous page from a profile picker subpage">
-      Back from <ph name="PAGE_TITLE">$1<ex>Set up your new Brave profile</ex></ph> page
+      Back from <ph name="PAGE_TITLE">$1<ex>Set up your new iBrowe profile</ex></ph> page
     </message>
     <message name="IDS_PROFILE_PICKER_BACK_BUTTON_SIGN_IN_LABEL" desc="Label for a button that navigates user to the previous page from the 'Sign in' page">
       Back from sign in
@@ -876,7 +878,9 @@
     <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_NOT_NOW_BUTTON_LABEL" desc="Label for a button to decline a prompt to sign in">
       Continue without an account
     </message>
-    
+    <!-- TODO(crbug.com/40267173): Update the string ids for local profile
+         creatiom since they are now used outside the Profile Picker, in
+         Profile Customization UI instead. -->
     <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_LOCAL_PROFILE_CREATION_CUSTOMIZE_AVATAR_BUTTON_LABEL" desc="Accessibility label for edit avatar button when the pencil icon is focused that is not rendered.">
       Customize avatar
     </message>
@@ -925,7 +929,7 @@
     <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_PROFILE_TYPE_CHOICE_SUBTITLE_UNO" desc="Profile picker profile type choice subtitle"> Sign in to get your passwords and more on all your devices
     </message>
 
-    
+    <!-- First Run Experience strings -->
     <message name="IDS_FRE_SIGN_IN_SUBTITLE_0" desc="This is the subtitle on a full-page screen that asks the user to sign in to iBrowe with their iBrowe sync chain. It appears when the user launches iBrowe for the first time. When they sign in, they can personalize and customize iBrowe and remember their settings in their iBrowe sync chain. These features are also described in the cards below as 'All your devices', 'Stronger security', and 'Back up data'. The tone should be inviting and alluring.">
       Get additional features
     </message>
@@ -973,7 +977,7 @@
       Your device is managed by <ph name="DOMAIN">$1<ex>example.com</ex></ph>. Administrators can access the data in any profile on this device.
     </message>
 
-    
+    <!-- Default Browser Promo -->
     <message name="IDS_FRE_DEFAULT_BROWSER_TITLE_NEW" desc="Title for the page that prompts user to set iBrowe as their default browser in the first run experience.">
       Set your default browser
     </message>
@@ -987,7 +991,7 @@
       Skip
     </message>
 
-    
+    <!-- Batch Upload Desktop -->
     <message name="IDS_BATCH_UPLOAD_TITLE" desc="Title of the Batch Upload dialog on Desktop. This dialog appears when the user clicks on an informational message about items saved to their device. This title precedes a list of items (passwords, bookmarks, and addresses), where the user can select the checkboxes for the items that they want to save in their iBrowe sync chain. When items are saved in their iBrowe sync chain, the user can access them on any device where they’re signed in to iBrowe. The tone should be motivating.">
       Save items in account
     </message>
@@ -1064,7 +1068,7 @@
       Select none
     </message>
 
-    
+    <!-- Signout Confirmation Dialog Desktop -->
     <message name="IDS_SIGNOUT_CONFIRMATION_EXTENSIONS_SECTION_TITLE" desc="Title of the Extensions section in the Signout Confirmation dialog which allows users to remove extensions linked to their account when signing out.">
       {ACCOUNT_EXTENSIONS_COUNT, plural,
       =1 {Remove 1 extension and the data it's saved on this device}

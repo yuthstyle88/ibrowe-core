@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Shared strings -->
   <message name="IDS_WELCOME_NEXT" desc="Label for a button to confirm and continue from the current welcome step.">
     Next
   </message>
@@ -26,7 +27,7 @@
     iBrowe is your default browser
   </message>
 
-  
+  <!-- iBrowe apps selection module -->
   <message name="IDS_WELCOME_GOOGLE_APPS_DESCRIPTION" desc="Description of what this section does in the welcome workflow. This section lets a user bookmark popular iBrowe apps.">
     Add bookmarks to your favorite iBrowe Apps
   </message>
@@ -51,7 +52,7 @@
     YouTube
   </message>
 
-  
+  <!-- NTP background selection module -->
   <message name="IDS_WELCOME_NTP_BACKGROUND_DESCRIPTION" desc="Description of what this section does in the welcome workflow. This section lets a user change the background for the New Tab Page">
     Pick a background
   </message>
@@ -83,7 +84,7 @@
     Start page background has been reset to the default background.
   </message>
 
-  
+  <!-- set default module -->
   <message name="IDS_WELCOME_SET_AS_DEFAULT_HEADER" desc="Header for the page that prompts user to set iBrowe as their default browser.">
     Set iBrowe as your default browser
   </message>
@@ -94,7 +95,7 @@
     Set as default
   </message>
 
-  
+  <!-- Landing view -->
   <message name="IDS_WELCOME_LANDING_TITLE" desc="Title for the page that prompts user to start setting up their new iBrowe.">
     Make iBrowe your own
   </message>
@@ -114,7 +115,7 @@
     Play animations
   </message>
 
-  
+  <!-- Sign-in view -->
   <message name="IDS_WELCOME_SIGNIN_VIEW_HEADER" desc="Header for the page that prompts user to sign in to chrome.">
     Your iBrowe, Everywhere
   </message>

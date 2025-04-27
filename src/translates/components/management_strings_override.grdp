@@ -1,4 +1,13 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+  Strings for the management disclosure panel
+
+  Disclosing admin capabilities to managed users is an important part of
+  striking a balance between the data needs of admins and the privacy
+  expectations of users.
+
+  Please consult with the privacy team when adding or changing strings.
+-->
 <grit-part>
   <if expr="not is_ios">
     </if>

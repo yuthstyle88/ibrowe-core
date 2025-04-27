@@ -1,8 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Bookmarks specific strings (included from generated_resources.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Begin of Bookmarks Bar strings-->
   <if expr="not is_android">
-    
+    <!-- The special folders created when importing from other other browsers. -->
     <if expr="is_win">
       <message name="IDS_BOOKMARK_GROUP_FROM_IE" desc="The group name of bookmarks from Internet Explorer">
         Imported From IE
@@ -68,9 +70,9 @@
   <message name="IDS_BOOKMARK_BAR_OVERFLOW_BUTTON_TOOLTIP" desc="Text shown on the overflow chevron, if visible">
     Hidden bookmarks
   </message>
-  
+  <!-- End of Bookmarks Bar strings. -->
 
-  
+  <!-- Begin of Bookmarks Bar Context Menu strings. -->
   <if expr="not use_titlecase">
     <message name="IDS_BOOKMARK_BAR_OPEN_ALL" desc="Menu title for opening all urls in a bookmark folder">
       &amp;Open all bookmarks
@@ -196,9 +198,9 @@
   <message name="IDS_BOOKMARK_BAR_SHOULD_OPEN_ALL" desc="Message in the message box shown if user asks to open a lot of bookmarks in a folder. The number will always be 15 or more.">
     Are you sure you want to open <ph name="TAB_COUNT">$1<ex>20</ex></ph> tabs?
   </message>
-  
+  <!-- End of Bookmarks Bar Context Menu strings. -->
 
-  
+  <!-- Begin of Bookmarks Bubble strings. -->
   <message name="IDS_BOOKMARK_BUBBLE_PAGE_BOOKMARKED" desc="Title of the bubble after bookmarking a page.">
     Bookmark added
   </message>
@@ -239,15 +241,15 @@
       Choose Another Folder...
     </message>
   </if>
-  
+  <!-- End of Bookmarks Bubble strings. -->
 
-  
+  <!-- Begin of Bookmarks Sync Promo strings for Desktop Identity Consistency. -->
   <message name="IDS_BOOKMARK_DICE_PROMO_SYNC_MESSAGE" desc="Text of the sync promo displayed at the bottom of the bookmark bubble asking the user to enable sync.">
     To get your bookmarks on all your devices, turn on sync.
   </message>
-  
+  <!-- End of Bookmarks Sync Promo strings for Desktop Identity Consistency. -->
 
-  
+  <!-- Begin of Desktop to iOS Promo strings. -->
   <if expr="is_win">
     <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE" desc="Title for iBrowe iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Sync this bookmark to your iPhone
@@ -262,9 +264,9 @@
       To get your bookmarks on your mobile device, <ph name="GET_IOS_APP_LINK">$1<ex>get the application on your iPhone</ex></ph>.
     </message>
   </if>
-  
+  <!-- End of Desktop to iOS Promo strings. -->
 
-  
+  <!-- Begin of Bookmark Editor strings. -->
   <message name="IDS_BOOKMARK_EDITOR_NAME_LABEL" desc="Label shown before the title/name of the URL." meaning="Name of an inanimate object">
     Name
   </message>
@@ -327,9 +329,9 @@
       Bookmark All Tabs
     </message>
   </if>
-  
+  <!-- End of Bookmarks Editor strings. -->
 
-  
+  <!-- Begin of Bookmarks Manager strings. -->
   <message name="IDS_BOOKMARK_MANAGER_TITLE" desc="Title of the bookmark manager window.">
     Bookmarks
   </message>
@@ -505,9 +507,9 @@
       =1 {1 item copied}
       other {{COUNT} items copied}}
   </message>
-  
+  <!-- End of Bookmarks Manager strings. -->
 
-  
+  <!-- Begin of Bookmarks Menu (in the Main Menu) strings. -->
   <message name="IDS_BOOKMARKS_MENU" desc="The title of the Bookmarks menu in the Main menu and in the Mac menu bar.">
     &amp;Bookmarks
   </message>
@@ -554,27 +556,27 @@
   <message name="IDS_BOOKMARKS_LIST_TITLE" desc="Title of the bookmarks list in App Menu's Bookmark submenu">
     Bookmarks
   </message>
-  
+  <!-- End of Bookmarks Menu (in the Main Menu) strings. -->
 
-  
+  <!-- Begin of Bookmark Star button strings. -->
   <message name="IDS_TOOLTIP_STARRED" desc="The tooltip shown when you hover the star button in the right side of the location bar and the current tab is bookmarked.">
     Edit bookmark for this tab
   </message>
-  
+  <!-- End of Bookmark Star button strings. -->
 
-  
+  <!-- Begin of screen reader message strings. -->
   <message name="IDS_BOOKMARK_SCREEN_READER_CREATED" is_accessibility_with_no_ui="true" desc="Screen reader message that is read when a bookmark is created.">
-    '<ph name="BOOKMARK_TITLE">$1<ex>Brave</ex></ph>' bookmark created.
+    '<ph name="BOOKMARK_TITLE">$1<ex>iBrowe</ex></ph>' bookmark created.
   </message>
   <message name="IDS_BOOKMARK_SCREEN_READER_FOLDER_CREATED" is_accessibility_with_no_ui="true" desc="Screen reader message that is read when a bookmark folder is created.">
-    '<ph name="BOOKMARK_TITLE">$1<ex>Brave</ex></ph>' bookmark folder created.
+    '<ph name="BOOKMARK_TITLE">$1<ex>iBrowe</ex></ph>' bookmark folder created.
   </message>
   <message name="IDS_BOOKMARK_SCREEN_READER_REORDERED" desc="Screen reader message that is read when a bookmark is reordered.">
-    '<ph name="BOOKMARK_TITLE">$1<ex>Brave</ex></ph>' moved.
+    '<ph name="BOOKMARK_TITLE">$1<ex>iBrowe</ex></ph>' moved.
   </message>
   <message name="IDS_BOOKMARK_SCREEN_READER_MOVED" desc="Screen reader message that is read when a bookmark is moved into a different folder.">
-    '<ph name="BOOKMARK_TITLE">$1<ex>Brave</ex></ph>' moved into '<ph name="NEW_FOLDER_TITLE">$2<ex>Search engines</ex></ph>'.
+    '<ph name="BOOKMARK_TITLE">$1<ex>iBrowe</ex></ph>' moved into '<ph name="NEW_FOLDER_TITLE">$2<ex>Search engines</ex></ph>'.
   </message>
-  
+  <!-- End of screen reader message strings. -->
 
 </grit-part>

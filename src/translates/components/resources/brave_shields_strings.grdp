@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <grit-part>
   <message name="IDS_BRAVE_SHIELDS" translateable="false" desc="Title for iBrowe Shields">
     iBrowe Shields
@@ -22,7 +22,7 @@
 
   <message name="IDS_BRAVE_SHIELDS_BROKEN" desc="A footnote below the main Shields switch button.">
     If this site seems broken, try Shields down.
-    <ph name="LINK_BEFORE">$1</ph>Note: this may reduce Brave's privacy protections.<ph name="LINK_AFTER">$2</ph>
+    <ph name="LINK_BEFORE">$1</ph>Note: this may reduce iBrowe's privacy protections.<ph name="LINK_AFTER">$2</ph>
   </message>
 
   <message name="IDS_BRAVE_SHIELDS_BLOCKED_NOTE" desc="Description to convey trackers, advertisement and more are being blocked.">
@@ -233,7 +233,7 @@
   <message name="IDS_BRAVE_SHIELDS_ONBOARDING_LABEL_WITHOUT_COMPANIES" desc="Label for the onboarding bubble UI, informing users about iBrowe Shields blocking number of trackers only.">
     {BLOCKED_COUNT, plural,
       =1 {iBrowe Shields blocked 1 tracker on <ph name="SITE_URL">$1</ph>}
-      other {Brave Shields blocked {BLOCKED_COUNT} trackers on <ph name="SITE_URL">$1</ph>}
+      other {iBrowe Shields blocked {BLOCKED_COUNT} trackers on <ph name="SITE_URL">$1</ph>}
     }
   </message>
 

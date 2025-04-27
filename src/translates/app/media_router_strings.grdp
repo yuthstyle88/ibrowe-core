@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Media Router-specific strings (included from generated_resources.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- General -->
   <message name="IDS_MEDIA_ROUTER_ICON_TOOLTIP_TEXT" desc="Tooltip for the Media Router Action icon, which appears in the toolbar. The tooltip appears on mouseover of the icon.">
    Display on another screen
   </message>
@@ -8,7 +10,7 @@
     &amp;Cast...
   </message>
 
-  
+  <!-- Cast Modes -->
   <message name="IDS_MEDIA_ROUTER_PRESENTATION_CAST_MODE" desc="Title for the presentation cast mode, which is used when the page is cast enabled. This is shown as a dropdown option, and if selected, also appears as the header of a list of devices.">
     Cast <ph name="HOST_NAME">$1<ex>google.com</ex></ph>
   </message>
@@ -19,12 +21,12 @@
     Cast tab
   </message>
 
-  
+  <!-- Cast Mode Picker -->
   <message name="IDS_MEDIA_ROUTER_ALTERNATIVE_SOURCES_BUTTON" desc="Label for the button which, on click, shows a list of Cast sources (tab, desktop).">
     Sources
   </message>
 
-  
+  <!-- Contextual Menu -->
   <message name="IDS_MEDIA_ROUTER_ABOUT" desc="Title of a menu item which, on click, opens a page with product information about iBrowe Cast.">
     About
   </message>
@@ -41,7 +43,7 @@
     Optimize fullscreen videos
   </message>
 
-  
+  <!-- Issue Messaging -->
   <message name="IDS_MEDIA_ROUTER_ISSUE_CREATE_ROUTE_TIMEOUT_WITH_HOSTNAME" desc="Title of an issue to show when the user attempts to cast from a website and it times out while waiting for a cast session to start.">
     Unable to cast <ph name="HOST_NAME">$1<ex>youtube.com</ex></ph>
   </message>
@@ -84,7 +86,7 @@
       Use remote to stop casting
   </message>
 
-
+<!-- Sink List -->
   <message name="IDS_MEDIA_ROUTER_STATUS_LOOKING_FOR_DEVICES" desc="Status text temporarily shown while searching for Cast devices but none have been found.">
     Looking for devices
   </message>
@@ -101,7 +103,7 @@
     Permission to cast is rejected. Open a help center article in a new tab to learn more.
   </message>
   <message name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LABEL" desc="The error message including the link to the OS settings page, shown when the browser does not have the permission to connect to devices on the local network.">
-    To cast, give iBrowe access in: <ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK">$1<ex>System Settings</ex></ph> &gt; Local Network &gt; Brave
+    To cast, give iBrowe access in: <ph name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK">$1<ex>System Settings</ex></ph> &gt; Local Network &gt; iBrowe
   </message>
   <message name="IDS_MEDIA_ROUTER_LOCAL_DISCOVERY_PERMISSION_REJECTED_LINK" desc="Text for the link to the OS settings page allowing useres to turn on the permission. This string will be embedded in a longer sentence that makes up the whole label.">
     System Settings
@@ -173,7 +175,7 @@
     Stop casting tab to <ph name="DEVICE_NAME">$1<ex>Living Room TV</ex></ph>
   </message>
 
-  
+  <!-- Media Remoting Dialog -->
   <message name="IDS_MEDIA_ROUTER_REMOTING_DIALOG_TITLE" desc="Title text shown at the top of the dialog asking the user whether they want to enable the Media Remoting feature. Media Remoting is a feature that can be enabled during a Cast session for improved playback.">
     Optimize fullscreen casting?
   </message>
@@ -193,20 +195,20 @@
     No Thanks
   </message>
 
-  
+  <!-- Cast-to-meeting deprecation/removal -->
   <message name="IDS_MEDIA_ROUTER_CAST_TO_MEETING_DEPRECATED" desc="Used in the Cast dialog to inform the user that starting a presentation from the Cast dialog will no longer work, and using meet.google.com will be the only option.">
-    Soon this option will no longer be supported. To present a tab, use <ph name="GOOGLE_MEET">$1<ex>Brave Meet</ex></ph>.
+    Soon this option will no longer be supported. To present a tab, use <ph name="GOOGLE_MEET">$1<ex>iBrowe Meet</ex></ph>.
   </message>
   <message name="IDS_MEDIA_ROUTER_CAST_TO_MEETING_REMOVED" desc="Used in the Cast dialog to inform the user that starting a presentation from the Cast dialog is not longer supported, and using meet.google.com is the only option.">
-    This option is no longer supported. To present a tab, use <ph name="GOOGLE_MEET">$1<ex>Brave Meet</ex></ph>.
+    This option is no longer supported. To present a tab, use <ph name="GOOGLE_MEET">$1<ex>iBrowe Meet</ex></ph>.
   </message>
 
-  
+  <!-- Wired Display Media Route Provider -->
   <message name="IDS_MEDIA_ROUTER_WIRED_DISPLAY_SINK_NAME" desc="Name shown for a wired display that can be used as a Cast destination.">
     Display <ph name="DISPLAY_ID">$1<ex>1</ex></ph>
   </message>
 
-  
+  <!-- Cast feedback dialog (chrome://cast-feedback) -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_TITLE" desc="Title of the tab opened by selecting '''Report an issue' from the Cast menu.">
     iBrowe Cast Feedback
   </message>
@@ -268,7 +270,7 @@
     Do you want to discard the feedback?
   </message>
 
-  
+  <!-- Cast feedback dialog: feedback types -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_TYPE_BUG_OR_ERROR" desc="The label of the feedback type for Bug or Error.">
     Bug or Error
   </message>
@@ -285,7 +287,7 @@
     Other
   </message>
 
-  
+  <!-- Cast feedback dialog: video smoothness -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_VIDEO_FREEZES" desc="The label of the subjective video smoothness rating of 'Freezes.'">
     Freezes
   </message>
@@ -302,7 +304,7 @@
     Perfect
   </message>
 
-  
+  <!-- Cast feedback dialog: video quality -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_VIDEO_UNWATCHABLE" desc="The label of the subjective video quality rating of 'Unwatchable.'">
     Unwatchable
   </message>
@@ -319,7 +321,7 @@
     Great - HD
   </message>
 
-  
+  <!-- Cast feedback dialog: audio quality -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_AUDIO_UNINTELLIGIBLE" desc="The label of the subjective audio quality rating of 'Unintelligible.'">
     Unintelligible
   </message>
@@ -336,7 +338,7 @@
     Perfect
   </message>
 
-  
+  <!-- Cast feedback dialog: steps of sending feedback -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_SENDING" desc="Shown while we're attempting to send feedback.">
     Sending feedback...
   </message>
@@ -350,7 +352,7 @@
     Failed to send feedback. Retrying...
   </message>
 
-  
+  <!-- Cast feedback dialog: logs -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_LOGS_HEADER" desc="Header for dialog that shows logs.">
     Cast and Device Logs
   </message>
@@ -376,11 +378,11 @@
     any iBrowe product or service.
   </message>
 
-  
+  <!-- Cast feedback dialog: discovery -->
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_SETUP_VISIBILITY_QUESTION" desc="Text for the question about device visibility through setup flow">
     Are you able to see your casting device in the
     <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>
-    Brave Home app<ph name="END_LINK">&lt;/a&gt;</ph>?
+    iBrowe Home app<ph name="END_LINK">&lt;/a&gt;</ph>?
   </message>
   <message name="IDS_MEDIA_ROUTER_FEEDBACK_YES" desc="Label for yes option.">
     Yes
@@ -412,7 +414,7 @@
     PC is wired and casting device is on Wi-Fi
   </message>
 
-  
+  <!-- OS-level notifications -->
   <message name="IDS_MEDIA_ROUTER_NOTIFICATION_MESSAGE_CAST_SCREEN" desc="The notification message to tell the user we are casting the desktop screen.">
     You are currently casting your screen
   </message>

@@ -1,6 +1,8 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Nearby Share specific strings (included from generated_resources.grd). -->
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Confirmation page -->
   <message name="IDS_NEARBY_CONFIRMATION_PAGE_ADD_CONTACT_SUBTITLE" desc="Subtitle of the checkbox to add the person to a users contacts. This will make the local device visible to them once they are nearby.">
     Adding this contact will remember the next time they share
   </message>
@@ -11,7 +13,7 @@
     Share with this device?
   </message>
 
-  
+  <!-- Quick Share v2 visibility section of settings subpage -->
   <message name="IDS_QUICK_SHARE_V2_VISIBILITY_SECTION_TITLE" desc="Title of Quick Share visibility section shown when the Quick Share v2 flag is enabled.">
     Who can share with you
   </message>
@@ -34,7 +36,7 @@
     Only for 10 minutes
   </message>
 
-  
+  <!-- Contact visibility component -->
   <message name="IDS_NEARBY_CONTACT_VISIBILITY_DOWNLOAD_FAILED" desc="Message shown when downloading contacts failed when trying to load contacts to show the user a list of who they will be able to share with.">
       Unable to download contact list. Please check your network connection, or <ph name="LINK_BEGIN">&lt;a&gt;</ph>try again<ph name="LINK_END">&lt;/a&gt;</ph>.
   </message>
@@ -45,7 +47,7 @@
     To use Nearby Share with these contacts, add the email address linked with their iBrowe sync chain to your contacts.
   </message>
   <message name="IDS_NEARBY_CONTACT_VISIBILITY_NO_CONTACTS_SUBTITLE_PH" desc="Feature name placeholder: Help text shown when there are no reachable contacts with a iBrowe sync chain to select from.">
-    To use <ph name="FEATURE_NAME">$1<ex>Nearby Share</ex></ph> with these contacts, add the email address linked with their Brave sync chain to your contacts.
+    To use <ph name="FEATURE_NAME">$1<ex>Nearby Share</ex></ph> with these contacts, add the email address linked with their iBrowe sync chain to your contacts.
   </message>
   <message name="IDS_NEARBY_CONTACT_VISIBILITY_NO_CONTACTS_TITLE" desc="Title text shown when there are no reachable contacts with a iBrowe sync chain to select from.">
     No reachable contacts
@@ -58,8 +60,8 @@
   </message>
   <message name="IDS_NEARBY_CONTACT_VISIBILITY_NUM_UNREACHABLE_PH" desc="Informational message indicating that there are contacts that are not connectable for sharing with the Nearby Share feature.">
     {COUNT, plural,
-      =1 {# contact is not available. To use <ph name="FEATURE_NAME">$2<ex>Nearby Share</ex></ph> with them, add the email address associated with their Brave sync chain to your contacts.}
-      other {# contacts are not available. To use <ph name="FEATURE_NAME">$2<ex>Nearby Share</ex></ph> with them, add the email addresses associated with their Brave sync chains to your contacts.}
+      =1 {# contact is not available. To use <ph name="FEATURE_NAME">$2<ex>Nearby Share</ex></ph> with them, add the email address associated with their iBrowe sync chain to your contacts.}
+      other {# contacts are not available. To use <ph name="FEATURE_NAME">$2<ex>Nearby Share</ex></ph> with them, add the email addresses associated with their iBrowe sync chains to your contacts.}
     }
   </message>
   <message name="IDS_NEARBY_CONTACT_VISIBILITY_OWN_ALL" desc="Describes who can see the local device when the Nearby Share visibility setting is set to 'All contacts'.">
@@ -84,7 +86,7 @@
     Only devices that are signed into <ph name="USER_EMAIL">$1<ex>example@gmail.com</ex></ph> can share with this device. You won't need to approve sharing between your devices.
   </message>
 
-  
+  <!-- Device name validation -->
   <message name="IDS_NEARBY_DEVICE_NAME_EMPTY_ERROR" desc="Error message when the user has left the device name empty to indicate that they are required to provide a name.">
     Add a device name to continue
   </message>
@@ -95,7 +97,7 @@
     Device name contains invalid characters
   </message>
 
-  
+  <!-- Discovery page -->
   <message name="IDS_NEARBY_DISCOVERY_PAGE_INFO" desc="Help text on how to use the Nearby Share feature. Explains how to enable it on a nearby Chromebook to share with it.">
     Make sure both devices are unlocked, close together, and have Bluetooth turned on. If you’re sharing with a Chromebook not in your contacts, make sure it has Nearby visibility turned on (open the status area, then turn on Nearby visibility). <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
@@ -112,7 +114,7 @@
     Scanning for nearby devices...
   </message>
 
-  
+  <!-- Onboarding page -->
   <message name="IDS_NEARBY_ONBOARDING_PAGE_DEVICE_NAME" desc="Label of the text input field to set the name of a users device which is shown to other devices for the Nearby Share feature.">
     Device name
   </message>
@@ -129,7 +131,7 @@
     Set up <ph name="FEATURE_NAME">$1<ex>Nearby Share</ex></ph>
   </message>
 
-  
+  <!-- One-page onboarding page -->
   <message name="IDS_NEARBY_ONBOARDING_PAGE_DEVICE_VISIBILITY" desc="Label of device visibility selection button which will redirect user to visibility selection page">
     Device visibility
   </message>
@@ -138,7 +140,7 @@
   </message>
 
 
-  
+  <!-- Visibility page -->
   <message name="IDS_NEARBY_VISIBILITY_PAGE_MANAGE_CONTACTS" desc="Action button text to manage the contacts of a user while setting up Nearby Share.">
     Manage contacts
   </message>
@@ -149,7 +151,7 @@
     Device visibility
   </message>
 
-  
+  <!-- Common strings -->
   <message name="IDS_NEARBY_SHARE_FEATURE_NAME" desc="This is the name of the Nearby Share feature which provides a way for nearby devices to share files, text, and urls">
     Nearby Share
   </message>
@@ -271,7 +273,7 @@
     {COUNT, plural, =1 {an item} other {# items}}
   </message>
 
-  
+  <!-- High Visibility Page Strings -->
   <message name="IDS_NEARBY_HIGH_VISIBILITY_SUB_TITLE" desc="Describes to the user that their device is visible to nearby devices with a specific device name. This is used on the sub-title of the of high visibility receive dialog for the Nearby Share feature.">
     Visible to nearby devices as <ph name="DEVICE_NAME">$1<ex>Rea’s Chromebook</ex></ph> for <ph name="REMAINING_TIME">$2<ex>5 min</ex></ph>...
   </message>
@@ -303,7 +305,7 @@
     To use <ph name="FEATURE_NAME">$1<ex>Nearby Share</ex></ph>, turn on Bluetooth and Wi-Fi
   </message>
 
-  
+  <!-- Receive Confirmation Page Strings -->
   <message name="IDS_NEARBY_RECEIVE_CONFIRM_PAGE_TITLE" desc="The title of the recieve confirmation page which askign the user to confirm receving a share from a specific device.">
     Receive from this device?
   </message>
@@ -311,12 +313,12 @@
     Secure connection ID: <ph name="CONNECTION_ID">$1<ex>A392</ex></ph>
   </message>
 
-  
+  <!-- File Preview Strings -->
   <message name="IDS_NEARBY_PREVIEW_TITLE_MULTIPLE_FILE" desc="The file share preview would show the name of the file being shared, but if multiple files are being shared, we show this description instead. The FILE_COUNT will always be greater than 1, so this string will always be plural.">
     <ph name="FILE_COUNT">$1<ex>3</ex></ph> Files
   </message>
 
-  
+  <!-- Settings Strings -->
   <message name="IDS_NEARBY_ACCOUNT_ROW_LABEL" desc="Label to describe the account row which displays the user's full name and their email which will identify them when using the Nearby Share feature." is_accessibility_with_no_ui="true">
       Nearby Share settings for <ph name="USER_NAME">$1<ex>Jane Doe</ex></ph>'s device, sharing under the account <ph name="USER_EMAIL">$2<ex>example@gmail.com</ex></ph>.
   </message>
@@ -369,7 +371,7 @@
     Current visibility setting is not set yet
   </message>
 
-  
+  <!-- Notification strings -->
   <message name="IDS_NEARBY_NOTIFICATION_ACTION_COPY_TO_CLIPBOARD" desc="Notification action button text that copies the received text or image to the clipboard.">
     Copy to clipboard
   </message>

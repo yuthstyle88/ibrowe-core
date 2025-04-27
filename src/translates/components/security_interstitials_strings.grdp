@@ -1,6 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
+<!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  
+  <!-- Shared strings for SSL-related interstitials -->
   <message name="IDS_SSL_OPEN_DETAILS_BUTTON" desc="The text for the button that expands the details on an error page. Paired with IDS_SSL_CLOSE_DETAILS_BUTTON.">
     Advanced
   </message>
@@ -8,7 +9,7 @@
     Hide advanced
   </message>
 
-  
+  <!-- Captive portal interstitial -->
   <message name="IDS_CAPTIVE_PORTAL_AUTHORIZATION_DIALOG_NAME" desc="Name of the modal Web dialog (displayed in the title) displaying captive portal login page on ChromeOS.">
     Captive Portal Authorization
   </message>
@@ -25,7 +26,7 @@
     The Wi-Fi you are using may require you to visit <ph name="BEGIN_BOLD">&lt;strong&gt;</ph><ph name="LOGIN_URL">$1<ex>example.com</ex></ph><ph name="END_BOLD">&lt;/strong&gt;</ph>.
   </message>
   <message name="IDS_CAPTIVE_PORTAL_PRIMARY_PARAGRAPH_WIFI_SSID" desc="The primary explanatory paragraph for the captive portal error page for Wi-Fi connections, displaying the Wi-Fi name.">
-    The Wi-Fi you are using (<ph name="WIFI_NAME">$1<ex>Brave Guest</ex></ph>) may require you to visit <ph name="BEGIN_BOLD">&lt;strong&gt;</ph><ph name="LOGIN_URL">$2<ex>example.com</ex></ph><ph name="END_BOLD">&lt;/strong&gt;</ph>.
+    The Wi-Fi you are using (<ph name="WIFI_NAME">$1<ex>iBrowe Guest</ex></ph>) may require you to visit <ph name="BEGIN_BOLD">&lt;strong&gt;</ph><ph name="LOGIN_URL">$2<ex>example.com</ex></ph><ph name="END_BOLD">&lt;/strong&gt;</ph>.
   </message>
   <message name="IDS_CAPTIVE_PORTAL_PRIMARY_PARAGRAPH_NO_LOGIN_URL_WIRED" desc="The primary explanatory paragraph for the captive portal error page for network connections when the captive portal login url isn't available.">
     The network you are using may require you to visit its login page.
@@ -34,13 +35,13 @@
     The Wi-Fi you are using may require you to visit its login page.
   </message>
   <message name="IDS_CAPTIVE_PORTAL_PRIMARY_PARAGRAPH_NO_LOGIN_URL_WIFI_SSID" desc="The primary explanatory paragraph for the captive portal error page for Wi-Fi connections when the captive portal login url isn't available.">
-    The Wi-Fi you are using (<ph name="WIFI_NAME">$1<ex>Brave Guest</ex></ph>) may require you to visit its login page.
+    The Wi-Fi you are using (<ph name="WIFI_NAME">$1<ex>iBrowe Guest</ex></ph>) may require you to visit its login page.
   </message>
   <message name="IDS_CAPTIVE_PORTAL_BUTTON_OPEN_LOGIN_PAGE" desc="Text for the open login page button">
     Connect
   </message>
 
-  
+  <!-- MITM software interstitial -->
   <message name="IDS_MITM_SOFTWARE_HEADING" desc="Header of an error page. A user visits a website, antivirus or firewall software interferes with their connection, and they are shown this error.">
     An application is stopping iBrowe from safely connecting to this site
   </message>
@@ -64,7 +65,7 @@
     Applications that can cause this error include antivirus, firewall, and web-filtering or proxy software.
   </message>
 
-  
+  <!-- Lookalike URL warning with a suggested hostname -->
   <message name="IDS_LOOKALIKE_URL_TITLE" desc="Tab title. Context: the requested URL might be trying to trick the user since it looks like a more popular URL. This interstitial points the user to the safe site instead.">
     Safety warning
   </message>
@@ -82,7 +83,7 @@
     The site you just tried to visit looks fake. Attackers sometimes mimic sites by making small, hard-to-see changes to the URL.
   </message>
 
-  
+  <!-- Lookalike URL without a suggested hostname -->
   <message name="IDS_LOOKALIKE_URL_HEADING_NO_SUGGESTED_URL" desc="Large heading. Context: the error page that's shown when the requested URL might be trying to trick the user since it looks fake. This interstitial warns the user to not visit the site but doesn't suggest a safe site.">
     Fake site ahead
   </message>
@@ -96,7 +97,7 @@
     Close page
   </message>
 
-  
+  <!-- Enterprise Block interstitial -->
   <message name="IDS_ENTERPRISE_BLOCK_TITLE" desc="Tab title. Context: the requested URL doesn't pass the filtering rules set by the admin.">
     Blocked by Admin
   </message>
@@ -113,7 +114,7 @@
     Go back
   </message>
 
-      
+      <!-- Enterprise Warn interstitial -->
   <message name="IDS_ENTERPRISE_WARN_TITLE" desc="Tab title. Context: the requested URL doesn't pass the filtering rules set by the admin.">
     Admin warning
   </message>
@@ -137,7 +138,7 @@
   </message>
 
 
-  
+  <!-- Clock errors -->
   <message name="IDS_CLOCK_ERROR_TITLE" desc="Tab title. Context: the browser can't load a page because the device's clock is wrong.">
     Clock error
   </message>
@@ -178,7 +179,7 @@
     </message>
   </if>
 
-  
+  <!-- SSL error page -->
   <message name="IDS_SSL_V2_TITLE" desc="The tab title for the SSL interstitial.">
     Privacy error
   </message>
@@ -192,7 +193,7 @@
     Warnings may be common while websites update their security. This should improve soon.
   </message>
 
-  
+  <!-- SSL error page: overridable -->
   <message name="IDS_SSL_OVERRIDABLE_SAFETY_BUTTON" desc="The text for the button that takes the user back to the previous page.">
     Back to safety
   </message>
@@ -203,7 +204,7 @@
     <ph name="BEGIN_LINK">&lt;a href="#" id="proceed-link"&gt;</ph>Proceed to <ph name="SITE">$1<ex>example.com</ex></ph> (unsafe)<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  
+  <!-- SSL error page: Non-overridable -->
   <message name="IDS_SSL_RELOAD" desc="The text for the button that reloads the page.">
     Reload
   </message>
@@ -218,22 +219,22 @@
   </message>
   <if expr="_google_chrome">
     <message name="IDS_SSL_NONOVERRIDABLE_MORE" desc="Body text for the explanation shown if user clicks on the Details button.">
-      <ph name="SITE">$1<ex>google.com</ex></ph> normally uses encryption to protect your information. When Brave tried to connect to <ph name="SITE">$1<ex>google.com</ex></ph> this time, the website sent back unusual and incorrect credentials. This may happen when an attacker is trying to pretend to be <ph name="SITE">$1<ex>google.com</ex></ph>, or a Wi-Fi sign-in screen has interrupted the connection. Your information is still secure because Brave stopped the connection before any data was exchanged.
+      <ph name="SITE">$1<ex>google.com</ex></ph> normally uses encryption to protect your information. When iBrowe tried to connect to <ph name="SITE">$1<ex>google.com</ex></ph> this time, the website sent back unusual and incorrect credentials. This may happen when an attacker is trying to pretend to be <ph name="SITE">$1<ex>google.com</ex></ph>, or a Wi-Fi sign-in screen has interrupted the connection. Your information is still secure because iBrowe stopped the connection before any data was exchanged.
     </message>
     <message name="IDS_SSL_NONOVERRIDABLE_INVALID" desc="A sentence to explain why the user can't proceed.">
-      You cannot visit <ph name="SITE">$1<ex>google.com</ex></ph> right now because the website sent scrambled credentials that Brave cannot process. Network errors and attacks are usually temporary, so this page will probably work later.
+      You cannot visit <ph name="SITE">$1<ex>google.com</ex></ph> right now because the website sent scrambled credentials that iBrowe cannot process. Network errors and attacks are usually temporary, so this page will probably work later.
     </message>
   </if>
   <if expr="not _google_chrome">
     <message name="IDS_SSL_NONOVERRIDABLE_MORE" desc="Body text for the explanation shown if user clicks on the Details button.">
-      <ph name="SITE">$1<ex>google.com</ex></ph> normally uses encryption to protect your information. When Brave tried to connect to <ph name="SITE">$1<ex>google.com</ex></ph> this time, the website sent back unusual and incorrect credentials. This may happen when an attacker is trying to pretend to be <ph name="SITE">$1<ex>google.com</ex></ph>, or a Wi-Fi sign-in screen has interrupted the connection. Your information is still secure because Brave stopped the connection before any data was exchanged.
+      <ph name="SITE">$1<ex>google.com</ex></ph> normally uses encryption to protect your information. When iBrowe tried to connect to <ph name="SITE">$1<ex>google.com</ex></ph> this time, the website sent back unusual and incorrect credentials. This may happen when an attacker is trying to pretend to be <ph name="SITE">$1<ex>google.com</ex></ph>, or a Wi-Fi sign-in screen has interrupted the connection. Your information is still secure because iBrowe stopped the connection before any data was exchanged.
     </message>
     <message name="IDS_SSL_NONOVERRIDABLE_INVALID" desc="A sentence to explain why the user can't proceed.">
-      You cannot visit <ph name="SITE">$1<ex>google.com</ex></ph> right now because the website sent scrambled credentials that Brave cannot process. Network errors and attacks are usually temporary, so this page will probably work later.
+      You cannot visit <ph name="SITE">$1<ex>google.com</ex></ph> right now because the website sent scrambled credentials that iBrowe cannot process. Network errors and attacks are usually temporary, so this page will probably work later.
     </message>
   </if>
 
-  
+  <!-- Safe Browsing interstitials V3 (shared phishing & malware) -->
   <message name="IDS_SAFEBROWSING_V3_TITLE" desc="The tab title for the Safe Browsing interstitials.">
     Security error
   </message>
@@ -250,7 +251,7 @@
     Dangerous site
   </message>
 
-  
+  <!-- Malware interstitial -->
   <message name="IDS_MALWARE_V3_PRIMARY_PARAGRAPH" desc="Mac: The primary explanatory paragraph for the malware interstitial.">
     Attackers on the site you tried visiting might install harmful software that steals or deletes things like your passwords, photos, messages, or credit card numbers. iBrowe strongly recommends going back to safety. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
   </message>
@@ -261,13 +262,13 @@
     Even sites that are normally safe are sometimes compromised by attackers. Only visit <ph name="BEGIN_LINK">&lt;a href="#" id="proceed-link"&gt;</ph>this unsafe site<ph name="END_LINK">&lt;/a&gt;</ph> if you're sure you understand the risks.
   </message>
   <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_AGREE" desc="SafeBrowsing Scout label next to checkbox">
-    Help improve security on the web for everyone by sending <ph name="BEGIN_WHITEPAPER_LINK">&lt;a href="#" id="whitepaper-link"&gt;</ph>URLs of some pages you visit, limited system information, and some page content<ph name="END_WHITEPAPER_LINK">&lt;/a&gt;</ph> to Brave. <ph name="BEGIN_PRIVACY_PAGE_LINK">&lt;a id="privacy-link" href="#"&gt;</ph>Privacy policy<ph name="END_PRIVACY_PAGE_LINK">&lt;/a&gt;</ph>
+    Help improve security on the web for everyone by sending <ph name="BEGIN_WHITEPAPER_LINK">&lt;a href="#" id="whitepaper-link"&gt;</ph>URLs of some pages you visit, limited system information, and some page content<ph name="END_WHITEPAPER_LINK">&lt;/a&gt;</ph> to iBrowe. <ph name="BEGIN_PRIVACY_PAGE_LINK">&lt;a id="privacy-link" href="#"&gt;</ph>Privacy policy<ph name="END_PRIVACY_PAGE_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SAFE_BROWSING_ENHANCED_PROTECTION_MESSAGE" desc="SafeBrowsing enhanced protection promo message">
-    <ph name="BEGIN_ENHANCED_PROTECTION_LINK">&lt;a href="#" id="enhanced-protection-link"&gt;</ph>Turn on enhanced protection<ph name="END_ENHANCED_PROTECTION_LINK">&lt;/a&gt;</ph> to get Brave's highest level of security
+    <ph name="BEGIN_ENHANCED_PROTECTION_LINK">&lt;a href="#" id="enhanced-protection-link"&gt;</ph>Turn on enhanced protection<ph name="END_ENHANCED_PROTECTION_LINK">&lt;/a&gt;</ph> to get iBrowe's highest level of security
   </message>
 
-  
+  <!-- Harmful download interstitial -->
   <message name="IDS_HARMFUL_V3_PRIMARY_PARAGRAPH" desc="The primary explanatory paragraph for the unwanted software interstitial.">
     Attackers on the site you tried visiting might trick you into installing harmful software that affects the way you browse — for example, by changing your homepage or showing you extra ads on sites you visit. iBrowe strongly recommends going back to safety to avoid harm. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
   </message>
@@ -280,7 +281,7 @@
     Even sites that are normally safe are sometimes compromised by attackers. Only visit <ph name="BEGIN_LINK">&lt;a href="#" id="proceed-link"&gt;</ph>this unsafe site<ph name="END_LINK">&lt;/a&gt;</ph> if you're sure you understand the risks.
   </message>
 
-  
+  <!-- Phishing interstitial -->
   <message name="IDS_PHISHING_V4_PRIMARY_PARAGRAPH" desc="The primary explanatory paragraph for the phishing interstitial.">
     Attackers on the site you tried visiting might trick you into installing software or revealing things like your passwords, phone, or credit card numbers. iBrowe strongly recommends going back to safety. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
   </message>
@@ -291,7 +292,7 @@
     Only visit <ph name="BEGIN_LINK">&lt;a href="#" id="proceed-link"&gt;</ph>this unsafe site<ph name="END_LINK">&lt;/a&gt;</ph> if you're sure you understand the risks.
   </message>
 
-  
+  <!-- WebView Safe Browsing quiet interstitials medium sized -->
   <message name="IDS_MALWARE_WEBVIEW_HEADING" desc="The heading of the malware interstitial on medium sized Webview.">
     Dangerous content blocked.
   </message>
@@ -317,7 +318,7 @@
     These charges could be one-time or recurring and may not be obvious. <ph name="BEGIN_LINK">&lt;a href="#" id="proceed-link"&gt;</ph>Show anyway<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  
+  <!-- WebView Restricted Content interstitials -->
   <message name="IDS_SUPERVISED_USER_URL_BLOCKED_MESSAGE" desc="Message in error page to inform the user that the content is blocked">
     This content is blocked.
   </message>
@@ -402,7 +403,7 @@
     </message>
   </if>
 
-  
+  <!-- Billing interstitial -->
   <message name="IDS_BILLING_TITLE" desc="The tab title for the Safe Browsing Billing interstitial.">
     Page may charge money
   </message>
@@ -420,18 +421,18 @@
   </message>
 
   <if expr="use_blink">
-    
+    <!-- Blocked interception interstitial strings -->
     <message name="IDS_BLOCKED_INTERCEPTION_HEADING" desc="Large heading of the known interception interstitial.">
       Your activity on <ph name="HOSTNAME">$1<ex>example.com</ex></ph> is being monitored
     </message>
 
-    
-    
+    <!-- Known interception disclosure WebUI strings -->
+    <!-- Title of the tab -->
     <message name="IDS_KNOWN_INTERCEPTION_TITLE" desc="Title of network interception disclosure page.">
       Monitoring Detected
     </message>
 
-    
+    <!-- Main message title -->
     <message name="IDS_KNOWN_INTERCEPTION_HEADER" desc="Title of chrome://connection-monitoring-detected/ page, shows when iBrowe has detected known network monitoring activity">
       Your activity on the web is being monitored
     </message>
@@ -451,7 +452,7 @@
       </message>
     </if>
 
-    
+    <!-- Known interception disclosure infobar strings -->
     <message name="IDS_KNOWN_INTERCEPTION_INFOBAR_HEADING" desc="Text of the heading used to alert the user that iBrowe has detected that their network connnection is being intercepted.">
       Your activity on the web is being monitored
     </message>
@@ -460,7 +461,7 @@
     </message>
   </if>
 
-  
+  <!-- Legacy TLS interstitial -->
   <message name="IDS_LEGACY_TLS_HEADING" desc="Large heading of the legacy TLS interstitial.">
     Your connection is not fully secure
   </message>
@@ -471,7 +472,7 @@
     The connection used to load this site used TLS 1.0 or TLS 1.1, which are deprecated and will be disabled in the future. Once disabled, users will be prevented from loading this site. The server should enable TLS 1.2 or later.
   </message>
 
-  
+  <!-- Insecure form submission interstitial-->
   <message name="IDS_INSECURE_FORM_TITLE" desc="Tab Title for insecure form submission warning">
     Form is not secure
   </message>
@@ -488,7 +489,7 @@
     Send anyway
   </message>
 
-  
+  <!-- HTTPS-Only Mode interstitial-->
   <message name="IDS_HTTPS_ONLY_MODE_TITLE" desc="Tab title for HTTPS-only mode warning">
     Site is not secure
   </message>
