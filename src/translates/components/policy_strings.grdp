@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
 
   <message name="IDS_POLICY_DM_STATUS_SUCCESS" desc="Message indicating a successful device management server call.">
@@ -435,7 +434,7 @@ Additional details:
     "<ph name="DATA_CONTROLS_RESTRICTION">$1<ex>SCREENSHOT</ex></ph>" cannot be set to "<ph name="DATA_CONTROLS_LEVEL">$2<ex>WARN</ex></ph>"
   </message>
 
-  <!-- chrome://policy -->
+  
   <message name="IDS_POLICY_TITLE" desc="Page title and the title of the section that lists policies.">
     Policies
   </message>
@@ -772,7 +771,7 @@ Additional details:
     </message>
   </if>
   <message name="IDS_POLICY_DEFAULT_GEO_POLICY_ARC_CONFLICT" desc="Warning message for the DefaultGeolocationSetting policy, when the iBroweLocationServicesEnabled policy is set. The former will no longer affect the ARC, when the latter is set.">
-    Warning: This policy is conflicting with the <ph name="POLICY_NAME">$1<ex>iBroweLocationServicesEnabled</ex></ph> and will have no effect on Android apps. Otherwise, this policy is working as intended.
+    Warning: This policy is conflicting with the <ph name="POLICY_NAME">$1<ex>BraveLocationServicesEnabled</ex></ph> and will have no effect on Android apps. Otherwise, this policy is working as intended.
   </message>
   <message name="IDS_POLICY_LABEL_IS_AFFILIATED" desc="Label to indicate if the user is affiliated or not.">
     Is affiliated:
@@ -829,7 +828,7 @@ Additional details:
     Try iBrowe Enterprise Core
   </message>
 
-  <!-- Strings for chrome://policy/logs -->
+  
   <message name="IDS_POLICY_LOGS_TITLE" desc="Title for the page.">
     Policy Logs
   </message>
@@ -843,7 +842,7 @@ Additional details:
     Refresh Logs
   </message>
 
-<!-- Strings for chrome://policy/test -->
+
   <message name="IDS_POLICY_TEST_TITLE" desc="Title for the page.">
     Policy Tests
   </message>
@@ -890,7 +889,7 @@ Additional details:
   User affiliated
   </message>
 
-  <!-- Strings for Disabled chrome://.* screen -->
+  
   <message name="IDS_CHROME_URLS_DISABLED_PAGE_HEADER" desc="A heading for the user when the application is blocked.">
     Application is blocked
   </message>
@@ -901,7 +900,7 @@ Additional details:
     This application has been blocked by your administrator
   </message>
 
-  <!-- Strings for Data Leak Prevention -->
+  
   <message name="IDS_POLICY_DLP_CLIPBOARD_BLOCKED_ON_PASTE" desc="A notification informing the user that paste is blocked.">
     Pasting from <ph name="ORIGIN_NAME">$1<ex>corp.google.com</ex></ph> to this location is blocked by administrator policy
   </message>
@@ -1408,5 +1407,56 @@ Additional details:
   </message>
   <message name="IDS_POLICY_SKYVAULT_MIGRATION_DIALOG_UPLOAD_IN_MINUTES_BUTTON" desc="Label for the dialog button to ackowledge that the file upload to cloud storage will start at the scheduled time, in some number of minutes.">
     Upload in <ph name="MINUTES">$1<ex>36</ex></ph> min
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_HOURS" desc="The title for the dialog informing the user that their local files will be deleted in some number of hours.">
+    Your local files will be deleted in <ph name="HOURS">$1<ex>24</ex></ph> hours
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_HOUR" desc="The title for the dialog informing the user that their local files will be deleted in 1 hour.">
+    Your local files will be deleted in 1 hour
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_MINUTES" desc="The title for the dialog informing the user that their local files will be deleted in some number of minutes.">
+    Your local files will be deleted in <ph name="MINUTES">$1<ex>24</ex></ph> minutes
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_MINUTE" desc="The title for the dialog informing the user that their local files will be deleted in 1 minute.">
+    Your local files will be deleted in 1 minute
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_START_MESSAGE" desc="The message for the dialog body informing the user that their local files will be deleted at a specified time.">
+    Your administrator will delete your local files, including any files in the Trash, on <ph name="DATE_TIME">$1<ex>8/25/24 2:44:30 PM PST</ex></ph>.
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_STORE_MESSAGE" desc="The message for the dialog body informing the user to ensure their critical data is stored before deletion starts.">
+    Make sure any critical business or personal data is stored externally.
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_DELETE_NOW_BUTTON" desc="Label for the dialog button that starts the deletion of local files.">
+    Delete files now
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_DELETE_IN_HOURS_BUTTON" desc="Label for the dialog button to ackowledge that the deletion of local files will start at the scheduled time, in some number of hours.">
+    Delete files in <ph name="HOURS">$1<ex>24</ex></ph> hr
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_DELETE_IN_MINUTES_BUTTON" desc="Label for the dialog button to ackowledge that the deletion of local files will start at the scheduled time, in some number of minutes.">
+    Delete files in <ph name="MINUTES">$1<ex>36</ex></ph> min
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_COMPLETED_TITLE" desc="The title for the notification informing the user that their local files were removed due to SkyVault policy.">
+    Files were successfully deleted
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_COMPLETED_MESSAGE" desc="The message for the notification informing the user that their local files were removed due to SkyVault policy.">
+    From now on, save your files to cloud storage
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_BANNER" desc="The Files App banner displayed in local folders before local files are removed due to SkyVault policies.">
+    Local files will be deleted on <ph name="DATE_TIME">$1<ex>8/25/24 2:44:30 PM PST</ex></ph>. Make sure any critical business or personal data is stored externally.
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_NO_SPACE" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the user needs to free up space before uploading files to OneDrive/Google Drive.">
+    Free up space in <ph name="CLOUD_PROVIDER">$1<ex>Microsoft OneDrive</ex></ph> before trying again
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_FILE_NOT_EXIST" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the file wasn't moved because it no longer exists.">
+    This file wasn’t moved because it no longer exists
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_ODFS_SIGN_IN" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the file wasn't moved because the user needs to authenticate with OneDrive.">
+    Sign in to your Microsoft account before trying again
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_NO_INTERNET" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the file wasn't moved because of lost internet connection.">
+    Make sure you have stable internet connection before trying again
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_GENERIC" desc="A generic error message logged along the affected file name in the SkyVault migration error log.">
+   Something went wrong. Try again later.
   </message>
 </grit-part>

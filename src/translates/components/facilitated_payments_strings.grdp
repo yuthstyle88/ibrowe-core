@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
 
 <if expr="is_android">
@@ -7,7 +6,7 @@
     Google Pay
   </message>
 
-  <!--Ewallet and Pix payment method settings pages-->
+  
   <message name="IDS_SETTINGS_MANAGE_EWALLET_TITLE" desc="Title for the preference that allows the user to manage eWallet accounts when user has only eWallet accounts available to be used. 'eWallet' is a payment system that should not be translated." formatter_data="android_java">
     Pay with eWallet
   </message>
@@ -26,23 +25,23 @@
   <message name="IDS_SETTINGS_MANAGE_EWALLET_AND_PIX_DESCRIPTION" desc="Description for the preference that allows the user to manage eWallet and Pix accounts. 'eWallet' and 'Pix' are payment systems that should not be translated." formatter_data="android_java">
     When you make purchases in iBrowe, see eWallet and Pix as options
   </message>
-  <!-- Ewallet and Pix related strings -->
+  
   <message name="IDS_SETTINGS_MANAGE_OTHER_FINANCIAL_ACCOUNTS_EWALLET" desc="This is the string added to the summary for the 'Manage other financial accounts' preference when user has eWallets accounts available to be used." formatter_data="android_java" translateable="false">
     eWallet
   </message>
-  <!--TODO(crbug.com/384798199): Fix typo and make PIX related strings to generic names shared between bottom sheet and settings page. -->
+  
   <message name="IDS_SETTINGS_MANAGE_OTHER_FINANCIAL_ACCOUNTS_PIX" desc="Pix is an instant payment platform used in Brazil. This is the toggle preference when user has Pix accounts available to be used with the Pix platform." formatter_data="android_java" translateable="false">
     Pix
   </message>
   <message name="IDS_SETTINGS_EWALLET_ACCOUNT_IDENTIFER" desc="Identifier for eWallet account that can be used for the eWallet payment." formatter_data="android_java" translateable="false">
     eWallet  •  <ph name="ACCOUNT_DISPLAY_VALUE">%1$s<ex>nikit••••@hotmail.com</ex></ph>
   </message>
-  <!--TODO(crbug.com/384798199): Fix typo and make PIX related strings to generic names shared between bottom sheet and settings page. -->
+  
   <message name="IDS_SETTINGS_PIX_BANK_ACCOUNT_IDENTIFER" desc="Identifier for bank account that can be used for the Pix payment platform." formatter_data="android_java" translateable="false">
     Pix  •  <ph name="BANK_ACCOUNT_TYPE">%1$s<ex>Checking</ex></ph> ••••<ph name="ACCOUNT_NUMBER_SUFFIX">%2$s<ex>1234</ex></ph>
   </message>
   <message name="IDS_PIX_BANK_ACCOUNT_TRANSACTION_LIMIT" desc="A note shown in the Pix bank account suggestions informing users of the transaction limits set by their bank on purchases. It is shown for every bank suggestion in the Pix form-of-payment selector. R$ is the symbol of the Brazilian Real currency. R$ is not translatable and should always be R$." formatter_data="android_java">
-    Limit per Pix R&#36; <ph name="TRANSACTION_LIMIT">%1$s<ex>500</ex></ph>
+    Limit per Pix R$ <ph name="TRANSACTION_LIMIT">%1$s<ex>500</ex></ph>
   </message>
   <message name="IDS_BANK_ACCOUNT_TYPE_CHECKING" desc="A checking bank account is for users to transact their regular expenses. This is the string to describe a checking bank account." formatter_data="android_java">
     Checking
@@ -59,7 +58,7 @@
   <message name="IDS_BANK_ACCOUNT_TYPE_TRANSACTING" desc="A transacting account is a basic account used for regular expenses. It often has limits on the withdrawal amount. Text to describe a transacting bank account." formatter_data="android_java">
     Account
   </message>
-  <!-- Ewallet and Pix bottom sheet related strings -->
+  
   <message name="IDS_FACILITATED_PAYMENTS_PAYMENT_METHODS_BOTTOM_SHEET_DETAILED_TITLE" desc="Title for the bottom sheet displaying user's accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on iBrowe when it receives signal of intention to pay, and the user has eligible payment accounts. The title string contains either the payment type or the name of the payment provider." formatter_data="android_java">
     Pay with <ph name="PAYMENT_METHOD">%1$s<ex>ChiliPay</ex></ph> without switching apps
   </message>

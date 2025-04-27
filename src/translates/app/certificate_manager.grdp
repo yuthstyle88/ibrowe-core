@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- certificate manager v2 strings strings (included from generated_resources.grd). -->
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
   <if expr="chrome_root_store_cert_management_ui">
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_TITLE" desc="Label for the title of the certificate manager page.">
@@ -181,6 +179,9 @@
     <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_IMPORT_ERROR_TITLE" desc="Title of dialog  displayed in certificate manager when the user tried to import a certificate but their was an error preventing the certificate from being imported.">
       Error importing certificate
     </message>
+    <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_IMPORT_INVALID_FILE" desc="The message in the error dialog for corrupt certificate files.">
+      Invalid or corrupt file
+    </message>
     <if expr="is_chromeos or is_linux">
       <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_IMPORT_FAILED" desc="Error message displayed in certificate manager when the user tried to import a certificate but their was an error preventing the certificate from being imported.">
         Unable to import certificate
@@ -191,15 +192,12 @@
       <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_IMPORT_INVALID_MAC" desc="The message in the error dialog for certificate files with invalid MAC.">
         Incorrect password or corrupt file
       </message>
-      <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_IMPORT_INVALID_FILE" desc="The message in the error dialog for corrupt certificate files.">
-        Invalid or corrupt file
-      </message>
       <message name="IDS_SETTINGS_CERTIFICATE_MANAGER_V2_IMPORT_UNSUPPORTED" desc="The message in the error dialog for unsupported certificate files.">
         File uses unsupported features
       </message>
     </if>
 
-    <!-- Subpage -->
+    
     <message name="IDS_CERTIFICATE_MANAGER_V2_SUBPAGE_BACK_BUTTON_ARIA_LABEL" desc="Text read by screen readers when focusing on the back button. If the back button is activated, it will navigate to the previous page. This text will only be announced by screen readers and will not be visible in the UI.">
       <ph name="SUBPAGE_TITLE">$1<ex>Installed by your Administrator</ex></ph> subpage back button
     </message>
@@ -207,12 +205,12 @@
       Click to navigate away from <ph name="SUBPAGE_TITLE">$1<ex>Installed by your Administrator</ex> subpage</ph>.
     </message>
 
-    <!-- List -->
+    
     <message name="IDS_CERTIFICATE_MANAGER_V2_LIST_EXPAND_ARIA_LABEL" desc="Text read by screen readers when focusing on the expand certificate list button. If the button is activated, it will show or hide the certificate list. This text will only be announced by screen readers and will not be visible in the UI.">
       Show <ph name="CERT_LIST">$1<ex>Trusted Certificates</ex></ph>
     </message>
 
-    <!-- Cert Entry -->
+    
     <message name="IDS_CERTIFICATE_MANAGER_V2_CERT_ENTRY_VIEW_ARIA_LABEL" desc="Text read by screen readers when focusing on the view certficate details button. If the button is activated, it will open up a view certificate dialog. This text will only be announced by screen readers and will not be visible in the UI.">
       View certificate details for <ph name="CERT_NAME">$1<ex>GTS Root R2</ex></ph> in a new dialog
     </message>

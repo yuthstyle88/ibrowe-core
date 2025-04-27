@@ -1,8 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- Search tags used for CrOS settings search (go/cros-settings-search). -->
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
-  <!-- Network section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_NETWORK_SETTINGS" desc="Text for search result item which, when clicked, navigates the user to network settings. Alternate phrase for: 'Internet'">
     Network
   </message>
@@ -259,7 +257,7 @@
     Automatically disable hotspot
   </message>
 
-  <!-- Bluetooth section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_BLUETOOTH" desc="Text for search result item which, when clicked, navigates the user to Bluetooth settings.">
     Bluetooth
   </message>
@@ -303,7 +301,7 @@
     Saved devices
   </message>
 
-  <!-- MultiDevice section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE" desc="Text for search result item which, when clicked, navigates the user to multi-device settings (connects Android phone to Chromebook). Alternate phrase for: 'Phone'">
     Connected devices
   </message>
@@ -408,7 +406,7 @@
   </message>
 
 
-  <!-- People section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_PEOPLE" desc="Text for search result item which, when clicked, navigates the user to people settings.">
     People
   </message>
@@ -530,7 +528,7 @@
     Content transfer
   </message>
 
-  <!-- Kerberos section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_KERBEROS_SECTION" desc="Text for search result item which, when clicked, navigates the user to Kerberos (authentication mechanism) settings section.">
     Kerberos
   </message>
@@ -547,7 +545,7 @@
     Set active Kerberos ticket
   </message>
 
-  <!-- Device section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_DEVICE" desc="Text for search result item which, when clicked, navigates the user to device settings.">
     Device
   </message>
@@ -810,7 +808,7 @@
     Battery Saver
   </message>
 
-  <!-- Personalization section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_WALLPAPER_AND_STYLE" desc="Text for search result item which, when clicked, navigates the user to the Wallpaper and style section.">
     Wallpaper and style
   </message>
@@ -830,7 +828,7 @@
     Profile image
   </message>
 
-  <!-- Search and Assistant section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_PREFERRED_SEARCH_ENGINE" desc="Text for search result item which, when clicked, navigates the user to search settings, with an option to set the user's preferred search engine.">
     Preferred search engine
   </message>
@@ -905,7 +903,7 @@
     Help Me Write
   </message>
 
-  <!-- Apps section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_APPS" desc="Text for search result item which, when clicked, navigates the user to apps settings.">
     Apps
   </message>
@@ -979,7 +977,7 @@
     Block apps
   </message>
 
-  <!-- Crostini section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings. Alternate phrase for: 'Crostini, Developers'">
     Linux
   </message>
@@ -1074,7 +1072,7 @@
     Crostini microphone access
   </message>
 
-  <!-- Date and Time section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_DATE_TIME" desc="Text for search result item which, when clicked, navigates the user to date and time settings.">
     Date and time settings
   </message>
@@ -1091,7 +1089,7 @@
     Time zone
   </message>
 
-  <!-- Privacy section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_SECURITY_AND_PRIVACY" desc="Text for search result item which, when clicked, navigates the user to the Security and Privacy section.">
     Security and Privacy
   </message>
@@ -1156,7 +1154,7 @@
     Microphone access
   </message>
 
-  <!-- Languages and Input section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_LANGUAGES" desc="Text for search result item which, when clicked, navigates the user to languages settings.">
     Languages
   </message>
@@ -1216,7 +1214,7 @@
     App languages
   </message>
 
-  <!-- Files section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_FILES" desc="Text for search result item which, when clicked, navigates the user to files settings.">
     Files
   </message>
@@ -1251,7 +1249,7 @@
     Microsoft OneDrive settings
   </message>
 
-  <!-- Printing section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_PRINTING" desc="Text for search result item which, when clicked, navigates the user to printer settings for CUPS printers (a.k.a. those that can use the Unix protocol). Alternate phrase for: 'Printers', 'CUPS'">
     Printing
   </message>
@@ -1280,7 +1278,7 @@
     Scan
   </message>
 
-  <!-- Accessibility section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_A11Y" desc="Text for search result item which, when clicked, navigates the user to accessibility (a.k.a. a11y) settings. Alternate phrase for: 'A11y'">
     Accessibility
   </message>
@@ -1418,6 +1416,9 @@
   </message>
   <message name="IDS_OS_SETTINGS_TAG_A11Y_REDUCED_ANIMATIONS_ALT2" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable reduced animations. Alternate phrase for: 'Reduced animations'">
     Reduced movement on the screen
+  </message>
+  <message name="IDS_OS_SETTINGS_TAG_A11Y_ALWAYS_SHOW_SCROLLBARS" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable always show scrollbars.">
+    Always show scrollbars
   </message>
   <message name="IDS_OS_SETTINGS_TAG_A11Y_KEYBOARD_AND_TEXT_INPUT_PAGE" desc="Text for search result item which, when clicked, navigates the user to display and magnification accessibility settings. Alternate phrase for: 'Low vision display tools'">
     Keyboard and text input
@@ -1619,7 +1620,7 @@
     Disable Trackpad
   </message>
 
-  <!-- Reset section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_RESET" desc="Text for search result item which, when clicked, navigates the user to reset settings.">
     Reset
   </message>
@@ -1630,7 +1631,7 @@
     Factory reset
   </message>
 
-  <!-- About ChromeOS section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_ABOUT_CHROME_OS_DETAILED_BUILD" desc="Text for search result item which, when clicked, navigates the user to detailed build information settings.">
     Detailed build information
   </message>
@@ -1686,7 +1687,7 @@
     Firmware updates
   </message>
 
-  <!-- On Startup section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_ON_STARTUP" desc="Text for search result item which, when clicked, navigates the user to On Startup settings, with a drop down to configure the restore apps and pages options">
     Startup
   </message>
@@ -1697,7 +1698,7 @@
     Welcome recap
   </message>
 
-  <!-- Multitasking section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_MULTITASKING_SNAP_WINDOW" desc="Text for search result item which, when clicked, navigates the user to Multitasking settings, with a toggle to enable/disable snap window suggestions. Alternate phrase for 'Split screen set up', 'Dock window', 'Snap window', 'Split screen overview'">
     Split screen window suggestion
   </message>
@@ -1714,7 +1715,7 @@
     Split screen overview
   </message>
 
-  <!-- System preferences section. -->
+  
   <message name="IDS_OS_SETTINGS_TAG_SYSTEM_PREFERENCES" desc="Text for search result item which, when clicked, navigates the user to the System preferences section.">
     System preferences
   </message>

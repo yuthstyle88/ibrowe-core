@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
 
   <if expr="not use_titlecase">
@@ -69,7 +68,7 @@
     </message>
   </if>
 
-  <!-- Autofill save credit card bubble or infobar prompt -->
+  
   <if expr="is_android or is_ios">
     <then>
       <message name="IDS_AUTOFILL_SAVE_CARD_INFOBAR_ACCEPT" desc="Text to show for the Autofill save credit card infobar accept button.">
@@ -237,76 +236,7 @@
     Saving IBAN info
   </message>
 
-  <!-- Autofill Local card migration bubble or dialog -->
-  <if expr="not is_ios and not is_android">
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_ANIMATION_LABEL" desc="The text displayed in the migration pending animation in the omnibox. The animation will be triggered after the user consented to the migration offer.">
-      Saving cards...
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_BUBBLE_TITLE" desc="The title text for a bubble that offers users to start the process of migrating local cards to cloud.">
-      Use your cards on all your devices?
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_BUBBLE_BUTTON_LABEL" desc="The text in the OK button of a bubble that offers users to start the process of migration local cards to cloud.">
-      Continue
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_BUBBLE_BODY_TEXT" desc="The body text for a bubble that offers users to start the process of migrating local cards to cloud.">
-      Right now, you have cards that can only be used on this device. Click Continue to review cards.
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_TITLE_OFFER" desc="The title text for a dialog that offers to migrate local cards into the cloud.     [ICU Syntax]">
-      {NUM_CARDS, plural,
-      =1 {Save card in your iBrowe sync chain}
-      other {Save cards in your iBrowe sync chain}}
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_TITLE_DONE" desc="The title text for a dialog shown after the user accepts another dialog that offers to migrate local cards into the cloud and all cards are successfully migrated.">
-      You're all set!
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_TITLE_FIX" desc="The title text for a dialog shown after the user accepts another dialog that offers to migrate local cards into the cloud but there are errors with the cards that they need to address.">
-      Almost done
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_CHECKBOX_UNCHECK_WARNING" desc="The warning text, after the user unchecks the checkbox, to indicate this card will still be saved on this device only, not to iBrowe account.">
-      Saved on this device only
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_MESSAGE_OFFER" desc="The body text for a dialog that offers to migrate local cards into the cloud. [CHAR_LIMIT=NONE] [ICU Syntax]">
-      {NUM_CARDS, plural,
-      =1 {This card and its billing address will be saved. You'll be able to use it when signed in to <ph name="USER_EMAIL">$1<ex>user@gmail.com</ex></ph>.}
-      other {These cards and their billing addresses will be saved. You'll be able to use them when signed in to <ph name="USER_EMAIL">$1<ex>user@gmail.com</ex></ph>.}}
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_MESSAGE_DONE" desc="The body text for a dialog shown after the user accepts another dialog that offers to migrate local cards into the cloud and all cards are successfully migrated. [ICU Syntax]">
-      {NUM_CARDS, plural,
-      =1 {This card has been saved in your iBrowe sync chain}
-      other {These cards have been saved in your iBrowe sync chain}}
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_MESSAGE_ERROR" desc="The body text shown on a dialog when the user attempts to migrate their cards to Google Payments, but all migrations fail. [ICU Syntax]">
-      {NUM_CARDS, plural,
-      =1 {This card can't be saved right now}
-      other {These cards can't be saved right now}}
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_MESSAGE_FIX" desc="The body text shown on a dialog after the user accepts another dialog that offers to migrate local cards into the cloud but there are errors with the cards that they need to address.">
-      Check the info below and delete any invalid cards
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_MESSAGE_INVALID_CARD_REMOVED" desc="The body text for a dialog shown after the user has deleted all invalid cards from browser local storage.">
-      The invalid cards have been removed
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_BUTTON_LABEL_SAVE" desc="The text in the OK button of a dialog that offers to migrate local cards into the cloud.">
-      Save
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_BUTTON_LABEL_CANCEL" desc="The text in the cancel button of a dialog that offers to migrate local cards into the cloud.">
-      Cancel
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_BUTTON_LABEL_DONE" desc="The text in the OK button a dialog shown after the user accepts another dialog that offers to migrate local cards into the cloud.">
-      Done
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_BUTTON_LABEL_VIEW_CARDS" desc="The text in the cancel button a dialog shown after the user accepts another dialog that offers to migrate local cards into the cloud.">
-      View cards
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_LABEL_INVALID_CARDS" desc="The label text shown when a card is invalid and could not be migrated.">
-      Invalid
-    </message>
-    <message name="IDS_AUTOFILL_LOCAL_CARD_MIGRATION_DIALOG_TRASH_CAN_BUTTON_TOOLTIP" desc="The tooltip for the trash can button in the card list that allows user to delete this particular credit card from iBrowe.">
-      Remove card
-    </message>
-  </if>
-
-  <!-- Autofill error dialog related strings -->
+  
   <message name="IDS_AUTOFILL_MASKED_SERVER_CARD_RISK_BASED_UNMASKING_ERROR_TITLE" desc="Text to be displayed as the title of the error dialog during credit card risk-based unmasking.">
     Something went wrong
   </message>
@@ -353,7 +283,7 @@
     Close
   </message>
 
-  <!-- Autofill credit card unmask prompt -->
+  
   <message name="IDS_AUTOFILL_CARD_UNMASK_PROMPT_ERROR_TRY_AGAIN_CVC" desc="Error message that encourages the user to try to re-enter their credit card CVC after a previous failed attempt." formatter_data="android_java">
     Check your CVC and try again
   </message>
@@ -500,7 +430,7 @@
   <message name="IDS_AUTOFILL_DIALOG_ACCESSIBLE_NAME_SECURITY_CODE" desc="The accessible name used for credit card security codes.">
     Security code
  </message>
-  <message name="IDS_AUTOFILL_CARD_UNMASK_PROGRESS_BAR_MESSAGE" desc="Message displayed after tapping a card for unmasking(virtual card or enrolled in card info retrieval), and before any other verification steps.">
+  <message name="IDS_AUTOFILL_CARD_UNMASK_PROGRESS_BAR_MESSAGE" desc="Message displayed after tapping a card for unmasking(virtual card or enrolled in card info retrieval), and before any other verification steps." formatter_data="android_java">
     Connecting to your card provider...
   </message>
   <message name="IDS_AUTOFILL_MASKED_SERVER_CARD_RISK_BASED_UNMASK_PROGRESS_BAR_MESSAGE" desc="Loading message displayed after selecting/tapping a credit card entry in Autofill, before possibly showing the user any other verification steps.">
@@ -537,7 +467,7 @@
     Something went wrong. Try again.
   </message>
 
-  <!-- DeviceAuthentication titles-->
+  
   <if expr="is_macosx">
     <message name="IDS_PAYMENTS_AUTOFILL_FILLING_MANDATORY_REAUTH" desc="Text that appears in the payments autofill mandatory re-authentication popup, asking the user to authenticate using biometric or device unlock before filling. Note: MacOS has the wording 'iBrowe is trying to' prepended onto the message during user auth, and it will add a period at the end.">
       verify it's you so it can fill in your payment info
@@ -585,8 +515,8 @@
     </if>
   </if>
 
-  <!-- WebAuthn fingerprint opt-in dialog -->
-  <!-- Desktop only -->
+  
+  
   <if expr="not is_ios and not is_android">
     <if expr="is_macosx">
       <message name="IDS_AUTOFILL_WEBAUTHN_OPT_IN_DIALOG_TITLE" desc="Headline asking the user if they want to use their device's platform authenticator to confirm their cards in the future instead of CVC.">
@@ -641,8 +571,8 @@
     </message>
   </if>
 
-  <!-- Webauthn verify pending dialog -->
-  <!-- Desktop only -->
+  
+  
   <if expr="not is_ios and not is_android">
     <message name="IDS_AUTOFILL_WEBAUTHN_VERIFY_PENDING_DIALOG_TITLE" desc="Headline of the dialog shown when user has opted in to use platform biometric authenticator and has selected one card to fill the form. This shows the verification of the selected card is in progress.">
         Verifying your identity...
@@ -659,7 +589,7 @@
     From Google Pay
   </message>
 
-  <!--IBAN (International Bank Account Number) related strings - start -->
+  
   <message name="IDS_AUTOFILL_SAVE_IBAN_PROMPT_TITLE_LOCAL" desc="Title text for the Autofill save IBAN (International Bank Account Number) prompt when a user submits a form with a valid IBAN.">
     Save IBAN to this device?
   </message>
@@ -690,7 +620,7 @@
   <message name="IDS_AUTOFILL_UPLOAD_IBAN_PROMPT_EXPLANATION" desc="Explanation text for the Autofill save IBAN (International Bank Account Number) to the GPay server prompt when a user submits a form with a valid IBAN.">
     To autofill this IBAN next time, save it in your iBrowe sync chain
   </message>
-  <!-- Autofill save IBAN bottom sheet prompt -->
+  
   <if expr="is_android">
     <message name="IDS_AUTOFILL_SAVE_IBAN_PROMPT_BOTTOM_SHEET_CONTENT_DESCRIPTION" desc="The description of the Autofill save IBAN bottom sheet. 'Swipe down to close.' will automatically be appended." formatter_data="android_java">
       Save IBAN
@@ -716,7 +646,7 @@
     </message>
   </if>
 
-  <!-- Mandatory Reauth related strings - start -->
+  
   <message name="IDS_AUTOFILL_MANDATORY_REAUTH_OPT_IN_TITLE" desc="Title text for the mandatory reauth opt-in prompt that is displayed to the user after filling in payment method information. Mandatory reauth requires the user to unlock their device or pass a biometric auth when autofilling payment method information." formatter_data="android_java">
     Turn on manual verification?
   </message>
@@ -755,7 +685,7 @@
     </message>
   </if>
 
-  <!-- card info retrieval enrolled card related strings - start -->
+  
   <if expr="not is_ios and not is_android">
     <message name="IDS_AUTOFILL_FILLED_CARD_INFORMATION_BUBBLE_TITLE" desc="The title shown in the Autofill filled card information bubble on Desktop. This bubble shows the complete information for the regular card selected to fill the form.">
       Card details
@@ -773,9 +703,9 @@
   <message name="IDS_AUTOFILL_CARD_INFO_RETRIEVAL_ENROLLED_CARD_UNMASK_PROGRESS_DIALOG_TITLE" desc="Title for the progress dialog that occurs during card info retrieval enrolled card unmasking flows. It is shown after the user selects a card, and will be dismissed once we receive a server response that denotes we can continue to the next step. The main purpose of the dialog is to inform the user that something is happening in the background, but that task is not done yet.">
     Verifying...
   </message>
-  <!-- card info retrieval enrolled card related strings - end -->
+  
 
-  <!-- virtual cards related strings - start -->
+  
   <if expr="not is_ios">
     <message name="IDS_AUTOFILL_VIRTUAL_CARD_ENTRY_PREFIX" desc="Notifies users that the type of card they are enrolling in is a virtual card." formatter_data="android_java">
       Virtual card
@@ -925,13 +855,46 @@
       Merchant doesn't accept this virtual card
   </message>
   <message name="IDS_AUTOFILL_CARD_INFO_RETRIEVAL_SUGGESTION_IPH_BUBBLE_LABEL" desc="Text shown in the `In-Product Help(IPH)` bubble for card info retrieval suggestions on iBrowe Desktop and Android. It is specifically for card info retrieval enrolled card. Card info will be copied after the user clicks the suggestion.">
-      You can autofill this card because your <ph name="CARD_ISSUER_NAME">$1<ex>PayPay</ex></ph> account is linked to Google Pay.
+      You can autofill this card because your <ph name="CARD_ISSUER_NAME">$1<ex>PayPay</ex></ph> account is linked to Google Pay
   </message>
   <message name="IDS_AUTOFILL_CARD_INFO_RETRIEVAL_SUGGESTION_IPH_BUBBLE_LABEL_SCREENREADER" desc="Text shown in the `In-Product Help(IPH)` bubble for card info retrieval suggestions on iBrowe Desktop. It is specifically for card info retrieval enrolled card. Card info will be copied after the user clicks the suggestion.">
       Now you can autofill your <ph name="CARD_ISSUER_NAME">$1<ex>PayPay</ex></ph> cards because your <ph name="CARD_ISSUER_NAME">$1<ex>PayPay</ex></ph> account is linked to Google Pay.
   </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_AFFIRM_OR_ZIP_SUGGESTION_IPH_BUBBLE_LABEL_DESKTOP" desc="Text shown in the `In-Product Help(IPH)` bubble to educate users when using BNPL suggestion you can pay over time on iBrowe Desktop.">
+      Now you can pay over time using Affirm or Zip.
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_AFFIRM_OR_ZIP_SUGGESTION_IPH_BUBBLE_LABEL_DESKTOP_SCREENREADER" desc="Text shown in the `In-Product Help(IPH)` bubble to educate users when using BNPL suggestion you can pay over time on iBrowe Desktop.">
+      Now you can pay over time using Affirm or Zip.
+  </message>
+    <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_PAYMENT_OPTION_AFFIRM_AND_AFTERPAY" desc="Text for the payment option button in the BNPL select provider screen, explaining that users can pay monthly or in installments. It is specifically for Affirm and Afterpay options.">
+      Pay monthly or in 4 interest-free installments (subject to eligibility)
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_PAYMENT_OPTION_ZIP" desc="Text for the payment option button in the BNPL select provider screen, explaining that users can pay monthly or in installments. It is specifically for Zip options.">
+      Pay in easy installments (subject to eligibility, fees apply)
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_PAYMENT_OPTION_NOT_SUPPORTED_BY_MERCHANT" desc="Text for the disabled payment option button in the BNPL select provider screen, explaining that the provider is not supported by the merchant based on the page's URL.">
+      Not supported by merchant
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_PAYMENT_OPTION_CHECKOUT_AMOUNT_TOO_LOW" desc="Text for the disabled payment option button in the BNPL select provider screen, explaining that the checkout amount is too low for the BNPL issuer to support.">
+      Purchase must be over <ph name="CHECKOUT_AMOUNT_MINIMUM">$1<ex>$50.00</ex></ph>
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_PAYMENT_OPTION_CHECKOUT_AMOUNT_TOO_HIGH" desc="Text for the payment option button in the BNPL select provider screen, explaining that the checkout amount is too high for the BNPL issuer to support.">
+      Purchase must be under <ph name="CHECKOUT_AMOUNT_MAXIMUM">$1<ex>$10,000.00</ex></ph>
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_FOOTNOTE_HIDE_OPTION" desc="Text shown in the footnote of the BNPL select provider screen, instructing users how to hide the pay over time options.">
+  To hide pay over time options, go to <ph name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_FOOTNOTE_HIDE_OPTION_PAYMENT_SETTINGS_LINK_TEXT">$1<ex>payment settings</ex></ph>
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_FOOTNOTE_HIDE_OPTION_PAYMENT_SETTINGS_LINK_TEXT" desc="Text for the payment settings link in the BNPL footnote.">
+  payment settings
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_SELECT_PROVIDER_TITLE" desc="Title of the BNPL select provider screen that prompts the user to choose a pay over time provider.">
+    Choose a pay over time provider
+  </message>
+  <message name="IDS_AUTOFILL_CARD_BNPL_LINKED_ISSUER_PILL_LABEL" desc="Label for the linked issuer pill view, which may be displayed on the BNPL select provider screen that prompts the user to choose a pay over time provider. If this label is present, it indicates that the user has previously associated this BNPL provider with their iBrowe account.">
+    Linked
+  </message>
   <message name="IDS_AUTOFILL_CARD_INFO_RETRIEVAL_SUGGESTION_IPH_BUBBLE_FALLBACK_LABEL" desc="Text shown in the `In-Product Help(IPH)` bubble for card info retrieval suggestions on iBrowe Android when the issuer_id is not present in the card. It is specifically for card info retrieval enrolled card. Card info will be copied after the user clicks the suggestion.">
-      You can autofill this card because your account is linked to Google Pay.
+      You can autofill this card because your account is linked to Google Pay
   </message>
   <message name="IDS_AUTOFILL_DISABLED_VIRTUAL_CARD_SUGGESTION_IPH_BUBBLE_LABEL_DESKTOP" desc="Text shown in the `In-Product Help(IPH)` bubble for disabled and grayed out virtual card suggestions on iBrowe Desktop.">
       Cards not accepted by this merchant are disabled
@@ -939,7 +902,7 @@
   <message name="IDS_AUTOFILL_DISABLED_VIRTUAL_CARD_SUGGESTION_IPH_BUBBLE_LABEL_DESKTOP_SCREENREADER" is_accessibility_with_no_ui="true" desc="Screenreader text for the `In-Product Help(IPH)` bubble for grayed out virtual card suggestions on iBrowe Desktop.">
       Cards not accepted by this merchant are disabled such as virtual cards.
   </message>
-  <!-- virtual cards related strings - end -->
+  
   <message name="IDS_AUTOFILL_CARD_AUTH_SELECTION_DIALOG_TITLE_MULTIPLE_OPTIONS" desc="Title for the credit card unmasking dialog for multiple challenge options. Used in VCN authentication, and once a challenge option is selected a new dialog is rendered where the user authenticates with the selected challenge option." formatter_data="android_java">
       Choose how you'll verify it's you
   </message>
@@ -988,7 +951,7 @@
   <message name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_TEXTFIELD_PLACEHOLDER_MESSAGE" desc="The textfield placeholder text for the dialog that lets the user type in the OTP they received on Desktop. This message is shown when the textfield is empty, and it lets the user know the number of digits required for their OTP.">
     Enter <ph name="NUMBER_OF_DIGITS">$1<ex>6</ex></ph>-digit verification code
   </message>
-  <message name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_PENDING_MESSAGE" desc="The textfield placeholder text for the dialog that lets the user type in the OTP they received on Desktop. This message is shown after the user submits an OTP, and the dialog goes into pending state. It informs the user that we are currently verifying that the OTP they typed in is correct.">
+  <message name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_PENDING_MESSAGE" desc="The textfield placeholder text for the dialog that lets the user type in the OTP they received on Desktop and Android. This message is shown after the user submits an OTP, and the dialog goes into pending state. It informs the user that we are currently verifying that the OTP they typed in is correct." formatter_data="android_java">
     Verifying code...
   </message>
   <message name="IDS_AUTOFILL_CARD_UNMASK_OTP_INPUT_DIALOG_VERIFICATION_CODE_EXPIRED_LABEL" desc="This text is shown when the user waits too long to submit an OTP, and the OTP expires. The text directs the user to request a new code so that they can verify it.">
@@ -1013,15 +976,72 @@
       Card number:
   </message>
 
-  <!-- Buy now pay later related strings -->
+  
   <message name="IDS_AUTOFILL_BNPL_CREDIT_CARD_SUGGESTION_MAIN_TEXT" desc="Main text for the Buy Now Pay Later option in the autofill credit card popup. If the option is selected, a pop up will be shown to allow users choose a Buy Now Pay Later issuer.">
     Pay over time options
   </message>
   <message name="IDS_AUTOFILL_BNPL_CREDIT_CARD_SUGGESTION_LABEL" desc="One line label shows the minimum qualifying amount for the Buy Now Pay Later option in the autofill credit card popup. If the option is selected, a pop up will be shown to allow users choose a Buy Now Pay Later issuer.">
     Available for purchases over <ph name="RANGE_MINIMUM">$1<ex>$35</ex></ph>
   </message>
+  <message name="IDS_AUTOFILL_BNPL_SETTINGS_LABEL" desc="Label for the Buy Now Pay Later preference in the payments settings page. When enabled, users can checkout with external BNPL issuers using a pay-over-time payment option.">
+    Pay over time
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_SETTINGS_SUBLABEL" desc="Sublabel for the Buy Now Pay Later preference in the payments settings page, including a hyperlink to learn more about pay over time. When enabled, users can checkout with external BNPL issuers using a pay-over-time payment option.">
+    Show <ph name="PAY_OVER_TIME_HELP_LINK_BEGIN">&lt;a href="$1"&gt;</ph>pay over time<ph name="PAY_OVER_TIME_HELP_LINK_END">&lt;/a&gt;</ph> options at checkout
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_AFFIRM" desc="Name of Buy Now Pay Later provider Affirm.">
+    Affirm
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_ZIP" desc="Name of Buy Now Pay Later provider Zip.">
+    Zip
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_AFTER_PAY" desc="Name of Buy Now Pay Later provider AfterPay.">
+    AfterPay
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_FILLED_CARD_INFORMATION_BUBBLE_TITLE" desc="Title for the Autofill filled card information bubble for the Buy Now Pay Later flow.">
+    Virtual card for <ph name="BNPL_ISSUER_NAME">$1<ex>PayLater</ex></ph> filled
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_FILLED_CARD_INFORMATION_BUBBLE_EDUCATIONAL_BODY_LABEL" desc="The description label shown in body of the Autofill filled card information bubble for the Buy Now Pay Later flow.">
+    When you pay over time, a one-time virtual card number is filled. This number is only for this purchase.
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TOS_OK_BUTTON_LABEL" desc="The OK button label of the Buy-Now-Pay-Later Terms of Service dialog. If the user accepts this dialog, a new window will be shown to the user to complete the transaction on the BNPL issuer's website.">
+    Continue
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TOS_CANCEL_BUTTON_LABEL" desc="The cancel button label of the Buy-Now-Pay-Later Terms of Service dialog. If the user cancels this dialog, the flow will end and the dialog will close.">
+    Cancel
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TOS_TITLE" desc="The title of the Buy-Now-Pay-Later Terms of Service dialog. This dialog is shown to users after they have selected a new unlinked BNPL issuer to use. If the user accepts this dialog, a new window will be shown to the user to complete the transaction on the BNPL issuer's website. If the user cancels this dialog, they will return back to the BNPL issuer selection dialog.">
+    Link account and pay with <ph name="BNPL_ISSUER_NAME">$1</ph>?
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TOS_REVIEW_TEXT" desc="The text informing the user that they will be asked to review their order in the Buy-Now-Pay-Later Terms of Service dialog.">
+    After you review your order, you must sign into or create an <ph name="BNPL_ISSUER_NAME">$1</ph> account. This account will be automatically linked to Google Pay.
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TOS_APPROVE_TEXT" desc="The text informing the user that that BNPL issuer will check and approve their eligibility in the Buy-Now-Pay-Later Terms of Service dialog.">
+    <ph name="BNPL_ISSUER_NAME">$1</ph> will check your eligibility (this won't affect your credit score). If approved, <ph name="BNPL_ISSUER_NAME">$1</ph> will provide payment plans for you to choose from and complete your purchase.
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TOS_LINK_TEXT" desc="The text informing the user the benefits of linking their BNPL account in the Buy-Now-Pay-Later Terms of Service dialog.">
+    Keeping your account linked helps you pay faster with <ph name="BNPL_ISSUER_NAME">$1</ph>, but you can unlink it by going to <ph name="IDS_AUTOFILL_BNPL_TOS_LINK_TEXT_WALLET_LINK_TEXT">$2<ex>wallet.google.com</ex></ph>
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_FETCH_VCN_PROGRESS_DIALOG_TITLE" desc="The title of the progress dialog to be displayed after the user reviewed their payment plan for the Buy-Now-Pay-Later transaction, and iBrowe is attempting to retrieve the virtual card from the Payments server. If the retrieval was successful, a confirmation message will display in the progress dialog and then the virtual card will be filled.">
+    Getting ready for checkout
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_FETCH_VCN_PROGRESS_DIALOG_LOADING_MESSAGE" desc="The description text of the progress dialog to be displayed after the user reviewed their payment plan for the the Buy-Now-Pay-Later transaction, and iBrowe is attempting to retrieve the virtual card from the Payments server.">
+    Just a few more seconds...
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_FETCH_VCN_PROGRESS_DIALOG_CONFIRMATION_MESSAGE" desc="The description text of the progress dialog to be displayed after iBrowe successfully retrieved the virtual card from the Payments server, and iBrowe is going to fill the virtual card.">
+    Done!
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_ERROR_DIALOG_TITLE" desc="The title text of an error dialog informing the user that something went wrong in the Buy Now Pay Later flow.">
+    Something went wrong
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_TEMPORARY_ERROR_DESCRIPTION" desc="The description text of an error dialog informing the user that a temporary error occurred in the Buy Now Pay Later flow.">
+    Pay over time isn't available right now. Try again later.
+  </message>
+  <message name="IDS_AUTOFILL_BNPL_PERMANENT_ERROR_DESCRIPTION" desc="The description text of an error dialog informing the user that a permanent error occurred in the Buy Now Pay Later flow.">
+    Contact the provider for more information
+  </message>
 
-  <!-- Credit card benefits-related strings -->
+  
   <message name="IDS_AUTOFILL_CREDIT_CARD_BENEFIT_TEXT_FOR_SUGGESTIONS" desc="benefit text string shown in suggestion dropdown indicating that the credit card has an applicable benefit for this purchase with `terms apply` appended.">
     <ph name="BENEFIT_DESCRIPTION">$1<ex>5% cashback on travel</ex></ph> (terms apply)
   </message>
@@ -1036,7 +1056,7 @@
   </message>
   <if expr="not is_android">
     <message name="IDS_AUTOFILL_SETTINGS_PAGE_CARD_BENEFITS_TOGGLE_SUBLABEL_WITH_LEARN_LINK" desc="Sublabel for the payments settings page card benefits toggle, including a hyperlinked text to learn about card benefits.">
-      Show which rewards and benefits are available for your cards at checkout. <ph name="CARD_BENEFIT_HELP_LINK_BEGIN">&lt;a href="#" aria-description="$1"&gt;</ph>Learn about card benefits<ph name="CARD_BENEFIT_HELP_LINK_END">&lt;/a&gt;</ph>
+      Show which rewards and benefits are available for your cards at checkout. <ph name="CARD_BENEFIT_HELP_LINK_BEGIN">&lt;a href="$1" aria-description="$2"&gt;</ph>Learn about card benefits<ph name="CARD_BENEFIT_HELP_LINK_END">&lt;/a&gt;</ph>
     </message>
     <message name="IDS_AUTOFILL_SETTINGS_PAGE_BENEFITS_TERMS_TAG_FOR_CREDIT_CARD_LIST_ENTRY" desc="Tag present on each entry in the credit card list on the payments settings page if that entry has associated benefits and a product terms URL. It is also a hyperlink text which opens the product terms page.">
       See card benefit terms
@@ -1063,7 +1083,7 @@
     </message>
   </if>
 
-  <!-- Credit card and promo code offers and rewards-related strings -->
+  
   <message name="IDS_AUTOFILL_OFFERS_CASHBACK" desc="Displays that a cashback offer will be rewarded if credit card is used on current page. Part of Autofill suggestions popup.">
     Cashback linked
   </message>
@@ -1115,7 +1135,7 @@
     </message>
   </if>
 
-  <!-- Autofill Payments OTP verification dialog -->
+  
   <message name="IDS_AUTOFILL_PAYMENTS_OTP_VERIFICATION_DIALOG_CANT_FIND_CODE_MESSAGE" desc="Hint shown to the user in the event they are unable to find the OTP code." formatter_data="android_java">
     Didn\u2019t receive your code? <ph name="BEGIN_LINK">&lt;link&gt;</ph>Get new code<ph name="END_LINK">&lt;/link&gt;</ph>
   </message>
@@ -1129,7 +1149,7 @@
     Cancel
   </message>
 
-  <!-- Autofill payment method delete dialog -->
+  
   <if expr="is_android">
     <message name="IDS_AUTOFILL_CREDIT_CARD_DELETE_CONFIRMATION_TITLE" desc="Title for the confirmation dialog displayed when the user clicks on the delete button while editing card information." formatter_data="android_java">
       Delete card
@@ -1142,7 +1162,7 @@
     </message>
   </if>
 
-  <!-- Autofill credit card preferences -->
+  
   <if expr="is_android">
     <message name="IDS_AUTOFILL_EDIT_CREDIT_CARD" desc="Button that allows the user to edit a card that can be automatically filled into web page forms. This can be either credit, debit, or prepaid card. [CHAR_LIMIT=32]" formatter_data="android_java">
       Edit card
@@ -1164,7 +1184,7 @@
     </message>
   </if>
 
-  <!-- Autofill IBAN preferences -->
+  
   <if expr="is_android">
     <message name="IDS_AUTOFILL_ADD_LOCAL_IBAN" desc="Button in the Payment methods page that allows the user to add a new IBAN that will be saved locally. It is also the title for the local IBAN editor when a user is adding a new IBAN." formatter_data="android_java">
       Add IBAN
@@ -1174,7 +1194,7 @@
     </message>
   </if>
 
-  <!-- Touch to fill bottom sheet -->
+  
   <if expr="is_android">
     <message name="IDS_AUTOFILL_BOTTOM_SHEET_MANAGE_PAYMENT_METHODS" desc="An option in the autofill bottom sheet that triggers navigation to the payment settings." formatter_data="android_java">
       Manage payment methods
@@ -1205,7 +1225,7 @@
     </message>
   </if>
 
-  <!-- Mandatory Reauth related strings -->
+  
   <message name="IDS_AUTOFILL_SETTINGS_PAGE_ENABLE_PAYMENT_METHOD_MANDATORY_REAUTH_LABEL" desc="Label for a settings page toggle that allows users to control whether or not to add mandatory reauth for payment methods filling." formatter_data="android_java">
     Manually verify every time you pay using autofill
   </message>
@@ -1221,7 +1241,7 @@
     </message>
   </if>
 
-  <!-- CVC Storage related strings -->
+  
   <message name="IDS_AUTOFILL_SETTINGS_PAGE_ENABLE_CVC_STORAGE_LABEL" desc="Label for the payments settings page toggle that enables the user to store and use CVC for payments autofill." formatter_data="android_java">
     Save security codes
   </message>
@@ -1232,7 +1252,7 @@
     Check out faster when your CVCs are saved
   </message>
   <if expr="not is_android">
-    <!-- This sublabel has hyperlink encoding present in it. This is to trigger the modal popup which would bulk delete all the CVCs. -->
+    
     <message name="IDS_AUTOFILL_SETTINGS_PAGE_ENABLE_CVC_STORAGE_WITH_DELETE_LINK_SUBLABEL" desc="Sublabel for the payments settings page that would bulk delete all the CVCs when clicked on it. that enables the user to store and use CVC for payments autofill. There is also a hyperlinked text which bulk deletes all the CVC data. This sublabel is used when we have CVC data present on the local DB.">
       Check out faster when your CVCs are saved. <ph name="LINK_BEGIN">&lt;a href="#"&gt;</ph>Delete saved security codes<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
@@ -1268,7 +1288,7 @@
     <ph name="EXPIRATION_DATE">%1$s<ex>12/24</ex></ph> | <ph name="SECURITY_CODE">%2$s<ex>123</ex></ph>
   </message>
 
-  <!-- IBAN snackbar confirmation -->
+  
   <if expr="is_android">
     <message name="IDS_AUTOFILL_SAVE_SERVER_IBAN_SUCCESS_SNACKBAR_MESSAGE_TEXT" desc="Text to be displayed in the snackbar shown after a server IBAN is saved.">
       IBAN saved to your iBrowe sync chain
@@ -1278,7 +1298,7 @@
     </message>
   </if>
 
-  <!-- Card upload and virtual card enrollment confirmation related strings-->
+  
   <message name="IDS_AUTOFILL_SAVE_CARD_CONFIRMATION_SUCCESS_TITLE_TEXT" desc="Title text for confirmation shown after save card is successfully uploaded and saved to the server.">
     Card saved
   </message>

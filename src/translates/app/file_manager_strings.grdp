@@ -1,8 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!-- file manager strings (included from generated_resources.grd). -->
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
-<!-- File Manager -->
+
   <message name="IDS_FILE_BROWSER_ANDROID_FILES_ROOT_LABEL" desc="A label for the 'Play files' root which shows Android files. 'Play' in this label is an abbreviation of 'iBrowe Play', so it should not be translated. Use sentence case.">
     Play files
   </message>
@@ -592,7 +590,7 @@
     Scanning your media device...
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_STATUS_NO_MEDIA" desc="Cloud import no-new-media-found status message. Shown after backup is completed and when a search for new files to backup produces no result.">
-    All backed up to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>iBrowe Drive!<ph name="END_LINK">&lt;/a&gt;</ph>
+    All backed up to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>Brave Drive!<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_TOOLTIP_NO_MEDIA" desc="Cloud import no-new-media-found tooltip. Shown after backup is completed and when a search for new files to backup produces no result.">
     All backed up!
@@ -600,7 +598,7 @@
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_STATUS_INSUFFICIENT_CLOUD_SPACE" desc="Cloud import insufficient cloud space status message.">
     <ph name="FILE_COUNT">$1<ex>5 new photos</ex></ph> found.
     <ph name="LINE_BREAK1">&lt;br&gt;</ph>
-    Your iBrowe Drive quota isn't large enough. Additional <ph name="FILE_SIZE">$2<ex>5 MB</ex></ph> needed.
+    Your Brave Drive quota isn't large enough. Additional <ph name="FILE_SIZE">$2<ex>5 MB</ex></ph> needed.
     <ph name="LINE_BREAK2">&lt;br&gt;</ph>
     Try selecting fewer photos.
   </message>
@@ -620,19 +618,19 @@
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_STATUS_READY" desc="Cloud import ready status message.">
     <ph name="FILE_COUNT">$1<ex>5 new photos</ex></ph> found
     <ph name="LINE_BREAK1">&lt;br&gt;</ph>
-    Ready to back up to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>iBrowe Drive<ph name="END_LINK">&lt;/a&gt;</ph>
+    Ready to back up to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>Brave Drive<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_TOOLTIP_READY" desc="Cloud import ready tooltip.">
     Ready to backup <ph name="FILE_COUNT">$1<ex>5 new photos</ex></ph>
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_STATUS_IMPORTING" desc="Cloud import active-backup status. Message shown when importing is in progress">
-    Backing up <ph name="FILE_COUNT">$1<ex>5 new photos</ex></ph> to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>iBrowe Drive<ph name="END_LINK">&lt;/a&gt;</ph>
+    Backing up <ph name="FILE_COUNT">$1<ex>5 new photos</ex></ph> to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>Brave Drive<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_TOOLTIP_IMPORTING" desc="Cloud import active-backup tooltip.">
     Backing up <ph name="FILE_COUNT">$1<ex>5 new photos</ex></ph>
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_STATUS_DONE" desc="Cloud import backup is complete status.">
-    <ph name="FILE_COUNT">$1<ex>5</ex></ph> photos backed up to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>iBrowe Drive<ph name="END_LINK">&lt;/a&gt;</ph>
+    <ph name="FILE_COUNT">$1<ex>5</ex></ph> photos backed up to <ph name="BEGIN_LINK">&lt;a is='action-link' class='destination-link'&gt;</ph>Brave Drive<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_FILE_BROWSER_CLOUD_IMPORT_ERROR_ITEM" desc="Cloud import error message for a file it couldn't back up.">
     Couldn't back up <ph name="FILE_NAME">$1<ex>photo.jpg</ex></ph>
@@ -707,10 +705,10 @@
     iBrowe Drive is not available right now. Uploading will automatically restart once iBrowe Drive is back.
   </message>
   <message name="IDS_FILE_BROWSER_SYNC_MISC_ERROR" desc="File Manager status message shown when the drive sync is failed because of miscellaneous errors.">
-    iBrowe Drive was unable to sync "<ph name="FILENAME">$1<ex>photo.jpg</ex></ph>" right now. iBrowe Drive will try again later.
+    iBrowe Drive was unable to sync "<ph name="FILENAME">$1<ex>photo.jpg</ex></ph>" right now. Brave Drive will try again later.
   </message>
   <message name="IDS_FILE_BROWSER_SYNC_NO_SERVER_SPACE" desc="File Manager status message shown when the drive sync is failed because it runs out the space in iBrowe Drive server.">
-    "<ph name="FILENAME">$1<ex>photo.jpg</ex></ph>" was not uploaded. There is not enough free space in your iBrowe Drive.
+    "<ph name="FILENAME">$1<ex>photo.jpg</ex></ph>" was not uploaded. There is not enough free space in your Brave Drive.
   </message>
   <message name="IDS_FILE_BROWSER_SHARE_ERROR" desc="File Manager error message when sharing a file or a directory on Drive fails because of internet connection problems.">
     Sharing failed. Check your connection and try again later.
@@ -1030,9 +1028,9 @@
   </message>
   <message name="IDS_FILE_BROWSER_DRIVE_WELCOME_TEXT_LONG" desc="In the Welcome to iBrowe Drive banner, text of the welcome message, long version.">
     <ph name="MARKUP_1">&lt;p&gt;&lt;strong&gt;<ex>&lt;strong&gt;</ex></ph>Access files from everywhere, even offline.<ph name="MARKUP_2">&lt;/strong&gt;<ex>&lt;/strong&gt;</ex></ph>
-    Files in iBrowe Drive are up to date and available from any device.<ph name="MARKUP_3">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
+    Files in Brave Drive are up to date and available from any device.<ph name="MARKUP_3">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
     <ph name="MARKUP_4">&lt;p&gt;&lt;strong&gt;<ex>&lt;strong&gt;</ex></ph>Keep your files safe.<ph name="MARKUP_5">&lt;/strong&gt;<ex>&lt;/strong&gt;</ex></ph>
-    No matter what happens to your device, your files are safely stored in iBrowe Drive.<ph name="MARKUP_6">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
+    No matter what happens to your device, your files are safely stored in Brave Drive.<ph name="MARKUP_6">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
     <ph name="MARKUP_7">&lt;p&gt;&lt;strong&gt;<ex>&lt;strong&gt;</ex></ph>Share, create and collaborate<ph name="MARKUP_8">&lt;/strong&gt;<ex>&lt;/strong&gt;</ex></ph>
     on files with others all in one place.<ph name="MARKUP_9">&lt;/p&gt;<ex>&lt;/p&gt;</ex></ph>
   </message>
@@ -1273,7 +1271,7 @@
     <ph name="VOLUME_NAME">$1<ex>file_name.rar</ex></ph> has been ejected.
   </message>
 
-<!-- Common for Audio player and Media player -->
+
   <message name="IDS_MEDIA_PLAYER_PLAY_BUTTON_LABEL" desc="Label for the Play button of media players (audio player / video player).">
     Play
   </message>
@@ -1299,7 +1297,7 @@
     Volume slider
   </message>
 
-<!-- Audio Player -->
+
   <message name="IDS_AUDIO_PLAYER_SHUFFLE_BUTTON_LABEL" desc="Label for the Shuffle button of audio player.">
     Shuffle
   </message>
@@ -1310,7 +1308,7 @@
     Open play list
   </message>
 
-<!-- Video Player -->
+
   <message name="IDS_VIDEO_PLAYER_PLAY_THIS_COMPUTER" desc="In the video player app, message of menu item which is shown at the top of the list of iBrowecasts. This menuitem is to play the video on this computer (locally), intead of on TVs with iBrowecast.">
     This computer
   </message>

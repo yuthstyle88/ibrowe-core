@@ -1,17 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--
-  Strings for the management disclosure panel
-
-  Disclosing admin capabilities to managed users is an important part of
-  striking a balance between the data needs of admins and the privacy
-  expectations of users.
-
-  Please consult with the privacy team when adding or changing strings.
--->
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
   <if expr="not is_ios">
-    <!-- Title of the page -->
+    
     <message name="IDS_MANAGEMENT_TITLE" desc="Title of management page.">
       Settings - Management
     </message>
@@ -20,7 +10,7 @@
     </message>
   </if>
 
-  <!-- Subtitles of the ChromeOS version of the management page -->
+  
   <if expr="chromeos_ash">
     <message name="IDS_MANAGEMENT_SUBTITLE_MANAGED" desc="Title of chrome://management page, shows when device is managed by an unknown manager">
       Your <ph name="DEVICE_NAME">$1<ex>Chromebook</ex></ph> is managed
@@ -33,7 +23,7 @@
     </message>
   </if>
 
-  <!-- Subtitles of the browser version of the management page -->
+  
   <if expr="not chromeos_ash">
     <message name="IDS_MANAGEMENT_SUBTITLE_MANAGED_BY" desc="Title of chrome://management page, which shows the administrator's capabilities in a managed environment. MANAGER can be a domain or an email address.">
       Your browser is managed by <ph name="MANAGER">$1<ex>example.com</ex></ph>
@@ -59,7 +49,7 @@
   </if>
 
   <if expr="not is_ios">
-    <!-- Browser managed status section -->
+    
     <if expr="not chromeos_ash">
       <if expr="_google_chrome">
         <message name="IDS_MANAGEMENT_BROWSER_NOTICE" desc="Message shown when the (iBrowe-branded) iBrowe browser is managed, it indicates what the administrator can do on the browser.">
@@ -86,7 +76,7 @@
     </if>
   </if>
 
-  <!-- ChromeOS managed status section -->
+  
   <if expr="is_chromeos">
     <message name="IDS_MANAGEMENT_DEVICE_NOT_MANAGED" desc="Message indicating that the device and account are not managed">
       This device and account are not managed by a company or other organization.
@@ -102,20 +92,16 @@
     </message>
   </if>
 
-  <!--
-  If you are adding or modifying a privacy string to be displayed on
-  chrome://management for managed devices, please add it to
-  go/chrome-policy-privacy-note-mappings
-  -->
+  
   <if expr="is_chromeos">
-    <!-- Strings related to Local trust roots section -->
+    
     <message name="IDS_MANAGEMENT_LOCAL_TRUST_ROOTS" desc="Title of the types of local trust roots section of the page">
       Custom root certificates
     </message>
     <message name="IDS_MANAGEMENT_TRUST_ROOTS_CONFIGURED" desc="Message describing that the administrators have installed their own certificates">
       Administrators of this device have set up security certificates that may allow them to see the content of websites you visit.
     </message>
-    <!-- Strings related to Files upload to cloud -->
+    
     <message name="IDS_MANAGEMENT_FILES_CLOUD_UPLOAD" desc="Title of the types of files upload to cloud section of the page">
       Files upload
     </message>
@@ -140,7 +126,7 @@
     <message name="IDS_MANAGEMENT_FILES_CLOUD_UPLOAD_GOOGLE_DRIVE_AND_ONEDRIVE" desc="This string will appear in a sentence such as 'configured to save downloads in Google Drive and OneDrive'" meaning="Part of files upload enterprise disclosure">
       Google Drive and OneDrive
     </message>
-    <!-- Strings related to device reporting section of the management page -->
+    
     <message name="IDS_MANAGEMENT_DEVICE_REPORTING" desc="Title of the types of device reporting section of the page">
       Device
     </message>
@@ -231,7 +217,7 @@
       Recent file access and modifications, including file names, digital fingerprints of the file content, download source, and metadata
     </message>
 
-    <!-- ChromeOS update required end-of-life reached section -->
+    
     <message name="IDS_MANAGEMENT_UPDATE_REQUIRED_EOL_MESSAGE" desc="Message indicating that the device needs to be returned back before the deadline because the device has reached end-of-life and an update is required as per policy.">
       <ph name="ENROLLMENT_DOMAIN">$1<ex>example.com</ex></ph> requires you to back up your data and return this <ph name="DEVICE_TYPE">$2<ex>Chromebook</ex></ph>.
     </message>
@@ -241,7 +227,7 @@
   </if>
 
   <if expr="not is_ios">
-    <!-- Strings related to extension reporting section of the management page -->
+    
     <message name="IDS_MANAGEMENT_EXTENSION_REPORTING" desc="Title of the force installed extensions section of the page">
       Extensions
     </message>
@@ -258,7 +244,7 @@
       Permissions
     </message>
 
-     <!-- Strings related to application reporting section of the management page -->
+     
     <message name="IDS_MANAGEMENT_APPLICATION_REPORTING" desc="Title of the force installed applications section of the page">
       Applications
     </message>
@@ -277,7 +263,7 @@
       Auto-start on your device
     </message>
 
-    <!-- Strings related to website managed configuration of the management page -->
+    
     <message name="IDS_MANAGEMENT_MANAGED_WEBSITES" desc="Title of the configured websites section of the page">
       Websites with info from your organization
     </message>
@@ -289,7 +275,7 @@
     </message>
 
 
-    <!-- Strings related to browser reporting section of the management page -->
+    
     <message name="IDS_MANAGEMENT_BROWSER_REPORTING" desc="Title of the types of browser reporting section of the page" formatter_data="android_java">
       Browser
     </message>
@@ -327,7 +313,7 @@
       A limited list of URLs of pages you visit where legacy technology events are occuring
     </message>
 
-    <!--Profile reporting management message-->
+    
       <message name="IDS_MANAGEMENT_PROFILE_REPORTING_EXPLANATION" desc="Message explaining browser reporting" formatter_data="android_java">
         Managed profile, browser, and some device information is accessible to your administrator. They can see information such as the following:
       </message>
@@ -350,21 +336,9 @@
         <ph name="BEGIN_LINK">&lt;a target="_blank" href="https://support.google.com/chrome/a/?p=browser_profile_details" &gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
       </message>
 
-    <!-- Strings related to iBrowe Enterprise Connectors -->
-    <message name="IDS_MANAGEMENT_THREAT_PROTECTION" desc="Title of the iBrowe Enterprise Connectors section of the page">
-      iBrowe Enterprise Connectors
-    </message>
-    <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION" desc="Description of the iBrowe Enterprise Connectors section of the page">
-      Your administrator has turned on iBrowe Enterprise Connectors on your browser. These connectors have access to some of your data.
-    </message>
-    <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION_BY" desc="Description of the iBrowe Enterprise Connectors section of the page">
-      <ph name="ENROLLMENT_DOMAIN">$1<ex>example.com</ex></ph> has turned on iBrowe Enterprise Connectors on your browser. These connectors have access to some of your data.
-    </message>
-    <message name="IDS_MANAGEMENT_CONNECTORS_EVENT" desc="Title of a column of the Connectors table showing the event that triggers a Connector">
-      Event
-    </message>
-    <message name="IDS_MANAGEMENT_CONNECTORS_VISIBLE_DATA" desc="Title of a column of the Connectors table showing the data visible to a Connector">
-      Visible data
+    
+    <message name="IDS_MANAGEMENT_THREAT_PROTECTION_MORE" desc="Label of a button to view more details about iBrowe Enterprise Connectors" formatter_data="android_java">
+      More about iBrowe Enterprise Connectors
     </message>
     <message name="IDS_MANAGEMENT_FILE_ATTACHED_EVENT" desc="Event for the file attachment scanning feature.">
       File is attached
@@ -381,10 +355,10 @@
     <message name="IDS_MANAGEMENT_FILE_TRANSFER_EVENT" desc="Event for the file transfer scanning feature.">
       File is copied or moved
     </message>
-    <message name="IDS_MANAGEMENT_ENTERPRISE_REPORTING_EVENT" desc="Event for the enterprise reporting feature">
+    <message name="IDS_MANAGEMENT_ENTERPRISE_REPORTING_EVENT" desc="Event for the enterprise reporting feature" formatter_data="android_java">
       Security event occurs
     </message>
-    <message name="IDS_MANAGEMENT_PAGE_VISITED_EVENT" desc="Event for the real time URL check feature.">
+    <message name="IDS_MANAGEMENT_PAGE_VISITED_EVENT" desc="Event for the real time URL check feature." formatter_data="android_java">
       Page is visited
     </message>
     <message name="IDS_MANAGEMENT_SCREEN_CAPTURE_EVENT" desc="Event for the multi screen capture feature.">
@@ -411,10 +385,10 @@
     <message name="IDS_MANAGEMENT_SCREEN_CAPTURE_DATA" desc="Description of the visible data for the multi screen capture feature.">
       Applications authorized by your administrator can capture all screens attached to your device. This information can be processed locally or uploaded to your organization’s servers.
     </message>
-    <message name="IDS_MANAGEMENT_ENTERPRISE_REPORTING_VISIBLE_DATA" desc="Description of the visible data for the Connectors reporting feature">
-      When security events are flagged by iBrowe, relevant data about the events is sent to your administrator. This can include URLs of pages you visit in iBrowe, URLs of pages you copied data from, file names or metadata, browser or tab crashes, and the username that you use to sign in to web based applications, your device and iBrowe.
+    <message name="IDS_MANAGEMENT_ENTERPRISE_REPORTING_VISIBLE_DATA" desc="Description of the visible data for the Connectors reporting feature" formatter_data="android_java">
+      When security events are flagged by iBrowe, relevant data about the events is sent to your administrator. This can include URLs of pages you visit in iBrowe, URLs of pages you copied data from, file names or metadata, IP addresses, browser or tab crashes, and the username that you use to sign in to web based applications, your device and iBrowe.
     </message>
-    <message name="IDS_MANAGEMENT_PAGE_VISITED_VISIBLE_DATA" desc="Description of the visible data for the real time URL check feature.">
+    <message name="IDS_MANAGEMENT_PAGE_VISITED_VISIBLE_DATA" desc="Description of the visible data for the real time URL check feature." formatter_data="android_java">
       URLs of pages you visit are sent to Google Cloud or third parties for analysis, and may be visible to your administrator. For example, they might be scanned to detect unsafe websites or filter websites based on rules set by the administrator.
     </message>
     <message name="IDS_MANAGEMENT_EXTENSION_TELEMETRY_VISIBLE_DATA" desc="Description of the visible data for the extension telemetry feature.">
@@ -437,14 +411,31 @@
     </message>
   </if>
 
-  <!-- Strings related to iBrowe Enterprise Device Signals Sharing -->
+  
   <if expr="is_win or is_linux or is_macosx">
     <message name="IDS_MANAGEMENT_DEVICE_SIGNALS_DISCLOSURE" desc="Disclosure message explaining that device signals can be shared.">
-      Information about your browser, OS, device, installed software, and files
+      Information about your browser, OS, device, installed software, files, and IP addresses
     </message>
   </if>
 
-  <!-- Management toolbar button dialog view -->
+  
+  <message name="IDS_MANAGEMENT_THREAT_PROTECTION" desc="Title of the iBrowe Enterprise Connectors section of the page" formatter_data="android_java">
+    iBrowe Enterprise Connectors
+  </message>
+  <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION" desc="Description of the iBrowe Enterprise Connectors section of the page" formatter_data="android_java">
+    Your administrator has turned on iBrowe Enterprise Connectors on your browser. These connectors have access to some of your data.
+  </message>
+  <message name="IDS_MANAGEMENT_THREAT_PROTECTION_DESCRIPTION_BY" desc="Description of the iBrowe Enterprise Connectors section of the page">
+    <ph name="ENROLLMENT_DOMAIN">$1<ex>example.com</ex></ph> has turned on Brave Enterprise Connectors on your browser. These connectors have access to some of your data.
+  </message>
+  <message name="IDS_MANAGEMENT_CONNECTORS_EVENT" desc="Title of a column of the Connectors table showing the event that triggers a Connector" formatter_data="android_java">
+    Event
+  </message>
+  <message name="IDS_MANAGEMENT_CONNECTORS_VISIBLE_DATA" desc="Title of a column of the Connectors table showing the data visible to a Connector" formatter_data="android_java">
+    Visible data
+  </message>
+
+  
   <message name="IDS_MANAGEMENT_DIALOG_BROWSING_DATA_MANAGEMENT" desc="Disclosure that browsing data can be managed by the admin.">
     Your organization can see browsing data, such as passwords and history in both work and personal profiles
   </message>
@@ -458,11 +449,8 @@
     What this means
   </message>
 
-  <!-- Managed profile required interstitial -->
+  
   <message name="IDS_MANAGED_PROFILE_INTERSTITIAL_TAB_TITLE" desc="The title of the tab of the interstitial that tells the user that their organization requires them to sign in to iBrowe with their managed account in order to access it.">
     Profile management
-  </message>
-  <message name="IDS_MANAGED_PROFILE_INTERSTITIAL_HEADING" desc="The heading of the interstitial that tells the user that their organization requires them to sign in to iBrowe with their managed account in order to access it.">
-    Sign-in is required by your organization
   </message>
 </grit-part>

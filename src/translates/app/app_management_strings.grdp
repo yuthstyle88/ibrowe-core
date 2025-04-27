@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!--This file is created by l10nUtil.js. Do not edit manually.-->
+<?xml version='1.0' encoding='utf-8'?>
 <grit-part>
   <message name="IDS_APP_MANAGEMENT_CAMERA" desc="Label for the camera permission toggle.">
     Camera
@@ -67,7 +66,7 @@
     Opening <ph name="BEGIN_LINK">&lt;a href="#"&gt;</ph>supported links<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_APP_MANAGEMENT_INTENT_SHARING_APP_OPEN" desc="Label for the intent sharing option to open in a specified app.">
-    Open in <ph name="APP_NAME">$1<ex>iBrowe browser</ex></ph>
+    Open in <ph name="APP_NAME">$1<ex>Brave browser</ex></ph>
   </message>
   <message name="IDS_APP_MANAGEMENT_INTENT_SHARING_BROWSER_OPEN" desc="Label for the intent sharing option to open in the browser.">
     Open in iBrowe browser
@@ -201,8 +200,17 @@
   <message name="IDS_APP_MANAGEMENT_PERMISSION_ALLOWED_BUT_MICROPHONE_HW_SWITCH_ACTIVE_TEXT_WITH_DETAILS" desc="Label explaining that access to microphone is allowed for an app but microphone is blocked by hardware switch with details.">
     Allowed – <ph name="PERMISSION_DETAILS">$1<ex>While in use</ex></ph>. Turn on microphone using physical switch.
   </message>
+  <message name="IDS_APP_MANAGEMENT_APP_VERSION_TITLE" desc="Text for application version section">
+    Version
+  </message>
+  <message name="IDS_APP_MANAGEMENT_APP_SIZE_TITLE" desc="Text for application size section">
+    Size
+  </message>
+  <message name="IDS_APP_MANAGEMENT_APP_DATA_SIZE_TITLE" desc="Text for application data section">
+    Data stored in app
+  </message>
 
-  <!-- File Handling -->
+  
   <message name="IDS_APP_MANAGEMENT_FILE_HANDLING_HEADER" desc="Main text for toggling a web app's ability to use the File Handling API. This controls whether the app can appear in an 'Open With' list in a file's context menu.">
     Include this app as an option when opening files
   </message>
@@ -242,7 +250,7 @@
     }
   </message>
 
-  <!-- Multi Apps API -->
+  
   <message name="IDS_APP_MANAGEMENT_SUB_APPS_LIST_HEADING" desc="Label for the sub-app section in an app's settings page. The section lists all sub-applications that got installed by the current app. These sub-applications might be installed locally, or streamed from a remote location via the parent app.">
     Installed and streamed applications from <ph name="APP_NAME">$1<ex>Citrix</ex></ph>
   </message>
@@ -255,7 +263,7 @@
     Permissions that you allow for <ph name="APP_NAME">$1<ex>Citrix</ex></ph> will also be allowed for this app. <ph name="BEGIN_LINK">&lt;a href="#"&gt;</ph>Manage<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
-  <!-- App Content, Scope Extensions -->
+  
   <message name="IDS_APP_MANAGEMENT_APP_CONTENT_TITLE" desc="Label for App content section in the app settings page.">
     App Content
   </message>
