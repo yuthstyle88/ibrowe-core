@@ -35,7 +35,7 @@ def process_file(file_path):
 def scan_folder(folder):
     for root_dir, _, files in os.walk(folder):
         for file in files:
-            if file.endswith(".grdp") or file.endswith(".xml"):
+            if file.endswith(".grdp") or file.endswith(".xtb") or file.endswith(".strings") or file.endswith(".grd") or file.endswith(".pak"):
                 full_path = os.path.join(root_dir, file)
                 process_file(full_path)
 
