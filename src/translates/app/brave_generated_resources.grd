@@ -361,26 +361,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         Block elements
       </message>
 
-      <!-- Element Picker -->
-      <message name="IDS_BRAVE_ELEMENT_PICKER_CREATE_BTN_DISABLED_LABEL" desc="Label for Element picker's create button in disabled state">
-        Select element you want to block
-      </message>
-      <message name="IDS_BRAVE_ELEMENT_PICKER_CREATE_BTN_ENABLED_LABEL" desc="Label for Element picker's create button in enabled state">
-        Block Elements
-      </message>
-      <message name="IDS_BRAVE_ELEMENT_PICKER_MANAGE_BTN_LABEL" desc="Label for Element picker's manage button">
-        Manage filters
-      </message>
-      <message name="IDS_BRAVE_ELEMENT_PICKER_SHOW_RULES_BTN_LABEL" desc="Label for Element picker's show rules button">
-        Show rules
-      </message>
-      <message name="IDS_BRAVE_ELEMENT_PICKER_HIDE_RULES_BTN_LABEL" desc="Label for Element picker's hide rules button">
-        Hide rules
-      </message>
-      <message name="IDS_BRAVE_ELEMENT_PICKER_QUIT_BTN_LABEL" desc="Label for Element picker's quit button">
-        Cancel
-      </message>
-
       <message name="IDS_LOCATION_BAR_ONION_AVAILABLE" desc="Button in location bar to indicate onion available site to open a new tab in tor window.">
         .onion
       </message>
@@ -695,12 +675,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
         Thanks for supporting Brave Search by clicking a private ad. Unlike Big Tech, we measure ad performance anonymously to preserve your privacy.
       </message>
       <message name="IDS_BRAVE_ADS_SEARCH_RESULT_AD_LEARN_MORE_OPT_OUT_CHOICES_LABEL" desc="The text label of creative search result ad learn more / opt out choices link">
-        Learn more / opt out choices
-      </message>
-      <message name="IDS_NEW_TAB_TAKEOVER_INFOBAR_MESSAGE" desc="The text label of new tab takeover infobar message">
-        Sponsored background images support Brave's mission to build an independent, user-first Web. And unlike Big Tech, we measure ad performance anonymously to preserve your privacy.
-      </message>
-      <message name="IDS_NEW_TAB_TAKEOVER_INFOBAR_LEARN_MORE_OPT_OUT_CHOICES" desc="The text of new tab takeover infobar learn more / opt out choices link">
         Learn more / opt out choices
       </message>
 
@@ -1398,47 +1372,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>brave://settings/ext
       </message>
       <message name="IDS_BRAVE_FILE_SELECT_SAVE_TITLE_NONSTANDARD_URL_IFRAME" desc="">
         An embedded page on this page wants to save
-      </message>
-
-      <!-- Tab Search -->
-      <message name="IDS_BRAVE_ORGANIZE_TAB_TITLE" desc="Title for the tab organizer page">
-        Tab focus
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_SUBTITLE" desc="Subtitle for the tab organizer page">
-        Gather all related tabs into a new window
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_SUGGESTED_TOPICS_SUBTITLE" desc="Subtitle for the suggested topics section">
-        Suggested topics
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_TOPIC_INPUT_PLACEHOLDER" desc="Placeholder text for the input field to enter a topic">
-        Enter a topic to focus on...
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_SUBMIT_BUTTON_LABEL" desc="Label for the submit topic input button">
-        Go
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_UNDO_BUTTON_LABEL" desc="Label for the undo button">
-        Undo
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_WINDOW_CREATED_MESSAGE" desc="Message shown when a new window is created">
-        New window created for <ph name="TOPIC">$1<ex>Social media</ex></ph>
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_SEND_TAB_DATA_MESSAGE" desc="Description of how tab data is shared with Leo">
-        This feature sends data about your open tabs to Leo, Brave's AI-powered browser assistant.
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_LEARN_MORE_LABEL" desc="Text of the learn more link">
-        Learn more
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_GO_PREMIUM_BUTTON_LABEL" desc="Text of go premium button">
-        Go Premium
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_DISMISS_BUTTON_LABEL" desc="Text of the dismiss button">
-        Dismiss
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_PRIVACY_DISCLAIMER" desc="Disclaimer text for enabling the tab focus feature">
-        When opened, this will automatically send the titles and origin of all non-private tabs to Leo to classify them.
-      </message>
-      <message name="IDS_BRAVE_ORGANIZE_TAB_ENABLE_BUTTON_LABEL" desc="Text of enable tab focus button">
-        Enable
       </message>
       <!--Add new items to the appropriate sections above -->
     </messages>

@@ -429,6 +429,9 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_SHIELDS_BLOCKS_SCRIPTS_SUMMARY" desc="Switch for Block Scripts summary.">
         Blocks JavaScript (may break sites)
       </message>
+      <message name="IDS_YOUTUBE" desc="Text for youtube">
+        YouTube
+      </message>
       <message name="IDS_BLOCK_YOUTUBE_RECOMMENDED_CONTENT" desc="Hide YouTube Recommended Content">
         Block YouTube recommended content
       </message>
@@ -509,6 +512,21 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       </message>
       <message name="IDS_INDEX_OTHER_SEARCH_ENGINES_TEXT" desc="Text for the settings related to index other search engines">
         Automatically indexes websites that follow the OpenSearch spec.
+      </message>
+      <message name="IDS_QUICK_SEARCH_ENGINES" desc="Title for quick search engines option">
+        Quick search engines
+      </message>
+      <message name="IDS_QUICK_SEARCH_ENGINES_WITH_HYPHEN" desc="Title for quick search engines with hyphen">
+        Quick-Search Engines
+      </message>
+      <message name="IDS_SHOW_QUICK_SEARCH_BAR" desc="Title for show quick search bar switch">
+        Show quick search bar
+      </message>
+      <message name="IDS_CURRENTLY_USED_SEARCH_ENGINES" desc="Description text for quick-search engines">
+        Currently used search engines
+      </message>
+      <message name="IDS_LONG_PRESS_TO_CHANGE_ORDER" desc="Text for changing the order of quick-search engines">
+        Long press to change the order
       </message>
       <message name="IDS_MENU_EXIT" desc="Menu item for exit browser. [CHAR-LIMIT=27]">
         Exit
@@ -865,11 +883,8 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_SHOW_BRAVE_REWARDS_ICON_SUMMARY" desc="Summary for preference that hides or shows Brave Rewards icon.">
         Show Brave Rewards icon in address bar
       </message>
-      <message name="IDS_BOTTOM_TOOLBAR_TITLE" desc="Menu item for enabling the bottom navigation toolbar.">
-        Enable bottom navigation toolbar
-      </message>
-      <message name="IDS_BRAVE_BOTTOM_NAVIGATION_TOOLBAR_DISABLED_SUMMARY" desc="Summary for disabled state of the bottom navigation toolbar.">
-        This setting is disabled when the bottom address bar position is selected
+      <message name="IDS_BOTTOM_TOOLBAR_ENABLE" desc="Menu item for enabling the bottom toolbar.">
+        Enable bottom toolbar
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
         Your changes will take effect the next time you relaunch Brave
@@ -911,6 +926,15 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       </message>
       <message name="IDS_SURE_ILL_HELP_ONBOARDING" desc="Text for Sure i'll help button onboarding">
         Sure, I'll help
+      </message>
+      <message name="IDS_TYPE_WEBSITE" desc="Text for searhbox tooltip title onboarding">
+        Type a website name or URL
+      </message>
+      <message name="IDS_SEARCHBOX_ONBOARDING" desc="Text for searhbox tooltip onboarding">
+        See the Brave difference: No ads. No trackers. Way faster page load.
+      </message>
+      <message name="IDS_SEARCHBOX_ONBOARDING_INDIA" desc="Text for searhbox tooltip onboarding for india">
+        See the Brave difference: Block ads. Save data. Stream faster.
       </message>
       <message name="IDS_SHIELD_ONBOARDING" desc="Text for shield tooltip onboarding">
         Tap to view Brave Shields
@@ -1424,12 +1448,6 @@ Are you sure you want to do this?
       <message name="IDS_PREFS_NEW_TAB_PAGE" desc="Title of New Tab Page settings.">
         New Tab Page
       </message>
-      <message name="IDS_NEW_TAB_TAKEOVER_INFOBAR_MESSAGE" desc="The text of new tab takeover infobar message.">
-        Sponsored background images support Brave's mission to build an independent, user-first Web. And unlike Big Tech, we measure ad performance anonymously to preserve your privacy.
-      </message>
-      <message name="IDS_NEW_TAB_TAKEOVER_INFOBAR_LEARN_MORE_OPT_OUT_CHOICES" desc="The text of new tab takeover infobar learn more / opt out choices link.">
-        Learn more / opt out choices
-      </message>
       <message name="IDS_BACKGROUND_IMAGES" desc= "Category title of background images option.">
         Background Images
       </message>
@@ -1438,9 +1456,6 @@ Are you sure you want to do this?
       </message>
       <message name="IDS_SHOW_SPONSORED_IMAGES" desc ="Title of show sponsored images option.">
         Show Sponsored Images
-      </message>
-      <message name="IDS_SPONSORED_IMAGES_LEARN_MORE" desc="Title of learn more about Sponsored images.">
-        Learn more about Sponsored images
       </message>
       <message name="IDS_WIDGETS" desc ="Categary of Widget option.">
         Widgets
@@ -1678,9 +1693,6 @@ Are you sure you want to do this?
       </message>
       <message name="IDS_ADVANCED_CONTROLS" desc="Title for toggle section.">
         Advanced controls
-      </message>
-      <message name="IDS_SHOW_ALL_BLOCKED_ELEMENTS" desc="Text for show all block elements button.">
-        Clear all blocked elements
       </message>
       <message name="IDS_UPDATE_NOTIFICATION_TITLE" desc="Title of notification on application update.">
         Save Data Online
@@ -3414,7 +3426,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Widget added to the home screen
     </message>
     <message name="IDS_TRY_BRAVE_SEARCH_WIDGET" desc="Title of Brave search widget promo">
-      Try the Brave Search widget
+      Try the Brave search widget
     </message>
     <message name="IDS_TRY_BRAVE_SEARCH_WIDGET_DESCRIPTION" desc="Description of Brave search widget promo">
       Access private, independent search right from your home screen.
@@ -3631,12 +3643,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_LEO_AUTOCOMPLETE_PREF" desc="Title for Leo Autocomplete suggestions.">
       Show autocomplete suggestions in address bar
-    </message>
-    <message name="IDS_LEO_QUICK_SEARCH_ENGINE_PREF" desc="Title for Leo Quick Search Engine preference.">
-      Show in quick search engines bar
-    </message>
-    <message name="IDS_LEO_QUICK_SEARCH_ENGINE_SUMMARY" desc="Summary for Leo Quick Search Engine preference.">
-      Enables a shortcut to launch Leo from the quick search engines bar.
     </message>
     <message name="IDS_LEO_RESET_DATA" desc="Title for Leo Reset and clear data option.">
       Delete all Leo AI conversation data
@@ -4034,25 +4040,22 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_MERGE_WINDOWS_SNACKBAR" desc="Text for merge windows snackbar">
       Please merge other tabs to another Brave window.
     </message>
-    <message name="IDS_AUTO_RECONNECT_VPN" desc="Vpn setting title for auto reconnect vpn">
-      Auto re-connect VPN
+    <message name="IDS_ALWAYS_ON_VPN" desc="Vpn setting title for always on">
+      Always-on VPN
     </message>
     <message name="IDS_HOW_TO_TURN_ON" desc="Vpn kill switch tutorial text">
       How to turn on:
     </message>
-    <message name="IDS_AUTO_RECONNECT_VPN_TUTORIAL_TEXT_1" desc="Vpn auto reconnect tutorial text">
+    <message name="IDS_KILL_SWITCH_TUTORIAL_TEXT_1" desc="Vpn kill switch tutorial text">
       1. Open your device's settings from your app drawer or tapping the button below.
     </message>
-    <message name="IDS_AUTO_RECONNECT_VPN_TUTORIAL_TEXT_2" desc="Vpn auto reconnect tutorial text">
+    <message name="IDS_KILL_SWITCH_TUTORIAL_TEXT_2" desc="Vpn kill switch tutorial text">
       2. Find Brave VPN and tap on the settings icon to the right.
     </message>
-    <message name="IDS_AUTO_RECONNECT_VPN_TUTORIAL_TEXT_3" desc="Vpn auto reconnect tutorial text">
-      3. Toggle <ph name="AUTO_RECONNECT_VPN_TUTORIAL_START">&lt;auto_reconnect_vpn_tutorial&gt;</ph>Always-on VPN<ph name="AUTO_RECONNECT_VPN_TUTORIAL_END">&lt;/auto_reconnect_vpn_tutorial&gt;</ph> to enable it.
+    <message name="IDS_KILL_SWITCH_TUTORIAL_TEXT_3" desc="Vpn kill switch tutorial text">
+      3. Toggle <ph name="ALWAYS_ON_TUTORIAL_START">&lt;always_on_tutorial&gt;</ph>Always-on VPN<ph name="ALWAYS_ON_TUTORIAL_END">&lt;/always_on_tutorial&gt;</ph> to enable it.
     </message>
-    <message name="IDS_AUTO_RECONNECT_VPN_TUTORIAL_TEXT_4" desc="Vpn auto reconnect tutorial text">
-      Note that because of Android limitations, "Block connections without VPN" doesn't work as expected. <ph name="LEARN_MORE_START">&lt;learn_more&gt;</ph>Learn more.<ph name="LEARN_MORE_END">&lt;/learn_more&gt;</ph>
-    </message>
-    <message name="IDS_AUTO_RECONNECT_VPN_ACTION_TEXT" desc="Vpn auto reconnect tutorial action text">
+    <message name="IDS_KILL_SWITCH_ACTION_TEXT" desc="Vpn kill switch tutorial action text">
       Open Android settings
     </message>
     <message name="IDS_IN_APP_UPDATE_TEXT" desc="Text for in app update snackbar">
@@ -4078,12 +4081,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_SAFEBROWSING_ERRORS_PREF" desc="A preferences to show Safe Browsing errors">
       Show Safe Browsing errors
-    </message>
-    <message name="IDS_PRIVATE_TAB_SCREENSHOT_TITLE" desc="A title to show private tab screenshot">
-      Allow screenshots in private tabs
-    </message>
-    <message name="IDS_PRIVATE_TAB_SCREENSHOT_SUMMARY" desc="A summary to show private tab screenshot">
-      If allowed, private tabs will also be visible when multiple apps are open.
     </message>
   </messages>
   </release>
