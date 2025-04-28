@@ -7,25 +7,25 @@
 /* Title on top the list of available servers */
 "vpn.availableServerTitle" = "利用可能なサービス";
 
-/* Button text to buy iBrowe VPN */
+/* Button text to buy Brave VPN */
 "vpn.buyButton" = "購入";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxDevicesProtect" = "1つのサブスクリプションで5台のデバイスを保護";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxGeoLocation" = "あなたの位置/国を選択する";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxNoIPLog" = "Braveはブラウザ上のアクティビティを記録しません";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxProtectYourDevices" = "すべてのアプリとデバイス全体を保護";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxSaferWifi" = "ご自宅や公共Wi-Fiでの安全確保に";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxSpeedFast" = "最高100 Mbps、超高速のパフォーマンス";
 
 /* Text indicating how many cities is used for that country used as Ex: '1 City' */
@@ -101,9 +101,9 @@
 "vpn.contactFormTimezone" = "タイムゾーン";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "iBrowe Firewall + VPNに関わる問題";
+"vpn.contactFormTitle" = "Brave Firewall + VPNに関わる問題";
 
-/* Button text to enable iBrowe VPN */
+/* Button text to enable Brave VPN */
 "vpn.enableButton" = "有効化";
 
 /* Used in context: All plans include a 'free 7-day trial'! */
@@ -133,7 +133,7 @@
 /* Title for screen to install the VPN. */
 "vpn.installTitle" = "VPNをインストール";
 
-/* Button text to try free iBrowe VPN */
+/* Button text to try free Brave VPN */
 "vpn.learnMore" = "7日間の無料トライアルを開始する";
 
 /* Used in context: 'Monthly subscription, (it) renews monthly' */
@@ -148,7 +148,7 @@
 /* Text indicating how many server is used for that region used as Ex: '2 Servers' */
 "vpn.multipleServerCountTitle" = "サーバー %ld 台";
 
-/* The text that briefly explains how iBrowe VPN subscription is going to be charged and managed. */
+/* The text that briefly explains how Brave VPN subscription is going to be charged and managed. */
 "vpn.paywallDisclaimer" = "サブスクリプションはAppleアカウントを通じて課金されます。無料トライアルが提供されている場合、未使用の部分は、サブスクリプションを購入した時点で無効になります。\n\nサブスクリプションは、現在の期間終了の少なくとも24時間前にキャンセルされない限り、自動的に更新されます。\n\nサブスクリプションは「設定」で管理できます。\n\nBraveを使用することで、利用規約とプライバシーポリシーに同意したことになります。";
 
 /* The text which will be used to indicate period of payments like 10 / month */
@@ -278,7 +278,7 @@
 "vpn.settingsViewReceipt" = "App Storeのレシートを見る";
 
 /* The title of the toggle in settings that disconnects the internet connection, when not connected to the VPN. Emergency Shutoff, Kill Switch, Safety Switch, etc. */
-"vpn.settingsVPNKillSwitchDescription" = "この機能を有効にすると、VPN接続が予期せず切断された場合、IPアドレスとデータの漏洩を防ぐためにデバイスは自動的にインターネットから切断されます。[詳細はこちら](%@)";
+"vpn.settingsVPNKillSwitchDescription" = "この機能を有効にすると、VPN接続が予期せず切断された場合に、IPアドレスとデータの漏洩を防ぐためにデバイスは自動的にインターネットから切断されます。[詳細はこちら](%@)";
 
 /* The title of the toggle in settings that disconnects the internet connection, when not connected to the VPN. Emergency Shutoff, Kill Switch, Safety Switch, etc. */
 "vpn.settingsVPNKillSwitchTitle" = "キルスイッチを有効にする";
@@ -296,7 +296,7 @@
 "vpn.vpnBackgroundNotificationBody" = "バックグラウンドでもBraveはあなたを保護します";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "iBrowe Firewall + VPNは有効です";
+"vpn.vpnBackgroundNotificationTitle" = "Brave Firewall + VPNは有効です";
 
 /* Text for description of list item which chooses the optimal server for the country region */
 "vpn.vpnCityRegionOptimalDescription" = "利用できる最適なサーバーを使用";
@@ -311,7 +311,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "エラー";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "iBrowe Firewall + VPNを使用するには、お使いのデバイスにVPNプロファイルをインストールする必要があります。";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "Brave Firewall + VPNを使用するには、お使いのデバイスにVPNプロファイルをインストールする必要があります。";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "パーミッションが拒否されました";

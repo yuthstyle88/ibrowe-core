@@ -3,7 +3,7 @@
 <grit-part>
 
 <if expr="is_android">
-  <message name="IDS_FACILITATED_PAYMENTS_GOOGLE_PAY" desc="Name of the iBrowe product that stores user addresses and payment accounts. It should not be translated." formatter_data="android_java">
+  <message name="IDS_FACILITATED_PAYMENTS_GOOGLE_PAY" desc="Name of the Brave product that stores user addresses and payment accounts. It should not be translated." formatter_data="android_java">
     Google Pay
   </message>
 
@@ -18,13 +18,13 @@
     Pay with eWallet and Pix
   </message>
   <message name="IDS_SETTINGS_MANAGE_EWALLET_DESCRIPTION" desc="Description for the preference that allows the user to manage eWallet accounts. 'eWallet' is a payment system that should not be translated." formatter_data="android_java">
-    When you make purchases in iBrowe, see eWallet as an option
+    When you make purchases in Brave, see eWallet as an option
   </message>
   <message name="IDS_SETTINGS_MANAGE_PIX_DESCRIPTION" desc="Description for the preference that allows the user to manage Pix accounts. 'Pix' is a Brazilian payment system that should not be translated." formatter_data="android_java">
-    When you make purchases in iBrowe, see Pix as an option
+    When you make purchases in Brave, see Pix as an option
   </message>
   <message name="IDS_SETTINGS_MANAGE_EWALLET_AND_PIX_DESCRIPTION" desc="Description for the preference that allows the user to manage eWallet and Pix accounts. 'eWallet' and 'Pix' are payment systems that should not be translated." formatter_data="android_java">
-    When you make purchases in iBrowe, see eWallet and Pix as options
+    When you make purchases in Brave, see eWallet and Pix as options
   </message>
   <!-- Ewallet and Pix related strings -->
   <message name="IDS_SETTINGS_MANAGE_OTHER_FINANCIAL_ACCOUNTS_EWALLET" desc="This is the string added to the summary for the 'Manage other financial accounts' preference when user has eWallets accounts available to be used." formatter_data="android_java" translateable="false">
@@ -60,23 +60,23 @@
     Account
   </message>
   <!-- Ewallet and Pix bottom sheet related strings -->
-  <message name="IDS_FACILITATED_PAYMENTS_PAYMENT_METHODS_BOTTOM_SHEET_DETAILED_TITLE" desc="Title for the bottom sheet displaying user's accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on iBrowe when it receives signal of intention to pay, and the user has eligible payment accounts. The title string contains either the payment type or the name of the payment provider." formatter_data="android_java">
+  <message name="IDS_FACILITATED_PAYMENTS_PAYMENT_METHODS_BOTTOM_SHEET_DETAILED_TITLE" desc="Title for the bottom sheet displaying user's accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on Brave when it receives signal of intention to pay, and the user has eligible payment accounts. The title string contains either the payment type or the name of the payment provider." formatter_data="android_java">
     Pay with <ph name="PAYMENT_METHOD">%1$s<ex>ChiliPay</ex></ph> without switching apps
   </message>
-  <message name="IDS_FACILITATED_PAYMENTS_PAYMENT_METHODS_BOTTOM_SHEET_GENERIC_TITLE" desc="Title for the bottom sheet displaying user's accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on iBrowe when it receives signal of intention to pay, and the user has eligible payment accounts." formatter_data="android_java">
+  <message name="IDS_FACILITATED_PAYMENTS_PAYMENT_METHODS_BOTTOM_SHEET_GENERIC_TITLE" desc="Title for the bottom sheet displaying user's accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on Brave when it receives signal of intention to pay, and the user has eligible payment accounts." formatter_data="android_java">
     Pay without switching apps
   </message>
-  <message name="IDS_PIX_PAYMENT_METHODS_BOTTOM_SHEET_DESCRIPTION" desc="Explanation text for the bottom sheet displaying user's PIX bank accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on iBrowe when a PIX payment page is detected." formatter_data="android_java">
+  <message name="IDS_PIX_PAYMENT_METHODS_BOTTOM_SHEET_DESCRIPTION" desc="Explanation text for the bottom sheet displaying user's PIX bank accounts linked to their GPay wallet. It is shown to prompt the user to pay directly on Brave when a PIX payment page is detected." formatter_data="android_java">
     Account info is encrypted and kept private
   </message>
   <message name="IDS_EWALLET_FIRST_TIME_CHECK_PAYMENT_METHODS_BOTTOM_SHEET_DESCRIPTION" desc="Explanation text for the bottom sheet displaying user's accounts linked to their GPay wallet. It is shown to prompt the user to complete a security check for their first usage when an eWallet payment page is detected." formatter_data="android_java">
     Complete one-time security check to pay faster
   </message>
-  <message name="IDS_PIX_PAYMENT_ADDITIONAL_INFO" desc="Additional info for the bottom sheet displaying user's PIX bank accounts linked to their GPay wallet. The bottom sheet is shown to prompt the user to pay directly on iBrowe when a PIX payment page is detected. This string provides supplemental information about the user's accounts and the transaction." formatter_data="android_java">
-    To turn off Pix in iBrowe, go to your <ph name="BEGIN_LINK1">&lt;link1&gt;</ph>payment settings<ph name="END_LINK1">&lt;/link1&gt;</ph>
+  <message name="IDS_PIX_PAYMENT_ADDITIONAL_INFO" desc="Additional info for the bottom sheet displaying user's PIX bank accounts linked to their GPay wallet. The bottom sheet is shown to prompt the user to pay directly on Brave when a PIX payment page is detected. This string provides supplemental information about the user's accounts and the transaction." formatter_data="android_java">
+    To turn off Pix in Brave, go to your <ph name="BEGIN_LINK1">&lt;link1&gt;</ph>payment settings<ph name="END_LINK1">&lt;/link1&gt;</ph>
   </message>
-  <message name="IDS_EWALLET_PAYMENT_ADDITIONAL_INFO" desc="Additional info for the bottom sheet displaying user's eWallet accounts linked to their GPay wallet. The bottom sheet is shown to prompt the user to pay directly on iBrowe when an eWallet payment page is detected. This string provides supplemental information about the user's accounts and the transaction." formatter_data="android_java">
-    Your saved auto-pay method may be used for this payment. To turn off eWallets in iBrowe, go to your <ph name="BEGIN_LINK1">&lt;link1&gt;</ph>payment settings<ph name="END_LINK1">&lt;/link1&gt;</ph>
+  <message name="IDS_EWALLET_PAYMENT_ADDITIONAL_INFO" desc="Additional info for the bottom sheet displaying user's eWallet accounts linked to their GPay wallet. The bottom sheet is shown to prompt the user to pay directly on Brave when an eWallet payment page is detected. This string provides supplemental information about the user's accounts and the transaction." formatter_data="android_java">
+    Your saved auto-pay method may be used for this payment. To turn off eWallets in Brave, go to your <ph name="BEGIN_LINK1">&lt;link1&gt;</ph>payment settings<ph name="END_LINK1">&lt;/link1&gt;</ph>
   </message>
   <message name="IDS_PIX_PAYMENT_PRODUCT_ICON_CONTENT_DESCRIPTION" desc="Accessibility string for the Google Pay + Pix product icon." formatter_data="android_java">
     Google Pay, Pix
@@ -96,7 +96,7 @@
   <message name="IDS_PIX_PAYMENT_ERROR_SCREEN_DESCRIPTION" desc="Description for the PIX payment error screen. It is shown if PIX payment fails after the user has selected an account to pay from." formatter_data="android_java">
     Your transaction didn’t go through. No funds were withdrawn from your account.
   </message>
-  <message name="IDS_PIX_PAYMENT_PROGRESS_SCREEN_MESSAGE" desc="A message shown in the Pix payment progress screen informing the current status of the transaction. It is shown after a user has selected an account to pay from, and while iBrowe is contacting the backend server." formatter_data="android_java">
+  <message name="IDS_PIX_PAYMENT_PROGRESS_SCREEN_MESSAGE" desc="A message shown in the Pix payment progress screen informing the current status of the transaction. It is shown after a user has selected an account to pay from, and while Brave is contacting the backend server." formatter_data="android_java">
     Contacting your financial institution...
   </message>
   <message name="IDS_FACILITATED_PAYMENTS_OK" desc="Generic OK string to be used in any Facilitated Payments UI." formatter_data="android_java">
