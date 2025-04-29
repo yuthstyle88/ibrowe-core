@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
+index 04113eca3052231e05865a82586f921bd0817e9d..d788bae93979a40e5a63265d098709b2fdf74fdf 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
+@@ -35,7 +35,7 @@ struct FavoritesPreloadedData {
+         list.append(FavoriteSite(url: url, title: "Reddit"))
+       }
+ 
+-      if let url = URL(string: "https://brave.com/msupport/") {
++      if let url = URL(string: "https://ibrowe.com/msupport/") {
+         list.append(FavoriteSite(url: url, title: Strings.NTP.braveSupportFavoriteTitle))
+       }
+ 
