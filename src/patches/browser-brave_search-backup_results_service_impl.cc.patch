@@ -1,0 +1,13 @@
+diff --git a/browser/brave_search/backup_results_service_impl.cc b/browser/brave_search/backup_results_service_impl.cc
+index d9b0462f4b5ecd6064a6fad68dfe329366d39bc6..d310109c1e87d2578327bd363035930a8f7a4fad 100644
+--- a/browser/brave_search/backup_results_service_impl.cc
++++ b/browser/brave_search/backup_results_service_impl.cc
+@@ -50,7 +50,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
+       policy {
+         cookies_allowed: YES
+         setting:
+-          "You can enable or disable these features on brave://settings/search "
++          "You can enable or disable these features on ibrowe://settings/search "
+           "and https://search.brave.com/settings"
+         policy_exception_justification:
+           "Not implemented."

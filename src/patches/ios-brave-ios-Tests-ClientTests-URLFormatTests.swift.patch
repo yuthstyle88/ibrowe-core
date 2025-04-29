@@ -1,0 +1,19 @@
+diff --git a/ios/brave-ios/Tests/ClientTests/URLFormatTests.swift b/ios/brave-ios/Tests/ClientTests/URLFormatTests.swift
+index e6de9f1011e8c95540480c53acc3c0d2665b06c7..b35f64cd727abb6d0b5d0d63290d5fd21216211e 100644
+--- a/ios/brave-ios/Tests/ClientTests/URLFormatTests.swift
++++ b/ios/brave-ios/Tests/ClientTests/URLFormatTests.swift
+@@ -109,10 +109,10 @@ import XCTest
+     checkInvalidURL("1.1")
+     checkInvalidURL("127.1")
+     checkInvalidURL("127.1.1")
+-    checkInvalidURL("brave://127.0.0.1")
+-    checkInvalidURL("brave://127.0.0.1:443")
+-    checkInvalidURL("brave://[::1]")
+-    checkInvalidURL("brave://[::1]:443")
++    checkInvalidURL("ibrowe://127.0.0.1")
++    checkInvalidURL("ibrowe://127.0.0.1:443")
++    checkInvalidURL("ibrowe://[::1]")
++    checkInvalidURL("ibrowe://[::1]:443")
+ 
+     // Check invalid quoted URLs, emails, and quoted domains.
+     // These are passed along to the default search engine.

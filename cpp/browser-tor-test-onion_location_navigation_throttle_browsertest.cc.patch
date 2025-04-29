@@ -1,0 +1,13 @@
+diff --git a/browser/tor/test/onion_location_navigation_throttle_browsertest.cc b/browser/tor/test/onion_location_navigation_throttle_browsertest.cc
+index e95c84d9f64ac05316a0b6d7fb7768fff1fd1485..1ce7623f564067b8b642f31fffcd91237f9c5f05 100644
+--- a/browser/tor/test/onion_location_navigation_throttle_browsertest.cc
++++ b/browser/tor/test/onion_location_navigation_throttle_browsertest.cc
+@@ -44,7 +44,7 @@ constexpr char kTestOnionPath[] = "/onion";
+ constexpr char kTestOnionURL[] = "https://brave.onion/,https://brave2.onion";
+ constexpr char kTestOnionURL2[] = "https://brave3.onion/";
+ constexpr char kTestInvalidScheme[] = "/invalid_scheme";
+-constexpr char kTestInvalidSchemeURL[] = "brave://brave.onion";
++constexpr char kTestInvalidSchemeURL[] = "ibrowe://brave.onion";
+ constexpr char kTestNotOnion[] = "/not_onion";
+ constexpr char kTestNotOnionURL[] = "https://brave.com";
+ constexpr char kTestErrorPage[] = "/errorpage";

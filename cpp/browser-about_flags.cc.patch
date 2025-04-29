@@ -1,0 +1,31 @@
+diff --git a/browser/about_flags.cc b/browser/about_flags.cc
+index c081862268ee1530f07df7f7d3ef9fe36e978715..2ea2f6f5c36a73e5e4b90e6cf816a0d9dd946753 100644
+--- a/browser/about_flags.cc
++++ b/browser/about_flags.cc
+@@ -557,7 +557,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
+           "brave-adblock-cookie-list-default",                                 \
+           "Treat 'Easylist-Cookie List' as a default list source",             \
+           "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
+-          "brave://adblock hasn't otherwise been modified",                    \
++          "ibrowe://adblock hasn't otherwise been modified",                    \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(                                                  \
+               brave_shields::features::kBraveAdblockCookieListDefault),        \
+@@ -603,7 +603,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
+           "source",                                                            \
+                                                                                \
+           "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
+-          "its toggle in brave://adblock hasn't otherwise been modified",      \
++          "its toggle in ibrowe://adblock hasn't otherwise been modified",      \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(brave_shields::features::                         \
+                                  kBraveAdblockMobileNotificationsListDefault), \
+@@ -622,7 +622,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
+           "source",                                                            \
+                                                                                \
+           "Enables the 'Brave Experimental Adblock Rules' regional list if "   \
+-          "its toggle in brave://adblock hasn't otherwise been modified",      \
++          "its toggle in ibrowe://adblock hasn't otherwise been modified",      \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(                                                  \
+               brave_shields::features::kBraveAdblockExperimentalListDefault),  \

@@ -1,0 +1,13 @@
+diff --git a/chromium_src/chrome/test/base/chrome_test_suite.cc b/chromium_src/chrome/test/base/chrome_test_suite.cc
+index 04b6235a13c1616ecf6303e11cd194e16158a072..0ea8e34587deb76f5de7aec1bb6d56ea84ee5d14 100644
+--- a/chromium_src/chrome/test/base/chrome_test_suite.cc
++++ b/chromium_src/chrome/test/base/chrome_test_suite.cc
+@@ -35,7 +35,7 @@ class BraveChromeTestSetupHelper : public testing::EmptyTestEventListener {
+   void OnTestStart(const testing::TestInfo& test_info) override {
+     static const base::NoDestructor<std::vector<TestAdjustments>>
+         kTestAdjustments({
+-            // We allow FileSystem API via brave://flags, so enable it here for
++            // We allow FileSystem API via ibrowe://flags, so enable it here for
+             // upstream tests.
+             {
+                 .test_patterns =

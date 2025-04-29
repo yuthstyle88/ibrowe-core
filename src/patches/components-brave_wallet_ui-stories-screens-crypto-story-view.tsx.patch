@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/stories/screens/crypto-story-view.tsx b/components/brave_wallet_ui/stories/screens/crypto-story-view.tsx
+index 76cf5eb059ad0b4ee9f42c41f1b90ad84b14ad6c..1da2a9ee3d455ac3c46a488d63acd29edb6826be 100644
+--- a/components/brave_wallet_ui/stories/screens/crypto-story-view.tsx
++++ b/components/brave_wallet_ui/stories/screens/crypto-story-view.tsx
+@@ -78,7 +78,7 @@ const CryptoStoryView = (props: Props) => {
+ 
+   const onClickSettings = () => {
+     // Does nothing in storybook
+-    alert('Will Nav to brave://settings/wallet')
++    alert('Will Nav to ibrowe://settings/wallet')
+   }
+ 
+   const onClickMore = () => {

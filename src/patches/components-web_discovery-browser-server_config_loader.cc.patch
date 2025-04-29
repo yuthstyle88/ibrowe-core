@@ -1,0 +1,13 @@
+diff --git a/components/web_discovery/browser/server_config_loader.cc b/components/web_discovery/browser/server_config_loader.cc
+index 279e8ebf12945ed7856582387f1cb0c80448667c..25773fac00e9e9eb97fa5e9628783b542f591463 100644
+--- a/components/web_discovery/browser/server_config_loader.cc
++++ b/components/web_discovery/browser/server_config_loader.cc
+@@ -57,7 +57,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotation =
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can opt-in or out via brave://settings/search"
++        "Users can opt-in or out via ibrowe://settings/search"
+     })");
+ 
+ constexpr char kGroupPubKeysFieldName[] = "groupPubKeys";

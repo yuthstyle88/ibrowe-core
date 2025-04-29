@@ -1,0 +1,31 @@
+diff --git a/components/brave_shields/content/browser/ad_block_subscription_download_manager.cc b/components/brave_shields/content/browser/ad_block_subscription_download_manager.cc
+index 41355253dcfa77be8b8f80b7422513514a9f0bdd..e09e44cb520ce284cc2e218ef84e1e0e68625512 100644
+--- a/components/brave_shields/content/browser/ad_block_subscription_download_manager.cc
++++ b/components/brave_shields/content/browser/ad_block_subscription_download_manager.cc
+@@ -30,13 +30,13 @@ const net::NetworkTrafficAnnotationTag
+           sender: "Brave Shields"
+           description:
+             "Brave periodically downloads updates to third-party filter lists "
+-            "added by users on brave://adblock."
++            "added by users on ibrowe://adblock."
+           trigger:
+-            "After being registered in brave://adblock, any enabled filter "
++            "After being registered in ibrowe://adblock, any enabled filter "
+             "list subscriptions will be updated in accordance with their "
+             "`Expires` field if present, or daily otherwise. A manual refresh "
+-            "for a particular list can also be triggered in brave://adblock."
+-          data: "The URL endpoint provided by the user in brave://adblock to "
++            "for a particular list can also be triggered in ibrowe://adblock."
++          data: "The URL endpoint provided by the user in ibrowe://adblock to "
+             "fetch list updates from. No user information is sent."
+           destination: BRAVE_OWNED_SERVICE
+         }
+@@ -45,7 +45,7 @@ const net::NetworkTrafficAnnotationTag
+           setting:
+             "This request cannot be disabled in settings. However it will "
+             "never be made if the corresponding entry is removed from the "
+-            "brave://adblock page's custom list subscription section."
++            "ibrowe://adblock page's custom list subscription section."
+           policy_exception_justification: "Not yet implemented."
+         })");
+ 

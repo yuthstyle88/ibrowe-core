@@ -1,0 +1,13 @@
+diff --git a/components/web_discovery/browser/double_fetcher.cc b/components/web_discovery/browser/double_fetcher.cc
+index c30e1e0d8bf202731fa6b0297eb98b957c415c26..558d7527bc0709c673690136893bb8e2b846c38a 100644
+--- a/components/web_discovery/browser/double_fetcher.cc
++++ b/components/web_discovery/browser/double_fetcher.cc
+@@ -51,7 +51,7 @@ constexpr net::NetworkTrafficAnnotationTag kFetchNetworkTrafficAnnotation =
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can opt-in or out via brave://settings/search"
++        "Users can opt-in or out via ibrowe://settings/search"
+     })");
+ 
+ }  // namespace

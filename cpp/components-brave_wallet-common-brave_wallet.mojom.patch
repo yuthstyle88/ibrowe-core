@@ -1,0 +1,30 @@
+diff --git a/components/brave_wallet/common/brave_wallet.mojom b/components/brave_wallet/common/brave_wallet.mojom
+index 0ad1c76d226676fafb1712ee4cd0679207d792d7..afcfe1fdd447ed976c84303478393c8d69875df6 100644
+--- a/components/brave_wallet/common/brave_wallet.mojom
++++ b/components/brave_wallet/common/brave_wallet.mojom
+@@ -350,13 +350,13 @@ interface PanelHandler {
+ 
+ // Browser-side handler for requests from WebUI page.
+ interface PageHandler {
+-  // Used by the brave://wallet page to open up the approval panel
++  // Used by the ibrowe://wallet page to open up the approval panel
+   ShowApprovePanelUI();
+ 
+-  // Android only - Used by the brave://wallet page to open up the backup UI.
++  // Android only - Used by the ibrowe://wallet page to open up the backup UI.
+   ShowWalletBackupUI();
+ 
+-  // Android only - Used by the brave://wallet page to open up the unlock UI.
++  // Android only - Used by the ibrowe://wallet page to open up the unlock UI.
+   UnlockWalletUI();
+ };
+ 
+@@ -1818,7 +1818,7 @@ interface BitcoinWalletService {
+   // Checks balance of possible hw account.
+   GetExtendedKeyAccountBalance(string chain_id, string extended_key) => (BitcoinBalance? balance, string? error_message);
+ 
+-  // These are parts of wallet internals api(brave://wallet/dev-bitcoin)
++  // These are parts of wallet internals api(ibrowe://wallet/dev-bitcoin)
+   RunDiscovery(AccountId account_id, bool change) => (BitcoinAddress? address, string? error_message);
+   GetBitcoinAccountInfo(AccountId account_id) => (BitcoinAccountInfo? account_info);
+ };

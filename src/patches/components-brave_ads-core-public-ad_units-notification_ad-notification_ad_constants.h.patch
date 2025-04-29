@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_constants.h b/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_constants.h
+index d7dbb259cde95f1d71b68f99738ec909a064338c..6e71e4e5685886c49d3343276ddbbce08b40d5bd 100644
+--- a/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_constants.h
++++ b/components/brave_ads/core/public/ad_units/notification_ad/notification_ad_constants.h
+@@ -25,7 +25,7 @@ inline constexpr char kNotificationAdTitleKey[] = "title";
+ inline constexpr char kNotificationAdBodyKey[] = "body";
+ inline constexpr char kNotificationAdTargetUrlKey[] = "target_url";
+ 
+-// Brave Ads per hour are user configurable within the brave://rewards ads UI.
++// Brave Ads per hour are user configurable within the ibrowe://rewards ads UI.
+ #if !BUILDFLAG(IS_IOS)
+ inline constexpr int64_t kDefaultBraveRewardsNotificationAdsPerHour = 10;
+ #else

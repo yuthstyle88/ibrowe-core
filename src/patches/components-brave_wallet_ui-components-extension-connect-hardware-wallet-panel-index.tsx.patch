@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx b/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx
+index 2de33749cf44111e99304895112f12ceea043193..3a6c20187e99ec379e2e308e855e6b20ad9656a5 100644
+--- a/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx
++++ b/components/brave_wallet_ui/components/extension/connect-hardware-wallet-panel/index.tsx
+@@ -196,7 +196,7 @@ export const ConnectHardwareWalletPanel = ({ hardwareWalletCode }: Props) => {
+ 
+   React.useEffect(() => {
+     // After Panel V2 this is needed to reset the origin
+-    // back to brave://wallet-panel.top-chrome/ without any
++    // back to ibrowe://wallet-panel.top-chrome/ without any
+     // params. Otherwise hardware authorization will fail.
+     history.push('')
+   }, [history])

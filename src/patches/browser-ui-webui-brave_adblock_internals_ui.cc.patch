@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/brave_adblock_internals_ui.cc b/browser/ui/webui/brave_adblock_internals_ui.cc
+index 21c9bbbc9f9026b5dec536972b208db209ed0aa8..6dc10378d7f899b9bf9382d8ec66abcff3c02392 100644
+--- a/browser/ui/webui/brave_adblock_internals_ui.cc
++++ b/browser/ui/webui/brave_adblock_internals_ui.cc
+@@ -38,7 +38,7 @@ struct MemoryMetric {
+     {"malloc", "size"},
+ };
+ 
+-// Class acting as a controller of the brave://adblock-internals WebUI.
++// Class acting as a controller of the ibrowe://adblock-internals WebUI.
+ class BraveAdblockInternalsMessageHandler
+     : public content::WebUIMessageHandler {
+  public:

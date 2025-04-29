@@ -1,0 +1,58 @@
+diff --git a/components/p3a/network_annotations.cc b/components/p3a/network_annotations.cc
+index 5bca1a57db4f901d5484d00c2473dc1729b3ff2e..a38a22183dc03ebe40de534e4efb6434c478a2dd 100644
+--- a/components/p3a/network_annotations.cc
++++ b/components/p3a/network_annotations.cc
+@@ -29,7 +29,7 @@ net::NetworkTrafficAnnotationTag GetRandomnessRequestAnnotation() {
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can enable or disable it in brave://settings/privacy"
++        "Users can enable or disable it in ibrowe://settings/privacy"
+        policy_exception_justification:
+          "Not implemented."
+     })");
+@@ -54,7 +54,7 @@ net::NetworkTrafficAnnotationTag GetRandomnessServerInfoAnnotation() {
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can enable or disable it in brave://settings/privacy"
++        "Users can enable or disable it in ibrowe://settings/privacy"
+        policy_exception_justification:
+          "Not implemented."
+     })");
+@@ -84,7 +84,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+           policy {
+             cookies_allowed: NO
+             setting:
+-              "Users can enable or disable it in brave://settings/privacy"
++              "Users can enable or disable it in ibrowe://settings/privacy"
+              policy_exception_justification:
+                "Not implemented."
+           })");
+@@ -110,7 +110,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+           cookies_allowed: NO
+           setting:
+             "Users can enable or disable it by enabling or disabling Brave "
+-            "rewards or ads in brave://rewards."
++            "rewards or ads in ibrowe://rewards."
+            policy_exception_justification:
+              "Not implemented."
+         })");
+@@ -133,7 +133,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+           policy {
+             cookies_allowed: NO
+             setting:
+-              "Users can enable or disable it in brave://settings/privacy"
++              "Users can enable or disable it in ibrowe://settings/privacy"
+              policy_exception_justification:
+                "Not implemented."
+           })");
+@@ -157,7 +157,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+           cookies_allowed: NO
+           setting:
+             "Users can enable or disable it by enabling or disabling Brave "
+-            "rewards or ads in brave://rewards."
++            "rewards or ads in ibrowe://rewards."
+            policy_exception_justification:
+              "Not implemented."
+         })");

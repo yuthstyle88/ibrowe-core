@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc b/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc
+index 39704b8a6fce54b40e77a2fe8aee5d0e436d3a80..a1cf6062aeee06952055d0c6b3d9f133e6df4988 100644
+--- a/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc
++++ b/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc
+@@ -181,7 +181,7 @@ void AIChatUIPageHandler::OpenAIChatSettings() {
+       (active_chat_tab_helper_) ? active_chat_tab_helper_->web_contents()
+                                 : owner_web_contents_.get();
+ #if !BUILDFLAG(IS_ANDROID)
+-  const GURL url("brave://settings/leo-ai");
++  const GURL url("ibrowe://settings/leo-ai");
+   if (auto* browser = chrome::FindBrowserWithTab(contents_to_navigate)) {
+     ShowSingletonTab(browser, url);
+   } else {

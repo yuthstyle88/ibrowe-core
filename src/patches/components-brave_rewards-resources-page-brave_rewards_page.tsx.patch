@@ -1,0 +1,13 @@
+diff --git a/components/brave_rewards/resources/page/brave_rewards_page.tsx b/components/brave_rewards/resources/page/brave_rewards_page.tsx
+index 4cacba040959dfb9b4fa29f49f9f882140526536..77993e6ca8b5b4963902a67a9231fcda78dffc45 100644
+--- a/components/brave_rewards/resources/page/brave_rewards_page.tsx
++++ b/components/brave_rewards/resources/page/brave_rewards_page.tsx
+@@ -32,7 +32,7 @@ const actions = bindActionCreators(rewardsActions, store.dispatch.bind(store))
+ setIconBasePath('chrome://resources/brave-icons')
+ 
+ function initialize () {
+-  // For `brave://rewards/reconnect`, automatically trigger reconnection on page
++  // For `ibrowe://rewards/reconnect`, automatically trigger reconnection on page
+   // load and send the user immediately to the external wallet login page. Do
+   // not show any additional UI while redirecting.
+   if (window.location.pathname === '/reconnect') {

@@ -1,0 +1,13 @@
+diff --git a/browser/brave_drm_tab_helper.cc b/browser/brave_drm_tab_helper.cc
+index 91d3b99a2a6754be71c30db72a3ce8fca5dc260c..7d3af4a66395b8815cd17196642e5f0748da440c 100644
+--- a/browser/brave_drm_tab_helper.cc
++++ b/browser/brave_drm_tab_helper.cc
+@@ -89,7 +89,7 @@ bool BraveDrmTabHelper::ShouldShowWidevineOptIn() const {
+   // convenient single place for turning this class into a no-op:
+   return false;
+   // Users on non-x64 Linux may still install Widevine manually and enable it in
+-  // brave://settings.
++  // ibrowe://settings.
+ #else
+   // If the user already opted in, don't offer it.
+   PrefService* prefs =

@@ -1,0 +1,22 @@
+diff --git a/browser/tor/test/brave_tor_browsertest.cc b/browser/tor/test/brave_tor_browsertest.cc
+index f98c83ef187ddadfb6b6533b6d59eb466668bc39..364e4f7e36f46d62fa871d0394bc24e9c3eb9ca4 100644
+--- a/browser/tor/test/brave_tor_browsertest.cc
++++ b/browser/tor/test/brave_tor_browsertest.cc
+@@ -364,7 +364,7 @@ IN_PROC_BROWSER_TEST_F(BraveTorWithCustomProfileBrowserTest, Incognito) {
+   EXPECT_TRUE(TorProfileServiceFactory::IsTorManaged(browser()->profile()));
+ 
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
+-                                           GURL("brave://settings/privacy")));
++                                           GURL("ibrowe://settings/privacy")));
+   web_contents = browser()->tab_strip_model()->GetActiveWebContents();
+ 
+   EXPECT_FALSE(is_element_enabled("torEnabled"));
+@@ -394,7 +394,7 @@ IN_PROC_BROWSER_TEST_F(BraveTorWithCustomProfileBrowserTest, Incognito) {
+   EXPECT_TRUE(tor_profile->IsTor());
+ 
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
+-                                           GURL("brave://settings/privacy")));
++                                           GURL("ibrowe://settings/privacy")));
+   web_contents = browser()->tab_strip_model()->GetActiveWebContents();
+   EXPECT_TRUE(is_element_enabled("torEnabled"));
+   EXPECT_TRUE(is_element_enabled("useBridges"));

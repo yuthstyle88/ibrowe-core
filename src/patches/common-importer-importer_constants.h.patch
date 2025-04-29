@@ -1,0 +1,13 @@
+diff --git a/common/importer/importer_constants.h b/common/importer/importer_constants.h
+index c1ae90032d6a6494559cdbafb27a82d7cf8943ce..0b0c29942aa87d862823249668bfd6c662146680 100644
+--- a/common/importer/importer_constants.h
++++ b/common/importer/importer_constants.h
+@@ -17,7 +17,7 @@ inline constexpr char kChromeLocalStateFile[] = "Local State";
+ 
+ // Browser names section, the names mostly match the identifier that is used to
+ // identify the default browser, if you change these constants(or adding a new
+-// one) make sure that brave://welcome page will identify this browser as the
++// one) make sure that ibrowe://welcome page will identify this browser as the
+ // default one
+ inline constexpr char kGoogleChromeBrowser[] = "Google Chrome";
+ inline constexpr char kGoogleChromeBrowserBeta[] = "Google Chrome Beta";

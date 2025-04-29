@@ -1,0 +1,13 @@
+diff --git a/browser/brave_rewards/test/util/rewards_browsertest_context_helper.h b/browser/brave_rewards/test/util/rewards_browsertest_context_helper.h
+index 2b8bb6df9a2b597dc42c8975fd69524f235d7a83..82c7c95016e7b2e5ee7de3dfda478abf61fec768 100644
+--- a/browser/brave_rewards/test/util/rewards_browsertest_context_helper.h
++++ b/browser/brave_rewards/test/util/rewards_browsertest_context_helper.h
+@@ -28,7 +28,7 @@ class RewardsBrowserTestContextHelper {
+   base::WeakPtr<content::WebContents> OpenSiteBanner();
+ 
+   // Visit publisher and verify that the auto-contribution panel on
+-  // brave://rewards looks correct
++  // ibrowe://rewards looks correct
+   void VisitPublisher(const GURL& url, bool verified);
+ 
+   void LoadURL(GURL url);

@@ -1,0 +1,13 @@
+diff --git a/components/brave_rewards/browser/rewards_service_impl.cc b/components/brave_rewards/browser/rewards_service_impl.cc
+index 7a360bde45ebfdf0dd82814f0ffb563e527a9b5e..f76f089dd1504324247e2cf0496077357ab289f3 100644
+--- a/components/brave_rewards/browser/rewards_service_impl.cc
++++ b/components/brave_rewards/browser/rewards_service_impl.cc
+@@ -196,7 +196,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTagForURLLoad() {
+         cookies_allowed: NO
+         setting:
+           "You can enable or disable this feature via the BAT icon in the URL "
+-          "bar or by visiting brave://rewards/."
++          "bar or by visiting ibrowe://rewards/."
+         policy_exception_justification:
+           "Not implemented."
+       })");

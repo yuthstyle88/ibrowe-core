@@ -1,0 +1,13 @@
+diff --git a/components/de_amp/browser/test/de_amp_browsertest.cc b/components/de_amp/browser/test/de_amp_browsertest.cc
+index 80d58628d46ed31201b8db55cfbf6d9b916b2eea..cfe188a4b71cf9f2c37db88c3cfc95cc40afbb7f 100644
+--- a/components/de_amp/browser/test/de_amp_browsertest.cc
++++ b/components/de_amp/browser/test/de_amp_browsertest.cc
+@@ -340,7 +340,7 @@ IN_PROC_BROWSER_TEST_F(DeAmpBrowserTest, CanonicalJSRedirectsToAmp) {
+ 
+ IN_PROC_BROWSER_TEST_F(DeAmpBrowserTest, NonHttpScheme) {
+   TogglePref(true);
+-  SetRequestHandler(kTestAmpPage, Amp(GURL("brave://settings")));
++  SetRequestHandler(kTestAmpPage, Amp(GURL("ibrowe://settings")));
+   StartServer();
+ 
+   NavigateToURLAndWaitForRedirects(kTestAmpPage, kTestAmpPage);

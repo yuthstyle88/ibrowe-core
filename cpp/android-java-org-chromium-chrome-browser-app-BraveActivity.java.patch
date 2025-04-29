@@ -1,0 +1,36 @@
+diff --git a/android/java/org/chromium/chrome/browser/app/BraveActivity.java b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
+index b0fd5312a0d8bc535d5276fd18eeb946dc7c8d06..a7c7dd7b4e903f1f3396c593743f02f6b28b3d62 100644
+--- a/android/java/org/chromium/chrome/browser/app/BraveActivity.java
++++ b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
+@@ -256,19 +256,19 @@ public abstract class BraveActivity extends ChromeActivity
+                 QuickSearchEnginesCallback,
+                 KeyboardVisibilityHelper.KeyboardVisibilityListener {
+     public static final String BRAVE_WALLET_HOST = "wallet";
+-    public static final String BRAVE_WALLET_ORIGIN = "brave://wallet/";
+-    public static final String BRAVE_WALLET_URL = "brave://wallet/crypto/portfolio/assets";
+-    public static final String BRAVE_BUY_URL = "brave://wallet/crypto/fund-wallet";
+-    public static final String BRAVE_SEND_URL = "brave://wallet/send";
+-    public static final String BRAVE_SWAP_URL = "brave://wallet/swap";
+-    public static final String BRAVE_DEPOSIT_URL = "brave://wallet/crypto/deposit-funds";
+-    public static final String BRAVE_REWARDS_SETTINGS_URL = "brave://rewards/";
++    public static final String BRAVE_WALLET_ORIGIN = "ibrowe://wallet/";
++    public static final String BRAVE_WALLET_URL = "ibrowe://wallet/crypto/portfolio/assets";
++    public static final String BRAVE_BUY_URL = "ibrowe://wallet/crypto/fund-wallet";
++    public static final String BRAVE_SEND_URL = "ibrowe://wallet/send";
++    public static final String BRAVE_SWAP_URL = "ibrowe://wallet/swap";
++    public static final String BRAVE_DEPOSIT_URL = "ibrowe://wallet/crypto/deposit-funds";
++    public static final String BRAVE_REWARDS_SETTINGS_URL = "ibrowe://rewards/";
+     public static final String BRAVE_REWARDS_SETTINGS_WALLET_VERIFICATION_URL =
+-            "brave://rewards/#verify";
+-    public static final String BRAVE_REWARDS_WALLET_RECONNECT_URL = "brave://rewards/reconnect";
+-    public static final String BRAVE_REWARDS_SETTINGS_MONTHLY_URL = "brave://rewards/#monthly";
+-    public static final String REWARDS_AC_SETTINGS_URL = "brave://rewards/contribute";
+-    public static final String BRAVE_REWARDS_RESET_PAGE = "brave://rewards/#reset";
++            "ibrowe://rewards/#verify";
++    public static final String BRAVE_REWARDS_WALLET_RECONNECT_URL = "ibrowe://rewards/reconnect";
++    public static final String BRAVE_REWARDS_SETTINGS_MONTHLY_URL = "ibrowe://rewards/#monthly";
++    public static final String REWARDS_AC_SETTINGS_URL = "ibrowe://rewards/contribute";
++    public static final String BRAVE_REWARDS_RESET_PAGE = "ibrowe://rewards/#reset";
+     public static final String BRAVE_AI_CHAT_URL = "chrome-untrusted://chat/tab";
+     public static final String REWARDS_LEARN_MORE_URL =
+             "https://brave.com/faq-rewards/#unclaimed-funds";

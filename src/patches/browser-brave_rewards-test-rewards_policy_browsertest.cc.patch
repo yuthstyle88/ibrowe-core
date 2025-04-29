@@ -1,0 +1,13 @@
+diff --git a/browser/brave_rewards/test/rewards_policy_browsertest.cc b/browser/brave_rewards/test/rewards_policy_browsertest.cc
+index fe88b2fbac07e07b405ff043ed5cb7498d6c451e..5999193e557ca701191ff757202fe1f8732024e1 100644
+--- a/browser/brave_rewards/test/rewards_policy_browsertest.cc
++++ b/browser/brave_rewards/test/rewards_policy_browsertest.cc
+@@ -110,7 +110,7 @@ IN_PROC_BROWSER_TEST_P(BraveRewardsPolicyTest, AppMenuItemDisabled) {
+   }
+ }
+ 
+-// Verify that brave://rewards and brave://rewards-internals pages aren't
++// Verify that ibrowe://rewards and ibrowe://rewards-internals pages aren't
+ // reachable when Brave Rewards are disabled by policy.
+ IN_PROC_BROWSER_TEST_P(BraveRewardsPolicyTest, RewardsPagesAccess) {
+   for (const auto& url :

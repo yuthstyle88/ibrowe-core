@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx b/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx
+index f8a9dc6794728a4fcac8882676556233e2ad757e..e34a7a2fd3ce98604c615eb5afc0ebd9b1bd8c2f 100644
+--- a/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx
++++ b/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx
+@@ -88,7 +88,7 @@ export const WalletSettingsMenu = (props: Props) => {
+     const route =
+       selectedNetwork.coin === BraveWallet.CoinType.ETH ? 'ethereum' : 'solana'
+ 
+-    chrome.tabs.create({ url: `brave://settings/content/${route}` }, () => {
++    chrome.tabs.create({ url: `ibrowe://settings/content/${route}` }, () => {
+       if (chrome.runtime.lastError) {
+         console.error('tabs.create failed: ' + chrome.runtime.lastError.message)
+       }

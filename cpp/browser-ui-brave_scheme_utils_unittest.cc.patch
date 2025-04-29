@@ -1,0 +1,18 @@
+diff --git a/browser/ui/brave_scheme_utils_unittest.cc b/browser/ui/brave_scheme_utils_unittest.cc
+index f6a28a18d48942c4a0f81ff9e302df8623411e20..c0d0708e4d116e0149a27308a3c2ffe8b17d27dc 100644
+--- a/browser/ui/brave_scheme_utils_unittest.cc
++++ b/browser/ui/brave_scheme_utils_unittest.cc
+@@ -10,11 +10,11 @@
+ TEST(BraveSchemeUtilsTest, ReplaceChromeToBraveScheme) {
+   std::u16string url_string = u"chrome://settings";
+   EXPECT_TRUE(brave_utils::ReplaceChromeToBraveScheme(url_string));
+-  EXPECT_EQ(url_string, u"brave://settings");
++  EXPECT_EQ(url_string, u"ibrowe://settings");
+ 
+   url_string = u"chrome://flags";
+   EXPECT_TRUE(brave_utils::ReplaceChromeToBraveScheme(url_string));
+-  EXPECT_EQ(url_string, u"brave://flags");
++  EXPECT_EQ(url_string, u"ibrowe://flags");
+ 
+   url_string = u"https://search.brave.com";
+   EXPECT_FALSE(brave_utils::ReplaceChromeToBraveScheme(url_string));

@@ -1,0 +1,13 @@
+diff --git a/components/brave_shields/content/browser/ad_block_service.h b/components/brave_shields/content/browser/ad_block_service.h
+index 59198304ef42c5d0e62af4dc70edfd93f95517b4..f01798c8f2a21dc41467451930492eef91050099 100644
+--- a/components/brave_shields/content/browser/ad_block_service.h
++++ b/components/brave_shields/content/browser/ad_block_service.h
+@@ -133,7 +133,7 @@ class AdBlockService {
+   void AddUserCosmeticFilter(const std::string& filter);
+   void ResetCosmeticFilter(const std::string& host);
+ 
+-  // Methods for brave://adblock-internals.
++  // Methods for ibrowe://adblock-internals.
+   using GetDebugInfoCallback =
+       base::OnceCallback<void(base::Value::Dict, base::Value::Dict)>;
+   void GetDebugInfoAsync(GetDebugInfoCallback callback);

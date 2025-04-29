@@ -1,0 +1,19 @@
+diff --git a/browser/brave_wallet/blockchain_images_source_unittest.cc b/browser/brave_wallet/blockchain_images_source_unittest.cc
+index 8228acdd7b5e0cf3a98431ae9d7548f82e4baf4b..5990dfcca32c6a2f4cc3a63f119ec2a6493c56b6 100644
+--- a/browser/brave_wallet/blockchain_images_source_unittest.cc
++++ b/browser/brave_wallet/blockchain_images_source_unittest.cc
+@@ -72,10 +72,10 @@ class BlockchainImagesSourceTest : public testing::Test {
+ };
+ 
+ TEST_F(BlockchainImagesSourceTest, GetMimeType) {
+-  EXPECT_EQ(source()->GetMimeType(GURL("brave://test/img1.png")), "image/png");
+-  EXPECT_EQ(source()->GetMimeType(GURL("brave://test/img1.gif")), "image/gif");
+-  EXPECT_EQ(source()->GetMimeType(GURL("brave://test/img1.jpg")), "image/jpg");
+-  EXPECT_EQ(source()->GetMimeType(GURL("brave://test/img1.svg")),
++  EXPECT_EQ(source()->GetMimeType(GURL("ibrowe://test/img1.png")), "image/png");
++  EXPECT_EQ(source()->GetMimeType(GURL("ibrowe://test/img1.gif")), "image/gif");
++  EXPECT_EQ(source()->GetMimeType(GURL("ibrowe://test/img1.jpg")), "image/jpg");
++  EXPECT_EQ(source()->GetMimeType(GURL("ibrowe://test/img1.svg")),
+             "image/svg+xml");
+ }
+ 
