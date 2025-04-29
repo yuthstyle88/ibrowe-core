@@ -1,0 +1,20 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
+index 208d179003da74fe37acb4a7635a6a7c1cbf8f0f..6c436de31c597ce7de60b6eacc246011dfa4b936 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
+@@ -401,11 +401,11 @@ class SettingsViewController: TableViewController {
+       )
+     )
+ 
+-    if !tabManager.privateBrowsingManager.isPrivateBrowsing && FeatureList.kAIChat.enabled {
+-      section.rows.append(leoSettingsRow)
+-    }
++//    if !tabManager.privateBrowsingManager.isPrivateBrowsing && FeatureList.kAIChat.enabled {
++//      section.rows.append(leoSettingsRow)
++//    }
+ 
+-    section.rows.append(vpnSettingsRow)
++//    section.rows.append(vpnSettingsRow)
+ 
+     section.rows.append(
+       Row(
