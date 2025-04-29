@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntentsRelease (AppStore).entitlements b/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntentsRelease (AppStore).entitlements
+index 640e674f36a8dbe22a2c5aa845659c00779bd74a..7de2440d78b311fe55cfdf81888f64d6ca1df7f2 100644
+--- a/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntentsRelease (AppStore).entitlements	
++++ b/ios/brave-ios/App/BrowserIntents/Entitlements/BrowserIntentsRelease (AppStore).entitlements	
+@@ -4,7 +4,7 @@
+ <dict>
+ 	<key>com.apple.security.application-groups</key>
+ 	<array>
+-		<string>group.com.brave.ios.browser</string>
++		<string>group.com.ibrowe.ios.browser</string>
+ 	</array>
+ </dict>
+ </plist>
