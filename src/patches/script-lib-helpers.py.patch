@@ -1,0 +1,15 @@
+diff --git a/script/lib/helpers.py b/script/lib/helpers.py
+index 6508c3c177fa7100f1f0d63c1c1a3396f86773b2..e9b84bbbf8a051eeef0bd7ae7137b04467e393b2 100644
+--- a/script/lib/helpers.py
++++ b/script/lib/helpers.py
+@@ -10,8 +10,8 @@ import sys
+ import urllib.request
+ from .config import get_raw_version, get_env_var
+ 
+-BRAVE_REPO = "brave/brave-browser"
+-BRAVE_CORE_REPO = "brave/brave-core"
++BRAVE_REPO = "yuthstyle88/ibrowe-browser"
++BRAVE_CORE_REPO = "yuthstyle88/ibrowe-core"
+ 
+ 
+ def channels():
