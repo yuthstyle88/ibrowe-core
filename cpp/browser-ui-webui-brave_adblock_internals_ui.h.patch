@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/brave_adblock_internals_ui.h b/browser/ui/webui/brave_adblock_internals_ui.h
+index 8e390699ecacaea9cefe078dcb15e02781d1bedb..0b22f1f435773561dac9ae3e545b33977be23631 100644
+--- a/browser/ui/webui/brave_adblock_internals_ui.h
++++ b/browser/ui/webui/brave_adblock_internals_ui.h
+@@ -20,7 +20,7 @@ class BraveAdblockInternalsUIConfig
+       : DefaultWebUIConfig(content::kChromeUIScheme, kAdblockInternalsHost) {}
+ };
+ 
+-// The WebUI for brave://adblock-internals
++// The WebUI for ibrowe://adblock-internals
+ class BraveAdblockInternalsUI : public content::WebUIController {
+  public:
+   explicit BraveAdblockInternalsUI(content::WebUI* web_ui);

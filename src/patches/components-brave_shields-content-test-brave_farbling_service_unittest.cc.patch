@@ -1,0 +1,13 @@
+diff --git a/components/brave_shields/content/test/brave_farbling_service_unittest.cc b/components/brave_shields/content/test/brave_farbling_service_unittest.cc
+index 75def82b642681d83186287427d6e208e5850d67..ae958f589bc3045d43169871b8c8e8d319c2c9e4 100644
+--- a/components/brave_shields/content/test/brave_farbling_service_unittest.cc
++++ b/components/brave_shields/content/test/brave_farbling_service_unittest.cc
+@@ -74,7 +74,7 @@ TEST_F(BraveFarblingServiceTest, PRNGKnownValuesDifferentSeeds) {
+ TEST_F(BraveFarblingServiceTest, InvalidDomains) {
+   const std::array<GURL, 8> test_cases = {
+       GURL("about:blank"),
+-      GURL("brave://settings"),
++      GURL("ibrowe://settings"),
+       GURL("chrome://version"),
+       GURL("file:///etc/passwd"),
+       GURL("javascript:alert(1)"),

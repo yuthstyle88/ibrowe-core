@@ -1,0 +1,29 @@
+diff --git a/browser/ui/toolbar/brave_location_bar_model_delegate.cc b/browser/ui/toolbar/brave_location_bar_model_delegate.cc
+index 754c14b391ca104833aa98b09dc46ce94d47a308..2be3960a50969acdb5ec201cea39524a984dfc34 100644
+--- a/browser/ui/toolbar/brave_location_bar_model_delegate.cc
++++ b/browser/ui/toolbar/brave_location_bar_model_delegate.cc
+@@ -37,20 +37,20 @@ BraveLocationBarModelDelegate::~BraveLocationBarModelDelegate() = default;
+ void BraveLocationBarModelDelegate::FormattedStringFromURL(
+     const GURL& url,
+     std::u16string* new_formatted_url) {
+-  // Replace chrome:// with brave://
++  // Replace chrome:// with ibrowe://
+   brave_utils::ReplaceChromeToBraveScheme(*new_formatted_url);
+ 
+ #if BUILDFLAG(ETHEREUM_REMOTE_CLIENT_ENABLED)
+   if (url.SchemeIs(kChromeExtensionScheme) &&
+       url.host() == kEthereumRemoteClientExtensionId) {
+     base::ReplaceFirstSubstringAfterOffset(
+-        new_formatted_url, 0, kEthereumRemoteClientBaseUrl, u"brave://wallet");
++        new_formatted_url, 0, kEthereumRemoteClientBaseUrl, u"ibrowe://wallet");
+     base::ReplaceFirstSubstringAfterOffset(new_formatted_url, 0,
+                                            kEthereumRemoteClientPhishingUrl,
+-                                           u"brave://wallet");
++                                           u"ibrowe://wallet");
+     base::ReplaceFirstSubstringAfterOffset(new_formatted_url, 0,
+                                            kEthereumRemoteClientEnsRedirectUrl,
+-                                           u"brave://wallet");
++                                           u"ibrowe://wallet");
+   }
+ #endif
+ }

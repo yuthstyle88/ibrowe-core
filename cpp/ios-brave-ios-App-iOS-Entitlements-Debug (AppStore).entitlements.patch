@@ -1,0 +1,36 @@
+diff --git a/ios/brave-ios/App/iOS/Entitlements/Debug (AppStore).entitlements b/ios/brave-ios/App/iOS/Entitlements/Debug (AppStore).entitlements
+index cb83da7993b1d6e5cbdaaeac2fc09fbdf093cb14..62d9ba9b822bd79e91955a1a1d0c594f529d64f7 100644
+--- a/ios/brave-ios/App/iOS/Entitlements/Debug (AppStore).entitlements	
++++ b/ios/brave-ios/App/iOS/Entitlements/Debug (AppStore).entitlements	
+@@ -10,10 +10,10 @@
+ 	</array>
+ 	<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+ 	<true/>
+-	<key>com.apple.developer.browser.app-installation</key>
+-	<true/>
+-	<key>com.apple.developer.carplay-audio</key>
+-	<true/>
++<!--	<key>com.apple.developer.browser.app-installation</key>-->
++<!--	<true/>-->
++<!--	<key>com.apple.developer.carplay-audio</key>-->
++<!--	<true/>-->
+ 	<key>com.apple.developer.networking.networkextension</key>
+ 	<array>
+ 		<string>packet-tunnel-provider</string>
+@@ -26,12 +26,12 @@
+ 	<array>
+ 		<string>TAG</string>
+ 	</array>
+-	<key>com.apple.developer.playable-content</key>
+-	<true/>
++<!--	<key>com.apple.developer.playable-content</key>-->
++<!--	<true/>-->
+ 	<key>com.apple.developer.siri</key>
+ 	<true/>
+-	<key>com.apple.developer.web-browser</key>
+-	<true/>
++<!--	<key>com.apple.developer.web-browser</key>-->
++<!--	<true/>-->
+ 	<key>com.apple.security.application-groups</key>
+ 	<array>
+ 		<string>group.$(MOZ_BUNDLE_ID)</string>

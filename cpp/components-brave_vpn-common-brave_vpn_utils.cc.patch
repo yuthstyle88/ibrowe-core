@@ -1,0 +1,22 @@
+diff --git a/components/brave_vpn/common/brave_vpn_utils.cc b/components/brave_vpn/common/brave_vpn_utils.cc
+index 7d7c0b6531d142f66a8a1ef6d40b681b82d69598..11fadd8c1c1be218b39873845556be2bc47e6636 100644
+--- a/components/brave_vpn/common/brave_vpn_utils.cc
++++ b/components/brave_vpn/common/brave_vpn_utils.cc
+@@ -167,7 +167,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
+       return manage_url.ReplaceComponents(replacements);
+     }
+     case mojom::ManageURLType::PRIVACY:
+-      return GURL("https://brave.com/privacy/browser/#vpn");
++      return GURL("https://ibrowe.com/privacy/browser/#vpn");
+     case mojom::ManageURLType::ABOUT:
+       return GURL(brave_vpn::kAboutUrl);
+     case mojom::ManageURLType::MANAGE:
+@@ -272,7 +272,7 @@ std::string GetManageUrl(const std::string& env) {
+ }
+ 
+ // On desktop, the environment is tied to SKUs because you would purchase it
+-// from `account.brave.com` (or similar, based on env). The credentials for VPN
++// from `account.ibrowe.com` (or similar, based on env). The credentials for VPN
+ // will always be in the same environment as the SKU environment.
+ //
+ // When the vendor receives a credential from us during auth, it also includes

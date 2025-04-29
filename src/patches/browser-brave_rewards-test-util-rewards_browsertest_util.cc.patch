@@ -1,0 +1,25 @@
+diff --git a/browser/brave_rewards/test/util/rewards_browsertest_util.cc b/browser/brave_rewards/test/util/rewards_browsertest_util.cc
+index 2a903cc034581e8902e98da12b6faf7aa342e80d..c809c0bf0e9304afd88bf6cae40fcf70471298f1 100644
+--- a/browser/brave_rewards/test/util/rewards_browsertest_util.cc
++++ b/browser/brave_rewards/test/util/rewards_browsertest_util.cc
+@@ -61,17 +61,17 @@ void GetTestDataDir(base::FilePath* test_data_dir) {
+ }
+ 
+ GURL GetRewardsUrl() {
+-  GURL url("brave://rewards");
++  GURL url("ibrowe://rewards");
+   return url;
+ }
+ 
+ GURL GetRewardsInternalsUrl() {
+-  GURL url("brave://rewards-internals");
++  GURL url("ibrowe://rewards-internals");
+   return url;
+ }
+ 
+ GURL GetNewTabUrl() {
+-  GURL url("brave://newtab");
++  GURL url("ibrowe://newtab");
+   return url;
+ }
+ 

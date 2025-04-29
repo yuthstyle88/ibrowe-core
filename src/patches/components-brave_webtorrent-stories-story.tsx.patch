@@ -1,0 +1,13 @@
+diff --git a/components/brave_webtorrent/stories/story.tsx b/components/brave_webtorrent/stories/story.tsx
+index 1f9a39b332be4558545bf4db8be5152da0f45568..117c19c9f1f074ee218e817ddc06aeebea6ac4ce 100644
+--- a/components/brave_webtorrent/stories/story.tsx
++++ b/components/brave_webtorrent/stories/story.tsx
+@@ -38,7 +38,7 @@ const sampleTorrent = {
+       length: 500
+     }
+   ],
+-  serverURL: 'brave://myfile',
++  serverURL: 'ibrowe://myfile',
+   timeRemaining: 42,
+   downloaded: 2000,
+   uploaded: 8000,

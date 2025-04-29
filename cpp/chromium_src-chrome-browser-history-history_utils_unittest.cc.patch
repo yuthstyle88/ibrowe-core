@@ -1,0 +1,13 @@
+diff --git a/chromium_src/chrome/browser/history/history_utils_unittest.cc b/chromium_src/chrome/browser/history/history_utils_unittest.cc
+index 3a9d0b95c834505be7b3abf61d74ddba936f5123..7553f1581e02c4db53087ed1a198df58369b4d90 100644
+--- a/chromium_src/chrome/browser/history/history_utils_unittest.cc
++++ b/chromium_src/chrome/browser/history/history_utils_unittest.cc
+@@ -13,7 +13,7 @@
+ // CanAddURLToHistory().
+ TEST(HistoryUtilsTest, VariousURLTest) {
+   EXPECT_TRUE(CanAddURLToHistory(GURL("https://www.brave.com/")));
+-  EXPECT_FALSE(CanAddURLToHistory(GURL("brave://sync/")));
++  EXPECT_FALSE(CanAddURLToHistory(GURL("ibrowe://sync/")));
+   EXPECT_FALSE(CanAddURLToHistory(GURL("javascript://test")));
+   EXPECT_FALSE(CanAddURLToHistory(GURL("about://test")));
+   EXPECT_FALSE(CanAddURLToHistory(GURL("content://test")));

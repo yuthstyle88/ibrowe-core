@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/brave_education/brave_education_handler.h b/browser/ui/webui/brave_education/brave_education_handler.h
+index 7a54e87e95a1e1f4e3cd14086f363bdfdc056375..3cd789c740235c4002356b3482dae05283e76861 100644
+--- a/browser/ui/webui/brave_education/brave_education_handler.h
++++ b/browser/ui/webui/brave_education/brave_education_handler.h
+@@ -17,7 +17,7 @@
+ #include "mojo/public/cpp/bindings/remote.h"
+ #include "ui/webui/mojo_web_ui_controller.h"
+ 
+-// Page handler for brave://getting-started
++// Page handler for ibrowe://getting-started
+ class BraveEducationHandler : public brave_education::mojom::PageHandler {
+  public:
+   BraveEducationHandler(

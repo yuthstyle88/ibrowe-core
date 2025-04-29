@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/serving/inline_content_ad_serving_unittest.cc b/components/brave_ads/core/internal/serving/inline_content_ad_serving_unittest.cc
+index b20f61eb1d4c50764d5663b03b0d51feec74e584..f6bee3943573e638670723529701e6e7d1765437 100644
+--- a/components/brave_ads/core/internal/serving/inline_content_ad_serving_unittest.cc
++++ b/components/brave_ads/core/internal/serving/inline_content_ad_serving_unittest.cc
+@@ -34,7 +34,7 @@ class BraveAdsInlineContentAdServingTest : public test::TestBase {
+   void MaybeServeAd(const std::string& dimensions,
+                     MaybeServeInlineContentAdCallback callback) {
+     SimulateOpeningNewTab(/*tab_id=*/1,
+-                          /*redirect_chain=*/{GURL("brave://newtab")},
++                          /*redirect_chain=*/{GURL("ibrowe://newtab")},
+                           net::HTTP_OK);
+ 
+     SubdivisionTargeting subdivision_targeting;

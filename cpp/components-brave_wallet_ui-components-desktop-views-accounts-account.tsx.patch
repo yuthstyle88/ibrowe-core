@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/desktop/views/accounts/account.tsx b/components/brave_wallet_ui/components/desktop/views/accounts/account.tsx
+index 6846632479f74ad477e62c1ca359e159fd32eaa9..29ceb8c40544d0a4a847dbf17bee815f57024563 100644
+--- a/components/brave_wallet_ui/components/desktop/views/accounts/account.tsx
++++ b/components/brave_wallet_ui/components/desktop/views/accounts/account.tsx
+@@ -551,7 +551,7 @@ export const Account = () => {
+   const onStartShieldSync = React.useCallback(async () => {
+     if (isPanel && selectedAccount) {
+       openTab(
+-        'brave://wallet' +
++        'ibrowe://wallet' +
+           makeAccountRoute(selectedAccount, AccountPageTabs.AccountAssetsSub)
+       )
+       return

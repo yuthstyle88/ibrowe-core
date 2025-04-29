@@ -1,0 +1,13 @@
+diff --git a/browser/ui/brave_scheme_utils.h b/browser/ui/brave_scheme_utils.h
+index 389222c19ade93de47db38ea296ef4213420e7d6..a4535eb0ca127cd0294edeea8bf1e918f0c8af52 100644
+--- a/browser/ui/brave_scheme_utils.h
++++ b/browser/ui/brave_scheme_utils.h
+@@ -9,7 +9,7 @@
+ #include <string>
+ 
+ namespace brave_utils {
+-// Replaces the chrome:// scheme with brave:// scheme in the given |url_string|.
++// Replaces the chrome:// scheme with ibrowe:// scheme in the given |url_string|.
+ bool ReplaceChromeToBraveScheme(std::u16string& url_string);
+ }  // namespace brave_utils
+ 

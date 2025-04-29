@@ -1,0 +1,13 @@
+diff --git a/browser/ui/brave_scheme_utils.cc b/browser/ui/brave_scheme_utils.cc
+index 585c2f0de5ec503005d822c9e59254e08d21d567..b5de6f2d0f487ee536e0decf1ea806b1367429fc 100644
+--- a/browser/ui/brave_scheme_utils.cc
++++ b/browser/ui/brave_scheme_utils.cc
+@@ -9,7 +9,7 @@
+ 
+ namespace {
+ constexpr char16_t kChromeSchema16[] = u"chrome://";
+-constexpr char16_t kBraveSchema16[] = u"brave://";
++constexpr char16_t kBraveSchema16[] = u"ibrowe://";
+ }  // namespace
+ 
+ namespace brave_utils {

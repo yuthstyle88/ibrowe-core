@@ -1,0 +1,13 @@
+diff --git a/common/extensions/api/brave_wallet.json b/common/extensions/api/brave_wallet.json
+index a48998b7fa322a5349b646e68eb23d5a54b6ea4f..d2e5c580e6f41f9638a1d4b6c9cc006116f152da 100644
+--- a/common/extensions/api/brave_wallet.json
++++ b/common/extensions/api/brave_wallet.json
+@@ -134,7 +134,7 @@
+       }, {
+         "name": "loadUI",
+         "type": "function",
+-        "description": "Called when brave://wallet WebUI wants to load the real UI",
++        "description": "Called when ibrowe://wallet WebUI wants to load the real UI",
+         "parameters": [],
+         "returns_async": {
+           "name": "callback",

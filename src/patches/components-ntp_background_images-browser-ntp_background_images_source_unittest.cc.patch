@@ -1,0 +1,45 @@
+diff --git a/components/ntp_background_images/browser/ntp_background_images_source_unittest.cc b/components/ntp_background_images/browser/ntp_background_images_source_unittest.cc
+index 066577db164e35761ef73eda39be6cf91b114395..3240f31db4c78009641b60729ef8b42393acd912 100644
+--- a/components/ntp_background_images/browser/ntp_background_images_source_unittest.cc
++++ b/components/ntp_background_images/browser/ntp_background_images_source_unittest.cc
+@@ -96,29 +96,29 @@ TEST_F(NTPBackgroundImagesSourceTest, SponsoredImagesTest) {
+       sponsored_image_source_->IsValidPath("sponsored-images/abcd.png"));
+ 
+   EXPECT_EQ("image/jpeg", sponsored_image_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.jpg")));
++                              GURL("ibrowe://test/wallpaper-0.jpg")));
+   EXPECT_EQ("image/jpeg", sponsored_image_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.jpeg")));
++                              GURL("ibrowe://test/wallpaper-0.jpeg")));
+   EXPECT_EQ("image/webp", sponsored_image_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.webp")));
++                              GURL("ibrowe://test/wallpaper-0.webp")));
+   EXPECT_EQ("image/png", sponsored_image_source_->GetMimeType(
+-                             GURL("brave://test/wallpaper-0.png")));
++                             GURL("ibrowe://test/wallpaper-0.png")));
+   EXPECT_EQ("image/avif", sponsored_image_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.avif")));
+-  EXPECT_THAT(sponsored_image_source_->GetMimeType(GURL("brave://test/")),
++                              GURL("ibrowe://test/wallpaper-0.avif")));
++  EXPECT_THAT(sponsored_image_source_->GetMimeType(GURL("ibrowe://test/")),
+               ::testing::IsEmpty());
+ }
+ 
+ TEST_F(NTPBackgroundImagesSourceTest, BackgroundImagesFormatTest) {
+   EXPECT_EQ("image/jpeg", background_images_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.jpg")));
++                              GURL("ibrowe://test/wallpaper-0.jpg")));
+   EXPECT_EQ("image/webp", background_images_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.webp")));
++                              GURL("ibrowe://test/wallpaper-0.webp")));
+   EXPECT_EQ("image/png", background_images_source_->GetMimeType(
+-                             GURL("brave://test/wallpaper-0.png")));
++                             GURL("ibrowe://test/wallpaper-0.png")));
+   EXPECT_EQ("image/avif", background_images_source_->GetMimeType(
+-                              GURL("brave://test/wallpaper-0.avif")));
+-  EXPECT_THAT(background_images_source_->GetMimeType(GURL("brave://test/")),
++                              GURL("ibrowe://test/wallpaper-0.avif")));
++  EXPECT_THAT(background_images_source_->GetMimeType(GURL("ibrowe://test/")),
+               ::testing::IsEmpty());
+ }
+ 

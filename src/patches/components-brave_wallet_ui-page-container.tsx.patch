@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/page/container.tsx b/components/brave_wallet_ui/page/container.tsx
+index 24fb7690e9c9aa0c8046fa8e1dbb0014258e9629..f44fc022a3cb1bffcb077444e2f0abe9f29925f0 100644
+--- a/components/brave_wallet_ui/page/container.tsx
++++ b/components/brave_wallet_ui/page/container.tsx
+@@ -121,7 +121,7 @@ export const Container = () => {
+   const handleDeclinePartnerConsent = () => {
+     setShowPartnerConsentModal(false)
+     // Not able to use history.goBack() in this instance
+-    // since users could manually navigate to brave://wallet/crypto/fund-wallet
++    // since users could manually navigate to ibrowe://wallet/crypto/fund-wallet
+     // in a new tab and there would be no history to go back to.
+     history.push(WalletRoutes.Portfolio)
+   }

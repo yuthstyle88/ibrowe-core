@@ -1,0 +1,13 @@
+diff --git a/browser/resources/settings/brave_routes.ts b/browser/resources/settings/brave_routes.ts
+index f822caa60b2109afe980779afec0ef4581f49222..138c9d8d0f8e7afa0cf99b7790f61a8f15ecb56d 100644
+--- a/browser/resources/settings/brave_routes.ts
++++ b/browser/resources/settings/brave_routes.ts
+@@ -19,7 +19,7 @@ export default function addBraveRoutes(r: Partial<SettingsRoutes>) {
+     r.MANAGE_PROFILE = r.GET_STARTED.createChild('/manageProfile')
+     // We re-section people page into getStarted section (see people_page Brave
+     // override), so we need to adjust the route accordingly in order for the
+-    // direct navigation to brave://settings/importData to work.
++    // direct navigation to ibrowe://settings/importData to work.
+     if (r.IMPORT_DATA) {
+       r.IMPORT_DATA.section = 'getStarted'
+     }
