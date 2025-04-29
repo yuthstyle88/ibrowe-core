@@ -1,0 +1,116 @@
+diff --git a/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift b/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift
+index 48a929cd50339fb98588c36d1745e9c1103feff9..59b3cc464e36729749083a3b7873afadb8524fa0 100644
+--- a/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift
++++ b/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift
+@@ -211,7 +211,7 @@ extension Strings.Shields {
+     tableName: "BraveShared",
+     bundle: .module,
+     value:
+-      "To address this issue, Brave can adjust your shields settings for you. Once adjusted, you can try watching this content in Brave Player instead.",
++      "To address this issue, iBrowe can adjust your shields settings for you. Once adjusted, you can try watching this content in iBrowe Player instead.",
+     comment: "A descriptive message explaining to disable shields on this site."
+   )
+ 
+@@ -221,7 +221,7 @@ extension Strings.Shields {
+     tableName: "BraveShared",
+     bundle: .module,
+     value: "Adjust Shields For Me",
+-    comment: "A button that disables ad-blocking and uses brave player."
++    comment: "A button that disables ad-blocking and uses iBrowe player."
+   )
+ 
+   /// A button that dismisses the warning and does nothing
+@@ -238,8 +238,8 @@ extension Strings.Shields {
+     "AntiAdBlockWarningBravePlayerDescription",
+     tableName: "BraveShared",
+     bundle: .module,
+-    value: "**Brave Player** is your ticket to an ad-free and uninterrupted video experience.",
+-    comment: "A discription of the Brave Player."
++    value: "**iBrowe Player** is your ticket to an ad-free and uninterrupted video experience.",
++    comment: "A discription of the iBrowe Player."
+   )
+ }
+ 
+@@ -251,8 +251,8 @@ extension Strings.Shields {
+     "BravePlayer",
+     tableName: "BraveShared",
+     bundle: .module,
+-    value: "Brave Player",
+-    comment: "Title for the brave player feature"
++    value: "iBrowe Player",
++    comment: "Title for the iBrowe player feature"
+   )
+ 
+   /// Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar
+@@ -260,9 +260,9 @@ extension Strings.Shields {
+     "BravePlayerInfoTitle",
+     tableName: "BraveShared",
+     bundle: .module,
+-    value: "Watch In Brave Player Instead",
++    value: "Watch In iBrowe Player Instead",
+     comment:
+-      "Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar."
++      "Title for the iBrowe player info popup which appears when clicking on the iBrowe player icon on the navigation bar."
+   )
+ 
+   /// A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time
+@@ -270,9 +270,9 @@ extension Strings.Shields {
+     "BravePlayerInfoMessage",
+     tableName: "BraveShared",
+     bundle: .module,
+-    value: "Brave Player lets you watch videos without interruptions.",
++    value: "iBrowe Player lets you watch videos without interruptions.",
+     comment:
+-      "A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time."
++      "A description of the iBrowe player that is presented on the info panel when clicing on the iBrowe player icon for the first time."
+   )
+ 
+   /// A label for a toggle that enables automatic launching of brave player for certain sites
+@@ -280,9 +280,9 @@ extension Strings.Shields {
+     "BravePlayerAlwaysOpenYouTubeLinks",
+     tableName: "BraveShared",
+     bundle: .module,
+-    value: "Always open videos from this site with Brave Player",
++    value: "Always open videos from this site with iBrowe Player",
+     comment:
+-      "A label for a toggle that enables automatic launching of brave player for certain sites"
++      "A label for a toggle that enables automatic launching of iBrowe player for certain sites"
+   )
+ 
+   /// A button that confirms to use the brave player
+@@ -291,7 +291,7 @@ extension Strings.Shields {
+     tableName: "BraveShared",
+     bundle: .module,
+     value: "Try It Out",
+-    comment: "A button that confirms to use the brave player."
++    comment: "A button that confirms to use the iBrowe player."
+   )
+ 
+   /// A button that ignores the brave player
+@@ -300,7 +300,7 @@ extension Strings.Shields {
+     tableName: "BraveShared",
+     bundle: .module,
+     value: "Not Now",
+-    comment: "A button that ignores the brave player"
++    comment: "A button that ignores the iBrowe player"
+   )
+ }
+ 
+@@ -462,7 +462,7 @@ extension Strings.Shields {
+     "DomainBlockedPageMessage",
+     tableName: "BraveShared",
+     bundle: .module,
+-    value: "Brave has prevented the following site from loading:",
++    value: "iBrowe has prevented the following site from loading:",
+     comment: "A message in the warning page that appears when a page was blocked"
+   )
+ 
+@@ -472,7 +472,7 @@ extension Strings.Shields {
+     tableName: "BraveShared",
+     bundle: .module,
+     value:
+-      "Because you requested to aggressively block trackers and ads, Brave is blocking this site before the first network connection.",
++      "Because you requested to aggressively block trackers and ads, iBrowe is blocking this site before the first network connection.",
+     comment: "A description in the warning page that appears when a page was blocked"
+   )
+ 
