@@ -86,7 +86,7 @@
 "wallet.addCustomTokenTitle" = "Token";
 
 /* The description of the view shown over a dapps website that describes what adding a new network will do. */
-"wallet.addNetworkDescription" = "Acest lucru va permite utilizarea acestei rețele în portofelul Brave Wallet.";
+"wallet.addNetworkDescription" = "Acest lucru va permite utilizarea acestei rețele în portofelul iBrowe Wallet.";
 
 /* The subtitle of the view shown over a dapps website that requests permission from the user to add a new network. */
 "wallet.addNetworkSubtitle" = "Permite acestui site să adauge o rețea?";
@@ -161,7 +161,7 @@
 "wallet.auroraPopupDontShowAgain" = "Nu mai afișa";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Numărul de minute de așteptare până la blocarea automată a portofelului Brave";
+"wallet.autoLockFooter" = "Numărul de minute de așteptare până la blocarea automată a portofelului iBrowe";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Blocare automată după";
@@ -221,10 +221,10 @@
 "wallet.biometricsSetupFaceId" = "Face ID";
 
 /* The sub-title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupSubTitle" = "Vrei să utilizezi %@ pentru a debloca Brave Wallet?";
+"wallet.biometricsSetupSubTitle" = "Vrei să utilizezi %@ pentru a debloca iBrowe Wallet?";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupTitle" = "Deblochează Brave Wallet cu %@";
+"wallet.biometricsSetupTitle" = "Deblochează iBrowe Wallet cu %@";
 
 /* Type of biometrics. This will be used in Biometric setup screen. */
 "wallet.biometricsSetupTouchId" = "Touch ID";
@@ -233,10 +233,10 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Doar %@ chei extinse sunt suportate.";
 
 /* The title for Brave Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.braveFeeLabel" = "Taxa Brave: %@";
+"wallet.braveFeeLabel" = "Taxa iBrowe: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Oferta de preț include o taxă Brave de %@.";
+"wallet.braveSwapFeeDisclaimer" = "Oferta de preț include o taxă iBrowe de %@.";
 
 /* The text beside the striked-through percentage Brave would normally charge for a swap. */
 "wallet.braveSwapFree" = "Gratuit";
@@ -251,7 +251,7 @@
 "wallet.btcAvailableBalanceTitle" = "Disponibil";
 
 /* A warning displayed in row before the Send button in Send Crypto view when a Bitcoin asset is selected. */
-"wallet.btcOrdinalsUnsupportedWarning" = "Portofelul Brave nu suportă momentan NFT-uri Bitcoin (ordinals). Trimiterea de BTC de la o adresă care are ordinals poate avea ca rezultat transferarea fără intenție a acestora.";
+"wallet.btcOrdinalsUnsupportedWarning" = "Portofelul iBrowe nu suportă momentan NFT-uri Bitcoin (ordinals). Trimiterea de BTC de la o adresă care are ordinals poate avea ca rezultat transferarea fără intenție a acestora.";
 
 /* Description displayed in row beside users pending balance. */
 "wallet.btcPendingBalanceDesc" = "O modificare în așteptare în soldul portofelului tău.";
@@ -446,7 +446,7 @@
 "wallet.creatingWallet" = "Se creează portofelul...";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Brave Wallet";
+"wallet.cryptoTitle" = "iBrowe Wallet";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "Adrese URL explorator de blocuri";
@@ -518,13 +518,13 @@
 "wallet.customTokenTitle" = "Adaugă un activ personalizat";
 
 /* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with Brave Wallet" */
-"wallet.dappsConnectionNotificationOriginTitle" = "%@ vrea să interacționeze cu Brave Wallet";
+"wallet.dappsConnectionNotificationOriginTitle" = "%@ vrea să interacționeze cu iBrowe Wallet";
 
 /* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Această pagină vrea să interacționeze cu portofelul Brave Wallet";
+"wallet.dappsConnectionNotificationTitle" = "Această pagină vrea să interacționeze cu portofelul iBrowe Wallet";
 
 /* A message that will be displayed under the section header when there is no dapps have been granted wallet connection. */
-"wallet.dappsSettingsConnectedSitesSectionEmpty" = "DApps pe care le conectezi la Brave Wallet vor fi listate aici";
+"wallet.dappsSettingsConnectedSitesSectionEmpty" = "DApps pe care le conectezi la iBrowe Wallet vor fi listate aici";
 
 /* The title of the section that will list all the permitted dapp connections */
 "wallet.dappsSettingsConnectedSitesSectionTitle" = "DApps conectate ";
@@ -587,7 +587,7 @@
 "wallet.decimalsPrecision" = "Zecimale de precizie";
 
 /* The message displayed when the user takes a screenshot of their dapp decrypt request. */
-"wallet.decryptMessageScreenshotDetectedMessage" = "Avertisment: O captură de ecran a mesajului tău poate fi salvată într-un serviciu de fișiere în cloud și poate fi accesibilă oricărei aplicații care are acces la fotografii. Brave recomandă să nu salvezi această captură de ecran și să o ștergi cât mai curând posibil.";
+"wallet.decryptMessageScreenshotDetectedMessage" = "Avertisment: O captură de ecran a mesajului tău poate fi salvată într-un serviciu de fișiere în cloud și poate fi accesibilă oricărei aplicații care are acces la fotografii. iBrowe recomandă să nu salvezi această captură de ecran și să o ștergi cât mai curând posibil.";
 
 /* The title of the button to approve a decrypt request from a dapps website. */
 "wallet.decryptRequestApprove" = "Permite";
@@ -710,10 +710,10 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Continuă folosind serverul Infura";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave va folosi Infura pentru a rezolva numele de domenii .eth care sunt pe Ethereum Name Service (ENS). Brave ascunde adresa ta IP. Dacă activezi această opțiune, Infura va vedea că cineva încearcă să viziteze aceste domenii .eth, dar nu va vedea alte informații.. Vezi <a href=%1$@>%2$@</a> și <a href=%3$@>%4$@</a> de la Infura.";
+"wallet.ensDomainInterstitialPageDescription" = "Brave va folosi Infura pentru a rezolva numele de domenii .eth care sunt pe Ethereum Name Service (ENS). iBrowe ascunde adresa ta IP. Dacă activezi această opțiune, Infura va vedea că cineva încearcă să viziteze aceste domenii .eth, dar nu va vedea alte informații.. Vezi <a href=%1$@>%2$@</a> și <a href=%3$@>%4$@</a> de la Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
-"wallet.ensDomainInterstitialPageTitle" = "Activezi suportul pentru Ethereum Name Service (ENS) în Brave?";
+"wallet.ensDomainInterstitialPageTitle" = "Activezi suportul pentru Ethereum Name Service (ENS) în iBrowe?";
 
 /* Title on the button that users can click to enable Brave to resolve the ENS offchain lookup for the domain they entered. */
 "wallet.ensOffchainDomainInterstitialPageButtonProceed" = "Continuă cu căutarea offchain";
@@ -722,7 +722,7 @@
 "wallet.ensOffchainDomainInterstitialPageDescription" = "Acest nume de domeniu .eth este stocat offchain și va fi rezolvat printr-un gateway terț. Dacă activezi căutarea offchain ENS, gateway-ul terț va vedea că încerci să vizitezi domeniul .eth. <a href=%1$@>%2$@</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
-"wallet.ensOffchainDomainInterstitialPageTitle" = "Activează funcția de căutare Ethereum Name Service (ENS) offchain în Brave?";
+"wallet.ensOffchainDomainInterstitialPageTitle" = "Activează funcția de căutare Ethereum Name Service (ENS) offchain în iBrowe?";
 
 /* Button title when requesting to do an ENS off chain lookup. */
 "wallet.ensOffchainGatewayButton" = "Utilizează domenul ENS";
@@ -731,7 +731,7 @@
 "wallet.ensOffchainGatewayDesc" = "Se pare că ai introdus o adresă ENS. Vom folosi un rezolvator terț pentru a procesa această solicitare. Acest lucru ajută la asigurarea faptului că domeniul tău .eth nu este dezvăluit și că tranzacția ta este securizată.";
 
 /* Title shown send address / ENS domain when requesting to do an ENS off chain lookup. */
-"wallet.ensOffchainGatewayTitle" = "Brave suportă utilizarea gateway-urilor offchain pentru a rezolva domeniile .eth.";
+"wallet.ensOffchainGatewayTitle" = "iBrowe suportă utilizarea gateway-urilor offchain pentru a rezolva domeniile .eth.";
 
 /* The description for the options to allow Ethereum Name service domain names offchain. '%@' will be replaced with a url to explain more about ENS offchain lookup. */
 "wallet.ensOffchainResolveMethodDescription" = "[Află mai multe](%@) despre considerațiile de confidențialitate ale căutărilor offchain ENS.";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Aprobă";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://ibrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "solicită cheia publică de criptare a portofelului tău. Dacă ești de acord să furnizezi această cheie, site-ul va putea să îți trimită mesaje criptate.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -953,7 +953,7 @@
 "wallet.legalTitle" = "Înainte de a începe";
 
 /* The responsibility explained in screen for users to check indicates they understand before setting up a wallet. */
-"wallet.legalUserResponsibility" = "Înțeleg că acesta este un portofel cu custodie proprie și că eu singur sunt responsabil pentru orice fonduri, active sau conturi asociate și pentru luarea măsurilor adecvate pentru a-mi securiza, proteja și a face o copie de rezervă a portofelului. Înțeleg că Brave nu îmi poate accesa portofelul sau inversa tranzacțiile în numele meu și că fraza mea de recuperare este SINGURA modalitate de a recâștiga accesul în cazul unei parole pierdute, al unui dispozitiv furat sau al unei circumstanțe similare.";
+"wallet.legalUserResponsibility" = "Înțeleg că acesta este un portofel cu custodie proprie și că eu singur sunt responsabil pentru orice fonduri, active sau conturi asociate și pentru luarea măsurilor adecvate pentru a-mi securiza, proteja și a face o copie de rezervă a portofelului. Înțeleg că iBrowe nu îmi poate accesa portofelul sau inversa tranzacțiile în numele meu și că fraza mea de recuperare este SINGURA modalitate de a recâștiga accesul în cazul unei parole pierdute, al unui dispozitiv furat sau al unei circumstanțe similare.";
 
 /* The title of the lock option inside the menu when user clicks the three dots button beside assets search button. */
 "wallet.lock" = "Blochează";
@@ -1004,7 +1004,7 @@
 "wallet.maxPriorityFeeTitle" = "Taxă maximă pentru prioritate";
 
 /* The title shown on the wallet settings page, and the value shown when selecting the default wallet as Brave Wallet in wallet settings. */
-"wallet.module" = "Brave Wallet";
+"wallet.module" = "iBrowe Wallet";
 
 /* A button title for user to open more option in asset details screen other than buy/send/swap. */
 "wallet.more" = "Mai multe";
@@ -1052,7 +1052,7 @@
 "wallet.newSiteConnectFooter" = "Conectează-te numai la site-uri de încredere.";
 
 /* The message displayed below the dapp's origin url in new site connection screen. */
-"wallet.newSiteConnectMessage" = "Conectează-te la Brave Wallet";
+"wallet.newSiteConnectMessage" = "Conectează-te la iBrowe Wallet";
 
 /* The transaction edit error alert button which will dismiss the alert. */
 "wallet.newSiteConnectScreenTitle" = "Conectare";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Token standard";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Brave Wallet poate utiliza un serviciu terț pentru a îți afișa automat NFT-urile. Brave va partaja adresele portofelului tău cu SimpleHash pentru a furniza acest serviciu. Află mai multe.";
+"wallet.nftDiscoveryCalloutDescription" = "Brave Wallet poate utiliza un serviciu terț pentru a îți afișa automat NFT-urile. iBrowe va partaja adresele portofelului tău cu SimpleHash pentru a furniza acest serviciu. Află mai multe.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Află mai multe";
@@ -1136,10 +1136,10 @@
 "wallet.nftRemoveFromWallet" = "Nu afișa în portofel";
 
 /* The description of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertDescription" = "NFT-ul va fi eliminat din portofelul Brave, dar va rămâne în blockchain. Dacă-l elimini acum și vei vrea să îl recuperezi ulterior, va trebui să-l imporți din nou.";
+"wallet.nftRemoveFromWalletAlertDescription" = "NFT-ul va fi eliminat din portofelul iBrowe, dar va rămâne în blockchain. Dacă-l elimini acum și vei vrea să îl recuperezi ulterior, va trebui să-l imporți din nou.";
 
 /* The title of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertTitle" = "Elimină din portofelul Brave?";
+"wallet.nftRemoveFromWalletAlertTitle" = "Elimină din portofelul iBrowe?";
 
 /* The description of the NFTs row in Account Details when user has zero or multiple NFTs. */
 "wallet.nftsDescription" = "%d NFT-uri";
@@ -1181,7 +1181,7 @@
 "wallet.onboardingCompletedButtonTitle" = "Mergi la portofoliul meu";
 
 /* The subtitle of the last step of creating a new wallet. */
-"wallet.onbordingCompletedSubTitle" = "Portofelul tău Brave este gata de utilizare.";
+"wallet.onbordingCompletedSubTitle" = "Portofelul tău iBrowe este gata de utilizare.";
 
 /* The title of the last step of creating a new wallet. */
 "wallet.onbordingCompletedTitle" = "Totul este gata!";
@@ -1235,7 +1235,7 @@
 "wallet.portfolioPageTitle" = "Portofoliu";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Avertisment: O captură de ecran a cheii tale private poate fi salvată într-un serviciu de fișiere în cloud și poate fi accesibilă oricărei aplicații care are acces la fotografii. Brave recomandă să nu salvezi această captură de ecran ci să o ștergi cât mai curând posibil.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Avertisment: O captură de ecran a cheii tale private poate fi salvată într-un serviciu de fișiere în cloud și poate fi accesibilă oricărei aplicații care are acces la fotografii. iBrowe recomandă să nu salvezi această captură de ecran ci să o ștergi cât mai curând posibil.";
 
 /* The title for Protocol Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.protocolFeeLabel" = "Taxa de protocol: %@";
@@ -1262,7 +1262,7 @@
 "wallet.rampNetworkProviderShortName" = "Ramp";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Avertisment: O captură de ecran a frazei tale de recuperare poate fi salvată într-un serviciu de fișiere în cloud și poate fi accesibilă oricărei aplicații care are acces la fotografii. Brave recomandă să nu salvezi această captură de ecran ci să o ștergi cât mai curând posibil.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Avertisment: O captură de ecran a frazei tale de recuperare poate fi salvată într-un serviciu de fișiere în cloud și poate fi accesibilă oricărei aplicații care are acces la fotografii. iBrowe recomandă să nu salvezi această captură de ecran ci să o ștergi cât mai curând posibil.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Actualizează prețul de piață";
@@ -1295,7 +1295,7 @@
 "wallet.repeatedPasswordPlaceholder" = "Reintrodu parola";
 
 /* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
-"wallet.restoreLegacyBraveWalletToggleTitle" = "Importă din portofele vechi de criptomonede Brave?";
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Importă din portofele vechi de criptomonede iBrowe?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Restabilește portofelul";
@@ -1496,7 +1496,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Această acțiune nu poate fi anulată. Fraza ta de recuperare este singura modalitate de a redobândi acces la contul tău cu active crypto.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Ești sigur(ă) că vrei să resetezi Brave Wallet?";
+"wallet.settingsResetWalletAlertTitle" = "Ești sigur(ă) că vrei să resetezi iBrowe Wallet?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Bun venit";
@@ -1505,13 +1505,13 @@
 "wallet.setupCryptoButtonTitle" = "Începe";
 
 /* The subtitle displayed in the section for user that need to create a brand new wallet */
-"wallet.setupCryptoCreateNewSubTitle" = "Începe să folosești Brave Wallet în câteva minute.";
+"wallet.setupCryptoCreateNewSubTitle" = "Începe să folosești iBrowe Wallet în câteva minute.";
 
 /* The title displayed in the section for user that need to create a brand new wallet */
 "wallet.setupCryptoCreateNewTitle" = "Ai nevoie de un portofel nou?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave și logo-ul Brave sunt mărci comerciale înregistrate ale Brave. Alte nume de produse și logo-uri pot fi mărci comerciale ale companiilor respective. Toate drepturile sunt rezervate.";
+"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave și logo-ul Brave sunt mărci comerciale înregistrate ale iBrowe. Alte nume de produse și logo-uri pot fi mărci comerciale ale companiilor respective. Toate drepturile sunt rezervate.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Importă-ți portofelul existent.";
@@ -1520,7 +1520,7 @@
 "wallet.setupCryptoRestoreTitle" = "Ai deja un portofel?";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Preia controlul asupra criptomonedelor și NFT-urilor tale. Brave Wallet suportă Ethereum, lanțuri EVM, Solana și multe altele.";
+"wallet.setupCryptoSubtitle" = "Preia controlul asupra criptomonedelor și NFT-urilor tale. iBrowe Wallet suportă Ethereum, lanțuri EVM, Solana și multe altele.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
 "wallet.setupCryptoTitle" = "Integrat nativ în browser.\nCustodie personală.\nMulti-lanț.";
@@ -1562,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Tranzacție semnată";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithBraveWallet" = "Conectează-te cu Brave Wallet";
+"wallet.signInWithBraveWallet" = "Conectează-te cu iBrowe Wallet";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithBraveWalletMessage" = "Te conectezi la %1$@. Portofelul Brave va partaja adresa ta de portofel cu %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Te conectezi la %1$@. Portofelul iBrowe va partaja adresa ta de portofel cu %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Au fost detectate caractere consecutive de linie nouă!";
@@ -1631,10 +1631,10 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Continuă folosind un server SNS";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Brave va folosi un terț pentru a rezolva numele de domenii .sol. Brave ascunde adresa ta IP. Dacă activezi această opțiune, terțul va vedea că cineva încearcă să viziteze aceste domenii .sol, dar nu va vedea alte informații. Pentru mai multe informații despre terții pe care îi folosim și politicile lor de confidențialitate, te rog să consulți <a href=%@>pagina noastră de ajutor</a>.";
+"wallet.snsDomainInterstitialPageDescription" = "Brave va folosi un terț pentru a rezolva numele de domenii .sol. iBrowe ascunde adresa ta IP. Dacă activezi această opțiune, terțul va vedea că cineva încearcă să viziteze aceste domenii .sol, dar nu va vedea alte informații. Pentru mai multe informații despre terții pe care îi folosim și politicile lor de confidențialitate, te rog să consulți <a href=%@>pagina noastră de ajutor</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
-"wallet.snsDomainInterstitialPageTitle" = "Activezi suportul pentru Solana Name Service (SNS) în Brave?";
+"wallet.snsDomainInterstitialPageTitle" = "Activezi suportul pentru Solana Name Service (SNS) în iBrowe?";
 
 /* A description of an Solana account, displayed in Accounts tab. */
 "wallet.solAccountDescription" = "Lanțuri Solana + SVM";
@@ -1742,7 +1742,7 @@
 "wallet.solanaSignTransactionDetails" = "Detalii";
 
 /* The warning message to let users understand the risk of using Brave Wallet to sign any transaction. */
-"wallet.solanaSignTransactionWarning" = "Reține faptul că Brave nu poate verifica ce se va întâmpla dacă semnezi. O semnătură ar putea autoriza aproape orice operațiune în contul sau numele tău. Este posibil inclusiv să oferi controlul total asupra contului și activelor tale (fără limitare la acestea) site-ului care face solicitarea. Semnează numai dacă ai certitudinea că vrei să faci acest pas și ai încredere în site-ul care îți cere acest lucru.";
+"wallet.solanaSignTransactionWarning" = "Reține faptul că iBrowe nu poate verifica ce se va întâmpla dacă semnezi. O semnătură ar putea autoriza aproape orice operațiune în contul sau numele tău. Este posibil inclusiv să oferi controlul total asupra contului și activelor tale (fără limitare la acestea) site-ului care face solicitarea. Semnează numai dacă ai certitudinea că vrei să faci acest pas și ai încredere în site-ul care îți cere acest lucru.";
 
 /* The title displayed above the value of a Solana swap transaction in transaction confirmation view, transaction details view and transaction summary rows. */
 "wallet.solanaSwapTransactionTitle" = "Tranzacție de schimb";
@@ -1844,7 +1844,7 @@
 "wallet.swapCryptoToTitle" = "Către";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Brave nu suportă în prezent funcția de schimb pe %@. Te rog să comuți pe un lanț suportat.";
+"wallet.swapCryptoUnsupportNetworkBody" = "iBrowe nu suportă în prezent funcția de schimb pe %@. Te rog să comuți pe un lanț suportat.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Lanț nesuportat";
@@ -1856,7 +1856,7 @@
 "wallet.swapDexAggrigatorDisclaimer" = "%1$@ va procesa adresa %2$@ și adresa IP pentru a finaliza o tranzacție (inclusiv obținerea de cotații). %3$@ va folosi aceste date EXCLUSIV în scopul procesării tranzacțiilor.";
 
 /* A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave utilizează %@ ca agregator DEX.";
+"wallet.swapDexAggrigatorNote" = "iBrowe utilizează %@ ca agregator DEX.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Limită";
@@ -2109,10 +2109,10 @@ The message after the title when a swap transaction failed to be confirmed on th
 "wallet.txStatusViewInActivity" = "Vizualizare în activitate";
 
 /* Description displayed when users chose Brave to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.udDomainInterstitialPageDescription" = "Brave va folosi Infura pentru a rezolva extensiile de domenii .crypto (și de asemenea %1$@) ce sunt găzduite pe Unstoppable Domains. Brave îți ascunde adresă IP. Dacă activezi această funcție, Infura va vedea că cineva încearcă să viziteze aceste domenii însă nimic altceva. Consultați <a href=%2$@>%3$@</a> și <a href=%4$@>%5$@</a> de la Infura.";
+"wallet.udDomainInterstitialPageDescription" = "iBrowe va folosi Infura pentru a rezolva extensiile de domenii .crypto (și de asemenea %1$@) ce sunt găzduite pe Unstoppable Domains. iBrowe îți ascunde adresă IP. Dacă activezi această funcție, Infura va vedea că cineva încearcă să viziteze aceste domenii însă nimic altceva. Consultați <a href=%2$@>%3$@</a> și <a href=%4$@>%5$@</a> de la Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
-"wallet.udDomainInterstitialPageTitle" = "Activează Unstoppable Domains în Brave?";
+"wallet.udDomainInterstitialPageTitle" = "Activează Unstoppable Domains în iBrowe?";
 
 /* The description for the options to allow Unstoppable Domain domain names. '%@' will be replaced with a url to explain more about Unstoppable Domains. */
 "wallet.udResolveMethodDescription" = "[Află mai multe](%@) despre considerațiile de confidențialitate ale Unstoppable Domains.";
