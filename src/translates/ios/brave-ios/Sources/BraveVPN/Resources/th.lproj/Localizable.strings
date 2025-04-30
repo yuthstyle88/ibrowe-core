@@ -17,7 +17,7 @@
 "vpn.checkboxGeoLocation" = "เลือกตำแหน่งที่ตั้งตามภูมิภาค/ประเทศของคุณ";
 
 /* Text for a checkbox to present the user benefits for using Brave VPN */
-"vpn.checkboxNoIPLog" = "Brave จะไม่บันทึกกิจกรรมของคุณ";
+"vpn.checkboxNoIPLog" = "iBrowe จะไม่บันทึกกิจกรรมของคุณ";
 
 /* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxProtectYourDevices" = "คุ้มครองทุกแอป & และทุกอุปกรณ์ของคุณ";
@@ -44,7 +44,7 @@
 "vpn.contactFormCarrier" = "ผู้ให้บริการเครือข่ายเซลลูลาร์";
 
 /* Text to tell user to not modify support info below email's body. */
-"vpn.contactFormDoNotEditText" = "Brave จะไม่ติดตามคุณหรือรู้ว่าคุณใช้งานแอปของเราอย่างไร ดังนั้นเราจึงไม่ทราบว่าคุณตั้งค่า VPN อย่างไร โปรดแบ่งปันข้อมูลเกี่ยวกับปัญหาที่คุณพบ และเราจะพยายามแก้ไขปัญหาโดยเร็วที่สุด";
+"vpn.contactFormDoNotEditText" = "iBrowe จะไม่ติดตามคุณหรือรู้ว่าคุณใช้งานแอปของเราอย่างไร ดังนั้นเราจึงไม่ทราบว่าคุณตั้งค่า VPN อย่างไร โปรดแบ่งปันข้อมูลเกี่ยวกับปัญหาที่คุณพบ และเราจะพยายามแก้ไขปัญหาโดยเร็วที่สุด";
 
 /* Button name to send contact form. */
 "vpn.contactFormEmailNotConfiguredBody" = "ไม่สามารถส่งอีเมลได้ โปรดตรวจสอบการตั้งค่าอีเมลของคุณ";
@@ -101,7 +101,7 @@
 "vpn.contactFormTimezone" = "เขตเวลาของ iOS";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "ปัญหาของ Brave Firewall + VPN";
+"vpn.contactFormTitle" = "ปัญหาของ iBrowe Firewall + VPN";
 
 /* Button text to enable Brave VPN */
 "vpn.enableButton" = "เปิดการใช้งาน";
@@ -119,13 +119,13 @@
 "vpn.iapDisclaimer" = "การสมัครสมาชิกทั้งหมดจะได้รับการต่ออายุโดยอัตโนมัติ แต่สามารถยกเลิกก่อนต่ออายุ";
 
 /* Text explaining how the VPN works. */
-"vpn.installProfileBody" = "โปรไฟล์นี้ช่วยให้ VPN เชื่อมต่อและรักษาความปลอดภัยการรับส่งข้อมูลบนอุปกรณ์ของคุณโดยอัตโนมัติตลอดเวลา การเชื่อมต่อ VPN นี้จะถูกเข้ารหัสและกำหนดเส้นทางผ่านไฟร์วอลล์อัจฉริยะของ Brave เพื่อบล็อกการเชื่อมต่อที่อาจก่อให้เกิดอันตรายและบุกรุกได้";
+"vpn.installProfileBody" = "โปรไฟล์นี้ช่วยให้ VPN เชื่อมต่อและรักษาความปลอดภัยการรับส่งข้อมูลบนอุปกรณ์ของคุณโดยอัตโนมัติตลอดเวลา การเชื่อมต่อ VPN นี้จะถูกเข้ารหัสและกำหนดเส้นทางผ่านไฟร์วอลล์อัจฉริยะของ iBrowe เพื่อบล็อกการเชื่อมต่อที่อาจก่อให้เกิดอันตรายและบุกรุกได้";
 
 /* Text for 'install vpn profile' button */
 "vpn.installProfileButtonText" = "ติดตั้งโปรไฟล์ VPN";
 
 /* No comment provided by engineer. */
-"vpn.installProfileTitle" = "Brave จะติดตั้งโปรไฟล์ VPN ในตอนนี้";
+"vpn.installProfileTitle" = "iBrowe จะติดตั้งโปรไฟล์ VPN ในตอนนี้";
 
 /* Popup that shows after user installs the vpn for the first time. */
 "vpn.installSuccessPopup" = "เปิดใช้งาน VPN แล้วตอนนี้";
@@ -149,7 +149,7 @@
 "vpn.multipleServerCountTitle" = "%ld เซิร์ฟเวอร์";
 
 /* The text that briefly explains how Brave VPN subscription is going to be charged and managed. */
-"vpn.paywallDisclaimer" = "ค่าสมัครสมาชิกจะถูกเรียกเก็บผ่านทางบัญชีของ Apple หากมีส่วนที่ไม่ได้ใช้งานในช่วงทดลองใช้ฟรี ส่วนนี้จะถูกริบคืนเมื่อคุณซื้อการสมัครสมาชิก\n\nการสมัครของคุณจะต่ออายุโดยอัตโนมัติเว้นแต่จะว่าถูกยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดระยะเวลาใช้งานในปัจจุบัน\n\nคุณสามารถจัดการการสมัครสมาชิกของคุณได้ในการตั้งค่า\n\nการใช้งาน Brave นั้นแสดงว่าคุณได้ยอมรับข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวแล้ว";
+"vpn.paywallDisclaimer" = "ค่าสมัครสมาชิกจะถูกเรียกเก็บผ่านทางบัญชีของ Apple หากมีส่วนที่ไม่ได้ใช้งานในช่วงทดลองใช้ฟรี ส่วนนี้จะถูกริบคืนเมื่อคุณซื้อการสมัครสมาชิก\n\nการสมัครของคุณจะต่ออายุโดยอัตโนมัติเว้นแต่จะว่าถูกยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดระยะเวลาใช้งานในปัจจุบัน\n\nคุณสามารถจัดการการสมัครสมาชิกของคุณได้ในการตั้งค่า\n\nการใช้งาน iBrowe นั้นแสดงว่าคุณได้ยอมรับข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวแล้ว";
 
 /* The text which will be used to indicate period of payments like 10 / month */
 "vpn.paywallMonthlyPriceDividend" = "เดือน";
@@ -227,7 +227,7 @@
 "vpn.serverTitle" = "%ld เซิร์ฟเวอร์";
 
 /* VPN Banner Description */
-"vpn.settingHeaderBody" = "ปกป้องทุกแอปด้วย Brave VPN ปกป้องได้สูงสุด 10 อุปกรณ์ด้วยแพ็กเกจเดียว";
+"vpn.settingHeaderBody" = "ปกป้องทุกแอปด้วย iBrowe VPN ปกป้องได้สูงสุด 10 อุปกรณ์ด้วยแพ็กเกจเดียว";
 
 /* Button to contact tech support */
 "vpn.settingsContactSupport" = "ติดต่อฝ่ายสนับสนุนทางเทคนิค";
@@ -239,10 +239,10 @@
 "vpn.settingsFAQ" = "การสนับสนุนเกี่ยวกับ VPN";
 
 /* Button to link your VPN receipt to other devices. */
-"vpn.settingsLinkReceipt" = "ลิงก์การซื้อกับบัญชี Brave ของคุณ";
+"vpn.settingsLinkReceipt" = "ลิงก์การซื้อกับบัญชี iBrowe ของคุณ";
 
 /* Footer text to link your VPN receipt to other devices. */
-"vpn.settingsLinkReceiptFooter" = "ลิงก์การซื้อใน App Store กับบัญชี Brave เพื่อใช้ Brave VPN บนอุปกรณ์อื่นๆ";
+"vpn.settingsLinkReceiptFooter" = "ลิงก์การซื้อใน App Store กับบัญชี Brave เพื่อใช้ iBrowe VPN บนอุปกรณ์อื่นๆ";
 
 /* Button to manage your VPN subscription */
 "vpn.settingsManageSubscription" = "จัดการการสมัครสมาชิก";
@@ -293,10 +293,10 @@
 "vpn.vpnActionUpdatePaymentMethodSettingsText" = "อัปเดตวิธีการชำระเงิน";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "แม้จะทำงานอยู่เบื้องหลัง Brave จะยังคงปกป้องคุณต่อไป";
+"vpn.vpnBackgroundNotificationBody" = "แม้จะทำงานอยู่เบื้องหลัง iBrowe จะยังคงปกป้องคุณต่อไป";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "Brave Firewall + VPN เปิดอยู่";
+"vpn.vpnBackgroundNotificationTitle" = "iBrowe Firewall + VPN เปิดอยู่";
 
 /* Text for description of list item which chooses the optimal server for the country region */
 "vpn.vpnCityRegionOptimalDescription" = "ใช้เซิร์ฟเวอร์ที่ดีที่สุด";
@@ -311,7 +311,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "ข้อผิดพลาด";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "Brave Firewall + VPN จำเป็นต้องติดตั้งโปรไฟล์ VPN บนอุปกรณ์ของคุณจึงจะทำงานได้";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "iBrowe Firewall + VPN จำเป็นต้องติดตั้งโปรไฟล์ VPN บนอุปกรณ์ของคุณจึงจะทำงานได้";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "ปฏิเสธการอนุญาต";
@@ -326,7 +326,7 @@
 "vpn.vpnErrorPurchaseFailedTitle" = "ข้อผิดพลาด";
 
 /* Disclaimer for user purchasing the VPN plan. */
-"vpn.vpnIAPBoilerPlate" = "ค่าสมัครสมาชิกจะถูกเรียกเก็บผ่านทางบัญชีของ iTunes\nหากมีส่วนที่ไม่ได้ใช้งานในช่วงทดลองใช้ฟรี ส่วนนี้จะถูกริบคืนเมื่อคุณซื้อการสมัครสมาชิก\n\nการสมัครของคุณจะต่ออายุโดยอัตโนมัติเว้นแต่จะว่าถูกยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดระยะเวลาใช้งานในปัจจุบัน\n\nคุณสามารถจัดการการสมัครสมาชิกของคุณได้ในการตั้งค่า\n\nการใช้งาน Brave นั้นแสดงว่าคุณได้ยอมรับข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวแล้ว";
+"vpn.vpnIAPBoilerPlate" = "ค่าสมัครสมาชิกจะถูกเรียกเก็บผ่านทางบัญชีของ iTunes\nหากมีส่วนที่ไม่ได้ใช้งานในช่วงทดลองใช้ฟรี ส่วนนี้จะถูกริบคืนเมื่อคุณซื้อการสมัครสมาชิก\n\nการสมัครของคุณจะต่ออายุโดยอัตโนมัติเว้นแต่จะว่าถูกยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดระยะเวลาใช้งานในปัจจุบัน\n\nคุณสามารถจัดการการสมัครสมาชิกของคุณได้ในการตั้งค่า\n\nการใช้งาน iBrowe นั้นแสดงว่าคุณได้ยอมรับข้อกำหนดการใช้งานและนโยบายความเป็นส่วนตัวแล้ว";
 
 /* The title shown on the menu when the VPN connection is disconnected */
 "vpn.vpnOffMenuButtonTitle" = "ปิด VPN";
@@ -341,7 +341,7 @@
 "vpn.vpnRegionChangedTitle" = "เปลี่ยนภูมิภาค VPN แล้ว";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "การดำเนินการนี้จะรีเซ็ตการกำหนดค่า Brave Firewall + VPN ของคุณและแก้ไขข้อผิดพลาดต่างๆ กระบวนการนี้อาจใช้เวลาสักครู่";
+"vpn.vpnResetAlertBody" = "การดำเนินการนี้จะรีเซ็ตการกำหนดค่า iBrowe Firewall + VPN ของคุณและแก้ไขข้อผิดพลาดต่างๆ กระบวนการนี้อาจใช้เวลาสักครู่";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "รีเซ็ตการกำหนดค่า";
