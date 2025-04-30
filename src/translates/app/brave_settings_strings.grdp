@@ -68,8 +68,8 @@
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their iBrowe Account">
     A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @bravealias.com email address when creating their iBrowe Account">
-    You can't use @bravealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @iBrowealias.com email address when creating their iBrowe Account">
+    You can't use @iBrowealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Create a password' input field">
     Create a password
@@ -162,7 +162,7 @@
   </message>
 
   <!-- Settings / Appearance -->
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for iBrowe theme change setting options">
     iBrowe colors
   </message>
   <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">
@@ -1620,7 +1620,7 @@ Leo AI. This action can't be undone.
     The address you entered appears to be from a private network—like your router or a local server. iBrowe blocks these automatically to keep you safe, but you can enable them if you're confident it's secure.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PRIVATE_IP_NOT_ALLOWED_INSTRUCTIONS" desc="Instructions on how to enable private IPs">
-    To proceed, visit brave://flags/, search for "brave-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
+    To proceed, visit iBrowe://flags/, search for "iBrowe-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_NEW_BUTTON_LABEL" desc="A label for a button that opens a panel with input forms for a user to add model">
     Add new model
@@ -1686,7 +1686,7 @@ Leo AI. This action can't be undone.
     Avatar Edgy Rewards
   </message>
   <if expr="not is_android">
-    <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_iBrowe.png avatar.">
       Avatar Edgy iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
@@ -1707,7 +1707,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_62" desc="The label for the avatar_paladin_rewards.png avatar.">
       Avatar Paladin Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_iBrowe.png avatar.">
       Avatar Paladin iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
@@ -1728,7 +1728,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_69" desc="The label for the avatar_gleam_rewards.png avatar.">
       Avatar Gleam Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_iBrowe.png avatar.">
       Avatar Gleam iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
@@ -1749,7 +1749,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_76" desc="The label for the avatar_oval_rewards.png avatar.">
       Avatar Oval Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_iBrowe.png avatar.">
       Avatar Oval iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
@@ -1770,7 +1770,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_83" desc="The label for the avatar_bonbon_rewards.png avatar.">
       Avatar Bonbon Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_iBrowe.png avatar.">
       Avatar Bonbon iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
