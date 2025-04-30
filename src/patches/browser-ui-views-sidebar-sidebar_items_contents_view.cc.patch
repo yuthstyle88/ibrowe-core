@@ -1,0 +1,38 @@
+diff --git a/browser/ui/views/sidebar/sidebar_items_contents_view.cc b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
+index d0e803739eac9ff4191d90a650914a6f797e23e4..dfb495238abcc8445e38d288c0ff7f015e50aeb1 100644
+--- a/browser/ui/views/sidebar/sidebar_items_contents_view.cc
++++ b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
+@@ -153,14 +153,14 @@ void SidebarItemsContentsView::UpdateAllBuiltInItemsViewState() {
+ 
+     // If browser window has tab that loads brave talk, brave talk panel icon
+     // will use colored one for normal state also.
+-    if (item.built_in_item_type ==
+-        sidebar::SidebarItem::BuiltInItemType::kBraveTalk) {
+-      UpdateItemViewStateAt(
+-          item_index,
+-          browser_->sidebar_controller()->DoesBrowserHaveOpenedTabForItem(
+-              item));
+-      continue;
+-    }
++    // if (item.built_in_item_type ==
++    //     sidebar::SidebarItem::BuiltInItemType::kBraveTalk) {
++    //   UpdateItemViewStateAt(
++    //       item_index,
++    //       browser_->sidebar_controller()->DoesBrowserHaveOpenedTabForItem(
++    //           item));
++    //   continue;
++    // }
+ 
+     UpdateItemViewStateAt(item_index, item_index == active_index);
+   }
+@@ -550,8 +550,8 @@ ui::ImageModel SidebarItemsContentsView::GetImageForBuiltInItems(
+   switch (type) {
+     case sidebar::SidebarItem::BuiltInItemType::kWallet:
+       return get_image_model(kLeoProductBraveWalletIcon, state);
+-    case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
+-      return get_image_model(kLeoProductBraveTalkIcon, state);
++    // case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
++    //   return get_image_model(kLeoProductBraveTalkIcon, state);
+     case sidebar::SidebarItem::BuiltInItemType::kBookmarks:
+       return get_image_model(kLeoProductBookmarksIcon, state);
+     case sidebar::SidebarItem::BuiltInItemType::kReadingList:
