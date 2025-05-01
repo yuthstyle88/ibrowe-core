@@ -232,13 +232,13 @@
 /* The label displayed in Add Account above the private key box when adding or importing a Bitcoin account. The '%@' is the standard supported for the selected network (for example "Only zprv extended keys are supported.") */
 "wallet.bitcoinImportExtendedKeyWarning" = "Seules les clés étendues %@ sont prises en charge.";
 
-/* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
+/* The title for Brave Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.braveFeeLabel" = "Frais de iBrowe : %@";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
 "wallet.braveSwapFeeDisclaimer" = "Le devis inclut des frais iBrowe de %@.";
 
-/* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
+/* The text beside the striked-through percentage Brave would normally charge for a swap. */
 "wallet.braveSwapFree" = "Gratuits";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
@@ -272,7 +272,7 @@
 "wallet.buy" = "Acheter";
 
 /* The description of a buy button on the buy/send/swap/deposit modal */
-"wallet.buyDescription" = "Achetez des cryptos avec Apple Pay ou une carte bancaire via Wyre.";
+"wallet.buyDescription" = "Achetez des cryptos avec Apple Pay ou une carte bancaire.";
 
 /* A part of the message in a transaction status screen. It will follow the amount of tokens that users were attempt to approve but cancelled after. For exapmple: 10 ETH allowance has not been approve under account 0x345...436 */
 "wallet.cancelERC20ApprovalTxRevertMsg" = "non approuvés pour";
@@ -517,10 +517,10 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Ajouter un actif personnalisé";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with iBrowe Wallet" */
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with Brave Wallet" */
 "wallet.dappsConnectionNotificationOriginTitle" = "%@ souhaite interagir avec le portefeuille iBrowe";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. */
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
 "wallet.dappsConnectionNotificationTitle" = "Cette page souhaite interagir avec le portefeuille iBrowe.";
 
 /* A message that will be displayed under the section header when there is no dapps have been granted wallet connection. */
@@ -530,7 +530,7 @@
 "wallet.dappsSettingsConnectedSitesSectionTitle" = "DApps connectés";
 
 /* The title of the section that will display settings for default wallet and dapp provider api access permission */
-"wallet.dappsSettingsGeneralSectionTitle" = "Généraux";
+"wallet.dappsSettingsGeneralSectionTitle" = "Général";
 
 /* The navigation title of the settings screen for each Dapp. '%@' will be relpaced by the name of the coin type. For example, the title could 'Ethereum Settings', 'Solana Settings' etc. */
 "wallet.dappsSettingsNavTitle" = "Paramètres de %@";
@@ -584,7 +584,7 @@
 "wallet.dateIntervalYearAccessibilityLabel" = "1 an";
 
 /* A title that will be displayed on top of the text field for users to input the custom token's decimals of precision */
-"wallet.decimalsPrecision" = "Précision décimale";
+"wallet.decimalsPrecision" = "Ajouter les décimales";
 
 /* The message displayed when the user takes a screenshot of their dapp decrypt request. */
 "wallet.decryptMessageScreenshotDetectedMessage" = "Avertissement : Une capture d'écran de votre message peut être sauvegardée sur un service de fichiers sur le cloud et lisible par n'importe quelle application disposant d'un accès aux photos. iBrowe vous recommande de ne pas enregistrer cette capture d'écran et de la supprimer dès que possible.";
@@ -632,7 +632,7 @@
 "wallet.duplicationTokenError" = "Ce jeton a déjà été ajouté à votre portefeuille.";
 
 /* A button title displayed under a Gas Fee title that allows the user to adjust the gas fee/transactions priority, on accounts tab for editing an account name, etc. */
-"wallet.editButtonTitle" = "Édition";
+"wallet.editButtonTitle" = "Modifier";
 
 /* A pop up message that will prompt to user before user confirms to edit the existing network. */
 "wallet.editExistingNetworkAlertMsg" = "Voulez-vous mettre à jour le réseau existant ?";
@@ -694,7 +694,7 @@
 /* The amount of current permitted wallet accounts to the dapp site. It is displayed below the origin url of the dapp site in edit site connection screen. '%lld' refers to a number, %@ is `account` for singular and `accounts` for plural (for example "1 account connected" or "2 accounts connected") */
 "wallet.editSiteConnectionConnectedAccount" = "%1$lld %2$@ connecté(s)";
 
-/* The navigation title of the screen for users to edit dapps site connection with users' iBrowe Wallet accounts. */
+/* The navigation title of the screen for users to edit dapps site connection with users' Brave Wallet accounts. */
 "wallet.editSiteConnectionScreenTitle" = "Connexions";
 
 /* The error alert body when something is wrong when users try to edit transaction gas fee, priority fee, nonce value or allowance value. */
@@ -706,22 +706,22 @@
 /* The button title for showing the screen to change what assets are visible */
 "wallet.editVisibleAssetsButtonTitle" = "Modifier les actifs visibles";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS domain they entered. */
 "wallet.ensDomainInterstitialPageButtonProceed" = "Continuer avec un serveur Infura";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
 "wallet.ensDomainInterstitialPageDescription" = "iBrowe utilisera Infura pour résoudre les noms de domaine en .eth enregistrés sur Ethereum Name Service (ENS). iBrowe masque votre adresse IP. Si vous activez cette option, Infura verra que quelqu'un essaie d'accéder à ces domaines en .eth, mais n'aura accès à aucune autre information. Consultez les <a href=%1$@>%2$@</a> et la <a href=%3$@>%4$@</a> d'Infura.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS domain to be resolved every time they enter one. */
+/* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Activer la prise en charge des domaines Ethereum Name Service (ENS) dans iBrowe ?";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS offchain lookup for the domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS offchain lookup for the domain they entered. */
 "wallet.ensOffchainDomainInterstitialPageButtonProceed" = "Continuer avec la résolution hors chaîne";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
 "wallet.ensOffchainDomainInterstitialPageDescription" = "Ce nom de domaine .eth est stocké hors chaîne et sera résolu par une passerelle tierce. Si vous activez la résolution hors chaîne d'ENS, la passerelle tierce verra que vous tentez de consulter le domaine .eth. .<a href=%1$@>%2$@</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
+/* Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
 "wallet.ensOffchainDomainInterstitialPageTitle" = "Activer la prise en charge de la résolution hors chaîne d'Ethereum Name Service (ENS) dans iBrowe ?";
 
 /* Button title when requesting to do an ENS off chain lookup. */
@@ -752,7 +752,7 @@
 "wallet.enterPasswordForBiometricsNavTitle" = "Activer la biométrie";
 
 /* The title displayed on the screen to enter password to enable biometrics unlock from wallet settings. */
-"wallet.enterPasswordForBiometricsTitle" = "Entrez le mot de passe de votre portefeuille pour activer la biométrie (vous n'aurez à le faire qu'une fois)";
+"wallet.enterPasswordForBiometricsTitle" = "Saisissez le mot de passe de votre portefeuille pour activer la biométrie (vous n'aurez à le faire qu'une fois)";
 
 /* A placeholder for the text field that users will input the custom token Coingecko ID. */
 "wallet.enterTokenCoingeckoId" = "Saisir l'identifiant CoinGecko du jeton";
@@ -838,7 +838,7 @@
 /* The title of the button to approve a encryption public key request from a dapps website. */
 "wallet.getEncryptionPublicKeyRequestApprove" = "Fournir";
 
-/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
+/* The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://ibrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.' */
 "wallet.getEncryptionPublicKeyRequestMessage" = "demande la clé de chiffrement publique de votre portefeuille. Si vous acceptez de la lui donner, le site pourra composer des messages chiffrés pour vous.";
 
 /* A subtitle of the view shown over a dapps website that requests the users public encryption key. */
@@ -878,7 +878,7 @@
 "wallet.hideSmallBalancesDescription" = "Actifs d'une valeur inférieure à 0,05 $";
 
 /* The label of the filter option that hides assets if their fiat value is below $0.05. Used in Portfolio/NFT filters and display settings. */
-"wallet.hideSmallBalancesTitle" = "Masquez les soldes avec de petits montants";
+"wallet.hideSmallBalancesTitle" = "Masquer les soldes avec de petits montants";
 
 /* The description label of the filter option that hides NFTs if they are not owned by the user. Used in Portfolio/NFT filters and display settings. */
 "wallet.hideUnownedNFTsDescription" = "Masquer les NFT sans solde";
@@ -1003,7 +1003,7 @@
 /* The title of the edit gas fee screen for EIP-1559 transactions */
 "wallet.maxPriorityFeeTitle" = "Frais de priorité max.";
 
-/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as iBrowe Wallet in wallet settings. */
+/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as Brave Wallet in wallet settings. */
 "wallet.module" = "Portefeuille iBrowe";
 
 /* A button title for user to open more option in asset details screen other than buy/send/swap. */
@@ -1021,7 +1021,7 @@
 /* The title for the label that is shown above the name of the network on a request to switch networks or add a new network from a dapps website. */
 "wallet.networkNameTitle" = "Nom du réseau";
 
-/* A placeholder in Buy Screen, when user switched to a network that iBrowe currently doesn't support token purchasing. */
+/* A placeholder in Buy Screen, when user switched to a network that Brave currently doesn't support token purchasing. */
 "wallet.networkNotSupportedForBuyToken" = "Les achats ne sont pas pris en charge sur le réseau sélectionné";
 
 /* The title of the section for primary networks in the network selection view. */
@@ -1064,7 +1064,7 @@
 "wallet.nftCollected" = "Collecté";
 
 /* The title an entry that will be displayed in NFT detail. This entry to display this NFT's blockchain */
-"wallet.nftDetailBlockchain" = "Chaîne de blocs";
+"wallet.nftDetailBlockchain" = "Blockchain";
 
 /* The title of a section in NFT detail screen that will display NFT's description if there is any. */
 "wallet.nftDetailDescription" = "Description";
@@ -1184,7 +1184,7 @@
 "wallet.onbordingCompletedSubTitle" = "Votre portefeuille iBrowe est prêt à être utilisé.";
 
 /* The title of the last step of creating a new wallet. */
-"wallet.onbordingCompletedTitle" = "Vous êtes prêt !";
+"wallet.onbordingCompletedTitle" = "C'est tout bon !";
 
 /* The message will be displayed when a cancel/speed-up tx has been dropped or replaced on chain. */
 "wallet.originalTransactionIsConfirmed" = "La transaction initiale a été confirmée.";
@@ -1199,7 +1199,7 @@
 "wallet.passwordDoesNotMeetRequirementsError" = "Le mot de passe doit contenir au moins 8 caractères.";
 
 /* A placeholder string that will be used on password text fields */
-"wallet.passwordPlaceholder" = "Entrez votre mot de passe";
+"wallet.passwordPlaceholder" = "Saisissez votre mot de passe";
 
 /* The error displayed when entering two passwords that do not match that are expected to match */
 "wallet.passwordsDontMatchError" = "Le mot de passe de confirmation ne correspond pas";
@@ -1208,7 +1208,7 @@
 "wallet.passwordStatusMedium" = "Intermédiaire";
 
 /* A label will be displayed beside input password when it is considered as a strong password */
-"wallet.passwordStatusStrong" = "Très bon";
+"wallet.passwordStatusStrong" = "Fort";
 
 /* A label will be displayed beside input password when it is considered as a weak password */
 "wallet.passwordStatusWeak" = "Faible";
@@ -1300,7 +1300,7 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Restaurer le portefeuille";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into iBrowe */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
 "wallet.restoreWalletButtonTitle" = "Restaurer";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
@@ -1316,7 +1316,7 @@
 "wallet.restoreWalletPhraseInvalidError" = "Phrase de récupération non valide";
 
 /* The placeholder on the mneomic/recovery phrase text field of each grid. */
-"wallet.restoreWalletPhrasePlaceholder" = "Nb de mots%d";
+"wallet.restoreWalletPhrasePlaceholder" = "Mot %d";
 
 /* A toggle label that will enable or disable visibility of the contents in the recovery phrase text field */
 "wallet.restoreWalletShowRecoveryPhrase" = "Afficher la phrase de récupération";
@@ -1391,7 +1391,7 @@
 "wallet.selectNetworksDescription" = "Sélectionner les réseaux à filtrer par";
 
 /* The label of the filter option that allows users to select which networks to filter assets by. Used in Portfolio/NFT filters and display settings. */
-"wallet.selectNetworksTitle" = "Sélectionnez les réseaux";
+"wallet.selectNetworksTitle" = "Sélectionner les réseaux";
 
 /* The description of the view that lets the user select a token & account at the same time in the Send crypto view when there are no available tokens. */
 "wallet.selectTokenToSendNoTokens" = "Aucun jeton disponible";
@@ -1457,7 +1457,7 @@
 "wallet.setDefaultNetwork" = "Définir comme option par défaut";
 
 /* The title of the settings option inside the menu when user clicks the three dots button beside assets search button. */
-"wallet.settings" = "Réglages";
+"wallet.settings" = "Paramètres";
 
 /* The title that appears before the current default base currency code. Example: "Default base currency: USD" */
 "wallet.settingsDefaultBaseCurrencyTitle" = "Devise de base par défaut";
@@ -1523,7 +1523,7 @@
 "wallet.setupCryptoSubtitle" = "Prenez le contrôle de votre crypto-monnaie et de vos NFT. Le portefeuille iBrowe prend en charge Ethereum, les chaînes EVM, Solana et plus encore.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoTitle" = "Natif du navigateur.\nGarde autonome.\nEt multi-chaîne.";
+"wallet.setupCryptoTitle" = "Le portefeuille intégré au navigateur.\nEn garde autonome.\nEt multi-chaîne.";
 
 /* The description label of the filter option that hides the network logo on NFTs displayed in the grid. Used in NFT filters and display settings. */
 "wallet.showNFTNetworkLogoDescription" = "Afficher le logo du réseau sur les NFT";
@@ -1585,55 +1585,55 @@
 /* The title of the view shown over a dapps website that requests the user sign a transaction. */
 "wallet.signTransactionTitle" = "Signer la transaction";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the address. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the address. */
 "wallet.siweAddressLabel" = "Adresse";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the chain ID. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the chain ID. */
 "wallet.siweChainIDLabel" = "ID de chaîne";
 
-/* The title of the details view for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The title of the details view for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweDetailsTitle" = "Détails";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the expiration time. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the expiration time. */
 "wallet.siweExpirationTimeLabel" = "Délai d'expiration";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the issued at date. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the issued at date. */
 "wallet.siweIssuedAtLabel" = "Heure d'émission";
 
 /* The label displayed above the Sign In With Ethereum message. */
 "wallet.siweMessageLabel" = "Message";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the nonce. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the nonce. */
 "wallet.siweNonceLabel" = "Nonce";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the origin. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the origin. */
 "wallet.siweOriginLabel" = "Origine";
 
 /* The label displayed above the Sign In With Ethereum resources. */
 "wallet.siweResourcesLabel" = "Ressources";
 
-/* The label displayed on the button to sign in for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The label displayed on the button to sign in for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweSignInButtonTitle" = "Connexion";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the statement. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the statement. */
 "wallet.siweStatementLabel" = "Déclaration";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the URI. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the URI. */
 "wallet.siweURILabel" = "URI";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the version. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the version. */
 "wallet.siweVersionLabel" = "Version";
 
 /* The button title to skip recovery phrase backup */
 "wallet.skipButtonTitle" = "Ignorer";
 
-/* Title on the button that users can click to enable iBrowe to resolve the SNS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the SNS domain they entered. */
 "wallet.snsDomainInterstitialPageButtonProceed" = "Continuer avec un serveur SNS";
 
-/* Description displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
+/* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
 "wallet.snsDomainInterstitialPageDescription" = "iBrowe utilisera un tiers pour résoudre les noms de domaine .sol. iBrowe masque votre adresse IP. Si vous activez cette option, le tiers verra que quelqu'un essaie d'accéder à ces domaines .sol, mais n'aura accès à aucune autre information. Pour en savoir plus sur les tiers auxquels nous faisons appel et sur leur politique de confidentialité, veuillez consulter notre <a href=%@>page d'aide</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. */
+/* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "Activer la prise en charge de Solana Name Service (SNS) dans iBrowe ?";
 
 /* A description of an Solana account, displayed in Accounts tab. */
@@ -1741,7 +1741,7 @@
 /* The title on top of a separater, and the transaction details will be displayed below the separater. */
 "wallet.solanaSignTransactionDetails" = "Détails";
 
-/* The warning message to let users understand the risk of using iBrowe Wallet to sign any transaction. */
+/* The warning message to let users understand the risk of using Brave Wallet to sign any transaction. */
 "wallet.solanaSignTransactionWarning" = "Notez que iBrowe ne peut pas vérifier ce qui se passera si vous signez. Une signature peut autoriser presque n'importe quelle opération sur votre compte ou en votre nom, y compris (mais sans s'y limiter) donner le contrôle total de votre compte et de vos actifs cryptos au site qui en fait la demande. Ne signez que si vous voulez vraiment effectuer cette action et si vous faites confiance au site demandeur.";
 
 /* The title displayed above the value of a Solana swap transaction in transaction confirmation view, transaction details view and transaction summary rows. */
@@ -1852,7 +1852,7 @@
 /* The description of a swap button on the buy/send/swap/deposit modal */
 "wallet.swapDescription" = "Échangez des jetons et des actifs.";
 
-/* A longer disclaimer about the DEX aggrigator used by iBrowe for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "%1$@ traitera l'adresse %2$@ et l'adresse IP pour compléter une transaction (y compris pour obtenir des devis). %3$@ utilisera ces données UNIQUEMENT dans le but de traiter les transactions.";
 
 /* A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
@@ -2108,10 +2108,10 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title for the button. User would tap on this button to view the transaction status in the `Activity` tab. */
 "wallet.txStatusViewInActivity" = "Afficher dans l'activité";
 
-/* Description displayed when users chose iBrowe to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+/* Description displayed when users chose Brave to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
 "wallet.udDomainInterstitialPageDescription" = "iBrowe utilisera Infura pour résoudre les noms de domaine en .crypto (ainsi que ceux en %1$@) enregistrés sur Unstoppable Domains. iBrowe masque votre adresse IP. Si vous activez cette option, Infura verra que quelqu'un essaie d'accéder à ces domaines, mais n'aura accès à aucune autre information. Consultez les <a href=%2$@>%3$@</a> et la<a href=%4$@>%5$@</a> d'Infura.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
+/* Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
 "wallet.udDomainInterstitialPageTitle" = "Activer la prise en charge des domaines Unstoppable Domains dans iBrowe ?";
 
 /* The description for the options to allow Unstoppable Domain domain names. '%@' will be replaced with a url to explain more about Unstoppable Domains. */
@@ -2148,7 +2148,7 @@ The message after the title when a swap transaction failed to be confirmed on th
 "wallet.verifyRecoveryPhraseError" = "La phrase de récupération ne correspond pas.";
 
 /* The sub-title of the screen that user will verify his/her recovery phrase. */
-"wallet.verifyRecoveryPhraseSubTitle" = "Entrez le mot en **position %d** de votre phrase de récupération.";
+"wallet.verifyRecoveryPhraseSubTitle" = "Saisissez le mot en **position %d** de votre phrase de récupération.";
 
 /* The title of the screen that user will verify his/her recovery phrase. */
 "wallet.verifyRecoveryPhraseTitle" = "Vérifions";
@@ -2165,7 +2165,7 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* A button title when a user will tap to reveal the recovery phrases. */
 "wallet.viewRecoveryPhraseButtonTitle" = "Voir ma phrase de récupération";
 
-/* The title shown on the menu to access iBrowe Wallet */
+/* The title shown on the menu to access Brave Wallet */
 "wallet.wallet" = "Portefeuille";
 
 /* The label read out when a user is using VoiceOver and highlights the two-arrow button on the wallet panel top left corner. */
@@ -2198,22 +2198,22 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title shown on the settings menu to Web3 settings. */
 "wallet.web3" = "Web3";
 
-/* Title on the button that users can click to disable iBrowe to resolve the ENS/SNS domain they entered. */
+/* Title on the button that users can click to disable Brave to resolve the ENS/SNS domain they entered. */
 "wallet.web3DomainInterstitialPageButtonDisable" = "Désactiver";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPagePrivacyPolicy" = "politique de confidentialité";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPageTAndU" = "conditions d'utilisation";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means iBrowe will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means Brave will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionAsk" = "Demander";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means iBrowe will disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means Brave will disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionDisabled" = "Désactivé";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means iBrowe will enable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means Brave will enable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionEnabled" = "Activé";
 
 /* The header for the options to resolve Solana Name service domain names. */
