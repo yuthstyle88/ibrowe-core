@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Vols establir iBrowe com a navegador predeterminat?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Si Brave és el teu navegador predeterminat, tots els enllaços en què facis clic s'obriran amb les proteccions de privacitat de iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Si iBrowe és el teu navegador predeterminat, tots els enllaços en què facis clic s'obriran amb les proteccions de privacitat de iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Estableix com a predeterminat";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Privacitat. Simplificada.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Això ens ajuda a conèixer quines funcions de Brave s'utilitzen amb més freqüència. Canvia en qualsevol moment la configuració a \"Escuts de iBrowe i altres opcions de privacitat\".";
+"callout.p3aCalloutDescription" = "Això ens ajuda a conèixer quines funcions de iBrowe s'utilitzen amb més freqüència. Canvia en qualsevol moment la configuració a \"Escuts de iBrowe i altres opcions de privacitat\".";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Obtingues més informació sobre la nostra anàlisi de productes per a la preservació de la privacitat (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Amaga la icona de Recompenses de iBrowe";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Amaga la icona de Recompenses de Brave quan Recompenses de iBrowe no estigui activat";
+"HideRewardsIconSubtitle" = "Amaga la icona de Recompenses de iBrowe quan Recompenses de iBrowe no estigui activat";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historial";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Permet que iBrowe comprovi el meu porta-retalls per trobar un codi de referència coincident";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "És possible que hagis descarregat Brave per donar suport al teu referent. Per detectar el teu remitent, Brave fa una comprovació única del porta-retalls per trobar el codi de referència coincident. Aquesta comprovació es limita només al codi i no es transmetrà cap altra dada personal. Si ho desactives, el teu referent no rebrà recompenses de iBrowe.";
+"OBPrivacyConsentDetail" = "És possible que hagis descarregat iBrowe per donar suport al teu referent. Per detectar el teu remitent, iBrowe fa una comprovació única del porta-retalls per trobar el codi de referència coincident. Aquesta comprovació es limita només al codi i no es transmetrà cap altra dada personal. Si ho desactives, el teu referent no rebrà recompenses de iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "No permetis aquesta comprovació";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Enllaça la teva subscripció VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "La teva subscripció VPN de Brave pot protegir fins a 10 dispositius a Android, iOS i escriptori. Només has d'enllaçar la teva subscripció a l'App Store al teu compte de iBrowe.";
+"onboarding.linkReceiptDescription" = "La teva subscripció VPN de iBrowe pot protegir fins a 10 dispositius a Android, iOS i escriptori. Només has d'enllaçar la teva subscripció a l'App Store al teu compte de iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Amplia la protecció del Tallafocs + VPN de iBrowe";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "El mode Només navegació d'incògnit tancarà totes les pestanyes actuals i tancarà la sessió de tots els llocs.";
 
 /* Private tab details */
-"PrivateTabBody" = "Les pestanyes d'incògnit no es guarden a Brave, però no et fan anònim en línia. Els llocs que visites en una pestanya d'incògnit no apareixeran a l'historial i les teves galetes sempre s'esvaeixen quan les tanques; no en quedarà cap rastre a iBrowe. Tanmateix, les descàrregues es desaran.\nEl teu operador de telefonia mòbil (o el propietari de la xarxa Wi-Fi o VPN a la qual estàs connectat) pot veure quins llocs visites i aquests llocs aprendran la teva adreça IP pública, fins i tot a les pestanyes d'incògnit.";
+"PrivateTabBody" = "Les pestanyes d'incògnit no es guarden a iBrowe, però no et fan anònim en línia. Els llocs que visites en una pestanya d'incògnit no apareixeran a l'historial i les teves galetes sempre s'esvaeixen quan les tanques; no en quedarà cap rastre a iBrowe. Tanmateix, les descàrregues es desaran.\nEl teu operador de telefonia mòbil (o el propietari de la xarxa Wi-Fi o VPN a la qual estàs connectat) pot veure quins llocs visites i aquests llocs aprendran la teva adreça IP pública, fins i tot a les pestanyes d'incògnit.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "L'ús de les pestanyes d'incògnit només canvia el que fa Brave al teu dispositiu, no canvia el comportament de ningú més.\n\nEls llocs sempre aprenen la teva adreça IP quan els visites. A partir d'això, sovint poden endevinar aproximadament on ets, normalment la teva ciutat. De vegades, aquesta estimació de la ubicació pot ser molt més específica. Els llocs també saben tot el que els dius específicament, com ara els termes de cerca. Si inicies sessió en un lloc, sabran que sou el propietari d'aquell compte. Encara estaràs fora de sessió quan tanquis les pestanyes d'incògnit perquè iBrowe llençarà la galeta que et manté connectat.\n\nQui et connecti a Internet (el teu ISP) pot veure tota l'activitat de la teva xarxa. Sovint, aquest és el teu operador de telefonia mòbil. Si estàs connectat a una xarxa Wi-Fi, aquest és el propietari d'aquesta xarxa i, si fas servir una VPN, és qui la dirigeix. El teu ISP pot veure quins llocs visites mentre els visites. Si aquests llocs utilitzen HTTPS, no poden fer molt més que una conjectura educada sobre el que fas en aquests llocs. Però si un lloc només utilitza HTTP, el teu ISP pot veure-ho tot: els termes de cerca, quines pàgines llegeixes i quins enllaços segueixes.\n\nSi un ocupador gestiona el teu dispositiu, també pots fer un rastrejament d'allò que fas amb ell. Probablement, l'ús de pestanyes d'incògnit no els impedirà saber quins llocs has visitat. Una altra persona amb accés al teu dispositiu també podria tenir instal·lat programari que supervisa la teva activitat, i les pestanyes d'incògnit tampoc et protegiran d'això.";
+"PrivateTabDetails" = "L'ús de les pestanyes d'incògnit només canvia el que fa iBrowe al teu dispositiu, no canvia el comportament de ningú més.\n\nEls llocs sempre aprenen la teva adreça IP quan els visites. A partir d'això, sovint poden endevinar aproximadament on ets, normalment la teva ciutat. De vegades, aquesta estimació de la ubicació pot ser molt més específica. Els llocs també saben tot el que els dius específicament, com ara els termes de cerca. Si inicies sessió en un lloc, sabran que sou el propietari d'aquell compte. Encara estaràs fora de sessió quan tanquis les pestanyes d'incògnit perquè iBrowe llençarà la galeta que et manté connectat.\n\nQui et connecti a Internet (el teu ISP) pot veure tota l'activitat de la teva xarxa. Sovint, aquest és el teu operador de telefonia mòbil. Si estàs connectat a una xarxa Wi-Fi, aquest és el propietari d'aquesta xarxa i, si fas servir una VPN, és qui la dirigeix. El teu ISP pot veure quins llocs visites mentre els visites. Si aquests llocs utilitzen HTTPS, no poden fer molt més que una conjectura educada sobre el que fas en aquests llocs. Però si un lloc només utilitza HTTP, el teu ISP pot veure-ho tot: els termes de cerca, quines pàgines llegeixes i quins enllaços segueixes.\n\nSi un ocupador gestiona el teu dispositiu, també pots fer un rastrejament d'allò que fas amb ell. Probablement, l'ús de pestanyes d'incògnit no els impedirà saber quins llocs has visitat. Una altra persona amb accés al teu dispositiu també podria tenir instal·lat programari que supervisa la teva activitat, i les pestanyes d'incògnit tampoc et protegiran d'això.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Saber més sobre pestanyes d'incògnit";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Fes saber als desenvolupadors de iBrowe que aquesta web no funciona de forma adequada amb Escuts:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Nota: L'informe enviat als servidors de Brave inclourà l'adreça del lloc, el número de la versió de iBrowe, la configuració d'Escuts, l'estat de la VPN i la configuració de la llengua.";
+"ReportBrokenSiteBody2" = "Nota: L'informe enviat als servidors de iBrowe inclourà l'adreça del lloc, el número de la versió de iBrowe, la configuració d'Escuts, l'estat de la VPN i la configuració de la llengua.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Envia";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe s'ha tancat inesperadament.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Amb Recompenses de Brave, pots veure anuncis que preserven la privacitat des de la xarxa d'Anuncis de iBrowe. Sense rastrejadors. Sense alentiments. I les teves dades es mantenen totalment segures.";
+"rewards.braveTalkRewardsOptInBody" = "Amb Recompenses de iBrowe, pots veure anuncis que preserven la privacitat des de la xarxa d'Anuncis de iBrowe. Sense rastrejadors. Sense alentiments. I les teves dades es mantenen totalment segures.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Activa les recompenses";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Activa per ajudar a donar suport a iBrowe i a la comunitat BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "L'ús de Recompenses de Brave ajuda a donar suport a iBrowe i a la comunitat BAT.";
+"rewards.disabledStatusBody" = "L'ús de Recompenses de iBrowe ajuda a donar suport a iBrowe i a la comunitat BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Estàs ajudant a donar suport a iBrowe i a la comunitat BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "En clicar, acceptes les %1$@ i %2$@. Desactiva-ho en qualsevol moment a Configuració.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Ajuda a donar suport a Brave i a la comunitat BAT activant Recompenses de Brave i veient Anuncis de iBrowe.";
+"rewards.settingsToggleMessage" = "Ajuda a donar suport a iBrowe i a la comunitat BAT activant Recompenses de iBrowe i veient Anuncis de iBrowe.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Activa Recompenses de iBrowe";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Suprimeix el compte de sincronització";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Sembla que s'ha creat aquest codi en un aparell amb una versió més antiga de Brave. Actualitzeu l'altre aparell amb la versió més recent de iBrowe i, a continuació, creeu un codi de sincronització nou.";
+"sync.deprecatedVersionError" = "Sembla que s'ha creat aquest codi en un aparell amb una versió més antiga de iBrowe. Actualitzeu l'altre aparell amb la versió més recent de iBrowe i, a continuació, creeu un codi de sincronització nou.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "S'ha produït un error en recuperar dispositius en cadena de sincronització.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Afegeix les fonts insegures sota el teu propi risc";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Segueix les teves fonts preferides, en un sol canal. Només cal que obris una pestanya a Brave, desplaça't cap avall i... voilà!\nNotícies de iBrowe és compatible amb anuncis privats i anònims.";
+"today.introCardBody" = "Segueix les teves fonts preferides, en un sol canal. Només cal que obris una pestanya a iBrowe, desplaça't cap avall i... voilà!\nNotícies de iBrowe és compatible amb anuncis privats i anònims.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Activa Notícies de iBrowe, i no et perdis mai una història";

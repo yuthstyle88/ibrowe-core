@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Setează iBrowe ca browser implicit?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Atunci când Brave este setat ca browser implicit, orice link pe care îl accesezi va beneficia de setările de confidențialitate ale lui iBrowe.  ";
+"callout.defaultBrowserCalloutDescription" = "Atunci când iBrowe este setat ca browser implicit, orice link pe care îl accesezi va beneficia de setările de confidențialitate ale lui iBrowe.  ";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Setează ca implicit";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Confidențialitate. Simplificată.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Acest lucru ne ajută să aflăm ce caracteristici ale Brave sunt utilizate cel mai des. Modifică în orice moment în Setările Brave sub \"iBrowe Shields și alte setări de confidențialitate\".";
+"callout.p3aCalloutDescription" = "Acest lucru ne ajută să aflăm ce caracteristici ale iBrowe sunt utilizate cel mai des. Modifică în orice moment în Setările iBrowe sub \"iBrowe Shields și alte setări de confidențialitate\".";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Află mai multe despre statisticile noastre de produs cu protecția confidențialității (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Ascunde pictograma iBrowe Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Ascunde pictograma Brave Rewards atunci când iBrowe Rewards nu este activat.";
+"HideRewardsIconSubtitle" = "Ascunde pictograma iBrowe Rewards atunci când iBrowe Rewards nu este activat.";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Istoric";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Permite ca iBrowe să verifice clipboard-ul pentru un cod de recomandare ce corespunde";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Este posibil să fi descărcat Brave în sprijinul celui care te-a recomandat. Pentru a îl putea detecta, Brave efectuează o verificare unică a clipboard-ului pentru a găsi codul de recomandare corespunzător. Această verificare se limitează doar la acest cod și nu vor fi transmise alte date personale.  Dacă renunți, persoana care te-a recomandat nu va primi recompense din partea iBrowe.";
+"OBPrivacyConsentDetail" = "Este posibil să fi descărcat iBrowe în sprijinul celui care te-a recomandat. Pentru a îl putea detecta, iBrowe efectuează o verificare unică a clipboard-ului pentru a găsi codul de recomandare corespunzător. Această verificare se limitează doar la acest cod și nu vor fi transmise alte date personale.  Dacă renunți, persoana care te-a recomandat nu va primi recompense din partea iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Nu permite această verificare";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Conectează-ți abonamentul VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Abonamentul tău la Brave VPN poate proteja până la 10 dispozitive, pe Android, iOS și desktop. Trebuie doar să îți asociezi abonamentul din App Store cu contul tău iBrowe.";
+"onboarding.linkReceiptDescription" = "Abonamentul tău la iBrowe VPN poate proteja până la 10 dispozitive, pe Android, iOS și desktop. Trebuie doar să îți asociezi abonamentul din App Store cu contul tău iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Extinde protecția iBrowe Firewall + VPN";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Navigarea exclusiv privată va închide toate filele curente și te va deconecta de pe toate site-urile.";
 
 /* Private tab details */
-"PrivateTabBody" = "Filele private nu sunt salvate în Brave insă asta nu îți acordă anonimitate online. Site-urile pe care le vizitezi într-o filă privată  nu vor apărea în istoric iar cookie-urile asociate dispar întotdeauna când le închizi - nu va rămâne nicio urmă a acestora în iBrowe. Cu toate acestea, descărcările vor fi salvate.\nOperatorul tău de telefonie mobilă (sau proprietarul rețelei Wi-Fi sau VPN la care ești conectat) poate vedea ce site-uri vizitezi iar aceste site-uri vor afla adresa ta IP publică chiar și în navigarea din filele private.";
+"PrivateTabBody" = "Filele private nu sunt salvate în iBrowe insă asta nu îți acordă anonimitate online. Site-urile pe care le vizitezi într-o filă privată  nu vor apărea în istoric iar cookie-urile asociate dispar întotdeauna când le închizi - nu va rămâne nicio urmă a acestora în iBrowe. Cu toate acestea, descărcările vor fi salvate.\nOperatorul tău de telefonie mobilă (sau proprietarul rețelei Wi-Fi sau VPN la care ești conectat) poate vedea ce site-uri vizitezi iar aceste site-uri vor afla adresa ta IP publică chiar și în navigarea din filele private.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Utilizarea filelor private modifică doar ceea ce face Brave pe dispozitiv, nu schimbă comportamentul altcuiva.\n\nSite-urile îți află adresa IP de fiecare dată când le vizitezi. Pe baza adresei IP pot aproxima deseori unde te afli - de obicei, orașul tău. Uneori, această localizare poate fi mult mai specifică. De asemenea, site-urile știu tot ceea ce le spui în mod specific, cum ar fi termenii de căutare. Dacă te conectezi la un site prin folosirea de credențiale, site-ul te va asocia ca proprietarul acelui cont. Vei fi în continuare deconectat atunci când închizi fila privată deoarece iBrowe va elimina cookie-urile care te mențin conectat.\n\nCine te conectează la Internet (ISP-ul) poate vedea toată activitatea ta în rețea. Adesea, acesta este operatorul tău de telefonie mobilă. Dacă ești conectat la o rețea Wi-Fi, acesta este proprietarul rețelei respective iar dacă utilizezi un VPN, atunci este cel care administrează acel VPN. ISP-ul poate vedea ce site-uri vizitezi pe măsură ce le vizitezi. Dacă acele site-uri utilizează HTTPS, nu pot face mai mult decât o presupunere despre ceea ce faci pe acele site-uri. Dacă un site utilizează însă doar HTTP, atunci ISP-ul poate vedea totul: termenii de căutare, paginile pe care le citești cât și link-urile pe care le urmezi.\n\nÎn cazul în care un angajator îți gestionează dispozitivul, acesta ar putea, de asemenea, să urmărească to ce faci cu el. Folosirea filelor private probabil că nu îi va împiedica să știe ce site-uri ai accesat. Altcineva care are acces la dispozitiv ar putea, de asemenea, să fi instalat un software care îți monitorizează activitatea, iar filele private nu te vor proteja nici în acest caz.";
+"PrivateTabDetails" = "Utilizarea filelor private modifică doar ceea ce face iBrowe pe dispozitiv, nu schimbă comportamentul altcuiva.\n\nSite-urile îți află adresa IP de fiecare dată când le vizitezi. Pe baza adresei IP pot aproxima deseori unde te afli - de obicei, orașul tău. Uneori, această localizare poate fi mult mai specifică. De asemenea, site-urile știu tot ceea ce le spui în mod specific, cum ar fi termenii de căutare. Dacă te conectezi la un site prin folosirea de credențiale, site-ul te va asocia ca proprietarul acelui cont. Vei fi în continuare deconectat atunci când închizi fila privată deoarece iBrowe va elimina cookie-urile care te mențin conectat.\n\nCine te conectează la Internet (ISP-ul) poate vedea toată activitatea ta în rețea. Adesea, acesta este operatorul tău de telefonie mobilă. Dacă ești conectat la o rețea Wi-Fi, acesta este proprietarul rețelei respective iar dacă utilizezi un VPN, atunci este cel care administrează acel VPN. ISP-ul poate vedea ce site-uri vizitezi pe măsură ce le vizitezi. Dacă acele site-uri utilizează HTTPS, nu pot face mai mult decât o presupunere despre ceea ce faci pe acele site-uri. Dacă un site utilizează însă doar HTTP, atunci ISP-ul poate vedea totul: termenii de căutare, paginile pe care le citești cât și link-urile pe care le urmezi.\n\nÎn cazul în care un angajator îți gestionează dispozitivul, acesta ar putea, de asemenea, să urmărească to ce faci cu el. Folosirea filelor private probabil că nu îi va împiedica să știe ce site-uri ai accesat. Altcineva care are acces la dispozitiv ar putea, de asemenea, să fi instalat un software care îți monitorizează activitatea, iar filele private nu te vor proteja nici în acest caz.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Află mai multe despre filele private.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Anunță-i pe dezvoltatorii iBrowe că acest site nu funcționează corect cu Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Notă: Raportul transmis serverelor Brave va include adresa site-ului, numărul versiunii iBrowe, setările Shields, starea VPN și setările de limbă.";
+"ReportBrokenSiteBody2" = "Notă: Raportul transmis serverelor iBrowe va include adresa site-ului, numărul versiunii iBrowe, setările Shields, starea VPN și setările de limbă.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Trimite";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe s-a închis în mod neașteptat.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Cu Brave Rewards poți vizualiza reclame care protejează confidențialitatea din rețeaua iBrowe Ads. Fără urmăritori. Fără încetiniri. Datele tale rămân complet în siguranță.";
+"rewards.braveTalkRewardsOptInBody" = "Cu iBrowe Rewards poți vizualiza reclame care protejează confidențialitatea din rețeaua iBrowe Ads. Fără urmăritori. Fără încetiniri. Datele tale rămân complet în siguranță.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Activează Recompensele";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Activează pentru a susține iBrowe si comunitatea BAT";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Folosind recompensele Brave Rewards ajută la susținerea iBrowe și a comunității BAT.";
+"rewards.disabledStatusBody" = "Folosind recompensele iBrowe Rewards ajută la susținerea iBrowe și a comunității BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Ajuți la susținerea iBrowe și a comunității BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Dând click, ești de acord cu %1$@ și %2$@. Dezactivează în orice moment din Setări.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Susține Brave și comunitatea BAT prin activarea Brave Rewards și afișarea reclamelor iBrowe Ads.";
+"rewards.settingsToggleMessage" = "Susține iBrowe și comunitatea BAT prin activarea iBrowe Rewards și afișarea reclamelor iBrowe Ads.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Activează iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Șterge contul de sincronizare";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Se pare că acest cod a fost creat pe un dispozitiv care rulează o versiune mai veche a lui Brave. Actualizează iBrowe la cea mai recentă versiune pe celălalt dispozitiv apoi generează un cod nou de sincronizare.";
+"sync.deprecatedVersionError" = "Se pare că acest cod a fost creat pe un dispozitiv care rulează o versiune mai veche a lui iBrowe. Actualizează iBrowe la cea mai recentă versiune pe celălalt dispozitiv apoi generează un cod nou de sincronizare.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Ceva nu a mers bine în timpul recuperării dispozitivelor din lanțul de sincronizare.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Surse nesigure - Adaugă pe propriul risc";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Urmărește-ți sursele preferate, într-un singur flux. Trebuie doar să deschizi o filă nouă în Brave, să derulezi în jos și... gata!\niBrowe News este susținut de reclame anonimizate, ce respectă confidențialitatea.";
+"today.introCardBody" = "Urmărește-ți sursele preferate, într-un singur flux. Trebuie doar să deschizi o filă nouă în iBrowe, să derulezi în jos și... gata!\niBrowe News este susținut de reclame anonimizate, ce respectă confidențialitatea.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Activează iBrowe News și nu rata noutățile";
