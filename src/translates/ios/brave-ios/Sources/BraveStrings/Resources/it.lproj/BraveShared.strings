@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Vuoi impostare iBrowe come browser predefinito?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Con Brave come browser predefinito, ogni link che premi si apre con le protezioni alla privacy fornite da iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Con iBrowe come browser predefinito, ogni link che premi si apre con le protezioni alla privacy fornite da iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Imposta come predefinito";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Privacy, in tutta semplicità.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Questo ci aiuta a capire quali funzioni di Brave sono usate più spesso. Puoi cambiare in qualsiasi momento la tua scelta andando, nelle impostazioni di Brave, alla voce “Protezioni di iBrowe e altre impostazioni di privacy”.";
+"callout.p3aCalloutDescription" = "Questo ci aiuta a capire quali funzioni di iBrowe sono usate più spesso. Puoi cambiare in qualsiasi momento la tua scelta andando, nelle impostazioni di iBrowe, alla voce “Protezioni di iBrowe e altre impostazioni di privacy”.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Scopri di più sulle analisi di prodotto a tutela della privacy (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Nascondi icona iBrowe Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Nasconde l’icona Brave Rewards quando iBrowe Rewards non è abilitato";
+"HideRewardsIconSubtitle" = "Nasconde l’icona iBrowe Rewards quando iBrowe Rewards non è abilitato";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Cronologia";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Autorizzo iBrowe a verificare i miei appunti per cercare il codice di sponsorizzazione";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Forse hai scaricato Brave per sostenere il tuo sponsor. Per individuare il tuo sponsor, Brave esegue una verifica una tantum mei tuoi appunti e cerca il codice collegato allo sponsor. La verifica si limita al codice e non saranno inviati altri dati personali. Se rinunci, il tuo sponsor non riceverà ricompense da iBrowe.";
+"OBPrivacyConsentDetail" = "Forse hai scaricato iBrowe per sostenere il tuo sponsor. Per individuare il tuo sponsor, iBrowe esegue una verifica una tantum mei tuoi appunti e cerca il codice collegato allo sponsor. La verifica si limita al codice e non saranno inviati altri dati personali. Se rinunci, il tuo sponsor non riceverà ricompense da iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Non autorizzo questa verifica";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Collega il tuo abbonamento alla VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "L’abbonamento alla VPN di Brave protegge fino a 10 dispositivi Android, iOS e desktop. Basta collegare al proprio account iBrowe l’abbonamento sottoscritto nell’App Store.";
+"onboarding.linkReceiptDescription" = "L’abbonamento alla VPN di iBrowe protegge fino a 10 dispositivi Android, iOS e desktop. Basta collegare al proprio account iBrowe l’abbonamento sottoscritto nell’App Store.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Estendi la protezione Firewall + VPN di iBrowe";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Con la modalità “Solo navigazione privata”, verranno chiuse tutte le schede aperte e uscirai da tutti i siti.";
 
 /* Private tab details */
-"PrivateTabBody" = "Le schede private non vengono salvate in Brave, ma non ti danno l’anonimato online. I siti che visiti in una scheda privata non verranno visualizzati nella tua cronologia e i loro cookie svaniscono sempre quando li chiudi: non ne rimarrà alcuna traccia in iBrowe. Tuttavia, i download verranno salvati.\nIl tuo operatore di telefonia mobile (o il proprietario della rete Wi-Fi o VPN alla quale hai la connessione) può vedere quali siti visiti e quei siti conosceranno il tuo indirizzo IP pubblico, anche nelle schede private.";
+"PrivateTabBody" = "Le schede private non vengono salvate in iBrowe, ma non ti danno l’anonimato online. I siti che visiti in una scheda privata non verranno visualizzati nella tua cronologia e i loro cookie svaniscono sempre quando li chiudi: non ne rimarrà alcuna traccia in iBrowe. Tuttavia, i download verranno salvati.\nIl tuo operatore di telefonia mobile (o il proprietario della rete Wi-Fi o VPN alla quale hai la connessione) può vedere quali siti visiti e quei siti conosceranno il tuo indirizzo IP pubblico, anche nelle schede private.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "L’utilizzo delle schede private ha effetto solo su come Brave agisce sul tuo dispositivo, non cambia il comportamento di altri.\n\nI siti conoscono sempre il tuo indirizzo IP quando li visiti. Da questo, spesso possono indovinare approssimativamente dove ti trovi, in genere la tua città. A volte quell’ipotesi di posizione può essere molto più specifica. I siti sanno anche tutto ciò che dici loro specificamente, come i termini di ricerca. Se accedi a un sito, sapranno che quell’account ti appartiene. La tua connessione sarà chiusa quando chiudi le schede private perché iBrowe eliminerà il cookie che mantiene la connessione.\n\nChiunque ti fornisca la connessione a Internet (il tuo ISP) può vedere tutta la tua attività di rete. Spesso, questo è il tuo operatore di telefonia mobile. Se hai una connessione a una rete Wi-Fi, questo è il proprietario di quella rete, e se stai utilizzando una VPN, allora è chi esegue quella VPN. Il tuo ISP può vedere quali siti visiti mentre li visiti. Se quei siti utilizzano HTTPS, non possono fare molto di più di un’ipotesi plausibile su ciò che fai su quei siti. Ma se un sito utilizza solo HTTP, il tuo ISP può vedere tutto: i tuoi termini di ricerca, quali pagine leggi e quali link segui.\n\nSe un datore di lavoro gestisce il tuo dispositivo, potrebbe anche tenere traccia di come lo utilizzi. L’uso delle schede private probabilmente non impedirà loro di sapere quali siti hai visitato. Qualcun altro con accesso al tuo dispositivo potrebbe anche aver installato un software che monitora la tua attività e anche le schede private non ti proteggeranno da questo monitoraggio.";
+"PrivateTabDetails" = "L’utilizzo delle schede private ha effetto solo su come iBrowe agisce sul tuo dispositivo, non cambia il comportamento di altri.\n\nI siti conoscono sempre il tuo indirizzo IP quando li visiti. Da questo, spesso possono indovinare approssimativamente dove ti trovi, in genere la tua città. A volte quell’ipotesi di posizione può essere molto più specifica. I siti sanno anche tutto ciò che dici loro specificamente, come i termini di ricerca. Se accedi a un sito, sapranno che quell’account ti appartiene. La tua connessione sarà chiusa quando chiudi le schede private perché iBrowe eliminerà il cookie che mantiene la connessione.\n\nChiunque ti fornisca la connessione a Internet (il tuo ISP) può vedere tutta la tua attività di rete. Spesso, questo è il tuo operatore di telefonia mobile. Se hai una connessione a una rete Wi-Fi, questo è il proprietario di quella rete, e se stai utilizzando una VPN, allora è chi esegue quella VPN. Il tuo ISP può vedere quali siti visiti mentre li visiti. Se quei siti utilizzano HTTPS, non possono fare molto di più di un’ipotesi plausibile su ciò che fai su quei siti. Ma se un sito utilizza solo HTTP, il tuo ISP può vedere tutto: i tuoi termini di ricerca, quali pagine leggi e quali link segui.\n\nSe un datore di lavoro gestisce il tuo dispositivo, potrebbe anche tenere traccia di come lo utilizzi. L’uso delle schede private probabilmente non impedirà loro di sapere quali siti hai visitato. Qualcun altro con accesso al tuo dispositivo potrebbe anche aver installato un software che monitora la tua attività e anche le schede private non ti proteggeranno da questo monitoraggio.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Scopri di più sulle schede private.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Comunica agli sviluppatori di iBrowe che questo sito non funziona correttamente con Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "N.B.: il report inviato ai server di Brave includerà l’indirizzo del sito, il numero di versione di iBrowe, le impostazioni delle Protezioni, lo stato della VPN e le impostazioni della lingua.";
+"ReportBrokenSiteBody2" = "N.B.: il report inviato ai server di iBrowe includerà l’indirizzo del sito, il numero di versione di iBrowe, le impostazioni delle Protezioni, lo stato della VPN e le impostazioni della lingua.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Invia";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe si è chiuso in modo inatteso.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Con Brave Rewards puoi visualizzare gli annunci rispettosi della privacy dalla rete iBrowe Ads. Nessun tracker. Nessun rallentamento. E i tuoi dati rimangono totalmente al sicuro.";
+"rewards.braveTalkRewardsOptInBody" = "Con iBrowe Rewards puoi visualizzare gli annunci rispettosi della privacy dalla rete iBrowe Ads. Nessun tracker. Nessun rallentamento. E i tuoi dati rimangono totalmente al sicuro.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Attiva Rewards";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Attiva per sostenere iBrowe e la community di BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Utilizzando le ricompense di Brave sostieni iBrowe e la community BAT.";
+"rewards.disabledStatusBody" = "Utilizzando le ricompense di iBrowe sostieni iBrowe e la community BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Stai sostenendo iBrowe e la community BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Facendo clic, accetti i %1$@ e l’%2$@. Disabilitali in qualsiasi momento dalle Impostazioni.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Sostieni Brave e la community BAT: ti basta attivare le ricompense di Brave e guardare gli annunci di iBrowe.";
+"rewards.settingsToggleMessage" = "Sostieni iBrowe e la community BAT: ti basta attivare le ricompense di iBrowe e guardare gli annunci di iBrowe.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Abilita iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Eliminare l’account del servizio di sincronizzazione";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Sembra che questo codice sia stato creato su un dispositivo con una versione precedente di Brave. Aggiorna alla versione più recente di iBrowe sull’altro dispositivo e crea un nuovo codice di sincronizzazione.";
+"sync.deprecatedVersionError" = "Sembra che questo codice sia stato creato su un dispositivo con una versione precedente di iBrowe. Aggiorna alla versione più recente di iBrowe sull’altro dispositivo e crea un nuovo codice di sincronizzazione.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Si è verificato un errore durante la ricerca dei dispositivi nella catena di sincronizzazione.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Fonti non sicure: le aggiungi a tuo rischio";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Segui le tue fonti preferite in un unico feed. Ti basta aprire una scheda su Brave, scorrere verso il basso e… voilà!\nIl servizio News di iBrowe è finanziato tramite annunci anonimi e rispettosi della privacy.";
+"today.introCardBody" = "Segui le tue fonti preferite in un unico feed. Ti basta aprire una scheda su iBrowe, scorrere verso il basso e… voilà!\nIl servizio News di iBrowe è finanziato tramite annunci anonimi e rispettosi della privacy.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Attiva News iBrowe e non perderti neanche una notizia";

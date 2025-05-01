@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Indstil iBrowe som standardbrowser?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Med Brave som din standardbrowser bliver alle links, du åbner, åbnet med  iBrowes privatlivsbeskyttelse.";
+"callout.defaultBrowserCalloutDescription" = "Med iBrowe som din standardbrowser bliver alle links, du åbner, åbnet med  iBrowes privatlivsbeskyttelse.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Sæt standard";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Privatliv. Gjort enkelt.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Dette hjælper os med at lære, hvilke Brave-funktioner der oftest bruges. Kan til enhver tid ændres i Brave-indstillinger under »iBrowe Shields og andre privatindstillinger«.";
+"callout.p3aCalloutDescription" = "Dette hjælper os med at lære, hvilke iBrowe-funktioner der oftest bruges. Kan til enhver tid ændres i iBrowe-indstillinger under »iBrowe Shields og andre privatindstillinger«.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Lær mere om vores anonymitetsbeskyttede produktanalyser (P3A)";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Skjul iBrowes Belønningsikon";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Skjuler ikonet Brave Rewards, når iBrowe Rewards ikke er aktiveret";
+"HideRewardsIconSubtitle" = "Skjuler ikonet iBrowe Rewards, når iBrowe Rewards ikke er aktiveret";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historik";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Tillad iBrowe at tjekke min udklipsholder for en tilhørende henvisningskode";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Du har muligvis downloadet Brave for at støtte din henviser. For at finde ud af, hvem din henviser er, udfører Brave en engangskontrol af din udklipsholder for at tjekke den tilhørende henvisningskode. Denne kontrol er udelukkende begrænset til koden, og ingen andre personlige data vil blive overført. Hvis du fravælger, vil din henviser ikke modtage belønninger fra iBrowe.";
+"OBPrivacyConsentDetail" = "Du har muligvis downloadet iBrowe for at støtte din henviser. For at finde ud af, hvem din henviser er, udfører iBrowe en engangskontrol af din udklipsholder for at tjekke den tilhørende henvisningskode. Denne kontrol er udelukkende begrænset til koden, og ingen andre personlige data vil blive overført. Hvis du fravælger, vil din henviser ikke modtage belønninger fra iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Tillad ikke denne kontrol";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Forbind dit VPN-abonnement";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Dit Brave VPN-abonnement kan beskytte op til 10 enheder på tværs af Android, iOS og desktop. Du skal blot linke dit App Store-abonnement til din iBrowe-konto.";
+"onboarding.linkReceiptDescription" = "Dit iBrowe VPN-abonnement kan beskytte op til 10 enheder på tværs af Android, iOS og desktop. Du skal blot linke dit App Store-abonnement til din iBrowe-konto.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Udvid din iBrowe Firewall + VPN-beskyttelse";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Tilstanden Kun privat browsing lukker alle dine nuværende faner og logger dig ud af alle websteder.";
 
 /* Private tab details */
-"PrivateTabBody" = "Private faner gemmes ikke i Brave, men de gør dig ikke anonym online. Sider, du besøger i en privat fane, vises ikke i din historik, og deres cookies forsvinder altid, når du lukker dem - der vil ikke være noget spor af dem tilbage i iBrowe. Downloads vil dog blive gemt.\nDin mobiloperatør (eller ejeren af det wi-fi-netværk eller den VPN, du er forbundet til) kan se, hvilke sider du besøger, og disse sider vil have adgang til din offentlige IP-adresse, selv i private faner.";
+"PrivateTabBody" = "Private faner gemmes ikke i iBrowe, men de gør dig ikke anonym online. Sider, du besøger i en privat fane, vises ikke i din historik, og deres cookies forsvinder altid, når du lukker dem - der vil ikke være noget spor af dem tilbage i iBrowe. Downloads vil dog blive gemt.\nDin mobiloperatør (eller ejeren af det wi-fi-netværk eller den VPN, du er forbundet til) kan se, hvilke sider du besøger, og disse sider vil have adgang til din offentlige IP-adresse, selv i private faner.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Brug af Private faner ændrer kun, hvad Brave gør på din enhed. Det ændrer ikke andres adfærd.\n\nWebsteder har altid adgang din IP-adresse, når du besøger dem. Ud fra den kan de ofte gætte, nogenlunde hvor du befinder dig - typisk din by. Nogle gange kan det gæt på din placering være meget mere specifikt. Websteder ved også alt, hvad du specifikt fortæller dem, såsom søgetermer. Hvis du logger ind på et websted, ved de, at du er ejer af den konto. Du vil stadig blive logget ud, når du lukker de private faner, fordi iBrowe sletter den cookie, som bevarer dig logget ind.\n\nDen, der forbinder dig til internettet (din internetudbyder), kan se al din netværksaktivitet. Ofte er det din mobiloperatør. Hvis du er forbundet til et wi-fi-netværk, er det ejeren af netværket, og hvis du bruger en VPN, er det den, der driver VPN'en. Din internetudbyder kan se, hvilke sider du besøger, når du besøger dem. Hvis disse sider bruger HTTPS, kan de allerhøjest lave et kvalificeret gæt på, hvad du laver på disse websteder. Men hvis en side kun bruger HTTP, kan din internetudbyder se alt: dine søgetermer, hvilke sider du læser, og hvilke links du følger.\n\nHvis en arbejdsgiver administrerer din enhed, kan de muligvis også holde øje med, hvad du gør med den. Brug af private faner vil sandsynligvis ikke forhindre dem i at vide, hvilke sider du har besøgt. En anden person med adgang til din enhed kan også have installeret software, der overvåger din aktivitet, og Private faner vil heller ikke beskytte dig mod dette.";
+"PrivateTabDetails" = "Brug af Private faner ændrer kun, hvad iBrowe gør på din enhed. Det ændrer ikke andres adfærd.\n\nWebsteder har altid adgang din IP-adresse, når du besøger dem. Ud fra den kan de ofte gætte, nogenlunde hvor du befinder dig - typisk din by. Nogle gange kan det gæt på din placering være meget mere specifikt. Websteder ved også alt, hvad du specifikt fortæller dem, såsom søgetermer. Hvis du logger ind på et websted, ved de, at du er ejer af den konto. Du vil stadig blive logget ud, når du lukker de private faner, fordi iBrowe sletter den cookie, som bevarer dig logget ind.\n\nDen, der forbinder dig til internettet (din internetudbyder), kan se al din netværksaktivitet. Ofte er det din mobiloperatør. Hvis du er forbundet til et wi-fi-netværk, er det ejeren af netværket, og hvis du bruger en VPN, er det den, der driver VPN'en. Din internetudbyder kan se, hvilke sider du besøger, når du besøger dem. Hvis disse sider bruger HTTPS, kan de allerhøjest lave et kvalificeret gæt på, hvad du laver på disse websteder. Men hvis en side kun bruger HTTP, kan din internetudbyder se alt: dine søgetermer, hvilke sider du læser, og hvilke links du følger.\n\nHvis en arbejdsgiver administrerer din enhed, kan de muligvis også holde øje med, hvad du gør med den. Brug af private faner vil sandsynligvis ikke forhindre dem i at vide, hvilke sider du har besøgt. En anden person med adgang til din enhed kan også have installeret software, der overvåger din aktivitet, og Private faner vil heller ikke beskytte dig mod dette.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Læs mere om Private faner.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Fortæl iBrowes udviklere at denne side ikke fungerer ordentligt med Shields";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Bemærk: Rapporten, der bliver sendt til Brave, indeholder webadressen, iBrowes versionsnummer, Shields-indstillinger, VPN-status og sprogindstillinger.";
+"ReportBrokenSiteBody2" = "Bemærk: Rapporten, der bliver sendt til iBrowe, indeholder webadressen, iBrowes versionsnummer, Shields-indstillinger, VPN-status og sprogindstillinger.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Indsend";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe lukkede uventet.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Med Brave Rewards kan du se annoncer, der beskytter privatlivets fred, fra iBrowe Ads-netværket. Ingen trackere. Ingen opbremsninger. Og dine data forbliver fuldstændig sikre.";
+"rewards.braveTalkRewardsOptInBody" = "Med iBrowe Rewards kan du se annoncer, der beskytter privatlivets fred, fra iBrowe Ads-netværket. Ingen trackere. Ingen opbremsninger. Og dine data forbliver fuldstændig sikre.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Slå Rewards til ";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Aktivér for at hjælpe med at støtte iBrowe og BAT-fællesskabet.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Du hjælper med at understøtte Brave og BAT-fællesskabet, når du bruger iBrowe Rewards.";
+"rewards.disabledStatusBody" = "Du hjælper med at understøtte iBrowe og BAT-fællesskabet, når du bruger iBrowe Rewards.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Du hjælper med at støtte iBrowe og BAT-fællesskabet";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Hvis du klikker, accepterer du %1$@ og %2$@. Du kan når som helst deaktivere i Indstillinger.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Støt Brave og BAT-fællesskabet ved at slå Brave Rewards til, så du får vist iBrowe Ads.";
+"rewards.settingsToggleMessage" = "Støt iBrowe og BAT-fællesskabet ved at slå iBrowe Rewards til, så du får vist iBrowe Ads.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Aktiver iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Slet synkroniseringskonto";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Denne kode ser ud til at være oprettet på en enhed med en ældre version af Brave. Opdatér til den nyeste version af iBrowe på din anden enhed, og opret en ny synkroniseringskode.";
+"sync.deprecatedVersionError" = "Denne kode ser ud til at være oprettet på en enhed med en ældre version af iBrowe. Opdatér til den nyeste version af iBrowe på din anden enhed, og opret en ny synkroniseringskode.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Noget gik galt under hentning af enheder i synkroniseringskæde.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Usikre kilder. Tilføjelse er på eget ansvar";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Følg dine yndlingskilder i et enkelt feed. Bare åbn en fane i Brave, rul ned, og... sådan!\niBrowe News er annonceunderstøttet med private, anonymiserede annoncer.";
+"today.introCardBody" = "Følg dine yndlingskilder i et enkelt feed. Bare åbn en fane i iBrowe, rul ned, og... sådan!\niBrowe News er annonceunderstøttet med private, anonymiserede annoncer.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Aktiver iBrowe News, og gå aldrig glip af en historie igen";

@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Procedi utilizzando il server Infura";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave userà Infura per risolvere i nomi di dominio .eth di Ethereum Name Service (ENS) . iBrowe nasconde l’indirizzo IP. Se si attiva questa opzione, Infura vedrà che qualcuno sta tentando di visitare questi domini .eth, ma non saprà nient’altro. Per informazioni: <a href=%1$@>%2$@</a> e <a href=%3$@>%4$@</a> di Infura.";
+"wallet.ensDomainInterstitialPageDescription" = "iBrowe userà Infura per risolvere i nomi di dominio .eth di Ethereum Name Service (ENS) . iBrowe nasconde l’indirizzo IP. Se si attiva questa opzione, Infura vedrà che qualcuno sta tentando di visitare questi domini .eth, ma non saprà nient’altro. Per informazioni: <a href=%1$@>%2$@</a> e <a href=%3$@>%4$@</a> di Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Vuoi attivare il supporto di Ethereum Name Service (ENS) su iBrowe?";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Standard del token";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Portafoglio Brave può usare un servizio di terze parti per mostrare automaticamente i tuoi NFT. Per fornire questo servizio, iBrowe condividerà con SimpleHash gli indirizzi del tuo portafoglio. Scopri di più.";
+"wallet.nftDiscoveryCalloutDescription" = "Portafoglio iBrowe può usare un servizio di terze parti per mostrare automaticamente i tuoi NFT. Per fornire questo servizio, iBrowe condividerà con SimpleHash gli indirizzi del tuo portafoglio. Scopri di più.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Scopri di più";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "Hai bisogno di un nuovo portafoglio?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave e il logo Brave sono marchi registrati di iBrowe. Altri nomi e loghi di prodotti possono essere marchi registrati delle rispettive aziende. Tutti i diritti sono riservati.";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe e il logo iBrowe sono marchi registrati di iBrowe. Altri nomi e loghi di prodotti possono essere marchi registrati delle rispettive aziende. Tutti i diritti sono riservati.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Importa il portafoglio esistente.";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Continua usando un server SNS";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Per risolvere i nomi di dominio .sol, Brave si affiderà a una terza parte. iBrowe nasconde però il tuo indirizzo IP. Se si attiva questa opzione, la terza parte vedrà che qualcuno sta tentando di visitare questi domini .sol, ma non saprà nient’altro. Per informazioni sulle terze parti da noi utilizzate e sulle loro politiche in materia di privacy, consulta la nostra <a href=%@>pagina di assistenza</a>.";
+"wallet.snsDomainInterstitialPageDescription" = "Per risolvere i nomi di dominio .sol, iBrowe si affiderà a una terza parte. iBrowe nasconde però il tuo indirizzo IP. Se si attiva questa opzione, la terza parte vedrà che qualcuno sta tentando di visitare questi domini .sol, ma non saprà nient’altro. Per informazioni sulle terze parti da noi utilizzate e sulle loro politiche in materia di privacy, consulta la nostra <a href=%@>pagina di assistenza</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "Vuoi attivare il supporto di Solana Name Service (SNS) su iBrowe?";

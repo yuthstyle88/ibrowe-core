@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Infuraサーバーを使用して続行する";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Braveは、Ethereum Name Service (ENS) 上にある.ethドメイン名の解決にInfuraを使用する予定です。iBroweではIPアドレスが非表示になるため、これを有効にすると、Infura側で分かるのはあるユーザーがこれらの.ethドメインを訪問しようとしていることのみです。Infuraの<a href=%1$@>%2$@</a>と <a href=%3$@>%4$@</a>もご覧ください。";
+"wallet.ensDomainInterstitialPageDescription" = "iBroweは、Ethereum Name Service (ENS) 上にある.ethドメイン名の解決にInfuraを使用する予定です。iBroweではIPアドレスが非表示になるため、これを有効にすると、Infura側で分かるのはあるユーザーがこれらの.ethドメインを訪問しようとしていることのみです。Infuraの<a href=%1$@>%2$@</a>と <a href=%3$@>%4$@</a>もご覧ください。";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "iBroweでイーサリアムネームサービス（ENS）のサポートを有効にしますか？";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "トークン規格";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Braveウォレットは、サードパーティーのサービスを利用してお客様のNFTを自動的に表示します。iBroweはこのサービスを提供するために、お客様のウォレットアドレスをSimpleHashと共有します。詳細はこちらをご覧ください。";
+"wallet.nftDiscoveryCalloutDescription" = "iBroweウォレットは、サードパーティーのサービスを利用してお客様のNFTを自動的に表示します。iBroweはこのサービスを提供するために、お客様のウォレットアドレスをSimpleHashと共有します。詳細はこちらをご覧ください。";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "以下について詳しく";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "新しいウォレットが必要ですか？";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. BraveおよびBraveロゴはiBroweの登録商標です。その他の製品名およびロゴは、各社の商標である場合があります。無断複写・転載を禁じます。";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBroweおよびiBroweロゴはiBroweの登録商標です。その他の製品名およびロゴは、各社の商標である場合があります。無断複写・転載を禁じます。";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "既存のウォレットをインポートします。";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "SNSサーバーを使用して続行する";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Braveは、.solドメイン名の解決にサードパーティを使用します。ユーザーのIPアドレスはiBroweには表示されません。これを有効にすると、サードパーティは、他のユーザーがこれらの.solドメインを訪問しようとしているかどうかの確認のみを行います。当社が使用するサードパーティとそのプライバシーポリシーの詳細については、<a href=%@>ヘルプページ</a>をご覧ください。";
+"wallet.snsDomainInterstitialPageDescription" = "iBroweは、.solドメイン名の解決にサードパーティを使用します。ユーザーのIPアドレスはiBroweには表示されません。これを有効にすると、サードパーティは、他のユーザーがこれらの.solドメインを訪問しようとしているかどうかの確認のみを行います。当社が使用するサードパーティとそのプライバシーポリシーの詳細については、<a href=%@>ヘルプページ</a>をご覧ください。";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "iBroweでソラナネームサービス（SNS）のサポートを有効にしますか？";

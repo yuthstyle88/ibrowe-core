@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Ange iBrowe som standardwebbläsare?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Med Brave som standard öppnas varje länk med iBrowes integritetsskydd.";
+"callout.defaultBrowserCalloutDescription" = "Med iBrowe som standard öppnas varje länk med iBrowes integritetsskydd.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Ange som standard";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Integritet. Helt enkelt.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Detta hjälper oss att lära oss vilka Brave-funktioner som används oftast. Du kan ändra dem när som helst i Brave-inställningarna under iBrowe Shields och andra sekretessinställningar.";
+"callout.p3aCalloutDescription" = "Detta hjälper oss att lära oss vilka iBrowe-funktioner som används oftast. Du kan ändra dem när som helst i iBrowe-inställningarna under iBrowe Shields och andra sekretessinställningar.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Läs mer om vår integritetsbevarande produktanalys (P3A)";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Dölj iBrowe Rewards-ikonen";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Döljer Brave Rewards-ikonen när iBrowe Rewards inte är aktiverat";
+"HideRewardsIconSubtitle" = "Döljer iBrowe Rewards-ikonen när iBrowe Rewards inte är aktiverat";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historik";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Tillåt iBrowe att kontrollera urklipp för en matchande hänvisningskod";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Du kanske har laddat ner Brave till stöd för din hänvisare. För att upptäcka din hänvisare utför Brave en engångskontroll av urklipp med avseende på matchande hänvisningskod. Denna kontroll är endast begränsad till koden och inga andra personuppgifter kommer att överföras. Om du väljer bort kommer inte din hänvisare att få belöningar från iBrowe.";
+"OBPrivacyConsentDetail" = "Du kanske har laddat ner iBrowe till stöd för din hänvisare. För att upptäcka din hänvisare utför iBrowe en engångskontroll av urklipp med avseende på matchande hänvisningskod. Denna kontroll är endast begränsad till koden och inga andra personuppgifter kommer att överföras. Om du väljer bort kommer inte din hänvisare att få belöningar från iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Tillåt inte denna kontroll";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Länka din VPN-prenumeration";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Din Brave VPN-prenumeration kan skydda upp till 10 enheter, på Android, iOS och stationära datorer. Länka bara din App Store-prenumeration till ditt iBrowe-konto.";
+"onboarding.linkReceiptDescription" = "Din iBrowe VPN-prenumeration kan skydda upp till 10 enheter, på Android, iOS och stationära datorer. Länka bara din App Store-prenumeration till ditt iBrowe-konto.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Utöka ditt iBrowe Firewall + VPN-skydd";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Läget endast privat surfning kommer att stänga alla öppna flikar och logga ut dig från alla webbplatser.";
 
 /* Private tab details */
-"PrivateTabBody" = "Privata flikar sparas inte i Brave, men de gör dig inte anonym online. Webbplatser som du besöker på en privat flik visas inte i din historik och deras cookies försvinner alltid när du stänger dem – det finns inga spår av dem kvar i iBrowe. Men hämtningar sparas.\nDin mobiloperatör (eller ägaren till WiFi-nätverket eller den VPN som du är ansluten till) kan se vilka webbplatser som du besöker och vilka webbplatser som kommer att lära sig din offentliga IP-adress, även i privata flikar.";
+"PrivateTabBody" = "Privata flikar sparas inte i iBrowe, men de gör dig inte anonym online. Webbplatser som du besöker på en privat flik visas inte i din historik och deras cookies försvinner alltid när du stänger dem – det finns inga spår av dem kvar i iBrowe. Men hämtningar sparas.\nDin mobiloperatör (eller ägaren till WiFi-nätverket eller den VPN som du är ansluten till) kan se vilka webbplatser som du besöker och vilka webbplatser som kommer att lära sig din offentliga IP-adress, även i privata flikar.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "När du använder privata flikar ändras Brave bara på din enhet, ingen annans.\n\nWebbplatser får alltid veta din IP-adress när du besöker dem. Utifrån detta kan de oftast räkna ut ungefär var du befinner dig, till exempel din ort. Ibland kan de gissa mer specifikt. Webbplatser vet också allt som du explicit anger, till exempel sökningar. Om du loggar in på en webbplats vet de att du äger kontot. Du loggas ut när du stänger den privata fliken eftersom iBrowe raderar den cookie som håller dig inloggad.\n\nDin internetleverantör, alltså den som tillhandahåller din internetanslutning, kan se all din nätverksaktivitet. Beroende på anslutningstyp är leverantören din mobilleverantör (för mobildata), wifi-nätets ägare (för wifi) eller den som tillhandahåller din VPN-anslutning (för VPN). Leverantören kan se vilka webbplatser du besöker. Om webbplatserna har HTTPS kan leverantören inte se mer än vilken platsen är, men om webbplatsen bara har HTTP kan leverantören se allt: vad du söker på, vilka sidor du läser och vilka länkar du följer.\n\nOm ditt företag ansvarar för din enhet kan de också se vad du gör med den. Att använda privata flikar kommer förmodligen inte hindra dem från att ta reda på vilka webbplatser du besökt. Någon annan med tillgång till din enhet kan ha installerat ett program som övervakar din aktivitet, och privata flikar skyddar inte mot det heller.";
+"PrivateTabDetails" = "När du använder privata flikar ändras iBrowe bara på din enhet, ingen annans.\n\nWebbplatser får alltid veta din IP-adress när du besöker dem. Utifrån detta kan de oftast räkna ut ungefär var du befinner dig, till exempel din ort. Ibland kan de gissa mer specifikt. Webbplatser vet också allt som du explicit anger, till exempel sökningar. Om du loggar in på en webbplats vet de att du äger kontot. Du loggas ut när du stänger den privata fliken eftersom iBrowe raderar den cookie som håller dig inloggad.\n\nDin internetleverantör, alltså den som tillhandahåller din internetanslutning, kan se all din nätverksaktivitet. Beroende på anslutningstyp är leverantören din mobilleverantör (för mobildata), wifi-nätets ägare (för wifi) eller den som tillhandahåller din VPN-anslutning (för VPN). Leverantören kan se vilka webbplatser du besöker. Om webbplatserna har HTTPS kan leverantören inte se mer än vilken platsen är, men om webbplatsen bara har HTTP kan leverantören se allt: vad du söker på, vilka sidor du läser och vilka länkar du följer.\n\nOm ditt företag ansvarar för din enhet kan de också se vad du gör med den. Att använda privata flikar kommer förmodligen inte hindra dem från att ta reda på vilka webbplatser du besökt. Någon annan med tillgång till din enhet kan ha installerat ett program som övervakar din aktivitet, och privata flikar skyddar inte mot det heller.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Läs mer om privata flikar.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Låt iBrowes utvecklare vet att denna webbplats inte fungerar korrekt med Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Observera: Rapporten som skickas till Brave-servrar innehåller webbplatsadress, iBrowe-versionsnummer, Shields-inställningar, VPN-status och språkinställningar.";
+"ReportBrokenSiteBody2" = "Observera: Rapporten som skickas till iBrowe-servrar innehåller webbplatsadress, iBrowe-versionsnummer, Shields-inställningar, VPN-status och språkinställningar.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Skicka";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe avslutades oväntat.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Med Brave Rewards kan du se sekretessbevarande annonser från iBrowe Ads-nätverket. Inga spårare. Inga kapacitetssänkningar. Och dina data förblir helt säkra.";
+"rewards.braveTalkRewardsOptInBody" = "Med iBrowe Rewards kan du se sekretessbevarande annonser från iBrowe Ads-nätverket. Inga spårare. Inga kapacitetssänkningar. Och dina data förblir helt säkra.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Slå på belöningar";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Aktivera för att stödja iBrowe och BAT-communityn.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Genom att använda Brave Belöningar hjälper du till att stödja iBrowe och BAT-communityn.";
+"rewards.disabledStatusBody" = "Genom att använda iBrowe Belöningar hjälper du till att stödja iBrowe och BAT-communityn.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Du hjälper till att stödja iBrowe och BAT-communityn.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Genom att klicka godkänner du %1$@ och %2$@. Inaktivera när som helst i Inställningar.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Hjälp till att stödja Brave och BAT-communityn genom att aktivera Brave Belöningar och se iBrowe Annonser.";
+"rewards.settingsToggleMessage" = "Hjälp till att stödja iBrowe och BAT-communityn genom att aktivera iBrowe Belöningar och se iBrowe Annonser.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Aktivera iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Ta bort Sync-konto";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Det ser ut som att den här koden skapades på en enhet som kör en äldre version av Brave. Uppdatera till den senaste versionen av iBrowe på din andra enhet och skapa sedan en ny synkroniseringskod.";
+"sync.deprecatedVersionError" = "Det ser ut som att den här koden skapades på en enhet som kör en äldre version av iBrowe. Uppdatera till den senaste versionen av iBrowe på din andra enhet och skapa sedan en ny synkroniseringskod.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Något gick fel när enheter hämtades i synkroniseringskedjan.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Osäkra källor - Lägg till på egen risk";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Följ dina favoritkällor i ett enda flöde. Öppna bara en flik i Brave, bläddra ner och … voila!\niBrowe News stöds av annonser med privata, anonymiserade annonser.";
+"today.introCardBody" = "Följ dina favoritkällor i ett enda flöde. Öppna bara en flik i iBrowe, bläddra ner och … voila!\niBrowe News stöds av annonser med privata, anonymiserade annonser.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Aktivera iBrowe News så missar du inga nyheter";

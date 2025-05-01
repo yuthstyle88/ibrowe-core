@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Teruskan penggunaan pelayan Infura";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave akan menggunakan Infura untuk menyelesaikan nama domain .eth yang terdapat pada Ethereum Name Service (ENS). iBrowe menyembunyikan alamat IP anda. Jika anda mendayakan ciri ini, Infura dapat lihat bahawa ada orang cuba melawat domain .eth ini tetapi setakat itu sahaja. Lihat <a href=%1$@>%2$@</a> dan <a href=%3$@>%4$@</a> Infura.";
+"wallet.ensDomainInterstitialPageDescription" = "iBrowe akan menggunakan Infura untuk menyelesaikan nama domain .eth yang terdapat pada Ethereum Name Service (ENS). iBrowe menyembunyikan alamat IP anda. Jika anda mendayakan ciri ini, Infura dapat lihat bahawa ada orang cuba melawat domain .eth ini tetapi setakat itu sahaja. Lihat <a href=%1$@>%2$@</a> dan <a href=%3$@>%4$@</a> Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Dayakan Sokongan Ethereum Name Service (ENS) di iBrowe?";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Standard Token";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Brave Wallet boleh menggunakan perkhidmatan pihak ketiga untuk memaparkan NFT anda secara automatik. iBrowe akan berkongsi alamat dompet anda dengan SimpleHash untuk menyediakan perkhidmatan ini. Ketahui lebih lanjut.";
+"wallet.nftDiscoveryCalloutDescription" = "iBrowe Wallet boleh menggunakan perkhidmatan pihak ketiga untuk memaparkan NFT anda secara automatik. iBrowe akan berkongsi alamat dompet anda dengan SimpleHash untuk menyediakan perkhidmatan ini. Ketahui lebih lanjut.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Ketahui lebih lanjut";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "Perlukan dompet baharu?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave dan logo Brave ialah tanda dagangan iBrowe. Nama dan logo produk lain mungkin merupakan tanda dagangan syarikat masing-masing. Hak cipta terpelihara.";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe dan logo iBrowe ialah tanda dagangan iBrowe. Nama dan logo produk lain mungkin merupakan tanda dagangan syarikat masing-masing. Hak cipta terpelihara.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Import dompet anda yang sedia ada.";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Teruskan penggunaan pelayan SNS";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Brave akan menggunakan pihak ketiga untuk menyelesaikan nama domain .sol. iBrowe menyembunyikan alamat IP anda. Jika anda mendayakan ciri ini, pihak ketiga akan melihat bahawa ada orang yang cuba melawat domain .sol ini tetapi setakat itu sahaja. Untuk mendapatkan maklumat lanjut mengenai jenis pihak ketiga yang kami gunakan dan dasar privasi mereka, sila lihat <a href=%@>halaman bantuan</a> kami.";
+"wallet.snsDomainInterstitialPageDescription" = "iBrowe akan menggunakan pihak ketiga untuk menyelesaikan nama domain .sol. iBrowe menyembunyikan alamat IP anda. Jika anda mendayakan ciri ini, pihak ketiga akan melihat bahawa ada orang yang cuba melawat domain .sol ini tetapi setakat itu sahaja. Untuk mendapatkan maklumat lanjut mengenai jenis pihak ketiga yang kami gunakan dan dasar privasi mereka, sila lihat <a href=%@>halaman bantuan</a> kami.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "Dayakan Sokongan Solana Name Service (SNS) di iBrowe?";

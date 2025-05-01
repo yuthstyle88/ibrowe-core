@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Postaviti preglednik iBrowe kao zadani preglednik?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Kad je Brave postavljen kao zadani preglednik, svaka veza koju dodirnete otvara se uz zaštite privatnosti preglednika iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Kad je iBrowe postavljen kao zadani preglednik, svaka veza koju dodirnete otvara se uz zaštite privatnosti preglednika iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Postavi kao zadano";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Pojednostavljena zaštita privatnosti.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Na taj način doznajemo koje se značajke preglednika Brave najčešće upotrebljavaju. Promijenite u bilo kojem trenutku u postavkama preglednika Brave pod stavkom Štitovi iBrowe i druge postavke privatnosti.";
+"callout.p3aCalloutDescription" = "Na taj način doznajemo koje se značajke preglednika iBrowe najčešće upotrebljavaju. Promijenite u bilo kojem trenutku u postavkama preglednika iBrowe pod stavkom Štitovi iBrowe i druge postavke privatnosti.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Doznajte više o našoj analitici proizvoda kojom se čuva privatnost (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Sakrij ikonu nagrada iBrowe";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Skriva se ikona Nagrade Brave kada značajka Nagrade iBrowe nije omogućena";
+"HideRewardsIconSubtitle" = "Skriva se ikona Nagrade iBrowe kada značajka Nagrade iBrowe nije omogućena";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Povijest";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Dopusti pregledniku iBrowe provjeravanje međuspremnika za otkrivanje podudarajuće šifre preporuke";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Možda ste preuzeli preglednik Brave za davanje podrške svom preporučitelju. Kako bi se otkrio vaš preporučitelj, preglednikom Brave jednokratno se provjerava vaš međuspremnik za odgovarajuću šifru preporuke. Provjera je ograničena samo na šifru i ne prenose se nikakvi drugi osobni podatci. Ako povučete svoju privolu, vaš preporučitelj ne prima nagrade preglednika iBrowe.";
+"OBPrivacyConsentDetail" = "Možda ste preuzeli preglednik iBrowe za davanje podrške svom preporučitelju. Kako bi se otkrio vaš preporučitelj, preglednikom iBrowe jednokratno se provjerava vaš međuspremnik za odgovarajuću šifru preporuke. Provjera je ograničena samo na šifru i ne prenose se nikakvi drugi osobni podatci. Ako povučete svoju privolu, vaš preporučitelj ne prima nagrade preglednika iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Ne dopusti ovu provjeru";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Povežite svoju pretplatu na VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Vašom pretplatom na mrežu VPN preglednika Brave može se zaštititi do pet (10) uređaja diljem sustava Android, iOS i stolnog računala. Samo povežite svoju pretplatu iz trgovine App Store s računom iBrowe.";
+"onboarding.linkReceiptDescription" = "Vašom pretplatom na mrežu VPN preglednika iBrowe može se zaštititi do pet (10) uređaja diljem sustava Android, iOS i stolnog računala. Samo povežite svoju pretplatu iz trgovine App Store s računom iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Proširite svoj vatrozid iBrowe + zaštitu mreže VPN";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "U načinu „Samo privatno pregledavanje” zatvaraju se sve vaše trenutačne kartice i odjavljujete se iz svih mrežnih mjesta.";
 
 /* Private tab details */
-"PrivateTabBody" = "Privatne kartice ne spremaju se u pregledniku Brave, ali njihovom upotrebom niste anonimni na mreži. Mrežna mjesta koja posjećujete u privatnoj kartici ne pojavljuju se u vašoj povijesti i njihovi kolačići uvijek nestaju kada ih zatvorite – u pregledniku iBrowe ne ostaje nikakav njihov trag. Međutim, preuzimanja se spremaju.\nVaš mobilni operater (ili vlasnik mreže Wi-Fi mreže ili mreže VPN s kojom ste povezani) može vidjeti koja mrežna mjesta posjećujete i ta mrežna mjesta znaju vašu javnu adresu IP čak u privatnim karticama.";
+"PrivateTabBody" = "Privatne kartice ne spremaju se u pregledniku iBrowe, ali njihovom upotrebom niste anonimni na mreži. Mrežna mjesta koja posjećujete u privatnoj kartici ne pojavljuju se u vašoj povijesti i njihovi kolačići uvijek nestaju kada ih zatvorite – u pregledniku iBrowe ne ostaje nikakav njihov trag. Međutim, preuzimanja se spremaju.\nVaš mobilni operater (ili vlasnik mreže Wi-Fi mreže ili mreže VPN s kojom ste povezani) može vidjeti koja mrežna mjesta posjećujete i ta mrežna mjesta znaju vašu javnu adresu IP čak u privatnim karticama.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Upotrebom privatnih kartica mijenja se samo ono što preglednik Brave radi na vašem uređaju, a ne mijenja se ponašanje drugih.\n\nMrežna mjesta uvijek znaju vašu adresu IP kada ih posjetite. Na osnovi toga često mogu približno pogoditi gdje se nalazite – obično vaš grad. Ponekad ta pretpostavka o lokaciji može biti mnogo preciznija. Mrežna mjesta također znaju sve što im izravno navedete kao što su pojmovi za pretraživanje. Ako se prijavite u mrežno mjesto, ono zna da ste vlasnik tog računa. No, i dalje ste odjavljeni kada zatvorite privatne kartice jer se preglednikom iBrowe odbacuje kolačić kojim se održava prijava.\n\nSvatko putem koga se povezujete s internetom (vaš pružatelj internetskih usluga (ISP)) može vidjeti sve vaše mrežne aktivnosti. Često je to vaš mobilni operater. Ako ste povezani s mrežom Wi-Fi, to je vlasnik te mreže, a ako upotrebljavate mrežu VPN, onda je to pružatelj te mreže VPN. Vaš ISP može vidjeti koja mrežna mjesta posjećujete dok ih posjećujete. Ako se na tim mrežnim mjestima upotrebljava HTTPS, ne može napraviti ništa više od pretpostavljanja onoga što radite na tim mrežnim mjestima. No, ako se na mrežnom mjestu upotrebljava samo HTTP, vaš ISP može vidjeti sve: pojmove za pretraživanje, stranice koje čitate i poveznice na koje ste kliknuli.\n\nAko poslodavac upravlja vašim uređajem, mogao bi pratiti i što radite na njemu. Korištenjem privatnih kartica vjerojatno ga ne možete spriječiti da dozna koja ste mrežna mjesta posjetili. Netko drugi s pristupom vašem uređaju također može instalirati softver kojim se prati vaša aktivnost, a u privatnim karticama nemate zaštitu ni od toga.";
+"PrivateTabDetails" = "Upotrebom privatnih kartica mijenja se samo ono što preglednik iBrowe radi na vašem uređaju, a ne mijenja se ponašanje drugih.\n\nMrežna mjesta uvijek znaju vašu adresu IP kada ih posjetite. Na osnovi toga često mogu približno pogoditi gdje se nalazite – obično vaš grad. Ponekad ta pretpostavka o lokaciji može biti mnogo preciznija. Mrežna mjesta također znaju sve što im izravno navedete kao što su pojmovi za pretraživanje. Ako se prijavite u mrežno mjesto, ono zna da ste vlasnik tog računa. No, i dalje ste odjavljeni kada zatvorite privatne kartice jer se preglednikom iBrowe odbacuje kolačić kojim se održava prijava.\n\nSvatko putem koga se povezujete s internetom (vaš pružatelj internetskih usluga (ISP)) može vidjeti sve vaše mrežne aktivnosti. Često je to vaš mobilni operater. Ako ste povezani s mrežom Wi-Fi, to je vlasnik te mreže, a ako upotrebljavate mrežu VPN, onda je to pružatelj te mreže VPN. Vaš ISP može vidjeti koja mrežna mjesta posjećujete dok ih posjećujete. Ako se na tim mrežnim mjestima upotrebljava HTTPS, ne može napraviti ništa više od pretpostavljanja onoga što radite na tim mrežnim mjestima. No, ako se na mrežnom mjestu upotrebljava samo HTTP, vaš ISP može vidjeti sve: pojmove za pretraživanje, stranice koje čitate i poveznice na koje ste kliknuli.\n\nAko poslodavac upravlja vašim uređajem, mogao bi pratiti i što radite na njemu. Korištenjem privatnih kartica vjerojatno ga ne možete spriječiti da dozna koja ste mrežna mjesta posjetili. Netko drugi s pristupom vašem uređaju također može instalirati softver kojim se prati vaša aktivnost, a u privatnim karticama nemate zaštitu ni od toga.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Doznajte više o privatnim karticama.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Javite razvojnim inženjerima preglednika iBrowe da ovo mrežno mjesto ne radi ispravno pri uporabi značajke Štitovi:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Napomena: izvješćem koje se šalje poslužiteljima Brave uključuje se: adresa mrežnog mjesta, broj inačice preglednika iBrowe, postavke štitova, status mreže VPN i postavke jezika.";
+"ReportBrokenSiteBody2" = "Napomena: izvješćem koje se šalje poslužiteljima iBrowe uključuje se: adresa mrežnog mjesta, broj inačice preglednika iBrowe, postavke štitova, status mreže VPN i postavke jezika.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Pošalji";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "Preglednik iBrowe neočekivano se zatvorio.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Upotrebom značajke Nagrade Brave možete vidjeti oglase kojima se čuva privatnost iz mreže značajke Oglasi iBrowe. Nema elemenata za praćenje. Nema usporavanja, a vaši podatci ostaju potpuno sigurni.";
+"rewards.braveTalkRewardsOptInBody" = "Upotrebom značajke Nagrade iBrowe možete vidjeti oglase kojima se čuva privatnost iz mreže značajke Oglasi iBrowe. Nema elemenata za praćenje. Nema usporavanja, a vaši podatci ostaju potpuno sigurni.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Uključi Nagrade";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Uključite kako biste podržali iBrowe i zajednicu BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Uporaba značajke Brave Rewards pomaže u podržavanju preglednika iBrowe i zajednice BAT.";
+"rewards.disabledStatusBody" = "Uporaba značajke iBrowe Rewards pomaže u podržavanju preglednika iBrowe i zajednice BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Pomažete u podržavanje preglednika iBrowe i zajednice BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Klikom pristajete na dokumente %1$@ i %2$@. Onemogućite u bilo kojem trenutku u postavkama.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Pomozite podržati Brave i zajednicu BAT tako što ćete omogućiti značajku Brave Rewards i vidjeti iBrowe Ads.";
+"rewards.settingsToggleMessage" = "Pomozite podržati iBrowe i zajednicu BAT tako što ćete omogućiti značajku iBrowe Rewards i vidjeti iBrowe Ads.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Omogući uslugu Nagrade iBrowe";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Izbriši račun za sinkronizaciju";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Izgleda da je ovaj kȏd nastao na uređaju s instaliranom starijom inačicom preglednika Brave. Ažurirajte na najnoviju inačicu preglednika iBrowe na svom drugom uređaju, a zatim stvorite novi kȏd za sinkronizaciju.";
+"sync.deprecatedVersionError" = "Izgleda da je ovaj kȏd nastao na uređaju s instaliranom starijom inačicom preglednika iBrowe. Ažurirajte na najnoviju inačicu preglednika iBrowe na svom drugom uređaju, a zatim stvorite novi kȏd za sinkronizaciju.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Nešto nije u redu pri dohvaćanju uređaja u lancu sinkronizacije.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Nesigurni izvori – dodavanje na vlastitu odgovornost";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Pratite svoje omiljene izvore u jednom sažetku sadržaja. Jednostavno otvorite karticu u pregledniku Brave, pomaknite prema dolje i... voila!\nZnačajka Novosti iBrowe podržana je privatnim anonimiziranim oglasima.";
+"today.introCardBody" = "Pratite svoje omiljene izvore u jednom sažetku sadržaja. Jednostavno otvorite karticu u pregledniku iBrowe, pomaknite prema dolje i... voila!\nZnačajka Novosti iBrowe podržana je privatnim anonimiziranim oglasima.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Uključi značajku Novosti iBrowe i nikada ne propusti priču";

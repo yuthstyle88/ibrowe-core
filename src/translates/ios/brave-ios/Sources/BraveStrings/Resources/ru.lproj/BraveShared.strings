@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Защитите данные одним нажатием";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Это поможет нам узнать, какими функциями Brave пользуются чаще всего. Вы можете в любое время изменить выбор в меню «iBrowe Щит» и «Другие настройки конфиденциальности».";
+"callout.p3aCalloutDescription" = "Это поможет нам узнать, какими функциями iBrowe пользуются чаще всего. Вы можете в любое время изменить выбор в меню «iBrowe Щит» и «Другие настройки конфиденциальности».";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Узнайте больше об аналитике продукта без нарушения конфиденциальности (P3A)";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Скрыть значок iBrowe Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Скрывает значок Brave Rewards, если сервис iBrowe Rewards не включен";
+"HideRewardsIconSubtitle" = "Скрывает значок iBrowe Rewards, если сервис iBrowe Rewards не включен";
 
 /* Title for history menu item */
 "HistortMenuItem" = "История";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Разрешить iBrowe доступ к буферу обмена, чтобы автоматически вставить код реферала";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Вероятно, вы скачали Brave по пригласительной ссылке. Чтобы определить ее источник, Brave однократно проверит ваш буфер обмена на наличие кода реферала. Никакие другие данные проверяться или передаваться не будут. Если вы не предоставите разрешение, пользователь, пригласивший вас, не получит вознаграждения от iBrowe.";
+"OBPrivacyConsentDetail" = "Вероятно, вы скачали iBrowe по пригласительной ссылке. Чтобы определить ее источник, iBrowe однократно проверит ваш буфер обмена на наличие кода реферала. Никакие другие данные проверяться или передаваться не будут. Если вы не предоставите разрешение, пользователь, пригласивший вас, не получит вознаграждения от iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Запретить проверку";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Привяжите подписку на VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Вы можете использовать Brave VPN максимум на10 устройствах, в том числе Android, iOS и компьютерах. Для этого привяжите подписку App Store к аккаунту iBrowe.";
+"onboarding.linkReceiptDescription" = "Вы можете использовать iBrowe VPN максимум на10 устройствах, в том числе Android, iOS и компьютерах. Для этого привяжите подписку App Store к аккаунту iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Получите больше от функции «iBrowe Брандмауэр + VPN»";
@@ -1715,7 +1715,7 @@
 "playList.sorryAlertTitle" = "Сожалеем";
 
 /* The title for the toast that shows up on a page containing a playlist item that was added to playlist */
-"playList.toastAddedToPlaylistTitle" = "Вы можете использовать Brave VPN максимум на пяти устройствах Android, iOS и компьютерах. Для этого привяжите подписку App Store к аккаунту iBrowe.";
+"playList.toastAddedToPlaylistTitle" = "Вы можете использовать iBrowe VPN максимум на пяти устройствах Android, iOS и компьютерах. Для этого привяжите подписку App Store к аккаунту iBrowe.";
 
 /* The title for the toast button when an item was added to playlist */
 "playList.toastAddToPlaylistOpenButton" = "Открыть";
@@ -1868,7 +1868,7 @@
 "privacyHub.allTimeListsWebsitesView" = "Сайты";
 
 /* Header title for a list of most frequent ads and trackers detected. */
-"privacyHub.allTimeListTrackersHeaderTitle" = "Вы можете использовать Brave VPN максимум на пяти устройствах Android, iOS и компьютерах. Для этого привяжите подписку App Store к аккаунту iBrowe.";
+"privacyHub.allTimeListTrackersHeaderTitle" = "Вы можете использовать iBrowe VPN максимум на пяти устройствах Android, iOS и компьютерах. Для этого привяжите подписку App Store к аккаунту iBrowe.";
 
 /* Header title for a list of websites with ads and trackers. */
 "privacyHub.allTimeListWebsitesHeaderTitle" = "Наиболее часто встречающиеся трекеры & реклама на сайтах, которые ты посещаешь.";
@@ -2024,7 +2024,7 @@
 "PrivateTabBody" = "Вкладки инкогнито в браузере iBrowe не сохраняются, но это не дает вам полной анонимности в интернете. Посещаемые здесь сайты не отобразятся в истории браузера, а файлы cookie удалятся сразу после закрытия вкладки. Однако скачанные файлы останутся на устройстве.\nВаш мобильный оператор (или владелец сети Wi-Fi/провайдер VPN) сможет увидеть, какие сайты вы посещали, а у сайтов будет доступ к вашему внешнему IP-адресу, даже если вы открывали их во вкладках инкогнито.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Использование приватных вкладок влияет только на то, какую информацию браузер Brave сохраняет на вашем устройстве.\n\nСайты получают ваш IP-адрес автоматически, как только вы заходите на них. Исходя из этого, они часто могут определить ваше примерное местоположение — как правило, на уровне города. Иногда эти данные могут быть более точными. Кроме того, сайты сохраняют всю вводимую вами информацию, например поисковые запросы. При авторизации на сайте им станет известно, что вы являетесь владельцем этой учетной записи. При закрытии приватных вкладок вы автоматически выйдете из аккаунта, так как iBrowe удалит файлы cookie, необходимые для того, чтобы оставаться в системе.\n\nВаши действия в сети может отслеживать интернет-провайдер. Как правило, это оператор мобильной связи либо владелец сети Wi-Fi или VPN, в зависимости от того, кто предоставляет вам доступ к интернету. Интернет-провайдер сможет увидеть, какие сайты вы посещаете. Если сайты защищены соединением HTTPS, в таком случае можно лишь догадываться о ваших действиях на этих сайтах. Однако если поддерживается только протокол HTTP, интернет-провайдер сможет узнать всё: какие поисковые запросы вы вводили, какие страницы посещали, по каким ссылкам переходили\n\nЕсли работодатель управляет вашим устройством, он также может следить за тем, какие сайты вы посещаете. Даже использование приватных вкладок не поможет скрыть информацию. Те, у кого есть доступ к вашему устройству, могут установить программу, отслеживающую ваши действия — приватные вкладки не помогут и в этом случае.";
+"PrivateTabDetails" = "Использование приватных вкладок влияет только на то, какую информацию браузер iBrowe сохраняет на вашем устройстве.\n\nСайты получают ваш IP-адрес автоматически, как только вы заходите на них. Исходя из этого, они часто могут определить ваше примерное местоположение — как правило, на уровне города. Иногда эти данные могут быть более точными. Кроме того, сайты сохраняют всю вводимую вами информацию, например поисковые запросы. При авторизации на сайте им станет известно, что вы являетесь владельцем этой учетной записи. При закрытии приватных вкладок вы автоматически выйдете из аккаунта, так как iBrowe удалит файлы cookie, необходимые для того, чтобы оставаться в системе.\n\nВаши действия в сети может отслеживать интернет-провайдер. Как правило, это оператор мобильной связи либо владелец сети Wi-Fi или VPN, в зависимости от того, кто предоставляет вам доступ к интернету. Интернет-провайдер сможет увидеть, какие сайты вы посещаете. Если сайты защищены соединением HTTPS, в таком случае можно лишь догадываться о ваших действиях на этих сайтах. Однако если поддерживается только протокол HTTP, интернет-провайдер сможет узнать всё: какие поисковые запросы вы вводили, какие страницы посещали, по каким ссылкам переходили\n\nЕсли работодатель управляет вашим устройством, он также может следить за тем, какие сайты вы посещаете. Даже использование приватных вкладок не поможет скрыть информацию. Те, у кого есть доступ к вашему устройству, могут установить программу, отслеживающую ваши действия — приватные вкладки не помогут и в этом случае.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Подробнее о вкладках инкогнито…";
@@ -2189,10 +2189,10 @@
 "ReportBrokenContactMeSuggestions" = "Адрес электронной почты, Твиттер и т. д.";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Сообщите разработчикам Brave, что этот сайт некорректно работает с системой iBrowe Shields:";
+"ReportBrokenSiteBody1" = "Сообщите разработчикам iBrowe, что этот сайт некорректно работает с системой iBrowe Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Примечание. В отчете, который вы отправите на серверы Brave, будет указан адрес сайта, версия iBrowe, настройки Щита, статус VPN и языковые параметры.";
+"ReportBrokenSiteBody2" = "Примечание. В отчете, который вы отправите на серверы iBrowe, будет указан адрес сайта, версия iBrowe, настройки Щита, статус VPN и языковые параметры.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Отправить";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "Неожиданное завершение работы";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "С Brave Rewards вы можете просматривать рекламу из iBrowe Ads без замедления работы и отслеживания активности. Ваши данные находятся под надежной защитой. ";
+"rewards.braveTalkRewardsOptInBody" = "С iBrowe Rewards вы можете просматривать рекламу из iBrowe Ads без замедления работы и отслеживания активности. Ваши данные находятся под надежной защитой. ";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Включить Награды";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Включите, чтобы поддержать iBrowe и сообщество BAT";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Используя Brave Награды, вы помогаете поддерживать iBrowe и сообщество BAT.";
+"rewards.disabledStatusBody" = "Используя iBrowe Награды, вы помогаете поддерживать iBrowe и сообщество BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Вы помогаете поддерживать iBrowe и сообщество BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Нажимая кнопку, вы принимаете следующие соглашения: %1$@ и %2$@. Вы можете в любое время изменить настройки.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Вы можете поддержать Brave и сообщество BAT, включив Brave Награды и просматривая iBrowe Рекламу.";
+"rewards.settingsToggleMessage" = "Вы можете поддержать iBrowe и сообщество BAT, включив iBrowe Награды и просматривая iBrowe Рекламу.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Включить iBrowe Rewards";
@@ -3026,7 +3026,7 @@
 "sync.deleteAccount" = "Удалить аккаунт Синхронизации";
 
 /* Part 1 Description for Alert used action Delete Sync Account. */
-"sync.deleteAccountAlertDescriptionPart1" = "Если вы удалите аккаунт, то ваши зашифрованные данные будут удалены с серверов Brave, а iBrowe Синхронизация отключится на всех подключенных устройствах.";
+"sync.deleteAccountAlertDescriptionPart1" = "Если вы удалите аккаунт, то ваши зашифрованные данные будут удалены с серверов iBrowe, а iBrowe Синхронизация отключится на всех подключенных устройствах.";
 
 /* Part 2 Description for Alert used action Delete Sync Account. */
 "sync.deleteAccountAlertDescriptionPart2" = "При этом данные, которые хранятся на этих устройствах локально, не удалятся.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Небезопасные источники (добавьте на ваше усмотрение)";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Читайте новости из любимых источников в одной ленте. Просто откройте вкладку Brave и прокрутите вниз!\nСервис «iBrowe Новости» содержит рекламу, не нарушающую конфиденциальность ваших данных.";
+"today.introCardBody" = "Читайте новости из любимых источников в одной ленте. Просто откройте вкладку iBrowe и прокрутите вниз!\nСервис «iBrowe Новости» содержит рекламу, не нарушающую конфиденциальность ваших данных.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Включите iBrowe Новости и будьте в курсе всех событий";

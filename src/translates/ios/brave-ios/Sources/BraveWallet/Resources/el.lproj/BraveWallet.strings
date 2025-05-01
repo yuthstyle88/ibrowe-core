@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Συνεχίστε χρησιμοποιώντας τον διακομιστή Infura";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Το Brave θα χρησιμοποιεί το Infura για την επίλυση ονομάτων τομέα .eth που βρίσκονται στην Υπηρεσία ονομάτων Ethereum (ENS). Το iBrowe αποκρύπτει τη διεύθυνση IP σας. Εάν ενεργοποιήσετε αυτή την επιλογή, το Infura θα βλέπει ότι κάποιος προσπαθεί να επισκεφτεί αυτούς τους τομείς .eth, αλλά τίποτε άλλο. Ανατρέξτε στις ενότητες <a href=%1$@>%2$@</a> και <a href=%3$@>%4$@</a> του Infura.";
+"wallet.ensDomainInterstitialPageDescription" = "Το iBrowe θα χρησιμοποιεί το Infura για την επίλυση ονομάτων τομέα .eth που βρίσκονται στην Υπηρεσία ονομάτων Ethereum (ENS). Το iBrowe αποκρύπτει τη διεύθυνση IP σας. Εάν ενεργοποιήσετε αυτή την επιλογή, το Infura θα βλέπει ότι κάποιος προσπαθεί να επισκεφτεί αυτούς τους τομείς .eth, αλλά τίποτε άλλο. Ανατρέξτε στις ενότητες <a href=%1$@>%2$@</a> και <a href=%3$@>%4$@</a> του Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Ενεργοποίηση υποστήριξης της Υπηρεσίας ονομάτων Ethereum (ENS) στο iBrowe;";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Τυπικό Token";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Το Πορτοφόλι Brave μπορεί να χρησιμοποιεί μια υπηρεσία τρίτων για αυτόματη εμφάνιση των NFT σας. Η iBrowe θα κοινοποιήσει τις διευθύνσεις του πορτοφολιού σας στο SimpleHash για την παροχή αυτής της υπηρεσίας. Μάθετε περισσότερα.";
+"wallet.nftDiscoveryCalloutDescription" = "Το Πορτοφόλι iBrowe μπορεί να χρησιμοποιεί μια υπηρεσία τρίτων για αυτόματη εμφάνιση των NFT σας. Η iBrowe θα κοινοποιήσει τις διευθύνσεις του πορτοφολιού σας στο SimpleHash για την παροχή αυτής της υπηρεσίας. Μάθετε περισσότερα.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Μάθετε περισσότερα";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "Χρειάζεστε νέο πορτοφόλι;";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Η ονομασία Brave και το λογότυπο Brave είναι σήματα κατατεθέντα της iBrowe. Άλλα ονόματα προϊόντων και λογότυπα ενδέχεται να είναι εμπορικά σήματα των αντίστοιχων εταιρειών. Με επιφύλαξη παντός δικαιώματος.";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. Η ονομασία iBrowe και το λογότυπο iBrowe είναι σήματα κατατεθέντα της iBrowe. Άλλα ονόματα προϊόντων και λογότυπα ενδέχεται να είναι εμπορικά σήματα των αντίστοιχων εταιρειών. Με επιφύλαξη παντός δικαιώματος.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Εισαγάγετε το υπάρχον πορτοφόλι σας.";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Συνεχίστε χρησιμοποιώντας διακομιστή SNS";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Το Brave θα χρησιμοποιεί τρίτο μέρος για την επίλυση ονομάτων τομέα .sol. Το iBrowe αποκρύπτει τη διεύθυνση IP σας. Εάν ενεργοποιήσετε αυτή την επιλογή, το τρίτο μέρος θα βλέπει ότι κάποιος προσπαθεί να επισκεφτεί αυτούς τους τομείς .sol, αλλά τίποτε άλλο. Για περισσότερες πληροφορίες σχετικά με το ποια τρίτα μέρη χρησιμοποιούμε και τις πολιτικές απορρήτου τους, ανατρέξτε στη <a href=%@>σελίδα βοήθειας</a>.";
+"wallet.snsDomainInterstitialPageDescription" = "Το iBrowe θα χρησιμοποιεί τρίτο μέρος για την επίλυση ονομάτων τομέα .sol. Το iBrowe αποκρύπτει τη διεύθυνση IP σας. Εάν ενεργοποιήσετε αυτή την επιλογή, το τρίτο μέρος θα βλέπει ότι κάποιος προσπαθεί να επισκεφτεί αυτούς τους τομείς .sol, αλλά τίποτε άλλο. Για περισσότερες πληροφορίες σχετικά με το ποια τρίτα μέρη χρησιμοποιούμε και τις πολιτικές απορρήτου τους, ανατρέξτε στη <a href=%@>σελίδα βοήθειας</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "Ενεργοποίηση υποστήριξης της Υπηρεσίας ονομάτων Solana (SNS) στο iBrowe;";

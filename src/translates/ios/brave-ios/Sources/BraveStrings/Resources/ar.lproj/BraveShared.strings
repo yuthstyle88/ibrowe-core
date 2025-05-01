@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "تعيين iBrowe كمتصفح افتراضي؟";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "باستخدام Brave كافتراضي، يفتح كل رابط تنقر عليه بحماية خصوصية iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "باستخدام iBrowe كافتراضي، يفتح كل رابط تنقر عليه بحماية خصوصية iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "تعيين الافتراضي";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "الخصوصية. أصبحت بسيطةً.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "يساعدنا هذا في معرفة ميزات Brave المستخدمة في أغلب الأحيان. قم بالتغيير في أي وقت في إعدادات Brave ضمن \"iBrowe Shields وإعدادات الخصوصية الأخرى\".";
+"callout.p3aCalloutDescription" = "يساعدنا هذا في معرفة ميزات iBrowe المستخدمة في أغلب الأحيان. قم بالتغيير في أي وقت في إعدادات iBrowe ضمن \"iBrowe Shields وإعدادات الخصوصية الأخرى\".";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "تعرف على المزيد حول تحليلات الحفاظ على الخصوصية المنتج (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "إخفاء أيقونة مكافآت iBrowe";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "يخفي أيقونة Brave Rewards عند عدم تمكين iBrowe Rewards";
+"HideRewardsIconSubtitle" = "يخفي أيقونة iBrowe Rewards عند عدم تمكين iBrowe Rewards";
 
 /* Title for history menu item */
 "HistortMenuItem" = "السجل";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "السماح لـ iBrowe بالتحقق من حافظتي بحثًا عن رمز إحالة مطابق";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "ربما تكون قد قمت بتنزيل Brave لدعم المحيل الخاص بك. للكشف عن المحيل الخاص بك، يقوم Brave بإجراء فحص لمرة واحدة لحافظتك بحثًا عن رمز الإحالة المطابق. يقتصر هذا الفحص على الرمز فقط ولن يتم إرسال أي بيانات شخصية أخرى. إذا قمت بإلغاء الاشتراك، فلن يتلقى المحيل مكافآت من iBrowe.";
+"OBPrivacyConsentDetail" = "ربما تكون قد قمت بتنزيل iBrowe لدعم المحيل الخاص بك. للكشف عن المحيل الخاص بك، يقوم iBrowe بإجراء فحص لمرة واحدة لحافظتك بحثًا عن رمز الإحالة المطابق. يقتصر هذا الفحص على الرمز فقط ولن يتم إرسال أي بيانات شخصية أخرى. إذا قمت بإلغاء الاشتراك، فلن يتلقى المحيل مكافآت من iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "عدم السماح بهذا الفحص";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "ربط اشتراكك في VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "يمكن لاشتراكك في Brave VPN حماية ما يصل إلى 10 أجهزة من الأجهزة العاملة بنظام Android وiOS وسطح المكتب. ما عليك سوى ربط اشتراكك في آب ستور بحساب iBrowe الخاص بك.";
+"onboarding.linkReceiptDescription" = "يمكن لاشتراكك في iBrowe VPN حماية ما يصل إلى 10 أجهزة من الأجهزة العاملة بنظام Android وiOS وسطح المكتب. ما عليك سوى ربط اشتراكك في آب ستور بحساب iBrowe الخاص بك.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "قم بتوسيع نطاق حماية iBrowe Firewall + VPN";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "سيؤدي وضع التصفح الخاص فقط إلى إغلاق جميع علامات التبويب الحالية وتسجيل خروجك من جميع المواقع.";
 
 /* Private tab details */
-"PrivateTabBody" = "لا يتم حفظ علامات التبويب الخاصة في Brave، لكنها لا تجعلك مجهول الهوية عبر الإنترنت. ولن تظهر المواقع التي تزورها في علامة تبويب خاصة في سجلك وتختفي ملفات تعريف الارتباط الخاصة بها دائمًا عند إغلاقها - لن يكون هناك أي أثر لها في iBrowe. ومع ذلك، سيتم حفظ التنزيلات.\nيمكن لمشغل شبكة الهاتف (أو مالك شبكة Wi-Fi أو شبكة VPN التي تتصل بها) معرفة المواقع التي تزورها وستتعرف هذه المواقع على عنوان بروتوكول الإنترنت العام الخاص بك، حتى في علامات التبويب الخاصة.";
+"PrivateTabBody" = "لا يتم حفظ علامات التبويب الخاصة في iBrowe، لكنها لا تجعلك مجهول الهوية عبر الإنترنت. ولن تظهر المواقع التي تزورها في علامة تبويب خاصة في سجلك وتختفي ملفات تعريف الارتباط الخاصة بها دائمًا عند إغلاقها - لن يكون هناك أي أثر لها في iBrowe. ومع ذلك، سيتم حفظ التنزيلات.\nيمكن لمشغل شبكة الهاتف (أو مالك شبكة Wi-Fi أو شبكة VPN التي تتصل بها) معرفة المواقع التي تزورها وستتعرف هذه المواقع على عنوان بروتوكول الإنترنت العام الخاص بك، حتى في علامات التبويب الخاصة.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "يؤدي استخدام علامات التبويب الخاصة فقط إلى تغيير ما يفعله Brave على جهازك، ولا يغير سلوك أي شخص آخر.\n\nتتعرف المواقع دائمًا على عنوان بروتوكول الإنترنت الخاص بك عند زيارتها. ومن خلال ذلك، يمكنها في كثير من الأحيان تخمين مكانك تقريبًا - عادة مدينتك. في بعض الأحيان يمكن أن يكون تخمين الموقع أكثر تحديدًا. كما تعرف المواقع أيضًا كل ما تخبرها به على وجه التحديد، مثل مصطلحات البحث. إذا قمت بتسجيل الدخول إلى أحد المواقع، فستعرف أنك مالك هذا الحساب. وستظل قيد تسجيل الخروج عند إغلاق علامات التبويب الخاصة لأن iBrowe سيتخلص من ملف تعريف الارتباط الذي يبقيك قيد تسجيل الدخول.\n\nيمكن لأي شخص يقوم بتوصيلك بالإنترنت (مزود خدمة الإنترنت) رؤية كل نشاط الشبكة الخاص بك. وفي كثير من الأحيان، هذا هو مشغل شبكة المحمول الخاص بك. وإذا كنت متصلًا بشبكة Wi-Fi، فهذا هو مالك تلك الشبكة، أما إذا كنت تستخدم شبكة VPN، فهذا هو الشخص الذي يدير شبكة VPN هذه. ويمكن لمزود خدمة الإنترنت معرفة المواقع التي تزورها أثناء زيارتها. إذا كانت هذه المواقع تستخدم HTTPS، فلن تتمكن من إجراء أكثر من مجرد تخمين متعلم حول ما تفعله على تلك المواقع. ولكن إذا كان الموقع يستخدم HTTP فقط، فيمكن لمزود خدمة الإنترنت رؤية كل شيء: مصطلحات البحث والصفحات التي تقرأها والروابط التي تتبعها.\n\nإذا كان صاحب العمل يدير جهازك، فقد يتتبع أيضا ما تفعله به. وربما لن يمنعه استخدام علامات التبويب الخاصة من معرفة المواقع التي زرتها. كما يمكن لشخص آخر لديه حق الوصول إلى جهازك أيضًا تثبيت برنامج يراقب نشاطك، ولن تحميك علامات التبويب الخاصة من ذلك أيضًا.";
+"PrivateTabDetails" = "يؤدي استخدام علامات التبويب الخاصة فقط إلى تغيير ما يفعله iBrowe على جهازك، ولا يغير سلوك أي شخص آخر.\n\nتتعرف المواقع دائمًا على عنوان بروتوكول الإنترنت الخاص بك عند زيارتها. ومن خلال ذلك، يمكنها في كثير من الأحيان تخمين مكانك تقريبًا - عادة مدينتك. في بعض الأحيان يمكن أن يكون تخمين الموقع أكثر تحديدًا. كما تعرف المواقع أيضًا كل ما تخبرها به على وجه التحديد، مثل مصطلحات البحث. إذا قمت بتسجيل الدخول إلى أحد المواقع، فستعرف أنك مالك هذا الحساب. وستظل قيد تسجيل الخروج عند إغلاق علامات التبويب الخاصة لأن iBrowe سيتخلص من ملف تعريف الارتباط الذي يبقيك قيد تسجيل الدخول.\n\nيمكن لأي شخص يقوم بتوصيلك بالإنترنت (مزود خدمة الإنترنت) رؤية كل نشاط الشبكة الخاص بك. وفي كثير من الأحيان، هذا هو مشغل شبكة المحمول الخاص بك. وإذا كنت متصلًا بشبكة Wi-Fi، فهذا هو مالك تلك الشبكة، أما إذا كنت تستخدم شبكة VPN، فهذا هو الشخص الذي يدير شبكة VPN هذه. ويمكن لمزود خدمة الإنترنت معرفة المواقع التي تزورها أثناء زيارتها. إذا كانت هذه المواقع تستخدم HTTPS، فلن تتمكن من إجراء أكثر من مجرد تخمين متعلم حول ما تفعله على تلك المواقع. ولكن إذا كان الموقع يستخدم HTTP فقط، فيمكن لمزود خدمة الإنترنت رؤية كل شيء: مصطلحات البحث والصفحات التي تقرأها والروابط التي تتبعها.\n\nإذا كان صاحب العمل يدير جهازك، فقد يتتبع أيضا ما تفعله به. وربما لن يمنعه استخدام علامات التبويب الخاصة من معرفة المواقع التي زرتها. كما يمكن لشخص آخر لديه حق الوصول إلى جهازك أيضًا تثبيت برنامج يراقب نشاطك، ولن تحميك علامات التبويب الخاصة من ذلك أيضًا.";
 
 /* Private tab information link */
 "PrivateTabLink" = "تعرف على علامات التبويب الخاصة.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "إخطار مطوري iBrowe بأن هذا الموقع لا يعمل بشكلٍ سليم مع Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "ملاحظة: سيتضمن التقرير المرسل إلى خوادم Brave عنوان الموقع ورقم إصدار متصفح iBrowe وإعدادات Shields وحالة VPN وإعدادات اللغة.";
+"ReportBrokenSiteBody2" = "ملاحظة: سيتضمن التقرير المرسل إلى خوادم iBrowe عنوان الموقع ورقم إصدار متصفح iBrowe وإعدادات Shields وحالة VPN وإعدادات اللغة.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "إرسال";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "تم إغلاق iBrowe بشكل غير متوقع.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "باستخدام Brave Rewards، يمكنك عرض الإعلانات التي تحافظ على الخصوصية من شبكة إعلانات iBrowe. لا توجد أدوات تتبع. ولا تباطؤ. وتبقى بياناتك آمنة تمامًا.";
+"rewards.braveTalkRewardsOptInBody" = "باستخدام iBrowe Rewards، يمكنك عرض الإعلانات التي تحافظ على الخصوصية من شبكة إعلانات iBrowe. لا توجد أدوات تتبع. ولا تباطؤ. وتبقى بياناتك آمنة تمامًا.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "تشغيل المكافآت";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "فعِّل هذا الخيار لدعم iBrowe ومجتمع BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "يُساعد استخدام نظام Brave Rewards على دعم iBrowe ومجتمع BAT.";
+"rewards.disabledStatusBody" = "يُساعد استخدام نظام iBrowe Rewards على دعم iBrowe ومجتمع BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "أنت تُساهم في دعم iBrowe ومجتمع BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "بالنقر، توافق على %1$@ و%2$@. تعطيل أي وقت في الإعدادات.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "ساهم في دعم Brave ومجتمع BAT من خلال تفعيل نظام Brave Rewards ومشاهدة إعلانات iBrowe.";
+"rewards.settingsToggleMessage" = "ساهم في دعم iBrowe ومجتمع BAT من خلال تفعيل نظام iBrowe Rewards ومشاهدة إعلانات iBrowe.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "تمكين مكافآت iBrowe";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "حذف حساب المزامنة";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "يبدو أنه تم إنشاء هذا الرمز على جهاز يعمل بإصدار أقدم من Brave. يرجى التحديث إلى أحدث إصدار من iBrowe على جهازك الآخر، ثم إنشاء رمز مزامنة جديد.";
+"sync.deprecatedVersionError" = "يبدو أنه تم إنشاء هذا الرمز على جهاز يعمل بإصدار أقدم من iBrowe. يرجى التحديث إلى أحدث إصدار من iBrowe على جهازك الآخر، ثم إنشاء رمز مزامنة جديد.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "حدث خطأ ما أثناء استرداد الأجهزة في سلسلة المزامنة.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "مصادر غير آمنة - أضف على مسؤوليتك الخاصة";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "اتبع مصادرك المفضلة، في موجز واحد. ما عليك سوى فتح علامة تبويب في Brave، والتمرير لأسفل، و ... ها هو!\nأخبار iBrowe مدعومة بالإعلانات مع إعلانات خاصة مجهولة المصدر.";
+"today.introCardBody" = "اتبع مصادرك المفضلة، في موجز واحد. ما عليك سوى فتح علامة تبويب في iBrowe، والتمرير لأسفل، و ... ها هو!\nأخبار iBrowe مدعومة بالإعلانات مع إعلانات خاصة مجهولة المصدر.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "قم بتشغيل iBrowe News، ولا تفوت أي خبر";
