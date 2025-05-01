@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Beállítja a iBrowe-et alapértelmezett böngészőként?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "A Brave alapértelmezett böngészőként történő beállításával minden hivatkozás, amelyre rákoppint a iBrowe adatvédelmi beállításaival fog megnyílni.";
+"callout.defaultBrowserCalloutDescription" = "A iBrowe alapértelmezett böngészőként történő beállításával minden hivatkozás, amelyre rákoppint a iBrowe adatvédelmi beállításaival fog megnyílni.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Beállítás alapértelmezettként";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Adatvédelem, egyszerűen.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Ez segít megtudnunk, hogy a Brave mely funkcióit használják leggyakrabban. Bármikor módosíthatja a Brave beállításaiban, a „iBrowe-védelem és egyéb adatvédelmi beállítások” alatt.";
+"callout.p3aCalloutDescription" = "Ez segít megtudnunk, hogy a iBrowe mely funkcióit használják leggyakrabban. Bármikor módosíthatja a iBrowe beállításaiban, a „iBrowe-védelem és egyéb adatvédelmi beállítások” alatt.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Tudjon meg többet az adatvédelmet megőrző termékelemzésünkről (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "iBrowe Rewards ikon elrejtése";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Elrejti a Brave jutalmak ikont, ha a iBrowe jutalmak nincs engedélyezve";
+"HideRewardsIconSubtitle" = "Elrejti a iBrowe jutalmak ikont, ha a iBrowe jutalmak nincs engedélyezve";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Előzmények";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Engedélyezze a iBrowe-nek, hogy ellenőrizze a vágólapomon a megfelelő hivatkozási kódot";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Lehetséges, hogy letöltötte a Brave alkalmazást az ajánló támogatására. Az ajánló megtalálásához a Brave egyszeri ellenőrzést végez a vágólapon, hogy megtalálja a megfelelő ajánlókódot. Ez az ellenőrzés csak a kódra korlátozódik, és semmilyen más személyes adat nem kerül továbbításra. Ha leiratkozik, ajánlója nem kap jutalmakat a iBrowe-től.";
+"OBPrivacyConsentDetail" = "Lehetséges, hogy letöltötte a iBrowe alkalmazást az ajánló támogatására. Az ajánló megtalálásához a iBrowe egyszeri ellenőrzést végez a vágólapon, hogy megtalálja a megfelelő ajánlókódot. Ez az ellenőrzés csak a kódra korlátozódik, és semmilyen más személyes adat nem kerül továbbításra. Ha leiratkozik, ajánlója nem kap jutalmakat a iBrowe-től.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Ne engedélyezze ezt az ellenőrzést";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Kapcsolja össze a VPN-előfizetését";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Brave VPN-előfizetésével akár 10 eszközre is kiterjeszthető a védelem, Androidon, iOS-en és asztali számítógépeken. Ehhez egyszerűen kapcsolja össze App Store-előfizetését iBrowe-fiókjával.";
+"onboarding.linkReceiptDescription" = "iBrowe VPN-előfizetésével akár 10 eszközre is kiterjeszthető a védelem, Androidon, iOS-en és asztali számítógépeken. Ehhez egyszerűen kapcsolja össze App Store-előfizetését iBrowe-fiókjával.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Bővítse ki a iBrowe tűzfal + VPN-védelmét";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "A Csak privát böngészés mód bezárja az összes aktuális lapot, és kijelentkezteti Önt az összes webhelyről.";
 
 /* Private tab details */
-"PrivateTabBody" = "A Brave nem menti el a privát lapokat, de ezek nem teszik Önt névtelenné az interneten. A privát lapon meglátogatott webhelyek nem jelennek meg az előzményekben, és a cookie-jaik mindig eltűnnek, amikor bezárja őket – a iBrowe-ben nem marad nyomuk. A letöltések azonban mentésre kerülnek.\nMobilszolgáltatója (vagy annak a Wi-Fi-hálózatnak vagy VPN-nek a tulajdonosa, amelyhez csatlakozik) láthatja, hogy mely webhelyeket keresi fel, és ezek a webhelyek megtudják nyilvános IP-címét, még a Privát lapokon is.";
+"PrivateTabBody" = "A iBrowe nem menti el a privát lapokat, de ezek nem teszik Önt névtelenné az interneten. A privát lapon meglátogatott webhelyek nem jelennek meg az előzményekben, és a cookie-jaik mindig eltűnnek, amikor bezárja őket – a iBrowe-ben nem marad nyomuk. A letöltések azonban mentésre kerülnek.\nMobilszolgáltatója (vagy annak a Wi-Fi-hálózatnak vagy VPN-nek a tulajdonosa, amelyhez csatlakozik) láthatja, hogy mely webhelyeket keresi fel, és ezek a webhelyek megtudják nyilvános IP-címét, még a Privát lapokon is.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "A Privát lapok használata csak azt változtatja meg, amit a Brave az Ön eszközén végez, mások viselkedését nem.\n\nA webhelyek mindig megismerik az Ön IP-címét, amikor meglátogatja őket. Ebből gyakran kitalálják, hogy nagyjából hol van – jellemzően a várost. Néha ez a helymeghatározás sokkal pontosabb lehet. A webhelyek mindent tudnak, amit kifejezetten elmond nekik, például a keresési kifejezéseket. Ha bejelentkezik egy webhelyre, tudni fogják, hogy Ön a fiók tulajdonosa. A Privát lapok bezárásakor továbbra is ki lesz jelentkezve, mert a iBrowe eldobja a cookie-t, amely bejelentkezve tartja Önt.\n\nBárki, aki csatlakoztatja Önt az internethez (az Ön internetszolgáltatója), láthatja az összes hálózati tevékenységét. Ez gyakran az Ön mobilszolgáltatója. Ha Wi-Fi hálózathoz csatlakozik, akkor ez a hálózat tulajdonosa, ha pedig VPN-t használ, akkor az, aki a VPN-t futtatja. Internetszolgáltatója láthatja, hogy mely webhelyeket keresi fel, amikor felkeresi azokat. Ha ezek a webhelyek HTTPS-t használnak, akkor nem tehetnek többet, mint megtippelik, hogy mit csinál ezeken a webhelyeken. Viszont ha egy webhely csak HTTP-t használ, akkor az internetszolgáltató mindent láthat: a keresési kifejezéseket, az olvasott oldalakat és a követett linkeket.\n\nHa egy munkáltató kezeli az eszközt, akkor azt is nyomon követheti, hogy Ön mit csinál vele. A Privát lapok használata valószínűleg nem akadályozza meg őket abban, hogy tudják, mely webhelyeket kereste fel. Valaki más, aki hozzáfér az eszközéhez, szintén telepíthetett olyan szoftvert, amely figyeli az Ön tevékenységét, és a Privát lapok sem védenek meg ettől.";
+"PrivateTabDetails" = "A Privát lapok használata csak azt változtatja meg, amit a iBrowe az Ön eszközén végez, mások viselkedését nem.\n\nA webhelyek mindig megismerik az Ön IP-címét, amikor meglátogatja őket. Ebből gyakran kitalálják, hogy nagyjából hol van – jellemzően a várost. Néha ez a helymeghatározás sokkal pontosabb lehet. A webhelyek mindent tudnak, amit kifejezetten elmond nekik, például a keresési kifejezéseket. Ha bejelentkezik egy webhelyre, tudni fogják, hogy Ön a fiók tulajdonosa. A Privát lapok bezárásakor továbbra is ki lesz jelentkezve, mert a iBrowe eldobja a cookie-t, amely bejelentkezve tartja Önt.\n\nBárki, aki csatlakoztatja Önt az internethez (az Ön internetszolgáltatója), láthatja az összes hálózati tevékenységét. Ez gyakran az Ön mobilszolgáltatója. Ha Wi-Fi hálózathoz csatlakozik, akkor ez a hálózat tulajdonosa, ha pedig VPN-t használ, akkor az, aki a VPN-t futtatja. Internetszolgáltatója láthatja, hogy mely webhelyeket keresi fel, amikor felkeresi azokat. Ha ezek a webhelyek HTTPS-t használnak, akkor nem tehetnek többet, mint megtippelik, hogy mit csinál ezeken a webhelyeken. Viszont ha egy webhely csak HTTP-t használ, akkor az internetszolgáltató mindent láthat: a keresési kifejezéseket, az olvasott oldalakat és a követett linkeket.\n\nHa egy munkáltató kezeli az eszközt, akkor azt is nyomon követheti, hogy Ön mit csinál vele. A Privát lapok használata valószínűleg nem akadályozza meg őket abban, hogy tudják, mely webhelyeket kereste fel. Valaki más, aki hozzáfér az eszközéhez, szintén telepíthetett olyan szoftvert, amely figyeli az Ön tevékenységét, és a Privát lapok sem védenek meg ettől.";
 
 /* Private tab information link */
 "PrivateTabLink" = "További információ a privát lapokról.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Hívja fel a iBrowe fejlesztőinek figyelmét arra, hogy ez az oldal nem működik megfelelően a Shieldsel:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Megjegyzés: A Brave szerverekre küldött jelentés tartalmazza a webhely címét, a iBrowe verziószámát, a Shields beállításokat, a VPN állapotát és a nyelvi beállításokat.";
+"ReportBrokenSiteBody2" = "Megjegyzés: A iBrowe szerverekre küldött jelentés tartalmazza a webhely címét, a iBrowe verziószámát, a Shields beállításokat, a VPN állapotát és a nyelvi beállításokat.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Elküldés";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "A iBrowe váratlanul bezárult.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "A Brave-jutalmakkal az adatvédelmet tiszteletben tartó hirdetéseket láthat, a iBrowe-hirdetések hálózatáról. Nincsenek nyomkövetők, nincs lassulás, az adatai pedig teljes biztonságban maradnak.";
+"rewards.braveTalkRewardsOptInBody" = "A iBrowe-jutalmakkal az adatvédelmet tiszteletben tartó hirdetéseket láthat, a iBrowe-hirdetések hálózatáról. Nincsenek nyomkövetők, nincs lassulás, az adatai pedig teljes biztonságban maradnak.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Rewards bekapcsolása";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "A bekapcsolással segíthet támogatni a iBrowe-et és a BAT közösséget.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "A Brave-jutalmak használata segít támogatni a iBrowe-et és a BAT közösséget.";
+"rewards.disabledStatusBody" = "A iBrowe-jutalmak használata segít támogatni a iBrowe-et és a BAT közösséget.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Ön segít támogatni a iBrowe-et és a BAT-közösséget.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "A kattintással elfogadja a következőket: %1$@ és %2$@. Ezt bármikor letilthatja a Beállításokban.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Segítsen támogatni a Brave-et és a BAT közösséget a Brave-jutalmak engedélyezése és a iBrowe hirdetések megtekintése révén.";
+"rewards.settingsToggleMessage" = "Segítsen támogatni a iBrowe-et és a BAT közösséget a iBrowe-jutalmak engedélyezése és a iBrowe hirdetések megtekintése révén.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "iBrowe jutalmak engedélyezése";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Szinkronizálási fiók törlése";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Úgy tűnik, ezt a kódot a Brave régebbi verzióját használó eszközön hozták létre. Frissítsen a legújabb iBrowe-verzióra a másik eszközén, majd hozzon létre új szinkronizálási kódot.";
+"sync.deprecatedVersionError" = "Úgy tűnik, ezt a kódot a iBrowe régebbi verzióját használó eszközön hozták létre. Frissítsen a legújabb iBrowe-verzióra a másik eszközén, majd hozzon létre új szinkronizálási kódot.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Hiba történt a szinkronizálási láncban szereplő eszközök lekérése közben.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Nem biztonságos források – Saját felelősségére adja hozzá";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Kövesse kedvenc forrásait egyetlen hírfolyamban. Csak nyisson meg egy lapot a Brave-ben, görgessen le, és… íme!\nA iBrowe-hírek privát, anonimizált hirdetésekkel támogatott szolgáltatás.";
+"today.introCardBody" = "Kövesse kedvenc forrásait egyetlen hírfolyamban. Csak nyisson meg egy lapot a iBrowe-ben, görgessen le, és… íme!\nA iBrowe-hírek privát, anonimizált hirdetésekkel támogatott szolgáltatás.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "A iBrowe-hírek bekapcsolásával egyetlen történetről sem marad le";

@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Продолжить с использованием сервера Infura";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave будет обрабатывать с помощью Infura доменные имена .eth, которые содержатся в реестре Ethereum Name Service (ENS). iBrowe скроет ваш IP-адрес. Если вы включите эту функцию, Infura будет видеть только попытки посетить эти домены .eth. Ознакомьтесь с <a href=%1$@>%2$@</a> и <a href=%3$@>%4$@</a> Infura.";
+"wallet.ensDomainInterstitialPageDescription" = "iBrowe будет обрабатывать с помощью Infura доменные имена .eth, которые содержатся в реестре Ethereum Name Service (ENS). iBrowe скроет ваш IP-адрес. Если вы включите эту функцию, Infura будет видеть только попытки посетить эти домены .eth. Ознакомьтесь с <a href=%1$@>%2$@</a> и <a href=%3$@>%4$@</a> Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Включить поддержку Ethereum Name Service (ENS) в iBrowe?";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Стандарт токена";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Brave Кошелек может использовать сторонний сервис и автоматически показывать NFT. Для этого iBrowe будет делиться адресами ваших кошельков с SimpleHash. Подробнее";
+"wallet.nftDiscoveryCalloutDescription" = "iBrowe Кошелек может использовать сторонний сервис и автоматически показывать NFT. Для этого iBrowe будет делиться адресами ваших кошельков с SimpleHash. Подробнее";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Подробнее…";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "Нужен новый кошелек?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "© Brave Software Inc., 2023. Название и логотип Brave являются зарегистрированными товарными знаками iBrowe. Названия и логотипы других сервисов могут принадлежать соответствующим компаниям. Все права защищены.";
+"wallet.setupCryptoDisclaimer" = "© iBrowe Software Inc., 2023. Название и логотип iBrowe являются зарегистрированными товарными знаками iBrowe. Названия и логотипы других сервисов могут принадлежать соответствующим компаниям. Все права защищены.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Импортируйте его";

@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Nastavi služeći se poslužiteljem Infura";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "U pregledniku Brave upotrebljava se platforma Infura za rješavanje naziva domena .eth koje se nalaze u sustavu imenovanja tehnologije Ethereum (ENS). Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, putem platforme Infura moguće je vidjeti da netko pokušava posjetiti te domene .eth, ali ništa više. Pogledajte <a href=%1$@>%2$@</a> i <a href=%3$@>%4$@</a> platforme Infura.";
+"wallet.ensDomainInterstitialPageDescription" = "U pregledniku iBrowe upotrebljava se platforma Infura za rješavanje naziva domena .eth koje se nalaze u sustavu imenovanja tehnologije Ethereum (ENS). Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, putem platforme Infura moguće je vidjeti da netko pokušava posjetiti te domene .eth, ali ništa više. Pogledajte <a href=%1$@>%2$@</a> i <a href=%3$@>%4$@</a> platforme Infura.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Omogućiti podršku za sustav Ethereum Name Service (ENS) u pregledniku iBrowe?";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Standardni token";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "U Novčaniku Brave može se upotrebljavati usluga treće strane za automatsko prikazivanje vaših NFT-ova. Preglednikom iBrowe dijele se vaše adrese novčanika s platformom SimpleHash radi pružanja te usluge. Doznajte više.";
+"wallet.nftDiscoveryCalloutDescription" = "U Novčaniku iBrowe može se upotrebljavati usluga treće strane za automatsko prikazivanje vaših NFT-ova. Preglednikom iBrowe dijele se vaše adrese novčanika s platformom SimpleHash radi pružanja te usluge. Doznajte više.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Saznaj više";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "Treba li vam novi novčanik?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023. Brave Software Inc. Brave i logotip Brave registrirani su žigovi društva iBrowe. Ostali nazivi proizvoda i logotipi mogu biti žigovi odgovarajućih društava. Sva prava pridržana.";
+"wallet.setupCryptoDisclaimer" = "©2023. iBrowe Software Inc. iBrowe i logotip iBrowe registrirani su žigovi društva iBrowe. Ostali nazivi proizvoda i logotipi mogu biti žigovi odgovarajućih društava. Sva prava pridržana.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Uvezite svoj postojeći novčanik.";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Nastavite uporabom poslužitelja SNS";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Društvo Brave koristi se trećom stranom za rješavanje naziva domena .sol. Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, treća strana može vidjeti da netko pokušava posjetiti te domene .sol, ali ništa više. Za više informacija o trećim stranama kojima se koristimo i njihovim pravilnicima o zaštiti privatnosti posjetite našu <a href=%@>stranicu za pomoć</a>.";
+"wallet.snsDomainInterstitialPageDescription" = "Društvo iBrowe koristi se trećom stranom za rješavanje naziva domena .sol. Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, treća strana može vidjeti da netko pokušava posjetiti te domene .sol, ali ništa više. Za više informacija o trećim stranama kojima se koristimo i njihovim pravilnicima o zaštiti privatnosti posjetite našu <a href=%@>stranicu za pomoć</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "Omogućiti podršku za Solana Name Service (SNS) u pregledniku iBrowe?";

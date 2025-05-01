@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Wil je iBrowe instellen als standaardbrowser?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Met Brave als standaardbrowser worden de privacyfuncties van iBrowe gestart voor elke link waar je op tikt.";
+"callout.defaultBrowserCalloutDescription" = "Met iBrowe als standaardbrowser worden de privacyfuncties van iBrowe gestart voor elke link waar je op tikt.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Stel in als standaardbrowser";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Privacy was nog nooit zo makkelijk.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Hiermee krijgen we inzicht in welke Brave-functies het meest worden gebruikt. Je kunt deze instelling altijd wijzigen in het gedeelte 'Overige privacy-instellingen' van iBrowe Shields. ";
+"callout.p3aCalloutDescription" = "Hiermee krijgen we inzicht in welke iBrowe-functies het meest worden gebruikt. Je kunt deze instelling altijd wijzigen in het gedeelte 'Overige privacy-instellingen' van iBrowe Shields. ";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Lees meer over onze privacybeschermende productanalyse (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Verberg iBrowe Rewards-pictogram";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Verbergt het Brave Rewards-pictogram wanneer iBrowe Rewards niet is ingeschakeld";
+"HideRewardsIconSubtitle" = "Verbergt het iBrowe Rewards-pictogram wanneer iBrowe Rewards niet is ingeschakeld";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Geschiedenis";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Sta toe dat iBrowe op het klembord zoekt naar een passende verwijzingscode";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Misschien heb je Brave gedownload om je verwijzer te steunen. Brave kan deze verwijzer achterhalen door eenmalig op het klembord te zoeken naar de passende verwijzingscode. Hierbij wordt alleen de code gezocht en worden geen andere persoonsgegevens overgedragen. Als je je afmeldt, ontvangt de verwijzer geen beloningen van iBrowe.";
+"OBPrivacyConsentDetail" = "Misschien heb je iBrowe gedownload om je verwijzer te steunen. iBrowe kan deze verwijzer achterhalen door eenmalig op het klembord te zoeken naar de passende verwijzingscode. Hierbij wordt alleen de code gezocht en worden geen andere persoonsgegevens overgedragen. Als je je afmeldt, ontvangt de verwijzer geen beloningen van iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Zoek niet";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Koppel VPN-abonnement";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Met je Brave VPN-abonnement kun je tot wel 10 Android-apparaten, iOS-apparaten of desktops beschermen. Koppel gewoon je App Store-abonnement aan je iBrowe-account.";
+"onboarding.linkReceiptDescription" = "Met je iBrowe VPN-abonnement kun je tot wel 10 Android-apparaten, iOS-apparaten of desktops beschermen. Koppel gewoon je App Store-abonnement aan je iBrowe-account.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Breid je iBrowe Firewall + VPN-bescherming uit";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "In 'Alleen privémodus' worden al je huidige tabbladen gesloten en word je uitgelogd bij alle sites.";
 
 /* Private tab details */
-"PrivateTabBody" = "Hoewel privétabbladen niet worden bewaard in Brave, garanderen ze jouw online anonimiteit niet. Sites die je bezoekt op privétabbladen, zie je niet in je geschiedenis en eventuele cookies worden altijd gewist wanneer je deze tabbladen sluit zodat er in iBrowe geen enkel spoor van die bezochte sites is. Downloads worden wel bewaard.\nJe mobiele provider (of de eigenaar van het wifinetwerk of VPN waarmee je verbonden bent) kan zien welke sites je bezoekt en die sites hebben je openbare IP-adres, zelfs als je privétabbladen gebruikt.";
+"PrivateTabBody" = "Hoewel privétabbladen niet worden bewaard in iBrowe, garanderen ze jouw online anonimiteit niet. Sites die je bezoekt op privétabbladen, zie je niet in je geschiedenis en eventuele cookies worden altijd gewist wanneer je deze tabbladen sluit zodat er in iBrowe geen enkel spoor van die bezochte sites is. Downloads worden wel bewaard.\nJe mobiele provider (of de eigenaar van het wifinetwerk of VPN waarmee je verbonden bent) kan zien welke sites je bezoekt en die sites hebben je openbare IP-adres, zelfs als je privétabbladen gebruikt.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Het gebruik van privétabbladen is alleen van invloed op wat Brave op jouw apparaat doet. Het gedrag van anderen blijft ongewijzigd.\n\nSites weten altijd je IP-adres wanneer je ze bezoekt. Op basis van dat adres kunnen ze vaak je locatie bij benadering schatten. Doorgaans is dat de stad in je buurt, maar soms kunnen ze je locatie ook nauwkeuriger bepalen. Sites kunnen eveneens gegevens onthouden die je invoert, zoals zoektermen. Als je inlogt op sites, weten ze dat jij de eigenaar bent van dat account. Bij het sluiten van privétabbladen ben je nog steeds uitgelogd want iBrowe wist de cookie die je ingelogd houdt.\n\nDe service waarmee je verbinding maakt met internet (je internetprovider) kan al je netwerkactiviteit zien. Vaak is dit je mobiele provider. Als je bent verbonden met een wifinetwerk, is dit de eigenaar van dat netwerk en als je een VPN gebruikt, is het de service die dit VPN aanbiedt. Je internetprovider kan zien welke sites je bezoekt wanneer je ze bezoekt. Als die sites HTTPS gebruiken, kunnen ze alleen maar een beredeneerde schatting doen over wat je op die sites doet. Maar als een site alleen HTTP gebruikt, weet je internetprovider alles: gebruikte zoektermen, bezochte pagina's en gevolgde links.\n\nAls je apparaat wordt beheerd door je werkgever, houdt deze mogelijk ook bij wat je met dat apparaat doet. Het gebruik van privétabbladen belet niet dat je werkgever niet weet welke sites je bezoekt. Iemand anders met toegang tot je apparaat kan ook software hebben geïnstalleerd die je activiteit bewaakt en privétabbladen beschermen je hier niet tegen.";
+"PrivateTabDetails" = "Het gebruik van privétabbladen is alleen van invloed op wat iBrowe op jouw apparaat doet. Het gedrag van anderen blijft ongewijzigd.\n\nSites weten altijd je IP-adres wanneer je ze bezoekt. Op basis van dat adres kunnen ze vaak je locatie bij benadering schatten. Doorgaans is dat de stad in je buurt, maar soms kunnen ze je locatie ook nauwkeuriger bepalen. Sites kunnen eveneens gegevens onthouden die je invoert, zoals zoektermen. Als je inlogt op sites, weten ze dat jij de eigenaar bent van dat account. Bij het sluiten van privétabbladen ben je nog steeds uitgelogd want iBrowe wist de cookie die je ingelogd houdt.\n\nDe service waarmee je verbinding maakt met internet (je internetprovider) kan al je netwerkactiviteit zien. Vaak is dit je mobiele provider. Als je bent verbonden met een wifinetwerk, is dit de eigenaar van dat netwerk en als je een VPN gebruikt, is het de service die dit VPN aanbiedt. Je internetprovider kan zien welke sites je bezoekt wanneer je ze bezoekt. Als die sites HTTPS gebruiken, kunnen ze alleen maar een beredeneerde schatting doen over wat je op die sites doet. Maar als een site alleen HTTP gebruikt, weet je internetprovider alles: gebruikte zoektermen, bezochte pagina's en gevolgde links.\n\nAls je apparaat wordt beheerd door je werkgever, houdt deze mogelijk ook bij wat je met dat apparaat doet. Het gebruik van privétabbladen belet niet dat je werkgever niet weet welke sites je bezoekt. Iemand anders met toegang tot je apparaat kan ook software hebben geïnstalleerd die je activiteit bewaakt en privétabbladen beschermen je hier niet tegen.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Meer informatie over privétabbladen.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Laat de ontwikkelaars van iBrowe weten dat deze site niet goed werkt met Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Opmerking: het rapport dat wordt gestuurd naar de Brave-servers bevat het adres van de site, het versienummer van iBrowe, de Shields-instellingen, de VPN-status en de taalinstellingen.";
+"ReportBrokenSiteBody2" = "Opmerking: het rapport dat wordt gestuurd naar de iBrowe-servers bevat het adres van de site, het versienummer van iBrowe, de Shields-instellingen, de VPN-status en de taalinstellingen.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Stuur";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe is onverwacht gesloten";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Met Brave Rewards kun je privacybeschermende advertenties uit het iBrowe Ads-netwerk bekijken. Geen trackers. Geen vertragingen. En al je gegevens blijven volledig veilig.";
+"rewards.braveTalkRewardsOptInBody" = "Met iBrowe Rewards kun je privacybeschermende advertenties uit het iBrowe Ads-netwerk bekijken. Geen trackers. Geen vertragingen. En al je gegevens blijven volledig veilig.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Zet Rewards aan";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Zet deze functie aan om iBrowe en de BAT Community te steunen.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Door Brave Rewards te gebruiken, steun je iBrowe en de BAT Community.";
+"rewards.disabledStatusBody" = "Door iBrowe Rewards te gebruiken, steun je iBrowe en de BAT Community.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Je steunt iBrowe en de BAT Community.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Als je klikt, ga je akkoord met de %1$@ en het %2$@. Je kunt dit altijd uitschakelen in Instellingen.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Steun Brave en de BAT Community door Brave Rewards in te schakelen en advertenties in iBrowe te zien.";
+"rewards.settingsToggleMessage" = "Steun iBrowe en de BAT Community door iBrowe Rewards in te schakelen en advertenties in iBrowe te zien.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Schakel iBrowe Rewards in";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Verwijder synchronisatieaccount";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Zo te zien is deze code gecreëerd op een apparaat met een oudere versie van Brave. Werk bij naar de nieuwste versie van iBrowe op uw andere apparaat en maak dan een nieuwe synchronisatiecode.";
+"sync.deprecatedVersionError" = "Zo te zien is deze code gecreëerd op een apparaat met een oudere versie van iBrowe. Werk bij naar de nieuwste versie van iBrowe op uw andere apparaat en maak dan een nieuwe synchronisatiecode.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Er is iets misgegaan bij het ophalen van de apparaten uit de synchronisatieketen.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Onveilige bronnen - Voeg toe op eigen risico";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Volg je favoriete bronnen in een enkele feed. Open gewoon een tabblad in Brave, scrol omlaag en… voilà!\niBrowe News toont geanonimiseerde privéadvertenties.";
+"today.introCardBody" = "Volg je favoriete bronnen in een enkele feed. Open gewoon een tabblad in iBrowe, scrol omlaag en… voilà!\niBrowe News toont geanonimiseerde privéadvertenties.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Zet iBrowe News aan en blijf altijd op de hoogte";

@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Jatka Infura-palvelimella";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave käyttää Infuraa sellaisten .eth-verkkotunnusten selvittämiseen, jotka löytyvät ENS-palvelusta (Ethereum Name Service). iBrowe piilottaa IP-osoitteesi. Jos otat tämän käyttöön, Infura näkee jonkun yrittävän käydä näissä verkkotunnuksissa, muttei muuta. Lue Infuran <a href=%1$@>%2$@</a> ja <a href=%3$@>%4$@</a>.";
+"wallet.ensDomainInterstitialPageDescription" = "iBrowe käyttää Infuraa sellaisten .eth-verkkotunnusten selvittämiseen, jotka löytyvät ENS-palvelusta (Ethereum Name Service). iBrowe piilottaa IP-osoitteesi. Jos otat tämän käyttöön, Infura näkee jonkun yrittävän käydä näissä verkkotunnuksissa, muttei muuta. Lue Infuran <a href=%1$@>%2$@</a> ja <a href=%3$@>%4$@</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "Haluatko ottaa ENS-palvelun (Ethereum Name Service) käyttöön iBrowessa?";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Tokenistandardi";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Brave-lompakko voi käyttää kolmannen osapuolen palvelua näyttääkseen NFT:itäsi automaattisesti. iBrowe jakaa lompakkosi osoitteet SimpleHashin kanssa tarjotakseen tämän palvelun. Lue lisää.";
+"wallet.nftDiscoveryCalloutDescription" = "iBrowe-lompakko voi käyttää kolmannen osapuolen palvelua näyttääkseen NFT:itäsi automaattisesti. iBrowe jakaa lompakkosi osoitteet SimpleHashin kanssa tarjotakseen tämän palvelun. Lue lisää.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Lisätietoa";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "Tarvitsetko uuden lompakon?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave ja Brave-logo ovat iBrowen rekisteröityjä tavaramerkkejä. Muut tuotteiden nimet ja logot voivat olla vastaavien yritysten tavaramerkkejä. Kaikki oikeudet pidätetään.";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe ja iBrowe-logo ovat iBrowen rekisteröityjä tavaramerkkejä. Muut tuotteiden nimet ja logot voivat olla vastaavien yritysten tavaramerkkejä. Kaikki oikeudet pidätetään.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Tuo olemassa oleva lompakko.";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Jatka SNS-palvelimen käyttämistä";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Brave käyttää kolmatta osapuolta .sol-verkkotunnusten selvittämiseen. iBrowe piilottaa IP-osoitteesi. Jos otat tämän käyttöön, kolmas osapuoli näkee jonkun yrittävän käydä näissä .sol-verkkotunnuksissa, muttei muuta. Lisätietoja käyttämistämme kolmansista osapuolista ja niiden tietosuojakäytännöistä löytyy <a href=%@>opastussivulta</a>.";
+"wallet.snsDomainInterstitialPageDescription" = "iBrowe käyttää kolmatta osapuolta .sol-verkkotunnusten selvittämiseen. iBrowe piilottaa IP-osoitteesi. Jos otat tämän käyttöön, kolmas osapuoli näkee jonkun yrittävän käydä näissä .sol-verkkotunnuksissa, muttei muuta. Lisätietoja käyttämistämme kolmansista osapuolista ja niiden tietosuojakäytännöistä löytyy <a href=%@>opastussivulta</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "Haluatko ottaa Solana-nimipalvelun (SNS) käyttöön iBrowessa?";
