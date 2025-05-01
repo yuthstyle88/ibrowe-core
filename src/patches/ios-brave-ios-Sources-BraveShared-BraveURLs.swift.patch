@@ -1,0 +1,21 @@
+diff --git a/ios/brave-ios/Sources/BraveShared/BraveURLs.swift b/ios/brave-ios/Sources/BraveShared/BraveURLs.swift
+index 319f2f4f8c38218d0203f9fa491f0830bf602601..2b55bab16ffb5ddde3a6ac7844c4f65307cdda0d 100644
+--- a/ios/brave-ios/Sources/BraveShared/BraveURLs.swift
++++ b/ios/brave-ios/Sources/BraveShared/BraveURLs.swift
+@@ -24,7 +24,7 @@ extension URL {
+     )!
+     public static let ntpTutorialPage = URL(string: "https://brave.com/ja/ntp-tutorial")!
+     public static let privacyFeatures = URL(string: "https://brave.com/privacy-features/")!
+-    public static let support = URL(string: "https://support.brave.com")!
++    public static let support = URL(string: "https://support.ibrowe.com")!
+     public static let p3aHelpArticle = URL(
+       string: "https://support.brave.com/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-"
+     )!
+@@ -95,6 +95,6 @@ extension URL {
+ public struct AppURLScheme {
+   /// The apps URL scheme for the current build channel
+   public static var appURLScheme: String {
+-    Bundle.main.infoDictionary?["BRAVE_URL_SCHEME"] as? String ?? "brave"
++    Bundle.main.infoDictionary?["BRAVE_URL_SCHEME"] as? String ?? "ibrowe"
+   }
+ }
