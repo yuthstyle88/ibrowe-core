@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Définir iBrowe comme navigateur par défaut ?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Lorsque Brave est défini comme navigateur par défaut, tous les liens sur lesquels vous appuyez s'ouvrent avec les protections de confidentialité de iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Lorsque iBrowe est défini comme navigateur par défaut, tous les liens sur lesquels vous appuyez s'ouvrent avec les protections de confidentialité de iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Définir par défaut";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "La confidentialité. Simplifiée.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Ces informations nous aident à identifier les fonctionnalités Brave les plus utilisées. Vous pouvez modifier ceci à tout moment dans les paramètres Brave, dans la section Boucliers iBrowe et autres paramètres de confidentialité.";
+"callout.p3aCalloutDescription" = "Ces informations nous aident à identifier les fonctionnalités iBrowe les plus utilisées. Vous pouvez modifier ceci à tout moment dans les paramètres iBrowe, dans la section Boucliers iBrowe et autres paramètres de confidentialité.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "En savoir plus sur l'analyse anonyme des données d'utilisation (P3A).";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Autoriser iBrowe à rechercher un code de parrainage dans mon presse-papier";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Vous avez peut-être téléchargé Brave pour soutenir votre parrain. Pour détecter votre parrain, Brave effectue une vérification unique de votre presse-papier pour récupérer le code de parrainage correspondant. Cette vérification se limite au code uniquement, et aucune autre donnée personnelle ne sera transmise. Si vous refusez, votre parrain ne recevra pas de récompenses de la part de iBrowe.";
+"OBPrivacyConsentDetail" = "Vous avez peut-être téléchargé iBrowe pour soutenir votre parrain. Pour détecter votre parrain, iBrowe effectue une vérification unique de votre presse-papier pour récupérer le code de parrainage correspondant. Cette vérification se limite au code uniquement, et aucune autre donnée personnelle ne sera transmise. Si vous refusez, votre parrain ne recevra pas de récompenses de la part de iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Ne pas autoriser la vérification";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Associer votre abonnement VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Votre abonnement au VPN Brave vous permet de protéger jusqu'à 10 appareils (Android, iOS ou ordinateur). Pour ce faire, il vous suffit d'associer votre abonnement App Store à votre compte iBrowe.";
+"onboarding.linkReceiptDescription" = "Votre abonnement au VPN iBrowe vous permet de protéger jusqu'à 10 appareils (Android, iOS ou ordinateur). Pour ce faire, il vous suffit d'associer votre abonnement App Store à votre compte iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Étendre votre protection Pare-feu + VPN iBrowe";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Le mode Navigation privée uniquement fermera tous vos onglets actuels et vous déconnectera de tous les sites.";
 
 /* Private tab details */
-"PrivateTabBody" = "Même si votre activité dans les onglets de navigation privée n'est pas enregistrée dans Brave, ces derniers ne vous rendent pas anonymes sur Internet. Les sites que vous consultez dans un onglet de navigation privée ne s'affichent pas dans votre historique, et leurs cookies sont toujours supprimés lorsque vous fermez leur onglet (ils ne sont pas conservés dans iBrowe). Vos téléchargements sont toutefois conservés.\nLes onglets de navigation privée n'empêchent pas votre opérateur mobile (ou le propriétaire du réseau Wi-Fi ou du VPN que vous utilisez) de voir les sites que vous consultez, ni ces sites d'obtenir votre adresse IP publique.";
+"PrivateTabBody" = "Même si votre activité dans les onglets de navigation privée n'est pas enregistrée dans iBrowe, ces derniers ne vous rendent pas anonymes sur Internet. Les sites que vous consultez dans un onglet de navigation privée ne s'affichent pas dans votre historique, et leurs cookies sont toujours supprimés lorsque vous fermez leur onglet (ils ne sont pas conservés dans iBrowe). Vos téléchargements sont toutefois conservés.\nLes onglets de navigation privée n'empêchent pas votre opérateur mobile (ou le propriétaire du réseau Wi-Fi ou du VPN que vous utilisez) de voir les sites que vous consultez, ni ces sites d'obtenir votre adresse IP publique.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "L'utilisation des onglets de navigation privée change seulement les opérations que Brave peut effectuer sur votre appareil, mais pas le comportement des autres.\n\nLes sites obtiennent toujours votre adresse IP lorsque vous les consultez. Grâce à elle, ils peuvent souvent deviner votre position approximative (généralement votre ville). Parfois, cette localisation peut être déterminée de manière beaucoup plus précise. Les sites reçoivent toutes les informations que vous leur communiquez, comme les termes de recherche. Si vous vous connectez à un site, il saura que vous êtes le propriétaire de ce compte. Cependant, vous serez toujours déconnecté(e) lorsque vous fermerez les onglets de navigation privée, car iBrowe supprime le cookie qui vous permet de rester connecté(e).\n\nQuel que soit votre fournisseur d'accès Internet, celui-ci peut voir toutes vos activités sur le réseau. Il s'agit souvent de votre opérateur mobile. Si vous êtes connecté(e) à un réseau Wi-Fi, il s'agit du propriétaire du réseau, et si vous utilisez un VPN, il s'agit du fournisseur de ce VPN. Votre fournisseur d'accès Internet peut voir les sites que vous consultez lorsque vous les consultez. Si ces sites utilisent le protocole HTTPS, votre fournisseur n'aura aucune information concrète concernant vos activités sur ces sites. Cependant, si un site utilise seulement le protocole HTTP, alors votre fournisseur d'accès Internet peut tout voir : vos termes de recherche, les pages que vous avez consultées et les liens sur lesquels vous avez cliqué.\n\nSi un employeur gère votre appareil, il peut également voir votre activité. L'utilisation des onglets de navigation privée ne l'empêchera certainement pas de savoir quels sites vous consultez. De plus, une personne ayant accès à votre appareil a pu installer un logiciel qui surveille votre activité, et les onglets de navigation privée ne vous protégeront pas non plus.";
+"PrivateTabDetails" = "L'utilisation des onglets de navigation privée change seulement les opérations que iBrowe peut effectuer sur votre appareil, mais pas le comportement des autres.\n\nLes sites obtiennent toujours votre adresse IP lorsque vous les consultez. Grâce à elle, ils peuvent souvent deviner votre position approximative (généralement votre ville). Parfois, cette localisation peut être déterminée de manière beaucoup plus précise. Les sites reçoivent toutes les informations que vous leur communiquez, comme les termes de recherche. Si vous vous connectez à un site, il saura que vous êtes le propriétaire de ce compte. Cependant, vous serez toujours déconnecté(e) lorsque vous fermerez les onglets de navigation privée, car iBrowe supprime le cookie qui vous permet de rester connecté(e).\n\nQuel que soit votre fournisseur d'accès Internet, celui-ci peut voir toutes vos activités sur le réseau. Il s'agit souvent de votre opérateur mobile. Si vous êtes connecté(e) à un réseau Wi-Fi, il s'agit du propriétaire du réseau, et si vous utilisez un VPN, il s'agit du fournisseur de ce VPN. Votre fournisseur d'accès Internet peut voir les sites que vous consultez lorsque vous les consultez. Si ces sites utilisent le protocole HTTPS, votre fournisseur n'aura aucune information concrète concernant vos activités sur ces sites. Cependant, si un site utilise seulement le protocole HTTP, alors votre fournisseur d'accès Internet peut tout voir : vos termes de recherche, les pages que vous avez consultées et les liens sur lesquels vous avez cliqué.\n\nSi un employeur gère votre appareil, il peut également voir votre activité. L'utilisation des onglets de navigation privée ne l'empêchera certainement pas de savoir quels sites vous consultez. De plus, une personne ayant accès à votre appareil a pu installer un logiciel qui surveille votre activité, et les onglets de navigation privée ne vous protégeront pas non plus.";
 
 /* Private tab information link */
 "PrivateTabLink" = "En savoir plus sur les onglets de navigation privée.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Signaler aux développeurs de iBrowe que ce site ne fonctionne pas correctement avec les boucliers :";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Remarque : Le rapport envoyé aux serveurs Brave comprendra l'adresse du site, le numéro de version de iBrowe, les paramètres des boucliers, le statut du VPN et les paramètres linguistiques.";
+"ReportBrokenSiteBody2" = "Remarque : Le rapport envoyé aux serveurs iBrowe comprendra l'adresse du site, le numéro de version de iBrowe, les paramètres des boucliers, le statut du VPN et les paramètres linguistiques.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Envoyer";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe s'est fermé de manière inattendue.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Avec le programme de récompenses Brave, vous visionnez des publicités respectueuses de la vie privée grâce au réseau iBrowe Ads. Pas de traqueur. Pas de ralentissement. Et vos données restent en sécurité.";
+"rewards.braveTalkRewardsOptInBody" = "Avec le programme de récompenses iBrowe, vous visionnez des publicités respectueuses de la vie privée grâce au réseau iBrowe Ads. Pas de traqueur. Pas de ralentissement. Et vos données restent en sécurité.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Activer le programme de récompenses iBrowe";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Activez cette fonctionnalité pour soutenir iBrowe et la communauté BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "En optant pour le programme de récompenses Brave, vous soutenez iBrowe et la communauté BAT.";
+"rewards.disabledStatusBody" = "En optant pour le programme de récompenses iBrowe, vous soutenez iBrowe et la communauté BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Vous soutenez iBrowe et la communauté BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "En cliquant, vous acceptez les %1$@ et la %2$@. Désactivez cette option à tout moment dans les paramètres.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Soutenez Brave et la communauté BAT en activant le programme de récompenses Brave et en affichant les publicités iBrowe.";
+"rewards.settingsToggleMessage" = "Soutenez iBrowe et la communauté BAT en activant le programme de récompenses iBrowe et en affichant les publicités iBrowe.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Activer le programme de récompenses iBrowe";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Supprimer le compte Synchronisation";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Ce code semble avoir été créé sur un appareil exécutant une ancienne version de Brave. Veuillez passer à la dernière version de iBrowe sur l'autre appareil, puis créez un nouveau code de synchronisation.";
+"sync.deprecatedVersionError" = "Ce code semble avoir été créé sur un appareil exécutant une ancienne version de iBrowe. Veuillez passer à la dernière version de iBrowe sur l'autre appareil, puis créez un nouveau code de synchronisation.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Une erreur est survenue lors de la récupération des appareils dans la chaîne de synchronisation.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Sources non sécurisées. Ajoutez-la à vos risques et périls";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Suivez vos sources préférées au sein d'un seul et même fil. Il vous suffit d'ouvrir un onglet dans Brave, de faire défiler la page vers le bas, et le tour est joué !\nLes actualités iBrowe sont soutenues par des publicités privées et anonymisées.";
+"today.introCardBody" = "Suivez vos sources préférées au sein d'un seul et même fil. Il vous suffit d'ouvrir un onglet dans iBrowe, de faire défiler la page vers le bas, et le tour est joué !\nLes actualités iBrowe sont soutenues par des publicités privées et anonymisées.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Activez les actualités iBrowe et ne ratez aucune info";

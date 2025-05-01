@@ -710,7 +710,7 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "使用 Infura 服务器继续操作";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave 将使用 Infura 来解析以太坊名称服务（ENS）的 .eth 域名。iBrowe 将会隐藏您的 IP 地址。如果您启用此功能，Infura 将会看到有人试图访问这些 .eth 域名，但不会看到其他信息。查看 Infura 的 <a href=%1$@>%2$@</a> 和 <a href=%3$@>%4$@</a>。";
+"wallet.ensDomainInterstitialPageDescription" = "iBrowe 将使用 Infura 来解析以太坊名称服务（ENS）的 .eth 域名。iBrowe 将会隐藏您的 IP 地址。如果您启用此功能，Infura 将会看到有人试图访问这些 .eth 域名，但不会看到其他信息。查看 Infura 的 <a href=%1$@>%2$@</a> 和 <a href=%3$@>%4$@</a>。";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
 "wallet.ensDomainInterstitialPageTitle" = "在 iBrowe 中启用支援以太坊域名服务 (ENS)？";
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "代币标准";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "Brave 钱包可使用第三方服务自动显示您的 NFT。iBrowe 将与 SimpleHash 共享您的钱包地址，以提供此服务。了解更多。";
+"wallet.nftDiscoveryCalloutDescription" = "iBrowe 钱包可使用第三方服务自动显示您的 NFT。iBrowe 将与 SimpleHash 共享您的钱包地址，以提供此服务。了解更多。";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "了解更多";
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "需要新钱包？";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave 和 Brave 徽标是 iBrowe 的注册商标。其他产品名称和徽标可能是其各自公司的商标。保留所有权利。";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe 和 iBrowe 徽标是 iBrowe 的注册商标。其他产品名称和徽标可能是其各自公司的商标。保留所有权利。";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "汇入现有的钱包。";
@@ -1631,7 +1631,7 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "继续使用 SNS 服务器";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Brave 将使用第三方解析 .sol 域名。iBrowe 会隐藏您的 IP 地址。如果启用此功能，第三方将会看到有人试图访问这些 .sol 域名，但不会看到其他信息。有关我们使用的第三方及其隐私政策的更多信息，请参阅我们的<a href=%@>帮助页面</a>。";
+"wallet.snsDomainInterstitialPageDescription" = "iBrowe 将使用第三方解析 .sol 域名。iBrowe 会隐藏您的 IP 地址。如果启用此功能，第三方将会看到有人试图访问这些 .sol 域名，但不会看到其他信息。有关我们使用的第三方及其隐私政策的更多信息，请参阅我们的<a href=%@>帮助页面</a>。";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
 "wallet.snsDomainInterstitialPageTitle" = "是否在 iBrowe 中启用 Solana Name Service（SNS）的支持？";

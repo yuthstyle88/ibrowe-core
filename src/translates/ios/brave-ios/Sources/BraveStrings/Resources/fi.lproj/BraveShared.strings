@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Asetetaanko iBrowe oletusselaimeksi?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Kun Brave on käytössä oletuksena, jokainen napsauttamasi linkki avautuu iBrowen tietosuoja-asetusten suojaamana.";
+"callout.defaultBrowserCalloutDescription" = "Kun iBrowe on käytössä oletuksena, jokainen napsauttamasi linkki avautuu iBrowen tietosuoja-asetusten suojaamana.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Aseta oletusarvoiseksi";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Yksinkertainen tietosuoja.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Tämä auttaa meitä selvittämään, mitä Braven ominaisuuksia käytetään eniten. Voit muuttaa niitä milloin tahansa Braven asetuksissa kohdassa iBrowe-suojaus ja muut tietosuoja-asetukset.";
+"callout.p3aCalloutDescription" = "Tämä auttaa meitä selvittämään, mitä iBrowen ominaisuuksia käytetään eniten. Voit muuttaa niitä milloin tahansa iBrowen asetuksissa kohdassa iBrowe-suojaus ja muut tietosuoja-asetukset.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Lue lisää yksityisyyden säilyttävästä tuoteanalytiikasta (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Piilota iBrowe Rewards -kuvake";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Piilottaa Brave-palkintojen kuvakkeen, kun iBrowe-palkinnot eivät ole käytössä";
+"HideRewardsIconSubtitle" = "Piilottaa iBrowe-palkintojen kuvakkeen, kun iBrowe-palkinnot eivät ole käytössä";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Historia";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Salli iBrowen tarkistaa vastaava suosittelijakoodi leikepöydältäni";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Olet ehkä ladannut Braven suosittelijan avulla. Suosittelijasi tunnistamiseksi Brave tarkistaa leikepöydältäsi kertaluonteisen suosittelijakoodin. Tämä tarkistus rajoittuu vain koodiin, eikä muita henkilötietoja lähetetä. Jos kieltäydyt, suosittelijasi ei saa palkintoja iBrowelta.";
+"OBPrivacyConsentDetail" = "Olet ehkä ladannut iBrowen suosittelijan avulla. Suosittelijasi tunnistamiseksi iBrowe tarkistaa leikepöydältäsi kertaluonteisen suosittelijakoodin. Tämä tarkistus rajoittuu vain koodiin, eikä muita henkilötietoja lähetetä. Jos kieltäydyt, suosittelijasi ei saa palkintoja iBrowelta.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Älä salli tätä tarkistusta";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Linkitä VPN-tilauksesi";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Brave VPN -tilauksesi voi suojata enintään 10 laitetta Android- tai iOS-laitteilla ja tietokoneella. Linkitä App Store -tilauksesi iBrowe-tiliisi.";
+"onboarding.linkReceiptDescription" = "iBrowe VPN -tilauksesi voi suojata enintään 10 laitetta Android- tai iOS-laitteilla ja tietokoneella. Linkitä App Store -tilauksesi iBrowe-tiliisi.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Laajenna iBrowe-palomuuria + VPN-suojaa";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Vain yksityinen selaus -tila sulkee kaikki avoinna olevat välilehdet ja kirjaa sinut ulos kaikista sivustoista.";
 
 /* Private tab details */
-"PrivateTabBody" = "Yksityisiä välilehtiä ei tallenneta Braveen, mutta ne eivät tee sinusta anonyymiä verkossa. Sivustot, joilla käyt yksityisellä välilehdellä, eivät näy historiassasi, ja niiden evästeet katoavat aina, kun suljet ne – niistä ei jää jälkeäkään iBroween. Lataukset kuitenkin tallennetaan.\nMobiilioperaattorisi (tai sen Wi-Fi-verkon tai VPN:n omistaja, johon olet yhteydessä) voi nähdä, millä sivustoilla vierailet, ja kyseiset sivustot saavat tietoonsa julkisen IP-osoitteesi, jopa yksityisillä välilehdillä.";
+"PrivateTabBody" = "Yksityisiä välilehtiä ei tallenneta iBroween, mutta ne eivät tee sinusta anonyymiä verkossa. Sivustot, joilla käyt yksityisellä välilehdellä, eivät näy historiassasi, ja niiden evästeet katoavat aina, kun suljet ne – niistä ei jää jälkeäkään iBroween. Lataukset kuitenkin tallennetaan.\nMobiilioperaattorisi (tai sen Wi-Fi-verkon tai VPN:n omistaja, johon olet yhteydessä) voi nähdä, millä sivustoilla vierailet, ja kyseiset sivustot saavat tietoonsa julkisen IP-osoitteesi, jopa yksityisillä välilehdillä.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Yksityisten välilehtien käyttäminen muuttaa vain sitä, mitä Brave voi tehdä laitteellasi, se ei muuta kenenkään muun käyttäytymistä.\n\nSivustot saavat aina tietoonsa IP-osoitteesi, kun vierailet niillä. Sen perusteella ne voivat usein arvata karkeasti missä olet – tyypillisesti kaupunkisi. Joskus tämä sijainnin arvaus voi olla paljon tarkempi. Sivustot tietävät myös kaiken, mitä kerrot niille, kuten hakutermit. Jos kirjaudut sisään sivustolle, ne tietävät sinun olevan kyseisen tilin omistaja. Olet silti kirjautuneena ulos, kun suljet yksityiset välilehdet, koska iBrowe poistaa evästeen, joka pitää sinut kirjautuneena sisään.\n\n Kuka tahansa, joka yhdistää sinut Internetiin (internet-palveluntarjoajasi), voi nähdä kaiken toimintasi verkossa. Usein tämä on mobiilioperaattorisi. Jos olet yhteydessä Wi-Fi-verkkoon, tämä on kyseisen verkon omistaja, ja jos käytät VPN:ää, se on VPN:n ylläpitäjä. Internet-palveluntarjoajasi voi nähdä, millä sivustoilla käyt. Jos kyseiset sivustot käyttävät HTTPS:ää, Internet-palveoluntarjoajasi voi tehdä enintään valistuneen arvauksen siitä, mitä teet kyseisillä sivustoilla. Mutta jos sivusto käyttää vain HTTP:tä, Internet-palveluntarjoajasi näkee kaiken: hakutermit, lukemasi sivut ja seuraamasi linkit.\n\n Jos työnantaja hallinnoi laitettasi, hän saattaa myös seurata, mitä teet sillä. Yksityisten välilehtien käyttäminen ei todennäköisesti estä työnantajaa selvittämästä, millä sivustoilla olet käynyt. Myös joku muu, jolla on pääsy käsiksi laitteeseesi, on voinut asentaa ohjelmiston, joka seuraa toimintaasi, eivätkä yksityiset välilehdet suojaa sinua tällaisessa tilanteessa.";
+"PrivateTabDetails" = "Yksityisten välilehtien käyttäminen muuttaa vain sitä, mitä iBrowe voi tehdä laitteellasi, se ei muuta kenenkään muun käyttäytymistä.\n\nSivustot saavat aina tietoonsa IP-osoitteesi, kun vierailet niillä. Sen perusteella ne voivat usein arvata karkeasti missä olet – tyypillisesti kaupunkisi. Joskus tämä sijainnin arvaus voi olla paljon tarkempi. Sivustot tietävät myös kaiken, mitä kerrot niille, kuten hakutermit. Jos kirjaudut sisään sivustolle, ne tietävät sinun olevan kyseisen tilin omistaja. Olet silti kirjautuneena ulos, kun suljet yksityiset välilehdet, koska iBrowe poistaa evästeen, joka pitää sinut kirjautuneena sisään.\n\n Kuka tahansa, joka yhdistää sinut Internetiin (internet-palveluntarjoajasi), voi nähdä kaiken toimintasi verkossa. Usein tämä on mobiilioperaattorisi. Jos olet yhteydessä Wi-Fi-verkkoon, tämä on kyseisen verkon omistaja, ja jos käytät VPN:ää, se on VPN:n ylläpitäjä. Internet-palveluntarjoajasi voi nähdä, millä sivustoilla käyt. Jos kyseiset sivustot käyttävät HTTPS:ää, Internet-palveoluntarjoajasi voi tehdä enintään valistuneen arvauksen siitä, mitä teet kyseisillä sivustoilla. Mutta jos sivusto käyttää vain HTTP:tä, Internet-palveluntarjoajasi näkee kaiken: hakutermit, lukemasi sivut ja seuraamasi linkit.\n\n Jos työnantaja hallinnoi laitettasi, hän saattaa myös seurata, mitä teet sillä. Yksityisten välilehtien käyttäminen ei todennäköisesti estä työnantajaa selvittämästä, millä sivustoilla olet käynyt. Myös joku muu, jolla on pääsy käsiksi laitteeseesi, on voinut asentaa ohjelmiston, joka seuraa toimintaasi, eivätkä yksityiset välilehdet suojaa sinua tällaisessa tilanteessa.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Lue lisää yksityisistä välilehdistä.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Tuo iBrowen kehittäjien tietoon, ettei tämä sivusto toimi kunnolla kilpien kanssa:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Huomaa: Brave-palvelimille lähetettävä raportti sisältää sivuston osoitteen, iBrowe-versionumeron, Shields-asetukset, VPN-tilan ja kieliasetukset. ";
+"ReportBrokenSiteBody2" = "Huomaa: iBrowe-palvelimille lähetettävä raportti sisältää sivuston osoitteen, iBrowe-versionumeron, Shields-asetukset, VPN-tilan ja kieliasetukset. ";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Lähetä";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe suljettiin yllättäen.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Brave-palkintojen avulla voit tarkastella iBrowe-mainosverkoston yksityisyyttä suojelevia mainoksia. Ei seurantaohjelmia. Ei hidastavia tekijöitä. Ja tietosi pysyvät täysin suojattuina.";
+"rewards.braveTalkRewardsOptInBody" = "iBrowe-palkintojen avulla voit tarkastella iBrowe-mainosverkoston yksityisyyttä suojelevia mainoksia. Ei seurantaohjelmia. Ei hidastavia tekijöitä. Ja tietosi pysyvät täysin suojattuina.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Ota Rewards käyttöön";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Ota käyttöön tukeaksesi iBrowea ja BAT-yhteisöä.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Brave-palkintojen käyttäminen tukee iBrowea ja BAT-yhteisöä.";
+"rewards.disabledStatusBody" = "iBrowe-palkintojen käyttäminen tukee iBrowea ja BAT-yhteisöä.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Autat tukemaan iBrowea ja BAT-yhteisöä.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Klikkaamalla hyväksyt seuraavat: %1$@ ja %2$@. Poista käytöstä milloin tahansa asetuksissa.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Tue Bravea ja BAT-yhteisöä ottamalla Brave-palkinnot käyttöön ja katsomalla iBrowe-mainoksia.";
+"rewards.settingsToggleMessage" = "Tue iBrowea ja BAT-yhteisöä ottamalla iBrowe-palkinnot käyttöön ja katsomalla iBrowe-mainoksia.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Salli iBrowe -palkinnot";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Poista synkronointitili";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Vaikuttaa siltä, että tämä koodi luotiin vanhaa Brave-versiota käyttävällä laitteella. Päivitä iBrowe uusimpaan versioon toisella laitteella ja luo uusi synkronointikoodi.";
+"sync.deprecatedVersionError" = "Vaikuttaa siltä, että tämä koodi luotiin vanhaa iBrowe-versiota käyttävällä laitteella. Päivitä iBrowe uusimpaan versioon toisella laitteella ja luo uusi synkronointikoodi.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Jokin meni vikaan haettaessa laitteita synkronointiketjussa.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Lähteet ovat suojaamattomia – lisää omalla vastuullasi";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Seuraa suosikkilähteitäsi yhdessä syötteessä. Avaa välilehti Bravessa, vieritä alas ja… voila!\niBrowe-uutistoimintoa tuetaan yksityisillä, anonymisoiduilla mainoksilla.";
+"today.introCardBody" = "Seuraa suosikkilähteitäsi yhdessä syötteessä. Avaa välilehti iBrowessa, vieritä alas ja… voila!\niBrowe-uutistoimintoa tuetaan yksityisillä, anonymisoiduilla mainoksilla.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Ota iBrowe-uutiset käyttöön, niin yksikään tarina ei mene ohi";

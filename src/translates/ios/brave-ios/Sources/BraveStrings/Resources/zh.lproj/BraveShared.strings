@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "将 iBrowe 设置为默认浏览器？";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "將 Brave 設為預設瀏覽器的話，您所輕觸的每個連結都會在 iBrowe 的隱私保護下開啟。";
+"callout.defaultBrowserCalloutDescription" = "將 iBrowe 設為預設瀏覽器的話，您所輕觸的每個連結都會在 iBrowe 的隱私保護下開啟。";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "设置默认";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "隐私。让事情变得简单明了。";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "这有助于我们了解 Brave 最常用的功能。在 Brave 设置下的 iBrowe 防护盾和隐私中随时更改设置。";
+"callout.p3aCalloutDescription" = "这有助于我们了解 iBrowe 最常用的功能。在 iBrowe 设置下的 iBrowe 防护盾和隐私中随时更改设置。";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "了解更多关于我们的隐私保护产品分析（P3A）。";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "允许 iBrowe 检查我的剪贴板中是否有匹配的推荐代码";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "您可能已经下载了 Brave 以支持您的推荐人。为了检测您的引荐来源，Brave 会对剪贴板进行一次一次性的检查以查找匹配的推荐代码。此检查仅限于代码，不会传输其他个人数据。如果您选择退出，推荐人将不会获得 iBrowe 的奖励。 ";
+"OBPrivacyConsentDetail" = "您可能已经下载了 iBrowe 以支持您的推荐人。为了检测您的引荐来源，iBrowe 会对剪贴板进行一次一次性的检查以查找匹配的推荐代码。此检查仅限于代码，不会传输其他个人数据。如果您选择退出，推荐人将不会获得 iBrowe 的奖励。 ";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "不允许此检查";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "连接您的 VPN 订阅";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Brave VPN 订阅最多可保护 10 台设备，Android、iOS 和桌上型电脑都能涵盖在内。只要将 App Store 订阅与 iBrowe 帐户连结即可。";
+"onboarding.linkReceiptDescription" = "iBrowe VPN 订阅最多可保护 10 台设备，Android、iOS 和桌上型电脑都能涵盖在内。只要将 App Store 订阅与 iBrowe 帐户连结即可。";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "扩展您的 iBrowe 防火墙+ VPN 保护";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "「僅限私人瀏覽」模式將關閉所有當前分頁，將您登出所有網站。";
 
 /* Private tab details */
-"PrivateTabBody" = "Brave 不會儲存隱私分頁，但這並不代表您在網路上為匿名狀態。您使用隱私分頁造訪的網站不會顯示在您的瀏覽記錄中，且一旦您關閉分頁，網站的 Cookie 也將一律刪除，也就是說，iBrowe 不會留下任何瀏覽記錄。不過，下載項目仍會儲存。即便使用隱私分頁，您的行動網路業者 (或是您所連線的 Wi-Fi 網路或 VPN 擁有者) 仍能看見您造訪哪些網站，而這些網站亦將取得您的公開 IP 位址。";
+"PrivateTabBody" = "iBrowe 不會儲存隱私分頁，但這並不代表您在網路上為匿名狀態。您使用隱私分頁造訪的網站不會顯示在您的瀏覽記錄中，且一旦您關閉分頁，網站的 Cookie 也將一律刪除，也就是說，iBrowe 不會留下任何瀏覽記錄。不過，下載項目仍會儲存。即便使用隱私分頁，您的行動網路業者 (或是您所連線的 Wi-Fi 網路或 VPN 擁有者) 仍能看見您造訪哪些網站，而這些網站亦將取得您的公開 IP 位址。";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "使用隱私分頁只會變更 Brave 可在您裝置上執行的作業，無法改變他人行為。\n\n當您造訪網站時，網站能得知您的 IP 位址。根據這項資訊，網站可以大略猜出您的所在位置，通常能知道您所在的城市，有時猜測的位置會更精確。網站也會知道您明確提供的所有內容，像是搜尋內容。當您登入網站時，網站也會知道您是該帳戶的所有人。若關閉隱私分頁，iBrowe 會捨棄那些將您保持登入的 Cookie，因此系統依然會將您隨即登出。\n\n將您連線至網際網路的公司 (您的 ISP 業者) 可以查看您在網路上的所有活動。這通常會是您的行動網路業者。如果您連線至 Wi-Fi 網路，該網路的所有者可以看到您的活動；如果您是使用 VPN，則是營運該 VPN 的一方。您的 ISP 業者可以在您造訪網站時，瞭解您瀏覽了哪些網站。如果這些網站使用 HTTPS，ISP 業者只能大略猜測您在網站上的活動；但如果網站僅使用 HTTP，則 ISP 業者可以看到所有活動，包括搜尋內容、讀取的頁面以及點選的連結。\n\n如果您的裝置是由雇主所管理，他們可能會追蹤您的裝置使用情形。即使您使用隱私分頁，雇主仍可知道您曾瀏覽過哪些網站。能存取您裝置的其他人士，可能也會安裝軟體以監控您的活動。這類情形下，即使使用隱私分頁，也無法保護您。";
+"PrivateTabDetails" = "使用隱私分頁只會變更 iBrowe 可在您裝置上執行的作業，無法改變他人行為。\n\n當您造訪網站時，網站能得知您的 IP 位址。根據這項資訊，網站可以大略猜出您的所在位置，通常能知道您所在的城市，有時猜測的位置會更精確。網站也會知道您明確提供的所有內容，像是搜尋內容。當您登入網站時，網站也會知道您是該帳戶的所有人。若關閉隱私分頁，iBrowe 會捨棄那些將您保持登入的 Cookie，因此系統依然會將您隨即登出。\n\n將您連線至網際網路的公司 (您的 ISP 業者) 可以查看您在網路上的所有活動。這通常會是您的行動網路業者。如果您連線至 Wi-Fi 網路，該網路的所有者可以看到您的活動；如果您是使用 VPN，則是營運該 VPN 的一方。您的 ISP 業者可以在您造訪網站時，瞭解您瀏覽了哪些網站。如果這些網站使用 HTTPS，ISP 業者只能大略猜測您在網站上的活動；但如果網站僅使用 HTTP，則 ISP 業者可以看到所有活動，包括搜尋內容、讀取的頁面以及點選的連結。\n\n如果您的裝置是由雇主所管理，他們可能會追蹤您的裝置使用情形。即使您使用隱私分頁，雇主仍可知道您曾瀏覽過哪些網站。能存取您裝置的其他人士，可能也會安裝軟體以監控您的活動。這類情形下，即使使用隱私分頁，也無法保護您。";
 
 /* Private tab information link */
 "PrivateTabLink" = "了解私人标签";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "讓 iBrowe 的開發人員知悉此網站無法在 Shields 中正常運作：";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "注意：傳送至 Brave 伺服器的報告會包括網址、iBrowe 版本號碼、Shields 設定、VPN 狀態和語言設定。";
+"ReportBrokenSiteBody2" = "注意：傳送至 iBrowe 伺服器的報告會包括網址、iBrowe 版本號碼、Shields 設定、VPN 狀態和語言設定。";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "提交";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe 意外關閉。";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "有了 Brave Rewards，您可以查看來自 iBrowe Ads 網路的隱私保護廣告。無須追蹤器，無須減速，且您的資料也能絕對安全。";
+"rewards.braveTalkRewardsOptInBody" = "有了 iBrowe Rewards，您可以查看來自 iBrowe Ads 網路的隱私保護廣告。無須追蹤器，無須減速，且您的資料也能絕對安全。";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "開啟 Rewards";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "开启支持 iBrowe 和 BAT 社区。";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "使用 Brave Rewards 支持 iBrowe 和 BAT 社区。";
+"rewards.disabledStatusBody" = "使用 iBrowe Rewards 支持 iBrowe 和 BAT 社区。";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "您正在为 iBrowe 和 BAT 社区提供支持。";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "按下即表示您同意 %1$@ 和 %2$@。可在設定中隨時取消。";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "启用 Brave Rewards，观看 Brave 广告，支持 iBrowe 和 BAT 社区。";
+"rewards.settingsToggleMessage" = "启用 iBrowe Rewards，观看 iBrowe 广告，支持 iBrowe 和 BAT 社区。";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "启用 iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "删除 Sync 帐户";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "代码可能创建于使用较低版本 Brave 的设备。请在您的设备上将 iBrowe 更新至最新版本，再创建同步代码。";
+"sync.deprecatedVersionError" = "代码可能创建于使用较低版本 iBrowe 的设备。请在您的设备上将 iBrowe 更新至最新版本，再创建同步代码。";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "擷取同步鏈中的裝置時發生錯誤。";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "不安全源 - 如果添加，风险自负";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "通过单一摘要关注您喜爱的来源。只要在 Brave 中开启分页、向下滑动，一切搞定！\niBrowe 新闻支援匿名投放私人广告。";
+"today.introCardBody" = "通过单一摘要关注您喜爱的来源。只要在 iBrowe 中开启分页、向下滑动，一切搞定！\niBrowe 新闻支援匿名投放私人广告。";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "打开 iBrowe News，别错过任何一个故事";

@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Definir o iBrowe como navegador padrão?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Com o Brave como padrão, todos os links em que você tocar serão abertos com as proteções de privacidade do iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Com o iBrowe como padrão, todos os links em que você tocar serão abertos com as proteções de privacidade do iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Definir como padrão";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Privacidade simplificada.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Isto ajuda-nos a saber quais as funcionalidades do Brave mais utilizadas. Pode alterá-las quando quiser nas Definições do Brave em \"iBrowe Shields e privacidade\".";
+"callout.p3aCalloutDescription" = "Isto ajuda-nos a saber quais as funcionalidades do iBrowe mais utilizadas. Pode alterá-las quando quiser nas Definições do iBrowe em \"iBrowe Shields e privacidade\".";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Saiba mais sobre nossa análise de produtos com preservação da privacidade (P3A)";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Ocultar ícone do iBrowe Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Oculta o ícone do Brave Rewards quando o iBrowe Rewards não está ativado";
+"HideRewardsIconSubtitle" = "Oculta o ícone do iBrowe Rewards quando o iBrowe Rewards não está ativado";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Histórico";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Permitir que o iBrowe verifique se há um código de indicação correspondente na minha área de transferência";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Talvez você tenha baixado o Brave para apoiar a pessoa que indicou você. Para detectar o responsável pela indicação, o Brave realiza uma verificação única da sua área de transferência em busca do código de indicação correspondente. Essa verificação se limita apenas ao código, e nenhum outro dado pessoal será transmitido. Se você desativar essa opção, o autor da indicação não receberá recompensas do iBrowe.";
+"OBPrivacyConsentDetail" = "Talvez você tenha baixado o iBrowe para apoiar a pessoa que indicou você. Para detectar o responsável pela indicação, o iBrowe realiza uma verificação única da sua área de transferência em busca do código de indicação correspondente. Essa verificação se limita apenas ao código, e nenhum outro dado pessoal será transmitido. Se você desativar essa opção, o autor da indicação não receberá recompensas do iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Não permitir essa verificação";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Vincular sua assinatura de VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "A sua assinatura da VPN Brave pode proteger até 10 dispositivos, incluindo Android, iOS e computadores. Basta associar sua assinatura da App Store à sua conta do iBrowe.";
+"onboarding.linkReceiptDescription" = "A sua assinatura da VPN iBrowe pode proteger até 10 dispositivos, incluindo Android, iOS e computadores. Basta associar sua assinatura da App Store à sua conta do iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Amplie sua proteção do Firewall + VPN iBrowe";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "O modo Somente navegação privada fechará todas as guias atuais e encerrará suas sessões em todos os sites.";
 
 /* Private tab details */
-"PrivateTabBody" = "As Abas privadas não são salvas no Brave, mas elas não garantem navegação anônima on-line. Os sites que você acessar em uma aba privada não serão exibidos no seu histórico, e os cookies deles serão excluídos quando você os fechar (nenhuma informação ficará salva no iBrowe). No entanto, os downloads serão salvos.\nSua operadora de telefonia móvel (ou o proprietário da rede Wi-Fi ou VPN à qual você está conectado) poderá ver quais sites você acessa, e esses sites detectarão seu endereço IP público, mesmo nas Abas privadas.";
+"PrivateTabBody" = "As Abas privadas não são salvas no iBrowe, mas elas não garantem navegação anônima on-line. Os sites que você acessar em uma aba privada não serão exibidos no seu histórico, e os cookies deles serão excluídos quando você os fechar (nenhuma informação ficará salva no iBrowe). No entanto, os downloads serão salvos.\nSua operadora de telefonia móvel (ou o proprietário da rede Wi-Fi ou VPN à qual você está conectado) poderá ver quais sites você acessa, e esses sites detectarão seu endereço IP público, mesmo nas Abas privadas.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "O uso das Abas privadas só muda o que o Brave faz no seu dispositivo. O comportamento das outras partes envolvidas não é alterado.\n\nOs sites sempre detectam seu endereço IP quando você os acessa. Com base nisso, normalmente é possível ter uma ideia geral de onde você está, como sua cidade. Às vezes, essa estimativa de localização pode ser bem mais específica. Os sites também têm acesso a todas as informações que você fornece a eles (por exemplo, termos de pesquisa). Se você fizer login em um site, ele saberá que você é o proprietário dessa conta. Sua sessão será encerrada quando você fechar as Abas privadas, pois o iBrowe excluirá o cookie que mantém você conectado à conta.\n\nO responsável pela sua conexão com a internet (seu provedor de serviços de internet), que em muitos casos é sua operadora, pode ver toda a sua atividade na rede. Se você está conectado a uma rede Wi-Fi, o provedor é o proprietário dessa rede. Se você está usando uma VPN, o proprietário é quem a mantém em funcionamento. Seu provedor pode ver os sites que você acessa no momento em que isso acontece. Se esses sites usam HTTPS, ele não tem como saber exatamente o que você faz neles. No entanto, se um site só utiliza HTTP, seu provedor pode ver tudo: seus termos de pesquisa, quais páginas você acessa e em quais links você clica.\n\nSe a empresa na qual você trabalha gerencia seu dispositivo, é possível que ela monitore o que você faz com ele. O uso das Abas privadas provavelmente não a impedirá de saber os sites que você acessou. É possível que outra pessoa que tenha acesso ao seu dispositivo tenha instalado um software para monitorar sua atividade; nesse caso, as Abas privadas não poderão proteger você.";
+"PrivateTabDetails" = "O uso das Abas privadas só muda o que o iBrowe faz no seu dispositivo. O comportamento das outras partes envolvidas não é alterado.\n\nOs sites sempre detectam seu endereço IP quando você os acessa. Com base nisso, normalmente é possível ter uma ideia geral de onde você está, como sua cidade. Às vezes, essa estimativa de localização pode ser bem mais específica. Os sites também têm acesso a todas as informações que você fornece a eles (por exemplo, termos de pesquisa). Se você fizer login em um site, ele saberá que você é o proprietário dessa conta. Sua sessão será encerrada quando você fechar as Abas privadas, pois o iBrowe excluirá o cookie que mantém você conectado à conta.\n\nO responsável pela sua conexão com a internet (seu provedor de serviços de internet), que em muitos casos é sua operadora, pode ver toda a sua atividade na rede. Se você está conectado a uma rede Wi-Fi, o provedor é o proprietário dessa rede. Se você está usando uma VPN, o proprietário é quem a mantém em funcionamento. Seu provedor pode ver os sites que você acessa no momento em que isso acontece. Se esses sites usam HTTPS, ele não tem como saber exatamente o que você faz neles. No entanto, se um site só utiliza HTTP, seu provedor pode ver tudo: seus termos de pesquisa, quais páginas você acessa e em quais links você clica.\n\nSe a empresa na qual você trabalha gerencia seu dispositivo, é possível que ela monitore o que você faz com ele. O uso das Abas privadas provavelmente não a impedirá de saber os sites que você acessou. É possível que outra pessoa que tenha acesso ao seu dispositivo tenha instalado um software para monitorar sua atividade; nesse caso, as Abas privadas não poderão proteger você.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Saiba mais sobre abas privadas.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Informe aos desenvolvedores do iBrowe que este site não funciona corretamente com o Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Nota: o relatório enviado para os servidores do Brave inclui o endereço do site, a versão do iBrowe utilizada, as definições das proteções, o estado da VPN e as definições de idioma.";
+"ReportBrokenSiteBody2" = "Nota: o relatório enviado para os servidores do iBrowe inclui o endereço do site, a versão do iBrowe utilizada, as definições das proteções, o estado da VPN e as definições de idioma.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Enviar";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "O iBrowe fechou inesperadamente.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Com o Brave Rewards, você pode visualizar anúncios da rede do iBrowe Ads que preservam sua privacidade. Sem rastreadores. Sem lentidão. E seus dados ficam totalmente seguros.";
+"rewards.braveTalkRewardsOptInBody" = "Com o iBrowe Rewards, você pode visualizar anúncios da rede do iBrowe Ads que preservam sua privacidade. Sem rastreadores. Sem lentidão. E seus dados ficam totalmente seguros.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Ativar Recompensas";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Ative para ajudar a apoiar o iBrowe e a comunidade BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Usar o Brave Rewards ajuda a apoiar o iBrowe e a comunidade BAT.";
+"rewards.disabledStatusBody" = "Usar o iBrowe Rewards ajuda a apoiar o iBrowe e a comunidade BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Você está ajudando a apoiar o iBrowe e a comunidade BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Ao clicar, você concorda com os %1$@ e a %2$@. Desative quando quiser nas Configurações.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Ajude a apoiar o Brave e a comunidade BAT ativando o Brave Rewards e visualizando os anúncios do iBrowe.";
+"rewards.settingsToggleMessage" = "Ajude a apoiar o iBrowe e a comunidade BAT ativando o iBrowe Rewards e visualizando os anúncios do iBrowe.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Ativar o iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Eliminar a conta da sincronização";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Parece que este código foi criado em um dispositivo executando uma versão mais antiga do Brave. Atualize para a versão mais recente do iBrowe em seu outro dispositivo e crie um novo código de sincronização.";
+"sync.deprecatedVersionError" = "Parece que este código foi criado em um dispositivo executando uma versão mais antiga do iBrowe. Atualize para a versão mais recente do iBrowe em seu outro dispositivo e crie um novo código de sincronização.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Ocorreu um erro ao obter dispositivos na cadeia de sincronização.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Fontes não seguras: adicione-as por sua conta e risco";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Siga suas fontes favoritas em um único feed. Basta abrir uma guia no Brave, rolar a tela para baixo e pronto!\nO Notícias iBrowe exibe anúncios totalmente privados e anonimizados.";
+"today.introCardBody" = "Siga suas fontes favoritas em um único feed. Basta abrir uma guia no iBrowe, rolar a tela para baixo e pronto!\nO Notícias iBrowe exibe anúncios totalmente privados e anonimizados.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Ative o Notícias iBrowe e nunca fique por fora das notícias";

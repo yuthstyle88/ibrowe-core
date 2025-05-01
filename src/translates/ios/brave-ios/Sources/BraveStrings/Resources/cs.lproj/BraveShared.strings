@@ -272,7 +272,7 @@
 "callout.defaultBrowserCalloutButtonDescription" = "Nastavit iBrowe jako výchozí prohlížeč?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Pokud je Brave nastaven jako váš výchozí prohlížeč, každý odkaz, na který kliknete, se otevře s ochranou soukromí iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Pokud je iBrowe nastaven jako váš výchozí prohlížeč, každý odkaz, na který kliknete, se otevře s ochranou soukromí iBrowe.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Nastavit výchozí";
@@ -287,7 +287,7 @@
 "callout.defaultBrowserTitle" = "Soukromí. Zjednodušeně.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "To nám pomáhá zjistit, jaké funkce Brave se používají nejčastěji. Změňte kdykoli v Nastavení Brave v části Štíty iBrowe a další nastavení ochrany osobních údajů.";
+"callout.p3aCalloutDescription" = "To nám pomáhá zjistit, jaké funkce iBrowe se používají nejčastěji. Změňte kdykoli v Nastavení iBrowe v části Štíty iBrowe a další nastavení ochrany osobních údajů.";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Další informace o naší analýze produktů pro zachování soukromí (P3A).";
@@ -842,7 +842,7 @@
 "HideRewardsIcon" = "Skrýt ikonu odměn iBrowe";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Pokud nejsou odměny Brave povoleny, tak skryje ikonu odměny iBrowe";
+"HideRewardsIconSubtitle" = "Pokud nejsou odměny iBrowe povoleny, tak skryje ikonu odměny iBrowe";
 
 /* Title for history menu item */
 "HistortMenuItem" = "History";
@@ -1127,7 +1127,7 @@
 "OBPrivacyConsentClipboardPermission" = "Povolte iBrowe zkontrolovat v mé schránce odpovídající referenční kód";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Pravděpodobně jste si stáhli Brave na podporu svého referera. Aby Brave mohl detekovat vašeho referera, provede jednorázovou kontrolu ve vaší schránce, zda neobsahuje odpovídající referenční kód. Tato kontrola je omezena pouze na kód a nedojde k předání žádných dalších osobních údajů. Pokud se odhlásíte, váš referer neobdrží odměny od iBrowe.";
+"OBPrivacyConsentDetail" = "Pravděpodobně jste si stáhli iBrowe na podporu svého referera. Aby iBrowe mohl detekovat vašeho referera, provede jednorázovou kontrolu ve vaší schránce, zda neobsahuje odpovídající referenční kód. Tato kontrola je omezena pouze na kód a nedojde k předání žádných dalších osobních údajů. Pokud se odhlásíte, váš referer neobdrží odměny od iBrowe.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Nepovolit tuto kontrolu";
@@ -1199,7 +1199,7 @@
 "onboarding.linkReceiptButton" = "Propojit předplatné VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "Vaše předplatné Brave VPN může chránit až 10 zařízení na Androidu, iOS a stolním počítači. Stačí propojit vaše předplatné App Store s vaším účtem iBrowe.";
+"onboarding.linkReceiptDescription" = "Vaše předplatné iBrowe VPN může chránit až 10 zařízení na Androidu, iOS a stolním počítači. Stačí propojit vaše předplatné App Store s vaším účtem iBrowe.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
 "onboarding.linkReceiptTitle" = "Rozšiřte ochranu iBrowe Firewall + VPN";
@@ -2021,10 +2021,10 @@
 "PrivateBrowsingOnlyWarning" = "Režim pouze anonymního prohlížení zavře všechny vaše aktuální karty a odhlásí vás ze všech stránek.";
 
 /* Private tab details */
-"PrivateTabBody" = "Soukromé karty se v Brave neukládají, ale nejste s nimi online anonymní. Stránky, které navštívíte v soukromé kartě, se nezobrazí ve vaší historii a jejich soubory cookie vždy zmizí, když je zavřete — žádná jejich stopa v iBrowe nezůstane. Stažené soubory se však uloží.\nVáš mobilní operátor (nebo vlastník sítě Wi-Fi nebo VPN, ke které jste připojeni) vidí, které stránky navštěvujete, a tyto stránky zjistí vaši veřejnou IP adresu, a to i na soukromých kartách.";
+"PrivateTabBody" = "Soukromé karty se v iBrowe neukládají, ale nejste s nimi online anonymní. Stránky, které navštívíte v soukromé kartě, se nezobrazí ve vaší historii a jejich soubory cookie vždy zmizí, když je zavřete — žádná jejich stopa v iBrowe nezůstane. Stažené soubory se však uloží.\nVáš mobilní operátor (nebo vlastník sítě Wi-Fi nebo VPN, ke které jste připojeni) vidí, které stránky navštěvujete, a tyto stránky zjistí vaši veřejnou IP adresu, a to i na soukromých kartách.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "Používání soukromých karet mění pouze to, co Brave dělá na vašem zařízení, nemění chování kohokoli jiného.\n\nStránky vždy zjistí vaši IP adresu, když je navštívíte. Z toho často mohou zhruba odhadnout, kde jste — typicky vaše město. Někdy může být tento odhad polohy mnohem konkrétnější. Stránky také ví všechno, co jim konkrétně řeknete, jako vyhledávané pojmy. Pokud se přihlásíte na stránku, budou vědět, že jste vlastníky tohoto účtu. Když soukromé karty zavřete, budete stále odhlášeni, protože iBrowe zahodí cookie, které vás udržuje přihlášené. \n\nKdokoli vás připojí k internetu (váš poskytovatel internetových služeb), vidí veškerou vaši aktivitu na síti. Často je to váš mobilní operátor. Pokud jste připojeni k síti Wi-Fi, je to vlastník této sítě, a pokud používáte VPN, pak je to kdokoli, kdo tu VPN provozuje. Váš poskytovatel internetových služeb vidí, které stránky navštěvujete, když je navštěvujete. Pokud tyto stránky používají HTTPS, nemůže provést o moc víc než kvalifikovaný odhad toho, co na těchto stránkách děláte. Ale pokud stránka používá pouze HTTP, váš poskytovatel internetových služeb vidí vše: vaše vyhledávané pojmy, jaké stránky čtete a na jaké odkazy klikáte.\n\nPokud zaměstnavatel spravuje vaše zařízení, může také sledovat, co s ním děláte. Používání soukromých karet mu pravděpodobně nezabrání v tom, aby viděl, jaké stránky jste navštívili. Někdo jiný s přístupem k vašemu zařízení mohl také instalovat software, který monitoruje vaši aktivitu, a ani soukromé karty vás před tím neochrání.";
+"PrivateTabDetails" = "Používání soukromých karet mění pouze to, co iBrowe dělá na vašem zařízení, nemění chování kohokoli jiného.\n\nStránky vždy zjistí vaši IP adresu, když je navštívíte. Z toho často mohou zhruba odhadnout, kde jste — typicky vaše město. Někdy může být tento odhad polohy mnohem konkrétnější. Stránky také ví všechno, co jim konkrétně řeknete, jako vyhledávané pojmy. Pokud se přihlásíte na stránku, budou vědět, že jste vlastníky tohoto účtu. Když soukromé karty zavřete, budete stále odhlášeni, protože iBrowe zahodí cookie, které vás udržuje přihlášené. \n\nKdokoli vás připojí k internetu (váš poskytovatel internetových služeb), vidí veškerou vaši aktivitu na síti. Často je to váš mobilní operátor. Pokud jste připojeni k síti Wi-Fi, je to vlastník této sítě, a pokud používáte VPN, pak je to kdokoli, kdo tu VPN provozuje. Váš poskytovatel internetových služeb vidí, které stránky navštěvujete, když je navštěvujete. Pokud tyto stránky používají HTTPS, nemůže provést o moc víc než kvalifikovaný odhad toho, co na těchto stránkách děláte. Ale pokud stránka používá pouze HTTP, váš poskytovatel internetových služeb vidí vše: vaše vyhledávané pojmy, jaké stránky čtete a na jaké odkazy klikáte.\n\nPokud zaměstnavatel spravuje vaše zařízení, může také sledovat, co s ním děláte. Používání soukromých karet mu pravděpodobně nezabrání v tom, aby viděl, jaké stránky jste navštívili. Někdo jiný s přístupem k vašemu zařízení mohl také instalovat software, který monitoruje vaši aktivitu, a ani soukromé karty vás před tím neochrání.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Více informací o soukromých kartách.";
@@ -2192,7 +2192,7 @@
 "ReportBrokenSiteBody1" = "Dejte vývojářům iBrowe vědět, že tyto stránky se zabezpečením Shields nefungují správně:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Poznámka: Zpráva odeslaná na servery Brave bude zahrnovat adresu stránky, číslo verze prohlížeče iBrowe, nastavení štítů, stav VPN a nastavení jazyka.";
+"ReportBrokenSiteBody2" = "Poznámka: Zpráva odeslaná na servery iBrowe bude zahrnovat adresu stránky, číslo verze prohlížeče iBrowe, nastavení štítů, stav VPN a nastavení jazyka.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Submit";
@@ -2231,7 +2231,7 @@
 "RestoreTabOnCrashAlertTitle" = "iBrowe se nečekaně zavřel.";
 
 /* Body for Brave Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "S odměnami Brave si můžete zobrazit reklamy chránící soukromí ze sítě Reklamy iBrowe. Žádné trackery. Žádné zpomalení. A vaše data zůstávají naprosto v bezpečí.";
+"rewards.braveTalkRewardsOptInBody" = "S odměnami iBrowe si můžete zobrazit reklamy chránící soukromí ze sítě Reklamy iBrowe. Žádné trackery. Žádné zpomalení. A vaše data zůstávají naprosto v bezpečí.";
 
 /* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Zapnout Rewards";
@@ -2249,7 +2249,7 @@
 "rewards.disabledBody" = "Zapněte nápovědu pro podporu prohlížeče Brace a komunity BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Používání odměn Brave pomáhá podporovat prohlížeč iBrowe a komunitu BAT.";
+"rewards.disabledStatusBody" = "Používání odměn iBrowe pomáhá podporovat prohlížeč iBrowe a komunitu BAT.";
 
 /* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "Pomáháte podporovat iBrowe a komunitu BAT.";
@@ -2261,7 +2261,7 @@
 "rewards.optInDisclaimer" = "Kliknutím souhlasíte s %1$@ a %2$@. Můžete je kdykoliv zakázat v Nastavení.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Pomáhejte podporovat prohlížeč Brave a komunitu BAT tím, že zapnete odměny Brave, aby se zobrazovaly reklamy iBrowe.";
+"rewards.settingsToggleMessage" = "Pomáhejte podporovat prohlížeč iBrowe a komunitu BAT tím, že zapnete odměny iBrowe, aby se zobrazovaly reklamy iBrowe.";
 
 /* No comment provided by engineer. */
 "rewards.settingsToggleTitle" = "Povolit iBrowe Rewards";
@@ -3035,7 +3035,7 @@
 "sync.deleteAccountAlertTitle" = "Odstranit synchronizační účet";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Zdá se, že tento kód byl vytvořen na zařízení, které má starší verzi Brave. Aktualizujte prosím na nejnovější verzi iBrowe na svém druhém zařízení a poté vytvořte nový synchronizační kód.";
+"sync.deprecatedVersionError" = "Zdá se, že tento kód byl vytvořen na zařízení, které má starší verzi iBrowe. Aktualizujte prosím na nejnovější verzi iBrowe na svém druhém zařízení a poté vytvořte nový synchronizační kód.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Při načítání zařízení v synchronizačním řetězci se něco pokazilo.";
@@ -3452,7 +3452,7 @@
 "today.insecureSourcesHeader" = "Nezabezpečené zdroje – přidávejte na vlastní nebezpečí";
 
 /* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Sledujte v rámci jednoho kanálu své oblíbené zdroje. Stačí otevřít kartu v Brave, posunout dolů a... tadá!\nNovinky iBrowe jsou podporovány soukromými a anonymizovanými reklamami.";
+"today.introCardBody" = "Sledujte v rámci jednoho kanálu své oblíbené zdroje. Stačí otevřít kartu v iBrowe, posunout dolů a... tadá!\nNovinky iBrowe jsou podporovány soukromými a anonymizovanými reklamami.";
 
 /* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "Zapněte si zprávy iBrowe a nenechte si ujít žádný příběh";
