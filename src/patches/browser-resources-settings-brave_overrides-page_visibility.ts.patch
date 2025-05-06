@@ -1,0 +1,13 @@
+diff --git a/browser/resources/settings/brave_overrides/page_visibility.ts b/browser/resources/settings/brave_overrides/page_visibility.ts
+index 90ddaed05f26e13b110100e76e757109d2a7e6f9..570d94907691c59cddd13dd1817e6375d2d73219 100644
+--- a/browser/resources/settings/brave_overrides/page_visibility.ts
++++ b/browser/resources/settings/brave_overrides/page_visibility.ts
+@@ -66,7 +66,7 @@ function getPageVisibility () {
+     // custom properties
+     braveSync: !loadTimeData.getBoolean('isSyncDisabled'),
+     braveWallet: loadTimeData.getBoolean('isBraveWalletAllowed'),
+-    leoAssistant: loadTimeData.getBoolean('isLeoAssistantAllowed'),
++    leoAssistant: false,
+     content: alwaysTrueProxy,
+     playlist: loadTimeData.getBoolean('isPlaylistAllowed'),
+     speedreader: loadTimeData.getBoolean('isSpeedreaderFeatureEnabled'),
