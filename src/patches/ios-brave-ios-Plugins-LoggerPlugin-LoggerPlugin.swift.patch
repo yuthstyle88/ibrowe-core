@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Plugins/LoggerPlugin/LoggerPlugin.swift b/ios/brave-ios/Plugins/LoggerPlugin/LoggerPlugin.swift
+index 1136f200f9fdc47ac3aa00f746dbc7c2bff64326..36f6d3fa7022398027429d90140b9e2b33b59d5f 100644
+--- a/ios/brave-ios/Plugins/LoggerPlugin/LoggerPlugin.swift
++++ b/ios/brave-ios/Plugins/LoggerPlugin/LoggerPlugin.swift
+@@ -25,7 +25,7 @@ struct LoggerPlugin: BuildToolPlugin {
+ 
+       extension Logger {
+         static var module: Logger {
+-          .init(subsystem: "\\(Bundle.main.bundleIdentifier ?? "com.brave.ios")", category: "\(target.moduleName)")
++          .init(subsystem: "\\(Bundle.main.bundleIdentifier ?? "com.ibrowe.ios")", category: "\(target.moduleName)")
+         }
+       }
+       """
