@@ -1,5 +1,5 @@
 diff --git a/components/brave_wallet/browser/json_rpc_service.cc b/components/brave_wallet/browser/json_rpc_service.cc
-index b37e0326c62f76d61bc2f6a695d245a935630694..deab592634f5a2ce7a376089650f5f41801cc7fa 100644
+index b37e0326c62f76d61bc2f6a695d245a935630694..524141eb01c0a8ccf899c939f8fbe03cbaec929f 100644
 --- a/components/brave_wallet/browser/json_rpc_service.cc
 +++ b/components/brave_wallet/browser/json_rpc_service.cc
 @@ -182,7 +182,7 @@ net::NetworkTrafficAnnotationTag GetENSOffchainNetworkTrafficAnnotationTag() {
