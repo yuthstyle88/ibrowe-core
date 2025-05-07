@@ -1,0 +1,13 @@
+diff --git a/build/mac/create_pkg.sh b/build/mac/create_pkg.sh
+index ed4858a3dad7e103b41ddc730ea215576ec7691b..621648d05acf35ee5c577fd30a93cbc9134dd6ee 100755
+--- a/build/mac/create_pkg.sh
++++ b/build/mac/create_pkg.sh
+@@ -43,7 +43,7 @@ pkgbuild --analyze --root "$PKG_ROOT" "$COMPONENT_PLIST"
+ plutil -replace BundleIsRelocatable -bool NO "$COMPONENT_PLIST"
+ 
+ # Create the pkg
+-pkgbuild --identifier com.brave.Brave \
++pkgbuild --identifier com.ibrowe.iBrowe \
+ 	 --install-location /Applications \
+ 	 --root "$PKG_ROOT" \
+ 	 --scripts "$PKG_SCRIPTS" \

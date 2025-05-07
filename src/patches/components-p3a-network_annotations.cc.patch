@@ -1,5 +1,5 @@
 diff --git a/components/p3a/network_annotations.cc b/components/p3a/network_annotations.cc
-index 5bca1a57db4f901d5484d00c2473dc1729b3ff2e..a38a22183dc03ebe40de534e4efb6434c478a2dd 100644
+index 5bca1a57db4f901d5484d00c2473dc1729b3ff2e..4a21ec2e32c28083e80d33257196314a2dc1e6ea 100644
 --- a/components/p3a/network_annotations.cc
 +++ b/components/p3a/network_annotations.cc
 @@ -29,7 +29,7 @@ net::NetworkTrafficAnnotationTag GetRandomnessRequestAnnotation() {
