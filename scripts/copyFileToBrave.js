@@ -42,7 +42,7 @@ const braveCoreDir = path.resolve(config.srcDir, 'brave');
 
 function copyFileToBrave() {
     copyRecursiveSync(ibroweImages, braveCoreDir);
-    copyRecursiveSync(ibroweTranslates, braveCoreDir);
+    // copyRecursiveSync(ibroweTranslates, braveCoreDir);
 }
 
 module.exports = { copyFileToBrave };
