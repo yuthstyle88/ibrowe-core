@@ -3,7 +3,7 @@ import re
 import argparse
 
 # 📁 ตำแหน่งโฟลเดอร์ที่จะประมวลผล
-root_dir = '/home/yuth/temp/brave'
+root_dir = '../src'
 
 # ✅ รองรับไฟล์ .grd, .grdp, .xtb เท่านั้น
 SUPPORTED_EXTENSIONS = ['.grd', '.grdp', '.xtb']

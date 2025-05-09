@@ -1,0 +1,150 @@
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Icone iBrowe";
+
+/* The title for the screen that lets the user select a custom app icon */
+"altAppIcon.changeAppIcon" = "Cambia l'icona dell'app";
+
+/* A label shown next to the default Brave app icon */
+"altAppIcon.defaultAppIcon" = "Default";
+
+/* A title shown if some sort of error occurs while changing the app icon */
+"altAppIcon.errorTitle" = "Impossibile cambiare l'icona dell'app";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"BackTitle" = "Indietro";
+
+/* Accessibility message e.g. spoken by VoiceOver when page translation becomes available. */
+"BraveTranslate.availableVoiceOverAnnouncement" = "Traduzione della pagina disponibile";
+
+/* Hardware shortcut to close all tabs from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"CloseAllTabsFromTabTrayKeyCodeTitle" = "Chiudi tutte le schede";
+
+/* Hardware shortcut to close the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"CloseTabFromTabTrayKeyCodeTitle" = "Chiudi la scheda selezionata";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"CloseTabTitle" = "Chiudi scheda";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"ForwardTitle" = "Avanti";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"NewPrivateTabTitle" = "Nuova scheda privata";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"NewTabTitle" = "Nuova scheda";
+
+/* Hardware shortcut to open a new tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"OpenNewTabFromTabTrayKeyCodeTitle" = "Apri una nuova scheda";
+
+/* Hardware shortcut open the selected tab from the tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"OpenSelectedTabFromTabTrayKeyCodeTitle" = "Apri la scheda selezionata";
+
+/* Title label text for refreshing credentials from brave site. */
+"paywall.alreadyPurchasedTitle" = "Hai già fatto acquisti su ibrowe.com?";
+
+/* Title label text for entering a promo code. */
+"paywall.havePromoCodeTitle" = "Hai un codice promo?";
+
+/* Button action text for redeem promo code */
+"paywall.redeemPromoCodeButtonTitle" = "Riscatta il codice promo";
+
+/* Button action text for refreshing credentials from brave site. */
+"paywall.refreshCredentialsButtonTitle" = "Aggiorna le tue credenziali";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
+"RecentlyClosedTabTitle" = "Riapri la scheda chiusa";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"ReloadPageTitle" = "Ricarica la pagina";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"SelectLocationBarTitle" = "Seleziona la barra di posizione";
+
+/* An option in a list of shortcut actions that hides the button */
+"shortcutsButton.hideButtonTitle" = "Nascondi pulsante di scelta rapida";
+
+/* A title shown when letting the user choose a button's purpose from a list of destinations */
+"shortcutsButton.shortcutButtonTitle" = "Pulsante di scelta rapida";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"showBookmarksTitle" = "Mostra i segnalibri";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"ShowNextTabTitle" = "Mostra la scheda successiva";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"ShowPreviousTabTitle" = "Mostra la scheda precedente";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "Apri iBrowe Shields";
+
+/* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"ShowTabTrayFromTabKeyCodeTitle" = "Mostra tutte le schede";
+
+/* The title of the label that shows the Application Version */
+"storekitReceiptViewer.applicationVersionTitle" = "Versione dell'applicazione";
+
+/* The title of the product subscription the user purchased (Monthly subscription) */
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo Mensile";
+
+/* The title of the product subscription the user purchased (Yearly subscription) */
+"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo Annuale";
+
+/* The error message when the App Store Receipt was not found in the Application Bundle */
+"storekitReceiptViewer.noReceiptFoundTitle" = "Spiacente, non sono state trovate ricevute App Store";
+
+/* The title of the label that shows the date when the product subscription was cancelled */
+"storekitReceiptViewer.receiptCancellationDate" = "Data di cancellazione";
+
+/* The title of the label that shows the date the receipt was created */
+"storekitReceiptViewer.receiptDateTitle" = "Data di Ricevuta";
+
+/* The title of the label that shows the date when the product subscription expired */
+"storekitReceiptViewer.receiptExpirationDate" = "Data di scadenza";
+
+/* The title of the label that shows any invalid date - Not Available or N/A for short is displayed */
+"storekitReceiptViewer.receiptInvalidDate" = "N.D.";
+
+/* The error message when the App Store Receipt was found in the Application Bundle, but could not be loaded */
+"storekitReceiptViewer.receiptLoadingErrorTitle" = "Spiacente, non è stato possibile caricare l'App Store ricevuta.";
+
+/* The title of the label that shows the Order ID of the user's purchase */
+"storekitReceiptViewer.receiptOrderIDTitle" = "ID ordine";
+
+/* The title of the label that shows the date when the product subscription was first purchased */
+"storekitReceiptViewer.receiptOriginalPurchaseDateTitle" = "Data di acquisto originale";
+
+/* The title of the label that shows the date when the product subscription was recently purchased or renewed */
+"storekitReceiptViewer.receiptPurchaseDate" = "Data di acquisto";
+
+/* The title of the label that shows the Transaction ID of the user's purchase */
+"storekitReceiptViewer.receiptTransactionIDTitle" = "ID transazione";
+
+/* The title of the label that shows when the Receipt Viewer is still loading resources and subscription information */
+"storekitReceiptViewer.receiptViewerLoadingTitle" = "Caricamento Attendere prego...";
+
+/* The title of the screen that shows the App Store Receipt */
+"storekitReceiptViewer.receiptViewerTitle" = "Ricevuta App Store";
+
+/* The title of the button that shows a system action sheet, to share the receipt */
+"storekitReceiptViewer.shareReceiptTitle" = "Condividi ricevuta";
+
+/* The title of the product subscription the user purchased (Monthly subscription) */
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN Mensile";
+
+/* The title of the product subscription the user purchased (Yearly subscription) */
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN Annuale";
+
+/* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"SwitchToNonPBMKeyCodeTitle" = "Modalità di navigazione normale";
+
+/* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
+"SwitchToPBMKeyCodeTitle" = "Modalità di navigazione privata";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"ZoomInTitle" = "Aumenta lo zoom";
+
+/* Label to display in the Discoverability overlay for keyboard shortcuts */
+"ZoomOutTitle" = "Riduci lo zoom";
+
