@@ -1,60 +1,100 @@
 import os
 import re
+import argparse
 
-# กำหนด root directory ที่ต้องการประมวลผล
-root_dir = '/Users/yongyutjantaboot/CLionProjects/ibrowe-browser/src/brave/ios/brave-ios/Sources'
+# 📁 ตำแหน่งโฟลเดอร์ที่จะประมวลผล
+root_dir = '/home/yuth/temp/brave'
 
-# กำหนดนามสกุลไฟล์ที่ต้องการประมวลผล
-file_extension = '.strings'
+# ✅ รองรับไฟล์ .grd, .grdp, .xtb เท่านั้น
+SUPPORTED_EXTENSIONS = ['.grd', '.grdp', '.xtb']
 
-# กำหนด regex pattern
-# for file_extension = '.swift'
-# pattern = r'(value:\s*"[^"]*")|(comment:\s*"[^"]*")'
-# for file_extension = '.strings'
-pattern = r'=\s*"((?:[^"\\]|\\.)*)(")'
+# 🎯 รับพารามิเตอร์ extension จาก command line
+parser = argparse.ArgumentParser()
+parser.add_argument('--ext', type=str, choices=SUPPORTED_EXTENSIONS, required=True,
+                    help='File extension to process: .grd, .grdp, or .xtb')
+args = parser.parse_args()
+file_extension = args.ext
 
-def replace_brave(match):
-    value = match.group(1)
+# ✅ Regex patterns
+message_pattern = re.compile(r'(<message\b[^>]*?>)(.*?)(</message>)', re.DOTALL)
+translation_pattern = re.compile(r'(<translation\s+id="\d+">)(.*?)(</translation>)', re.DOTALL)
+desc_pattern = re.compile(r'(desc\s*=\s*")(.*?)(")', re.DOTALL)
+ph_pattern = re.compile(r'(<ph\b[^>]*?>.*?</ph>)', re.DOTALL)
+ex_pattern = re.compile(r'(<ex>)(.*?)(</ex>)', re.DOTALL)
 
-    updated_value = (
-        value.replace('Brave', 'iBrowe')
-        .replace('BRAVE', 'IBROWE')
+# เลือก pattern ตาม extension
+pattern = message_pattern if file_extension in ['.grd', '.grdp'] else translation_pattern
+
+# 🔁 ฟังก์ชันแทนที่คำว่า Brave → iBrowe
+def replace_brave(text):
+    return (
+        text.replace('Brave', 'iBrowe')
         .replace('brave', 'ibrowe')
-        .replace('"', r'\"')  # escape quote ภายใน
-        .rstrip(r'\"')        # กัน quote ปิดเกิน (ถ้ามี)
+        .replace('BRAVE', 'IBROWE')
     )
 
-    # ✅ ถ้าไม่มีการเปลี่ยนแปลง → คืนค่าดั้งเดิม
-    if value == updated_value:
+def replace_ex_content(ph_block):
+    return ex_pattern.sub(lambda m: f"{m.group(1)}{replace_brave(m.group(2))}{m.group(3)}", ph_block)
+
+# 🔧 สำหรับ .grd และ .grdp
+def replace_grd_message(match):
+    open_tag = match.group(1)
+    body = match.group(2)
+    close_tag = match.group(3)
+
+    # ✅ ถ้าไม่เจอ Brave และไม่มี desc="..." → ข้าม
+    if not any(x in body for x in ['Brave', 'brave', 'BRAVE']) and 'desc="' not in open_tag:
         return match.group(0)
 
-    return f'= "{updated_value}";'
+    # ✅ แทนที่ใน desc
+    open_tag = desc_pattern.sub(lambda m: f'{m.group(1)}{replace_brave(m.group(2))}{m.group(3)}', open_tag)
 
-# ฟังก์ชันสำหรับประมวลผลไฟล์
+    # ✅ แยก <ph> ออกมาเพื่อแทน <ex> ภายใน
+    parts = re.split(ph_pattern, body)
+    new_parts = []
+    for part in parts:
+        if part.startswith('<ph'):
+            new_parts.append(replace_ex_content(part))
+        else:
+            new_parts.append(replace_brave(part))
+
+    return f"{open_tag}{''.join(new_parts)}{close_tag}"
+
+# 🔧 สำหรับ .xtb
+def replace_xtb_translation(match):
+    open_tag = match.group(1)
+    body = match.group(2)
+    close_tag = match.group(3)
+
+    if 'Brave' in body or 'brave' in body or 'BRAVE' in body:
+        return f"{open_tag}{replace_brave(body)}{close_tag}"
+    else:
+        return match.group(0)
+
+# 🔧 ประมวลผลไฟล์
 def process_file(file_path):
     try:
-        # อ่านเนื้อหาไฟล์
-        with open(file_path, 'r', encoding='utf-8') as file:
-            content = file.read()
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
 
-        # แทนที่โดยใช้ regex และฟังก์ชัน callback
-        new_content = re.sub(pattern, replace_brave, content)
-
-        # บันทึกไฟล์ถ้ามีการเปลี่ยนแปลง
-        if new_content != content:
-            with open(file_path, 'w', encoding='utf-8') as file:
-                file.write(new_content)
-            print(f'ไฟล์ถูกอัปเดต: {file_path}')
+        if file_extension in ['.grd', '.grdp']:
+            new_content = pattern.sub(replace_grd_message, content)
         else:
-            print(f'ไม่มีการเปลี่ยนแปลง: {file_path}')
-    except Exception as e:
-        print(f'เกิดข้อผิดพลาดที่ {file_path}: {e}')
+            new_content = pattern.sub(replace_xtb_translation, content)
 
-# เดินทางผ่านโฟลเดอร์และโฟลเดอร์ย่อยทั้งหมด
+        if new_content != content:
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(new_content)
+            print(f'✅ Updated: {file_path}')
+        else:
+            print(f'➖ No change: {file_path}')
+    except Exception as e:
+        print(f'❌ ERROR at {file_path}: {e}')
+
+# 🔁 วนลูปประมวลผลทุกไฟล์
 for subdir, _, files in os.walk(root_dir):
     for file in files:
         if file.endswith(file_extension):
-            file_path = os.path.join(subdir, file)
-            process_file(file_path)
+            process_file(os.path.join(subdir, file))
 
-print('การประมวลผลเสร็จสิ้น!')
+print(f"\n🎯 Done processing all '{file_extension}' files.")
