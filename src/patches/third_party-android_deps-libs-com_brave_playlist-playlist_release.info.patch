@@ -1,0 +1,13 @@
+diff --git a/third_party/android_deps/libs/com_brave_playlist/playlist_release.info b/third_party/android_deps/libs/com_brave_playlist/playlist_release.info
+index 57b2de4322bcff488b7e20555bc4f73ad6bd023e..8f44f864ec716ff4f3897a5a465194983e40689e 100644
+--- a/third_party/android_deps/libs/com_brave_playlist/playlist_release.info
++++ b/third_party/android_deps/libs/com_brave_playlist/playlist_release.info
+@@ -8,7 +8,7 @@ has_native_libraries = false
+ has_proguard_flags = true
+ has_r_text_file = true
+ is_manifest_empty = false
+-manifest_package = "com.brave.playlist"
++manifest_package = "com.ibrowe.playlist"
+ resources = [
+   "res/drawable/above_shadow.xml",
+   "res/drawable/below_shadow.xml",
