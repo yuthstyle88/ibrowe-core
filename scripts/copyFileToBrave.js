@@ -4,11 +4,6 @@ const util = require('../../brave/build/commands/lib/util');
 const config = require('../../brave/build/commands/lib/config');
 
 function copyRecursiveSync(src, dest) {
-    if (!fs.existsSync(src)) {
-        console.error(`❌ Not found: '${src}'`);
-        return;
-    }
-
     const stats = fs.statSync(src);
 
     if (stats.isDirectory()) {
@@ -19,13 +14,11 @@ function copyRecursiveSync(src, dest) {
             copyRecursiveSync(srcPath, destPath);
         }
     } else {
-        const destDir = path.dirname(dest);
-        if (!fs.existsSync(destDir)) {
-            fs.mkdirSync(destDir, { recursive: true });
+        if (!fs.existsSync(dest)) {
+            console.log(`⏩ Skip (destination missing): ${dest}`);
+            return;
         }
-
-        const needToCopy = !fs.existsSync(dest) ||
-            util.calculateFileChecksum(src) !== util.calculateFileChecksum(dest);
+        const needToCopy = util.calculateFileChecksum(src) !== util.calculateFileChecksum(dest);
 
         if (needToCopy) {
             fs.copyFileSync(src, dest);
@@ -35,7 +28,6 @@ function copyRecursiveSync(src, dest) {
         }
     }
 }
-
 const ibroweImages = path.resolve(config.srcDir, 'ibrowe', 'src', 'images');
 const ibroweTranslates = path.resolve(config.srcDir, 'ibrowe', 'src', 'translates');
 const braveCoreDir = path.resolve(config.srcDir, 'brave');
