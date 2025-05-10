@@ -38,11 +38,13 @@ function copyRecursiveSync(src, dest) {
 
 const ibroweImages = path.resolve(config.srcDir, 'ibrowe', 'src', 'images');
 const ibroweTranslates = path.resolve(config.srcDir, 'ibrowe', 'src', 'translates');
+const ibroweResources = path.resolve(config.srcDir, 'ibrowe', 'src', 'resources');
 const braveCoreDir = path.resolve(config.srcDir, 'brave');
 
 function copyFileToBrave() {
     copyRecursiveSync(ibroweImages, braveCoreDir);
     // copyRecursiveSync(ibroweTranslates, braveCoreDir);
+    copyRecursiveSync(ibroweResources, braveCoreDir);
 }
 
 module.exports = { copyFileToBrave };
