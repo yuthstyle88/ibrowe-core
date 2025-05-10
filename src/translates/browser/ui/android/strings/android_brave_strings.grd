@@ -1339,10 +1339,10 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_OPEN_SYSTEM_SYNC_SETTINGS" desc="The text on button on informer which is fired when Android system sync settings switch is toggled off, to open system settings">
         Open Settings
       </message>
-      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_IBROWE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
         This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,<ph name="LINK_TEXT">%1$s<ex>re-create the account</ex></ph>
       </message>
-      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_IBROWE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
         <ph name="INFOBAR_TEXT">%1$s<ex>This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,</ex></ph>re-create the account
       </message>
       <message name="IDS_BRAVE_SYNC_JOINING_DELETED_ACCOUNT" desc="The error text for the case when trying to connect to the permanently deleted chain">

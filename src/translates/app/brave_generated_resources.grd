@@ -337,10 +337,10 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>iBrowe://settings/ex
       </message>
 
       <!-- Sync Infobars -->
-      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_IBROWE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
         This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,<ph name="LINK_TEXT">$1<ex>re-create the account</ex></ph>
       </message>
-      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_IBROWE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
         <ph name="INFOBAR_TEXT">$1<ex>This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,</ex></ph>re-create the account
       </message>
       <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_BUTTON" desc="Button text shown to users who's Sync account was disabled. This button prevents further show of the infobar.">
