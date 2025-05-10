@@ -1,8 +1,25 @@
 diff --git a/build/commands/lib/config.js b/build/commands/lib/config.js
-index d2c495ea406960fb7f467eca3c1ce7aaf7fa0c5d..c2572619c027c0a0ddf99bf7786112e6399dd994 100644
+index d2c495ea406960fb7f467eca3c1ce7aaf7fa0c5d..ef78ebfe78f2f7c707603ac24ee889b006941bcc 100644
 --- a/build/commands/lib/config.js
 +++ b/build/commands/lib/config.js
-@@ -590,17 +590,17 @@ Config.prototype.buildArgs = function () {
+@@ -20,6 +20,7 @@ if (process.platform === 'win32') {
+ }
+ const rootDir = path.resolve(dirName, '..', '..', '..', '..', '..')
+ const braveCoreDir = path.join(rootDir, 'src', 'brave')
++const ibroweCoreDir = path.join(rootDir, 'src', 'ibrowe')
+ 
+ var packageConfig = function (key, sourceDir = braveCoreDir) {
+   let packages = { config: {} }
+@@ -96,7 +97,7 @@ const parseExtraInputs = (inputs, accumulator, callback) => {
+ }
+ 
+ const getBraveVersion = (ignorePatchVersionNumber) => {
+-  const braveVersion = packageConfig(['version'])
++  const braveVersion = packageConfig(['version'], ibroweCoreDir)
+   if (!ignorePatchVersionNumber) {
+     return braveVersion
+   }
+@@ -590,17 +591,17 @@ Config.prototype.buildArgs = function () {
      args.android_channel = this.channel
      if (!this.isReleaseBuild()) {
        args.android_channel = 'default'
