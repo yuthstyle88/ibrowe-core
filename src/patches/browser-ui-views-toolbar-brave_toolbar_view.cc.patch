@@ -1,11 +1,13 @@
 diff --git a/browser/ui/views/toolbar/brave_toolbar_view.cc b/browser/ui/views/toolbar/brave_toolbar_view.cc
-index 88fc96a27b85ac9ce71a81f9b993ec00b7d30d5f..321856ff213a31309d64237f56471c4e401a155b 100644
+index 88fc96a27b85ac9ce71a81f9b993ec00b7d30d5f..92844f68a3b878ccdf0b4c5984c7adea0305ee76 100644
 --- a/browser/ui/views/toolbar/brave_toolbar_view.cc
 +++ b/browser/ui/views/toolbar/brave_toolbar_view.cc
-@@ -241,21 +241,21 @@ void BraveToolbarView::Init() {
+@@ -239,23 +239,7 @@ void BraveToolbarView::Init() {
  
-   // Don't check policy status since we're going to
-   // setup a watcher for policy pref.
+   UpdateWalletButtonVisibility();
+ 
+-  // Don't check policy status since we're going to
+-  // setup a watcher for policy pref.
 -  if (ai_chat::IsAllowedForContext(browser_->profile(), false)) {
 -    ai_chat_button_ = container_view->AddChildViewAt(
 -        std::make_unique<AIChatButton>(browser()),
@@ -21,21 +23,17 @@ index 88fc96a27b85ac9ce71a81f9b993ec00b7d30d5f..321856ff213a31309d64237f56471c4e
 -                            base::Unretained(this)));
 -    UpdateAIChatButtonVisibility();
 -  }
-+  // if (ai_chat::IsAllowedForContext(browser_->profile(), false)) {
-+  //   ai_chat_button_ = container_view->AddChildViewAt(
-+  //       std::make_unique<AIChatButton>(browser()),
-+  //       *container_view->GetIndexOf(GetAppMenuButton()) - 1);
-+  //   show_ai_chat_button_.Init(
-+  //       ai_chat::prefs::kBraveAIChatShowToolbarButton,
-+  //       browser_->profile()->GetPrefs(),
-+  //       base::BindRepeating(&BraveToolbarView::UpdateAIChatButtonVisibility,
-+  //                           base::Unretained(this)));
-+  //   hide_ai_chat_button_by_policy_.Init(
-+  //       ai_chat::prefs::kEnabledByPolicy, profile->GetPrefs(),
-+  //       base::BindRepeating(&BraveToolbarView::UpdateAIChatButtonVisibility,
-+  //                           base::Unretained(this)));
-+  //   UpdateAIChatButtonVisibility();
-+  // }
++  // Leo AI button is disabled intentionally.
  
  #if BUILDFLAG(ENABLE_BRAVE_VPN)
    if (brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
+@@ -270,7 +254,8 @@ void BraveToolbarView::Init() {
+         brave_vpn::prefs::kManagedBraveVPNDisabled, profile->GetPrefs(),
+         base::BindRepeating(&BraveToolbarView::OnVPNButtonVisibilityChanged,
+                             base::Unretained(this)));
+-    brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
++    // brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
++    brave_vpn_->SetVisible(false);
+   }
+ #endif
+ 
