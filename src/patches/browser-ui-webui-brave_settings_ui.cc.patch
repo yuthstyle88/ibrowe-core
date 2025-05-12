@@ -1,0 +1,17 @@
+diff --git a/browser/ui/webui/brave_settings_ui.cc b/browser/ui/webui/brave_settings_ui.cc
+index 7d284b101b7d1622304e8d1603f3910366e56413..1446a7b8ab948c7cf7c6b4a5197639e92e3658f0 100644
+--- a/browser/ui/webui/brave_settings_ui.cc
++++ b/browser/ui/webui/brave_settings_ui.cc
+@@ -194,10 +194,8 @@ void BraveSettingsUI::AddResources(content::WebUIDataSource* html_source,
+   html_source->AddBoolean("extensionsManifestV2Feature",
+                           base::FeatureList::IsEnabled(kExtensionsManifestV2));
+ 
+-  html_source->AddBoolean("isLeoAssistantAllowed",
+-                          ai_chat::IsAIChatEnabled(profile->GetPrefs()));
+-  html_source->AddBoolean("isLeoAssistantHistoryAllowed",
+-                          ai_chat::features::IsAIChatHistoryEnabled());
++html_source->AddBoolean("isLeoAssistantAllowed", false);
++html_source->AddBoolean("isLeoAssistantHistoryAllowed", false);
+ 
+ #if BUILDFLAG(ENABLE_PLAYLIST)
+   html_source->AddBoolean(
