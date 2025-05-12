@@ -1,0 +1,13 @@
+diff --git a/android/java/res/values/brave_styles.xml b/android/java/res/values/brave_styles.xml
+index 8425b298218df49e90b9853cba670ec07c9b3774..3c8c3b65bcf0e7c28d843246e041af3410d93236 100644
+--- a/android/java/res/values/brave_styles.xml
++++ b/android/java/res/values/brave_styles.xml
+@@ -406,7 +406,7 @@
+         <!--
+             TODO(alexeybarabash, Deep, Agustin) Shold we ambed this font?
+             Otherwise, app can't be built:
+-            error: resource font/roboto (aka com.brave.browser_default:font/roboto) not found.
++            error: resource font/roboto (aka com.ibrowe.browser_default:font/roboto) not found.
+         -->
+         <!-- <item name="android:fontFamily">@font/roboto</item> -->
+         <item name="android:textSize">@dimen/small_semibold</item>
