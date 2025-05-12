@@ -1,0 +1,17 @@
+diff --git a/components/brave_vpn/common/buildflags/buildflags.gni b/components/brave_vpn/common/buildflags/buildflags.gni
+index a43d8599de8226f757e264d4ad795c1c4af39830..a9c5da62d100e933c23c80909d24019bfebe579e 100644
+--- a/components/brave_vpn/common/buildflags/buildflags.gni
++++ b/components/brave_vpn/common/buildflags/buildflags.gni
+@@ -5,10 +5,10 @@
+ 
+ declare_args() {
+   # On macOS, vpn is not available w/o signing.
+-  enable_brave_vpn = is_win || is_android || is_mac
++  enable_brave_vpn = false
+ 
+   # vpn panel is desktop specific UI.
+-  enable_brave_vpn_panel = is_win || is_mac
++  enable_brave_vpn_panel = false
+ }
+ 
+ declare_args() {
