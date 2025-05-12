@@ -7,7 +7,7 @@ index a43d8599de8226f757e264d4ad795c1c4af39830..a9c5da62d100e933c23c80909d24019b
  declare_args() {
    # On macOS, vpn is not available w/o signing.
 -  enable_brave_vpn = is_win || is_android || is_mac
-+  enable_brave_vpn = false
++  enable_brave_vpn = is_android || is_ios
  
    # vpn panel is desktop specific UI.
 -  enable_brave_vpn_panel = is_win || is_mac
