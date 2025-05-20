@@ -440,7 +440,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
             iBrowe LLC
           </message>
           <message name="IDS_ABOUT_VERSION_COPYRIGHT" desc="Copyright information on the about pages">
-            Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The iBrowe Authors. All rights reserved.
+            Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The iBrowe Authors. All rights reserved. Includes code from the Brave browser. Licensed under MPL-2.0. Brave is a trademark of Brave Software, Inc.
           </message>
         </then>
         <else>
@@ -448,7 +448,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
             iBrowe Software Inc
           </message>
           <message name="IDS_ABOUT_VERSION_COPYRIGHT" desc="Copyright information on the about pages">
-            Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The iBrowe Authors. All rights reserved.
+            Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The iBrowe Authors. All rights reserved. Includes code from the Brave browser. Licensed under MPL-2.0. Brave is a trademark of Brave Software, Inc.
           </message>
         </else>
       </if>
