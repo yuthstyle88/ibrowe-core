@@ -681,8 +681,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_AUTOMATICALLY_SWITCH_TO_HALFWIDTH" desc="The label for the input method option to enable double-space to type period (when an user types two consecutive space, it outputs a period).">
     Automatically switch to halfwidth
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE" desc="The label for the setting to set the shift key mode style.">
-    Shift Key Mode Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE" desc="The label for the dropdown to set the shift key mode switch for the Japanese keyboard. This controls the behavior of typing in Japanese while holding shift. The available dropdown values are 'Off', 'Alphanumeric', or 'Katakana'. In Japanese, this string is 'シフトキーでの入力切替'.">
+    Shift key mode switch
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE_OFF" desc="The label for the option to disable the shift key mode style.">
     Off
@@ -693,8 +693,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SHIFT_KEY_MODE_STYLE_KATAKANA" desc="The label for the option to set the Shift key mode style to Katakana.">
     Katakana
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_USE_INPUT_HISTORY" desc="The label for the toggled settings to determine if the input history should be used or not.">
-    Use Input History
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_USE_INPUT_HISTORY" desc="The label for the toggle to determine if the input history should be used or not for the Japanese keyboard. If enabled, the input method may suggest text that was previously typed by the user. In Japanese, this string is '入力履歴からのサジェスト自動表示を有効にする'.">
+    Use input history
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_USE_SYSTEM_DICTIONARY" desc="The label for the toggled settings to determine if the system dictionary should be used or not.">
     Use system dictionary
@@ -789,8 +789,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_INPUT_MODE_KANA" desc="The label for the input mode option used to set the input mode to Kana. In Japanese, this string should be 'かな入力'.">
     Kana
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE" desc="The label for the setting used to set the Punctuation style for Japanese within the Japanese virtual and physical keyboard input settings. In Japanese, this string should be '句読点'.">
-    Punctuation Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE" desc="The label for the dropdown used to set the Punctuation style for Japanese within the Japanese virtual and physical keyboard input settings. This controls what character is inserted when the user presses punctuation keys like comma or period. In Japanese, this string should be '句読点'.">
+    Punctuation style
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE_KUTEN_TOUTEN" translateable="false">
     、。
@@ -804,23 +804,23 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_PUNCTUATION_STYLE_COMMA_TOUTEN" translateable="false">
     ，。
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE" desc="The label for the option to set the Symbol style for Japanese. This can be written as '記号' in Japanese.">
-    Symbol Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE" desc="The label for the dropdown to set the Symbol style for the Japanese keyboard. This controls what character is inserted when the user presses symbol keys like brackets. This can be written as '記号' in Japanese.">
+    Symbol style
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_CORNER_BRACKET_MIDDLE_DOT" translateable="false">
    「」・
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_SQUARE_BRACKET_SLASH" translateable="false">
-    []／
+   ［］／
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_CORNER_BRACKET_SLASH" translateable="false">
    「」／
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SYMBOL_STYLE_SQUARE_BRACKET_MIDDLE_DOT" translateable="false">
-    []・
+   ［］・
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE" desc="The label for the Space input option within the Japanese settings page. It allows users of Japanese input settings to choose between fullwidth and halfwidth input modes. . In Japanese, this string should be 'スペースの入力'.">
-    Space Input Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE" desc="The label for the Space input style dropdown within the Japanese keyboard settings page. It controls whether typing spaces with the Japanese keyboard will insert fullwidth or halfwidth characters. The available dropdown values are 'Follow input mode', 'Fullwidth', and 'Halfwidth'. In Japanese, this string should be 'スペースの入力'.">
+    Space input style
     </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE_INPUT_MODE" desc="The label for option to set the space input style for the Japanese keyboard to Follow input mode. In Japanese, this string should be '入力モードに従う'.">
     Follow input mode
@@ -831,8 +831,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SPACE_INPUT_STYLE_HALFWIDTH" desc="The label for input modes option to set the space input style for the Japanese keyboard to Halfwidth mode. In Japanese, this string should be '半角'.">
     Halfwidth
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT" desc="The label for the Japanese keyboard settings option to set the shortcut selection hotkeys for Japanese candidate selection. In Japanese, this string should be '候補選択ショートカット'.">
-    Selection Shortcut
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT" desc="The label for the Japanese keyboard settings dropdown to set the shortcut selection hotkeys for Japanese candidate selection. In Japanese, this string should be '候補選択ショートカット'.">
+    Selection shortcut
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT_NO_SHORTCUT" desc="The label for the Japanese keyboard settings option to set that there is no shortcut set for the Japanese keyboard candidate selection. In Japanese, this string should be 'なし'.">
     No shortcut
@@ -843,8 +843,8 @@
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_SECTION_SHORTCUT_ASDFGHJKL" translateable="false">
     A -- L
   </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE" desc="The label for Japanese keyboard settings option within the settings page to set the keymap style for the Japanese keyboard. In Japaneses, this string should be 'キー設定の選択'.">
-    Keymap Style
+  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE" desc="The label for Japanese keyboard settings dropdown within the settings page to set the keymap style for the Japanese keyboard. The available dropdown values are 'Custom keymap', 'ATOK', 'MS-IME', 'Kotoeri', and 'ChromeOS'. In Japanese, this string should be 'キー設定の選択'.">
+    Keymap style
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_CUSTOM" desc="The label for Japanese settings page to set the keymap style to use a Custom keymap. This is 'Custom Keymap' in Japanese. In Japanese, this string should be 'カスタム'.">
     Custom keymap
@@ -857,9 +857,6 @@
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_KOTOERI" desc="The label for Japanese settings page to set the keymap style to Kotoeri. In Japanese, this string can be written as 'ことえり'.">
     Kotoeri
-  </message>
-  <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_MOBILE" translateable="false">
-    Mobile
   </message>
   <message name="IDS_SETTINGS_INPUT_METHOD_OPTIONS_JAPANESE_KEYMAP_STYLE_CHROMEOS" translateable="false">
     ChromeOS
@@ -1022,10 +1019,10 @@
     Off
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_MAGIC_BOOST" desc="The label of the toggle to enable/disable Magic Boost in ChromeOS settings.">
-    Use iBrowe AI to get help reading and writing
+    Use iBrowe AI to get help reading, writing, and creating
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_MAGIC_BOOST_DESCRIPTION" desc="The description of the toggle to enable/disable Magic Boost in ChromeOS settings.">
-    Right-click to write with more confidence, summarize content, get definitions, and more. Currently has limited availability.
+    Right-click to summarize content, get definitions, write with more confidence, create images, and more. Currently has limited availability.
   </message>
   <message name="IDS_OS_SETTINGS_MAGIC_BOOST_REVIEW_TERMS_BANNER_DESCRIPTION" desc="The description for Magic Boost review notice banner">
     You need to review and accept terms to use these features
@@ -1037,13 +1034,19 @@
     Help me read
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_HELP_ME_READ_DESCRIPTION" desc="The description of the toggle to enable/disable Help Me Read in ChromeOS settings.">
-    Summarize content or ask follow-up questions.
+    Summarize content, simplify complex language, or ask questions.
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_HELP_ME_WRITE" desc="The label of the toggle to enable/disable Help Me Write in ChromeOS settings.">
     Help me write
   </message>
   <message name="IDS_OS_SETTINGS_ENABLE_HELP_ME_WRITE_DESCRIPTION" desc="The description of the toggle to enable/disable Help Me Write in ChromeOS settings.">
     Create a draft or refine existing work.
+  </message>
+  <message name="IDS_OS_SETTINGS_ENABLE_SCANNER" desc="The label of the toggle to enable/disable suggested actions when searching your screen in ChromeOS settings.">
+    Suggested actions when searching your screen
+  </message>
+  <message name="IDS_OS_SETTINGS_ENABLE_SCANNER_DESCRIPTION" desc="The description of the toggle to enable/disable suggested actions when searching your screen in ChromeOS settings. A &quot;Learn more&quot; link will be added after this string.">
+    After taking a screenshot or searching your screen, show more actions such as add to Calendar, create Google Docs, and more.
   </message>
 
   <!-- Search subpage (OS settings) -->
@@ -2910,10 +2913,10 @@ Press an assigned switch or key to remove assignment.
     Manage USB devices
   </message>
   <message name="IDS_SETTINGS_GUEST_OS_SHARED_USB_DEVICES_DESCRIPTION" desc="Description for managing shared USB devices.">
-    Let Android apps access USB devices on this Chromebook
+    Give Android apps control over USB devices on this Chromebook
   </message>
   <message name="IDS_SETTINGS_GUEST_OS_SHARED_USB_DEVICES_EXTRA_DESCRIPTION" desc="Extra description for managing shared USB devices.">
-    Only supported devices are shown.
+    Only supported devices are shown. USB devices will no longer be available to native apps until disconnected.
   </message>
   <message name="IDS_SETTINGS_GUEST_OS_SHARED_USB_DEVICES_LIST_EMPTY_MESSAGE" desc="Message shown when there are no available USB devices.">
     Available USB devices will appear here.
@@ -2999,7 +3002,7 @@ Press an assigned switch or key to remove assignment.
     Remove
   </message>
   <message name="IDS_SETTINGS_CROSTINI_SHARED_USB_DEVICES_DESCRIPTION" desc="Description for managing shared USB devices.">
-    Give Linux apps permission to access USB devices.
+    Give Linux apps control over USB devices.
   </message>
   <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_TITLE" desc="Title of ARC ADB sideloading section.">
     Develop Android apps
@@ -3254,7 +3257,7 @@ Press an assigned switch or key to remove assignment.
     Managed Development Environment (<ph name="GENERAL_NAME">$1<ex>HappyVm</ex></ph>)
   </message>
   <message name="IDS_SETTINGS_BRUSCHETTA_SHARED_USB_DEVICES_DESCRIPTION" desc="Description for managing shared USB devices.">
-    Give <ph name="SPECIFIC_NAME">$1<ex>HappyVm</ex></ph> permission to access USB devices.
+    Give <ph name="SPECIFIC_NAME">$1<ex>HappyVm</ex></ph> control over USB devices.
   </message>
   <message name="IDS_SETTINGS_BRUSCHETTA_SHARED_PATHS_INSTRUCTIONS_LOCATE" desc="Instructions for how to locate shared folders in Bruschetta..">
     Shared folders are available in <ph name="SPECIFIC_NAME">$1<ex>HappyVm</ex></ph> at <ph name="BASE_DIR">$2<ex>/mnt/chromeos</ex></ph>.
@@ -3310,7 +3313,7 @@ Press an assigned switch or key to remove assignment.
     Manage Play app links
   </message>
   <message name="IDS_SETTINGS_APPS_ARC_VM_SHARED_USB_DEVICES_DESCRIPTION" desc="Description for managing shared USB devices. Do not translate 'ARCVM'.">
-    Let Android apps access USB devices on this Chromebook. Permission will be requested each time you plug in a USB device. Individual Android apps will ask for additional permissions.
+    Give Android apps control over USB devices on this Chromebook. Permission will be requested each time you plug in a USB device. Individual Android apps will ask for additional permissions.
   </message>
   <message name="IDS_OS_SETTINGS_OPEN_GOOGLE_PLAY" desc="Label for launching Google Play Store.">
     Open Google Play
@@ -5166,7 +5169,7 @@ Press an assigned switch or key to remove assignment.
     Subscription is installed on this device only and not synced with other devices under your account. <ph name="LINK_BEGIN">&lt;a&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_INTERNET_PASSPOINT_SUBSCRIPTION_EXPIRATION" desc="Label of the subscription expiration date.">
-    Expiry date
+    Expiration date
   </message>
   <message name="IDS_SETTINGS_INTERNET_PASSPOINT_SOURCE" desc="Label of the source that installed the Passpoint subscription.">
     Passpoint provider
@@ -6001,7 +6004,7 @@ Press an assigned switch or key to remove assignment.
   <message name="IDS_OS_SETTINGS_SANITIZE_FEEDBACK" desc="Feedback label in the Reset Profile Settings dialog.">
     Help make ChromeOS better by reporting the <ph name="BEGIN_LINK">&lt;a is="action-link" target="_blank"&gt;</ph>current settings<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
-  <!-- iBrowe Assistant Page (OS Settings)-->
+  <!-- Brave Assistant Page (OS Settings)-->
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT" desc="Name of the settings page for iBrowe Assistant.">
     iBrowe Assistant
   </message>
@@ -6837,7 +6840,7 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
     Couldn't unshare because an application is using this folder. The folder will be unshared when Parallels Desktop is next shut down.
   </message>
   <message name="IDS_SETTINGS_APPS_PLUGIN_VM_SHARED_USB_DEVICES_DESCRIPTION" desc="Description for managing shared USB devices. Do not translate 'Parallels Desktop'.">
-    Give Parallels Desktop permission to access USB devices.
+    Give Parallels Desktop control over USB devices.
   </message>
 
   <!-- Storage -->
@@ -6926,18 +6929,18 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
   <!-- Privacy Page -->
   <if expr="reven">
     <message name="IDS_OS_SETTINGS_ENABLE_LOGGING_TOGGLE_TITLE" desc="The label of the checkbox to enable/disable crash and user metrics logging in ChromeOS Flex.">
-      Send crash reports and diagnostic and usage data to ChromeOS Flex
+      Send crash reports as well as diagnostic and usage data to ChromeOS Flex
     </message>
     <message name="IDS_OS_SETTINGS_ENABLE_LOGGING_TOGGLE_DESCRIPTION" desc="The description of the checkbox to enable/disable crash and user metrics logging in ChromeOS Flex for user of the device.">
-      Help improve ChromeOS Flex features and performance. Data is aggregated and highly protected.
+      Help improve iBrowe and ChromeOS Flex features and performance. Personal information is removed when collecting this data.
     </message>
   </if>
   <if expr="not reven">
     <message name="IDS_OS_SETTINGS_ENABLE_LOGGING_TOGGLE_TITLE" desc="The label of the checkbox to enable/disable crash and user metrics logging in ChromeOS.">
-      Send crash reports and diagnostic and usage data to ChromeOS
+      Send crash reports as well as diagnostic and usage data to ChromeOS
     </message>
     <message name="IDS_OS_SETTINGS_ENABLE_LOGGING_TOGGLE_DESCRIPTION" desc="The description of the checkbox to enable/disable crash and user metrics logging in ChromeOS for user of the device.">
-      Help improve ChromeOS features and performance. Data is aggregated and highly protected.
+      Help improve iBrowe and ChromeOS features and performance. Personal information is removed when collecting this data.
     </message>
   </if>
   <message name="IDS_OS_SETTINGS_PRIVACY_TITLE" desc="Name of the privacy settings page.">
@@ -7326,5 +7329,14 @@ Press &amp; hold keyboard keys to see accent marks and special characters. This 
   <message name="IDS_SETTINGS_SAFETY_HUB_VERSION_CARD_HEADER_UPDATED" desc="Safety Hub settings page (chrome://settings/safetyHub) gives users an overview over their safety status. The version card, which this text is a part of, informs the user whether their iBrowe is up to date. This title of the card is shown when iBrowe is up to date and the user does not need to take any action. Shown above the subtitle that is the iBrowe version.">
     ChromeOS is up to date
   </message>
+
+  <!-- Lobster -->
+  <message name="IDS_LOBSTER_OS_SETTINGS_ENABLE" desc="The label of the toggle to enable/disable Image Generation in ChromeOS settings.">
+    Create image
+  </message>
+  <message name="IDS_LOBSTER_OS_SETTINGS_ENABLE_DESCRIPTION" desc="The description of the toggle to enable/disable Image Generation in ChromeOS settings.">
+   Enter a custom prompt or highlight text to create an image
+  </message>
+
 </if>
 </grit-part>

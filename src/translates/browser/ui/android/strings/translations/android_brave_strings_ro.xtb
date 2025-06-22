@@ -77,7 +77,7 @@
 <translation id="4324735664183300693">Activați notificările</translation>
 <translation id="6395059271589866759">iBrowe reține 5% din valoarea sumei trimise ca taxă de procesare.</translation>
 <translation id="6661699662755460155">schimb</translation>
-<translation id="6790981891677399838">Tocmai am contribuit cu <ph name="AMOUNT"/> BAT cu ajutorul browserului iBrowe. Aflați cum vă puteți susține creatorii preferați și site-urile preferate: https://iBrowe.com/rewards</translation>
+<translation id="6790981891677399838">Tocmai am contribuit cu <ph name="AMOUNT"/> BAT cu ajutorul browserului iBrowe. Aflați cum vă puteți susține creatorii preferați și site-urile preferate: https://ibrowe.com/rewards</translation>
 <translation id="5510493033031835532">Redireacționați automat paginile AMP</translation>
 <translation id="5197219128592971597">Accesați mereu adresele URL originale ale paginilor (non-AMP), în loc de versiunile Google Accelerated Mobile Page</translation>
 <translation id="920638232916443453">URL-uri de urmărire prin autoredirecționare</translation>
@@ -97,7 +97,6 @@
 <translation id="5165042248369837294">Permite tweet-uri încorporate Twitter</translation>
 <translation id="958971637207126733">Permite postări LinkedIn încorporate</translation>
 <translation id="6302422639282249274">Administrați recompensele iBrowe</translation>
-<translation id="2709516037105925701">Completare automată</translation>
 <translation id="8617525558807213034">Completați automat în filele private</translation>
 <translation id="8685431198160039193">Informațiile salvate pot fi completate automat în filele private</translation>
 <translation id="6583902294974160967">Asistență</translation>
@@ -109,7 +108,7 @@
 <translation id="7304425663107214334">Afișați sugestiile din browser</translation>
 <translation id="8982438328166986164">Afișează sugestiile site-ului pe baza marcajelor și a istoricului de navigare.</translation>
 <translation id="924029461438529367">Afișați sugestiile de căutare</translation>
-<translation id="1571106259128580884">Afișați sugestiile de pe site-urile principale</translation>
+<translation id="5989135139219497991">Afișează sugestiile de top</translation>
 <translation id="6285118765755298263">Indexare alte motoare de căutare</translation>
 <translation id="919715748352669592">Indexează automat site-urile care respectă specificațiile OpenSearch.</translation>
 <translation id="412411722208944922">Motoare de căutare rapidă</translation>
@@ -231,7 +230,8 @@
 <translation id="2433507940547922241">Aspect</translation>
 <translation id="9040069796107003510">Pictograma de Recompense iBrowe</translation>
 <translation id="6333347122924254968">Afișați pictograma Recompense iBrowe în bara de adrese</translation>
-<translation id="8495235435594442882">Activați bara de instrumente de jos</translation>
+<translation id="1215433243238902715">Activează bara de navigare de jos</translation>
+<translation id="1422686363939271829">Această setare este dezactivată atunci când poziția barei de adrese este poziționată în partea de jos</translation>
 <translation id="6587448235155023666">Modificările dvs. vor intra în vigoare la următoarea pornire a iBrowe</translation>
 <translation id="8701563696941209024">RELANSEAZĂ ACUM</translation>
 <translation id="834487290629916192">MAI TÂRZIU</translation>
@@ -245,9 +245,6 @@
 <translation id="2888496576732880897">Ajută iBrowe Search să crească</translation>
 <translation id="7044431516245362795">Participă la Web Discovery Project pentru a contribui la creșterea indexului și la îmbunătățirea rezultatelor căutărilor. <ph name="LEARN_MORE_START"/>Află mai multe.<ph name="LEARN_MORE_END"/></translation>
 <translation id="7818938154803162778">Sigur, voi ajuta</translation>
-<translation id="2877653791257935258">Tastați numele sau adresa URL a unui site</translation>
-<translation id="5329830149661250028">Convingeți-vă că iBrowe este diferit: fără reclame, fără monitoare de activitate. Încărcare mult mai rapidă a paginii.</translation>
-<translation id="3941792073703079607">Vedeți diferența iBrowe: blocați anunțurile. Salvați datele. Redați în flux mai rapid.</translation>
 <translation id="3545804467215833536">Atingeți pentru a deschide iBrowe Shields.</translation>
 <translation id="1724327820822194498">Vizualizați toate lucrurile dăunătoare pe care iBrowe le-a blocat, pe fiecare pagină, cu ajutorul Shields.</translation>
 <translation id="5386259141409498372"><ph name="BIG_TECH"/> și<ph name="TRACKER"/> alte reclame &amp; monitoare de activitate blocate</translation>
@@ -257,8 +254,6 @@
 <translation id="1377600615067678409">Ignoră pentru moment</translation>
 <translation id="6165508094623778733">Aflați mai multe</translation>
 <translation id="986879628471635371">Depanarea procesului de înscriere</translation>
-<translation id="5808759341041733958">Alegeți motorul de căutare prestabilit</translation>
-<translation id="1331593888918588693">Puteți oricând să vă schimbați preferințele ulterior în setările aplicației.</translation>
 <translation id="5806601733251372221">Scuturi iBrowe</translation>
 <translation id="8537217141725709400">Câștigați <ph name="TOKEN"/></translation>
 <translation id="3333887201479867589">Recompense iBrowe</translation>
@@ -276,9 +271,6 @@
 <translation id="4225265925807365011">Am o frază de recuperare de 24 de cuvinte</translation>
 <translation id="3570367516044491911">Setați ca browser implicit</translation>
 <translation id="6800338374677644736">Setat ca browser implicit</translation>
-<translation id="19715420010996093">Selectați iBrowe Browser și atingeți „Întotdeauna”</translation>
-<translation id="3546439402724649282">iBrowe este setat deja ca browser implicit.</translation>
-<translation id="8389661903259423907">Ați setat deja un browser implicit. Puteți să schimbați browserul implicit din setările aplicației.</translation>
 <translation id="1545749641540134597">Scanați codul QR</translation>
 <translation id="5317781812114905957">Instrucțiuni</translation>
 <translation id="8515319483805157233">Pentru a căuta cu ajutorul Codului QR, poziționați codul QR în centrul cadrului.</translation>
@@ -428,9 +420,12 @@ Sigur doriți să faceți acest lucru?</translation>
 <translation id="8520059774736886747">Creator <ph name="PUBLISHER_NAME"/> verificat recent</translation>
 <translation id="1486343603936278248">token</translation>
 <translation id="7781069478569868053">Pagină filă nouă</translation>
+<translation id="5927196110206824867">Imaginile de fundal sponsorizate susțin misiunea iBrowe de a construi un web independent, centrat pe utilizator. Spre deosebire de marile companii de tehnologie, măsurăm performanța reclamelor în mod anonim, pentru a vă proteja confidențialitatea.</translation>
+<translation id="8748471354357836070">Află mai multe / opțiuni de renunțare</translation>
 <translation id="3171669670217312786">Imagini de fundal</translation>
 <translation id="8522669544471808198">Afișare imagini de fundal</translation>
 <translation id="3870475560794762985">Afișare imagini sponsorizate</translation>
+<translation id="6937724381960478525">Află mai multe despre imaginile sponsorizate</translation>
 <translation id="8793108040181436796">Widgeturi</translation>
 <translation id="8643377320501056697">Afișare site-uri de top</translation>
 <translation id="7275773481201277457">Afișare date statistice iBrowe</translation>
@@ -509,6 +504,7 @@ Sigur doriți să faceți acest lucru?</translation>
 <translation id="5299848999918506028">Mulțumim!</translation>
 <translation id="76550953340008122">Vă mulțumim că i-ați anunțat pe dezvoltatorii iBrowe că ceva nu este în regulă cu acest site. Vom face tot ce ne stă în putință ca să rezolvăm problema!</translation>
 <translation id="650318023204990401">Controale avansate</translation>
+<translation id="7205939464631857223">Șterge toate elementele blocate</translation>
 <translation id="5370478469168390143">Salvați datele online</translation>
 <translation id="1118508688433541158">Navigați mai rapid și blocați reclamele cu iBrowe</translation>
 <translation id="7427391215172269363">În fiecare zi, economisesc date folosind browserul iBrowe.</translation>
@@ -549,7 +545,6 @@ Sigur doriți să faceți acest lucru?</translation>
 <translation id="1945330434665345785">Ați blocat <ph name="COUNT"/> (de) urmăriri și reclame cu browserul iBrowe săptămâna trecută.</translation>
 <translation id="2883868922264431515">Câștigați tokenuri vizualizând reclame care respectă confidențialitate și susțineți website-urile favorite.</translation>
 <translation id="7408493389591475748">Începeți să navigați pentru a vedea rapoartele de confidențialitate</translation>
-<translation id="9080777565335515917">Setați iBrowe ca browser prestabilit pentru o navigare privată și sigură.</translation>
 <translation id="1390943217516275883">Permite browserului iBrowe să afișeze statisticile privind confidențialitatea</translation>
 <translation id="1763352720905582220">Trimite un raport de confidențialitate săptămânal</translation>
 <translation id="1811691435325545066">Ștergeți toate datele rapoartelor de confidențialitate</translation>
@@ -593,16 +588,6 @@ Sigur doriți să faceți acest lucru?</translation>
 <translation id="2977501775944575564">Descărcare paralelă</translation>
 <translation id="6224180438946945617">Activați descărcarea paralelă pentru a accelera viteza de descărcare</translation>
 <translation id="8967385052772844086">Vizualizare text integral al Raportului de confidențialitate</translation>
-<translation id="6864343534748973390">Cele mai populare</translation>
-<translation id="4608192160278975831">Confidențial și fără monitorizare</translation>
-<translation id="7208522820527289601">Confidențial și fără monitorizare, sediu în UE</translation>
-<translation id="1161008391729450974">Rezultate Google fără trackere</translation>
-<translation id="7320542277711359296">Al doilea cel mai popular</translation>
-<translation id="8295049095570748497">Un motor de căutare de top din Rusia</translation>
-<translation id="2642661895835126239">Plantează copaci, cu sediul în Berlin</translation>
-<translation id="2422627462367776805">Portal și căutare web sud-coreeană</translation>
-<translation id="177282784098234156">O soluție confidențială, independentă, cu utilizatorul pe primul plan</translation>
-<translation id="1410130669636877548">Atunci când cauți ceva pe web, unele motoare de căutare îți protejează confidențialitatea datelor mai bine decât altele.</translation>
 <translation id="3479552764303398839">Nu acum</translation>
 <translation id="7138272885617540195">Permiteți deschiderea linkurilor de aplicații în aplicații distincte de iBrowe</translation>
 <translation id="4954512758656527938">Portofelul implicit pentru Ethereum</translation>
@@ -733,7 +718,7 @@ Sigur doriți să faceți acest lucru?</translation>
 <translation id="83293016232121346">(<ph name="DISCOUNT_TEXT_START"/>salvare <ph name="PERCENTAGE_AMOUNT"/>%%<ph name="DISCOUNT_TEXT_END"/>)</translation>
 <translation id="4790641549702094825"><ph name="YEARLY_AMOUNT"/> /an</translation>
 <translation id="2786538705804257030">Abonamentele vor fi debitate prin intermediul contului Google. Orice porțiune neutilizată din perioada de încercare gratuită, dacă este oferită, este pierdută atunci când achiziționați un abonament.\n\nAbonamentul dvs. se va reînnoi automat, cu excepția cazului în care este anulat cu cel puțin 24 de ore înainte de sfârșitul perioadei curente.\n\nVă puteți gestiona abonamentele în Setări.\n\nPrin utilizarea iBrowe, sunteți de acord cu Termenii de utilizare și cu Politica de confidențialitate.</translation>
-<translation id="5035172357624830412">Ai făcut deja achiziții pe iBrowe.com?</translation>
+<translation id="5035172357624830412">Ai făcut deja achiziții pe ibrowe.com?</translation>
 <translation id="713136183174551885">Actualizează-ți datele de conectare</translation>
 <translation id="6053992191006521518">Încercați GRATUIT</translation>
 <translation id="5903391101107992067">Încercați gratuit pentru 7 zile</translation>
@@ -1048,7 +1033,7 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <ph name="DEFAULT_SEARCH_ENGINE"/></translation>
 <translation id="5456039738087398178">Widget pentru ecranul principal</translation>
 <translation id="703185154752046151">Widget adăugat la ecranul principal</translation>
-<translation id="3290805388004282161">Încercați widget-ul de căutare iBrowe</translation>
+<translation id="4635094429202343515">Încearcă widget-ul iBrowe Search</translation>
 <translation id="4809681171446727314">Accesați căutarea privată și independentă direct de pe ecranul de pornire.</translation>
 <translation id="7751715172931488388">Adăugați widget</translation>
 <translation id="7285167584112910782">Căutare rapidă iBrowe</translation>
@@ -1115,6 +1100,8 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="1179407411385015942">Leo este un asistent inteligent IA, creat direct în browser</translation>
 <translation id="5781842473834867765">Păstrează istoricul conversațiilor</translation>
 <translation id="4109670531935487117">Afișați sugestiile de completare automată în bara de adrese</translation>
+<translation id="4983005227524068187">Afișare în bara motoarelor de căutare rapidă</translation>
+<translation id="8514910864411336826">Permite o comandă rapidă pentru a lansa Leo din bara motoarelor de căutare rapidă.</translation>
 <translation id="6106701981952170121">Șterge toate datele conversațiilor Leo AI</translation>
 <translation id="423600389315522551">Resetarea Leo AI îți va cere să accepți să folosești iBrowe Leo AI în viitor și, de asemenea, îți va șterge istoricul conversațiilor. Ștergerea istoricului de chat va șterge toate conversațiile tale anterioare cu iBrowe Leo AI. Această acțiune nu poate fi anulată.</translation>
 <translation id="6742599753610126012">Șterge istoricul conversațiilor</translation>
@@ -1237,11 +1224,12 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="6891382640886173702">Comasați ferestrele</translation>
 <translation id="2912247081180973411">Închideți ferestrele</translation>
 <translation id="4010699428656610296">Comasați alte file într-o altă fereastră iBrowe.</translation>
-<translation id="208634871997892083">VPN activat permanent</translation>
+<translation id="4306918392910017801">Re-conectare automată VPN</translation>
 <translation id="1599073346542156922">Cum se activează:</translation>
 <translation id="7001163334415463127">1. Deschideți setările dispozitivului dvs. din sertarul aplicației sau atingeți butonul de mai jos.</translation>
 <translation id="887443138775437899">2. Găsiți VPN iBrowe și apăsați pe pictograma de setări din dreapta.</translation>
-<translation id="3776051499611941773">3. Comutați <ph name="ALWAYS_ON_TUTORIAL_START"/>VPN activat permanent<ph name="ALWAYS_ON_TUTORIAL_END"/> pentru a-l activa.</translation>
+<translation id="7546805138087561624">3. Comutați <ph name="AUTO_RECONNECT_VPN_TUTORIAL_START"/>VPN activat permanent<ph name="AUTO_RECONNECT_VPN_TUTORIAL_END"/> pentru a-l activa.</translation>
+<translation id="2446001600399646984">Reține că, din cauza limitărilor Android, „Blocarea conexiunilor fără VPN” nu funcționează conform așteptărilor. <ph name="LEARN_MORE_START"/>Află mai multe.<ph name="LEARN_MORE_END"/></translation>
 <translation id="4776146737004271126">Deschide setările Android</translation>
 <translation id="2728518864712716830">Actualizarea este descărcată.</translation>
 <translation id="8403338849301491865">Lista de filtre este actualizată cu succes</translation>
@@ -1251,4 +1239,6 @@ Dacă nu acceptați această solicitare, nu se va realiza reconectarea la VPN, i
 <translation id="2361906291514218784">Leo IA</translation>
 <translation id="7942415993090181327">Istoricul conversațiilor</translation>
 <translation id="6859935199732075666">Afișează erorile de navigare sigură</translation>
+<translation id="2735247450315842119">Permite capturi de ecran în filele private</translation>
+<translation id="8420414929552321089">Dacă este permis, filele private vor fi vizibile și atunci când sunt deschise mai multe aplicații.</translation>
 </translationbundle>

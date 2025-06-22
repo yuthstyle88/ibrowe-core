@@ -1,10 +1,10 @@
 /* About settings section title */
 "About" = "เกี่ยวกับ";
 
-/* The title of the screen explaining iBrowe Shields */
+/* The title of the screen explaining Brave Shields */
 "AboutBraveShields" = "เกี่ยวกับ iBrowe Shields";
 
-/* The body of the screen explaining iBrowe Shields */
+/* The body of the screen explaining Brave Shields */
 "AboutBraveShieldsBody" = "เว็บไซต์ต่างๆ มักมีคุกกี้และสคริปต์ที่พยายามระบุตัวตนและอุปกรณ์ของคุณ โดยต้องการค้นหาว่าคุณเป็นใครและติดตามคุณไปทั่วทุกเว็บไซต์ด้วยการติดตามสิ่งที่คุณทำบนทุกเว็บไซต์\n\nซึ่ง iBrowe จะบล็อกสิ่งเหล่านี้เพื่อให้คุณท่องเว็บได้โดยไม่ถูกติดตาม";
 
 /* See http://mzl.la/1G7uHo7 */
@@ -28,7 +28,7 @@
 /* Title for the button to add a new website bookmark. */
 "AddToMenuItem" = "เพิ่มบุ๊กมาร์ก";
 
-/* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
+/* Text for the toggle switch to clear 'Brave Ads' data in settings */
 "ads.braveAdsDataToggleOption" = "ข้อมูล iBrowe Ads";
 
 /* individual blocking statistic title */
@@ -43,7 +43,7 @@
 /* Setting preference to always show the browser tabs bar. */
 "AlwaysShow" = "เปิด";
 
-/* Touch ID or PIN entry prompt subtitle when accessing iBrowe with the Browser Lock feature enabled */
+/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
 "AuthenticationLoginsTouchReason" = "การดำเนินการนี้จะเป็นการตรวจสอบสิทธิ์การเข้าถึง iBrowe ของคุณ";
 
 /* Label for Cancel button */
@@ -85,20 +85,17 @@
 /* block all cookies settings action title */
 "BlockAllCookiesAction" = "บล็อกทั้งหมด";
 
-/* Information displayed to user when block all cookie is enabled. */
-"BlockAllCookiesAlertInfo" = "การบล็อกคุกกี้ทั้งหมดจะเป็นการทำให้บางเว็บไซต์ทำงานไม่ถูกต้อง";
+/* Title of confirmation alert displayed to user when block all cookie toggle is enabled. */
+"blockAllCookiesAlertTitle" = "บล็อกคุกกี้ทั้งหมด";
 
-/* Title of alert displayed to user when block all cookie is enabled. */
-"BlockAllCookiesAlertTitle" = "ต้องการบล็อกคุกกี้ทั้งหมดหรือไม่";
+/* Description of confirmation alert displayed to user when block all cookie toggle is enabled. */
+"blockAllCookiesDescription" = "Shields จะบล็อกคุกกี้ของบุคคลที่สามอยู่แล้ว การตั้งค่านี้เพื่อบล็อกคุกกี้ทั้งหมดจะลบคุกกี้และข้อมูลไซต์ที่มีอยู่ และอาจทำให้เว็บไซต์เสียหายได้";
 
 /* Message of alert displayed to user when block all cookie operation fails */
 "BlockAllCookiesFailedAlertMsg" = "ตั้งค่าไม่สำเร็จ โปรดลองอีกครั้ง";
 
 /* A title for a setting that enables cookie consent notices */
 "BlockCookieConsentNotices" = "บล็อกการแจ้งเตือนความยินยอมในการจัดเก็บคุกกี้";
-
-/* No comment provided by engineer. */
-"BlockCookiesDescription" = "ป้องกันเว็บไซต์จากการเก็บข้อมูลเกี่ยวกับการเยี่ยมชมครั้งก่อนของคุณ\nตัวเลือก \"บล็อกคุกกี้ทั้งหมด\" ถูกยกเลิกแล้ว สำหรับข้อมูลเกี่ยวกับวิธีเปิดใช้งานตัวเลือกนี้ให้ไปที่ [หน้าช่วยเหลือ](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "การบล็อกตัวติดตาม";
@@ -151,28 +148,28 @@
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "เปิด";
 
-/* iBrowe Rewards title in settings */
+/* Brave Rewards title in settings */
 "BraveRewardsSettingsTitle" = "Rewards";
 
-/* iBrowe Rewards title */
+/* Brave Rewards title */
 "BraveRewardsTitle" = "iBrowe Rewards";
 
-/* iBrowe Search Banner Promotion description content in Search Suggestions */
+/* Brave Search Banner Promotion description content in Search Suggestions */
 "braveSearchPromotion.bannerDescription" = "iBrowe Search จะไม่ทำการเก็บข้อมูลของคุณ";
 
-/* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
+/* Brave Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
 "braveSearchPromotion.bannerMaybeLaterButtonTitle" = "ภายหลัง";
 
-/* iBrowe Search Banner Promotion title in Search Suggestions */
+/* Brave Search Banner Promotion title in Search Suggestions */
 "braveSearchPromotion.bannerTitle" = "ค้นหาได้อย่างอิสระกับความเป็นส่วนตัวยิ่งขึ้น";
 
-/* iBrowe Search Banner Promotion title for try button in Search Suggestions */
+/* Brave Search Banner Promotion title for try button in Search Suggestions */
 "braveSearchPromotion.bannerTryButtonTitle" = "ลอง iBrowe Search";
 
 /* Button title for Bottom Bar Callout View for action later */
 "braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "ภายหลัง";
 
-/* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
+/* Brave Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
 "braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "ปิด";
 
 /* No comment provided by engineer. */
@@ -205,13 +202,13 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "หากเว็บไซต์นี้ดูเหมือนมีปัญหา ให้ลองปิด Shields";
 
-/* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
+/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
 "BraveShieldsStatusTitle" = "iBrowe Shields";
 
-/* Context: The 'Down' in 'iBrowe Shields Down' */
+/* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "ล่าง";
 
-/* Context: The 'Up' in 'iBrowe Shields Up' */
+/* Context: The 'Up' in 'Brave Shields Up' */
 "BraveShieldsStatusValueUp" = "บน";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
@@ -229,7 +226,7 @@
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
 "BraveTranslate.searchInputTitle" = "ค้นหา";
 
-/* This text is for the settings menu for all iBrowe-Translate options. */
+/* This text is for the settings menu for all Brave-Translate options. */
 "BraveTranslate.settingsMenuTitle" = "iBrowe Translate";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
@@ -379,7 +376,7 @@
 /* Title of the section for Department of the Company. Example: Human Resources. */
 "certificateViewer.organizationalUnitTitle" = "หน่วยองค์กร";
 
-/* Title of the section for Name of the Company. Example: iBrowe Inc. */
+/* Title of the section for Name of the Company. Example: Brave Inc. */
 "certificateViewer.organizationTitle" = "องค์กร";
 
 /* Title indicating 'Parameters' or Input passed to a function/algorithm. */
@@ -490,9 +487,6 @@
 /* No comment provided by engineer. */
 "Confirm" = "ยืนยัน";
 
-/* Cookie settings option title */
-"CookieControl" = "ควบคุมคุกกี้";
-
 /* Settings item for clearing cookies and site data */
 "Cookies" = "คุกกี้และข้อมูลเว็บไซต์";
 
@@ -523,6 +517,9 @@
 /* Currently usedd search engines section name. */
 "CurrentlyUsedSearchEngines" = "เครื่องมือค้นหาที่ใช้อยู่ในขณะนี้";
 
+/* Accessibility Title for the button that adds a new custom search engine to the browser. */
+"customSearchEngine.addCustomSearchEngineAccessibilityTitle" = "เพิ่มเครื่องมือค้นหาแบบกำหนดเอง";
+
 /* Label explaining how to add search engine. */
 "customSearchEngine.addEngineDescription" = "เขียน URL การค้นหาและแทนที่คำค้นหาด้วย %1$s\nตัวอย่างเช่น: https://youtube.com/search?q=%2$s\n(หากไซต์รองรับ OpenSearch จะเพิ่มตัวเลือกให้โดยอัตโนมัติขณะแก้ไขฟิลด์นี้)";
 
@@ -541,19 +538,22 @@
 /* The warning description shown to user when custom search engine already exists. */
 "customSearchEngine.engineAlertExistsAlertDescription" = "มีเครื่องมือค้นที่มีชื่อเดียวกันอยู่ก่อนแล้ว";
 
-/* A description explaining that search template url is insecure, it is used for instance - Insecure Custom Search Template for iBrowe Search, iBrowe Search is a search engineand on a new seperate line */
+/* A placeholder in the text filed for user to input the custom search engine name. */
+"customSearchEngine.engineTitlePlaceholder" = "ป้อนชื่อเครื่องมือค้นหา";
+
+/* A description explaining that search template url is insecure, it is used for instance - Insecure Custom Search Template for Brave Search, Brave Search is a search engineand on a new seperate line */
 "customSearchEngine.insecureSearchTemplateURLErrorDescription" = "เทมเพลตการค้นหาแบบกำหนดเองที่ไม่ปลอดภัยสำหรับ";
 
-/* A description explaining that suggestion template url is insecure, it is used for instance - Insecure Custom Suggestion Template for iBrowe Search, iBrowe Search is name of search engine on a new seperate line */
+/* A description explaining that suggestion template url is insecure, it is used for instance - Insecure Custom Suggestion Template for Brave Search, Brave Search is name of search engine on a new seperate line */
 "customSearchEngine.insecureSuggestionTemplateURLErrorDescription" = "เทมเพลตคำแนะนำแบบกำหนดเองที่ไม่ปลอดภัยสำหรับ";
 
 /* Navigation Bar title */
 "customSearchEngine.navigationTitle" = "เพิ่มเครื่องมือค้นหา";
 
-/* Search Template title - for instance it will be used Search Template: iBrowe Search - iBrowe Search is the name of Search Engine on  seperate line */
+/* Search Template title - for instance it will be used Search Template: Brave Search - Brave Search is the name of Search Engine on  seperate line */
 "customSearchEngine.searchTemplateTitle" = "เทมเพลตการค้นหา:";
 
-/* Suggestion Template title - for instance it will be used Suggestion Template: iBrowe Search - iBrowe Search is the name of Search Engine on  seperate line */
+/* Suggestion Template title - for instance it will be used Suggestion Template: Brave Search - Brave Search is the name of Search Engine on  seperate line */
 "customSearchEngine.suggestionTemplateTitle" = "เทมเพลตคำแนะนำ:";
 
 /* The message that asks the user to Add the search provider explaining where the search engine will appear */
@@ -604,16 +604,16 @@
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "เปิดการตั้งค่า แตะที่แอปเบราว์เซอร์เริ่มต้น แล้วเลือก iBrowe";
 
-/* Notification body to promote setting iBrowe app as default browser */
+/* Notification body to promote setting Brave app as default browser */
 "defaultBrowserCallout.notificationBody" = "ตั้ง iBrowe เป็นเบราว์เซอร์เริ่มต้นของคุณ";
 
-/* Notification title to promote setting iBrowe app as default browser */
+/* Notification title to promote setting Brave app as default browser */
 "defaultBrowserCallout.notificationTitle" = "รับการป้องกันของ iBrowe ในทุกๆ ลิงก์";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "ปิดคำอธิบายของเบราว์เซอร์เริ่มต้น";
 
-/* Name for default iBrowe theme. */
+/* Name for default Brave theme. */
 "defaultThemeName" = "ค่าเริ่มต้นของ iBrowe";
 
 /* No comment provided by engineer. */
@@ -661,9 +661,6 @@
 /* No comment provided by engineer. */
 "Done" = "เสร็จแล้ว";
 
-/* cookie settings option */
-"DontBlockCookies" = "อย่าบล็อกคุกกี้";
-
 /* Used as a button label for crash dialog prompt */
 "DontSendButtonTitle" = "อย่าส่ง";
 
@@ -702,6 +699,9 @@
 
 /* Title for editing a folder */
 "EditFolderTitle" = "แก้ไขโฟลเดอร์";
+
+/* Accessibility Title for the button that edits the quick-search engines list. */
+"EditQuickSearchEnginesAccessibilityTitle" = "แก้ไขเครื่องมือค้นหาด่วน";
 
 /* Describes whether or not the feature that allows the user to pull down from the top of a web page a certain amount before it triggers a page refresh */
 "enablePullToRefresh" = "เปิดใช้การลากเพื่อรีเฟรช";
@@ -766,10 +766,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "อนุญาตให้ลิงก์สลับแอปหรือไม่";
 
-/* Allow iBrowe to open the external app URL */
+/* Allow Brave to open the external app URL */
 "ExternalAppURLAllow" = "อนุญาต";
 
-/* Don't allow iBrowe to open the external app URL */
+/* Don't allow Brave to open the external app URL */
 "ExternalAppURLDontAllow" = "ไม่อนุญาต";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -787,8 +787,8 @@
 /* Done button in Find in Page Toolbar. */
 "FindInPageDoneButtonAccessibilityLabel" = "เสร็จแล้ว";
 
-/* Find %@ text in page. */
-"FindInPageFormat" = "ค้นหา \"%@\"";
+/* Find `search query` */
+"FindInPageFormat" = "ค้นหา ";
 
 /* Accessibility label for next result button in Find in Page Toolbar. */
 "FindInPageNextResultButtonAccessibilityLabel" = "ผลลัพธ์ภายในหน้าถัดไป";
@@ -880,6 +880,9 @@
 /* individual blocking statistic title */
 "HTTPSUpgrades" = "การอัพเกรด HTTPS ";
 
+/* Title of the button in settings where the user can import browsing data from other browsers. */
+"importBrowsingDataSettingsMenuTitle" = "นำเข้าข้อมูลการเรียกดู";
+
 /* title for per-site shield toggles */
 "IndividualControls" = "ตัวควบคุมแบบแยกรายการ";
 
@@ -895,7 +898,7 @@
 /* No comment provided by engineer. */
 "learnMore" = "ดูข้อมูลเพิ่มเติม";
 
-/* Title for iBrowe Leo menu item. iBrowe Leo is the name of a product and should not be translated */
+/* Title for Brave Leo menu item. Brave Leo is the name of a product and should not be translated */
 "LeoMenuItem" = "Leo";
 
 /* The message displayed in alert when a login entry deleted */
@@ -1036,13 +1039,13 @@
 /* Setting title for option to automatically redirect a url to another url */
 "nprRedirectFooter" = "เปลี่ยนเส้นทางลิงก์ NPR ไปยังเวอร์ชันที่เป็นข้อความโดยอัตโนมัติ (ที่ text.npr.org)";
 
-/* Bookmark title for iBrowe Support */
+/* Bookmark title for Brave Support */
 "ntp.braveSupportFavoriteTitle" = "การสนับสนุนของ iBrowe";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "รับโทเค็น";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with iBrowe.' */
+/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
 "ntp.earningsReport" = "คุณได้รับ %@ จากการท่องเว็บด้วย iBrowe";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
@@ -1052,7 +1055,10 @@
 "ntp.hideSponsoredImages" = "ซ่อนรูปที่ได้รับการสนับสนุน";
 
 /* The text description of image type which is being used NTP */
-"ntp.imageTypeSelectionDescription" = "'ได้รับการสนับสนุน' คือพื้นหลังแบรนด์เพิ่มเติมที่คุณจะได้รับหากเปิดใช้งาน iBrowe Rewards";
+"ntp.imageTypeSelectionDescription" = "ภาพสปอนเซอร์คือภาพพื้นหลังที่มีแบรนด์ ซึ่งจะแสดงในแท็บใหม่ของเบราว์เซอร์ การเปิดใช้งานภาพสปอนเซอร์เหล่านี้ช่วยสนับสนุนภารกิจของ iBrowe";
+
+/* The text label of image type learn more link */
+"ntp.imageTypeSelectionDescriptionLearnMore" = "ดูข้อมูลเพิ่มเติม";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutRewards" = "ดูข้อมูลเพิ่มเติมเกี่ยวกับ iBrowe Rewards";
@@ -1120,7 +1126,7 @@
 /* Button to finish onboarding and start using the app. */
 "OBFinishButton" = "เริ่มท่องเว็บ";
 
-/* Button to join iBrowe Rewards. */
+/* Button to join Brave Rewards. */
 "OBJoinButton" = "เข้าร่วม";
 
 /* No comment provided by engineer. */
@@ -1177,16 +1183,16 @@
 /* Title for shields onboarding screen */
 "OBShieldsTitle" = "iBrowe Shields";
 
-/* Button to show the iBrowe Rewards Ads. */
+/* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "แสดงให้ฉันดู";
 
-/* Button to show iBrowe Rewards. */
+/* Button to show Brave Rewards. */
 "OBTurnOnButton" = "เริ่ม";
 
 /* The description text shown when there is big tech tracker among trackers. Example usage: Google, Amazon and 32 other trackers blocked */
 "onboarding.blockedAdsOnboardingBigTechInformationText" = "บล็อกโฆษณา & เครื่องมือติดตาม %1$@ และ %2$lld อื่นๆ แล้ว";
 
-/* The footnote indicating what iBrowe shields is blocking */
+/* The footnote indicating what Brave shields is blocking */
 "onboarding.blockedAdsOnboardingFootnoteText" = "ดูสิ่งรบกวนทั้งหมดที่ iBrowe บล็อกในทุกหน้าด้วย iBrowe Shields";
 
 /* The text describing user where they should press in order to open Shield panel */
@@ -1234,7 +1240,7 @@
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "เปิดทั้งหมด (%i)";
 
-/* Button title for opening the iBrowe Rewards panel to settings */
+/* Button title for opening the Brave Rewards panel to settings */
 "OpenBraveRewardsSettings" = "เปิดการตั้งค่า iBrowe Rewards";
 
 /* Error description when there is an error while navigating to Files App */
@@ -1363,34 +1369,34 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "เปิดเว็บไซต์";
 
-/* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
+/* The subtitle description of menu item Brave Leo. Brave Leo is the name of a product and should not be translated. */
 "optionsMenu.braveLeoItemDescription" = "Leo คือผู้ช่วยอัจฉริยะที่ทำงานด้วยระบบ AI ที่ถูกสร้างมาสำหรับเบราว์เซอร์นี้โดยเฉพาะ";
 
-/* The subtitle description of menu item iBrowe News */
+/* The subtitle description of menu item Brave News */
 "optionsMenu.braveNewsItemDescription" = "เรื่องเด่นประจำวันนี้ในฟีดข่าวส่วนตัว";
 
-/* iBrowe News Item Menu title */
+/* Brave News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "ข่าวสาร";
 
-/* The subtitle description of menu item iBrowe Playlist */
+/* The subtitle description of menu item Brave Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "เก็บเพลย์ลิสต์ออฟไลน์ของวิดีโอ/สตรีมใดก็ได้";
 
-/* iBrowe News Item Menu title */
+/* Brave News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "เพลย์ลิสต์";
 
-/* The subtitle description of menu item iBrowe Talk */
+/* The subtitle description of menu item Brave Talk */
 "optionsMenu.braveTalkItemDescription" = "วิดีโอคอลส่วนตัวโดยตรงบนเบราว์เซอร์ของคุณ";
 
-/* iBrowe Talk Item Menu title */
+/* Brave Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "พูดคุย";
 
-/* The subtitle description of menu item iBrowe VPN */
+/* The subtitle description of menu item Brave VPN */
 "optionsMenu.braveVPNItemDescription" = "ปกป้องอุปกรณ์ของคุณทั้งหมดทางออนไลน์";
 
-/* iBrowe VPN Item Menu title */
+/* Brave VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item iBrowe Wallet */
+/* The subtitle description of menu item Brave Wallet */
 "optionsMenu.braveWalletItemDescription" = "คริปโตวอลเล็ทที่ปลอดภัย โดยไม่จำเป็นต้องใช้ส่วนขยาย";
 
 /* Privacy Features Section title */
@@ -1405,10 +1411,10 @@
 /* A button to proceed with the rest of the user onboarding after they see the P3A introduction. It means to continue browsing or continue with the rest of the onboarding */
 "p3a.continue" = "ดำเนินการต่อ";
 
-/* A subtitle shown on the setting that toggles analytics on iBrowe. */
+/* A subtitle shown on the setting that toggles analytics on Brave. */
 "p3a.settingSubtitle" = "การตอบกลับแบบส่วนตัวเหล่านี้จะช่วยให้ iBrowe ประเมินการใช้งานโดยรวมของบางฟีเจอร์และปรับให้เหมาะกับคุณมากยิ่งขึ้น";
 
-/* The title for the setting that will allow a user to toggle sending privacy preserving analytics to iBrowe. */
+/* The title for the setting that will allow a user to toggle sending privacy preserving analytics to Brave. */
 "p3a.settingTitle" = "อนุญาตการวิเคราะห์ผลิตภัณฑ์โดยรักษาความเป็นส่วนตัว (P3A)";
 
 /* No comment provided by engineer. */
@@ -1768,7 +1774,7 @@
 /* The title of the screen where the user will move an item from one folder to another folder. */
 "playlistFolders.moveFolderScreenTitle" = "ย้าย";
 
-/* %@ Should NOT be localized. It is a placeholder. Example: iBrowe Folder and 1 more item. */
+/* %@ Should NOT be localized. It is a placeholder. Example: Brave Folder and 1 more item. */
 "playlistFolders.moveItemDescription" = "%@ และอีก 1 รายการ";
 
 /* %lld is a placeholder and should not be localized. Sometimes items can have no name. So this is a generic title to use */
@@ -1777,7 +1783,7 @@
 /* Sometimes an item can have no name. So this is a generic title to use */
 "playlistFolders.moveItemWithNoNameTitle" = "1 รายการ";
 
-/* %@ and %lld Should NOT be localized. They are placeholders. Example: iBrowe Folder and 3 more items. Music and 2 more items. */
+/* %@ and %lld Should NOT be localized. They are placeholders. Example: Brave Folder and 3 more items. Music and 2 more items. */
 "playlistFolders.moveMultipleItemDescription" = "%1$@ และอีก %2$lld รายการ";
 
 /* The title of the button to create a new folder */
@@ -1846,7 +1852,7 @@
 /* Menu Title for syncing playlist */
 "playlistFolderSharing.syncNowMenuTitle" = "ซิงค์เดี๋ยวนี้";
 
-/* Description for closing the `iBrowe Shields` popover menu that is displayed. */
+/* Description for closing the `Brave Shields` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "ปิดเมนู Shields";
 
 /* Settings privacy section title */
@@ -1861,7 +1867,7 @@
 /* Header text, under it we show items blocked by our ad blocker. 'All  time' sentence context is like 'All time items blocked by our ad blocker. */
 "privacyHub.allTimeListsHeader" = "ตั้งแต่ต้น";
 
-/* Title of a section to show total count of trackers blocked by iBrowe */
+/* Title of a section to show total count of trackers blocked by Brave */
 "privacyHub.allTimeListsTrackersView" = "ตัวติดตามและโฆษณา";
 
 /* Title of a section to show websites containing highest amount of trackers */
@@ -1885,10 +1891,10 @@
 /* Title under which we display a website on which there's the highest number of trackers or ads. */
 "privacyHub.allTimeWebsiteTitle" = "เว็บไซต์";
 
-/* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
+/* Text for a button to display a list of all alerts caught by the Brave VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "การแจ้งเตือนทั้งหมด";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Brave Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "ถูกบล็อกโดย";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -1912,7 +1918,7 @@
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "สัปดาห์ที่แล้ว";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by iBrowe Shields on 42 sites' */
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Brave Shields on 42 sites' */
 "privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** ถูกบล็อคโดย iBrowe Shields บน **%2$lld** เว็บไซต์";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
@@ -1945,7 +1951,7 @@
 /* Text of a disclaimer that explains how the data for generating privacy reprots is stored. */
 "privacyHub.privacyReportsDisclaimer" = "ข้อมูลของฮับความเป็นส่วนตัวจะถูกจัดเก็บไว้ในเครื่องและไม่ถูกส่งไปไหน";
 
-/* Title of main privacy hub screen. This screen shows various stats caught by iBrowe's ad blockers. */
+/* Title of main privacy hub screen. This screen shows various stats caught by Brave's ad blockers. */
 "privacyHub.privacyReportsTitle" = "ฮับความเป็นส่วนตัว";
 
 /* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which website had the most tracker per visit, example usage: 'example.com had an average of 10 trackers & ads blocked per visit ' */
@@ -1954,22 +1960,22 @@
 /* Title of a website that contained the most trackers per visit. */
 "privacyHub.riskiestWebsiteTitle" = "เว็บไซต์ที่มีเครื่องมือติดตามมากที่สุด";
 
-/* This text explains a setting that lets iBrowe monitor blocked network requests */
+/* This text explains a setting that lets Brave monitor blocked network requests */
 "privacyHub.settingsEnableShieldsFooter" = "ฮับความเป็นส่วนตัวจะแสดงจำนวนการบล็อกของ Shields การตั้งค่านี้จะไม่ส่งผลต่อตัวนับ Shields บนหน้าแท็บใหม่ ข้อมูลของ Shields จะไม่ถูกนับในหน้าต่างส่วนตัว";
 
-/* Title of a setting that lets iBrowe monitor blocked network requests */
+/* Title of a setting that lets Brave monitor blocked network requests */
 "privacyHub.settingsEnableShieldsTitle" = "แสดงข้อมูล Shields";
 
-/* This text explains a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
+/* This text explains a setting that lets Brave monitor blocked network requests captured by Brave VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "การตั้งค่านี้จะใช้ได้เฉพาะกรณีที่คุณซื้อการสมัครสมาชิก VPN เท่านั้น";
 
-/* Title of a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
+/* Title of a setting that lets Brave monitor blocked network requests captured by Brave VPN */
 "privacyHub.settingsEnableVPNAlertsTitle" = "แสดงการแจ้งเตือน VPN";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
 "privacyHub.settingsSlearDataFooter" = "รีเซ็ตจำนวนของทุกรายการที่ Shields ได้บล็อคเอาไว้";
 
-/* Button that lets user clear all blocked requests and vpn alerts data that iBrowe captured for them. */
+/* Button that lets user clear all blocked requests and vpn alerts data that Brave captured for them. */
 "privacyHub.settingsSlearDataTitle" = "ล้างข้อมูลของ Shields";
 
 /* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
@@ -1999,13 +2005,13 @@
 /* Section title, this section displays vpn alerts: items which the vpn managed to block on users behalf. */
 "privacyHub.vpnAlertsHeader" = "การแจ้งเตือนของ iBrowe Firewall + VPN";
 
-/* This label says about iBrowe VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
+/* This label says about Brave VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
 "privacyHub.vpnLabel" = "ไฟร์วอลล์ + VPN";
 
 /* It shows a total count of items blocked by our VPN shields */
 "privacyHub.vpvnAlertsTotalCount" = "จำนวนทั้งหมด";
 
-/* Show iBrowe Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "นโยบายสความเป็นส่วนตัว";
 
 /* Private button title */
@@ -2035,7 +2041,7 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "เครื่องมือค้นหาด่วน";
 
-/* Open the App Store to rate iBrowe. */
+/* Open the App Store to rate Brave. */
 "RateBrave" = "ให้คะแนน iBrowe";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
@@ -2065,13 +2071,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "เปลี่ยนประเภทฟอนต์";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "กำลังโหลดเนื้อหา...";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "โหลดหน้าเดิม";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "ไม่สามารถแสดงหน้าในมุมมองผู้อ่านได้";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -2131,9 +2137,6 @@
 /* Recent Search Hide Button */
 "RecentSearchHide" = "ซ่อน";
 
-/* Recent Search Paste & Go Button Title */
-"RecentSearchPasteAndGo" = "Paste & Go";
-
 /* Recent Search 'on' text when a user searches 'on' a website */
 "RecentSearchQuickSearchOnWebsite" = "เปิด";
 
@@ -2150,10 +2153,13 @@
 "RecentSearchScannerTitle" = "สแกน QR Code";
 
 /* Recent Search Section Description */
-"RecentSearchSectionDescription" = "การค้นหาล่าสุดจะทำให้คุณเข้าถึงการค้นหาในอดีตแบบเป็นส่วนตัว คุณต้องการเปิดใช้การค้นหาล่าสุดหรือไม่";
+"RecentSearchSectionDescription" = "คุณต้องการเปิดใช้งานการค้นหาล่าสุดหรือไม่";
+
+/* Recent Search Section Header Title */
+"recentSearchSectionHeaderTitle" = "การค้นหาล่าสุด";
 
 /* Recent Search Section Title */
-"RecentSearchSectionTitle" = "การค้นหาล่าสุด";
+"RecentSearchSectionTitle" = "การค้นหาล่าสุดช่วยให้คุณเข้าถึงประวัติการค้นหาก่อนหน้าได้แบบส่วนตัว";
 
 /* Recent Search Show Button */
 "RecentSearchShow" = "แสดง";
@@ -2230,28 +2236,28 @@
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "iBrowe ปิดตัวลงอย่างไม่คาดคิด";
 
-/* Body for iBrowe Talk rewards opt-in screen */
+/* Body for Brave Talk rewards opt-in screen */
 "rewards.braveTalkRewardsOptInBody" = "ด้วย iBrowe Rewards คุณสามารถดูโฆษณาที่รักษาความเป็นส่วนตัวจากเครือข่าย iBrowe Ads ได้ ไม่ต้องมีตัวติดตาม ไม่เกิดความล่าช้า และข้อมูลของคุณจะยังคงปลอดภัยอย่างสมบูรณ์";
 
-/* Title for iBrowe Talk rewards opt-in screen button */
+/* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "เปิดใช้งาน Rewards";
 
-/* Body for successful iBrowe Talk rewards opt-in */
+/* Body for successful Brave Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessBody" = "คลิกที่ใดก็ได้บนหน้าจอเพื่อดำเนินการต่อใน iBrowe Talk";
 
-/* Title for successful iBrowe Talk rewards opt-in */
+/* Title for successful Brave Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "คุณสามารถเริ่มการโทรฟรีได้เลยตอนนี้";
 
-/* Title for iBrowe Talk rewards opt-in screen */
+/* Title for Brave Talk rewards opt-in screen */
 "rewards.braveTalkRewardsOptInTitle" = "หากต้องการเริ่มการโทรฟรี ให้เปิดการทำงานของ iBrowe Rewards";
 
-/* Displayed when iBrowe Rewards is disabled */
+/* Displayed when Brave Rewards is disabled */
 "rewards.disabledBody" = "เปิดใช้งานเพื่อช่วยสนับสนุน iBrowe และชุมชน BAT";
 
 /* Displayed in the status container when rewards is disabled */
 "rewards.disabledStatusBody" = "การใช้ iBrowe Rewards จะช่วยสนับสนุน iBrowe และชุมชน BAT";
 
-/* Displayed when iBrowe Rewards is enabled */
+/* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "คุณกำลังช่วยสนับสนุน iBrowe และชุมชน BAT";
 
 /* Displayed in the status container when rewards is enabled but you're not currently supporting any publishers (0 AC count) */
@@ -2416,7 +2422,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsShare" = "แบ่งปัน";
 
-/* 'Rewards' as in 'iBrowe Rewards' */
+/* 'Rewards' as in 'Brave Rewards' */
 "RewardsInternalsShareInternalsTitle" = "แชร์ Rewards ภายใน";
 
 /* No comment provided by engineer. */
@@ -2434,7 +2440,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsSupported" = "ได้รับการสนับสนุน";
 
-/* 'Rewards' as in 'iBrowe Rewards' */
+/* 'Rewards' as in 'Brave Rewards' */
 "RewardsInternalsTitle" = "Rewards ภายใน";
 
 /* No comment provided by engineer. */
@@ -2498,7 +2504,7 @@
 "SearchesForSuggestionButtonAccessibilityText" = "ค้นหาคำแนะนำ";
 
 /* Section header for history and bookmarks and open tabs option */
-"SearchHistorySectionHeader" = "เปิดแท็บ & บุ๊กมาร์ค & ประวัติ";
+"SearchHistorySectionHeader" = "บนอุปกรณ์ของคุณ";
 
 /* Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode */
 "SearchInputViewClearButtonTitle" = "ล้างการค้นหา";
@@ -2511,6 +2517,9 @@
 
 /* Title for the search field at the top of the Logins list screen */
 "SearchInputViewTitle" = "ค้นหา";
+
+/* The prefix of a user input search query displayed in the quick bar which is on the top of the search suggestion list. */
+"searchQuickBarPrefix" = "ค้นหา \"%@\"";
 
 /* Add Custom Search Engine Table Cell Row Title */
 "searchSettingAddCustomEngineCellTitle" = "เพิ่มเครื่องมือค้นหาแบบกำหนดเอง";
@@ -2548,6 +2557,9 @@
 /* Section header for search suggestions option */
 "SearchSuggestionsSectionHeader" = "คำแนะนำในการค้นหา";
 
+/* Search suggestions optin subtitle when prompting to turn on suggestions */
+"searchSuggestionsSubtitle" = "คุณต้องการเปิดใช้งานคำแนะนำการค้นหาหรือไม่";
+
 /* Title of an action that allows user to perform a one-click web search for selected text */
 "SearchWithBrave" = "ค้นหาด้วย iBrowe";
 
@@ -2569,7 +2581,7 @@
 /* No comment provided by engineer. */
 "setDefaultBrowserCalloutTitle" = "ตอนนี้ iBrowe สามารถตั้งค่าเป็นเบราว์เซอร์เริ่มต้นใน iOS ได้แล้ว แตะที่นี่เพื่อเปิดการตั้งค่า";
 
-/* Settings item to set the iBrowe as a default browser on the iOS device. */
+/* Settings item to set the Brave as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "ตั้งเป็นเบราว์เซอร์เริ่มต้น";
 
 /* No comment provided by engineer. */
@@ -2605,7 +2617,7 @@
 /* Setting title for 'Media' sections. Media section offerts various options to manipulate media playback */
 "settings.media.rootSetting" = "สื่อ";
 
-/* A toggle label which lets the user always open YouTube urls in iBrowe */
+/* A toggle label which lets the user always open YouTube urls in Brave */
 "settings.openYouTubeInBrave" = "เปิดลิงก์ YouTube ใน iBrowe";
 
 /* No comment provided by engineer. */
@@ -2625,9 +2637,6 @@
 
 /* Header for the YouTube settings section */
 "settings.youtube" = "YouTube";
-
-/* Error message that is shown in settings when there was a problem loading */
-"SettingsContentLoadErrorMessage" = "ไม่สามารถโหลดหน้าได้";
 
 /* Row name for licenses. */
 "SettingsLicenses" = "ใบอนุญาต";
@@ -2809,7 +2818,7 @@
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "เปิดเว็บไซต์";
 
-/* Description for opening iBrowe Settings for altering Siri shortcut. */
+/* Description for opening Brave Settings for altering Siri shortcut. */
 "shortcuts.shortcutOpenApplicationSettingsDescription" = "ตัวเลือกนี้จะเปิดการตั้งค่า iBrowe หากต้องการเปลี่ยนตัวเลือก Siri ต่างๆ โปรดเลือกรายการเมนู 'Siri & Search' และปรับแต่งตัวเลือกของคุณ";
 
 /* Button title that open application settings */
@@ -2833,7 +2842,7 @@
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "เปิดบุ๊กมาร์ก";
 
-/* Description of Open iBrowe News Siri Shortcut in Settings Screen */
+/* Description of Open Brave News Siri Shortcut in Settings Screen */
 "shortcuts.shortcutSettingsOpenBraveNewsDescription" = "ใช้ทางลัดเพื่อเปิดแท็บใหม่ & แสดง iBrowe News Feed ผ่าน Siri - Voice Assistant";
 
 /* No comment provided by engineer. */
@@ -2902,13 +2911,13 @@
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "ขอบคุณ";
 
-/* iBrowe panel topmost title */
+/* Brave panel topmost title */
 "SiteShieldSettings" = "Shields";
 
 /* Title used when in warning pop-over when domain specific data save appears */
 "socialSharing.domainSpecificDataSavedTitle" = "ฉันบันทึกข้อมูลด้วยการท่องเว็บด้วย iBrowe ทุกวัน";
 
-/* Text used for social sharing together with iBrowe Shield values */
+/* Text used for social sharing together with Brave Shield values */
 "socialSharing.shareDescriptionTitle" = "ฉันบันทึกข้อมูลด้วยการท่องเว็บด้วย iBrowe ทุกวัน";
 
 /* Open search section of settings */
@@ -3211,9 +3220,6 @@
 /* Word count title */
 "sync.wordCount" = "จำนวนคำ: %i";
 
-/* Folder name for where bookmarks are imported into when the root folder is not empty. */
-"SyncImportFolderName" = "บุ๊กมาร์กที่นำเข้า";
-
 /* Accessibility label for action denoting closing a tab in tab list (tray) */
 "TabAccessibilityCloseActionLabel" = "ปิด";
 
@@ -3271,6 +3277,9 @@
 /* A label shown next to a URL that loaded in some insecure way */
 "tabToolbarNotSecureTitle" = "ไม่ปลอดภัย";
 
+/* Accessibility Label for the tab toolbar paste and go button */
+"tabToolbarPasteAndGoButtonAccessibilityLabel" = "Paste and Go";
+
 /* Accessibility Label for the tab toolbar Playlist button */
 "TabToolbarPlaylistButtonAccessibilityLabel" = "เพลย์ลิสต์";
 
@@ -3292,7 +3301,7 @@
 /* Accessibility Label for the tab toolbar Stop button */
 "TabToolbarStopButtonAccessibilityLabel" = "หยุด";
 
-/* Accessibility Label for the tab toolbar Reload button */
+/* Accessibility Label for the tab toolbar voice search button */
 "tabToolbarVoiceSearchButtonAccessibilityLabel" = "การค้นหาด้วยเสียง";
 
 /* Accessibility label for the lock icon, which is only present if the connection is insecure */
@@ -3328,7 +3337,7 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "ข้อตกลงการใช้บริการ";
 
-/* Show iBrowe Browser TOS page from the Privacy section in the settings. */
+/* Show Brave Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "ข้อตกลงในการใช้งาน";
 
 /* Text for button to share referral's QR code. */
@@ -3406,13 +3415,13 @@
 /* No comment provided by engineer. */
 "today.deals" = "ข้อเสนอ";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.disabledAlertBody" = "iBrowe News จะหยุดแสดงเนื้อหาจาก %@";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "ปิดการใช้งานแล้ว";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.disablePublisherContent" = "ซ่อนเนื้อหาจาก %@";
 
 /* No comment provided by engineer. */
@@ -3421,7 +3430,7 @@
 /* No comment provided by engineer. */
 "today.emptyFeedTitle" = "ไม่มีบทความที่จะแสดง";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.enablePublisherContent" = "อนุญาตเนื้อหาจาก %@";
 
 /* No comment provided by engineer. */
@@ -3451,10 +3460,10 @@
 /* The header above the list of insecure sources */
 "today.insecureSourcesHeader" = "แหล่งที่มาที่ไม่ปลอดภัย - คุณต้องรับผิดชอบความเสี่ยงจากการเพิ่มเอง";
 
-/* Shown above a button that turns on the "iBrowe News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "ติดตามแหล่งที่มาที่ชอบในฟีดเดี่ยว เพียงแค่เปิดแท็บใน iBrowe, เลื่อนลง และ… สำเร็จ!\nBrave News รองรับด้วยโฆษณาแบบส่วนตัวและไม่ระบุชื่อแล้ว";
+/* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
+"today.introCardBody" = "ติดตามแหล่งที่มาที่ชอบในฟีดเดี่ยว เพียงแค่เปิดแท็บใน iBrowe, เลื่อนลง และ… สำเร็จ!\niBrowe News รองรับด้วยโฆษณาแบบส่วนตัวและไม่ระบุชื่อแล้ว";
 
-/* Shown above a button that turns on the "iBrowe News" product in the app. */
+/* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "เปิด iBrowe News และไม่พลาดทุกเรื่องราว";
 
 /* No comment provided by engineer. */
@@ -3463,7 +3472,7 @@
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "ดูข้อมูลเพิ่มเติมเกี่ยวกับข้อมูลของคุณ";
 
-/* 'iBrowe Offers' is a product name */
+/* 'Brave Offers' is a product name */
 "today.moreBraveOffers" = "ข้อเสนอของ iBrowe เพิ่มเติม";
 
 /* No comment provided by engineer. */
@@ -3490,16 +3499,16 @@
 /* Title for long press action sheet list which has item for rate / hide */
 "today.rateBraveCardActionSheetTitle" = "ให้คะแนน iBrowe ใน App Store";
 
-/* Title for long press action that will hide iBrowe Rate Card */
+/* Title for long press action that will hide Brave Rate Card */
 "today.rateBraveCardHideActionTitle" = "ซ่อน";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
 "today.rateBraveCardRateActionTitle" = "ให้คะแนน iBrowe";
 
-/* Subtitle shown on the Rate iBrowe Card */
+/* Subtitle shown on the Rate Brave Card */
 "today.rateBraveCardSubtitle" = "บอกเราว่าคุณคิดยังไง!";
 
-/* Title shown on the Rate iBrowe Card */
+/* Title shown on the Rate Brave Card */
 "today.rateBraveCardTitle" = "คุณชอบ iBrowe ใช่ไหม";
 
 /* No comment provided by engineer. */
@@ -3539,7 +3548,7 @@
 "ToggleReaderMode" = "สลับเป็นโหมดผู้อ่าน";
 
 /* Title of an action that allows the user to translate the current web-page to another language */
-"TranslatePage" = "แปล";
+"TranslatePage" = "แปลหน้านี้";
 
 /* Prompt shown before enabling provider search queries */
 "Turn on search suggestions?" = "ต้องการเปิดคำแนะนำในการค้นหาหรือไม่";
@@ -3574,7 +3583,7 @@
 /* No comment provided by engineer. */
 "UserWalletGenericErrorTitle" = "ขออภัย มีบางอย่างผิดพลาดขึ้น";
 
-/* Version number of iBrowe shown in settings */
+/* Version number of Brave shown in settings */
 "VersionTemplate" = "เวอร์ชัน %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

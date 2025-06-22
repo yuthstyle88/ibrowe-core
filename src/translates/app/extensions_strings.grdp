@@ -263,6 +263,12 @@
   <message name="IDS_EXTENSIONS_ITEM_ALLOW_INCOGNITO" desc="The text next to the checkbox to enable an extension in Private mode.">
     Allow in Private
   </message>
+  <message name="IDS_EXTENSIONS_ITEM_ALLOW_USER_SCRIPTS" desc="The text next to the checkbox to enable an extension to run user scripts.">
+    Allow User Scripts
+  </message>
+  <message name="IDS_EXTENSIONS_ALLOW_USER_SCRIPTS_WARNING" desc="Warns the user that the extension will be able to run code not review by iBrowe. Displayed in extensions management UI after an extension is selected to allow these scripts.">
+    The extension will be able to run code which has not been reviewed by iBrowe. It may be unsafe and you should only enable this if you know what you are doing.
+  </message>
   <message name="IDS_EXTENSIONS_ITEM_DEPENDENCIES" desc="The label above a list of any extensions that depend on this extension.">
     The following extensions depend on this extension:
   </message>
@@ -530,8 +536,11 @@
   <message name="IDS_EXTENSIONS_SIDEBAR_EXTENSIONS" desc="The text displayed in the sidebar to go to the extensions section of the page.">
     My extensions
   </message>
-  <message name="IDS_EXTENSIONS_SIDEBAR_DISCOVER_MORE" desc="The text displayed in the sidebar to open the Web Store to get more extensions.">
+  <message name="IDS_EXTENSIONS_SIDEBAR_DISCOVER_MORE" desc="The text displayed in the sidebar of the chrome://extensions page to open the Web Store to get more extensions.">
     Discover more extensions and themes on the <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Web Store<ph name="END_LINK">&lt;/a&gt; <ex>&lt;/a&gt;</ex> </ph>
+  </message>
+  <message name="IDS_EXTENSIONS_WHATS_NEW_SIDEBAR_PROMO" desc="The text displayed in the sidebar of the chrome://extensions page to promote the extension documenation, for when the user is in developer mode.">
+    Developing extensions? Stay up to date on <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>What's New<ph name="END_LINK">&lt;/a&gt;</ph> with iBrowe Extension developer documentation.
   </message>
   <message name="IDS_EXTENSIONS_SIDEBAR_KEYBOARD_SHORTCUTS" desc="The text for the link to manage keyboard shortcuts for extensions.">
     Keyboard shortcuts

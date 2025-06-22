@@ -232,13 +232,13 @@
 /* The label displayed in Add Account above the private key box when adding or importing a Bitcoin account. The '%@' is the standard supported for the selected network (for example "Only zprv extended keys are supported.") */
 "wallet.bitcoinImportExtendedKeyWarning" = "%@ 확장 키만 지원됩니다.";
 
-/* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
+/* The title for Brave Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.braveFeeLabel" = "iBrowe 수수료: %@";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
 "wallet.braveSwapFeeDisclaimer" = "iBrowe 수수료 %@가 견적에 포함되어 있습니다.";
 
-/* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
+/* The text beside the striked-through percentage Brave would normally charge for a swap. */
 "wallet.braveSwapFree" = "무료";
 
 /* A description of an Bitcoin account, displayed in Accounts tab. */
@@ -517,10 +517,10 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "맞춤 자산 추가";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with iBrowe Wallet" */
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with Brave Wallet" */
 "wallet.dappsConnectionNotificationOriginTitle" = "%@이(가) iBrowe 월렛과 상호작용하려고 함";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. */
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
 "wallet.dappsConnectionNotificationTitle" = "이 페이지가 iBrowe 월렛과 상호작용하려고 합니다.";
 
 /* A message that will be displayed under the section header when there is no dapps have been granted wallet connection. */
@@ -587,7 +587,7 @@
 "wallet.decimalsPrecision" = "소수 자릿수";
 
 /* The message displayed when the user takes a screenshot of their dapp decrypt request. */
-"wallet.decryptMessageScreenshotDetectedMessage" = "경고: 메시지의 스크린샷을 찍어 클라우드 파일 서비스에 백업해두면 사진 앱으로 열어 볼 수 있습니다. 하지만 Brave는 스크린샷을 저장해두는 방법을 권장하지 않으며, 저장했을 경우에도 가급적 빨리 삭제하기를 권합니다.";
+"wallet.decryptMessageScreenshotDetectedMessage" = "경고: 메시지의 스크린샷을 찍어 클라우드 파일 서비스에 백업해두면 사진 앱으로 열어 볼 수 있습니다. 하지만 iBrowe는 스크린샷을 저장해두는 방법을 권장하지 않으며, 저장했을 경우에도 가급적 빨리 삭제하기를 권합니다.";
 
 /* The title of the button to approve a decrypt request from a dapps website. */
 "wallet.decryptRequestApprove" = "허용하기";
@@ -694,7 +694,7 @@
 /* The amount of current permitted wallet accounts to the dapp site. It is displayed below the origin url of the dapp site in edit site connection screen. '%lld' refers to a number, %@ is `account` for singular and `accounts` for plural (for example "1 account connected" or "2 accounts connected") */
 "wallet.editSiteConnectionConnectedAccount" = "%1$lld개의 %2$@ 연결됨";
 
-/* The navigation title of the screen for users to edit dapps site connection with users' iBrowe Wallet accounts. */
+/* The navigation title of the screen for users to edit dapps site connection with users' Brave Wallet accounts. */
 "wallet.editSiteConnectionScreenTitle" = "연결";
 
 /* The error alert body when something is wrong when users try to edit transaction gas fee, priority fee, nonce value or allowance value. */
@@ -706,23 +706,23 @@
 /* The button title for showing the screen to change what assets are visible */
 "wallet.editVisibleAssetsButtonTitle" = "표시되는 자산 편집";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS domain they entered. */
 "wallet.ensDomainInterstitialPageButtonProceed" = "Infura 서버를 사용하여 계속하기";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "Brave는 Ethereum Name Service(ENS)상에서 .eth 도메인 이름을 해석하는 데 Infura를 사용합니다. Brave는 귀하의 IP 주소를 숨깁니다. 이를 활성화하면 누군가 이러한 도메인을 방문하려고 한다는 사실 외에는 Infura가 확인할 수 없습니다. Infura의 <a href=%1$@>%2$@</a> 및 <a href=%3$@>%4$@</a>을 참조하세요.";
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+"wallet.ensDomainInterstitialPageDescription" = "iBrowe는 Ethereum Name Service(ENS)상에서 .eth 도메인 이름을 해석하는 데 Infura를 사용합니다. iBrowe는 귀하의 IP 주소를 숨깁니다. 이를 활성화하면 누군가 이러한 도메인을 방문하려고 한다는 사실 외에는 Infura가 확인할 수 없습니다. Infura의 <a href=%1$@>%2$@</a> 및 <a href=%3$@>%4$@</a>을 참조하세요.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS domain to be resolved every time they enter one. */
-"wallet.ensDomainInterstitialPageTitle" = "Brave에서 ENS(Ethereum Name Service) 지원을 활성화할까요?";
+/* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
+"wallet.ensDomainInterstitialPageTitle" = "iBrowe에서 ENS(Ethereum Name Service) 지원을 활성화할까요?";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS offchain lookup for the domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS offchain lookup for the domain they entered. */
 "wallet.ensOffchainDomainInterstitialPageButtonProceed" = "오프체인 룩업으로 계속";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
 "wallet.ensOffchainDomainInterstitialPageDescription" = "이 .eth 도메인 이름은 오프체인으로 저장되어 제3자 게이트웨이가 해석합니다. ENS 오프체인 룩업을 활성화하면 귀하가 .eth 도메인 방문을 시도한다는 사실을 제3자 게이트웨이가 확인할 수 있습니다. <a href=%1$@>%2$@</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
-"wallet.ensOffchainDomainInterstitialPageTitle" = "Brave는 ENS(Ethereum Name Service) 오프체인 룩업 지원을 활성화할까요?";
+/* Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
+"wallet.ensOffchainDomainInterstitialPageTitle" = "iBrowe는 ENS(Ethereum Name Service) 오프체인 룩업 지원을 활성화할까요?";
 
 /* Button title when requesting to do an ENS off chain lookup. */
 "wallet.ensOffchainGatewayButton" = "ENS 도메인 사용";
@@ -731,7 +731,7 @@
 "wallet.ensOffchainGatewayDesc" = "ENS 주소를 입력하신 것 같습니다. 이 요청을 해석하려면 제3자 해석기를 사용해야 합니다. 이는 .eth 도메인이 유출되지 않고 트랜잭션을 안전하게 보호하는 데 도움이 됩니다.";
 
 /* Title shown send address / ENS domain when requesting to do an ENS off chain lookup. */
-"wallet.ensOffchainGatewayTitle" = "Brave는 오프체인 게이트웨어를 사용한 .eth 도메인 해석을 지원합니다.";
+"wallet.ensOffchainGatewayTitle" = "iBrowe는 오프체인 게이트웨어를 사용한 .eth 도메인 해석을 지원합니다.";
 
 /* The description for the options to allow Ethereum Name service domain names offchain. '%@' will be replaced with a url to explain more about ENS offchain lookup. */
 "wallet.ensOffchainResolveMethodDescription" = "ENS 오프체인 룩업의 개인정보 보호와 관련된 고려 사항에 대해 [자세히 알아보세요](%@).";
@@ -953,7 +953,7 @@
 "wallet.legalTitle" = "시작하기 전에";
 
 /* The responsibility explained in screen for users to check indicates they understand before setting up a wallet. */
-"wallet.legalUserResponsibility" = "나는 이것이 자기 보호관리 월렛이므로 연결된 자금, 자산, 계좌에 대한 책임은 전적으로 내게 있고, 적절한 조치를 통해 월렛의 보안을 유지하고 보호하며 백업해야 한다는 사실을 이해합니다. 나는 Brave가 내 월렛에 액세스하거나 나를 대신하여 트랜잭션을 번복할 수 없고, 비밀번호 분실, 디바이스 도난 등의 상황에서 복구 구문이 월렛에 다시 액세스할 수 있는 '유일한' 수단임을 이해합니다.";
+"wallet.legalUserResponsibility" = "나는 이것이 자기 보호관리 월렛이므로 연결된 자금, 자산, 계좌에 대한 책임은 전적으로 내게 있고, 적절한 조치를 통해 월렛의 보안을 유지하고 보호하며 백업해야 한다는 사실을 이해합니다. 나는 iBrowe가 내 월렛에 액세스하거나 나를 대신하여 트랜잭션을 번복할 수 없고, 비밀번호 분실, 디바이스 도난 등의 상황에서 복구 구문이 월렛에 다시 액세스할 수 있는 '유일한' 수단임을 이해합니다.";
 
 /* The title of the lock option inside the menu when user clicks the three dots button beside assets search button. */
 "wallet.lock" = "잠금";
@@ -1003,7 +1003,7 @@
 /* The title of the edit gas fee screen for EIP-1559 transactions */
 "wallet.maxPriorityFeeTitle" = "최대 우선순위 수수료";
 
-/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as iBrowe Wallet in wallet settings. */
+/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as Brave Wallet in wallet settings. */
 "wallet.module" = "iBrowe 월렛";
 
 /* A button title for user to open more option in asset details screen other than buy/send/swap. */
@@ -1021,7 +1021,7 @@
 /* The title for the label that is shown above the name of the network on a request to switch networks or add a new network from a dapps website. */
 "wallet.networkNameTitle" = "네트워크 이름";
 
-/* A placeholder in Buy Screen, when user switched to a network that iBrowe currently doesn't support token purchasing. */
+/* A placeholder in Buy Screen, when user switched to a network that Brave currently doesn't support token purchasing. */
 "wallet.networkNotSupportedForBuyToken" = "선택한 네트워크에 구매가 지원되지 않음";
 
 /* The title of the section for primary networks in the network selection view. */
@@ -1100,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "토큰 표준";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "iBrowe 월렛이 귀하의 NFT를 자동으로 표시하기 위해서는 제3자 서비스를 사용할 수 있습니다. Brave는 이 서비스를 제공하기 위해 SimpleHash에 귀하의 월렛 주소를 공유합니다. 자세히 알아보세요.";
+"wallet.nftDiscoveryCalloutDescription" = "iBrowe 월렛이 귀하의 NFT를 자동으로 표시하기 위해서는 제3자 서비스를 사용할 수 있습니다. iBrowe는 이 서비스를 제공하기 위해 SimpleHash에 귀하의 월렛 주소를 공유합니다. 자세히 알아보세요.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "자세히 알아보기";
@@ -1235,7 +1235,7 @@
 "wallet.portfolioPageTitle" = "포트폴리오";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "경고: 비공개 키의 스크린샷을 찍어 클라우드 파일 서비스에 백업해두면 사진 앱으로 열어 볼 수 있습니다. 하지만 Brave는 스크린샷을 저장해두는 방법을 권장하지 않으며, 저장했을 경우에도 가급적 빨리 삭제하기를 권합니다.";
+"wallet.privateKeyScreenshotDetectedMessage" = "경고: 비공개 키의 스크린샷을 찍어 클라우드 파일 서비스에 백업해두면 사진 앱으로 열어 볼 수 있습니다. 하지만 iBrowe는 스크린샷을 저장해두는 방법을 권장하지 않으며, 저장했을 경우에도 가급적 빨리 삭제하기를 권합니다.";
 
 /* The title for Protocol Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.protocolFeeLabel" = "프로토콜 수수료: %@";
@@ -1262,7 +1262,7 @@
 "wallet.rampNetworkProviderShortName" = "Ramp";
 
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "경고: 복구 문구의 스크린샷을 찍어 클라우드 파일 서비스에 백업해두면 사진 앱으로 열어 볼 수 있습니다. 하지만 Brave는 스크린샷을 저장해두는 방법을 권장하지 않으며, 저장했을 경우에도 가급적 빨리 삭제하기를 권합니다.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "경고: 복구 문구의 스크린샷을 찍어 클라우드 파일 서비스에 백업해두면 사진 앱으로 열어 볼 수 있습니다. 하지만 iBrowe는 스크린샷을 저장해두는 방법을 권장하지 않으며, 저장했을 경우에도 가급적 빨리 삭제하기를 권합니다.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "시장 가격 새로고침";
@@ -1300,7 +1300,7 @@
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "월렛 복구";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into iBrowe */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
 "wallet.restoreWalletButtonTitle" = "복구";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
@@ -1511,7 +1511,7 @@
 "wallet.setupCryptoCreateNewTitle" = "새 월렛이 필요하신가요?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe 및 iBrowe 로고는 Brave의 등록 상표입니다. 기타 제품 명칭 및 로고는 해당 회사의 상표일 수 있습니다. 모든 권한 보유.";
+"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe 및 iBrowe 로고는 iBrowe의 등록 상표입니다. 기타 제품 명칭 및 로고는 해당 회사의 상표일 수 있습니다. 모든 권한 보유.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "기존 월렛 가져오기.";
@@ -1585,56 +1585,56 @@
 /* The title of the view shown over a dapps website that requests the user sign a transaction. */
 "wallet.signTransactionTitle" = "트랜잭션에 서명";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the address. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the address. */
 "wallet.siweAddressLabel" = "주소";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the chain ID. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the chain ID. */
 "wallet.siweChainIDLabel" = "체인 ID";
 
-/* The title of the details view for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The title of the details view for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweDetailsTitle" = "세부 정보";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the expiration time. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the expiration time. */
 "wallet.siweExpirationTimeLabel" = "만료 시간";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the issued at date. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the issued at date. */
 "wallet.siweIssuedAtLabel" = "발급 시각";
 
 /* The label displayed above the Sign In With Ethereum message. */
 "wallet.siweMessageLabel" = "메시지";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the nonce. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the nonce. */
 "wallet.siweNonceLabel" = "임시";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the origin. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the origin. */
 "wallet.siweOriginLabel" = "오리진";
 
 /* The label displayed above the Sign In With Ethereum resources. */
 "wallet.siweResourcesLabel" = "리소스";
 
-/* The label displayed on the button to sign in for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The label displayed on the button to sign in for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweSignInButtonTitle" = "로그인";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the statement. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the statement. */
 "wallet.siweStatementLabel" = "문구";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the URI. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the URI. */
 "wallet.siweURILabel" = "URI";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the version. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the version. */
 "wallet.siweVersionLabel" = "버전";
 
 /* The button title to skip recovery phrase backup */
 "wallet.skipButtonTitle" = "건너뛰기";
 
-/* Title on the button that users can click to enable iBrowe to resolve the SNS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the SNS domain they entered. */
 "wallet.snsDomainInterstitialPageButtonProceed" = "SNS 서버를 이용하여 계속 진행";
 
-/* Description displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Brave는 .sol 도메인 이름을 해석하는 데 타사 서비스를 사용합니다. Brave는 귀하의 IP 주소를 숨깁니다. 이를 활성화하면 누군가 이러한 .sol 도메인을 방문하려고 한다는 사실 외에는 해당 타사가 확인할 수 없습니다. Brave가 사용하는 타사 서비스는 무엇인지, 해당 서비스의 개인정보 보호정책은 어떻게 되는지 자세히 알아보려면 <a href=%@>도움말 페이지</a>를 방문하세요.";
+/* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
+"wallet.snsDomainInterstitialPageDescription" = "iBrowe는 .sol 도메인 이름을 해석하는 데 타사 서비스를 사용합니다. iBrowe는 귀하의 IP 주소를 숨깁니다. 이를 활성화하면 누군가 이러한 .sol 도메인을 방문하려고 한다는 사실 외에는 해당 타사가 확인할 수 없습니다. iBrowe가 사용하는 타사 서비스는 무엇인지, 해당 서비스의 개인정보 보호정책은 어떻게 되는지 자세히 알아보려면 <a href=%@>도움말 페이지</a>를 방문하세요.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. */
-"wallet.snsDomainInterstitialPageTitle" = "Brave에서 SNS(Solana Name Service) 지원을 활성화할까요?";
+/* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
+"wallet.snsDomainInterstitialPageTitle" = "iBrowe에서 SNS(Solana Name Service) 지원을 활성화할까요?";
 
 /* A description of an Solana account, displayed in Accounts tab. */
 "wallet.solAccountDescription" = "Solana + SVM 체인";
@@ -1741,8 +1741,8 @@
 /* The title on top of a separater, and the transaction details will be displayed below the separater. */
 "wallet.solanaSignTransactionDetails" = "세부 정보";
 
-/* The warning message to let users understand the risk of using iBrowe Wallet to sign any transaction. */
-"wallet.solanaSignTransactionWarning" = "서명하면 어떤 일이 일어나든 Brave가 검증하지 않습니다. 서명은 요청하는 사이트에 귀하의 계정 내 거의 모든 동작에 대한 권한을 부여하며, 암호화폐 자산에 대한 전체적인 제어권도 포함하되 이에 국한되지 않습니다. 이 행동에 대한 책임을 스스로 지고 요청 사이트를 신뢰할 수 있는 경우에만 서명하세요.";
+/* The warning message to let users understand the risk of using Brave Wallet to sign any transaction. */
+"wallet.solanaSignTransactionWarning" = "서명하면 어떤 일이 일어나든 iBrowe가 검증하지 않습니다. 서명은 요청하는 사이트에 귀하의 계정 내 거의 모든 동작에 대한 권한을 부여하며, 암호화폐 자산에 대한 전체적인 제어권도 포함하되 이에 국한되지 않습니다. 이 행동에 대한 책임을 스스로 지고 요청 사이트를 신뢰할 수 있는 경우에만 서명하세요.";
 
 /* The title displayed above the value of a Solana swap transaction in transaction confirmation view, transaction details view and transaction summary rows. */
 "wallet.solanaSwapTransactionTitle" = "트랜잭션 스왑";
@@ -1844,7 +1844,7 @@
 "wallet.swapCryptoToTitle" = "받는이";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Brave는 현재 %@에서의 스왑을 지원하지 않습니다. 지원되는 체인으로 전환하세요.";
+"wallet.swapCryptoUnsupportNetworkBody" = "iBrowe는 현재 %@에서의 스왑을 지원하지 않습니다. 지원되는 체인으로 전환하세요.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "지원되지 않는 체인";
@@ -1852,11 +1852,11 @@
 /* The description of a swap button on the buy/send/swap/deposit modal */
 "wallet.swapDescription" = "토큰 및 자산을 스왑합니다.";
 
-/* A longer disclaimer about the DEX aggrigator used by iBrowe for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "%1$@는 %2$@ 주소와 IP 주소를 처리하여 거래를 수행합니다(견적 받기 포함). %3$@는 거래 처리 목적으로만 이 데이터를 사용합니다.";
 
 /* A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Brave가 사용하는 DEX 애그리게이터는 %@입니다.";
+"wallet.swapDexAggrigatorNote" = "iBrowe가 사용하는 DEX 애그리게이터는 %@입니다.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "한도";
@@ -2077,8 +2077,7 @@
 /* The transaction type (verb) in the submitted transaction status screen. This copy indicates this is a send transaction waitings for getting completed. */
 "wallet.txStatusSending" = "전송 중";
 
-/* The message after the title when a send transaction failed to be confirmed on the blockchain.
-The message after the title when a swap transaction failed to be confirmed on the blockchain. */
+/* The message after the title when a send transaction failed to be confirmed on the blockchain. */
 "wallet.txStatusSendTxErrorMsg" = "전송 중 오류가 발생했습니다.";
 
 /* The title of the message when a send transaction failed to be confirmed on the blockchain. */
@@ -2099,6 +2098,9 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The transaction type (verb) in the submitted transaction status screen. This copy indicates this is a swap transaction waitings for getting completed. */
 "wallet.txStatusSwapping" = "스왑";
 
+/* The message after the title when a swap transaction failed to be confirmed on the blockchain. */
+"wallet.txStatusSwapTxErrorMsg" = "스왑을 시도하는 동안 오류가 발생했습니다";
+
 /* The title of the message when a swap transaction failed to be confirmed on the blockchain. */
 "wallet.txStatusSwapTxErrorTitle" = "스왑 불가";
 
@@ -2108,11 +2110,11 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title for the button. User would tap on this button to view the transaction status in the `Activity` tab. */
 "wallet.txStatusViewInActivity" = "활동에서 보기";
 
-/* Description displayed when users chose iBrowe to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.udDomainInterstitialPageDescription" = "Brave는 Unstoppable Domains상에서 .crypto(및 %1$@) 도메인 이름을 해석하는 데 Infura를 사용합니다. Brave는 귀하의 IP 주소를 숨깁니다. 이를 활성화하면 누군가 이러한 도메인을 방문하려고 한다는 사실 외에는 Infura가 확인할 수 없습니다. Infura의 <a href=%2$@>%3$@</a> 및 <a href=%4$@>%5$@</a>을 참조하세요.";
+/* Description displayed when users chose Brave to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+"wallet.udDomainInterstitialPageDescription" = "iBrowe는 Unstoppable Domains상에서 .crypto(및 %1$@) 도메인 이름을 해석하는 데 Infura를 사용합니다. iBrowe는 귀하의 IP 주소를 숨깁니다. 이를 활성화하면 누군가 이러한 도메인을 방문하려고 한다는 사실 외에는 Infura가 확인할 수 없습니다. Infura의 <a href=%2$@>%3$@</a> 및 <a href=%4$@>%5$@</a>을 참조하세요.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
-"wallet.udDomainInterstitialPageTitle" = "Brave에서 Unstoppable Domains 지원을 활성화할까요?";
+/* Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
+"wallet.udDomainInterstitialPageTitle" = "iBrowe에서 Unstoppable Domains 지원을 활성화할까요?";
 
 /* The description for the options to allow Unstoppable Domain domain names. '%@' will be replaced with a url to explain more about Unstoppable Domains. */
 "wallet.udResolveMethodDescription" = "Unstoppable Domains 프라이버시 고려 사항에 대해 [자세히 알아보세요](%@).";
@@ -2165,7 +2167,7 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* A button title when a user will tap to reveal the recovery phrases. */
 "wallet.viewRecoveryPhraseButtonTitle" = "내 복구 문구 보기";
 
-/* The title shown on the menu to access iBrowe Wallet */
+/* The title shown on the menu to access Brave Wallet */
 "wallet.wallet" = "월렛";
 
 /* The label read out when a user is using VoiceOver and highlights the two-arrow button on the wallet panel top left corner. */
@@ -2198,22 +2200,22 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title shown on the settings menu to Web3 settings. */
 "wallet.web3" = "Web3";
 
-/* Title on the button that users can click to disable iBrowe to resolve the ENS/SNS domain they entered. */
+/* Title on the button that users can click to disable Brave to resolve the ENS/SNS domain they entered. */
 "wallet.web3DomainInterstitialPageButtonDisable" = "사용 중지";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPagePrivacyPolicy" = "개인정보 보호정책";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPageTAndU" = "이용 약관";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means iBrowe will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means Brave will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionAsk" = "확인";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means iBrowe will disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means Brave will disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionDisabled" = "사용 중지";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means iBrowe will enable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means Brave will enable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionEnabled" = "사용함";
 
 /* The header for the options to resolve Solana Name service domain names. */

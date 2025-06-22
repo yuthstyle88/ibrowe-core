@@ -8,6 +8,9 @@
   <message name="IDS_AUTOCOMPLETE_SEARCH_DESCRIPTION" desc="Description for the default search match.">
     <ph name="ENGINE">$1<ex>iBrowe</ex></ph> Search
   </message>
+  <message name="IDS_AUTOCOMPLETE_SEARCH_IN_SIDE_PANEL_DESCRIPTION" desc="Description for search matches that open in side panel." translateable="false">
+    Search in side panel
+  </message>
   <message name="IDS_EMPTY_KEYWORD_VALUE" desc="Shown in the location bar drop down when the user enters a string that matches a chrome keyword, but they haven't entered any text following the chrome keyword">
     &lt;Type search term&gt;
   </message>
@@ -71,9 +74,6 @@
   <message name="IDS_OMNIBOX_ADDITIONAL_TEXT_DASH_TEMPLATE" desc="The omnibox text when there is both traditional text (i.e., user text + inline autocompletion) and additional text (i.e. the default suggestion's URL when rich autocompleting a title) to display.">
     <ph name="TRADITIONAL_TEXT">$1</ph> - <ph name="ADDITIONAL_TEXT">$2</ph>
   </message>
-  <message name="IDS_OMNIBOX_ADDITIONAL_TEXT_PARENTHESIS_TEMPLATE" desc="The omnibox text when there is both traditional text (i.e., user text + inline autocompletion) and additional text (i.e. the default suggestion's URL when rich autocompleting a title) to display.">
-    <ph name="TRADITIONAL_TEXT">$1</ph> (<ph name="ADDITIONAL_TEXT">$2</ph>)
-  </message>
   <message name="IDS_OMNIBOX_TAB_SUGGEST_HINT" desc="The button text contents to say that this suggestion will switch to another tab.">
     Switch to this tab
   </message>
@@ -103,14 +103,20 @@
   <message name="IDS_DRIVE_SUGGESTION_GENERAL" desc="Google Drive product name, for use in general omnibox Drive file result descriptions.">
     Google Drive
   </message>
-  <message name="IDS_DRIVE_SUGGESTION_DESCRIPTION_TEMPLATE" desc="Product description for Google Drive omnibox results.">
+  <message name="IDS_CONTENT_SUGGESTION_DESCRIPTION_TEMPLATE" desc="Product description for Google Drive omnibox results.">
     <ph name="RESULT_MODIFIED_DATE">$1<ex>12/31/2018</ex></ph> - <ph name="RESULT_OWNER">$2<ex>First Last</ex></ph> - <ph name="RESULT_PRODUCT_SOURCE">$3<ex>Google Docs</ex></ph>
   </message>
-  <message name="IDS_DRIVE_SUGGESTION_DESCRIPTION_TEMPLATE_WITHOUT_DATE" desc="Product description for Google Drive omnibox results when date is missing.">
+  <message name="IDS_CONTENT_SUGGESTION_DESCRIPTION_TEMPLATE_WITHOUT_DATE" desc="Product description for Google Drive omnibox results when date is missing.">
     <ph name="RESULT_OWNER">$1<ex>First Last</ex></ph> - <ph name="RESULT_PRODUCT_SOURCE">$2<ex>Google Docs</ex></ph>
   </message>
-  <message name="IDS_DRIVE_SUGGESTION_DESCRIPTION_TEMPLATE_WITHOUT_OWNER" desc="Product description for Google Drive omnibox results when owner is missing.">
+  <message name="IDS_CONTENT_SUGGESTION_DESCRIPTION_TEMPLATE_WITHOUT_OWNER" desc="Product description for Google Drive omnibox results when owner is missing.">
     <ph name="RESULT_MODIFIED_DATE">$1<ex>12/31/2018</ex></ph> - <ph name="RESULT_PRODUCT_SOURCE">$2<ex>Google Docs</ex></ph>
+  </message>
+  <message name="IDS_CONTENT_SUGGESTION_DESCRIPTION_TEMPLATE_WITHOUT_FILE_TYPE_DESCRIPTION" desc="Product description for content suggestions in omnibox when the file type description is missing.">
+    <ph name="RESULT_MODIFIED_DATE">$1<ex>12/31/2018</ex></ph> - <ph name="RESULT_OWNER">$2<ex>First Last</ex></ph>
+  </message>
+  <message name="IDS_PERSON_SUGGESTION_DESCRIPTION" desc="Description for person suggestions in omnibox.">
+  <ph name="ENGINE">$1<ex>Agentspace</ex></ph> People
   </message>
   <if expr="use_titlecase">
     <then>
@@ -238,10 +244,16 @@
     <ph name="KEYWORD_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Chromium Projects http://www.chromium.org bookmark</ex></ph>, press Tab then Enter to search
   </message>
   <message name="IDS_ACC_KEYWORD_MODE" desc="Announcement when entering keyword search mode.">
-    Search <ph name="KEYWORD_SUFFIX">$1<ex>Youtube</ex>, type a query and press Enter to search</ph>
+    Search <ph name="KEYWORD_SUFFIX">$1<ex>Youtube</ex></ph>
   </message>
   <message name="IDS_ACC_ASK_KEYWORD_MODE" desc="Announcement when entering keyword mode for an engine that is suitable for asking vs. searching (e.g. Gemini).">
-    Ask <ph name="KEYWORD_SUFFIX">$1<ex>Gemini</ex>, type a question or ask it to do something and press Enter</ph>
+    Ask <ph name="KEYWORD_SUFFIX">$1<ex>Gemini</ex></ph>
+  </message>
+  <message name="IDS_ACC_KEYWORD_MODE_WITH_SHORTCUT" desc="Announcement when entering keyword search mode with shortcut.">
+    <ph name="KEYWORD_SHORTCUT">$1<ex>yt</ex></ph>, Search <ph name="KEYWORD_SUFFIX">$2<ex>Youtube</ex></ph>
+  </message>
+  <message name="IDS_ACC_ASK_KEYWORD_MODE_WITH_SHORTCUT" desc="Announcement when entering keyword mode for an engine that is suitable for asking vs. searching (e.g. Gemini) with shortcut.">
+    <ph name="KEYWORD_SHORTCUT">$1<ex>gemini</ex></ph>, Ask <ph name="KEYWORD_SUFFIX">$2<ex>Gemini</ex></ph>
   </message>
 
   <!-- Accessibility labels for the omnibox thumbs up feedback button. -->
@@ -290,7 +302,7 @@
     "<ph name="SECTION">$1<ex>Related to recent searches</ex></ph>" section hidden
   </message>
 
-  <!-- Accessibility announcements made for the iBrowe tip IPH suggestions sometimes shown at the bottom of the Omnibox -->
+  <!-- Accessibility announcements made for the Brave tip IPH suggestions sometimes shown at the bottom of the Omnibox -->
   <message name="IDS_ACC_CHROME_TIP" desc="Announcement that is read after the last suggestion when the IPH row is present in the Omnibox.">
     Role: iBrowe tip. Accessibility label: <ph name="CHROME_TIP">$1<ex>Type @gemini to Chat with Gemini</ex></ph>
   </message>
@@ -328,6 +340,18 @@
   </message>
   <message name="IDS_SEARCH_ENGINES_STARTER_PACK_GEMINI_KEYWORD" desc="The keyword required to trigger Ask Gemini in keyword mode. This will be prepended with an '@'.">
     Gemini
+  </message>
+  <message name="IDS_SEARCH_ENGINES_STARTER_PACK_PAGE_NAME" desc="The name of the search engine to search with the current page context as it appears on chrome://settings/searchEngines." translateable="false">
+    Page
+  </message>
+  <message name="IDS_SEARCH_ENGINES_STARTER_PACK_PAGE_KEYWORD" desc="The keyword required to trigger page context search in keyword mode. This will be prepended with an '@'." translateable="false">
+    Page
+  </message>
+  <message name="IDS_STARTER_PACK_PAGE_KEYWORD_TEXT" desc="The text shown at the front of the Omnibox when a user has selected the starter pack page keyword mode." translateable="false">
+    Ask about this page
+  </message>
+  <message name="IDS_STARTER_PACK_PAGE_EMPTY_QUERY_MATCH_TEXT" desc="Shown in the location bar drop down as the first item in the list when the user enters the page search starter pack keyword mode but they haven't entered any text for a query yet." translateable="false">
+    &lt;Enter a question&gt;
   </message>
   <message name="IDS_OMNIBOX_INSTANT_KEYWORD_ASK_TEXT" desc="Text shown in an omnibox suggestion ready for instant keyword search when the destination is suitable for asking. For example, starter pack suggestions like @gemini will Ask Gemini.">
     <ph name="KEYWORD">$1<ex>@gemini</ex></ph> - Ask <ph name="KEYWORD_SHORT_NAME">$2<ex>Gemini</ex></ph>
@@ -400,6 +424,9 @@
     Enter a word or two
   </message>
   <message name="IDS_OMNIBOX_GEMINI_SCOPE_PLACEHOLDER_TEXT" desc="The string displayed in the omnibox as placeholder text when the user input is empty and the user is in the @gemini scope.">
+    Enter a question
+  </message>
+  <message name="IDS_OMNIBOX_PAGE_SCOPE_PLACEHOLDER_TEXT" desc="The string displayed in the omnibox as placeholder text when the user has selected the @page starter pack match without further text input." translateable="false">
     Enter a question
   </message>
 

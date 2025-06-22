@@ -52,6 +52,12 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="4450893287417543264">No volver a mostrar</translation>
 <translation id="4595286989346610620">Ver detalles</translation>
 <translation id="8324318899000695659">Bloquear elementos</translation>
+<translation id="3828310068250853121">Selecciona el elemento que quieres bloquear</translation>
+<translation id="2577286987423083872">Bloquear elementos</translation>
+<translation id="3211174446914979436">Gestionar filtros</translation>
+<translation id="3108584651298176909">Mostrar reglas</translation>
+<translation id="5156986655891520787">Ocultar reglas</translation>
+<translation id="7658239707568436148">Cancelar</translation>
 <translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">Abrir mediante dirección .onion: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">Forzar pegado</translation>
@@ -93,7 +99,6 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="8117247596084706514">Este sitio solicita su <ph name="PART_ONE"/>ubicación exacta<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Más informació<ph name="PART_TWO_END"/></translation>
 <translation id="5486652646100591203">Este sitio solicita su <ph name="PART_ONE"/>ubicación exacta<ph name="PART_ONE_END"/>. iBrowe solo proporcionará los datos relativos a su <ph name="PART_TWO"/>ubicación general<ph name="PART_TWO_END"/> porque los <ph name="PART_THREE"/>Servicios de ubicación<ph name="PART_THREE_END"/> están deshabilitados. <ph name="PART_FOUR"/>Más información<ph name="PART_FOUR_END"/></translation>
 <translation id="8915916167043355778">Cerrar todo</translation>
-<translation id="7658239707568436148">Cancelar</translation>
 <translation id="4870911314065352661">¿Quieres cerrar todas las pestañas?</translation>
 <translation id="7551864359422178684">Tienes <ph name="NUMBER_OF_TABS"/> pestañas abiertas en esta ventana del navegador.</translation>
 <translation id="2571596981920752023"><ph name="NUMBER_OF_TABS"/> pestañas</translation>
@@ -133,6 +138,7 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="3447730462826640312">No es necesario que hagas clic para ganar, ¡pero hazlo si te interesa!</translation>
 <translation id="5253166205743627564">Gracias por apoyar a iBrowe Search haciendo clic en un anuncio privado. A diferencia de las grandes tecnológicas, medimos el rendimiento de los anuncios de forma anónima para preservar tu privacidad.</translation>
 <translation id="8748471354357836070">Más información / Opciones de exclusión</translation>
+<translation id="5927196110206824867">Las imágenes de fondo patrocinadas apoyan la misión de iBrowe de construir una web independiente y orientada al usuario. Y a diferencia de las grandes tecnológicas, medimos el rendimiento de los anuncios de forma anónima para preservar tu privacidad.</translation>
 <translation id="4174337572777167894">Proyecto de descubrimiento web</translation>
 <translation id="8659271182272561965">Contribuye con algunos datos de búsqueda y navegación anónimos para mejorar iBrowe Search.</translation>
 <translation id="1516554614404600536">Información sobre las herramientas de iBrowe</translation>
@@ -151,8 +157,8 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="1613695740874407223">URL del elemento de la barra lateral</translation>
 <translation id="4877147287319222750">Añadir a la barra lateral</translation>
 <translation id="2422927186524098759">Barra lateral</translation>
-<translation id="5916664084637901428">Activar</translation>
-<translation id="5860033963881614850">Apagado</translation>
+<translation id="5916664084637901428">Activada</translation>
+<translation id="5860033963881614850">Desactivado</translation>
 <translation id="2393250835562952455">Ocultar automáticamente</translation>
 <translation id="5977931179408079967">Colocar</translation>
 <translation id="3790384768741064842">Mover a la derecha</translation>
@@ -317,6 +323,18 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="8813509417421129632">Una página incrustada en <ph name="SITE"/> desea guardar</translation>
 <translation id="7700010743463174379">Esta página desea guardar</translation>
 <translation id="6774238875569752630">Una página incrustada en esta página desea guardar</translation>
+<translation id="1233913566967531780">Enfoque de pestaña</translation>
+<translation id="4034992002364254340">Reunir todas las pestañas relacionadas en una nueva ventana</translation>
+<translation id="8012125596344613514">Temas sugeridos</translation>
+<translation id="7529120186020617755">Introduce un tema en el que concentrarte...</translation>
+<translation id="6847541693235449912">Ir</translation>
+<translation id="2079545284768500474">Deshacer</translation>
+<translation id="1533980864758658574">Nueva ventana creada para <ph name="TOPIC"/></translation>
+<translation id="7985042437720138349">Esta función envía datos sobre tus pestañas abiertas a Leo, el asistente del navegador con tecnología de IA de iBrowe.</translation>
+<translation id="6165508094623778733">Más información</translation>
+<translation id="7557539689487606886">Hazte Premium</translation>
+<translation id="1035309871698658326">Cuando se abre, esto enviará automáticamente los títulos y el origen de todas las pestañas que no son de incógnito a Leo para clasificarlas.</translation>
+<translation id="3435896845095436175">Habilitar</translation>
 <translation id="9156965752763025780">Tus cambios se aplicarán la próxima vez que reinicies iBrowe.</translation>
 <translation id="7179921470347911571">Relanzar Ahora</translation>
 <translation id="1426410128494586442">Sí</translation>
@@ -333,6 +351,7 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="1336940801687497203">Mismo que en Windows</translation>
 <translation id="8721331068159819483">Mismo que en MacOS</translation>
 <translation id="4171684937791228083">Mostrar siempre la barra de herramientas en el modo de pantalla completa</translation>
+<translation id="5840822070878669614">Abrir Tienda Web</translation>
 <translation id="1692470335103807198">Obtener más temas</translation>
 <translation id="2906510232093002459">Imágenes por defecto de iBrowe</translation>
 <translation id="8000020256436988724">Barra de herramientas</translation>
@@ -352,7 +371,7 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="2396127686705429331">Mostrar botón de marcadores</translation>
 <translation id="2814998458708016836">Usar la barra de direcciones extendida</translation>
 <translation id="4109670531935487117">Mostrar sugerencias autocompletadas en la barra de direcciones</translation>
-<translation id="2858138569776157458">Populares</translation>
+<translation id="3405901785709583668">Principales sugerencias</translation>
 <translation id="7859704718976024901">Historial de Navegación</translation>
 <translation id="8820817407110198400">Marcadores</translation>
 <translation id="4144468798716165316">Comandos rápidos</translation>
@@ -460,8 +479,10 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="863171915776379000">Permitir los inicios de sesión de Facebook y los mensajes incrustados</translation>
 <translation id="7791141927430186653">Permitir tuits incrustados de X (anteriormente Twitter)</translation>
 <translation id="958971637207126733">Permitir mensajes incrustados de LinkedIn</translation>
+<translation id="1244912498725894944">Algunos ajustes de las cookies están controlados por iBrowe Shields. Puedes verlos &lt;a href="/content/ibroweShields"&gt;aquí&lt;/a&gt;.</translation>
+<translation id="5352519841984162795">Esta configuración es controlada por Escudos de iBrowe.</translation>
+<translation id="352287031024189516">Esta configuración es controlada por el inicio de sesión de Google.</translation>
 <translation id="8792121506918889955">Política de gestión de IP de WebRTC</translation>
-<translation id="6165508094623778733">Más información</translation>
 <translation id="8798099450830957504">Por defecto</translation>
 <translation id="1822560017823072927">Interfaces pública y privada por defecto</translation>
 <translation id="5825943197137337319">Solo interfaz pública por defecto</translation>
@@ -497,6 +518,7 @@ También puedes cambiar los permisos más adelante en <ph name="SETTINGS_EXTENIO
 <translation id="1389601498324964367">Almacenamiento gestionado por cuotas</translation>
 <translation id="814018970995616154">Comprobar las URLs con una lista de sitios inseguros guardados en iBrowe.</translation>
 <translation id="1144810021918451336">Sin protección contra webs, descargas y extensiones peligrosas</translation>
+<translation id="4905744245455598930">Protege contra sitios, descargas y extensiones que se consideran peligrosos.</translation>
 <translation id="5570470519803062774">Configuración del sitio y de los Escudos</translation>
 <translation id="410351446219883937">Reproducción automática</translation>
 <translation id="3512883292907992390">Permitir que los sitios reproduzcan videos automáticamente</translation>
@@ -588,8 +610,8 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="4908081302669157000">Números de teléfono, correos electrónicos y direcciones</translation>
 <translation id="294985549514492876">Aplicaciones web (PWA)</translation>
 <translation id="7029809446516969842">Contraseñas</translation>
-<translation id="924029461438529367">Mostrar sugerencias de búsqueda</translation>
-<translation id="3128251601544028053">Cuando escribe en la barra de direcciones o en el cuadro de búsqueda, iBrowe envía lo escrito a su motor de búsqueda predeterminado para obtener mejores sugerencias. Esta función no está disponible en las ventanas privadas.</translation>
+<translation id="6011308810877101166">Mejorar las sugerencias de búsqueda</translation>
+<translation id="2332576387809612040">Cuando está activado, iBrowe envía lo que escribes en la barra de direcciones o en el cuadro de búsqueda a tu motor de búsqueda predeterminado para obtener mejores sugerencias. Cuando está desactivado, iBrowe sólo muestra las sugerencias generadas en tu dispositivo. Siempre está desactivado en las ventanas privadas.</translation>
 <translation id="6285118765755298263">Indexar otros motores de búsqueda</translation>
 <translation id="919715748352669592">Indexa automáticamente los sitios web que siguen las especificaciones OpenSearch.</translation>
 <translation id="5522403133543437426">Motor de búsqueda utilizado en la barra de direcciones.</translation>
@@ -643,7 +665,6 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="188228077840632890">AdGuard es una extensión Manifest V2 que ofrece bloqueo de anuncios, opciones de control parental e integración con otros servicios de AdGuard.</translation>
 <translation id="8137559199583651773">Administrar extensiones</translation>
 <translation id="7013485839273047434">Obtener más extensiones</translation>
-<translation id="5840822070878669614">Abrir Tienda Web</translation>
 <translation id="4954512758656527938">Cartera predeterminada de Ethereum</translation>
 <translation id="7701023802820268122">Cartera predeterminada de Solana</translation>
 <translation id="8488282162676695335">iBrowe Wallet</translation>
@@ -662,8 +683,12 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="856371974127598760">Redes de carteras</translation>
 <translation id="5975930666279943472">Borrar información sobre transacciones y valores de seguridad ("nonce") de la cartera</translation>
 <translation id="5693968582510626466">Borrar transacciones puede ser útil para los desarrolladores o cuando se borra el estado en un servidor local</translation>
-<translation id="2326850911705720398">Restablecer y borrar los datos de la cartera</translation>
+<translation id="6171369470447621882">Restablecer el estado de sincronización de Zcash</translation>
+<translation id="6705112675071480687">Restablece el progreso de sincronización Zcash para todas las cuentas blindadas</translation>
+<translation id="2012093487873597892">¿Estás seguro de que quieres restablecer el estado de sincronización de Zcash? El progreso de la sincronización de todas las cuentas blindadas se cancelará. Escribe "<ph name="CONFIRMATION_PHRASE"/>" para confirmar.</translation>
+<translation id="5031551083187285762">Se ha restablecido el estado de sincronización para las cuentas Zcash.</translation>
 <translation id="9216386092464743272">¿Seguro que quieres restablecer toda la información sobre transacciones y valores de seguridad ("nonce") de tu cartera? Esta opción suelen seleccionarla los desarrolladores que tienen un servidor de prueba local. Escribe "<ph name="CONFIRMATION_PHRASE"/>" para confirmar.</translation>
+<translation id="2326850911705720398">Restablecer y borrar los datos de la cartera</translation>
 <translation id="6369495274982305511">¿Seguro que quieres restablecer tu cartera? Si no hay guardada una copia de seguridad, podrías perder todos los datos de la cuenta (incluidos los fondos asociados a ella). Introduce "<ph name="CONFIRMATION_PHRASE"/>" para confirmar.</translation>
 <translation id="3752403403443723332">Se ha restablecido tu cartera.</translation>
 <translation id="594766067816395072">Se ha restablecido la información sobre las transacciones de tu cartera.</translation>
@@ -673,6 +698,7 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="1561541094377237745">Redes de Solana</translation>
 <translation id="7141438739990875547">Redes de Bitcoin</translation>
 <translation id="1077567586443625607">Redes de Zcash</translation>
+<translation id="1177180573354712438">Redes Cardano</translation>
 <translation id="3159419679550543837">Mostrar redes de prueba</translation>
 <translation id="3215569562674795548">Editar o añadir nueva red</translation>
 <translation id="4418993400653250511">El ID de la cadena</translation>
@@ -711,6 +737,8 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="2751872555001636931">Mostrar el icono de Leo en la barra lateral</translation>
 <translation id="8055509865174199683">Mostrar Leo en el menú contextual en sitios web</translation>
 <translation id="1529674267267221673">Leo aparecerá en el menú contextual cuando hagas clic con el botón derecho en un sitio web. Al hacerlo, Leo recibirá el contexto de la página web en cuestión.</translation>
+<translation id="5226020406479918122">Modo de enfoque de pestaña</translation>
+<translation id="3705539672403311123">Habilitar la organización de pestañas en la página de Búsqueda de pestañas. Cuando se abre, esto enviará automáticamente los títulos y orígenes de todas las pestañas que no son de incógnito a Leo para clasificarlas. <ph name="BEGIN_LINK"/>Saber más<ph name="END_LINK"/></translation>
 <translation id="8172263161008556851">Mostrar sugerencias en la conversación</translation>
 <translation id="5781842473834867765">Guardar mi historial de conversaciones</translation>
 <translation id="1082960401708055995">Desactivar el almacenamiento de conversaciones borrará permanentemente todas las conversaciones guardadas previamente. Esta acción no se puede deshacer.</translation>
@@ -718,6 +746,9 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="1335414530428321716">Si restableces el asistente Leo, tendrás que habilitarIo de nuevo para poder usarlo en el futuro y se borrará el historial de chats. Esto significa que se eliminarán todas las conversaciones que hayas mantenido con Leo AI de forma irreversible.</translation>
 <translation id="5574059574002819179">Ajustar sugerencias de autocompletar</translation>
 <translation id="7942415993090181327">Historial del chat</translation>
+<translation id="5385064007245738696">Acerca de Leo AI</translation>
+<translation id="5084498230659987096">iBrowe Leo ofrece chat con IA que prioriza la privacidad y otras interfaces con tecnología de IA en el navegador. Leo nunca aprende de tus datos ni los utiliza para entrenar modelos. Todas las solicitudes se proxy a través de un servidor anonimizado.</translation>
+<translation id="6458721693611638005">Lee más sobre cómo iBrowe protege el uso de la IA en la política de privacidad de Leo. <ph name="BEGIN_LINK"/>Saber más<ph name="END_LINK"/></translation>
 <translation id="614530507403667291">Modelo predeterminado para conversaciones nuevas</translation>
 <translation id="8826914609353373601">Gestionar suscripción Premium</translation>
 <translation id="235457946228076038">Use su propio modelo</translation>
@@ -728,6 +759,8 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="3553035516792776805">Nombre de solicitud de modelo</translation>
 <translation id="7634775528597575156">Terminal de servidor</translation>
 <translation id="6374563306438145841">Clave de API</translation>
+<translation id="3295756655687327124">Soporte de visión</translation>
+<translation id="1415432774589088566">Si este modelo toma una imagen como entrada, p.ej. llama 3.2b visión</translation>
 <translation id="8008271349880309090">El nombre del modelo tal y como aparece en el menú de selección de modelos</translation>
 <translation id="1355326130503900056">El nombre del modelo tal y como debe aparecer en la solicitud al marco de servicio, es decir, phi-3. Cabe recalcar que si este nombre no coincide exactamente con el que espera el marco servidor, la integración no se llevará a cabo.</translation>
 <translation id="3213787232304349732">La URL en la que su marco servidor atiende peticiones. Si no estás seguro, consulta la documentación del marco servidor. Por ejemplo, para Ollama, es siempre http://localhost:11434/v1/chat/completions</translation>
@@ -745,7 +778,7 @@ Comprueba que un dispositivo tuyo haya generado estas palabras clave.
 <translation id="7265212806651512211">No ha vinculado aún ningún modelo.</translation>
 <translation id="7304802428852949897">Sus modelos</translation>
 <translation id="7435587476558117990">Vincule su LLM autohospedado u hospedado en un tercero con Leo y úselo en el mismo navegador.</translation>
-<translation id="1381050642750209119">Use cualquier marco compatible con los protocolos de chat de OpenAI (como, por ejemplo, Ollama).</translation>
+<translation id="8137606697798069075">Utiliza cualquier marco compatible con los protocolos de chat OpenAI, como Ollama. <ph name="BEGIN_LINK"/>Más información<ph name="END_LINK"/></translation>
 <translation id="2642905648178380593">Guardar modelo</translation>
 <translation id="6304169450064541679">Indicación del sistema</translation>
 <translation id="3081947790648024460">Instrucciones personalizadas y/o contexto dado al modelo para guiar sus respuestas en una dirección o estilo específicos. Utiliza %datetime% donde quieras que se inserte la fecha y hora actuales.</translation>

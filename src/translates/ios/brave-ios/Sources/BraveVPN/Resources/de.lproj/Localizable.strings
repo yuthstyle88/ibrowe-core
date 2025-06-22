@@ -7,25 +7,25 @@
 /* Title on top the list of available servers */
 "vpn.availableServerTitle" = "VERFÜGBARE SERVER";
 
-/* Button text to buy iBrowe VPN */
+/* Button text to buy Brave VPN */
 "vpn.buyButton" = "Kaufen";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxDevicesProtect" = "Schutz von 5 Geräten mit 1 Abonnement";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxGeoLocation" = "Geo-Standort/Land auswählen";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
-"vpn.checkboxNoIPLog" = "Keine Protokollierung Ihrer Aktivitäten durch iBrowe";
+/* Text for a checkbox to present the user benefits for using Brave VPN */
+"vpn.checkboxNoIPLog" = "Keine Protokollierung deiner Aktivitäten durch iBrowe";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxProtectYourDevices" = "Schütze jede App und dein gesamtes Gerät";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxSaferWifi" = "Mehr Sicherheit in häuslichen oder öffentlichen WLAN-Netzwerken";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxSpeedFast" = "Hohe Geschwindigkeiten von bis zu 100 Mbit/s";
 
 /* Text indicating how many cities is used for that country used as Ex: '1 City' */
@@ -80,7 +80,7 @@
 "vpn.contactFormIssueSlowConnection" = "Langsame Verbindung";
 
 /* Website problem for contact form issue field. */
-"vpn.contactFormIssueWebsiteProblems" = "Die Webseite funktioniert nicht";
+"vpn.contactFormIssueWebsiteProblems" = "Die Website funktioniert nicht";
 
 /* VPN logs field for customer support contact form. */
 "vpn.contactFormLogs" = "Fehlerprotokolle";
@@ -103,7 +103,7 @@
 /* Title for contact form email. */
 "vpn.contactFormTitle" = "Problem mit iBrowe Firewall + VPN";
 
-/* Button text to enable iBrowe VPN */
+/* Button text to enable Brave VPN */
 "vpn.enableButton" = "Aktivieren";
 
 /* Used in context: All plans include a 'free 7-day trial'! */
@@ -133,7 +133,7 @@
 /* Title for screen to install the VPN. */
 "vpn.installTitle" = "VPN installieren";
 
-/* Button text to try free iBrowe VPN */
+/* Button text to try free Brave VPN */
 "vpn.learnMore" = "7-tägige kostenlose Testversion starten";
 
 /* Used in context: 'Monthly subscription, (it) renews monthly' */
@@ -148,7 +148,7 @@
 /* Text indicating how many server is used for that region used as Ex: '2 Servers' */
 "vpn.multipleServerCountTitle" = "%ld Server";
 
-/* The text that briefly explains how iBrowe VPN subscription is going to be charged and managed. */
+/* The text that briefly explains how Brave VPN subscription is going to be charged and managed. */
 "vpn.paywallDisclaimer" = "Abonnements werden über Ihr Apple-Konto abgerechnet. Wenn dir eine kostenlose Testversion angeboten wurde, verfällt deren nicht genutzter Teil beim Kauf eines Abonnements.\n\nDein Abonnement verlängert sich automatisch, wenn du es nicht mindestens 24 Stunden vor Ende des aktuellen Zeitraums kündigst.\n\nDu kannst deine Abonnements in den Einstellungen verwalten.\n\nDurch die Verwendung von iBrowe stimmst du den Nutzungsbedingungen und den Datenschutzbestimmungen zu.";
 
 /* The text which will be used to indicate period of payments like 10 / month */
@@ -278,7 +278,7 @@
 "vpn.settingsViewReceipt" = "App-Store-Beleg anzeigen";
 
 /* The title of the toggle in settings that disconnects the internet connection, when not connected to the VPN. Emergency Shutoff, Kill Switch, Safety Switch, etc. */
-"vpn.settingsVPNKillSwitchDescription" = "Wenn diese Funktion aktiviert ist, wird dein Gerät bei einem unerwarteten Abbruch der VPN-Verbindung automatisch vom Internet getrennt, um IP-Adressen- und Datenlecks zu verhindern. [Mehr erfahren]%@)";
+"vpn.settingsVPNKillSwitchDescription" = "Wenn aktiviert, wird dein Gerät automatisch vom Internet getrennt, falls deine VPN-Verbindung unerwartet abbricht, um IP-Adressen- und Datenlecks zu verhindern. [Mehr erfahren](%@)";
 
 /* The title of the toggle in settings that disconnects the internet connection, when not connected to the VPN. Emergency Shutoff, Kill Switch, Safety Switch, etc. */
 "vpn.settingsVPNKillSwitchTitle" = "Kill Switch einschalten";
@@ -293,7 +293,7 @@
 "vpn.vpnActionUpdatePaymentMethodSettingsText" = "Zahlungsmethode aktualisieren";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationBody" = "Auch im Hintergrund schützt iBrowe dichweiter.";
+"vpn.vpnBackgroundNotificationBody" = "Auch im Hintergrund schützt iBrowe dich weiter.";
 
 /* Notification title to tell user that the vpn is turned on even in background */
 "vpn.vpnBackgroundNotificationTitle" = "iBrowe Firewall + VPN ist AN";
@@ -311,7 +311,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "Fehler";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "Für die Nutzung von iBrowe Firewall + VPN muss ein VPN-Profil auf Ihrem Gerät installiert sein.";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "Für die Nutzung von iBrowe Firewall + VPN muss ein VPN-Profil auf deinem Gerät installiert sein.";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "Zugriff verweigert";
@@ -361,6 +361,6 @@
 /* It's like when there's few subscription plans, and one plan has the best value to price ratio, so this label says next to that plan: '(plan) - BEST VALUE' */
 "vpn.yearlySubDisclaimer" = "Bestes Angebot";
 
-/* One year lenght vpn subcription */
+/* One year length vpn subcription */
 "vpn.yearlySubTitle" = "Ein Jahr";
 

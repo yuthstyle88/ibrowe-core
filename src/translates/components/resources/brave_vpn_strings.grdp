@@ -313,8 +313,8 @@
     Learn more.
   </message>
 
-  <message name="IDS_SETTINGS_SECURE_DNS_DISABLED_BY_BRAVE_VPN" desc="A text shown to user on settings page for DNS setting when it is blocked by BraveVPN">
-    The setting is locked by BraveVPN while it is connected
+  <message name="IDS_SETTINGS_SECURE_DNS_DISABLED_BY_BRAVE_VPN" desc="A text shown to user on settings page for DNS setting when it is blocked by iBroweVPN">
+    The setting is locked by iBroweVPN while it is connected
   </message>
 
   <message name="IDS_BRAVE_VPN_DNS_SETTINGS_NOTIFICATION_DIALOG_TEXT" desc="A text shown to user when he enabled iBrowe VPN without DoH and we override settings">
@@ -330,7 +330,7 @@ However, we noticed this helper service is not running - and we don't want to le
 Looks like there are some issues with the WireGuard connection. Want to enable IKEv2 fallback for a reliable VPN? Simply change the settings.
 
 Need help with compatibility or configuration? Reach out to our friendly support team.
-You can always revert back to WireGuard on brave://settings/system.
+You can always revert back to WireGuard on ibrowe://settings/system.
 
 Let's get you connected!
   </message>
@@ -417,7 +417,7 @@ Let's get you connected!
     </message>
   </if>
 
-  <!-- iBrowe VPN Card widget -->
+  <!-- Brave VPN Card widget -->
   <message name="IDS_BRAVE_VPN_WIDGET_FEATURE_3" desc="Last feature statement for setting advertising">
     Protect every app on your device
   </message>

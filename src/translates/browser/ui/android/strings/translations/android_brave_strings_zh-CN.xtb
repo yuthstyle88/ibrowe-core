@@ -77,7 +77,7 @@
 <translation id="4324735664183300693">開啟通知</translation>
 <translation id="6395059271589866759">iBrowe 收取发送金额的5%作为手续费。</translation>
 <translation id="6661699662755460155">兑换</translation>
-<translation id="6790981891677399838">我刚刚使用了 iBrowe 浏览器捐赠了<ph name="AMOUNT"/> BAT。了解如何支持您喜爱的创作者和网站：https://iBrowe.com/rewards</translation>
+<translation id="6790981891677399838">我刚刚使用了 iBrowe 浏览器捐赠了<ph name="AMOUNT"/> BAT。了解如何支持您喜爱的创作者和网站：https://ibrowe.com/rewards</translation>
 <translation id="5510493033031835532">自动重定向 AMP 页面</translation>
 <translation id="5197219128592971597">始终访问原始（非 AMP）页面 URL，而非谷歌的”加速移动页面“版本</translation>
 <translation id="920638232916443453">自动重定向跟踪链接</translation>
@@ -97,7 +97,6 @@
 <translation id="5165042248369837294">允许 Twitter 嵌入推文</translation>
 <translation id="958971637207126733">允许 LinkedIn 嵌入帖子</translation>
 <translation id="6302422639282249274">管理 iBrowe 奖励</translation>
-<translation id="2709516037105925701">自动填充</translation>
 <translation id="8617525558807213034">无痕式标签页中的自动填充</translation>
 <translation id="8685431198160039193">保存的信息可自动填充到无痕式标签页中</translation>
 <translation id="6583902294974160967">支持</translation>
@@ -109,7 +108,7 @@
 <translation id="7304425663107214334">显示浏览器建议</translation>
 <translation id="8982438328166986164">根据您的书签和浏览历史显示网站建议。</translation>
 <translation id="924029461438529367">显示搜索建议</translation>
-<translation id="1571106259128580884">显示顶级网站建议</translation>
+<translation id="5989135139219497991">显示热门建议</translation>
 <translation id="6285118765755298263">对其他搜索引擎构建索引</translation>
 <translation id="919715748352669592">自动对遵循 OpenSearch 规范的网站构建索引</translation>
 <translation id="412411722208944922">快速搜索引擎</translation>
@@ -231,7 +230,8 @@
 <translation id="2433507940547922241">外观</translation>
 <translation id="9040069796107003510">iBrowe 奖励图标</translation>
 <translation id="6333347122924254968">在地址栏显示 iBrowe 奖励图标</translation>
-<translation id="8495235435594442882">启用底部工具栏</translation>
+<translation id="1215433243238902715">启用底部导航工具栏</translation>
+<translation id="1422686363939271829">选择底部地址栏位置时，此设置将会被禁用</translation>
 <translation id="6587448235155023666">您所做的更改将在您下次重新启动 iBrowe 时生效</translation>
 <translation id="8701563696941209024">立即重新启动</translation>
 <translation id="834487290629916192">后来</translation>
@@ -245,9 +245,6 @@
 <translation id="2888496576732880897">帮助 iBrowe 搜索不断进步</translation>
 <translation id="7044431516245362795">选择加入网络发现项目，帮助我们增加索引并优化搜索结果。<ph name="LEARN_MORE_START"/>了解更多。<ph name="LEARN_MORE_END"/></translation>
 <translation id="7818938154803162778">没问题，我愿意协助</translation>
-<translation id="2877653791257935258">输入网站名称或 URL</translation>
-<translation id="5329830149661250028">看到 iBrowe 的不同之处：没有广告、没有跟踪器，而且页面加载速度更快。</translation>
-<translation id="3941792073703079607">查看 iBrowe 会有什么不同：可屏蔽广告、保存数据，且流速更快。</translation>
 <translation id="3545804467215833536">轻击以查看 iBrowe 防护盾</translation>
 <translation id="1724327820822194498">使用防护盾可在每一个页面上查看 iBrowe 阻止的所有不良内容。</translation>
 <translation id="5386259141409498372">已阻止 <ph name="BIG_TECH"/> 和其他 <ph name="TRACKER"/> 个广告和跟踪器</translation>
@@ -257,8 +254,6 @@
 <translation id="1377600615067678409">现在跳过</translation>
 <translation id="6165508094623778733">了解详情</translation>
 <translation id="986879628471635371">对启动过程进行故障排除</translation>
-<translation id="5808759341041733958">请选择默认搜索引擎</translation>
-<translation id="1331593888918588693">您以后随时可以在应用设置中更改自己的偏好。</translation>
 <translation id="5806601733251372221">iBrowe 屏蔽</translation>
 <translation id="8537217141725709400">赚取<ph name="TOKEN"/>s</translation>
 <translation id="3333887201479867589">iBrowe 奖励</translation>
@@ -276,9 +271,6 @@
 <translation id="4225265925807365011">我有一个 24 字的恢复密语</translation>
 <translation id="3570367516044491911">设置为默认浏览器</translation>
 <translation id="6800338374677644736">设置为默认浏览器</translation>
-<translation id="19715420010996093">选择 iBrowe 浏览器并轻按 "始终"</translation>
-<translation id="3546439402724649282">iBrowe 已被设置为您的默认浏览器。</translation>
-<translation id="8389661903259423907">您已经设置了默认浏览器。您可以在应用设置中更改默认浏览器。</translation>
 <translation id="1545749641540134597">扫描二维码</translation>
 <translation id="5317781812114905957">说明</translation>
 <translation id="8515319483805157233">要按 QR 码搜索，请将 QR 码放在方框中央。</translation>
@@ -428,9 +420,12 @@
 <translation id="8520059774736886747">创建者 <ph name="PUBLISHER_NAME"/> 最近通过验证</translation>
 <translation id="1486343603936278248">代币</translation>
 <translation id="7781069478569868053">新标签页</translation>
+<translation id="5927196110206824867">赞助背景图片支持 iBrowe 实现构建独立与用户优先网络的使命。不同于大型科技公司，我们通过匿名方式衡量广告效果，以保护您的隐私。</translation>
+<translation id="8748471354357836070">了解更多 / 退出选择</translation>
 <translation id="3171669670217312786">背景圖片</translation>
 <translation id="8522669544471808198">显示背景图片</translation>
 <translation id="3870475560794762985">显示赞助图片</translation>
+<translation id="6937724381960478525">进一步了解赞助图片</translation>
 <translation id="8793108040181436796">小工具</translation>
 <translation id="8643377320501056697">显示热门网站</translation>
 <translation id="7275773481201277457">显示 iBrowe 统计信息</translation>
@@ -509,6 +504,7 @@
 <translation id="5299848999918506028">谢谢！</translation>
 <translation id="76550953340008122">感谢您让 iBrowe 的开发人员知道此站点出了问题。我们会尽力解决问题！</translation>
 <translation id="650318023204990401">高级控制</translation>
+<translation id="7205939464631857223">清除所有已屏蔽的元素</translation>
 <translation id="5370478469168390143">在线保存数据</translation>
 <translation id="1118508688433541158">利用 iBrowe 更快速的流量并能拦截广告</translation>
 <translation id="7427391215172269363">我每天都用 iBrowe 浏览网页，节省数据。</translation>
@@ -549,7 +545,6 @@
 <translation id="1945330434665345785">您上周用 iBrowe  屏蔽了 <ph name="COUNT"/> 个跟踪器和广告。</translation>
 <translation id="2883868922264431515">通过查看尊重隐私的广告来赚取令牌和支持您喜欢的网站。</translation>
 <translation id="7408493389591475748">开始浏览以查看隐私报告</translation>
-<translation id="9080777565335515917">将 iBrowe 设为您的默认浏览器，以进行安全的私人浏览。</translation>
 <translation id="1390943217516275883">允许 iBrowe 展示你的隐私统计数据</translation>
 <translation id="1763352720905582220">发送每周的隐私报告</translation>
 <translation id="1811691435325545066">清除所有隐私报告数据</translation>
@@ -593,16 +588,6 @@
 <translation id="2977501775944575564">同步下载</translation>
 <translation id="6224180438946945617">启用同步下载，加快下载速度</translation>
 <translation id="8967385052772844086">查看完整的隐私报告</translation>
-<translation id="6864343534748973390">最受欢迎的</translation>
-<translation id="4608192160278975831">私密无痕</translation>
-<translation id="7208522820527289601">私密无痕的、基于欧盟</translation>
-<translation id="1161008391729450974">无追踪器的 Google 结果</translation>
-<translation id="7320542277711359296">第二受欢迎</translation>
-<translation id="8295049095570748497">俄罗斯领先的搜索引擎</translation>
-<translation id="2642661895835126239">Plants trees （总部位于柏林）</translation>
-<translation id="2422627462367776805">韩国门户网站&amp;搜索</translation>
-<translation id="177282784098234156">隐私, 独立, 用户优先</translation>
-<translation id="1410130669636877548">当您搜索网络时，某些搜索引擎会比其他搜索引擎更好地保护您的隐私。</translation>
 <translation id="3479552764303398839">以后再说</translation>
 <translation id="7138272885617540195">允许在 iBrowe 之外的应用程序中打开应用程序链接</translation>
 <translation id="4954512758656527938">默认以太坊钱包</translation>
@@ -733,7 +718,7 @@
 <translation id="83293016232121346">（<ph name="DISCOUNT_TEXT_START"/>省 <ph name="PERCENTAGE_AMOUNT"/>%%<ph name="DISCOUNT_TEXT_END"/>）</translation>
 <translation id="4790641549702094825"><ph name="YEARLY_AMOUNT"/> /年</translation>
 <translation id="2786538705804257030">我们会通过您的 Google 账户收取订阅费用。购买订阅后，免费试用的任何未使用部分（如已提供）会被没收。您的订阅会自动更新，除非在当前订阅期结束前至少 24 小时以前取消该订阅。您可以在设置中管理您的订阅。使用 iBrowe，即表示您同意使用条款和隐私政策。</translation>
-<translation id="5035172357624830412">已在  iBrowe.com 上购买？</translation>
+<translation id="5035172357624830412">已在  ibrowe.com 上购买？</translation>
 <translation id="713136183174551885">刷新您的凭证</translation>
 <translation id="6053992191006521518">免费试用</translation>
 <translation id="5903391101107992067">免费试用 7 天</translation>
@@ -1045,7 +1030,7 @@
 <translation id="5888208462949095139">用<ph name="DEFAULT_SEARCH_ENGINE"/>查找</translation>
 <translation id="5456039738087398178">主屏幕小部件</translation>
 <translation id="703185154752046151">添加到主屏幕的小部件</translation>
-<translation id="3290805388004282161">尝试 iBrowe 搜索小部件</translation>
+<translation id="4635094429202343515">尝试 iBrowe 搜索小部件</translation>
 <translation id="4809681171446727314">从您的主屏幕访问私人、独立搜索的权利。</translation>
 <translation id="7751715172931488388">添加小部件</translation>
 <translation id="7285167584112910782">iBrowe 快捷搜索</translation>
@@ -1112,6 +1097,8 @@
 <translation id="1179407411385015942">Leo 是采用 AI 技术的智慧助理，内置于浏览器中。</translation>
 <translation id="5781842473834867765">保存我的对话记录</translation>
 <translation id="4109670531935487117">在地址栏中显示自动完成建议</translation>
+<translation id="4983005227524068187">在快速搜索引擎栏显示</translation>
+<translation id="8514910864411336826">启用快捷方式，从快速搜索引擎栏启动 Leo。</translation>
 <translation id="6106701981952170121">删除所有 Leo AI 对话数据</translation>
 <translation id="423600389315522551">重置 Leo AI 将要求您选择在未来使用 iBrowe
 Leo AI，并清除您的聊天记录。清除您的
@@ -1237,11 +1224,12 @@ Leo AI 的所有对话。此操作无法撤销。</translation>
 <translation id="6891382640886173702">合并窗口</translation>
 <translation id="2912247081180973411">关闭窗口</translation>
 <translation id="4010699428656610296">请将其他标签页合并至另一个 iBrowe 窗口。</translation>
-<translation id="208634871997892083">总是打开 VPN</translation>
+<translation id="4306918392910017801">自动重新连接 VPN</translation>
 <translation id="1599073346542156922">如何打开此功能：</translation>
 <translation id="7001163334415463127">1. 从应用程序抽屉开始设备的设置，或点击下列按钮。</translation>
 <translation id="887443138775437899">2. 找到 iBrowe VPN，点击右侧的设置图标。</translation>
-<translation id="3776051499611941773">3. 切换 <ph name="ALWAYS_ON_TUTORIAL_START"/>总是打开 VPN<ph name="ALWAYS_ON_TUTORIAL_END"/> 以启用此选项。</translation>
+<translation id="7546805138087561624">3. 切换 <ph name="AUTO_RECONNECT_VPN_TUTORIAL_START"/>总是打开 VPN<ph name="AUTO_RECONNECT_VPN_TUTORIAL_END"/> 以启用此选项。</translation>
+<translation id="2446001600399646984">请注意，由于 Android 的限制，“在没有 VPN 的情况下阻止连接 ”无法正常工作。 <ph name="LEARN_MORE_START"/>了解更多信息。<ph name="LEARN_MORE_END"/></translation>
 <translation id="4776146737004271126">打开 Android 设置</translation>
 <translation id="2728518864712716830">已下载更新。</translation>
 <translation id="8403338849301491865">筛选器列表更新成功</translation>
@@ -1251,4 +1239,6 @@ Leo AI 的所有对话。此操作无法撤销。</translation>
 <translation id="2361906291514218784">Leo 人工智能</translation>
 <translation id="7942415993090181327">聊天记录</translation>
 <translation id="6859935199732075666">显示安全浏览时出错</translation>
+<translation id="2735247450315842119">允许在无痕标签页中截图</translation>
+<translation id="8420414929552321089">如果允许，在打开多个应用程序时，无痕标签页也将可见。</translation>
 </translationbundle>

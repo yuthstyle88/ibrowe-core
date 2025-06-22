@@ -7,11 +7,11 @@
 <translation id="8507663778530179003">Vis Alle bogmærker-knappen</translation>
 <translation id="9018648632047670921">Vis alle bogmærker-knap</translation>
 <translation id="7630214457764713113">Kopiér rent link</translation>
-<translation id="7973394300052703468">Nyt &amp;inkognitovindue</translation>
+<translation id="7973394300052703468">Nyt &amp;privat vindue</translation>
 <translation id="4615489450165434530">Rapporter en side der ikke virker ordentligt</translation>
 <translation id="8097438084542431276">Kopiér rent link</translation>
 <translation id="4678672101289648246">Kun på siden med nye faneblad</translation>
-<translation id="6516243500644829484">Nyt &amp;inkognito-vindue</translation>
+<translation id="6516243500644829484">Nyt &amp;privat vindue</translation>
 <translation id="1209739344687072997">Rapporter en side der ikke virker</translation>
 <translation id="8294286161128352783">Kun på siden med nye faneblad</translation>
 <translation id="6406506848690869874">Synkroniser</translation>
@@ -52,6 +52,12 @@ Eller skift senere på<ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="4450893287417543264">Vis ikke igen</translation>
 <translation id="4595286989346610620">Kontroller oplysninger</translation>
 <translation id="8324318899000695659">Blokér elementer</translation>
+<translation id="3828310068250853121">Vælg det element, du vil blokere</translation>
+<translation id="2577286987423083872">Bloker elementer</translation>
+<translation id="3211174446914979436">Administrer filtre</translation>
+<translation id="3108584651298176909">Vis regler</translation>
+<translation id="5156986655891520787">Skjul regler</translation>
+<translation id="7658239707568436148">Annuller</translation>
 <translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">Åbn ved at bruge .onion-adresse: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">Tving indsæt</translation>
@@ -94,7 +100,6 @@ vindue med Tor</translation>
 <translation id="8117247596084706514">Dette websted har anmodet om din <ph name="PART_ONE"/>præcise placering<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Få mere at vide<ph name="PART_TWO_END"/></translation>
 <translation id="5486652646100591203">Dette websted har anmodet om din <ph name="PART_ONE"/>præcise placering<ph name="PART_ONE_END"/>. iBrowe vil kun kunne oplyse <ph name="PART_TWO"/>generelle placeringsdata<ph name="PART_TWO_END"/>, fordi<ph name="PART_THREE"/>placeringstjenester<ph name="PART_THREE_END"/> er deaktiveret. <ph name="PART_FOUR"/>Få mere at vide<ph name="PART_FOUR_END"/></translation>
 <translation id="8915916167043355778">Luk alle</translation>
-<translation id="7658239707568436148">Annuller</translation>
 <translation id="4870911314065352661">Luk alle faner?</translation>
 <translation id="7551864359422178684">Du har <ph name="NUMBER_OF_TABS"/> faner åbne i dette vindue.</translation>
 <translation id="2571596981920752023"><ph name="NUMBER_OF_TABS"/> faner</translation>
@@ -134,6 +139,7 @@ vindue med Tor</translation>
 <translation id="3447730462826640312">Du behøver ikke klikke for at tjene penge, men klik endeligt, hvis du er interesseret!</translation>
 <translation id="5253166205743627564">Tak, fordi du støtter iBrowe Search ved at klikke på en privat annonce. I modsætning til Big Tech måler vi annoncernes resultater anonymt for at beskytte dit privatliv.</translation>
 <translation id="8748471354357836070">Få mere at vide / fravalgsmuligheder</translation>
+<translation id="5927196110206824867">Sponsorerede baggrundsbilleder støtter iBrowes mission om at opbygge et uafhængigt, brugerorienteret internet. Og i modsætning til Big Tech måler vi annoncepræstationer anonymt for at beskytte dit privatliv.</translation>
 <translation id="4174337572777167894">Web Discovery-projekt</translation>
 <translation id="8659271182272561965">Bidrag med anonym søge- &amp; browsingdata for at forbedre iBrowe Search.</translation>
 <translation id="1516554614404600536">iBrowe Tooltip</translation>
@@ -318,6 +324,18 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="8813509417421129632">En indlejret side på <ph name="SITE"/> vil gerne gemme</translation>
 <translation id="7700010743463174379">Denne side vil gerne gemme</translation>
 <translation id="6774238875569752630">En indlejret side på denne side vil gerne gemme</translation>
+<translation id="1233913566967531780">Fanefokus</translation>
+<translation id="4034992002364254340">Saml alle relaterede faner i et nyt vindue</translation>
+<translation id="8012125596344613514">Foreslåede emner</translation>
+<translation id="7529120186020617755">Indtast et emne, der skal fokuseres på ...</translation>
+<translation id="6847541693235449912">Gå</translation>
+<translation id="2079545284768500474">Fortryd</translation>
+<translation id="1533980864758658574">Nyt vindue oprettet til <ph name="TOPIC"/></translation>
+<translation id="7985042437720138349">Denne funktion sender data om dine åbne faner til Leo, iBrowes AI-drevne browserassistent.</translation>
+<translation id="6165508094623778733">Lær mere</translation>
+<translation id="7557539689487606886">Vælg Premium</translation>
+<translation id="1035309871698658326">Når den åbnes, sender den automatisk titlerne og oprindelsen på alle ikke-private faner til Leo for at klassificere dem.</translation>
+<translation id="3435896845095436175">Aktivér</translation>
 <translation id="9156965752763025780">Dine ændringer træder i kraft, næste gang du genstarter iBrowe.</translation>
 <translation id="7179921470347911571">Genstart nu</translation>
 <translation id="1426410128494586442">Ja</translation>
@@ -334,6 +352,7 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="1336940801687497203">Samme som Windows</translation>
 <translation id="8721331068159819483">Samme som macOS</translation>
 <translation id="4171684937791228083">Vis altid værktøjslinjen ved fuld skærm</translation>
+<translation id="5840822070878669614">Åbn iBrowe Webshop</translation>
 <translation id="1692470335103807198">Få flere temaer</translation>
 <translation id="2906510232093002459">iBrowe standardbilleder</translation>
 <translation id="8000020256436988724">Værktøjslinje</translation>
@@ -353,7 +372,7 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="2396127686705429331">Vis bogmærkeknap</translation>
 <translation id="2814998458708016836">Brug bred adresselinje</translation>
 <translation id="4109670531935487117">Vis autofuldførelsesforslag i adressefeltet</translation>
-<translation id="2858138569776157458">Topwebsites</translation>
+<translation id="3405901785709583668">Mest populære forslag</translation>
 <translation id="7859704718976024901">Browsinghistorik</translation>
 <translation id="8820817407110198400">Bogmærker</translation>
 <translation id="4144468798716165316">Lynkommandoer</translation>
@@ -461,8 +480,10 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="863171915776379000">Tillad Facebook-logins og indlejrede opslag</translation>
 <translation id="7791141927430186653">Tillad X (tidligere Twitter) indlejrede tweets</translation>
 <translation id="958971637207126733">Tillad indlejrede LinkedIn-opslag</translation>
+<translation id="1244912498725894944">Nogle cookie-indstillinger styres af iBrowe Shields. Du kan se dem &lt;a href="/content/ibroweShields"&gt;her&lt;/a&gt;.</translation>
+<translation id="5352519841984162795">Denne indstilling styres af iBrowe Shields.</translation>
+<translation id="352287031024189516">Denne indstilling styres af Google Sign-in.</translation>
 <translation id="8792121506918889955">WebRTC IP-håndteringspolitik</translation>
-<translation id="6165508094623778733">Lær mere</translation>
 <translation id="8798099450830957504">Standard</translation>
 <translation id="1822560017823072927">Standard offentlige og private grænseflader</translation>
 <translation id="5825943197137337319">Kun standard offentlig grænseflade</translation>
@@ -498,6 +519,7 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="1389601498324964367">Kvotastyret lagerplads</translation>
 <translation id="814018970995616154">Kontrollerer URL'er med en liste over usikre websteder, der er gemt i iBrowe.</translation>
 <translation id="1144810021918451336">Beskytter dig ikke mod farlige websteder, downloads og udvidelser.</translation>
+<translation id="4905744245455598930">Beskytter mod hjemmesider, downloads og udvidelser, der er kendt for at være farlige.</translation>
 <translation id="5570470519803062774">Indstillinger for side og skjold</translation>
 <translation id="410351446219883937">Automatisk afspilning</translation>
 <translation id="3512883292907992390">Tillad automatisk videoafspilning på sider</translation>
@@ -589,8 +611,8 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="4908081302669157000">Telefonnumre, e-mailadresser og adresser</translation>
 <translation id="294985549514492876">Web-apps (PWAs)</translation>
 <translation id="7029809446516969842">Adgangskoder</translation>
-<translation id="924029461438529367">Vis søgeforslag</translation>
-<translation id="3128251601544028053">Når du skriver noget i adresselinjen eller søgefeltet, sender iBrowe de indtastede værdier til din standardsøgemaskine for at få bedre forslag. Dette er slået fra i privat-tilstand.</translation>
+<translation id="6011308810877101166">Få forbedrede søgeforslag</translation>
+<translation id="2332576387809612040">Når det er slået til, sender iBrowe det, du skriver i adressefeltet eller søgefeltet, til din standardsøgemaskine for at få bedre forslag. Når det er slået fra, viser iBrowe kun forslag, der er genereret på din enhed. Dette er altid slået fra i private vinduer.</translation>
 <translation id="6285118765755298263">Indeksér andre søgemaskiner</translation>
 <translation id="919715748352669592">Indekserer automatisk websteder, der følger Open Source-specifikationer.</translation>
 <translation id="5522403133543437426">Søgemaskine brugt i adresselinjen.</translation>
@@ -644,7 +666,6 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="188228077840632890">AdGuard er en Manifest V2-udvidelse, der tilbyder annonceblokering, forældrekontrol-muligheder og integration med andre AdGuard-tjenester.</translation>
 <translation id="8137559199583651773">Administrer udvidelser</translation>
 <translation id="7013485839273047434">Hent flere extensions</translation>
-<translation id="5840822070878669614">Åbn iBrowe Webshop</translation>
 <translation id="4954512758656527938">Standard Ethereum-wallet</translation>
 <translation id="7701023802820268122">Standard Solana-wallet</translation>
 <translation id="8488282162676695335">iBrowe-wallet</translation>
@@ -663,8 +684,12 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="856371974127598760">Wallet-netværk</translation>
 <translation id="5975930666279943472">Ryd tegnebogstransaktioner og nonce-oplysninger</translation>
 <translation id="5693968582510626466">At rydde transaktioner kan være nyttigt for udviklere eller når status ryddes på en lokal server</translation>
-<translation id="2326850911705720398">Nulstil og ryd tegnebogsdata</translation>
+<translation id="6171369470447621882">Nulstil Zcash-synkroniseringsstatus</translation>
+<translation id="6705112675071480687">Nulstiller Zcash-synkroniseringsforløbet for alle afskærmede konti</translation>
+<translation id="2012093487873597892">Er du sikker på, at du vil nulstille Zcash-synkroniseringsstatus? Synkroniseringsforløbet for alle afskærmede konti vil blive droppet. Skriv "<ph name="CONFIRMATION_PHRASE"/>" for at bekræfte.</translation>
+<translation id="5031551083187285762">Din synkroniseringsstatus for Zcash-konti blev nulstillet.</translation>
 <translation id="9216386092464743272">Er du sikker på, at du vil nulstille alle dine tegnebogstransaktioner og nonce-oplysninger? Dette bruges mest af udviklere, der arbejder på en lokal testserver. Tast "<ph name="CONFIRMATION_PHRASE"/>" for at bekræfte.</translation>
+<translation id="2326850911705720398">Nulstil og ryd tegnebogsdata</translation>
 <translation id="6369495274982305511">Er du sikker på, du vil nulstille din Wallet? Hvis din Wallet ikke har en backup, vil nulstillingen slette al din kontodata (inklusive alle tilknyttede milder). Skriv "<ph name="CONFIRMATION_PHRASE"/>" for at bekræfte.</translation>
 <translation id="3752403403443723332">Din tegnebog  blev nulstillet.</translation>
 <translation id="594766067816395072">Oplysninger om dine tegnebogstransaktioner blev nulstillet.</translation>
@@ -674,6 +699,7 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="1561541094377237745">Solana-netværker</translation>
 <translation id="7141438739990875547">Bitcoin-netværker</translation>
 <translation id="1077567586443625607">Zcash-netværker</translation>
+<translation id="1177180573354712438">Cardano-netværk</translation>
 <translation id="3159419679550543837">Vis testnetværk</translation>
 <translation id="3215569562674795548">Redigér eller tilføj et netværk</translation>
 <translation id="4418993400653250511">Kædens id</translation>
@@ -712,6 +738,8 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 <translation id="2751872555001636931">Vis Leo-ikon i sidebjælken</translation>
 <translation id="8055509865174199683">Vis Leo i kontekstmenuen på hjemmesider</translation>
 <translation id="1529674267267221673">Leo vil blive vist i kontekstmenuen, når du højreklikker på en hjemmeside. Dette vil sende konteksten fra den aktuelle hjemmeside til Leo.</translation>
+<translation id="5226020406479918122">Fanefokus-tilstand</translation>
+<translation id="3705539672403311123">Aktivér organisering af faner på siden Fanesøgning. Når den åbnes, sender den automatisk titlerne og oprindelserne på alle ikke-private faner til Leo for at klassificere dem. <ph name="BEGIN_LINK"/>Få mere at vide<ph name="END_LINK"/></translation>
 <translation id="8172263161008556851">Vis anbefalede forespørgsler i samtalen</translation>
 <translation id="5781842473834867765">Gem min samtalehistorik</translation>
 <translation id="1082960401708055995">Hvis du deaktiverer lagring af samtaler, slettes alle tidligere gemte samtaler permanent. Denne handling kan ikke fortrydes.</translation>
@@ -720,6 +748,9 @@ DU kan læse <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>instruktioner om hvordan 
 Leo AI fremover, og denne handling sletter også din chathistorik. Hvis du sletter din chathistorik, slettes alle dine tidligere samtaler med iBrowe Leo AI. Denne handling kan ikke fortrydes.</translation>
 <translation id="5574059574002819179">Justér automatiske forslag</translation>
 <translation id="7942415993090181327">Chathistorik</translation>
+<translation id="5385064007245738696">Om Leo AI</translation>
+<translation id="5084498230659987096">iBrowe Leo leverer en AI-chat og andre AI-drevne grænseflader i browseren, der prioriterer privatlivets fred. Leo lærer aldrig af dine data eller bruger dem til modeltræning. Alle anmodninger sendes gennem en anonymiserende server.</translation>
+<translation id="6458721693611638005">Læs mere om, hvordan iBrowe beskytter din brug af AI i Leos privatlivspolitik. <ph name="BEGIN_LINK"/>Få mere at vide<ph name="END_LINK"/></translation>
 <translation id="614530507403667291">Standardmodel for nye samtaler</translation>
 <translation id="8826914609353373601">Administrer premium-abonnement</translation>
 <translation id="235457946228076038">Medbring din egen model</translation>
@@ -730,6 +761,8 @@ Leo AI fremover, og denne handling sletter også din chathistorik. Hvis du slett
 <translation id="3553035516792776805">Navn på modelanmodning</translation>
 <translation id="7634775528597575156">Serverslutpunkt</translation>
 <translation id="6374563306438145841">API-nøgle</translation>
+<translation id="3295756655687327124">Vision Support</translation>
+<translation id="1415432774589088566">Hvis denne model tager et billede som input, f.eks. llama 3.2b vision</translation>
 <translation id="8008271349880309090">Navnet på modellen, som det vil blive vist i menuen til valg af model</translation>
 <translation id="1355326130503900056">Navnet på modellen, som den skal vises i anmodningen til serverrammen, f.eks. phi-3 (bemærk, at hvis dette navn ikke passer præcist til det, der forventes af serveringsrammen, fungerer integrationen ikke).</translation>
 <translation id="3213787232304349732">Den URL, hvor dit serversystem lytter efter anmodninger. Hvis du ikke er sikker, så tjek dokumentationen for serversystemet. For Ollama er det f.eks. altid http://localhost:11434/v1/chat/completions</translation>
@@ -747,7 +780,7 @@ Leo AI fremover, og denne handling sletter også din chathistorik. Hvis du slett
 <translation id="7265212806651512211">Du har ikke tilsluttet en model endnu.</translation>
 <translation id="7304802428852949897">Dine modeller</translation>
 <translation id="7435587476558117990">Tilslut din selvhostede eller tredjeparts-hostede LLM til Leo, og brug dem i browseren.</translation>
-<translation id="1381050642750209119">Brug enhver OpenAI Chat Protocol-kompatibel ramme som Ollama.</translation>
+<translation id="8137606697798069075">Brug enhver OpenAI Chat Protocol-kompatibel model som Ollama. <ph name="BEGIN_LINK"/>Få mere at vide<ph name="END_LINK"/></translation>
 <translation id="2642905648178380593">Gem model</translation>
 <translation id="6304169450064541679">System-prompt</translation>
 <translation id="3081947790648024460">Brugerdefinerede instruktioner og/eller kontekst, der gives til modellen for at lede dens svar i en bestemt retning eller stil. Brug %datetime%, hvor du gerne vil have indsat den aktuelle dato og det aktuelle klokkeslæt.</translation>

@@ -2,22 +2,23 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="vi">
 <translation id="970556510921078939">Mở Trình quản lý mật khẩu của iBrowe rồi chuyển đến phần cài đặt. Chọn "Nhập" rồi thêm tệp CSV chứa các mật khẩu đã xuất của bạn.</translation>
-<translation id="1010225406377140704">Liên hệ với người gửi để yêu cầu đường liên kết mới</translation>
+<translation id="1010283278930414892">Không có mật khẩu nào được lưu trên thiết bị này</translation>
 <translation id="1011749477052068769">Chuyển đến đây</translation>
 <translation id="1014147525163127655">Không có khoá truy cập nào cho <ph name="ORIGIN"/> trên thiết bị này</translation>
 <translation id="1016498331642356377">Tìm kiếm nhanh bằng giọng nói. Để chỉnh sửa lối tắt này, hãy chạm và giữ.</translation>
-<translation id="1017104654974573432">Chọn vấn đề</translation>
 <translation id="2566435362010629810">iBrowe Dev</translation>
 <translation id="1028699632127661925">Đang gửi đến <ph name="DEVICE_NAME"/>...</translation>
 <translation id="103269572468856066">Đồng thời xóa dữ liệu khỏi các trang web và ứng dụng này?</translation>
 <translation id="1034259925032978114">Cửa sổ đang mở</translation>
 <translation id="1036348656032585052">Tắt</translation>
+<translation id="1045448422538531528">Thêm vào nhóm</translation>
 <translation id="1045899828449635435">Đồng thời xóa dữ liệu khỏi các trang web này?</translation>
+<translation id="1052842760770519282">Không sử dụng được một số mật khẩu của bạn</translation>
 <translation id="1058669287135776095">Bạn không có kết nối mạng. Hãy kiểm tra kết nối Internet rồi thử lại.</translation>
 <translation id="10614374240317010">Không bao giờ lưu</translation>
+<translation id="1070689840697074178">Bạn có thể tải tệp PDF xuống tại đây</translation>
 <translation id="107147699690128016">Nếu bạn thay đổi đuôi tệp, thì tệp có thể mở trong một ứng dụng khác và tiềm ẩn nguy cơ đối với thiết bị.</translation>
 <translation id="1080365971383768617">Mật khẩu trên tất cả thiết bị của bạn</translation>
-<translation id="1082920045291562218">Trang Chia sẻ kèm theo phản hồi về bảng tóm tắt đã đóng</translation>
 <translation id="1087176310396019910">Có thể là thông báo rác</translation>
 <translation id="1087799850623149508">Bạn có thể chạm và giữ để di chuyển thanh địa chỉ xuống dưới cùng</translation>
 <translation id="1089606299949659462">Đã hoàn tất quá trình xem xét!</translation>
@@ -37,6 +38,7 @@
 <translation id="1142732900304639782">Không đề xuất dịch những trang web này</translation>
 <translation id="1145536944570833626">Xóa dữ liệu hiện có.</translation>
 <translation id="7083341910267693582"><ph name="APP_NAME"/> sẽ mở trong iBrowe. Bằng việc tiếp tục, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của iBrowe<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của iBrowe và ChromeOS<ph name="END_LINK2"/>.</translation>
+<translation id="7443574521624544928">Bạn chưa lưu mật khẩu nào vào Trình quản lý mật khẩu của iBrowe.</translation>
 <translation id="115483310321669804">Sử dụng mật khẩu <ph name="PASSWORD"/></translation>
 <translation id="1173894706177603556">Đổi tên</translation>
 <translation id="7947699437047020219">iBrowe sẽ yêu cầu trang web dành cho thiết bị di động khi màn hình bị thu hẹp</translation>
@@ -55,13 +57,11 @@
 <translation id="1206892813135768548">Sao chép văn bản liên kết</translation>
 <translation id="1209206284964581585">Ẩn ngay bây giờ</translation>
 <translation id="1227058898775614466">Lịch sử di chuyển</translation>
-<translation id="1231733316453485619">Bật tính năng đồng bộ hóa?</translation>
 <translation id="123724288017357924">Tải lại trang hiện tại, bỏ qua nội dung được lưu trong bộ nhớ đệm</translation>
 <translation id="1239792311949352652">Chia sẻ nhanh trang này. Để chỉnh sửa lối tắt này, hãy chuyển đến phần Cài đặt.</translation>
 <translation id="1240288207750131269">Đang tải <ph name="LANG"/></translation>
 <translation id="124116460088058876">Ngôn ngữ khác</translation>
 <translation id="4078574862195461280">Mật khẩu của bạn sẽ bị xoá khỏi Trình quản lý mật khẩu của iBrowe trên <ph name="CHROME_CHANNEL"/>. Bạn sẽ giữ tệp mật khẩu mà bạn vừa tải xuống.</translation>
-<translation id="1242883863226959074">thiết bị</translation>
 <translation id="124678866338384709">Đóng thẻ hiện tại</translation>
 <translation id="1246905108078336582">Xóa nội dung đề xuất khỏi bảng nhớ tạm?</translation>
 <translation id="1996480094660735607">Hình tượng trưng của iBrowe: <ph name="DOODLE_DESCRIPTION"/></translation>
@@ -70,14 +70,15 @@
 <translation id="1269129608791067105">Bạn sẽ thấy nhật ký ở đây</translation>
 <translation id="1273937721055267968">Chặn <ph name="DOMAIN"/></translation>
 <translation id="1283039547216852943">Nhấn để mở rộng</translation>
-<translation id="194557235473047967">Bạn sẽ được yêu cầu đăng nhập vào Tài khoản iBrowe của mình</translation>
+<translation id="1289129165308566697">Xem nhật ký của bạn trên các thiết bị khác</translation>
 <translation id="129553762522093515">Các thẻ đã đóng gần đây</translation>
 <translation id="1298077576058087471">Tiết kiệm tới 60% dữ liệu, đọc tin tức hôm nay</translation>
 <translation id="1303339473099049190">Không tìm thấy mật khẩu đó. Hãy kiểm tra chính tả rồi thử lại.</translation>
 <translation id="1303507811548703290"><ph name="DOMAIN"/> – Gửi từ <ph name="DEVICE_NAME"/></translation>
+<translation id="130959219150156180">Chuyển đến trang tiếp theo trong Nhật ký</translation>
+<translation id="1318262688555255786">Chia sẻ đường liên kết đến trang web <ph name="PAGE_TITLE"/>. Nguồn: <ph name="PAGE_URL"/></translation>
 <translation id="1320912611264252795">Các thư mục của luồng lưu dấu trang đã mở trên toàn màn hình</translation>
 <translation id="1327257854815634930">Lịch sử di chuyển đang mở</translation>
-<translation id="1328235593824723509"><ph name="TAB_TITLE"/>, thẻ mới hoặc thẻ đã cập nhật</translation>
 <translation id="6773423637732432200">iBrowe không thể cập nhật. Tùy chọn khác</translation>
 <translation id="3169981355900570544">Phím tắt cho các tính năng của iBrowe</translation>
 <translation id="1333491156693005331">Đã kiểm tra gần đây</translation>
@@ -106,15 +107,12 @@
 <translation id="1407135791313364759">Mở tất cả</translation>
 <translation id="1409879593029778104">Đã ngăn tải xuống <ph name="FILE_NAME"/> do tệp này đã tồn tại.</translation>
 <translation id="3219606989239049572">Lưu dữ liệu vào Tài khoản iBrowe của bạn</translation>
-<translation id="1853026300647876496">Đang liên hệ với iBrowe. Quá trình này có thể mất ít phút…</translation>
 <translation id="1416550906796893042">Phiên bản ứng dụng</translation>
 <translation id="5171187478741797469">Khởi động lại iBrowe?</translation>
 <translation id="1428770807407000502">Tắt tính năng đồng bộ hoá?</translation>
 <translation id="1430915738399379752">In</translation>
 <translation id="1435593198351412143">Tự động mở tệp PDF</translation>
-<translation id="1436784010935106834">Đã xóa</translation>
 <translation id="1437543266176261764">Chạy trong <ph name="APP_NAME"/></translation>
-<translation id="1448147069872048656">Xác minh danh tính của bạn để đảm bảo bạn có thể truy cập vào tất cả mật khẩu trên thiết bị này</translation>
 <translation id="1448440926884431741">Sắp xếp các sản phẩm bạn theo dõi trong phần Dấu trang</translation>
 <translation id="1460751212339734034">Tiết kiệm thời gian, tối giản thao tác</translation>
 <translation id="5598889255595678761">Chọn ngôn ngữ cho iBrowe</translation>
@@ -128,6 +126,7 @@
 <translation id="1506061864768559482">Công cụ tìm kiếm</translation>
 <translation id="1513352483775369820">Dấu trang và lịch sử web</translation>
 <translation id="1513858653616922153">Xóa mật khẩu</translation>
+<translation id="1515901671075971249">Phím tắt điều hướng thẻ</translation>
 <translation id="1521774566618522728">Hoạt động hôm nay</translation>
 <translation id="5840742727909553422">Đã có phiên bản iBrowe mới</translation>
 <translation id="1540012742443808215">Thanh địa chỉ hiện đang ở trên cùng</translation>
@@ -135,19 +134,19 @@
 <translation id="3748360913454941567">Địa chỉ và phương thức thanh toán sẽ không được mã hoá. Nhật ký duyệt web trên iBrowe sẽ không đồng bộ hoá.
 Chỉ những người có cụm mật khẩu mới đọc được dữ liệu đã mã hoá của bạn. Cụm mật khẩu không được gửi tới iBrowe hay được iBrowe lưu trữ. Nếu bạn quên cụm mật khẩu hoặc muốn thay đổi chế độ cài đặt này, hãy <ph name="BEGIN_LINK"/>xoá dữ liệu iBrowe khỏi tài khoản của bạn<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Để quản lý Tài khoản iBrowe của bạn, hãy nhấn vào nút "Quản lý tài khoản"</translation>
-<translation id="154513667535157406">Nút Thích gửi phản hồi cho biết bạn thích nội dung tóm tắt này</translation>
 <translation id="1549000191223877751">Di chuyển đến cửa sổ khác</translation>
 <translation id="1705567146636171298">Cập nhật iBrowe</translation>
 <translation id="2509230690562869141">Giúp iBrowe trở nên hiệu quả hơn cho những ai đang dùng iBrowe giống bạn</translation>
 <translation id="1568636008098739136">Nghe trang này. Để chỉnh sửa lối tắt này, hãy chạm và giữ lối tắt.</translation>
 <translation id="1571041387761170095">Không có mật khẩu yếu hoặc mật khẩu trùng lặp</translation>
 <translation id="1571304935088121812">Sao chép tên người dùng</translation>
-<translation id="1668445593689059872">Hiện tại, bạn không thể sử dụng mật khẩu đã lưu trên thiết bị này cho các kênh iBrowe. Sau iBrowe 125, mật khẩu bạn lưu trên thiết bị cho iBrowe và <ph name="CHROME_CHANNEL"/> sẽ được hợp nhất và dùng được trong cả hai ứng dụng.</translation>
+<translation id="1578591621182011812">{NUM_PASSWORDS,plural, =1{Có 1 mật khẩu bị lộ trên thiết bị này}other{Có # mật khẩu bị lộ trên thiết bị này}}</translation>
 <translation id="1594635596540195766"><ph name="SUGGESTIONS_COUNT"/> mục được đề xuất trong danh sách bên dưới.</translation>
 <translation id="1598163867407640634">Sử dụng <ph name="SITE_ETLD_PLUS_ONE"/> bằng tài khoản <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="1851107663393500801">Khi bật, tính năng tương ứng sẽ sử dụng và lưu dữ liệu trong Tài khoản iBrowe của bạn. Khi tắt, dữ liệu sẽ chỉ được lưu vào thiết bị này.</translation>
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Xóa 1 mục đã chọn}other{Xóa # mục đã chọn}}</translation>
 <translation id="9102838806351154392">{BOOKMARKS_COUNT,plural, =1{1 dấu trang và các mục khác chỉ được lưu trên thiết bị này. Để sử dụng cả trên các thiết bị khác, hãy lưu vào Tài khoản iBrowe <ph name="ACCOUNT_EMAIL"/> của bạn.}other{# dấu trang và các mục khác chỉ được lưu trên thiết bị này. Để sử dụng cả trên các thiết bị khác, hãy lưu vào Tài khoản iBrowe <ph name="ACCOUNT_EMAIL"/> của bạn.}}</translation>
+<translation id="1639239467298939599">Đang tải</translation>
 <translation id="1641113438599504367">Duyệt web an toàn</translation>
 <translation id="164269334534774161">Bạn đang xem bản sao ngoại tuyến của trang này từ <ph name="CREATION_TIME"/></translation>
 <translation id="1644574205037202324">Nhật ký</translation>
@@ -163,6 +162,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="1718835860248848330">Một giờ qua</translation>
 <translation id="1724977129262658800">Mở khóa để chỉnh sửa mật khẩu của bạn</translation>
 <translation id="6493900814829428590">Bạn có thể duyệt và tìm kiếm nhanh hơn khi iBrowe tải trước các trang mà trình duyệt cho rằng bạn có thể sẽ truy cập</translation>
+<translation id="1732514748744806741">Nếu mật khẩu của bạn bị lộ, chúng tôi sẽ thông báo cho bạn</translation>
 <translation id="1747593111377567311">{NUM_SITES,plural, =1{Gần đây, có 1 trang web đã gửi nhiều thông báo}other{Gần đây, có # trang web đã gửi nhiều thông báo}}</translation>
 <translation id="1749561566933687563">Đồng bộ hóa dấu trang của bạn</translation>
 <translation id="12433225238423439">Tiếp tục sử dụng mật khẩu trong Tài khoản iBrowe</translation>
@@ -203,7 +203,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="1925021887439448749">Nhập địa chỉ web tùy chỉnh</translation>
 <translation id="1928618076168182477">Đang hiển thị chế độ xem hình ảnh</translation>
 <translation id="1928696683969751773">Bản cập nhật</translation>
-<translation id="1933845786846280168">Thẻ được chọn</translation>
 <translation id="1939549834451474504">Các mật khẩu sắp ngừng hoạt động do không thể sử dụng Dịch vụ Google Play. Bạn có thể tạo bản sao cho các mật khẩu đã lưu trước khi các mật khẩu này ngừng hoạt động. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
 <translation id="1943432128510653496">Lưu mật khẩu</translation>
 <translation id="1944535645109964458">Không có khoá đăng nhập nào</translation>
@@ -239,7 +238,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2111511281910874386">Chuyển đến trang</translation>
 <translation id="2119609734654412418">Bạn sẽ thấy các dấu trang của mình tại đây</translation>
 <translation id="2122601567107267586">Không thể mở ứng dụng</translation>
-<translation id="2132122640199389833">Xoá mọi thiết bị đã liên kết</translation>
 <translation id="213279576345780926">Đã đóng <ph name="TAB_TITLE"/></translation>
 <translation id="2141396931810938595">Dựa trên tùy chọn sử dụng của bạn</translation>
 <translation id="5905359144499324202">iBrowe thường xuyên kiểm tra để đảm bảo trình duyệt của bạn có các chế độ cài đặt an toàn nhất. Chúng tôi sẽ thông báo nếu có nội dung cần được xem xét.</translation>
@@ -278,7 +276,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2321086116217818302">Đang chuẩn bị mật khẩu…</translation>
 <translation id="2323763861024343754">Bộ nhớ trang web</translation>
 <translation id="2328474416100889417">Mọi người sẽ ngay lập tức mất quyền truy cập vào nhóm thẻ "<ph name="GROUP_NAME"/>" và tất cả đường liên kết của lời mời sẽ đều bị vô hiệu hoá</translation>
-<translation id="2328985652426384049">Không thể đăng nhập</translation>
 <translation id="2332515770639153015">Tính năng Duyệt web an toàn có tăng cường bảo vệ đang bật</translation>
 <translation id="233375395665273385">Xoá và đăng xuất</translation>
 <translation id="2341410551640223969">Không cài đặt được <ph name="WEBAPK_NAME"/>.</translation>
@@ -289,11 +286,12 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2362083820973145409">Đã đăng nhập bằng <ph name="USER_NAME"/>. <ph name="USER_EMAIL"/>. Mở phần cài đặt.</translation>
 <translation id="351551888962017708">Sẽ có nhiều trang được tải trước hơn. Những trang này có thể được tải trước thông qua các máy chủ của iBrowe khi được các trang web hoặc ứng dụng khác yêu cầu.</translation>
 <translation id="2366554533468315977">Giá trên Internet theo thời gian cho lựa chọn này</translation>
+<translation id="2367818124433749493">Lối tắt cho nhà phát triển</translation>
 <translation id="2385605401818128172">Bạn có thể xem xét các trang web gửi nhiều thông báo và ngăn các trang web đó gửi thêm thông báo trong tương lai</translation>
 <translation id="2386938421315164605">Ẩn và hiện chủ đề</translation>
 <translation id="2390510615457643724">Bạn có muốn tải <ph name="FILE_NAME"/> (<ph name="FILE_SIZE"/>) xuống lần nữa?</translation>
-<translation id="2395004545133500011">Đã mở trang tính chia sẻ cùng nội dung tóm tắt</translation>
 <translation id="2410754283952462441">Chọn một tài khoản</translation>
+<translation id="2413014528833954543">Không kiểm tra được mật khẩu trên thiết bị này</translation>
 <translation id="2414886740292270097">Tối</translation>
 <translation id="2421705177906985956">Hiện không có trang web nào để hiển thị</translation>
 <translation id="2426805022920575512">Chọn một tài khoản khác</translation>
@@ -307,6 +305,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2453860139492968684">Kết thúc</translation>
 <translation id="2461378706168271257">Tìm thẻ của bạn</translation>
 <translation id="2461822463642141190">Hiện tại</translation>
+<translation id="2463770278804271243">TRANG</translation>
 <translation id="2468444275314013497">Trình duyệt của bạn có vẻ an toàn</translation>
 <translation id="2542068854151299295">Đăng nhập để khai thác tối đa iBrowe</translation>
 <translation id="247737702124049222">Tính năng mô tả hình ảnh đang bật</translation>
@@ -325,9 +324,9 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2527209463677295330">Bạn có thể thấy kết quả phù hợp hơn bằng cách bao gồm thêm nhiều văn bản của trang</translation>
 <translation id="2527779675047087889">Ẩn các nội dung của bảng nhớ tạm</translation>
 <translation id="2532336938189706096">Lượt xem trên web</translation>
-<translation id="2534155362429831547">Đã xóa <ph name="NUMBER_OF_ITEMS"/> mục</translation>
 <translation id="253498598929009420">Trang web này sẽ có thể xem nội dung trên màn hình của bạn</translation>
 <translation id="2536728043171574184">Xem bản sao ngoại tuyến của trang này</translation>
+<translation id="2542548955756682219"><ph name="TAB_TITLE"/>, thẻ</translation>
 <translation id="2546283357679194313">Cookie và dữ liệu trang web</translation>
 <translation id="1272534541032649011">Khoá hồ sơ giúp đảm bảo an toàn cho thông tin của bạn trong ô tô, trong đó có mật khẩu, thông tin thanh toán và những thông tin khác mà bạn đã lưu trong Tài khoản iBrowe.</translation>
 <translation id="254973855621628293">Đã lưu mật khẩu vào thiết bị này</translation>
@@ -354,18 +353,15 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2647434099613338025">Thêm ngôn ngữ</translation>
 <translation id="2650077116157640844">Các miền khác trên thiết bị đã đồng bộ hoá</translation>
 <translation id="2650348088770008516">Đã đóng nội dung giải thích hướng dẫn về quyền riêng tư</translation>
-<translation id="2650408372219180431">Xuất và xoá mật khẩu được lưu vào thiết bị này</translation>
 <translation id="2650751991977523696">Tải tệp xuống lần nữa?</translation>
 <translation id="265156376773362237">Tải trước ở chế độ chuẩn</translation>
-<translation id="2653659639078652383">Gửi</translation>
 <translation id="2656405586795711023">Ứng dụng web</translation>
 <translation id="2664252182805397291">Xem các trang web</translation>
-<translation id="2666092431469916601">Hàng đầu</translation>
+<translation id="2666092431469916601">Trên cùng</translation>
 <translation id="2669454659051515572">Bất cứ ai sử dụng thiết bị này đều có thể xem các tệp đã tải xuống</translation>
 <translation id="2677748264148917807">Rời khỏi</translation>
+<translation id="2687009626279857299">Đã ngừng hoạt động trên thiết bị này</translation>
 <translation id="2702516483241149200">Mới: chia sẻ một đường liên kết dẫn tới văn bản này</translation>
-<translation id="2705073298859543115">Tạo nội dung tóm tắt</translation>
-<translation id="3769942772151914580">Khả năng bảo vệ chủ động theo thời gian thực trước các trang web, nội dung tải xuống và tiện ích nguy hiểm, dựa trên dữ liệu duyệt web được gửi tới iBrowe</translation>
 <translation id="2708226184420201102">Mở trong trình duyệt <ph name="PRODUCT_NAME"/></translation>
 <translation id="271033894570825754">Mới</translation>
 <translation id="2718352093833049315">Chỉ qua Wi-Fi</translation>
@@ -404,7 +400,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2883644600102358131">Các mật khẩu sắp ngừng hoạt động trên thiết bị này. Hãy cập nhật Dịch vụ Google Play để tiếp tục sử dụng mật khẩu.</translation>
 <translation id="8541922081612557424">Giới thiệu về iBrowe</translation>
 <translation id="2891154217021530873">Ngừng tải trang</translation>
-<translation id="4013614219085422040">iBrowe có thể sử dụng nhật ký hoạt động của bạn để điều chỉnh tính năng Tìm kiếm và các dịch vụ khác của iBrowe cho phù hợp hơn với bạn</translation>
 <translation id="2894821468041866720">Gần như không ảnh hưởng đến tốc độ của trình duyệt hoặc thiết bị.</translation>
 <translation id="2895521649038438824">Bạn có thể nghe trang này</translation>
 <translation id="2899252057552912621">Các mật khẩu sắp ngừng hoạt động vì không có Dịch vụ Google Play. Bạn có thể tạo bản sao cho các mật khẩu đã lưu trước khi các mật khẩu này ngừng hoạt động.</translation>
@@ -422,7 +417,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2942036813789421260">Thẻ xem trước đang đóng</translation>
 <translation id="2951071800649516099">Thêm các trang vào danh sách đọc để đọc sau</translation>
 <translation id="2954586176076923855">Chuyển thanh địa chỉ lên trên cùng</translation>
-<translation id="2956070106555335453">Tổng hợp</translation>
 <translation id="2961208450284224863">{READING_LIST_UNREAD_PAGE_COUNT,plural, =1{<ph name="READING_LIST_UNREAD_PAGE_COUNT_ONE"/> trang chưa đọc}other{<ph name="READING_LIST_UNREAD_PAGE_COUNT_MANY"/> trang chưa đọc}}</translation>
 <translation id="2972109037780336501">Tự động loại bỏ quyền</translation>
 <translation id="9016397405981579308">Một phần dữ liệu iBrowe của bạn chưa được lưu vào Tài khoản iBrowe.\nHãy thử đợi một vài phút rồi mới đăng xuất. Nếu bạn đăng xuất ngay, dữ liệu này sẽ bị xoá.</translation>
@@ -432,7 +426,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="2981364137500752533">Bạn có thể mở tối đa 5 cửa sổ.</translation>
 <translation id="2983102365694924129">Dựa vào hoạt động của bạn trên một trang web. Chế độ cài đặt này đang tắt.</translation>
 <translation id="5948666439178419683">Bao gồm văn bản xung quanh trong các lượt tìm kiếm của iBrowe</translation>
-<translation id="2988638966064514052">Tăng độ mạnh của mật khẩu</translation>
 <translation id="2989523299700148168">Đã truy cập gần đây</translation>
 <translation id="2992473221983447149">Nội dung mô tả hình ảnh</translation>
 <translation id="2996291259634659425">Tạo cụm mật khẩu</translation>
@@ -446,7 +439,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3037177537145227281">Đang theo dõi giá</translation>
 <translation id="3251012123600267109">Hiện lời nhắc đăng nhập vào iBrowe</translation>
 <translation id="3038272154009688107">Xem tất cả trang web</translation>
-<translation id="3059531648236115056">Thêm nội dung tóm tắt</translation>
 <translation id="3060635849835183725">{BOOKMARKS_COUNT,plural, =1{<ph name="BOOKMARKS_COUNT_ONE"/> dấu trang}other{<ph name="BOOKMARKS_COUNT_MANY"/> dấu trang}}</translation>
 <translation id="6153252609477956632">Các bài viết về chủ đề mà bạn quan tâm trên iBrowe</translation>
 <translation id="3066573403916685335">Di chuyển xuống</translation>
@@ -454,13 +446,13 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3070005020161560471">Tự động dịch</translation>
 <translation id="1094255666887095087"><ph name="APP_NAME"/> sẽ mở trong iBrowe. Bằng việc tiếp tục, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của iBrowe<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của iBrowe và ChromeOS<ph name="END_LINK2"/>. <ph name="BEGIN_LINK3"/>Chính sách quyền riêng tư<ph name="END_LINK3"/> cũng được áp dụng.</translation>
 <translation id="3080525922482950719">Bạn có thể lưu các trang để đọc vào lúc khác hoặc khi không có kết nối mạng</translation>
-<translation id="3087734570205094154">Bên dưới</translation>
+<translation id="3087734570205094154">Dưới cùng</translation>
+<translation id="3088687687599869821">DI CHUYỂN GIỮA CÁC TRANG</translation>
 <translation id="3091010850649238832">Hiện các nội dung của bảng nhớ tạm</translation>
 <translation id="821565628224723530">Một số hình ảnh được gửi đến iBrowe để cải thiện nội dung mô tả cho bạn</translation>
 <translation id="3114507951000454849">Đọc tin tức hôm nay <ph name="NEWS_ICON"/></translation>
 <translation id="3122883569442693641">Thông tin chi tiết khác</translation>
 <translation id="3123734510202723619">Thông báo</translation>
-<translation id="3131961580615093332"><ph name="GIVEN_NAME"/> đã thay đổi thẻ "<ph name="TAB_NAME"/>"</translation>
 <translation id="3148237711805373460">Đưa tôi tới đó</translation>
 <translation id="5063487983358782016">Trang chủ của iBrowe</translation>
 <translation id="3158667104057012316">Sắp xếp thủ công</translation>
@@ -471,10 +463,12 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3169472444629675720">Khám phá</translation>
 <translation id="2092041395892578327">{PASSWORDS_COUNT,plural, =1{1 mật khẩu và các dữ liệu khác chỉ được lưu trên thiết bị này. Để sử dụng cả trên các thiết bị khác, hãy lưu vào Tài khoản iBrowe <ph name="ACCOUNT_EMAIL"/> của bạn.}other{# mật khẩu và các dữ liệu khác chỉ được lưu trên thiết bị này. Để sử dụng cả trên các thiết bị khác, hãy lưu vào Tài khoản iBrowe <ph name="ACCOUNT_EMAIL"/> của bạn.}}</translation>
 <translation id="3187472288455401631">Đo lường quảng cáo</translation>
+<translation id="3189635831478931757">Nhóm thẻ <ph name="GROUP_TITLE"/></translation>
 <translation id="3207960819495026254">Đã đánh dấu trang</translation>
 <translation id="3208584281581115441">Kiểm tra ngay</translation>
 <translation id="3211426585530211793">Đã xóa <ph name="ITEM_TITLE"/></translation>
 <translation id="3220943972464248773">Để đồng bộ hóa các mật khẩu, hãy xác minh danh tính của bạn</translation>
+<translation id="323213525320714789">NHÀ PHÁT TRIỂN</translation>
 <translation id="3232293466644486101">Xoá dữ liệu duyệt web…</translation>
 <translation id="3232754137068452469">Ứng dụng web</translation>
 <translation id="3236059992281584593">Còn 1 phút</translation>
@@ -511,18 +505,21 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3398320232533725830">Mở trình quản lý dấu trang</translation>
 <translation id="3414952576877147120">Kích thước:</translation>
 <translation id="3421726884497337397">Chọn thời điểm chặn cookie của bên thứ ba</translation>
-<translation id="342220687432920852">{HOURS,plural, =1{# giờ trước}other{# giờ trước}}</translation>
 <translation id="3430670036890315772">Nếu bạn tắt khoá hồ sơ, thông tin đã lưu sẽ bị xoá</translation>
 <translation id="3435465986463792564">Có nhiều cửa sổ? Bạn có thể quản lý các trang web đó tại đây</translation>
+<translation id="4114256890962999877">Để tiếp tục sử dụng mật khẩu của bạn, hãy xuất mật khẩu ngay bây giờ, cập nhật Dịch vụ Google Play rồi nhập lại mật khẩu vào Trình quản lý mật khẩu của iBrowe. <ph name="BEGIN_LINK"/>Xem toàn bộ hướng dẫn<ph name="END_LINK"/>.</translation>
 <translation id="3435738964857648380">Bảo mật</translation>
+<translation id="3435914367318771664">Thêm thẻ vào nhóm mới</translation>
 <translation id="3439276997620616816">Các thẻ bạn đóng gần đây sẽ xuất hiện ở đây</translation>
 <translation id="3443221991560634068">Tải lại trang hiện tại</translation>
 <translation id="3444179773590444986">Bạn có muốn chia sẻ ý kiến phản hồi về giao diện tối cho các trang web?</translation>
+<translation id="3448874648066942074">Tóm tắt trang bằng AI</translation>
 <translation id="7384339501748168186">Để bảo vệ quyền riêng tư của bạn, iBrowe sẽ không tự động điền mật khẩu của bạn vào trường này.</translation>
 <translation id="3467081767799433066">Ở chế độ đo lường quảng cáo, chỉ có một số loại dữ liệu được chia sẻ giữa các trang web để đo lường hiệu suất của quảng cáo mà các trang web đó hiển thị, chẳng hạn như dữ liệu cho biết bạn có mua hàng sau khi truy cập một trang web hay không.</translation>
 <translation id="3474624961160222204">Tiếp tục với tên <ph name="NAME"/></translation>
 <translation id="3478363558367712427">Bạn có thể chọn công cụ tìm kiếm theo ý mình</translation>
 <translation id="3479552764303398839">Để sau</translation>
+<translation id="6165882953768534820">Những người khác có thể truy cập vào tệp đã xuất, trong đó có cả các ứng dụng. Sau khi bạn xuất, mật khẩu của bạn sẽ bị xoá khỏi iBrowe.</translation>
 <translation id="3488199663160411179">tên</translation>
 <translation id="3493531032208478708"><ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/> về nội dung đề xuất</translation>
 <translation id="3495219333887281978">Bảng đăng nhập ở dưới cùng mở ra trong nửa dưới màn hình.</translation>
@@ -533,7 +530,9 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3513019849832307207">Tham gia và mở</translation>
 <translation id="3513704683820682405">Thực tế tăng cường</translation>
 <translation id="3516053221628030540">Truy cập Google Play</translation>
+<translation id="351672147489633468">{NUM_REVOKED_PERMISSIONS,plural, =1{Đã loại bỏ quyền gửi thông báo của một trang web mà gần đây bạn không truy cập}other{Đã loại bỏ quyền gửi thông báo của # trang web mà gần đây bạn không truy cập}}</translation>
 <translation id="3518985090088779359">Chấp nhận và tiếp tục</translation>
+<translation id="351952459507671940">Thêm vào nhóm mới</translation>
 <translation id="3521388823983121502">Không thể tiếp tục với <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="3522247891732774234">Bản cập nhật có sẵn. Tùy chọn khác</translation>
 <translation id="3888465267851728698">Bạn có thể dừng đồng bộ hoá bất cứ lúc nào trong phần cài đặt. iBrowe có thể cá nhân hoá dịch vụ Tìm kiếm và các dịch vụ khác dựa trên nhật ký của bạn.</translation>
@@ -546,8 +545,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3557336313807607643">Thêm vào danh bạ</translation>
 <translation id="3563767357928833671">Đã hiện nội dung của bảng nhớ tạm</translation>
 <translation id="3566639033325271639">Cập nhật chế độ cài đặt</translation>
-<translation id="3568945271227339929">Không có mật khẩu nào bị lộ</translation>
-<translation id="357465026686164600">Điện thoại làm khoá bảo mật</translation>
+<translation id="3575464060651642446">Đang kiểm tra mật khẩu trên thiết bị này…</translation>
 <translation id="3577473026931028326">Đã xảy ra lỗi. Hãy thử lại.</translation>
 <translation id="3577558748185201054">Quản lý mối quan tâm và lựa chọn ưu tiên của bạn</translation>
 <translation id="3587482841069643663">Tất cả</translation>
@@ -557,6 +555,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3619255692378312441">Quản lý quyền truy cập</translation>
 <translation id="3622349720008044802">Quản lý cửa sổ</translation>
 <translation id="3623240789707551553">{DOMAIN_COUNT,plural, =1{+ 1 trang web}other{+ # trang web}}</translation>
+<translation id="3627893290277153986">Mở bảng lựa chọn để lưu trang</translation>
 <translation id="3631987586758005671">Đang chia sẻ đến <ph name="DEVICE_NAME"/></translation>
 <translation id="363484704507524488">Bạn có thể quản lý tính năng Kiểm tra danh tính trong phần cài đặt bảo vệ chống trộm. <ph name="BEGIN_LINK"/>Chuyển đến phần cài đặt<ph name="END_LINK"/></translation>
 <translation id="871233388178581868">iBrowe có thể kiểm tra mật khẩu của bạn khi bạn lưu các mật khẩu đó</translation>
@@ -574,14 +573,15 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3701167022068948696">Khắc phục ngay</translation>
 <translation id="3701515417135397388">Cảnh báo bạn nếu mật khẩu bị lộ trong một sự cố rò rỉ dữ liệu</translation>
 <translation id="3703166520839776970">Nếu sự cố này vẫn tiếp diễn, hãy chọn "Thông tin chi tiết khác" bên dưới để tìm hiểu thêm thông tin từ <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
+<translation id="3708100450779900829">Khi thiết bị gập lại, bạn có thể lựa chọn một phương án hoặc chạm và giữ thanh địa chỉ để thay đổi vị trí</translation>
 <translation id="3710501561113687889">Để tiếp tục, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> sẽ chia sẻ <ph name="FIELDS_STRING"/> của bạn với trang web này.</translation>
 <translation id="3710560693796335511">Cộng tác</translation>
 <translation id="3714981814255182093">Mở thanh Tìm kiếm</translation>
 <translation id="7305861879874805497">Nhật ký có thể bao gồm các đường liên kết được mở trong iBrowe từ các ứng dụng khác.</translation>
-<translation id="3720422586473670527">Không, cảm ơn</translation>
 <translation id="8397843425685839889">Bạn và iBrowe</translation>
 <translation id="3737319253362202215">Cài đặt bản dịch</translation>
 <translation id="3738139272394829648">Chạm để tìm kiếm</translation>
+<translation id="4890062597702688591">Không có mật khẩu bị lộ nào trong Tài khoản iBrowe của bạn</translation>
 <translation id="3739899004075612870">Đã đánh dấu trang trong <ph name="PRODUCT_NAME"/></translation>
 <translation id="3740525748616366977">Không dùng được tính năng Tìm kiếm bằng giọng nói trên thiết bị này</translation>
 <translation id="376561056759077985">Một số dữ liệu chưa được lưu</translation>
@@ -606,6 +606,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3856096718352044181">Vui lòng xác minh rằng đây là nhà cung cấp hợp lệ hoặc thử lại sau</translation>
 <translation id="3858860766373142691">Tên</translation>
 <translation id="3863527519275151528">Đang xử lý thông báo</translation>
+<translation id="3866863539038222107">Kiểm tra</translation>
 <translation id="3870908470613821006">Mọi người sẽ mất ngay quyền truy cập vào nhóm thẻ "<ph name="GROUP_NAME"/>" và nhóm thẻ này sẽ bị xoá khỏi mọi thiết bị</translation>
 <translation id="3873174561423636563">Để tiếp tục, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> sẽ chia sẻ <ph name="FIELDS_STRING"/> của bạn với trang web này. Xem <ph name="BEGIN_LINK1"/>điều khoản dịch vụ<ph name="END_LINK1"/> của trang web này.</translation>
 <translation id="3892148308691398805">Sao chép văn bản</translation>
@@ -614,7 +615,6 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3902562446536395999">Sắp xếp theo thứ tự từ A đến Z</translation>
 <translation id="3908308510347173149">Cập nhật <ph name="PRODUCT_NAME"/></translation>
 <translation id="3911609878849982353">Sắp xếp theo thứ tự từ Z đến A</translation>
-<translation id="3918415141610210050">Thẻ</translation>
 <translation id="3924911262913579434"><ph name="SAFE_BROWSING_MODE"/> đang bật</translation>
 <translation id="3927692899758076493">Sans Serif</translation>
 <translation id="3928666092801078803">Kết hợp dữ liệu của tôi</translation>
@@ -623,6 +623,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="393697183122708255">Không có tìm kiếm bằng giọng nói đã bật</translation>
 <translation id="3950820424414687140">Đăng nhập</translation>
 <translation id="395377504920307820">Sử dụng mà không cần tài khoản</translation>
+<translation id="3955219620682768253">Chuyển về trang trước trong Nhật ký</translation>
 <translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{iBrowe sẽ tải trang của bạn khi sẵn sàng}other{iBrowe sẽ tải trang của bạn khi sẵn sàng}}</translation>
 <translation id="1453002554835005700">iBrowe không thể kiểm tra mật khẩu của bạn</translation>
 <translation id="3969863827134279083">Di chuyển lên</translation>
@@ -633,11 +634,11 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="3985215325736559418">Bạn có muốn tải lại <ph name="FILE_NAME"/> xuống không?</translation>
 <translation id="3987993985790029246">Sao chép liên kết</translation>
 <translation id="4000212216660919741">Nhà ở chế độ không kết nối Internet</translation>
+<translation id="5267293611589304570">{NUM_PASSWORDS,plural, =1{1 mật khẩu bị lộ trong Tài khoản iBrowe của bạn}other{# mật khẩu bị lộ trong Tài khoản iBrowe của bạn}}</translation>
 <translation id="4016425174436051808">Không thể theo dõi. Đã xảy ra lỗi.</translation>
 <translation id="4024768890073681126">Trình duyệt này do cha mẹ của bạn quản lý</translation>
 <translation id="4034817413553209278">{HOURS,plural, =1{# giờ}other{# giờ}}</translation>
 <translation id="4042941173059740150">Tiếp tục truy cập <ph name="SITE_ETLD_PLUS_ONE"/> bằng tài khoản <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
-<translation id="404352903042073578">Nhóm chưa đặt tên</translation>
 <translation id="4044708993631234325">Bảng dưới cùng</translation>
 <translation id="4045441967987592849">Mở lại</translation>
 <translation id="4052419222954753986">{NUMBER_OF_TABS,plural, =1{<ph name="TABS_COUNT_ONE"/> thẻ chuẩn có hoạt động mới trong nhóm thẻ được chia sẻ}other{<ph name="TABS_COUNT_MANY"/> thẻ chuẩn có hoạt động mới trong nhóm thẻ được chia sẻ}}</translation>
@@ -672,6 +673,7 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="4195643157523330669">Mở trong thẻ mới</translation>
 <translation id="4197828496439691735">{NUM_TABS,plural, =1{1 thẻ trên thiết bị này}other{# thẻ trên thiết bị này}}</translation>
 <translation id="4198423547019359126">Không có vị trí tải xuống</translation>
+<translation id="4209029522667123437"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> • Bạn đã dùng trên trang web này</translation>
 <translation id="1675646381334855139">Nếu bạn cho phép cookie thì iBrowe có thể dùng các cookie này để tải trước.</translation>
 <translation id="4216511743389425832">Đọc trang này</translation>
 <translation id="4225725533026049334">Đang theo dõi</translation>
@@ -688,7 +690,9 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="4269820728363426813">Sao chép địa chỉ liên kết</translation>
 <translation id="4270730597186910506">Theo dõi hoặc bỏ theo dõi một sản phẩm.</translation>
 <translation id="4277529130885813215">Sử dụng thiết bị khác</translation>
+<translation id="427987768447457592">Nhóm thẻ mới</translation>
 <translation id="6553929648301062677">Tổ chức <ph name="MANAGED_DOMAIN"/> của bạn quản lý tài khoản mà bạn hiện đang đăng nhập và cách bạn sử dụng iBrowe. Quản trị viên có thể thiết lập hoặc hạn chế một số tính năng.</translation>
+<translation id="4285498937028063278">Bỏ ghim</translation>
 <translation id="4285846616383034558">Cookie, bộ nhớ đệm và dữ liệu trang web khác</translation>
 <translation id="4291407919474070700"><ph name="BEGIN_LINK"/>Bật phương thức khóa màn hình trong phần cài đặt Android<ph name="END_LINK"/></translation>
 <translation id="4298388696830689168">Các trang web liên kết</translation>
@@ -723,13 +727,10 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="4452411734226507615">Đóng thẻ <ph name="TAB_TITLE"/></translation>
 <translation id="4452548195519783679">Đã đánh dấu trang vào <ph name="FOLDER_NAME"/></translation>
 <translation id="4460861538906892109">{ITEMS_COUNT,plural, =1{1 dấu trang}other{# dấu trang}}</translation>
-<translation id="4461614516424362539">Khi bạn liên kết với một thiết bị khác bằng mã QR, thiết bị đó có thể dùng điện thoại này làm khoá bảo mật. Nếu bạn xoá thiết bị đó đi, bạn sẽ phải quét mã QR để liên kết lại.</translation>
 <translation id="4478161224666880173">Bạn có thể sử dụng tài khoản <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> trên trang web này. Để tiếp tục, hãy đăng nhập vào <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
 <translation id="3133489217401741157">Đang cài đặt <ph name="MODULE"/> cho iBrowe…</translation>
-<translation id="4481181637083926190">{BOOKMARK_COUNT,plural, =1{Đã lưu dấu trang vào "<ph name="FOLDER_NAME"/>". Dấu trang chỉ được lưu vào thiết bị này.}other{Đã lưu dấu trang vào "<ph name="FOLDER_NAME"/>". Dấu trang chỉ được lưu vào thiết bị này.}}</translation>
 <translation id="4484496141267039529">Không có kết nối. Hãy thử lại sau.</translation>
 <translation id="53119194224775367">Tất cả dữ liệu của ứng dụng iBrowe sẽ bị xóa vĩnh viễn, bao gồm tất cả các tệp, các tùy chọn cài đặt, tài khoản, cơ sở dữ liệu, v.v.</translation>
-<translation id="4489640160615759754">Trang tính chia sẻ cùng nội dung tóm tắt</translation>
 <translation id="4494806687727322324">Quản trị viên đã bật tính năng lưu mật khẩu</translation>
 <translation id="4508528996305412043">Đã mở trình đơn thẻ nguồn cấp dữ liệu</translation>
 <translation id="4509741852167209430">Chỉ có một số loại dữ liệu được chia sẻ giữa các trang web để đo lường hiệu suất của quảng cáo mà các trang web đó hiển thị, chẳng hạn như dữ liệu cho biết bạn có mua hàng sau khi truy cập một trang web hay không</translation>
@@ -738,10 +739,10 @@ Chỉ những người có cụm mật khẩu mới đọc được dữ liệu 
 <translation id="1664855196866195614">Dữ liệu được chọn đã bị xóa khỏi iBrowe và các thiết bị đã đồng bộ hóa của bạn.
 
 Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web khác, chẳng hạn như tìm kiếm và hoạt động từ các dịch vụ khác của iBrowe tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="452279259461584111">Đã đóng trang tính chia sẻ cùng nội dung tóm tắt</translation>
 <translation id="4523326818319942067">một giờ qua</translation>
 <translation id="452750746583162491">Xem lại các dữ liệu đã đồng bộ hóa của bạn</translation>
 <translation id="4532845899244822526">Chọn thư mục</translation>
+<translation id="4535755320005483982">Nhóm thẻ <ph name="GROUP_TITLE"/> được chia sẻ</translation>
 <translation id="4543131175509360848">Trang thông báo "Không có khoá truy cập nào"</translation>
 <translation id="4558311620361989323">Phím tắt cho trang web</translation>
 <translation id="4565377596337484307">Ẩn mật khẩu</translation>
@@ -754,28 +755,28 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="2724914440849807699">Lỗi Tài khoản iBrowe</translation>
 <translation id="4601095002996233687">Quét kỹ càng để tìm nội dung tải xuống đáng ngờ.</translation>
 <translation id="3047078595137661468">Khi một trang web hoặc ứng dụng yêu cầu tải trước các đường liên kết trên trang ở chế độ riêng tư, thì iBrowe sẽ mã hoá và tải trước những trang này thông qua các máy chủ của iBrowe mà không có cookie. Điều này giúp ẩn danh tính của bạn khỏi trang web được tải trước.</translation>
-<translation id="2782276843156939908">Danh sách mật khẩu mà bạn lưu cho iBrowe và <ph name="CHROME_CHANNEL"/> đã được hợp nhất. Bạn vẫn có thể chọn tự động điền tất cả mật khẩu đã lưu trên cả hai ứng dụng.</translation>
 <translation id="4616150815774728855">Mở <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Xác minh danh tính của bạn</translation>
-<translation id="4634124774493850572">Sử dụng mật khẩu</translation>
+<translation id="4634124774493850572">Dùng mật khẩu</translation>
 <translation id="4640331037679501949">{NUM_PASSWORDS,plural, =1{1 mật khẩu bị lộ}other{# mật khẩu bị lộ}}</translation>
 <translation id="4642472735733036929">Tính năng theo dõi giá đã dừng hoạt động</translation>
 <translation id="4650364565596261010">Tùy chọn mặc định của hệ thống</translation>
 <translation id="465657074423018424">Tính năng Duyệt web an toàn bảo vệ bạn khỏi các trang web lừa đảo. Nếu bạn tắt tính năng này, hãy cẩn thận hơn khi duyệt web, đặc biệt là trước khi nhập mật khẩu.</translation>
 <translation id="4662373422909645029">Biệt hiệu không được bao gồm số</translation>
 <translation id="4663756553811254707">Đã xóa <ph name="NUMBER_OF_BOOKMARKS"/> dấu trang</translation>
-<translation id="4664020984660113387">Xoá nội dung tóm tắt</translation>
 <translation id="4668279686271488041">Dữ liệu đo lường quảng cáo sẽ thường xuyên bị xoá khỏi thiết bị của bạn</translation>
 <translation id="4668347365065281350">Tất cả dữ liệu do các trang web lưu trữ, bao gồm cả cookie và dữ liệu khác lưu trữ trên máy</translation>
 <translation id="6904731820418823295">Đã bật giao diện tối cho các trang web trong iBrowe</translation>
 <translation id="4684427112815847243">Đồng bộ hoá mọi thứ</translation>
 <translation id="4685741273709472646">Chọn từ danh sách thả xuống</translation>
 <translation id="4687718960473379118">Quảng cáo do trang web đề xuất</translation>
+<translation id="468924408576231679">Sao chép đường liên kết đến trang web <ph name="PAGE_TITLE"/>. Nguồn: <ph name="PAGE_URL"/></translation>
 <translation id="469286762610133730">Nhận nội dung phù hợp hơn</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 và <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> tùy chọn khác}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 và <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> tùy chọn khác}}</translation>
 <translation id="4698061626562952596">Xem các thẻ không hoạt động tại đây</translation>
 <translation id="4699172675775169585">Tệp và hình ảnh được lưu trong bộ nhớ đệm</translation>
 <translation id="4710167854527459075">Mới nhất xếp trước</translation>
+<translation id="4718044610319080485">Gọi Trợ lý AI</translation>
 <translation id="4719927025381752090">Đề xuất dịch</translation>
 <translation id="4720556299488643018">Huỷ đăng ký</translation>
 <translation id="4732120983431207637">Trình gỡ ngăn xếp</translation>
@@ -788,6 +789,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5788625372408165654">Đã xoá dữ liệu iBrowe</translation>
 <translation id="4742970037960872810">Bỏ đánh dấu</translation>
 <translation id="4749960740855309258">Mở thẻ mới</translation>
+<translation id="5122326460832678317">Đã đăng nhập bằng <ph name="USER_NAME"/>. <ph name="USER_EMAIL"/>. Lỗi Tài khoản iBrowe. Mở phần cài đặt.</translation>
 <translation id="4758061975920522644">Chỉ chia sẻ hình ảnh</translation>
 <translation id="4759238208242260848">Tệp đã tải xuống</translation>
 <translation id="4763480195061959176">video</translation>
@@ -801,12 +803,12 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4777866634702576038">Bạn muốn xoá nhóm thẻ?</translation>
 <translation id="4778653490315793244">Chưa có nội dung nào để hiển thị</translation>
 <translation id="4782929588435725897"><ph name="SEARCH_ENGINE"/> là công cụ tìm kiếm mặc định</translation>
+<translation id="4784349455504343791"><ph name="WEBSITE_ORIGIN"/> muốn sử dụng thông tin cá nhân trong ví điện tử của bạn.</translation>
 <translation id="4787736314074622408">Bạn có muốn xoá <ph name="ITEM_TITLE"/> không?</translation>
 <translation id="4194619960643453552">Tìm hiểu cách iBrowe bảo vệ bạn</translation>
 <translation id="4794291718671962615">(<ph name="MEGABYTES"/>) <ph name="URL"/></translation>
 <translation id="4807098396393229769">Tên trên thẻ</translation>
 <translation id="480990236307250886">Mở trang chủ</translation>
-<translation id="481574578487123132">Thiết bị đã liên kết</translation>
 <translation id="4822710610088666676">Đã đóng và lưu nhóm thẻ <ph name="TAB_GROUP_TITLE"/></translation>
 <translation id="4826163340425232009">Bảng đăng nhập ở dưới cùng.</translation>
 <translation id="4834250788637067901">Phương thức thanh toán, ưu đãi và địa chỉ sử dụng Google Pay</translation>
@@ -814,6 +816,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="483742037940503070">{TAB_COUNT,plural, =1{Khôi phục nhóm <ph name="TAB_COUNT_ONE"/> thẻ, màu <ph name="COLOR_NAME"/>, dưới dạng một nhóm thẻ mới trong nền.}other{Khôi phục nhóm <ph name="TAB_COUNT_MANY"/> thẻ, màu <ph name="COLOR_NAME"/>, dưới dạng một nhóm thẻ mới trong nền.}}</translation>
 <translation id="4837753911714442426">Mở tùy chọn để in trang</translation>
 <translation id="6195403640086187022">Để tăng mức độ an toàn, hãy mã hoá mật khẩu trên thiết bị trước khi lưu vào Trình quản lý mật khẩu của iBrowe</translation>
+<translation id="4849731766219625109">Sử dụng tài khoản <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> của bạn</translation>
 <translation id="4850886885716139402">Xem</translation>
 <translation id="4852014461738377247">Đang đăng nhập\u2026</translation>
 <translation id="4860895144060829044">Gọi</translation>
@@ -826,21 +829,17 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="4881695831933465202">Mở</translation>
 <translation id="488187801263602086">Đổi tên tệp</translation>
 <translation id="1248710015876067820">Số phiên bản iBrowe không được hỗ trợ.</translation>
+<translation id="8743324804589176795">Không có mật khẩu nào được lưu trong Tài khoản iBrowe của bạn</translation>
 <translation id="4905823827770127520">Đưa một đường liên kết vào trang</translation>
 <translation id="3217997482476578430">Tính năng Khám phá của iBrowe</translation>
 <translation id="4910889077668685004">Ứng dụng thanh toán</translation>
 <translation id="4912413785358399818">Di chuyển thẻ</translation>
 <translation id="4913169188695071480">Ngừng làm mới</translation>
-<translation id="4913841543356834596">Truy cập vào tất cả mật khẩu của bạn</translation>
-<translation id="4918086044614829423">Chấp nhận</translation>
 <translation id="4925120120285606924">Ảnh chụp màn hình <ph name="CURRENT_DATE_ISO"/></translation>
-<translation id="49268022542405662">Mật khẩu của bạn sẽ được xuất và tải xuống dưới dạng tệp văn bản. Mật khẩu sẽ hiển thị với bất kỳ ai và bất kỳ ứng dụng nào có quyền truy cập vào thư mục đích.</translation>
 <translation id="4926901776383726965">Bạn có thể lưu hình ảnh và tệp để xem khi không có mạng hoặc chia sẻ trong các ứng dụng khác</translation>
 <translation id="1955495299630319741">Vì bạn đang đăng xuất khỏi một tài khoản thuộc quản lý của <ph name="DOMAIN_NAME"/> nên dữ liệu của bạn trên iBrowe sẽ bị xóa khỏi thiết bị này. Tuy nhiên, dữ liệu đó sẽ vẫn còn trong Tài khoản iBrowe của bạn.</translation>
 <translation id="4943703118917034429">Thực tế ảo</translation>
 <translation id="4943872375798546930">Không tìm thấy kết quả nào</translation>
-<translation id="5742837711075932301">Khi bạn đăng nhập vào cùng một Tài khoản iBrowe, các thiết bị khác có thể dùng điện thoại này làm khoá bảo mật.</translation>
-<translation id="4953833914914492602">Nhóm thẻ "<ph name="TAB_GROUP_NAME"/>" không còn nữa</translation>
 <translation id="4957722034734105353">Tìm hiểu thêm...</translation>
 <translation id="4961107849584082341">Dịch trang này sang ngôn ngữ bất kỳ</translation>
 <translation id="6785504257633294906">iBrowe cảnh báo bạn về các trang web và nội dung tải xuống không an toàn</translation>
@@ -855,6 +854,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5001388021414335527">Theo dõi trang web này tại đây</translation>
 <translation id="6447211988989208781">Kiểm soát hoạt động trên iBrowe</translation>
 <translation id="5005498671520578047">Sao chép mật khẩu</translation>
+<translation id="5007392906805964215">Xem</translation>
 <translation id="5010886807652684893">Chế độ xem hình ảnh</translation>
 <translation id="5011311129201317034"><ph name="SITE"/> muốn kết nối</translation>
 <translation id="5012253429094023177"><ph name="BEGIN_BOLD1"/><ph name="PROVIDER1"/><ph name="END_BOLD1"/> và <ph name="BEGIN_BOLD2"/><ph name="PROVIDER2"/><ph name="END_BOLD2"/> có vẻ liên quan đến nhau. Hãy đảm bảo <ph name="BEGIN_BOLD3"/><ph name="PROVIDER2"/><ph name="END_BOLD3"/> là trang web đáng tin cậy trước khi sử dụng mật khẩu của bạn.</translation>
@@ -877,6 +877,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5114895953710637392">Đã đóng bảng lọc theo ứng dụng.</translation>
 <translation id="5115811374190515607">đến <ph name="PRODUCT_NAME"/></translation>
 <translation id="7143053178237996319">Bạn có thể dùng iBrowe bất cứ khi nào nhấn vào các đường liên kết trong thư/tin nhắn, tài liệu và các ứng dụng khác</translation>
+<translation id="5118713593561876160">Sở thích</translation>
 <translation id="5122378528687922675">Nếu bạn cần trợ giúp, hãy nhờ cha mẹ (<ph name="PARENT_NAME_1"/> hoặc <ph name="PARENT_NAME_2"/>)</translation>
 <translation id="5139940364318403933">Tìm hiểu cách sử dụng Google Drive</translation>
 <translation id="5142281402488957685">Để xem thêm những câu chuyện mới, hãy kéo xuống để làm mới trang</translation>
@@ -885,11 +886,13 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5161254044473106830">Cần có tiêu đề</translation>
 <translation id="5161262286013276579">Đã mở trang xác nhận khoá truy cập</translation>
 <translation id="5163361352003913350">Bạn hiện đang chọn <ph name="NAME"/>. Chọn một tài khoản.</translation>
+<translation id="5169102789680486565">Nhóm thẻ "<ph name="TAB_GROUP_TITLE"/>" có hoạt động mới</translation>
 <translation id="5170568018924773124">Hiển thị trong thư mục</translation>
 <translation id="5171045022955879922">Tìm kiếm hoặc nhập URL</translation>
 <translation id="5174700554036517242">Thẻ đã trở về chiều cao ban đầu</translation>
 <translation id="5180063720319462041">Đã dịch trang sang <ph name="TARGET_LANGUAGE"/></translation>
 <translation id="5191251636205085390">Tìm hiểu và kiểm soát các công nghệ mới giúp thay thế cookie của bên thứ ba</translation>
+<translation id="5197649123261764478">Dễ dàng truy cập vào dấu trang của bạn</translation>
 <translation id="5204967432542742771">Nhập mật khẩu</translation>
 <translation id="5206168361184759344">{FILE_COUNT,plural, =1{Đang tải tệp xuống…}other{Đang tải # tệp xuống…}}</translation>
 <translation id="5210286577605176222">Quay về thẻ trước</translation>
@@ -915,17 +918,20 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5317780077021120954">Lưu</translation>
 <translation id="989239400026154074">iBrowe đề xuất iBrowe</translation>
 <translation id="5326246328175179736">Bạn không thể đăng nhập bằng tài khoản này</translation>
+<translation id="5327248766486351172">Tên</translation>
 <translation id="5328542107300944283">Sử dụng bằng <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="5342314432463739672">Yêu cầu cấp quyền</translation>
 <translation id="534580735623577507">Không có trang web nào trong <ph name="TIME_PERIOD"/></translation>
+<translation id="5354716139000094027">Tóm tắt bằng AI</translation>
 <translation id="5355191726083956201">Tính năng Bảo vệ tăng cường đang bật</translation>
-<translation id="4771279424883068914">URL của trang mà bạn đưa ra ý kiến phản hồi sẽ được gửi cho iBrowe và có thể được nhân viên xem xét nhằm cải thiện tính năng này</translation>
 <translation id="5375374982898812658">Bạn sẽ mất ngay quyền truy cập vào nhóm thẻ "<ph name="GROUP_NAME"/>" và nhóm thẻ này sẽ bị xoá khỏi mọi thiết bị của bạn</translation>
 <translation id="5375577065097716013">Tìm hình ảnh bằng iBrowe Ống kính <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
+<translation id="5390367025924544771"><ph name="WEBSITE_ORIGIN"/> muốn sử dụng thông tin cá nhân trong ví điện tử của bạn. Bạn chỉ nên tiếp tục nếu tin tưởng trang web này. Các trang web nguy hiểm có thể lừa bạn tiết lộ những thông tin như tên pháp lý hoặc mã số giấy tờ tuỳ thân.</translation>
 <translation id="4799771635362945886">Đảm bảo bạn luôn có thể sử dụng dữ liệu iBrowe trong Tài khoản iBrowe của mình</translation>
 <translation id="539881862970320163">Đề xuất sử dụng mật khẩu mạnh. Bàn phím đang ẩn.</translation>
 <translation id="5409881200985013443">Gửi <ph name="ONE_TIME_CODE"/> trên <ph name="CLIENT_NAME"/>?</translation>
 <translation id="5410300144953132176"><ph name="OWNER_FULL_NAME"/> (<ph name="OWNER_EMAIL"/>) muốn bạn tham gia một nhóm thẻ. Bất cứ ai có quyền truy cập đường liên kết này đều có thể chỉnh sửa tất cả các thẻ. Vì vậy, hãy cẩn thận khi tham gia. Đường liên kết này sẽ hết hạn sau 48 giờ nữa.</translation>
+<translation id="5412388166586147626">Không mở được trợ lý AI. Hãy thử lại.</translation>
 <translation id="5414836363063783498">Đang xác minh...</translation>
 <translation id="5415871492522952905">Bạn sẽ thấy nhật ký và thẻ trên tất cả thiết bị để có thể tiếp tục làm những việc còn dang dở</translation>
 <translation id="542073632571549028"><ph name="MEMBER_FULL_NAME"/> (<ph name="EMAIL"/>) sẽ mất quyền truy cập vào nhóm thẻ "<ph name="GROUP_NAME"/>" ngay lập tức</translation>
@@ -933,6 +939,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5424588387303617268">Còn trống <ph name="GIGABYTES"/> GB</translation>
 <translation id="543338862236136125">Chỉnh sửa mật khẩu</translation>
 <translation id="5433691172869980887">Đã sao chép tên người dùng</translation>
+<translation id="5436928407363358055">Hãy đồng bộ hoá nhật ký và thẻ để dễ dàng xem tiếp nội dung đang xem dở</translation>
 <translation id="5438292632479953702">Tải xuống lần nữa</translation>
 <translation id="2766925507720001104">Cảnh báo cho bạn về các trang web nguy hiểm, kể cả trang web mà iBrowe chưa từng biết, bằng cách phân tích nhiều dữ liệu trên các trang web hơn so với chế độ bảo vệ tiêu chuẩn. Bạn có thể chọn bỏ qua cảnh báo của iBrowe.</translation>
 <translation id="5441137934526263133">Trang web không hoạt động? Bạn đã chặn cookie của bên thứ ba</translation>
@@ -941,10 +948,10 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5444999712122199445">Quay lại trang web</translation>
 <translation id="544776284582297024">Để mở các thẻ và truy cập cùng lúc vào nhiều trang, hãy nhấn vào nút mở thẻ</translation>
 <translation id="5454166040603940656">với <ph name="PROVIDER"/></translation>
-<translation id="5454215368971121976">Khi thiết bị gập lại, bạn có thể lựa chọn một phương án hoặc chạm và giữ thanh địa chỉ để thay đổi vị trí.</translation>
 <translation id="5456381639095306749">Tải trang xuống</translation>
 <translation id="5458366071038729214">Bạn sẽ thấy các trang web mình theo dõi tại đây</translation>
 <translation id="5468068603361015296">Bạn vẫn muốn tải <ph name="FILE_NAME"/> xuống?</translation>
+<translation id="5471273988133666918">Không thể di chuyển thẻ <ph name="TAB_TITLE"/></translation>
 <translation id="548278423535722844">Mở trong ứng dụng bản đồ</translation>
 <translation id="5492637351392383067">Mã hoá trên thiết bị</translation>
 <translation id="549660026907543296">Tham gia dưới tên <ph name="MEMBER_FULL_NAME"/></translation>
@@ -953,19 +960,17 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5517095782334947753">Bạn có dữ liệu về dấu trang, nhật ký hoạt động, mật khẩu và các chế độ cài đặt khác từ tài khoản <ph name="FROM_ACCOUNT"/>.</translation>
 <translation id="5517326820028369152">Bảng hoạt động gần đây ở dưới cùng</translation>
 <translation id="5526281268548144413">Không đóng được trên nhiều cửa sổ</translation>
-<translation id="5528925345478618296">{MINUTES,plural, =1{# phút trước}other{# phút trước}}</translation>
 <translation id="5548606607480005320">Kiểm tra an toàn</translation>
-<translation id="5551564597369878730"><ph name="GIVEN_NAME"/> đã tham gia nhóm thẻ "<ph name="TAB_GROUP_NAME"/>"</translation>
 <translation id="4362225295386962644">Khi bạn dùng một mật khẩu đã bị công khai trên mạng, iBrowe sẽ cảnh báo cho bạn. Trong quá trình này, mật khẩu và tên người dùng của bạn được mã hoá nên không ai đọc được, kể cả iBrowe.</translation>
 <translation id="5555525474779371165">Chọn chế độ bảo vệ bằng tính năng Duyệt web an toàn của bạn</translation>
 <translation id="5556459405103347317">Tải lại</translation>
 <translation id="555671485580955310">Đồng bộ hoá nhật ký và thẻ</translation>
 <translation id="555816257274242153">Đã dừng theo dõi giá</translation>
+<translation id="5561445479436807659">Bắt đầu chơi trò chơi khủng long vui nhộn</translation>
 <translation id="5561549206367097665">Đang chờ mạng…</translation>
 <translation id="5568069709869097550">Không thể đăng nhập</translation>
 <translation id="557018954714092179">Tạo thư mục mới</translation>
 <translation id="5578795271662203820">Tìm ảnh này trên <ph name="SEARCH_ENGINE"/></translation>
-<translation id="5581519193887989363">Bạn luôn có thể chọn nội dung muốn đồng bộ hóa trong phần <ph name="BEGIN_LINK1"/>cài đặt<ph name="END_LINK1"/>.</translation>
 <translation id="5596627076506792578">Tùy chọn khác</translation>
 <translation id="6894318537270274409">Để xem thêm các chế độ cài đặt khác có sử dụng dữ liệu để cải thiện trải nghiệm iBrowe của bạn, hãy truy cập vào <ph name="BEGIN_LINK"/>Các dịch vụ của iBrowe<ph name="END_LINK"/>.</translation>
 <translation id="5611398002774823980">Lưu trong tài khoản</translation>
@@ -976,13 +981,13 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5626134646977739690">Tên:</translation>
 <translation id="5628604359369369630">Chưa đọc – Có thể đọc khi không có mạng</translation>
 <translation id="5631483240431073854">Quản lý các thẻ đang mở</translation>
+<translation id="8459994515707449554">Đã đăng nhập bằng <ph name="USER_NAME"/>. Lỗi Tài khoản iBrowe. Mở phần cài đặt.</translation>
 <translation id="3801854459269566477"><ph name="BEGIN_LINK1"/>Nhật ký tìm kiếm<ph name="END_LINK1"/> và <ph name="BEGIN_LINK2"/>các hình thức hoạt động khác<ph name="END_LINK2"/> có thể được lưu trong Tài khoản iBrowe của bạn</translation>
 <translation id="5648166631817621825">7 ngày qua</translation>
 <translation id="5655963694829536461">Tìm kiếm trong các tệp đã tải xuống</translation>
 <translation id="5657871969392618475">Thông tin của bạn được bảo mật bằng khoá hồ sơ</translation>
 <translation id="5659593005791499971">Email</translation>
 <translation id="5665379678064389456">Tạo sự kiện trong <ph name="APP_NAME"/></translation>
-<translation id="5680616253592639556">Thiếu thông tin</translation>
 <translation id="5668833306439455813">iBrowe không thể kiểm tra để tìm các bản cập nhật</translation>
 <translation id="5683916195767086779">Nhóm thẻ</translation>
 <translation id="5686790454216892815">Tên tệp quá dài</translation>
@@ -991,9 +996,10 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="2320748512701464301">iBrowe có thể bảo vệ bạn trước các sự cố rò rỉ dữ liệu, trang web không an toàn và những vấn đề khác</translation>
 <translation id="5698878456427040674">Kiểm tra xem tài khoản đã chọn có được hỗ trợ hay không.</translation>
 <translation id="570347048394355941">Chuyển sang thẻ</translation>
+<translation id="5709213329446699338"><ph name="SITE"/> muốn kết nối với một cổng nối tiếp</translation>
 <translation id="5715150588940290235">Xoá mã bảo mật đã lưu?</translation>
 <translation id="8926436246118281502">Dấu trang, nhật ký và các dữ liệu khác trên iBrowe sẽ không được đồng bộ hoá với Tài khoản iBrowe của bạn nữa</translation>
-<translation id="572328651809341494">Các thẻ gần đây</translation>
+<translation id="572328651809341494">Thẻ gần đây</translation>
 <translation id="5726692708398506830">Phóng to mọi nội dung trên trang</translation>
 <translation id="2628630689312565278">Các dịch vụ của iBrowe được liên kết</translation>
 <translation id="5744751019568455640">Đây là những giọng nói mà bạn có thể chọn để tôi đọc to nội dung các trang web. Nếu bạn thích giọng nói này và muốn tôi dùng tiếp, chỉ cần nhấn vào tên giọng nói.</translation>
@@ -1014,7 +1020,6 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5809361687334836369">{HOURS,plural, =1{# giờ trước}other{# giờ trước}}</translation>
 <translation id="5311273890481188673">Bản quyền <ph name="YEAR"/> iBrowe LLC. Mọi quyền được bảo lưu.</translation>
 <translation id="5814749351757353073">Cập nhật thông tin với các trang web yêu thích của bạn</translation>
-<translation id="5822875253699806474">Để nhanh chóng quay lại các trang web bạn đã truy cập, hãy đồng bộ hoá các thẻ và nhật ký</translation>
 <translation id="2326452470420653225">Bạn có thể xoá dữ liệu trong phần Cài đặt của iBrowe</translation>
 <translation id="5829586821381540080">Đã lưu vào <ph name="FOLDER_NAME"/></translation>
 <translation id="583281660410589416">Không xác định</translation>
@@ -1026,7 +1031,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5855546874025048181">Tinh chỉnh: <ph name="REFINE_TEXT"/></translation>
 <translation id="5857447844686706637">Đã xảy ra lỗi. Không thể cập nhật tính năng Theo dõi giá.</translation>
 <translation id="5859968346865909126">Bạn có thể bật hoặc tắt chế độ này trong phần cài đặt.</translation>
-<translation id="5860033963881614850">Tắt</translation>
+<translation id="5860033963881614850">Đang tắt</translation>
 <translation id="5860491529813859533">Bật</translation>
 <translation id="5864419784173784555">Đang chờ đến lần tải xuống tiếp theo…</translation>
 <translation id="6538479075382111079">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho iBrowe</translation>
@@ -1039,6 +1044,7 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5907542076239273525">Đã lưu dấu trang vào <ph name="FOLDER_NAME"/></translation>
 <translation id="5916664084637901428">Đang bật</translation>
 <translation id="5919204609460789179">Cập nhật <ph name="PRODUCT_NAME"/> để bắt đầu đồng bộ hóa</translation>
+<translation id="5932881020239635062">Sê-ri</translation>
 <translation id="5938820472109305350">Thêm <ph name="INTEREST"/></translation>
 <translation id="6103327872225198548">Sử dụng iBrowe để tìm kiếm</translation>
 <translation id="5945035219773565305">Đề xuất hiện tại: <ph name="RECOMMENDATION"/></translation>
@@ -1048,7 +1054,6 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5958275228015807058">Tìm tệp và trang của bạn trong Tệp đã tải xuống</translation>
 <translation id="5958994127112619898">Đơn giản hóa trang</translation>
 <translation id="5962718611393537961">Nhấn để thu gọn</translation>
-<translation id="5964180026566797835">Không thể kiểm tra mật khẩu</translation>
 <translation id="5964869237734432770">Dừng lấy nội dung mô tả hình ảnh</translation>
 <translation id="5977976211062815271">Trên thiết bị này</translation>
 <translation id="5978661847409534366">{ITEMS_COUNT,plural, =1{1 trang trên danh sách đọc của bạn}other{# trang trên danh sách đọc của bạn}}</translation>
@@ -1057,25 +1062,24 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="5995726099713306770">Tải trang xuống lần nữa?</translation>
 <translation id="6456271171669383967">Giữ iBrowe làm công cụ tìm kiếm mặc định</translation>
 <translation id="6000203700195075278">Theo dõi lại</translation>
-<translation id="6002122790816966947">Các thiết bị của bạn</translation>
 <translation id="6011308810877101166">Cải thiện cụm từ tìm kiếm được đề xuất</translation>
 <translation id="6013305291643746595">Sắp xếp theo thứ tự từ cũ nhất đến mới nhất</translation>
 <translation id="296137235951584143">Tùy chỉnh iBrowe theo cách của bạn</translation>
 <translation id="6026538407078977628">Mở chế độ toàn màn hình</translation>
 <translation id="6030719887161080597">Quản lý thông tin mà các trang web sử dụng để đo lường hiệu suất quảng cáo</translation>
 <translation id="6039379616847168523">Chuyển sang thẻ tiếp theo</translation>
-<translation id="6040939430773295212">Trùng lặp</translation>
 <translation id="604124094241169006">Tự động</translation>
 <translation id="6042308850641462728">Xem thêm</translation>
 <translation id="604996488070107836">Không tải xuống được <ph name="FILE_NAME"/> do lỗi không xác định.</translation>
 <translation id="605721222689873409">YY</translation>
 <translation id="6059830886158432458">Kiểm soát tin bài và hoạt động của bạn tại đây</translation>
-<translation id="6070730414166672373">Đang kết nối với ngân hàng của bạn…</translation>
 <translation id="4701065218405772222">Để kiểm tra xem có mật khẩu nào bị lộ không, hãy đăng nhập vào Tài khoản iBrowe của bạn</translation>
+<translation id="6078323886959318429">Thêm lối tắt</translation>
 <translation id="6085886413119427067">Xác định cách kết nối với các trang web qua đường kết nối an toàn</translation>
 <translation id="6087286598828478206">Chặn và rời khỏi nhóm?</translation>
 <translation id="60923314841986378">Còn <ph name="HOURS"/> giờ</translation>
 <translation id="4726571606794511368">Nếu bạn cũng dùng iBrowe làm công cụ tìm kiếm mặc định, thì bạn sẽ nhận được các nội dung đề xuất phù hợp và có liên quan đến ngữ cảnh hơn</translation>
+<translation id="6104768972315313991">Đã tạo mã QR</translation>
 <translation id="610630277578876674">Mở nhanh đường liên kết trong thông báo và nhiều tính năng khác</translation>
 <translation id="6108923351542677676">Đang thiết lập…</translation>
 <translation id="6112702117600201073">Làm mới trang</translation>
@@ -1106,32 +1110,35 @@ Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web
 <translation id="6205314730813004066">Quyền riêng tư trong quảng cáo</translation>
 <translation id="6210748933810148297">Không phải là <ph name="EMAIL"/>?</translation>
 <translation id="6211386937064921208">Đang xem trước trang này</translation>
+<translation id="6212567362666004597">Thêm thẻ vào nhóm</translation>
 <translation id="6221633008163990886">Mở khóa để xuất mật khẩu của bạn</translation>
 <translation id="6225572914528673855">Thanh địa chỉ</translation>
 <translation id="6232535412751077445">Bật tính năng “Không theo dõi” nghĩa là một yêu cầu sẽ được đi kèm với lưu lượng duyệt web của bạn. Mọi ảnh hưởng đều phụ thuộc vào việc trang web có phản hồi yêu cầu không và cách thức diễn giải yêu cầu.
 
 Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cách hiển thị cho bạn các quảng cáo không dựa trên các trang web khác mà bạn đã truy cập. Nhiều trang web sẽ vẫn thu thập và sử dụng dữ liệu duyệt web của bạn — ví dụ: để tăng cường bảo mật, cung cấp nội dung, quảng cáo và đề xuất, đồng thời tạo số liệu thống kê báo cáo.</translation>
-<translation id="3895383310037101583">Lưu mật khẩu trong Tài khoản iBrowe của bạn trên thiết bị này bằng cách bật tính năng đồng bộ hoá</translation>
 <translation id="8883879481897424949">Trình quản lý mật khẩu</translation>
 <translation id="2715956954609894918">Xem Nhật ký duyệt web trên iBrowe tại đây</translation>
 <translation id="672214651034855283">{ITEMS_COUNT,plural, =1{1 mục chỉ được lưu trên thiết bị này. Để sử dụng cả trên các thiết bị khác, hãy lưu vào Tài khoản iBrowe <ph name="ACCOUNT_EMAIL"/> của bạn.}other{# mục chỉ được lưu trên thiết bị này. Để sử dụng cả trên các thiết bị khác, hãy lưu vào Tài khoản iBrowe <ph name="ACCOUNT_EMAIL"/> của bạn.}}</translation>
 <translation id="6254139308321626268">Bạn đang xem một tệp PDF</translation>
-<translation id="6255794742848779505">Chúng tôi sẽ thay đổi cách lưu mật khẩu trên thiết bị này</translation>
 <translation id="725280687245147974">Với các công cụ của iBrowe, bạn có thể duyệt web an toàn và luôn nắm quyền kiểm soát</translation>
 <translation id="6264376385120300461">Vẫn tải xuống</translation>
+<translation id="6264485186158353794">Quay lại trang an toàn</translation>
 <translation id="6277522088822131679">Đã xảy ra sự cố khi in trang này. Vui lòng thử lại.</translation>
 <translation id="6278428485366576908">Chủ đề</translation>
 <translation id="6284472661216707937">Bảng "Mật khẩu trên tất cả thiết bị của bạn" đã đóng</translation>
 <translation id="6295158916970320988">Tất cả các trang web</translation>
 <translation id="6296366034485697675">Xuất và xoá</translation>
 <translation id="629730747756840877">Tài khoản</translation>
+<translation id="6301526076346731664">Mở Công cụ cho nhà phát triển</translation>
 <translation id="6303969859164067831">Đăng xuất và tắt đồng bộ hóa</translation>
+<translation id="6307241780749477694">Xác minh danh tính của bạn để dùng tất cả mật khẩu trên thiết bị này</translation>
 <translation id="6312687380483398334">Ứng dụng web (im lặng)</translation>
 <translation id="6315386555979018699">Xoá và tiếp tục</translation>
 <translation id="6316139424528454185">Phiên bản Android không được hỗ trợ</translation>
 <translation id="6324916366299863871">Chỉnh sửa phím tắt</translation>
 <translation id="6324977638108296054">Không thể tạo đường liên kết đến văn bản được làm nổi bật</translation>
 <translation id="6333140779060797560">Chia sẻ qua <ph name="APPLICATION"/></translation>
+<translation id="6335454563754888572">Chỉnh sửa URL trỏ đến trang trên: <ph name="PAGE_URL"/></translation>
 <translation id="6337234675334993532">Mã hóa</translation>
 <translation id="6340526405444716530">Cá nhân hóa</translation>
 <translation id="6341580099087024258">Hỏi vị trí lưu tệp</translation>
@@ -1148,6 +1155,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6394791151443660613">Tìm kiếm: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6395288395575013217">LIÊN KẾT</translation>
 <translation id="6397616442223433927">Đã có kết nối mạng trở lại</translation>
+<translation id="6399363707848566877">Giờ đây, bạn có thể dễ dàng thêm thẻ vào nhóm tại đây</translation>
 <translation id="8789425457808164956">Để gửi thẻ này cho một thiết bị khác, hãy đăng nhập vào iBrowe trên thiết bị đó</translation>
 <translation id="6404511346730675251">Chỉnh sửa dấu trang</translation>
 <translation id="6406506848690869874">Đồng bộ hóa</translation>
@@ -1173,14 +1181,13 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="387105482057676379">Liên kết iBrowe và các dịch vụ khác của iBrowe cho mục đích cá nhân hoá và các mục đích khác</translation>
 <translation id="6482749332252372425">Tải xuống <ph name="FILE_NAME"/> không thành công do thiếu dung lượng bộ nhớ.</translation>
 <translation id="6486420406192123355">Tệp PDF này xuất phát từ một trang web sử dụng kết nối không an toàn</translation>
-<translation id="6495590690749880440">Bạn muốn mở nhóm thẻ?</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Đã tải tệp xuống}other{Đã tải # tệp xuống}}</translation>
 <translation id="3960299545138990065">Khởi động lại iBrowe</translation>
+<translation id="6513924416597632811">Sao chép đường liên kết đến trang kết quả tìm kiếm cho: <ph name="SEARCH_QUERY"/>. Nguồn: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Xác minh</translation>
 <translation id="6527303717912515753">Chia sẻ</translation>
 <translation id="3700405816184340252">Nhật ký duyệt web trên iBrowe</translation>
 <translation id="708829030563435351">Các trang web bạn truy cập trên iBrowe sẽ không hiển thị. Tất cả lịch hẹn giờ trên trang web sẽ bị xóa.</translation>
-<translation id="7723158744459952869">iBrowe mất quá nhiều thời gian để phản hồi</translation>
 <translation id="6539092367496845964">Đã xảy ra lỗi. Hãy thử lại sau.</translation>
 <translation id="6541983376925655882">{NUM_HOURS,plural, =1{Đã kiểm tra 1 giờ trước}other{Đã kiểm tra # giờ trước}}</translation>
 <translation id="6545017243486555795">Xóa tất cả dữ liệu</translation>
@@ -1192,7 +1199,6 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="971059121491380239">Thiết bị Android của bạn có thể có chế độ cài đặt tương tự. Nếu bạn bật tính năng đo lường quảng cáo trong iBrowe và trên thiết bị Android, một công ty có thể đo lường mức độ hiệu quả của quảng cáo trên những trang web bạn truy cập và ứng dụng bạn dùng.</translation>
 <translation id="6565959834589222080">Dùng mạng Wi-Fi khi có sẵn</translation>
 <translation id="4480935821314799946">Giờ đây, bạn sẽ thấy các tin bài của <ph name="SITE_NAME"/> khi mở một thẻ mới. Các trang web bạn theo dõi sẽ được lưu trong tài khoản iBrowe của bạn. Bạn có thể quản lý các trang web đó trong phần cài đặt Khám phá.</translation>
-<translation id="6570116402456758630">Tóm tắt trang</translation>
 <translation id="657177046675873214">Để sử dụng dấu trang trên tất cả các thiết bị của bạn, hãy bật "Dấu trang" trong phần cài đặt</translation>
 <translation id="6573096386450695060">Luôn cho phép</translation>
 <translation id="5157964048453367290">Các thẻ bạn đã mở trong iBrowe trên thiết bị khác sẽ xuất hiện tại đây.</translation>
@@ -1206,13 +1212,11 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6904452514635238551">Mật khẩu bạn lưu khi đăng nhập vào iBrowe sẽ có trong Tài khoản iBrowe của bạn. Để tắt tính năng này, hãy <ph name="BEGIN_LINK"/>vào phần cài đặt<ph name="END_LINK"/>.</translation>
 <translation id="661266467055912436">Tăng độ bảo mật cho bạn và mọi người trên web.</translation>
 <translation id="8127050479140582768">Để gửi thẻ này cho một thiết bị khác, hãy đăng nhập vào iBrowe trên cả hai thiết bị</translation>
-<translation id="6625890511281718257">Trang Chia sẻ kèm theo phản hồi về bảng tóm tắt</translation>
 <translation id="6627583120233659107">Chỉnh sửa thư mục</translation>
 <translation id="6636623428211296678">Khám phá thêm về các chế độ cài đặt bên dưới hoặc hoàn tất ngay bây giờ</translation>
 <translation id="7939692063031538305">Để giúp cải thiện ứng dụng, iBrowe sẽ gửi dữ liệu sử dụng và dữ liệu sự cố cho iBrowe. <ph name="BEGIN_UMA_LINK"/>Quản lý<ph name="END_UMA_LINK"/></translation>
 <translation id="6640207029842583248">Luôn chặn</translation>
 <translation id="6641780377503683465">Xoá <ph name="INTEREST"/></translation>
-<translation id="6645629752388991326">Kiểm soát việc thiết bị nào có thể đăng nhập bằng cách sử dụng thiết bị này làm khoá bảo mật.</translation>
 <translation id="7556503430569358637">Các URL bạn truy cập sẽ được gửi cho iBrowe nhằm dự đoán những trang web có thể sắp tới bạn sẽ truy cập</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW"/>\u2026 và <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/> tùy chọn khác}other{<ph name="CONTACT_PREVIEW"/>\u2026 và <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/> tùy chọn khác}}</translation>
 <translation id="6649642165559792194">Xem trước hình ảnh <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
@@ -1240,6 +1244,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6756507620369789050">Chia sẻ ý kiến phản hồi</translation>
 <translation id="6762511428368667596"><ph name="NAME"/>, <ph name="EMAIL"/>.</translation>
 <translation id="676305334223455055">Đăng nhập để nhận nội dung dựa trên mối quan tâm của bạn</translation>
+<translation id="6764137532716892442">Đã chia sẻ nhóm thẻ <ph name="GROUP_TITLE"/> có hoạt động mới</translation>
 <translation id="6767294960381293877">Danh sách các thiết bị mà bạn có thể chia sẻ một thẻ đã mở ở nửa dưới của màn hình.</translation>
 <translation id="8174975477247159780">Điều khoản dịch vụ bổ sung của iBrowe và ChromeOS</translation>
 <translation id="6795633245022906657">Mở nhanh một thẻ mới. Để chỉnh sửa lối tắt này, hãy chuyển đến phần Cài đặt.</translation>
@@ -1262,12 +1267,12 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6850830437481525139">Đã đóng <ph name="TAB_COUNT"/> thẻ</translation>
 <translation id="685340923442249391">{FILE_COUNT,plural, =1{Tệp âm thanh, 1 tệp âm thanh trong danh sách}other{Tệp âm thanh, # tệp âm thanh trong danh sách}}</translation>
 <translation id="4046835482356054431">Tính năng Khám phá của iBrowe – đang tắt</translation>
+<translation id="6861722405755529743">Nút tràn của thanh dấu trang</translation>
 <translation id="686366188661646310">Xóa mật khẩu?</translation>
 <translation id="6864459304226931083">Tải hình ảnh xuống</translation>
 <translation id="686490460830618322">Bảng lọc theo ứng dụng</translation>
 <translation id="6865313869410766144">Dữ liệu tự động điền vào biểu mẫu</translation>
 <translation id="1565666992559765293">Địa chỉ sẽ không được mã hoá bằng cụm mật khẩu. Do đó, bạn có thể sử dụng địa chỉ trong các dịch vụ khác của iBrowe.</translation>
-<translation id="6869056123412990582">máy tính</translation>
 <translation id="687838958001010630">Bất cứ ai có đường liên kết này đều có thể chỉnh sửa tất cả các thẻ</translation>
 <translation id="6880903702195291049">Không có vấn đề gì về quyền</translation>
 <translation id="6883204995689174413">Chia sẻ</translation>
@@ -1303,36 +1308,32 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6965382102122355670">OK</translation>
 <translation id="6968350777423863208">{NUMBER_OF_TABS,plural, =1{Xem <ph name="TABS_COUNT_ONE"/> thẻ có hoạt động mới trong các nhóm thẻ được chia sẻ}other{Xem <ph name="TABS_COUNT_MANY"/> thẻ có hoạt động mới trong các nhóm thẻ được chia sẻ}}</translation>
 <translation id="6971862865055170158">Không phê duyệt</translation>
+<translation id="6976223255612495095"><ph name="TAB_TITLE"/>, thẻ mới hoặc thẻ đã cập nhật</translation>
+<translation id="6976811588313110624">Thêm phím tắt mới.</translation>
 <translation id="6978717888677691380">Các trang web bạn đã chặn</translation>
 <translation id="6979737339423435258">Từ trước đến nay</translation>
 <translation id="6983306615164277634">Bạn cũng có thể chạm và giữ thanh địa chỉ để thay đổi vị trí.</translation>
 <translation id="4436469586880564451">Mật khẩu của bạn sẽ được tải xuống dưới dạng tệp CSV. Mật khẩu sẽ hiển thị với bất cứ ai có quyền truy cập vào tệp, kể cả các ứng dụng. Mật khẩu đã xuất sẽ bị xoá khỏi iBrowe.</translation>
 <translation id="6996145122199359148">Tải trang này xuống</translation>
-<translation id="2971862257346039617">Xác minh danh tính của bạn để truy cập vào mật khẩu trong Tài khoản iBrowe</translation>
 <translation id="7013762323294215682">Khoá truy cập này sẽ được lưu vào trình quản lý mật khẩu của bạn. Bất cứ ai có quyền truy cập vào trình quản lý mật khẩu đó đều có thể sử dụng khoá truy cập này.</translation>
 <translation id="7020741890149022655">Thêm vào danh sách đọc <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
 <translation id="7022756207310403729">Mở trong trình duyệt</translation>
-<translation id="7025769836128625875">Đây là một tính năng AI thử nghiệm và không phải lúc nào cũng chính xác. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
 <translation id="7029809446516969842">Mật khẩu</translation>
-<translation id="7035701931849773472">Tuỳ chọn khác</translation>
+<translation id="7053256416619638731">Tăng độ mạnh của mật khẩu trên thiết bị này</translation>
 <translation id="7053983685419859001">Chặn</translation>
 <translation id="7054588988317389591">Tải nội dung mô tả hình ảnh?</translation>
 <translation id="754645164710303412">Mở toàn bộ nhật ký duyệt web trên iBrowe</translation>
 <translation id="7063006564040364415">Không thể kết nối với máy chủ đồng bộ hóa.</translation>
 <translation id="7071521146534760487">Quản lý tài khoản</translation>
 <translation id="707155805709242880">Chọn loại dữ liệu sẽ đồng bộ hóa ở bên dưới</translation>
-<translation id="707702207692430409">{BOOKMARK_COUNT,plural, =1{Đã lưu dấu trang vào "<ph name="FOLDER_NAME"/>" trong tài khoản <ph name="ACCOUNT_EMAIL"/> của bạn.}other{Đã lưu dấu trang vào "<ph name="FOLDER_NAME"/>" trong tài khoản <ph name="ACCOUNT_EMAIL"/> của bạn.}}</translation>
 <translation id="7077143737582773186">Thẻ SD</translation>
 <translation id="4947532681094581238">Xoá cả dữ liệu iBrowe khỏi thiết bị này</translation>
 <translation id="5499149312981370855">Chọn xem có bao gồm nhật ký duyệt web trên iBrowe hay không để mang lại trải nghiệm phù hợp hơn trong các dịch vụ của iBrowe</translation>
 <translation id="8208853227947884571">iBrowe đã được cập nhật</translation>
-<translation id="7094933634769755999">Không chính xác</translation>
-<translation id="7102843846294013537">Một số mật khẩu của bạn không có trên thiết bị này</translation>
 <translation id="7106762743910369165">Trình duyệt này do tổ chức của bạn quản lý</translation>
 <translation id="144902786838571419">iBrowe giúp bạn có nhiều quyền kiểm soát hơn đối với những quảng cáo mà bạn thấy và hạn chế những thông tin mà các trang web có thể tìm hiểu về bạn khi cho bạn xem quảng cáo được cá nhân hoá.</translation>
 <translation id="7136902389402789299">{NUM_SITES,plural, =1{Đã xem xét các quyền của 1 trang web}other{Đã xem xét các quyền của # trang web}}</translation>
 <translation id="7138678301420049075">Khác</translation>
-<translation id="7139479418357139965">Bạn có thể liên hệ với người gửi để yêu cầu đường liên kết mới.</translation>
 <translation id="7140829094791862589">Tự sắp xếp thứ tự</translation>
 <translation id="7146622961999026732">Các trang web và ứng dụng này có vẻ quan trọng đối với bạn:</translation>
 <translation id="7148400116894863598"><ph name="BEGIN_LINK"/>Tìm hiểu thêm thông tin<ph name="END_LINK"/> từ <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
@@ -1340,7 +1341,6 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="1206376179559420424">Quy trình mã hoá bằng cụm mật khẩu không bao gồm địa chỉ và phương thức thanh toán trên Google Pay.
 
 Để thay đổi chế độ cài đặt này, hãy <ph name="BEGIN_LINK"/>xoá dữ liệu iBrowe khỏi tài khoản của bạn<ph name="END_LINK"/>.</translation>
-<translation id="7161230316646448869">Đồng bộ hoá dấu trang, nhật ký hoạt động và nhiều nội dung khác của bạn trên mọi thiết bị</translation>
 <translation id="7168323970702333693">Đã đăng nhập bằng <ph name="USER_NAME"/>. Mở phần cài đặt.</translation>
 <translation id="7173114856073700355">Mở phần Cài đặt</translation>
 <translation id="7173338713290252554">Giá trên Internet theo thời gian</translation>
@@ -1358,10 +1358,13 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7221869452894271364">Tải lại trang này</translation>
 <translation id="8713221522704424328">Chúng tôi đã hợp nhất tất cả mật khẩu chỉ được lưu vào thiết bị này cho iBrowe và <ph name="CHROME_CHANNEL"/>. Bạn có thể chọn tự động điền tất cả mật khẩu đã lưu trên cả hai ứng dụng.</translation>
 <translation id="7227218174981371415">{FILE_COUNT,plural, =1{1 tệp đang chờ tải xuống}other{# tệp đang chờ tải xuống}}</translation>
+<translation id="7236515828900885295">Chuyển đến hộp tìm kiếm</translation>
+<translation id="8353574248857730978">Trình quản lý mật khẩu của iBrowe đã ngừng hoạt động</translation>
 <translation id="72415438529550637">Nội dung đề xuất mật khẩu đã đóng.</translation>
 <translation id="4957342254208357193">Thiết bị Android của bạn có thể có chế độ cài đặt tương tự. Nếu bạn bật tính năng Đo lường quảng cáo trong iBrowe và trên thiết bị Android, một công ty có thể đo lường mức độ hiệu quả của quảng cáo trên những trang web bạn truy cập và ứng dụng bạn dùng.</translation>
 <translation id="727288900855680735">Gửi <ph name="ONE_TIME_CODE"/> tới <ph name="ORIGIN"/>?</translation>
 <translation id="7274013316676448362">Trang web bị chặn</translation>
+<translation id="7276868533747677875">Nếu trước đây bạn đã xuất mật khẩu, hãy tìm tệp CSV trên thiết bị rồi nhập mật khẩu vào trình quản lý mật khẩu mà bạn muốn dùng.</translation>
 <translation id="2700309900785251885">Bạn đang dùng chế độ bảo mật mạnh nhất của iBrowe</translation>
 <translation id="7289303553784750393">Nếu bạn đang trực tuyến nhưng sự cố này vẫn tiếp diễn, bạn có thể thử những cách khác để tiếp tục trên <ph name="SITE_ETLD_PLUS_ONE"/>.</translation>
 <translation id="7290209999329137901">Không đổi tên được</translation>
@@ -1384,6 +1387,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7359002509206457351">Truy cập vào phương thức thanh toán</translation>
 <translation id="7363349185727752629">Hướng dẫn về các lựa chọn liên quan đến quyền riêng tư</translation>
 <translation id="7364103838544876661">Xem thêm lựa chọn xoá dữ liệu duyệt web</translation>
+<translation id="5640892076695177498">Để bắt đầu lưu và sử dụng mật khẩu bằng Trình quản lý mật khẩu của iBrowe, hãy cập nhật dịch vụ Google Play</translation>
 <translation id="7375125077091615385">Loại:</translation>
 <translation id="7376560087009844242">Bạn có thể thấy kết quả phù hợp hơn khi dùng tính năng Chạm để tìm kiếm bằng cách bao gồm thêm nhiều văn bản của trang. Bạn có thể truy cập phần <ph name="BEGIN_LINK"/>cài đặt<ph name="END_LINK"/> để thay đổi lựa chọn này bất cứ lúc nào.</translation>
 <translation id="7379900596734708416">Đã có giao diện tối cho các trang web</translation>
@@ -1392,7 +1396,6 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7400418766976504921">URL</translation>
 <translation id="724102042129299115">Trải nghiệm lần chạy đầu tiên của iBrowe</translation>
 <translation id="5341476184053934779">Người dùng Tài khoản iBrowe</translation>
-<translation id="741204030948306876">Có, tôi đồng ý</translation>
 <translation id="7419565702166471774">Luôn sử dụng kết nối bảo mật</translation>
 <translation id="7421293530411019405">Rời khỏi nhóm thẻ?</translation>
 <translation id="7431991332293347422">Kiểm soát cách iBrowe sử dụng nhật ký duyệt web của bạn để cá nhân hóa dịch vụ Tìm kiếm và các dịch vụ khác</translation>
@@ -1455,17 +1458,18 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7656721520530864426">Không có trang web nào</translation>
 <translation id="7658239707568436148">Huỷ</translation>
 <translation id="7663320421139257046">Để tiếp tục, <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> sẽ chia sẻ <ph name="FIELDS_STRING"/> của bạn với trang web này. Xem <ph name="BEGIN_LINK1"/>chính sách quyền riêng tư<ph name="END_LINK1"/> của trang web này.</translation>
-<translation id="7665369617277396874">Thêm tài khoản</translation>
 <translation id="766587987807204883">Các bài viết xuất hiện ở đây và bạn có thể đọc ngay cả khi không có kết nối mạng</translation>
 <translation id="7666185984446444960">Đã đóng <ph name="TAB_GROUPS_AND_TABS_PART"/></translation>
 <translation id="7682724950699840886">Thử các mẹo sau: đảm bảo thiết bị của bạn có đủ dung lượng, sau đó thử xuất lại.</translation>
 <translation id="7686086654630106285">Tìm hiểu thêm về quảng cáo do trang web đề xuất</translation>
 <translation id="7795837497684113327">Thiết bị của bạn không thể mở iBrowe. Để khắc phục vấn đề, hãy tải xuống bản cập nhật iBrowe mới nhất từ cửa hàng ứng dụng của bạn.</translation>
 <translation id="7691043218961417207">Khám phá nội dung mà bạn có thể theo dõi</translation>
+<translation id="7692761875510935111">Mở nhanh trong trình duyệt. Để chỉnh sửa lối tắt này, hãy chạm và giữ lối tắt.</translation>
 <translation id="7697383401610880082">Nút kéo</translation>
 <translation id="7698359219371678927">Tạo email trong <ph name="APP_NAME"/></translation>
 <translation id="7702420606070050505">Bảng hoạt động gần đây ở dưới cùng đã mở trên toàn màn hình</translation>
 <translation id="7707922173985738739">Sử dụng dữ liệu di động</translation>
+<translation id="7708994397325774423">Truy cập tất cả mật khẩu của bạn</translation>
 <translation id="7733878270780732638">Không đủ dung lượng trên thiết bị.</translation>
 <translation id="5321611925570577577">Trình quản lý mật khẩu của iBrowe sắp ngừng hoạt động trên thiết bị này</translation>
 <translation id="774876555279732384">Bạn cũng có thể quản lý các dịch vụ tự động điền trong phần <ph name="BEGIN_LINK"/>Cài đặt Android<ph name="END_LINK"/>.</translation>
@@ -1505,8 +1509,11 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7907478394153853634">Lorem Ipsum</translation>
 <translation id="7913993612870913335">{FILE_COUNT,plural, =1{Tổ chức của bạn đã chặn 1 tệp tải xuống}other{Tổ chức của bạn đã chặn # tệp tải xuống}}</translation>
 <translation id="7914399737746719723">Đã cài đặt ứng dụng</translation>
+<translation id="7917574899775263813">Chuyển đến thẻ đã mở gần đây nhất</translation>
 <translation id="7919123827536834358">Tự động dịch những ngôn ngữ này</translation>
+<translation id="7921782882718083488">Tóm tắt trang này</translation>
 <translation id="7926975587469166629">Biệt hiệu của thẻ</translation>
+<translation id="6485598694371328620">iBrowe tự động loại bỏ quyền của các trang web gửi thông báo sai mục đích hoặc các trang web mà gần đây bạn không truy cập</translation>
 <translation id="7929962904089429003">Mở menu</translation>
 <translation id="7934668619883965330">Không thể tải tệp xuống. Định dạng tệp không được hỗ trợ.</translation>
 <translation id="7942131818088350342"><ph name="PRODUCT_NAME"/> đã lỗi thời.</translation>
@@ -1518,6 +1525,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7963646190083259054">Nhà cung cấp:</translation>
 <translation id="2939504940637874963">Bạn có thể dùng mật khẩu đã lưu trên mọi thiết bị. Những mật khẩu này được lưu vào Trình quản lý mật khẩu cho tài khoản <ph name="ACCOUNT"/>.</translation>
 <translation id="7968014550143838305">Đã thêm vào danh sách đọc</translation>
+<translation id="7968982339740310781">Xem chi tiết</translation>
 <translation id="7971136598759319605">Hoạt động 1 ngày trước</translation>
 <translation id="7975379999046275268">Xem trước trang <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
 <translation id="7977451675950311423">Cảnh báo bạn nếu bạn sử dụng mật khẩu đã bị lộ trong một sự cố rò rỉ dữ liệu.</translation>
@@ -1529,8 +1537,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8004582292198964060">Trình duyệt</translation>
 <translation id="8014210850410408071">Tiếp theo, hãy nhập mật khẩu</translation>
 <translation id="8015452622527143194">Trả lại mọi nội dung trên trang về kích thước mặc định</translation>
-<translation id="8017431260099661477">Không mở được đường liên kết của lời mời</translation>
-<translation id="8026238112629815203">Chúng tôi đã thay đổi cách lưu mật khẩu trên thiết bị này</translation>
+<translation id="8025972204417227828">Thêm mới</translation>
 <translation id="8027395186860110042">Các mật khẩu có thể sắp ngừng hoạt động</translation>
 <translation id="8027863900915310177">Chọn vị trí lưu tệp tải xuống</translation>
 <translation id="8030852056903932865">Phê duyệt</translation>
@@ -1547,6 +1554,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8073388330009372546">Mở ảnh trong thẻ mới</translation>
 <translation id="8076492880354921740">Thẻ</translation>
 <translation id="8078096376109663956">Chỉ chia sẻ văn bản</translation>
+<translation id="8078348702936632821">Ghim lối tắt này</translation>
 <translation id="8084114998886531721">Mật khẩu đã lưu</translation>
 <translation id="1718138320251931534">Kiểm soát dữ liệu Tài khoản iBrowe của bạn</translation>
 <translation id="6213630783726251371">Một phần nhật ký duyệt web của bạn có thể không xuất hiện ở đây. Để xem toàn bộ nhật ký duyệt web trên iBrowe, hãy mở nhật ký duyệt web đầy đủ trên iBrowe. Tài khoản iBrowe của bạn cũng có thể có các dạng nhật ký duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
@@ -1559,6 +1567,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="2919733817273403520">Giúp cải thiện hiệu suất và các tính năng của iBrowe</translation>
 <translation id="4565206163201411670">Bạn có muốn hiển thị hoạt động của mình trên iBrowe trong Digital Wellbeing không?</translation>
 <translation id="8118117428362942925">Nếu bạn cần trợ giúp, hãy nhờ cha mẹ (<ph name="PARENT_NAME"/>)</translation>
+<translation id="8120286190326371840">Không có mật khẩu nào bị lộ trên thiết bị này</translation>
 <translation id="8122623268651408616">Sắp xếp theo thứ tự từ mới nhất đến cũ nhất</translation>
 <translation id="8127542551745560481">Chỉnh sửa trang chủ</translation>
 <translation id="8130309322784422030">Thông tin đăng nhập bạn lưu lần trước có thể đã cũ</translation>
@@ -1567,7 +1576,6 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6337533477704327362">Bạn không cần ghi nhớ mật khẩu này. Mật khẩu này sẽ được lưu vào Trình quản lý mật khẩu của iBrowe.</translation>
 <translation id="8152331954420209374">Chuyển đến Ống kính</translation>
 <translation id="6779735068647643024">Xác minh danh tính của bạn để lưu mật khẩu vào Tài khoản iBrowe và sử dụng các mật khẩu đó</translation>
-<translation id="8171286197772512427">Trang Chia sẻ kèm theo phản hồi về bảng tóm tắt đã mở</translation>
 <translation id="8179976553408161302">Enter</translation>
 <translation id="8186512483418048923">Còn lại <ph name="FILES"/> tệp</translation>
 <translation id="8190358571722158785">Còn 1 ngày</translation>
@@ -1582,11 +1590,14 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="4034729701971511794">Bạn có thể chặn những trang web bạn không muốn. iBrowe cũng tự động xoá khỏi danh sách những trang web đã hơn 30 ngày bạn không truy cập. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
 <translation id="8221985041778490865">Đang xoá dữ liệu duyệt web</translation>
 <translation id="8223642481677794647">Trình đơn thẻ nguồn cấp dữ liệu</translation>
+<translation id="82296173028782770">Chỉnh sửa cụm từ tìm kiếm: <ph name="SEARCH_QUERY"/></translation>
 <translation id="8236063039629122676">Giờ đây, bạn có thể vuốt sang phải để quay lại các trang bạn từng truy cập và vuốt sang trái để xem các trang tiếp theo</translation>
 <translation id="8236097722223016103">Thêm vào dấu trang</translation>
 <translation id="8243077599929149377">Thêm tên người dùng của bạn</translation>
+<translation id="8244387390464017490">Tuỳ chỉnh trang thẻ mới</translation>
 <translation id="8250920743982581267">Tài liệu</translation>
 <translation id="8255617931166444521">Các trang web chỉ có thể dùng cookie để xem hoạt động duyệt web của bạn trên trang web của riêng họ</translation>
+<translation id="9186681983690684515">iBrowe đã giúp bạn huỷ đăng ký nhận thông báo</translation>
 <translation id="8258999165172757081">Đã thêm</translation>
 <translation id="2876689296031086375">Vì các trang tải trước đã được mã hóa, nên iBrowe sẽ không tìm hiểu bất cứ điều gì về nội dung trên trang được tải trước. Máy chủ của iBrowe sẽ tìm hiểu những trang web nào đã được tải trước ở chế độ riêng tư. Thông tin này chỉ được dùng để tải trước các trang và không được liên kết với thông tin khác trong Tài khoản iBrowe của bạn.</translation>
 <translation id="8260126382462817229">Thử đăng nhập lại</translation>
@@ -1600,14 +1611,15 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8282297628636750033">Áp dụng giao diện tối khi có thể</translation>
 <translation id="8282950411412455249">Chuyển đến phần cài đặt bảo mật</translation>
 <translation id="8306751933352925837">Các mật khẩu sắp ngừng hoạt động trên thiết bị này. Hãy cập nhật Dịch vụ Google Play để tiếp tục sử dụng mật khẩu. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
-<translation id="8307517230426267469"><ph name="GIVEN_NAME"/> đã xoá thẻ "<ph name="TAB_NAME"/>"</translation>
 <translation id="8310451567823644042">Các mật khẩu sắp ngừng hoạt động</translation>
 <translation id="831192587911042850">Thêm trang web hiện tại vào danh sách các trang web bạn đang theo dõi.</translation>
 <translation id="8320212361750431956">Hoạt động gần đây</translation>
+<translation id="832514020744584629"><ph name="PREF_TITLE"/>  <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
 <translation id="7174809333940729365">iBrowe sẽ cho bạn biết những trang web có thể đang gửi quá nhiều thông báo</translation>
 <translation id="834313815369870491">Không bao giờ dịch các trang web</translation>
 <translation id="8348430946834215779">Sử dụng HTTPS bất cứ khi nào có thể và nhận thông tin cảnh báo trước khi tải những trang web không hỗ trợ HTTPS</translation>
 <translation id="8354977102499939946">Tìm kiếm nhanh bằng giọng nói. Để chính sửa lối tắt này, hãy chuyển đến phần Cài đặt.</translation>
+<translation id="8361737703487394103">Chuyển đến một thẻ cụ thể (1 – 8)</translation>
 <translation id="8368001212524806591">Theo dõi giá</translation>
 <translation id="8368772330826888223">{TAB_GROUP_COUNT,plural, =1{<ph name="TAB_GROUPS_ONE"/> nhóm thẻ}other{<ph name="TAB_GROUPS_MANY"/> nhóm thẻ}}</translation>
 <translation id="8378850197701296741">Tài khoản <ph name="FROM_ACCOUNT"/> của bạn có dấu trang, nhật ký và các chế độ cài đặt khác.</translation>
@@ -1622,7 +1634,6 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8419244640277402268">Bao gồm</translation>
 <translation id="8422250855136581222">Không có thẻ nào trên thiết bị này</translation>
 <translation id="78656282836782594">Công cụ đảm bảo an toàn của iBrowe</translation>
-<translation id="5735840612282428689">Đã gửi trang. Hãy mở iBrowe trên <ph name="DEVICE_TYPE"/> của bạn để xem trang này.</translation>
 <translation id="8427875596167638501">Thẻ xem trước đang mở trên nửa màn hình</translation>
 <translation id="8428213095426709021">Cài đặt</translation>
 <translation id="8430824733382774043">Chỉ chia sẻ ảnh chụp màn hình</translation>
@@ -1636,6 +1647,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8449781591250785734">{NUM_SITES,plural, =1{Đã loại bỏ quyền của 1 trang web}other{Đã loại bỏ quyền của # trang web}}</translation>
 <translation id="8453310803815879010">Bắt đầu Trò chơi Khủng long</translation>
 <translation id="8455675988389029454">Sử dụng dấu trang, mật khẩu và nhiều nội dung khác trên mọi thiết bị của bạn</translation>
+<translation id="8458413889418591446">Để nhanh chóng quay lại các trang web bạn đã truy cập, hãy đồng bộ hoá nhật ký và các thẻ</translation>
 <translation id="7018408824172283743">Tiếp tục sử dụng dữ liệu iBrowe trong Tài khoản iBrowe</translation>
 <translation id="8460448946170646641">Xem xét các chế độ kiểm soát quan trọng đối với quyền riêng tư và tính bảo mật</translation>
 <translation id="8473863474539038330">Địa chỉ và các lựa chọn khác</translation>
@@ -1646,21 +1658,19 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8497242791509864205">Mở tuỳ chọn sắp xếp</translation>
 <translation id="8497480609928300907">Giải thích hướng dẫn về quyền riêng tư</translation>
 <translation id="8497726226069778601">Chưa có gì để xem ở đây...</translation>
-<translation id="230699814587342492">Mật khẩu iBrowe</translation>
 <translation id="8503813439785031346">Tên người dùng</translation>
 <translation id="8505766168025405649">Xem thông báo để biết trạng thái tải xuống</translation>
 <translation id="8506357771923193001">Bạn sẽ thấy tệp đã tải xuống ở đây</translation>
 <translation id="8512053371384421952">Bạn sẽ không còn nhận được thông báo của <ph name="DOMAIN"/>.</translation>
 <translation id="133012818630824069">Xuất mật khẩu đã lưu trữ với iBrowe</translation>
 <translation id="8516012719330875537">Trình chỉnh sửa ảnh</translation>
-<translation id="8521833595674902532">Đã xảy ra lỗi. Không thể hoàn tất nội dung tóm tắt</translation>
 <translation id="8523928698583292556">Xóa mật khẩu đã lưu trữ</translation>
 <translation id="8526855376374973824">Quy trình cấp quyền gửi thông báo</translation>
 <translation id="8533670235862049797">Tính năng Duyệt web an toàn đang bật</translation>
 <translation id="8540136935098276800">Nhập URL có định dạng chính xác</translation>
 <translation id="854522910157234410">Mở trang này</translation>
 <translation id="8547025137714087639">{ARCHIVED_TAB_COUNT,plural, =1{Thẻ không hoạt động (1)}other{Thẻ không hoạt động (#)}}</translation>
-<translation id="8551524210492420949">Phản cảm hoặc không an toàn</translation>
+<translation id="8547466829003330976">Xem xét tệp PDF bằng AI</translation>
 <translation id="5503308854539525011">iBrowe giới hạn tổng lượng dữ liệu mà các trang web có thể chia sẻ thông qua trình duyệt để đo lường hiệu suất quảng cáo</translation>
 <translation id="8559990750235505898">Đề xuất dịch trang viết bằng các ngôn ngữ khác</translation>
 <translation id="8560602726703398413">Tìm danh sách đọc trong phần Dấu trang</translation>
@@ -1678,19 +1688,20 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8611922158252451755">Bất cứ ai có đường liên kết này đều có thể chỉnh sửa tất cả các thẻ. Vì vậy, hãy chia sẻ một cách sáng suốt. Đường liên kết này sẽ hết hạn sau 48 giờ nữa.</translation>
 <translation id="5784514951651328424">Tài khoản iBrowe của bạn có thể có các dạng nhật ký duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="8617240290563765734">Mở URL đề xuất được chỉ định trong nội dung được tải xuống?</translation>
-<translation id="8621068256433641644">điện thoại</translation>
 <translation id="8635399646025169806">Giữ lại nhóm thẻ?</translation>
 <translation id="8636825310635137004">Để có các thẻ từ các thiết bị khác của bạn, hãy bật đồng bộ hóa.</translation>
 <translation id="864544049772947936">Quản lý cửa sổ (<ph name="INSTANCE_COUNTS"/>)</translation>
+<translation id="8662474268934425487">Đăng nhập vào <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="8664979001105139458">Tên tệp đã tồn tại</translation>
 <translation id="3188408398745868028">Một số mật khẩu trên thiết bị này sắp ngừng hoạt động. Bạn có thể di chuyển các mật khẩu này sang Trình quản lý mật khẩu của iBrowe.</translation>
 <translation id="8676276370198826499">Đăng ký trên <ph name="SITE_ETLD_PLUS_ONE"/> bằng tài khoản <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="8676789164135894283">Xác minh việc đăng nhập</translation>
 <translation id="8683039184091909753">hình ảnh</translation>
+<translation id="8688183792442786085"><ph name="TAB_TITLE"/>, thẻ được chọn</translation>
 <translation id="869891660844655955">Ngày hết hạn</translation>
 <translation id="8699120352855309748">Không đề xuất dịch những ngôn ngữ này</translation>
-<translation id="8703372953981978786">Đường liên kết này không hoạt động</translation>
 <translation id="8712637175834984815">Tôi hiểu</translation>
+<translation id="6146670726156522332">Tăng cường mật khẩu trong Tài khoản iBrowe của bạn</translation>
 <translation id="8723453889042591629">Dịch nhanh trang này. Để chỉnh sửa lối tắt này, hãy chạm và giữ.</translation>
 <translation id="8725066075913043281">Thử lại</translation>
 <translation id="8731268612289859741">Mã bảo mật</translation>
@@ -1712,13 +1723,11 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8816556050903368450">Bao gồm đường liên kết: <ph name="ORIGIN"/></translation>
 <translation id="881688628773363275">Không thể xem nội dung trên thẻ Xem trước.</translation>
 <translation id="8820817407110198400">Dấu trang</translation>
-<translation id="1649566745443570310">iBrowe tự động loại bỏ quyền của các trang web lạm dụng và không còn sử dụng</translation>
 <translation id="8835786707922974220">Đảm bảo rằng bạn luôn có thể truy cập các mật khẩu đã lưu</translation>
 <translation id="883806473910249246">Đã xảy ra lỗi khi tải nội dung xuống.</translation>
 <translation id="8840953339110955557">Trang này có thể khác với phiên bản trực tuyến.</translation>
 <translation id="8847988622838149491">USB</translation>
 <translation id="8849001918648564819">Đã ẩn</translation>
-<translation id="8853345339104747198">Thẻ <ph name="TAB_TITLE"/></translation>
 <translation id="8854223127042600341">Xem tệp khi không có mạng</translation>
 <translation id="885480114717186641">Bạn có thể yêu cầu trang web dành cho máy tính cho <ph name="HOST_NAME"/></translation>
 <translation id="8856607253650333758">Tải nội dung mô tả</translation>
@@ -1728,18 +1737,20 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8888527824584402177">Các thẻ mà bạn không dùng đến trong <ph name="DAYS_INACTIVE"/> ngày sẽ được chuyển đến đây<ph name="AUTODELETE_SECTION"/>. Bạn có thể thay đổi chế độ này bất cứ lúc nào trong phần <ph name="SETTINGS_TITLE"/>.</translation>
 <translation id="1984646864943401749">Gửi URL của một số trang bạn truy cập, thông tin về hệ thống (có giới hạn) và một số nội dung trang cho iBrowe, nhằm phát hiện các mối đe dọa mới và bảo vệ mọi người khi dùng web.</translation>
 <translation id="8909135823018751308">Chia sẻ...</translation>
+<translation id="8918299437379122615">Chia sẻ đường liên kết đến trang kết quả tìm kiếm cho: <ph name="SEARCH_QUERY"/>. Nguồn: <ph name="PAGE_URL"/></translation>
 <translation id="8922289737868596582">Tải trang xuống từ nút Thêm tùy chọn để sử dụng ngoại tuyến</translation>
 <translation id="8924575305646776101"><ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
 <translation id="892496902842311796"><ph name="LANG"/> đã sẵn sàng</translation>
 <translation id="1174893863889683998">Bạn có muốn xóa hoạt động của mình trên iBrowe khỏi Digital Wellbeing không?</translation>
 <translation id="8942627711005830162">Mở trong cửa sổ khác</translation>
 <translation id="8945143127965743188"><ph name="LANG"/> – Không thể tải ngôn ngữ này xuống. Hãy thử lại sau.</translation>
+<translation id="8946759102391960088">Sử dụng mật khẩu ở mọi nơi</translation>
+<translation id="85151160756468368">Để tiếp tục sử dụng mật khẩu của bạn, hãy xuất mật khẩu ngay bây giờ rồi nhập vào trình quản lý mật khẩu mà bạn chọn. Trình quản lý mật khẩu của iBrowe đã ngừng hoạt động do thiết bị chưa cài đặt Dịch vụ Google Play.</translation>
 <translation id="8963117664422609631">Chuyển đến phần cài đặt trang web</translation>
 <translation id="8965591936373831584">đang chờ xử lý</translation>
 <translation id="8884660759731273973">Các mật khẩu sắp ngừng hoạt động do thiết bị chưa cài đặt Dịch vụ Google Play. Để sử dụng mật khẩu lưu trong Tài khoản iBrowe của bạn, hãy đăng nhập bằng một thiết bị khác hoặc truy cập vào passwords.google.com.</translation>
 <translation id="8970887620466824814">Đã xảy ra lỗi.</translation>
 <translation id="8972098258593396643">Tải xuống thư mục mặc định?</translation>
-<translation id="8982113230057126145">Nút Không thích gửi phản hồi cho biết bạn không thích nội dung tóm tắt này</translation>
 <translation id="2481553173340651149">Dữ liệu đã được mã hoá bằng cụm mật khẩu của bạn. Nhập cụm mật khẩu để lưu dữ liệu iBrowe vào Tài khoản iBrowe và sử dụng dữ liệu đó.</translation>
 <translation id="8995521496079646922">Theo mặc định, các ứng dụng bạn chọn sẽ được sử dụng. Nếu chưa có trên thiết bị này thì ứng dụng sẽ được tải xuống ngay.</translation>
 <translation id="8996847606757455498">Chọn nhà cung cấp khác</translation>
@@ -1752,6 +1763,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="9022871169049522985">Các trang web và nhà quảng cáo có thể đo lường hiệu suất quảng cáo của họ</translation>
 <translation id="9035378196785279980">Chuyển đến\u2026</translation>
 <translation id="9042893549633094279">Quyền riêng tư và bảo mật</translation>
+<translation id="1612219807314383628">Nhanh chóng bắt đầu tìm kiếm trong iBrowe</translation>
 <translation id="9050666287014529139">Cụm mật khẩu</translation>
 <translation id="9055497320631373736">Đã thêm lại trang web vào danh sách trang tiềm năng</translation>
 <translation id="9057030985451135243">Tìm hiểu về nhóm thẻ được chia sẻ</translation>
@@ -1783,6 +1795,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="9148126808321036104">Đăng nhập lại</translation>
 <translation id="9157212632995922070">Chọn một tài khoản để tiếp tục trên <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="9158770349521403363">Chỉ chia sẻ nội dung</translation>
+<translation id="9161172953291434881">Bạn có tin tưởng trang web này không?</translation>
 <translation id="9168847423516963845">Chuyển thanh địa chỉ xuống dưới cùng</translation>
 <translation id="9169507124922466868">Lịch sử di chuyển đang mở ở nửa dưới màn hình</translation>
 <translation id="4947625801334180582">iBrowe Beta</translation>
@@ -1802,7 +1815,6 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="2830145431802238213">Dùng Chế độ thu gọn trên iBrowe</translation>
 <translation id="928550791203542716">Đang theo dõi <ph name="SITE_NAME"/></translation>
 <translation id="930124987204876019">Xoá nhật ký, cookie, dữ liệu trang web, bộ nhớ đệm…</translation>
-<translation id="93533588269984624">Tất cả mật khẩu sẽ được tải xuống thiết bị của bạn và bị xoá khỏi <ph name="CHROME_CHANNEL"/></translation>
 <translation id="938850635132480979">Lỗi: <ph name="ERROR_CODE"/></translation>
 <translation id="939598580284253335">Nhập cụm mật khẩu</translation>
 <translation id="5406914950576900927">iBrowe có thể sử dụng <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> để tìm kiếm tại Trung Quốc. Bạn có thể thay đổi điều này trong <ph name="BEGIN_LINK"/>Cài đặt<ph name="END_LINK"/>.</translation>
@@ -1812,6 +1824,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="970715775301869095">Còn <ph name="MINUTES"/> phút</translation>
 <translation id="981121421437150478">Ngoại tuyến</translation>
 <translation id="983192555821071799">Đóng tất cả các thẻ</translation>
+<translation id="5022280646675126732">Không thể kiểm tra mật khẩu trong Tài khoản iBrowe của bạn</translation>
 <translation id="987264212798334818">Chung</translation>
 <translation id="992745192656291733"><ph name="TAB_COUNT"/> thẻ</translation>
 <translation id="996149300115483134">Trình đơn thẻ nguồn cấp dữ liệu đang đóng</translation>
@@ -1819,6 +1832,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="79269250264141507">Khi bạn nhập vào thanh địa chỉ hoặc hộp tìm kiếm, iBrowe sẽ gửi nội dung bạn nhập tới công cụ tìm kiếm mặc định của bạn để nhận các đề xuất tốt hơn. Điều này được tắt trong Riêng tư.</translation>
 <translation id="5711390076756601471">Khóa các thẻ Riêng tư khi bạn rời iBrowe</translation>
 <translation id="1014490034578104945">Sử dụng khóa màn hình để xem các thẻ Riêng tư đang mở</translation>
+<translation id="383007806262310953">Hiển thị thanh dấu trang</translation>
 <translation id="5722020415664104421">Chặn khi đang sử dụng chế độ Riêng tư</translation>
 <translation id="8915136961932734044">Ở chế độ Riêng tư, các trang web không thể dùng cookie giám sát hoạt động duyệt web của bạn trên nhiều trang web, ví dụ, để điều chỉnh quảng cáo cho phù hợp với bạn chẳng hạn. Các tính năng trên một số trang web có thể bị hỏng.</translation>
 <translation id="2589970573128789862">iBrowe Riêng tư</translation>
@@ -1836,14 +1850,16 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6302653771627628530">Các tab riêng tư sẽ bị khóa khi bạn rời khỏi iBrowe</translation>
 <translation id="4167670741834902166">Tab Riêng tư mới</translation>
 <translation id="8120164982795455341">Tab Riêng tư mới</translation>
+<translation id="3377025655491224618">Tab Riêng tư</translation>
 <translation id="1988906120194081364">Chuyển sang Riêng tư</translation>
 <translation id="4300497327999623298">Chuyển ra khỏi Riêng tư</translation>
 <translation id="4968908871398201967">Chế độ riêng tư</translation>
 <translation id="8448127664493413656">Nhập chế độ Riêng tư</translation>
 <translation id="6484416399492735324">Rời khỏi chế độ riêng tư</translation>
-<translation id="3377025655491224618">Tab riêng tư</translation>
-<translation id="584427517463557805">Tab riêng tư đã chọn</translation>
+<translation id="4639461638460276789"><ph name="TAB_TITLE"/>, Thẻ riêng tư</translation>
+<translation id="1315014485411054095"><ph name="TAB_TITLE"/>, Thẻ riêng tư đã chọn</translation>
 <translation id="2280910239864711607">Mở một tab mới ở chế độ Riêng tư</translation>
+<translation id="1203189419326478388">Hiển thị hoặc ẩn dấu trang</translation>
 <translation id="5048396920203761159">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> tab riêng tư}
           other {<ph name="TAB_COUNT_NORMAL"/> tab riêng tư}}</translation>
@@ -1861,6 +1877,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7096147642287317420">Chạm và giữ để thoát khỏi chế độ Riêng tư</translation>
 <translation id="2331163878318921124">Nhấn đúp và giữ để thoát khỏi chế độ Riêng tư</translation>
 <translation id="3947065058794437451">Riêng tư không khả dụng trên thiết bị này</translation>
+<translation id="5270319788820204019">Tìm kiếm bằng bàn phím, giọng nói, chế độ Ẩn danh hoặc máy ảnh</translation>
 <translation id="3095878721037212218">Bạn sẽ có thể dễ dàng quản lý các điều khiển phương tiện, phiên Riêng tư, tải xuống và hơn thế nữa</translation>
 <translation id="5129323533070334129">Lưu mật mã bên ngoài Riêng tư?</translation>
 <translation id="4325212706000356062">Tìm kiếm các tab Riêng tư của bạn</translation>

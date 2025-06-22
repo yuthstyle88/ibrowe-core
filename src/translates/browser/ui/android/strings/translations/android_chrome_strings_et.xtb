@@ -2,22 +2,23 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="et">
 <translation id="970556510921078939">Avage iBrowe’i paroolihaldur ja minge seadete menüüsse. Valige „Importimine“ ja lisage eksporditud paroole sisaldav CSV-fail.</translation>
-<translation id="1010225406377140704">Võtke uue lingi küsimiseks ühendust saatjaga</translation>
+<translation id="1010283278930414892">Selles seadmes pole salvestatud paroole</translation>
 <translation id="1011749477052068769">Teisalda siia</translation>
 <translation id="1014147525163127655">Selles seadmes pole saidi <ph name="ORIGIN"/> jaoks ühtegi pääsuvõtit</translation>
 <translation id="1016498331642356377">Otsige kiirelt oma hääle abil. Selle otsetee muutmiseks puudutage pikalt.</translation>
-<translation id="1017104654974573432">Valige probleem</translation>
 <translation id="2566435362010629810">iBrowe'i arendusversioon</translation>
 <translation id="1028699632127661925">Saatmine seadmesse <ph name="DEVICE_NAME"/> …</translation>
 <translation id="103269572468856066">Kas kustutada ka nende saitide ja rakenduste andmed?</translation>
 <translation id="1034259925032978114">Aken on lahti</translation>
 <translation id="1036348656032585052">Lülita välja</translation>
+<translation id="1045448422538531528">Lisa gruppi</translation>
 <translation id="1045899828449635435">Kas kustutada ka nende saitide andmed?</translation>
+<translation id="1052842760770519282">Mõnele teie paroolile ei pääse juurde</translation>
 <translation id="1058669287135776095">Võrguühendus puudub. Kontrollige internetiühendust ja proovige uuesti.</translation>
 <translation id="10614374240317010">Ei ole kunagi salvestatud</translation>
+<translation id="1070689840697074178">PDF-id saate alla laadida siin</translation>
 <translation id="107147699690128016">Kui muudate faililaiendit, võib fail avaneda mõnes teises rakenduses ja teie seadmele ohtu kujutada.</translation>
 <translation id="1080365971383768617">Paroolid kõigis teie seadmetes</translation>
-<translation id="1082920045291562218">Jagamine kokkuvõtte tagasiside lehe abil on suletud</translation>
 <translation id="1087176310396019910">Võimalik rämpspost</translation>
 <translation id="1087799850623149508">Aadressiriba allapoole liigutamiseks puudutage seda pikalt</translation>
 <translation id="1089606299949659462">Ülevaatus on lõpetatud!</translation>
@@ -37,6 +38,7 @@
 <translation id="1142732900304639782">Ära paku nende saitide tõlkimist</translation>
 <translation id="1145536944570833626">Kustutage olemasolevad andmed.</translation>
 <translation id="7083341910267693582"><ph name="APP_NAME"/> avaneb iBrowe'is. Jätkates nõustute <ph name="BEGIN_LINK1"/>iBrowe'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>iBrowe'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>.</translation>
+<translation id="7443574521624544928">Teil pole iBrowe'i paroolihaldurisse paroole salvestatud.</translation>
 <translation id="115483310321669804">Kasutage parooli <ph name="PASSWORD"/></translation>
 <translation id="1173894706177603556">Muuda nime</translation>
 <translation id="7947699437047020219">iBrowe taotleb mobiilisaiti, kui ekraan on kitsas</translation>
@@ -55,13 +57,11 @@
 <translation id="1206892813135768548">Kopeeri lingi tekst</translation>
 <translation id="1209206284964581585">Peida praeguseks</translation>
 <translation id="1227058898775614466">Navigeerimise ajalugu</translation>
-<translation id="1231733316453485619">Kas lülitada sünkroonimine sisse?</translation>
 <translation id="123724288017357924">Praeguse lehe uuesti laadimine, eirates vahemälus olevat sisu</translation>
 <translation id="1239792311949352652">Jagage kiirelt seda lehte. Selle otsetee muutmiseks avage menüü Seaded.</translation>
 <translation id="1240288207750131269">Keele laadimine: <ph name="LANG"/></translation>
 <translation id="124116460088058876">Rohkem keeli</translation>
 <translation id="4078574862195461280">Teie paroolid kustutatakse <ph name="CHROME_CHANNEL"/> puhul iBrowe'i paroolihaldurist. Äsja alla laaditud paroolide fail jääb teile alles.</translation>
-<translation id="1242883863226959074">seadmes</translation>
 <translation id="124678866338384709">Aktiivse vahelehe sulgemine</translation>
 <translation id="1246905108078336582">Kas eemaldada soovitus lõikelaualt?</translation>
 <translation id="1996480094660735607">iBrowe'i Doodle'i vigurlogo: <ph name="DOODLE_DESCRIPTION"/></translation>
@@ -70,14 +70,15 @@
 <translation id="1269129608791067105">Leiate oma ajaloo siit</translation>
 <translation id="1273937721055267968">Blokeeri <ph name="DOMAIN"/></translation>
 <translation id="1283039547216852943">Laiendamiseks puudutage</translation>
-<translation id="194557235473047967">Teil võidakse paluda oma iBrowe'i kontole sisse logida</translation>
+<translation id="1289129165308566697">Vaadake oma ajalugu teistes seadmetes</translation>
 <translation id="129553762522093515">Viimati suletud</translation>
 <translation id="1298077576058087471">Säästke kuni 60% andmemahtu, lugege tänaseid uudiseid</translation>
 <translation id="1303339473099049190">Seda parooli ei leita. Kontrollige õigekirja ja proovige uuesti.</translation>
 <translation id="1303507811548703290"><ph name="DOMAIN"/> – saadetud seadmest <ph name="DEVICE_NAME"/></translation>
+<translation id="130959219150156180">Ajaloos järgmisele lehele liikumine</translation>
+<translation id="1318262688555255786">Jagage veebilehe <ph name="PAGE_TITLE"/> linki. Allikas: <ph name="PAGE_URL"/></translation>
 <translation id="1320912611264252795">Järjehoidja salvestamise voo kaustad on avatud täiskõrgusel</translation>
 <translation id="1327257854815634930">Navigeerimisajalugu on avatud</translation>
-<translation id="1328235593824723509"><ph name="TAB_TITLE"/>, uus või värskendatud vahekaart</translation>
 <translation id="6773423637732432200">iBrowe'i ei saa värskendada. Rohkem valikuid</translation>
 <translation id="3169981355900570544">iBrowe'i funktsioonide otseteed</translation>
 <translation id="1333491156693005331">Hiljuti kontrollitud</translation>
@@ -88,7 +89,7 @@
 <translation id="1347468774581902829">Tegevuste haldamine</translation>
 <translation id="1355088659320425659">Ajalugu ja vahelehed</translation>
 <translation id="1360432990279830238">Login välja ja keelan sünkroonimise?</translation>
-<translation id="1363028406613469049">Rada</translation>
+<translation id="1363028406613469049">Jälgi</translation>
 <translation id="1366525380420346469">Kui on sisse lülitatud</translation>
 <translation id="1373696734384179344">Valitud sisu allalaadimiseks pole piisavalt mäluruumi.</translation>
 <translation id="1376578503827013741">Arvutamine …</translation>
@@ -106,15 +107,12 @@ Kui soovite näha veel seadeid, mis kasutavad andmeid teie iBrowe'i kasutuskogem
 <translation id="1407135791313364759">Ava kõik</translation>
 <translation id="1409879593029778104">Faili <ph name="FILE_NAME"/> ei laaditud alla, kuna fail on juba olemas.</translation>
 <translation id="3219606989239049572">Salvestage andmed oma iBrowe'i kontole</translation>
-<translation id="1853026300647876496">iBrowe'iga ühenduse võtmine. See võib natuke aega võtta …</translation>
 <translation id="1416550906796893042">Rakenduse versioon</translation>
 <translation id="5171187478741797469">Kas taaskäivitada iBrowe?</translation>
 <translation id="1428770807407000502">Kas lülitada sünkroonimine välja?</translation>
 <translation id="1430915738399379752">Printimine</translation>
 <translation id="1435593198351412143">PDF-id avatakse automaatselt</translation>
-<translation id="1436784010935106834">Eemaldatud</translation>
 <translation id="1437543266176261764">Käitatakse rakenduses <ph name="APP_NAME"/></translation>
-<translation id="1448147069872048656">Et pääseksite kõigile oma paroolidele selles seadmes juurde, kinnitage oma isik</translation>
 <translation id="1448440926884431741">Korrastage jälgitavaid tooteid teenusega Bookmarks</translation>
 <translation id="1460751212339734034">Säästke aega, tippige vähem</translation>
 <translation id="5598889255595678761">Valige iBrowe'i keel</translation>
@@ -128,6 +126,7 @@ Kui soovite näha veel seadeid, mis kasutavad andmeid teie iBrowe'i kasutuskogem
 <translation id="1506061864768559482">Otsingumootor</translation>
 <translation id="1513352483775369820">Järjehoidjad ja veebiajalugu</translation>
 <translation id="1513858653616922153">Kustuta parool</translation>
+<translation id="1515901671075971249">Vahelehtedel navigeerimise otseteed</translation>
 <translation id="1521774566618522728">Aktiivne täna</translation>
 <translation id="5840742727909553422">Saadaval on iBrowe'i uus versioon</translation>
 <translation id="1540012742443808215">Aadressiriba hetkel üleval</translation>
@@ -135,19 +134,19 @@ Kui soovite näha veel seadeid, mis kasutavad andmeid teie iBrowe'i kasutuskogem
 <translation id="3748360913454941567">Makseviise ja aadresse ei krüpteerita. iBrowe’i sirvimisajalugu ei sünkroonita.
 Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Parooli ei saadeta iBrowe’ile ja iBrowe ei salvesta seda. Kui parooli unustate või soovite seda seadet muuta, <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe’i andmed<ph name="END_LINK"/>.</translation>
 <translation id="8090895580117672212">Oma iBrowe'i konto haldamiseks puudutage nuppu „Konto haldamine”</translation>
-<translation id="154513667535157406">Meeldivaks märkimine saadab tagasiside, et see kokkuvõte meeldib teile</translation>
 <translation id="1549000191223877751">Teisalda teise aknasse</translation>
 <translation id="1705567146636171298">Värskenda iBrowe'i</translation>
 <translation id="2509230690562869141">Aidake täiustada iBrowe'i inimeste jaoks, kes kasutavad seda nagu teie</translation>
 <translation id="1568636008098739136">Kuulake seda lehte. Selle otsetee muutmiseks puudutage pikalt.</translation>
 <translation id="1571041387761170095">Nõrku ega korduvalt kasutatud paroole pole</translation>
 <translation id="1571304935088121812">Kasutajanime kopeerimine</translation>
-<translation id="1668445593689059872">Praegu ei saa sellesse seadmesse salvestatud paroole iBrowe'i kanalites kasutada. Pärast versiooni iBrowe 125 liidetakse teie seadmesse iBrowe'i ja kanali <ph name="CHROME_CHANNEL"/> jaoks salvestatud paroolid ning neid saab kasutada mõlemas rakenduses.</translation>
+<translation id="1578591621182011812">{NUM_PASSWORDS,plural, =1{Selles seadmes on üks ohustatud parool}other{Selles seadmes on # ohustatud parooli}}</translation>
 <translation id="1594635596540195766"><ph name="SUGGESTIONS_COUNT"/> soovitatud üksust allolevas loendis.</translation>
 <translation id="1598163867407640634">Kasutage saiti <ph name="SITE_ETLD_PLUS_ONE"/> kontoga <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="1851107663393500801">Kui see on sees, saate andmeid oma iBrowe'i kontol kasutada ja salvestada. Kui see on väljas, salvestatakse andmed ainult sellesse seadmesse.</translation>
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Eemalda 1 valitud üksus}other{Eemalda # valitud üksust}}</translation>
 <translation id="9102838806351154392">{BOOKMARKS_COUNT,plural, =1{1 järjehoidja ja muud üksused on salvestatud ainult sellesse seadmesse. Nende kasutamiseks muudes seadmetes salvestage need oma iBrowe'i kontole <ph name="ACCOUNT_EMAIL"/>.}other{# järjehoidjat ja muud üksused on salvestatud ainult sellesse seadmesse. Nende kasutamiseks muudes seadmetes salvestage need oma iBrowe'i kontole <ph name="ACCOUNT_EMAIL"/>.}}</translation>
+<translation id="1639239467298939599">Laadimine</translation>
 <translation id="1641113438599504367">Ohutu sirvimine</translation>
 <translation id="164269334534774161">Vaatate selle lehe võrguühenduseta koopiat kuupäevast <ph name="CREATION_TIME"/></translation>
 <translation id="1644574205037202324">Ajalugu</translation>
@@ -163,6 +162,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="1718835860248848330">Viimase tunni jooksul</translation>
 <translation id="1724977129262658800">Parooli muutmiseks avage</translation>
 <translation id="6493900814829428590">Kui iBrowe eellaadib lehed, mida võite arvatavasti külastada, võimaldab see teil kiiremini sirvida ja otsida</translation>
+<translation id="1732514748744806741">Kui teie paroolid on ohus, anname teile sellest teada</translation>
 <translation id="1747593111377567311">{NUM_SITES,plural, =1{1 sait saatis hiljuti palju märguandeid}other{# saiti saatis hiljuti palju märguandeid}}</translation>
 <translation id="1749561566933687563">Järjehoidjate sünkroonimine</translation>
 <translation id="12433225238423439">Jätkake paroolide kasutamist iBrowe'i kontol</translation>
@@ -203,7 +203,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="1925021887439448749">Sisestage kohandatud veebiaadress</translation>
 <translation id="1928618076168182477">Näidatakse visuaalset vaadet</translation>
 <translation id="1928696683969751773">Värskendused</translation>
-<translation id="1933845786846280168">Valitud vaheleht</translation>
 <translation id="1939549834451474504">Paroolid peagi enam ei tööta, kuna Google Play teenused pole saadaval. Võite oma salvestatud paroolidest koopia teha, enne kui need enam ei tööta. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="1943432128510653496">Paroolide salvestamine</translation>
 <translation id="1944535645109964458">Saadaval pole ühtegi pääsuvõtit</translation>
@@ -239,7 +238,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2111511281910874386">Minge lehele</translation>
 <translation id="2119609734654412418">Oma järjehoidjad leiate siit</translation>
 <translation id="2122601567107267586">Rakendust ei õnnestunud avada</translation>
-<translation id="2132122640199389833">Eemalda kõik lingitud seadmed</translation>
 <translation id="213279576345780926"><ph name="TAB_TITLE"/> suleti</translation>
 <translation id="2141396931810938595">Kasutuse põhjal</translation>
 <translation id="5905359144499324202">iBrowe kontrollib regulaarselt, kas teie brauseril on kõige turvalisemad seaded. Anname teile teada, kui midagi tuleb üle vaadata.</translation>
@@ -278,7 +276,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2321086116217818302">Paroolide ettevalmistamine …</translation>
 <translation id="2323763861024343754">Saidi salvestusruum</translation>
 <translation id="2328474416100889417">Kõik kasutajad kaotavad vahelehegrupile „<ph name="GROUP_NAME"/>“ kohe juurdepääsu ja kõik kutselingid lülitatakse välja</translation>
-<translation id="2328985652426384049">Ei saa sisse logida</translation>
 <translation id="2332515770639153015">Täiustatud ohutu sirvimine on sisse lülitatud</translation>
 <translation id="233375395665273385">Kustuta ja logi välja</translation>
 <translation id="2341410551640223969">Rakendust <ph name="WEBAPK_NAME"/> ei saanud installida.</translation>
@@ -289,11 +286,12 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2362083820973145409">Sisse logitud kasutajana <ph name="USER_NAME"/>. <ph name="USER_EMAIL"/>. Avab seaded.</translation>
 <translation id="351551888962017708">Rohkem lehti eellaaditakse. Lehed võidakse eellaadida iBrowe'i serverite kaudu, kui muud saidid või rakendused seda taotlevad.</translation>
 <translation id="2366554533468315977">Selle valiku hinnaajalugu kogu veebis</translation>
+<translation id="2367818124433749493">Arendaja tööriistade otseteed</translation>
 <translation id="2385605401818128172">Saate üle vaadata saidid, mis saadavad palju märguandeid, ja takistada nende saatmist tulevikus</translation>
 <translation id="2386938421315164605">Teemade peitmine ja peidust välja toomine</translation>
 <translation id="2390510615457643724">Kas soovite faili <ph name="FILE_NAME"/> (<ph name="FILE_SIZE"/>) uuesti alla laadida?</translation>
-<translation id="2395004545133500011">Kokkuvõtte jagamise leht on avatud</translation>
 <translation id="2410754283952462441">Konto valimine</translation>
+<translation id="2413014528833954543">Selles seadmes ei saa paroole kontrollida</translation>
 <translation id="2414886740292270097">Tume</translation>
 <translation id="2421705177906985956">Praegu ei ole kuvamiseks ühtegi saiti</translation>
 <translation id="2426805022920575512">Vali muu konto</translation>
@@ -307,6 +305,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2453860139492968684">Valmis</translation>
 <translation id="2461378706168271257">Otsige vahelehti</translation>
 <translation id="2461822463642141190">Praegune</translation>
+<translation id="2463770278804271243">LEHT</translation>
 <translation id="2468444275314013497">Teie brauser näib turvaline</translation>
 <translation id="2542068854151299295">iBrowe'i parimal moel kasutamiseks logige sisse</translation>
 <translation id="247737702124049222">Pildikirjeldused on sisse lülitatud</translation>
@@ -325,9 +324,9 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2527209463677295330">Kaasates rohkem lehe teksti võite näha paremaid tulemusi</translation>
 <translation id="2527779675047087889">Peida lõikelaua sisu</translation>
 <translation id="2532336938189706096">Veebi kuva</translation>
-<translation id="2534155362429831547"><ph name="NUMBER_OF_ITEMS"/> üksust kustutati</translation>
 <translation id="253498598929009420">Sait näeb teie ekraanikuval olevat sisu</translation>
 <translation id="2536728043171574184">Kuvatakse on lehe võrguühenduseta koopia</translation>
+<translation id="2542548955756682219"><ph name="TAB_TITLE"/>, vaheleht</translation>
 <translation id="2546283357679194313">Küpsised ja saidi andmed</translation>
 <translation id="1272534541032649011">Teie profiililukk kaitseb autos teie teavet, sh paroole, makseid ja muud, mis on salvestatud teie iBrowe'i kontole.</translation>
 <translation id="254973855621628293">Sellesse seadmesse salvestatud paroolid</translation>
@@ -354,18 +353,15 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2647434099613338025">Lisa keel</translation>
 <translation id="2650077116157640844">Muud saidid sünkroonitud seadmetes</translation>
 <translation id="2650348088770008516">Privaatsusjuhendi selgitus on suletud</translation>
-<translation id="2650408372219180431">Sellesse seadmesse salvestatud paroolide eksportimine ja kustutamine</translation>
 <translation id="2650751991977523696">Kas soovite faili uuesti alla laadida?</translation>
 <translation id="265156376773362237">Standardne eellaadimine</translation>
-<translation id="2653659639078652383">Esita</translation>
 <translation id="2656405586795711023">Veebirakendused</translation>
 <translation id="2664252182805397291">Kuva saidid</translation>
 <translation id="2666092431469916601">Üles</translation>
 <translation id="2669454659051515572">Kõik inimesed, kes seda seadet kasutavad, näevad allalaaditud faile</translation>
 <translation id="2677748264148917807">Lahku</translation>
+<translation id="2687009626279857299">Ei tööta enam selles seadmes</translation>
 <translation id="2702516483241149200">Uus: jagage linki, millega keritakse selle teksti juurde</translation>
-<translation id="2705073298859543115">Kokkuvõtte loomine</translation>
-<translation id="3769942772151914580">Reaalajas ja ennetav kaitse ohtlike saitide, allalaadimiste ja laienduste eest, mis põhineb teie sirvimisandmetel, mis saadetakse iBrowe'ile</translation>
 <translation id="2708226184420201102">Avamine brauseris <ph name="PRODUCT_NAME"/></translation>
 <translation id="271033894570825754">Uus</translation>
 <translation id="2718352093833049315">Ainult WiFi-ga</translation>
@@ -404,7 +400,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2883644600102358131">Paroolid peagi selles seadmes enam ei tööta. Oma paroolide kasutamise jätkamiseks värskendage Google Play teenuseid.</translation>
 <translation id="8541922081612557424">Teave iBrowe'i kohta</translation>
 <translation id="2891154217021530873">Peata lehe laadimine</translation>
-<translation id="4013614219085422040">iBrowe võib kasutada teie ajalugu otsingu ja muude iBrowe'i teenuste isikupärastamiseks</translation>
 <translation id="2894821468041866720">Ei aeglusta märgatavalt teie brauserit ega seadet.</translation>
 <translation id="2895521649038438824">Saate seda lehte kuulata</translation>
 <translation id="2899252057552912621">Paroolid peagi enam ei tööta, kuna Google Play teenused pole saadaval. Võite oma salvestatud paroolidest koopia teha, enne kui need enam ei tööta.</translation>
@@ -422,7 +417,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2942036813789421260">Eelvaate vaheleht on suletud</translation>
 <translation id="2951071800649516099">Lisage lugemisloendisse lehti, mida hiljem lugeda</translation>
 <translation id="2954586176076923855">Teisalda aadressiriba üles</translation>
-<translation id="2956070106555335453">Kokkuvõte</translation>
 <translation id="2961208450284224863">{READING_LIST_UNREAD_PAGE_COUNT,plural, =1{<ph name="READING_LIST_UNREAD_PAGE_COUNT_ONE"/> lugemata leht}other{<ph name="READING_LIST_UNREAD_PAGE_COUNT_MANY"/> lugemata lehte}}</translation>
 <translation id="2972109037780336501">Eemalda load automaatselt</translation>
 <translation id="9016397405981579308">Teatud iBrowe’i andmeid pole veel teie iBrowe’i kontole salvestatud.\nOodake enne väljalogimist mõni minut. Kui logite kohe välja, siis need andmed kustutatakse.</translation>
@@ -432,7 +426,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="2981364137500752533">Teil võib olla kuni viis akent.</translation>
 <translation id="2983102365694924129">Põhinevad teie tegevusel konkreetsel saidil. See seade on välja lülitatud.</translation>
 <translation id="5948666439178419683">Kaasa ümbritsev tekst iBrowe'i otsingutesse</translation>
-<translation id="2988638966064514052">Tugevdage oma paroole</translation>
 <translation id="2989523299700148168">Hiljuti külastatud</translation>
 <translation id="2992473221983447149">Piltide kirjeldused</translation>
 <translation id="2996291259634659425">Parooli loomine</translation>
@@ -446,7 +439,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3037177537145227281">Jälgite hinda</translation>
 <translation id="3251012123600267109">Kuvatakse viibad iBrowe'i sisselogimiseks</translation>
 <translation id="3038272154009688107">Kuva kõik saidid</translation>
-<translation id="3059531648236115056">Lisa kokkuvõte</translation>
 <translation id="3060635849835183725">{BOOKMARKS_COUNT,plural, =1{<ph name="BOOKMARKS_COUNT_ONE"/> järjehoidja}other{<ph name="BOOKMARKS_COUNT_MANY"/> järjehoidjat}}</translation>
 <translation id="6153252609477956632">Teie huvidega seotud artiklid iBrowe'is</translation>
 <translation id="3066573403916685335">Liiguta allapoole</translation>
@@ -455,12 +447,12 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="1094255666887095087"><ph name="APP_NAME"/> avaneb iBrowe'is. Jätkates nõustute <ph name="BEGIN_LINK1"/>iBrowe'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>iBrowe'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>. Kehtivad ka <ph name="BEGIN_LINK3"/>privaatsuseeskirjad<ph name="END_LINK3"/>.</translation>
 <translation id="3080525922482950719">Saate lehed salvestada, et neid hiljem või võrguühenduseta lugeda</translation>
 <translation id="3087734570205094154">Alaserv</translation>
+<translation id="3088687687599869821">LEHEL NAVIGEERIMINE</translation>
 <translation id="3091010850649238832">Kuva lõikelaua sisu</translation>
 <translation id="821565628224723530">Mõned pildid saadetakse kirjelduste täiendamiseks iBrowe'ile</translation>
 <translation id="3114507951000454849">Lugege tänaseid uudiseid <ph name="NEWS_ICON"/></translation>
 <translation id="3122883569442693641">Rohkem üksikasju</translation>
 <translation id="3123734510202723619">Teadaanded</translation>
-<translation id="3131961580615093332"><ph name="GIVEN_NAME"/> muutis vahelehte „<ph name="TAB_NAME"/>”</translation>
 <translation id="3148237711805373460">Vii mind sinna</translation>
 <translation id="5063487983358782016">iBrowe'i avaleht</translation>
 <translation id="3158667104057012316">Sortimine käsitsi järjestuse järgi</translation>
@@ -471,10 +463,12 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3169472444629675720">Discover</translation>
 <translation id="2092041395892578327">{PASSWORDS_COUNT,plural, =1{1 parool ja muud üksused on salvestatud ainult sellesse seadmesse. Nende kasutamiseks muudes seadmetes salvestage need oma iBrowe'i kontole <ph name="ACCOUNT_EMAIL"/>.}other{# parooli ja muud üksused on salvestatud ainult sellesse seadmesse. Nende kasutamiseks muudes seadmetes salvestage need oma iBrowe'i kontole <ph name="ACCOUNT_EMAIL"/>.}}</translation>
 <translation id="3187472288455401631">Reklaamide mõõtmine</translation>
+<translation id="3189635831478931757">Vahelehegrupp <ph name="GROUP_TITLE"/></translation>
 <translation id="3207960819495026254">Järjehoidjatesse lisatud</translation>
 <translation id="3208584281581115441">Kontrolli kohe</translation>
 <translation id="3211426585530211793"><ph name="ITEM_TITLE"/> kustutati</translation>
 <translation id="3220943972464248773">Paroolide sünkroonimiseks kinnitage oma isik</translation>
+<translation id="323213525320714789">ARENDAJA</translation>
 <translation id="3232293466644486101">Sirvimisandmete kustutamine …</translation>
 <translation id="3232754137068452469">Veebirakendus</translation>
 <translation id="3236059992281584593">Jäänud on 1 minut</translation>
@@ -511,18 +505,21 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3398320232533725830">Järjehoidjate halduri avamine</translation>
 <translation id="3414952576877147120">Suurus:</translation>
 <translation id="3421726884497337397">Valige, millal kolmandate osapoolte küpsiseid blokeerida</translation>
-<translation id="342220687432920852">{HOURS,plural, =1{# h tagasi}other{# h tagasi}}</translation>
 <translation id="3430670036890315772">Profiililuku väljalülitamine eemaldab teie salvestatud teabe</translation>
 <translation id="3435465986463792564">Kas teil on palju aknaid? Saate neid kõiki siin hallata.</translation>
+<translation id="4114256890962999877">Paroolide kasutamise jätkamiseks eksportige need, värskendage iBrowe Play teenused ja importige need uuesti iBrowe'i paroolihaldurisse. <ph name="BEGIN_LINK"/>Lugege juhiseid<ph name="END_LINK"/>.</translation>
 <translation id="3435738964857648380">Turvalisus</translation>
+<translation id="3435914367318771664">Vahelehe lisamine uude gruppi</translation>
 <translation id="3439276997620616816">Oma hiljutised vahelehed leiate siit</translation>
 <translation id="3443221991560634068">Praeguse lehe uuesti laadimine</translation>
 <translation id="3444179773590444986">Kas soovite saitide tumeda teema kohta tagasisidet jagada?</translation>
+<translation id="3448874648066942074">Lehe kokkuvõte AI abil</translation>
 <translation id="7384339501748168186">Teie privaatsuse kaitsmiseks ei sisesta iBrowe sellele väljale automaatselt parooli.</translation>
 <translation id="3467081767799433066">Reklaamide mõõtmise puhul jagatakse reklaamide toimivuse mõõtmiseks saitide vahel piiratud andmetüüpe, näiteks kas sooritasite ostu pärast saidi külastamist.</translation>
 <translation id="3474624961160222204">Jätka kasutajana <ph name="NAME"/></translation>
 <translation id="3478363558367712427">Võite valida oma otsingumootori</translation>
 <translation id="3479552764303398839">Mitte praegu</translation>
+<translation id="6165882953768534820">Eksporditud fail võib olla juurdepääsetav teistele, sh rakendustele. Eksportimise järel kustutatakse iBrowe'ist teie paroolid.</translation>
 <translation id="3488199663160411179">nimi</translation>
 <translation id="3493531032208478708"><ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/> soovitatud sisu kohta</translation>
 <translation id="3495219333887281978">Sisselogimise alumine leht on avatud poolel kõrgusel.</translation>
@@ -533,7 +530,9 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3513019849832307207">Liitu ja ava</translation>
 <translation id="3513704683820682405">Liitreaalsus</translation>
 <translation id="3516053221628030540">Avage Google Play</translation>
+<translation id="351672147489633468">{NUM_REVOKED_PERMISSIONS,plural, =1{Märguandeload eemaldati ühelt saidilt, mida te pole hiljuti külastanud}other{Märguandeload eemaldati # saidilt, mida te pole hiljuti külastanud}}</translation>
 <translation id="3518985090088779359">Nõustu ja jätka</translation>
+<translation id="351952459507671940">Uude gruppi lisamine</translation>
 <translation id="3521388823983121502">Ei saa teenusega <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> jätkata</translation>
 <translation id="3522247891732774234">Värskendus on saadaval. Rohkem valikuid</translation>
 <translation id="3888465267851728698">Sünkroonimise võite seadetes igal ajal lõpetada. iBrowe võib Otsingut ja muid teenuseid teie ajaloo alusel isikupärastada.</translation>
@@ -546,8 +545,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3557336313807607643">Lisa kontaktidesse</translation>
 <translation id="3563767357928833671">Lõikelaua sisu on kuvatud</translation>
 <translation id="3566639033325271639">Seadete värskendamine</translation>
-<translation id="3568945271227339929">Ükski parool ei ole ohus</translation>
-<translation id="357465026686164600">Telefon turvavõtmena</translation>
+<translation id="3575464060651642446">Selles seadmes paroolide kontrollimine…</translation>
 <translation id="3577473026931028326">Midagi läks valesti. Proovige uuesti.</translation>
 <translation id="3577558748185201054">Hallake oma huvisid ja eelistusi</translation>
 <translation id="3587482841069643663">Kõik</translation>
@@ -557,6 +555,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3619255692378312441">Juurdepääsu haldamine</translation>
 <translation id="3622349720008044802">Akende haldamine</translation>
 <translation id="3623240789707551553">{DOMAIN_COUNT,plural, =1{ja veel üks sait}other{ja veel # saiti}}</translation>
+<translation id="3627893290277153986">Lehe salvestamiseks valikute avamine</translation>
 <translation id="3631987586758005671">Jagamine seadmega <ph name="DEVICE_NAME"/></translation>
 <translation id="363484704507524488">Saate hallata identiteedikontrolli vargusevastase kaitse seadetes. <ph name="BEGIN_LINK"/>Ava seaded<ph name="END_LINK"/></translation>
 <translation id="871233388178581868">iBrowe saab teie paroole kontrollida, kui olete need salvestanud</translation>
@@ -574,14 +573,15 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3701167022068948696">Paranda kohe</translation>
 <translation id="3701515417135397388">Saate hoiatuse, kui parool on andmetega seotud rikkumise tõttu ohtu sattunud</translation>
 <translation id="3703166520839776970">Kui probleem kordub, tehke teenuselt <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> lisateabe saamiseks allpool valik „Rohkem üksikasju”.</translation>
+<translation id="3708100450779900829">Kui teie seade on volditud, saate teha valiku või puudutada pikalt aadressiriba, et muuta asendit</translation>
 <translation id="3710501561113687889">Jätkamiseks jagab <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> selle saidiga teie andmeid (<ph name="FIELDS_STRING"/>).</translation>
 <translation id="3710560693796335511">Koostöö</translation>
 <translation id="3714981814255182093">Leiuriba avamine</translation>
 <translation id="7305861879874805497">Võite näha ajalugu muudest rakendustest, mis avavad linke iBrowe'is.</translation>
-<translation id="3720422586473670527">Tänan, ei</translation>
 <translation id="8397843425685839889">Teie ja iBrowe</translation>
 <translation id="3737319253362202215">Tõlke seaded</translation>
 <translation id="3738139272394829648">Puudutage otsimiseks</translation>
+<translation id="4890062597702688591">Teie iBrowe'i kontol ei ole ohustatud paroole</translation>
 <translation id="3739899004075612870">Teenuses <ph name="PRODUCT_NAME"/> järjehoidj. lisatud</translation>
 <translation id="3740525748616366977">Selles seadmes pole häälotsing saadaval</translation>
 <translation id="376561056759077985">Teatud andmeid pole veel salvestatud</translation>
@@ -606,6 +606,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3856096718352044181">Veenduge, et tegemist oleks kehtiva teenusepakkujaga, või proovige hiljem uuesti</translation>
 <translation id="3858860766373142691">Nimi</translation>
 <translation id="3863527519275151528">Märguande töötlemine</translation>
+<translation id="3866863539038222107">Uuri</translation>
 <translation id="3870908470613821006">Kõik kaotavad kohe juurdepääsu vahelehegrupile „<ph name="GROUP_NAME"/>“ ja see kustutatakse kõigist seadmetest</translation>
 <translation id="3873174561423636563">Jätkamiseks jagab <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> selle saidiga teie andmeid (<ph name="FIELDS_STRING"/>). Vaadake selle saidi <ph name="BEGIN_LINK1"/>teenusetingimusi<ph name="END_LINK1"/>.</translation>
 <translation id="3892148308691398805">Kopeeri tekst</translation>
@@ -614,7 +615,6 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3902562446536395999">Sortimine A-st Z-ni</translation>
 <translation id="3908308510347173149">Värskenda rakendust <ph name="PRODUCT_NAME"/></translation>
 <translation id="3911609878849982353">Sortimine Z-st A-ni</translation>
-<translation id="3918415141610210050">Tabulaator</translation>
 <translation id="3924911262913579434"><ph name="SAFE_BROWSING_MODE"/> on sisse lülitatud</translation>
 <translation id="3927692899758076493">Sans Serif</translation>
 <translation id="3928666092801078803">Minu andmete kombineerimine</translation>
@@ -623,6 +623,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="393697183122708255">Lubatud häälotsing pole saadaval</translation>
 <translation id="3950820424414687140">Logige sisse</translation>
 <translation id="395377504920307820">Kasuta ilma kontota</translation>
+<translation id="3955219620682768253">Ajaloos eelmisele lehele liikumine</translation>
 <translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{iBrowe laadib teie lehe, kui see on valmis}other{iBrowe laadib teie lehed, kui need on valmis}}</translation>
 <translation id="1453002554835005700">iBrowe ei saa teie paroole kontrollida</translation>
 <translation id="3969863827134279083">Liiguta üles</translation>
@@ -633,11 +634,11 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="3985215325736559418">Kas soovite faili <ph name="FILE_NAME"/> uuesti alla laadida?</translation>
 <translation id="3987993985790029246">Kop. link</translation>
 <translation id="4000212216660919741">Võrguühenduseta avaleht</translation>
+<translation id="5267293611589304570">{NUM_PASSWORDS,plural, =1{Teie iBrowe'i kontol on 1 ohustatud parooli}other{Teie iBrowe'i kontol on # ohustatud parooli}}</translation>
 <translation id="4016425174436051808">Ei saanud jälgida. Midagi läks valesti.</translation>
 <translation id="4024768890073681126">Sinu brauserit haldab sinu vanem</translation>
 <translation id="4034817413553209278">{HOURS,plural, =1{# h}other{# h}}</translation>
 <translation id="4042941173059740150">Minge saidile <ph name="SITE_ETLD_PLUS_ONE"/> kontoga <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
-<translation id="404352903042073578">Nimetu grupp</translation>
 <translation id="4044708993631234325">Alumine leht</translation>
 <translation id="4045441967987592849">Ava uuesti</translation>
 <translation id="4052419222954753986">{NUMBER_OF_TABS,plural, =1{<ph name="TABS_COUNT_ONE"/> uue tegevusega standardne vaheleht jagatud vahelehegruppides}other{<ph name="TABS_COUNT_MANY"/> uue tegevusega standardset vahelehte jagatud vahelehegruppides}}</translation>
@@ -672,6 +673,7 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="4195643157523330669">Ava uuel vahelehel</translation>
 <translation id="4197828496439691735">{NUM_TABS,plural, =1{1 vahekaart selles seadmes}other{# vahekaarti selles seadmes}}</translation>
 <translation id="4198423547019359126">Ükski allalaadimise asukoht ei ole saadaval</translation>
+<translation id="4209029522667123437"><ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> • Kasutasite sellel saidil</translation>
 <translation id="1675646381334855139">Kui lubate küpsised, võib iBrowe neid kasutada eellaadimise jaoks.</translation>
 <translation id="4216511743389425832">Kuulake seda lehte</translation>
 <translation id="4225725533026049334">Jälgitav</translation>
@@ -688,7 +690,9 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="4269820728363426813">Kopeeri lingi aadress</translation>
 <translation id="4270730597186910506">Jälgige toodet või tühistage selle jälgimine.</translation>
 <translation id="4277529130885813215">Kasuta teist seadet</translation>
+<translation id="427987768447457592">Uus vahelehegrupp</translation>
 <translation id="6553929648301062677">Teie organisatsioon <ph name="MANAGED_DOMAIN"/> haldab kontot, millele sisse logite, ja iBrowe'i kasutamist. Teie administraator saab teatud funktsioone seadistada või piirata.</translation>
+<translation id="4285498937028063278">Vabasta</translation>
 <translation id="4285846616383034558">Küpsised, vahemälu ja muud saidiandmed</translation>
 <translation id="4291407919474070700"><ph name="BEGIN_LINK"/>Androidi seadetes ekraaniluku sisselülitamine<ph name="END_LINK"/></translation>
 <translation id="4298388696830689168">Lingitud saidid</translation>
@@ -723,13 +727,10 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="4452411734226507615">Vahelehe <ph name="TAB_TITLE"/> sulgemine</translation>
 <translation id="4452548195519783679">Lisatud järjehoidjana kausta <ph name="FOLDER_NAME"/></translation>
 <translation id="4460861538906892109">{ITEMS_COUNT,plural, =1{1 järjehoidja}other{# järjehoidjat}}</translation>
-<translation id="4461614516424362539">Kui lingite QR-koodi kaudu muu seadme, saab see seade telefoni turvavõtmena kasutada. Kui selle eemaldate, peate linkimiseks QR-koodi uuesti skannima.</translation>
 <translation id="4478161224666880173">Võite sellel saidil kasutada oma teenuse <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> kontot. Jätkamiseks logige sisse aadressile <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
 <translation id="3133489217401741157">iBrowe'i jaoks installitakse moodulit <ph name="MODULE"/> …</translation>
-<translation id="4481181637083926190">{BOOKMARK_COUNT,plural, =1{Järjehoidja salvestati kausta „<ph name="FOLDER_NAME"/>“. See salvestatakse ainult sellesse seadmesse.}other{Järjehoidjad salvestati kausta „<ph name="FOLDER_NAME"/>“. Need salvestatakse ainult sellesse seadmesse.}}</translation>
 <translation id="4484496141267039529">Ühendus puudub. Proovige hiljem uuesti.</translation>
 <translation id="53119194224775367">Kõik iBrowe'i rakenduse andmed kustutatakse jäädavalt. See hõlmab kõiki faile, seadeid, kontosid, andmebaase jms.</translation>
-<translation id="4489640160615759754">Kokkuvõtte jagamise leht</translation>
 <translation id="4494806687727322324">Administraator on paroolide salvestamise sisse lülitanud</translation>
 <translation id="4508528996305412043">Voo kaardimenüü on avatud</translation>
 <translation id="4509741852167209430">Reklaamide toimivuse mõõtmiseks jagatakse saitide vahel piiratud andmetüüpe, näiteks kas sooritasite ostu pärast saidi külastamist</translation>
@@ -738,10 +739,10 @@ Teie krüpteeritud andmeid saab lugeda ainult isik, kes teab teie parooli. Paroo
 <translation id="1664855196866195614">Valitud andmed eemaldati iBrowe'ist ja teie sünkroonitud seadmetest.
 
 Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie iBrowe'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja tegevused muudes iBrowe'i teenustes.</translation>
-<translation id="452279259461584111">Kokkuvõtte jagamise leht on suletud</translation>
 <translation id="4523326818319942067">viimase tunni jooksul</translation>
 <translation id="452750746583162491">Vaadake oma sünkroonitud andmed üle</translation>
 <translation id="4532845899244822526">Kausta valimine</translation>
+<translation id="4535755320005483982">Jagatud vahelehegrupp <ph name="GROUP_TITLE"/></translation>
 <translation id="4543131175509360848">Pääsuvõtmete puudumise leht</translation>
 <translation id="4558311620361989323">Veebilehe otseteed</translation>
 <translation id="4565377596337484307">Peida parool</translation>
@@ -754,7 +755,6 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="2724914440849807699">iBrowe'i konto viga</translation>
 <translation id="4601095002996233687">Põhjalikud kontrollid kahtlaste allalaadimiste korral.</translation>
 <translation id="3047078595137661468">Kui sait või rakendus palub lehel olevad lingid privaatselt eellaadida, krüpteerib iBrowe need lehed ja laadib need iBrowe'i serverite kaudu ilma küpsisefailideta. See peidab teie identiteedi eellaaditud saidi eest.</translation>
-<translation id="2782276843156939908">Teie iBrowe’i ja kanali <ph name="CHROME_CHANNEL"/> salvestatud paroolide loendid liideti. Saate endiselt kõiki salvestatud paroole mõlemas rakenduses automaattäita.</translation>
 <translation id="4616150815774728855">Ava <ph name="WEBAPK_NAME"/></translation>
 <translation id="4619564267100705184">Kinnitage, et see olete teie</translation>
 <translation id="4634124774493850572">Kasuta parooli</translation>
@@ -764,18 +764,19 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="465657074423018424">iBrowe'i ohutu sirvimine kaitseb teid petlike veebisaitide eest. Kui selle välja lülitate, olge sirvimisel väga ettevaatlik (eriti siis, kui sisestate paroole).</translation>
 <translation id="4662373422909645029">Hüüdnimes ei tohi olla numbreid</translation>
 <translation id="4663756553811254707"><ph name="NUMBER_OF_BOOKMARKS"/> järjehoidjat kustutati</translation>
-<translation id="4664020984660113387">Kokkuvõtte eemaldamine</translation>
 <translation id="4668279686271488041">Reklaamide mõõtmise andmed kustutatakse regulaarselt teie seadmest</translation>
 <translation id="4668347365065281350">Kõik saitide salvestatud andmed, sh küpsisefailid ja muud kohalikult salvestatud andmed</translation>
 <translation id="6904731820418823295">Saitide tume teema on iBrowe'is sisse lülitatud</translation>
 <translation id="4684427112815847243">Sünkrooni kõik</translation>
 <translation id="4685741273709472646">Valige ripploendist</translation>
 <translation id="4687718960473379118">Saitide soovitatud reklaamid</translation>
+<translation id="468924408576231679">Kopeerige veebilehe <ph name="PAGE_TITLE"/> link. Allikas: <ph name="PAGE_URL"/></translation>
 <translation id="469286762610133730">Hankige paremat sisu</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ja veel <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ja veel <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
 <translation id="4698061626562952596">Vaadake oma passiivseid vahelehti siin</translation>
 <translation id="4699172675775169585">Vahemällu salvestatud kujutised ja failid</translation>
 <translation id="4710167854527459075">Sordi uusima järgi</translation>
+<translation id="4718044610319080485">Käivitab AI-assistendi</translation>
 <translation id="4719927025381752090">Paku tõlkimist</translation>
 <translation id="4720556299488643018">Tühista tellimus</translation>
 <translation id="4732120983431207637">Virnaharutaja</translation>
@@ -788,6 +789,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5788625372408165654">iBrowe'i andmed on kustutatud</translation>
 <translation id="4742970037960872810">Eemalda esiletõstmine</translation>
 <translation id="4749960740855309258">Uue vahelehe avamine</translation>
+<translation id="5122326460832678317">Sisse logitud kasutajana <ph name="USER_NAME"/>. <ph name="USER_EMAIL"/>. iBrowe'i konto viga. Avab seaded.</translation>
 <translation id="4758061975920522644">Jagatakse vaid pilti</translation>
 <translation id="4759238208242260848">Allalaadimised</translation>
 <translation id="4763480195061959176">video</translation>
@@ -801,12 +803,12 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="4777866634702576038">Kas kustutada vahelehegrupp?</translation>
 <translation id="4778653490315793244">Siin ei ole veel midagi</translation>
 <translation id="4782929588435725897"><ph name="SEARCH_ENGINE"/> on teie vaikeotsingumootor</translation>
+<translation id="4784349455504343791"><ph name="WEBSITE_ORIGIN"/> soovib kasutada teie digitaalsest rahakotist pärinevat isiklikku teavet.</translation>
 <translation id="4787736314074622408">Kas soovite faili <ph name="ITEM_TITLE"/> kustutada?</translation>
 <translation id="4194619960643453552">Vaadake, kuidas iBrowe teid kaitseb</translation>
 <translation id="4794291718671962615">(<ph name="MEGABYTES"/>) <ph name="URL"/></translation>
 <translation id="4807098396393229769">Kaardil olev nimi</translation>
 <translation id="480990236307250886">Ava avaleht</translation>
-<translation id="481574578487123132">Lingitud seadmed</translation>
 <translation id="4822710610088666676">Vahelehegrupp „<ph name="TAB_GROUP_TITLE"/>“ on salvestatud ja suletud</translation>
 <translation id="4826163340425232009">Sisselogimise alumine leht.</translation>
 <translation id="4834250788637067901">Makseviisid, pakkumised ja aadressid, mis kasutavad Google Payd</translation>
@@ -814,6 +816,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="483742037940503070">{TAB_COUNT,plural, =1{<ph name="TAB_COUNT_ONE"/> vahelehega vahelehegrupi (värv: <ph name="COLOR_NAME"/>) taastamine uue taustal oleva vahelehegrupina.}other{<ph name="TAB_COUNT_MANY"/> vahelehega vahelehegrupi (värv: <ph name="COLOR_NAME"/>) taastamine uue taustal oleva vahelehegrupina.}}</translation>
 <translation id="4837753911714442426">Valikute avamine lehe printimiseks</translation>
 <translation id="6195403640086187022">Turvalisuse suurendamiseks krüpteerige paroolid oma seadmes, enne kui need salvestatakse iBrowe'i paroolihaldurisse</translation>
+<translation id="4849731766219625109">Kasutage oma <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> kontot</translation>
 <translation id="4850886885716139402">Kuva</translation>
 <translation id="4852014461738377247">Sisselogimine …</translation>
 <translation id="4860895144060829044">Helista</translation>
@@ -826,21 +829,17 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="4881695831933465202">Ava</translation>
 <translation id="488187801263602086">Faili ümbernimetamine</translation>
 <translation id="1248710015876067820">Toetamata arv iBrowe'i eksemplare.</translation>
+<translation id="8743324804589176795">Teie iBrowe'i kontole ei ole paroole salvestatud</translation>
 <translation id="4905823827770127520">Kaasake lehe link</translation>
 <translation id="3217997482476578430">Discover iBrowe'ilt</translation>
 <translation id="4910889077668685004">Makserakendused</translation>
 <translation id="4912413785358399818">Teisalda vaheleht</translation>
 <translation id="4913169188695071480">Peata värskendamine</translation>
-<translation id="4913841543356834596">Hankige juurdepääs kõigile oma paroolidele</translation>
-<translation id="4918086044614829423">Nõustu</translation>
 <translation id="4925120120285606924">Ekraanipilt: <ph name="CURRENT_DATE_ISO"/></translation>
-<translation id="49268022542405662">Teie paroolid eksporditakse ja laaditakse alla tekstifailina. Need on nähtavad kõigile ja igale rakendusele, kellel/millel on sihtkaustale juurdepääs.</translation>
 <translation id="4926901776383726965">Saate salvestada pilte ja faile, et neid võrguühenduseta vaadata või teistes rakendustes jagada</translation>
 <translation id="1955495299630319741">Kuna logite välja kontolt, mida haldab <ph name="DOMAIN_NAME"/>, kustutatakse sellest seadmest teie iBrowe'i andmed. Need jäävad alles teie iBrowe'i kontole.</translation>
 <translation id="4943703118917034429">Virtuaalreaalsus</translation>
 <translation id="4943872375798546930">Tulemusi pole</translation>
-<translation id="5742837711075932301">Kui olete samale iBrowe'i kontole sisse logitud, saavad muud seadmed seda telefoni turvavõtmena kasutada.</translation>
-<translation id="4953833914914492602">Vahelehegrupp „<ph name="TAB_GROUP_NAME"/>” pole enam saadaval</translation>
 <translation id="4957722034734105353">Lisateave ...</translation>
 <translation id="4961107849584082341">Tõlkige leht mis tahes keelde</translation>
 <translation id="6785504257633294906">iBrowe hoiatab teid ebaturvaliste saitide ja allalaadimiste eest</translation>
@@ -855,6 +854,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5001388021414335527">Jälgige seda saiti siin</translation>
 <translation id="6447211988989208781">iBrowe'i kontotegevuste haldus</translation>
 <translation id="5005498671520578047">Parooli kopeerimine</translation>
+<translation id="5007392906805964215">Vaata üle</translation>
 <translation id="5010886807652684893">Visuaalne vaade</translation>
 <translation id="5011311129201317034"><ph name="SITE"/> soovib ühenduse luua</translation>
 <translation id="5012253429094023177"><ph name="BEGIN_BOLD1"/><ph name="PROVIDER1"/><ph name="END_BOLD1"/> ja <ph name="BEGIN_BOLD2"/><ph name="PROVIDER2"/><ph name="END_BOLD2"/> tunduvad olema seotud. Enne oma parooli kasutamist veenduge, et usaldaksite saiti <ph name="BEGIN_BOLD3"/><ph name="PROVIDER2"/><ph name="END_BOLD3"/>.</translation>
@@ -877,6 +877,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5114895953710637392">Rakenduse alusel filtreerimise leht on suletud.</translation>
 <translation id="5115811374190515607">teenusesse <ph name="PRODUCT_NAME"/></translation>
 <translation id="7143053178237996319">Saate kasutada iBrowe'i iga kord, kui puudutate linke sõnumites, dokumentides ja muudes rakendustes</translation>
+<translation id="5118713593561876160">Huvid</translation>
 <translation id="5122378528687922675">Kui vajad abi, küsi vanemalt (<ph name="PARENT_NAME_1"/> või <ph name="PARENT_NAME_2"/>)</translation>
 <translation id="5139940364318403933">Vaadake, kuidas Google Drive'i kasutada</translation>
 <translation id="5142281402488957685">Uute lugude nägemiseks tõmmake värskendamiseks alla</translation>
@@ -885,11 +886,13 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5161254044473106830">Pealkiri on kohustuslik</translation>
 <translation id="5161262286013276579">Pääsuvõtme kinnitusleht on avatud</translation>
 <translation id="5163361352003913350"><ph name="NAME"/> on praegu valitud. Valige konto.</translation>
+<translation id="5169102789680486565">Vahelehegrupis <ph name="TAB_GROUP_TITLE"/> on uut tegevust</translation>
 <translation id="5170568018924773124">Kuva kaustas</translation>
 <translation id="5171045022955879922">Otsige või sisestage URL</translation>
 <translation id="5174700554036517242">Vaheleht on tagasi algsel kõrgusel</translation>
 <translation id="5180063720319462041">Leht on tõlgitud <ph name="TARGET_LANGUAGE"/> keelde</translation>
 <translation id="5191251636205085390">Vaadake lisateavet uute tehnoloogiate kohta, mille eesmärk on kolmandate osapoolte küpsisefailid asendada, ja õppige neid haldama.</translation>
+<translation id="5197649123261764478">Hõlbus juurdepääs järjehoidjatele</translation>
 <translation id="5204967432542742771">Sisestage parool</translation>
 <translation id="5206168361184759344">{FILE_COUNT,plural, =1{Faili allalaadimine …}other{# faili allalaadimine …}}</translation>
 <translation id="5210286577605176222">Eelmisele vahelehele liikumine</translation>
@@ -915,17 +918,20 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5317780077021120954">Salvesta</translation>
 <translation id="989239400026154074">iBrowe soovitab iBrowe'i</translation>
 <translation id="5326246328175179736">Selle kontoga ei saa sisse logida</translation>
+<translation id="5327248766486351172">Nimi</translation>
 <translation id="5328542107300944283">Kasutage pakkujaga <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="5342314432463739672">Lubade taotlused</translation>
 <translation id="534580735623577507">Saite pole <ph name="TIME_PERIOD"/></translation>
+<translation id="5354716139000094027">Kokkuvõtted AI abil</translation>
 <translation id="5355191726083956201">Täiustatud kaitse on sisse lülitatud</translation>
-<translation id="4771279424883068914">Lehe URL, millele te tagasisidet annate, saadetakse iBrowe'ile ja selle funktsiooni parandamiseks võivad inimestest ülevaatajad teie tagasiside üle vaadata</translation>
 <translation id="5375374982898812658">Kaotate kohe juurdepääsu vahelehegrupile „<ph name="GROUP_NAME"/>“ ja see kustutatakse kõigist teie seadmetest</translation>
 <translation id="5375577065097716013">Otsi pilti Google Lensiga <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
+<translation id="5390367025924544771"><ph name="WEBSITE_ORIGIN"/> soovib kasutada teie digitaalsest rahakotist pärinevat isiklikku teavet. Jätkake ainult siis, kui saiti usaldate. Ohtlikud saidid võivad pettuse teel panna teid avaldama sellist teavet nagu teie juriidiline nimi või isikutunnistuse number.</translation>
 <translation id="4799771635362945886">Veenduge, et saaksite alati kasutada oma iBrowe'i kontol iBrowe'i andmeid</translation>
 <translation id="539881862970320163">Soovitati tugevat parooli. Klaviatuur on peidetud.</translation>
 <translation id="5409881200985013443">Kas soovite saata koodi <ph name="ONE_TIME_CODE"/> seadmes <ph name="CLIENT_NAME"/>?</translation>
 <translation id="5410300144953132176"><ph name="OWNER_FULL_NAME"/> (<ph name="OWNER_EMAIL"/>) soovib, et liituksite vahelehegrupiga. Olge liitumisel tähelepanelik, sest kõiki vahelehti saab muuta igaüks, kellel on link. Link aegub 48 tunni pärast.</translation>
+<translation id="5412388166586147626">AI-assistenti ei saanud avada. Proovige uuesti.</translation>
 <translation id="5414836363063783498">Kinnitamine ...</translation>
 <translation id="5415871492522952905">Teie ajalugu ja vahelehed on kõigis teie seadmetes, et saaksite pooleli jäänud toiminguid jätkata</translation>
 <translation id="542073632571549028"><ph name="MEMBER_FULL_NAME"/> (<ph name="EMAIL"/>) kaotab kohe juurdepääsu vahelehegrupile „<ph name="GROUP_NAME"/>“</translation>
@@ -933,6 +939,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5424588387303617268"><ph name="GIGABYTES"/> GB saadaval</translation>
 <translation id="543338862236136125">Muuda parooli</translation>
 <translation id="5433691172869980887">Kasutajanimi on kopeeritud</translation>
+<translation id="5436928407363358055">Pooleli jäänud kohast hõlpsalt jätkamiseks sünkroonige oma ajalugu ja vahelehed</translation>
 <translation id="5438292632479953702">Laadi uuesti alla</translation>
 <translation id="2766925507720001104">Hoiatab teid ohtlike saitide eest, isegi nende eest, millest iBrowe varem ei teadnud, analüüsides standardse kaitsega võrreldes rohkem saitidelt pärinevaid andmeid. Soovi korral saate iBrowe'i hoiatused vahele jätta.</translation>
 <translation id="5441137934526263133">Kas sait ei tööta? Kolmanda osapoole küpsisefailid on blokeeritud</translation>
@@ -941,10 +948,10 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5444999712122199445">Tagasi saidile</translation>
 <translation id="544776284582297024">Vahelehtede avamiseks ja eri lehtede samal ajal külastamiseks puudutage avatud vahelehtede nuppu</translation>
 <translation id="5454166040603940656">teenusepakkujaga <ph name="PROVIDER"/></translation>
-<translation id="5454215368971121976">Kui teie seade on volditud, saate teha valiku või puudutada pikalt aadressiriba, et muuta asendit.</translation>
 <translation id="5456381639095306749">Laadi leht alla</translation>
 <translation id="5458366071038729214">Jälgitavad saidid leiate siit</translation>
 <translation id="5468068603361015296">Kas soovite faili <ph name="FILE_NAME"/> ikkagi alla laadida?</translation>
+<translation id="5471273988133666918">Vahelehte <ph name="TAB_TITLE"/> ei saa teisaldada</translation>
 <translation id="548278423535722844">Avage kaardirakenduses</translation>
 <translation id="5492637351392383067">Krüpteerimine seadmes</translation>
 <translation id="549660026907543296">Liituge kasutajana <ph name="MEMBER_FULL_NAME"/></translation>
@@ -953,19 +960,17 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5517095782334947753">Teil on järjehoidjad, ajalugu, paroolid ja muud seaded kontolt <ph name="FROM_ACCOUNT"/>.</translation>
 <translation id="5517326820028369152">Hiljutiste toimingute alumine leht</translation>
 <translation id="5526281268548144413">Ei saa sulgeda mitmes aknas</translation>
-<translation id="5528925345478618296">{MINUTES,plural, =1{# min tagasi}other{# min tagasi}}</translation>
 <translation id="5548606607480005320">Ohutuskontroll</translation>
-<translation id="5551564597369878730"><ph name="GIVEN_NAME"/> liitus vahelehegrupiga „<ph name="TAB_GROUP_NAME"/>”</translation>
 <translation id="4362225295386962644">Kui kasutate parooli, hoiatab iBrowe teid, kui see on veebis avalikustatud. Selle käigus on teie paroolid ja kasutajanimed krüpteeritud, et mitte keegi (sh iBrowe) ei saaks neid lugeda.</translation>
 <translation id="5555525474779371165">Valige oma iBrowe'i ohutu sirvimise kaitse</translation>
 <translation id="5556459405103347317">Laadi uuesti</translation>
 <translation id="555671485580955310">Sünkrooni ajalugu ja vahelehti</translation>
 <translation id="555816257274242153">Hinna jälgimine peatati</translation>
+<translation id="5561445479436807659">Lõbus dinosaurusemäng</translation>
 <translation id="5561549206367097665">Võrguühenduse ootamine …</translation>
 <translation id="5568069709869097550">Ei saa sisse logida</translation>
 <translation id="557018954714092179">Loo uus kaust</translation>
 <translation id="5578795271662203820">Otsi otsingust <ph name="SEARCH_ENGINE"/> kujutist</translation>
-<translation id="5581519193887989363">Jaotises <ph name="BEGIN_LINK1"/>Seaded<ph name="END_LINK1"/> saate igal ajal valida, mida sünkroonida.</translation>
 <translation id="5596627076506792578">Rohkem valikuid</translation>
 <translation id="6894318537270274409">Kui soovite näha veel seadeid, mis kasutavad andmeid, et parandada teie iBrowe'i kasutuskogemust, avage <ph name="BEGIN_LINK"/>iBrowe'i teenused<ph name="END_LINK"/>.</translation>
 <translation id="5611398002774823980">Salvesta kontole</translation>
@@ -976,13 +981,13 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5626134646977739690">Nimi:</translation>
 <translation id="5628604359369369630">Lugemata – võrguühenduseta saadaval</translation>
 <translation id="5631483240431073854">Avatud vahelehtede haldamine</translation>
+<translation id="8459994515707449554">Sisse logitud kasutajana <ph name="USER_NAME"/>. iBrowe'i konto viga. Avab seaded.</translation>
 <translation id="3801854459269566477"><ph name="BEGIN_LINK1"/>Otsinguajalugu<ph name="END_LINK1"/> ja <ph name="BEGIN_LINK2"/>muud tegevused<ph name="END_LINK2"/> võidakse salvestada teie iBrowe'i kontole</translation>
 <translation id="5648166631817621825">Viimased seitse päeva</translation>
 <translation id="5655963694829536461">Otsige oma allalaadimiste hulgast</translation>
 <translation id="5657871969392618475">Teie teave on profiililukuga kaitstud</translation>
 <translation id="5659593005791499971">E-post</translation>
 <translation id="5665379678064389456">Looge sündmus rakenduses <ph name="APP_NAME"/></translation>
-<translation id="5680616253592639556">Puuduv teave</translation>
 <translation id="5668833306439455813">iBrowe ei saa värskendusi otsida</translation>
 <translation id="5683916195767086779">Vahelehegrupp</translation>
 <translation id="5686790454216892815">Faili nimi on liiga pikk</translation>
@@ -991,6 +996,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="2320748512701464301">iBrowe aitab teid kaitsta andmetega seotud rikkumiste, ebaturvaliste veebisaitide ja muu eest</translation>
 <translation id="5698878456427040674">Kontrollige, kas valitud kontot toetatakse.</translation>
 <translation id="570347048394355941">Lülitu vahelehele</translation>
+<translation id="5709213329446699338"><ph name="SITE"/> soovib luua ühendust jadapordiga</translation>
 <translation id="5715150588940290235">Kas kustutada salvestatud turvakoodid?</translation>
 <translation id="8926436246118281502">Teie järjehoidjaid, ajalugu ja muid iBrowe'i andmeid ei sünkroonita enam teie iBrowe'i kontoga</translation>
 <translation id="572328651809341494">Hiljutised vahelehed</translation>
@@ -1014,7 +1020,6 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5809361687334836369">{HOURS,plural, =1{# tund tagasi}other{# tundi tagasi}}</translation>
 <translation id="5311273890481188673">Autoriõigus <ph name="YEAR"/> iBrowe LLC. Kõik õigused on kaitstud.</translation>
 <translation id="5814749351757353073">Olge oma lemmiksaitidega kursis</translation>
-<translation id="5822875253699806474">Külastatud saitidele kiiresti naasmiseks sünkroonige vahelehed ja ajalugu.</translation>
 <translation id="2326452470420653225">Andmeid saab kustutada iBrowe’i seadetes.</translation>
 <translation id="5829586821381540080">Salvestatud loendisse <ph name="FOLDER_NAME"/></translation>
 <translation id="583281660410589416">Tundmatu</translation>
@@ -1039,6 +1044,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5907542076239273525">Järjehoidja on salvestatud kausta <ph name="FOLDER_NAME"/></translation>
 <translation id="5916664084637901428">Sees</translation>
 <translation id="5919204609460789179">Sünkroonimise alustamiseks värskendage teenust <ph name="PRODUCT_NAME"/></translation>
+<translation id="5932881020239635062">Seerianumber</translation>
 <translation id="5938820472109305350">Lisa <ph name="INTEREST"/></translation>
 <translation id="6103327872225198548">Otsimiseks kasutatakse iBrowe'it</translation>
 <translation id="5945035219773565305">Praegune soovitus: <ph name="RECOMMENDATION"/></translation>
@@ -1048,7 +1054,6 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5958275228015807058">Leidke oma failid ja lehed jaotisest Allalaadimised</translation>
 <translation id="5958994127112619898">Lihtsusta leht</translation>
 <translation id="5962718611393537961">Ahendamiseks puudutage</translation>
-<translation id="5964180026566797835">Ei saa paroole kontrollida</translation>
 <translation id="5964869237734432770">Piltide kirjelduste peatam.</translation>
 <translation id="5977976211062815271">Selles seadmes</translation>
 <translation id="5978661847409534366">{ITEMS_COUNT,plural, =1{1 leht teie lugemisloendis}other{# lehte teie lugemisloendis}}</translation>
@@ -1057,25 +1062,24 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="5995726099713306770">Kas soovite lehe uuesti alla laadida?</translation>
 <translation id="6456271171669383967">Säilita iBrowe</translation>
 <translation id="6000203700195075278">Jälgi uuesti</translation>
-<translation id="6002122790816966947">Teie seadmed</translation>
 <translation id="6011308810877101166">Otsingusoovituste täiustamine</translation>
 <translation id="6013305291643746595">Sortimine vanemate järgi</translation>
 <translation id="296137235951584143">Isikupärastage iBrowe'i</translation>
 <translation id="6026538407078977628">Laienda täisekraanile</translation>
 <translation id="6030719887161080597">Saate hallata teavet, mida saidid kasutavad reklaami toimivuse mõõtmiseks</translation>
 <translation id="6039379616847168523">Järgmisele vahelehele liikumine</translation>
-<translation id="6040939430773295212">Korduv</translation>
 <translation id="604124094241169006">Automaatne</translation>
 <translation id="6042308850641462728">Rohkem</translation>
 <translation id="604996488070107836">Faili <ph name="FILE_NAME"/> allalaadimine ebaõnnestus tundmatu vea tõttu.</translation>
 <translation id="605721222689873409">aa</translation>
 <translation id="6059830886158432458">Hallake oma lugusid ja tegevusi siin</translation>
-<translation id="6070730414166672373">Pangaga ühenduse võtmine \u2026</translation>
 <translation id="4701065218405772222">Ohustatud paroolide kontrollimiseks logige sisse oma iBrowe'i kontole</translation>
+<translation id="6078323886959318429">Otsetee lisamine</translation>
 <translation id="6085886413119427067">Määrab, kuidas veebisaitidega turvaline ühendus luua</translation>
 <translation id="6087286598828478206">Kas blokeerida ja grupist lahkuda?</translation>
 <translation id="60923314841986378">Jäänud on <ph name="HOURS"/> tundi</translation>
 <translation id="4726571606794511368">Kui iBrowe on ka teie vaikeotsingumootor, näete paremaid, konteksti suhtes asjakohaseid soovitusi</translation>
+<translation id="6104768972315313991">Genereeritud QR-kood</translation>
 <translation id="610630277578876674">Avage kiiresti sõnumites olevad lingid ja tehke palju muudki</translation>
 <translation id="6108923351542677676">Seadistamine on pooleli ...</translation>
 <translation id="6112702117600201073">Lehe värskendamine</translation>
@@ -1106,32 +1110,35 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="6205314730813004066">Reklaamide privaatsus</translation>
 <translation id="6210748933810148297">Kas pole <ph name="EMAIL"/>?</translation>
 <translation id="6211386937064921208">Selle lehe eelvaade</translation>
+<translation id="6212567362666004597">Vahelehe lisamine gruppi</translation>
 <translation id="6221633008163990886">Paroolide eksportimiseks avage seade</translation>
 <translation id="6225572914528673855">Aadressiriba</translation>
 <translation id="6232535412751077445">Kui lubate funktsiooni „Ära jälgi”, kaasatakse see taotlus teie sirvimisliiklusesse. Mõju oleneb sellest, kas veebisait reageerib taotlusele ja kuidas seda tõlgendatakse.
 
 Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teile reklaame, mis ei põhine muudel külastatud veebisaitidel. Paljud veebisaidid koguvad ning kasutavad endiselt teie sirvimisandmeid, näiteks turvalisuse parandamiseks, sisu, reklaamide ja soovituste pakkumiseks ning aruandlusstatistika loomiseks.</translation>
-<translation id="3895383310037101583">Selle seadme paroolide salvestamine iBrowe'i kontole, lülitades sisse sünkroonimise</translation>
 <translation id="8883879481897424949">iBrowe'i paroolihaldur</translation>
 <translation id="2715956954609894918">Vaadake oma iBrowe'i ajalugu siin</translation>
 <translation id="672214651034855283">{ITEMS_COUNT,plural, =1{1 üksus on salvestatud ainult sellesse seadmesse. Selle kasutamiseks muudes seadmetes salvestage see oma iBrowe’i kontole <ph name="ACCOUNT_EMAIL"/>.}other{# üksust on salvestatud ainult sellesse seadmesse. Nende kasutamiseks muudes seadmetes salvestage need oma iBrowe'i kontole <ph name="ACCOUNT_EMAIL"/>.}}</translation>
 <translation id="6254139308321626268">Vaatate PDF-faili</translation>
-<translation id="6255794742848779505">Muudame paroolide salvestamist selles seadmes</translation>
 <translation id="725280687245147974">iBrowe'i tööriistadega saate ohutult sirvida ja kõik kontrolli all hoida</translation>
 <translation id="6264376385120300461">Laadi ikkagi alla</translation>
+<translation id="6264485186158353794">Tagasi turvalisusse</translation>
 <translation id="6277522088822131679">Lehe printimisel ilmnes probleem. Proovige uuesti.</translation>
 <translation id="6278428485366576908">Teema</translation>
 <translation id="6284472661216707937">Kõigi teie seadmete paroolid on suletud</translation>
 <translation id="6295158916970320988">Kõik saidid</translation>
 <translation id="6296366034485697675">Ekspordi ja kustuta</translation>
 <translation id="629730747756840877">Konto</translation>
+<translation id="6301526076346731664">Arendaja tööriistade avamine</translation>
 <translation id="6303969859164067831">Logi välja ja lülita sünkroonimine välja</translation>
+<translation id="6307241780749477694">Kõigile oma paroolidele selles seadmes juurdepääsemiseks kinnitage oma isik</translation>
 <translation id="6312687380483398334">Veebirakendused (vaiksed)</translation>
 <translation id="6315386555979018699">Kustuta ja jätka</translation>
 <translation id="6316139424528454185">Seda Androidi versiooni ei toetata</translation>
 <translation id="6324916366299863871">Otsetee muutmine</translation>
 <translation id="6324977638108296054">Esiletõstu linki ei õnnestu luua</translation>
 <translation id="6333140779060797560">Jagamine rakenduse <ph name="APPLICATION"/> kaudu</translation>
+<translation id="6335454563754888572">Muutke URL-i, mis osutab lehele: <ph name="PAGE_URL"/></translation>
 <translation id="6337234675334993532">Krüpteerimine</translation>
 <translation id="6340526405444716530">Isikupärastamine</translation>
 <translation id="6341580099087024258">Küsi, kuhu failid salvestada</translation>
@@ -1148,6 +1155,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6394791151443660613">Otsing: <ph name="SEARCH_QUERY"/></translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="6397616442223433927">Võrguühendus taastus</translation>
+<translation id="6399363707848566877">Nüüd saate hõlpsasti gruppidele vahelehti lisada siin</translation>
 <translation id="8789425457808164956">Selle vahelehe saatmiseks teise seadmesse logige selles iBrowe'i sisse</translation>
 <translation id="6404511346730675251">Muuda järjehoidjat</translation>
 <translation id="6406506848690869874">Sünkroonimine</translation>
@@ -1173,14 +1181,13 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="387105482057676379">Linkige iBrowe ja teised iBrowe’i teenused isikupärastamiseks ja muudel eesmärkidel</translation>
 <translation id="6482749332252372425">Faili <ph name="FILE_NAME"/> allalaadimine ebaõnnestus, kuna salvestusruumi on liiga vähe.</translation>
 <translation id="6486420406192123355">See PDF-fail pärineb ebaturvalist ühendust kasutavalt saidilt</translation>
-<translation id="6495590690749880440">Kas avada vahelehegrupp?</translation>
 <translation id="650224091954855786">{FILE_COUNT,plural, =1{Fail laaditi alla}other{Lõpetati # allalaadimist}}</translation>
 <translation id="3960299545138990065">Taaskäivitage iBrowe</translation>
+<translation id="6513924416597632811">Kopeerige link otsingutulemuste lehele: <ph name="SEARCH_QUERY"/>. Allikas: <ph name="PAGE_URL"/></translation>
 <translation id="6518133107902771759">Kinnita</translation>
 <translation id="6527303717912515753">Jaga</translation>
 <translation id="3700405816184340252">iBrowe'i ajalugu</translation>
 <translation id="708829030563435351">iBrowe'is külastatud saite ei kuvata. Kõik saitide taimerid kustutatakse.</translation>
-<translation id="7723158744459952869">iBrowe'il kulus reageerimiseks liiga kaua aega</translation>
 <translation id="6539092367496845964">Midagi läks valesti. Proovige hiljem uuesti.</translation>
 <translation id="6541983376925655882">{NUM_HOURS,plural, =1{Kontrolliti 1 tund tagasi}other{Kontrolliti # tundi tagasi}}</translation>
 <translation id="6545017243486555795">Kustuta kõik andmed</translation>
@@ -1192,7 +1199,6 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="971059121491380239">Teie Android-seadmes võib olla sarnane seade. Kui reklaamide mõõtmine on iBrowe'is ja teie Android-seadmes sisse lülitatud, võib ettevõttel olla võimalik mõõta reklaami toimivust veebisaitidel, mida külastate, ja rakendustes, mida kasutate.</translation>
 <translation id="6565959834589222080">WiFi-t kasutatakse siis, kui see on saadaval</translation>
 <translation id="4480935821314799946">Uue vahelehe avamisel näete nüüd lugusid saidilt <ph name="SITE_NAME"/>. Jälgitud saidid salvestatakse teie iBrowe'i kontole. Saate neid hallata teenuse Discover seadetes.</translation>
-<translation id="6570116402456758630">Lehe kokkuvõte</translation>
 <translation id="657177046675873214">Järjehoidjate nägemiseks kõigis oma seadmetes lülitage seadetes sisse valik „Järjehoidjad“</translation>
 <translation id="6573096386450695060">Luba alati</translation>
 <translation id="5157964048453367290">Siin kuvatakse teie teistes seadmetes iBrowe'is avatud vahelehed.</translation>
@@ -1206,13 +1212,11 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6904452514635238551">Kui olete iBrowe’i sisse logitud, salvestatakse paroolid teie iBrowe’i kontole. Selle väljalülitamiseks <ph name="BEGIN_LINK"/>avage seaded<ph name="END_LINK"/>.</translation>
 <translation id="661266467055912436">Täiendab turvalisust teie ja kõigi teiste veebikasutajate jaoks.</translation>
 <translation id="8127050479140582768">Selle vahelehe saatmiseks teise seadmesse logige mõlemas seadmes iBrowe'i sisse</translation>
-<translation id="6625890511281718257">Jagamine kokkuvõtte tagasiside lehe abil</translation>
 <translation id="6627583120233659107">Muuda kausta</translation>
 <translation id="6636623428211296678">Avastage allpool rohkem seadeid või lõpetage kohe</translation>
 <translation id="7939692063031538305">Rakenduse täiustamiseks saadab iBrowe iBrowe'ile kasutus- ja krahhiandmeid. <ph name="BEGIN_UMA_LINK"/>Haldamine<ph name="END_UMA_LINK"/></translation>
 <translation id="6640207029842583248">Blokeeri alati</translation>
 <translation id="6641780377503683465">Eemalda <ph name="INTEREST"/></translation>
-<translation id="6645629752388991326">Hallake, millised seadmed saavad seda seadet turvavõtmena kasutades sisse logida.</translation>
 <translation id="7556503430569358637">Teie külastatavad URL-id saadetakse iBrowe'ile, et prognoosida, milliseid saite võiksite järgmisena külastada</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW"/>\u2026 ja veel <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/>}other{<ph name="CONTACT_PREVIEW"/>\u2026 ja veel <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/>}}</translation>
 <translation id="6649642165559792194">Kujutise eelvaade <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
@@ -1240,6 +1244,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6756507620369789050">Tagasiside jagamine</translation>
 <translation id="6762511428368667596"><ph name="NAME"/>, <ph name="EMAIL"/>.</translation>
 <translation id="676305334223455055">Logige sisse, et näha oma huvidel põhinevat sisu</translation>
+<translation id="6764137532716892442">Jagatud vahelehegrupp <ph name="GROUP_TITLE"/> uue tegevusega</translation>
 <translation id="6767294960381293877">Vahelehe jagamise seadmete loend (poolel kõrgusel avatud).</translation>
 <translation id="8174975477247159780">iBrowe'i ja Chrome OS-i lisateenusetingimused</translation>
 <translation id="6795633245022906657">Uue vahelehe kiire avamine. Selle otsetee muutmiseks avage menüü Seaded.</translation>
@@ -1262,12 +1267,12 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6850830437481525139">Suleti <ph name="TAB_COUNT"/> vahelehte</translation>
 <translation id="685340923442249391">{FILE_COUNT,plural, =1{Helifailid, loendis on 1 helifail}other{Helifailid, loendis on # helifaili}}</translation>
 <translation id="4046835482356054431">Discover iBrowe'ilt – väljas</translation>
+<translation id="6861722405755529743">Järjehoidjariba ületäite nupp</translation>
 <translation id="686366188661646310">Kas kustutada parool?</translation>
 <translation id="6864459304226931083">Laadi kujutis alla</translation>
 <translation id="686490460830618322">Rakenduse alusel filtreerimise leht</translation>
 <translation id="6865313869410766144">Vormi automaattäite andmed</translation>
 <translation id="1565666992559765293">Teie parooliga ei krüpteerita aadresse. See võimaldab teil kasutada neid teistes iBrowe’i teenustes.</translation>
-<translation id="6869056123412990582">arvutis</translation>
 <translation id="687838958001010630">Igaüks, kellel on link, saab muuta kõiki vahelehti</translation>
 <translation id="6880903702195291049">Teie load näivad turvalised</translation>
 <translation id="6883204995689174413">Jaga</translation>
@@ -1303,36 +1308,32 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6965382102122355670">OK</translation>
 <translation id="6968350777423863208">{NUMBER_OF_TABS,plural, =1{Vaadake <ph name="TABS_COUNT_ONE"/> uue tegevusega standardset vahelehte jagatud vahelehegruppides}other{Vaadake <ph name="TABS_COUNT_MANY"/> uue tegevusega standardset vahelehte jagatud vahelehegruppides}}</translation>
 <translation id="6971862865055170158">Ära kiida heaks</translation>
+<translation id="6976223255612495095"><ph name="TAB_TITLE"/>, uus või värskendatud vaheleht</translation>
+<translation id="6976811588313110624">Uue otsetee lisamine.</translation>
 <translation id="6978717888677691380">Blokeeritud saidid</translation>
 <translation id="6979737339423435258">Algusest</translation>
 <translation id="6983306615164277634">Aadressiriba asukoha muutmiseks võite seda ka pikalt puudutada.</translation>
 <translation id="4436469586880564451">Teie paroolid laaditakse alla CSV-failina. Need on nähtavad kõigile, kes pääsevad failile juurde, sh rakendustele. Eksporditud paroolid kustutatakse iBrowe'ist.</translation>
 <translation id="6996145122199359148">Selle lehe allalaadimine</translation>
-<translation id="2971862257346039617">Et pääseksite juurde oma iBrowe'i kontol olevatele paroolidele, kinnitage oma isik</translation>
 <translation id="7013762323294215682">See pääsuvõti salvestatakse teie paroolihaldurisse. Igaüks, kellel on sellele juurdepääs, saab seda pääsuvõtit kasutada.</translation>
 <translation id="7020741890149022655">Lisa lugemisloendisse <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
 <translation id="7022756207310403729">Avamine brauseris</translation>
-<translation id="7025769836128625875">See on katsejärgus AI-funktsioon ega paku alati õigeid tulemusi. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="7029809446516969842">Paroolid</translation>
-<translation id="7035701931849773472">Muud valikud</translation>
+<translation id="7053256416619638731">Selles seadmes paroolide tugevdamine</translation>
 <translation id="7053983685419859001">Blokeeri</translation>
 <translation id="7054588988317389591">Kas saada piltide kirjeldusi?</translation>
 <translation id="754645164710303412">Ava iBrowe'i täielik ajalugu</translation>
 <translation id="7063006564040364415">Sünkroonimisserveriga ei saanud ühendust.</translation>
 <translation id="7071521146534760487">Konto haldamine</translation>
 <translation id="707155805709242880">Valige allpool, mis sünkroonida</translation>
-<translation id="707702207692430409">{BOOKMARK_COUNT,plural, =1{Järjehoidja salvestati teie kontol <ph name="ACCOUNT_EMAIL"/> kausta „<ph name="FOLDER_NAME"/>“.}other{Järjehoidjad salvestati teie kontol <ph name="ACCOUNT_EMAIL"/> kausta „<ph name="FOLDER_NAME"/>“.}}</translation>
 <translation id="7077143737582773186">SD-kaart</translation>
 <translation id="4947532681094581238">Kustuta sellest seadmest ka iBrowe'i andmed</translation>
 <translation id="5499149312981370855">Valige, kas iBrowe'i teenustes rohkem isikupärastatud kasutuskogemuse saamiseks kaasata iBrowe'i ajalugu</translation>
 <translation id="8208853227947884571">iBrowe on ajakohane</translation>
-<translation id="7094933634769755999">Ebatäpne</translation>
-<translation id="7102843846294013537">Mõni teie paroolidest pole selles seadmes saadaval</translation>
 <translation id="7106762743910369165">Teie brauserit haldab teie organisatsioon</translation>
 <translation id="144902786838571419">iBrowe annab teile suurema kontrolli nähtavate reklaamide üle ja piirab teavet, mida saidid teile isikupärastatud reklaamide näitamisel saavad teie kohta õppida.</translation>
 <translation id="7136902389402789299">{NUM_SITES,plural, =1{1 saidi load on üle vaadatud}other{# saidi load on üle vaadatud}}</translation>
 <translation id="7138678301420049075">Muu</translation>
-<translation id="7139479418357139965">Võite saatjaga ühendust võtta ja uue lingi küsida.</translation>
 <translation id="7140829094791862589">Sortimisalus: käsitsi</translation>
 <translation id="7146622961999026732">Näib, et need saidid ja rakendused on teile olulised:</translation>
 <translation id="7148400116894863598"><ph name="BEGIN_LINK"/>Lisateavet saate<ph name="END_LINK"/> teenusest <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/>.</translation>
@@ -1340,7 +1341,6 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="1206376179559420424">Parooliga krüpteerimine ei hõlma Google Pay makseviise ja aadresse.
 
 Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andmed<ph name="END_LINK"/>.</translation>
-<translation id="7161230316646448869">Teie järjehoidjate, ajaloo ja muude andmete sünkroonimine kõigis seadmetes</translation>
 <translation id="7168323970702333693">Sisse logitud kasutajana <ph name="USER_NAME"/>. Avab seaded.</translation>
 <translation id="7173114856073700355">Ava seaded</translation>
 <translation id="7173338713290252554">Hinna ajalugu kogu veebis</translation>
@@ -1358,10 +1358,13 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7221869452894271364">Laadi see lehekülg uuesti</translation>
 <translation id="8713221522704424328">Kõik paroolid, mis olid salvestatud iBrowe'i ja versiooni <ph name="CHROME_CHANNEL"/> jaoks ainult sellesse seadmesse, liideti. Saate kõik salvestatud paroolid mõlemas rakenduses automaatselt sisestada.</translation>
 <translation id="7227218174981371415">{FILE_COUNT,plural, =1{1 allalaadimine on ootel}other{# allalaadimist on ootel}}</translation>
+<translation id="7236515828900885295">Otsingusse</translation>
+<translation id="8353574248857730978">iBrowe'i paroolihaldur lõpetas töötamise</translation>
 <translation id="72415438529550637">Parooli soovitus on suletud.</translation>
 <translation id="4957342254208357193">Teie Android-seadmes võib olla sarnane seade. Kui reklaamide mõõtmine on iBrowe'is ja teie Android-seadmes sisse lülitatud, võib ettevõttel olla võimalik mõõta reklaami tõhusust veebisaitidel, mida külastate, ja rakendustes, mida kasutate.</translation>
 <translation id="727288900855680735">Kas saata kood <ph name="ONE_TIME_CODE"/> saidile <ph name="ORIGIN"/>?</translation>
 <translation id="7274013316676448362">Blokeeritud sait</translation>
+<translation id="7276868533747677875">Kui eksportisite eelnevalt paroolid, leidke oma seadmes CSV-fail ja importige see eelistatud paroolihaldurisse.</translation>
 <translation id="2700309900785251885">Teil on iBrowe'i tugevaim kaitse</translation>
 <translation id="7289303553784750393">Kui olete onlainis, kuid see probleem jääb korduma, võite proovida teisi viise, kuidas saidil <ph name="SITE_ETLD_PLUS_ONE"/> jätkata.</translation>
 <translation id="7290209999329137901">Ümbernimetamine ei ole võimalik</translation>
@@ -1384,6 +1387,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7359002509206457351">Makseviisidele juurdepääsemine</translation>
 <translation id="7363349185727752629">Teie privaatsusvalikute juhend</translation>
 <translation id="7364103838544876661">Rohkem võimalusi sirvimisandmete kustutamiseks</translation>
+<translation id="5640892076695177498">iBrowe'i paroolihalduri abil paroolide salvestamise ja kasutamise alustamiseks värskendage Google Play teenuseid</translation>
 <translation id="7375125077091615385">Tüüp:</translation>
 <translation id="7376560087009844242">Kaasates rohkem lehe teksti võite näha paremaid tulemusi, kui kasutate otsimiseks puudutamist. Selle muutmiseks võite alati avada <ph name="BEGIN_LINK"/>seaded<ph name="END_LINK"/>.</translation>
 <translation id="7379900596734708416">Saitide tume teema on saadaval</translation>
@@ -1392,7 +1396,6 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7400418766976504921">URL</translation>
 <translation id="724102042129299115">iBrowe'i esmakordse käitamise kasutuskogemus</translation>
 <translation id="5341476184053934779">iBrowe'i konto kasutaja</translation>
-<translation id="741204030948306876">Jah, sobib</translation>
 <translation id="7419565702166471774">Kasuta alati turvalist ühendust</translation>
 <translation id="7421293530411019405">Kas soovite vahelehegrupist lahkuda?</translation>
 <translation id="7431991332293347422">Juhtige, kuidas kasutatakse teie sirvimisajalugu otsingu ja muu isikupärastamiseks</translation>
@@ -1415,7 +1418,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7485033510383818941">Voo sisu värskendamiseks tõmmake leht alla</translation>
 <translation id="749294055653435199">Google Lens pole selles seadmes saadaval</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (värskendati <ph name="TIME_SINCE_UPDATE"/>)</translation>
-<translation id="7498271377022651285">Oodake ...</translation>
+<translation id="7498271377022651285">Palun oodake…</translation>
 <translation id="750228856503700085">Värskendusi pole saadaval</translation>
 <translation id="7507207699631365376">Vaadake selle teenusepakkuja <ph name="BEGIN_LINK"/>privaatsuseeskirju<ph name="END_LINK"/></translation>
 <translation id="750886945254958667">Saate säilitada selle grupi, et lisada vahelehed hiljem, või lahkuda sellest, kui te ei soovi sellele enam juurde pääseda</translation>
@@ -1449,23 +1452,24 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7628417132421583481">Avage paroolihaldur</translation>
 <translation id="7630202231528827509">Teenusepakkuja URL</translation>
 <translation id="7638584964844754484">Vale parool</translation>
-<translation id="7646499124171960488">Hoiatab teid ebaturvalistest saitidest</translation>
+<translation id="7646499124171960488">Hoiatab teid ebaturvaliste avalike saitide eest</translation>
 <translation id="7646772052135772216">Paroolide sünkroonimine ei tööta</translation>
 <translation id="7655240423373329753">viimase 7 päeva jooksul</translation>
 <translation id="7656721520530864426">Saite pole</translation>
 <translation id="7658239707568436148">Tühista</translation>
 <translation id="7663320421139257046">Jätkamiseks jagab <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/> selle saidiga teie andmeid (<ph name="FIELDS_STRING"/>). Vaadake selle saidi <ph name="BEGIN_LINK1"/>privaatsuseeskirju<ph name="END_LINK1"/>.</translation>
-<translation id="7665369617277396874">Konto lisamine</translation>
 <translation id="766587987807204883">Artiklid kuvatakse siin ja saate neid lugeda ka võrguühenduseta</translation>
 <translation id="7666185984446444960"><ph name="TAB_GROUPS_AND_TABS_PART"/> on suletud</translation>
 <translation id="7682724950699840886">Järgige neid nõuandeid: veenduge, et seadmes oleks piisavalt ruumi, seejärel proovige uuesti eksportida.</translation>
 <translation id="7686086654630106285">Lisateave saidi soovitatud reklaamide kohta</translation>
 <translation id="7795837497684113327">Teie seade ei saanud iBrowe’i avada. Probleemi lahendamiseks laadige oma rakenduste poest alla uusim iBrowe’i värskendus.</translation>
 <translation id="7691043218961417207">Avastage sisu, mida jälgida</translation>
+<translation id="7692761875510935111">Avage kiirelt brauseris. Selle otsetee muutmiseks puudutage pikalt.</translation>
 <translation id="7697383401610880082">Lohistamispide</translation>
 <translation id="7698359219371678927">Looge meil rakenduses <ph name="APP_NAME"/></translation>
 <translation id="7702420606070050505">Hiljutiste toimingute alumine leht avati täispikkuses</translation>
 <translation id="7707922173985738739">Kasuta mobiilset andmesidet</translation>
+<translation id="7708994397325774423">Hankige juurdepääs kõigile oma paroolidele</translation>
 <translation id="7733878270780732638">Seadmes ei ole piisavalt ruumi</translation>
 <translation id="5321611925570577577">iBrowe'i paroolihaldur peagi selles seadmes enam ei tööta</translation>
 <translation id="774876555279732384">Automaattäite teenuseid saab hallata ka <ph name="BEGIN_LINK"/>Androidi seadetes<ph name="END_LINK"/>.</translation>
@@ -1505,8 +1509,11 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7907478394153853634">Lorem Ipsum</translation>
 <translation id="7913993612870913335">{FILE_COUNT,plural, =1{Teie organisatsioon blokeeris 1 allalaadimise}other{Teie organisatsioon blokeeris # allalaadimist}}</translation>
 <translation id="7914399737746719723">Rakendus on installitud</translation>
+<translation id="7917574899775263813">Viimasele vahelehele liikumine</translation>
 <translation id="7919123827536834358">Need keeled tõlgitakse automaatselt</translation>
+<translation id="7921782882718083488">Tee sellest lehest kokkuvõte</translation>
 <translation id="7926975587469166629">Kaardi hüüdnimi</translation>
+<translation id="6485598694371328620">iBrowe eemaldab automaatselt load märguandeid kuritarvitavatelt saitidelt ja saitidelt, mida te pole hiljuti külastanud</translation>
 <translation id="7929962904089429003">Menüü avamine</translation>
 <translation id="7934668619883965330">Faili ei saa alla laadida. Failivormingut ei toetata.</translation>
 <translation id="7942131818088350342">Teenus <ph name="PRODUCT_NAME"/> on aegunud.</translation>
@@ -1518,6 +1525,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7963646190083259054">Teenusepakkuja:</translation>
 <translation id="2939504940637874963">Saate salvestatud paroole kasutada mis tahes seadmes. Need salvestatakse konto <ph name="ACCOUNT"/> puhul iBrowe'i paroolihaldurisse.</translation>
 <translation id="7968014550143838305">Lisati lugemisloendisse</translation>
+<translation id="7968982339740310781">Kuva üksikasjad</translation>
 <translation id="7971136598759319605">Aktiivne 1 päev tagasi</translation>
 <translation id="7975379999046275268">Lehe eelvaade <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
 <translation id="7977451675950311423">Hoiatab teid, kui kasutate parooli, mis on andmetega seotud rikkumise tõttu ohtu sattunud.</translation>
@@ -1529,8 +1537,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8004582292198964060">Brauser</translation>
 <translation id="8014210850410408071">Järgmiseks importige paroolid</translation>
 <translation id="8015452622527143194">Lehel kuvatud sisu vaikesuuruses kuvamine</translation>
-<translation id="8017431260099661477">Kutselinki ei saanud avada</translation>
-<translation id="8026238112629815203">Muutsime paroolide salvestamist selles seadmes</translation>
+<translation id="8025972204417227828">Uue lisamine</translation>
 <translation id="8027395186860110042">Paroolid ei pruugi varsti enam töötada</translation>
 <translation id="8027863900915310177">Valige, kuhu alla laadida</translation>
 <translation id="8030852056903932865">Kinnita</translation>
@@ -1547,6 +1554,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8073388330009372546">Ava pilt uuel vahelehel</translation>
 <translation id="8076492880354921740">Vahelehed</translation>
 <translation id="8078096376109663956">Jagage ainult teksti</translation>
+<translation id="8078348702936632821">Kinnita see otsetee</translation>
 <translation id="8084114998886531721">Salvestatud parool</translation>
 <translation id="1718138320251931534">Oma iBrowe'i konto andmete haldamine</translation>
 <translation id="6213630783726251371">Osa teie ajaloost ei pruugita siin kuvada. iBrowe'i kogu ajaloo vaatamiseks avage iBrowe'i täielik ajalugu. Samuti võib teie iBrowe'i kontol olla aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> muus vormis sirvimisajalugu.</translation>
@@ -1559,6 +1567,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="2919733817273403520">Aidake täiustada iBrowe'i funktsioone ja toimivust</translation>
 <translation id="4565206163201411670">Kas kuvada teie iBrowe'i tegevused teenuses Digitaalne heaolu?</translation>
 <translation id="8118117428362942925">Kui vajad abi, küsi vanemalt (<ph name="PARENT_NAME"/>)</translation>
+<translation id="8120286190326371840">Selles seadmes pole ohustatud paroole</translation>
 <translation id="8122623268651408616">Sortimine uuemate järgi</translation>
 <translation id="8127542551745560481">Avalehe muutmine</translation>
 <translation id="8130309322784422030">Salvestatud sisselogimisteave võib olla aegunud</translation>
@@ -1567,7 +1576,6 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="6337533477704327362">Te ei pea seda parooli meelde jätma. See salvestatakse iBrowe'i paroolihaldurisse.</translation>
 <translation id="8152331954420209374">Ava Lens</translation>
 <translation id="6779735068647643024">Selleks, et saaksite oma iBrowe’i kontol paroole kasutada ja salvestada, kinnitage oma isik</translation>
-<translation id="8171286197772512427">Jagamine kokkuvõtte tagasiside lehe abil on avatud</translation>
 <translation id="8179976553408161302">Sisestusklahv</translation>
 <translation id="8186512483418048923"><ph name="FILES"/> faili on jään.</translation>
 <translation id="8190358571722158785">Jäänud on 1 päev</translation>
@@ -1582,11 +1590,14 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="4034729701971511794">Saate blokeerida saidid, millel te ei soovi lubada andmeid salvestada. iBrowe kustutab loendist automaatselt ka saidid, mis on vanemad kui 30 päeva. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="8221985041778490865">Sirvimisandmete kustutamine</translation>
 <translation id="8223642481677794647">Voo kaardimenüü</translation>
+<translation id="82296173028782770">Muutke otsingupäringut: <ph name="SEARCH_QUERY"/></translation>
 <translation id="8236063039629122676">Nüüd viib paremale pühkimine teid tagasi eelmistele külastatud lehtedele ja vasakule pühkimine viib teid edasi</translation>
 <translation id="8236097722223016103">Lisa järjehoidjatesse</translation>
 <translation id="8243077599929149377">Lisage oma kasutajanimi</translation>
+<translation id="8244387390464017490">Uue vahelehe kohandamine</translation>
 <translation id="8250920743982581267">Dokumendid</translation>
 <translation id="8255617931166444521">Saidid võivad teie küpsisefaile kasutada vaid selleks, et vaadata teie sirvimistegevust ainult samal saidil</translation>
+<translation id="9186681983690684515">iBrowe tühistas teie märguannete saamise tellimuse</translation>
 <translation id="8258999165172757081">Lisatud</translation>
 <translation id="2876689296031086375">Kuna eellaaditud lehed on krüpteeritud, ei saa iBrowe eellaaditud lehe sisu kohta teavet. iBrowe'i serverid saavad teada, millised saidid eellaaditakse privaatselt. Seda teavet kasutatakse ainult lehtede eellaadimiseks ja seda ei seostata teie iBrowe'i kontol oleva muu teabega.</translation>
 <translation id="8260126382462817229">Proovige uuesti sisse logida</translation>
@@ -1600,14 +1611,15 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8282297628636750033">Kui võimalik, rakendatakse saitidele tume teema</translation>
 <translation id="8282950411412455249">Avage turvaseaded</translation>
 <translation id="8306751933352925837">Paroolid peagi selles seadmes enam ei tööta. Oma paroolide kasutamise jätkamiseks värskendage Google Play teenuseid. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
-<translation id="8307517230426267469"><ph name="GIVEN_NAME"/> eemaldas vahelehe „<ph name="TAB_NAME"/>”</translation>
 <translation id="8310451567823644042">Paroolid varsti enam ei tööta</translation>
 <translation id="831192587911042850">Lisab praeguse veebisaidi teie jälgitavate veebisaitide loendisse.</translation>
 <translation id="8320212361750431956">Hiljutised toimingud</translation>
+<translation id="832514020744584629"><ph name="PREF_TITLE"/>  <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
 <translation id="7174809333940729365">iBrowe annab teile teada saitidest, mis võivad saata liiga palju märguandeid</translation>
 <translation id="834313815369870491">Ära kunagi tõlgi järgmisi saite</translation>
 <translation id="8348430946834215779">Kasutage võimalusel alati HTTPS-i ja saate enne HTTPS-i toetuseta saitide laadimist hoiatuse</translation>
 <translation id="8354977102499939946">Otsige kiirelt oma hääle abil. Selle otsetee muutmiseks avage menüü Seaded.</translation>
+<translation id="8361737703487394103">Konkreetsele vahelehele (1–8) liikumine</translation>
 <translation id="8368001212524806591">Jälgi hinda</translation>
 <translation id="8368772330826888223">{TAB_GROUP_COUNT,plural, =1{<ph name="TAB_GROUPS_ONE"/> vahelehegrupp}other{<ph name="TAB_GROUPS_MANY"/> vahelehegruppi}}</translation>
 <translation id="8378850197701296741">Teil on järjehoidjad, ajalugu ja muud seaded kontolt <ph name="FROM_ACCOUNT"/>.</translation>
@@ -1622,7 +1634,6 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8419244640277402268">Kaasa</translation>
 <translation id="8422250855136581222">Selles seadmes pole vahelehti</translation>
 <translation id="78656282836782594">iBrowe'i ohutustööriistad</translation>
-<translation id="5735840612282428689">Leht saadetud. Selle vaatamiseks avage iBrowe oma <ph name="DEVICE_TYPE"/></translation>
 <translation id="8427875596167638501">Eelvaate vaheleht on pooleldi avatud</translation>
 <translation id="8428213095426709021">Seaded</translation>
 <translation id="8430824733382774043">Jagatakse vaid ekraanipilti</translation>
@@ -1636,6 +1647,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8449781591250785734">{NUM_SITES,plural, =1{Load eemaldati ühelt saidilt}other{Load eemaldati # saidilt}}</translation>
 <translation id="8453310803815879010">Dinosaurusemängu alustamine</translation>
 <translation id="8455675988389029454">Kõigis oma seadmetes järjehoidjatele, paroolidele ja muule juurdepääsemine</translation>
+<translation id="8458413889418591446">Külastatud saitidele kiiresti naasmiseks sünkroonige ajalugu ja vahelehed</translation>
 <translation id="7018408824172283743">Jätkake iBrowe'i andmete kasutamist iBrowe'i kontol</translation>
 <translation id="8460448946170646641">Vaadake üle peamised privaatsus- ja turvaseaded</translation>
 <translation id="8473863474539038330">Aadressid ja muu</translation>
@@ -1646,21 +1658,19 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8497242791509864205">Ava sortimisvalikud</translation>
 <translation id="8497480609928300907">Privaatsusjuhendi selgitus</translation>
 <translation id="8497726226069778601">Siin pole midagi vaadata ... veel</translation>
-<translation id="230699814587342492">iBrowe'i paroolid</translation>
 <translation id="8503813439785031346">Kasutajanimi</translation>
 <translation id="8505766168025405649">Vaadake märguannet allalaadimise oleku kohta</translation>
 <translation id="8506357771923193001">Oma allalaadimised leiate siit</translation>
 <translation id="8512053371384421952">Te ei saa enam domeenilt <ph name="DOMAIN"/> märguandeid.</translation>
 <translation id="133012818630824069">iBrowe'i salvestatud paroolide eksportimine</translation>
 <translation id="8516012719330875537">Pildiredigeerija</translation>
-<translation id="8521833595674902532">Midagi läks valesti. Kokkuvõtet ei saanud lõpetada</translation>
 <translation id="8523928698583292556">Salvestatud parooli kustutamine</translation>
 <translation id="8526855376374973824">Märguandeloa voog</translation>
 <translation id="8533670235862049797">iBrowe'i ohutu sirvimine on sees</translation>
 <translation id="8540136935098276800">Sisestage õigesti vormindatud URL</translation>
 <translation id="854522910157234410">Ava leht</translation>
 <translation id="8547025137714087639">{ARCHIVED_TAB_COUNT,plural, =1{Passiivne vaheleht (1)}other{Passiivsed vahelehed (#)}}</translation>
-<translation id="8551524210492420949">Solvav või ebaturvaline</translation>
+<translation id="8547466829003330976">PDF-i ülevaatus AI abil</translation>
 <translation id="5503308854539525011">iBrowe piirab nende andmete hulka, mida saidid saavad reklaamide toimivuse mõõtmiseks brauseri kaudu jagada</translation>
 <translation id="8559990750235505898">Paku muudes keeltes olevate lehtede tõlkimist</translation>
 <translation id="8560602726703398413">Lugemisloendi leiate järjehoidjatest</translation>
@@ -1678,19 +1688,20 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8611922158252451755">Valige hoolega, kellega linke jagate, sest kõiki vahelehti saab muuta igaüks, kellel on link. Link aegub 48 tunni pärast.</translation>
 <translation id="5784514951651328424">Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie iBrowe'i kontol olla muus vormis sirvimisajalugu.</translation>
 <translation id="8617240290563765734">Kas avada allalaaditud sisus toodud soovitatud URL?</translation>
-<translation id="8621068256433641644">telefonis</translation>
 <translation id="8635399646025169806">Kas säilitada vahelehegrupid?</translation>
 <translation id="8636825310635137004">Vahelehtede hankimiseks oma teistest seadmetest lülitage sünkroonimine sisse.</translation>
 <translation id="864544049772947936">Akende haldamine (<ph name="INSTANCE_COUNTS"/>)</translation>
+<translation id="8662474268934425487">Logi sisse kontole <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="8664979001105139458">Faili nimi on juba olemas</translation>
 <translation id="3188408398745868028">Mõned selle seadme paroolid lakkavad peagi töötamast. Saate need paroolid teisaldada iBrowe'i paroolihaldurisse.</translation>
 <translation id="8676276370198826499">Registreeruge saidi <ph name="SITE_ETLD_PLUS_ONE"/> kasutamiseks kontoga <ph name="IDENTITY_PROVIDER_ETLD_PLUS_ONE"/></translation>
 <translation id="8676789164135894283">Sisselogimise kinnitused</translation>
 <translation id="8683039184091909753">pilt</translation>
+<translation id="8688183792442786085"><ph name="TAB_TITLE"/>, valitud vaheleht</translation>
 <translation id="869891660844655955">Aegumiskuupäev</translation>
 <translation id="8699120352855309748">Ära paku nende keelte tõlkimist</translation>
-<translation id="8703372953981978786">See link ei toimi</translation>
 <translation id="8712637175834984815">Selge</translation>
+<translation id="6146670726156522332">Tugevdage oma iBrowe'i kontol oma paroole</translation>
 <translation id="8723453889042591629">Selle lehe kiiresti tõlkimine. Selle otsetee muutmiseks puudutage pikalt.</translation>
 <translation id="8725066075913043281">Proovi uuesti</translation>
 <translation id="8731268612289859741">Turvakood</translation>
@@ -1712,13 +1723,11 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8816556050903368450">Kaasatud link: <ph name="ORIGIN"/></translation>
 <translation id="881688628773363275">Eelvaate vahelehe sisu ei saa vaadata.</translation>
 <translation id="8820817407110198400">Järjehoidjad</translation>
-<translation id="1649566745443570310">iBrowe eemaldab automaatselt load eeskirju rikkuvatelt ja külastamata saitidelt</translation>
 <translation id="8835786707922974220">Veenduge, et pääseksite alati oma salvestatud paroolidele juurde</translation>
 <translation id="883806473910249246">Sisu allalaadimisel ilmnes viga.</translation>
 <translation id="8840953339110955557">Leht võib veebiversioonist erineda.</translation>
 <translation id="8847988622838149491">USB</translation>
 <translation id="8849001918648564819">Peidetud</translation>
-<translation id="8853345339104747198"><ph name="TAB_TITLE"/>, vahekaart</translation>
 <translation id="8854223127042600341">Vaadake oma võrguühenduseta faile</translation>
 <translation id="885480114717186641">Saate taotleda hosti <ph name="HOST_NAME"/> arvutisaiti</translation>
 <translation id="8856607253650333758">Esita kirjeldusi</translation>
@@ -1728,18 +1737,20 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="8888527824584402177">Vahekaardid, mida te pole <ph name="DAYS_INACTIVE"/> päeva kasutanud, teisaldatakse siia<ph name="AUTODELETE_SECTION"/>. Seda saab alati muuta jaotises <ph name="SETTINGS_TITLE"/>.</translation>
 <translation id="1984646864943401749">Saadab mõne teie külastatud lehe URL-i, piiratud süsteemiteabe ja mõne lehe sisu iBrowe'ile, et aidata avastada uusi ohte ja veebis kõiki kaitsta.</translation>
 <translation id="8909135823018751308">Jaga ...</translation>
+<translation id="8918299437379122615">Jagage linki otsingutulemuste lehele: <ph name="SEARCH_QUERY"/>. Allikas: <ph name="PAGE_URL"/></translation>
 <translation id="8922289737868596582">Laadige lehed alla nupu Rohkem valikuid abil, et neid võrguühenduseta kasutada</translation>
 <translation id="8924575305646776101"><ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="892496902842311796"><ph name="LANG"/> on valmis</translation>
 <translation id="1174893863889683998">Kas eemaldada teie iBrowe'i tegevused teenusest Digitaalne heaolu?</translation>
 <translation id="8942627711005830162">Ava teises aknas</translation>
 <translation id="8945143127965743188"><ph name="LANG"/> – seda keelt ei saanud alla laadida. Proovige hiljem uuesti.</translation>
+<translation id="8946759102391960088">Säilitage juurdepääs oma paroolidele</translation>
+<translation id="85151160756468368">Paroolide kasutamise jätkamiseks eksportige need kohe ja importige need seejärel paroolihaldurisse, mida soovite kasutada. iBrowe Password Manager ei tööta enam, sest iBrowe Play teenused ei ole saadaval.</translation>
 <translation id="8963117664422609631">Saidi seadete avamine</translation>
 <translation id="8965591936373831584">ootel</translation>
 <translation id="8884660759731273973">Paroolid peagi enam ei tööta, kuna Google Play teenused pole saadaval. iBrowe'i kontole salvestatud paroolide kasutamiseks logige sisse teise seadme kaudu või avage veebileht passwords.google.com.</translation>
 <translation id="8970887620466824814">Midagi läks valesti.</translation>
 <translation id="8972098258593396643">Kas soovite alla laadida vaikekausta?</translation>
-<translation id="8982113230057126145">Mittemeeldivaks märkimine saadab tagasiside, et see kokkuvõte ei meeldi teile</translation>
 <translation id="2481553173340651149">Teie andmed on krüpteeritud teie parooliga. iBrowe’i andmete kasutamiseks ja salvestamiseks oma iBrowe’i kontole sisestage parool.</translation>
 <translation id="8995521496079646922">Teie valitud rakendusi kasutatakse vaikimisi. Kui rakendust selles seadmes veel pole, laaditakse see peagi alla.</translation>
 <translation id="8996847606757455498">Valige teine teenusepakkuja</translation>
@@ -1752,6 +1763,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="9022871169049522985">Saidid ja reklaamijad saavad mõõta oma reklaamide toimivust</translation>
 <translation id="9035378196785279980">Teisalda kohta\u2026</translation>
 <translation id="9042893549633094279">Privaatsus ja turvalisus</translation>
+<translation id="1612219807314383628">Kiirotsing iBrowe'is</translation>
 <translation id="9050666287014529139">Parool</translation>
 <translation id="9055497320631373736">Sait lisati tagasi potentsiaalsete saitide hulka</translation>
 <translation id="9057030985451135243">Teave jagatud vahelehegruppide kohta</translation>
@@ -1783,6 +1795,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="9148126808321036104">Logige uuesti sisse</translation>
 <translation id="9157212632995922070">Valige konto, et jätkata saidil <ph name="SITE_ETLD_PLUS_ONE"/></translation>
 <translation id="9158770349521403363">Jagatakse vaid sisu</translation>
+<translation id="9161172953291434881">Kas usaldate sellele saidile oma andmeid?</translation>
 <translation id="9168847423516963845">Teisalda aadressiriba alla</translation>
 <translation id="9169507124922466868">Navigeerimisajalugu on pooleldi avatud</translation>
 <translation id="4947625801334180582">iBrowe’i beetaversioon</translation>
@@ -1802,7 +1815,6 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="2830145431802238213">Kasutage iBrowe'is lihtsustatud režiimi</translation>
 <translation id="928550791203542716">Jälgitakse saiti <ph name="SITE_NAME"/></translation>
 <translation id="930124987204876019">Ajaloo, küpsiste, saidiandmete, vahemälu kustutamine …</translation>
-<translation id="93533588269984624">Kõik paroolid laaditakse alla teie seadmesse ja eemaldatakse kanalist <ph name="CHROME_CHANNEL"/></translation>
 <translation id="938850635132480979">Viga: <ph name="ERROR_CODE"/></translation>
 <translation id="939598580284253335">Sisesta parool</translation>
 <translation id="5406914950576900927">iBrowe saab Hiinas otsimiseks kasutada teenust <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>. Seda saate muuta menüüs <ph name="BEGIN_LINK"/>Seaded<ph name="END_LINK"/>.</translation>
@@ -1812,6 +1824,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="970715775301869095">Jäänud on <ph name="MINUTES"/> minutit</translation>
 <translation id="981121421437150478">Võrguühenduseta</translation>
 <translation id="983192555821071799">Sule kõik vahelehed</translation>
+<translation id="5022280646675126732">Ei saa teie iBrowe'i kontol paroole kontrollida</translation>
 <translation id="987264212798334818">Üldine</translation>
 <translation id="992745192656291733"><ph name="TAB_COUNT"/> vahelehte</translation>
 <translation id="996149300115483134">Voo kaardimenüü on suletud</translation>
@@ -1819,6 +1832,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="79269250264141507">Kui sisestate midagi aadressiribale või otsingukasti, saadab iBrowe sisestatava teie vaikeotsingumootorile, et saada paremaid soovitusi. Privaatses režiimis on see välja lülitatud.</translation>
 <translation id="5711390076756601471">Lukusta iBrowe'ist lahkumisel privaatsed vahelehed</translation>
 <translation id="1014490034578104945">Kasuta avatud privaatsete vahelehtede vaatamiseks ekraanilukku</translation>
+<translation id="383007806262310953">Kuva järjehoidjariba</translation>
 <translation id="5722020415664104421">Blokeeri privaatrežiimi kasutamisel</translation>
 <translation id="8915136961932734044">Privaatrežiimis ei saa veebisaidid kasutada küpsiseid, et näha teie sirvimistegevust eri veebisaitidel näiteks reklaamide isikupärastamiseks. Mõne veebisaidi funktsioonid võivad toimimast lakata.</translation>
 <translation id="2589970573128789862">iBrowe’i privaatrežiim</translation>
@@ -1836,14 +1850,16 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="6302653771627628530">iBrowe'ist lahkumisel lukustatakse privaatsed vahelehed</translation>
 <translation id="4167670741834902166">Uus privaatne vaheleht</translation>
 <translation id="8120164982795455341">Uus privaatne vaheleht</translation>
+<translation id="3377025655491224618">Privaatne vaheleht</translation>
 <translation id="1988906120194081364">Lülitu privaatsele</translation>
 <translation id="4300497327999623298">Lülitu privaatsest välja</translation>
 <translation id="4968908871398201967">Privaatsusrežiim</translation>
 <translation id="8448127664493413656">Sisene privaatrežiimi</translation>
 <translation id="6484416399492735324">Välju privaatrežiimist</translation>
-<translation id="3377025655491224618">Privaatne vaheleht</translation>
-<translation id="584427517463557805">Valitud privaatne vaheleht</translation>
+<translation id="4639461638460276789"><ph name="TAB_TITLE"/>, Privaatne vahekaart</translation>
+<translation id="1315014485411054095"><ph name="TAB_TITLE"/>, Valitud privaatne vahekaart</translation>
 <translation id="2280910239864711607">Ava uus vaheleht privaatrežiimis</translation>
+<translation id="1203189419326478388">Näita või peida järjehoidjad</translation>
 <translation id="5048396920203761159">{TAB_COUNT, plural,
           =1 {<ph name="TAB_COUNT_ONE"/> privaatne vaheleht}
           other {<ph name="TAB_COUNT_NORMAL"/> privaatsed vahelehed}}</translation>
@@ -1861,6 +1877,7 @@ Selle seade muutmiseks <ph name="BEGIN_LINK"/>kustutage oma kontol iBrowe'i andm
 <translation id="7096147642287317420">Privaatrežiimi inaktiveerimiseks puudutage pikalt</translation>
 <translation id="2331163878318921124">Privaatrežiimi inaktiveerimiseks puudutage lühidalt ja siis pikalt</translation>
 <translation id="3947065058794437451">Privaatrežiim ei ole selles seadmes saadaval</translation>
+<translation id="5270319788820204019">Otsing klaviatuuri, hääle või kaamera abil, või privaatselt</translation>
 <translation id="3095878721037212218">Saate hõlpsalt hallata meediumite juhtelemente, privaatseid seansse, allalaadimisi ja muud</translation>
 <translation id="5129323533070334129">Kas salvestada pääsukood ka privaatrežiimist väljaspool?</translation>
 <translation id="4325212706000356062">Otsige oma privaatsetelt vahelehtedelt</translation>

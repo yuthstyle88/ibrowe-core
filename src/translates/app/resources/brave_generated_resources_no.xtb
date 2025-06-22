@@ -52,6 +52,12 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="4450893287417543264">Ikke vis igjen</translation>
 <translation id="4595286989346610620">Sjekk detaljer</translation>
 <translation id="8324318899000695659">Blokker elementer</translation>
+<translation id="3828310068250853121">Velg hvilket element du ønsker å blokkere</translation>
+<translation id="2577286987423083872">Block Elements</translation>
+<translation id="3211174446914979436">Behandle filtre</translation>
+<translation id="3108584651298176909">Vis regler</translation>
+<translation id="5156986655891520787">Skjul regler</translation>
+<translation id="7658239707568436148">Avbryt</translation>
 <translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">Åpne ved å bruke en .onion-adresse: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">Tving lim inn</translation>
@@ -93,7 +99,6 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="8117247596084706514">Dette nettstedet har bedt om din <ph name="PART_ONE"/>nøyaktige posisjon<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Finn ut mer<ph name="PART_TWO_END"/></translation>
 <translation id="5486652646100591203">Dette nettstedet har bedt om din <ph name="PART_ONE"/>nøyaktige posisjon<ph name="PART_ONE_END"/>. iBrowe vil bare kunne oppgi <ph name="PART_TWO"/>generelle posisjonsdata<ph name="PART_TWO_END"/> fordi <ph name="PART_THREE"/>Posisjonstjenester<ph name="PART_THREE_END"/> er deaktivert. <ph name="PART_FOUR"/>Finn ut mer<ph name="PART_FOUR_END"/></translation>
 <translation id="8915916167043355778">Lukk alle</translation>
-<translation id="7658239707568436148">Avbryt</translation>
 <translation id="4870911314065352661">Vil du lukke alle fanene?</translation>
 <translation id="7551864359422178684">Du har <ph name="NUMBER_OF_TABS"/> åpne faner i dette nettleservinduet.</translation>
 <translation id="2571596981920752023"><ph name="NUMBER_OF_TABS"/> faner</translation>
@@ -133,6 +138,7 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="3447730462826640312">Du trenger ikke klikke på dem for å tjene penger – men klikk gjerne hvis du er interessert!</translation>
 <translation id="5253166205743627564">Takk for at du støtter iBrowe Search ved å trykke på en privat annonse. I motsetning til Big Tech, måler vi resultatene av annonsene våre helt anonymt for å bevare personvernet ditt.</translation>
 <translation id="8748471354357836070">Les mer/se flere valg</translation>
+<translation id="5927196110206824867">Sponsede bakgrunnsbilder støtter iBrowe sitt mål om å bygge et uavhengig nett som setter brukeren først. I motsetning til Big Tech, måler vi effektene av annonsene våre anonymt for å ivareta personvernet ditt.</translation>
 <translation id="4174337572777167894">Web Discovery-prosjektet</translation>
 <translation id="8659271182272561965">Bidra med anonyme søke- og surfedata for å forbedre iBrowe-søket.</translation>
 <translation id="1516554614404600536">iBrowe-tooltip</translation>
@@ -317,6 +323,18 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="8813509417421129632">Nettleseren ønsker å lagre en innebygd side fra <ph name="SITE"/></translation>
 <translation id="7700010743463174379">Denne siden ønsker å lagre</translation>
 <translation id="6774238875569752630">En innebygd side på denne siden ønsker å lagre</translation>
+<translation id="1233913566967531780">Fanefokus</translation>
+<translation id="4034992002364254340">Samle alle relaterte faner i et nytt vindu</translation>
+<translation id="8012125596344613514">Foreslåtte tema</translation>
+<translation id="7529120186020617755">Skriv inn et tema du vil fokusere på ...</translation>
+<translation id="6847541693235449912">Gå videre</translation>
+<translation id="2079545284768500474">Angre</translation>
+<translation id="1533980864758658574">Nytt vindu opprettet for <ph name="TOPIC"/></translation>
+<translation id="7985042437720138349">Denne funksjonen sender data om de åpne fanene dine til Leo, som er iBrowes KI-drevne nettleserassistent.</translation>
+<translation id="6165508094623778733">Finn ut mer</translation>
+<translation id="7557539689487606886">Oppgrader til Premium</translation>
+<translation id="1035309871698658326">Når det er åpent, sendes navnene og adressene til de ikke-private fanene dine automatisk til Leo, slik at Leo kan sortere dem.</translation>
+<translation id="3435896845095436175">Slå på</translation>
 <translation id="9156965752763025780">Endringene dine trer i kraft neste gang du starter iBrowe.</translation>
 <translation id="7179921470347911571">Start på nytt nå</translation>
 <translation id="1426410128494586442">Ja</translation>
@@ -333,6 +351,7 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="1336940801687497203">Samme som Windows</translation>
 <translation id="8721331068159819483">Samme som macOS</translation>
 <translation id="4171684937791228083">Vis alltid verktøyraden i fullskjerm</translation>
+<translation id="5840822070878669614">Åpne nettmarked</translation>
 <translation id="1692470335103807198">Hent flere temaer</translation>
 <translation id="2906510232093002459">Standardbilder for iBrowe</translation>
 <translation id="8000020256436988724">Verktøyrad</translation>
@@ -352,7 +371,7 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="2396127686705429331">Vis bokmerke-knappen</translation>
 <translation id="2814998458708016836">Bruk vid adresselinje</translation>
 <translation id="4109670531935487117">Vis forslag til autofullføring i adressefeltet</translation>
-<translation id="2858138569776157458">Populært</translation>
+<translation id="3405901785709583668">Beste forslag</translation>
 <translation id="7859704718976024901">Nettleserlogg</translation>
 <translation id="8820817407110198400">Bokmerker</translation>
 <translation id="4144468798716165316">Hurtigkommandoer</translation>
@@ -460,8 +479,10 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="863171915776379000">Tillat Facebook-innlogginger og innebygde innlegg</translation>
 <translation id="7791141927430186653">Tillat innebygde tweets fra X (tidligere Twitter)</translation>
 <translation id="958971637207126733">Tillat LinkedIn-innebygde innlegg</translation>
+<translation id="1244912498725894944">Enkelte innstillinger for informasjonskapsler kontrolleres av iBrowe Shields. Du finner en liste over dem &lt;a href="/content/ibroweShields"&gt;her&lt;/a&gt;.</translation>
+<translation id="5352519841984162795">Denne innstillingen styres av iBrowe Shields.</translation>
+<translation id="352287031024189516">Denne innstillingen styres av Google.</translation>
 <translation id="8792121506918889955">WebRTCs IP-håndteringspolicy</translation>
-<translation id="6165508094623778733">Finn ut mer</translation>
 <translation id="8798099450830957504">Standard</translation>
 <translation id="1822560017823072927">Standard offentlige og private grensesnitt</translation>
 <translation id="5825943197137337319">Kun standard offentlig grensesnitt</translation>
@@ -497,6 +518,7 @@ Eller endre dette senere på <ph name="SETTINGS_EXTENIONS_LINK"/>.</translation>
 <translation id="1389601498324964367">Kvoteadministrert lagring</translation>
 <translation id="814018970995616154">Kontrollerer nettadresser mot en liste i iBrowe over utrygge nettsteder.</translation>
 <translation id="1144810021918451336">Beskytter deg ikke mot farlige nettsteder, nedlastinger eller utvidelser.</translation>
+<translation id="4905744245455598930">Beskytter mot nettsteder, nedlastinger og utvidelser som er kjent for å være farlige.</translation>
 <translation id="5570470519803062774">Innstillinger for nettstedet og Shields</translation>
 <translation id="410351446219883937">Autospill</translation>
 <translation id="3512883292907992390">Tillat automatisk avspilling av videoer</translation>
@@ -588,8 +610,8 @@ Hvis du bestemmer deg for at du vil begynne å bruke Sync igjen, må du opprette
 <translation id="4908081302669157000">Telefonnumre, e-postadresser og adresser</translation>
 <translation id="294985549514492876">Webapper (PWA-er)</translation>
 <translation id="7029809446516969842">Passord</translation>
-<translation id="924029461438529367">Vis søkeforslag</translation>
-<translation id="3128251601544028053">Når du skriver i adressefeltet eller søkefeltet, sender iBrowe det du skriver til din standard søkemotor for å få bedre forslag. Dette er ikke tilgjengelig i private vinduer.</translation>
+<translation id="6011308810877101166">Få bedre søkeforslag</translation>
+<translation id="2332576387809612040">Når dette er aktivert, sender iBrowe det du skriver inn i adresselinjen eller søkefeltet til din standard nettleser for å gi deg bedre forslag. Når dette er skrudd av, viser iBrowe deg kun forslag som blir generert på enheten din. Dette er alltid skrudd av i private vinduer.</translation>
 <translation id="6285118765755298263">Indekser andre søkemotorer</translation>
 <translation id="919715748352669592">Indekserer automatisk nettsider som er i tråd med OpenSearch-spesifikasjonene.</translation>
 <translation id="5522403133543437426">Søkemotoren brukes i adresselinjen.</translation>
@@ -643,7 +665,6 @@ Hvis du bestemmer deg for at du vil begynne å bruke Sync igjen, må du opprette
 <translation id="188228077840632890">AdGuard er en Manifest V2-utvidelse med annonseblokkering, foreldrekontroller og muligheten for integrasjon med andre AdGuard-tjenester.</translation>
 <translation id="8137559199583651773">Administrer utvidelser</translation>
 <translation id="7013485839273047434">Få flere utvidelser</translation>
-<translation id="5840822070878669614">Åpne nettmarked</translation>
 <translation id="4954512758656527938">Standard Ethereum-lommebok</translation>
 <translation id="7701023802820268122">Standard Solana-lommebok</translation>
 <translation id="8488282162676695335">iBrowe-lommebok</translation>
@@ -662,8 +683,12 @@ Hvis du bestemmer deg for at du vil begynne å bruke Sync igjen, må du opprette
 <translation id="856371974127598760">Lommeboknettverk</translation>
 <translation id="5975930666279943472">Slett lommeboktransaksjonen og nonce-informasjonen</translation>
 <translation id="5693968582510626466">Sletting av transaksjoner kan være nyttig for utviklere eller ved sletting av tilstanden på en lokal server</translation>
-<translation id="2326850911705720398">Tilbakestill og slett lommebokdata</translation>
+<translation id="6171369470447621882">Tilbakestill Zcash synk-status</translation>
+<translation id="6705112675071480687">Tilbakestiller Zcash-synkronisering for alle skjermede kontoer</translation>
+<translation id="2012093487873597892">Er du sikker på at du vil tilbakestille synkroniseringsstatusen for Zcash? Dette vil avslutte all synkronisering av skjermede kontoer. Skriv inn «<ph name="CONFIRMATION_PHRASE"/>» for å bekrefte.</translation>
+<translation id="5031551083187285762">Synkroniseringen ble tilbakestilt.</translation>
 <translation id="9216386092464743272">Er du sikker på at du vil tilbakestille all informasjon om transaksjoner og nonce fra lommeboken? Dette alternativet brukes som regel av utviklere som kjører på en lokal testserver. Skriv inn «<ph name="CONFIRMATION_PHRASE"/>» for å bekrefte.</translation>
+<translation id="2326850911705720398">Tilbakestill og slett lommebokdata</translation>
 <translation id="6369495274982305511">Er du sikker på at du vil tilbakestille lommeboken? Om lommeboken din ikke er sikkerhetskopiert, vil tilbakestilling føre til at du mister alle kontodata (inkludert eventuelle tilknyttede midler). Skriv "<ph name="CONFIRMATION_PHRASE"/>" for å bekrefte.</translation>
 <translation id="3752403403443723332">Lommeboken er tilbakestilt.</translation>
 <translation id="594766067816395072">Transaksjonsinformasjonen i lommeboken er tilbakestilt.</translation>
@@ -673,6 +698,7 @@ Hvis du bestemmer deg for at du vil begynne å bruke Sync igjen, må du opprette
 <translation id="1561541094377237745">Solana-nettverk</translation>
 <translation id="7141438739990875547">Bitcoin-nettverk</translation>
 <translation id="1077567586443625607">Zcash-nettverk</translation>
+<translation id="1177180573354712438">Cardano-nettverk</translation>
 <translation id="3159419679550543837">Vis testnettverk</translation>
 <translation id="3215569562674795548">Rediger eller legg til nettverk</translation>
 <translation id="4418993400653250511">ID for kjeden</translation>
@@ -711,6 +737,8 @@ Hvis du bestemmer deg for at du vil begynne å bruke Sync igjen, må du opprette
 <translation id="2751872555001636931">Vis Leo-ikonet i sidefeltet</translation>
 <translation id="8055509865174199683">Vis Leo i kontekstmenyen på nettsteder</translation>
 <translation id="1529674267267221673">Leo vises i kontekstmenyen når du høyreklikker på et nettsted. Dette sender kontekst fra den gjeldende nettsiden til Leo.</translation>
+<translation id="5226020406479918122">Fanefokus-modus</translation>
+<translation id="3705539672403311123">Aktiver fanesortering på søkesiden. Når det er åpent, sendes navnene og adressene til de ikke-private fanene dine automatisk til Leo, slik at Leo kan sortere dem. <ph name="BEGIN_LINK"/>Les mer<ph name="END_LINK"/>.</translation>
 <translation id="8172263161008556851">Vis foreslåtte spørsmål i samtalen</translation>
 <translation id="5781842473834867765">Lagre samtaleloggen min</translation>
 <translation id="1082960401708055995">Dersom du deaktiverer lagring av samtaler vil alle samtalene dine slettes permanent. Dette kan ikke angres.</translation>
@@ -720,6 +748,9 @@ Leo AI i fremtiden. Samtaleloggen din blir også slettet. Dersom du tømmer samt
 Leo AI. Dette kan ikke angres.</translation>
 <translation id="5574059574002819179">Tilpass forslag til autofullføring</translation>
 <translation id="7942415993090181327">Samtalelogg</translation>
+<translation id="5385064007245738696">Mer om Leo AI</translation>
+<translation id="5084498230659987096">iBrowe Leo består av en KI-chat og andre KI-drevne grensesnitt som setter personvernet ditt i fokus. Leo bruker ikke dataene dine til å trene seg selv eller andre KI-modeller. Alle forespørsler behandles og anonymiseres gjennom en egen server.</translation>
+<translation id="6458721693611638005">Les om hvordan iBrowe beskytter bruken din av KI i personvernerklæringen for Leo. <ph name="BEGIN_LINK"/>Les mer<ph name="END_LINK"/>.</translation>
 <translation id="614530507403667291">Standardmodell for nye samtaler</translation>
 <translation id="8826914609353373601">Administrer premiumabonnement</translation>
 <translation id="235457946228076038">Ta med din egen modell</translation>
@@ -730,6 +761,8 @@ Leo AI. Dette kan ikke angres.</translation>
 <translation id="3553035516792776805">Navn på modellforespørsel</translation>
 <translation id="7634775528597575156">Serverendepunkt</translation>
 <translation id="6374563306438145841">API-nøkkel</translation>
+<translation id="3295756655687327124">Støtte for bilder</translation>
+<translation id="1415432774589088566">Viser om modellen har støtte for bilder, f. eks. llama 3.2b vision</translation>
 <translation id="8008271349880309090">Navnet på modellen slik det vil vises i modellvalgmenyen</translation>
 <translation id="1355326130503900056">Navnet på modellen slik det skal vises i forespørselen til serveringsrammeverket, dvs. phi-3 (merk at hvis dette navnet ikke samsvarer nøyaktig med det som forventes av server-rammeverket, vil ikke integrasjonen fungere)</translation>
 <translation id="3213787232304349732">Nettadressen der rammeverket ditt søker etter forespørsler. Dersom du ikke er sikker, kan du sjekke dokumentasjonen om rammeverket. For Ollama, er dette for eksempel alltid http://localhost:11434/v1/chat/completions</translation>
@@ -747,7 +780,7 @@ Leo AI. Dette kan ikke angres.</translation>
 <translation id="7265212806651512211">Du har ikke koblet til en modell ennå.</translation>
 <translation id="7304802428852949897">Dine modeller</translation>
 <translation id="7435587476558117990">Koble din egenvertsbaserte eller tredjepartsvertsbaserte LLM til Leo og bruk dem i nettleseren.</translation>
-<translation id="1381050642750209119">Bruk et hvilket som helst OpenAI Chat Protocol-kompatibelt rammeverk som Ollama.</translation>
+<translation id="8137606697798069075">Bruk hvilket som helst rammeverk som er kompatibelt med OpenAI Chat Protocol, f. eks. Ollama. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
 <translation id="2642905648178380593">Lagre modell</translation>
 <translation id="6304169450064541679">Systemledetekst</translation>
 <translation id="3081947790648024460">Du kan skrive instruksjoner og/eller kontekst som veiledning for å få et bestemt tema eller en bestemt stil på svarene fra modellen. Lim inn %datetime% der du ønsker å sette inn nåværende dato og tidspunkt.</translation>

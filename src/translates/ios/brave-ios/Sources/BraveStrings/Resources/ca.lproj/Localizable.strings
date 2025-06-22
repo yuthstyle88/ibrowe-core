@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
+/* A label shown above a list of icons designed by Brave */
 "altAppIcon.braveIconsHeader" = "Icones de iBrowe";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Canviar l'icona de l'aplicació";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "Predeterminat";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -30,6 +30,12 @@
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "Nova pestanya d'incògnit";
+
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Més informació / opcions de renúncia";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "Les imatges de fons patrocinades ajuden a iBrowe en la seva missió de construir un lloc web independent on els usuaris són la prioritat. I, a diferència de les Big Tech, mesurem el rendiment dels anuncis de manera anònima per garantir la teva privacitat.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Pestanya nova";
@@ -58,6 +64,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "Torna a carregar la pàgina";
 
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Més informació / opcions de renúncia";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "Gràcies per clicar sobre un anunci privat i donar suport al Cercador de iBrowe. A diferència de les Big Tech, mesurem el rendiment dels anuncis de manera anònima per preservar la teva privacitat.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Selecciona la barra d'ubicació";
 
@@ -76,7 +88,7 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "Mostra la pestanya anterior";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
 "showShieldsTitle" = "Obre Escuts de iBrowe";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
@@ -141,6 +153,12 @@
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "Mode de navegació d'incògnit";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "S'ha produït un error al descarregar l'arxiu. Torna-ho a intentar més tard.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "No s'ha pogut descarregar l'arxiu";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "Amplia";

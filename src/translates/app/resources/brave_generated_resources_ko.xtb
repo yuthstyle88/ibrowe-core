@@ -52,6 +52,12 @@
 <translation id="4450893287417543264">다시 표시하지 않음</translation>
 <translation id="4595286989346610620">세부정보 확인</translation>
 <translation id="8324318899000695659">요소 차단</translation>
+<translation id="3828310068250853121">차단할 요소 선택</translation>
+<translation id="2577286987423083872">요소 차단</translation>
+<translation id="3211174446914979436">필터 관리</translation>
+<translation id="3108584651298176909">규칙 표시</translation>
+<translation id="5156986655891520787">규칙 숨기기</translation>
+<translation id="7658239707568436148">취소</translation>
 <translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">.onion 주소를 사용하여 열기: <ph name="ADDRESS"/></translation>
 <translation id="4759098689276706664">강제 붙여넣기</translation>
@@ -93,7 +99,6 @@
 <translation id="8117247596084706514">이 사이트가 <ph name="PART_ONE"/>정밀한 위치 정보<ph name="PART_ONE_END"/>를 요청했습니다. <ph name="PART_TWO"/>자세히 알아보기<ph name="PART_TWO_END"/></translation>
 <translation id="5486652646100591203">이 사이트가 <ph name="PART_ONE"/>정밀한 위치 정보<ph name="PART_ONE_END"/>를 요청했습니다. 지금은 iBrowe가 <ph name="PART_TWO"/>대략적인 위치<ph name="PART_TWO_END"/>만 제공할 수 있는데, 이유는 <ph name="PART_THREE"/>위치 서비스<ph name="PART_THREE_END"/>가 활성화되어 있기 때문입니다. <ph name="PART_FOUR"/>자세히 알아보기<ph name="PART_FOUR_END"/></translation>
 <translation id="8915916167043355778">모두 닫기</translation>
-<translation id="7658239707568436148">취소</translation>
 <translation id="4870911314065352661">모든 탭을 닫으시겠습니까?</translation>
 <translation id="7551864359422178684">이 브라우저 창에 탭 <ph name="NUMBER_OF_TABS"/>개가 열려 있습니다.</translation>
 <translation id="2571596981920752023">탭 <ph name="NUMBER_OF_TABS"/>개</translation>
@@ -133,6 +138,7 @@
 <translation id="3447730462826640312">적립하기 위해 클릭할 필요는 없지만 관심이 있다면 클릭해보세요!</translation>
 <translation id="5253166205743627564">프라이빗 광고를 클릭하여 iBrowe 검색을 지원해 주셔서 감사합니다. 빅테크 기업들과 달리 당사는 사용자의 개인정보를 보호하기 위해 광고 실적을 익명으로 평가합니다.</translation>
 <translation id="8748471354357836070">자세히 알아보기 / 옵트아웃 옵션</translation>
+<translation id="5927196110206824867">스폰서 배경 이미지는 독립적인 사용자 중심 웹을 구축하려는 iBrowe의 사명을 뒷받침합니다. 또한 빅 테크와 달리 광고 성과를 익명으로 측정하여 사용자의 개인 정보를 보호합니다.</translation>
 <translation id="4174337572777167894">웹 디스커버리 프로젝트</translation>
 <translation id="8659271182272561965">익명 검색 및 인터넷 사용 기록 데이터 일부를 보내 iBrowe Search 개선에 도움을 주세요.</translation>
 <translation id="1516554614404600536">iBrowe 툴팁</translation>
@@ -188,7 +194,7 @@
 <translation id="2609895996619941644">Wayback Machine에서 저장된 버전을 사용할 수 있는지 확인하시겠습니까?</translation>
 <translation id="8010675257566903381">이 사이트의 저장된 버전을 Wayback Machine이 찾을 수 없습니다.</translation>
 <translation id="1207694258341311738">저장된 버전 확인</translation>
-<translation id="191143826155037518">iBrowe (브레이브)는 <ph name="BEGIN_LINK_MPL"/>모질라 공용 허가서 2.0<ph name="END_LINK_MPL"/> (MPL)에 따라 사용자에게 제공되며, 여러 다양한 기타 허가서에 따라 <ph name="BEGIN_LINK_OSS"/>오픈 소스 소프트웨어<ph name="END_LINK_OSS"/>를 포함합니다.
+<translation id="191143826155037518">iBrowe (브레이브)는 <ph name="BEGIN_LINK_MPL"/>모질라 공용 허가서 2.0<ph name="END_LINK_MPL"/> (MPL)에 따라 사용자에게 제공되며, 여러 다양한 기타 허가서에 따라 <ph name="BEGIN_LINK_OSS"/>오픈 소스 소프트웨어<ph name="END_LINK_OSS"/>를 포함합니다. 
         귀하는 <ph name="BEGIN_LINK_SOURCE_CODE"/>이 사본을 만드는 데 사용되는 특정 소스 코드<ph name="END_LINK_SOURCE_CODE"/>를 <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>다운로드하고 구축하는 방법에 대한 지침<ph name="END_LINK_BUILD_INSTRUCTIONS"/>을 읽으실 수 있습니다.</translation>
 <translation id="4474155171896946103">모든 탭 북마크...</translation>
 <translation id="3987546108749866209">세로 탭 사용</translation>
@@ -317,6 +323,18 @@
 <translation id="8813509417421129632"><ph name="SITE"/>에 임베드된 페이지가 다음을 저장하려고 함</translation>
 <translation id="7700010743463174379">이 페이지가 다음을 저장하려고 함</translation>
 <translation id="6774238875569752630">이 페이지상에 임베드된 페이지가 다음을 저장하려고 함</translation>
+<translation id="1233913566967531780">탭 포커스</translation>
+<translation id="4034992002364254340">모든 관련 탭을 새 창에 모읍니다</translation>
+<translation id="8012125596344613514">추천 주제</translation>
+<translation id="7529120186020617755">집중할 주제를 입력하세요...</translation>
+<translation id="6847541693235449912">이동</translation>
+<translation id="2079545284768500474">원상태로 돌리기</translation>
+<translation id="1533980864758658574"><ph name="TOPIC"/>에 대한 새 창을 만들었습니다</translation>
+<translation id="7985042437720138349">이 기능은 열려 있는 탭에 관한 데이터를 iBrowe의 AI 기반 브라우저 어시스턴트인 레오로 전송합니다.</translation>
+<translation id="6165508094623778733">더 알아보기</translation>
+<translation id="7557539689487606886">프리미엄 가입</translation>
+<translation id="1035309871698658326">탭을 열면 비공개 탭이 아닌 모든 탭의 제목과 출처가 자동으로 레오로 전송되어 분류됩니다.</translation>
+<translation id="3435896845095436175">사용</translation>
 <translation id="9156965752763025780">변경사항은 다음에 iBrowe을 다시 시작할 때 적용됩니다.</translation>
 <translation id="7179921470347911571">지금 다시 실행</translation>
 <translation id="1426410128494586442">예</translation>
@@ -333,6 +351,7 @@
 <translation id="1336940801687497203">Windows와 동일</translation>
 <translation id="8721331068159819483">macOS와 동일</translation>
 <translation id="4171684937791228083">전체화면에서는 툴바 항상 표시</translation>
+<translation id="5840822070878669614">Web Store 열기</translation>
 <translation id="1692470335103807198">더 많은 테마 받기</translation>
 <translation id="2906510232093002459">iBrowe 기본 이미지</translation>
 <translation id="8000020256436988724">툴바</translation>
@@ -352,7 +371,7 @@
 <translation id="2396127686705429331">북마크 버튼 표시</translation>
 <translation id="2814998458708016836">넓은 주소 표시줄 사용</translation>
 <translation id="4109670531935487117">주소 표시줄에 자동 완성 추천 표시</translation>
-<translation id="2858138569776157458">인기 사이트</translation>
+<translation id="3405901785709583668">인기 추천 항목</translation>
 <translation id="7859704718976024901">검색 내역</translation>
 <translation id="8820817407110198400">북마크</translation>
 <translation id="4144468798716165316">빠른 명령</translation>
@@ -460,8 +479,10 @@
 <translation id="863171915776379000">Facebook 로그인 및 내장 포스트를 허용합니다</translation>
 <translation id="7791141927430186653">X(구 Twitter) 임베디드 트윗 허용</translation>
 <translation id="958971637207126733">LinkedIn 내장 포스트 허용</translation>
+<translation id="1244912498725894944">일부 쿠키 설정은 iBrowe 쉴드에서 컨트롤됩니다. 해당 항목을 &lt;a href="/content/ibroweShields"&gt;여기&lt;/a&gt;에서 확인하세요.</translation>
+<translation id="5352519841984162795">iBrowe 쉴드에서 컨트롤하는 설정입니다.</translation>
+<translation id="352287031024189516">구글 로그인에서 컨트롤하는 설정입니다.</translation>
 <translation id="8792121506918889955">WebRTC IP 처리 방침</translation>
-<translation id="6165508094623778733">더 알아보기</translation>
 <translation id="8798099450830957504">기본값</translation>
 <translation id="1822560017823072927">기본 공개 및 비공개 인터페이스</translation>
 <translation id="5825943197137337319">기본 공개 인터페이스 전용</translation>
@@ -497,6 +518,7 @@
 <translation id="1389601498324964367">할당량 관리형 스토리지</translation>
 <translation id="814018970995616154">iBrowe에 저장된 안전하지 않은 사이트 목록을 이용해 URL을 확인합니다.</translation>
 <translation id="1144810021918451336">위험한 웹사이트, 다운로드 및 확장 프로그램으로부터 사용자를 보호하지 않습니다.</translation>
+<translation id="4905744245455598930">위험한 것으로 알려진 사이트와 다운로드, 확장 프로그램으로부터 보호합니다.</translation>
 <translation id="5570470519803062774">사이트 및 방패 설정</translation>
 <translation id="410351446219883937">자동 재생</translation>
 <translation id="3512883292907992390">사이트의 동영상 자동 재생 허용</translation>
@@ -588,8 +610,8 @@
 <translation id="4908081302669157000">전화번호, 이메일, 주소</translation>
 <translation id="294985549514492876">웹 앱(PWA)</translation>
 <translation id="7029809446516969842">비밀번호</translation>
-<translation id="924029461438529367">추천 검색어 표시</translation>
-<translation id="3128251601544028053">주소창이나 검색창에 입력하면 입력하신 내용을 iBrowe가 기본 검색 엔진으로 보내 추천 결과를 개선합니다. 비공개 창에서는 사용이 불가합니다.</translation>
+<translation id="6011308810877101166">검색 제안 향상</translation>
+<translation id="2332576387809612040">이 기능을 사용할 경우 iBrowe는 사용자가 주소창이나 검색창에 입력한 내용을 기본 검색 엔진으로 전송하여 더 나은 제안을 제공합니다. 이 기능을 사용하지 않을 경우 iBrowe는 장치에서 생성된 제안만 표시합니다. 비공개 창에서는 항상 꺼져 있습니다.</translation>
 <translation id="6285118765755298263">다른 검색 엔진 색인</translation>
 <translation id="919715748352669592">OpenSearch 사양을 준수하는 웹사이트를 자동으로 색인합니다.</translation>
 <translation id="5522403133543437426">주소 표시줄에서 사용하는 검색 엔진입니다.</translation>
@@ -643,7 +665,6 @@
 <translation id="188228077840632890">AdGuard는 광고 차단, 부모 통제 옵션, 다른 AdGuard 서비스 오퍼링과의 통합을 제공하는 Manifest V2 확장 프로그램입니다.</translation>
 <translation id="8137559199583651773">확장 프로그램 관리</translation>
 <translation id="7013485839273047434">더 많은 확장 프로그램 받기</translation>
-<translation id="5840822070878669614">Web Store 열기</translation>
 <translation id="4954512758656527938">기본 이더리움 월렛</translation>
 <translation id="7701023802820268122">기본 Solana 월렛</translation>
 <translation id="8488282162676695335">iBrowe 월렛</translation>
@@ -662,8 +683,12 @@
 <translation id="856371974127598760">월렛 네트워크</translation>
 <translation id="5975930666279943472">월렛 트랜잭션 및 임시 정보 지우기</translation>
 <translation id="5693968582510626466">트랜잭션 지우기는 개발자가 로컬 서버에서 상태를 지울 때 유용합니다.</translation>
-<translation id="2326850911705720398">초기화하고 월렛 데이터 지우기</translation>
+<translation id="6171369470447621882">Zcash 동기화 상태 초기화</translation>
+<translation id="6705112675071480687">모든 차폐된 계정의 Zcash 동기화 진행률</translation>
+<translation id="2012093487873597892">Zcash 동기화 상태를 초기화하시겠습니까? 모든 차폐된 계정의 동기화 진행률이 중단됩니다. 확인하려면 "<ph name="CONFIRMATION_PHRASE"/>"을(를) 입력하세요</translation>
+<translation id="5031551083187285762">Zcash 계정의 동기화 상태가 초기화되었습니다.</translation>
 <translation id="9216386092464743272">월렛 트랜잭션 및 임시 정보를 초기화하시겠습니까? 이 옵션은 주로 로컬 테스트 서버를 운용하는 개발자가 사용합니다. 확인하려면 "<ph name="CONFIRMATION_PHRASE"/>"를 직접 입력하세요.</translation>
+<translation id="2326850911705720398">초기화하고 월렛 데이터 지우기</translation>
 <translation id="6369495274982305511">월렛을 초기화하시겠습니까? 월렛이 백업되어 있지 않은 경우 초기화하면 모든 계정 데이터(그 안에 담긴 자금 포함)를 잃을 수 있습니다. 확인하려면 "<ph name="CONFIRMATION_PHRASE"/>"를 직접 입력하세요.</translation>
 <translation id="3752403403443723332">월렛이 초기화되었습니다.</translation>
 <translation id="594766067816395072">월렛 트랜잭션 정보가 초기화되었습니다.</translation>
@@ -673,6 +698,7 @@
 <translation id="1561541094377237745">Solana 네트워크</translation>
 <translation id="7141438739990875547">비트코인 네트워크</translation>
 <translation id="1077567586443625607">Zcash 네트워크</translation>
+<translation id="1177180573354712438">Cardano 네트워크</translation>
 <translation id="3159419679550543837">테스트 네트워크 표시</translation>
 <translation id="3215569562674795548">네트워크 편집 또는 새로 추가</translation>
 <translation id="4418993400653250511">체인의 ID</translation>
@@ -711,6 +737,8 @@
 <translation id="2751872555001636931">사이드바에 레오 아이콘 표시</translation>
 <translation id="8055509865174199683">웹사이트의 컨텍스트 메뉴에 레오 표시</translation>
 <translation id="1529674267267221673">웹사이트에서 우클릭하면 나오는 컨텍스트 메뉴에 레오가 표시됩니다. 현재 웹페이지의 컨텍스트를 레오로 보낼 수 있습니다.</translation>
+<translation id="5226020406479918122">탭 포커스 모드</translation>
+<translation id="3705539672403311123">탭 검색 페이지의 탭 정리를 활성화합니다. 탭을 열면 비공개가 아닌 모든 탭의 제목과 출처가 자동으로 레오에 전송되어 분류됩니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="8172263161008556851">대화 내에 추천 프롬프트 표시</translation>
 <translation id="5781842473834867765">대화 기록 저장</translation>
 <translation id="1082960401708055995">대화 저장을 비활성화하면 이전에 저장된 모든 대화가 영구적으로 삭제됩니다. 이 작업은 번복할 수 없습니다.</translation>
@@ -721,6 +749,9 @@ iBrowe 레오 AI와 나눴던 모든 대화가 삭제됩니다.
 이 작업은 번복할 수 없습니다.</translation>
 <translation id="5574059574002819179">자동 완성 제안 조정</translation>
 <translation id="7942415993090181327">대화 기록</translation>
+<translation id="5385064007245738696">레오 AI 소개</translation>
+<translation id="5084498230659987096">iBrowe 레오는 브라우저 환경에서 개인 정보 보호를 최우선으로 하는 AI 채팅과 다양한 AI 기반 기능을 제공합니다. 레오는 사용자의 데이터를 학습에 활용하지 않으며, 사용자 데이터를 모델 학습에 사용하지 않습니다. 모든 요청은 익명화 서버를 거쳐 프록시 처리됩니다.</translation>
+<translation id="6458721693611638005">레오의 개인정보 처리방침에서 iBrowe가 사용자의 AI 사용을 보호하는 방법을 자세히 알아보세요. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="614530507403667291">새 대화의 기본 모델</translation>
 <translation id="8826914609353373601">프리미엄 구독 관리</translation>
 <translation id="235457946228076038">소유한 모델 가져오기</translation>
@@ -731,6 +762,8 @@ iBrowe 레오 AI와 나눴던 모든 대화가 삭제됩니다.
 <translation id="3553035516792776805">모델 요청 이름</translation>
 <translation id="7634775528597575156">서버 엔드포인트</translation>
 <translation id="6374563306438145841">API 키</translation>
+<translation id="3295756655687327124">비전 지원</translation>
+<translation id="1415432774589088566">이 모델이 이미지를 입력으로 사용하는 경우(예: llama 3.2b 비전)</translation>
 <translation id="8008271349880309090">모델 선택 메뉴에 표시되는 모델의 이름</translation>
 <translation id="1355326130503900056">서버 측 프레임워크로의 요청에 표시되는 모델의 이름. 예: phi-3 (이 이름이 서버 측 프레임워크에서 기대하는 것과 정확하게 일치하지 않으면 통합이 작동하지 않음)</translation>
 <translation id="3213787232304349732">서버 측 프레임워크가 요청을 수신하는 URL입니다. 잘 모르겠으면 서버 측 프레임워크 문서를 확인하시기 바랍니다. 예를 들어, Ollama의 경우 항상 http://localhost:11434/v1/chat/completions입니다.</translation>
@@ -748,7 +781,7 @@ iBrowe 레오 AI와 나눴던 모든 대화가 삭제됩니다.
 <translation id="7265212806651512211">아직 연결한 모델이 없습니다.</translation>
 <translation id="7304802428852949897">내 모델</translation>
 <translation id="7435587476558117990">자체 호스팅 또는 타사 호스팅 LLM을 레오에 연결하면 브라우저 내에서 사용할 수 있습니다.</translation>
-<translation id="1381050642750209119">Ollama 등, OpenAI Chat 프로토콜 호환 프레임워크를 사용하세요.</translation>
+<translation id="8137606697798069075">Ollama 등 OpenAI 채팅 프로토콜 호환 프레임워크를 사용하세요. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="2642905648178380593">모델 저장</translation>
 <translation id="6304169450064541679">시스템 프롬프트</translation>
 <translation id="3081947790648024460">특정 방향이나 스타일로 응답을 유도하기 위해 모델에 제공되는 사용자 지정 지침 및/또는 컨텍스트입니다. 현재 날짜와 시간을 삽입할 위치에 %datetime%을 사용하세요.</translation>

@@ -7,25 +7,25 @@
 /* Title on top the list of available servers */
 "vpn.availableServerTitle" = "SERVEURS DISPONIBLES";
 
-/* Button text to buy iBrowe VPN */
+/* Button text to buy Brave VPN */
 "vpn.buyButton" = "Acheter";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxDevicesProtect" = "Protégez 5 appareils avec 1 abonnement";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxGeoLocation" = "Choisissez votre emplacement géographique/pays";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxNoIPLog" = "iBrowe n'enregistre jamais votre activité";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxProtectYourDevices" = "Protégez chaque application et tout votre appareil";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxSaferWifi" = "Une connexion Wi-Fi plus sûre, qu'elle soit privée ou publique";
 
-/* Text for a checkbox to present the user benefits for using iBrowe VPN */
+/* Text for a checkbox to present the user benefits for using Brave VPN */
 "vpn.checkboxSpeedFast" = "Rapide comme l'éclair, jusqu'à 100 Mbit/s";
 
 /* Text indicating how many cities is used for that country used as Ex: '1 City' */
@@ -89,7 +89,7 @@
 "vpn.contactFormNetworkType" = "Type de réseau";
 
 /* A contact form field that displays platform type: 'iOS' 'Android' or 'Desktop' */
-"vpn.contactFormPlatform" = "Plate-forme";
+"vpn.contactFormPlatform" = "Plateforme";
 
 /* Button name to send contact form. */
 "vpn.contactFormSendButton" = "Continuer pour envoyer par e-mail";
@@ -103,7 +103,7 @@
 /* Title for contact form email. */
 "vpn.contactFormTitle" = "Problème avec le pare-feu et le VPN iBrowe";
 
-/* Button text to enable iBrowe VPN */
+/* Button text to enable Brave VPN */
 "vpn.enableButton" = "Activer";
 
 /* Used in context: All plans include a 'free 7-day trial'! */
@@ -116,7 +116,7 @@
 "vpn.freeTrialPeriodAction" = "profitez d'un essai gratuit pendant 7 jours";
 
 /* Disclaimer about in app subscription */
-"vpn.iapDisclaimer" = "Tous les abonnements sont à renouvellement automatique, mais il est possible d'annuler avant le renouvellement.";
+"vpn.iapDisclaimer" = "Tous les abonnements sont renouvelés automatiquement, mais peuvent être annulés avant la date de renouvellement.";
 
 /* Text explaining how the VPN works. */
 "vpn.installProfileBody" = "Ce profil permet au VPN de se connecter automatiquement et de sécuriser en continu le trafic sur votre appareil. La connexion VPN est chiffrée et transite par le pare-feu intelligent de iBrowe afin de bloquer les connexions potentiellement dangereuses et invasives.";
@@ -133,7 +133,7 @@
 /* Title for screen to install the VPN. */
 "vpn.installTitle" = "Installer le VPN";
 
-/* Button text to try free iBrowe VPN */
+/* Button text to try free Brave VPN */
 "vpn.learnMore" = "Commencer l'essai gratuit de 7 jours";
 
 /* Used in context: 'Monthly subscription, (it) renews monthly' */
@@ -148,7 +148,7 @@
 /* Text indicating how many server is used for that region used as Ex: '2 Servers' */
 "vpn.multipleServerCountTitle" = "%ld serveurs";
 
-/* The text that briefly explains how iBrowe VPN subscription is going to be charged and managed. */
+/* The text that briefly explains how Brave VPN subscription is going to be charged and managed. */
 "vpn.paywallDisclaimer" = "Les abonnements seront facturés via votre compte Apple. Toute période d’essai gratuite non utilisée sera annulée en cas d’achat d’un abonnement.\n\nVotre abonnement sera automatiquement renouvelé, sauf en cas d’annulation au moins 24 heures avant la fin de la période en cours.\n\nVous pouvez gérer vos abonnements dans les paramètres.\n\nEn utilisant iBrowe, vous acceptez les conditions générales d’utilisation et la politique de confidentialité.";
 
 /* The text which will be used to indicate period of payments like 10 / month */
@@ -158,7 +158,7 @@
 "vpn.paywallYearlyPriceDividend" = "année";
 
 /* Text to show user when their vpn plan has expired */
-"vpn.planExpired" = "Expirée";
+"vpn.planExpired" = "Expiré";
 
 /* Description of vpn tunnel protocol */
 "vpn.protocolPickerDescription" = "Veuillez sélectionner votre protocole de transport préféré. Une fois le protocole sélectionné, vos identifiants VPN seront effacés et nous vous reconnecterons dès qu'une connexion VPN est établie.";
@@ -188,13 +188,13 @@
 "vpn.regionPickerTitle" = "Région du serveur";
 
 /* Message that we show after successfully changing vpn region. */
-"vpn.regionSwitchSuccessPopupText" = "Région VPN modifiée.";
+"vpn.regionSwitchSuccessPopupText" = "La région VPN a été modifiée.";
 
 /* Yearly tier explaination. Subscription will be renewed annually. */
 "vpn.renewAnnually" = "Renouvellement annuel";
 
 /* Monthly tier explaination. Subscription will be renewed monthly. */
-"vpn.renewMonthly" = "Renouvelé chaque mois";
+"vpn.renewMonthly" = "Renouvellement mensuel";
 
 /* Message to show when vpn configuration reset fails. */
 "vpn.resetVPNErrorBody" = "Impossible de réinitialiser la configuration du VPN. Veuillez réessayer ou contacter l'équipe d'assistance pour obtenir de l'aide si le problème persiste.";
@@ -359,8 +359,8 @@
 "vpn.yearlySubDetail" = "Choisissez le renouvellement annuel pour économiser %@";
 
 /* It's like when there's few subscription plans, and one plan has the best value to price ratio, so this label says next to that plan: '(plan) - BEST VALUE' */
-"vpn.yearlySubDisclaimer" = "MEILLEURE VALEUR";
+"vpn.yearlySubDisclaimer" = "MEILLEURE OFFRE";
 
-/* One year lenght vpn subcription */
+/* One year length vpn subcription */
 "vpn.yearlySubTitle" = "Un an";
 

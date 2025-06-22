@@ -69,9 +69,11 @@
 <translation id="3446024864193919737">Afficher les récompenses de iBrowe</translation>
 <translation id="5585019845078534178">Cartes</translation>
 <translation id="3870475560794762985">Afficher les images sponsorisées</translation>
+<translation id="5684562942023496754">Vous pouvez obtenir des gains en regardant des images sponsorisées.</translation>
+<translation id="6168679340384667457">Vous gagnez des BAT pour les images commanditées que vous voyez. Désactiver les images commanditées réduira le montant que vous pouvez gagner.</translation>
+<translation id="6165508094623778733">En savoir plus</translation>
 <translation id="2414654907269324670">Vous obtenez des BAT pour les images sponsorisées.</translation>
 <translation id="4942016616604700968">Activer les récompenses</translation>
-<translation id="5684562942023496754">Vous pouvez obtenir des gains en regardant des images sponsorisées.</translation>
 <translation id="8934374643857605034">En tant qu'utilisateur des Récompenses iBrowe, vous pouvez gagner des BAT lorsque vous voyez des images sponsorisées.</translation>
 <translation id="1570714748649804013">En tant qu'utilisateur des Récompenses iBrowe, vous gagnez des BAT pour les images sponsorisées que vous voyez. Si vous désactivez les images sponsorisées, cela réduira le montant que vous pouvez gagner.</translation>
 <translation id="8998727244653964783">Vous pouvez gagner des BAT en voyant des images sponsorisées lorsque vous connectez un compte de dépôt aux Récompenses iBrowe. En attendant, vous contribuez à soutenir les créateurs avec les images sponsorisées.</translation>
@@ -119,12 +121,11 @@
 <translation id="2702801445560668637">Liste de lecture</translation>
 <translation id="4590997608186539865">Liste de lecture</translation>
 <translation id="8027460023387054992">Créateur de résumé de clavardage</translation>
-<translation id="6165508094623778733">En savoir plus</translation>
 <translation id="8730621377337864115">Terminé</translation>
 <translation id="730042046912793465">Voici un</translation>
 <translation id="2055363275850890030">Fenêtre privée</translation>
 <translation id="9133213713928851646">iBrowe n'enregistre pas vos activités dans les fenêtres privées. Les sites que vous visitez n'apparaîtront pas dans votre historique et vos témoins de connexion disparaîtront quand vous aurez fini. La navigation privée ne vous rend pas tout à fait anonyme par contre.</translation>
-<translation id="4085423007106063912">iBrowe ne se souvient jamais de ce que vous faites dans une fenêtre privée. Les sites que vous consultez n'apparaissent pas dans votre historique. Les témoins, les données de formulaire et les données de site disparaissent lorsque vous fermez la fenêtre.</translation>
+<translation id="4491905831789757331">iBrowe ne se souvient jamais de ce que vous faites dans une fenêtre de navigation privée. Les sites que vous consultez n’apparaîtront pas dans votre historique. Les cookies, les données de formulaire et les données de site disparaissent lorsque vous fermez toutes les fenêtres de navigation privée.</translation>
 <translation id="1700746046668116047">Notez que votre activité pourrait toujours être visible par votre fournisseur d'accès à Internet, les observateurs passifs du réseau ou votre employeur (si vous utilisez une machine ou un réseau professionnel). Pour plus de confidentialité, ouvrez une fenêtre privée avec Tor.</translation>
 <translation id="8759753423332885148">En savoir plus.</translation>
 <translation id="8611976753572844841">Fenêtre privée avec la connectivité Tor</translation>
@@ -327,6 +328,7 @@
 <translation id="2631006050119455616">Enregistrées</translation>
 <translation id="3671566813999349838">Montant</translation>
 <translation id="6976444672879155794">Auto-contribuer les [[processor]]</translation>
+<translation id="944736176598169208">Récompenses</translation>
 <translation id="8804164990146287819">Politique de confidentialité</translation>
 <translation id="7262285991915892790">Faites glisser l'icône BAT sur</translation>
 <translation id="7656781188259414093">cible.</translation>
@@ -398,7 +400,7 @@
 <translation id="7642372245223412840">Se connecter à bitFlyer</translation>
 <translation id="6143701117592994599">En connectant Récompenses iBrowe à un compte bitFlyer, vous pourrez gagner des BAT et retirer vos BAT gagnés de Récompenses iBrowe.</translation>
 <translation id="4354564238172327160">Devenez un créateur iBrowe !</translation>
-<translation id="4639659520811817892">Inscrivez-vous dès aujourd'hui sur creators.iBrowe.com et commencez à gagner des BAT grâce à vos adeptes et vos abonnés.</translation>
+<translation id="4639659520811817892">Inscrivez-vous dès aujourd'hui sur creators.ibrowe.com et commencez à gagner des BAT grâce à vos adeptes et vos abonnés.</translation>
 <translation id="4816455138209470435">iBrowe prend en charge YouTube, Twitch, Vimeo et d'autres sites !</translation>
 <translation id="7404779623219601861">Échange de BAT contre des cartes-cadeaux</translation>
 <translation id="6215565499749144110">Avec le TAP réseau, vous pouvez échanger votre BAT contre des cartes-cadeaux de marques connues.</translation>
@@ -508,7 +510,6 @@
       other {Vous gagnez des récompenses pour avoir vu <ph name="COUNT_BEGIN"/># annonces<ph name="COUNT_END"/> ce mois-ci}
     }</translation>
 <translation id="6067959437127691361">L'utilisation de Récompenses iBrowe aide à soutenir des créateurs de contenu et vous permet de gagner des BAT.</translation>
-<translation id="944736176598169208">Récompenses</translation>
 <translation id="2359808026110333948">Continuer</translation>
 <translation id="885805571521218129">Ceci reflète votre plage de revenus estimée pour les publicités iBrowe ce mois-ci.</translation>
 <translation id="3863981251715594911">Comment ça marche?</translation>
@@ -614,7 +615,7 @@
 <translation id="5379685283876547860">Contribution envoyée!</translation>
 <translation id="7063168612616047608">Merci de soutenir vos créateurs préférés</translation>
 <translation id="1041398280582063935">Partager votre message de soutien</translation>
-<translation id="4001190813297686107">Je viens d'envoyer une contribution de <ph name="AMOUNT"/> BAT en utilisant le navigateur iBrowe! Découvrez comment soutenir vous aussi vos créateurs et sites préférés : https://iBrowe.com/rewards</translation>
+<translation id="4001190813297686107">Je viens d'envoyer une contribution de <ph name="AMOUNT"/> BAT en utilisant le navigateur iBrowe! Découvrez comment soutenir vous aussi vos créateurs et sites préférés : https://ibrowe.com/rewards</translation>
 <translation id="1950340257946519340">Une erreur inattendue s'est produite</translation>
 <translation id="2605703631071131439">Veuillez rouvrir le panneau des contributions et réessayer.</translation>
 <translation id="8855543392451028706">Bienvenue parmi nous! Les utilisateurs peuvent soutenir ce créateur de contenu en lui envoyant des contributions en guise de remerciement pour la qualité du contenu qu'il produit.</translation>
@@ -643,7 +644,7 @@
 <translation id="6895088073061692390">Malheureusement, votre profil iBrowe Rewards a été signalé, car nos contrôles automatisés ont détecté une activité iBrowe Ads inattendue.</translation>
 <translation id="4229056297802204697">Tant que votre profil est signalé, vous pouvez continuer à voir des publicités, mais vous ne pourrez pas recevoir de paiements. Vous ne pourrez pas non plus connecter un compte de dépôt à iBrowe Rewards.</translation>
 <translation id="5124846913141379164">Il est possible que votre profil ait été signalé par erreur et qu'aucune action immédiate ne soit requise de votre part. Il est possible que le signalement sur votre profil soit supprimé à l'avenir.</translation>
-<translation id="280350148043792509"><ph name="BEGIN_LINK"/>En savoir plus sur le processus de iBrowe pour signaler les profils Récompenses.<ph name="END_LINK"/></translation>
+<translation id="8947002243324362172">En savoir plus sur le processus de iBrowe pour signaler les profils Récompenses.</translation>
 <translation id="4699218748197721830">Le profil Récompenses iBrowe est signalé</translation>
 <translation id="2607420597216860026">Veuillez réessayer après avoir terminé la vérification d'identifiant sur <ph name="PROVIDER"/>.</translation>
 <translation id="5037332159336402972">Il vous faut un compte validé pour vous connecter</translation>
@@ -678,7 +679,6 @@
 <translation id="5916664084637901428">Activé</translation>
 <translation id="3977723631999461201"><ph name="NUM"/> Annonces reçues ce mois-ci</translation>
 <translation id="7924320838799747606">Votre solde</translation>
-<translation id="8714473477079007268">Portefeuille <ph name="PROVIDER"/></translation>
 <translation id="3175337080016717494">Compte de paiement</translation>
 <translation id="453760933181416879">Accéder à mon compte</translation>
 <translation id="8290994471756102241">Déconnecté</translation>
@@ -688,7 +688,6 @@
 <translation id="2310070536993781610">Utilisez le code promo IBROWEREWARDS pour obtenir 10 % de réduction sur tous les articles de la boutique iBrowe.</translation>
 <translation id="1170674812179664523">Boutique de marchandise de iBrowe</translation>
 <translation id="8673202990286883068">Vos avantages</translation>
-<translation id="3699766258844277472">Aucune contribution récurrente n'a encore été configurée.</translation>
 <translation id="957921474773060718">Prochaine contribution :</translation>
 <translation id="351973834053818251">Contributions récurrentes</translation>
 <translation id="7751260505918304024">Tout afficher</translation>
@@ -947,6 +946,8 @@
 <translation id="2399555431746923964">Stocker des actifs BTC Testnet</translation>
 <translation id="8749751940551938347">Stocker des actifs ZEC</translation>
 <translation id="3451958544919449297">Stocker des actifs ZEC Testnet</translation>
+<translation id="8459631690385393533">Stocker les actifs Cardano</translation>
+<translation id="4915057812371523845">Stocker les actifs Cardano Testnet</translation>
 <translation id="8500387257977999003">Clé privée <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Importer</translation>
 <translation id="232925166623833246">Importer à partir d'un portefeuille matériel</translation>
@@ -1095,6 +1096,8 @@
 <translation id="8874184842967597500">Non connecté</translation>
 <translation id="4217695020908122747">Comptes connectés</translation>
 <translation id="8497650996740651467">Comptes disponibles</translation>
+<translation id="1775188434254367931">Connexions</translation>
+<translation id="1818522458013171885">Débloquer</translation>
 <translation id="5677928146339483299">Bloqué</translation>
 <translation id="3890989020011724401">Nouveau compte</translation>
 <translation id="4612979983851181941">Utilisez ce panneau pour accéder en toute sécurité au domaine Web3 et à tous vos actifs cryptos.</translation>
@@ -1191,7 +1194,11 @@
 <translation id="4667144295226514387">Limite de Gas manquante</translation>
 <translation id="2021522108838444624">Le montant doit être supérieur à 0</translation>
 <translation id="8464365289405373974">L'adresse de destination est obligatoire</translation>
-<translation id="6326239384961270135">Partie transparente manquante</translation>
+<translation id="6449503919127419230">Adresse publique incorrecte</translation>
+<translation id="3778662247272439818">Réseaux incompatibles</translation>
+<translation id="1170025316306464310">Format d'adresse unifié incorrect</translation>
+<translation id="8380483120683767377">La partie Orchard est manquante</translation>
+<translation id="1536211570215515174">Partie publique manquante</translation>
 <translation id="8585995109882455949">Comment trouver la bonne adresse?</translation>
 <translation id="105524480632150318">iBrowe empêche les utilisateurs d'envoyer des fonds à une mauvaise adresse en raison d'un problème de majuscules ou de minuscules. Assurez-vous que l'adresse est correcte en suivant les instructions ci-dessous.</translation>
 <translation id="4583433813614292221">1. Visiter</translation>
@@ -1345,6 +1352,8 @@
 <translation id="7694836973509310467">Pontage</translation>
 <translation id="997000407026317399"><ph name="SWAPPING_OR_BRIDGING_BEFORE"/><ph name="SWAPPING_OR_BRIDGING"/><ph name="SWAPPING_OR_BRIDGING_AFTER"/> sur <ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
 <translation id="6934057383578424432">Une erreur s'est produite lors de <ph name="SWAP_OR_BRIDGE_BEFORE"/><ph name="SWAP_OR_BRIDGE"/><ph name="SWAP_OR_BRIDGE_AFTER"/> sur <ph name="NETWORK_BEFORE"/><ph name="NETWORK"/><ph name="NETWORK_AFTER"/></translation>
+<translation id="4916833841663290382">Blindage <ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/></translation>
+<translation id="6216364770732957499"><ph name="AMOUNT_BEFORE"/><ph name="AMOUNT"/><ph name="AMOUNT_AFTER"/> a été blindé</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} autre transaction en attente.}
       other {{PENDING_TRANSACTIONS} autres transactions en attente.}
@@ -1733,6 +1742,7 @@
 <translation id="803703704549420287">Effacer les filtres</translation>
 <translation id="1472675084647422956">Plus</translation>
 <translation id="4522570452068850558">Détails</translation>
+<translation id="4583937519241190398">Vérifié par DappRadar</translation>
 <translation id="8713438253026855351">Passer à un compte privé</translation>
 <translation id="3526789880090101085">Compte privé</translation>
 <translation id="2298396008562701154">Actuellement, ce compte prend en charge les transactions transparentes, ce qui signifie qu'elles sont visibles par tout le monde sur la chaîne de blocs.</translation>
@@ -1742,7 +1752,9 @@
 <translation id="4438043733494739848">Transparent</translation>
 <translation id="1950406774300125954">Non synchronisé</translation>
 <translation id="68413355604013935">Non synchronisé (<ph name="BLOCKS"/> blocs restants)</translation>
+<translation id="1724354250024376254">Solde provisoire (plus de confirmations requises) : <ph name="FUNDS"/></translation>
 <translation id="1597233669965903034">Synchronisez votre compte pour accéder aux dernières transactions et au solde.</translation>
+<translation id="3609785682760573515">Synchronisation...</translation>
 <translation id="7499262814309712782">Synchroniser le compte</translation>
 <translation id="2804568727504456403">Synchroniser <ph name="ACCOUNT"/></translation>
 <translation id="813913629614996137">Initialisation...</translation>
@@ -1754,6 +1766,15 @@
 <translation id="7714298753782862705">Synchronisation terminée. Vous pouvez maintenant fermer cette fenêtre.</translation>
 <translation id="7716113567047550378">Ne fermez pas cette fenêtre tant que la synchronisation n'est pas terminée.</translation>
 <translation id="5123590959308755060">Continuer à utiliser le portefeuille dans un nouvel onglet</translation>
+<translation id="4594014034647546191">Bloc d'anniversaire du compte blindé</translation>
+<translation id="6666784075827260119">L'anniversaire du compte doit être supérieur à <ph name="BLOCK_NUMBER"/></translation>
+<translation id="3102477628835823956">L'anniversaire du compte doit être inférieur à <ph name="BLOCK_NUMBER"/></translation>
+<translation id="6850229669854962550"><ph name="BLOCKS"/> blocs restants</translation>
+<translation id="7747318989577709780">Le compte est en cours de synchronisation</translation>
+<translation id="9086302186042011942">Synchronisation</translation>
+<translation id="99991973626409495">Vérifier le bouclier</translation>
+<translation id="3114681061018999547">Bouclier</translation>
+<translation id="8897189056319316783">Bouclier ZEC</translation>
 <translation id="7144878232160441200">Réessayer</translation>
 <translation id="9094621390791852268">Échec de la prévisualisation de la transaction.</translation>
 <translation id="4982713341035600933">Changement estimé du solde</translation>
@@ -1812,7 +1833,9 @@
 <translation id="7758665172236842395">Suivez vos sources préférées au sein d'un seul et même fil. Il vous suffit d'ouvrir un onglet dans iBrowe, de faire défiler la page vers le bas, et le tour est joué !</translation>
 <translation id="2376542729617592331">Actualités iBrowe affiche des annonces privées et anonymes. <ph name="LINK_START"/>Apprenez-en davantage<ph name="LINK_END"/>.</translation>
 <translation id="1765217911817124376">Activer iBrowe News</translation>
+<translation id="5149018766422637336">Actualités et RSS</translation>
 <translation id="6265592479622441247">Retour au <ph name="BEGIN_BOLD"/>Tableau de bord<ph name="END_BOLD"/></translation>
+<translation id="3169472444629675720">Découvrir</translation>
 <translation id="8981973962043893066">Rechercher un site, un sujet ou un flux RSS</translation>
 <translation id="1498364270401875204">Canaux</translation>
 <translation id="6401776069326703655">Tout afficher</translation>
@@ -2081,11 +2104,13 @@
 <translation id="4885527781814382758">iBrowe Leo est un assistant intelligent basé sur l'IA respectueux de votre vie privée, qui améliore votre utilisation d'Internet. Leo est gratuit avec un accès limité. iBrowe Leo Premium propose plus de modèles, des limites plus élevées et donne aux abonnés un accès anticipé aux nouvelles fonctionnalités. Le modèle par défaut peut changer. Consultez le <ph name="LINK_BEFORE"/>Centre d'aide iBrowe<ph name="LINK_AFTER"/> pour en savoir plus.</translation>
 <translation id="7189603330209995455">Par défaut, lorsque vous posez une question à Leo, il peut envoyer et utiliser le contenu de la page Web que vous consultez ou tout texte que vous mettez en surbrillance sur une page pour que iBrowe Leo fournisse une réponse. L'exactitude des réponses n'est pas garantie et peut inclure des informations inexactes, trompeuses ou fausses. Leo utilise des données de la recherche iBrowe pour améliorer la qualité des réponses. Ne soumettez pas d'informations sensibles ou privées et faites preuve de prudence avec toutes les réponses liées à la santé, aux finances, à la sécurité personnelle ou similaires. Vous pouvez ajuster les options de Leo dans les paramètres à tout moment. Accédez à Paramètres &gt; Leo.</translation>
 <translation id="3038772045018370764">Leo ne recueille pas d'identifiants tels que votre adresse IP qui peuvent être liés à vous. Aucune donnée n'est utilisée pour former les modèles d'IA et aucune donnée personnelle n'est conservée par les modèles d'IA (sauf Anthropic qui conserve les données pendant 30 jours avant de les supprimer). Consultez la <ph name="LINK_BEFORE"/>politique de confidentialité<ph name="LINK_AFTER"/> pour en savoir plus.</translation>
-<translation id="7839853125981164613">Entrez une invite ici</translation>
+<translation id="6961721183181597848">Comment puis-je vous aider aujourd'hui?</translation>
+<translation id="2966135729673253768">Demander un suivi</translation>
 <translation id="4524675003624341892">Suggérer des questions…</translation>
 <translation id="4567071417854988869">Résumer cette vidéo</translation>
 <translation id="7921782882718083488">Résumer cette page</translation>
 <translation id="7932221068776853847">Se déconnecter pour ne plus envoyer le contenu de cette page à Leo et entamer une nouvelle conversation</translation>
+<translation id="8743383817154663379">Un problème est survenu lors du traitement de votre demande. Veuillez réessayer.</translation>
 <translation id="2712650703044366764">Ce modèle a un point de terminaison invalide. Veuillez vérifier votre configuration et réessayer.</translation>
 <translation id="1167803637855350748">Un problème réseau s'est produit lors de la connexion à Leo. Vérifiez votre connexion et réessayez.</translation>
 <translation id="1996126325390835277">Vous avez atteint la limite de taux premium. Veuillez réessayer dans quelques heures.</translation>
@@ -2093,12 +2118,14 @@
 <translation id="7692501701960747469">La clé API configurée pour ce modèle est invalide. Veuillez vérifier votre configuration et réessayer.</translation>
 <translation id="7905602379229309187">Le point de terminaison est actuellement surchargé. Veuillez réessayer plus tard.</translation>
 <translation id="8151638057146502721">Configurer</translation>
-<translation id="4177458398826096846">Bonjour, je m'appelle Leo. Je suis un assistant IA entièrement hébergé proposé par iBrowe. Je suis basé sur Llama 3.1 8B, un modèle créé par Meta pour être performant et applicable à de nombreux cas d'utilisation. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
-<translation id="6500567629965936637">Bonjour, je suis Leo, assistant IA entièrement hébergé par iBrowe. Je suis alimenté par Mixtral 8x7B, un modèle créé par Mistral AI pour gérer les tâches avancées. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
-<translation id="4590776109659811206">Bonjour, je suis Leo. Je suis mandaté par iBrowe et alimenté par Claude Instant, un modèle créé par Anthropic pour effectuer des tâches liées aux conversations et au traitement de texte. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
-<translation id="2001874998841390450">Bonjour, je suis Leo. Je suis mandaté par iBrowe et alimenté par Claude Haiku, un modèle créé par Anthropic pour effectuer des tâches conversationnelles et de traitement de texte. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
-<translation id="3408745502133272006">Bonjour, je suis Leo. Je suis mandaté par iBrowe et alimenté par Claude Sonnet, un modèle créé par Anthropic pour effectuer des tâches conversationnelles et de traitement de texte. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
-<translation id="6206029817087805290"><ph name="MODEL_NAME"/> par <ph name="COMPANY_NAME"/></translation>
+<translation id="3282183392203936979">Bonjour, je suis Leo, un assistant IA hébergé et fourni par iBrowe. Basé sur Llama 3.1 8B, un modèle développé par Meta, je suis conçu pour vous offrir des performances optimales et vous assister dans diverses tâches. Le modèle Llama est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/></translation>
+<translation id="4328177358021456069">Bonjour, je suis Leo, un assistant IA hébergé et fourni par iBrowe. Basé sur Qwen 14B, un modèle développé par Alibaba Cloud, je suis conçu pour vous offrir des performances optimales et vous assister dans diverses tâches. Le modèle Qwen est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/></translation>
+<translation id="8706248250250832190">Bonjour, je suis Leo, assistant IA entièrement hébergé par iBrowe. Je suis alimenté par DeepSeek R1, un modèle créé par DeepSeek pour gérer les tâches avancées. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
+<translation id="8345529480300554358">Bonjour, je suis Leo, un assistant IA hébergé et fourni par iBrowe. Basé sur Mixtral 8x7B, un modèle développé par Mistral AI, je suis conçu pour vous assister dans des tâches complexes. Le modèle Mixtral est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/>.</translation>
+<translation id="2575216739207798060">Bonjour, je m'appelle Leo. Je suis un assistant de discussion et de traitement de texte hébergé par iBrowe et basé sur Claude Instant, un modèle créé par Anthropic. Le modèle Claude Instant est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/></translation>
+<translation id="512933369128404654">Bonjour, je m'appelle Leo. Je suis un assistant de discussion et de traitement de texte hébergé par iBrowe et basé sur Claude Haiku, un modèle créé par Anthropic. Le modèle Claude Haiku est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/></translation>
+<translation id="406499980300734922">Bonjour, je m'appelle Leo. Je suis un assistant de discussion et de traitement de texte hébergé par iBrowe et basé sur Claude Sonnet, un modèle créé par Anthropic. Le modèle Claude Sonnet est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/></translation>
+<translation id="1774712391633741125">Bonjour, je suis Leo, un assistant IA hébergé et fourni par iBrowe. Basé sur Llama Vision, un modèle développé par Meta, je suis conçu pour vous offrir des performances optimales et vous assister dans diverses tâches. Le modèle Llama Vision est hébergé par iBrowe sur une infrastructure interne et sécurisée. <ph name="LINK_BEFORE"/>En savoir plus.<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="6187065185557150870">Clavardage</translation>
 <translation id="4685048769603134644">Ouvrir la page entière</translation>
@@ -2132,7 +2159,6 @@
 <translation id="6393149565874086128">Ajouter un commentaire</translation>
 <translation id="3521125531016408657">J'aime la réponse</translation>
 <translation id="8202517001427388906">Je n'aime pas la réponse</translation>
-<translation id="3177073390279208955">Envoi de l'évaluation, de la conversation, du modèle, de la langue, de la version et du statut de l'abonnement</translation>
 <translation id="1379399209929302811">Envoyer des commentaires sur l'IA iBrowe</translation>
 <translation id="8442999546461118871">Sélectionnez le sujet de vos commentaires</translation>
 <translation id="9018766373792005944">Sur quoi porte votre commentaire?</translation>
@@ -2141,6 +2167,8 @@
 <translation id="8261506727792406068">Supprimer</translation>
 <translation id="6574153208133461043">Voulez-vous vraiment supprimer cette conversation? Cette action est définitive.</translation>
 <translation id="7488762544858401571">Modifié</translation>
+<translation id="5604254791550001355">Modifier l'invite</translation>
+<translation id="8115786586976830777">Copier l'invite</translation>
 <translation id="1406205536570262057">Modifier la réponse</translation>
 <translation id="2399439821649319175">Pas utile</translation>
 <translation id="2976167228906046828">Incorrect</translation>
@@ -2152,16 +2180,31 @@
 <translation id="903201991022343217">Démarrer une nouvelle conversation</translation>
 <translation id="8171760814579050200">Renommer la conversation</translation>
 <translation id="7754678742055438573">Effacer la conversation</translation>
+<translation id="1946267518364740045">Raisonnement...</translation>
+<translation id="4198859185714743678">Raisonnement terminé</translation>
+<translation id="6140948187512243695">Afficher les détails</translation>
+<translation id="4881695831933465202">Ouvrir</translation>
+<translation id="1625889395409731085">Ouvrir un lien externe?</translation>
+<translation id="4211063437291114749">Leo AI veut ouvrir un site web dans un nouvel onglet. Voulez-vous continuer?</translation>
+<translation id="5526001300821542157">Ouvrir les liens sans me demander à nouveau</translation>
+<translation id="1243966363662220847">Commentaire sur la réponse</translation>
+<translation id="7417895556119762861">Le fait d'aimer ou de ne pas aimer une réponse enverra l'évaluation, la conversation, le modèle, la langue, la version et le statut premium à iBrowe afin d'améliorer Leo. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Envoyer un message à Leo</translation>
 <translation id="8650874793377330048">Arrêter de répondre</translation>
 <translation id="8712637175834984815">OK</translation>
 <translation id="1093419424466417703">Cette page est trop longue pour Leo. Certaines données contextuelles risquent de ne pas avoir été prises en compte. Leo est parvenu à lire <ph name="PERCENTAGE"/> du contenu de la page.</translation>
+<translation id="4592293425457329338">Certaines informations contextuelles risquent de ne pas avoir été prises en compte. Leo est parvenu à lire <ph name="PERCENTAGE"/> du contenu de la page associé à la conversation.</translation>
 <translation id="2186990448773134544">Le contenu de la page a été affiné en extrayant les renseignements les plus pertinents de la page, car il était trop long pour Leo.</translation>
 <translation id="5140068729857132378">Recherche des parties pertinentes de la page Web…</translation>
 <translation id="4370698775470316661">Cette conversation est trop longue et ne peut pas se poursuivre. Il est possible qu'il existe d'autres modèles avec lesquels Leo peut maintenir l'exactitude pendant des conversations plus longues.</translation>
 <translation id="5719170755629028558">Amélioration de votre réponse grâce à la recherche iBrowe…</translation>
 <translation id="5794962229997281366">Réponse améliorée en cherchant <ph name="SEARCH_TERMS"/>.</translation>
+<translation id="7307396647043599949"><ph name="COUNT"/> de plus…</translation>
 <translation id="8103700533980268469">Fermer cet avis</translation>
+<translation id="3417835166382867856">Onglets de recherche</translation>
+<translation id="9090243919347147717">Pièces jointes</translation>
+<translation id="4444978378117903684">Ajoutez les onglets de votre navigateur afin que Leo puisse mieux comprendre le contexte de votre conversation.</translation>
+<translation id="4300920590112551536">Onglets du navigateur</translation>
 <translation id="2315654674554095762">Leo conservera désormais vos conversations pour que vous puissiez les retrouver plus tard. Elles sont enregistrées de façon sécurisée sur votre appareil et vous pouvez les supprimer à tout moment.</translation>
 <translation id="7821251979960635244">Votre historique de conversation apparaîtra ici lorsque vous aurez démarré une discussion.</translation>
 <translation id="887511360213807449">L'historique est désactivé</translation>
@@ -2171,6 +2214,9 @@
 <translation id="3185367320601718531">Génération de conversations et de textes</translation>
 <translation id="7979673624064378842">Discussion ultra-rapide</translation>
 <translation id="2836330653441111204">L'équilibre parfait entre vitesse et intelligence</translation>
+<translation id="6695329447007213917">Discussions générales, codage, etc.</translation>
+<translation id="5051668914970329839">Analyse d'images</translation>
+<translation id="7226508434216060960">Modèle de raisonnement</translation>
 <translation id="3965507912994218570">Paramètres de Leo</translation>
 <translation id="1037324977127422019">Bonjour, je m'appelle Leo!</translation>
 <translation id="8930348081963284873">Un assistant intelligent optimisé par l'IA, directement intégré à iBrowe.</translation>
@@ -2206,23 +2252,58 @@
 <translation id="6320643499534852464">Réseaux sociaux</translation>
 <translation id="2370739752330685659">Peut-être plus tard</translation>
 <translation id="983013125018250242">Outils Leo</translation>
+<translation id="7623223587478473368">Pièce jointe</translation>
+<translation id="3777121685517940177">Importer un fichier…</translation>
+<translation id="9088751620363630236">Prendre une photo…</translation>
+<translation id="4250229828105606438">Capture d'écran</translation>
+<translation id="6332876390231524389">Contenu de l'onglet actuel</translation>
 <translation id="49269513399674318">Utiliser le micro</translation>
 <translation id="3895031624234442305">Modèles personnalisés</translation>
 <translation id="4572010449071015143">Démarrer une nouvelle conversation</translation>
 <translation id="345901077335355561">Revenir à la conversation en cours</translation>
 <translation id="6287023598025162715">Nouvelle conversation</translation>
+<translation id="8370801182970639038">Automatique (<ph name="LOCALE"/>)</translation>
+<translation id="8343473178272604223">Moteurs de recherche activés</translation>
+<translation id="5355776323718420036">Masquer mes sites</translation>
+<translation id="9173319813356700250">NOUVELLES</translation>
+<translation id="6543799171249004861">Photo de <ph name="AUTHOR"/></translation>
+<translation id="5430001801813715388">RÉCOMPENSES</translation>
+<translation id="5966055668402779222">Recherchez avec iBrowe</translation>
+<translation id="6851426306697017546">Afficher l'horloge</translation>
+<translation id="4844370919312937270">Afficher le widget du moteur de recherche dans les nouveaux onglets</translation>
+<translation id="5009354496127441090">Afficher mes sites</translation>
+<translation id="3960619311638643872">VPN iBrowe</translation>
+<translation id="4784802981241664605">Statistiques</translation>
+<translation id="712731581368828482">Appels vidéo cryptés avec iBrowe Talk.</translation>
+<translation id="2671474274417808910">Des appels qui respectent la vie privée</translation>
+<translation id="2100665198270190500">PARLER</translation>
+<translation id="4290791698375397492">Site principal retiré</translation>
+<translation id="1436784010935106834">Supprimé</translation>
+<translation id="9030215177866748410">Les sites populaires sont suggérés en fonction des sites que vous visitez souvent.</translation>
+<translation id="8425213833346101688">Modifier</translation>
+<translation id="755045397420611731">Confidentialité et sécurité en ligne renforcées</translation>
+<translation id="4520128772974831415">Masquez votre IP et changez votre géolocalisation</translation>
+<translation id="6819278685469225453">Protégez chaque application sur votre appareil</translation>
+<translation id="8422279921836245017">Déjà acheté?</translation>
+<translation id="8703188411226330709">Commencer l'essai gratuit</translation>
+<translation id="8814357473522731680">Optimisé par</translation>
+<translation id="7143207342074048698">Connexion en cours</translation>
+<translation id="1202549130170287307">Déconnexion en cours</translation>
+<translation id="8941703009412168350">IBROWE VPN</translation>
+<translation id="8793108040181436796">Widgets</translation>
 <translation id="6303294677342628402">Boucliers</translation>
 <translation id="8458987127502506209">Activer les boucliers iBrowe</translation>
-<translation id="7509914170164691086">Boucliers activés <ph name="LINK_BEFORE"/>pour<ph name="LINK_AFTER"/></translation>
-<translation id="260764436039299868">Boucliers désactivés <ph name="LINK_BEFORE"/>pour<ph name="LINK_AFTER"/></translation>
-<translation id="3907405056878805220">Si ce site ne fonctionne pas correctement, essayez de désactiver les boucliers. 
-   <ph name="LINK_BEFORE"/>Remarque : cette action risque de limiter les protections de confidentialité de iBrowe.<ph name="LINK_AFTER"/></translation>
+<translation id="7700894290854403770"><ph name="STATUS_BEFORE"/>Boucliers activés<ph name="STATUS_AFTER"/> pour <ph name="HOST"/></translation>
+<translation id="7656091630265507216"><ph name="STATUS_BEFORE"/>Boucliers désactivés<ph name="STATUS_AFTER"/> pour <ph name="HOST"/></translation>
+<translation id="5623354834493649144">Si ce site ne fonctionne pas, essayez de désactiver les boucliers.
+   <ph name="NOTE_BEFORE"/>Remarque : cela peut réduire les protections de la vie privée de iBrowe.<ph name="NOTE_AFTER"/></translation>
 <translation id="8377155647357436161">Traqueurs, annonces et autres contenus bloqués <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Non protégé par les boucliers iBrowe <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Contrôles avancés</translation>
 <translation id="5799940914270080805">La modification de ces paramètres peut empêcher certains sites de fonctionner.</translation>
 <translation id="9204041448536398473">Paramètres globaux des boucliers</translation>
 <translation id="2108334320919763866">Réglages par défaut globaux</translation>
+<translation id="7205939464631857223">Effacer tous les éléments bloqués</translation>
 <translation id="3440043456924990296">Paramètres gérés par l'organisation</translation>
 <translation id="7053983685419859001">Bloquer</translation>
 <translation id="5716230673298034837">Autoriser tous</translation>
@@ -2283,7 +2364,7 @@
 <translation id="1097073572755862978">Envoyer des rapports de diagnostic en cas de dysfonctionnement. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Partager des données privées et anonymes sur les fonctionnalités utilisées par les utilisateurs de iBrowe. <ph name="LINK_BEFORE"/>En savoir plus<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Configuration terminée</translation>
-<translation id="3141206739023333979">Consultez ce lien (<ph name="LINK_BEFORE1"/>iBrowe://settings/privacy<ph name="LINK_AFTER2"/>) pour modifier ces options à tout moment dans iBrowe.</translation>
+<translation id="3141206739023333979">Consultez ce lien (<ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/>) pour modifier ces options à tout moment dans iBrowe.</translation>
 <translation id="8321985064212130832">Lisez notre <ph name="LINK_BEFORE"/>politique de confidentialité<ph name="LINK_AFTER"/></translation>
 <translation id="2801098717523961746">Choisissez votre thème</translation>
 <translation id="6262510489122516114">Vous pouvez modifier cette option à tout moment dans les paramètres iBrowe.</translation>
@@ -2298,15 +2379,12 @@
 <translation id="958268166261124668">RPV iBrowe : connecté</translation>
 <translation id="6021669293402055982">RPV iBrowe : déconnecté</translation>
 <translation id="3541307549916475335">Interface du panneau VPN iBrowe</translation>
-<translation id="7143207342074048698">Connexion en cours</translation>
-<translation id="1202549130170287307">Déconnexion en cours</translation>
 <translation id="2325196879156848326">Échec de la connexion</translation>
 <translation id="745054660363064771">Impossible de se connecter au serveur</translation>
 <translation id="3936826714240735937">Sélectionner un autre serveur</translation>
 <translation id="2606728814652041300"><ph name="PRODUCT_NAME"/> n'a pas pu se connecter au serveur <ph name="REGION_NAME"/>. Veuillez réessayer ou choisir un autre pays.</translation>
 <translation id="5753795690521538679">Commencer l'essai gratuit de 7 jours</translation>
 <translation id="3357036723290257445">Vous avez déjà acheté le VPN iBrowe?</translation>
-<translation id="8814357473522731680">Optimisé par</translation>
 <translation id="8652175077544655965">Fermer les paramètres</translation>
 <translation id="5908163815855240493">Accéder à la page principale</translation>
 <translation id="7805768142964895445">État</translation>
@@ -2314,8 +2392,6 @@
 <translation id="8421945428836418371">Reconnecter automatiquement</translation>
 <translation id="434523916398030617">Communiquer avec l'assistance technique</translation>
 <translation id="1116694919640316211">À propos</translation>
-<translation id="755045397420611731">Confidentialité et sécurité en ligne renforcées</translation>
-<translation id="4520128772974831415">Masquez votre IP et changez votre géolocalisation</translation>
 <translation id="2044418816479192294">Des centaines de serveurs dans le monde entier</translation>
 <translation id="7410504850864021600">Vitesses de connexion ultra-rapides</translation>
 <translation id="2422309687188612485">Protégez jusqu'à 10 appareils avec un seul abonnement</translation>
@@ -2370,7 +2446,7 @@ Cependant, nous avons remarqué que ce service d'aide n'est pas exécuté, et no
 <translation id="7082498599369566941">Il semble qu'il y ait des problèmes avec la connexion WireGuard. Vous souhaitez activer la fonction de reprise IKEv2 pour avoir un RPV fiable? Modifiez simplement les paramètres.
 
 Besoin d'aide pour la compatibilité ou la configuration? Communiquez avec notre équipe d'assistance.
-Vous pouvez toujours revenir à WireGuard sur iBrowe://settings/system.
+Vous pouvez toujours revenir à WireGuard sur ibrowe://settings/system.
 
 Connectez-vous!</translation>
 <translation id="1657858090675311947">Ne plus afficher cet avertissement.</translation>
@@ -2389,16 +2465,13 @@ Connectez-vous!</translation>
 <translation id="8048263175525832621">VPN iBrowe : déconnecté</translation>
 <translation id="1498770726476841108">Gérer le compte</translation>
 <translation id="6825718953004242472">Supprimer l'icône</translation>
-<translation id="6819278685469225453">Protégez chaque application sur votre appareil</translation>
-<translation id="3960619311638643872">VPN iBrowe</translation>
 <translation id="4295077644587784828">Confidentialité et sécurité en ligne renforcées.</translation>
-<translation id="8425213833346101688">Modifier</translation>
-<translation id="8703188411226330709">Commencer l'essai gratuit</translation>
 <translation id="3287942014983548982">Ouvrir ici</translation>
 <translation id="8234327602319965815"><ph name="OPEN_HERE_SUFFIX"/>, actuellement ouvert,
     appuyez sur la touche Tab, puis sur la touche Entrée pour passer à l'onglet ouvert</translation>
 <translation id="1538335063514960365">Bouton Ouvrir ici, appuyez sur la touche Entrée pour ouvrir cette URL dans l'onglet actuel, plutôt que de passer à
     l'onglet existant</translation>
 <translation id="451189393813405346">Demander à Leo</translation>
+<translation id="1602850501393095406">Appuyez sur ↑ pour mettre en surbrillance</translation>
 <translation id="8525248723479742219">Lire plus tard</translation>
 </translationbundle>

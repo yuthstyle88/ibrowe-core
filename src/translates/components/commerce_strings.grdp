@@ -330,6 +330,9 @@
     <message name="IDS_DISCOUNT_USE_THIS_CODE_AT_CHECKOUT_WITH_EXPIRATION_DATE" desc="Text shown in the discount dialog to tell users where to use the discount code and the discount expiration date.">
       Use this code at checkout. Valid until <ph name="DATE">$1<ex>2023-01-01</ex></ph>.
     </message>
+    <message name="IDS_DISCOUNT_USE_THIS_CODE_AT_CHECKOUT" desc="Text shown in the discount dialog to tell users where to use the discount code.">
+      Use this code at checkout.
+    </message>
     <message name="IDS_DISCOUNT_EXPIRATION_DATE" desc="Text shown in the discount dialog to tell users the discount expiration date.">
       Valid until <ph name="DATE">$1<ex>2023-01-01</ex></ph>.
     </message>
@@ -540,6 +543,9 @@
     <message name="IDS_DISCOUNT_CODE_COPIED_BUTTON_TEXT" desc="The copy button text. User uses this button to copy the discount code, so that they can paste the code during checkout. This text will show on the button after user has clicked on the copy button to indicate that the discount code has been copied." formatter_data="android_java">
       Copied
     </message>
+    <message name="IDS_DISCOUNT_COPY_BUTTON_ACTION_DESCRIPTION" desc="Accessibility string that describes the copy button action to copy discount code." formatter_data="android_java" translateable="false">
+      Copy discount code
+    </message>
     <message name="IDS_DISCOUNT_CONTAINER_TITLE" desc="The title of the discount container, indicating the discount section in the commerce bottom sheet." formatter_data="android_java" translateable="false">
       Discounts
     </message>
@@ -717,6 +723,9 @@
   </message>
   <message name="IDS_COMPARE_UNDO_TABLE_DELETION" desc="Label for the undo button displayed after deleting one or more comparison tables.">
     Undo
+  </message>
+  <message name="IDS_COMPARE_DESCRIPTION_NOT_AVAILABLE" desc="The tooltip displayed when a description or value is not available for an attribute for a product.">
+    Not available
   </message>
   <!-- For Compare Disclosure -->
   <message name="IDS_COMPARE_DISCLOSURE_TITLE" desc="The text for the title of the Compare first-run experience disclosure bubble.">

@@ -189,9 +189,6 @@
   <message name="IDS_SSL_V2_PRIMARY_PARAGRAPH" desc="The primary explanatory paragraph for the SSL interstitial.">
     Attackers might be trying to steal your information from <ph name="BEGIN_BOLD">&lt;strong&gt;</ph><ph name="SITE">$1<ex>google.com</ex></ph><ph name="END_BOLD">&lt;/strong&gt;</ph> (for example, passwords, messages, or credit cards). <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
   </message>
-  <message name="IDS_SSL_V2_RECURRENT_ERROR_PARAGRAPH" desc="A paragraph for an SSL interstitial that the user has seen multiple times in a browsing session.">
-    Warnings may be common while websites update their security. This should improve soon.
-  </message>
 
   <!-- SSL error page: overridable -->
   <message name="IDS_SSL_OVERRIDABLE_SAFETY_BUTTON" desc="The text for the button that takes the user back to the previous page.">
@@ -349,8 +346,8 @@
   <message name="IDS_CONNECTION_HELP_SPECIFIC_ERROR_HEADING" desc="Heading for individual errors section in chrome://connection-help. Matches the heading for the specific error section in https://support.google.com/chrome/answer/6098869">
     Get help with a specific error message
   </message>
-  <message name="IDS_CONNECTION_HELP_CONNECTION_NOT_PRIVATE_TITLE" desc="Title for your connection is not private section in chrome://connection-help. Matches the heading for the fourth section in https://support.google.com/chrome/answer/6098869, with the addition of ERR_CERT_SYMANTEC_LEGACY.">
-    "Your connection is not private" or "&lt;span class="error-code"&gt;NET::ERR_CERT_AUTHORITY_INVALID&lt;/span&gt;" or "&lt;span class="error-code"&gt;ERR_CERT_COMMON_NAME_INVALID&lt;/span&gt;" or "&lt;span class="error-code"&gt;NET::ERR_CERT_WEAK_SIGNATURE_ALGORITHM&lt;/span&gt;" or "&lt;span class="error-code"&gt;ERR_CERT_SYMANTEC_LEGACY&lt;/span&gt;" or "SSL certificate error"
+  <message name="IDS_CONNECTION_HELP_CONNECTION_NOT_PRIVATE_TITLE" desc="Title for your connection is not private section in chrome://connection-help. Matches the heading for the fourth section in https://support.google.com/chrome/answer/6098869.">
+    "Your connection is not private" or "&lt;span class="error-code"&gt;NET::ERR_CERT_AUTHORITY_INVALID&lt;/span&gt;" or "&lt;span class="error-code"&gt;ERR_CERT_COMMON_NAME_INVALID&lt;/span&gt;" or "&lt;span class="error-code"&gt;NET::ERR_CERT_WEAK_SIGNATURE_ALGORITHM&lt;/span&gt;" or "SSL certificate error"
   </message>
   <message name="IDS_CONNECTION_HELP_CONNECT_TO_NETWORK_TITLE" desc="Title for connect to network section in chrome://connection-help. Matches the heading for the fifth section in https://support.google.com/chrome/answer/6098869">
     "Connect to network"
@@ -501,7 +498,7 @@
   </message>
 
   <message name="IDS_HTTPS_ONLY_BALANCED_MODE_HEADING" desc="Large heading of the warning shown when an http only site is loaded with https-only balanced mode active">
-    <ph name="SITE">$1<ex>example.com</ex></ph> doesn’t support a secure connection
+    <ph name="SITE">$1<ex>example.com</ex></ph> doesn’t support a secure connection with HTTPS
   </message>
   <message name="IDS_HTTPS_ONLY_BALANCED_MODE_PRIMARY_PARAGRAPH" desc="Main paragraph of the HTTPS-Only Balanced Mode warning. This warning is shown when the browser tries to upgrade a navigation to a site to HTTPS but the site does not support HTTPS.">
     <ph name="BEGIN_LIST">&lt;ul&gt;</ph>
@@ -512,9 +509,17 @@
     You might also contact the site owner and suggest they upgrade to HTTPS. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
   </message>
 
-  <message name="IDS_HTTPS_ONLY_MODE_WITH_ADVANCED_PROTECTION_PRIMARY_PARAGRAPH" desc="Main paragraph of the HTTPS-Only Mode warning. This warning is shown when the browser tries to upgrade a navigation to a site to HTTPS but the site does not support HTTPS. The user also has Advanced Protection enabled.">
-    You are seeing this warning because this site does not support HTTPS and you are under iBrowe's Advanced Protection Program. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
-  </message>
+  <if expr="not is_android">
+    <message name="IDS_HTTPS_ONLY_MODE_WITH_ADVANCED_PROTECTION_PRIMARY_PARAGRAPH" desc="Main paragraph of the HTTPS-Only Mode warning. This warning is shown when the browser tries to upgrade a navigation to a site to HTTPS but the site does not support HTTPS. The user also has Advanced Protection enabled.">
+      This site will remain blocked because you are under iBrowe's Advanced Protection Program. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
+    </message>
+  </if>
+  <if expr="is_android">
+    <message name="IDS_HTTPS_ONLY_MODE_WITH_ADVANCED_PROTECTION_PRIMARY_PARAGRAPH_ANDROID" desc="Main paragraph of the HTTPS-Only Mode warning. This warning is shown when the browser tries to upgrade a navigation to a site to HTTPS but the site does not support HTTPS. The user also has Advanced Protection enabled.">
+      This site will remain blocked because you have Advanced Protection turned on in Android settings. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
+    </message>
+  </if>
+
   <message name="IDS_HTTPS_ONLY_MODE_WITH_SITE_ENGAGEMENT_PRIMARY_PARAGRAPH" desc="Main paragraph of the HTTPS-Only Mode warning. This warning is shown when the browser tries to upgrade a navigation to a site to HTTPS but the site does not support HTTPS. The user is seeing this warning because they typically visit HTTPS URLs.">
     You usually connect to this site securely, but iBrowe couldn't use a secure connection this time. An attacker might be trying to eavesdrop or modify your network connection. <ph name="BEGIN_LEARN_MORE_LINK">&lt;a href="#" id="learn-more-link"&gt;</ph>Learn more about this warning<ph name="END_LEARN_MORE_LINK">&lt;/a&gt;</ph>
   </message>

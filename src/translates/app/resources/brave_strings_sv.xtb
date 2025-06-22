@@ -17,7 +17,6 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="1157985233335035034">Nyligen använda språk</translation>
 <translation id="1184145431117212167">Installationen misslyckades eftersom du använder en version av Windows som inte stöds.</translation>
 <translation id="8541922081612557424">Om iBrowe</translation>
-<translation id="6213288206540454953">För att dela fönstret tillåter du skärminspelning för iBrowe i systeminställningarna.</translation>
 <translation id="1203500561924088507">Tack för att du installerat programmet. Du måste starta om webbläsaren innan du använder <ph name="BUNDLE_NAME"/>.</translation>
 <translation id="8799570501820813406">När den här fliken var inaktiv frigjordes minne för att hålla iBrowe snabbt. Du kan välja att aldrig inaktivera den här webbplatsen.</translation>
 <translation id="8767381092474532098">Den här nedladdningen blockerades av iBrowe eftersom filen är farlig</translation>
@@ -30,14 +29,18 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="108284536240904209">Radera även data från iBrowe (<ph name="URL"/>)</translation>
 <translation id="1345251407431278948">Fäst! Du kan komma åt Bildsökning igen från den nya knappen i verktygsfältet</translation>
 <translation id="1356661055722410047">Nyhet! Du kan översätta både text och bilder på skärmen</translation>
+<translation id="1383876407941801731">Sök</translation>
 <translation id="8132634101975074716">Du är inloggad i iBrowe.</translation>
+<translation id="141901961143729572">Dela dina tankar</translation>
+<translation id="3880714039086599943">För att dela fönstret tillåter du skärminspelning för iBrowe i systeminställningarna.</translation>
 <translation id="1586284627848250203">Få hjälp med iBrowe for Testing</translation>
 <translation id="1497802159252041924">Installationsfel: <ph name="INSTALL_ERROR"/></translation>
+<translation id="1518627427551567882">Den här sidan är skyddad</translation>
 <translation id="5147525139567260139">Dela en flik i iBrowe</translation>
+<translation id="1547469039832541117">Avslutar den markerade uppgiften.</translation>
 <translation id="1530633922026945685">Du behöver ge iBrowe behörighet att använda kameran om du vill skapa en 3D-karta över dina omgivningar</translation>
 <translation id="9125033103884432">{NUM_EXTENSIONS,plural, =1{Detta tillägg stöds inte längre. Vi rekommenderar att du tar bort det.}other{Dessa tillägg stöds inte längre. Vi rekommenderar att du tar bort dem.}}</translation>
 <translation id="6570689355868013775">Säkerhetsverktyg i iBrowe</translation>
-<translation id="6198411733024382246">iBrowe måste verifiera din identitet innan viss data kan sparas i iBrowe-kontot och användas på alla dina enheter. Om du loggar ut finns denna data kvar på enheten.</translation>
 <translation id="1902837727299679178">iBrowe vill radera din data i Lösenordshantering. Skriv ditt Windows-lösenord om du vill tillåta detta.</translation>
 <translation id="4449148723378534338">Granska viktiga integritets- och säkerhetskontroller i iBrowe</translation>
 <translation id="1640672724030957280">Hämtar ...</translation>
@@ -75,8 +78,10 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="2018879682492276940">Installationen misslyckades. Försök igen.</translation>
 <translation id="831418749472885028"><ph name="BEGIN_LINK"/>Logga in i iBrowe<ph name="END_LINK"/> om du vill kontrollera att dina andra lösenord skyddas från dataintrång och andra säkerhetsproblem.</translation>
 <translation id="5499149312981370855">Välj om du vill inkludera iBrowe-historiken och få en mer anpassad upplevelse i iBrowes tjänster</translation>
+<translation id="5888420425384578947">Du behöver macOS 12 eller senare för att få framtida uppdateringar av iBrowe. På den här datorn används macOS 11.</translation>
 <translation id="2472891440303445472">Den här nedladdningen blockerades av iBrowe eftersom filen är bedräglig och kan göra oväntade ändringar på enheten</translation>
 <translation id="849607431499549468">Information om hur iBrowe hanterar sina rotcertifikat</translation>
+<translation id="2726948994393234543">Dina lösenord och annan iBrowe-data som du har sparat i iBrowe-kontot tas bort från den här enheten. Logga in på nytt om du vill använda dem igen i iBrowe.</translation>
 <translation id="4375530476448642348">{COUNT,plural, =1{Organisationen raderar automatiskt webbinformation när iBrowe inte har använts på 1 minut. Detta kan innefatta historik, autofyll och nedladdningar. Flikarna förblir öppna.}other{Organisationen raderar automatiskt webbinformation när iBrowe inte har använts på # minuter. Detta kan innefatta historik, autofyll och nedladdningar. Flikarna förblir öppna.}}</translation>
 <translation id="2126108037660393668">Den nedladdade filen gick inte att verifiera.</translation>
 <translation id="2137162749895930932">Stäng översättningsskärmen</translation>
@@ -92,10 +97,12 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="457168681575748148">Logga in i iBrowe om du vill få tillgång till dina adresser med mera på alla dina enheter. Adressen sparas i ditt iBrowe-konto när du har loggat in.</translation>
 <translation id="937700699752351322">Du har inte besökt webbplatsen nyligen. iBrowe har tagit bort <ph name="PERMISSION_1"/> och <ph name="PERMISSION_2"/></translation>
 <translation id="5659384504794665581">Om du delar en dator med vänner och familj kan de konfigurera iBrowe precis som de vill och surfa separat.</translation>
+<translation id="8984404842684436004">{NUM_TABS,plural, =1{iBrowe rekommenderar att du pausar fliken som saktar ned webbläsaren}other{iBrowe rekommenderar att du pausar flikarna som saktar ned webbläsaren}}</translation>
 <translation id="7810992039564280750">Kontrollera webbadresser mot en lista över osäkra webbplatser i iBrowe. Om du utsätts för försök att kapa ditt lösenord på en webbplats eller om du laddar ned en skadlig fil kan webbadresserna skickas från iBrowe till Säker webbsökning tillsammans med delar av sidinnehållet.</translation>
 <translation id="9095263438435683933">Logga in på iBrowe på båda enheterna om du vill skicka ett nummer från Android-telefonen.</translation>
 <translation id="2359808026110333948">Fortsätt</translation>
 <translation id="6485997157403727556">Tillägget <ph name="EXTENSION_NAME"/> vill att du ska logga in i iBrowe</translation>
+<translation id="7017760840808989683">Inaktivera att iBrowe körs i bakgrunden för appar</translation>
 <translation id="8491912023989916905">Logga in i iBrowe om du vill använda det här tillägget som <ph name="USER_EMAIL_ADDRESS"/>.</translation>
 <translation id="8418845734693287262">Det gick inte att synkronisera data med Chrome OS eftersom inloggningsuppgifterna för kontot är inaktuella.</translation>
 <translation id="5617265241715541684">{NUM_DEVICES,plural, =0{Minst ett iBrowe-tillägg har fått åtkomst till 1 styrdon}=1{Minst ett iBrowe-tillägg har åtkomst till 1 styrdon}other{Minst ett iBrowe-tillägg har åtkomst till # styrdon}}</translation>
@@ -107,7 +114,6 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="6078442581074612226">I iBrowe</translation>
 <translation id="2485422356828889247">Avinstallera</translation>
 <translation id="2513154137948333830">Omstart krävs: <ph name="INSTALL_SUCCESS"/></translation>
-<translation id="3263471340406187648">Du måste logga in i iBrowe med <ph name="EMAIL"/> om du vill fortsätta. Detta säkerställer att organisationens policyer följs.</translation>
 <translation id="2542968102051442371">Välj text med Bildsökning</translation>
 <translation id="70183448213529602">Skriv ditt Windows-lösenord om du vill tillåta att de befintliga lösenorden i iBrowe ersätts.</translation>
 <translation id="7798069806040634998">Du behöver ge iBrowe åtkomst till lagringsutrymmet om det ska gå att ladda ned filer</translation>
@@ -117,6 +123,8 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="7291143854620707672">All data i iBrowe som uppstår när den här profilen används (t.ex. bokmärken, historik, lösenord och andra inställningar) kan tas bort av jobbprofilens administratör. <ph name="LEARN_MORE"/></translation>
 <translation id="6252796827759111076">Fortsätt att använda iBrowe</translation>
 <translation id="259935314519650377">Det gick inte att cachelagra det nedladdade installationsprogrammet. Fel: <ph name="UNPACK_CACHING_ERROR_CODE"/>.</translation>
+<translation id="2620436844016719705">System</translation>
+<translation id="7931230852267968641">Organisationen kan se och hantera webbinformation, till exempel bokmärken, historik och lösenord. Den kan inte se webbinformation i andra iBrowe-profiler</translation>
 <translation id="2257221826278123061">Verifiera din identitet för att använda och spara iBrowe-data i ditt konto, <ph name="ACCOUNT_EMAIL"/></translation>
 <translation id="7788346643684168549">iBrowe körs snabbare och funktioner som använder JavaScript bör fungera som de ska (rekommenderas)</translation>
 <translation id="7387051847644272380">Ett operativsystemsfel inträffade under installationen. Ladda ned iBrowe igen.</translation>
@@ -126,13 +134,11 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="8752006915531191162">Du kan ta bort iBrowe-kontot från iBrowe genom att logga ut</translation>
 <translation id="2738871930057338499">Det går inte att ansluta till internet. HTTP 403 Förbjuden. Kontrollera proxykonfigurationen.</translation>
 <translation id="2753623023919742414">Klicka för att söka</translation>
+<translation id="1312769823139326127">Ställ in iBrowe som standard PDF-läsare</translation>
 <translation id="2770231113462710648">Ändra standardwebbläsare till:</translation>
-<translation id="7959931068784982965">Senare frågar iBrowe om du vill använda sparade uppgifter för att fylla i formulär automatiskt</translation>
 <translation id="1187986649024576560">Tillägget innehåller skadlig kod och är osäkert. Ta bort det från iBrowe så att det inte längre kan se och ändra data, inklusive dina personliga uppgifter, på webbplatser du besöker.</translation>
 <translation id="2799223571221894425">Starta om</translation>
 <translation id="5962774139606909656">Ditt iBrowe</translation>
-<translation id="3355084177729745988">iBrowe frågar om du vill spara formuläruppgifter, till exempel födelsedatum, ålder och passnummer</translation>
-<translation id="3783547330001921298">En ny iBrowe-profil skapas för <ph name="USER_EMAIL_ADDRESS"/></translation>
 <translation id="2841525013647267359">Översätt från</translation>
 <translation id="2846251086934905009">Installationsfel: Installationsprogrammet slutfördes inte. Installationen har avbrutits.</translation>
 <translation id="777113543093865885">Ta bort från iBrowe …</translation>
@@ -147,7 +153,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="8208853227947884571">iBrowe är uppdaterat</translation>
 <translation id="5122472867956731189">Om du utsätts för försök att kapa ditt lösenord på en webbplats eller om du laddar ned en skadlig fil kan webbadresserna skickas från iBrowe till Säker webbsökning tillsammans med delar av sidinnehållet</translation>
 <translation id="3963199983793987097">Du kan skydda dig online med dina föräldrars val genom att logga in i iBrowe</translation>
-<translation id="500707801149472925">iBrowe kan inaktivera dessa flikar för att frigöra resurser så din surfupplevelse blir bättre.</translation>
+<translation id="3003694935412297923">Alla uppgifter</translation>
 <translation id="4202995875619419215">Öppna <ph name="URL"/> på en ny flik i iBrowe.</translation>
 <translation id="8755404239607088219">iBrowe kan inte kontrollera dina lösenord. Försök igen senare.</translation>
 <translation id="8880183781256147665">Lägger till i iBrowe ...</translation>
@@ -158,13 +164,16 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="2332543193474246254">{NUM_DEVICES,plural, =0{Minst ett iBrowe-tillägg har fått åtkomst till 1 USB-enhet}=1{Minst ett iBrowe-tillägg har åtkomst till 1 USB-enhet}other{Minst ett iBrowe-tillägg har åtkomst till # USB-enheter}}</translation>
 <translation id="5320085753638900910">Webbhistoriken påverkar vilka annonser som visas och vilka intressen som du uppskattas ha. Av integritetsskäl raderas dina intressen automatiskt och löpande varje månad. Intressen kan förnyas om du inte tar bort dem.</translation>
 <translation id="7365690458036015383">Det gick inte att packa upp arkivet med installationsfilen. Ladda ned iBrowe igen.</translation>
+<translation id="310459126943037700">Det gick inte att avsluta uppgiften/uppgifterna.</translation>
 <translation id="8919461291440820124">iBrowe använder din mikrofon.</translation>
 <translation id="3137969841538672700">Dra för att söka</translation>
 <translation id="8372436892102763334">Den här fliken använder extra resurser. Du kan förbättra prestandan genom att låta iBrowe inaktivera den.</translation>
+<translation id="5949068186379578553">För att dela skärmen tillåter du skärminspelning för iBrowe i systeminställningarna</translation>
 <translation id="4805806622840861220">Starta om iBrowe</translation>
 <translation id="3161522574479303604">Alla språk</translation>
 <translation id="1742948938503172561">Anpassa din nya iBrowe-profil</translation>
 <translation id="4805865169608137960">Du kan ta bort iBrowe-kontot från iBrowe genom att logga ut från iBrowe på sidan Inställningar</translation>
+<translation id="1651639704310627074">Senare kan iBrowe fråga om du vill använda sparade uppgifter för att fylla i formulär automatiskt</translation>
 <translation id="2585240446624043880">iBrowe kan inte läsa och skriva till datakatalogen:
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
@@ -174,23 +183,22 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="8926637909431618259">Fortsätt köra bakgrundsappar när iBrowe avslutas</translation>
 <translation id="518125528057094977">iBrowe varnar dig innan webbplatser med osäkra anslutningar läses in</translation>
 <translation id="8652321858775514885">Du loggas ut från de flesta webbplatser när du stänger alla fönster i iBrowe, med undantag för iBrowe-kontot om du är inloggad i iBrowe. <ph name="SETTINGS_LINK"/> och gör så att webbplatser kommer ihåg dig.</translation>
-<translation id="2711887072399498551">Det finns redan en iBrowe-profil med detta konto</translation>
 <translation id="2645435784669275700">Chrome OS</translation>
 <translation id="2297290224191497273">Vill du byta till befintlig iBrowe-profil?</translation>
 <translation id="3412460710772753638">I Lösenordshantering på den här enheten</translation>
-<translation id="2450003541323895471">Du kan hålla dina saker i iBrowe åtskilda med hjälp av iBrowe-profiler. Skapa profiler för vänner och familjemedlemmar eller dela upp jobb och nöje.</translation>
 <translation id="9216183508558772570">iBrowe aviserar dig om du loggar in med ett utsatt lösenord</translation>
 <translation id="5853262807109651878"><ph name="ITEMS_COUNT"/> objekt tas bort från enheten. Logga in i iBrowe som <ph name="USER_EMAIL"/> om du vill kunna återställa datan senare.</translation>
 <translation id="2024972335338126423">Du kan använda <ph name="SHORTCUT"/> för att byta mellan iBrowe-profiler</translation>
 <translation id="8703492925273919597">Stäng alla iBrowe-fönster och försök igen.</translation>
+<translation id="599091950194451698">För att dela fönstret tillåter du skärminspelning för iBrowe i systeminställningarna</translation>
 <translation id="1447863765638888625"><ph name="EXISTING_USER"/> är redan inloggad.  Du kan hålla isär webbinformationen genom att logga in i iBrowe i din egen profil med <ph name="USER_EMAIL_ADDRESS"/>.</translation>
 <translation id="4061445349373849749">För att skydda din integritet raderar vi automatiskt intressen som är äldre än fyra veckor. Medan du surfar kan ett intresse dyka upp på listan igen. Du kan också ta bort intressen som du inte vill att iBrowe ska inkludera.</translation>
+<translation id="8981774130895723211">För att dela skärmen tillåter du skärminspelning för iBrowe i systeminställningarna.</translation>
 <translation id="691208314680168371">Webbhistoriken, där webbplatser som du besökt i iBrowe på den här enheten registreras.</translation>
 <translation id="3597003331831379823">Det gick inte att köra konfigureringen med förhöjd behörighet. <ph name="METAINSTALLER_ERROR"/></translation>
 <translation id="3066805437003400520">Den här personens webbläsardata tas bort från enheten. Logga in i iBrowe som <ph name="USER_EMAIL"/> om du vill återställa data.</translation>
 <translation id="7029305463989165490">Logga in på iBrowe på båda enheterna om du vill skicka ett nummer från <ph name="ORIGIN"/> till Android-telefonen.</translation>
 <translation id="3667616615096815454">Det gick inte att installera appen. Appen är okänd för servern.</translation>
-<translation id="6637642329430475361">För att dela skärmen tillåter du skärminspelning för iBrowe i systeminställningarna.</translation>
 <translation id="4304059894777924102">iBrowe kan inte kontrollera dina lösenord. Testa att kontrollera internetanslutningen.</translation>
 <translation id="1807774211756215222">Öppna länken i en ny &amp;flik i iBrowe</translation>
 <translation id="387105482057676379">Länka iBrowe och andra tjänster från iBrowe för anpassning och andra syften</translation>
@@ -198,7 +206,6 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="308146532933302843">Läs mer om varför vissa nedladdningar blockeras i iBrowe</translation>
 <translation id="2189149060536531804">iBrowe meddelar dig om något behöver granskas</translation>
 <translation id="6324134303015966238">Sidor som du troligen kommer att besöka läses in i förväg i iBrowe så att de läses in snabbare när du besöker dem</translation>
-<translation id="2401189691232800402">Chrome OS-system</translation>
 <translation id="5381622442243174305"><ph name="PAGE_TITLE"/> – iBrowe</translation>
 <translation id="3885770153807205175">Språkväljare</translation>
 <translation id="6315734375101223238">Anpassa och kontrollera iBrowe. Någonting behöver ses över. Klicka här för mer information.</translation>
@@ -208,6 +215,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="3941890832296813527">Installationsfel: Installationens filnamn är ogiltigt eller stöds inte.</translation>
 <translation id="8090497651549769448">Skriv ditt Windows-lösenord om du tillåter att lösenorden i iBrowe kopieras.</translation>
 <translation id="4256965182800026277">Dina sparade lösenord, betalningsmetoder och adresser i iBrowe-kontot tas bort från den här enheten. Logga in på nytt om du vill använda dem igen i iBrowe.</translation>
+<translation id="395904275706073188">Det går inte att läsa skyddade sidor. Testa med en annan sida.</translation>
 <translation id="4194619960643453552">Läs mer om hur du skyddas i iBrowe</translation>
 <translation id="1311808042904310985">Om &amp;iBrowe for Testing</translation>
 <translation id="1152920704813762236">Om Chrome OS</translation>
@@ -222,6 +230,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="4148957013307229264">Installerar...</translation>
 <translation id="4658486203392098459"><ph name="PAGE_TITLE"/> – nätverksinloggning – iBrowe</translation>
 <translation id="2871190378186459992">Upptäck fantastiska appar, spel, tillägg och teman för iBrowe.</translation>
+<translation id="462105622535258178">Logga in i iBrowe om du vill ha det här tillägget med mera på alla dina datorer</translation>
 <translation id="6670140629169983459">Du kan skydda dig online med dina föräldrars val genom att byta till din iBrowe-profil där du redan är inloggad som <ph name="USER_EMAIL_ADDRESS"/></translation>
 <translation id="4222932583846282852">Avbryter …</translation>
 <translation id="4224210481850767180">Installationen har avbrutits.</translation>
@@ -252,15 +261,13 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="137732229629632648">iBrowe behöver behörighet för att kartlägga din omgivning och spåra dina händer</translation>
 <translation id="5917968343741192617">iBrowe förstår formulär bättre och kan autofylla dem snabbare</translation>
 <translation id="5036046007335188949">Du är redan inloggad som <ph name="USER_EMAIL_ADDRESS"/> i en annan iBrowe-profil</translation>
-<translation id="3275149320720837338">iBrowe kan inaktivera den här fliken så att allt förblir snabbt och din surfupplevelse blir bättre.</translation>
-<translation id="3679799810790990472">Vill du fortsätta med en ny iBrowe-profil?</translation>
 <translation id="1878185978731985193">Sidor läses in i förväg i iBrowe, vilket gör det snabbare att surfa och söka. <ph name="BEGIN_LINK"/>Läs mer om att läsa in sidor i förväg<ph name="END_LINK"/></translation>
 <translation id="4567424176335768812">Du är inloggad som <ph name="USER_EMAIL_ADDRESS"/>. Nu kan du komma åt dina bokmärken, historik och andra inställningar på alla enheter som du är inloggad på.</translation>
 <translation id="8669339108356170796">Den här nedladdningen blockerades av iBrowe eftersom du har inaktiverat Säker webbsökning och filen inte kan verifieras</translation>
 <translation id="4594305310729380060">I Lösenordshantering på den här enheten</translation>
 <translation id="300669147395456190">iBrowe-appar</translation>
+<translation id="4598116752460667024">Sök efter en process i listan.</translation>
 <translation id="4970880042055371251">Chrome OS-version</translation>
-<translation id="3738697088264775175">För att dela skärmen tillåter du skärminspelning för iBrowe i systeminställningarna</translation>
 <translation id="2182657378556811785">Nästan klart! Slutför uppdateringen genom att starta om iBrowe.</translation>
 <translation id="7402642357351265733">Om du även delar iBrowe-användningsrapporter ingår webbadresserna du besöker i dessa rapporter</translation>
 <translation id="8142245354207161805">Profilen verkar användas av en annan iBrowe-process (<ph name="PROCESS_ID"/>) på en annan dator (<ph name="HOST_NAME"/>). Profilen har låsts så att den inte används på otillåtet sätt. Om du är säker på att profilen inte används i några andra processer låser du upp profilen och startar om iBrowe.</translation>
@@ -277,9 +284,9 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="1912973375560256099">Regel som tillåter inkommande mDNS-trafik för iBrowe.</translation>
 <translation id="711601904575862069">Starta om för att uppdatera &amp;iBrowe</translation>
 <translation id="4918844574251943176">Bilden har kopierats</translation>
-<translation id="8794694805872287186">Du behöver macOS 11 eller senare för att få framtida uppdateringar av iBrowe. På den här datorn används macOS 10.15.</translation>
 <translation id="8797356639448065696">iBrowe körs i bakgrundsläge.</translation>
 <translation id="1895567721497166950">Klicka för att stänga inloggningsdialogrutan för iBrowe</translation>
+<translation id="2692971232706994729">Du kan hålla dina saker i iBrowe åtskilda med hjälp av iBrowe-profiler. Skapa profiler för vänner och familjemedlemmar eller dela upp jobb och nöje.</translation>
 <translation id="7406627712452599344">Gäster kan använda iBrowe utan att lämna spår efter sig.</translation>
 <translation id="5952898964075639679">Lägg till dig själv i iBrowe</translation>
 <translation id="1204184037023366446">iBrowe behöver behörighet för handspårning</translation>
@@ -288,7 +295,6 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="9078804073692109646">Inga sparade lösenord. iBrowe kan bara kontrollera dina lösenord om du sparar dem.</translation>
 <translation id="6234515504547364178">Logga ut från iBrowe</translation>
 <translation id="5234764350956374838">Stäng</translation>
-<translation id="729580998737807583"><ph name="EXISTING_USER"/> är redan inloggad på den här iBrowe-profilen. En ny iBrowe-profil skapas för <ph name="USER_EMAIL_ADDRESS"/></translation>
 <translation id="8586264863973514035">Ändringarna tillämpas när du startar om iBrowe</translation>
 <translation id="5286907366254680517">Identifierades</translation>
 <translation id="300369155175407115">Om provfunktioner är aktiverade och du slumpmässigt har valts ut för en aktiv provfunktion påverkar webbhistoriken vilka annonser som visas och vilka intressen som du uppskattas ha. Av integritetsskäl raderas dina intressen från iBrowe löpande varje månad.</translation>
@@ -304,6 +310,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="5267531627648004734">Ta bort från iBrowe</translation>
 <translation id="239760341987199724">Använd iBrowe som standardwebbläsare</translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> – iBrowe Beta</translation>
+<translation id="604223321106006231">{NUM_TABS,plural, =1{iBrowe rekommenderar att du pausar fliken som saktar ned webbläsaren}other{iBrowe rekommenderar att du pausar flikarna som saktar ned webbläsaren}}</translation>
 <translation id="894936507076470937">iBrowe kanske inte fungerar ordentligt eftersom det inte längre stöds på den här Linux-distributionen</translation>
 <translation id="2596557398669145729">Den här nedladdningen blockerades av iBrowe eftersom filen kan skada dina personliga konton och sociala nätverkskonton</translation>
 <translation id="696826782632239602">Du behöver ge iBrowe åtkomst till din plats om den ska kunna delas med webbplatsen</translation>
@@ -311,10 +318,10 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="1744365871163268756">Vänta medan de senaste systemuppdateringarna installeras av iBrowe.</translation>
 <translation id="3861679447659630159">Skriv ditt lösenord i Windows om du tillåter att lösenorden i iBrowe redigeras.</translation>
 <translation id="232381795826373334">Öppna PDF-filer i iBrowe</translation>
-<translation id="8698412764809151604">Logga in i iBrowe om du vill ha tilläggen på alla dina datorer</translation>
 <translation id="5579324208890605088">Startfel: Kör installationsprogrammet som vanlig användare, inte som administratör.</translation>
 <translation id="5596627076506792578">Fler alternativ</translation>
 <translation id="5605834417512968703">Välj vad du vill söka efter med bildsökning eller tryck på Escape för att avsluta bildsökningen</translation>
+<translation id="5618818588972826921">Välj text eller bild att söka efter med bildsökning eller tryck på Escape för att avsluta bildsökningen</translation>
 <translation id="1026406809507858026">{0,plural, =0{Det finns en uppdatering för iBrowe}=1{Det finns en uppdatering för iBrowe}other{Det finns en uppdatering för iBrowe sedan # dagar}}</translation>
 <translation id="1023472437588692618">Radera alltid webbplatsdata från enheten när du stänger iBrowe</translation>
 <translation id="5646769069113654257">Starta om iBrowe nu</translation>
@@ -327,6 +334,7 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="82926023981336111">Anpassa och kontrollera iBrowe. Ställ in iBrowe som standardwebbläsare.</translation>
 <translation id="5809516625706423866">Det går inte att ansluta till internet. HTTP 401 Åtkomst nekad. Kontrollera proxykonfigurationen.</translation>
 <translation id="1224606669200461217">Uppdatera iBrowe om du vill använda och spara iBrowe-data i ditt iBrowe-konto</translation>
+<translation id="5824893331272123205">Det gick inte att läsa in panelen. Försök igen</translation>
 <translation id="7207456302801184289">Välkommen till iBrowe</translation>
 <translation id="5871205389137001634">Klicka för att avsluta bildsökningen</translation>
 <translation id="8054200348483755053">iBrowe har upptäckt att dessa objekt innehåller skadlig kod:</translation>
@@ -334,8 +342,8 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="5895138241574237353">Starta om</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE"/> – nätverksinloggning</translation>
 <translation id="5924017743176219022">Ansluter till internet …</translation>
-<translation id="690491870562219491">iBrowe kan inaktivera den här fliken för att frigöra resurser så din surfupplevelse blir bättre.</translation>
 <translation id="5941711191222866238">Minimera</translation>
+<translation id="5768962901674164501">Logga in i iBrowe för att få tillgång till detta bokmärke med mera på alla dina enheter</translation>
 <translation id="3613110494561632737">Om du slumpmässigt har valts ut för en aktiv provfunktion påverkar webbhistoriken vilka annonser som visas och vilka intressen som du uppskattas ha. Av integritetsskäl raderas dina intressen från iBrowe löpande varje månad. Intressen förnyas om du inte tar bort dem.</translation>
 <translation id="4357808717322635817">{COUNT,plural, =1{Organisationen avslutar iBrowe automatiskt när det inte har använts på 1 minut.}other{Organisationen avslutar iBrowe automatiskt när det inte har använts på # minuter.}}</translation>
 <translation id="3598551856834560515">Du måste uppdatera iBrowe innan synkroniseringen kan starta</translation>
@@ -376,11 +384,11 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="6327105987658262776">Det finns ingen tillgänglig uppdatering.</translation>
 <translation id="1819119299840995223">En annan process i iBrowe pågår. Försök igen senare.</translation>
 <translation id="8616874628011103667">Nu är det enklare att använda iBrowe med ditt iBrowe-konto och på delade datorer.</translation>
-<translation id="2727290586877408122">iBrowe kan inaktivera dessa flikar så att allt förblir snabbt och din surfupplevelse blir bättre.</translation>
 <translation id="4264606872840545968">iBrowe-genväg</translation>
 <translation id="6890616081898535725">Den här nedladdningen blockerades av iBrowe eftersom filen inte brukar laddas ned och den kan vara farlig</translation>
 <translation id="335632367599648646">Vill du avinstallera iBrowe?</translation>
 <translation id="6375219077595103062">Lägg till en genväg till Lösenordshantering</translation>
+<translation id="7920857181125123335">Logga in i iBrowe som <ph name="EMAIL"/> om du vill fortsätta. Detta säkerställer att du har organisationens policyer.</translation>
 <translation id="3256100650978957522">iBrowe-logotyp på en datorskärm.</translation>
 <translation id="6373767849825830651">iBrowe är en webbläsare som kör webbsidor och appar blixtsnabbt. Den är snabb, stabil och lätt att använda. Surfa säkrare med iBrowes skydd mot skadliga program och lösenordsfiske.</translation>
 <translation id="6436260184216827876">Bildsökning är inte tillgänglig. Försök igen senare.</translation>
@@ -397,13 +405,13 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 <translation id="3617744907966785605">Organisationen avslutar iBrowe när det inte har använts på <ph name="TIMEOUT_DURATION"/>. Webbinformation har raderats. Detta kan innefatta historik, autofyll och nedladdningar.</translation>
 <translation id="8646609321956191980">I alla profiler sparas egen iBrowe-information som bokmärken, historik, lösenord och annat</translation>
 <translation id="6756656512757374876">Läs mer om <ph name="BEGIN_LINK"/>hur iBrowe skyddar din data<ph name="END_LINK"/></translation>
+<translation id="3556601443414636547">Ändringar av den här inställningen tillämpas när iBrowe startas om.</translation>
 <translation id="2535436634051789953">Du kan byta för att se lösenord från en annan iBrowe-profil</translation>
 <translation id="2312399718665761438">iBrowe skickar det du skriver i textfält till iBrowe för att kontrollera stavningen</translation>
 <translation id="3507835409099344374">Öppna aviseringsinställningarna för iBrowe</translation>
 <translation id="6600016381025017075">Sök efter vad som helst på den här sidan</translation>
 <translation id="9156965752763025780">Ändringarna tillämpas nästa gång du startar om iBrowe.</translation>
 <translation id="245693535809364497">Du behöver ge iBrowe kamerabehörighet om du vill skapa en 3D-karta över dina omgivningar</translation>
-<translation id="5060669762365466104">Webbplatser fortsätter förmodligen att fungera som förväntat men de kommer inte ihåg dig efter att du stänger alla iBrowe-fönster</translation>
 <translation id="9210457680074341078">Om du även sparar bokmärken i iBrowe-kontot kan du bevaka produktpriser i iBrowe och få en avisering när priset sänks.</translation>
 <translation id="6676384891291319759">Gå ut på Internet</translation>
 <translation id="1363996462118479832">Det gick inte att synkronisera data med Chrome OS på grund av ett inloggningsfel.</translation>
@@ -415,7 +423,6 @@ Vissa funktioner kanske inte är tillgängliga och ändringar i inställningarna
 Vissa funktioner är kanske inte tillgängliga. Ange en annan profilkatalog eller använd en nyare version av iBrowe.</translation>
 <translation id="1505112054322049777">Om du vill få tillgång till anpassning och andra funktioner kan du ta med iBrowe i webb- och appaktiviteten och de länkade iBrowe-tjänsterna</translation>
 <translation id="6666624454809779082">iBrowe har redan installerats för alla användare på datorn.</translation>
-<translation id="5360050006043219962">Logga in och aktivera synkronisering om du vill få tillgång till dina saker i iBrowe på olika enheter.</translation>
 <translation id="9136637081636160997">Du har inte besökt webbplatsen nyligen. iBrowe har tagit bort <ph name="PERMISSION_1"/>, <ph name="PERMISSION_2"/> och <ph name="COUNT"/> till</translation>
 <translation id="3136039682492230890">Den här filen bör genomsökas eftersom den kan vara farlig.</translation>
 <translation id="1547295885616600893">Chrome OS fungerar tack vare <ph name="BEGIN_LINK_CROS_OSS"/>program med öppen källkod<ph name="END_LINK_CROS_OSS"/>.</translation>
@@ -425,11 +432,11 @@ Vissa funktioner är kanske inte tillgängliga. Ange en annan profilkatalog elle
 <translation id="7830723774663008396">iBrowe – <ph name="PAGE_TITLE"/></translation>
 <translation id="3028928628792374067">iBrowe har upptäckt att <ph name="EXTENSION_NAME"/> innehåller skadlig kod</translation>
 <translation id="6896758677409633944">Kopiera</translation>
+<translation id="862687584320433626">Ställ in iBrowe som standardwebbläsare och fäst den på aktivitetsfältet</translation>
 <translation id="126871877963043118">Med Annonsmätning, om provfunktioner är aktiverade, kan webbplatser du besöker begära information från iBrowe som hjälper dem att mäta annonsernas resultat. Med annonsmätning begränsas spårningen från webbplats till webbplats genom att så lite information som möjligt överförs mellan webbplatserna.</translation>
 <translation id="4392161457256085190">Senare kan en webbplats fråga efter dina intressen i iBrowe för att anpassa vilka annonser som visas. iBrowe kan dela upp till tre intressen.</translation>
 <translation id="6965382102122355670">OK</translation>
 <translation id="6418340404893954563">Svaga lösenord är lätta att lista ut. Låt iBrowe <ph name="BEGIN_LINK"/>skapa och spara starka lösenord åt dig<ph name="END_LINK"/>.</translation>
-<translation id="3073260428462538962">Organisationen kan se och hantera webbinformation, till exempel bokmärken, historik och lösenord. Den kan inte se webbinformation i personliga iBrowe-profiler.</translation>
 <translation id="3453763134178591239">Villkor för Chrome OS</translation>
 <translation id="3335606533094650083">Du behöver ge iBrowe behörighet att använda mikrofonen på webbplatsen</translation>
 <translation id="6643520655691573653">Ange lösenfrasen om du vill använda och spara iBrowe-data i ditt konto, <ph name="ACCOUNT_EMAIL"/></translation>
@@ -449,6 +456,7 @@ Vissa funktioner är kanske inte tillgängliga. Ange en annan profilkatalog elle
 <translation id="5516268345616100622">Aktivitetshanteraren – iBrowe</translation>
 <translation id="713191641919118540">iBrowes uppskattning av dina intressen</translation>
 <translation id="7274695763216404502">Fäst! Använd Bildsökning igen från verktygsfältet</translation>
+<translation id="7288567540154601580">Flikar och tillägg</translation>
 <translation id="5468053269968670855">{NUM_EXTENSIONS,plural, =1{Vi rekommenderar att du tar bort detta}other{Vi rekommenderar att du tar bort dessa}}</translation>
 <translation id="9068395155143628872">Genom annonsmätning kan webbplatser du besöker begära information från iBrowe som hjälper dem att mäta annonsernas resultat. Med annonsmätning begränsas spårningen från webbplats till webbplats genom att så lite information som möjligt överförs mellan webbplatserna.</translation>
 <translation id="1864557848095568223">iBrowe uppdateras</translation>
@@ -458,9 +466,8 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="7339898014177206373">Nytt fönster</translation>
 <translation id="3511996232906761537">Här finns webben, bokmärken och allt annat du använder iBrowe till.</translation>
 <translation id="5380963249588143069">Systemadministratören har konfigurerat iBrowe så att <ph name="TARGET_URL_HOSTNAME"/> öppnas i <ph name="ALTERNATIVE_BROWSER_NAME"/>.</translation>
-<translation id="8580803879249090057">Den här nedladdningen blockerades av iBrowe eftersom filen kan skada dina personliga konton och sociala nätverkskonton, bland annat <ph name="USER_EMAIL"/></translation>
+<translation id="7352651011704765696">Något gick fel</translation>
 <translation id="4631170166710903214">Detta tillägg stöds inte längre. Vi rekommenderar att du tar bort det i stället.</translation>
-<translation id="4923445196497670664">iBrowe förstår formulär bättre och kan autofylla dem snabbare. Läs mer om <ph name="BEGIN_LINK"/>autofyll i iBrowe<ph name="END_LINK"/></translation>
 <translation id="3943696263619956191"><ph name="PAGE_TITLE"/> – iBrowe Dev</translation>
 <translation id="7450541714075000668">Texten har kopierats</translation>
 <translation id="2034072705932785495">Du behöver ge iBrowe behörighet att använda kameran på webbplatsen</translation>
@@ -470,7 +477,6 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="2619516027171717873">Det går inte att installera samma version av iBrowe som den som redan körs. Stäng iBrowe och försök igen.</translation>
 <translation id="5337027666828618338">Webbplatser bör fungera som förväntat. Du loggas ut från de flesta webbplatser när du stänger alla fönster i iBrowe, med undantag för iBrowe-kontot om du är inloggad i iBrowe.</translation>
 <translation id="3186363903915641692">{0,plural, =1{Om en minut startas iBrowe om}other{Om # minuter startas iBrowe om}}</translation>
-<translation id="4643431486173796900">För att dela fönstret tillåter du skärminspelning för iBrowe i systeminställningarna</translation>
 <translation id="6378857626787254617">iBrowe kan göra en uppskattning av dina intressen. Senare kan en webbplats fråga efter dina intressen i iBrowe för att anpassa vilka annonser som visas.</translation>
 <translation id="7583399374488819119">Installationsprogram för <ph name="COMPANY_NAME"/></translation>
 <translation id="2731215269012281181">Du har inte besökt webbplatsen nyligen. iBrowe har tagit bort <ph name="PERMISSION"/></translation>
@@ -481,6 +487,7 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="3343095737966473035">iBrowe är inte din standardwebbläsare</translation>
 <translation id="5477319665405831211">Synkronisera och anpassa iBrowe på alla enheter du använder</translation>
 <translation id="2339273275658335597">iBrowe-uppdatering</translation>
+<translation id="7716950018788545737">Uppgiften/uppgifterna har avslutats.</translation>
 <translation id="77283119132245232">Tillhandahåller systemspårningstjänster för <ph name="BROWSER_NAME"/>. Om tjänsten är inaktiverad innehåller prestandaspårning som skapas av webbläsaren inte systemhändelser som kontextbyten och färdiga trådhändelser.</translation>
 <translation id="4784414698887946907">Webbinformationen raderas från enheten. Logga in i iBrowe som <ph name="USER_EMAIL"/> om du vill kunna återställa datan senare.</translation>
 <translation id="7747138024166251722">Det gick inte att skapa en tillfällig katalog för installationsfilen. Kontrollera diskutrymmet och att du har behörighet att installera program.</translation>
@@ -496,10 +503,12 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="6396151137840491551">iBrowe uppgraderar automatiskt osäkra anslutningar till HTTPS när det är möjligt</translation>
 <translation id="2925193881330501265">Du var inloggad i iBrowe som <ph name="USER_EMAIL_ADDRESS"/>. Använd samma konto när du loggar in igen.</translation>
 <translation id="6915252145142862992">Det här är en sekundär installation av iBrowe. Det går inte att göra den till standardwebbläsare.</translation>
+<translation id="8004582292198964060">Webbläsare</translation>
 <translation id="8010081455002666927">Upptäck automatiskt</translation>
 <translation id="7685904775439037072">När du har gett iBrowe åtkomst kan webbplatser begära att få åtkomst.</translation>
 <translation id="80471789339884597">Tack för att du installerat programmet. Du måste starta om alla webbläsare innan du använder <ph name="BUNDLE_NAME"/>.</translation>
 <translation id="8054112667659782652">Visa alltid genvägen för bildsökning</translation>
+<translation id="6175141682081019059">Inaktivera att iBrowe körs i bakgrunden för appar</translation>
 <translation id="80790299200510644">Bildsökning</translation>
 <translation id="8086881907087796310">Installationen misslyckades eftersom datorn inte uppfyller minimikraven för hårdvara.</translation>
 <translation id="8263061319795838019"><ph name="PAGE_TITLE"/> – iBrowe for Testing</translation>
@@ -509,6 +518,7 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="813913629614996137">Initierar …</translation>
 <translation id="7550680632761245819">Aktivera ytterligare skydd i iBrowes JavaScript- och WebAssembly-motor</translation>
 <translation id="9067428552314418522">Filen är farlig och har blockerats av iBrowe.</translation>
+<translation id="8177472873527554730">Det gick inte att hitta innehåll på sidan</translation>
 <translation id="6219250889396046657">Ange lösenfrasen om du vill använda och spara iBrowe-data i ditt konto, <ph name="USER_EMAIL"/></translation>
 <translation id="8221491193165283816">Du blockerar aviseringar. Klicka här om du vill tillåta aviseringar från webbplatsen.</translation>
 <translation id="8377926237617998195">Ge iBrowe åtkomst i <ph name="BEGIN_LINK"/>systeminställningarna<ph name="END_LINK"/> om du vill använda kameran</translation>
@@ -528,6 +538,7 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="9098234372282930719">Du måste sedan starta om iBrowe.</translation>
 <translation id="1327729221471951979">Vi rekommenderar att du tar bort det. <ph name="BEGIN_LINK"/>Läs mer om tillägg som stöds<ph name="END_LINK"/></translation>
 <translation id="8577108764439626300">Det här tillägget har tagits bort av utvecklaren och kan vara osäkert. Ta bort det från iBrowe så att det inte längre kan se och ändra data, inklusive dina personliga uppgifter, på webbplatser du besöker.</translation>
+<translation id="4234753748520037091">iBrowe måste verifiera din identitet innan viss data kan sparas i iBrowe-kontot och användas på alla dina enheter. Om du loggar ut nu raderas denna data.</translation>
 <translation id="5337999052834672687">{0,plural, =1{Starta om iBrowe inom en dag}other{Starta om iBrowe inom # dagar}}</translation>
 <translation id="8438543370129609977">När du använder bildsökning skickas sidans rubrik, webbadress och innehåll, inklusive PDF-filer, till servern. <ph name="LEARN_MORE"/></translation>
 <translation id="6914496861676471566">Arkivet för installationsfilen är skadat eller ogiltigt. Ladda ned iBrowe igen.</translation>
@@ -589,6 +600,7 @@ iBrowe kan inte återställa dina inställningar.</translation>
 <translation id="983803489796659991">Installationen misslyckades eftersom uppdateringsservern inte har någon hashdata för appen.</translation>
 <translation id="8435446479956716379">Använd iBrowe utan konto</translation>
 <translation id="8992261409816268381">iBrowe Software Inc</translation>
+<translation id="989970834842471429">Välj text eller bild att söka efter med bildsökning</translation>
 <translation id="3146636448190445245">Ge iBrowe åtkomst i <ph name="BEGIN_LINK"/>systeminställningarna<ph name="END_LINK"/> om du vill använda platsen</translation>
 <translation id="137466361146087520">Google Chrome beta</translation>
 <translation id="7535429826459677826">Google Chrome Dev</translation>

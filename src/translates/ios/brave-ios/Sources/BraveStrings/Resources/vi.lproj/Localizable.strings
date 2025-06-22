@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
+/* A label shown above a list of icons designed by Brave */
 "altAppIcon.braveIconsHeader" = "Biểu tượng iBrowe";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Đổi biểu tượng ứng dụng";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "Mặc định";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -30,6 +30,12 @@
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "Thẻ riêng tư mới";
+
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Tìm hiểu thêm / lựa chọn từ chối";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "Hình nền được tài trợ hỗ trợ sứ mệnh xây dựng một nền tảng web độc lập và ưu tiên người dùng của iBrowe. Khác với sản phẩm của công ty Big Tech, chúng tôi đo lường hiệu suất quảng cáo theo cách đo ẩn danh để bảo toàn quyền riêng tư của bạn.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Thẻ mới";
@@ -58,6 +64,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "Tải lại trang";
 
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Tìm hiểu thêm / lựa chọn từ chối";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "Cảm ơn vì đã ủng hộ Tìm kiếm iBrowe khi bấm vào quảng cáo riêng tư. Khác với sản phẩm của công ty Big Tech, chúng tôi đo lường hiệu suất quảng cáo theo cách đo ẩn danh để bảo toàn quyền riêng tư của bạn.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Chọn thanh vị trí";
 
@@ -76,7 +88,7 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "Hiển thị thẻ trước";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
 "showShieldsTitle" = "Mở Lá chắn iBrowe";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
@@ -141,6 +153,12 @@
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "Chế độ duyệt riêng tư";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "Đã xảy ra lỗi trong quá trình tải tệp. Vui lòng thử lại sau.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "Tải tệp không thành công";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "Phóng to";
