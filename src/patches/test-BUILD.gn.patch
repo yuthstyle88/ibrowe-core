@@ -1,0 +1,13 @@
+diff --git a/test/BUILD.gn b/test/BUILD.gn
+index f6f27c513d23ca4e397513a7f539f1dec175e2b2..925a49030ca8ae49999daa61c953b14cbce93962 100644
+--- a/test/BUILD.gn
++++ b/test/BUILD.gn
+@@ -1237,7 +1237,7 @@ test("brave_browser_tests") {
+ 
+ # All in this section is for running instrumentation java tests
+ if (is_android) {
+-  brave_public_test_manifest_package = "com.brave.browser.tests"
++  brave_public_test_manifest_package = "com.ibrowe.browser.tests"
+ 
+   brave_public_test_apk_manifest =
+       "$root_gen_dir/brave_public_test_apk_manifest/AndroidManifest.xml"

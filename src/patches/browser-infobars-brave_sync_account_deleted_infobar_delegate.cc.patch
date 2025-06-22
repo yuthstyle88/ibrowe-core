@@ -1,0 +1,13 @@
+diff --git a/browser/infobars/brave_sync_account_deleted_infobar_delegate.cc b/browser/infobars/brave_sync_account_deleted_infobar_delegate.cc
+index 9a7cde355ec78c14e94fccf5d7d73ac0406449c6..bfcbb7cf1844841c146fb8b51f9271c2062dde2a 100644
+--- a/browser/infobars/brave_sync_account_deleted_infobar_delegate.cc
++++ b/browser/infobars/brave_sync_account_deleted_infobar_delegate.cc
+@@ -34,7 +34,7 @@ void BraveSyncAccountDeletedInfoBarDelegate::Create(
+     return;
+   }
+ 
+-  // If we already are on brave://settings/braveSync/setup page, don't show
++  // If we already are on ibrowe://settings/braveSync/setup page, don't show
+   // informer
+   if (!active_web_contents || active_web_contents->GetURL() ==
+                                   chrome::GetSettingsUrl(kBraveSyncSetupPath)) {

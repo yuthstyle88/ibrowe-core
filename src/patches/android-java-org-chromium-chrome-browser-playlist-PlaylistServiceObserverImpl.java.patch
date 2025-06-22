@@ -1,0 +1,19 @@
+diff --git a/android/java/org/chromium/chrome/browser/playlist/PlaylistServiceObserverImpl.java b/android/java/org/chromium/chrome/browser/playlist/PlaylistServiceObserverImpl.java
+index dd6a4d9a57b96c05ee04a6392b36cbf846fabb60..ce01ecb806e5590c2dac241586f08d79b51e67da 100644
+--- a/android/java/org/chromium/chrome/browser/playlist/PlaylistServiceObserverImpl.java
++++ b/android/java/org/chromium/chrome/browser/playlist/PlaylistServiceObserverImpl.java
+@@ -5,10 +5,10 @@
+ 
+ package org.chromium.chrome.browser.playlist;
+ 
+-import com.brave.playlist.model.PlaylistItemModel;
+-import com.brave.playlist.playback_service.VideoPlaybackService;
+-import com.brave.playlist.util.ConstantUtils;
+-import com.brave.playlist.util.MediaUtils;
++import com.ibrowe.playlist.model.PlaylistItemModel;
++import com.ibrowe.playlist.playback_service.VideoPlaybackService;
++import com.ibrowe.playlist.util.ConstantUtils;
++import com.ibrowe.playlist.util.MediaUtils;
+ 
+ import org.chromium.chrome.browser.playlist.hls_content.HlsUtils;
+ import org.chromium.mojo.system.MojoException;

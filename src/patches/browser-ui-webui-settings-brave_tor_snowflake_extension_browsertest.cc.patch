@@ -1,0 +1,31 @@
+diff --git a/browser/ui/webui/settings/brave_tor_snowflake_extension_browsertest.cc b/browser/ui/webui/settings/brave_tor_snowflake_extension_browsertest.cc
+index 01486f2d1ef6ccecde80196642c248e57d1433fd..4a7591ea3136eb99f880934b8231602880164e31 100644
+--- a/browser/ui/webui/settings/brave_tor_snowflake_extension_browsertest.cc
++++ b/browser/ui/webui/settings/brave_tor_snowflake_extension_browsertest.cc
+@@ -104,7 +104,7 @@ class TorSnowflakeExtensionBrowserTest : public InProcessBrowserTest {
+ 
+ IN_PROC_BROWSER_TEST_F(TorSnowflakeExtensionBrowserTest, InstallFail) {
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
+-                                           GURL("brave://settings/privacy")));
++                                           GURL("ibrowe://settings/privacy")));
+   auto* web_contents = browser()->tab_strip_model()->GetActiveWebContents();
+   content::WebContentsConsoleObserver console_observer(web_contents);
+   console_observer.SetPattern("Could not fetch data from the Chrome Web Store");
+@@ -117,7 +117,7 @@ IN_PROC_BROWSER_TEST_F(TorSnowflakeExtensionBrowserTest, InstallFail) {
+ IN_PROC_BROWSER_TEST_F(TorSnowflakeExtensionBrowserTest,
+                        InstallDisableEnableUninstall) {
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
+-                                           GURL("brave://settings/privacy")));
++                                           GURL("ibrowe://settings/privacy")));
+   auto* web_contents = browser()->tab_strip_model()->GetActiveWebContents();
+   EXPECT_FALSE(IsSnowflakeToggled(web_contents));
+   EXPECT_TRUE(IsSnowflakeToggleEnabled(web_contents));
+@@ -152,7 +152,7 @@ IN_PROC_BROWSER_TEST_F(TorSnowflakeExtensionBrowserTest, CheckPolicy) {
+   SetTorDisabledPolicy(true);
+ 
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(),
+-                                           GURL("brave://settings/privacy")));
++                                           GURL("ibrowe://settings/privacy")));
+   auto* web_contents = browser()->tab_strip_model()->GetActiveWebContents();
+   EXPECT_FALSE(IsSnowflakeToggled(web_contents));
+   EXPECT_FALSE(IsSnowflakeToggleEnabled(web_contents));

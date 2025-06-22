@@ -2,7 +2,7 @@
 <!--
 This file contains all "about" strings.  It is set to NOT be translated, in translation_expectations.pyl.  en-US only.
 -->
-<grit current_release="1" latest_public_release="0" output_all_resource_defines="false">
+<grit current_release="1" latest_public_release="0">
   <outputs>
     <output filename="values-af/android_brave_strings.xml" lang="af" type="android" />
     <output filename="values-am/android_brave_strings.xml" lang="am" type="android" />
@@ -504,8 +504,8 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_SHOW_SEARCH_SUGGESTIONS_TITLE" desc="Title for a switch in Settings that controls URL and search autocompletion and informs the user about the data shared by this feature.">
         Show search suggestions
       </message>
-      <message name="IDS_AUTOCOMPLETE_TOP_SITES_TITLE" desc="The label for settings switch controlling whether or not top sites show up in autocomplete">
-        Show top sites suggestions
+      <message name="IDS_AUTOCOMPLETE_TOP_SUGGESTIONS_TITLE" desc="The label for settings switch controlling whether or not top suggestions show up in autocomplete">
+        Show top suggestions
       </message>
       <message name="IDS_INDEX_OTHER_SEARCH_ENGINES_TITLE" desc="Title for the settings related to index other search engines">
         Index other search engines
@@ -844,13 +844,13 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_PREFS_BACKGROUND_VIDEO_PLAYBACK" desc="Title for background video playback preference in controls section">
         Background play
       </message>
-      <message name="IDS_PREFS_CLOSING_ALL_TABS_CLOSES_BRAVE" desc="Title for closing all tabs closes ibrowe in controls section">
+      <message name="IDS_PREFS_CLOSING_ALL_TABS_CLOSES_BRAVE" desc="Title for closing all tabs closes iBrowe in controls section">
         Closing all tabs closes iBrowe
       </message>
       <message name="IDS_PREFS_BACKGROUND_VIDEO_PLAYBACK_ON" desc="Text for background video playback is on">
         Allows audio to play when you switch to another tab in iBrowe or another app or your device screen is off.
       </message>
-      <message name="IDS_PREFS_OPEN_YOUTUBE_LINKS_BRAVE" desc="Text for open youtube links in ibrowe">
+      <message name="IDS_PREFS_OPEN_YOUTUBE_LINKS_BRAVE" desc="Text for open youtube links in iBrowe">
         Open YouTube links in iBrowe
       </message>
       <message name="IDS_PREFS_SECTION_DISPLAY" desc='Title of "Display" section of preferences. [CHAR-LIMIT=32]'>
@@ -963,22 +963,16 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_TROUBLESHOOTING_ONBOARDING" desc="Text for trouble shooting page for onboarding">
         Troubleshooting onboarding
       </message>
-      <message name="IDS_CHOOSE_DEFAULT_SEARCH_ENGINE" desc="Title Text for search engine page for onboarding">
-        Choose default search engine
-      </message>
-      <message name="IDS_SEARCH_ENGINE_TEXT" desc="Text for search engine page for onboarding">
-        You can always change your preference later in app settings.
-      </message>
-      <message name="IDS_BRAVE_SHIELDS_ONBOARDING_TITLE" desc="Title for ibrowe shield page">
+      <message name="IDS_BRAVE_SHIELDS_ONBOARDING_TITLE" desc="Title for iBrowe shield page">
         iBrowe Shields
       </message>
-      <message name="IDS_EARN_TOKENS" desc="Partial Text for ibrowe rewards page">
+      <message name="IDS_EARN_TOKENS" desc="Partial Text for iBrowe rewards page">
         Earn <ph name="TOKEN">%1$s<ex>token</ex></ph>s
       </message>
-      <message name="IDS_BRAVE_REWARDS_ONBOARDING_TITLE" desc="Title for ibrowe rewards page">
+      <message name="IDS_BRAVE_REWARDS_ONBOARDING_TITLE" desc="Title for iBrowe rewards page">
         iBrowe Rewards
       </message>
-      <message name="IDS_BRAVE_REWARDS_ONBOARDING_TEXT" desc="Text for ibrowe rewards page">
+      <message name="IDS_BRAVE_REWARDS_ONBOARDING_TEXT" desc="Text for iBrowe rewards page">
         by viewing privacy-respecting ads and support your favorite sites and creators by default.
       </message>
       <message name="IDS_TERMS_TEXT" desc="Text for terms of service page">
@@ -993,13 +987,13 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_I_DIDNT_SEE" desc="Text for i didt see it button">
         I didn&apos;t see an ad
       </message>
-      <message name="IDS_BRAVE_ADS_ONBOARDING_TITLE" desc="Title for ibrowe ads page">
+      <message name="IDS_BRAVE_ADS_ONBOARDING_TITLE" desc="Title for iBrowe ads page">
         iBrowe will show your first ad in
       </message>
-      <message name="IDS_BRAVE_ADS_ONBOARDING_TEXT" desc="Text for ibrowe ads page">
+      <message name="IDS_BRAVE_ADS_ONBOARDING_TEXT" desc="Text for iBrowe ads page">
         Now you'll earn token from iBrowe Ads.
       </message>
-      <message name="IDS_THIS_IS_YOUR_FIRST_AD" desc="Text ibrowe rewards notification.">
+      <message name="IDS_THIS_IS_YOUR_FIRST_AD" desc="Text iBrowe rewards notification.">
         This is your first iBrowe ad. Tap to learn more.
       </message>
       <message name="IDS_EARN_AND_GIVE" desc="Button text for rewards onboarding.">
@@ -1020,15 +1014,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_MENU_SET_DEFAULT_BROWSER" desc="Title for set default browser menu item">
         Set as Default Browser
       </message>
-      <message name="IDS_BRAVE_SET_DEFAULT_BROWSER_DIALOG_TEXT" desc="Dialog for setting default browser">
-        Select iBrowe Browser and tap 'Always'
-      </message>
-      <message name="IDS_BRAVE_ALREADY_SET_AS_DEFAULT_BROWSER" desc="Toast message for those whom have already set iBrowe as default browser">
-        iBrowe is already set as your default browser.
-      </message>
-      <message name="IDS_BRAVE_DEFAULT_BROWSER_GO_TO_SETTINGS" desc="Toast message for those without 7.0 to go to settings to change default browser">
-        You've already set a default browser. You may change the default browser in your app settings.
-      </message>
       <message name="IDS_SCAN_QR_CODE" desc="Title for scan qr code dialog from addressbar">
         Scan QR Code
       </message>
@@ -1038,7 +1023,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_INSTRUCTIONS_DESC" desc="Instructions description for scan qr code dialog from addressbar">
         To search by QR Code, align the QR Code in the center of frame.
       </message>
-      <message name="IDS_MENU_BRAVE_REWARDS" desc="Title for ibrowe rewards menu item">
+      <message name="IDS_MENU_BRAVE_REWARDS" desc="Title for iBrowe rewards menu item">
         iBrowe Rewards
       </message>
       <message name="IDS_LOGGED_OUT_STATE_DIALOG_TEXT" desc="Rewards logged out state text">
@@ -1059,16 +1044,16 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_DONT_ASK_AGAIN" desc="Set default browser modal text">
         Don't ask again
       </message>
-      <message name="IDS_BRAVE_OMNIBOX_SEARCH_PROMO_TITLE" desc="Omnibox ibrowe search banner promo title">
+      <message name="IDS_BRAVE_OMNIBOX_SEARCH_PROMO_TITLE" desc="Omnibox iBrowe search banner promo title">
         Independent search with better privacy
       </message>
-      <message name="IDS_BRAVE_OMNIBOX_SEARCH_PROMO_DESC" desc="Omnibox ibrowe search banner promo description">
+      <message name="IDS_BRAVE_OMNIBOX_SEARCH_PROMO_DESC" desc="Omnibox iBrowe search banner promo description">
         iBrowe Search doesn't profile you.
       </message>
-      <message name="IDS_TRY_BRAVE_SEARCH" desc="Omnibox ibrowe search promo button text">
+      <message name="IDS_TRY_BRAVE_SEARCH" desc="Omnibox iBrowe search promo button text">
         Try iBrowe Search
       </message>
-      <message name="IDS_DISMISS_SEARCH_PROMO" desc="Omnibox ibrowe search promo dismiss button text">
+      <message name="IDS_DISMISS_SEARCH_PROMO" desc="Omnibox iBrowe search promo dismiss button text">
         Dismiss
       </message>
       <message name="IDS_BRAVE_UI_MONTH_JAN" desc="Name of a month">JANUARY</message>
@@ -1354,10 +1339,10 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_OPEN_SYSTEM_SYNC_SETTINGS" desc="The text on button on informer which is fired when Android system sync settings switch is toggled off, to open system settings">
         Open Settings
       </message>
-      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE" desc="Message text shown to users who's Sync account was deleted. Is used along with IDS_IBROWE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT">
         This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,<ph name="LINK_TEXT">%1$s<ex>re-create the account</ex></ph>
       </message>
-      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
+      <message name="IDS_BRAVE_SYNC_ACCOUNT_DELETED_INFOBAR_LINK_TEXT" desc="Link text shown to users who's Sync account was deleted. When user clicks the link, Sync Setup page is opened. Is used along with IDS_IBROWE_SYNC_ACCOUNT_DELETED_INFOBAR_MESSAGE">
         <ph name="INFOBAR_TEXT">%1$s<ex>This iBrowe Sync account was deleted from another device. If you didn’t mean to disable Sync,</ex></ph>re-create the account
       </message>
       <message name="IDS_BRAVE_SYNC_JOINING_DELETED_ACCOUNT" desc="The error text for the case when trying to connect to the permanently deleted chain">
@@ -1520,7 +1505,7 @@ Are you sure you want to do this?
       <message name="IDS_USER_WALLET_STATUS_NOT_CONNECTED">
         Not connected
       </message>
-      <message name="IDS_BRAVE_DEFAULT" desc="Text for ibrowe default settings option.">
+      <message name="IDS_BRAVE_DEFAULT" desc="Text for iBrowe default settings option.">
         iBrowe Default
       </message>
       <message name="IDS_SHARE_BRAVE_WITH_YOUR_FRIENDS" desc="Title text for share dialog.">
@@ -1529,7 +1514,7 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TITLE" desc="">
         Oops, something is wrong. Please try again later.
       </message>
-      <message name="IDS_PREFS_RATE_BRAVE" desc="Title for rate ibrowe settings option.">
+      <message name="IDS_PREFS_RATE_BRAVE" desc="Title for rate iBrowe settings option.">
         Rate iBrowe
       </message>
       <message name="IDS_PREFS_SECTION_GENERAL" desc="Title for the general section in settings.">
@@ -1538,10 +1523,10 @@ Are you sure you want to do this?
       <message name="IDS_PREFS_ABOUT_SECTION" desc="Title for the about section in settings.">
         About
       </message>
-      <message name="IDS_NEVER" desc="Text for rate ibrowe dialog button.">
+      <message name="IDS_NEVER" desc="Text for rate iBrowe dialog button.">
         Never
       </message>
-      <message name="IDS_MAYBE_LATER" desc="Text for rate ibrowe dialog button.">
+      <message name="IDS_MAYBE_LATER" desc="Text for rate iBrowe dialog button.">
         Maybe Later
       </message>
       <message name="IDS_REWARDS_PANEL_PAYOUT_PENDING_TEXT" desc="Text for rewards panel payout pending text">
@@ -1640,13 +1625,13 @@ Are you sure you want to do this?
       <message name="IDS_ABOUT_BRAVE_SHIELDS_TEXT" desc="About Title for shields option.">
         About iBrowe Shields
       </message>
-      <message name="IDS_UP" desc="Text for ibrowe shields switch.">
+      <message name="IDS_UP" desc="Text for iBrowe shields switch.">
         UP
       </message>
-      <message name="IDS_DOWN" desc="Text for ibrowe shields switch.">
+      <message name="IDS_DOWN" desc="Text for iBrowe shields switch.">
         DOWN
       </message>
-      <message name="IDS_BRAVE_SHIELDS_DOWN_TEXT" desc="Text for ibrowe shields down.">
+      <message name="IDS_BRAVE_SHIELDS_DOWN_TEXT" desc="Text for iBrowe shields down.">
         You're browsing this site without iBrowe's privacy protections. Does it not work right with Shields up?
       </message>
       <message name="IDS_BRAVE_ETHEREUM_NETWORKS" desc="Text Ethereum networks label.">
@@ -1718,16 +1703,16 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_STATS_SHARE_TEXT" desc="Text sent when sharing the stats">
         Every day I save data by browsing the Web with iBrowe.
       </message>
-      <message name="IDS_WATCH_YOUTUBE_NOT_ADS" desc="Open youtube in ibrowe modal title">
+      <message name="IDS_WATCH_YOUTUBE_NOT_ADS" desc="Open youtube in iBrowe modal title">
         Watch YouTube, not Ads.
       </message>
-      <message name="IDS_WATCH_YOUTUBE_NOT_ADS_TEXT" desc="Open youtube in ibrowe modal text">
+      <message name="IDS_WATCH_YOUTUBE_NOT_ADS_TEXT" desc="Open youtube in iBrowe modal text">
         Open YouTube links in iBrowe to block ads.
       </message>
-      <message name="IDS_TURN_ON_NOW" desc="Open youtube in ibrowe modal positive action text">
+      <message name="IDS_TURN_ON_NOW" desc="Open youtube in iBrowe modal positive action text">
         Turn on now
       </message>
-      <message name="IDS_NO_THANK_YOU" desc="Open youtube in ibrowe modal negative action text">
+      <message name="IDS_NO_THANK_YOU" desc="Open youtube in iBrowe modal negative action text">
         No, thank you
       </message>
       <message name="IDS_PRIVACY_PROTECTION" desc="Title for onboading bottomsheet.">
@@ -1828,9 +1813,6 @@ Are you sure you want to do this?
       </message>
       <message name="IDS_START_BROWSING_TO_SEE" desc="iBrowe stats empty text">
         Start browsing to see privacy reporting
-      </message>
-      <message name="IDS_SET_BRAVE_AS_YOUR" desc="Deafult browser notification text">
-        Set iBrowe as your default browser for private and secure browsing.
       </message>
       <message name="IDS_ALLOWS_BRAVE_TO_SHOW" desc="iBrowe stats pref summary text">
         Allows iBrowe to show your privacy statistics
@@ -1966,39 +1948,6 @@ Are you sure you want to do this?
       </message>
       <message name="IDS_VIEW_FULL_PRIVACY_REPORT" desc="Shields privacy report text">
         View full Privacy Report
-      </message>
-      <message name="IDS_GOOGLE_DESC" desc="Onboarding SE text">
-        Most popular
-      </message>
-      <message name="IDS_DDG_DESC" desc="Onboarding SE text">
-        Private and no tracking
-      </message>
-      <message name="IDS_QWANT_DESC" desc="Onboarding SE text">
-        Private and no tracking, EU-based
-      </message>
-      <message name="IDS_STARTPAGE_DESC" desc="Onboarding SE text">
-        Google results without trackers
-      </message>
-      <message name="IDS_BING_DESC" desc="Onboarding SE text">
-        Second most popular
-      </message>
-      <message name="IDS_YANDEX_DESC" desc="Onboarding SE text">
-        A leading search engine in Russia
-      </message>
-      <message name="IDS_ECOSIA_DESC" desc="Onboarding SE text">
-        Plants trees, based in Berlin
-      </message>
-      <message name="IDS_DAUM_DESC" desc="Onboarding SE text">
-        South Korean web portal &amp; search
-      </message>
-      <message name="IDS_NAVER_DESC" desc="Onboarding SE text">
-        South Korean web portal &amp; search
-      </message>
-      <message name="IDS_BRAVE_DESC" desc="Onboarding SE text">
-        Private, independent, user-first
-      </message>
-      <message name="IDS_ONBOARDING_SE_TEXT" desc="Onboarding SE title text">
-        Some search engines protect your privacy better than others when you search the web.
       </message>
       <message name="IDS_NOT_NOW" desc="Set default browser modal button text">
         Not now
@@ -2274,13 +2223,13 @@ Are you sure you want to do this?
     <message name="IDS_BRAVE_UI_BRAVE_WALLET" desc="Title for iBrowe Wallet Settings. [CHAR-LIMIT=27]">
       iBrowe Wallet
     </message>
-    <message name="IDS_BRAVE_WALLET_TOOLBAR_LOCK" desc="Title for ibrowe wallet toolbar lock option.">
+    <message name="IDS_BRAVE_WALLET_TOOLBAR_LOCK" desc="Title for iBrowe wallet toolbar lock option.">
       Lock
     </message>
     <message name="IDS_BRAVE_WALLET_HELP_CENTER" desc="Title for help center link">
       Help center
     </message>
-    <message name="IDS_BRAVE_WALLET_SETTINGS_AUTOLOCK_OPTION" desc="Title for ibrowe wallet automatically lock.">
+    <message name="IDS_BRAVE_WALLET_SETTINGS_AUTOLOCK_OPTION" desc="Title for iBrowe wallet automatically lock.">
       Automatically lock iBrowe Wallet
     </message>
     <message name="IDS_BRAVE_WALLET_SETTINGS_AUTOLOCK_HOW_MANY_MINUTES" desc="iBrowe wallet autolock dialog text">
@@ -2407,7 +2356,7 @@ Are you sure you want to do this?
       Subscriptions will be charged via your Google account. Any unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is canceled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using iBrowe, you agree to the Terms of Use and Privacy Policy.
     </message>
     <message name="IDS_ALREADY_PURCHASED" desc="iBrowe subscription plan page already purchased text">
-      Already purchased on iBrowe.com?
+      Already purchased on ibrowe.com?
     </message>
     <message name="IDS_REFRESH_YOUR_CREDENTIALS" desc="iBrowe subscription plan page refresh your credentials action text">
       Refresh your credentials
@@ -3554,10 +3503,10 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_SAFE_BROWSING_NO_GOOGLE_PLAY_SERVICES_DIALOG_MESSAGE" desc="iBrowe no Google Play Services dialog message">
       Safe Browsing has been disabled on your device. To enable it, ensure that Google Play Services is installed and that it's up to date.
     </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_SWITCH_OFF_SUB_TEXT" desc="A sub title for ibrowe rewards panel unverified state when rewards is off">
+    <message name="IDS_REWARDS_PANEL_UNVERIFIED_SWITCH_OFF_SUB_TEXT" desc="A sub title for iBrowe rewards panel unverified state when rewards is off">
       Turn on to help support content creators
     </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_SWITCH_ON_SUB_TEXT" desc="A sub title for ibrowe rewards panel unverified state when rewards is on">
+    <message name="IDS_REWARDS_PANEL_UNVERIFIED_SWITCH_ON_SUB_TEXT" desc="A sub title for iBrowe rewards panel unverified state when rewards is on">
       You are helping support iBrowe and the BAT community
     </message>
     <message name="IDS_REWARDS_PANEL_UNVERIFIED_OFF_SECTION_TEXT" desc="Rewards panel unverified state section text when rewards is disabled">

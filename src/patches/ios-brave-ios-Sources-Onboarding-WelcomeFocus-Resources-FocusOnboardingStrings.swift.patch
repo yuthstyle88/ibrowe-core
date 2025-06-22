@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/Onboarding/WelcomeFocus/Resources/FocusOnboardingStrings.swift b/ios/brave-ios/Sources/Onboarding/WelcomeFocus/Resources/FocusOnboardingStrings.swift
-index abafc3599444037da96255515894cbe16b576d79..7a5cd376b25b682cdcfa63ee2203488ac5d9ac1c 100644
+index abafc3599444037da96255515894cbe16b576d79..b6ecc75bb7dfff7900c1dff6507f148295775baa 100644
 --- a/ios/brave-ios/Sources/Onboarding/WelcomeFocus/Resources/FocusOnboardingStrings.swift
 +++ b/ios/brave-ios/Sources/Onboarding/WelcomeFocus/Resources/FocusOnboardingStrings.swift
 @@ -36,7 +36,7 @@ extension Strings {
@@ -16,7 +16,7 @@ index abafc3599444037da96255515894cbe16b576d79..7a5cd376b25b682cdcfa63ee2203488a
        tableName: "FocusOnboarding",
        bundle: .module,
 -      value: "Change this at any time in Brave Settings under ‘Brave Shields and Privacy’.",
-+      value: "Change this at any time in iBrowe Settings under ‘Brave Shields and Privacy’.",
++      value: "Change this at any time in iBrowe Settings under ‘iBrowe Shields and Privacy’.",
        comment: "The title of the toggle for enable / disable privacy preserving analytics."
      )
  

@@ -1,0 +1,13 @@
+diff --git a/components/brave_wayback_machine/wayback_machine_url_fetcher_unittest.cc b/components/brave_wayback_machine/wayback_machine_url_fetcher_unittest.cc
+index 16d43b3b6e6968b651485707b5402baad8470d56..717fd951ef293768f508ea086779a3d8f71041df 100644
+--- a/components/brave_wayback_machine/wayback_machine_url_fetcher_unittest.cc
++++ b/components/brave_wayback_machine/wayback_machine_url_fetcher_unittest.cc
+@@ -134,7 +134,7 @@ TEST_F(WaybackMachineURLFetcherUnitTest, WaybackURLSanitizeTest) {
+   Fetch(GURL::EmptyGURL());
+ 
+   SetResponseText(
+-      R"({"archived_snapshots":{"closest":{"url":"brave://abcd"}}})");
++      R"({"archived_snapshots":{"closest":{"url":"ibrowe://abcd"}}})");
+   Fetch(GURL::EmptyGURL());
+ 
+   SetResponseText(

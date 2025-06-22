@@ -1,5 +1,5 @@
 diff --git a/build/commands/lib/config.js b/build/commands/lib/config.js
-index 4cf855d5f7984d79663d6ce8571d02f85f4c919e..536b1c3897c4711c06542f938b23063209e0c525 100644
+index d2c495ea406960fb7f467eca3c1ce7aaf7fa0c5d..ef78ebfe78f2f7c707603ac24ee889b006941bcc 100644
 --- a/build/commands/lib/config.js
 +++ b/build/commands/lib/config.js
 @@ -20,6 +20,7 @@ if (process.platform === 'win32') {
@@ -19,3 +19,26 @@ index 4cf855d5f7984d79663d6ce8571d02f85f4c919e..536b1c3897c4711c06542f938b230632
    if (!ignorePatchVersionNumber) {
      return braveVersion
    }
+@@ -590,17 +591,17 @@ Config.prototype.buildArgs = function () {
+     args.android_channel = this.channel
+     if (!this.isReleaseBuild()) {
+       args.android_channel = 'default'
+-      args.chrome_public_manifest_package = 'com.brave.browser_default'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_default'
+     } else if (this.channel === '') {
+       args.android_channel = 'stable'
+-      args.chrome_public_manifest_package = 'com.brave.browser'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser'
+     } else if (this.channel === 'beta') {
+-      args.chrome_public_manifest_package = 'com.brave.browser_beta'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_beta'
+     } else if (this.channel === 'dev') {
+-      args.chrome_public_manifest_package = 'com.brave.browser_dev'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_dev'
+     } else if (this.channel === 'nightly') {
+       args.android_channel = 'canary'
+-      args.chrome_public_manifest_package = 'com.brave.browser_nightly'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_nightly'
+     }
+     // exclude_unwind_tables is inherited form upstream and is false for any
+     // Android build

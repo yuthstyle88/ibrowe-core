@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift b/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift
-index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d48642bd8fdc 100644
+index 22b8c4e13049a9a66f920f6edc23614846b7d6c6..39c65ed0bc69f9f8830fd68c56194618882e02d3 100644
 --- a/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift
 +++ b/ios/brave-ios/Sources/BraveVPN/Resources/BraveVPNStrings.swift
 @@ -12,7 +12,7 @@ extension Strings {
@@ -136,6 +136,15 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
        comment: "Pop up title for renewing VPN subscription with month free"
      )
  
+@@ -181,7 +181,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value:
+-        "There's a billing issue with your account, which means your Brave VPN subscription is about to expire.",
++        "There's a billing issue with your account, which means your iBrowe VPN subscription is about to expire.",
+       comment: "Pop up title for billing issue for subcription VPN about to expire"
+     )
+ 
 @@ -189,7 +189,7 @@ extension Strings {
        "vpn.updateBillingExpiredPopOverTitle",
        tableName: "BraveShared",
@@ -169,7 +178,7 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
        bundle: .module,
 -      value: "Did you know that Brave VPN protects you outside of Brave Browser?",
 -      comment: "Pop up title for subscribing VPN explaning VPN protects user outside the Brave"
-+      value: "Did you know that iBrowe VPN protects you outside of Brave Browser?",
++      value: "Did you know that iBrowe VPN protects you outside of iBrowe Browser?",
 +      comment: "Pop up title for subscribing VPN explaning VPN protects user outside the iBrowe"
      )
  
@@ -180,6 +189,36 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
 -      value: "Now, use Brave VPN on all your devices for the same price!",
 +      value: "Now, use iBrowe VPN on all your devices for the same price!",
        comment: "Pop up title the subscription for VPN can be used for all platforms"
+     )
+ 
+@@ -247,9 +247,9 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value:
+-        "Brave VPN has always blocked trackers on every app, even outside the Brave browser. Now you can see who tried to track you, with the Brave Privacy Hub.",
++        "iBrowe VPN has always blocked trackers on every app, even outside the iBrowe browser. Now you can see who tried to track you, with the iBrowe Privacy Hub.",
+       comment:
+-        "Pop up description for subscribing VPN explaning VPN protects user outside the Brave"
++        "Pop up description for subscribing VPN explaning VPN protects user outside the iBrowe"
+     )
+ 
+     public static let subscribeVPNAllDevicesPopOverDescription = NSLocalizedString(
+@@ -257,7 +257,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value:
+-        "That’s right. Your Brave VPN subscription is now good on up to 5 devices. So you can subscribe on iOS and use it on your Mac, Windows and Android devices for free.",
++        "That’s right. Your iBrowe VPN subscription is now good on up to 5 devices. So you can subscribe on iOS and use it on your Mac, Windows and Android devices for free.",
+       comment: "Pop up description the subscription for VPN can be used for all platforms"
+     )
+ 
+@@ -266,7 +266,7 @@ extension Strings {
+       tableName: "BraveShared",
+       bundle: .module,
+       value:
+-        "Ready to safeguard every app on your phone? Come back to Brave VPN and get 20% off for the next 3 months.",
++        "Ready to safeguard every app on your phone? Come back to iBrowe VPN and get 20% off for the next 3 months.",
+       comment: "Pop up sub description the subscription for VPN can be used for all platforms"
      )
  
 @@ -282,7 +282,7 @@ extension Strings {
@@ -250,6 +289,15 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
        comment: ""
      )
  
+@@ -521,7 +521,7 @@ extension Strings {
+       "vpn.installProfileBody",
+       bundle: .module,
+       value:
+-        "This profile allows the VPN to automatically connect and secure traffic across your device all the time. This VPN connection will be encrypted and routed through Brave's intelligent firewall to block potentially harmful and invasive connections.",
++        "This profile allows the VPN to automatically connect and secure traffic across your device all the time. This VPN connection will be encrypted and routed through iBrowe's intelligent firewall to block potentially harmful and invasive connections.",
+       comment: "Text explaining how the VPN works."
+     )
+ 
 @@ -577,7 +577,7 @@ extension Strings {
      public static let settingsLinkReceipt = NSLocalizedString(
        "vpn.settingsLinkReceipt",
@@ -259,7 +307,16 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
        comment: "Button to link your VPN receipt to other devices."
      )
  
-@@ -643,21 +643,21 @@ extension Strings {
+@@ -585,7 +585,7 @@ extension Strings {
+       "vpn.settingsLinkReceiptFooter",
+       bundle: .module,
+       value:
+-        "Link your App Store purchase to your Brave account to use Brave VPN on other devices.",
++        "Link your App Store purchase to your iBrowe account to use iBrowe VPN on other devices.",
+       comment: "Footer text to link your VPN receipt to other devices."
+     )
+ 
+@@ -643,28 +643,28 @@ extension Strings {
        "vpn.enableButton",
        bundle: .module,
        value: "Enable",
@@ -284,7 +341,41 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
      )
  
      public static let settingHeaderBody = NSLocalizedString(
-@@ -960,7 +960,7 @@ extension Strings {
+       "vpn.settingHeaderBody",
+       bundle: .module,
+       value:
+-        "Protect every app with Brave VPN. Protect up to 10 devices with one plan.",
++        "Protect every app with iBrowe VPN. Protect up to 10 devices with one plan.",
+       comment: "VPN Banner Description"
+     )
+ 
+@@ -701,7 +701,7 @@ extension Strings {
+       "vpn.vpnConfigPermissionDeniedErrorBody",
+       bundle: .module,
+       value:
+-        "The Brave Firewall + VPN requires a VPN profile to be installed on your device to work. ",
++        "The iBrowe Firewall + VPN requires a VPN profile to be installed on your device to work. ",
+       comment: "Title for an alert when the user didn't allow to install VPN profile"
+     )
+ 
+@@ -753,7 +753,7 @@ extension Strings {
+       "vpn.vpnResetAlertBody",
+       bundle: .module,
+       value:
+-        "This will reset your Brave Firewall + VPN configuration and fix any errors. This process may take a minute.",
++        "This will reset your iBrowe Firewall + VPN configuration and fix any errors. This process may take a minute.",
+       comment: "Message for alert to reset vpn configuration"
+     )
+ 
+@@ -953,14 +953,14 @@ extension Strings {
+       "vpn.contactFormDoNotEditText",
+       bundle: .module,
+       value:
+-        "Brave doesn’t track you or know how you use our app, so we don’t know how you've set up VPN. Please share info about the issue you're experiencing and we'll do our best to resolve it as soon as we can.",
++        "iBrowe doesn’t track you or know how you use our app, so we don’t know how you've set up VPN. Please share info about the issue you're experiencing and we'll do our best to resolve it as soon as we can.",
+       comment: "Text to tell user to not modify support info below email's body."
+     )
+ 
      public static let contactFormTitle = NSLocalizedString(
        "vpn.contactFormTitle",
        bundle: .module,
@@ -310,3 +401,24 @@ index 81d6693db9bae4e97234da0d9ae5c8c88197dc81..8d22188210cc92cba261367559b8d486
        comment: "Notification title to tell user that the vpn is turned on even in background"
      )
  
+@@ -996,7 +996,7 @@ extension Strings {
+       "vpn.vpnIAPBoilerPlate",
+       bundle: .module,
+       value:
+-        "Subscriptions will be charged via your iTunes account.\n\nAny unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is cancelled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using Brave, you agree to the Terms of Use and Privacy Policy.",
++        "Subscriptions will be charged via your iTunes account.\n\nAny unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is cancelled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using iBrowe, you agree to the Terms of Use and Privacy Policy.",
+       comment: "Disclaimer for user purchasing the VPN plan."
+     )
+ 
+@@ -1224,9 +1224,9 @@ extension Strings {
+       "vpn.paywallDisclaimer",
+       bundle: .module,
+       value:
+-        "Subscriptions will be charged via your Apple account. Any unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is canceled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using Brave, you agree to the Terms of Use and Privacy Policy.",
++        "Subscriptions will be charged via your Apple account. Any unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is canceled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using iBrowe, you agree to the Terms of Use and Privacy Policy.",
+       comment:
+-        "The text that briefly explains how Brave VPN subscription is going to be charged and managed."
++        "The text that briefly explains how iBrowe VPN subscription is going to be charged and managed."
+     )
+ 
+     public static let settingsVPNSmartProxyEnabled =

@@ -1,0 +1,12 @@
+diff --git a/components/brave_wallet_ui/stories/mock-data/mock-origin-info.ts b/components/brave_wallet_ui/stories/mock-data/mock-origin-info.ts
+index 5d10519b69442379deea24e617d95e26d1aadda2..b7fba9c8d857af962664bc7ce7c3993b3d4f0be3 100644
+--- a/components/brave_wallet_ui/stories/mock-data/mock-origin-info.ts
++++ b/components/brave_wallet_ui/stories/mock-data/mock-origin-info.ts
+@@ -15,6 +15,6 @@ export const mockUniswapOriginInfo: BraveWallet.OriginInfo = {
+ }
+ 
+ export const mockBraveWalletOrigin: BraveWallet.OriginInfo = {
+-  originSpec: 'brave://wallet',
++  originSpec: 'ibrowe://wallet',
+   eTldPlusOne: 'wallet'
+ }

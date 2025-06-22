@@ -1,0 +1,15 @@
+diff --git a/android/java/org/chromium/chrome/browser/playlist/settings/BravePlaylistPreferences.java b/android/java/org/chromium/chrome/browser/playlist/settings/BravePlaylistPreferences.java
+index 1dc670ddd327dc10baf2227e28cf8a016d26d537..3efd0223cfffb4c5d17129a41b1a5c7ffed02817 100644
+--- a/android/java/org/chromium/chrome/browser/playlist/settings/BravePlaylistPreferences.java
++++ b/android/java/org/chromium/chrome/browser/playlist/settings/BravePlaylistPreferences.java
+@@ -9,8 +9,8 @@ import android.os.Bundle;
+ 
+ import androidx.preference.Preference;
+ 
+-import com.brave.playlist.local_database.PlaylistRepository;
+-import com.brave.playlist.util.PlaylistPreferenceUtils;
++import com.ibrowe.playlist.local_database.PlaylistRepository;
++import com.ibrowe.playlist.util.PlaylistPreferenceUtils;
+ 
+ import org.chromium.base.BravePreferenceKeys;
+ import org.chromium.base.supplier.ObservableSupplier;

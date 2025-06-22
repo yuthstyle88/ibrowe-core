@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Sync/SyncWelcomeViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Sync/SyncWelcomeViewController.swift
+index 929e54339aa29b5ce316ff2177e57fabc2d66c37..dc482d4dc3cae3c8f33593f2860f1328f30436e1 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Sync/SyncWelcomeViewController.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Sync/SyncWelcomeViewController.swift
+@@ -311,7 +311,7 @@ class SyncWelcomeViewController: SyncViewController {
+ 
+       let syncInternalsController = ChromeWebViewController(privateBrowsing: false).then {
+         $0.title = Strings.Sync.internalsTitle
+-        $0.loadURL("brave://sync-internals")
++        $0.loadURL("ibrowe://sync-internals")
+       }
+ 
+       navigationController?.pushViewController(syncInternalsController, animated: true)

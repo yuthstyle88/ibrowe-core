@@ -1,33 +1,13 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
-index 0334d9c498a844bf7e111f48d37a5d0d4df9a770..70edd4ba7016ea22849e92362faeeadeb5b0259f 100644
+index 04113eca3052231e05865a82586f921bd0817e9d..d788bae93979a40e5a63265d098709b2fdf74fdf 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/Favorites/Data/FavoritesPreloadedData.swift
-@@ -33,10 +33,7 @@ struct FavoritesPreloadedData {
- 
-       if let url = URL(string: "https://reddit.com/") {
+@@ -35,7 +35,7 @@ struct FavoritesPreloadedData {
          list.append(FavoriteSite(url: url, title: "Reddit"))
--      }
+       }
  
 -      if let url = URL(string: "https://brave.com/msupport/") {
--        list.append(FavoriteSite(url: url, title: Strings.NTP.braveSupportFavoriteTitle))
++      if let url = URL(string: "https://ibrowe.com/msupport/") {
+         list.append(FavoriteSite(url: url, title: Strings.NTP.braveSupportFavoriteTitle))
        }
  
-       return list
-@@ -53,10 +50,6 @@ struct FavoritesPreloadedData {
-         list.append(FavoriteSite(url: url, title: "Yahoo! Japan"))
-       }
- 
--      if let url = URL(string: "https://brave.com/ja/ntp-tutorial") {
--        list.append(FavoriteSite(url: url, title: "Braveガイド"))
--      }
--
-       if let url = URL(string: "https://x.com/") {
-         list.append(FavoriteSite(url: url, title: "X"))
-       }
-@@ -87,4 +80,4 @@ struct FavoritesPreloadedData {
- 
-     return preloadedFavorites
-   }
--}
-+}
-\ No newline at end of file

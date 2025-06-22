@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BrowserMenu/BrowserMenuStrings.swift b/ios/brave-ios/Sources/BrowserMenu/BrowserMenuStrings.swift
-index 52525b40c6b57fe3e72816d5a646410985bc2d25..3125c8a92ec87ebb71308041543bed223bf3e4a8 100644
+index 52525b40c6b57fe3e72816d5a646410985bc2d25..c623e04d0cae9ba889a823394ad0e57dc455d240 100644
 --- a/ios/brave-ios/Sources/BrowserMenu/BrowserMenuStrings.swift
 +++ b/ios/brave-ios/Sources/BrowserMenu/BrowserMenuStrings.swift
 @@ -73,31 +73,31 @@ extension Strings {
@@ -41,3 +41,12 @@ index 52525b40c6b57fe3e72816d5a646410985bc2d25..3125c8a92ec87ebb71308041543bed22
      )
      public static let share = NSLocalizedString(
        "ActionTitles.share",
+@@ -118,7 +118,7 @@ extension Strings {
+       bundle: .module,
+       value: "VPN",
+       comment:
+-        "A button title shown on the menu that when tapped presents a Brave VPN paywall"
++        "A button title shown on the menu that when tapped presents a iBrowe VPN paywall"
+     )
+   }
+ }

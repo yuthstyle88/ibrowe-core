@@ -1,0 +1,24 @@
+diff --git a/android/java/org/chromium/chrome/browser/util/BraveConstants.java b/android/java/org/chromium/chrome/browser/util/BraveConstants.java
+index f65a8264bed671b63e144e80242bbe849f16b5aa..e905bd57c68ce28cd2d72a084e109f9f1593a70f 100644
+--- a/android/java/org/chromium/chrome/browser/util/BraveConstants.java
++++ b/android/java/org/chromium/chrome/browser/util/BraveConstants.java
+@@ -17,14 +17,14 @@ public final class BraveConstants {
+     // used in BravseSetDefaultBrowserUtils
+     public static final int DEFAULT_BROWSER_ROLE_REQUEST_CODE = 37;
+ 
+-    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.brave.browser";
+-    public static final String BRAVE_BETA_PACKAGE_NAME = "com.brave.browser_beta";
+-    public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.brave.browser_nightly";
++    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.ibrowe.browser";
++    public static final String BRAVE_BETA_PACKAGE_NAME = "com.ibrowe.browser_beta";
++    public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.ibrowe.browser_nightly";
+ 
+     // used in BraveNtpAdapter
+-    public static final String BRAVE_REF_URL = "https://brave.com/r/";
++    public static final String BRAVE_REF_URL = "https://ibrowe.com/r/";
+     public static final String BRAVE_NEWS_LEARN_MORE_URL =
+-            "https://brave.com/privacy/browser/#brave-news";
++            "https://ibrowe.com/privacy/browser/#brave-news";
+ 
+     public static final String INDIA_COUNTRY_CODE = "IN";
+ 

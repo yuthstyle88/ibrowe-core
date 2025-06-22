@@ -16,10 +16,10 @@
 /* The title for the header for adjusting leo ai settings */
 "aichat.advancedSettingsHeaderTitle" = "Leo er en AI-basert smart assistent – bygget inn i nettleseren.";
 
-/* The subtitle for the button which links purchase to iBrowe Account */
+/* The subtitle for the button which links purchase to Brave Account */
 "aichat.advancedSettingsLinkPurchaseActionSubTitle" = "Koble App Store-kjøpet ditt til iBrowe-kontoen din for å bruke Leo på andre enheter.";
 
-/* The title for the button which links purchase to iBrowe Account */
+/* The title for the button which links purchase to Brave Account */
 "aichat.advancedSettingsLinkPurchaseActionTitle" = "Koble kjøpet til iBrowe-kontoen din";
 
 /* The title for the label showing the date which subscription expires */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Utrygt/skadelig";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Med Leo Premium får du tilgang til et større sett med språkmodeller for enda mer nyanserte svar. [Les mer](https://brave.com/) - [Avvis](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Med Leo Premium får du tilgang til et større sett med språkmodeller for enda mer nyanserte svar. [Les mer](https://ibrowe.com/) - [Avvis](ibroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Send inn";
@@ -167,7 +167,7 @@
 "aichat.introMessageLlamaModelPurposeDescription" = "Generell chat";
 
 /* The model intro message when you first enter the chat assistant */
-"aichat.introMessageMixtralMessageDescription" = "Hei! Jeg heter Leo, og er Braves AI-assistent. Jeg driftes av Mixtral 8x7B – en modell fra Mistral som er utviklet for å håndtere avanserte oppgaver.";
+"aichat.introMessageMixtralMessageDescription" = "Hei! Jeg heter Leo, og er iBrowes AI-assistent. Jeg driftes av Mixtral 8x7B – en modell fra Mistral som er utviklet for å håndtere avanserte oppgaver.";
 
 /* The model and creator for intro message - Mixstral is the model name -- Mistral AI is the creator */
 "aichat.introMessageMixtralModelDescription" = "Mixtral fra Mistral AI";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Eksempelkode";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo er for øyeblikket deaktivert via funksjonsflagg. For å aktivere Leo igjen, gå til brave://flags og aktiver den.";
+"aichat.leoDisabledMessageDescription" = "Leo er for øyeblikket deaktivert via funksjonsflagg. For å aktivere Leo igjen, gå til ibrowe://flags og aktiver den.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo funksjonshemmet";
@@ -202,7 +202,7 @@
 /* An indicator to show page content refined is in progress */
 "aichat.leoPageContentRefineInProgress" = "Finne de relevante delene av nettsiden...";
 
-/* The title to display when the user taps on the information icon on the page context view. iBrowe Leo is the name of the product and should not be translated. */
+/* The title to display when the user taps on the information icon on the page context view. Brave Leo is the name of the product and should not be translated. */
 "aichat.leoPageContextInfoDescriptionTitle" = "Slå på for å spørre om denne siden. Innholdet sendes til iBrowe Leo sammen med meldingene dine.";
 
 /* The accessibility text to read out loud when the user taps on the info icon on the page context view */
@@ -382,7 +382,7 @@
 /* The title for button that start summarizing page */
 "aichat.summarizePageActionTitle" = "Oppsummer denne siden";
 
-/* The title for expressing acknowledgement for the terms and conditions of iBrowe AI */
+/* The title for expressing acknowledgement for the terms and conditions of Brave AI */
 "aichat.termsConditionsApproveActionTitle" = "OK";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */

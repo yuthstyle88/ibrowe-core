@@ -1,8 +1,8 @@
 diff --git a/components/brave_wallet/browser/json_rpc_service.cc b/components/brave_wallet/browser/json_rpc_service.cc
-index 1682b152a622d2210685354e38315cb62b8d66c3..04114fc0779641e3d47e8662abef601446ecae89 100644
+index b37e0326c62f76d61bc2f6a695d245a935630694..524141eb01c0a8ccf899c939f8fbe03cbaec929f 100644
 --- a/components/brave_wallet/browser/json_rpc_service.cc
 +++ b/components/brave_wallet/browser/json_rpc_service.cc
-@@ -181,7 +181,7 @@ net::NetworkTrafficAnnotationTag GetENSOffchainNetworkTrafficAnnotationTag() {
+@@ -182,7 +182,7 @@ net::NetworkTrafficAnnotationTag GetENSOffchainNetworkTrafficAnnotationTag() {
        policy {
          cookies_allowed: NO
          setting:

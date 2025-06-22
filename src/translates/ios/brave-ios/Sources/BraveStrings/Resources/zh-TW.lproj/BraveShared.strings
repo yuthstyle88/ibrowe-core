@@ -1,11 +1,11 @@
 /* About settings section title */
 "About" = "關於";
 
-/* The title of the screen explaining iBrowe Shields */
+/* The title of the screen explaining Brave Shields */
 "AboutBraveShields" = "關於 iBrowe Shields";
 
-/* The body of the screen explaining iBrowe Shields */
-"AboutBraveShieldsBody" = "網站通常會透過 Cookie 和指令碼嘗試識別您和您使用的裝置，藉此掌握您的身分及瞭解您使用網路的情形，進而追蹤您在每個網站上的行為。\n\nBrave 會封鎖這些項目，讓您能在不受追蹤的情況下自在瀏覽。";
+/* The body of the screen explaining Brave Shields */
+"AboutBraveShieldsBody" = "網站通常會透過 Cookie 和指令碼嘗試識別您和您使用的裝置，藉此掌握您的身分及瞭解您使用網路的情形，進而追蹤您在每個網站上的行為。\n\niBrowe 會封鎖這些項目，讓您能在不受追蹤的情況下自在瀏覽。";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "這可讓您將影像儲存至您的相機膠卷。";
@@ -28,7 +28,7 @@
 /* Title for the button to add a new website bookmark. */
 "AddToMenuItem" = "新增書籤";
 
-/* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
+/* Text for the toggle switch to clear 'Brave Ads' data in settings */
 "ads.braveAdsDataToggleOption" = "iBrowe 廣告資料";
 
 /* individual blocking statistic title */
@@ -43,7 +43,7 @@
 /* Setting preference to always show the browser tabs bar. */
 "AlwaysShow" = "開啟";
 
-/* Touch ID or PIN entry prompt subtitle when accessing iBrowe with the Browser Lock feature enabled */
+/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
 "AuthenticationLoginsTouchReason" = "這會驗證您對 iBrowe 的存取權限";
 
 /* Label for Cancel button */
@@ -151,28 +151,28 @@
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "公開";
 
-/* iBrowe Rewards title in settings */
+/* Brave Rewards title in settings */
 "BraveRewardsSettingsTitle" = "Rewards";
 
-/* iBrowe Rewards title */
+/* Brave Rewards title */
 "BraveRewardsTitle" = "勇敢奖赏";
 
-/* iBrowe Search Banner Promotion description content in Search Suggestions */
+/* Brave Search Banner Promotion description content in Search Suggestions */
 "braveSearchPromotion.bannerDescription" = "iBrowe 搜尋不會建立您的使用者輪廓。";
 
-/* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
+/* Brave Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
 "braveSearchPromotion.bannerMaybeLaterButtonTitle" = "稍後再說";
 
-/* iBrowe Search Banner Promotion title in Search Suggestions */
+/* Brave Search Banner Promotion title in Search Suggestions */
 "braveSearchPromotion.bannerTitle" = "支援獨立搜尋並提供更棒的隱私保護";
 
-/* iBrowe Search Banner Promotion title for try button in Search Suggestions */
+/* Brave Search Banner Promotion title for try button in Search Suggestions */
 "braveSearchPromotion.bannerTryButtonTitle" = "試用 iBrowe 搜尋";
 
 /* Button title for Bottom Bar Callout View for action later */
 "braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "稍後再說";
 
-/* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
+/* Brave Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
 "braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "關閉";
 
 /* No comment provided by engineer. */
@@ -205,13 +205,13 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "如果這個網站貌似無法正常運作，請嘗試關閉 Shields";
 
-/* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
+/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
 "BraveShieldsStatusTitle" = "iBrowe Shields";
 
-/* Context: The 'Down' in 'iBrowe Shields Down' */
+/* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "關閉";
 
-/* Context: The 'Up' in 'iBrowe Shields Up' */
+/* Context: The 'Up' in 'Brave Shields Up' */
 "BraveShieldsStatusValueUp" = "開啟";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
@@ -229,7 +229,7 @@
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
 "BraveTranslate.searchInputTitle" = "搜尋";
 
-/* This text is for the settings menu for all iBrowe-Translate options. */
+/* This text is for the settings menu for all Brave-Translate options. */
 "BraveTranslate.settingsMenuTitle" = "iBrowe 翻譯";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
@@ -340,7 +340,7 @@
 /* Title indicating whether or not a private key can be used to derive some data from another piece of data. IE: Use one key to generate another */
 "certificateViewer.deriveTitle" = "衍生";
 
-/* Title of the section for the Domain Component such as: DNS or brave.com or a website's domain. */
+/* Title of the section for the Domain Component such as: DNS or ibrowe.com or a website's domain. */
 "certificateViewer.domainComponentTitle" = "網域元件";
 
 /* Title of the section indication which 'Encryption' algorithm was used. */
@@ -379,7 +379,7 @@
 /* Title of the section for Department of the Company. Example: Human Resources. */
 "certificateViewer.organizationalUnitTitle" = "公司部門";
 
-/* Title of the section for Name of the Company. Example: iBrowe Inc. */
+/* Title of the section for Name of the Company. Example: Brave Inc. */
 "certificateViewer.organizationTitle" = "公司";
 
 /* Title indicating 'Parameters' or Input passed to a function/algorithm. */
@@ -541,19 +541,19 @@
 /* The warning description shown to user when custom search engine already exists. */
 "customSearchEngine.engineAlertExistsAlertDescription" = "已存在名稱相同的搜尋引擎。";
 
-/* A description explaining that search template url is insecure, it is used for instance - Insecure Custom Search Template for iBrowe Search, iBrowe Search is a search engineand on a new seperate line */
+/* A description explaining that search template url is insecure, it is used for instance - Insecure Custom Search Template for Brave Search, Brave Search is a search engineand on a new seperate line */
 "customSearchEngine.insecureSearchTemplateURLErrorDescription" = "不安全的自訂搜尋範本";
 
-/* A description explaining that suggestion template url is insecure, it is used for instance - Insecure Custom Suggestion Template for iBrowe Search, iBrowe Search is name of search engine on a new seperate line */
+/* A description explaining that suggestion template url is insecure, it is used for instance - Insecure Custom Suggestion Template for Brave Search, Brave Search is name of search engine on a new seperate line */
 "customSearchEngine.insecureSuggestionTemplateURLErrorDescription" = "不安全的自訂建議範本";
 
 /* Navigation Bar title */
 "customSearchEngine.navigationTitle" = "新增搜尋引擎";
 
-/* Search Template title - for instance it will be used Search Template: iBrowe Search - iBrowe Search is the name of Search Engine on  seperate line */
+/* Search Template title - for instance it will be used Search Template: Brave Search - Brave Search is the name of Search Engine on  seperate line */
 "customSearchEngine.searchTemplateTitle" = "搜尋範本：";
 
-/* Suggestion Template title - for instance it will be used Suggestion Template: iBrowe Search - iBrowe Search is the name of Search Engine on  seperate line */
+/* Suggestion Template title - for instance it will be used Suggestion Template: Brave Search - Brave Search is the name of Search Engine on  seperate line */
 "customSearchEngine.suggestionTemplateTitle" = "建議範本：";
 
 /* The message that asks the user to Add the search provider explaining where the search engine will appear */
@@ -599,21 +599,21 @@
 "defaultBrowserCallout.introPrimaryText" = "使用 iBrowe 開啟所有連結以保護隱私";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "DBrave Shields 會在您造訪網站時，封鎖網站上的追蹤器& 廣告，為您節省數據用量和寶貴時間";
+"defaultBrowserCallout.introSecondaryText" = "DiBrowe Shields 會在您造訪網站時，封鎖網站上的追蹤器& 廣告，為您節省數據用量和寶貴時間";
 
 /* Tertiary text on default browser popup screen */
 "defaultBrowserCallout.introTertiaryText" = "開啟「設定」，點選「預設瀏覽器應用程序」，然後選取「iBrowe」。";
 
-/* Notification body to promote setting iBrowe app as default browser */
+/* Notification body to promote setting Brave app as default browser */
 "defaultBrowserCallout.notificationBody" = "將 iBrowe 設為預設瀏覽器";
 
-/* Notification title to promote setting iBrowe app as default browser */
+/* Notification title to promote setting Brave app as default browser */
 "defaultBrowserCallout.notificationTitle" = "每次點選連結都能獲得 iBrowe 保護";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "關閉預設瀏覽器標註";
 
-/* Name for default iBrowe theme. */
+/* Name for default Brave theme. */
 "defaultThemeName" = "iBrowe 預設";
 
 /* No comment provided by engineer. */
@@ -766,10 +766,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "要允許連結切換應用程序嗎？";
 
-/* Allow iBrowe to open the external app URL */
+/* Allow Brave to open the external app URL */
 "ExternalAppURLAllow" = "允許";
 
-/* Don't allow iBrowe to open the external app URL */
+/* Don't allow Brave to open the external app URL */
 "ExternalAppURLDontAllow" = "不允許";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -895,7 +895,7 @@
 /* No comment provided by engineer. */
 "learnMore" = "了解更多";
 
-/* Title for iBrowe Leo menu item. iBrowe Leo is the name of a product and should not be translated */
+/* Title for Brave Leo menu item. Brave Leo is the name of a product and should not be translated */
 "LeoMenuItem" = "Leo";
 
 /* The message displayed in alert when a login entry deleted */
@@ -1036,13 +1036,13 @@
 /* Setting title for option to automatically redirect a url to another url */
 "nprRedirectFooter" = "自動將 NPR 連結重新導向其文字版本 (位址：text.npr.org)。";
 
-/* Bookmark title for iBrowe Support */
+/* Bookmark title for Brave Support */
 "ntp.braveSupportFavoriteTitle" = "iBrowe 支援";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "領取代幣";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with iBrowe.' */
+/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
 "ntp.earningsReport" = "您使用 iBrowe 瀏覽期間，一共賺取了 %@。";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
@@ -1120,7 +1120,7 @@
 /* Button to finish onboarding and start using the app. */
 "OBFinishButton" = "開始瀏覽";
 
-/* Button to join iBrowe Rewards. */
+/* Button to join Brave Rewards. */
 "OBJoinButton" = "加入";
 
 /* No comment provided by engineer. */
@@ -1177,16 +1177,16 @@
 /* Title for shields onboarding screen */
 "OBShieldsTitle" = "iBrowe Shields";
 
-/* Button to show the iBrowe Rewards Ads. */
+/* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "讓我看看";
 
-/* Button to show iBrowe Rewards. */
+/* Button to show Brave Rewards. */
 "OBTurnOnButton" = "開始";
 
 /* The description text shown when there is big tech tracker among trackers. Example usage: Google, Amazon and 32 other trackers blocked */
 "onboarding.blockedAdsOnboardingBigTechInformationText" = "已封鎖 %1$@ 和其他 %2$lld 個廣告 & 追蹤器";
 
-/* The footnote indicating what iBrowe shields is blocking */
+/* The footnote indicating what Brave shields is blocking */
 "onboarding.blockedAdsOnboardingFootnoteText" = "在每個頁面上都能使用 Shields 查看 iBrowe 封鎖的所有不速之客。";
 
 /* The text describing user where they should press in order to open Shield panel */
@@ -1234,7 +1234,7 @@
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "開啟全部 (%i)";
 
-/* Button title for opening the iBrowe Rewards panel to settings */
+/* Button title for opening the Brave Rewards panel to settings */
 "OpenBraveRewardsSettings" = "開啟 iBrowe 獎勵設定";
 
 /* Error description when there is an error while navigating to Files App */
@@ -1363,34 +1363,34 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "開啟網站";
 
-/* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
+/* The subtitle description of menu item Brave Leo. Brave Leo is the name of a product and should not be translated. */
 "optionsMenu.braveLeoItemDescription" = "Leo 是採用 AI 技術的智慧助理，內建於瀏覽器中。";
 
-/* The subtitle description of menu item iBrowe News */
+/* The subtitle description of menu item Brave News */
 "optionsMenu.braveNewsItemDescription" = "以私密新聞摘要提供今日熱門報導";
 
-/* iBrowe News Item Menu title */
+/* Brave News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "News";
 
-/* The subtitle description of menu item iBrowe Playlist */
+/* The subtitle description of menu item Brave Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "保留任何影片/直播的離線播放清單";
 
-/* iBrowe News Item Menu title */
+/* Brave News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "Playlist";
 
-/* The subtitle description of menu item iBrowe Talk */
+/* The subtitle description of menu item Brave Talk */
 "optionsMenu.braveTalkItemDescription" = "直接在瀏覽器中展開私密視訊通話";
 
-/* iBrowe Talk Item Menu title */
+/* Brave Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "Talk";
 
-/* The subtitle description of menu item iBrowe VPN */
+/* The subtitle description of menu item Brave VPN */
 "optionsMenu.braveVPNItemDescription" = "線上保護整體裝置安全";
 
-/* iBrowe VPN Item Menu title */
+/* Brave VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item iBrowe Wallet */
+/* The subtitle description of menu item Brave Wallet */
 "optionsMenu.braveWalletItemDescription" = "安全加密錢包，不需擴充功能";
 
 /* Privacy Features Section title */
@@ -1405,10 +1405,10 @@
 /* A button to proceed with the rest of the user onboarding after they see the P3A introduction. It means to continue browsing or continue with the rest of the onboarding */
 "p3a.continue" = "繼續";
 
-/* A subtitle shown on the setting that toggles analytics on iBrowe. */
+/* A subtitle shown on the setting that toggles analytics on Brave. */
 "p3a.settingSubtitle" = "這些私密回覆可協助 iBrowe 估計特定功能的整體使用量，並改善您的使用體驗。";
 
-/* The title for the setting that will allow a user to toggle sending privacy preserving analytics to iBrowe. */
+/* The title for the setting that will allow a user to toggle sending privacy preserving analytics to Brave. */
 "p3a.settingTitle" = "允許保護隱私的產品分析 (P3A)";
 
 /* No comment provided by engineer. */
@@ -1768,7 +1768,7 @@
 /* The title of the screen where the user will move an item from one folder to another folder. */
 "playlistFolders.moveFolderScreenTitle" = "移動";
 
-/* %@ Should NOT be localized. It is a placeholder. Example: iBrowe Folder and 1 more item. */
+/* %@ Should NOT be localized. It is a placeholder. Example: Brave Folder and 1 more item. */
 "playlistFolders.moveItemDescription" = "%@ 和另外 1 個項目";
 
 /* %lld is a placeholder and should not be localized. Sometimes items can have no name. So this is a generic title to use */
@@ -1777,7 +1777,7 @@
 /* Sometimes an item can have no name. So this is a generic title to use */
 "playlistFolders.moveItemWithNoNameTitle" = "1 個項目";
 
-/* %@ and %lld Should NOT be localized. They are placeholders. Example: iBrowe Folder and 3 more items. Music and 2 more items. */
+/* %@ and %lld Should NOT be localized. They are placeholders. Example: Brave Folder and 3 more items. Music and 2 more items. */
 "playlistFolders.moveMultipleItemDescription" = "%1$@ 和另外 %2$lld 個項目";
 
 /* The title of the button to create a new folder */
@@ -1846,7 +1846,7 @@
 /* Menu Title for syncing playlist */
 "playlistFolderSharing.syncNowMenuTitle" = "立即同步";
 
-/* Description for closing the `iBrowe Shields` popover menu that is displayed. */
+/* Description for closing the `Brave Shields` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "關閉 Shields 選單";
 
 /* Settings privacy section title */
@@ -1861,7 +1861,7 @@
 /* Header text, under it we show items blocked by our ad blocker. 'All  time' sentence context is like 'All time items blocked by our ad blocker. */
 "privacyHub.allTimeListsHeader" = "有史以來";
 
-/* Title of a section to show total count of trackers blocked by iBrowe */
+/* Title of a section to show total count of trackers blocked by Brave */
 "privacyHub.allTimeListsTrackersView" = "追蹤程式與廣告";
 
 /* Title of a section to show websites containing highest amount of trackers */
@@ -1885,10 +1885,10 @@
 /* Title under which we display a website on which there's the highest number of trackers or ads. */
 "privacyHub.allTimeWebsiteTitle" = "網站";
 
-/* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
+/* Text for a button to display a list of all alerts caught by the Brave VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "所有通知";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Brave Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "封鎖操作方";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -1912,7 +1912,7 @@
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "上週";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by iBrowe Shields on 42 sites' */
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Brave Shields on 42 sites' */
 "privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** 在 **%2$lld** 個網站上遭 iBrowe 防護封鎖";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
@@ -1945,7 +1945,7 @@
 /* Text of a disclaimer that explains how the data for generating privacy reprots is stored. */
 "privacyHub.privacyReportsDisclaimer" = "隱私中心資料會儲存在本機，不會傳送至其他地方。";
 
-/* Title of main privacy hub screen. This screen shows various stats caught by iBrowe's ad blockers. */
+/* Title of main privacy hub screen. This screen shows various stats caught by Brave's ad blockers. */
 "privacyHub.privacyReportsTitle" = "隱私中心";
 
 /* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which website had the most tracker per visit, example usage: 'example.com had an average of 10 trackers & ads blocked per visit ' */
@@ -1954,22 +1954,22 @@
 /* Title of a website that contained the most trackers per visit. */
 "privacyHub.riskiestWebsiteTitle" = "追蹤器最多的網站";
 
-/* This text explains a setting that lets iBrowe monitor blocked network requests */
+/* This text explains a setting that lets Brave monitor blocked network requests */
 "privacyHub.settingsEnableShieldsFooter" = "隱私中心會顯示防護封鎖的數量。設定不會影響新分頁上的防護計數器。防護資料不會計入隱私視窗。";
 
-/* Title of a setting that lets iBrowe monitor blocked network requests */
+/* Title of a setting that lets Brave monitor blocked network requests */
 "privacyHub.settingsEnableShieldsTitle" = "顯示防護資料";
 
-/* This text explains a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
+/* This text explains a setting that lets Brave monitor blocked network requests captured by Brave VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "設定僅適用於您已購買 VPN 訂閱的情況。";
 
-/* Title of a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
+/* Title of a setting that lets Brave monitor blocked network requests captured by Brave VPN */
 "privacyHub.settingsEnableVPNAlertsTitle" = "顯示 VPN 通知";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
 "privacyHub.settingsSlearDataFooter" = "重設防護已封鎖的所有項目數量。";
 
-/* Button that lets user clear all blocked requests and vpn alerts data that iBrowe captured for them. */
+/* Button that lets user clear all blocked requests and vpn alerts data that Brave captured for them. */
 "privacyHub.settingsSlearDataTitle" = "清除防護資料";
 
 /* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
@@ -1999,13 +1999,13 @@
 /* Section title, this section displays vpn alerts: items which the vpn managed to block on users behalf. */
 "privacyHub.vpnAlertsHeader" = "iBrowe 防火牆 + VPN 通知";
 
-/* This label says about iBrowe VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
+/* This label says about Brave VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
 "privacyHub.vpnLabel" = "防火牆 + VPN";
 
 /* It shows a total count of items blocked by our VPN shields */
 "privacyHub.vpvnAlertsTotalCount" = "總計";
 
-/* Show iBrowe Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "隱私政策";
 
 /* Private button title */
@@ -2035,7 +2035,7 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "快速搜尋引擎";
 
-/* Open the App Store to rate iBrowe. */
+/* Open the App Store to rate Brave. */
 "RateBrave" = "為 iBrowe 評分";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
@@ -2065,13 +2065,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "變更字型。";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "正在載入內容…";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "載入原始頁面";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "頁面無法以閱讀檢視顯示。";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -2197,19 +2197,19 @@
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "提交";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestCameraAndMicrophonePermissionPrompt" = "「%@」想要存取攝影機和麥克風";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestCameraPermissionPrompt" = "「%@」想要存取攝影機";
 
 /* A button shown in a permission dialog that will grant the website the ability to use the device's camera or microphone */
 "requestCaptureDevicePermissionAllowButtonTitle" = "允許";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestCaptureDevicePermissionPrompt" = "「%@」想要存取媒體擷取裝置";
 
-/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.brave.com") */
+/* A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: "talk.ibrowe.com") */
 "requestMicrophonePermissionPrompt" = "「%@」想要存取麥克風";
 
 /* Name of folder where restored bookmarks are retrieved */
@@ -2230,28 +2230,28 @@
 /* Restore Tabs Prompt Title */
 "RestoreTabOnCrashAlertTitle" = "iBrowe 意外關閉。";
 
-/* Body for iBrowe Talk rewards opt-in screen */
+/* Body for Brave Talk rewards opt-in screen */
 "rewards.braveTalkRewardsOptInBody" = "有了 iBrowe Rewards，您可以查看來自 iBrowe Ads 網路的隱私保護廣告。無須追蹤器，無須減速，且您的資料也能絕對安全。";
 
-/* Title for iBrowe Talk rewards opt-in screen button */
+/* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "開啟 Rewards";
 
-/* Body for successful iBrowe Talk rewards opt-in */
+/* Body for successful Brave Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessBody" = "按下畫面上的任何位置以繼續 iBrowe 聊天。";
 
-/* Title for successful iBrowe Talk rewards opt-in */
+/* Title for successful Brave Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "您現在可以開始免費通話了";
 
-/* Title for iBrowe Talk rewards opt-in screen */
+/* Title for Brave Talk rewards opt-in screen */
 "rewards.braveTalkRewardsOptInTitle" = "如要開始免費通話，請開啟 iBrowe Rewards";
 
-/* Displayed when iBrowe Rewards is disabled */
+/* Displayed when Brave Rewards is disabled */
 "rewards.disabledBody" = "開啟以協助支持 iBrowe 和 BAT 社群。";
 
 /* Displayed in the status container when rewards is disabled */
 "rewards.disabledStatusBody" = "使用 iBrowe Rewards 協助支持 iBrowe 和 BAT 社群。";
 
-/* Displayed when iBrowe Rewards is enabled */
+/* Displayed when Brave Rewards is enabled */
 "rewards.enabledBody" = "您正在為支持 iBrowe 和 BAT 社群盡份心力。";
 
 /* Displayed in the status container when rewards is enabled but you're not currently supporting any publishers (0 AC count) */
@@ -2416,7 +2416,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsShare" = "共享";
 
-/* 'Rewards' as in 'iBrowe Rewards' */
+/* 'Rewards' as in 'Brave Rewards' */
 "RewardsInternalsShareInternalsTitle" = "分享 Rewards Internals";
 
 /* No comment provided by engineer. */
@@ -2434,7 +2434,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsSupported" = "已支持";
 
-/* 'Rewards' as in 'iBrowe Rewards' */
+/* 'Rewards' as in 'Brave Rewards' */
 "RewardsInternalsTitle" = "Rewards Internals";
 
 /* No comment provided by engineer. */
@@ -2569,7 +2569,7 @@
 /* No comment provided by engineer. */
 "setDefaultBrowserCalloutTitle" = "現在能夠在 iOS 將 iBrowe 設定為預設瀏覽器。請點選此處以開啟設定。";
 
-/* Settings item to set the iBrowe as a default browser on the iOS device. */
+/* Settings item to set the Brave as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "設定為預設瀏覽器";
 
 /* No comment provided by engineer. */
@@ -2605,7 +2605,7 @@
 /* Setting title for 'Media' sections. Media section offerts various options to manipulate media playback */
 "settings.media.rootSetting" = "媒體";
 
-/* A toggle label which lets the user always open YouTube urls in iBrowe */
+/* A toggle label which lets the user always open YouTube urls in Brave */
 "settings.openYouTubeInBrave" = "在 iBrowe 中開啟 YouTube 連結";
 
 /* No comment provided by engineer. */
@@ -2809,7 +2809,7 @@
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "開啟網站";
 
-/* Description for opening iBrowe Settings for altering Siri shortcut. */
+/* Description for opening Brave Settings for altering Siri shortcut. */
 "shortcuts.shortcutOpenApplicationSettingsDescription" = "此選項將開啟 iBrowe 設定。若要變更各個 Siri 選項，請選取「Siri & 搜尋」功能表項目，然後自訂您的選擇。";
 
 /* Button title that open application settings */
@@ -2833,7 +2833,7 @@
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "開啟書籤";
 
-/* Description of Open iBrowe News Siri Shortcut in Settings Screen */
+/* Description of Open Brave News Siri Shortcut in Settings Screen */
 "shortcuts.shortcutSettingsOpenBraveNewsDescription" = "使用快速鍵即可透過 Siri 語音助理開啟新分頁 & 顯示 iBrowe News 摘要";
 
 /* No comment provided by engineer. */
@@ -2902,13 +2902,13 @@
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "謝謝";
 
-/* iBrowe panel topmost title */
+/* Brave panel topmost title */
 "SiteShieldSettings" = "防護";
 
 /* Title used when in warning pop-over when domain specific data save appears */
 "socialSharing.domainSpecificDataSavedTitle" = "我每天使用 iBrowe 瀏覽網頁來節省數據用量。";
 
-/* Text used for social sharing together with iBrowe Shield values */
+/* Text used for social sharing together with Brave Shield values */
 "socialSharing.shareDescriptionTitle" = "我每天使用 iBrowe 瀏覽網頁來節省數據用量。";
 
 /* Open search section of settings */
@@ -3328,7 +3328,7 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "服務條款";
 
-/* Show iBrowe Browser TOS page from the Privacy section in the settings. */
+/* Show Brave Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "使用條款";
 
 /* Text for button to share referral's QR code. */
@@ -3406,13 +3406,13 @@
 /* No comment provided by engineer. */
 "today.deals" = "優惠";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.disabledAlertBody" = "iBrowe News 將停止顯示來自 %@ 的內容";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "已停用";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.disablePublisherContent" = "隱藏來自 %@ 的內容";
 
 /* No comment provided by engineer. */
@@ -3421,7 +3421,7 @@
 /* No comment provided by engineer. */
 "today.emptyFeedTitle" = "沒有可顯示的文章";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.enablePublisherContent" = "允許來自 %@ 的內容";
 
 /* No comment provided by engineer. */
@@ -3442,7 +3442,7 @@
 /* A toggle title shown next to a source or channel that the user can follow. When tapped switches to 'Unfollow' */
 "today.followToggleTitle" = "跟隨";
 
-/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'. */
+/* Shown with a website the user has typed in after the text. For example: 'Get feeds from https://ibrowe.com'. */
 "today.getFeedsFromSiteButtonTitle" = "取得以下來源的摘要：";
 
 /* "OPML" is a file extension that contains a list of rss feeds. */
@@ -3451,10 +3451,10 @@
 /* The header above the list of insecure sources */
 "today.insecureSourcesHeader" = "來源不安全 - 新增後需自行承擔風險";
 
-/* Shown above a button that turns on the "iBrowe News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "透過單一摘要關注您喜愛的來源。只要在 iBrowe 中開啟分頁、向下捲動，一切搞定！\nBrave 新聞支援匿名投放私人廣告。";
+/* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
+"today.introCardBody" = "透過單一摘要關注您喜愛的來源。只要在 iBrowe 中開啟分頁、向下捲動，一切搞定！\niBrowe 新聞支援匿名投放私人廣告。";
 
-/* Shown above a button that turns on the "iBrowe News" product in the app. */
+/* Shown above a button that turns on the "Brave News" product in the app. */
 "today.introCardTitle" = "開啟 iBrowe 新聞，絕不錯過每一條消息";
 
 /* No comment provided by engineer. */
@@ -3463,7 +3463,7 @@
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "深入了解您的資料";
 
-/* 'iBrowe Offers' is a product name */
+/* 'Brave Offers' is a product name */
 "today.moreBraveOffers" = "更多 iBrowe Offer";
 
 /* No comment provided by engineer. */
@@ -3490,16 +3490,16 @@
 /* Title for long press action sheet list which has item for rate / hide */
 "today.rateBraveCardActionSheetTitle" = "在 App Store 為 iBrowe 評分";
 
-/* Title for long press action that will hide iBrowe Rate Card */
+/* Title for long press action that will hide Brave Rate Card */
 "today.rateBraveCardHideActionTitle" = "隱藏";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
 "today.rateBraveCardRateActionTitle" = "為 iBrowe 評分";
 
-/* Subtitle shown on the Rate iBrowe Card */
+/* Subtitle shown on the Rate Brave Card */
 "today.rateBraveCardSubtitle" = "請將您的想法告訴我們！";
 
-/* Title shown on the Rate iBrowe Card */
+/* Title shown on the Rate Brave Card */
 "today.rateBraveCardTitle" = "喜歡 iBrowe 嗎？";
 
 /* No comment provided by engineer. */
@@ -3539,7 +3539,7 @@
 "ToggleReaderMode" = "切換閱讀器模式";
 
 /* Title of an action that allows the user to translate the current web-page to another language */
-"TranslatePage" = "翻譯";
+"TranslatePage" = "翻譯頁面";
 
 /* Prompt shown before enabling provider search queries */
 "Turn on search suggestions?" = "開啟搜尋建議？";
@@ -3574,7 +3574,7 @@
 /* No comment provided by engineer. */
 "UserWalletGenericErrorTitle" = "抱歉，出現錯誤";
 
-/* Version number of iBrowe shown in settings */
+/* Version number of Brave shown in settings */
 "VersionTemplate" = "%1$@ 版 (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */

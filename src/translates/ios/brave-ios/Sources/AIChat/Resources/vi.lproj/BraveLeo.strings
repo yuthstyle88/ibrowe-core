@@ -16,10 +16,10 @@
 /* The title for the header for adjusting leo ai settings */
 "aichat.advancedSettingsHeaderTitle" = "Leo là trợ lý thông minh được hỗ trợ bởi AI, được tích hợp ngay trên trình duyệt.";
 
-/* The subtitle for the button which links purchase to iBrowe Account */
+/* The subtitle for the button which links purchase to Brave Account */
 "aichat.advancedSettingsLinkPurchaseActionSubTitle" = "Liên kết giao dịch mua trên App Store với tài khoản iBrowe của bạn để sử dụng Leo trên các thiết bị khác.";
 
-/* The title for the button which links purchase to iBrowe Account */
+/* The title for the button which links purchase to Brave Account */
 "aichat.advancedSettingsLinkPurchaseActionTitle" = "Liên kết mua hàng với tài khoản iBrowe của bạn";
 
 /* The title for the label showing the date which subscription expires */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Không an toàn/có hại";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium cho phép người dùng truy cập mô hình ngôn ngữ đa dạng hơn để có câu trả lời ấn tượng hơn nữa. [Tìm hiểu thêm](https://brave.com/) - [Bỏ qua](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium cho phép người dùng truy cập mô hình ngôn ngữ đa dạng hơn để có câu trả lời ấn tượng hơn nữa. [Tìm hiểu thêm](https://ibrowe.com/) - [Bỏ qua](ibroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Gửi";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Mã ví dụ";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Hiện Leo hiện được tắt thông qua việc gắn cờ tính năng. Để bật lại Leo, vui lòng vào brave://flags và bật lại.";
+"aichat.leoDisabledMessageDescription" = "Hiện Leo hiện được tắt thông qua việc gắn cờ tính năng. Để bật lại Leo, vui lòng vào ibrowe://flags và bật lại.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Đã tắt Leo";
@@ -202,7 +202,7 @@
 /* An indicator to show page content refined is in progress */
 "aichat.leoPageContentRefineInProgress" = "Tìm các phần có liên quan của trang web...";
 
-/* The title to display when the user taps on the information icon on the page context view. iBrowe Leo is the name of the product and should not be translated. */
+/* The title to display when the user taps on the information icon on the page context view. Brave Leo is the name of the product and should not be translated. */
 "aichat.leoPageContextInfoDescriptionTitle" = "Bật để hỏi về trang này. Nội dung của trang sẽ được gửi đến iBrowe Leo cùng với tin nhắn của bạn.";
 
 /* The accessibility text to read out loud when the user taps on the info icon on the page context view */
@@ -382,7 +382,7 @@
 /* The title for button that start summarizing page */
 "aichat.summarizePageActionTitle" = "Tóm tắt trang này";
 
-/* The title for expressing acknowledgement for the terms and conditions of iBrowe AI */
+/* The title for expressing acknowledgement for the terms and conditions of Brave AI */
 "aichat.termsConditionsApproveActionTitle" = "Tôi hiểu";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */

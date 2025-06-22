@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/desktop/asset-group-container/asset-group-container.tsx b/components/brave_wallet_ui/components/desktop/asset-group-container/asset-group-container.tsx
+index bd7aa5395ae7ea767c28421334184f7a71030bc6..d951e88c86cafb5223ccd41206002df5c3361de0 100644
+--- a/components/brave_wallet_ui/components/desktop/asset-group-container/asset-group-container.tsx
++++ b/components/brave_wallet_ui/components/desktop/asset-group-container/asset-group-container.tsx
+@@ -205,7 +205,7 @@ export const AssetGroupContainer = (props: Props) => {
+   const onStartShieldSync = React.useCallback(async () => {
+     if (isPanel && account) {
+       openTab(
+-        'brave://wallet' +
++        'ibrowe://wallet' +
+           makeAccountRoute(account, AccountPageTabs.AccountAssetsSub)
+       )
+       return

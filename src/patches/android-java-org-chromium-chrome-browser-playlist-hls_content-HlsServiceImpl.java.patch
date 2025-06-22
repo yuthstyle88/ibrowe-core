@@ -1,0 +1,25 @@
+diff --git a/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsServiceImpl.java b/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsServiceImpl.java
+index e72664d46b32ee8b76848884b30396f7f0c0e922..78cbc488f9521175db960a5c410c7e94ff688f86 100644
+--- a/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsServiceImpl.java
++++ b/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsServiceImpl.java
+@@ -15,13 +15,13 @@ import android.os.IBinder;
+ import androidx.annotation.Nullable;
+ import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist.Segment;
+ 
+-import com.brave.playlist.local_database.PlaylistRepository;
+-import com.brave.playlist.model.HlsContentProgressModel;
+-import com.brave.playlist.model.HlsContentQueueModel;
+-import com.brave.playlist.model.PlaylistItemModel;
+-import com.brave.playlist.playback_service.VideoPlaybackService;
+-import com.brave.playlist.util.MediaUtils;
+-import com.brave.playlist.util.PlaylistUtils;
++import com.ibrowe.playlist.local_database.PlaylistRepository;
++import com.ibrowe.playlist.model.HlsContentProgressModel;
++import com.ibrowe.playlist.model.HlsContentQueueModel;
++import com.ibrowe.playlist.model.PlaylistItemModel;
++import com.ibrowe.playlist.playback_service.VideoPlaybackService;
++import com.ibrowe.playlist.util.MediaUtils;
++import com.ibrowe.playlist.util.PlaylistUtils;
+ 
+ import org.chromium.base.BravePreferenceKeys;
+ import org.chromium.base.ContextUtils;

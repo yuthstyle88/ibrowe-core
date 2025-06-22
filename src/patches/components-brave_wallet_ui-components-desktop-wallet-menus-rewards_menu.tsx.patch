@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/desktop/wallet-menus/rewards_menu.tsx b/components/brave_wallet_ui/components/desktop/wallet-menus/rewards_menu.tsx
+index b7e1f5d080c2aeefcfa2d98ced155d250b5b9de4..cc28f7917a206a607d2514a70d058c5ad161bc11 100644
+--- a/components/brave_wallet_ui/components/desktop/wallet-menus/rewards_menu.tsx
++++ b/components/brave_wallet_ui/components/desktop/wallet-menus/rewards_menu.tsx
+@@ -25,7 +25,7 @@ import {
+ const onClickRewardsSettings = () => {
+   chrome.tabs.create(
+     {
+-      url: 'brave://rewards'
++      url: 'ibrowe://rewards'
+     },
+     () => {
+       if (chrome.runtime.lastError) {

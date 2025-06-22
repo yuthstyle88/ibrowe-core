@@ -1,0 +1,40 @@
+diff --git a/browser/brave_shields/ad_block_custom_resources_browsertest.cc b/browser/brave_shields/ad_block_custom_resources_browsertest.cc
+index 3881e221f60404375e2d1722ac0c5c2a8ce10a5b..a6edf3081aa9297247fffacba435b11420c53245 100644
+--- a/browser/brave_shields/ad_block_custom_resources_browsertest.cc
++++ b/browser/brave_shields/ad_block_custom_resources_browsertest.cc
+@@ -182,7 +182,7 @@ class AdblockCustomResourcesTest : public AdBlockServiceTest {
+ IN_PROC_BROWSER_TEST_F(AdblockCustomResourcesTest, AddEditRemoveScriptlet) {
+   EnableDeveloperMode(true);
+ 
+-  NavigateToURL(GURL("brave://settings/shields/filters"));
++  NavigateToURL(GURL("ibrowe://settings/shields/filters"));
+ 
+   constexpr const char kContent[] = "window.test = 'custom-script'";
+ 
+@@ -227,7 +227,7 @@ IN_PROC_BROWSER_TEST_F(AdblockCustomResourcesTest, AddEditRemoveScriptlet) {
+ IN_PROC_BROWSER_TEST_F(AdblockCustomResourcesTest, ExecCustomScriptlet) {
+   EnableDeveloperMode(true);
+ 
+-  NavigateToURL(GURL("brave://settings/shields/filters"));
++  NavigateToURL(GURL("ibrowe://settings/shields/filters"));
+ 
+   constexpr const char kContent[] = "window.test = 'custom-script'";
+ 
+@@ -258,7 +258,7 @@ IN_PROC_BROWSER_TEST_F(AdblockCustomResourcesTest, NameConflicts) {
+   UpdateAdBlockResources(base::ReplaceStringPlaceholders(
+       kBraveFixResource, {base::Base64Encode(kBraveFix)}, nullptr));
+ 
+-  NavigateToURL(GURL("brave://settings/shields/filters"));
++  NavigateToURL(GURL("ibrowe://settings/shields/filters"));
+ 
+   constexpr const char kContent[] = "window.test = 'custom-script'";
+ 
+@@ -276,7 +276,7 @@ IN_PROC_BROWSER_TEST_F(AdblockCustomResourcesTest, NameConflicts) {
+ 
+ IN_PROC_BROWSER_TEST_F(AdblockCustomResourcesTest, NameCases) {
+   EnableDeveloperMode(true);
+-  NavigateToURL(GURL("brave://settings/shields/filters"));
++  NavigateToURL(GURL("ibrowe://settings/shields/filters"));
+ 
+   constexpr const char kContentA[] = "window.lower = true";
+   constexpr const char kContentB[] = "window.upper = true";

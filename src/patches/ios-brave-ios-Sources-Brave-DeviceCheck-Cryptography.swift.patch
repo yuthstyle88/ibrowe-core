@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift b/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift
+index ad47f1b58eb3e630ec2d10661c729f6fad3630f7..0021fb49f8bdfc240dc210d4e5139a81c9b06c24 100644
+--- a/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift
++++ b/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift
+@@ -17,7 +17,7 @@ public struct CryptographyError: Error {
+   public let description: String?
+ 
+   init(code: Int32 = -1, description: String? = nil) {
+-    self.domain = "com.brave.security.cryptography.error"
++    self.domain = "com.ibrowe.security.cryptography.error"
+     self.code = code
+     self.description = description
+   }

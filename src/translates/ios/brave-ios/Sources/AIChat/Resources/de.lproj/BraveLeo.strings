@@ -16,10 +16,10 @@
 /* The title for the header for adjusting leo ai settings */
 "aichat.advancedSettingsHeaderTitle" = "Leo ist ein KI-gestützter intelligenter Assistent, der direkt in den Browser integriert ist.";
 
-/* The subtitle for the button which links purchase to iBrowe Account */
+/* The subtitle for the button which links purchase to Brave Account */
 "aichat.advancedSettingsLinkPurchaseActionSubTitle" = "Verknüpfe deinen App Store-Einkauf mit deinem iBrowe Konto, um Leo auf anderen Geräten zu verwenden.";
 
-/* The title for the button which links purchase to iBrowe Account */
+/* The title for the button which links purchase to Brave Account */
 "aichat.advancedSettingsLinkPurchaseActionTitle" = "Kauf mit deinem iBrowe Konto verknüpfen";
 
 /* The title for the label showing the date which subscription expires */
@@ -110,7 +110,7 @@
 "aichat.feedbackOptionTitleUnsafeHarmful" = "Unsicher/schädlich";
 
 /* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
-"aichat.feedbackPremiumAdTitle" = "Leo Premium bietet Zugang zu einem erweiterten Satz von Sprachmodellen für noch detailliertere Antworten. [Mehr erfahren](https://brave.com/) - [Ablehnen](braveai://dismiss)";
+"aichat.feedbackPremiumAdTitle" = "Leo Premium bietet Zugang zu einem erweiterten Satz von Sprachmodellen für noch detailliertere Antworten. [Mehr erfahren](https://ibrowe.com/) - [Ablehnen](ibroweai://dismiss)";
 
 /* The title for the button that submits feedback */
 "aichat.feedbackSubmitActionTitle" = "Absenden";
@@ -128,7 +128,7 @@
 "aichat.feedbackSuccessAnswerLikedTitle" = "Antwort als gut markiert";
 
 /* The title for view which user type feedback */
-"aichat.feedbackViewMainTitle" = "Feedback für iBrowe-KI geben";
+"aichat.feedbackViewMainTitle" = "Feedback für iBrowe KI geben";
 
 /* The button title for opening paywall screen */
 "aichat.goPremiumButtonTitle" = "Jetzt Premium sichern";
@@ -185,7 +185,7 @@
 "aichat.leoCodeExampleDefaultTitle" = "Code-Beispiel";
 
 /* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
-"aichat.leoDisabledMessageDescription" = "Leo ist derzeit über Funktionsflags deaktiviert. Um Leo wieder zu aktivieren, gehe zu brave://flags und aktiviere es.";
+"aichat.leoDisabledMessageDescription" = "Leo ist derzeit über Funktionsflags deaktiviert. Um Leo wieder zu aktivieren, gehe zu ibrowe://flags und aktiviere es.";
 
 /* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
 "aichat.leoDisabledMessageTitle" = "Leo deaktiviert";
@@ -202,7 +202,7 @@
 /* An indicator to show page content refined is in progress */
 "aichat.leoPageContentRefineInProgress" = "Die relevanten Inhalte der Website finden...";
 
-/* The title to display when the user taps on the information icon on the page context view. iBrowe Leo is the name of the product and should not be translated. */
+/* The title to display when the user taps on the information icon on the page context view. Brave Leo is the name of the product and should not be translated. */
 "aichat.leoPageContextInfoDescriptionTitle" = "Aktiviere diese Option, um Fragen zu dieser Seite zu stellen. Ihre Inhalte werden zusammen mit deinen Nachrichten an iBrowe Leo gesendet.";
 
 /* The accessibility text to read out loud when the user taps on the info icon on the page context view */
@@ -317,7 +317,7 @@
 "aichat.premiumSubscriptionTitle" = "Premium-Abonnement";
 
 /* The text for placeholder on textfield for entering questions for AI */
-"aichat.promptPlaceHolderDescription" = "Befehl hier eingeben";
+"aichat.promptPlaceHolderDescription" = "Prompt hier eingeben";
 
 /* The title of action for quick menu which displaying advanced settings */
 "aichat.quickMenuAdvancedSettingsActionTitle" = "Erweiterte Einstellungen";
@@ -382,11 +382,11 @@
 /* The title for button that start summarizing page */
 "aichat.summarizePageActionTitle" = "Diese Seite zusammenfassen";
 
-/* The title for expressing acknowledgement for the terms and conditions of iBrowe AI */
+/* The title for expressing acknowledgement for the terms and conditions of Brave AI */
 "aichat.termsConditionsApproveActionTitle" = "Ok, für mich";
 
 /* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
-"aichat.termsConditionsDescription" = "iBrowe Leo ist ein persönlicher, intelligenter KI-Assistent, der Ihnen die Nutzung des Internets erleichtert. Die Nutzung von Leo ist kostenlos mit eingeschränktem Zugang. iBrowe Leo Premium bietet weitere Modelle, höhere Limits und ermöglicht Abonnenten einen frühzeitigen Zugang zu neuen Funktionen. Das Standardmodell für alle User ist derzeit Mixtral 8x7B. Weitere Informationen findest du im iBrowe **[Hilfe-Center](%1$@)**.\n\nWenn Sie Leo eine Frage stellen, kann er standardmäßig den Inhalt der von dir angezeigten Website oder jeden Text, den Sie auf einer Seite markieren, an iBrowe Leo senden und verwenden, um eine Antwort zu geben. In einigen Fällen sendet Leo aus deinen Eingaben abgeleitete Suchanfragen an die iBrowe Suche und verwendet die Suchergebnisse, um deine Frage besser zu beantworten. Die Richtigkeit der Antworten wird nicht garantiert und kann ungenaue, irreführende oder falsche Informationen enthalten. Gebe keine sensiblen oder privaten Daten ein und sei vorsichtig bei Antworten, die sich auf Gesundheit, Finanzen, persönliche Sicherheit oder Ähnliches beziehen. Du kannst die Optionen von Leo in den Einstellungen jederzeit anpassen. Gehe zu Einstellungen > Leo.\n\nLeo sammelt keine Identifikatoren wie deine IP-Adresse, die mit dir in Verbindung gebracht werden können. Es werden keine Daten verwendet, um die KI-Modelle zu trainieren. Die KI-Modelle speichern keine persönlichen Daten (außer Anthropic, das Daten 30 Tage lang speichert, bevor es sie löscht). Weitere Informationen findest du in der **[Datenschutzrichtlinie](%2$@)**.";
+"aichat.termsConditionsDescription" = "iBrowe Leo ist ein persönlicher, intelligenter KI-Assistent, der dir die Nutzung des Internets erleichtert. Die Nutzung von Leo ist kostenlos mit eingeschränktem Zugang. iBrowe Leo Premium bietet weitere Modelle, höhere Limits und ermöglicht Abonnenten einen frühzeitigen Zugang zu neuen Funktionen. Das Standardmodell für alle User ist derzeit Mixtral 8x7B. Weitere Informationen findest du im iBrowe **[Hilfe-Center](%1$@)**.\n\nWenn du Leo eine Frage stellst, kann er standardmäßig den Inhalt der von dir angezeigten Website oder jeden Text, den du auf einer Seite markierst, an iBrowe Leo senden und verwenden, um eine Antwort zu geben. In einigen Fällen sendet Leo aus deinen Eingaben abgeleitete Suchanfragen an die iBrowe Suche und verwendet die Suchergebnisse, um deine Frage besser zu beantworten. Die Richtigkeit der Antworten wird nicht garantiert und kann ungenaue, irreführende oder falsche Informationen enthalten. Gebe keine sensiblen oder privaten Daten ein und sei vorsichtig bei Antworten, die sich auf Gesundheit, Finanzen, persönliche Sicherheit oder Ähnliches beziehen. Du kannst die Optionen von Leo in den Einstellungen jederzeit anpassen. Gehe zu Einstellungen > Leo.\n\nLeo sammelt keine Identifikatoren wie deine IP-Adresse, die mit dir in Verbindung gebracht werden können. Es werden keine Daten verwendet, um die KI-Modelle zu trainieren. Die KI-Modelle speichern keine persönlichen Daten (außer Anthropic, das Daten 30 Tage lang speichert, bevor es sie löscht). Weitere Informationen findest du in der **[Datenschutzrichtlinie](%2$@)**.";
 
 /* The title terms and conditions for AI chat usage */
 "aichat.termsConditionsTitle" = "Chatte privat mit iBrowe Leo";

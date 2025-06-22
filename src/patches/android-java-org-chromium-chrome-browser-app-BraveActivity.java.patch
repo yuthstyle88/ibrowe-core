@@ -1,8 +1,21 @@
 diff --git a/android/java/org/chromium/chrome/browser/app/BraveActivity.java b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
-index e1045ec8409790462367b7e11c0f3a922c7c59ef..0dbdee583614da161354a069ca508945946aa18e 100644
+index b0fd5312a0d8bc535d5276fd18eeb946dc7c8d06..7140037f25bb1b61d8cd86a6624ee2f90e0db7c0 100644
 --- a/android/java/org/chromium/chrome/browser/app/BraveActivity.java
 +++ b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
-@@ -257,25 +257,25 @@ public abstract class BraveActivity extends ChromeActivity
+@@ -47,9 +47,9 @@ import androidx.lifecycle.MutableLiveData;
+ import androidx.recyclerview.widget.LinearLayoutManager;
+ import androidx.recyclerview.widget.RecyclerView;
+ 
+-import com.brave.playlist.util.ConstantUtils;
+-import com.brave.playlist.util.PlaylistPreferenceUtils;
+-import com.brave.playlist.util.PlaylistUtils;
++import com.ibrowe.playlist.util.ConstantUtils;
++import com.ibrowe.playlist.util.PlaylistPreferenceUtils;
++import com.ibrowe.playlist.util.PlaylistUtils;
+ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+ import com.google.android.play.core.appupdate.AppUpdateInfo;
+ import com.google.android.play.core.appupdate.AppUpdateManager;
+@@ -256,19 +256,19 @@ public abstract class BraveActivity extends ChromeActivity
                  QuickSearchEnginesCallback,
                  KeyboardVisibilityHelper.KeyboardVisibilityListener {
      public static final String BRAVE_WALLET_HOST = "wallet";
@@ -33,13 +46,13 @@ index e1045ec8409790462367b7e11c0f3a922c7c59ef..0dbdee583614da161354a069ca508945
 +    public static final String BRAVE_REWARDS_RESET_PAGE = "ibrowe://rewards/#reset";
      public static final String BRAVE_AI_CHAT_URL = "chrome-untrusted://chat/tab";
      public static final String REWARDS_LEARN_MORE_URL =
--            "https://brave.com/faq-rewards/#unclaimed-funds";
-+            "https://ibrowe.com/faq-rewards/#unclaimed-funds";
-     public static final String BRAVE_TERMS_PAGE =
--            "https://basicattentiontoken.org/user-terms-of-service/";
--    public static final String BRAVE_PRIVACY_POLICY = "https://brave.com/privacy/browser/#rewards";
-+            "https://ibrowe.com/user-terms-of-service/";
-+    public static final String BRAVE_PRIVACY_POLICY = "https://ibrowe.com/privacy/browser/#rewards";
-     public static final String OPEN_URL = "open_url";
-     public static final String BRAVE_WEBCOMPAT_INFO_WIKI_URL =
-             "https://github.com/brave/brave-browser/wiki/Web-compatibility-reports";
+             "https://brave.com/faq-rewards/#unclaimed-funds";
+@@ -298,7 +298,7 @@ public abstract class BraveActivity extends ChromeActivity
+             Build.VERSION.SDK_INT < Build.VERSION_CODES.UPSIDE_DOWN_CAKE;
+ 
+     /** Settings for sending local notification reminders. */
+-    public static final String CHANNEL_ID = "com.brave.browser";
++    public static final String CHANNEL_ID = "com.ibrowe.browser";
+ 
+     // Explicitly declare this variable to avoid build errors.
+     // It will be removed in asm and parent variable will be used instead.

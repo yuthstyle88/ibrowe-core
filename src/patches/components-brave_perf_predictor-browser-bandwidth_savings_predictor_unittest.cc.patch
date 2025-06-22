@@ -1,0 +1,15 @@
+diff --git a/components/brave_perf_predictor/browser/bandwidth_savings_predictor_unittest.cc b/components/brave_perf_predictor/browser/bandwidth_savings_predictor_unittest.cc
+index 403b2dd8f24f49bf9f71c87759ce333645ba6df4..fc7e3b1a807279589611d90fa79b2c5cfa5587f8 100644
+--- a/components/brave_perf_predictor/browser/bandwidth_savings_predictor_unittest.cc
++++ b/components/brave_perf_predictor/browser/bandwidth_savings_predictor_unittest.cc
+@@ -108,8 +108,8 @@ TEST_F(BandwidthSavingsPredictorTest, PredictZeroNoData) {
+ }
+ 
+ TEST_F(BandwidthSavingsPredictorTest, PredictZeroInternalUrl) {
+-  const GURL main_frame("brave://version");
+-  auto res = predictors::CreateResourceLoadInfo("brave://version");
++  const GURL main_frame("ibrowe://version");
++  auto res = predictors::CreateResourceLoadInfo("ibrowe://version");
+   predictor_->OnResourceLoadComplete(main_frame, *res);
+ 
+   EXPECT_EQ(predictor_->PredictSavingsBytes(), 0);

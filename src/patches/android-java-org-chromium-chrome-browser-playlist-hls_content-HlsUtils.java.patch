@@ -1,0 +1,28 @@
+diff --git a/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsUtils.java b/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsUtils.java
+index 0d2959c13fd199c0dff6c4c24c4a5a3eb7846d8b..6d4d34cb8c7ac21a3244eb4fb84e077255173004 100644
+--- a/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsUtils.java
++++ b/android/java/org/chromium/chrome/browser/playlist/hls_content/HlsUtils.java
+@@ -10,10 +10,10 @@ import android.text.TextUtils;
+ import androidx.media3.common.util.UriUtil;
+ import androidx.media3.exoplayer.hls.playlist.HlsMediaPlaylist.Segment;
+ 
+-import com.brave.playlist.playback_service.VideoPlaybackService;
+-import com.brave.playlist.util.HLSParsingUtil;
+-import com.brave.playlist.util.MediaUtils;
+-import com.brave.playlist.util.PlaylistUtils;
++import com.ibrowe.playlist.playback_service.VideoPlaybackService;
++import com.ibrowe.playlist.util.HLSParsingUtil;
++import com.ibrowe.playlist.util.MediaUtils;
++import com.ibrowe.playlist.util.PlaylistUtils;
+ 
+ import org.chromium.base.ContextUtils;
+ import org.chromium.base.Log;
+@@ -178,7 +178,7 @@ public class HlsUtils {
+         String playlistId = "Default";
+         if (playlistItem != null && playlistItem.cached) {
+             // For i.e.
+-            // "file:///data/user/0/com.brave.browser_nightly/app_chrome/Default/playlist/399C40F34AF31E593D0C48B9ECEEB4CA/media_file.m3u8"
++            // "file:///data/user/0/com.ibrowe.browser_nightly/app_chrome/Default/playlist/399C40F34AF31E593D0C48B9ECEEB4CA/media_file.m3u8"
+             String[] paths = playlistItem.mediaPath.url.split(File.separator);
+             if (paths.length - 4 > 0) {
+                 String playlistItemIdFromPath = paths[paths.length - 2];

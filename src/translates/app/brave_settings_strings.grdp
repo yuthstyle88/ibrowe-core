@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- iBrowe Settings WebUI strings (included from ibrowe_generated_resources.grd). -->
+<!-- Brave Settings WebUI strings (included from brave_generated_resources.grd). -->
 <grit-part>
 
   <!--Add new items to the appropriate sections below -->
@@ -26,7 +26,7 @@
     Get started
   </message>
 
-  <!-- <iBrowe Account> -->
+  <!-- <Brave Account> -->
   <!-- Row: -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the iBrowe Account row in the Get Started section">
     Sign in or create a iBrowe account
@@ -146,7 +146,7 @@
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Create a password'/'Password' input fields">
     Enter your password
   </message>
-  <!-- </iBrowe Account> -->
+  <!-- </Brave Account> -->
 
   <!-- Settings / Get started / Profile name and icon -->
   <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
@@ -189,6 +189,12 @@
       Always show toolbar in full screen
     </message>
   </if>
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_THEMES_GALLERY_URL" translateable="false">
+    https://chrome.google.com/webstore?hl=[GRITLANGCODE]&amp;category=theme
+  </message>
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_OPEN_WEB_STORE" desc="Sub-label about choosing something from the Chrome Web Store.">
+    Open Web Store
+  </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_GET_MORE_THEMES" desc="The label for opening theme web store">
     Get more themes
   </message>
@@ -252,8 +258,8 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_SHOW_AUTOCOMPLETE_IN_ADDRESS_BAR" desc="The label for settings switch controlling the showing of autocomplete in address bar">
     Show autocomplete suggestions in address bar
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_TOP_SITES" desc="The label for settings checkbox controlling whether or not top sites show up in autocomplete">
-    Top sites
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_TOP_SUGGESTIONS" desc="The label for settings checkbox controlling whether or not top suggestions show up in autocomplete">
+    Top Suggestions
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_HISTORY" desc="The label for settings checkbox controlling whether or not browsing history shows up in autocomplete">
     Browsing History
@@ -630,7 +636,7 @@
     Shortcuts
   </message>
 
-  <!-- Settings / iBrowe Rewards -->
+  <!-- Settings / Brave Rewards -->
   <message name="IDS_SETTINGS_BRAVE_REWARDS_TITLE" desc="The text label for the Rewards settings page">
     iBrowe Rewards
   </message>
@@ -814,6 +820,9 @@
   </message>
   <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_NONE_DESC" desc="Description for safe browsing no protection mode">
     Does not protect you against dangerous websites, downloads, and extensions.
+  </message>
+  <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_STANDARD_DESC" desc="Description for safe browsing standard protection mode">
+    Protects against sites, downloads, and extensions that are known to be dangerous.
   </message>
 
   <!-- Settings / Privacy and security / Site and Shields Settings -->
@@ -1102,10 +1111,10 @@
 
   <!-- Settings / Search engine -->
   <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_LABEL" desc="The label of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
-    Show search suggestions
+    Improve search suggestions
   </message>
   <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_DESC" desc="The desc of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
-    When you type in the address bar or search box, iBrowe sends what you type to your default search engine to get better suggestions. This is not available in private windows.
+    When on, iBrowe sends what you type in the address bar or search box to your default search engine to get better suggestions. When off, iBrowe only shows suggestions generated on your device. This is always off in private windows.
   </message>
   <message name="IDS_SETTINGS_BRAVE_OTHER_SEARCH_ENGINES_LABEL" desc="The label for the settings switch controlling the addition of custom search engines">
     Index other search engines
@@ -1383,6 +1392,9 @@
   <message name="IDS_SETTINGS_WALLET_ZEC_NETWORK_LIST_TITLE" desc="The title of the list with wallet Zcash networks">
     Zcash networks
   </message>
+  <message name="IDS_SETTINGS_WALLET_CARDANO_NETWORK_LIST_TITLE" desc="The title of the list with wallet Cardano networks">
+    Cardano networks
+  </message>
   <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_TEST_NETWORKS" desc="The description for showing the iBrowe wallet test networks">
     Show test networks
   </message>
@@ -1608,7 +1620,7 @@ Leo AI. This action can't be undone.
     The address you entered appears to be from a private network—like your router or a local server. iBrowe blocks these automatically to keep you safe, but you can enable them if you're confident it's secure.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PRIVATE_IP_NOT_ALLOWED_INSTRUCTIONS" desc="Instructions on how to enable private IPs">
-    To proceed, visit brave://flags/, search for "brave-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
+    To proceed, visit ibrowe://flags/, search for "ibrowe-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_NEW_BUTTON_LABEL" desc="A label for a button that opens a panel with input forms for a user to add model">
     Add new model
@@ -1623,7 +1635,7 @@ Leo AI. This action can't be undone.
     Connect your self-hosted or third-party hosted LLM to Leo and use them within the browser.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_YOUR_MODELS_DESC_2" desc="A description explaning what protocols are accepted">
-    Use any OpenAI Chat Protocol compatible framework such as Ollama.
+    Use any OpenAI Chat Protocol compatible framework such as Ollama. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_MODEL_BUTTON_LABEL" desc="A button label for user to click when they want to add a new model">
     Add model
@@ -1674,7 +1686,7 @@ Leo AI. This action can't be undone.
     Avatar Edgy Rewards
   </message>
   <if expr="not is_android">
-    <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_ibrowe.png avatar.">
       Avatar Edgy iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
@@ -1695,7 +1707,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_62" desc="The label for the avatar_paladin_rewards.png avatar.">
       Avatar Paladin Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_ibrowe.png avatar.">
       Avatar Paladin iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
@@ -1716,7 +1728,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_69" desc="The label for the avatar_gleam_rewards.png avatar.">
       Avatar Gleam Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_ibrowe.png avatar.">
       Avatar Gleam iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
@@ -1737,7 +1749,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_76" desc="The label for the avatar_oval_rewards.png avatar.">
       Avatar Oval Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_ibrowe.png avatar.">
       Avatar Oval iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
@@ -1758,7 +1770,7 @@ Leo AI. This action can't be undone.
     <message name="IDS_BRAVE_AVATAR_LABEL_83" desc="The label for the avatar_bonbon_rewards.png avatar.">
       Avatar Bonbon Rewards
     </message>
-    <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_brave.png avatar.">
+    <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_ibrowe.png avatar.">
       Avatar Bonbon iBrowe
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
