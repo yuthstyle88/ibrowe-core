@@ -1,0 +1,13 @@
+diff --git a/chromium_src/components/captive_portal/core/captive_portal_detector.cc b/chromium_src/components/captive_portal/core/captive_portal_detector.cc
+index 28dd7ede1145a3ee7cea0b9dc5b458d6cd27c637..4e5fba65d6070fced27d26481501abd4c35d84ab 100644
+--- a/chromium_src/components/captive_portal/core/captive_portal_detector.cc
++++ b/chromium_src/components/captive_portal/core/captive_portal_detector.cc
+@@ -6,7 +6,7 @@
+ #include "components/captive_portal/core/captive_portal_detector.h"
+ 
+ #define kDefaultURL                                           \
+-  kDefaultURL[] = "http://detectportal.brave-http-only.com/"; \
++  kDefaultURL[] = "http://detectportal.ibrowe.com/"; \
+   const char kEmpty
+ #include "src/components/captive_portal/core/captive_portal_detector.cc"
+ #undef kDefaultURL

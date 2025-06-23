@@ -1,0 +1,13 @@
+diff --git a/components/sync/service/brave_sync_auth_manager.cc b/components/sync/service/brave_sync_auth_manager.cc
+index 77f7a4517f7022291c4b57990b2cc47a18bfbfe1..034e623673b0836c7cddc32c37ee04d36d408412 100644
+--- a/components/sync/service/brave_sync_auth_manager.cc
++++ b/components/sync/service/brave_sync_auth_manager.cc
+@@ -81,7 +81,7 @@ SyncAccountInfo BraveSyncAuthManager::DetermineAccountToUse() const {
+     // data within specific width. (ex. client_version and encrypted_types)
+     account_info.email =
+         std::string(client_id).insert(client_id.length() / 2, 1, ' ') +
+-        " @brave.com";
++        " @ibrowe.com";
+     VLOG(1) << "brave client id=" << client_id;
+     return SyncAccountInfo(account_info, true);
+   } else {

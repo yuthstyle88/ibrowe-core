@@ -1,0 +1,13 @@
+diff --git a/components/brave_vpn/common/brave_vpn_utils.cc b/components/brave_vpn/common/brave_vpn_utils.cc
+index 7311157457ea78e0a84e9f8ef2be6eed0637d681..cf7e24b16c8727614c7f9bad6586ce959b482df0 100644
+--- a/components/brave_vpn/common/brave_vpn_utils.cc
++++ b/components/brave_vpn/common/brave_vpn_utils.cc
+@@ -153,7 +153,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
+       return manage_url.ReplaceComponents(replacements);
+     }
+     case mojom::ManageURLType::PRIVACY:
+-      return GURL("https://brave.com/privacy/browser/#vpn");
++      return GURL("https://ibrowe.com/privacy/browser/#vpn");
+     case mojom::ManageURLType::ABOUT:
+       return GURL(brave_vpn::kAboutUrl);
+     case mojom::ManageURLType::MANAGE:

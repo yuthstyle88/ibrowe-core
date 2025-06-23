@@ -1,0 +1,15 @@
+diff --git a/browser/ui/sidebar/sidebar_utils.cc b/browser/ui/sidebar/sidebar_utils.cc
+index 0a845db3b7524ad4fac4067eaf7fe24981efc5af..a2e7c9f17b5574dfcbef3ebc46a2e4aefd940a1e 100644
+--- a/browser/ui/sidebar/sidebar_utils.cc
++++ b/browser/ui/sidebar/sidebar_utils.cc
+@@ -136,8 +136,8 @@ SidePanelEntryId SidePanelIdFromSideBarItemType(BuiltInItemType type) {
+       return SidePanelEntryId::kChatUI;
+     case BuiltInItemType::kWallet:
+       [[fallthrough]];
+-    case BuiltInItemType::kBraveTalk:
+-      [[fallthrough]];
++//    case BuiltInItemType::kBraveTalk:
++//      [[fallthrough]];
+     case BuiltInItemType::kHistory:
+       [[fallthrough]];
+     case BuiltInItemType::kNone:

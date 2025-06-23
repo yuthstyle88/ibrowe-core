@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc b/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc
+index b7f143daf7bf023f3b725f96d971b94616033864..5972c36493d19b9ae14b4be12e0cf1c3b7651422 100644
+--- a/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc
++++ b/browser/ui/webui/ai_chat/ai_chat_untrusted_conversation_ui.cc
+@@ -41,7 +41,7 @@
+ 
+ namespace {
+ constexpr char kURLLearnMoreBraveSearchLeo[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "27586048343309-How-does-Leo-get-current-information";
+ 
+ // Implments the interface to calls from the UI to the browser

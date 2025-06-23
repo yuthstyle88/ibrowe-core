@@ -1,0 +1,17 @@
+diff --git a/browser/ui/brave_browser_command_controller.cc b/browser/ui/brave_browser_command_controller.cc
+index 6bc81d989d6e868a960f8e70e540656f36357a79..89d1591a46b75e7891243ea80c6251fa3cd5a638 100644
+--- a/browser/ui/brave_browser_command_controller.cc
++++ b/browser/ui/brave_browser_command_controller.cc
+@@ -583,9 +583,9 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
+     case IDC_CONFIGURE_SHORTCUTS:
+       brave::ShowShortcutsPage(&*browser_);
+       break;
+-    case IDC_SHOW_BRAVE_TALK:
+-      brave::ShowBraveTalk(&*browser_);
+-      break;
++//    case IDC_SHOW_BRAVE_TALK:
++//      brave::ShowBraveTalk(&*browser_);
++//      break;
+     case IDC_TOGGLE_SHIELDS:
+       brave::ToggleShieldsEnabled(&*browser_);
+       break;

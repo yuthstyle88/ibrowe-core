@@ -1,0 +1,13 @@
+diff --git a/components/brave_referrals/browser/brave_referrals_service.cc b/components/brave_referrals/browser/brave_referrals_service.cc
+index de90be4d881d4fcbd9386c60036a8aea6537f41c..5c8656f724bf82564b4d67c524f2b6ceb08806e3 100644
+--- a/components/brave_referrals/browser/brave_referrals_service.cc
++++ b/components/brave_referrals/browser/brave_referrals_service.cc
+@@ -70,7 +70,7 @@ void DeletePromoCodeFile(const base::FilePath& promo_code_file) {
+ 
+ #if BUILDFLAG(IS_MAC)
+ std::string ReadPromoCodeFromXattr() {
+-  static constexpr char kRefCodeAttr[] = "com.brave.refcode";
++  static constexpr char kRefCodeAttr[] = "com.ibrowe.refcode";
+   base::FilePath bundle_path = base::apple::OuterBundlePath();
+   std::vector<char> value;
+   int result_errno =

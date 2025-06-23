@@ -1,0 +1,13 @@
+diff --git a/components/brave_education/education_urls.cc b/components/brave_education/education_urls.cc
+index 1b3cfb3d5c64e69be5050654d7baa8d0e8553912..51006c6d0af4203da5670004f5b78f746c5e6d68 100644
+--- a/components/brave_education/education_urls.cc
++++ b/components/brave_education/education_urls.cc
+@@ -25,7 +25,7 @@ constexpr std::string_view PageTypeToBrowserURL(EducationPageType page_type) {
+ constexpr std::string_view PageTypeToServerURL(EducationPageType page_type) {
+   switch (page_type) {
+     case EducationPageType::kGettingStarted:
+-      return "https://browser-education.brave.com/getting-started/";
++      return "https://browser-education.ibrowe.com/getting-started/";
+   }
+ }
+ 

@@ -1,0 +1,13 @@
+diff --git a/components/sidebar/browser/sidebar_item.h b/components/sidebar/browser/sidebar_item.h
+index ec5cd1776c05a9678d69a2d1f2db4cd25121539c..3e774bfa2a0625742d20a162a46aecaf329c0431 100644
+--- a/components/sidebar/browser/sidebar_item.h
++++ b/components/sidebar/browser/sidebar_item.h
+@@ -20,7 +20,7 @@ struct SidebarItem {
+   // items.
+   enum class BuiltInItemType {
+     kNone = 0,
+-    kBraveTalk,
++//    kBraveTalk,
+     kWallet,
+     kBookmarks,
+     kReadingList,

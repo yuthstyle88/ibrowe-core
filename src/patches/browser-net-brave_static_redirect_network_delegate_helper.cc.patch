@@ -1,0 +1,46 @@
+diff --git a/browser/net/brave_static_redirect_network_delegate_helper.cc b/browser/net/brave_static_redirect_network_delegate_helper.cc
+index 427d7777e0dc133ae93408e64d3d83064f8c6b25..c5c127f4b6369a12c847aa85c7646214aab07a31 100644
+--- a/browser/net/brave_static_redirect_network_delegate_helper.cc
++++ b/browser/net/brave_static_redirect_network_delegate_helper.cc
+@@ -122,7 +122,7 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
+ 
+   if (crxDownload_pattern->MatchesURL(request_url)) {
+     replacements.SetSchemeStr("https");
+-    replacements.SetHostStr("crxdownload.brave.com");
++    replacements.SetHostStr("crxdownload.ibrowe.com");
+     *new_url = request_url.ReplaceComponents(replacements);
+     return net::OK;
+   }
+@@ -136,28 +136,28 @@ int OnBeforeURLRequest_StaticRedirectWorkForGURL(
+ 
+   if (crlSet_pattern1->MatchesURL(request_url)) {
+     replacements.SetSchemeStr("https");
+-    replacements.SetHostStr("redirector.brave.com");
++    replacements.SetHostStr("redirector.ibrowe.com");
+     *new_url = request_url.ReplaceComponents(replacements);
+     return net::OK;
+   }
+ 
+   if (crlSet_pattern2->MatchesURL(request_url)) {
+     replacements.SetSchemeStr("https");
+-    replacements.SetHostStr("redirector.brave.com");
++    replacements.SetHostStr("redirector.ibrowe.com");
+     *new_url = request_url.ReplaceComponents(replacements);
+     return net::OK;
+   }
+ 
+   if (crlSet_pattern3->MatchesURL(request_url)) {
+     replacements.SetSchemeStr("https");
+-    replacements.SetHostStr("redirector.brave.com");
++    replacements.SetHostStr("redirector.ibrowe.com");
+     *new_url = request_url.ReplaceComponents(replacements);
+     return net::OK;
+   }
+ 
+   if (crlSet_pattern4->MatchesURL(request_url)) {
+     replacements.SetSchemeStr("https");
+-    replacements.SetHostStr("redirector.brave.com");
++    replacements.SetHostStr("redirector.ibrowe.com");
+     *new_url = request_url.ReplaceComponents(replacements);
+     return net::OK;
+   }

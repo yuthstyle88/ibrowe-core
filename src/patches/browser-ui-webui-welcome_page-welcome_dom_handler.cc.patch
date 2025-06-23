@@ -1,0 +1,22 @@
+diff --git a/browser/ui/webui/welcome_page/welcome_dom_handler.cc b/browser/ui/webui/welcome_page/welcome_dom_handler.cc
+index 1e8e2bcf995203beb2874feee427c1f792df96dd..1362f16b63689c9fbc0d925d4a0735b2d904d535 100644
+--- a/browser/ui/webui/welcome_page/welcome_dom_handler.cc
++++ b/browser/ui/webui/welcome_page/welcome_dom_handler.cc
+@@ -81,7 +81,7 @@ WelcomeDOMHandler::WelcomeDOMHandler(Profile* profile)
+       brave_education_server_checker_(*profile->GetPrefs(),
+                                       profile->GetURLLoaderFactory()) {
+   base::MakeRefCounted<shell_integration::DefaultSchemeClientWorker>(
+-      GURL("https://browser-education.brave.com"))
++      GURL("https://browser-education.ibrowe.com"))
+       ->StartCheckIsDefaultAndGetDefaultClientName(
+           base::BindOnce(&WelcomeDOMHandler::OnGetDefaultBrowser,
+                          weak_ptr_factory_.GetWeakPtr()));
+@@ -171,7 +171,7 @@ void WelcomeDOMHandler::HandleOpenSettingsPage(const base::Value::List& args) {
+   Browser* browser = chrome::FindBrowserWithProfile(profile_);
+   if (browser) {
+     content::OpenURLParams open_params(
+-        GURL("brave://settings/privacy"), content::Referrer(),
++        GURL("ibrowe://settings/privacy"), content::Referrer(),
+         WindowOpenDisposition::NEW_BACKGROUND_TAB,
+         ui::PAGE_TRANSITION_AUTO_TOPLEVEL, false);
+     browser->OpenURL(open_params, /*navigation_handle_callback=*/{});

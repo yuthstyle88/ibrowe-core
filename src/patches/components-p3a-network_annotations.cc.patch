@@ -1,0 +1,174 @@
+diff --git a/components/p3a/network_annotations.cc b/components/p3a/network_annotations.cc
+index 5bca1a57db4f901d5484d00c2473dc1729b3ff2e..8ab171134dbeb114588c60d76ca82b3b307f0082 100644
+--- a/components/p3a/network_annotations.cc
++++ b/components/p3a/network_annotations.cc
+@@ -14,7 +14,7 @@ namespace p3a {
+ net::NetworkTrafficAnnotationTag GetRandomnessRequestAnnotation() {
+   return net::DefineNetworkTrafficAnnotation("p3a_star_randomness", R"(
+     semantics {
+-      sender: "Brave Privacy-Preserving Product Analytics STAR Randomness Request"
++      sender: "iBrowe Privacy-Preserving Product Analytics STAR Randomness Request"
+       description:
+         "Requests randomness for a single analytics metric."
+         "The randomness data is used to create a key for encrypting analytics data "
+@@ -22,14 +22,14 @@ net::NetworkTrafficAnnotationTag GetRandomnessRequestAnnotation() {
+         "See https://arxiv.org/abs/2109.10074 for more information."
+       trigger:
+         "Requests are automatically sent at intervals "
+-        "while Brave is running."
++        "while iBrowe is running."
+       data: "Anonymous usage data."
+       destination: WEBSITE
+     }
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can enable or disable it in brave://settings/privacy"
++        "Users can enable or disable it in ibrowe://settings/privacy"
+        policy_exception_justification:
+          "Not implemented."
+     })");
+@@ -38,7 +38,7 @@ net::NetworkTrafficAnnotationTag GetRandomnessRequestAnnotation() {
+ net::NetworkTrafficAnnotationTag GetRandomnessServerInfoAnnotation() {
+   return net::DefineNetworkTrafficAnnotation("p3a_star_server_info", R"(
+     semantics {
+-      sender: "Brave Privacy-Preserving Product Analytics STAR Randomness Server Info"
++      sender: "iBrowe Privacy-Preserving Product Analytics STAR Randomness Server Info"
+       description:
+         "Requests randomness server info which includes the current epoch, "
+         "and time of the next epoch."
+@@ -47,34 +47,34 @@ net::NetworkTrafficAnnotationTag GetRandomnessServerInfoAnnotation() {
+         "See https://arxiv.org/abs/2109.10074 for more information."
+       trigger:
+         "Requests are automatically sent at intervals "
+-        "while Brave is running."
++        "while iBrowe is running."
+       data: "Request for randomness server info."
+       destination: WEBSITE
+     }
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can enable or disable it in brave://settings/privacy"
++        "Users can enable or disable it in ibrowe://settings/privacy"
+        policy_exception_justification:
+          "Not implemented."
+     })");
+ }
+ 
+ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+-    std::string_view upload_type,
+-    bool is_constellation) {
++        std::string_view upload_type,
++        bool is_constellation) {
+   if (is_constellation) {
+     if (upload_type == kP3ACreativeUploadType ||
+         upload_type == kP3AUploadType) {
+       return net::DefineNetworkTrafficAnnotation("p3a", R"(
+           semantics {
+-            sender: "Brave Privacy-Preserving Product Analytics Uploader"
++            sender: "iBrowe Privacy-Preserving Product Analytics Uploader"
+             description:
+               "Report of anonymized usage statistics. For more info, see "
+-              "https://brave.com/P3A"
++              "https://ibrowe.com/P3A"
+             trigger:
+               "Reports are automatically generated on startup and at intervals "
+-              "while Brave is running."
++              "while iBrowe is running."
+             data:
+               "A base64 encoded encrypted payload with anonymized usage data."
+               "Encryption is performed using STAR to protect user anonymity."
+@@ -84,7 +84,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+           policy {
+             cookies_allowed: NO
+             setting:
+-              "Users can enable or disable it in brave://settings/privacy"
++              "Users can enable or disable it in ibrowe://settings/privacy"
+              policy_exception_justification:
+                "Not implemented."
+           })");
+@@ -92,14 +92,14 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+     DCHECK_EQ(upload_type, kP2AUploadType);
+     return net::DefineNetworkTrafficAnnotation("p2a", R"(
+         semantics {
+-          sender: "Brave Privacy-Preserving Ad Analytics Uploader"
++          sender: "iBrowe Privacy-Preserving Ad Analytics Uploader"
+           description:
+             "Report of anonymized usage statistics. For more info, see "
+-            "https://github.com/brave/brave-browser/wiki/"
++            "https://github.com/ibrowe/ibrowe-browser/wiki/"
+             "Randomized-Response-for-Private-Advertising-Analytics"
+           trigger:
+             "Reports are automatically generated on startup and at intervals "
+-            "while Brave is running."
++            "while iBrowe is running."
+           data:
+             "A base64 encoded encrypted payload with anonymized usage data."
+             "Encryption is performed using STAR to protect user anonymity."
+@@ -109,8 +109,8 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+         policy {
+           cookies_allowed: NO
+           setting:
+-            "Users can enable or disable it by enabling or disabling Brave "
+-            "rewards or ads in brave://rewards."
++            "Users can enable or disable it by enabling or disabling iBrowe "
++            "rewards or ads in ibrowe://rewards."
+            policy_exception_justification:
+              "Not implemented."
+         })");
+@@ -119,13 +119,13 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+         upload_type == kP3AUploadType) {
+       return net::DefineNetworkTrafficAnnotation("p3a", R"(
+           semantics {
+-            sender: "Brave Privacy-Preserving Product Analytics Uploader"
++            sender: "iBrowe Privacy-Preserving Product Analytics Uploader"
+             description:
+               "Report of anonymized usage statistics. For more info, see "
+-              "https://brave.com/P3A"
++              "https://ibrowe.com/P3A"
+             trigger:
+               "Reports are automatically generated on startup and at intervals "
+-              "while Brave is running."
++              "while iBrowe is running."
+             data:
+               "A json document with anonymized usage data."
+             destination: WEBSITE
+@@ -133,7 +133,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+           policy {
+             cookies_allowed: NO
+             setting:
+-              "Users can enable or disable it in brave://settings/privacy"
++              "Users can enable or disable it in ibrowe://settings/privacy"
+              policy_exception_justification:
+                "Not implemented."
+           })");
+@@ -141,14 +141,14 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+     DCHECK_EQ(upload_type, kP2AUploadType);
+     return net::DefineNetworkTrafficAnnotation("p2a", R"(
+         semantics {
+-          sender: "Brave Privacy-Preserving Ad Analytics Uploader"
++          sender: "iBrowe Privacy-Preserving Ad Analytics Uploader"
+           description:
+             "Report of anonymized usage statistics. For more info, see "
+-            "https://github.com/brave/brave-browser/wiki/"
++            "https://github.com/ibrowe/ibrowe-browser/wiki/"
+             "Randomized-Response-for-Private-Advertising-Analytics"
+           trigger:
+             "Reports are automatically generated on startup and at intervals "
+-            "while Brave is running."
++            "while iBrowe is running."
+           data:
+             "A json document with anonymized usage data."
+           destination: WEBSITE
+@@ -156,8 +156,8 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation(
+         policy {
+           cookies_allowed: NO
+           setting:
+-            "Users can enable or disable it by enabling or disabling Brave "
+-            "rewards or ads in brave://rewards."
++            "Users can enable or disable it by enabling or disabling iBrowe "
++            "rewards or ads in ibrowe://rewards."
+            policy_exception_justification:
+              "Not implemented."
+         })");

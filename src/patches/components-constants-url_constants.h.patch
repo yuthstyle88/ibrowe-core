@@ -1,0 +1,32 @@
+diff --git a/components/constants/url_constants.h b/components/constants/url_constants.h
+index 25eb35ec318b58f3084eaab8ab62dd2b21a1d801..7cfb61afc437d5405c8d262f3828fbe1fe6cbac4 100644
+--- a/components/constants/url_constants.h
++++ b/components/constants/url_constants.h
+@@ -7,15 +7,15 @@
+ #define BRAVE_COMPONENTS_CONSTANTS_URL_CONSTANTS_H_
+ 
+ inline constexpr char kChromeExtensionScheme[] = "chrome-extension";
+-inline constexpr char kBraveUIScheme[] = "brave";
++inline constexpr char kBraveUIScheme[] = "ibrowe";
+ inline constexpr char kMagnetScheme[] = "magnet";
+ inline constexpr char kWidevineTOS[] = "https://policies.google.com/terms";
+ inline constexpr char kRewardsUpholdSupport[] =
+-    "https://uphold.com/en/brave/support";
+-inline constexpr char kP3ALearnMoreURL[] = "https://brave.com/P3A";
++    "https://uphold.com/en/ibrowe/support";
++inline constexpr char kP3ALearnMoreURL[] = "https://ibrowe.com/P3A";
+ inline constexpr char kP3ASettingsLink[] = "chrome://settings/privacy";
+ inline constexpr char kImportDataHelpURL[] =
+-    "https://support.brave.com/hc/en-us/articles/360019782291#safari";
++    "https://support.ibrowe.com/hc/en-us/articles/360019782291#safari";
+ inline constexpr char kCryptoWalletsLearnMoreURL[] =
+     "https://support.brave.com/hc/en-us/articles/360034535452";
+ inline constexpr char kPermissionPromptLearnMoreUrl[] =
+@@ -37,6 +37,6 @@ inline constexpr char kDevChannelDeprecationLearnMoreUrl[] =
+     "17924707453581-How-do-I-migrate-my-Brave-Dev-data-to-another-channel-"
+     "Nightly-Beta-Release-";
+ 
+-inline constexpr char kDownloadBraveUrl[] = "https://www.brave.com/download";
++inline constexpr char kDownloadBraveUrl[] = "https://www.ibrowe.com/download";
+ 
+ #endif  // BRAVE_COMPONENTS_CONSTANTS_URL_CONSTANTS_H_
