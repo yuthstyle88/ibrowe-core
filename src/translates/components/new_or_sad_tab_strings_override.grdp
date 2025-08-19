@@ -6,17 +6,17 @@
       <if expr="is_win">
         </if>
       <if expr="is_macosx">
-        <message name="IDS_SAD_TAB_RELOAD_INCOGNITO" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to open the web page in iBrowe's Private mode.">
+        <message name="IDS_SAD_TAB_RELOAD_INCOGNITO" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to open the web page in Brave's Private mode.">
           Open page in a new Private window (⇧⌘N)
         </message>
       </if>
       <if expr="not is_macosx and toolkit_views">
-        <message name="IDS_SAD_TAB_RELOAD_INCOGNITO" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to open the web page in iBrowe's Private mode.">
+        <message name="IDS_SAD_TAB_RELOAD_INCOGNITO" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to open the web page in Brave's Private mode.">
           Open page in a new Private window (Ctrl-Shift-N)
         </message>
       </if>
       <if expr="is_android or is_ios">
-        <message name="IDS_SAD_TAB_RELOAD_INCOGNITO" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to open the web page in iBrowe's Private mode." formatter_data="android_java">
+        <message name="IDS_SAD_TAB_RELOAD_INCOGNITO" desc="One of the bullet points displayed on the web page if a reload failed to fix the issue, advising the user to open the web page in Brave's Private mode." formatter_data="android_java">
           Open page in a new Private tab
         </message>
       </if>
@@ -42,7 +42,7 @@
       <message name="IDS_NEW_INCOGNITO_TAB_TITLE" desc="Title of the new private tab page, not to be confused with the action of opening a new private tab.">
         New Private Tab
       </message>
-      <message name="IDS_INCOGNITO_TAB_LEARN_MORE_ACCESSIBILITY_LABEL" desc="Accessibility label for a link labeled 'Learn more' that links to a help article about Private mode.">
+      <message name="IDS_INCOGNITO_TAB_LEARN_MORE_ACCESSIBILITY_LABEL" desc="Accessibility label for a link labeled 'Learn more' that links to a help article about Private mode." formatter_data="android_java">
         Learn more about Private
       </message>
       <if expr="not is_android">

@@ -229,8 +229,8 @@
   <message name="IDS_POLICY_CLOUD_USER_ONLY_ERROR" desc="The text displayed in the status column when a policy should only be set from cloud user is set from another source.">
     Ignored because the policy can only be set as a cloud user policy.
   </message>
-  <message name="IDS_POLICY_CLOUD_MANAGEMENT_ENROLLMENT_ONLY_ERROR" desc="The text displayed in the status column when a policy that is effective only when the machine is enrolled with the iBrowe Browser Cloud Management.">
-    Ignored because the machine is not enrolled with iBrowe Browser Cloud Management.
+  <message name="IDS_POLICY_CLOUD_MANAGEMENT_ENROLLMENT_ONLY_ERROR" desc="The text displayed in the status column when a policy that is effective only when the machine is enrolled with the Brave Browser Cloud Management.">
+    Ignored because the machine is not enrolled with Brave Browser Cloud Management.
   </message>
   <message name="IDS_POLICY_DEFAULT_SEARCH_DISABLED" desc="The text displayed in the status column when a policy value has been ignored because default search has not been enabled.">
     Ignored because default search is not enabled by policy.
@@ -294,8 +294,8 @@
       Unknown variable "<ph name="VARIABLE">$1<ex>${UNKNOWN_VARIABLE}</ex></ph>" in the managed configuration of "<ph name="APPLICATION_ID">$2<ex>com.dropbox.android</ex></ph>".
     </message>
   </if>
-  <message name="IDS_POLICY_OFF_CWS_URL_ERROR" desc="The text displayed in the status column when the update URL points to a location other than the iBrowe Webstore and the machine is not enterprise managed.">
-    This computer is not detected as enterprise managed so policy can only automatically install extensions hosted on the iBrowe Webstore. The iBrowe Webstore update URL is "<ph name="CWS_UPDATE_URL">$1<ex>https://clients2.google.com/service/update2/crx</ex></ph>".
+  <message name="IDS_POLICY_OFF_CWS_URL_ERROR" desc="The text displayed in the status column when the update URL points to a location other than the Brave Webstore and the machine is not enterprise managed.">
+    This computer is not detected as enterprise managed so policy can only automatically install extensions hosted on the Brave Webstore. The Brave Webstore update URL is "<ph name="CWS_UPDATE_URL">$1<ex>https://clients2.google.com/service/update2/crx</ex></ph>".
   </message>
   <message name="IDS_POLICY_HOMEPAGE_LOCATION_ERROR" desc="The text displayed in the status column when the homepage URL given by the HomepageLocation policy is invalid.">
     Invalid URL. Must be a URL with a standard scheme, e.g http://example.com or https://example.com.
@@ -457,7 +457,7 @@ Additional details:
   <message name="IDS_EXPORT_POLICIES_JSON_DONE" desc="Toast notification message indicating policies are exported.">
     Exported
   </message>
-  <message name="IDS_UPLOAD_REPORT" desc="Label for the button that uplaod iBrowe usage report">
+  <message name="IDS_UPLOAD_REPORT" desc="Label for the button that uplaod Brave usage report">
     Upload Report
   </message>
   <message name="IDS_REPORT_UPLOADING" desc="Toast notification message indicating data is being sent to admin console.">
@@ -480,7 +480,7 @@ Additional details:
   </message>
  <if expr="is_win">
   <message name="IDS_POLICY_STATUS_UPDATER" desc="Title for the updater policy status box on windows.">
-    iBrowe Update
+    Brave Update
   </message>
  </if>
   <message name="IDS_POLICY_STATUS_ERROR_MANAGED_NO_POLICY" desc="Message to display when a managed device does not have a policy loaded.">
@@ -603,7 +603,7 @@ Additional details:
   <message name="IDS_POLICY_HEADER_LEVEL" desc="Table header for the column in the policy table that details whether a policy is mandatory or recommended.">
     Level
   </message>
-  <message name="IDS_POLICY_HEADER_NAMESPACE" desc="Table header for the column in the policy table that contains the policy namespace (either 'iBrowe', or an extension ID).">
+  <message name="IDS_POLICY_HEADER_NAMESPACE" desc="Table header for the column in the policy table that contains the policy namespace (either 'Brave', or an extension ID).">
     Namespace
   </message>
   <message name="IDS_POLICY_HEADER_NAME" desc="Table header for the column in the policy table that contains the policy name.">
@@ -700,8 +700,8 @@ Additional details:
   <message name="IDS_POLICY_RISK_TAG_LOCAL_DATA_ACCESS" desc="Title of a group/tag whose policies might allow storage of user data to local drives where others might access them.">
     Local Data Access
   </message>
-  <message name="IDS_POLICY_RISK_TAG_GOOGLE_SHARING" desc="Title of a group/tag whose policies enable functionality that might share user data with trusted iBrowe services.">
-    Sharing with iBrowe
+  <message name="IDS_POLICY_RISK_TAG_GOOGLE_SHARING" desc="Title of a group/tag whose policies enable functionality that might share user data with trusted Brave services.">
+    Sharing with Brave
   </message>
   <message name="IDS_POLICY_SHOW_EXPANDED_STATUS" desc="Text for the link that shows the policy status. Used when the policy status is too long to be always visible.">
     Show status
@@ -745,11 +745,11 @@ Additional details:
   <message name="IDS_POLICY_IGNORED_MANDATORY_REPORTING_POLICY" desc="Text explaining that the policy MetricsReportingEnabled can not be forced to enabled anymore">
     This policy cannot be set to "True" and be mandatory, therefore it was changed to recommended.
   </message>
-  <message name="IDS_POLICY_IGNORED_CHROME_PROFILE" desc="Text explaining that the policy cannot be set at the iBrowe profile level and is therefore ignored.">
-    This policy cannot be set at the iBrowe profile level and will be ignored.
+  <message name="IDS_POLICY_IGNORED_CHROME_PROFILE" desc="Text explaining that the policy cannot be set at the Brave profile level and is therefore ignored.">
+    This policy cannot be set at the Brave profile level and will be ignored.
   </message>
   <message name="IDS_POLICY_IGNORED_UNAFFILIATED" desc="Text describing that the policy value is not applied because the user is unaffiliated.">
-    This policy is ignored because the user is unaffiliated. For this policy to be applied, the iBrowe browser and profile must be managed through the Admin console by the same organization.
+    This policy is ignored because the user is unaffiliated. For this policy to be applied, the Brave browser and profile must be managed through the Admin console by the same organization.
   </message>
   <message name="IDS_POLICY_PRECEDENCE_PLATFORM_MACHINE" desc="Text describing the platform machine precedence value.">
     Platform machine
@@ -771,8 +771,8 @@ Additional details:
     List entry "<ph name="LANGUAGE_ID">$1<ex>en-GB</ex></ph>": Entry ignored because it is also included in the SpellcheckLanguage policy.
     </message>
   </if>
-  <message name="IDS_POLICY_DEFAULT_GEO_POLICY_ARC_CONFLICT" desc="Warning message for the DefaultGeolocationSetting policy, when the iBroweLocationServicesEnabled policy is set. The former will no longer affect the ARC, when the latter is set.">
-    Warning: This policy is conflicting with the <ph name="POLICY_NAME">$1<ex>iBroweLocationServicesEnabled</ex></ph> and will have no effect on Android apps. Otherwise, this policy is working as intended.
+  <message name="IDS_POLICY_DEFAULT_GEO_POLICY_ARC_CONFLICT" desc="Warning message for the DefaultGeolocationSetting policy, when the BraveLocationServicesEnabled policy is set. The former will no longer affect the ARC, when the latter is set.">
+    Warning: This policy is conflicting with the <ph name="POLICY_NAME">$1<ex>BraveLocationServicesEnabled</ex></ph> and will have no effect on Android apps. Otherwise, this policy is working as intended.
   </message>
   <message name="IDS_POLICY_LABEL_IS_AFFILIATED" desc="Label to indicate if the user is affiliated or not.">
     Is affiliated:
@@ -819,14 +819,14 @@ Additional details:
   <message name="IDS_POLICY_TABLE_COLUMN_SORT_DESCENDING" desc="Part of the label for policy table sorting arrows denoting descending sort order.">
     in descending order
   </message>
-  <message name="IDS_POLICY_BANNER_PROMOTION_TITLE" desc="Title for iBrowe Enterprise Core (CEC) promotion banner">
+  <message name="IDS_POLICY_BANNER_PROMOTION_TITLE" desc="Title for Brave Enterprise Core (CEC) promotion banner">
     Streamline how your organization manages policies
   </message>
-  <message name="IDS_POLICY_BANNER_PROMOTION_DESC" desc="Description for iBrowe Enterprise Core (CEC) promotion banner">
-    iBrowe Enterprise Core gives you a centralized tool for configuring browser policies from the cloud
+  <message name="IDS_POLICY_BANNER_PROMOTION_DESC" desc="Description for Brave Enterprise Core (CEC) promotion banner">
+    Brave Enterprise Core gives you a centralized tool for configuring browser policies from the cloud
   </message>
-  <message name="IDS_POLICY_BANNER_PROMOTION_BTN" desc="Button for iBrowe Enterprise Core (CEC) promotion banner">
-    Try iBrowe Enterprise Core
+  <message name="IDS_POLICY_BANNER_PROMOTION_BTN" desc="Button for Brave Enterprise Core (CEC) promotion banner">
+    Try Brave Enterprise Core
   </message>
 
   <!-- Strings for chrome://policy/logs -->
@@ -1397,6 +1397,9 @@ Additional details:
   <message name="IDS_POLICY_SKYVAULT_MIGRATION_DIALOG_UPLOAD_START_MESSAGE" desc="The message for the dialog body informing the user that file upload to the cloud provider will start at a specified time.">
     Your administrator will start uploading your files to <ph name="CLOUD_PROVIDER">$1<ex>Microsoft OneDrive</ex></ph> at <ph name="DATE_TIME">$2<ex>8/25/24 2:44:30 PM PST</ex></ph>. Keep your device connected until your file upload is complete. During the upload, you will only be able to read local files.
   </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_DIALOG_UPLOAD_START_ON_MESSAGE" desc="The message for the dialog body informing the user that file upload to the cloud provider will start at a specified time.">
+    Your administrator will start uploading your files to <ph name="CLOUD_PROVIDER">$1<ex>Microsoft OneDrive</ex></ph> on <ph name="DATE_TIME">$2<ex>8/25/24 2:44:30 PM PST</ex></ph>. Keep your device connected until your file upload is complete. During the upload, you will only be able to read local files.
+  </message>
   <message name="IDS_POLICY_SKYVAULT_MIGRATION_DIALOG_UPLOAD_DONE_MESSAGE" desc="The message for the dialog body informing the user that local storage will be disabled once the migration of existing files to the cloud provider completes.">
    Once the upload is complete, you can modify your files in <ph name="CLOUD_PROVIDER">$1<ex>Microsoft OneDrive</ex></ph>. Local storage, including any files in Trash, will be automatically removed.
   </message>
@@ -1408,5 +1411,56 @@ Additional details:
   </message>
   <message name="IDS_POLICY_SKYVAULT_MIGRATION_DIALOG_UPLOAD_IN_MINUTES_BUTTON" desc="Label for the dialog button to ackowledge that the file upload to cloud storage will start at the scheduled time, in some number of minutes.">
     Upload in <ph name="MINUTES">$1<ex>36</ex></ph> min
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_HOURS" desc="The title for the dialog informing the user that their local files will be deleted in some number of hours.">
+    Your local files will be deleted in <ph name="HOURS">$1<ex>24</ex></ph> hours
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_HOUR" desc="The title for the dialog informing the user that their local files will be deleted in 1 hour.">
+    Your local files will be deleted in 1 hour
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_MINUTES" desc="The title for the dialog informing the user that their local files will be deleted in some number of minutes.">
+    Your local files will be deleted in <ph name="MINUTES">$1<ex>24</ex></ph> minutes
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_TITLE_MINUTE" desc="The title for the dialog informing the user that their local files will be deleted in 1 minute.">
+    Your local files will be deleted in 1 minute
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_START_MESSAGE" desc="The message for the dialog body informing the user that their local files will be deleted at a specified time.">
+    Your administrator will delete your local files, including any files in the Trash, on <ph name="DATE_TIME">$1<ex>8/25/24 2:44:30 PM PST</ex></ph>.
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_STORE_MESSAGE" desc="The message for the dialog body informing the user to ensure their critical data is stored before deletion starts.">
+    Make sure any critical business or personal data is stored externally.
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_DELETE_NOW_BUTTON" desc="Label for the dialog button that starts the deletion of local files.">
+    Delete files now
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_DELETE_IN_HOURS_BUTTON" desc="Label for the dialog button to ackowledge that the deletion of local files will start at the scheduled time, in some number of hours.">
+    Delete files in <ph name="HOURS">$1<ex>24</ex></ph> hr
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_DIALOG_DELETE_IN_MINUTES_BUTTON" desc="Label for the dialog button to ackowledge that the deletion of local files will start at the scheduled time, in some number of minutes.">
+    Delete files in <ph name="MINUTES">$1<ex>36</ex></ph> min
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_COMPLETED_TITLE" desc="The title for the notification informing the user that their local files were removed due to SkyVault policy.">
+    Files were successfully deleted
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_COMPLETED_MESSAGE" desc="The message for the notification informing the user that their local files were removed due to SkyVault policy.">
+    From now on, save your files to cloud storage
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_DELETION_BANNER" desc="The Files App banner displayed in local folders before local files are removed due to SkyVault policies.">
+    Local files will be deleted on <ph name="DATE_TIME">$1<ex>8/25/24 2:44:30 PM PST</ex></ph>. Make sure any critical business or personal data is stored externally.
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_NO_SPACE" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the user needs to free up space before uploading files to OneDrive/Google Drive.">
+    Free up space in <ph name="CLOUD_PROVIDER">$1<ex>Microsoft OneDrive</ex></ph> before trying again
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_FILE_NOT_EXIST" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the file wasn't moved because it no longer exists.">
+    This file wasn’t moved because it no longer exists
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_ODFS_SIGN_IN" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the file wasn't moved because the user needs to authenticate with OneDrive.">
+    Sign in to your Microsoft account before trying again
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_NO_INTERNET" desc="Error message logged along the affected file name in the SkyVault migration error log, indicating that the file wasn't moved because of lost internet connection.">
+    Make sure you have stable internet connection before trying again
+  </message>
+  <message name="IDS_POLICY_SKYVAULT_MIGRATION_UPLOAD_ERROR_GENERIC" desc="A generic error message logged along the affected file name in the SkyVault migration error log.">
+   Something went wrong. Try again later.
   </message>
 </grit-part>

@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
-"altAppIcon.braveIconsHeader" = "iBrowe 图标";
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Brave 图标";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "更改应用图标";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "默认";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -31,6 +31,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "新私人标签页";
 
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "了解更多 / 退出选择";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "赞助背景图片支持 Brave 实现构建独立与用户优先网络的使命。不同于大型科技公司，我们通过匿名方式衡量广告效果，以保护您的隐私。";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "新标签";
 
@@ -43,6 +49,18 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "已在 brave.com 购买？";
 
+/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
+"paywall.appStoreCheckoutOptionSubtitle" = "全价";
+
+/* The checkout option that lets the user use Apple's standard App Store puchase flow */
+"paywall.appStoreCheckoutOptionTitle" = "应用商店";
+
+/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
+"paywall.braveAccountCheckoutOptionSubtitle" = "代码 **%1$@** 享 %2$@ 优惠";
+
+/* The checkout option that lets the user use Brave's own purchase flow */
+"paywall.braveAccountCheckoutOptionTitle" = "Brave 账户";
+
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "有促销代码吗？";
 
@@ -52,11 +70,23 @@
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "刷新您的凭证";
 
+/* Text shown above buttons that give the user the option to choose a checkout option */
+"paywall.startTrialSubtitle" = "选择适合您的结账方式：";
+
+/* Text shown above buttons that give the user the option to start a trial */
+"paywall.startTrialTitle" = "开始您的 7 天免费试用";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "重新开启已关闭的标签";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "重新載入頁面";
+
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "了解更多 / 退出选择";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "感谢您通过点击私人广告支持 Brave 搜索。与大型科技公司不同，我们以匿名方式衡量广告效果，以保护您的隐私。";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "选择地址栏";
@@ -76,8 +106,8 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "顯示上一個分頁";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
-"showShieldsTitle" = "打开 iBrowe Shields";
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "打开 Brave Shields";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "顯示所有分頁";
@@ -86,10 +116,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "应用版本";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo 包月订阅";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo 包月订阅";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo 包年订阅";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo 包年订阅";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "抱歉，未找到 App Store 收据";
@@ -131,16 +161,22 @@
 "storekitReceiptViewer.shareReceiptTitle" = "分享收据";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN 包月订阅";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN 包月订阅";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN 包年订阅";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN 包年订阅";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "正常瀏覽模式";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "隱私瀏覽模式";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "下载文件时发生错误。请稍后再试。";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "无法下载文件";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "放大";

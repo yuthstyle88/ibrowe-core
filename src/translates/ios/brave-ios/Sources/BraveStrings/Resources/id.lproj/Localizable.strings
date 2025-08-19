@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
-"altAppIcon.braveIconsHeader" = "Ikon iBrowe";
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Ikon Brave";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Ubah Ikon Aplikasi";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "Default";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -31,6 +31,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "Tab Privat Baru";
 
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Pelajari selengkapnya/pilihan penonaktifan";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "Gambar latar belakang bersponsor mendukung misi Brave untuk membangun Web yang independen dan memprioritaskan pengguna. Dan tidak seperti Big Tech, kami mengukur kinerja iklan secara anonim demi menjaga privasi Anda.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Tab baru";
 
@@ -43,6 +49,18 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "Sudah membeli di brave.com?";
 
+/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
+"paywall.appStoreCheckoutOptionSubtitle" = "Harga Penuh";
+
+/* The checkout option that lets the user use Apple's standard App Store puchase flow */
+"paywall.appStoreCheckoutOptionTitle" = "App Store";
+
+/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
+"paywall.braveAccountCheckoutOptionSubtitle" = "Kode **%1$@** untuk diskon %2$@";
+
+/* The checkout option that lets the user use Brave's own purchase flow */
+"paywall.braveAccountCheckoutOptionTitle" = "Akun Brave";
+
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "Punya kode promo?";
 
@@ -52,11 +70,23 @@
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "Perbarui kredensial Anda";
 
+/* Text shown above buttons that give the user the option to choose a checkout option */
+"paywall.startTrialSubtitle" = "Pilih metode pembayaran yang tepat bagi Anda:";
+
+/* Text shown above buttons that give the user the option to start a trial */
+"paywall.startTrialTitle" = "Mulai uji coba gratis 7 hari";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "Buka Lagi Tab yang Ditutup";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "Muat Ulang Halaman";
+
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Pelajari selengkapnya/pilihan penonaktifan";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "Terima kasih telah mendukung Penelusuran Brave dengan mengeklik iklan pribadi. Tidak seperti Big Tech umumnya, kami mengukur kinerja iklan secara anonim untuk menjaga privasi Anda.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Pilih Bilah Lokasi";
@@ -76,8 +106,8 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "Tampilkan Tab Sebelumnya";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
-"showShieldsTitle" = "Buka Perisai iBrowe";
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "Buka Perisai Brave";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "Tampilkan Semua Tab";
@@ -86,10 +116,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "Versi Aplikasi";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo (Bulanan)";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo (Bulanan)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo (Tahunan)";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo (Tahunan)";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "Maaf, tidak ada tanda terima App Store yang ditemukan";
@@ -131,16 +161,22 @@
 "storekitReceiptViewer.shareReceiptTitle" = "Bagikan Tanda Terima";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN (Bulanan)";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN (Bulanan)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN (Tahunan)";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN (Tahunan)";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "Mode Penjelajahan Normal";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "Mode Penjelajahan Pribadi";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "Terjadi kesalahan saat mengunduh file. Coba lagi nanti.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "Gagal Mengunduh File";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "Perbesar Mendekat";

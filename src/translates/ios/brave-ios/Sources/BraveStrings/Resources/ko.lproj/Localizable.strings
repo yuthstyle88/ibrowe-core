@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
-"altAppIcon.braveIconsHeader" = "iBrowe 아이콘";
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Brave 아이콘";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "앱 아이콘 변경";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "기본값";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -31,6 +31,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "새 비공개 탭";
 
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "자세히 알아보기 / 옵트아웃 옵션";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "스폰서 배경 이미지는 독립적인 사용자 중심 웹을 구축하려는 Brave의 사명을 뒷받침합니다. 또한 빅 테크와 달리 광고 성과를 익명으로 측정하여 사용자의 개인 정보를 보호합니다.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "새 탭";
 
@@ -43,6 +49,18 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "brave.com에서 이미 구매하셨습니까?";
 
+/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
+"paywall.appStoreCheckoutOptionSubtitle" = "전체 가격";
+
+/* The checkout option that lets the user use Apple's standard App Store puchase flow */
+"paywall.appStoreCheckoutOptionTitle" = "앱 스토어";
+
+/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
+"paywall.braveAccountCheckoutOptionSubtitle" = "코드 **%1$@**(으)로 %2$@ 할인";
+
+/* The checkout option that lets the user use Brave's own purchase flow */
+"paywall.braveAccountCheckoutOptionTitle" = "Brave 계정";
+
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "프로모션 코드가 있으신가요?";
 
@@ -52,11 +70,23 @@
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "자격증명 새로고침";
 
+/* Text shown above buttons that give the user the option to choose a checkout option */
+"paywall.startTrialSubtitle" = "본인에게 맞는 결제 방법을 선택하세요.";
+
+/* Text shown above buttons that give the user the option to start a trial */
+"paywall.startTrialTitle" = "7일 무료 체험 시작하기";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "닫은 탭 다시 열기";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "페이지 다시 로드";
+
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "자세히 알아보기 / 옵트아웃 옵션";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "프라이빗 광고를 클릭하여 Brave 검색을 지원해 주셔서 감사합니다. 빅테크 기업들과 달리 당사는 사용자의 개인정보를 보호하기 위해 광고 실적을 익명으로 평가합니다.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "주소창 선택";
@@ -76,8 +106,8 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "이전 탭 표시";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
-"showShieldsTitle" = "iBrowe Shields 열기";
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "Brave Shields 열기";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "모든 탭 표시";
@@ -86,10 +116,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "앱 버전";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo 월간 구독";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo 월간 구독";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo 연간 구독";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo 연간 구독";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "죄송합니다. App Store 영수증을 찾을 수 없습니다.";
@@ -131,16 +161,22 @@
 "storekitReceiptViewer.shareReceiptTitle" = "영수증 공유";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN 월간 구독";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN 월간 구독";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN 연간 구독";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN 연간 구독";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "일반 브라우징 모드";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "비공개 브라우징 모드";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "파일을 다운로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하세요.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "파일 다운로드 실패";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "확대";

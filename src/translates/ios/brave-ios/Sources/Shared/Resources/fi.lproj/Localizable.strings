@@ -97,12 +97,6 @@
 /* Title for the QR code scanner view. */
 "ScanQRCodeViewTitle" = "Lue QR-koodi";
 
-/* The text label of creative search result ad infobar message. */
-"SearchResultAdClickedInfoBarTitle" = "Kiitos, että tuet Braven hakua klikkaamalla yksityistä mainosta. Me mittaamme mainosten suorituskykyä anonyymisti yksityisyytesi säilyttämiseksi toisin kuin suuret teknologiayritykset.";
-
-/* The text label of creative search result ad learn more / opt out choices link. */
-"SearchResultAdClickedLearnMoreOptOutChoicesLabel" = "Lisätietoja / opt out -valinnat";
-
 /* General settings section title */
 "SettingsGeneralSectionTitle" = "Yleistä";
 
@@ -124,8 +118,8 @@
 /* Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet. */
 "UnableToAddPassErrorTitle" = "Salasanan lisääminen epäonnistui";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by iBrowe, or any external app. */
-"UnableToOpenURLError" = "iBrowe ei voi avata sivua, koska sen osoite on virheellinen.";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
+"UnableToOpenURLError" = "Brave ei voi avata sivua, koska sen osoite on virheellinen.";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "UnableToOpenURLErrorTitle" = "Sivua ei voi avata";

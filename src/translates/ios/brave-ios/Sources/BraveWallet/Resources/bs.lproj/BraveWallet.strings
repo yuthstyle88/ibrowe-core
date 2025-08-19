@@ -61,6 +61,9 @@
 /* The title of last option in the network selection dropdown menu. A short-cut for user to add new custom network. */
 "wallet.addCustomNetworkDropdownButtonTitle" = "Dodaj mrežu…";
 
+/* A title of one segment on top of Add Custom Assets screen. Users would need to select this segment if they are willing to add a custom non-fungible token. */
+"wallet.addCustomNFTTitle" = "NFT";
+
 /* A title of an initally hidden section in Add custom asset screen for users to input icon url and coingecko id. */
 "wallet.addCustomTokenAdvanced" = "Napredno";
 
@@ -79,8 +82,11 @@
 /* A title that will be displayed on top of the text field for users to input the custom token's ID. */
 "wallet.addCustomTokenId" = "ID tokena (samo za ERC721)";
 
+/* A title of one segment on top of Add Custom Assets screen, which is default selected. Users would need to select this segment if they are willing to add a custom fungible token. */
+"wallet.addCustomTokenTitle" = "Token";
+
 /* The description of the view shown over a dapps website that describes what adding a new network will do. */
-"wallet.addNetworkDescription" = "Time se omogućuje upotreba mreže unutar novčanika preglednika iBrowe.";
+"wallet.addNetworkDescription" = "Time se omogućuje upotreba mreže unutar novčanika preglednika Brave.";
 
 /* The subtitle of the view shown over a dapps website that requests permission from the user to add a new network. */
 "wallet.addNetworkSubtitle" = "Dopustiti ovom mrežnom mjestu dodavanje mreže?";
@@ -155,7 +161,7 @@
 "wallet.auroraPopupDontShowAgain" = "Ne prikazuj ponovo";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Broj minuta čekanja dok se novčanik preglednika iBrowe automatski ne zaključa";
+"wallet.autoLockFooter" = "Broj minuta čekanja dok se novčanik preglednika Brave automatski ne zaključa";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Automatsko zaključavanje nakon";
@@ -215,10 +221,10 @@
 "wallet.biometricsSetupFaceId" = "Identifikacija licem";
 
 /* The sub-title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupSubTitle" = "Želite li upotrijebiti %@ za otključavanje Novčanika iBrowe?";
+"wallet.biometricsSetupSubTitle" = "Želite li upotrijebiti %@ za otključavanje Novčanika Brave?";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupTitle" = "Otključavanje Novčanika iBrowe načinom %@";
+"wallet.biometricsSetupTitle" = "Otključavanje Novčanika Brave načinom %@";
 
 /* Type of biometrics. This will be used in Biometric setup screen. */
 "wallet.biometricsSetupTouchId" = "Identifikacija dodirom";
@@ -226,14 +232,17 @@
 /* The label displayed in Add Account above the private key box when adding or importing a Bitcoin account. The '%@' is the standard supported for the selected network (for example "Only zprv extended keys are supported.") */
 "wallet.bitcoinImportExtendedKeyWarning" = "Podržani su samo produženi ključevi %@.";
 
-/* The title for iBrowe Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.braveFeeLabel" = "Naknada preglednika iBrowe: %@";
+/* The title for Brave Fee label in Swap. The fee percentage is displayed beside the label. */
+"wallet.braveFeeLabel" = "Naknada preglednika Brave: %@";
 
-/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed iBrowe fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% iBrowe fee' */
-"wallet.braveSwapFeeDisclaimer" = "Ponudom se uključuje naknada od %@ za preglednik iBrowe.";
+/* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
+"wallet.braveSwapFeeDisclaimer" = "Ponudom se uključuje naknada od %@ za preglednik Brave.";
 
-/* The text beside the striked-through percentage iBrowe would normally charge for a swap. */
+/* The text beside the striked-through percentage Brave would normally charge for a swap. */
 "wallet.braveSwapFree" = "Besplatno";
+
+/* A description of an Bitcoin account, displayed in Accounts tab. */
+"wallet.btcAccountDescription" = "Bitcoin";
 
 /* Description displayed in row beside users available balance. */
 "wallet.btcAvailableBalanceDesc" = "Dostupna sredstva za uporabu.";
@@ -242,7 +251,7 @@
 "wallet.btcAvailableBalanceTitle" = "Dostupno";
 
 /* A warning displayed in row before the Send button in Send Crypto view when a Bitcoin asset is selected. */
-"wallet.btcOrdinalsUnsupportedWarning" = "Novčanik iBrowe trenutačno ne podržava Bitcoin NFT (ordinale). Slanje BTC-a s adrese koja ima ordinale može rezultirati nenamjernim prijenosom ordinala.";
+"wallet.btcOrdinalsUnsupportedWarning" = "Novčanik Brave trenutačno ne podržava Bitcoin NFT (ordinale). Slanje BTC-a s adrese koja ima ordinale može rezultirati nenamjernim prijenosom ordinala.";
 
 /* Description displayed in row beside users pending balance. */
 "wallet.btcPendingBalanceDesc" = "Promjena stanja Vašeg novčanika na čekanju.";
@@ -292,9 +301,6 @@
 /* The y-axis label on an asset or portfolio chart describing that y-axis values are based on the price at a given date */
 "wallet.chartAxisPriceLabel" = "Cijena";
 
-/* The description of one of the 'Coinbase Pay' provider. */
-"wallet.coinbaseNetworkProviderDescription" = "Kupujte najpouzdanijim imenom u svijetu kriptovaluta.";
-
 /* A disclaimer that appears at the bottom of an asset detail screen which shows prices and price history. CoinGecko is a third-party product. */
 "wallet.coinGeckoDisclaimer" = "Podatke o cijenama pruža CoinGecko";
 
@@ -313,11 +319,20 @@
 /* The title of the rank of this coin from market. */
 "wallet.coinMarketRank" = "Rang";
 
+/* One of the coin types for users to create an account to store BTC assets */
+"wallet.coinTypeBitcoin" = "Bitcoin";
+
 /* A description for Bitcoin coin type. */
 "wallet.coinTypeBitcoinDescription" = "Pohranite imovinu BTC";
 
+/* One of the coin types for users to create an account in Ethereum mainnet or any EVM networks. */
+"wallet.coinTypeEthereum" = "Ethereum";
+
 /* A description for Ethereum coin type. */
 "wallet.coinTypeEthereumDescription" = "Podržava imovinu kompatibilnu s EVM-om na lancu podatkovnih blokova platforme Ethereum (ERC-20, ERC-721, ERC-1551, ERC-1155)";
+
+/* One of the coin types for users to create an account to store FIL assets */
+"wallet.coinTypeFilecoin" = "Filecoin";
 
 /* A description for Filecoin coin type. */
 "wallet.coinTypeFilecoinDescription" = "Pohrani imovinu FIL";
@@ -325,11 +340,20 @@
 /* A header displayed above coin types selection. */
 "wallet.coinTypeSelectionHeader" = "Odaberi jednu od sljedećih vrsta računa";
 
+/* One of the coin types for users to create an account with in Solana network */
+"wallet.coinTypeSolana" = "Solana";
+
 /* A description for Solana coin type. */
 "wallet.coinTypeSolanaDescription" = "Podržava imovinu kompatibilnu s SLP-om na lancu podatkovnih blokova platforme Solana";
 
 /* A placeholder for unknown coin type. */
 "wallet.coinTypeUnknown" = "Nepoznato";
+
+/* One of the coin types for users to create an account to store ZEC assets */
+"wallet.coinTypeZCash" = "ZCash";
+
+/* A description for ZCash coin type. */
+"wallet.coinTypeZCashDescription" = "Pohrana imovine ZEC";
 
 /* 1. A button title to confirm a transaction. It is shown below details about a given transaction. 2. A button title to confirm to grant permission of a dapp connect request. It is displayed at the bottom of last step to grant permission in new site connection screen. */
 "wallet.confirm" = "Potvrdi";
@@ -425,7 +449,7 @@
 "wallet.creatingWallet" = "Izrada novčanika Wallet...";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "Novčanik iBrowe";
+"wallet.cryptoTitle" = "Novčanik Brave";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "URL-ovi tražilice Block Explorer";
@@ -496,14 +520,14 @@
 /* The title displayed on the add custom token screen */
 "wallet.customTokenTitle" = "Dodaj prilagođenu imovinu";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with iBrowe Wallet" */
-"wallet.dappsConnectionNotificationOriginTitle" = "Mrežno mjesto %@ želi se povezati s Novčanikom iBrowe";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with Brave Wallet" */
+"wallet.dappsConnectionNotificationOriginTitle" = "Mrežno mjesto %@ želi se povezati s Novčanikom Brave";
 
-/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with iBrowe Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Ova se stranica želi povezati s novčanikom iBrowe";
+/* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
+"wallet.dappsConnectionNotificationTitle" = "Ova se stranica želi povezati s novčanikom Brave";
 
 /* A message that will be displayed under the section header when there is no dapps have been granted wallet connection. */
-"wallet.dappsSettingsConnectedSitesSectionEmpty" = "Decentralizirane aplikacije koje povežete s Novčanikom iBrowe pojavljuju se ovdje";
+"wallet.dappsSettingsConnectedSitesSectionEmpty" = "Decentralizirane aplikacije koje povežete s Novčanikom Brave pojavljuju se ovdje";
 
 /* The title of the section that will list all the permitted dapp connections */
 "wallet.dappsSettingsConnectedSitesSectionTitle" = "Povezane decentralizirane aplikacije";
@@ -566,7 +590,7 @@
 "wallet.decimalsPrecision" = "Precizni decimalni brojevi";
 
 /* The message displayed when the user takes a screenshot of their dapp decrypt request. */
-"wallet.decryptMessageScreenshotDetectedMessage" = "Upozorenje: snimka zaslona vaše poruke može se sigurnosno kopirati na uslugu datoteka u oblaku i može se čitati svakom aplikacijom s pristupom fotografijama. Društvo iBrowe preporučuje vam da ne spremate ovu snimku zaslona i da je izbrišete što je prije moguće.";
+"wallet.decryptMessageScreenshotDetectedMessage" = "Upozorenje: snimka zaslona vaše poruke može se sigurnosno kopirati na uslugu datoteka u oblaku i može se čitati svakom aplikacijom s pristupom fotografijama. Društvo Brave preporučuje vam da ne spremate ovu snimku zaslona i da je izbrišete što je prije moguće.";
 
 /* The title of the button to approve a decrypt request from a dapps website. */
 "wallet.decryptRequestApprove" = "Dopusti";
@@ -673,7 +697,7 @@
 /* The amount of current permitted wallet accounts to the dapp site. It is displayed below the origin url of the dapp site in edit site connection screen. '%lld' refers to a number, %@ is `account` for singular and `accounts` for plural (for example "1 account connected" or "2 accounts connected") */
 "wallet.editSiteConnectionConnectedAccount" = "Povezano: %1$lld %2$@";
 
-/* The navigation title of the screen for users to edit dapps site connection with users' iBrowe Wallet accounts. */
+/* The navigation title of the screen for users to edit dapps site connection with users' Brave Wallet accounts. */
 "wallet.editSiteConnectionScreenTitle" = "Poveznice";
 
 /* The error alert body when something is wrong when users try to edit transaction gas fee, priority fee, nonce value or allowance value. */
@@ -685,23 +709,23 @@
 /* The button title for showing the screen to change what assets are visible */
 "wallet.editVisibleAssetsButtonTitle" = "Uredi vidljivu imovinu";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS domain they entered. */
 "wallet.ensDomainInterstitialPageButtonProceed" = "Nastavi služeći se poslužiteljem Infura";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "U pregledniku iBrowe upotrebljava se platforma Infura za rješavanje naziva domena .eth koje se nalaze u sustavu imenovanja tehnologije Ethereum (ENS). Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, putem platforme Infura moguće je vidjeti da netko pokušava posjetiti te domene .eth, ali ništa više. Pogledajte <a href=%1$@>%2$@</a> i <a href=%3$@>%4$@</a> platforme Infura.";
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+"wallet.ensDomainInterstitialPageDescription" = "U pregledniku Brave upotrebljava se platforma Infura za rješavanje naziva domena .eth koje se nalaze u sustavu imenovanja tehnologije Ethereum (ENS). Preglednikom Brave skriva se vaša adresa IP. Ako to omogućite, putem platforme Infura moguće je vidjeti da netko pokušava posjetiti te domene .eth, ali ništa više. Pogledajte <a href=%1$@>%2$@</a> i <a href=%3$@>%4$@</a> platforme Infura.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS domain to be resolved every time they enter one. */
-"wallet.ensDomainInterstitialPageTitle" = "Omogućiti podršku za sustav Ethereum Name Service (ENS) u pregledniku iBrowe?";
+/* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
+"wallet.ensDomainInterstitialPageTitle" = "Omogućiti podršku za sustav Ethereum Name Service (ENS) u pregledniku Brave?";
 
-/* Title on the button that users can click to enable iBrowe to resolve the ENS offchain lookup for the domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the ENS offchain lookup for the domain they entered. */
 "wallet.ensOffchainDomainInterstitialPageButtonProceed" = "Nastavi s traženjem van tehnologije blokova";
 
-/* Description displayed when users chose iBrowe to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
+/* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave Wallet's offchain lookup privacy considerations. The second '%@' will be replaced with the value of 'ensOffchainDomainInterstitialLearnMore'. */
 "wallet.ensOffchainDomainInterstitialPageDescription" = "Ovaj naziv domene .eth pohranjen je izvan lanca i rješava se pristupnikom treće strane. Ako omogućite pretraživanje ENS-a izvan lanca, putem pristupnika treće strane može se vidjeti da pokušavate posjetiti domenu .eth. <a href=%1$@>%2$@</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
-"wallet.ensOffchainDomainInterstitialPageTitle" = "Omogućiti podršku za traženje sustava za imenovanje tehnologije Ethereum (ENS) van tehnologije blokova u pregledniku iBrowe?";
+/* Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
+"wallet.ensOffchainDomainInterstitialPageTitle" = "Omogućiti podršku za traženje sustava za imenovanje tehnologije Ethereum (ENS) van tehnologije blokova u pregledniku Brave?";
 
 /* Button title when requesting to do an ENS off chain lookup. */
 "wallet.ensOffchainGatewayButton" = "Upotrijebi domenu ENS";
@@ -710,7 +734,7 @@
 "wallet.ensOffchainGatewayDesc" = "Čini se da ste upisali adresu ENS. Za rješavanje ovog zahtjeva moramo upotrijebiti razrješivača treće strane. Na taj način jamčimo da vaša domena .eth ne procuri i da je vaša transakcija sigurna.";
 
 /* Title shown send address / ENS domain when requesting to do an ENS off chain lookup. */
-"wallet.ensOffchainGatewayTitle" = "U pregledniku iBrowe podržava se upotreba pristupnika izvan lanca za rješavanje domena .eth.";
+"wallet.ensOffchainGatewayTitle" = "U pregledniku Brave podržava se upotreba pristupnika izvan lanca za rješavanje domena .eth.";
 
 /* The description for the options to allow Ethereum Name service domain names offchain. '%@' will be replaced with a url to explain more about ENS offchain lookup. */
 "wallet.ensOffchainResolveMethodDescription" = "[Doznajte više](%@) o razmatranjima privatnosti traženja ENS-a izvan lanca.";
@@ -751,6 +775,9 @@
 /* A title displayed in an alert above the error message or description. */
 "wallet.errorAlertTitle" = "Pogreška";
 
+/* A description of an Ethereum account, displayed in Accounts tab. */
+"wallet.ethAccountDescription" = "Ethereum + EVM Chains";
+
 /* A button title displayed in a menu to export an account's private key. */
 "wallet.exportButtonTitle" = "Izvezi";
 
@@ -780,6 +807,9 @@
 
 /* A title of a button which will a new view to display the error. */
 "wallet.failedTransactionViewErrorButtonTitle" = "Prikaži pogrešku";
+
+/* A description of an Filecoin account, displayed in Accounts tab. */
+"wallet.filAccountDescription" = "Filecoin";
 
 /* The title of the modal for filtering Portfolio and NFT views. */
 "wallet.filtersAndDisplaySettings" = "Filtri i postavke prikaza";
@@ -926,7 +956,7 @@
 "wallet.legalTitle" = "Prije nego što započnemo";
 
 /* The responsibility explained in screen for users to check indicates they understand before setting up a wallet. */
-"wallet.legalUserResponsibility" = "Razumijem da je ovo neskrbnički novčanik i da snosim potpunu odgovornost za sva povezana sredstva, imovinu ili račune te za poduzimanje odgovarajućih radnji za jamčenje sigurnosti, zaštitu i sigurnosno kopiranje svog novčanika. Razumijem da društvo iBrowe NE može pristupiti mom novčaniku niti poništiti transakcije u moje ime i da je moja rečenica za oporavak JEDINI način da ponovno dobijem pristup ako izgubim lozinku, ako mi tko ukrade uređaj ili ako nastanu slične okolnosti.";
+"wallet.legalUserResponsibility" = "Razumijem da je ovo neskrbnički novčanik i da snosim potpunu odgovornost za sva povezana sredstva, imovinu ili račune te za poduzimanje odgovarajućih radnji za jamčenje sigurnosti, zaštitu i sigurnosno kopiranje svog novčanika. Razumijem da društvo Brave NE može pristupiti mom novčaniku niti poništiti transakcije u moje ime i da je moja rečenica za oporavak JEDINI način da ponovno dobijem pristup ako izgubim lozinku, ako mi tko ukrade uređaj ili ako nastanu slične okolnosti.";
 
 /* The title of the lock option inside the menu when user clicks the three dots button beside assets search button. */
 "wallet.lock" = "Zaključaj";
@@ -936,6 +966,9 @@
 
 /* The title of the sort option that sorts lowest value to highest value. Used in Portfolio/NFT filters and display settings. */
 "wallet.lowToHighSortOption" = "Od dna prema vrhu";
+
+/* The amount of current permitted wallet accounts to the dapp site. It is displayed below the origin url of the dapp site in manage site connections screen. '%lld' refers to a number, %@ is `account` for singular and `accounts` for plural (for example "1 account" or "2 accounts") */
+"wallet.manageSiteConnectionsAccount" = "%1$lld %2$@";
 
 /* The plural word that will beused in `manageSiteConnectionsAccount`. */
 "wallet.manageSiteConnectionsAccountPlural" = "računi";
@@ -973,8 +1006,26 @@
 /* The title of the edit gas fee screen for EIP-1559 transactions */
 "wallet.maxPriorityFeeTitle" = "Naknada za najv. prioritet";
 
-/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as iBrowe Wallet in wallet settings. */
-"wallet.module" = "Novčanik iBrowe";
+/* The header title of the section that user can pick an account in buy screen in Brave Wallet. */
+"wallet.meldAccountHeaderTitle" = "Račun";
+
+/* The header title of the section that user can pick a country in buy screen in Brave Wallet. */
+"wallet.meldCountryHeaderTitle" = "Zemlja";
+
+/* The header title of the section that user can pick a payment method in buy screen in Brave Wallet. */
+"wallet.meldPaymentMethodHeaderTitle" = "Način plaćanja";
+
+/* The title of the pop up when user first time open buy screen in Brave Wallet. */
+"wallet.meldTransactionPartner" = "Transakcijski partner";
+
+/* The description of the pop up when user first time open buy screen in Brave Wallet. */
+"wallet.meldTransactionPartnerDescription" = "Braveov novčanik koristi Meld.io za pomoć u prikupljanju i prikazivanju različitih pružatelja kripto usluga za vašu regiju. Podijelit ćemo informacije s Meld.io kako bismo dovršili transakciju, uključujući adresu vašeg novčanika i pozivni broj zemlje. Za više informacija pročitajte Meldove uvjete korištenja.";
+
+/* The description of the checkbox for the pop up when user first time open buy screen in Brave Wallet. */
+"wallet.meldTransactionPartnerLegal" = "Pročitao/la sam i slažem se s [Meldovim uvjetima korištenja](%@)";
+
+/* The title shown on the wallet settings page, and the value shown when selecting the default wallet as Brave Wallet in wallet settings. */
+"wallet.module" = "Novčanik Brave";
 
 /* A button title for user to open more option in asset details screen other than buy/send/swap. */
 "wallet.more" = "Više";
@@ -991,7 +1042,7 @@
 /* The title for the label that is shown above the name of the network on a request to switch networks or add a new network from a dapps website. */
 "wallet.networkNameTitle" = "Naziv mreže";
 
-/* A placeholder in Buy Screen, when user switched to a network that iBrowe currently doesn't support token purchasing. */
+/* A placeholder in Buy Screen, when user switched to a network that Brave currently doesn't support token purchasing. */
 "wallet.networkNotSupportedForBuyToken" = "Kupnja nije podržana za odabranu mrežu";
 
 /* The title of the section for primary networks in the network selection view. */
@@ -1022,7 +1073,7 @@
 "wallet.newSiteConnectFooter" = "Povežite se samo s web lokacijama u koje imate povjerenja.";
 
 /* The message displayed below the dapp's origin url in new site connection screen. */
-"wallet.newSiteConnectMessage" = "Povežite se s Novčanikom iBrowe";
+"wallet.newSiteConnectMessage" = "Povežite se s Novčanikom Brave";
 
 /* The transaction edit error alert button which will dismiss the alert. */
 "wallet.newSiteConnectScreenTitle" = "Poveži se";
@@ -1035,6 +1086,12 @@
 
 /* The title an entry that will be displayed in NFT detail. This entry to display this NFT's blockchain */
 "wallet.nftDetailBlockchain" = "Lanac podatkovnih blokova";
+
+/* The title of a section in NFT detail screen that will display NFT's description if there is any. */
+"wallet.nftDetailDescription" = "Description";
+
+/* This is one type of token standard. And most likey this does not need to be translated */
+"wallet.nftDetailERC721" = "ERC 721";
 
 /* A placeholder text, indicates this NFT image was not able to be loaded. */
 "wallet.nftDetailImageNotAvailable" = "Slika nije dostupna";
@@ -1051,6 +1108,9 @@
 /* The title of the button inside NFT detail screen, which user can click to start sending this NFT. */
 "wallet.nftDetailSendNFTButtonTitle" = "Pošalji";
 
+/* This is one type of NFT standard. And most likey this does not need to be translated */
+"wallet.nftDetailSPL" = "SPL";
+
 /* A disclaimer that appears at the bottom of a NFT detail screen which shows NFT image and other information. */
 "wallet.nftDetailSVGImageDisclaimer" = "Gore prikazana slika možda se neće potpuno podudarati s NFT-om";
 
@@ -1061,7 +1121,7 @@
 "wallet.nftDetailTokenStandard" = "Standardni token";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "U Novčaniku iBrowe može se upotrebljavati usluga treće strane za automatsko prikazivanje vaših NFT-ova. Preglednikom iBrowe dijele se vaše adrese novčanika s platformom SimpleHash radi pružanja te usluge. Doznajte više.";
+"wallet.nftDiscoveryCalloutDescription" = "U Novčaniku Brave može se upotrebljavati usluga treće strane za automatsko prikazivanje vaših NFT-ova. Preglednikom Brave dijele se vaše adrese novčanika s platformom SimpleHash radi pružanja te usluge. Doznajte više.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Saznaj više";
@@ -1090,20 +1150,26 @@
 /* The title of the empty state inside NFT tab. */
 "wallet.nftPageEmptyTitle" = "Ovdje još nema NFT-ova.";
 
+/* The title of the tab that will display user's visible NFT assets. */
+"wallet.nftPageTitle" = "NFT";
+
 /* The title of context button for user to do not show a NFT in wallet at all. */
 "wallet.nftRemoveFromWallet" = "Ne prikazuj u novčaniku";
 
 /* The description of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertDescription" = "NFT se uklanja iz novčanika iBrowe, ali ostaje na lancu podatkovnih blokova. Ako ga uklonite, a zatim se predomislite, morate ga ponovno ručno uvesti.";
+"wallet.nftRemoveFromWalletAlertDescription" = "NFT se uklanja iz novčanika Brave, ali ostaje na lancu podatkovnih blokova. Ako ga uklonite, a zatim se predomislite, morate ga ponovno ručno uvesti.";
 
 /* The title of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertTitle" = "Ukloniti iz novčanika iBrowe?";
+"wallet.nftRemoveFromWalletAlertTitle" = "Ukloniti iz novčanika Brave?";
 
 /* The description of the NFTs row in Account Details when user has zero or multiple NFTs. */
 "wallet.nftsDescription" = "Broj NFT-ova: %d";
 
 /* The title of an overlay on top left of the junk NFT grid. */
 "wallet.nftSpam" = "Smeće";
+
+/* The description of the NFTs row in Account Details when user has 1 NFT. */
+"wallet.nftsSingularDescription" = "%d NFT";
 
 /* The title of the settings option inside the menu when user clicks the three dots button beside assets search button with Portfolio tab open. */
 "wallet.nftsTab" = "Kartica NFT-ova";
@@ -1136,7 +1202,7 @@
 "wallet.onboardingCompletedButtonTitle" = "Idi na moj portfelj";
 
 /* The subtitle of the last step of creating a new wallet. */
-"wallet.onbordingCompletedSubTitle" = "Vaš je Novčanik iBrowe spreman za upotrebu.";
+"wallet.onbordingCompletedSubTitle" = "Vaš je Novčanik Brave spreman za upotrebu.";
 
 /* The title of the last step of creating a new wallet. */
 "wallet.onbordingCompletedTitle" = "Spremni ste!";
@@ -1190,10 +1256,34 @@
 "wallet.portfolioPageTitle" = "Portfelj";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Upozorenje: snimka zaslona vašeg privatnog ključa može se sigurnosno kopirati na uslugu datoteka u oblaku i može se čitati svakom aplikacijom s pristupom fotografijama. Društvo iBrowe preporučuje vam da ne spremate ovu snimku zaslona i da je izbrišete što je prije moguće.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Upozorenje: snimka zaslona vašeg privatnog ključa može se sigurnosno kopirati na uslugu datoteka u oblaku i može se čitati svakom aplikacijom s pristupom fotografijama. Društvo Brave preporučuje vam da ne spremate ovu snimku zaslona i da je izbrišete što je prije moguće.";
 
 /* The title for Protocol Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.protocolFeeLabel" = "Naknada za protokol: %@";
+
+/* A label that will display on the provider option to indicate this is the best option. */
+"wallet.providerListBestOption" = "NAJBOLJA OPCIJA";
+
+/* The title of the button that user can use to open the link to buy crypto. */
+"wallet.providerListBuyWith" = "Kupi uslugom %@";
+
+/* One of title that displays under provider option. Exchange rate with fees that this provider offers. */
+"wallet.providerListExchangeRateWithFees" = "Tečaj s naknadama";
+
+/* One of title that displays under provider option. The fees that provider will charge. */
+"wallet.providerListFees" = "Naknade";
+
+/* The description that will show when there is no available provider with givin input. */
+"wallet.providerListNoProviderDescription" = "Pokušajte potražiti druga sredstva.";
+
+/* The title that will show when there is no available provider with givin input. */
+"wallet.providerListNoProviderTitle" = "Nisu pronađeni davatelji usluga za %@";
+
+/* One of title that displays under provider option. The price of the target currency on market. */
+"wallet.providerListPrice" = "Cijena";
+
+/* One of title that displays under provider option. The total cost of this purchase. */
+"wallet.providerListTotal" = "Ukupno";
 
 /* The button title for users to click. It will redirect user to that specific provider website. '%@' will be replaced provider's short name. For example, Buy with Ramp'. */
 "wallet.providerSelectionButtonTitle" = "Kupi uslugom %@";
@@ -1207,11 +1297,8 @@
 /* The title of the button for users to click to select a purchase method. */
 "wallet.purchaseMethodButtonTitle" = "Odaberite način kupnje";
 
-/* The description of one of the 'Ramp.Network' provider. */
-"wallet.rampNetworkProviderDescription" = "Kupite kriptovalute karticom Visa ili Mastercard.";
-
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Upozorenje: snimka zaslona vaše rečenice za oporavak može se sigurnosno kopirati na uslugu datoteka u oblaku i može se čitati svakom aplikacijom s pristupom fotografijama. Društvo iBrowe preporučuje vam da ne spremate ovu snimku zaslona i da je izbrišete što je prije moguće.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Upozorenje: snimka zaslona vaše rečenice za oporavak može se sigurnosno kopirati na uslugu datoteka u oblaku i može se čitati svakom aplikacijom s pristupom fotografijama. Društvo Brave preporučuje vam da ne spremate ovu snimku zaslona i da je izbrišete što je prije moguće.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Osvježite tržišnu cijenu";
@@ -1244,12 +1331,12 @@
 "wallet.repeatedPasswordPlaceholder" = "Ponovno upiši lozinku";
 
 /* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
-"wallet.restoreLegacyBraveWalletToggleTitle" = "Uvoziti iz starijih kriptonovčanika iBrowe?";
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Uvoziti iz starijih kriptonovčanika Brave?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Obnavljanje novčanika";
 
-/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into iBrowe */
+/* The button title for showing the restore wallet screen. As in to use your recovery phrase to bring a wallet into Brave */
 "wallet.restoreWalletButtonTitle" = "Vrati";
 
 /* A button title when 12 recovery-word grids are displayed for users to restore regular wallet. Users can click this button to display the 24 recovery-word grids to restore legacy wallet. */
@@ -1278,9 +1365,6 @@
 
 /* The title for the button to retry a failed transaction. */
 "wallet.retryTransactionButtonTitle" = "Ponovni pokušaj transakcije";
-
-/* The description of one of the 'Sardine' provider. */
-"wallet.sardineProviderDescription" = "Obavljajte trenutne kupnje svojim bankovnim računom. Niže naknade.";
 
 /* A button title for saving the users selected gas fee options. Or to save a custom nonce value. Or to save a custom network */
 "wallet.saveButtonTitle" = "Spremi";
@@ -1345,6 +1429,9 @@
 /* As in sending cryptocurrency to another account */
 "wallet.send" = "Pošalji";
 
+/* An error that appears below the send amount 4 grids when the user inputs an invalid amount format. */
+"wallet.sendAmountFormatError" = "Format iznosa nije valjan";
+
 /* A title above the amount of asset you want to send. '%@' will be replaced with a token symbol such as 'ETH' or 'BAT' */
 "wallet.sendCryptoAmountTitle" = "Upisivanje iznosa u valuti %@ za slanje";
 
@@ -1371,6 +1458,21 @@
 
 /* An error that appears below the send crypto address text field, when the input `To` Filecoin address that is invalid */
 "wallet.sendErrorInvalidRecipientAddress" = "Nevažeća adresa primatelja";
+
+/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address error - network mismatch. */
+"wallet.sendErrorZecAddressNetworkMissmatch" = "Mreže se ne podudaraju";
+
+/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address error - orchard part missing. */
+"wallet.sendErrorZecAddressOrchardPartMissing" = "Nedostaje dio Orchard";
+
+/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address error - transparent part missing. */
+"wallet.sendErrorZecAddressTransparentPartMissing" = "Nedostaje transparentni dio";
+
+/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash address error - wrong transparent address. */
+"wallet.sendErrorZecAddressWrongTransparentAddress" = "Pogrešna transparentna adresa";
+
+/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address. */
+"wallet.sendErrorZecAddressWrongUnifiedAddress" = "Pogrešan format jedinstvene adrese";
 
 /* A placeholder of the address text field. */
 "wallet.sendToCryptoAddressPlaceholder" = "Upišite adresu";
@@ -1439,7 +1541,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Ova se radnja ne može poništiti. Vaša rečenica za oporavak jedini je način da ponovno dobijete pristup računu za svoje kriptoimovine.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Jeste li sigurni da želite ponovno postaviti Novčanik iBrowe?";
+"wallet.settingsResetWalletAlertTitle" = "Jeste li sigurni da želite ponovno postaviti Novčanik Brave?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Dobro došli";
@@ -1448,13 +1550,13 @@
 "wallet.setupCryptoButtonTitle" = "Početak upotrebe";
 
 /* The subtitle displayed in the section for user that need to create a brand new wallet */
-"wallet.setupCryptoCreateNewSubTitle" = "Započnite s upotrebom Novčanika iBrowe u roku od nekoliko minuta.";
+"wallet.setupCryptoCreateNewSubTitle" = "Započnite s upotrebom Novčanika Brave u roku od nekoliko minuta.";
 
 /* The title displayed in the section for user that need to create a brand new wallet */
 "wallet.setupCryptoCreateNewTitle" = "Treba li vam novi novčanik?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023. iBrowe Software Inc. iBrowe i logotip iBrowe registrirani su žigovi društva iBrowe. Ostali nazivi proizvoda i logotipi mogu biti žigovi odgovarajućih društava. Sva prava pridržana.";
+"wallet.setupCryptoDisclaimer" = "©2023. Brave Software Inc. Brave i logotip Brave registrirani su žigovi društva Brave. Ostali nazivi proizvoda i logotipi mogu biti žigovi odgovarajućih društava. Sva prava pridržana.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Uvezite svoj postojeći novčanik.";
@@ -1463,7 +1565,7 @@
 "wallet.setupCryptoRestoreTitle" = "Već imate novčanik?";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Preuzmite kontrolu nad svojim kriptovalutama i NFT-ovima. Novčanik iBrowe podržava platforme: Ethereum, lanci EVM, Solana i više.";
+"wallet.setupCryptoSubtitle" = "Preuzmite kontrolu nad svojim kriptovalutama i NFT-ovima. Novčanik Brave podržava platforme: Ethereum, lanci EVM, Solana i više.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
 "wallet.setupCryptoTitle" = "Izvorno u pregledniku.\nNeskrbništvo.\nViše lanaca.";
@@ -1505,10 +1607,10 @@
 "wallet.signedTransactionTitle" = "Transakcija potpisana";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithBraveWallet" = "Prijava Novčanikom iBrowe";
+"wallet.signInWithBraveWallet" = "Prijava Novčanikom Brave";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithBraveWalletMessage" = "Prijavljujete se u %1$@. Novčanikom iBrowe dijeli se adresa vašeg novčanika s uslugom %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Prijavljujete se u %1$@. Novčanikom Brave dijeli se adresa vašeg novčanika s uslugom %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "Otkriveni uzastopni znakovi za novi redak!";
@@ -1528,53 +1630,59 @@
 /* The title of the view shown over a dapps website that requests the user sign a transaction. */
 "wallet.signTransactionTitle" = "Potpisivanje transakcije";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the address. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the address. */
 "wallet.siweAddressLabel" = "Adresa";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the chain ID. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the chain ID. */
 "wallet.siweChainIDLabel" = "Identifikacijska oznaka bloka";
 
-/* The title of the details view for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The title of the details view for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweDetailsTitle" = "Detalji";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the expiration time. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the expiration time. */
 "wallet.siweExpirationTimeLabel" = "Vrijeme isteka";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the issued at date. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the issued at date. */
 "wallet.siweIssuedAtLabel" = "Izdano:";
 
 /* The label displayed above the Sign In With Ethereum message. */
 "wallet.siweMessageLabel" = "Poruka";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the nonce. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the nonce. */
 "wallet.siweNonceLabel" = "Broj transakcija s iste adrese";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the origin. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the origin. */
 "wallet.siweOriginLabel" = "Podrijetlo";
 
 /* The label displayed above the Sign In With Ethereum resources. */
 "wallet.siweResourcesLabel" = "Resursi";
 
-/* The label displayed on the button to sign in for Sign In With Ethereum/iBrowe Wallet requests. */
+/* The label displayed on the button to sign in for Sign In With Ethereum/Brave Wallet requests. */
 "wallet.siweSignInButtonTitle" = "Prijava";
 
-/* The label displayed in details view for Sign In With Ethereum/iBrowe Wallet requests beside the statement. */
+/* The label displayed in details view for Sign In With Ethereum/Brave Wallet requests beside the statement. */
 "wallet.siweStatementLabel" = "Izjava";
 
-/* The label displayed in details for Sign In With Ethereum/iBrowe Wallet requests beside the version. */
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the URI. */
+"wallet.siweURILabel" = "URI";
+
+/* The label displayed in details for Sign In With Ethereum/Brave Wallet requests beside the version. */
 "wallet.siweVersionLabel" = "Inačica";
 
 /* The button title to skip recovery phrase backup */
 "wallet.skipButtonTitle" = "Preskoči";
 
-/* Title on the button that users can click to enable iBrowe to resolve the SNS domain they entered. */
+/* Title on the button that users can click to enable Brave to resolve the SNS domain they entered. */
 "wallet.snsDomainInterstitialPageButtonProceed" = "Nastavite uporabom poslužitelja SNS";
 
-/* Description displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to iBrowe's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "Društvo iBrowe koristi se trećom stranom za rješavanje naziva domena .sol. Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, treća strana može vidjeti da netko pokušava posjetiti te domene .sol, ali ništa više. Za više informacija o trećim stranama kojima se koristimo i njihovim pravilnicima o zaštiti privatnosti posjetite našu <a href=%@>stranicu za pomoć</a>.";
+/* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
+"wallet.snsDomainInterstitialPageDescription" = "Društvo Brave koristi se trećom stranom za rješavanje naziva domena .sol. Preglednikom Brave skriva se vaša adresa IP. Ako to omogućite, treća strana može vidjeti da netko pokušava posjetiti te domene .sol, ali ništa više. Za više informacija o trećim stranama kojima se koristimo i njihovim pravilnicima o zaštiti privatnosti posjetite našu <a href=%@>stranicu za pomoć</a>.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the SNS to be resolved every time they enter one. */
-"wallet.snsDomainInterstitialPageTitle" = "Omogućiti podršku za Solana Name Service (SNS) u pregledniku iBrowe?";
+/* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
+"wallet.snsDomainInterstitialPageTitle" = "Omogućiti podršku za Solana Name Service (SNS) u pregledniku Brave?";
+
+/* A description of an Solana account, displayed in Accounts tab. */
+"wallet.solAccountDescription" = "Solana + SVM Chains";
 
 /* The title displayed above the System Program AdvanceNonceAccount instruction type for Solana Instruction details. */
 "wallet.solanaAdvanceNonceAccountInstructionName" = "Proslijedi račun nonce";
@@ -1678,8 +1786,8 @@
 /* The title on top of a separater, and the transaction details will be displayed below the separater. */
 "wallet.solanaSignTransactionDetails" = "Detalji";
 
-/* The warning message to let users understand the risk of using iBrowe Wallet to sign any transaction. */
-"wallet.solanaSignTransactionWarning" = "Imajte na umu da se preglednikom iBrowe ’ ne može potvrditi što se događa ako potpišete. Potpisom se mogu ovlastiti gotovo sve radnje na vašem računu ili u vaše ime uključujući (između ostalog) davanje potpune kontrole nad računom i kriptoimovinom mrežnom mjestu s kojeg potječe zahtjev. Potpišite samo ako ste ’ sigurni da želite poduzeti tu radnju i vjerujete tom mrežnom mjestu.";
+/* The warning message to let users understand the risk of using Brave Wallet to sign any transaction. */
+"wallet.solanaSignTransactionWarning" = "Imajte na umu da se preglednikom Brave ’ ne može potvrditi što se događa ako potpišete. Potpisom se mogu ovlastiti gotovo sve radnje na vašem računu ili u vaše ime uključujući (između ostalog) davanje potpune kontrole nad računom i kriptoimovinom mrežnom mjestu s kojeg potječe zahtjev. Potpišite samo ako ste ’ sigurni da želite poduzeti tu radnju i vjerujete tom mrežnom mjestu.";
 
 /* The title displayed above the value of a Solana swap transaction in transaction confirmation view, transaction details view and transaction summary rows. */
 "wallet.solanaSwapTransactionTitle" = "Transakcija razmjene";
@@ -1729,17 +1837,14 @@
 /* The title for the button to speed up a submitted transaction. */
 "wallet.speedUpTransactionButtonTitle" = "Ubrzaj";
 
-/* The description of one of the 'Stripe' provider. */
-"wallet.stripeNetworkProviderDescription" = "Platite kreditnom karticom, debitnom karticom, bankovnim računom";
-
-/* The name of one of the on ramp providers where the first '%@' is `Link` and second '%@' is `Stripe` product names. */
-"wallet.stripeNetworkProviderName" = "%1$@, %2$@";
-
 /* A description explains submitted transaction has been sent to the netwokr and awaits confirmation. */
 "wallet.submittedTransactionDescription" = "Transakcija je uspješno poslana mreži i čeka se potvrda.";
 
 /* A title of transaction signed status view indicating this transaction has been submitted to the network. */
 "wallet.submittedTransactionTitle" = "Transakcija je poslana";
+
+/* As in swapping cryptocurrency from one asset to another */
+"wallet.swap" = "Swap";
 
 /* The description displayed below the name of the token being swapped from and to. Tthe '%@' will be the token's network name. */
 "wallet.swapConfirmationNetworkDesc" = "na mreži %@";
@@ -1771,11 +1876,14 @@
 /* The title for Slippage tolerance field. User will choose the tolerance for slippage as a percentage value */
 "wallet.swapCryptoSlippageTitle" = "Tolerancija prekoračenja";
 
+/* The title of the button for users to click when they want to swap between two cryptos */
+"wallet.swapCryptoSwapButtonTitle" = "Swap";
+
 /* A title above the cryptocurrency token/asset you are swapping to. For example this would appear over a cell that has the 'BAT' token selected */
 "wallet.swapCryptoToTitle" = "Primatelj";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "Preglednikom iBrowe trenutačno se ne podržava razmjena za mrežu %@. Prijeđite na podržan lanac.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Preglednikom Brave trenutačno se ne podržava razmjena za mrežu %@. Prijeđite na podržan lanac.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Nepodržani lanac";
@@ -1783,11 +1891,11 @@
 /* The description of a swap button on the buy/send/swap/deposit modal */
 "wallet.swapDescription" = "Zamijenite tokene i imovinu.";
 
-/* A longer disclaimer about the DEX aggrigator used by iBrowe for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
+/* A longer disclaimer about the DEX aggrigator used by Brave for swap transactions. The first '%@' is a company name. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange). 'ONLY' is emphasized to show importance of the company's data usage. */
 "wallet.swapDexAggrigatorDisclaimer" = "%1$@ obrađuje adresu %2$@ i adresu IP radi obavljanja transakcije (uključujući dobivanje ponuda). %3$@ upotrebljava ove podatke ISKLJUČIVO u svrhe obrađivanja transakcija.";
 
 /* A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "Preglednikom iBrowe upotrebljava se %@ kao agregator DEX.";
+"wallet.swapDexAggrigatorNote" = "Preglednikom Brave upotrebljava se %@ kao agregator DEX.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Ograničenej";
@@ -1927,6 +2035,9 @@
 /* The label used to describe a transaction type. Used like 'Send from' or 'Approved from'. */
 "wallet.transactionSummaryIntentLabel" = "Od: %@";
 
+/* The label to describe an Solana Swap transaction. */
+"wallet.transactionSummarySolanaSwap" = "Solana Swap";
+
 /* The label to describe an Swap transaction. */
 "wallet.transactionSummarySwapOn" = "Zamjena";
 
@@ -1938,9 +2049,6 @@
 
 /* A title shown for a erc 20 transfer. The first '%@' becomes the symbol for the cryptocurrency For example: "Sent ETH" */
 "wallet.transactionUnknownSendTitle" = "Poslano: %@";
-
-/* The description of one of the 'Transak' provider. */
-"wallet.transakProviderDescription" = "Obavljajte trenutne kupnje svojim bankovnim računom. Niže naknade.";
 
 /* Blockchain function name for Solana compressed NFT transfers. */
 "wallet.txFunctionTypeCompressedNFTTransfer" = "Komprimirani prijenos NFT";
@@ -1972,6 +2080,9 @@
 /* Blockchain function name for Solana SPL token transfer with associated token account creation. */
 "wallet.txFunctionTypeSplWithAssociatedTokenAccountCreation" = "Prijenos tokena SPL s pridruženim stvaranjem računa tokena";
 
+/* Blockchain function name for swap. */
+"wallet.txFunctionTypeSwap" = "Swap";
+
 /* Blockchain function name for non-native token transfers. */
 "wallet.txFunctionTypeTokenTransfer" = "Prijenos tokena";
 
@@ -1996,8 +2107,7 @@
 /* The transaction type (verb) in the submitted transaction status screen. This copy indicates this is a send transaction waitings for getting completed. */
 "wallet.txStatusSending" = "Slanje";
 
-/* The message after the title when a send transaction failed to be confirmed on the blockchain.
-The message after the title when a swap transaction failed to be confirmed on the blockchain. */
+/* The message after the title when a send transaction failed to be confirmed on the blockchain. */
 "wallet.txStatusSendTxErrorMsg" = "Došlo je do pogreške prilikom pokušaja slanja";
 
 /* The title of the message when a send transaction failed to be confirmed on the blockchain. */
@@ -2009,14 +2119,14 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The message when a sign transaction is completed/confirmed on the blockchain. */
 "wallet.txStatusSignedConfirmedMsg" = "Transakcija je potpisana i šalje se mreži decentraliziranim aplikacijama te se čeka potvrda.";
 
-/* The text in the disclosure view in transaction status screen. */
-"wallet.txStatusSubmittedDisclosure" = "Možete sigurno odbaciti ovaj zaslon.";
-
 /* A message explains an ETH Swap transaction is confirmed on the blockchain. */
 "wallet.txStatusSwappedMsg" = "je dodano na vašem";
 
 /* The transaction type (verb) in the submitted transaction status screen. This copy indicates this is a swap transaction waitings for getting completed. */
 "wallet.txStatusSwapping" = "Razmjena";
+
+/* The message after the title when a swap transaction failed to be confirmed on the blockchain. */
+"wallet.txStatusSwapTxErrorMsg" = "Došlo je do greške prilikom pokušaja razmjene";
 
 /* The title of the message when a swap transaction failed to be confirmed on the blockchain. */
 "wallet.txStatusSwapTxErrorTitle" = "Nije moguće zamijeniti";
@@ -2027,11 +2137,17 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The title for the button. User would tap on this button to view the transaction status in the `Activity` tab. */
 "wallet.txStatusViewInActivity" = "Prikaži u aktivnosti";
 
-/* Description displayed when users chose iBrowe to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.udDomainInterstitialPageDescription" = "U pregledniku iBrowe upotrebljava se platforma Infura za rješavanje naziva domena .crypto (i %1$@) koje se nalaze na platformi Unstoppable Domains. Preglednikom iBrowe skriva se vaša adresa IP. Ako to omogućite, putem platforme Infura moguće je vidjeti da netko pokušava posjetiti te domene, ali ništa više. Pogledajte <a href=%2$@>%3$@</a> i <a href=%4$@>%5$@</a> platforme Infura.";
+/* The text in the disclosure view in transaction status screen. */
+"wallet.txStatusSubmittedDisclosure" = "Možete sigurno odbaciti ovaj zaslon.";
 
-/* Title displayed when users chose iBrowe to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
-"wallet.udDomainInterstitialPageTitle" = "Omogući podršku za nezaustavljive domene u pregledniku iBrowe?";
+/* The title displays in confirmation screen when there is no more pending transaction. */
+"wallet.txConfirmationNoMorePendingTitle" = "Nema transakcija na čekanju";
+
+/* Description displayed when users chose Brave to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
+"wallet.udDomainInterstitialPageDescription" = "U pregledniku Brave upotrebljava se platforma Infura za rješavanje naziva domena .crypto (i %1$@) koje se nalaze na platformi Unstoppable Domains. Preglednikom Brave skriva se vaša adresa IP. Ako to omogućite, putem platforme Infura moguće je vidjeti da netko pokušava posjetiti te domene, ali ništa više. Pogledajte <a href=%2$@>%3$@</a> i <a href=%4$@>%5$@</a> platforme Infura.";
+
+/* Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
+"wallet.udDomainInterstitialPageTitle" = "Omogući podršku za nezaustavljive domene u pregledniku Brave?";
 
 /* The description for the options to allow Unstoppable Domain domain names. '%@' will be replaced with a url to explain more about Unstoppable Domains. */
 "wallet.udResolveMethodDescription" = "[Doznajte više](%@) o razmatranjima privatnosti platforme Unstoppable Domains.";
@@ -2084,7 +2200,7 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* A button title when a user will tap to reveal the recovery phrases. */
 "wallet.viewRecoveryPhraseButtonTitle" = "Prikaži moju rečenicu za oporavak";
 
-/* The title shown on the menu to access iBrowe Wallet */
+/* The title shown on the menu to access Brave Wallet */
 "wallet.wallet" = "Novčanik";
 
 /* The label read out when a user is using VoiceOver and highlights the two-arrow button on the wallet panel top left corner. */
@@ -2114,22 +2230,25 @@ The message after the title when a swap transaction failed to be confirmed on th
 /* The message of a confirmation dialog when attempting to remove an account. Or the title of a confirmation dialog when attempting to remove all wallet connection for one or more websites */
 "wallet.warningAlertConfirmation" = "Jeste li sigurni?";
 
-/* Title on the button that users can click to disable iBrowe to resolve the ENS/SNS domain they entered. */
+/* The title shown on the settings menu to Web3 settings. */
+"wallet.web3" = "Web3";
+
+/* Title on the button that users can click to disable Brave to resolve the ENS/SNS domain they entered. */
 "wallet.web3DomainInterstitialPageButtonDisable" = "Onemogući";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the privay policy webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPagePrivacyPolicy" = "pravilnik o zaštiti privatnosti";
 
-/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that iBrowe uses to resolve SNS domain. */
+/* Hyper link copy displayed as part of 'snsDomainInterstitialPageDescription'. It will redirect user to the 'terms of use' webpage of the server that Brave uses to resolve SNS domain. */
 "wallet.web3DomainInterstitialPageTAndU" = "odredbe upotrebe";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means iBrowe will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Ask' means Brave will ask user first before enable or disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionAsk" = "Pitaj";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means iBrowe will disable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Disabled' means Brave will disable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionDisabled" = "Onemogućeno";
 
-/* One of the options for iBrowe to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means iBrowe will enable resolving ENS/SNS domain name and IPFS scheme url. */
+/* One of the options for Brave to handle Ethereum/Solana Name Service domain name and IPFS scheme url. 'Enabled' means Brave will enable resolving ENS/SNS domain name and IPFS scheme url. */
 "wallet.web3DomainOptionEnabled" = "Omogućeno";
 
 /* The header for the options to resolve Solana Name service domain names. */
@@ -2164,6 +2283,9 @@ The message after the title when a swap transaction failed to be confirmed on th
 
 /* The footer of the toggle for user to enable/disable NFT discovery inside Web3 settings. */
 "wallet.web3SettingsEnableNFTDiscoveryFooter" = "Automatski dodajte NFT-ove koje imate u Novčanik s pomoću API-ja treće strane. [Doznajte više](%@)";
+
+/* A description of an ZCash account, displayed in Accounts tab. */
+"wallet.zecAccountDescription" = "ZCash";
 
 /* The title of the sort option that sorts alphabetically from Z to A. Used in Portfolio/NFT filters and display settings. */
 "wallet.zToASortOption" = "Od Z do A";

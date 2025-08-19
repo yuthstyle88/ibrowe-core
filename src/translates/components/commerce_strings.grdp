@@ -9,7 +9,7 @@
       Get discount on <ph name="MERCHANT_NAME">$1</ph> and more
     </message>
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_CONTENT" desc="Text shown on the consent bubble asking if users would like to give their consent to the feature.">
-      Let iBrowe use your carts to find personalized discounts when available
+      Let Brave use your carts to find personalized discounts when available
     </message>
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_NO_THANKS" desc="Text shown on the reject button of the consent bubble. By clicking this button, users has chosen not to accept the consent.">
       No thanks
@@ -18,30 +18,30 @@
       Get discounts
     </message>
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_ACCEPTED_CONFIRMATION_TITLE" desc="The title shown on the consent confirmation bubble after the user has accepted the consent.">
-      iBrowe will find discounts for you
+      Brave will find discounts for you
     </message>
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_ACCEPTED_CONFIRMATION_CONTENT" desc="The text shown on the consent confirmation bubble telling user where to look for discounts.">
-      When iBrowe finds available discounts, they will show during checkout
+      When Brave finds available discounts, they will show during checkout
     </message>
     <message name="IDS_DISCOUNT_CONTEXTUAL_CONSENT_ACCEPTED_CONFIRMATION_DONE" desc="The text shown on the consent confirmation bubble bubble. User can click this button to close the bubble.">
       Done
     </message>
     <!-- Discount consent strings -->
-    <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_ACCEPT_BUTTON" desc="Text shown on the accept button of the consent dialog. By clicking this button, users has chosen to accept the consent to let iBrowe find discounts for your carts.">
+    <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_ACCEPT_BUTTON" desc="Text shown on the accept button of the consent dialog. By clicking this button, users has chosen to accept the consent to let Brave find discounts for your carts.">
       Yes, I'm in
     </message>
     <!-- This string can skip translation because the feature is targeted en-us locale. Only the
          en-us user can access the feature UI. -->
     <!-- TODO(crbug.com/40241740): Remove the special character and enable translation. -->
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_TITLE" translateable="false" desc="The title shown on the native consent dialog for getting discount.">
-      Let iBrowe help you find&#13;discounts for your carts
+      Let Brave help you find&#13;discounts for your carts
     </message>
 
     <message name="IDS_NATIVE_NTP_CART_DISCOUNT_CONSENT_BODY" desc="The actual consent descrition that shows in the native consent dialog.">
-      Let iBrowe use your carts to search for personalized discounts. When available, discounts will automatically show up on your carts.
+      Let Brave use your carts to search for personalized discounts. When available, discounts will automatically show up on your carts.
     </message>
     <message name="IDS_NTP_CART_DISCOUNT_STEP_ONE_CONTENT" desc="Text shown in the consent card within the cart module. This is the first step of the discount consent flow.">
-      Let iBrowe help you find discounts for your carts
+      Let Brave help you find discounts for your carts
     </message>
 
     <!-- For Desktop Price Tracking -->
@@ -67,10 +67,10 @@
       Try again
     </message>
     <message name="IDS_OMNIBOX_TRACK_PRICE_DIALOG_TITLE_FIRST_RUN" desc="The title text for the dialog that is shown at the first time a user tracks the product displayed on the current web page.">
-      Track prices with iBrowe
+      Track prices with Brave
     </message>
     <message name="IDS_OMNIBOX_TRACK_PRICE_DIALOG_DESCRIPTION_FIRST_RUN" desc="The description text for the dialog that is shown at the first time a user tracks the product displayed on the current web page. It describes what will happen when price tracking is initiated, and tells users which bookmarks folder this page will be saved.">
-      You’ll get email alerts if the price drops on any site. This page will be saved to <ph name="LAST_BOOKMARKS_FOLDER">$1<ex>Other Bookmarks</ex></ph>.
+      You’ll get email alerts if the price drops on any site. This page will be saved to the bookmark folder <ph name="LAST_BOOKMARKS_FOLDER">$1<ex>Other Bookmarks</ex></ph>.
     </message>
     <message name="IDS_OMNIBOX_TRACK_PRICE_DIALOG_CANCEL_BUTTON" desc="The button text for the dialog that is shown at the first time a user tracks the product displayed on the current web page. User can click this button to dismiss this dialog.">
       Cancel
@@ -330,6 +330,9 @@
     <message name="IDS_DISCOUNT_USE_THIS_CODE_AT_CHECKOUT_WITH_EXPIRATION_DATE" desc="Text shown in the discount dialog to tell users where to use the discount code and the discount expiration date.">
       Use this code at checkout. Valid until <ph name="DATE">$1<ex>2023-01-01</ex></ph>.
     </message>
+    <message name="IDS_DISCOUNT_USE_THIS_CODE_AT_CHECKOUT" desc="Text shown in the discount dialog to tell users where to use the discount code.">
+      Use this code at checkout.
+    </message>
     <message name="IDS_DISCOUNT_EXPIRATION_DATE" desc="Text shown in the discount dialog to tell users the discount expiration date.">
       Valid until <ph name="DATE">$1<ex>2023-01-01</ex></ph>.
     </message>
@@ -359,40 +362,40 @@
   <!-- Android only -->
   <if expr="is_android">
     <!-- For Android Price Tracking -->
-    <message name="IDS_PRICE_ANNOTATIONS_SETTINGS_TITLE" desc="The title text for price annotations settings in iBrowe services. User can turn on or off the toggle next to this item to manage whether they want to see price drops on their open tabs.">
+    <message name="IDS_PRICE_ANNOTATIONS_SETTINGS_TITLE" desc="The title text for price annotations settings in Brave services. User can turn on or off the toggle next to this item to manage whether they want to see price drops on their open tabs.">
       Show price drops on tabs
     </message>
-    <message name="IDS_PRICE_ANNOTATIONS_SETTINGS_DESCRIPTION" desc="The description text for price annotations settings in iBrowe services. User can turn on or off the toggle next to this item to manage whether they want to see price drops on their open tabs.">
+    <message name="IDS_PRICE_ANNOTATIONS_SETTINGS_DESCRIPTION" desc="The description text for price annotations settings in Brave services. User can turn on or off the toggle next to this item to manage whether they want to see price drops on their open tabs.">
       Price drop alerts will show up on your open tabs
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_TITLE" desc="The title text for price notifications settings in iBrowe services. User can click into this item to view the detailed settings." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_TITLE" desc="The title text for price notifications settings in Brave services. User can click into this item to view the detailed settings." formatter_data="android_java">
       Get price tracking notifications
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_DESCRIPTION" desc="The description text for price notifications settings in iBrowe services. User can click into this item to view the detailed settings." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_DESCRIPTION" desc="The description text for price notifications settings in Brave services. User can click into this item to view the detailed settings." formatter_data="android_java">
       Manage mobile and email notifications
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_DETAILED_PAGE_TITLE" desc="The title text for the detailed page settings of price notifications in iBrowe services." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_DETAILED_PAGE_TITLE" desc="The title text for the detailed page settings of price notifications in Brave services." formatter_data="android_java">
       Price tracking notifications
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_DETAILED_PAGE_DESCRIPTION" desc="The description text for the detailed page settings of price notifications in iBrowe services." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_DETAILED_PAGE_DESCRIPTION" desc="The description text for the detailed page settings of price notifications in Brave services." formatter_data="android_java">
       Manage how you receive price drop alerts for products you track
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_MOBILE_TITLE" desc="The title text for managing mobile price drop popup notifications shown on the detailed page settings in iBrowe services." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_MOBILE_TITLE" desc="The title text for managing mobile price drop popup notifications shown on the detailed page settings in Brave services." formatter_data="android_java">
       Mobile
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_MOBILE_DESCRIPTION_ON" desc="The description text for managing mobile price drop popup notifications when the notification is currently enabled. Shown on the detailed page settings in iBrowe services. It tells users that they can disable the popup notification in the iBrowe notification settings." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_MOBILE_DESCRIPTION_ON" desc="The description text for managing mobile price drop popup notifications when the notification is currently enabled. Shown on the detailed page settings in Brave services. It tells users that they can disable the popup notification in the Brave notification settings." formatter_data="android_java">
       Price drop alerts are on. You can change this in <ph name="BEGIN_LINK">&lt;link&gt;</ph><ph name="NOTIFICATION_SETTINGS">%1$s<ex>settings</ex></ph><ph name="END_LINK">&lt;/link&gt;</ph>.
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_MOBILE_DESCRIPTION_OFF" desc="The description text for managing mobile price drop popup notifications when the notification is currently disabled. Shown on the detailed page settings in iBrowe services. It tells users that they can enable the popup notification in the iBrowe notification settings." formatter_data="android_java">
-      iBrowe notifications must be on. You can turn them on in <ph name="BEGIN_LINK">&lt;link&gt;</ph><ph name="NOTIFICATION_SETTINGS">%1$s<ex>settings</ex></ph><ph name="END_LINK">&lt;/link&gt;</ph>.
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_MOBILE_DESCRIPTION_OFF" desc="The description text for managing mobile price drop popup notifications when the notification is currently disabled. Shown on the detailed page settings in Brave services. It tells users that they can enable the popup notification in the Brave notification settings." formatter_data="android_java">
+      Brave notifications must be on. You can turn them on in <ph name="BEGIN_LINK">&lt;link&gt;</ph><ph name="NOTIFICATION_SETTINGS">%1$s<ex>settings</ex></ph><ph name="END_LINK">&lt;/link&gt;</ph>.
     </message>
-    <message name="IDS_CHROME_NOTIFICATION_SETTINGS_FOR_PRICE_TRACKING" desc="The button text within the description for managing mobile price drop popup notifications. When user clicks this button, we send them to the iBrowe notification settings." formatter_data="android_java">
+    <message name="IDS_CHROME_NOTIFICATION_SETTINGS_FOR_PRICE_TRACKING" desc="The button text within the description for managing mobile price drop popup notifications. When user clicks this button, we send them to the Brave notification settings." formatter_data="android_java">
       settings
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_EMAIL_TITLE" desc="The title text for managing price drop email notifications shown on the detailed page settings in iBrowe services. User can turn on or off the toggle next to this item to manage whether they want to receive price drop emails." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_EMAIL_TITLE" desc="The title text for managing price drop email notifications shown on the detailed page settings in Brave services. User can turn on or off the toggle next to this item to manage whether they want to receive price drop emails." formatter_data="android_java">
       Email
     </message>
-    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_EMAIL_DESCRIPTION" desc="The description text for managing price drop email notifications shown on the detailed page settings in iBrowe services. User can turn on or off the toggle next to this item to manage whether they want to receive price drop emails." formatter_data="android_java">
+    <message name="IDS_PRICE_NOTIFICATIONS_SETTINGS_EMAIL_DESCRIPTION" desc="The description text for managing price drop email notifications shown on the detailed page settings in Brave services. User can turn on or off the toggle next to this item to manage whether they want to receive price drop emails." formatter_data="android_java">
       Send to <ph name="EMAIL_ADDRESS">%1$s<ex>example@google.com</ex></ph>
     </message>
   </if>
@@ -476,7 +479,7 @@
   <message name="IDS_PRICE_HISTORY_TITLE_WITH_VARIANTS" desc="The title of the Price History section in the Shopping Insights side panel when we have variants.">
     Price History Across the Web for This Option
   </message>
-  <message name="IDS_IOS_PRICE_INSIGHTS_PRICE_TRACK_PERMISSION_REDIRECT_ALERT_TITLE" desc="The title for the UIAlert that redirects the user to iOS' application settings for iBrowe.">
+  <message name="IDS_IOS_PRICE_INSIGHTS_PRICE_TRACK_PERMISSION_REDIRECT_ALERT_TITLE" desc="The title for the UIAlert that redirects the user to iOS' application settings for Brave.">
      Turn on price tracking notifications
   </message>
   <message name="IDS_IOS_PRICE_INSIGHTS_PRICE_TRACK_PERMISSION_REDIRECT_ALERT_MESSAGE" desc="The description that argues why push notification permission is necessary for price tracking.">
@@ -485,7 +488,7 @@
   <message name="IDS_IOS_PRICE_INSIGHTS_PRICE_TRACK_PERMISSION_REDIRECT_ALERT_CLOSE" desc="The label for the alert's close button.">
     Close
   </message>
-  <message name="IDS_IOS_PRICE_INSIGHTS_PRICE_TRACK_PERMISSION_REDIRECT_ALERT_REDIRECT" desc="The label for the alert's button that redirects the user to iBrowe's application settings in iOS.">
+  <message name="IDS_IOS_PRICE_INSIGHTS_PRICE_TRACK_PERMISSION_REDIRECT_ALERT_REDIRECT" desc="The label for the alert's button that redirects the user to Brave's application settings in iOS.">
     Settings
   </message>
   <message name="IDS_PRICE_INSIGHTS_UNTRACK_SNACKBAR_MESSAGE" desc="The snackbar title for Price Insights when the user successfully untrack a product.">
@@ -540,6 +543,9 @@
     <message name="IDS_DISCOUNT_CODE_COPIED_BUTTON_TEXT" desc="The copy button text. User uses this button to copy the discount code, so that they can paste the code during checkout. This text will show on the button after user has clicked on the copy button to indicate that the discount code has been copied." formatter_data="android_java">
       Copied
     </message>
+    <message name="IDS_DISCOUNT_COPY_BUTTON_ACTION_DESCRIPTION" desc="Accessibility string that describes the copy button action to copy discount code." formatter_data="android_java" translateable="false">
+      Copy discount code
+    </message>
     <message name="IDS_DISCOUNT_CONTAINER_TITLE" desc="The title of the discount container, indicating the discount section in the commerce bottom sheet." formatter_data="android_java" translateable="false">
       Discounts
     </message>
@@ -580,7 +586,7 @@
     Delete comparison table
   </message>
   <message name="IDS_COMPARE_DISCLAIMER" desc="Disclaimer text shown in tab compare UIs.">
-    The tab titles and URLs of pages you add to the table are sent to iBrowe, saved to your account <ph name="EMAIL">$1<ex>test@gmail.com</ex></ph>, and may be seen by human reviewers to improve this feature.
+    The tab titles and URLs of pages you add to the table are sent to Brave, saved to your account <ph name="EMAIL">$1<ex>test@gmail.com</ex></ph>, and may be seen by human reviewers to improve this feature.
   </message>
   <message name="IDS_COMPARE_EMPTY_PRODUCT_SELECTOR" desc="The text displayed in the product selector when there is no currently selected product.">
     Add a tab
@@ -718,6 +724,9 @@
   <message name="IDS_COMPARE_UNDO_TABLE_DELETION" desc="Label for the undo button displayed after deleting one or more comparison tables.">
     Undo
   </message>
+  <message name="IDS_COMPARE_DESCRIPTION_NOT_AVAILABLE" desc="The tooltip displayed when a description or value is not available for an attribute for a product.">
+    Not available
+  </message>
   <!-- For Compare Disclosure -->
   <message name="IDS_COMPARE_DISCLOSURE_TITLE" desc="The text for the title of the Compare first-run experience disclosure bubble.">
     Compare similar products side-by-side
@@ -728,8 +737,8 @@
   <message name="IDS_COMPARE_DISCLOSURE_ABOUT_AI_ITEM" desc="The text for the Compare disclosure item that states that the feature uses AI.">
     This feature uses AI and won't always get it right
   </message>
-  <message name="IDS_COMPARE_DISCLOSURE_TAB_ITEM" desc="The text for the Compare disclosure item that states what tab data is shared with iBrowe.">
-    The tab titles and URLs of pages you add to the table are sent to iBrowe
+  <message name="IDS_COMPARE_DISCLOSURE_TAB_ITEM" desc="The text for the Compare disclosure item that states what tab data is shared with Brave.">
+    The tab titles and URLs of pages you add to the table are sent to Brave
   </message>
   <message name="IDS_COMPARE_DISCLOSURE_ACCOUNT_ITEM" desc="The text for the Compare disclosure item that states where the data is stored.">
     Comparison tables are saved to your account <ph name="EMAIL">$1<ex>test@gmail.com</ex></ph>

@@ -31,6 +31,9 @@
 /* A label read by VoiceOver accessibility technology that indicates the button will display playback speed options */
 "playlist.accessibilityPlaybackSpeed" = "Vitesse de lecture";
 
+/* A label read by VoiceOver accessibility technology that indicates the button will play the previous item in the queue */
+"playlist.accessibilityPreviousItem" = "Élément précédent";
+
 /* A label read by VoiceOver accessibility technology that indicates the repeat mode button is toggled to the All option (repeats entire playlist) */
 "playlist.accessibilityRepeatModeAll" = "Mode Répéter la playlist";
 
@@ -74,7 +77,7 @@
 "playlist.editPlaylist" = "Modifier la playlist";
 
 /* A button title that when tapped will allow the user to edit the selected playlist. */
-"playlist.editPlaylistShortTitle" = "Édition";
+"playlist.editPlaylistShortTitle" = "Modifier";
 
 /* A subtitle shown when no search query is entered in the search bar on the search page */
 "playlist.emptySearchQuerySubtitle" = "Saisissez du texte pour rechercher vos fichiers audio et vidéos enregistrés";

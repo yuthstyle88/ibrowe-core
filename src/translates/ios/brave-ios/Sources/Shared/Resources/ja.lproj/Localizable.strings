@@ -92,16 +92,10 @@
 "ScanQRCodeInvalidDataErrorMessage" = "データが無効です";
 
 /* Text of the prompt user to setup the camera authorization. */
-"ScanQRCodePermissionErrorMessage" = "「設定」->「プライバシー」->「カメラ」で iBrowe がデバイスのカメラにアクセスすることを許可してください。";
+"ScanQRCodePermissionErrorMessage" = "「設定」->「プライバシー」->「カメラ」で Brave がデバイスのカメラにアクセスすることを許可してください。";
 
 /* Title for the QR code scanner view. */
 "ScanQRCodeViewTitle" = "QRコードをスキャンする";
-
-/* The text label of creative search result ad infobar message. */
-"SearchResultAdClickedInfoBarTitle" = "プライベート広告をクリックしてBraveサーチをサポートしてくださり、ありがとうございます。私たちはビッグテックとは異なり、あなたのプライバシーを保護するために匿名で広告パフォーマンスを測定しています。";
-
-/* The text label of creative search result ad learn more / opt out choices link. */
-"SearchResultAdClickedLearnMoreOptOutChoicesLabel" = "詳細 / オプトアウトの選択";
 
 /* General settings section title */
 "SettingsGeneralSectionTitle" = "一般";
@@ -124,8 +118,8 @@
 /* Title of the 'Add Pass Failed' alert. See https://support.apple.com/HT204003 for context on Wallet. */
 "UnableToAddPassErrorTitle" = "パスを追加できませんでした";
 
-/* The message displayed to a user when they try to open a URL that cannot be handled by iBrowe, or any external app. */
-"UnableToOpenURLError" = "アドレスが無効なため iBrowe はページを開けません。";
+/* The message displayed to a user when they try to open a URL that cannot be handled by Brave, or any external app. */
+"UnableToOpenURLError" = "アドレスが無効なため Brave はページを開けません。";
 
 /* Title of the message shown when the user attempts to navigate to an invalid link. */
 "UnableToOpenURLErrorTitle" = "ページを開けません";

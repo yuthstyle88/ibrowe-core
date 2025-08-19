@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
-"altAppIcon.braveIconsHeader" = "iBrowe Simgeler";
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Brave Simgeler";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Uygulama Simgesini Değiştir";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "Varsayılan";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -31,6 +31,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "Yeni Gizli Sekme";
 
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Daha fazla bilgi edinin / tercihleri devre dışı bırakın";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "Sponsorlu arka plan görselleri Brave'in bağımsız, kullanıcı öncelikli bir Web oluşturma misyonunu destekliyor. Ve Teknoloji Devleri'nin aksine, gizliliğinizi korumak için reklam performansını anonim olarak ölçüyoruz.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Yeni Sekme";
 
@@ -43,6 +49,18 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "brave.com adresinden zaten satın aldınız mı?";
 
+/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
+"paywall.appStoreCheckoutOptionSubtitle" = "Tam Fiyat";
+
+/* The checkout option that lets the user use Apple's standard App Store puchase flow */
+"paywall.appStoreCheckoutOptionTitle" = "App Store";
+
+/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
+"paywall.braveAccountCheckoutOptionSubtitle" = "%2$@ indirim için **%1$@** kodu";
+
+/* The checkout option that lets the user use Brave's own purchase flow */
+"paywall.braveAccountCheckoutOptionTitle" = "Brave Hesabı";
+
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "Promosyon kodunuz var mı?";
 
@@ -52,11 +70,23 @@
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "Kimlik bilgilerinizi yenileyin";
 
+/* Text shown above buttons that give the user the option to choose a checkout option */
+"paywall.startTrialSubtitle" = "Sizin için uygun olan ödeme yöntemini seçin:";
+
+/* Text shown above buttons that give the user the option to start a trial */
+"paywall.startTrialTitle" = "7 günlük ücretsiz denemenizi başlatın";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "Kapatılan Sekmeyi Yeniden Aç";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "Sayfayı Yeniden Yükle";
+
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Daha fazla bilgi edinin / tercihleri devre dışı bırakın";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "Özel bir reklama tıklayarak Brave Arama'yı desteklediğiniz için teşekkür ederiz. Teknoloji Devleri'nin aksine, gizliliğinizi korumak için reklam performansını anonim olarak ölçüyoruz.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Konum Çubuğu Seç";
@@ -76,8 +106,8 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "Önceki Sekmeyi Göster";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
-"showShieldsTitle" = "iBrowe Kalkanları'nı Aç";
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "Brave Kalkanları'nı Aç";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "Tüm Sekmeleri Göster";
@@ -86,10 +116,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "Uygulama Sürümü";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo (Aylık)";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo (Aylık)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Aslan (Yıllık)";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Aslan (Yıllık)";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "Üzgünüz, App Store fişi bulunamadı";
@@ -131,16 +161,22 @@
 "storekitReceiptViewer.shareReceiptTitle" = "Hisse Makbuzu";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN (Aylık)";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN (Aylık)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN (Yıllık)";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN (Yıllık)";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "Normal Gezinme Modu";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "Gizli Gezinme Modu";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "Dosya indirilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "Dosya İndirilemedi";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "Yakınlaştır";

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- iBrowe Settings WebUI strings (included from ibrowe_generated_resources.grd). -->
+<!-- Brave Settings WebUI strings (included from brave_generated_resources.grd). -->
 <grit-part>
 
   <!--Add new items to the appropriate sections below -->
 
   <!-- Strings not associated with a particular section-->
-  <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch iBrowe">
-    Your changes will take effect the next time you relaunch iBrowe.
+  <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch Brave">
+    Your changes will take effect the next time you relaunch Brave.
   </message>
-  <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch iBrowe">
+  <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch Brave">
     Relaunch Now
   </message>
   <message name="IDS_SETTINGS_SELECT_VALUE_YES" desc="Select value">
@@ -26,50 +26,50 @@
     Get started
   </message>
 
-  <!-- <iBrowe Account> -->
+  <!-- <Brave Account> -->
   <!-- Row: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the iBrowe Account row in the Get Started section">
-    Sign in or create a iBrowe account
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the Brave Account row in the Get Started section">
+    Sign in or create a Brave account
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_DESCRIPTION" translateable="false" desc="Description of the iBrowe Account row in the Get Started section">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_DESCRIPTION" translateable="false" desc="Description of the Brave Account row in the Get Started section">
+    A Brave account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_GET_STARTED_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Entry' dialog">
     Get started
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_MANAGE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to their iBrowe Account settings">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_MANAGE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to their Brave Account settings">
     Manage account
   </message>
 
   <!-- 'Entry' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can choose to create a iBrowe Account, or sign in">
-    Get started with your iBrowe account
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can choose to create a Brave Account, or sign in">
+    Get started with your Brave account
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can choose to create a iBrowe Account, or sign in">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can choose to create a Brave Account, or sign in">
+    A Brave account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_CREATE_BRAVE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Create' dialog">
-    Create a iBrowe account
+    Create a Brave account
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ALREADY_HAVE_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Sign In' dialog">
     Already have an account? Sign in
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SELF_CUSTODY_DESCRIPTION" translateable="false" desc="Description of the self-custody option which we provide for advanced users">
-    For advanced users, we also support self-custody of your iBrowe account keys for an extra layer of privacy. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
+    For advanced users, we also support self-custody of your Brave account keys for an extra layer of privacy. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SELF_CUSTODY_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the self-custody settings">
     Use self-custody
   </message>
 
   <!-- 'Create' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can create their iBrowe Account">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can create their Brave Account">
     Create your account
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their iBrowe Account">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their Brave Account">
+    A Brave account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @ibrowealias.com email address when creating their iBrowe Account">
-    You can't use @ibrowealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @bravealias.com email address when creating their Brave Account">
+    You can't use @bravealias.com addresses for creating Brave accounts. Please try again with a different domain.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Create a password' input field">
     Create a password
@@ -103,11 +103,11 @@
   </message>
 
   <!-- 'Sign In' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can sign in to their iBrowe Account">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can sign in to their Brave Account">
     Sign in to your account
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can sign in to their iBrowe Account">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can sign in to their Brave Account">
+    A Brave account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Password' input field">
     Password
@@ -120,11 +120,11 @@
   </message>
 
   <!-- 'Forgot Password' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can reset their iBrowe Account password">
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can reset their Brave Account password">
     Forgot your password?
   </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can reset their iBrowe Account password">
-    Confirm your iBrowe account email and we'll email you a link to reset your password. The link will only be valid for 30 minutes.
+  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can reset their Brave Account password">
+    Confirm your Brave account email and we'll email you a link to reset your password. The link will only be valid for 30 minutes.
   </message>
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ALERT_MESSAGE" translateable="false" desc="Alert message explaining that if the user resets their password without having an active login, all their data will be deleted">
     [Explain that if they reset their password without having an active login, all the user data will be deleted]
@@ -146,7 +146,7 @@
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Create a password'/'Password' input fields">
     Enter your password
   </message>
-  <!-- </iBrowe Account> -->
+  <!-- </Brave Account> -->
 
   <!-- Settings / Get started / Profile name and icon -->
   <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
@@ -160,10 +160,16 @@
   <message name="IDS_SETTINGS_IMPORT_PAYMENTS_CHECKBOX" desc="Checkbox for importing payments info">
     Payment methods
   </message>
+  <message name="IDS_EXTENSIONS_IMPORTER_LOCK_TITLE" desc="Dialog title for importer lock dialog">
+    Import profile still in use
+  </message>
+  <message name="IDS_EXTENSIONS_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the importer-lock dialog">
+    To import extensions or other settings, please first close the browser you're importing from.
+  </message>
 
   <!-- Settings / Appearance -->
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for ibrowe theme change setting options">
-    iBrowe colors
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
+    Brave colors
   </message>
   <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">
     Light
@@ -189,11 +195,17 @@
       Always show toolbar in full screen
     </message>
   </if>
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_THEMES_GALLERY_URL" translateable="false">
+    https://chrome.google.com/webstore?hl=[GRITLANGCODE]&amp;category=theme
+  </message>
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_OPEN_WEB_STORE" desc="Sub-label about choosing something from the Chrome Web Store.">
+    Open Web Store
+  </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_GET_MORE_THEMES" desc="The label for opening theme web store">
     Get more themes
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_DEFAULT_IMAGES_OPTION_LABEL" desc="The label for choosing default images over super referral">
-    iBrowe default images
+    Brave default images
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_TOOLBAR_SECTION" desc="The label for section containing settings related to toolbar">
     Toolbar
@@ -252,8 +264,8 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_SHOW_AUTOCOMPLETE_IN_ADDRESS_BAR" desc="The label for settings switch controlling the showing of autocomplete in address bar">
     Show autocomplete suggestions in address bar
   </message>
-  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_TOP_SITES" desc="The label for settings checkbox controlling whether or not top sites show up in autocomplete">
-    Top sites
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_TOP_SUGGESTIONS" desc="The label for settings checkbox controlling whether or not top suggestions show up in autocomplete">
+    Top Suggestions
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_HISTORY" desc="The label for settings checkbox controlling whether or not browsing history shows up in autocomplete">
     Browsing History
@@ -267,8 +279,8 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_USE_AUTOCOMPLETE_LEO" desc="The label for settings checkbox en/disabling autcomplete provider with Leo assistant">
     Leo AI Assistant
   </message>
-  <message name="IDS_SETTINGS_SHOW_BRAVE_NEWS_BUTTON_LABEL" desc="The label for the settings switch controlling whether the iBrowe News button is shown in the toolbar">
-    Show iBrowe News button
+  <message name="IDS_SETTINGS_SHOW_BRAVE_NEWS_BUTTON_LABEL" desc="The label for the settings switch controlling whether the Brave News button is shown in the toolbar">
+    Show Brave News button
   </message>
   <message name="IDS_SETTINGS_SHOW_LEO_BUTTON_LABEL" desc="The label for the settings switch controlling whether the Leo button is shown in the toolbar">
     Show Leo AI button
@@ -337,8 +349,8 @@
   <message name="IDS_SETTINGS_NEW_TAB" desc="The text label for the New Tab settings page">
     New Tab Page
   </message>
-  <message name="IDS_SETTINGS_NEW_TAB_BRAVE_REWARDS" desc="The label for iBrowe Rewards show/hide feature toggle">
-    iBrowe Rewards
+  <message name="IDS_SETTINGS_NEW_TAB_BRAVE_REWARDS" desc="The label for Brave Rewards show/hide feature toggle">
+    Brave Rewards
   </message>
   <message name="IDS_SETTINGS_NEW_TAB_NEW_TAB_PAGE_SHOWS" desc="The label for New Tab Page shows customization">
     New tab page shows
@@ -369,7 +381,7 @@
         Click Pin and confirm in the following Windows notification
       </message>
       <message name="IDS_SETTINGS_SHORTCUT_PINNED" desc="The label for pinned state description">
-        iBrowe is already pinned
+        Brave is already pinned
       </message>
     </if>
     <if expr="is_macosx">
@@ -380,7 +392,7 @@
         Dock
       </message>
       <message name="IDS_SETTINGS_SHORTCUT_PINNED" desc="The label for docked state description">
-        iBrowe is already in Dock
+        Brave is already in Dock
       </message>
     </if>
   </if>
@@ -401,19 +413,19 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_SHIELDS_DOWN" desc="Label for shields status down site settings.">
     Shields Down
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for iBrowe shields section in settings">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for Brave shields section in settings">
     Shields
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for iBrowe shields Defaults sub-section in settings">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for Brave shields Defaults sub-section in settings">
     Block trackers and ads which follow you across the web.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for iBrowe shields Defaults sub-section in settings">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for Brave shields Defaults sub-section in settings">
     These are the default Shields settings. They apply to all websites unless you change something in the Shields panel on a particular site. Changing these won't affect your existing per-site settings.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The description for iBrowe shields Defaults sub-section in settings.">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The description for Brave shields Defaults sub-section in settings.">
     This will block most ads on websites.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_SHOW_STATS_BLOCKED_BADGE_LABEL" desc="Default iBrowe show stats blocked badge control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_SHOW_STATS_BLOCKED_BADGE_LABEL" desc="Default Brave show stats blocked badge control setting label">
     Show the number of blocked items on the Shields icon
   </message>
   <message name="IDS_SETTINGS_DE_AMP_LABEL" desc="The label to activate De-AMP feature">
@@ -428,13 +440,13 @@
   <message name="IDS_SETTINGS_DEBOUNCE_SUB_LABEL" desc="The sub-label describing debounce feature">
     Enable support for bypassing top-level redirect tracking URLs.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_REDUCE_LANGUAGE_CONTROL_LABEL" desc="Default iBrowe reduce language control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_REDUCE_LANGUAGE_CONTROL_LABEL" desc="Default Brave reduce language control setting label">
     Prevent sites from fingerprinting me based on my language preferences
   </message>
   <message name="IDS_SETTINGS_BRAVE_SHIELDS_REDUCE_LANGUAGE_SUBITEM" desc="Description that shows under main toggle setting for reduce language control setting label">
     Enabling this setting reduces how much web sites can learn about your language preferences.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default iBrowe block cross-site trackers control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default Brave block cross-site trackers control setting label">
     Trackers &amp; ads blocking
   </message>
   <message name="IDS_SETTINGS_BLOCK_ADS_TRACKERS_AGGRESSIVE" desc="Select value">
@@ -446,10 +458,10 @@
   <message name="IDS_SETTINGS_ALLOW_ADS_TRACKERS" desc="Select value">
     Disabled
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default iBrowe script blocking control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default Brave script blocking control setting label">
     Block scripts
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default iBrowe fingerprinting control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default Brave fingerprinting control setting label">
     Block fingerprinting
   </message>
   <message name="IDS_SETTINGS_STANDARD_FINGERPRINTING" desc="Select value">
@@ -461,7 +473,7 @@
   <message name="IDS_SETTINGS_STRICT_FINGERPRINTING" desc="Select value">
     Strict, may break sites
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_UPGRADE_CONTROL_LABEL" desc="Default iBrowe https upgrade control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_UPGRADE_CONTROL_LABEL" desc="Default Brave https upgrade control setting label">
     Upgrade connections to HTTPS
   </message>
   <message name="IDS_SETTINGS_STANDARD_HTTPS_UPGRADE" desc="Select value">
@@ -473,7 +485,7 @@
   <message name="IDS_SETTINGS_STRICT_HTTPS_UPGRADE" desc="Select value">
     Strict
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default iBrowe cookies control setting label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default Brave cookies control setting label">
     Block cookies
   </message>
   <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_BLOCK_ALL_DEPRECATED_LABEL" desc="Block all cookies deprecation warning">
@@ -488,13 +500,13 @@
   <message name="IDS_SETTINGS_BLOCK_ALL_COOKIES" desc="Select value">
     Block all cookies
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default iBrowe view title label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default Brave view title label">
     Default view
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default iBrowe simple view title label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default Brave simple view title label">
     Simple view
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default iBrowe advanced view title label">
+  <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default Brave advanced view title label">
     Advanced view
   </message>
 
@@ -630,21 +642,21 @@
     Shortcuts
   </message>
 
-  <!-- Settings / iBrowe Rewards -->
+  <!-- Settings / Brave Rewards -->
   <message name="IDS_SETTINGS_BRAVE_REWARDS_TITLE" desc="The text label for the Rewards settings page">
-    iBrowe Rewards
+    Brave Rewards
   </message>
   <message name="IDS_SETTINGS_BRAVE_REWARDS_DISABLED_LABEL" desc="The text label for the Rewards disabled state">
-    iBrowe Rewards is disabled
+    Brave Rewards is disabled
   </message>
   <message name="IDS_SETTINGS_BRAVE_REWARDS_DISABLED_SUB_LABEL" desc="The text sublabel for the Rewards disabled state">
     Open Rewards panel to enable and get started
   </message>
   <message name="IDS_SETTINGS_BRAVE_REWARDS_PAGE_LABEL" desc="The text label for the link to the Rewards settings page">
-    Open full iBrowe Rewards settings
+    Open full Brave Rewards settings
   </message>
-  <message name="IDS_SETTINGS_BRAVE_REWARDS_SHOW_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of iBrowe Rewards button">
-    Show iBrowe Rewards button
+  <message name="IDS_SETTINGS_BRAVE_REWARDS_SHOW_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of Brave Rewards button">
+    Show Brave Rewards button
   </message>
 
   <!-- Settings / Social media blocking -->
@@ -663,8 +675,17 @@
 
 
   <!-- Settings / Privacy and security -->
+  <message name="IDS_SETTINGS_COOKIE_CONTROLLED_BY_SHIELDS_HEADER_TEXT" desc="Text for the header explaining some cookies controlled by Shields settings.">
+    Some cookie settings are controlled by Brave Shields. You can see them &lt;a href="/content/braveShields"&gt;here&lt;/a&gt;.
+  </message>
   <message name="IDS_SETTINGS_BRAVE_BLOCK_COOKIES_LINK_ROW_LABEL" desc="This text is the label of a page. Here, it serves as a button that opens the new page.">
     Block cookies
+  </message>
+  <message name="IDS_SETTINGS_COOKIE_CONTROLLED_BY_SHIELDS_TOOLTIP_TEXT" desc="Text for the tooltip explaining cookies generated by Shields settings.">
+    This setting is controlled by Brave Shields. 
+  </message>
+  <message name="IDS_SETTINGS_COOKIE_CONTROLLED_BY_GOOGLE_SIGN_IN_TOOLTIP_TEXT" desc="Text for the tooltip explaining cookies generated by Google Sign-in settings.">
+    This setting is controlled by Google Sign-in.
   </message>
   <!-- WebRTC Policy Setting -->
   <message name="IDS_SETTINGS_WEBRTC_POLICY_LABEL" desc="WebRTC policy setting label">
@@ -694,7 +715,7 @@
     Automatically send diagnostic reports
   </message>
   <message name="IDS_BRAVE_DIAGNOSTIC_REPORTS_PREF_DESC" desc="The description of the checkbox to enable/disable sending diagnostic reports (crashes, hangs).">
-    Help improve iBrowe's product stability by automatically sending diagnostic reports when the iBrowe Browser crashes or freezes.
+    Help improve Brave's product stability by automatically sending diagnostic reports when the Brave Browser crashes or freezes.
   </message>
   <!-- Request OTR -->
   <if expr="enable_request_otr">
@@ -714,6 +735,14 @@
       Never
     </message>
   </if>
+  <if expr="is_win">
+    <message name="IDS_SETTINGS_WINDOWS_RECALL_DISABLED_LABEL" desc="Windows Recall setting label">
+      Block Microsoft Recall
+    </message>
+    <message name="IDS_SETTINGS_WINDOWS_RECALL_DISABLED_SUBLABEL" desc="Windows Recall setting sub-label">
+      Block the Recall feature on Microsoft Windows computers from automatically taking screenshots of any open Brave tabs.
+    </message>
+  </if>
   <!-- Data collection -->
   <message name="IDS_BRAVE_DATA_COLLECTION_SETTINGS_SECTION" desc="Open Data collection settings section">
     Data collection
@@ -723,11 +752,11 @@
   <message name="IDS_SETTINGS_BRAVE_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
     On exit
   </message>
-  <message name="IDS_SETTINGS_CLEAR_BRAVE_ADS_DATA" desc="The label for the link to clear 'iBrowe Ads' data">
-    Clear iBrowe Ads data...
+  <message name="IDS_SETTINGS_CLEAR_BRAVE_ADS_DATA" desc="The label for the link to clear 'Brave Ads' data">
+    Clear Brave Ads data...
   </message>
   <message name="IDS_SETTINGS_RESET_REWARDS_DATA" desc="The label for opening rewards manage wallet dialog">
-    Reset iBrowe Rewards data...
+    Reset Brave Rewards data...
   </message>
 
   <!-- Settings / Privacy and security / Cookies and other site data -->
@@ -810,10 +839,13 @@
   <!-- Settings / Privacy and security / Security -->
   <!-- Safe browsing -->
   <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_STANDARD_BULLET_TWO" desc="Second bullet point under the safe browsing standard protection mode">
-    Checks URLs with a list of unsafe sites stored in iBrowe.
+    Checks URLs with a list of unsafe sites stored in Brave.
   </message>
   <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_NONE_DESC" desc="Description for safe browsing no protection mode">
     Does not protect you against dangerous websites, downloads, and extensions.
+  </message>
+  <message name="IDS_SETTINGS_BRAVE_SAFEBROWSING_STANDARD_DESC" desc="Description for safe browsing standard protection mode">
+    Protects against sites, downloads, and extensions that are known to be dangerous.
   </message>
 
   <!-- Settings / Privacy and security / Site and Shields Settings -->
@@ -896,55 +928,55 @@
   </message>
 
   <!-- Settings / Sync -->
-  <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for iBrowe Sync in settings">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for Brave Sync in settings">
     Sync
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_ACTION_LABEL" desc="iBrowe Sync setup action label">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_ACTION_LABEL" desc="Brave Sync setup action label">
     Start using sync
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_TITLE" desc="Title for the iBrowe Sync settings setup section">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_TITLE" desc="Title for the Brave Sync settings setup section">
     Sync Setup
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_SUBTITLE" desc="Subtitle for the iBrowe Sync settings setup section">
-    To start, you will need iBrowe installed on all the devices you plan to sync. Then, securely link them together with a sync code.
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETUP_SUBTITLE" desc="Subtitle for the Brave Sync settings setup section">
+    To start, you will need Brave installed on all the devices you plan to sync. Then, securely link them together with a sync code.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGE_ACTION_LABEL" desc="iBrowe Sync manage action label">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGE_ACTION_LABEL" desc="Brave Sync manage action label">
     Manage your synced devices
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_COULD_NOT_SYNC_ACTION_LABEL" desc="Could not sync devices action label. It is displayed in the case when iBrowe Sync could not decrypt code words and start work">
-    Could not sync iBrowe on your devices
+  <message name="IDS_SETTINGS_BRAVE_SYNC_COULD_NOT_SYNC_ACTION_LABEL" desc="Could not sync devices action label. It is displayed in the case when Brave Sync could not decrypt code words and start work">
+    Could not sync Brave on your devices
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGER_TITLE" desc="iBrowe Sync manager title">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_MANAGER_TITLE" desc="Brave Sync manager title">
     Sync Manager
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_TITLE" desc="iBrowe Sync settings title">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_TITLE" desc="Brave Sync settings title">
     Sync Settings
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_SUBTITLE" desc="iBrowe Sync settings subtitle">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_SETTINGS_SUBTITLE" desc="Brave Sync settings subtitle">
     Manage what information you would like to sync between devices. These settings only affect this device.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_TITLE" desc="iBrowe Sync device list title">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_TITLE" desc="Brave Sync device list title">
     Device List
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_SUBTITLE" desc="iBrowe Sync device list subtitle">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_SUBTITLE" desc="Brave Sync device list subtitle">
     The device list below includes all devices in your sync chain. Each device can be managed from any other device.
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_COLUMN" desc="iBrowe Sync device list table column title for device name">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_COLUMN" desc="Brave Sync device list table column title for device name">
     Device Name
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_THIS_DEVICE" desc="iBrowe Sync device list label for device which is the device the user is currently using">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_NAME_THIS_DEVICE" desc="Brave Sync device list label for device which is the device the user is currently using">
     <ph name="DEVICE_NAME">$1<ex>my-computer-1</ex></ph> (This Device)
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_LAST_ACTIVE_COLUMN" desc="iBrowe Sync device list table column title for last active date">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_LAST_ACTIVE_COLUMN" desc="Brave Sync device list table column title for last active date">
     Last Active
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_REMOVE_COLUMN" desc="iBrowe Sync device list table column title for remove other device buttons">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_DEVICE_LIST_REMOVE_COLUMN" desc="Brave Sync device list table column title for remove other device buttons">
     Remove
   </message>
-  <message name="IDS_BRAVE_SYNC_SETUP_TITLE" desc="The iBrowe Sync title.">
+  <message name="IDS_BRAVE_SYNC_SETUP_TITLE" desc="The Brave Sync title.">
     Sync Setup
   </message>
-  <message name="IDS_SETTINGS_BRAVE_SYNC_WORD_COUNT" desc="Text for iBrowe Sync word count message.">
+  <message name="IDS_SETTINGS_BRAVE_SYNC_WORD_COUNT" desc="Text for Brave Sync word count message.">
     Word count: <ph name="WORD_COUNT">$1<ex>24</ex></ph>
   </message>
   <message name="IDS_SETTINGS_BRAVE_SYNC_COPIED_TEXT" desc="The success state telling the user that a secret code was copied to the clipboard">
@@ -957,7 +989,7 @@
     There was an error displaying the QR code, please refresh and try again.
   </message>
   <message name="IDS_BRAVE_SYNC_SETUP_DESCRIPTION" desc="The Sync phrase explaining what happens when you start a new sync chain. Appears when sync is disabled.">
-    To start, you will need iBrowe installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.
+    To start, you will need Brave installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.
   </message>
   <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN_BUTTON" desc="The Sync button that triggers a modal to start a new sync chian">
     Start a new Sync Chain
@@ -978,7 +1010,7 @@
     Sync Chain QR Code
   </message>
   <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `scan sync code` modal partial phrase (1)">
-    On your mobile device, navigate to iBrowe Sync in the Settings panel and click the button
+    On your mobile device, navigate to Brave Sync in the Settings panel and click the button
   </message>
   <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `scan sync code` modal partial phrase (2)">
     “Scan Sync Code”.
@@ -990,7 +1022,7 @@
     Sync Chain Code
   </message>
   <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `view sync code` modal partial phrase (1)">
-    On your target computer, navigate to iBrowe Sync in settings and click the button
+    On your target computer, navigate to Brave Sync in settings and click the button
   </message>
   <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `view sync code` modal partial phrase (2)">
     “I have a Sync Code”.
@@ -1035,7 +1067,7 @@
     Internal account delete error
   </message>
   <message name="IDS_BRAVE_SYNC_CODE_FROM_DEPRECATED_VERSION" desc="Text for error when trying to use old version sync code after v1 sunset date.">
-    This code was generated by a deprecated version of iBrowe, please upgrade your other device first
+    This code was generated by a deprecated version of Brave, please upgrade your other device first
   </message>
   <message name="IDS_BRAVE_SYNC_CODE_EXPIRED" desc="Text for error when trying to use the sync code which has expired.">
     This code has expired. Please generate a new one on your other device and try again.
@@ -1053,17 +1085,17 @@
     Are you sure you want to remove the selected device from the sync chain?
   </message>
   <message name="IDS_BRAVE_SYNC_FINAL_SECURITY_WARNING_TEXT" desc="Confirmation message prompt to make sure the user aware his data will be shared with other devices in chain">
-    Warning: this will share your iBrowe data, including potentially your passwords, with the device that generated these code words.
+    Warning: this will share your Brave data, including potentially your passwords, with the device that generated these code words.
 
     Please double check that these code words were generated by a device that you own.
 
     Are you sure you want to do this?
   </message>
-  <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_ERROR_MESSAGE" desc="Warning message that informs user about iBrowe Sync is not running and browser needs to have access to secure OS passwords store">
-    iBrowe could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for iBrowe Sync to connect your browser profile between devices. This means iBrowe Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>iBrowe Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
+  <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_ERROR_MESSAGE" desc="Warning message that informs user about Brave Sync is not running and browser needs to have access to secure OS passwords store">
+    Brave could not access your operating system's safe storage. This is what's used to secure data such as passwords and cookies; it's also required for Brave Sync to connect your browser profile between devices. This means Brave Sync is not running. To resolve this issue, please see the <ph name="BEGIN_LINK_SYNC_GUIDE">&lt;a target="_blank" href="$1"&gt;</ph>Brave Sync troubleshooting guide<ph name="END_LINK_SYNC_GUIDE">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_BRAVE_SYNC_PASSPHRASE_DECRYPTION_SS_UNLOCKED_ERROR_MESSAGE" desc="Warning">
-    It looks like the sync encryption key is different from the one used when you first set up iBrowe Sync. The easiest fix here is to reset and re-join the sync chain using the passphrase from one of your other synced devices.
+    It looks like the sync encryption key is different from the one used when you first set up Brave Sync. The easiest fix here is to reset and re-join the sync chain using the passphrase from one of your other synced devices.
   </message>
   <message name="IDS_BRAVE_SYNC_LEAVE_AND_REJOIN_THE_CHAIN_BUTTON" desc="Button which does reset the sync and offers to re-join the sync chain">
     Reset and re-join sync chain
@@ -1075,7 +1107,7 @@
     Permanently delete account
   </message>
   <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_1" desc="">
-    Deleting your account will remove your encrypted data from iBrowe servers and disable Sync on all of your connected devices.
+    Deleting your account will remove your encrypted data from Brave servers and disable Sync on all of your connected devices.
   </message>
   <message name="IDS_BRAVE_SYNC_DELETE_ACCOUNT_DESCRIPTION_PARTIAL_2" desc="">
     It will not however delete the data that is stored locally on those devices.
@@ -1102,10 +1134,10 @@
 
   <!-- Settings / Search engine -->
   <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_LABEL" desc="The label of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
-    Show search suggestions
+    Improve search suggestions
   </message>
   <message name="IDS_SETTINGS_BRAVE_SEARCH_ENGINES_SEARCH_SUGGEST_DESC" desc="The desc of the option to enable/disable sending omnibox input to the user's default search engine to get additional suggestions.">
-    When you type in the address bar or search box, iBrowe sends what you type to your default search engine to get better suggestions. This is not available in private windows.
+    When on, Brave sends what you type in the address bar or search box to your default search engine to get better suggestions. When off, Brave only shows suggestions generated on your device. This is always off in private windows.
   </message>
   <message name="IDS_SETTINGS_BRAVE_OTHER_SEARCH_ENGINES_LABEL" desc="The label for the settings switch controlling the addition of custom search engines">
     Index other search engines
@@ -1128,12 +1160,12 @@
   <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_TITLE" desc="Name of the settings page which displays search engine preferences for private profiles.">
     Search engine for Private Windows
   </message>
-  <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_CHOICE_SETTINGS_CONFIRMATION_TOAST_LABEL" desc="This confirmation message is intended to help users understand that their choice is now saved. It appears after the user changes their default private search engine in iBrowe settings. (A search engine provides answers to search queries; this is different from a browser, which displays web pages. A search engine powers many experiences within a browser.)">
-    <ph name="SEARCH_ENGINE_NAME">$1<ex>iBrowe</ex></ph> is now your default search engine for private windows
+  <message name="IDS_SETTINGS_PRIVATE_PROFILE_SEARCH_ENGINE_CHOICE_SETTINGS_CONFIRMATION_TOAST_LABEL" desc="This confirmation message is intended to help users understand that their choice is now saved. It appears after the user changes their default private search engine in Brave settings. (A search engine provides answers to search queries; this is different from a browser, which displays web pages. A search engine powers many experiences within a browser.)">
+    <ph name="SEARCH_ENGINE_NAME">$1<ex>Brave</ex></ph> is now your default search engine for private windows
   </message>
 
   <!-- Settings / Extensions -->
-  <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for iBrowe default extensions in settings">
+  <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for Brave default extensions in settings">
     Extensions
   </message>
   <message name="IDS_SETTINGS_GOOGLE_LOGIN_FOR_EXTENSIONS" desc="Label for a switch control which allows Google login for extension">
@@ -1235,9 +1267,6 @@
   <message name="IDS_SETTINGS_ONION_ONLY_IN_TOR_WINDOWS_DESC" desc="">
     Onion services won't be available outside of Tor windows.
   </message>
-  <message name="IDS_SETTINGS_WEBTORRENT_ENABLED_DESC" desc="The description for WebTorrent switch in settings">
-    Uses WebTorrent to display torrents directly in the browser. Supports torrent files and magnet links.
-  </message>
   <message name="IDS_SETTINGS_ENABLE_WIDEVINE_DESC" desc="Text fragment for enabling widevine component. 'Widevine' is the name of a plugin and should not be translated.">
     Use Widevine digital rights management (DRM) component to view protected streaming video and other content in the browser.
   </message>
@@ -1245,7 +1274,10 @@
     Manifest V2 extensions
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_SUBLABEL" desc="The sub label of manage v2 extensions link in settings">
-    The following Manifest V2 extensions will be removed from the Chrome Web Store, but are still supported in iBrowe. Toggle to download and install, or to uninstall.
+    The following Manifest V2 extensions will be removed from the Chrome Web Store, but are still supported in Brave. Toggle to download and install, or to uninstall.
+  </message>
+  <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_WARN" desc="The warning message in v2 extensions in settings.">
+    Brave hosts these Manifest V2 extensions on Brave servers, but does not review or verify their content, security, or behavior. Please see each extension's official page for help. Read Brave's plans for Manifest V2 <ph name="BEGIN_LINK">&lt;a target="_blank" rel="noreferrer" href="$1"&gt;</ph>here<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_MANAGE_EXTENSIONS_V2_TOAST_CONFIRM" desc="The label of the error toast button in settings">
     Close
@@ -1295,7 +1327,7 @@
     Default Solana wallet
   </message>
   <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_BRAVE" desc="Select control value for which web3 provider to use">
-    iBrowe Wallet
+    Brave Wallet
   </message>
   <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_ASK" desc="Select control value for which web3 provider to use">
     Ask
@@ -1303,11 +1335,8 @@
   <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_NONE" desc="Select control value for which web3 provider to use">
     Extensions (no fallback)
   </message>
-  <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_CRYPTO_WALLETS_DEPRECATED" desc="Select control value for which web3 provider to use">
-    Crypto Wallets (Deprecated)
-  </message>
   <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_BRAVE_PREFER_EXTENSIONS" desc="Select control value for which web3 provider to use">
-    Extensions (iBrowe Wallet fallback)
+    Extensions (Brave Wallet fallback)
   </message>
   <message name="IDS_SETTINGS_DEFAULT_BASE_CURRENCY_DESC" desc="The default base currency to use for the wallet prices">
     Default base currency
@@ -1315,8 +1344,8 @@
   <message name="IDS_SETTINGS_DEFAULT_BASE_CRYPTOCURRENCY_DESC" desc="The default base cryptocurrency to use for the wallet prices">
     Default base cryptocurrency
   </message>
-  <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_ICON_ON_TOOLBAR" desc="The description for showing the iBrowe wallet panel icon on the toolbar">
-    Show iBrowe Wallet button
+  <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_ICON_ON_TOOLBAR" desc="The description for showing the Brave wallet panel icon on the toolbar">
+    Show Brave Wallet button
   </message>
   <message name="IDS_SETTINGS_ENABLE_NFT_DISCOVERY_LABEL" desc="The label for enabling NFT discovery">
     Enable NFT discovery
@@ -1325,16 +1354,16 @@
     Automatically add NFTs you own to the Wallet using third party APIs.
   </message>
   <message name="IDS_SETTINGS_ENABLE_BRAVE_WALLET_IN_PRIVATE_WINDOWS_LABEL" desc="The label for enabling private window support">
-    Enable iBrowe Wallet in Private Windows.
+    Enable Brave Wallet in Private Windows.
   </message>
   <message name="IDS_SETTINGS_ENABLE_BRAVE_WALLET_IN_PRIVATE_WINDOWS_DESC" desc="The description for enabling private window support">
     Warning: Reusing a wallet address in a private window session can enable a site to link a private window session to a non-private window session.
   </message>
-  <message name="IDS_SETTINGS_AUTO_LOCK_MINUTES" desc="The title for the amount of minutes it takes for the iBrowe Wallet to automatically lock">
-    Automatically lock iBrowe Wallet
+  <message name="IDS_SETTINGS_AUTO_LOCK_MINUTES" desc="The title for the amount of minutes it takes for the Brave Wallet to automatically lock">
+    Automatically lock Brave Wallet
   </message>
-  <message name="IDS_SETTINGS_AUTO_LOCK_MINUTES_DESC" desc="The description for the amount of minutes it takes for the iBrowe Wallet to automatically lock">
-    The number of minutes to wait until the iBrowe Wallet is automatically locked
+  <message name="IDS_SETTINGS_AUTO_LOCK_MINUTES_DESC" desc="The description for the amount of minutes it takes for the Brave Wallet to automatically lock">
+    The number of minutes to wait until the Brave Wallet is automatically locked
   </message>
   <message name="IDS_SETTINGS_WALLET_NETWORKS_ITEM" desc="The label for opening wallet networks list">
     Wallet Networks
@@ -1345,11 +1374,23 @@
   <message name="IDS_SETTINGS_WALLET_RESET_TRANSACTION_INFO_DESC" desc="Reset wallet transactions description">
     Clearing transactions may be useful for developers or when clearing state on a local server
   </message>
-  <message name="IDS_SETTINGS_WALLET_RESET" desc="Reset wallet settings item text">
-    Reset and clear wallet data
+  <message name="IDS_SETTINGS_WALLET_RESET_ZCASH_SYNC_STATE_INFO" desc="Reset zcash sync state settings item text">
+    Reset Zcash sync state
+  </message>
+  <message name="IDS_SETTINGS_WALLET_RESET_ZCASH_SYNC_STATE_DESC" desc="Reset zcash sync state settings item description text">
+    Resets Zcash sync progress for all shielded accounts
+  </message>
+  <message name="IDS_SETTINGS_WALLET_RESET_ZCASH_SYNC_STATE_CONFIRMATION" desc="Reset Zcash sync state confirmation message text">
+    Are you sure you want to reset Zcash sync state? Sync progress for all shielded accounts will be dropped. Type "<ph name="CONFIRMATION_PHRASE">$1<ex>Yes</ex></ph>" to confirm.
+  </message>
+  <message name="IDS_SETTINGS_WALLET_RESET_ZCASH_SYNC_STATE_CONFIRMED" desc="Reset Zcash sync state confirmed message text">
+    Your sync state for Zcash accounts was reset.
   </message>
   <message name="IDS_SETTINGS_WALLET_RESET_TRANSACTION_INFO_CONFIRMATION" desc="Reset wallet settings confirmation for resetting transaction info message text">
     Are you sure you want to reset all of your wallet transaction and nonce information? This option is mostly used by developers running a local test server. Type "<ph name="CONFIRMATION_PHRASE">$1<ex>Yes</ex></ph>" to confirm.
+  </message>
+  <message name="IDS_SETTINGS_WALLET_RESET" desc="Reset wallet settings item text">
+    Reset and clear wallet data
   </message>
   <message name="IDS_SETTINGS_WALLET_RESET_CONFIRMATION" desc="Reset wallet settings confirmation message text">
     Are you sure you want to reset your wallet? If your wallet is not backed up, resetting will cause you to lose all account data (including any associated funds). Type "<ph name="CONFIRMATION_PHRASE">$1<ex>Yes</ex></ph>" to confirm.
@@ -1383,7 +1424,10 @@
   <message name="IDS_SETTINGS_WALLET_ZEC_NETWORK_LIST_TITLE" desc="The title of the list with wallet Zcash networks">
     Zcash networks
   </message>
-  <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_TEST_NETWORKS" desc="The description for showing the iBrowe wallet test networks">
+  <message name="IDS_SETTINGS_WALLET_CARDANO_NETWORK_LIST_TITLE" desc="The title of the list with wallet Cardano networks">
+    Cardano networks
+  </message>
+  <message name="IDS_SETTINGS_SHOW_BRAVE_WALLET_TEST_NETWORKS" desc="The description for showing the Brave wallet test networks">
     Show test networks
   </message>
 
@@ -1499,7 +1543,7 @@
   </message>
 
   <!-- Settings / Leo Assistant -->
-  <message name="IDS_SETTINGS_LEO_ASSISTANT" desc="Title for an item in the 'Leo Assistant' section of iBrowe Settings">
+  <message name="IDS_SETTINGS_LEO_ASSISTANT" desc="Title for an item in the 'Leo Assistant' section of Brave Settings">
     Leo
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_SHOW_ICON_ON_TOOLBAR_LABEL" desc="The text for settings option">
@@ -1510,6 +1554,12 @@
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_SHOW_IN_CONTEXT_MENU_DESC" desc="The description for settings option to show Leo in context menu">
     Leo will appear in the context menu when you right-click on a website. This will send context from the current web page to Leo.
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_TAB_ORGANIZATION_LABEL" desc="The text for settings option to enable tab focus mode">
+    Tab Focus Mode
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_TAB_ORGANIZATION_DESC" desc="The description for settings option to enable tab focus mode">
+    Enable tab organization in Tab Search page. When opened, this will automatically send the titles and origins of all non-private tabs to Leo to classify them. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_SHOW_SUGGESTED_PROMPTS_LABEL" desc="The text for settings option">
     Show suggested prompts in the conversation
@@ -1524,9 +1574,9 @@
     Delete all Leo AI conversation data
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_RESET_AND_CLEAR_DATA_CONFIRMATION_LABEL" desc="The confirmation window message for reset option">
-    Resetting Leo AI will require you to opt-in to use iBrowe
+    Resetting Leo AI will require you to opt-in to use Brave
 Leo AI in the future and will also clear your chat history. Clearing your
-chat history will delete all your previous conversations with iBrowe
+chat history will delete all your previous conversations with Brave
 Leo AI. This action can't be undone.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_AUTOCOMPLETE_LINK" desc="A label for a link to settings page to adjust autocomplete suggestion based on Leo">
@@ -1537,6 +1587,15 @@ Leo AI. This action can't be undone.
   </message>
   <message name="IDS_SETTINGS_AI_CHAT_CLEAR_HISTORY_DATA_SUBLABEL" desc="Label description for checkbox to select AI assistant conversations for deletion when deleting browser data">
     Chat history
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_ABOUT_LEO_LABEL" desc="Label for the about Leo assistant section">
+    About Leo AI
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_ABOUT_LEO_DESC_1" desc="Description for the about Leo assistant section">
+    Brave Leo provides privacy-first AI chat and other AI-powered interfaces in the browser. Leo never learns from your data or uses it for model training. All requests are proxied through an anonymizing server.
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_ABOUT_LEO_DESC_2" desc="Description for learning more about Leo privacy policy">
+    Read more about how Brave protects your use of AI in Leo's privacy policy. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_MODEL_SELECTION_LABEL" desc="Label for selecting default model">
     Default model for new conversations
@@ -1568,6 +1627,12 @@ Leo AI. This action can't be undone.
   <message name="IDS_SETTINGS_LEO_ASSISTANT_INPUT_MODEL_API_KEY" desc="An input title for server API key.">
     API Key
   </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_INPUT_MODEL_VISION_SUPPORT" desc="An input title for model vision support.">
+    Vision Support
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_INPUT_MODEL_VISION_SUPPORT_TOOLTIP_INFO" desc="A brief description for model vision support for adding a custom model.">
+    If this model takes image as input, e.g. llama 3.2b vision
+  </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_INPUT_MODEL_LABEL_TOOLTIP_INFO" desc="A brief description for the input title for adding a custom model">
     The name of the model as it will appear in the model selection menu
   </message>
@@ -1590,7 +1655,7 @@ Leo AI. This action can't be undone.
     Close
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PROXY_NOTE" desc="A note for users when adding model server info">
-    iBrowe doesn't proxy these requests, please read privacy terms of the chosen provider.
+    Brave doesn't proxy these requests, please read privacy terms of the chosen provider.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ENDPOINT_ERROR" desc="An error note for users when url is invalidated">
     Non-local endpoints should employ the HTTPS protocol for secure data transmission.
@@ -1605,7 +1670,7 @@ Leo AI. This action can't be undone.
     Private IPs Not Allowed
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PRIVATE_IP_NOT_ALLOWED_BODY" desc="Body text for private IP not allowed dialog">
-    The address you entered appears to be from a private network—like your router or a local server. iBrowe blocks these automatically to keep you safe, but you can enable them if you're confident it's secure.
+    The address you entered appears to be from a private network—like your router or a local server. Brave blocks these automatically to keep you safe, but you can enable them if you're confident it's secure.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_PRIVATE_IP_NOT_ALLOWED_INSTRUCTIONS" desc="Instructions on how to enable private IPs">
     To proceed, visit brave://flags/, search for "brave-ai-chat-allow-private-ips," and enable the feature. Once enabled, you can use private network addresses in Leo settings.
@@ -1623,7 +1688,7 @@ Leo AI. This action can't be undone.
     Connect your self-hosted or third-party hosted LLM to Leo and use them within the browser.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_YOUR_MODELS_DESC_2" desc="A description explaning what protocols are accepted">
-    Use any OpenAI Chat Protocol compatible framework such as Ollama.
+    Use any OpenAI Chat Protocol compatible framework such as Ollama. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_MODEL_BUTTON_LABEL" desc="A button label for user to click when they want to add a new model">
     Add model
@@ -1639,6 +1704,17 @@ Leo AI. This action can't be undone.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_TOKENS_COUNT" desc="A label for the (estimated) number of tokens in the system prompt">
     ≈<ph name="TOKENS_COUNT">$1<ex>175</ex></ph> tokens
+  </message>
+
+  <!-- Settings / Survey Panelist -->
+  <message name="IDS_SETTINGS_SURVEY_PANELIST" desc="Title for an item in the 'Survey Panelist' section of Brave Settings">
+    Survey Panelist
+  </message>
+  <message name="IDS_SETTINGS_SURVEY_PANELIST_LABEL" desc="The text for settings option to enable survey panelist">
+    Allow Brave surveys
+  </message>
+  <message name="IDS_SETTINGS_SURVEY_PANELIST_DESC" desc="The description for settings option to enable survey panelist">
+    Allows Brave to show links to private surveys in the new tab page. Surveys help us build better features and measure the effectiveness of browser-based ad campaigns. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
 
   <!-- Settings / Playlist -->
@@ -1675,7 +1751,7 @@ Leo AI. This action can't be undone.
   </message>
   <if expr="not is_android">
     <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_brave.png avatar.">
-      Avatar Edgy iBrowe
+      Avatar Edgy Brave
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
       Avatar Edgy Ocean
@@ -1696,7 +1772,7 @@ Leo AI. This action can't be undone.
       Avatar Paladin Rewards
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_brave.png avatar.">
-      Avatar Paladin iBrowe
+      Avatar Paladin Brave
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
       Avatar Paladin Ocean
@@ -1717,7 +1793,7 @@ Leo AI. This action can't be undone.
       Avatar Gleam Rewards
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_brave.png avatar.">
-      Avatar Gleam iBrowe
+      Avatar Gleam Brave
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
       Avatar Gleam Ocean
@@ -1738,7 +1814,7 @@ Leo AI. This action can't be undone.
       Avatar Oval Rewards
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_brave.png avatar.">
-      Avatar Oval iBrowe
+      Avatar Oval Brave
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
       Avatar Oval Ocean
@@ -1759,7 +1835,7 @@ Leo AI. This action can't be undone.
       Avatar Bonbon Rewards
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_brave.png avatar.">
-      Avatar Bonbon iBrowe
+      Avatar Bonbon Brave
     </message>
     <message name="IDS_BRAVE_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
       Avatar Bonbon Ocean

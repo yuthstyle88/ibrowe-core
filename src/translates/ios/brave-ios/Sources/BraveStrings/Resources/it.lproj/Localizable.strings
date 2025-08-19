@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
-"altAppIcon.braveIconsHeader" = "Icone iBrowe";
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Icone Brave";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Cambia l'icona dell'app";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "Default";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -31,6 +31,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "Nuova scheda privata";
 
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Scopri di più / Scelte di opt-out";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "Le immagini di sfondo sponsorizzate supportano l'impegno di Brave nel creare un Web indipedente in cui l'utente sia al primo posto. Al contrario delle Big Tech, misuriamo le prestazioni degli annunci in modo anonimo, rispettando la tua privacy.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Nuova scheda";
 
@@ -43,6 +49,18 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "Hai già fatto acquisti su brave.com?";
 
+/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
+"paywall.appStoreCheckoutOptionSubtitle" = "Prezzo intero";
+
+/* The checkout option that lets the user use Apple's standard App Store puchase flow */
+"paywall.appStoreCheckoutOptionTitle" = "App Store";
+
+/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
+"paywall.braveAccountCheckoutOptionSubtitle" = "Codice **%1$@** per il %2$@ di sconto";
+
+/* The checkout option that lets the user use Brave's own purchase flow */
+"paywall.braveAccountCheckoutOptionTitle" = "Account Brave";
+
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "Hai un codice promo?";
 
@@ -52,11 +70,23 @@
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "Aggiorna le tue credenziali";
 
+/* Text shown above buttons that give the user the option to choose a checkout option */
+"paywall.startTrialSubtitle" = "Scegli il tuo metodo di pagamento preferito:";
+
+/* Text shown above buttons that give the user the option to start a trial */
+"paywall.startTrialTitle" = "Inizia la tua prova gratuita di 7 giorni";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "Riapri la scheda chiusa";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "Ricarica la pagina";
+
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Scopri di più / Scelte di opt-out";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "Grazie per aver sostenuto Ricerca Brave cliccando su un annuncio privato. A differenza delle aziende Big Tech, misuriamo le prestazioni degli annunci in modo anonimo per tutelare la tua privacy.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Seleziona la barra di posizione";
@@ -76,8 +106,8 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "Mostra la scheda precedente";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
-"showShieldsTitle" = "Apri iBrowe Shields";
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "Apri Brave Shields";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "Mostra tutte le schede";
@@ -86,10 +116,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "Versione dell'applicazione";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo Mensile";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo Mensile";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo Annuale";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo Annuale";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "Spiacente, non sono state trovate ricevute App Store";
@@ -131,16 +161,22 @@
 "storekitReceiptViewer.shareReceiptTitle" = "Condividi ricevuta";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN Mensile";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN Mensile";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN Annuale";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN Annuale";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "Modalità di navigazione normale";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "Modalità di navigazione privata";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "Si è verificato un errore durante il download del file. Riprova più tardi.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "Download fallito";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "Aumenta lo zoom";

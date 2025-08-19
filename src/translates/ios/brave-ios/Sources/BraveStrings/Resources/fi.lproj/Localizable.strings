@@ -1,10 +1,10 @@
-/* A label shown above a list of icons designed by iBrowe */
-"altAppIcon.braveIconsHeader" = "iBrowe-kuvakkeet";
+/* A label shown above a list of icons designed by Brave */
+"altAppIcon.braveIconsHeader" = "Brave-kuvakkeet";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Vaihda sovelluskuvake";
 
-/* A label shown next to the default iBrowe app icon */
+/* A label shown next to the default Brave app icon */
 "altAppIcon.defaultAppIcon" = "Oletus";
 
 /* A title shown if some sort of error occurs while changing the app icon */
@@ -31,6 +31,12 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewPrivateTabTitle" = "Uusi yksityinen välilehti";
 
+/* The text of new tab takeover learn more / opt out choices link. */
+"newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Lisätietoja / opt out -valinnat";
+
+/* The text of new tab takeover infobar message. */
+"NewTabTakeoverInfoBarMessage" = "Sponsoroidut taustakuvat ovat osa Braven missiota rakentaa riippumatonta, käyttäjälähtöistä verkkoa. Toisin kuin suuret teknologiayritykset, me mittaamme mainosten suorituskykyä anonyymisti suojataksemme yksityisyyttäsi.";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Uusi välilehti";
 
@@ -43,6 +49,18 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "Oletko jo ostanut brave.comista?";
 
+/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
+"paywall.appStoreCheckoutOptionSubtitle" = "Täysi hinta";
+
+/* The checkout option that lets the user use Apple's standard App Store puchase flow */
+"paywall.appStoreCheckoutOptionTitle" = "App Store";
+
+/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
+"paywall.braveAccountCheckoutOptionSubtitle" = "–%2$@ alennuskoodilla **%1$@**";
+
+/* The checkout option that lets the user use Brave's own purchase flow */
+"paywall.braveAccountCheckoutOptionTitle" = "Brave-tili";
+
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "Onko sinulla kampanjakoodi?";
 
@@ -52,11 +70,23 @@
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "Päivitä tunnuksesi";
 
+/* Text shown above buttons that give the user the option to choose a checkout option */
+"paywall.startTrialSubtitle" = "Valitse sinulle sopiva maksutapa:";
+
+/* Text shown above buttons that give the user the option to start a trial */
+"paywall.startTrialTitle" = "Aloita ilmainen 7 päivän kokeilujakso";
+
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "Avaa suljettu välilehti uudelleen";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ReloadPageTitle" = "Lataa sivu uudelleen";
+
+/* The text label of creative search result ad learn more / opt out choices link. */
+"searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Lisätietoja / opt out -valinnat";
+
+/* The text label of creative search result ad infobar message. */
+"searchResultAdClickedInfoBarMessage" = "Kiitos, että tuet Braven hakua klikkaamalla yksityistä mainosta. Me mittaamme mainosten suorituskykyä anonyymisti yksityisyytesi säilyttämiseksi toisin kuin suuret teknologiayritykset.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Valitse sijaintipalkki";
@@ -76,8 +106,8 @@
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ShowPreviousTabTitle" = "Näytä edellinen välilehti";
 
-/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing iBrowe Shields */
-"showShieldsTitle" = "Avaa iBrowe-suojaus";
+/* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
+"showShieldsTitle" = "Avaa Brave-suojaus";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "Näytä kaikki välilehdet";
@@ -86,10 +116,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "Sovelluksen versio";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo (Kuukausitilaus)";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo (Kuukausitilaus)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo (Vuotuinen tilaus)";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo (Vuotuinen tilaus)";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "Valitettavasti App Storen kuitteja ei löytynyt.";
@@ -131,16 +161,22 @@
 "storekitReceiptViewer.shareReceiptTitle" = "Osakekuitti";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN (Kuukausitilaus)";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN (Kuukausitilaus)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN (Vuotuinen tilaus)";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN (Vuotuinen tilaus)";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "Normaali selaustila";
 
 /* Hardware shortcut switch to the private browsing tab or tab tray. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToPBMKeyCodeTitle" = "Yksityinen selaustila";
+
+/* A message shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorMessage" = "Tapahtui virhe ladatessa tiedostoa. Yritä myöhemmin uudelleen.";
+
+/* A title shown when a file fails to download for some reason */
+"UnableToDownloadFileErrorTitle" = "Tiedostoa ei voitu ladata";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "ZoomInTitle" = "Lähennä";

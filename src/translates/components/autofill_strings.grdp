@@ -19,24 +19,24 @@
   </message>
   <if expr="_google_chrome">
     <message name="IDS_AUTOFILL_DELETE_AUTOCOMPLETE_SUGGESTION_CONFIRMATION_BODY" desc="Text in a dialog to confirm that the user wants to delete an autocomplete form history suggestion.">
-      Remove form suggestion from iBrowe?
+      Remove form suggestion from Brave?
     </message>
     <message name="IDS_AUTOFILL_DELETE_CREDIT_CARD_SUGGESTION_CONFIRMATION_BODY" desc="Text in a dialog to confirm that the user wants to delete a credit card from Autofill.">
-      Remove credit card from iBrowe?
+      Remove credit card from Brave?
     </message>
     <message name="IDS_AUTOFILL_DELETE_PROFILE_SUGGESTION_CONFIRMATION_BODY" desc="Text in a dialog to confirm that the user wants to delete an address from Autofill.">
-      Remove address from iBrowe?
+      Remove address from Brave?
     </message>
   </if>
   <if expr="not _google_chrome">
     <message name="IDS_AUTOFILL_DELETE_AUTOCOMPLETE_SUGGESTION_CONFIRMATION_BODY" desc="Text in a dialog to confirm that the user wants to delete an autocomplete form history suggestion.">
-      Remove form suggestion from iBrowe?
+      Remove form suggestion from Brave?
     </message>
     <message name="IDS_AUTOFILL_DELETE_CREDIT_CARD_SUGGESTION_CONFIRMATION_BODY" desc="Text in a dialog to confirm that the user wants to delete a credit card from Autofill.">
-      Remove credit card from iBrowe?
+      Remove credit card from Brave?
     </message>
     <message name="IDS_AUTOFILL_DELETE_PROFILE_SUGGESTION_CONFIRMATION_BODY" desc="Text in a dialog to confirm that the user wants to delete an address from Autofill.">
-      Remove address from iBrowe?
+      Remove address from Brave?
     </message>
   </if>
   <message name="IDS_AUTOFILL_DELETE_AUTOCOMPLETE_SUGGESTION_TOOLTIP" desc="Tooltip shown when hovering over a small button with a trash-can logo next to an Autocomplete entry in the Autofill popup.">
@@ -63,7 +63,7 @@
   <message name="IDS_AUTOFILL_CC_ELO" desc="Elo credit card name.">
     Elo
   </message>
-  <message name="IDS_AUTOFILL_CC_GOOGLE_PAY" desc="iBrowe pay brand name">
+  <message name="IDS_AUTOFILL_CC_GOOGLE_PAY" desc="Brave pay brand name">
     Google Pay
   </message>
   <message name="IDS_AUTOFILL_CC_JCB" desc="JCB credit card name.">
@@ -89,6 +89,18 @@
   </message>
   <message name="IDS_AUTOFILL_CC_GENERIC" desc="Generic credit card name.">
     Card
+  </message>
+  <message name="IDS_AUTOFILL_IBAN_GENERIC" desc="Generic IBAN name." formatter_data="android_java">
+    Iban
+  </message>
+  <message name="IDS_AUTOFILL_LOYALTY_CARD_GENERIC" desc="Generic loyalty card name." formatter_data="android_java">
+    Loyalty card
+  </message>
+  <message name="IDS_AUTOFILL_LOYALTY_CARDS_SUBMENU_TITLE" desc="The loyalty cards submenu suggestion text.">
+    Loyalty cards
+  </message>
+  <message name="IDS_AUTOFILL_LOYALTY_CARDS_ALL_YOUR_CARDS_SUBMENU_TITLE" desc="The loyalty cards submenu containing all loyalty cards suggestion text.">
+    All your loyalty cards
   </message>
   <message name="IDS_AUTOFILL_ADDRESS_SUMMARY_SEPARATOR" desc="The separator character used in the summary of an address." formatter_data="android_java">
     , '''
@@ -178,6 +190,23 @@
     Fill everything
   </message>
 
+  <!-- Autofill Identity Credentials Suggestions -->
+  <message name="IDS_AUTOFILL_IDENTITY_CREDENTIAL_PROVIDED_MINOR_TEXT" desc="The minor text to display in an autofill suggestion (e.g. an email) that is provided by a third party website (e.g. google.com)." translateable="false">
+    Provided by <ph name="IDP_ORIGIN">$1<ex>accounts.google.com</ex></ph>
+  </message>
+
+  <message name="IDS_AUTOFILL_IDENTITY_CREDENTIAL_VERIFIED_MINOR_TEXT" desc="The minor text to display in an autofill suggestion (e.g. an email) that is verified by a third party website (e.g. google.com)." translateable="false">
+    Verified by <ph name="IDP_ORIGIN">$1<ex>accounts.google.com</ex></ph>
+  </message>
+
+  <message name="IDS_AUTOFILL_IDENTITY_CREDENTIAL_VERIFIED_EMAIL_LABEL" desc="The label text to display for verified autofill suggestions. If the user selects such email suggestion, the website receives cryptographic proof that the user has access to the email. The benefit for the user indicate in this message is that they can skip the manual process of receiving a confirmation email and pressing a link to prove ownership of the email." translateable="false">
+    Skip confirmation emails
+  </message>
+
+  <message name="IDS_AUTOFILL_IDENTITY_CREDENTIAL_LABEL_TEXT" desc="The label to display in an autofill suggestion." translateable="false">
+    Sign in with <ph name="IDP_ORIGIN">$1<ex>google.com</ex></ph>
+  </message>
+
   <if expr="not use_titlecase">
     <message name="IDS_AUTOFILL_MANAGE_ADDRESSES" desc="The text displayed at the bottom of the Autofill popup to allow the user to manage their Autofill preferences for addresses. Imperative. When the user clicks on it, opens the Autofill settings page." meaning="Manage addresses in the user profile that can be used by Chrome Autofill.">
       Manage addresses...
@@ -187,8 +216,12 @@
       Manage payment methods...
     </message>
 
-    <message name="IDS_AUTOFILL_MANAGE_PASSWORDS" desc="The text displayed at the bottom of the Autofill popup to allow the user to manage passwords that can be used by iBrowe Autofill. Imperative. When the user clicks on it, opens the Passwords section of the Settings page." meaning="Manage passwords in the user profile that can be used by Chrome Autofill.">
+    <message name="IDS_AUTOFILL_MANAGE_PASSWORDS" desc="The text displayed at the bottom of the Autofill popup to allow the user to manage passwords that can be used by Brave Autofill. Imperative. When the user clicks on it, opens the Passwords section of the Settings page." meaning="Manage passwords in the user profile that can be used by Chrome Autofill.">
       Manage passwords...
+    </message>
+
+    <message name="IDS_AUTOFILL_MANAGE_LOYALTY_CARDS" desc="The text displayed at the bottom of the Autofill popup to allow the user to manage loyalty cards that can be used by Brave Autofill. Imperative. When the user clicks on it, opens the Wallet page." meaning="Manage loyalty cards in the user wallet that can be used by Chrome Autofill.">
+      Manage loyalty cards...
     </message>
   </if>
   <if expr="use_titlecase">
@@ -200,8 +233,12 @@
       Manage Payment Methods...
     </message>
 
-    <message name="IDS_AUTOFILL_MANAGE_PASSWORDS" desc="In Title Case: The text displayed at the bottom of the Autofill popup to allow the user to manage passwords that can be used by iBrowe Autofill. Imperative. When the user clicks on it, opens the Passwords section of the Settings page." meaning="Manage passwords in the user profile that can be used by Chrome Autofill.">
+    <message name="IDS_AUTOFILL_MANAGE_PASSWORDS" desc="In Title Case: The text displayed at the bottom of the Autofill popup to allow the user to manage passwords that can be used by Brave Autofill. Imperative. When the user clicks on it, opens the Passwords section of the Settings page." meaning="Manage passwords in the user profile that can be used by Chrome Autofill.">
       Manage Passwords...
+    </message>
+
+    <message name="IDS_AUTOFILL_MANAGE_LOYALTY_CARDS" desc="In Title Case: The text displayed at the bottom of the Autofill popup to allow the user to manage loyalty cards that can be used by Brave Autofill. Imperative. When the user clicks on it, opens the Wallet page." meaning="Manage loyalty cards in the user wallet that can be used by Chrome Autofill.">
+      Manage Loyalty Cards...
     </message>
   </if>
 
@@ -219,10 +256,6 @@
     Show All Saved Passwords
   </message>
   </if>
-
-  <message name="IDS_AUTOFILL_SHOW_ACCOUNT_CARDS" desc="Text shown as an option in the Autofill dropdown. Imperative. When clicked, additional payment cards (e.g., credit/debit cards) that were previously saved in the user's iBrowe sync chain will be added to the list of suggestions being displayed.">
-    Show cards from your iBrowe sync chain
-  </message>
 
   <message name="IDS_AUTOFILL_SAVE_AND_FILL_SUGGESTION_TITLE" desc="Title for the `Save and Fill` suggestion shown in the Autofill dropdown for users who don't have any cards saved in Autofill. When the suggestion is clicked, users are offered to save and fill a credit card with a single click.">
     Save card for faster checkout
@@ -242,8 +275,14 @@
     </message>
   </if>
 
-  <message name="IDS_AUTOFILL_IPH_EXTERNAL_ACCOUNT_PROFILE_SUGGESTION" desc="IPH bubble for a suggestion item with an account profile that was created somewhere outside iBrowe (e.g. Google Pay)." formatter_data="android_java">
-    You can now use addresses from your iBrowe sync chain
+  <message name="IDS_AUTOFILL_IPH_EXTERNAL_ACCOUNT_PROFILE_SUGGESTION" desc="IPH bubble for a suggestion item with an account profile that was created somewhere outside Brave (e.g. Google Pay)." formatter_data="android_java">
+    You can now use addresses from your Brave sync chain
+  </message>
+  <message name="IDS_AUTOFILL_IPH_HOME_AND_WORK_ACCOUNT_PROFILE_SUGGESTION" desc="IPH bubble for a suggestion item suggesting that home and work account profiles are available to use.">
+    Your home and work addresses are now available in Brave
+  </message>
+  <message name="IDS_AUTOFILL_IPH_HOME_AND_WORK_ACCOUNT_PROFILE_SUGGESTION_SCREENREADER" is_accessibility_with_no_ui="true" desc="IPH bubble for a suggestion item suggesting that home and work account profiles are available to use.">
+    Your home and work addresses are now available in Brave
   </message>
 
   <!-- Autofill suggestion label separator -->
@@ -286,7 +325,7 @@
     Fills in payment forms with your saved payment methods
   </message>
   <message name="IDS_AUTOFILL_DELETE_ACCOUNT_ADDRESS_RECORD_TYPE_NOTICE" desc="The notice/warning for the user before the address deletion." formatter_data="android_java">
-    This address will be deleted from your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>
+    This address will be deleted from your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>
   </message>
   <message name="IDS_AUTOFILL_DELETE_SYNC_ADDRESS_RECORD_TYPE_NOTICE" desc="The notice/warning for the user before the address deletion (with syncing enabled)." formatter_data="android_java">
     This address will be deleted from this and your other signed-in devices
@@ -295,16 +334,16 @@
     This address will be deleted from this device
   </message>
   <message name="IDS_AUTOFILL_SAVE_IN_ACCOUNT_MESSAGE_ADDRESS_RECORD_TYPE_NOTICE" desc="The notice/warning message for the user that this address is going to be stored in their account.">
-    In your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>
+    In your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>
   </message>
   <message name="IDS_AUTOFILL_SAVE_IN_ACCOUNT_MESSAGE_ADDRESS_MIGRATION_RECORD_TYPE_NOTICE" desc="The notice/warning message for the user that this address is going to be migrated in their account.">
-    You will be able to use it across iBrowe products
+    You will be able to use it across Brave products
   </message>
   <message name="IDS_AUTOFILL_ADDRESS_ALREADY_SAVED_IN_ACCOUNT_RECORD_TYPE_NOTICE" desc="The footer message used to notify user that their address is stored in their account." formatter_data="android_java">
-    You can use saved addresses across iBrowe products. This address is saved in your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
+    You can use saved addresses across Brave products. This address is saved in your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
   </message>
   <message name="IDS_AUTOFILL_ADDRESS_WILL_BE_SAVED_IN_ACCOUNT_RECORD_TYPE_NOTICE" desc="The footer message used to notify user that their address will be saved in their account." formatter_data="android_java">
-    You can use saved addresses across iBrowe products. This address will be saved in your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
+    You can use saved addresses across Brave products. This address will be saved in your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
   </message>
   <message name="IDS_AUTOFILL_EDIT_ADDRESS_REQUIRED_FIELD_FORM_ERROR" desc="The form error message shown to the user in case of a single required field missing.">
     A required field is empty. Fill it before saving.
@@ -316,7 +355,7 @@
     Address is available only on this device
   </message>
   <message name="IDS_AUTOFILL_SYNC_TOGGLE_LABEL" desc="The Sync Autofill toggle label on the Autofill Settings page.">
-    Use and save Addresses from your iBrowe sync chain
+    Use and save Addresses from your Brave sync chain
   </message>
   <message name="IDS_AUTOFILL_ADDRESSES_SETTINGS_TITLE" desc="Title for the Autofill settings page that allows user to manage their list of saved addresses and Autofill preferences for addresses. Sentence-Cased." formatter_data="android_java">
     Addresses and more
@@ -343,19 +382,23 @@
     <message name="IDS_AUTOFILL_EDIT_ADDRESS_REQUIRED_FIELD_ERROR" desc="Validation error message for missing required address field." formatter_data="android_java">
       Enter <ph name="FIELD">$1<ex>ZIP code</ex></ph>
     </message>
-  </if>
-  <if expr="is_android">
-    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_DEFAULT" desc="Title of the option to use the default iBrowe autofill experience." formatter_data="android_java">
-      Autofill with iBrowe
+    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_DEFAULT" desc="Title of the option to use the default Brave autofill experience." formatter_data="android_java">
+      Autofill with Brave
     </message>
-    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_OPT_IN" desc="Title of the option to use third-party autofill in iBrowe." formatter_data="android_java">
+    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_OPT_IN" desc="Title of the option to use third-party autofill in Brave." formatter_data="android_java">
       Autofill using another service
     </message>
-    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_DEFAULT_DESCRIPTION" desc="Description shown on the option to use the default iBrowe autofill experience." formatter_data="android_java">
-      Use iBrowe Password Manager and iBrowe Autofill to save and fill passwords, payment methods, and addresses
+    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_DEFAULT_DESCRIPTION" desc="Description shown on the option to use the default Brave autofill experience." formatter_data="android_java">
+      Use Brave Password Manager and Brave Autofill to save and fill passwords, payment methods, and addresses
     </message>
-    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_OPT_IN_DESCRIPTION" desc="Description shown on the option enabling the use of third-party autofill in iBrowe." formatter_data="android_java">
-      To use another autofill service in iBrowe, turn it on in Android settings and here
+    <message name="IDS_AUTOFILL_THIRD_PARTY_FILLING_OPT_IN_DESCRIPTION" desc="Description shown on the option enabling the use of third-party autofill in Brave." formatter_data="android_java">
+      To use another autofill service in Brave, turn it on in Android settings and here
+    </message>
+    <message name="IDS_PAYMENT_METHODS_SETTINGS_LOYALTY_CARDS_TITLE" desc="Title for the payment methods settings page row that links the user to the Brave Wallet app." formatter_data="android_java">
+      Loyalty cards
+    </message>
+    <message name="IDS_PAYMENT_METHODS_SETTINGS_LOYALTY_CARDS_DESCRIPTION" desc="Description shown below the loyalty cards link to the Brave Wallet app." formatter_data="android_java">
+      Manage your loyalty cards in Brave Wallet
     </message>
   </if>
 
@@ -363,11 +406,17 @@
   <message name="IDS_SYNC_DATATYPE_PAYMENTS" desc="Label for the checkbox that controls the Autofill/Payments integration feature used for Autofill Home. 'Google Pay' should not be translated as it is the product name. Sentence-Cased.">
     Payment methods, offers, and addresses using Google Pay
   </message>
+  <message name="IDS_SYNC_DATATYPE_PAYMENTS_AND_INFO" desc="Label for the checkbox that controls the Autofill/Wallet integration feature used for Autofill. 'Brave Wallet' should not be translated as it is the product name. Sentence-Cased.">
+    Payment methods and other info from Brave Wallet
+  </message>
 
   <!-- Manual filling (keyboard accessory) strings -->
   <if expr="is_android">
     <message name="IDS_MANUAL_FILLING_CREDIT_CARD_SHEET_ALL_ADDRESSES_LINK" desc="The text of the link in the address sheet that opens the address management section.">
       Manage payment methods
+    </message>
+    <message name="IDS_MANUAL_FILLING_CREDIT_CARD_SHEET_ALL_LOYALTY_CARDS_LINK" desc="The text of the link in the payments sheet that opens the Brave Wallet loyalty card section.">
+      Manage loyalty cards
     </message>
     <message name="IDS_MANUAL_FILLING_CREDIT_CARD_SHEET_EMPTY_MESSAGE" desc="Message indicating that no payment methods (e.g., credit cards) are available for filling.">
       No saved payment methods
@@ -385,7 +434,7 @@
   <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_OK_BUTTON_LABEL" desc="Label of the OK button in the prompt that offers the user to save a new address.">
     Save
   </message>
-  <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_MIGRATION_OK_BUTTON_LABEL" desc="Label of the OK button in the prompt that offers the user to migrate a new address to their iBrowe account.">
+  <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_MIGRATION_OK_BUTTON_LABEL" desc="Label of the OK button in the prompt that offers the user to migrate a new address to their Brave account.">
     Save in account
   </message>
   <message name="IDS_AUTOFILL_ACCOUNT_MIGRATE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to save existing address into account.">
@@ -406,20 +455,20 @@
   <message name="IDS_AUTOFILL_UPDATE_ADDRESS_PROMPT_OLD_VALUES_SECTION_LABEL" meaning="In the address update prompt" desc="Label shown next to the section that displays the old address values in the prompt that offers the user to update an existing address." formatter_data="android_java">
     Old
   </message>
-  <message name="IDS_AUTOFILL_MIGRATE_ADDRESS_PROMPT_CANCEL_BUTTON_LABEL" desc="Label of the Cancel button in the prompt that offers the user to migrate an existing address profile in their iBrowe account." meaning="Don't migrate this address">
+  <message name="IDS_AUTOFILL_MIGRATE_ADDRESS_PROMPT_CANCEL_BUTTON_LABEL" desc="Label of the Cancel button in the prompt that offers the user to migrate an existing address profile in their Brave account." meaning="Don't migrate this address">
     No thanks
   </message>
   <message name="IDS_AUTOFILL_SAVE_IN_ACCOUNT_PROMPT_ADDRESS_SOURCE_NOTICE" desc="The footer message in the 'Save address' prompt informing the user that this address will be stored in their account.">
-    You can use saved addresses across iBrowe products. This address will be saved in your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
+    You can use saved addresses across Brave products. This address will be saved in your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
   </message>
   <message name="IDS_AUTOFILL_UPDATE_PROMPT_ACCOUNT_ADDRESS_SOURCE_NOTICE" desc="The footer message in the 'Update address' prompt informing the user that this address is stored in their account.">
-    You can use saved addresses across iBrowe products. This address is saved in your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
+    You can use saved addresses across Brave products. This address is saved in your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
   </message>
   <message name="IDS_AUTOFILL_SYNCABLE_PROFILE_MIGRATION_PROMPT_NOTICE" desc="The syncable profile prompt body text.">
-    This address is currently saved to iBrowe. To use it across iBrowe products, save it in your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
+    This address is currently saved to Brave. To use it across Brave products, save it in your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
   </message>
   <message name="IDS_AUTOFILL_LOCAL_PROFILE_MIGRATION_PROMPT_NOTICE" desc="The local profile prompt body text.">
-    This address is currently saved to this device. To use it across iBrowe products, save it in your iBrowe sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
+    This address is currently saved to this device. To use it across Brave products, save it in your Brave sync chain, <ph name="ACCOUNT">$1<ex>alexpark@gmail.com</ex></ph>.
   </message>
   <message name="IDS_AUTOFILL_SAVE_PROMPT_ADDRESS_SECTION_A11Y_LABEL" desc="The 'Save address' prompt address summary section a11y announcement, accompanied with a label to make it clear that the content being read is an address.">
     Address: <ph name="ADDRESS">$1<ex>345 Spear street</ex></ph>.
@@ -435,7 +484,7 @@
     <message name="IDS_AUTOFILL_SAVE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to save a new address.">
       Save address?
     </message>
-    <message name="IDS_AUTOFILL_SAVE_ADDRESS_MIGRATION_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to migrate a new address in their iBrowe sync chain.">
+    <message name="IDS_AUTOFILL_SAVE_ADDRESS_MIGRATION_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to migrate a new address in their Brave sync chain.">
       Save in account?
     </message>
     <message name="IDS_AUTOFILL_UPDATE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of prompt that offers the user to update an existing address.">
@@ -471,7 +520,7 @@
     <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of modal dialog that offers the user to save a new address." meaning="In Title Case for iOS">
       Save address
     </message>
-   <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_IN_ACCOUNT_PROMPT_TITLE" desc="Title shown at the top of modal dialog that offers the user to save a new address in iBrowe sync chain." meaning="In Title Case for iOS">
+   <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_IN_ACCOUNT_PROMPT_TITLE" desc="Title shown at the top of modal dialog that offers the user to save a new address in Brave sync chain." meaning="In Title Case for iOS">
       Save in account
     </message>
     <message name="IDS_IOS_AUTOFILL_UPDATE_ADDRESS_PROMPT_TITLE" desc="Title shown at the top of modal dialog that offers the user to update an existing address." meaning="In Title Case for iOS">
@@ -480,14 +529,14 @@
     <message name="IDS_IOS_AUTOFILL_ADDRESS_MIGRATION_TO_ACCOUNT_PROMPT_TITLE" desc="Title shown at the top of modal dialog that offers the user to migrate the profile to account." meaning="In Title Case for iOS">
       Save address in account
     </message>
-    <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_IN_ACCOUNT_MESSAGE_SUBTITLE" desc="Subtitle shown in the messages UI view when a new profile is asked to be saved in the iBrowe sync chain">
-       In your iBrowe sync chain, <ph name="USER_EMAIL">$1<ex>janedoe@google.com</ex></ph>
+    <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_IN_ACCOUNT_MESSAGE_SUBTITLE" desc="Subtitle shown in the messages UI view when a new profile is asked to be saved in the Brave sync chain">
+       In your Brave sync chain, <ph name="USER_EMAIL">$1<ex>janedoe@google.com</ex></ph>
     </message>
-    <message name="IDS_IOS_AUTOFILL_MIGRATE_ADDRESS_IN_ACCOUNT_MESSAGE_SUBTITLE" desc="Subtitle shown in the messages UI view when an existing profile is asked to be migrated to the iBrowe sync chain">
-       You can use it across iBrowe products
+    <message name="IDS_IOS_AUTOFILL_MIGRATE_ADDRESS_IN_ACCOUNT_MESSAGE_SUBTITLE" desc="Subtitle shown in the messages UI view when an existing profile is asked to be migrated to the Brave sync chain">
+       You can use it across Brave products
     </message>
-    <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_IN_ACCOUNT_FOOTER" desc="Footer text shown in the save modal for saving a new address profile or migrating it in the iBrowe sync chain">
-      You can use saved addresses across iBrowe products. This address will be saved in your iBrowe sync chain, <ph name="USER_EMAIL">$1<ex>janedoe@google.com</ex></ph>.
+    <message name="IDS_IOS_AUTOFILL_SAVE_ADDRESS_IN_ACCOUNT_FOOTER" desc="Footer text shown in the save modal for saving a new address profile or migrating it in the Brave sync chain">
+      You can use saved addresses across Brave products. This address will be saved in your Brave sync chain, <ph name="USER_EMAIL">$1<ex>janedoe@google.com</ex></ph>.
     </message>
   </if>
   <!-- Used on Desktop: -->
@@ -510,11 +559,11 @@
     <message name="IDS_AUTOFILL_ADD_NEW_ADDRESS_EDITOR_TITLE" desc="The title of the editor dialog called after the 'Add new address' prompt is accepted.">
       Add address
     </message>
-    <message name="IDS_AUTOFILL_ADD_NEW_ADDRESS_INTO_CHROME_PROMPT_BODY_TEXT" desc="The 'Add new address' bubble body text if the address will be saved in iBrowe (locally or syncable among iBrowes on different devices).">
-      You don't have any addresses saved. Add an address to use it in iBrowe.
+    <message name="IDS_AUTOFILL_ADD_NEW_ADDRESS_INTO_CHROME_PROMPT_BODY_TEXT" desc="The 'Add new address' bubble body text if the address will be saved in Brave (locally or syncable among Braves on different devices).">
+      You don't have any addresses saved. Add an address to use it in Brave.
     </message>
-    <message name="IDS_AUTOFILL_ADD_NEW_ADDRESS_INTO_ACCOUNT_PROMPT_BODY_TEXT" desc="The 'Add new address' bubble body text if the address will be save in the user's iBrowe account.">
-      You don't have any addresses saved. Add an address to use it across iBrowe products.
+    <message name="IDS_AUTOFILL_ADD_NEW_ADDRESS_INTO_ACCOUNT_PROMPT_BODY_TEXT" desc="The 'Add new address' bubble body text if the address will be save in the user's Brave account.">
+      You don't have any addresses saved. Add an address to use it across Brave products.
     </message>
     <message name="IDS_AUTOFILL_UPDATE_ADDRESS_PROMPT_CANCEL_BUTTON_LABEL" desc="Label of the Cancel button in the prompt that offers the user to update an existing address.">
       No thanks
@@ -549,10 +598,10 @@
     <message name="IDS_AUTOFILL_EXPANDABLE_SUGGESTION_SUBMENU_HINT" desc="Autofill desktop popup: additional screen reader info to let the user know that the suggestion can be expanded into a sub-menu.">
       Submenu available, use <ph name="SHORTCUT">$1<ex>right key</ex></ph> to navigate to additional options.
     </message>
-    <message name="IDS_AUTOFILL_SIGNIN_PROMO_TITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their iBrowe sync chain). It appears after a password save if the user is not signed in to iBrowe or their sign-in credentials have expired. If the user wants to save this data to their iBrowe sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
+    <message name="IDS_AUTOFILL_SIGNIN_PROMO_TITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Brave sync chain). It appears after a password save if the user is not signed in to Brave or their sign-in credentials have expired. If the user wants to save this data to their Brave sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
     Password saved to this device
     </message>
-    <message name="IDS_AUTOFILL_VERIFY_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password is in an account-pending storage. In other words, it's waiting to be uploaded to the user's iBrowe sync chain. It appears when the user was signed in to iBrowe but their sign-in credentials have expired; now, they need to sign back in to iBrowe. The string is after the 'Password saved' string. If the user wants to save this data to their iBrowe sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
+    <message name="IDS_AUTOFILL_VERIFY_PROMO_SUBTITLE_PASSWORD" desc="This is the body text of a confirmation message and means that the password was only saved locally to the user's device (not in their Brave sync chain). It appears when the user was signed in to Brave but their sign-in credentials have expired; now, they need to sign back in to Brave. The string is after the 'Password saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
     To get this password on all your devices, verify it's you
     </message>
     <message name="IDS_AUTOFILL_POPUP_SEARCH_BAR_CLEAR_SEARCH_BUTTON_A11Y_NAME" desc="The a11y name for the clear button accompanying the autofill popup search bar input.">
@@ -564,12 +613,21 @@
     <message name="IDS_AUTOFILL_POPUP_SEARCH_BAR_PASSWORDS_NOT_FOUND" desc="On the autofill popup for paswords, the label to be used when no passwords matching user's request were found.">
       No passwords found
     </message>
-    <message name="IDS_AUTOFILL_SIGNIN_PROMO_TITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their iBrowe sync chain). It appears after an address save if the user is not signed in to iBrowe or their sign-in credentials have expired. If the user wants to save this data to their iBrowe sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
+    <message name="IDS_AUTOFILL_SIGNIN_PROMO_TITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Brave sync chain). It appears after an address save if the user is not signed in to Brave or their sign-in credentials have expired. If the user wants to save this data to their Brave sync chain, they can click the button at the bottom of this message. The tone should be motivating.">
     Address saved to this device
     </message>
-    <message name="IDS_AUTOFILL_VERIFY_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their iBrowe sync chain). It appears when the user was signed in to iBrowe but their sign-in credentials have expired; now, they need to sign back in to iBrowe. The string is after the 'Address saved to this device' string. If the user wants to save this data to their iBrowe sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
-    To save and use this address on all your devices, verify it's you
+    <message name="IDS_AUTOFILL_VERIFY_PROMO_SUBTITLE_ADDRESS" desc="This is the body text of a confirmation message and means that the address was only saved locally to the user's device (not in their Brave sync chain). It appears when the user was signed in to Brave but their sign-in credentials have expired; now, they need to sign back in to Brave. The string is after the 'Address saved to this device' string. If the user wants to save this data to their Brave sync chain, they can click the 'Verify it's you' button at the bottom of this message. The tone should be motivating.">
+    To get this address on all your devices, verify it's you
     </message>
+    <message name="IDS_AUTOFILL_IPH_LOYALTY_CARD_SUGGESTION_TITLE" desc="IPH toast for a suggestion item with a loyalty card from Brave Wallet.">
+    Now you can autofill loyalty cards from Brave Wallet
+    </message>
+    <message name="IDS_AUTOFILL_IPH_LOYALTY_CARD_SUGGESTION_BODY" desc="IPH toast for a suggestion item with a loyalty card from Brave Wallet.">
+    Manage loyalty cards or turn these suggestions off in Brave Wallet
+    </message>
+    <message name="IDS_AUTOFILL_IPH_LOYALTY_CARD_SUGGESTION_SCREENREADER" is_accessibility_with_no_ui="true" desc="IPH toast for a suggestion item with a loyalty card from Brave Wallet.">
+    Now you can autofill loyalty cards from Brave Wallet
+  </message>
   </if>
 
   <!-- Autofill Address Edit Dialog -->
@@ -582,5 +640,195 @@
   </message>
   <message name="IDS_AUTOFILL_ADDRESS_EDIT_DIALOG_JAPANESE_ALTERNATIVE_NAME" desc="The label for the phonetic name field in japanese autofill profile. In Japanese it should be translated to 'ふりがな'.">
     Phonetic name
+  </message>
+
+  <!-- Used on Android: -->
+  <if expr="is_android">
+  <message name="IDS_AUTOFILL_ADDRESS_EDIT_DIALOG_REQUIRED_FIELD_CONTENT_DESCRIPTION" desc="Content description for text edit field that is marked as 'required'. It is built from the label and a string that explicitly states that the field is required." formatter_data="android_java">
+    <ph name="FIELD_LABEL">%1$s<ex>City</ex></ph>, required
+  </message>
+  </if>
+
+   <!-- Entities -->
+  <message name="IDS_AUTOFILL_AI_PASSPORT_ENTITY_NAME" desc="The label for something that a user can save when submitting a form. For context, a user has been able to save credit cards within Brave for many users. Now a user can also save a “Driver’s license”.">
+    Passport
+  </message>
+  <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_ENTITY_NAME" desc="The label for something that a user can save when submitting a form. For context, a user has been able to save credit cards within Brave for many users. Now a user can also save a “Passport”.">
+    Driver's license
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_ENTITY_NAME" desc="The label for something that a user can save when submitting a form. For context, a user has been able to save credit cards within Brave for many users. Now a user can also save a “Vehicle”.">
+    Vehicle
+  </message>
+
+  <!-- Add entity strings -->
+  <message name="IDS_AUTOFILL_AI_ADD_PASSPORT_ENTITY" desc="A title of a dialog within Brave settings that allows a user to explicitly create a passport. Beneath the title is a form. Instead of the autofill service prompting the user to save values at the moment they submit a form, the user can explicitly add data to the autofill service with this interface. This is similar to adding a Credit card to Brave.">
+    Add passport
+  </message>
+  <message name="IDS_AUTOFILL_AI_ADD_DRIVERS_LICENSE_ENTITY" desc="A title of a dialog within Brave settings that allows a user to explicitly create a driver’s license. Beneath the title is a form. Instead of the autofill service prompting the user to save values at the moment they submit a form, the user can explicitly add data to the autofill service with this interface. This is similar to adding a Credit card to Brave.">
+    Add driver's license
+  </message>
+  <message name="IDS_AUTOFILL_AI_ADD_VEHICLE_ENTITY" desc="A title of a dialog within Brave settings that allows a user to explicitly create a vehicle. Beneath the title is a form. Instead of the autofill service prompting the user to save values at the moment they submit a form, the user can explicitly add data to the autofill service with this interface. This is similar to adding a Credit card to Brave.">
+    Add vehicle
+  </message>
+
+  <!-- Edit entity strings -->
+  <message name="IDS_AUTOFILL_AI_EDIT_PASSPORT_ENTITY" desc="The title of a dialog box that allows the user to edit their information.">
+    Edit passport
+  </message>
+  <message name="IDS_AUTOFILL_AI_EDIT_VEHICLE_ENTITY" desc="The title of a dialog box that allows the user to edit their information.">
+    Edit vehicle
+  </message>
+  <message name="IDS_AUTOFILL_AI_EDIT_DRIVERS_LICENSE_ENTITY" desc="The title of a dialog box that allows the user to edit their information.">
+    Edit driver's license
+  </message>
+
+  <!-- Delete entity strings -->
+  <message name="IDS_AUTOFILL_AI_DELETE_PASSPORT_ENTITY" desc="A title of a dialog within settings that allows a user to delete a passport. The user opened this dialog by choosing 'Delete' from the more options menu.">
+    Delete passport
+  </message>
+  <message name="IDS_AUTOFILL_AI_DELETE_VEHICLE_ENTITY" desc="A title of a dialog within settings that allows a user to delete a vehicle. The user opened this dialog by choosing 'Delete' from the more options menu.">
+    Delete vehicle
+  </message>
+  <message name="IDS_AUTOFILL_AI_DELETE_DRIVERS_LICENSE_ENTITY" desc="A title of a dialog within settings that allows a user to delete a driver's license. The user opened this dialog by choosing 'Delete' from the more options menu.">
+    Delete driver's license
+  </message>
+
+  <!-- Attributes of the passport entity -->
+  <message name="IDS_AUTOFILL_AI_PASSPORT_NAME_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, United Airlines might label the field  “First and last name” and Delta might label it “Full name”. Once the information is saved with Autofill with AI, we just call the value “Name”.">
+    Name
+  </message>
+  <message name="IDS_AUTOFILL_AI_PASSPORT_NUMBER_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, United Airlines might label the field  “Passport” and Delta might label it “Passport number”. Once the information is saved with Autofill with AI, we just call the value “Number”.">
+    Number
+  </message>
+  <message name="IDS_AUTOFILL_AI_PASSPORT_COUNTRY_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, United Airlines might label the field  “Region” and Delta might label it “Country”. Once the information is saved with Autofill with AI, we just call the value “Country”.">
+    Country
+  </message>
+  <message name="IDS_AUTOFILL_AI_PASSPORT_EXPIRATION_DATE_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, United Airlines might label the field  “Expires” and Delta might label it “Date passport expires”. Once the information is saved with Autofill with AI, we just call the value “Expiration date”.">
+    Expiration date
+  </message>
+  <message name="IDS_AUTOFILL_AI_PASSPORT_ISSUE_DATE_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, United Airlines might label the field  “Issue” and Delta might label it “Date passport issue”. Once the information is saved with Autofill with AI, we just call the value “Issue date”.">
+    Issue date
+  </message>
+
+  <!-- Attributes of the driver's license entity -->
+  <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_NAME_ATTRIBUTE_NAME" desc="Used as a general label for the driver's license name attribute.">
+    Name
+  </message>
+  <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_STATE_ATTRIBUTE_NAME" desc="Used as a general label for the driver's license region attribute.">
+    State
+  </message>
+  <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_NUMBER_ATTRIBUTE_NAME" desc="Used as a general label for the driver's license number attribute.">
+    Number
+  </message>
+  <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_EXPIRATION_DATE_ATTRIBUTE_NAME" desc="Used as a general label for the driver's license expiration date attribute.">
+    Expiration date
+  </message>
+  <message name="IDS_AUTOFILL_AI_DRIVERS_LICENSE_ISSUE_DATE_ATTRIBUTE_NAME" desc="Used as a general label for the driver's license issue date attribute.">
+    Issue date
+  </message>
+
+  <!-- Attributes of the vehicle entity -->
+  <message name="IDS_AUTOFILL_AI_VEHICLE_MAKE_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field  “Type of car” and another might label it “Car make”. Once the information is saved with Autofill with AI, we just call the value “Make”.">
+    Make
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_MODEL_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field  “Model picker” and another might label it “Car model”. Once the information is saved with Autofill with AI, we just call the value “Model”.">
+    Model
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_YEAR_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field  “Model year” and another might label it “Year of model”. Once the information is saved with Autofill with AI, we just call the value “Year”.">
+    Year
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_OWNER_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field  “Owner’s name” and another might label it “Your name”. Once the information is saved with Autofill with AI, we just call the value “Owner”.">
+    Owner
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_PLATE_NUMBER_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field  “License” and another might label it “plate number”. Once the information is saved with Autofill with AI, we just call the value “License plater”.">
+    License plate
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_PLATE_STATE_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field  “State” and another might label it “Issuing state”. Once the information is saved with Autofill with AI, we just call the value “Plate state”.">
+    Plate state
+  </message>
+  <message name="IDS_AUTOFILL_AI_VEHICLE_VEHICLE_IDENTIFICATION_NUMBER_ATTRIBUTE_NAME" desc="A label that describes a piece of user data. This label loosely aligns with the original form the user submitted. For example, one website might label the field “Registration“ and another might label it “Vehicle Identification Number“. Once the information is saved with Autofill with AI, we just call the value “VIN (Vehicle Identification Number)“. Please use Glossary Manager or look up the official term for your country.">
+    VIN (vehicle identification number)
+  </message>
+
+  <!-- Manage suggestion -->
+  <message name="IDS_AUTOFILL_AI_MANAGE_SUGGESTION_MAIN_TEXT" desc="The label for a button that opens the Autofill for AI information management interface in Brave settings. When users choose this option, they can edit, delete, and “create” new information, like a new passport or driver’s license.">
+    Manage information
+  </message>
+
+  <!-- Save/Update prompt -->
+  <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_SAVE_DIALOG_NO_THANKS_BUTTON" desc="Text displayed on the decline/cancel button of the save/update dialog.">
+    No thanks
+  </message>
+  <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_SAVE_DIALOG_SAVE_BUTTON" desc="Text displayed on the accept/save button of the save dialog.">
+    Save
+  </message>
+  <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_UPDATE_DIALOG_UPDATE_BUTTON" desc="Text displayed on the accept/save button of the update dialog.">
+    Update
+  </message>
+  <message name="IDS_AUTOFILL_PREDICTION_IMPROVEMENTS_SAVE_DIALOG_FOOTER_DETAILS" desc="Text displayed on the footer of the save dialog giving users details about how Autofill with AI data is saved.">
+    Saved info and the page from <ph name="WEBSITE">$1<ex>airline.com</ex></ph> are sent to Brave and may be seen by human reviewers to improve this feature.
+  </message>
+
+  <!-- Iph -->
+  <message name="IDS_AUTOFILL_AI_OPT_IN_IPH_TITLE" desc="The title of a promotional bubble that is likely the user's first engagement with Autofill for AI. Many users are familiar with Brave Autofill and use it to automatically fill in things like passwords and credit cards. This service promoted on this screen frames the new service as the autofill that users are familiar with but better, because it's powered by AI and can do more for you.">
+    Autofill just got better
+  </message>
+  <message name="IDS_AUTOFILL_AI_OPT_IN_IPH_BODY" desc="The body text in a promotional bubble that appears beneath the title: “Autofill just got better”. * “Turn on”: This new feature is opt in, so we want to encourage users to click “Go to settings” and turn the feature on. “autofill with AI” is what we're calling this new feature. We want users to associate the new feature with the familiar autofill functionality they're already used to but want to convey how it's different (AI). * “automatically” should feel valuable to users as the autofill service is making tasks for them simpler. * “more fields”: the existing autofill functionality in Brave covers things like passwords, credit cards, and building addresses. With this new service, we can also cover 1) passports, 2) vehicles, and 3) driver's licenses.">
+    Turn on autofill with AI to automatically fill more fields
+  </message>
+  <message name="IDS_AUTOFILL_AI_OPT_IN_IPH_SEE_HOW" desc="The right of two buttons that’s the user’s path learning more and turning on Autofill with AI. This button label should pair with the title (in other words, assume the user doesn’t read the body text. Does the title and primary button label make sense together)?">
+    See how
+  </message>
+  <message name="IDS_AUTOFILL_AI_OPT_IN_IPH_TURN_ON" desc="The right of two buttons that’s the user’s path learning more and turning on Autofill with AI. This button label should pair with the title (in other words, assume the user doesn’t read the body text. Does the title and primary button label make sense together)?">
+    Turn on
+  </message>
+    <message name="IDS_AUTOFILL_AI_OPT_IN_IPH_TRY_IT" desc="The right of two buttons that’s the user’s path learning more and turning on Autofill with AI. This button label should pair with the title (in other words, assume the user doesn’t read the body text. Does the title and primary button label make sense together)?">
+    Try it
+  </message>
+  <message name="IDS_AUTOFILL_AI_OPT_IN_IPH_MAYBE_LATER" desc="The left of two buttons that’s essentially the user’s path to not learning more or turning on Autofill with AI. “Maybe later” conveys that the user won’t do it now but that they’ll have the choice to do it later. Localizer has existing translations of this button label.">
+    Maybe later
+  </message>
+
+  <!-- Save/ Update dialog-->
+  <message name="IDS_AUTOFILL_AI_SAVE_VEHICLE_ENTITY_DIALOG_TITLE" desc="The title of a dialog that prompts the user to save information they just filled in on a form. For example, the user is filled in details related to their car. When they click Submit, we offer to save the data in Brave. Depending on the form and what Brave recognizes, there might be just one or several pieces of data saved at this moment. This is a similar moment to saving a password or credit card with Brave.">
+    Save vehicle?
+  </message>
+  <message name="IDS_AUTOFILL_AI_SAVE_DRIVERS_LICENSE_ENTITY_DIALOG_TITLE" desc="The title of a dialog that prompts the user to save information they just filled in on a form. For example, the user is renting a car and just filled in info about their driver’s license. When they click Submit, we offer to save the data in Brave. Depending on the form and what Brave recognizes, there might be just one or several pieces of data saved at this moment. This is a similar moment to saving a password or credit card with Brave.">
+    Save driver's license?
+  </message>
+  <message name="IDS_AUTOFILL_AI_SAVE_PASSPORT_ENTITY_DIALOG_TITLE" desc="The title of a dialog that prompts the user to save information they just filled in on a form. For example, the user is booking a flight and filled in their passport info in a form. When they click Submit, we offer to save the data in Brave. Depending on the form and what Brave recognizes, there might be just one or several pieces of data saved at this moment. This is a similar moment to saving a password or credit card with Brave.">
+    Save passport?
+  </message>
+  <message name="IDS_AUTOFILL_AI_UPDATE_VEHICLE_ENTITY_DIALOG_TITLE" desc="The title of a dialog that prompts the user to update information associated with something they have previously saved. For example, the user previously saved information related to their car. Now, the user is filling out a new form either with additional details associated with the car or with different values than what was previously saved. The interface shows new or modified values at the top with blue dots to indicate they’re new. Existing information associated with the vehicle that isn’t changing appears at the bottom without blue dots. Depending on the form and what Brave recognizes, there might be just one or several pieces of data updated at this moment. This is a similar moment to updating a password or credit card with Brave.">
+    Update vehicle?
+  </message>
+  <message name="IDS_AUTOFILL_AI_UPDATE_DRIVERS_LICENSE_ENTITY_DIALOG_TITLE" desc="The title of a dialog that prompts the user to update information associated with something they have previously saved. For example, the user previously saved information related to their driver’s license. Now, the user is filling out a new form either with additional details associated with the driver’s license or with different values than what was previously saved. The interface shows new or modified values at the top with blue dots to indicate they’re new. Existing information associated with the driver’s license that isn’t changing appears at the bottom without blue dots. Depending on the form and what Brave recognizes, there might be just one or several pieces of data updated at this moment. This is a similar moment to updating a password or credit card with Brave.">
+    Update driver's license?
+  </message>
+  <message name="IDS_AUTOFILL_AI_UPDATE_PASSPORT_ENTITY_DIALOG_TITLE" desc="The title of a dialog that prompts the user to update information associated with something they have previously saved. For example, the user previously saved information related to their passport. Now, the user is filling out a new form either with additional details associated with the passport or with different values than what was previously saved. The interface shows new or modified values at the top with blue dots to indicate they’re new. Existing information associated with the passport that isn’t changing appears at the bottom without blue dots. Depending on the form and what Brave recognizes, there might be just one or several pieces of data updated at this moment. This is a similar moment to updating a password or credit card with Brave.">
+    Update passport?
+  </message>
+  <message name="IDS_AUTOFILL_AI_SAVE_ENTITY_DIALOG_SUBTITLE" desc="A description that appears beneath the Save title prompt. This sentence essentially defines Autofill in Brave. We prompt the user to save their information with Brave with the promise that Brave can then help the user fill out forms more quickly using their saved info.">
+    Save your info so that autofill can fill in more fields for you next time
+  </message>
+  <message name="IDS_AUTOFILL_AI_UPDATE_ENTITY_DIALOG_UPDATED_ATTRIBUTE_ACCESSIBLE_NAME" desc="Used in entity update dialogs, as the accessible names for rows with updated attributes">
+    <ph name="ATTRIBUTE_NAME">$1<ex>Passport number</ex></ph> updated
+  </message>
+  <message name="IDS_AUTOFILL_AI_UPDATE_ENTITY_DIALOG_NEW_ATTRIBUTE_ACCESSIBLE_NAME" desc="Used in entity update dialogs, as the accessible names for rows with new attributes">
+    <ph name="ATTRIBUTE_NAME">$1<ex>Passport number</ex></ph> added
+  </message>
+
+  <!-- FFR Dialog -->
+  <message name="IDS_AUTOFILL_AI_FFR_WHEN_ON_TITLE" desc="A sub title that highlights the benefits of using ‘autofill with AI’. ‘More fields’ is referring to values in online forms. The user can fill more fields faster because ‘Autofill with AI’ supports more data types than standard autofill, including passports, driver’s licenses, and vehicles.">
+    Fill more fields faster
+  </message>
+  <message name="IDS_AUTOFILL_AI_FFR_WHEN_ON_DESCRIPTION" desc="Body text beneath the “Fill more fields faster” sub title. This conveys the value of using ‘Autofill with AI’.">
+    Autofill with AI understands forms better and can autofill them faster for you
+  </message>
+  <message name="IDS_AUTOFILL_AI_FFR_CONSIDER_DESCRIPTION" desc="Body text beneath the “Things to consider” sub title. This describes to users things they might want to weigh before using this feature. Ideally, we lead with ‘To offer suggestions’, because it redefines the value of ‘Autofill with AI’ and offers a rationale for the data use that immediately follows. The data used includes 1) the URL of a page visited and 2) the content of that page. Both are shared from Brave to a Brave service that generates autofill suggestions. Inludes a placeholder for a learn more link, $1 = IDS_AUTOFILL_AI_FFR_CONSIDER_LEARN_MORE">
+    To offer suggestions and improve this feature, the page’s URL and content are shared with Brave. Change your mind anytime and <ph name="LEARN_MORE">$1<ex>learn more about autofill with AI in settings</ex></ph>.
+  </message>
+  <message name="IDS_AUTOFILL_AI_FFR_CONSIDER_LEARN_MORE" desc="Link for the Autofill AI settings page to learn more about this feature.">
+    learn more about autofill with AI in settings
   </message>
 </grit-part>

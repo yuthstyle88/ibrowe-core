@@ -1,17 +1,17 @@
 /* About settings section title */
 "About" = "Sobre";
 
-/* The title of the screen explaining iBrowe Shields */
-"AboutBraveShields" = "Sobre as Proteções do iBrowe";
+/* The title of the screen explaining Brave Shields */
+"AboutBraveShields" = "Sobre as Proteções do Brave";
 
-/* The body of the screen explaining iBrowe Shields */
-"AboutBraveShieldsBody" = "Geralmente, os sites contêm cookies e scripts que tentam identificar você e seu dispositivo. Eles querem descobrir quem você é e seguir você pela web, monitorando o que você faz em todos os sites.\n\nO iBrowe bloqueia esses itens para que você possa navegar sem ser vigiado.";
+/* The body of the screen explaining Brave Shields */
+"AboutBraveShieldsBody" = "Geralmente, os sites contêm cookies e scripts que tentam identificar você e seu dispositivo. Eles querem descobrir quem você é e seguir você pela web, monitorando o que você faz em todos os sites.\n\nO Brave bloqueia esses itens para que você possa navegar sem ser vigiado.";
 
 /* See http://mzl.la/1G7uHo7 */
 "AccessPhotoDeniedAlertMessage" = "Isso permite que você salve a imagem no Rolo da Câmera.";
 
 /* See http://mzl.la/1G7uHo7 */
-"AccessPhotoDeniedAlertTitle" = "O iBrowe deseja acessar suas fotos";
+"AccessPhotoDeniedAlertTitle" = "O Brave deseja acessar suas fotos";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "addBookmarkTitle" = "Adicionar favorito";
@@ -28,8 +28,8 @@
 /* Title for the button to add a new website bookmark. */
 "AddToMenuItem" = "Adicionar favorito";
 
-/* Text for the toggle switch to clear 'iBrowe Ads' data in settings */
-"ads.braveAdsDataToggleOption" = "Dados iBrowe Ads";
+/* Text for the toggle switch to clear 'Brave Ads' data in settings */
+"ads.braveAdsDataToggleOption" = "Dados Brave Ads";
 
 /* individual blocking statistic title */
 "AdsAndTrackers" = "Anúncios e rastreadores";
@@ -43,8 +43,8 @@
 /* Setting preference to always show the browser tabs bar. */
 "AlwaysShow" = "Ativado";
 
-/* Touch ID or PIN entry prompt subtitle when accessing iBrowe with the Browser Lock feature enabled */
-"AuthenticationLoginsTouchReason" = "Isso autentica seu acesso ao iBrowe";
+/* Touch ID or PIN entry prompt subtitle when accessing Brave with the Browser Lock feature enabled */
+"AuthenticationLoginsTouchReason" = "Isso autentica seu acesso ao Brave";
 
 /* Label for Cancel button */
 "AuthPromptAlertCancelButtonTitle" = "Cancelar";
@@ -85,20 +85,17 @@
 /* block all cookies settings action title */
 "BlockAllCookiesAction" = "Bloquear todos";
 
-/* Information displayed to user when block all cookie is enabled. */
-"BlockAllCookiesAlertInfo" = "Se você bloquear todos os cookies, alguns sites não funcionarão corretamente.";
+/* Title of confirmation alert displayed to user when block all cookie toggle is enabled. */
+"blockAllCookiesAlertTitle" = "Bloquear todos os cookies?";
 
-/* Title of alert displayed to user when block all cookie is enabled. */
-"BlockAllCookiesAlertTitle" = "Bloquear todos os cookies?";
+/* Description of confirmation alert displayed to user when block all cookie toggle is enabled. */
+"blockAllCookiesDescription" = "O recurso Proteções já bloqueia cookies de terceiros. Essa configuração para bloquear TODOS os cookies removerá os cookies existentes e os dados do site, podendo danificar os sites.";
 
 /* Message of alert displayed to user when block all cookie operation fails */
 "BlockAllCookiesFailedAlertMsg" = "Não foi possível definir a preferência. Tente novamente.";
 
 /* A title for a setting that enables cookie consent notices */
 "BlockCookieConsentNotices" = "Bloquear avisos de consentimento para cookies";
-
-/* No comment provided by engineer. */
-"BlockCookiesDescription" = "Evita que os sites armazenem informações sobre suas visitas anteriores.\nA opção \"Bloquear todos os cookies\" foi descontinuada. Para saber como forçar a ativação dessa opção, visite [nossa página de ajuda](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)";
 
 /* title for section showing page blocking statistics */
 "BlockingMonitor" = "Monitor de bloqueios";
@@ -143,43 +140,43 @@
 "BookmarkUrlPlaceholderText" = "Endereço";
 
 /* Button to show the brave panel */
-"BravePanel" = "Painel do iBrowe";
+"BravePanel" = "Painel do Brave";
 
 /* No comment provided by engineer. */
-"BraveRewardsAdNotificationTitle" = "Recompensas iBrowe";
+"BraveRewardsAdNotificationTitle" = "Recompensas Brave";
 
 /* No comment provided by engineer. */
 "BraveRewardsOpen" = "Abrir";
 
-/* iBrowe Rewards title in settings */
+/* Brave Rewards title in settings */
 "BraveRewardsSettingsTitle" = "Rewards";
 
-/* iBrowe Rewards title */
-"BraveRewardsTitle" = "Recompensas iBrowe";
+/* Brave Rewards title */
+"BraveRewardsTitle" = "Recompensas Brave";
 
-/* iBrowe Search Banner Promotion description content in Search Suggestions */
-"braveSearchPromotion.bannerDescription" = "A Pesquisa iBrowe não traça seu perfil.";
+/* Brave Search Banner Promotion description content in Search Suggestions */
+"braveSearchPromotion.bannerDescription" = "A Pesquisa Brave não traça seu perfil.";
 
-/* iBrowe Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
+/* Brave Search Banner Promotion title for maybe later button to activate promotion later in Search Suggestions */
 "braveSearchPromotion.bannerMaybeLaterButtonTitle" = "Talvez mais tarde";
 
-/* iBrowe Search Banner Promotion title in Search Suggestions */
+/* Brave Search Banner Promotion title in Search Suggestions */
 "braveSearchPromotion.bannerTitle" = "Apoie uma pesquisa independente com mais privacidade";
 
-/* iBrowe Search Banner Promotion title for try button in Search Suggestions */
-"braveSearchPromotion.bannerTryButtonTitle" = "Testar a Pesquisa iBrowe";
+/* Brave Search Banner Promotion title for try button in Search Suggestions */
+"braveSearchPromotion.bannerTryButtonTitle" = "Testar a Pesquisa Brave";
 
 /* Button title for Bottom Bar Callout View for action later */
 "braveSearchPromotion.bottomBarCalloutDismissButtonTitle" = "Talvez mais tarde";
 
-/* iBrowe Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
+/* Brave Search Banner Promotion title for dismiss button to remove promotion in Search Suggestions */
 "braveSearchPromotion.braveSearchPromotionBannerDismissButtonTitle" = "Dispensar";
 
 /* No comment provided by engineer. */
 "BraveShieldsAdvancedControls" = "Controles avançados";
 
 /* No comment provided by engineer. */
-"BraveShieldsAndPrivacy" = "iBrowe Shields & Privacidade";
+"BraveShieldsAndPrivacy" = "Brave Shields & Privacidade";
 
 /* No comment provided by engineer. */
 "BraveShieldsAndPrivacyTitle" = "Shields & Privacidade";
@@ -205,20 +202,20 @@
 /* No comment provided by engineer. */
 "BraveShieldsSiteBroken" = "Se este site não estiver funcionando, tente desativar as Proteções";
 
-/* Context: 'iBrowe Shields Up' or 'iBrowe Shields Down' */
-"BraveShieldsStatusTitle" = "Proteções iBrowe";
+/* Context: 'Brave Shields Up' or 'Brave Shields Down' */
+"BraveShieldsStatusTitle" = "Proteções Brave";
 
-/* Context: The 'Down' in 'iBrowe Shields Down' */
+/* Context: The 'Down' in 'Brave Shields Down' */
 "BraveShieldsStatusValueDown" = "Desativadas";
 
-/* Context: The 'Up' in 'iBrowe Shields Up' */
+/* Context: The 'Up' in 'Brave Shields Up' */
 "BraveShieldsStatusValueUp" = "Ativadas";
 
 /* The accessibility hint spoken when focused on the main shields toggle */
-"BraveShieldsToggleHint" = "Toque duas vezes para ativar/desativar o iBrowe Shields";
+"BraveShieldsToggleHint" = "Toque duas vezes para ativar/desativar o Brave Shields";
 
 /* The name of the feature */
-"bravetalk.braveTalkTitle" = "iBrowe Talk";
+"bravetalk.braveTalkTitle" = "Brave Talk";
 
 /* Title for the button that allows you go to the language selection screen, to select a language you want to translate to/from. */
 "BraveTranslate.languageSelectionButtonTitle" = "Selecione o idioma";
@@ -229,14 +226,14 @@
 /* Title for the search field in the navigation bar for the translate language selection page. The user can search for a language to translate to or from. */
 "BraveTranslate.searchInputTitle" = "Pesquisa";
 
-/* This text is for the settings menu for all iBrowe-Translate options. */
-"BraveTranslate.settingsMenuTitle" = "Tradutor iBrowe";
+/* This text is for the settings menu for all Brave-Translate options. */
+"BraveTranslate.settingsMenuTitle" = "Tradutor Brave";
 
 /* This text is for the translate settings screen. It's the title of the settings menu. */
-"BraveTranslate.settingsScreenTitle" = "Tradutor iBrowe";
+"BraveTranslate.settingsScreenTitle" = "Tradutor Brave";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
-"BraveTranslate.settingsTranslateEnabledOptionDescription" = "Quando ativado, o Tradutor iBrowe irá detectar automaticamente o idioma atual da sua página e exibir um botão de tradução na barra de URL.";
+"BraveTranslate.settingsTranslateEnabledOptionDescription" = "Quando ativado, o Tradutor Brave irá detectar automaticamente o idioma atual da sua página e exibir um botão de tradução na barra de URL.";
 
 /* This text is for a Toggle that allows the user to enable or disable page translation. */
 "BraveTranslate.settingsTranslateEnabledOptionTitle" = "Tradução ativada";
@@ -251,7 +248,7 @@
 "BrowserLock" = "Bloqueio do navegador";
 
 /* Description for setting to enable the browser lock privacy feature */
-"BrowserLockDescription" = "Desbloqueie o iBrowe com o Touch ID, o Face ID ou o código de acesso do sistema.";
+"BrowserLockDescription" = "Desbloqueie o Brave com o Touch ID, o Face ID ou o código de acesso do sistema.";
 
 /* Settings item for clearing browsing history */
 "BrowsingHistory" = "Histórico de navegação";
@@ -266,13 +263,13 @@
 "callout.bottomBarCalloutDescription" = "Mova a barra de endereço, guias, favoritos e outras ferramentas para a parte inferior do navegador.";
 
 /* Title for Bottom Bar Callout View */
-"callout.bottomBarCalloutTitle" = "Personalizar a barra de guias do iBrowe";
+"callout.bottomBarCalloutTitle" = "Personalizar a barra de guias do Brave";
 
 /* Description - Description used for main button in Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutButtonDescription" = "Definir o iBrowe como navegador padrão?";
+"callout.defaultBrowserCalloutButtonDescription" = "Definir o Brave como navegador padrão?";
 
 /* Subtitle - Description for Default Browser Full Screen Callout */
-"callout.defaultBrowserCalloutDescription" = "Com o iBrowe como padrão, todos os links em que você tocar serão abertos com as proteções de privacidade do iBrowe.";
+"callout.defaultBrowserCalloutDescription" = "Com o Brave como padrão, todos os links em que você tocar serão abertos com as proteções de privacidade do Brave.";
 
 /* Title for main button in Default Browser Full Screen Callout */
 "callout.defaultBrowserCalloutPrimaryButtonTitle" = "Definir como padrão";
@@ -287,19 +284,19 @@
 "callout.defaultBrowserTitle" = "Privacidade simplificada.";
 
 /* Subtitle - Description for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutDescription" = "Isto ajuda-nos a saber quais as funcionalidades do iBrowe mais utilizadas. Pode alterá-las quando quiser nas Definições do iBrowe em \"iBrowe Shields e privacidade\".";
+"callout.p3aCalloutDescription" = "Isto ajuda-nos a saber quais as funcionalidades do Brave mais utilizadas. Pode alterá-las quando quiser nas Definições do Brave em \"Brave Shields e privacidade\".";
 
 /* Title for the link that navigates to a webpage showing information about p3a (Privacy Preserving Analytics) */
 "callout.p3aCalloutLinkTitle" = "Saiba mais sobre nossa análise de produtos com preservação da privacidade (P3A)";
 
 /* Title for p3a (Privacy Preserving Analytics) Full Screen Callout */
-"callout.p3aCalloutTitle" = "Ajude a melhorar o iBrowe.";
+"callout.p3aCalloutTitle" = "Ajude a melhorar o Brave.";
 
 /* Title for toggle for enabling p3a (Privacy Preserving Analytics) Full Screen Callout */
 "callout.p3aCalloutToggleTitle" = "Compartilhe insights privados e anônimos sobre produtos.";
 
 /* Subtitle - Description for Privacy Everywhere Full Screen Callout */
-"callout.privacyEverywhereCalloutDescription" = "Tenha a privacidade do iBrowe no seu computador ou tablet e sincronize favoritos e extensões entre dispositivos.";
+"callout.privacyEverywhereCalloutDescription" = "Tenha a privacidade do Brave no seu computador ou tablet e sincronize favoritos e extensões entre dispositivos.";
 
 /* Title for button in Default Browser Full Screen Callout */
 "callout.privacyEverywhereCalloutPrimaryButtonTitle" = "Sincronizar agora";
@@ -379,7 +376,7 @@
 /* Title of the section for Department of the Company. Example: Human Resources. */
 "certificateViewer.organizationalUnitTitle" = "Unidade organizacional";
 
-/* Title of the section for Name of the Company. Example: iBrowe Inc. */
+/* Title of the section for Name of the Company. Example: Brave Inc. */
 "certificateViewer.organizationTitle" = "Organização";
 
 /* Title indicating 'Parameters' or Input passed to a function/algorithm. */
@@ -490,9 +487,6 @@
 /* No comment provided by engineer. */
 "Confirm" = "Confirmar";
 
-/* Cookie settings option title */
-"CookieControl" = "Controle de cookies";
-
 /* Settings item for clearing cookies and site data */
 "Cookies" = "Cookies e dados do site";
 
@@ -523,6 +517,9 @@
 /* Currently usedd search engines section name. */
 "CurrentlyUsedSearchEngines" = "Mecanismos de pesquisa usados no momento";
 
+/* Accessibility Title for the button that adds a new custom search engine to the browser. */
+"customSearchEngine.addCustomSearchEngineAccessibilityTitle" = "Adicionar um mecanismo de pesquisa personalizado";
+
 /* Label explaining how to add search engine. */
 "customSearchEngine.addEngineDescription" = "Escreva o URL de pesquisa e substitua a consulta por %1$s.\nPor exemplo: https://youtube.com/search?q=%2$s \n(Se o site for compatível com OpenSearch, a opção de adicionar automaticamente será exibida durante a edição desse campo.)";
 
@@ -541,19 +538,22 @@
 /* The warning description shown to user when custom search engine already exists. */
 "customSearchEngine.engineAlertExistsAlertDescription" = "Já existe um mecanismo de pesquisa com o mesmo nome.";
 
-/* A description explaining that search template url is insecure, it is used for instance - Insecure Custom Search Template for iBrowe Search, iBrowe Search is a search engineand on a new seperate line */
+/* A placeholder in the text filed for user to input the custom search engine name. */
+"customSearchEngine.engineTitlePlaceholder" = "Digite o nome do mecanismo de pesquisa";
+
+/* A description explaining that search template url is insecure, it is used for instance - Insecure Custom Search Template for Brave Search, Brave Search is a search engineand on a new seperate line */
 "customSearchEngine.insecureSearchTemplateURLErrorDescription" = "Modelo de pesquisa personalizada insegura para";
 
-/* A description explaining that suggestion template url is insecure, it is used for instance - Insecure Custom Suggestion Template for iBrowe Search, iBrowe Search is name of search engine on a new seperate line */
+/* A description explaining that suggestion template url is insecure, it is used for instance - Insecure Custom Suggestion Template for Brave Search, Brave Search is name of search engine on a new seperate line */
 "customSearchEngine.insecureSuggestionTemplateURLErrorDescription" = "Modelo de sugestão personalizado inseguro para";
 
 /* Navigation Bar title */
 "customSearchEngine.navigationTitle" = "Adicionar mecanismo de pesquisa";
 
-/* Search Template title - for instance it will be used Search Template: iBrowe Search - iBrowe Search is the name of Search Engine on  seperate line */
+/* Search Template title - for instance it will be used Search Template: Brave Search - Brave Search is the name of Search Engine on  seperate line */
 "customSearchEngine.searchTemplateTitle" = "Modelo de pesquisa:";
 
-/* Suggestion Template title - for instance it will be used Suggestion Template: iBrowe Search - iBrowe Search is the name of Search Engine on  seperate line */
+/* Suggestion Template title - for instance it will be used Suggestion Template: Brave Search - Brave Search is the name of Search Engine on  seperate line */
 "customSearchEngine.suggestionTemplateTitle" = "Modelo de sugestão:";
 
 /* The message that asks the user to Add the search provider explaining where the search engine will appear */
@@ -596,25 +596,25 @@
 "defaultBrowserCallout.introOpenSettingsButtonText" = "Abrir configurações";
 
 /* Primary text on default browser popup screen */
-"defaultBrowserCallout.introPrimaryText" = "Abra todos os links com o iBrowe para proteger sua privacidade";
+"defaultBrowserCallout.introPrimaryText" = "Abra todos os links com o Brave para proteger sua privacidade";
 
 /* Secondary text on default browser popup. */
-"defaultBrowserCallout.introSecondaryText" = "O iBrowe Shields bloqueia rastreadores & anúncios, economiza dados e poupa seu tempo em todos os sites que você acessa";
+"defaultBrowserCallout.introSecondaryText" = "O Brave Shields bloqueia rastreadores & anúncios, economiza dados e poupa seu tempo em todos os sites que você acessa";
 
 /* Tertiary text on default browser popup screen */
-"defaultBrowserCallout.introTertiaryText" = "Abra os Ajustes, toque em \"App de Navegador Padrão\" e selecione \"iBrowe\".";
+"defaultBrowserCallout.introTertiaryText" = "Abra os Ajustes, toque em \"App de Navegador Padrão\" e selecione \"Brave\".";
 
-/* Notification body to promote setting iBrowe app as default browser */
-"defaultBrowserCallout.notificationBody" = "Definir o iBrowe como navegador padrão";
+/* Notification body to promote setting Brave app as default browser */
+"defaultBrowserCallout.notificationBody" = "Definir o Brave como navegador padrão";
 
-/* Notification title to promote setting iBrowe app as default browser */
-"defaultBrowserCallout.notificationTitle" = "Obtenha a proteção do iBrowe, em cada link";
+/* Notification title to promote setting Brave app as default browser */
+"defaultBrowserCallout.notificationTitle" = "Obtenha a proteção do Brave, em cada link";
 
 /* No comment provided by engineer. */
 "defaultBrowserCalloutCloseAccesabilityLabel" = "Fechar texto explicativo padrão do navegador";
 
-/* Name for default iBrowe theme. */
-"defaultThemeName" = "Padrão do iBrowe";
+/* Name for default Brave theme. */
+"defaultThemeName" = "Padrão do Brave";
 
 /* No comment provided by engineer. */
 "Delete" = "Excluir";
@@ -661,9 +661,6 @@
 /* No comment provided by engineer. */
 "Done" = "Concluído";
 
-/* cookie settings option */
-"DontBlockCookies" = "Não bloquear cookies";
-
 /* Used as a button label for crash dialog prompt */
 "DontSendButtonTitle" = "Não enviar";
 
@@ -703,6 +700,9 @@
 /* Title for editing a folder */
 "EditFolderTitle" = "Editar pasta";
 
+/* Accessibility Title for the button that edits the quick-search engines list. */
+"EditQuickSearchEnginesAccessibilityTitle" = "Editar mecanismos de pesquisa rápidos";
+
 /* Describes whether or not the feature that allows the user to pull down from the top of a web page a certain amount before it triggers a page refresh */
 "enablePullToRefresh" = "Ativar o recurso \"puxar para atualizar\"";
 
@@ -719,7 +719,7 @@
 "ErrorPageReloadButtonTitle" = "Recarregar";
 
 /* Additional warning text when clicking the Advanced button on error pages. %@ is a placeholder, do not localize it. Do not localize <br />. */
-"ErrorPagesAdvancedErrorPinningDetails" = "%1$@ costuma encriptar a sua informação para a proteger. Quando o iBrowe tentou ligar-se a %2$@ desta vez, o website devolveu credenciais invulgares e incorretas. Isto pode ocorrar quando um atacante tenta fingir ser %3$@, ou um ecrã de início de sessão na rede Wi-Fi interrompeu a ligação. A sua informação continua segura porque o iBrowe interrompeu a ligação antes de qualquer comunicação de dados.<br />Não é possível aceder a %4$@ de momento, porque o website usa a aficação de certificados. Os erros e ataques de rede costumam ser temporário, por isso deverá conseguir aceder a esta página mais tarde.";
+"ErrorPagesAdvancedErrorPinningDetails" = "%1$@ costuma encriptar a sua informação para a proteger. Quando o Brave tentou ligar-se a %2$@ desta vez, o website devolveu credenciais invulgares e incorretas. Isto pode ocorrar quando um atacante tenta fingir ser %3$@, ou um ecrã de início de sessão na rede Wi-Fi interrompeu a ligação. A sua informação continua segura porque o Brave interrompeu a ligação antes de qualquer comunicação de dados.<br />Não é possível aceder a %4$@ de momento, porque o website usa a aficação de certificados. Os erros e ataques de rede costumam ser temporário, por isso deverá conseguir aceder a esta página mais tarde.";
 
 /* Additional warning text when clicking the Advanced button on error pages */
 "ErrorPagesAdvancedWarningDetails" = "Este servidor não conseguiu comprovar que é %@; o certificado de segurança dele não é considerado confiável pelo sistema operacional do seu dispositivo. Isso pode ser causado por uma configuração incorreta ou um invasor tentando interceptar sua conexão.";
@@ -766,10 +766,10 @@
 /* Allow link to switch apps? */
 "ExternalAppURLAlertTitle" = "Permitir link para trocar de app?";
 
-/* Allow iBrowe to open the external app URL */
+/* Allow Brave to open the external app URL */
 "ExternalAppURLAllow" = "Permitir";
 
-/* Don't allow iBrowe to open the external app URL */
+/* Don't allow Brave to open the external app URL */
 "ExternalAppURLDontAllow" = "Não permitir";
 
 /* Footer text when user selects to save to favorites when editing a bookmark */
@@ -787,8 +787,8 @@
 /* Done button in Find in Page Toolbar. */
 "FindInPageDoneButtonAccessibilityLabel" = "Concluído";
 
-/* Find %@ text in page. */
-"FindInPageFormat" = "Encontrar \"%@\"";
+/* Find `search query` */
+"FindInPageFormat" = "Localizar ";
 
 /* Accessibility label for next result button in Find in Page Toolbar. */
 "FindInPageNextResultButtonAccessibilityLabel" = "Próximo resultado na página";
@@ -839,13 +839,16 @@
 "HideLinkPreviewsActionTitle" = "Ocultar pré-visualizações de links";
 
 /* Hides the rewards icon */
-"HideRewardsIcon" = "Ocultar ícone do iBrowe Rewards";
+"HideRewardsIcon" = "Ocultar ícone do Brave Rewards";
 
 /* Hide the rewards icon explination. */
-"HideRewardsIconSubtitle" = "Oculta o ícone do iBrowe Rewards quando o iBrowe Rewards não está ativado";
+"HideRewardsIconSubtitle" = "Oculta o ícone do Brave Rewards quando o Brave Rewards não está ativado";
 
 /* Title for history menu item */
 "HistortMenuItem" = "Histórico";
+
+/* A button title that when taps removes a single item that is selected from history */
+"history.deleteFromHistory" = "Excluir do histórico";
 
 /* Title for History Clear All Action */
 "history.historyClearActionTitle" = "Limpar histórico";
@@ -856,11 +859,20 @@
 /* Title for Clear All History Alert Title */
 "history.historyClearAlertTitle" = "Limpar histórico de navegação";
 
+/* Title which is displayed on History screen when you search for something but no results are found */
+"history.historyEmptySearchTitle" = "Nenhum resultado de pesquisa";
+
 /* Title which is displayed when History screen is empty. */
-"history.historyEmptyStateTitle" = "O histórico será exibido aqui.";
+"history.historyEmptyStateSubtitle" = "Seu histórico de navegação aparece aqui";
 
 /* Title which is displayed on History screen as a overlay when Private Browsing Only enabled */
-"history.historyPrivateModeOnlyStateTitle" = "O histórico não está disponível no modo de navegação somente privada.";
+"history.historyEmptyStateTitle" = "Nenhum histórico";
+
+/* Title which is displayed on History screen as a overlay when Private Browsing Only enabled */
+"history.historyPrivateModeOnlyStateSubtitle" = "O histórico não está disponível no modo de navegação somente privada";
+
+/* Title for a section in the History view that shows recently closed tabs */
+"history.historyRecentlyClosedTabs" = "Separadores fechados recentemente";
 
 /* Title displayed for placeholder inside Search Bar in History */
 "history.historySearchBarTitle" = "Histórico de pesquisa";
@@ -880,6 +892,9 @@
 /* individual blocking statistic title */
 "HTTPSUpgrades" = "Upgrades de HTTPS";
 
+/* Title of the button in settings where the user can import browsing data from other browsers. */
+"importBrowsingDataSettingsMenuTitle" = "Importar dados de navegação";
+
 /* title for per-site shield toggles */
 "IndividualControls" = "Controles individuais";
 
@@ -895,7 +910,7 @@
 /* No comment provided by engineer. */
 "learnMore" = "Saiba mais";
 
-/* Title for iBrowe Leo menu item. iBrowe Leo is the name of a product and should not be translated */
+/* Title for Brave Leo menu item. Brave Leo is the name of a product and should not be translated */
 "LeoMenuItem" = "Leo";
 
 /* The message displayed in alert when a login entry deleted */
@@ -983,7 +998,7 @@
 "MyFirstAdBody" = "Toque aqui para saber mais.";
 
 /* No comment provided by engineer. */
-"MyFirstAdTitle" = "Este é seu primeiro anúncio do iBrowe";
+"MyFirstAdTitle" = "Este é seu primeiro anúncio do Brave";
 
 /* Bookmark title / Device name */
 "Name" = "Nome";
@@ -1036,14 +1051,14 @@
 /* Setting title for option to automatically redirect a url to another url */
 "nprRedirectFooter" = "Redireciona automaticamente links da NPR para a respectiva versão de texto (em text.npr.org).";
 
-/* Bookmark title for iBrowe Support */
-"ntp.braveSupportFavoriteTitle" = "Suporte do iBrowe";
+/* Bookmark title for Brave Support */
+"ntp.braveSupportFavoriteTitle" = "Suporte do Brave";
 
 /* No comment provided by engineer. */
 "ntp.claimRewards" = "Reivindicar tokens";
 
-/* Placeholder example: 'You earned 42 BAT by browsing with iBrowe.' */
-"ntp.earningsReport" = "Você ganhou %@ navegando com o iBrowe.";
+/* Placeholder example: 'You earned 42 BAT by browsing with Brave.' */
+"ntp.earningsReport" = "Você ganhou %@ navegando com o Brave.";
 
 /* The context is to praise the user that they did a good job, to keep it up. It is used in full sentence like: 'Way to go! You earned 40 BAT last month.' */
 "ntp.goodJob" = "Muito bem!";
@@ -1052,10 +1067,13 @@
 "ntp.hideSponsoredImages" = "Ocultar imagens patrocinadas";
 
 /* The text description of image type which is being used NTP */
-"ntp.imageTypeSelectionDescription" = "'Patrocinado' são fundos adicionais que pode ganhar com a ativação de iBrowe Rewards.";
+"ntp.imageTypeSelectionDescription" = "As imagens patrocinadas são fundos de marca que aparecem em guias recém-abertas no navegador. Ao ativar essas imagens patrocinadas, você estará apoiando a missão do Brave.";
+
+/* The text label of image type learn more link */
+"ntp.imageTypeSelectionDescriptionLearnMore" = "Saiba mais";
 
 /* No comment provided by engineer. */
-"ntp.learnMoreAboutRewards" = "Saiba mais sobre o iBrowe Rewards";
+"ntp.learnMoreAboutRewards" = "Saiba mais sobre o Brave Rewards";
 
 /* No comment provided by engineer. */
 "ntp.learnMoreAboutSI" = "Saiba mais sobre imagens patrocinadas";
@@ -1097,10 +1115,10 @@
 "OBAdsOptInMessageJapan" = "Ganhe pontos enquanto navega e doe-os a criadores pelo conteúdo de qualidade que eles produzem.";
 
 /* Title when opting into brave Ads when region becomes available */
-"OBAdsOptInTitle" = "O iBrowe Ads chegou!";
+"OBAdsOptInTitle" = "O Brave Ads chegou!";
 
 /* Title for ads onboarding screen */
-"OBAdsTitle" = "O iBrowe mostrará seu primeiro anúncio em";
+"OBAdsTitle" = "O Brave mostrará seu primeiro anúncio em";
 
 /* Title for when the user completes onboarding */
 "OBCompleteTitle" = "Agora está tudo pronto.";
@@ -1120,14 +1138,14 @@
 /* Button to finish onboarding and start using the app. */
 "OBFinishButton" = "Começar a navegar";
 
-/* Button to join iBrowe Rewards. */
+/* Button to join Brave Rewards. */
 "OBJoinButton" = "Participar";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentClipboardPermission" = "Permitir que o iBrowe verifique se há um código de indicação correspondente na minha área de transferência";
+"OBPrivacyConsentClipboardPermission" = "Permitir que o Brave verifique se há um código de indicação correspondente na minha área de transferência";
 
 /* No comment provided by engineer. */
-"OBPrivacyConsentDetail" = "Talvez você tenha baixado o iBrowe para apoiar a pessoa que indicou você. Para detectar o responsável pela indicação, o iBrowe realiza uma verificação única da sua área de transferência em busca do código de indicação correspondente. Essa verificação se limita apenas ao código, e nenhum outro dado pessoal será transmitido. Se você desativar essa opção, o autor da indicação não receberá recompensas do iBrowe.";
+"OBPrivacyConsentDetail" = "Talvez você tenha baixado o Brave para apoiar a pessoa que indicou você. Para detectar o responsável pela indicação, o Brave realiza uma verificação única da sua área de transferência em busca do código de indicação correspondente. Essa verificação se limita apenas ao código, e nenhum outro dado pessoal será transmitido. Se você desativar essa opção, o autor da indicação não receberá recompensas do Brave.";
 
 /* No comment provided by engineer. */
 "OBPrivacyConsentNoButton" = "Não permitir essa verificação";
@@ -1148,10 +1166,10 @@
 "OBRewardsAgreementDetailsAnd" = "e";
 
 /* Title for rewards agreement onboarding screen */
-"OBRewardsAgreementTitle" = "Recompensas iBrowe";
+"OBRewardsAgreementTitle" = "Recompensas Brave";
 
 /* Detail text for rewards onboarding screen */
-"OBRewardsDetail" = "A ativação dos Anúncios privados do iBrowe apoia editores e criadores de conteúdo com cada anúncio visualizado.";
+"OBRewardsDetail" = "A ativação dos Anúncios privados do Brave apoia editores e criadores de conteúdo com cada anúncio visualizado.";
 
 /* Detail text for rewards onboarding screen */
 "OBRewardsDetailInAdRegion" = "Ganhe tokens enquanto navega e doe-os a criadores pelo conteúdo de qualidade que eles produzem.";
@@ -1160,7 +1178,7 @@
 "OBRewardsPrivacyPolicyDetailLink" = "Política de privacidade";
 
 /* Title for rewards onboarding screen */
-"OBRewardsTitle" = "Recompensas iBrowe";
+"OBRewardsTitle" = "Recompensas Brave";
 
 /* Save button to save current selection */
 "OBSaveButton" = "Salvar";
@@ -1169,28 +1187,28 @@
 "OBSearchEngineDetail" = "Selecione seu mecanismo de pesquisa padrão";
 
 /* Title for search engine onboarding screen */
-"OBSearchEngineTitle" = "Bem-vindo ao navegador iBrowe";
+"OBSearchEngineTitle" = "Bem-vindo ao navegador Brave";
 
 /* Detail text for shields onboarding screen */
 "OBShieldsDetail" = "Bloqueie rastreadores que invadem sua privacidade para poder navegar sem ser seguido na web";
 
 /* Title for shields onboarding screen */
-"OBShieldsTitle" = "Proteções iBrowe";
+"OBShieldsTitle" = "Proteções Brave";
 
-/* Button to show the iBrowe Rewards Ads. */
+/* Button to show the Brave Rewards Ads. */
 "OBShowMeButton" = "Mostrar";
 
-/* Button to show iBrowe Rewards. */
+/* Button to show Brave Rewards. */
 "OBTurnOnButton" = "Iniciar";
 
 /* The description text shown when there is big tech tracker among trackers. Example usage: Google, Amazon and 32 other trackers blocked */
 "onboarding.blockedAdsOnboardingBigTechInformationText" = "%1$@ e mais %2$lld anúncios & rastreadores bloqueados";
 
-/* The footnote indicating what iBrowe shields is blocking */
-"onboarding.blockedAdsOnboardingFootnoteText" = "Veja todo o conteúdo indesejado bloqueado pelo iBrowe, em todas as páginas, com as Proteções.";
+/* The footnote indicating what Brave shields is blocking */
+"onboarding.blockedAdsOnboardingFootnoteText" = "Veja todo o conteúdo indesejado bloqueado pelo Brave, em todas as páginas, com as Proteções.";
 
 /* The text describing user where they should press in order to open Shield panel */
-"onboarding.blockedAdsOnboardingInstructionsText" = "Toque para ver as Proteções do iBrowe";
+"onboarding.blockedAdsOnboardingInstructionsText" = "Toque para ver as Proteções do Brave";
 
 /* The description text shown when there is no big tech tracker among trackers. Example usage: 31 Ads & trackers blocked. The number here is presented separately so it is not in translation. */
 "onboarding.blockedAdsOnboardingNoBigTechInformationText" = "Anúncios e rastreadores bloqueados";
@@ -1199,10 +1217,10 @@
 "onboarding.linkReceiptButton" = "Vincular sua assinatura de VPN";
 
 /* Popup description to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptDescription" = "A sua assinatura da VPN iBrowe pode proteger até 10 dispositivos, incluindo Android, iOS e computadores. Basta associar sua assinatura da App Store à sua conta do iBrowe.";
+"onboarding.linkReceiptDescription" = "A sua assinatura da VPN Brave pode proteger até 10 dispositivos, incluindo Android, iOS e computadores. Basta associar sua assinatura da App Store à sua conta do Brave.";
 
 /* Popup title to let users know they can use the vpn on all their devices */
-"onboarding.linkReceiptTitle" = "Amplie sua proteção do Firewall + VPN iBrowe";
+"onboarding.linkReceiptTitle" = "Amplie sua proteção do Firewall + VPN Brave";
 
 /* Description for Navigate Settings Screen in Onboarding. This part indicating navigation ('Default Browser App') should match the option in iPhone Settings in that Language. */
 "onboarding.navigateSettingsOnboardingScreenDescription" = "Procure \"App de Navegador Padrão\"";
@@ -1214,13 +1232,13 @@
 "onboarding.ntpOnboardingPopOverTrackerDescription" = "Com o bloqueio de rastreadores & anúncios, os sites usam menos dados e carregam bem mais rapidamente.";
 
 /* Description for the Omnibox (URL Bar) pop-over that describes faster load times. */
-"onboarding.omniboxOnboardingPopOverDescription" = "Veja o diferencial do iBrowe:\nNada de anúncios. Nada de rastreadores. Páginas que carregam bem mais rápido.";
+"onboarding.omniboxOnboardingPopOverDescription" = "Veja o diferencial do Brave:\nNada de anúncios. Nada de rastreadores. Páginas que carregam bem mais rápido.";
 
 /* Title for the Omnibox (URL Bar) pop-over that describes faster load times. */
 "onboarding.omniboxOnboardingPopOverTitle" = "Digite o nome ou URL de um site";
 
 /* Title for Welcome Screen in Onboarding */
-"onboarding.welcomeScreenTitle" = "Este é o iBrowe";
+"onboarding.welcomeScreenTitle" = "Este é o Brave";
 
 /* Continue button to navigate to next onboarding screen. */
 "OnboardingContinueButton" = "Continuar";
@@ -1234,8 +1252,8 @@
 /* Context menu item for opening all folder bookmarks */
 "OpenAllBookmarks" = "Abrir tudo (%i)";
 
-/* Button title for opening the iBrowe Rewards panel to settings */
-"OpenBraveRewardsSettings" = "Abrir as configurações do iBrowe Rewards";
+/* Button title for opening the Brave Rewards panel to settings */
+"OpenBraveRewardsSettings" = "Abrir as configurações do Brave Rewards";
 
 /* Error description when there is an error while navigating to Files App */
 "OpenDownloadsFolderErrorDescription" = "Ocorreu um erro desconhecido ao abrir a pasta \"Downloads\" do app Arquivos.";
@@ -1298,19 +1316,22 @@
 "opentabs.noSyncChainPlaceHolderViewDescription" = "Para começar, configure uma cadeia de sincronização e ative a opção \"Guias abertas\" nas Configurações de sincronização.";
 
 /* The additional description of the view describing tab syncing should be enabled. */
-"opentabs.noSyncSessionPlaceHolderViewAdditionalDescription" = "Gerencie o que o iBrowe sincroniza nas Configurações.";
+"opentabs.noSyncSessionPlaceHolderViewAdditionalDescription" = "Gerencie o que o Brave sincroniza nas Configurações.";
 
 /* The description of the view describing no other sessions are active in sync. */
 "opentabs.noSyncSessionPlaceHolderViewDescription" = "Não há sessões ativas para mostrar dos seus outros dispositivos.";
 
 /* The title of the view showing no synced sessions */
-"opentabs.noSyncSessionPlaceHolderViewTitle" = "Este espaço mostra as guias do iBrowe abertas em outros dispositivos";
+"opentabs.noSyncSessionPlaceHolderViewTitle" = "Este espaço mostra as guias do Brave abertas em outros dispositivos";
 
 /* The title for the action to hide open session with all tabs */
 "opentabs.openSessionHideAllActionTitle" = "Ocultar por enquanto";
 
 /* The title for the action to open all the tabs in a synced open session */
 "opentabs.openSessionOpenAllActionTitle" = "Abrir todas";
+
+/* The button which open the sync settings screen */
+"opentabs.openSyncSettingsButtonTitle" = "Abrir configurações de sincronização";
 
 /* The description indicating when is the open tab synced. The parameter substituted for "%@" is the actual string representation of the exact day of the week and exact time. E.g.: Last Week Monday 12:00 PM */
 "opentabs.openTabsItemLastSyncedLastWeekTitle" = "Semana passada, às %@";
@@ -1323,6 +1344,15 @@
 
 /* The title displayed on table header for open tabs list from other devices */
 "openTabs.openTabsListTableHeaderTitle" = "Dispositivos";
+
+/* A title shown when there are no synced open tabs to show in the list */
+"opentabs.openTabsNoSyncedTabsTitle" = "Nenhuma guia sincronizada";
+
+/* The title shown on the screen that shows tabs synced from other devices */
+"opentabs.openTabsOnOtherDevices" = "Guias em outros dispositivos";
+
+/* A description shown when there are no synced open tabs to show in the list */
+"opentabs.openTabsYourTabsAppearHere" = "Suas guias sincronizadas aparecem aqui";
 
 /* Title action button for sending webpage to selected other device */
 "opentabs.sendDeviceButtonTitle" = "Enviar para seu dispositivo";
@@ -1363,38 +1393,38 @@
 /* Button title to that opens a website. */
 "OpenWebsite" = "Abrir site";
 
-/* The subtitle description of menu item iBrowe Leo. iBrowe Leo is the name of a product and should not be translated. */
+/* The subtitle description of menu item Brave Leo. Brave Leo is the name of a product and should not be translated. */
 "optionsMenu.braveLeoItemDescription" = "O Leo é um assistente inteligente fornecido por IA, incorporado diretamente no navegador";
 
-/* The subtitle description of menu item iBrowe News */
+/* The subtitle description of menu item Brave News */
 "optionsMenu.braveNewsItemDescription" = "As principais notícias de hoje em um feed privado";
 
-/* iBrowe News Item Menu title */
+/* Brave News Item Menu title */
 "optionsMenu.braveNewsItemTitle" = "Notícias";
 
-/* The subtitle description of menu item iBrowe Playlist */
+/* The subtitle description of menu item Brave Playlist */
 "optionsMenu.bravePlaylistItemDescription" = "Mantenha uma playlist off-line de qualquer vídeo/transmissão";
 
-/* iBrowe News Item Menu title */
+/* Brave News Item Menu title */
 "optionsMenu.bravePlaylistItemTitle" = "Playlist";
 
-/* The subtitle description of menu item iBrowe Talk */
+/* The subtitle description of menu item Brave Talk */
 "optionsMenu.braveTalkItemDescription" = "Chamadas de vídeo privadas, diretamente no seu navegador";
 
-/* iBrowe Talk Item Menu title */
+/* Brave Talk Item Menu title */
 "optionsMenu.braveTalkItemTitle" = "Talk";
 
-/* The subtitle description of menu item iBrowe VPN */
+/* The subtitle description of menu item Brave VPN */
 "optionsMenu.braveVPNItemDescription" = "Proteja todo o seu dispositivo on-line";
 
-/* iBrowe VPN Item Menu title */
+/* Brave VPN Item Menu title */
 "optionsMenu.braveVPNItemTitle" = "VPN";
 
-/* The subtitle description of menu item iBrowe Wallet */
+/* The subtitle description of menu item Brave Wallet */
 "optionsMenu.braveWalletItemDescription" = "A carteira de criptomoedas segura, sem necessidade de extensão";
 
 /* Privacy Features Section title */
-"optionsMenu.menuSectionTitle" = "Recursos do iBrowe";
+"optionsMenu.menuSectionTitle" = "Recursos do Brave";
 
 /* Section name for other privacy settings */
 "OtherPrivacySettingsSection" = "Outras configurações de privacidade";
@@ -1405,10 +1435,10 @@
 /* A button to proceed with the rest of the user onboarding after they see the P3A introduction. It means to continue browsing or continue with the rest of the onboarding */
 "p3a.continue" = "Continuar";
 
-/* A subtitle shown on the setting that toggles analytics on iBrowe. */
-"p3a.settingSubtitle" = "Essas respostas privadas ajudam o iBrowe a estimar o uso geral de determinados recursos e a torná-los melhores para você.";
+/* A subtitle shown on the setting that toggles analytics on Brave. */
+"p3a.settingSubtitle" = "Essas respostas privadas ajudam o Brave a estimar o uso geral de determinados recursos e a torná-los melhores para você.";
 
-/* The title for the setting that will allow a user to toggle sending privacy preserving analytics to iBrowe. */
+/* The title for the setting that will allow a user to toggle sending privacy preserving analytics to Brave. */
 "p3a.settingTitle" = "Permitir a análise de produtos com preservação da privacidade (P3A)";
 
 /* No comment provided by engineer. */
@@ -1469,7 +1499,7 @@
 "PersistentPrivateBrowsing" = "Navegação privada persistente";
 
 /* Persistent private browsing alert message to existing users */
-"PersistentPrivateBrowsingAlertMessage" = "Permite que o iBrowe restaure as guias de navegação privadas, mesmo se você fechar/reabrir o aplicativo";
+"PersistentPrivateBrowsingAlertMessage" = "Permite que o Brave restaure as guias de navegação privadas, mesmo se você fechar/reabrir o aplicativo";
 
 /* Persistent private browsing alert title to existing users */
 "PersistentPrivateBrowsingAlertTitle" = "Restaurar abas particulares";
@@ -1484,7 +1514,7 @@
 "playList.addToPlayListAlertDescription" = "Você deseja adicionar este vídeo à sua playlist?";
 
 /* Alert Title for adding videos to playlist */
-"playList.addToPlayListAlertTitle" = "Adicionar à Playlist do iBrowe";
+"playList.addToPlayListAlertTitle" = "Adicionar à Playlist do Brave";
 
 /* The title of the screen in CarPlay that contains all the audio/playback options */
 "playlist.carplayOptionsScreenTitle" = "Opções de reprodução";
@@ -1505,7 +1535,7 @@
 "playlist.carplaySettingsSectionTitle" = "Configurações";
 
 /* The title of the playlist when in Carplay mode */
-"playlist.carplayTitle" = "iBrowe Playlist";
+"playlist.carplayTitle" = "Brave Playlist";
 
 /* Title for changing the folder of the current media playlist item */
 "playList.changeFoldersButtonTitle" = "Alterar playlist";
@@ -1532,7 +1562,7 @@
 "playList.loadResourcesErrorAlertDescription" = "Houve um problema ao carregar o recurso.";
 
 /* Description footer for playlist menu badge option */
-"playlist.menuBadgeOptionFooterText" = "Quando essa opção for ativada, um aviso será exibido no ícone do menu principal, indicando que a mídia presente na página poderá ser adicionada à Playlist do iBrowe.";
+"playlist.menuBadgeOptionFooterText" = "Quando essa opção for ativada, um aviso será exibido no ícone do menu principal, indicando que a mídia presente na página poderá ser adicionada à Playlist do Brave.";
 
 /* Title for playlist menu badge option */
 "playlist.menuBadgeOptionTitle" = "Mostrar aviso de notificação no menu";
@@ -1541,7 +1571,7 @@
 "playlist.movePlaylistShareActionMenuTitle" = "Mover...";
 
 /* Detail Text when there are no items in the playlist */
-"playList.noItemLabelDetailLabel" = "Você pode adicionar itens à sua iBrowe Playlist no navegador.";
+"playList.noItemLabelDetailLabel" = "Você pode adicionar itens à sua Brave Playlist no navegador.";
 
 /* Text when there are no items in the playlist */
 "playList.noItemLabelTitle" = "Nenhum item disponível";
@@ -1631,7 +1661,7 @@
 "playList.playListSettingTitle" = "Playlist";
 
 /* Body for the error message that shows when a playlist folder already exists */
-"playList.playlistSharedFolderAlreadyExistsBody" = "Esta pasta já existe na sua Playlist do iBrowe";
+"playList.playlistSharedFolderAlreadyExistsBody" = "Esta pasta já existe na sua Playlist do Brave";
 
 /* Title for the error message that shows when a playlist folder already exists */
 "playList.playlistSharedFolderAlreadyExistsTitle" = "Lamentamos";
@@ -1700,7 +1730,7 @@
 "playlist.sharePlaylistActionDetailsTitle" = "Você pode abrir o item atual em uma nova aba ou compartilhá-lo por meio do menu de compartilhamento do sistema";
 
 /* Title of the ActionSheet/Alert when sharing a playlist item from the Swipe-Action */
-"playlist.sharePlaylistActionTitle" = "Menu da iBrowe Playlist";
+"playlist.sharePlaylistActionTitle" = "Menu da Brave Playlist";
 
 /* Button Title of the ActionSheet/Alert Button when sharing a playlist item from the Swipe-Action */
 "playlist.sharePlaylistOpenInNewPrivateTabTitle" = "Abrir em uma aba privada";
@@ -1724,13 +1754,13 @@
 "playList.toastAddToPlaylistTitle" = "Adicionar à lista de reprodução";
 
 /* The title for the toast that shows up on a page when an item that has already been added, was updated. */
-"playList.toastExitingItemPlaylistTitle" = "Ver na iBrowe Playlist";
+"playList.toastExitingItemPlaylistTitle" = "Ver na Brave Playlist";
 
 /* A button title that when tapped will re-add the media item (undo the removal) that the user recently removed. */
 "playList.undoRemoveButtonTitle" = "Desfazer";
 
 /* Footer for option to disable URL-Bar button */
-"playlist.urlBarButtonOptionFooter" = "Adiciona um botão de playlist ao lado da barra de endereço no navegador iBrowe. Esse botão oferece acesso rápido para abrir a playlist ou para adicionar ou remover mídia.";
+"playlist.urlBarButtonOptionFooter" = "Adiciona um botão de playlist ao lado da barra de endereço no navegador Brave. Esse botão oferece acesso rápido para abrir a playlist ou para adicionar ou remover mídia.";
 
 /* Title for option to disable URL-Bar button */
 "playlist.urlBarButtonOptionTitle" = "Ativar botão de acesso rápido";
@@ -1768,7 +1798,7 @@
 /* The title of the screen where the user will move an item from one folder to another folder. */
 "playlistFolders.moveFolderScreenTitle" = "Mover";
 
-/* %@ Should NOT be localized. It is a placeholder. Example: iBrowe Folder and 1 more item. */
+/* %@ Should NOT be localized. It is a placeholder. Example: Brave Folder and 1 more item. */
 "playlistFolders.moveItemDescription" = "%@ e mais 1 item";
 
 /* %lld is a placeholder and should not be localized. Sometimes items can have no name. So this is a generic title to use */
@@ -1777,7 +1807,7 @@
 /* Sometimes an item can have no name. So this is a generic title to use */
 "playlistFolders.moveItemWithNoNameTitle" = "1 item";
 
-/* %@ and %lld Should NOT be localized. They are placeholders. Example: iBrowe Folder and 3 more items. Music and 2 more items. */
+/* %@ and %lld Should NOT be localized. They are placeholders. Example: Brave Folder and 3 more items. Music and 2 more items. */
 "playlistFolders.moveMultipleItemDescription" = "%1$@ e mais %2$lld itens";
 
 /* The title of the button to create a new folder */
@@ -1808,7 +1838,7 @@
 "playlistFolders.untitledFolderTitle" = "Playlist sem título";
 
 /* Accessibility Title for the button that adds the playlist to the database. */
-"playlistFolderSharing.addButtonAccessibilityTitle" = "Botão \"Adicionar à iBrowe Playlist\"";
+"playlistFolderSharing.addButtonAccessibilityTitle" = "Botão \"Adicionar à Brave Playlist\"";
 
 /* Title for the button that adds the playlist to the database. */
 "playlistFolderSharing.addButtonTitle" = "Salvar";
@@ -1846,7 +1876,7 @@
 /* Menu Title for syncing playlist */
 "playlistFolderSharing.syncNowMenuTitle" = "Sincronizar agora";
 
-/* Description for closing the `iBrowe Shields` popover menu that is displayed. */
+/* Description for closing the `Brave Shields` popover menu that is displayed. */
 "PopoverShieldsMenuClose" = "Fechar menu de proteções";
 
 /* Settings privacy section title */
@@ -1861,7 +1891,7 @@
 /* Header text, under it we show items blocked by our ad blocker. 'All  time' sentence context is like 'All time items blocked by our ad blocker. */
 "privacyHub.allTimeListsHeader" = "Todo o período";
 
-/* Title of a section to show total count of trackers blocked by iBrowe */
+/* Title of a section to show total count of trackers blocked by Brave */
 "privacyHub.allTimeListsTrackersView" = "Rastreadores e anúncios";
 
 /* Title of a section to show websites containing highest amount of trackers */
@@ -1885,10 +1915,10 @@
 /* Title under which we display a website on which there's the highest number of trackers or ads. */
 "privacyHub.allTimeWebsiteTitle" = "Site";
 
-/* Text for a button to display a list of all alerts caught by the iBrowe VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
+/* Text for a button to display a list of all alerts caught by the Brave VPN. VPN alert is a notificaion of what item has been blocked by the vpn, similar to a regular adblocker */
 "privacyHub.allVPNAlertsButtonText" = "Todos os alertas";
 
-/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by iBrowe Shields', 'Blocked by BraveVPN */
+/* Text which explain by what type of ad blocker a given resource was blocked. Context is like: 'Blocked by Brave Shields', 'Blocked by BraveVPN */
 "privacyHub.blockedBy" = "Bloqueado por";
 
 /* It says that a ad or tracker was blocked. Think of it in context of 'A tracker X was blocked' */
@@ -1912,8 +1942,8 @@
 /* Header text, under it we display blocked items from last week */
 "privacyHub.lastWeekHeader" = "Última semana";
 
-/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by iBrowe Shields on 42 sites' */
-"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** foi bloqueado pelas Proteções do iBrowe em **%2$lld** sites";
+/* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Brave Shields on 42 sites' */
+"privacyHub.mostFrequentTrackerAndAdBody" = "**%1$@** foi bloqueado pelas Proteções do Brave em **%2$lld** sites";
 
 /* Title under which we display a tracker which was most frequently detected by our ad blocking mechanism. */
 "privacyHub.mostFrequentTrackerAndAdTitle" = "Rastreador & anúncio mais frequentes";
@@ -1931,7 +1961,7 @@
 "privacyHub.notificationCalloutButtonText" = "Ativar notificações";
 
 /* Message of a notification we show to the user, on tapping it, the Privacy Hub screen will open. */
-"privacyHub.notificationMessage" = "Um resumo de como o iBrowe protegeu você on-line nesta semana.";
+"privacyHub.notificationMessage" = "Um resumo de como o Brave protegeu você on-line nesta semana.";
 
 /* Title of a notification we show to the user, on tapping it, the Privacy Hub screen will open. */
 "privacyHub.notificationTitle" = "Relatório de privacidade semanal";
@@ -1945,7 +1975,7 @@
 /* Text of a disclaimer that explains how the data for generating privacy reprots is stored. */
 "privacyHub.privacyReportsDisclaimer" = "Os dados da Central de privacidade são armazenados localmente e nunca são enviados para lugar nenhum.";
 
-/* Title of main privacy hub screen. This screen shows various stats caught by iBrowe's ad blockers. */
+/* Title of main privacy hub screen. This screen shows various stats caught by Brave's ad blockers. */
 "privacyHub.privacyReportsTitle" = "Central de privacidade";
 
 /* Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which website had the most tracker per visit, example usage: 'example.com had an average of 10 trackers & ads blocked per visit ' */
@@ -1954,22 +1984,22 @@
 /* Title of a website that contained the most trackers per visit. */
 "privacyHub.riskiestWebsiteTitle" = "Site com mais rastreadores";
 
-/* This text explains a setting that lets iBrowe monitor blocked network requests */
+/* This text explains a setting that lets Brave monitor blocked network requests */
 "privacyHub.settingsEnableShieldsFooter" = "A Central de privacidade mostra uma contagem daquilo que as Proteções bloquearam. A configuração não afetará o contador das Proteções na página de nova guia. Os dados das Proteções não são contabilizados em janelas privadas.";
 
-/* Title of a setting that lets iBrowe monitor blocked network requests */
+/* Title of a setting that lets Brave monitor blocked network requests */
 "privacyHub.settingsEnableShieldsTitle" = "Mostrar dados das Proteções";
 
-/* This text explains a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
+/* This text explains a setting that lets Brave monitor blocked network requests captured by Brave VPN */
 "privacyHub.settingsEnableVPNAlertsFooter" = "A configuração só se aplicará caso você tenha adquirido uma assinatura de VPN.";
 
-/* Title of a setting that lets iBrowe monitor blocked network requests captured by iBrowe VPN */
+/* Title of a setting that lets Brave monitor blocked network requests captured by Brave VPN */
 "privacyHub.settingsEnableVPNAlertsTitle" = "Mostrar alertas de VPN";
 
 /* This text explains what the button to clear datain the Privacy Hub is for. */
 "privacyHub.settingsSlearDataFooter" = "Redefine a contagem de tudo que as Proteções bloquearam.";
 
-/* Button that lets user clear all blocked requests and vpn alerts data that iBrowe captured for them. */
+/* Button that lets user clear all blocked requests and vpn alerts data that Brave captured for them. */
 "privacyHub.settingsSlearDataTitle" = "Limpar dados das Proteções";
 
 /* This label says shields, as a source of by what a resource was blocked. Think of it in context of 'Blocked by Shields' */
@@ -1997,15 +2027,15 @@
 "privacyHub.vpnAlertRegularTrackerTypeSingular" = "Rastreador ou anúncio";
 
 /* Section title, this section displays vpn alerts: items which the vpn managed to block on users behalf. */
-"privacyHub.vpnAlertsHeader" = "Alertas do Firewall + VPN iBrowe";
+"privacyHub.vpnAlertsHeader" = "Alertas do Firewall + VPN Brave";
 
-/* This label says about iBrowe VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
+/* This label says about Brave VPN, as a source of by what the resource was blocked by. Think of it in context of 'Blocked by VPN' */
 "privacyHub.vpnLabel" = "Firewall + VPN";
 
 /* It shows a total count of items blocked by our VPN shields */
 "privacyHub.vpvnAlertsTotalCount" = "Contagem total";
 
-/* Show iBrowe Browser Privacy Policy page from the Privacy section in the settings. */
+/* Show Brave Browser Privacy Policy page from the Privacy section in the settings. */
 "PrivacyPolicy" = "Política de privacidade";
 
 /* Private button title */
@@ -2021,10 +2051,10 @@
 "PrivateBrowsingOnlyWarning" = "O modo Somente navegação privada fechará todas as guias atuais e encerrará suas sessões em todos os sites.";
 
 /* Private tab details */
-"PrivateTabBody" = "As Abas privadas não são salvas no iBrowe, mas elas não garantem navegação anônima on-line. Os sites que você acessar em uma aba privada não serão exibidos no seu histórico, e os cookies deles serão excluídos quando você os fechar (nenhuma informação ficará salva no iBrowe). No entanto, os downloads serão salvos.\nSua operadora de telefonia móvel (ou o proprietário da rede Wi-Fi ou VPN à qual você está conectado) poderá ver quais sites você acessa, e esses sites detectarão seu endereço IP público, mesmo nas Abas privadas.";
+"PrivateTabBody" = "As Abas privadas não são salvas no Brave, mas elas não garantem navegação anônima on-line. Os sites que você acessar em uma aba privada não serão exibidos no seu histórico, e os cookies deles serão excluídos quando você os fechar (nenhuma informação ficará salva no Brave). No entanto, os downloads serão salvos.\nSua operadora de telefonia móvel (ou o proprietário da rede Wi-Fi ou VPN à qual você está conectado) poderá ver quais sites você acessa, e esses sites detectarão seu endereço IP público, mesmo nas Abas privadas.";
 
 /* Private tab detail text */
-"PrivateTabDetails" = "O uso das Abas privadas só muda o que o iBrowe faz no seu dispositivo. O comportamento das outras partes envolvidas não é alterado.\n\nOs sites sempre detectam seu endereço IP quando você os acessa. Com base nisso, normalmente é possível ter uma ideia geral de onde você está, como sua cidade. Às vezes, essa estimativa de localização pode ser bem mais específica. Os sites também têm acesso a todas as informações que você fornece a eles (por exemplo, termos de pesquisa). Se você fizer login em um site, ele saberá que você é o proprietário dessa conta. Sua sessão será encerrada quando você fechar as Abas privadas, pois o iBrowe excluirá o cookie que mantém você conectado à conta.\n\nO responsável pela sua conexão com a internet (seu provedor de serviços de internet), que em muitos casos é sua operadora, pode ver toda a sua atividade na rede. Se você está conectado a uma rede Wi-Fi, o provedor é o proprietário dessa rede. Se você está usando uma VPN, o proprietário é quem a mantém em funcionamento. Seu provedor pode ver os sites que você acessa no momento em que isso acontece. Se esses sites usam HTTPS, ele não tem como saber exatamente o que você faz neles. No entanto, se um site só utiliza HTTP, seu provedor pode ver tudo: seus termos de pesquisa, quais páginas você acessa e em quais links você clica.\n\nSe a empresa na qual você trabalha gerencia seu dispositivo, é possível que ela monitore o que você faz com ele. O uso das Abas privadas provavelmente não a impedirá de saber os sites que você acessou. É possível que outra pessoa que tenha acesso ao seu dispositivo tenha instalado um software para monitorar sua atividade; nesse caso, as Abas privadas não poderão proteger você.";
+"PrivateTabDetails" = "O uso das Abas privadas só muda o que o Brave faz no seu dispositivo. O comportamento das outras partes envolvidas não é alterado.\n\nOs sites sempre detectam seu endereço IP quando você os acessa. Com base nisso, normalmente é possível ter uma ideia geral de onde você está, como sua cidade. Às vezes, essa estimativa de localização pode ser bem mais específica. Os sites também têm acesso a todas as informações que você fornece a eles (por exemplo, termos de pesquisa). Se você fizer login em um site, ele saberá que você é o proprietário dessa conta. Sua sessão será encerrada quando você fechar as Abas privadas, pois o Brave excluirá o cookie que mantém você conectado à conta.\n\nO responsável pela sua conexão com a internet (seu provedor de serviços de internet), que em muitos casos é sua operadora, pode ver toda a sua atividade na rede. Se você está conectado a uma rede Wi-Fi, o provedor é o proprietário dessa rede. Se você está usando uma VPN, o proprietário é quem a mantém em funcionamento. Seu provedor pode ver os sites que você acessa no momento em que isso acontece. Se esses sites usam HTTPS, ele não tem como saber exatamente o que você faz neles. No entanto, se um site só utiliza HTTP, seu provedor pode ver tudo: seus termos de pesquisa, quais páginas você acessa e em quais links você clica.\n\nSe a empresa na qual você trabalha gerencia seu dispositivo, é possível que ela monitore o que você faz com ele. O uso das Abas privadas provavelmente não a impedirá de saber os sites que você acessou. É possível que outra pessoa que tenha acesso ao seu dispositivo tenha instalado um software para monitorar sua atividade; nesse caso, as Abas privadas não poderão proteger você.";
 
 /* Private tab information link */
 "PrivateTabLink" = "Saiba mais sobre abas privadas.";
@@ -2035,8 +2065,8 @@
 /* Title for quick-search engines settings section. */
 "QuickSearchEngines" = "Mecanismos de pesquisa rápida";
 
-/* Open the App Store to rate iBrowe. */
-"RateBrave" = "Avaliar o iBrowe";
+/* Open the App Store to rate Brave. */
+"RateBrave" = "Avaliar o Brave";
 
 /* Accessibility label for button increasing font size in display settings of reader mode */
 "ReaderModeBiggerFontButtonAccessibilityLabel" = "Aumentar o tamanho do texto";
@@ -2065,13 +2095,13 @@
 /* Accessibility hint for the font type buttons in reader mode display settings */
 "ReaderModeFontTypeButtonAccessibilityHint" = "Altera o tipo de fonte.";
 
-/* Message displayed when the reader mode page is loading. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Message displayed when the reader mode page is loading. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadingContentDisplayText" = "Carregando conteúdo...";
 
-/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Link for going to the non-reader page when the reader view could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModeLoadOriginalLinkText" = "Carregar página original";
 
-/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to iBrowe reader mode from another app. */
+/* Message displayed when the reader mode page could not be loaded. This message will appear only when sharing to Brave reader mode from another app. */
 "ReaderModePageCantShowDisplayText" = "Não foi possível exibir a página na Visualização de leitor.";
 
 /* Title of a bar that show up when you enter reader mode. */
@@ -2131,9 +2161,6 @@
 /* Recent Search Hide Button */
 "RecentSearchHide" = "Ocultar";
 
-/* Recent Search Paste & Go Button Title */
-"RecentSearchPasteAndGo" = "Cole & Vá";
-
 /* Recent Search 'on' text when a user searches 'on' a website */
 "RecentSearchQuickSearchOnWebsite" = "em";
 
@@ -2150,10 +2177,13 @@
 "RecentSearchScannerTitle" = "Ler código QR";
 
 /* Recent Search Section Description */
-"RecentSearchSectionDescription" = "As pesquisas recentes permitem que você acesse de modo privado as pesquisas anteriores. Você deseja ativar as pesquisas recentes?";
+"RecentSearchSectionDescription" = "Você gostaria de ativar as pesquisas recentes?";
+
+/* Recent Search Section Header Title */
+"recentSearchSectionHeaderTitle" = "Pesquisas recentes";
 
 /* Recent Search Section Title */
-"RecentSearchSectionTitle" = "Pesquisas recentes";
+"RecentSearchSectionTitle" = "As pesquisas recentes permitem que você acesse de modo privado as pesquisas anteriores.";
 
 /* Recent Search Show Button */
 "RecentSearchShow" = "Mostrar";
@@ -2189,10 +2219,10 @@
 "ReportBrokenContactMeSuggestions" = "E-mail, Twitter etc.";
 
 /* First part of the report a broken site copy. After the colon is a new line and then a website address */
-"ReportBrokenSiteBody1" = "Informe aos desenvolvedores do iBrowe que este site não funciona corretamente com o Shields:";
+"ReportBrokenSiteBody1" = "Informe aos desenvolvedores do Brave que este site não funciona corretamente com o Shields:";
 
 /* This is the info text that is presented when a user is submitting a web-compatibility report. */
-"ReportBrokenSiteBody2" = "Nota: o relatório enviado para os servidores do iBrowe inclui o endereço do site, a versão do iBrowe utilizada, as definições das proteções, o estado da VPN e as definições de idioma.";
+"ReportBrokenSiteBody2" = "Nota: o relatório enviado para os servidores do Brave inclui o endereço do site, a versão do Brave utilizada, as definições das proteções, o estado da VPN e as definições de idioma.";
 
 /* No comment provided by engineer. */
 "ReportBrokenSubmitButtonTitle" = "Enviar";
@@ -2225,49 +2255,49 @@
 "RestoreTabNegativeButtonTitle" = "Não";
 
 /* Restore Tabs Prompt Description */
-"RestoreTabOnCrashAlertMessage" = "Infelizmente, o iBrowe travou ou não fechou corretamente.\nRestaurar suas abas?";
+"RestoreTabOnCrashAlertMessage" = "Infelizmente, o Brave travou ou não fechou corretamente.\nRestaurar suas abas?";
 
 /* Restore Tabs Prompt Title */
-"RestoreTabOnCrashAlertTitle" = "O iBrowe fechou inesperadamente.";
+"RestoreTabOnCrashAlertTitle" = "O Brave fechou inesperadamente.";
 
-/* Body for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInBody" = "Com o iBrowe Rewards, você pode visualizar anúncios da rede do iBrowe Ads que preservam sua privacidade. Sem rastreadores. Sem lentidão. E seus dados ficam totalmente seguros.";
+/* Body for Brave Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInBody" = "Com o Brave Rewards, você pode visualizar anúncios da rede do Brave Ads que preservam sua privacidade. Sem rastreadores. Sem lentidão. E seus dados ficam totalmente seguros.";
 
-/* Title for iBrowe Talk rewards opt-in screen button */
+/* Title for Brave Talk rewards opt-in screen button */
 "rewards.braveTalkRewardsOptInButtonTitle" = "Ativar Recompensas";
 
-/* Body for successful iBrowe Talk rewards opt-in */
-"rewards.braveTalkRewardsOptInSuccessBody" = "Clique em qualquer parte da tela para ir para o iBrowe Talk.";
+/* Body for successful Brave Talk rewards opt-in */
+"rewards.braveTalkRewardsOptInSuccessBody" = "Clique em qualquer parte da tela para ir para o Brave Talk.";
 
-/* Title for successful iBrowe Talk rewards opt-in */
+/* Title for successful Brave Talk rewards opt-in */
 "rewards.braveTalkRewardsOptInSuccessTitle" = "Agora você pode iniciar uma chamada gratuita";
 
-/* Title for iBrowe Talk rewards opt-in screen */
-"rewards.braveTalkRewardsOptInTitle" = "Para iniciar uma chamada gratuita, ative o iBrowe Rewards";
+/* Title for Brave Talk rewards opt-in screen */
+"rewards.braveTalkRewardsOptInTitle" = "Para iniciar uma chamada gratuita, ative o Brave Rewards";
 
-/* Displayed when iBrowe Rewards is disabled */
-"rewards.disabledBody" = "Ative para ajudar a apoiar o iBrowe e a comunidade BAT.";
+/* Displayed when Brave Rewards is disabled */
+"rewards.disabledBody" = "Ative para ajudar a apoiar o Brave e a comunidade BAT.";
 
 /* Displayed in the status container when rewards is disabled */
-"rewards.disabledStatusBody" = "Usar o iBrowe Rewards ajuda a apoiar o iBrowe e a comunidade BAT.";
+"rewards.disabledStatusBody" = "Usar o Brave Rewards ajuda a apoiar o Brave e a comunidade BAT.";
 
-/* Displayed when iBrowe Rewards is enabled */
-"rewards.enabledBody" = "Você está ajudando a apoiar o iBrowe e a comunidade BAT.";
+/* Displayed when Brave Rewards is enabled */
+"rewards.enabledBody" = "Você está ajudando a apoiar o Brave e a comunidade BAT.";
 
 /* Displayed in the status container when rewards is enabled but you're not currently supporting any publishers (0 AC count) */
-"rewards.enabledStatusBody" = "Obrigado por ajudar a apoiar o iBrowe e a comunidade BAT!";
+"rewards.enabledStatusBody" = "Obrigado por ajudar a apoiar o Brave e a comunidade BAT!";
 
 /* The placeholders say 'Terms of Service' and 'Privacy Policy'. So full sentence goes like: 'By clicking, you agree to the Terms of Service and Privacy Policy...' */
 "rewards.optInDisclaimer" = "Ao clicar, você concorda com os %1$@ e a %2$@. Desative quando quiser nas Configurações.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleMessage" = "Ajude a apoiar o iBrowe e a comunidade BAT ativando o iBrowe Rewards e visualizando os anúncios do iBrowe.";
+"rewards.settingsToggleMessage" = "Ajude a apoiar o Brave e a comunidade BAT ativando o Brave Rewards e visualizando os anúncios do Brave.";
 
 /* No comment provided by engineer. */
-"rewards.settingsToggleTitle" = "Ativar o iBrowe Rewards";
+"rewards.settingsToggleTitle" = "Ativar o Brave Rewards";
 
 /* Displayed under verified publishers */
-"rewards.supportingPublisher" = "Este criador de conteúdo é verificado pelo iBrowe Creators";
+"rewards.supportingPublisher" = "Este criador de conteúdo é verificado pelo Brave Creators";
 
 /* Displayed next to a number representing the total number of publishers supported */
 "rewards.totalSupportedCount" = "Número de criadores de conteúdo que você está apoiando neste mês.";
@@ -2294,7 +2324,7 @@
 "RewardsInternalsContributionAmount" = "Valor da contribuição";
 
 /* No comment provided by engineer. */
-"RewardsInternalsContributionProcessorBraveTokens" = "Tokens do iBrowe";
+"RewardsInternalsContributionProcessorBraveTokens" = "Tokens do Brave";
 
 /* No comment provided by engineer. */
 "RewardsInternalsContributionProcessorNone" = "Nenhum";
@@ -2416,7 +2446,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsShare" = "Compartilhar";
 
-/* 'Rewards' as in 'iBrowe Rewards' */
+/* 'Rewards' as in 'Brave Rewards' */
 "RewardsInternalsShareInternalsTitle" = "Compartilhar dados internos do Rewards";
 
 /* No comment provided by engineer. */
@@ -2434,7 +2464,7 @@
 /* No comment provided by engineer. */
 "RewardsInternalsSupported" = "Compatível";
 
-/* 'Rewards' as in 'iBrowe Rewards' */
+/* 'Rewards' as in 'Brave Rewards' */
 "RewardsInternalsTitle" = "Dados internos do Rewards";
 
 /* No comment provided by engineer. */
@@ -2498,7 +2528,7 @@
 "SearchesForSuggestionButtonAccessibilityText" = "Pesquisa a sugestão";
 
 /* Section header for history and bookmarks and open tabs option */
-"SearchHistorySectionHeader" = "Abrir Guias & Favoritos & Histórico";
+"SearchHistorySectionHeader" = "Em seu dispositivo";
 
 /* Accessibility message e.g. spoken by VoiceOver after the user taps the close button in the search field to clear the search and exit search mode */
 "SearchInputViewClearButtonTitle" = "Limpar pesquisa";
@@ -2511,6 +2541,9 @@
 
 /* Title for the search field at the top of the Logins list screen */
 "SearchInputViewTitle" = "Pesquisa";
+
+/* The prefix of a user input search query displayed in the quick bar which is on the top of the search suggestion list. */
+"searchQuickBarPrefix" = "Pesquisar \"%@\"";
 
 /* Add Custom Search Engine Table Cell Row Title */
 "searchSettingAddCustomEngineCellTitle" = "Adicionar mecanismo de pesquisa personalizado";
@@ -2548,8 +2581,11 @@
 /* Section header for search suggestions option */
 "SearchSuggestionsSectionHeader" = "Sugestões de pesquisa";
 
+/* Search suggestions optin subtitle when prompting to turn on suggestions */
+"searchSuggestionsSubtitle" = "Você gostaria de ativar a sugestão de pesquisa?";
+
 /* Title of an action that allows user to perform a one-click web search for selected text */
-"SearchWithBrave" = "Pesquisar com o iBrowe";
+"SearchWithBrave" = "Pesquisar com o Brave";
 
 /* Settings security section title */
 "Security" = "Segurança";
@@ -2558,18 +2594,18 @@
 "sendButtonTitle" = "Enviar";
 
 /* Message displayed in the crash dialog above the buttons used to select when sending reports */
-"SendCrashReportAlertMessage" = "Enviar um relatório de falha para que o iBrowe possa corrigir o problema?";
+"SendCrashReportAlertMessage" = "Enviar um relatório de falha para que o Brave possa corrigir o problema?";
 
 /* Title for prompt displayed to user after the app crashes */
-"SendCrashReportAlertTitle" = "Opa! Houve uma falha no iBrowe";
+"SendCrashReportAlertTitle" = "Opa! Houve uma falha no Brave";
 
 /* Used as a button label for crash dialog prompt */
 "SendReportButtonTitle" = "Enviar relatório";
 
 /* No comment provided by engineer. */
-"setDefaultBrowserCalloutTitle" = "Agora o iBrowe pode ser definido como seu navegador padrão no iOS. Toque aqui para abrir as configurações.";
+"setDefaultBrowserCalloutTitle" = "Agora o Brave pode ser definido como seu navegador padrão no iOS. Toque aqui para abrir as configurações.";
 
-/* Settings item to set the iBrowe as a default browser on the iOS device. */
+/* Settings item to set the Brave as a default browser on the iOS device. */
 "setDefaultBrowserSettingsCell" = "Definir como navegador padrão";
 
 /* No comment provided by engineer. */
@@ -2591,7 +2627,25 @@
 "settings.autocloseTabsSetting" = "Fechar abas";
 
 /* Description of autoclose tabs feature. */
-"settings.autocloseTabsSettingFooter" = "Permita que o iBrowe feche automaticamente as abas que não foram visualizadas recentemente.";
+"settings.autocloseTabsSettingFooter" = "Permita que o Brave feche automaticamente as abas que não foram visualizadas recentemente.";
+
+/* Description beside the toggle for blocking YouTube distracting elements */
+"settings.blockYouTubeDistractingElementsDesc" = "Bloqueie elementos de distração do YouTube";
+
+/* Title beside the toggle for blocking YouTube distracting elements */
+"settings.blockYouTubeDistractingElementsTitle" = "Bloqueie elementos de distração do YouTube";
+
+/* Description beside the toggle for blocking YouTube recommendations */
+"settings.blockYoutubeRecommendationsDesc" = "Bloqueia os elementos do card seguinte e telas finais no youtube.com";
+
+/* Title beside the toggle for blocking YouTube recommendations */
+"settings.blockYoutubeRecommendationsTitle" = "Bloquear conteúdo recomendado do YouTube";
+
+/* Description beside the toggle for blocking YouTube shorts */
+"settings.blockYouTubeShortsDesc" = "Bloqueia Shorts da página inicial, página de tendências e dos resultados de pesquisa no youtube.com";
+
+/* Title beside the toggle for blocking YouTube shorts */
+"settings.blockYouTubeShortsTitle" = "Bloquear YouTube Shorts";
 
 /* Label for the navigation link to quality settings view */
 "settings.highestQualityPlayback" = "Reprodução da mais alta qualidade";
@@ -2605,8 +2659,8 @@
 /* Setting title for 'Media' sections. Media section offerts various options to manipulate media playback */
 "settings.media.rootSetting" = "Mídia";
 
-/* A toggle label which lets the user always open YouTube urls in iBrowe */
-"settings.openYouTubeInBrave" = "Abrir links do YouTube no iBrowe";
+/* A toggle label which lets the user always open YouTube urls in Brave */
+"settings.openYouTubeInBrave" = "Abrir links do YouTube no Brave";
 
 /* No comment provided by engineer. */
 "settings.privacy.screenTimeSetting" = "Ativar tempo de tela";
@@ -2618,16 +2672,19 @@
 "settings.qualitySettings" = "Configurações de qualidade";
 
 /* Description to explain the daily usage ping toggle */
-"settings.sendUsagePingDescription" = "Este ping anônimo e privado permite que o iBrowe ative os usuários ativos.";
+"settings.sendUsagePingDescription" = "Este ping anônimo e privado permite que o Brave ative os usuários ativos.";
 
 /* Title to explain the daily usage ping toggle */
-"settings.sendUsagePingTitle" = "Enviar automaticamente um ping diário de uso ao iBrowe";
+"settings.sendUsagePingTitle" = "Enviar automaticamente um ping diário de uso ao Brave";
+
+/* Description to explain the survey panelist toggle */
+"settings.surveyPanelistDescription" = "Permite que o Brave mostre links para pesquisas privadas na página da nova guia. As pesquisas nos ajudam a criar recursos melhores e a medir a eficácia das campanhas publicitárias baseadas no navegador. [Saiba mais](%@)";
+
+/* Title to explain the survey panelist toggle */
+"settings.surveyPanelistTitle" = "Autorizar pesquisas Brave";
 
 /* Header for the YouTube settings section */
 "settings.youtube" = "YouTube";
-
-/* Error message that is shown in settings when there was a problem loading */
-"SettingsContentLoadErrorMessage" = "Não foi possível carregar a página.";
 
 /* Row name for licenses. */
 "SettingsLicenses" = "Licenças";
@@ -2684,7 +2741,7 @@
 "shieldEducation.shareTheNewsTitle" = "Compartilhe a novidade";
 
 /* Subtitle for Shield Education Tracker Ad Warning */
-"shieldEducation.trackerAdWarningSubTitle" = "O iBrowe Shields acabou de proteger sua privacidade on-line.";
+"shieldEducation.trackerAdWarningSubTitle" = "O Brave Shields acabou de proteger sua privacidade on-line.";
 
 /* Subtitle for Shield Education Tracker Count Share */
 "shieldEducation.trackerCountShareSubtitle" = "Parabéns. Você é muito especial.";
@@ -2699,13 +2756,13 @@
 "shieldEducation.videoAdBlockTitle" = "Os anúncios são bloqueados enquanto você assiste a vídeos neste site.";
 
 /* Section title for adbblock, tracking protection, HTTPS-E, and cookies */
-"ShieldsDefaults" = "Padrões globais do iBrowe Shields";
+"ShieldsDefaults" = "Padrões globais do Brave Shields";
 
 /* Section footer for global shields defaults */
 "ShieldsDefaultsFooter" = "Essas são as configurações padrão do Shields para novos sites. A alteração delas não afetará suas atuais configurações específicas por site.";
 
 /* No comment provided by engineer. */
-"ShieldsDownDisclaimer" = "Você está navegando neste site sem as proteções de privacidade do iBrowe. O site não funciona com as Proteções ativadas?";
+"ShieldsDownDisclaimer" = "Você está navegando neste site sem as proteções de privacidade do Brave. O site não funciona com as Proteções ativadas?";
 
 /* shields overview message */
 "ShieldsOverview" = "As Proteções de site permitem que você controle quando anúncios e rastreadores são bloqueados em cada site que você acessa. Se preferir ver anúncios em um site específico, você poderá ativá-los aqui.";
@@ -2723,7 +2780,7 @@
 "ShortcutItemTitleQRCode" = "Ler código QR";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeBraveNewsDescription" = "Abrir o iBrowe News e conferir as principais notícias de hoje";
+"shortcuts.activityTypeBraveNewsDescription" = "Abrir o Brave News e conferir as principais notícias de hoje";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeClearHistoryDescription" = "Abrir o navegador em uma nova aba e excluir todos os dados de histórico de navegação privada";
@@ -2732,7 +2789,7 @@
 "shortcuts.activityTypeClearHistorySuggestedPhrase" = "Limpar histórico do navegador";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeClearHistoryTitle" = "Limpar histórico de navegação do iBrowe";
+"shortcuts.activityTypeClearHistoryTitle" = "Limpar histórico de navegação do Brave";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeEnableVPNDescription" = "Abrir o navegador em uma nova aba e ativar a VPN";
@@ -2741,7 +2798,7 @@
 "shortcuts.activityTypeEnableVPNSuggestedPhrase" = "Ativar a VPN";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeEnableVPNTitle" = "Abrir o navegador iBrowe e ativar a VPN";
+"shortcuts.activityTypeEnableVPNTitle" = "Abrir o navegador Brave e ativar a VPN";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeNewPrivateTabSuggestedPhrase" = "Abrir nova aba privada";
@@ -2762,13 +2819,13 @@
 "shortcuts.activityTypeOpenBookmarksSuggestedPhrase" = "Abrir Favoritos";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenBookmarksTitle" = "Abrir Favoritos do iBrowe";
+"shortcuts.activityTypeOpenBookmarksTitle" = "Abrir Favoritos do Brave";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenBraveNewsTitle" = "Abrir o iBrowe News";
+"shortcuts.activityTypeOpenBraveNewsTitle" = "Abrir o Brave News";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Abrir o iBrowe News";
+"shortcuts.activityTypeOpenBraveTodaySuggestedPhrase" = "Abrir o Brave News";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenHistoryListDescription" = "Abrir tela do histórico de navegação";
@@ -2777,7 +2834,7 @@
 "shortcuts.activityTypeOpenHistoryListSuggestedPhrase" = "Abrir histórico de navegação";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenHistoryListTitle" = "Abrir histórico de navegação do iBrowe";
+"shortcuts.activityTypeOpenHistoryListTitle" = "Abrir histórico de navegação do Brave";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenPlaylistDescription" = "Começar a reproduzir seus vídeos na playlist";
@@ -2789,7 +2846,7 @@
 "shortcuts.activityTypeOpenPlaylistTitle" = "Abrir playlist";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeOpenSyncedTabsDescription" = "Abrir abas do iBrowe abertas em outros dispositivos";
+"shortcuts.activityTypeOpenSyncedTabsDescription" = "Abrir abas do Brave abertas em outros dispositivos";
 
 /* No comment provided by engineer. */
 "shortcuts.activityTypeOpenSyncedTabsSuggestedPhrase" = "Abrir abas de outros dispositivos";
@@ -2798,7 +2855,7 @@
 "shortcuts.activityTypeOpenSyncedTabsTitle" = "Abrir abas de outros dispositivos";
 
 /* No comment provided by engineer. */
-"shortcuts.activityTypeTabDescription" = "Começar a pesquisar com segurança na web com o iBrowe";
+"shortcuts.activityTypeTabDescription" = "Começar a pesquisar com segurança na web com o Brave";
 
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenBookmarkSuggestedPhrase" = "Abrir site dos favoritos";
@@ -2809,8 +2866,8 @@
 /* No comment provided by engineer. */
 "shortcuts.customIntentOpenWebsiteSuggestedPhrase" = "Abrir site";
 
-/* Description for opening iBrowe Settings for altering Siri shortcut. */
-"shortcuts.shortcutOpenApplicationSettingsDescription" = "Esta opção abrirá as configurações do iBrowe. Para alterar várias opções da Siri, selecione o item de menu \"Siri e Busca\" e personalize suas escolhas.";
+/* Description for opening Brave Settings for altering Siri shortcut. */
+"shortcuts.shortcutOpenApplicationSettingsDescription" = "Esta opção abrirá as configurações do Brave. Para alterar várias opções da Siri, selecione o item de menu \"Siri e Busca\" e personalize suas escolhas.";
 
 /* Button title that open application settings */
 "shortcuts.shortcutOpenApplicationSettingsTitle" = "Abrir configurações";
@@ -2822,7 +2879,7 @@
 "shortcuts.shortcutSettingsClearBrowserHistoryTitle" = "Limpar histórico do navegador";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsEnableVPNDescription" = "Usar atalhos para ativar o iBrowe VPN com a Siri - Assistente de voz";
+"shortcuts.shortcutSettingsEnableVPNDescription" = "Usar atalhos para ativar o Brave VPN com a Siri - Assistente de voz";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsEnableVPNTitle" = "Ativar a VPN";
@@ -2833,11 +2890,11 @@
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenBookmarksTitle" = "Abrir Favoritos";
 
-/* Description of Open iBrowe News Siri Shortcut in Settings Screen */
-"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Usar atalhos para abrir uma nova guia e mostrar o feed das Notícias iBrowe com a Siri - Assistente de voz";
+/* Description of Open Brave News Siri Shortcut in Settings Screen */
+"shortcuts.shortcutSettingsOpenBraveNewsDescription" = "Usar atalhos para abrir uma nova guia e mostrar o feed das Notícias Brave com a Siri - Assistente de voz";
 
 /* No comment provided by engineer. */
-"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Abrir o iBrowe News";
+"shortcuts.shortcutSettingsOpenBraveNewsTitle" = "Abrir o Brave News";
 
 /* No comment provided by engineer. */
 "shortcuts.shortcutSettingsOpenHistoryListDescription" = "Usar atalhos para abrir a tela do histórico de navegação com a Siri – Assistente de voz";
@@ -2897,19 +2954,19 @@
 "ShowTabsBar" = "Barra de guias";
 
 /* No comment provided by engineer. */
-"SiteReportedBody" = "Obrigado por informar aos desenvolvedores do iBrowe que há um problema com este site. Faremos o possível para corrigi-lo!";
+"SiteReportedBody" = "Obrigado por informar aos desenvolvedores do Brave que há um problema com este site. Faremos o possível para corrigi-lo!";
 
 /* No comment provided by engineer. */
 "SiteReportedTitle" = "Obrigado";
 
-/* iBrowe panel topmost title */
+/* Brave panel topmost title */
 "SiteShieldSettings" = "Proteções";
 
 /* Title used when in warning pop-over when domain specific data save appears */
-"socialSharing.domainSpecificDataSavedTitle" = "Economizo dados diariamente navegando na web com o iBrowe.";
+"socialSharing.domainSpecificDataSavedTitle" = "Economizo dados diariamente navegando na web com o Brave.";
 
-/* Text used for social sharing together with iBrowe Shield values */
-"socialSharing.shareDescriptionTitle" = "Economizo dados diariamente navegando na web com o iBrowe.";
+/* Text used for social sharing together with Brave Shield values */
+"socialSharing.shareDescriptionTitle" = "Economizo dados diariamente navegando na web com o Brave.";
 
 /* Open search section of settings */
 "StandardTabSearch" = "Aba padrão";
@@ -3026,7 +3083,7 @@
 "sync.deleteAccount" = "Eliminar a conta da sincronização";
 
 /* Part 1 Description for Alert used action Delete Sync Account. */
-"sync.deleteAccountAlertDescriptionPart1" = "A exclusão da sua conta removerá seus dados criptografados dos servidores do iBrowe e desativará a Sincronização em todos os seus dispositivos conectados.";
+"sync.deleteAccountAlertDescriptionPart1" = "A exclusão da sua conta removerá seus dados criptografados dos servidores do Brave e desativará a Sincronização em todos os seus dispositivos conectados.";
 
 /* Part 2 Description for Alert used action Delete Sync Account. */
 "sync.deleteAccountAlertDescriptionPart2" = "No entanto, isso não excluirá os dados que estiverem armazenados localmente nesses dispositivos.";
@@ -3035,10 +3092,19 @@
 "sync.deleteAccountAlertTitle" = "Eliminar a conta da sincronização";
 
 /* Sync Error Description */
-"sync.deprecatedVersionError" = "Parece que este código foi criado em um dispositivo executando uma versão mais antiga do iBrowe. Atualize para a versão mais recente do iBrowe em seu outro dispositivo e crie um novo código de sincronização.";
+"sync.deprecatedVersionError" = "Parece que este código foi criado em um dispositivo executando uma versão mais antiga do Brave. Atualize para a versão mais recente do Brave em seu outro dispositivo e crie um novo código de sincronização.";
 
 /* The message displayed in alert when a there is a problem with fetching devices */
 "sync.deviceFetchErrorAlertDescription" = "Ocorreu um erro ao obter dispositivos na cadeia de sincronização.";
+
+/* Message for alert when the user has restored their device from a backup */
+"sync.deviceRestoreDetectedMessage" = "Parece que seu dispositivo foi restaurado a partir de um backup, o que pode afetar a Sincronização do Brave. Para continuar a usá-la, você deve redefinir e reintegrar a cadeia de sincronização.";
+
+/* Title for alert when the user has restored their device from a backup */
+"sync.deviceRestoreDetectedTitle" = "Restauração detectada";
+
+/* Alert button title when the user has restored their device from a backup, to reset their sync chain */
+"sync.deviceRestoreResetActionTitle" = "Redefinir a cadeia de sincronização";
 
 /* Sync device settings page title. */
 "sync.devices" = "Dispositivos da cadeia de sincronização";
@@ -3122,7 +3188,7 @@
 "sync.removeDeviceDefaultName" = "Dispositivo";
 
 /* Message for removing last device from Sync */
-"sync.removeLastDeviceMessage" = "Os dados que estão sincronizados no momento serão mantidos, mas todos os dados presentes no cache de sincronização do iBrowe serão excluídos. Você precisará criar uma nova cadeia de sincronização para sincronizar os dados do dispositivo novamente.";
+"sync.removeLastDeviceMessage" = "Os dados que estão sincronizados no momento serão mantidos, mas todos os dados presentes no cache de sincronização do Brave serão excluídos. Você precisará criar uma nova cadeia de sincronização para sincronizar os dados do dispositivo novamente.";
 
 /* Button name for removing last device from Sync */
 "sync.removeLastDeviceRemoveButtonName" = "Excluir Cadeia de sincronização";
@@ -3191,7 +3257,7 @@
 "sync.toDevice" = "Sincronizar com o dispositivo";
 
 /* Sync to existing device description */
-"sync.toDeviceDescription" = "Usando um dispositivo existente sincronizado, abra as Configurações do iBrowe e acesse Configurações -> Sincronizar. Escolha \"Adicionar dispositivo\" e realize a leitura do código exibido na tela.";
+"sync.toDeviceDescription" = "Usando um dispositivo existente sincronizado, abra as Configurações do Brave e acesse Configurações -> Sincronizar. Escolha \"Adicionar dispositivo\" e realize a leitura do código exibido na tela.";
 
 /* Description on popup when setting up a sync group fails */
 "sync.unableCreateGroup" = "Não foi possível sincronizar este dispositivo";
@@ -3206,13 +3272,10 @@
 "sync.validForTooLongError" = "Este código é inválido. Verifique se a hora e o fuso horário estão definidos corretamente no seu dispositivo.";
 
 /* Sync settings welcome */
-"sync.welcome" = "Para começar, é necessário que o iBrowe esteja instalado em todos os dispositivos que você pretende sincronizar. Para vincular todos os seus dispositivos com segurança, crie uma cadeia de sincronização.";
+"sync.welcome" = "Para começar, é necessário que o Brave esteja instalado em todos os dispositivos que você pretende sincronizar. Para vincular todos os seus dispositivos com segurança, crie uma cadeia de sincronização.";
 
 /* Word count title */
 "sync.wordCount" = "Número de palavras: %i";
-
-/* Folder name for where bookmarks are imported into when the root folder is not empty. */
-"SyncImportFolderName" = "Favoritos importados";
 
 /* Accessibility label for action denoting closing a tab in tab list (tray) */
 "TabAccessibilityCloseActionLabel" = "Fechar";
@@ -3271,6 +3334,9 @@
 /* A label shown next to a URL that loaded in some insecure way */
 "tabToolbarNotSecureTitle" = "Não é seguro";
 
+/* Accessibility Label for the tab toolbar paste and go button */
+"tabToolbarPasteAndGoButtonAccessibilityLabel" = "Colar e abrir";
+
 /* Accessibility Label for the tab toolbar Playlist button */
 "TabToolbarPlaylistButtonAccessibilityLabel" = "Playlist";
 
@@ -3292,7 +3358,7 @@
 /* Accessibility Label for the tab toolbar Stop button */
 "TabToolbarStopButtonAccessibilityLabel" = "Parar";
 
-/* Accessibility Label for the tab toolbar Reload button */
+/* Accessibility Label for the tab toolbar voice search button */
 "tabToolbarVoiceSearchButtonAccessibilityLabel" = "Pesquisa de voz";
 
 /* Accessibility label for the lock icon, which is only present if the connection is insecure */
@@ -3328,14 +3394,14 @@
 /* No comment provided by engineer. */
 "TermsOfService" = "Termos de Serviço";
 
-/* Show iBrowe Browser TOS page from the Privacy section in the settings. */
+/* Show Brave Browser TOS page from the Privacy section in the settings. */
 "TermsOfUse" = "Termos de uso";
 
 /* Text for button to share referral's QR code. */
 "themeQRCodeShareButton" = "Compartilhar...";
 
 /* Title for QR popup encouraging users to share the code with their friends. */
-"themeQRCodeShareTitle" = "Compartilhe o iBrowe com seus amigos!";
+"themeQRCodeShareTitle" = "Compartilhe o Brave com seus amigos!";
 
 /* Selection to automatically color/style the user interface. */
 "ThemesAutomaticOption" = "Automático";
@@ -3377,13 +3443,13 @@
 "today.addSourceNoFeedsFoundMessage" = "Esse endereço de feed não tem nenhum conteúdo.";
 
 /* The action title displayed in the iOS share menu */
-"today.addSourceShareTitle" = "Adicionar fonte ao iBrowe News";
+"today.addSourceShareTitle" = "Adicionar fonte ao Brave News";
 
 /* A header title shown above a button that will allow the user to fetch RSS feeds for a website they have typed in */
 "today.availableRSSFeedsHeaderTitle" = "Feeds RSS disponíveis";
 
 /* The name of the feature */
-"today.braveToday" = "iBrowe News";
+"today.braveToday" = "Brave News";
 
 /* The name of the feature in settings */
 "today.braveToday.title" = "Notícias";
@@ -3406,13 +3472,13 @@
 /* No comment provided by engineer. */
 "today.deals" = "Ofertas";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
-"today.disabledAlertBody" = "O iBrowe News deixará de exibir conteúdo de %@";
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
+"today.disabledAlertBody" = "O Brave News deixará de exibir conteúdo de %@";
 
 /* No comment provided by engineer. */
 "today.disabledAlertTitle" = "Desativada";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.disablePublisherContent" = "Ocultar conteúdo de %@";
 
 /* No comment provided by engineer. */
@@ -3421,11 +3487,11 @@
 /* No comment provided by engineer. */
 "today.emptyFeedTitle" = "Não há artigos para exibir";
 
-/* '%@' will turn into the name of a publisher (verbatim), for example: iBrowe Blog */
+/* '%@' will turn into the name of a publisher (verbatim), for example: Brave Blog */
 "today.enablePublisherContent" = "Permitir conteúdo de %@";
 
 /* No comment provided by engineer. */
-"today.errorGeneralBody" = "O iBrowe News está enfrentando alguns problemas. Tente novamente.";
+"today.errorGeneralBody" = "O Brave News está enfrentando alguns problemas. Tente novamente.";
 
 /* No comment provided by engineer. */
 "today.errorGeneralTitle" = "Ops…";
@@ -3451,20 +3517,20 @@
 /* The header above the list of insecure sources */
 "today.insecureSourcesHeader" = "Fontes não seguras: adicione-as por sua conta e risco";
 
-/* Shown above a button that turns on the "iBrowe News" product in the app. by sources & feeds they mean websites & blogs. */
-"today.introCardBody" = "Siga suas fontes favoritas em um único feed. Basta abrir uma guia no iBrowe, rolar a tela para baixo e pronto!\nO Notícias iBrowe exibe anúncios totalmente privados e anonimizados.";
+/* Shown above a button that turns on the "Brave News" product in the app. by sources & feeds they mean websites & blogs. */
+"today.introCardBody" = "Siga suas fontes favoritas em um único feed. Basta abrir uma guia no Brave, rolar a tela para baixo e pronto!\nO Notícias Brave exibe anúncios totalmente privados e anonimizados.";
 
-/* Shown above a button that turns on the "iBrowe News" product in the app. */
-"today.introCardTitle" = "Ative o Notícias iBrowe e nunca fique por fora das notícias";
+/* Shown above a button that turns on the "Brave News" product in the app. */
+"today.introCardTitle" = "Ative o Notícias Brave e nunca fique por fora das notícias";
 
 /* No comment provided by engineer. */
-"today.isEnabledToggleLabel" = "Mostrar o iBrowe News";
+"today.isEnabledToggleLabel" = "Mostrar o Brave News";
 
 /* No comment provided by engineer. */
 "today.learnMoreTitle" = "Saiba mais sobre seus dados";
 
-/* 'iBrowe Offers' is a product name */
-"today.moreBraveOffers" = "Mais iBrowe Offers";
+/* 'Brave Offers' is a product name */
+"today.moreBraveOffers" = "Mais Brave Offers";
 
 /* No comment provided by engineer. */
 "today.noInternet" = "Sem internet";
@@ -3488,19 +3554,19 @@
 "today.promoted" = "Promovido";
 
 /* Title for long press action sheet list which has item for rate / hide */
-"today.rateBraveCardActionSheetTitle" = "Avaliar o iBrowe na App Store";
+"today.rateBraveCardActionSheetTitle" = "Avaliar o Brave na App Store";
 
-/* Title for long press action that will hide iBrowe Rate Card */
+/* Title for long press action that will hide Brave Rate Card */
 "today.rateBraveCardHideActionTitle" = "Ocultar";
 
 /* Button title / Title for long press action that will perform an action which open AppStore Rate screen */
-"today.rateBraveCardRateActionTitle" = "Avaliar o iBrowe";
+"today.rateBraveCardRateActionTitle" = "Avaliar o Brave";
 
-/* Subtitle shown on the Rate iBrowe Card */
+/* Subtitle shown on the Rate Brave Card */
 "today.rateBraveCardSubtitle" = "Diga-nos o que você acha!";
 
-/* Title shown on the Rate iBrowe Card */
-"today.rateBraveCardTitle" = "Gostando do iBrowe?";
+/* Title shown on the Rate Brave Card */
+"today.rateBraveCardTitle" = "Gostando do Brave?";
 
 /* No comment provided by engineer. */
 "today.refresh" = "Atualizar";
@@ -3527,7 +3593,7 @@
 "today.suggestedTitle" = "Sugeridas";
 
 /* No comment provided by engineer. */
-"today.turnOnBraveToday" = "Ativar o iBrowe News";
+"today.turnOnBraveToday" = "Ativar o Brave News";
 
 /* A toggle title shown next to a source or channel that the user can unfollow. When tapped switches to 'Follow' */
 "today.unfollowToggleTitle" = "Deixar de seguir";
@@ -3539,7 +3605,7 @@
 "ToggleReaderMode" = "Alternar modo leitor";
 
 /* Title of an action that allows the user to translate the current web-page to another language */
-"TranslatePage" = "Traduzir";
+"TranslatePage" = "Traduzir página";
 
 /* Prompt shown before enabling provider search queries */
 "Turn on search suggestions?" = "Ativar as sugestões de pesquisa?";
@@ -3574,20 +3640,20 @@
 /* No comment provided by engineer. */
 "UserWalletGenericErrorTitle" = "Algo deu errado";
 
-/* Version number of iBrowe shown in settings */
+/* Version number of Brave shown in settings */
 "VersionTemplate" = "Versão %1$@ (%2$@)";
 
 /* Label that says where to view an item. '%@' is a placeholder and will include things like 'Instagram', 'unsplash'. The full label will look like 'View  on Instagram'. */
 "ViewOn" = "Ver no %@";
 
 /* Explanation for warning alert why the microphone access required. */
-"voice.search.microphone.description.required" = "Permita o acesso ao microfone nas configurações do sistema iOS para o iBrowe usar a pesquisa por voz anônima.";
+"voice.search.microphone.description.required" = "Permita o acesso ao microfone nas configurações do sistema iOS para o Brave usar a pesquisa por voz anônima.";
 
 /* Title for warning alert microphone access is required. */
 "voice.search.microphone.title.required" = "Acesso ao microfone necessário";
 
 /* Disclaimer for screen to search using voice. */
-"voice.search.screen.disclaimer" = "O iBrowe não armazena nem compartilha suas pesquisas por voz.";
+"voice.search.screen.disclaimer" = "O Brave não armazena nem compartilha suas pesquisas por voz.";
 
 /* The date your wallet was created */
 "WalletCreationDate" = "Data de criação da carteira";
