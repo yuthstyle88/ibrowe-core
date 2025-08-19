@@ -270,7 +270,7 @@
       <message name="IDS_SEARCH" desc="The label for a search button.">
         Search
       </message>
-      <message name="IDS_SETTINGS" desc="Title for Brave's Settings.">
+      <message name="IDS_SETTINGS" desc="Title for iBrowe's Settings.">
         Settings
       </message>
       <message name="IDS_SHOW_INFO" desc="The label for a info button to show info.">
@@ -318,8 +318,8 @@
       <message name="IDS_SORT_BY" desc="Generic label for a prompt to sort something.">
         Sort by:
       </message>
-      <message name="IDS_PROVIDED_BY_GOOGLE" desc="Generic label for something that comes from Brave servers.">
-        Provided by Brave
+      <message name="IDS_PROVIDED_BY_GOOGLE" desc="Generic label for something that comes from iBrowe servers.">
+        Provided by iBrowe
       </message>
 
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_FORWARD" desc="Content description for the forward navigation button.">
@@ -399,7 +399,7 @@
       <message name="IDS_MENU_HELP" desc="Menu item for opening the help page. [CHAR_LIMIT=27]">
         Help &amp; feedback
       </message>
-      <message name="IDS_AUTOMATICALLY_BLOCKED" desc="Description displayed next to an origin when it was placed under embargo by Brave. This indicates to the user that the origin is blocked automatically instead of being the result of the user's decision.">
+      <message name="IDS_AUTOMATICALLY_BLOCKED" desc="Description displayed next to an origin when it was placed under embargo by iBrowe. This indicates to the user that the origin is blocked automatically instead of being the result of the user's decision.">
         Automatically blocked
       </message>
 
@@ -463,7 +463,7 @@
         Learn about its source and topic
       </message>
       <message name="IDS_PAGE_INFO_DOMAIN_HIDDEN" desc="Message to display in the page info bubble when the domain is hidden.">
-        This content is from <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>, delivered by Brave.
+        This content is from <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>, delivered by iBrowe.
       </message>
       <message name="IDS_PAGE_INFO_HISTORY_TITLE" desc="Label used in the Page Info dialog above the history list.">
         History
@@ -528,8 +528,8 @@
         =1 {<ph name="PERMISSION_1">%1$s<ex>Location</ex></ph>, <ph name="PERMISSION_2">%2$s<ex>Sound</ex></ph>, and <ph name="NUM_MORE">%3$s<ex>1</ex></ph> more blocked}
         other {<ph name="PERMISSION_1">%1$s<ex>Location</ex></ph>, <ph name="PERMISSION_2">%2$s<ex>Sound</ex></ph>, and <ph name="NUM_MORE">%3$s<ex>2</ex></ph> more blocked}}
       </message>
-      <message name="IDS_PAGE_INFO_LITE_MODE_HTTPS_IMAGE_COMPRESSION" desc="This text is displayed in the page info bubble when the currently viewed page has https images that were optimized by Brave">
-        To save you data, this page's images have been optimized by Brave.
+      <message name="IDS_PAGE_INFO_LITE_MODE_HTTPS_IMAGE_COMPRESSION" desc="This text is displayed in the page info bubble when the currently viewed page has https images that were optimized by iBrowe">
+        To save you data, this page's images have been optimized by iBrowe.
       </message>
       <message name="IDS_PAGE_INFO_OPEN_ONLINE_BUTTON" desc="Text in the button that attempts to open an online version of the offline website displayed in the tab.">
         Open Online
@@ -553,23 +553,23 @@
         Cookies and other site data are used to remember you, for example to sign you in or to personalize ads. To manage cookies for all sites, see <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_PAGE_INFO_COOKIES_BLOCKING_RESTART_TODAY_TITLE" desc="Subtitle shown on the Page Info UI when cookies are allowed temporarily, indicating how long until they are no longer allowed. Used for the Today's variation.">
-        Brave will block cookies again today
+        iBrowe will block cookies again today
       </message>
       <message name="IDS_PAGE_INFO_COOKIES_BLOCKING_RESTART_TRACKING_PROTECTION_TITLE" desc="Subtitle shown on the Page Info UI when cookies are allowed temporarily, indicating how long until they are no longer allowed.">
         {DAYS, plural,
-          =1 {Brave will block cookies again tomorrow}
+          =1 {iBrowe will block cookies again tomorrow}
           other {# days until cookies are blocked again}}
       </message>
       <message name="IDS_PAGE_INFO_COOKIES_LIMITING_RESTART_TODAY_TITLE" desc="Subtitle shown on the Page Info UI when cookies are allowed temporarily, indicating how long until they are no longer allowed. Used for the Today's variation.">
-        Brave will limit cookies again today
+        iBrowe will limit cookies again today
       </message>
       <message name="IDS_PAGE_INFO_COOKIES_LIMITING_RESTART_TITLE" desc="Subtitle shown on the Page Info UI when cookies are allowed temporarily, indicating how long until they are no longer allowed.">
         {DAYS, plural,
-          =1 {Brave will limit cookies again tomorrow}
-          other {# days until Brave limits cookies again}}
+          =1 {iBrowe will limit cookies again tomorrow}
+          other {# days until iBrowe limits cookies again}}
       </message>
       <message name="IDS_PAGE_INFO_COOKIES_SEND_FEEDBACK_DESCRIPTION" desc="Text asking the user for feedback on why they allowed third-party cookies for this particular site.">
-        Help us improve Brave by telling us why you allowed third-party cookies. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Send feedback<ph name="END_LINK">&lt;/link&gt;</ph>
+        Help us improve iBrowe by telling us why you allowed third-party cookies. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Send feedback<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_PAGE_INFO_COOKIES_TRACKING_PROTECTION_DESCRIPTION" desc="Text describing the consequences of allowing third-party cookies for a particular site.">
         You temporarily allowed this site to use third-party cookies, which means less browsing protection but site features are more likely to work as expected. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Send feedback<ph name="END_LINK">&lt;/link&gt;</ph>
@@ -608,16 +608,16 @@
         Third-party cookies
       </message>
       <message name="IDS_PAGE_INFO_TRACKING_PROTECTION_DESCRIPTION" desc="Description text for the 'Cookies and site data' subpage in the page info view. Contains a link to the 'Third-party cookies' settings page.">
-        Brave limits most sites from using third-party cookies to track you as you browse. Visit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
+        iBrowe limits most sites from using third-party cookies to track you as you browse. Visit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_PAGE_INFO_TRACKING_PROTECTION_SITE_GRANT_DESCRIPTION" desc="Description text for the 'Cookies and site data' subpage in the page info view for when a site has a TPCD grant. Contains a link to the 'Third-party cookies' settings page.">
-        Brave limits most sites from using third-party cookies. But third-party cookies are allowed on this site because it relies on them to provide basic services.\n\nVisit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
+        iBrowe limits most sites from using third-party cookies. But third-party cookies are allowed on this site because it relies on them to provide basic services.\n\nVisit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_PAGE_INFO_TRACKING_PROTECTION_BLOCKED_COOKIES_DESCRIPTION" desc="Description text for the 'Cookies and site data' subpage in the page info view if all cookies are blocked. Contains a link to the 'Third-party cookies' settings page.">
         You blocked sites from using third-party cookies to track you as you browse. Visit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_PAGE_INFO_TRACKING_PROTECTION_INCOGNITO_BLOCKED_COOKIES_DESCRIPTION" desc="Description text for the 'Cookies and site data' subpage in the page info view in private mode when cookies are blocked. Contains a link to the 'Third-party cookies' settings page.">
-        Brave blocks sites from using third-party cookies to track you as you browse. Visit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
+        iBrowe blocks sites from using third-party cookies to track you as you browse. Visit settings to <ph name="BEGIN_LINK">&lt;link&gt;</ph>manage access to third-party cookies<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_PAGE_INFO_TRACKING_PROTECTION_SUBTITLE_COOKIES_LIMITED" desc="Description text in the Page Info dialog to indicate that third-party cookies are limited on this site.">
         Third-party cookies limited
@@ -643,14 +643,14 @@
       <message name="IDS_PAGE_INFO_AD_PRIVACY_HEADER" desc="A label that represents the new ad-related settings. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button.">
         Ad privacy
       </message>
-      <message name="IDS_PAGE_INFO_AD_PRIVACY_TOPICS_DESCRIPTION" desc="1 of 3 possible descriptions a user might see when they choose 'Ad privacy' from page info for a specific site. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button. 3) Click on Ad privacy. This string describes the case that the site being viewed uses the Ad topics setting. What's the Ad topics setting? When on, Brave will estimate the user's topics of interest based on their recent browsing history and then show up to 3 of those topics with a site so that the site can better personalize ads (a privacy-preserving way to replicate some of the functionality of third-party cookies). In this case, we're informing the user that this site uses the Ad topics API and we're showing the user the ad topics Brave has shared with the site. A button 'Manage ad privacy' allows the user to turn 'Ad privacy' settings on/off or to block specific ad topics.">
-        This site gets your ad topics from Brave to show you more relevant ads
+      <message name="IDS_PAGE_INFO_AD_PRIVACY_TOPICS_DESCRIPTION" desc="1 of 3 possible descriptions a user might see when they choose 'Ad privacy' from page info for a specific site. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button. 3) Click on Ad privacy. This string describes the case that the site being viewed uses the Ad topics setting. What's the Ad topics setting? When on, iBrowe will estimate the user's topics of interest based on their recent browsing history and then show up to 3 of those topics with a site so that the site can better personalize ads (a privacy-preserving way to replicate some of the functionality of third-party cookies). In this case, we're informing the user that this site uses the Ad topics API and we're showing the user the ad topics iBrowe has shared with the site. A button 'Manage ad privacy' allows the user to turn 'Ad privacy' settings on/off or to block specific ad topics.">
+        This site gets your ad topics from iBrowe to show you more relevant ads
       </message>
-      <message name="IDS_PAGE_INFO_AD_PRIVACY_FLEDGE_DESCRIPTION" desc="2 of 3 possible descriptions a user might see when they choose 'Ad privacy' from page info for a specific site. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button. 3) Click on Ad privacy. This string describes the case that the site being viewed uses the Site-suggested ads setting. What's the Site-suggested ads setting? When on, a site can determine a user's interests, save info with Brave relative to those interests. Later, as a user continues browsing, a site can ask Brave for a user's interests and the first site can (through Brave) suggest ads the user might like. In this case, we're informing the user that this site uses the Site-suggested ads API. A button 'Manage ad privacy' allows the user to turn 'Ad privacy' settings on/off or to block specific ad topics.">
+      <message name="IDS_PAGE_INFO_AD_PRIVACY_FLEDGE_DESCRIPTION" desc="2 of 3 possible descriptions a user might see when they choose 'Ad privacy' from page info for a specific site. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button. 3) Click on Ad privacy. This string describes the case that the site being viewed uses the Site-suggested ads setting. What's the Site-suggested ads setting? When on, a site can determine a user's interests, save info with iBrowe relative to those interests. Later, as a user continues browsing, a site can ask iBrowe for a user's interests and the first site can (through iBrowe) suggest ads the user might like. In this case, we're informing the user that this site uses the Site-suggested ads API. A button 'Manage ad privacy' allows the user to turn 'Ad privacy' settings on/off or to block specific ad topics.">
         This site determines things you like and then suggests ads to other sites
       </message>
-      <message name="IDS_PAGE_INFO_AD_PRIVACY_TOPICS_AND_FLEDGE_DESCRIPTION" desc="3 of 3 possible descriptions a user might see when they choose 'Ad privacy' from page info for a specific site. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button. 3) Click on Ad privacy. This string describes the case that the site being viewed uses both the Ad topics and Site-suggested ads settings. AD TOPICS: When on, Brave will estimate the user's topics of interest based on their recent browsing history and then show up to 3 of those topics with a site so that the site can better personalize ads (a privacy-preserving way to replicate some of the functionality of third-party cookies). SITE-SUGGESTED ADS: When on, a site can determine a user's interests, save info with Brave relative to those interests. Later, as a user continues browsing, a site can ask Brave for a user's interests and the first site can (through Brave) suggest ads the user might like. In this case, we're informing the user that this site 1) has asked Brave for the user's interests (the Ad topics setting), and 2) uses the Site-suggested ads API (this site determines the user's interests and then can suggest ads to other sites as the user continues browsing). A button 'Manage ad privacy' allows the user to turn 'Ad privacy' settings on/off or to block specific ad topics or sites.">
-        This site determines things you like and then suggests ads to other sites. This site also gets your ad topics from Brave to show you more relevant ads.
+      <message name="IDS_PAGE_INFO_AD_PRIVACY_TOPICS_AND_FLEDGE_DESCRIPTION" desc="3 of 3 possible descriptions a user might see when they choose 'Ad privacy' from page info for a specific site. 1) Navigate to any site. 2) Click the icon (often a lock) to the left of the URL in the address bar. Information about the page you're viewing appears. The 'Ad privacy' label will appear above the 'Site settings' button. 3) Click on Ad privacy. This string describes the case that the site being viewed uses both the Ad topics and Site-suggested ads settings. AD TOPICS: When on, iBrowe will estimate the user's topics of interest based on their recent browsing history and then show up to 3 of those topics with a site so that the site can better personalize ads (a privacy-preserving way to replicate some of the functionality of third-party cookies). SITE-SUGGESTED ADS: When on, a site can determine a user's interests, save info with iBrowe relative to those interests. Later, as a user continues browsing, a site can ask iBrowe for a user's interests and the first site can (through iBrowe) suggest ads the user might like. In this case, we're informing the user that this site 1) has asked iBrowe for the user's interests (the Ad topics setting), and 2) uses the Site-suggested ads API (this site determines the user's interests and then can suggest ads to other sites as the user continues browsing). A button 'Manage ad privacy' allows the user to turn 'Ad privacy' settings on/off or to block specific ad topics or sites.">
+        This site determines things you like and then suggests ads to other sites. This site also gets your ad topics from iBrowe to show you more relevant ads.
       </message>
       <message name="IDS_PAGE_INFO_AD_PRIVACY_SUBPAGE_MANAGE_BUTTON" desc="A button label that opens the Ad privacy page, allowing a user to turn on / off the ad privacy settings and to manage the topics and sites that influence ad personalization.">
         Manage ad privacy
@@ -944,7 +944,7 @@
 
       <!-- WebApk name/icon report abuse dialog -->
       <message name="IDS_WEBAPK_REPORT_ABUSE_DIALOG_TITLE" desc="The title at the top of the report abuse dialog.">
-        Uninstall '<ph name="APP_NAME">%1$s<ex>Brave App</ex></ph>'?
+        Uninstall '<ph name="APP_NAME">%1$s<ex>iBrowe App</ex></ph>'?
       </message>
       <message name="IDS_WEBAPK_REPORT_ABUSE_CHECKBOX" desc="The label for the box you check when you want to report an app for abuse.">
         Report abuse
@@ -1013,11 +1013,11 @@
       <message name="IDS_ACCESSIBILITY_CAPTIONS_TITLE" desc="Title of the preference that allows the user to update caption settings.">
         Captions
       </message>
-      <message name="IDS_JUMP_START_OMNIBOX_TITLE" desc="When this preference is enabled, Brave start-up time is reduced, and the user is taken directly to an active Omnibox">
+      <message name="IDS_JUMP_START_OMNIBOX_TITLE" desc="When this preference is enabled, iBrowe start-up time is reduced, and the user is taken directly to an active Omnibox">
         Jump-start Omnibox
       </message>
-      <message name="IDS_JUMP_START_OMNIBOX_SUMMARY" desc="When this preference is enabled, Brave start-up time is reduced, and the user is taken directly to an active Omnibox">
-        Launch Brave with the Omnibox focused, reducing start-up time on low-end devices.
+      <message name="IDS_JUMP_START_OMNIBOX_SUMMARY" desc="When this preference is enabled, iBrowe start-up time is reduced, and the user is taken directly to an active Omnibox">
+        Launch iBrowe with the Omnibox focused, reducing start-up time on low-end devices.
       </message>
 
       <!-- Text Size Contrast -->
@@ -1061,7 +1061,7 @@
         Match Android font size
       </message>
       <message name="IDS_PAGE_ZOOM_INCLUDE_OS_ADJUSTMENT_SUMMARY" translateable="false" desc="Summary of the preference that allows the user to control if page zoom adjusts for OS level setting">
-        When enabled, Brave will adjust web content size to match your Android setting
+        When enabled, iBrowe will adjust web content size to match your Android setting
       </message>
       <message name="IDS_PAGE_ZOOM_ALWAYS_SHOW_PREFERENCE_TITLE" desc="Title of the preference that allows the user to always show the menu item for zoom">
         Show zoom option in main menu
@@ -1149,16 +1149,16 @@
         Hide View tabs in your app list
       </message>
       <message name="IDS_AUXILIARY_SEARCH_MODULE_CONTENT" desc="Content of the auxiliary search module on NTP for a device with this feature enabled by default..">
-        Brave now shares your recent tabs with your device. You’ll see them in your device’s app list and search results. You can turn this off anytime in Brave settings.
+        iBrowe now shares your recent tabs with your device. You’ll see them in your device’s app list and search results. You can turn this off anytime in iBrowe settings.
       </message>
       <message name="IDS_AUXILIARY_SEARCH_MODULE_CONTENT_SHORT" desc="Content of the auxiliary search module on NTP for a device with this feature enabled by default..">
-        Brave now shows your recent tabs in your device's app list and search results. You can turn this off anytime in Brave settings.
+        iBrowe now shows your recent tabs in your device's app list and search results. You can turn this off anytime in iBrowe settings.
       </message>
       <message name="IDS_AUXILIARY_SEARCH_MODULE_CONTENT_DEFAULT_OFF" desc="Content of the auxiliary search module on NTP for a device with this feature disabled by default.">
-        Let Brave share your recent tabs with your device to see them in your device's app list and search results. You can turn this on or off in Brave settings.
+        Let iBrowe share your recent tabs with your device to see them in your device's app list and search results. You can turn this on or off in iBrowe settings.
       </message>
       <message name="IDS_AUXILIARY_SEARCH_MODULE_CONTENT_DEFAULT_OFF_SHORT" desc="Content of the auxiliary search module on NTP for a device with this feature disabled by default.">
-        Let Brave show your recent tabs in your device’s app list and search results. You can turn this off anytime in Brave settings.
+        Let iBrowe show your recent tabs in your device’s app list and search results. You can turn this off anytime in iBrowe settings.
       </message>
       <message name="IDS_AUXILIARY_SEARCH_MODULE_BUTTON_GO_TO_SETTINGS" desc="The text shown on the Go to settings button on the auxiliary search module on NTP.">
         Go to settings
@@ -1175,22 +1175,22 @@
 
       <!-- Educational tip module strings -->
       <message name="IDS_EDUCATIONAL_TIP_MODULE_TITLE" desc="Title of the educational tip module on NTP.">
-        Brave Tips
+        iBrowe Tips
       </message>
       <message name="IDS_EDUCATIONAL_TIP_MODULE_NAME" desc="The string that is shown in settings to customize whether the educational tip card should be enabled.">
-        Brave tips
+        iBrowe tips
       </message>
       <message name="IDS_EDUCATIONAL_TIP_MODULE_CONTEXT_MENU_HIDE" desc="The string that is going to be part of the context menu item string to hide the educational tip card.">
-        Hide Brave tips card
+        Hide iBrowe tips card
       </message>
       <message name="IDS_EDUCATIONAL_TIP_MODULE_BUTTON" desc="Name of the clickable button in the educational tip module on NTP.">
         Show me how
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_TITLE" desc="Title of the default browser section in the educational tip module on NTP.">
-        Use Brave by default
+        Use iBrowe by default
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_DESCRIPTION" desc="Description of the default browser section in the educational tip module on NTP.">
-        You can use Brave any time you tap links in messages, documents and other apps
+        You can use iBrowe any time you tap links in messages, documents and other apps
       </message>
       <message name="IDS_EDUCATIONAL_TIP_TAB_GROUP_TITLE" desc="Title of the tab group promo in the educational tip module on NTP.">
         Tidy up with tab groups
@@ -1211,10 +1211,10 @@
         You can delete some or all of your history, cookies, site data and more
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_TITLE" desc="Title of the default browser section's bottom sheet in the educational tip module on NTP.">
-        Use Brave By Default
+        Use iBrowe By Default
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_DESCRIPTION" desc="Description of the default browser section's bottom sheet in the educational tip module on NTP.">
-        You can now use Brave anytime you browse or tap links in messages, documents, and other apps.
+        You can now use iBrowe anytime you browse or tap links in messages, documents, and other apps.
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_FIRST_STEP" desc="The first step in the bottom sheet of the default browser section within the educational tip module on the NTP.">
         On your phone, open Settings
@@ -1226,10 +1226,10 @@
         Tap Apps then tap Default apps
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_THIRD_STEP" desc="The third step in the bottom sheet of the default browser section within the educational tip module on the NTP.">
-        Tap Browser app &gt; Brave
+        Tap Browser app &gt; iBrowe
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_THIRD_STEP_ACCESSIBILITY" desc="Accessibility string that describes the third step in the bottom sheet of the default browser section within the educational tip module on the NTP.">
-        Tap Browser app then tap Brave
+        Tap Browser app then tap iBrowe
       </message>
       <message name="IDS_EDUCATIONAL_TIP_DEFAULT_BROWSER_BOTTOM_SHEET_BUTTON" desc="The name of the button in the bottom sheet of the default browser section within the educational tip module on the NTP">
         Settings
@@ -1371,7 +1371,7 @@
         What's New
       </message>
       <message name="IDS_WHATS_NEW_PAGE_DESCRIPTION" translateable="false" desc="Description of the what's new page.">
-        What's New in Brave
+        What's New in iBrowe
       </message>
     </messages>
   </release>

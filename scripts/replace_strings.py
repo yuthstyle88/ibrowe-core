@@ -51,6 +51,6 @@ def process_all_strings(source_folder, dest_folder, skip_existing=True):
     print(f"\nSummary:\nProcessed: {processed}, Skipped: {skipped}, Failed: {failed}")
 
 if __name__ == "__main__":
-    source_folder = "/Users/yongyutjantaboot/CLionProjects/translater/ibrowe-core/src/translates"
-    dest_folder = "//Users/yongyutjantaboot/CLionProjects/translater/ibrowe-core/src/translates"
+    source_folder = "/Users/yongyutjantaboot/CLionProjects/brave-browser/src/ibrowe/src/translates"
+    dest_folder = "/Users/yongyutjantaboot/CLionProjects/brave-browser/src/ibrowe/src/translates"
     process_all_strings(source_folder, dest_folder, skip_existing=False)

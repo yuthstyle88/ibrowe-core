@@ -44,7 +44,7 @@
 <translation id="2569352796411618312">คำแนะนำ: คุณไม่ได้ใช้แท็บ <ph name="NUMBER_OF_TABS"/> แท็บมาระยะหนึ่งแล้ว ปิดแท็บเหล่านั้นไหม</translation>
 <translation id="257674075312929031">จัดกลุ่ม</translation>
 <translation id="2662028055331606429">การให้คะแนน <ph name="CURRENT_RATING"/>/<ph name="RATING_BASELINE"/></translation>
-<translation id="120364858946132793">{AUTO_DELETE_DELAY,plural, =1{Brave จะปิดรายการในส่วนที่ไม่ได้ใช้งานซึ่งคุณไม่ได้ใช้เป็นเวลา <ph name="AUTO_DELETE_DELAY_ONE"/> วันโดยอัตโนมัติ คุณจะปิดฟีเจอร์นี้ในการตั้งค่าเลยหรือเมื่อใดก็ได้}other{Brave จะปิดรายการในส่วนที่ไม่ได้ใช้งานซึ่งคุณไม่ได้ใช้เป็นเวลา <ph name="AUTO_DELETE_DELAY_MANY"/> วันโดยอัตโนมัติ คุณจะปิดฟีเจอร์นี้ในการตั้งค่าเลยหรือเมื่อใดก็ได้}}</translation>
+<translation id="120364858946132793">{AUTO_DELETE_DELAY,plural, =1{iBrowe จะปิดรายการในส่วนที่ไม่ได้ใช้งานซึ่งคุณไม่ได้ใช้เป็นเวลา <ph name="AUTO_DELETE_DELAY_ONE"/> วันโดยอัตโนมัติ คุณจะปิดฟีเจอร์นี้ในการตั้งค่าเลยหรือเมื่อใดก็ได้}other{iBrowe จะปิดรายการในส่วนที่ไม่ได้ใช้งานซึ่งคุณไม่ได้ใช้เป็นเวลา <ph name="AUTO_DELETE_DELAY_MANY"/> วันโดยอัตโนมัติ คุณจะปิดฟีเจอร์นี้ในการตั้งค่าเลยหรือเมื่อใดก็ได้}}</translation>
 <translation id="266935134738038806">ไปที่เว็บไซต์</translation>
 <translation id="2671423594960767771">แชร์กลุ่ม</translation>
 <translation id="2734252994837336591">{NUM_WEEKS,plural, =1{อัปเดตเมื่อ <ph name="NUM_WEEKS_ONE"/> สัปดาห์ที่ผ่านมา}other{อัปเดตเมื่อ <ph name="NUM_WEEKS_MANY"/> สัปดาห์ที่ผ่านมา}}</translation>
@@ -54,7 +54,7 @@
 <translation id="2801787514987684416">ดูข้อมูลร้านค้าไหม</translation>
 <translation id="2883875523421277445">{NUMBER_OF_TABS_CLOSED,plural, =1{ปิดแล้ว <ph name="ONE_CLOSED"/> แท็บ}other{ปิดแล้ว <ph name="MANY_CLOSED"/> แท็บ}}</translation>
 <translation id="2894757982205307093">แท็บใหม่ในกลุ่ม</translation>
-<translation id="4691798003247738043">Brave | เกี่ยวกับร้านนี้</translation>
+<translation id="4691798003247738043">iBrowe | เกี่ยวกับร้านนี้</translation>
 <translation id="29919168204617356">แท็บที่ไม่ได้ใช้งานจะปิดโดยอัตโนมัติ คุณดูแท็บเหล่านี้ได้ในประวัติการเข้าชมเสมอ</translation>
 <translation id="3008554597174452548">หยุดติดตามผลิตภัณฑ์</translation>
 <translation id="3026391124054406831">สร้างกลุ่มเพื่อจัดระเบียบแท็บ</translation>
@@ -111,7 +111,7 @@
 <translation id="5494920125229734069">เลือกทั้งหมด</translation>
 <translation id="5556417849629758491">ดูข้อมูลร้านค้า ตัวเลือกจะอยู่ตรงบริเวณด้านบนของหน้าจอ</translation>
 <translation id="5627941783489838464">ไม่มีการอัปเดตแท็บ</translation>
-<translation id="3225229609960545342">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> ลิงก์จาก Brave}other{<ph name="TABS_COUNT_MANY"/> ลิงก์จาก Brave}}</translation>
+<translation id="3225229609960545342">{TABS_COUNT,plural, =1{<ph name="TABS_COUNT_ONE"/> ลิงก์จาก iBrowe}other{<ph name="TABS_COUNT_MANY"/> ลิงก์จาก iBrowe}}</translation>
 <translation id="5746204836956568669">จัดกลุ่มแท็บ <ph name="NUMBER_OF_TABS"/> แท็บเพื่อให้ทํางานได้เร็วขึ้นไหม</translation>
 <translation id="58326064309361797">ลากแท็บเพื่อจัดกลุ่ม</translation>
 <translation id="5901630391730855834">สีเหลือง</translation>
@@ -160,7 +160,7 @@
 <translation id="747459581954555080">คืนค่าทั้งหมด</translation>
 <translation id="7507010952168401940">{TABS_COUNT,plural, =1{กู้คืนรายการที่เลือก <ph name="TABS_COUNT_ONE"/> รายการ}other{กู้คืนรายการที่เลือก <ph name="TABS_COUNT_MANY"/> รายการ}}</translation>
 <translation id="753732157349120914">ตัวสลับแท็บ</translation>
-<translation id="1068242749670180460">{REVIEWS,plural, =1{รีวิวจาก Brave <ph name="REVIEWS_COUNT_ONE"/> รายการ}other{รีวิวจาก Brave <ph name="REVIEWS_COUNT_MANY"/> รายการ}}</translation>
+<translation id="1068242749670180460">{REVIEWS,plural, =1{รีวิวจาก iBrowe <ph name="REVIEWS_COUNT_ONE"/> รายการ}other{รีวิวจาก iBrowe <ph name="REVIEWS_COUNT_MANY"/> รายการ}}</translation>
 <translation id="7559245342362162951">แสดงแท็บของกลุ่มในตารางกริดแบบเต็มหน้าจอ</translation>
 <translation id="7658239707568436148">ยกเลิก</translation>
 <translation id="7688386659311034820">กล่องโต้ตอบ "แท็บที่ไม่ได้ใช้งาน"</translation>

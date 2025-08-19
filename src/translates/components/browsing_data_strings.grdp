@@ -80,7 +80,7 @@
      =2 {2 passwords (for <ph name="DOMAIN_LIST">$1<ex>google.com, chrome.com</ex></ph>, synced)}
      other {# passwords (for <ph name="DOMAIN_LIST">$1<ex>google.com, chrome.com, and 2 more</ex></ph>, synced)}}
   </message>
-    <message name="IDS_DEL_ACCOUNT_PASSWORDS_COUNTER" desc="A counter showing how many passwords the user has stored in their Brave account. The list of example domains associated with the user's passwords is denoted by the placeholder DOMAIN_LIST.">
+    <message name="IDS_DEL_ACCOUNT_PASSWORDS_COUNTER" desc="A counter showing how many passwords the user has stored in their iBrowe account. The list of example domains associated with the user's passwords is denoted by the placeholder DOMAIN_LIST.">
     {COUNT, plural,
      =0 {None}
      =1 {1 password in your account (for <ph name="DOMAIN_LIST">$1<ex>google.com</ex></ph>)}
@@ -176,11 +176,11 @@
       =1 {From 1 site}
       other {From # sites}}
   </message>
-  <message name="IDS_DEL_COOKIES_COUNTER_ADVANCED_WITH_SIGNED_IN_EXCEPTION" desc="A counter showing the number of sites that use cookies, followed by an exception message that the user will stay signed in to their Brave account.">
+  <message name="IDS_DEL_COOKIES_COUNTER_ADVANCED_WITH_SIGNED_IN_EXCEPTION" desc="A counter showing the number of sites that use cookies, followed by an exception message that the user will stay signed in to their iBrowe account.">
     {COUNT, plural,
       =0 {None}
-      =1 {From 1 site (you'll stay signed in to your Brave sync chain)}
-      other {From # sites (you'll stay signed in to your Brave sync chain)}}
+      =1 {From 1 site (you'll stay signed in to your iBrowe sync chain)}
+      other {From # sites (you'll stay signed in to your iBrowe sync chain)}}
   </message>
   <message name="IDS_ANDROID_DEL_COOKIES_COUNTER_ADVANCED" desc="A counter showing the number of sites that use cookies on the advanced Clear browsing data screen on Android. It also explains that deleting these cookies will sign you out of most sites.">
     {COUNT, plural,
@@ -225,7 +225,7 @@
   <message name="IDS_DEL_TABS_MULTIWINDOW_COUNTER" desc="A counter showing how many tabs the user opened or modified across multiple windows.">
     <ph name="TAB_COUNT">$1<ex>5 tabs</ex></ph> from <ph name="WINDOW_COUNT">$2<ex>2 windows</ex></ph> on this device
   </message>
-  <message name="IDS_DEL_GOOGLE_COOKIES_SIGNOUT_LINK" desc="A message that will be appended to IDS_DEL_COOKIES_COUNTER_ADVANCED if the user is signed in. It informs the user that their Brave cookies will only be deleted if they signed out of Brave. This string includes a link that, when clicked on, will sign the user out of Brave.">
-    To delete Brave cookies from this device, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank" id="signOutLink"&gt;</ph>sign out of Brave<ph name="END_LINK">&lt;/a&gt;</ph>.
+  <message name="IDS_DEL_GOOGLE_COOKIES_SIGNOUT_LINK" desc="A message that will be appended to IDS_DEL_COOKIES_COUNTER_ADVANCED if the user is signed in. It informs the user that their iBrowe cookies will only be deleted if they signed out of iBrowe. This string includes a link that, when clicked on, will sign the user out of iBrowe.">
+    To delete iBrowe cookies from this device, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank" id="signOutLink"&gt;</ph>sign out of iBrowe<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
 </grit-part>
