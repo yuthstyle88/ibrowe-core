@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/brave_wallet/wallet_panel_ui.cc b/browser/ui/webui/brave_wallet/wallet_panel_ui.cc
+index 44429f9c26a58a0f53522d25f54f546bfd7dc93a..8971bcb3438463db4047f62fcdc32de3a7802a2c 100644
+--- a/browser/ui/webui/brave_wallet/wallet_panel_ui.cc
++++ b/browser/ui/webui/brave_wallet/wallet_panel_ui.cc
+@@ -80,7 +80,7 @@ WalletPanelUI::WalletPanelUI(content::WebUI* web_ui)
+       base::JoinString(
+           {"img-src", "'self'", "chrome://resources",
+            "chrome://erc-token-images", "chrome://favicon2", "chrome://image",
+-           "https://assets.cgproxy.brave.com", base::StrCat({"data:", ";"})},
++           "https://assets.cgproxy.ibrowe.com", base::StrCat({"data:", ";"})},
+           " "));
+   source->AddString("braveWalletTrezorBridgeUrl", kUntrustedTrezorURL);
+   source->AddString("braveWalletNftBridgeUrl", kUntrustedNftURL);

@@ -1,0 +1,36 @@
+diff --git a/build/commands/lib/config.js b/build/commands/lib/config.js
+index 36728431c29d3cd7ba2ca14a1470159629fea6fa..f13cd0d028ebf741c8c19421849f1a3092fbdc6b 100644
+--- a/build/commands/lib/config.js
++++ b/build/commands/lib/config.js
+@@ -56,7 +56,7 @@ const getEnvConfig = (key, defaultValue = undefined) => {
+       // The .env file is used by `gn gen`. Create it if it doesn't exist.
+       const defaultEnvConfigContent =
+         '# This is a placeholder .env config file for the build system.\n'
+-        + '# See for details: https://github.com/brave/brave-browser/wiki/Build-configuration\n'
++        + '# See for details: https://github.com/ibrowe/ibrowe-browser/wiki/Build-configuration\n'
+       fs.writeFileSync(envConfigPath, defaultEnvConfigContent)
+     }
+ 
+@@ -696,17 +696,17 @@ Config.prototype.buildArgs = function () {
+     args.android_channel = this.channel
+     if (!this.isReleaseBuild()) {
+       args.android_channel = 'default'
+-      args.chrome_public_manifest_package = 'com.brave.browser_default'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_default'
+     } else if (this.channel === '') {
+       args.android_channel = 'stable'
+-      args.chrome_public_manifest_package = 'com.brave.browser'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser'
+     } else if (this.channel === 'beta') {
+-      args.chrome_public_manifest_package = 'com.brave.browser_beta'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_beta'
+     } else if (this.channel === 'dev') {
+-      args.chrome_public_manifest_package = 'com.brave.browser_dev'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_dev'
+     } else if (this.channel === 'nightly') {
+       args.android_channel = 'canary'
+-      args.chrome_public_manifest_package = 'com.brave.browser_nightly'
++      args.chrome_public_manifest_package = 'com.ibrowe.browser_nightly'
+     }
+     // exclude_unwind_tables is inherited form upstream and is false for any
+     // Android build

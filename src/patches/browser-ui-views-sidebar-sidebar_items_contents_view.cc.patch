@@ -1,0 +1,43 @@
+diff --git a/browser/ui/views/sidebar/sidebar_items_contents_view.cc b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
+index 09844d8439066988ad2539fb436ba5d97b9ce4c9..79731a3a969deb125588690c1d66be70cf59c35d 100644
+--- a/browser/ui/views/sidebar/sidebar_items_contents_view.cc
++++ b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
+@@ -155,14 +155,14 @@ void SidebarItemsContentsView::UpdateAllBuiltInItemsViewState() {
+ 
+     // If browser window has tab that loads brave talk, brave talk panel icon
+     // will use colored one for normal state also.
+-    if (item.built_in_item_type ==
++    /* if (item.built_in_item_type ==
+         sidebar::SidebarItem::BuiltInItemType::kBraveTalk) {
+       UpdateItemViewStateAt(item_index,
+                             browser_->GetFeatures()
+                                 .sidebar_controller()
+                                 ->DoesBrowserHaveOpenedTabForItem(item));
+       continue;
+-    }
++    } */
+ 
+     UpdateItemViewStateAt(item_index, item_index == active_index);
+   }
+@@ -555,8 +555,8 @@ ui::ImageModel SidebarItemsContentsView::GetImageForBuiltInItems(
+   switch (type) {
+     case sidebar::SidebarItem::BuiltInItemType::kWallet:
+       return get_image_model(kLeoProductBraveWalletIcon, state);
+-    case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
+-      return get_image_model(kLeoProductBraveTalkIcon, state);
++    /*case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
++      return get_image_model(kLeoProductBraveTalkIcon, state);*/
+     case sidebar::SidebarItem::BuiltInItemType::kBookmarks:
+       return get_image_model(kLeoProductBookmarksIcon, state);
+     case sidebar::SidebarItem::BuiltInItemType::kReadingList:
+@@ -565,8 +565,8 @@ ui::ImageModel SidebarItemsContentsView::GetImageForBuiltInItems(
+       return get_image_model(kLeoHistoryIcon, state);
+     case sidebar::SidebarItem::BuiltInItemType::kPlaylist:
+       return get_image_model(kLeoProductPlaylistIcon, state);
+-    case sidebar::SidebarItem::BuiltInItemType::kChatUI:
+-      return get_image_model(kLeoProductBraveLeoIcon, state);
++    /*case sidebar::SidebarItem::BuiltInItemType::kChatUI:
++      return get_image_model(kLeoProductBraveLeoIcon, state);*/
+     default:
+       break;
+   }

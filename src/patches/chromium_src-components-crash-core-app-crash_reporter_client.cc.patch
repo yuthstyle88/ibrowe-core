@@ -1,0 +1,13 @@
+diff --git a/chromium_src/components/crash/core/app/crash_reporter_client.cc b/chromium_src/components/crash/core/app/crash_reporter_client.cc
+index 6b8566323caee1e20a4863a041654860126cdb19..b08663114fed2705de9a430a2cbfdb5ee0e3e689 100644
+--- a/chromium_src/components/crash/core/app/crash_reporter_client.cc
++++ b/chromium_src/components/crash/core/app/crash_reporter_client.cc
+@@ -5,7 +5,7 @@
+ 
+ #if defined(OFFICIAL_BUILD)
+ #define BRAVE_CRASH_REPORTER_CLIENT_GET_UPLOAD_URL \
+-  return "https://cr.brave.com";
++  return "https://cr.ibrowe.com";
+ #else
+ #define BRAVE_CRASH_REPORTER_CLIENT_GET_UPLOAD_URL return std::string();
+ #endif

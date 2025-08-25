@@ -1,0 +1,13 @@
+diff --git a/browser/ui/brave_pages.cc b/browser/ui/brave_pages.cc
+index b84410163a911dd31a3744c0bddbb8edb96fb9bd..a553974fb0362be19102d8ee7c2170aa6523f7b0 100644
+--- a/browser/ui/brave_pages.cc
++++ b/browser/ui/brave_pages.cc
+@@ -36,7 +36,7 @@ void ShowSync(Browser* browser) {
+ 
+ void ShowBraveNewsConfigure(Browser* browser) {
+   ShowSingletonTabOverwritingNTP(
+-      browser, GURL("brave://newtab/?openSettings=BraveNews"));
++      browser, GURL("ibrowe://newtab/?openSettings=BraveNews"));
+ }
+ 
+ void ShowShortcutsPage(Browser* browser) {

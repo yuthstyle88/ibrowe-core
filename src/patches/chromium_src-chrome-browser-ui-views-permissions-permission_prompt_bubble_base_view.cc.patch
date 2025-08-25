@@ -1,0 +1,13 @@
+diff --git a/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc b/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc
+index 03add200c2014b4f449f504b65f729b733580518..bf9cbabe118a86422fcffbe2d77fbbfba4b2549d 100644
+--- a/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc
++++ b/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc
+@@ -68,7 +68,7 @@ constexpr char kGeolocationPermissionLearnMoreURL[] =
+     "allow-apps-to-detect-the-location-of-your-mac-mh35873/mac";
+ #else
+     // Not used now. Set proper link when detailed bubble is enabled on linux.
+-    "https://www.brave.com/";
++    "https://www.ibrowe.com/";
+ #endif
+ 
+ #if BUILDFLAG(ENABLE_WIDEVINE)

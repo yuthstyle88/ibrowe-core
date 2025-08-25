@@ -1,0 +1,13 @@
+diff --git a/script/brave_app_bundle_utils.py b/script/brave_app_bundle_utils.py
+index 29b4428e40d37ea678ce972214e2ac8323e63ca4..224d33f6dbe1151ada0b01af092181cb3fa45b28 100755
+--- a/script/brave_app_bundle_utils.py
++++ b/script/brave_app_bundle_utils.py
+@@ -10,7 +10,7 @@
+ # included in the app bundle.
+ def extend_allowlisted_non_base_services(allowlisted_non_base_services):
+     allowlisted_non_base_services.add(
+-        'com.brave.playlist.playback_service.VideoPlaybackService')
++        'com.ibrowe.playlist.playback_service.VideoPlaybackService')
+     # This service is used by the `androidx_room_room_runtime_java` library that is a dependency of `com_brave_playlist_java`.
+     # This dependency will be removed in the context of this issue https://github.com/brave/brave-browser/issues/42382
+     allowlisted_non_base_services.add(

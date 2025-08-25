@@ -1,0 +1,65 @@
+diff --git a/browser/ui/brave_browser_command_controller.cc b/browser/ui/brave_browser_command_controller.cc
+index ecb0fa80b2103bb9bbfea59f8f9916ee60f39866..b7962fcac6019d940f88ae585e887cfc158aea17 100644
+--- a/browser/ui/brave_browser_command_controller.cc
++++ b/browser/ui/brave_browser_command_controller.cc
+@@ -561,9 +561,9 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
+     case IDC_SHOW_BRAVE_WALLET:
+       brave::ShowBraveWallet(&*browser_);
+       break;
+-    case IDC_TOGGLE_AI_CHAT:
+-      brave::ToggleAIChat(&*browser_);
+-      break;
++    //case IDC_TOGGLE_AI_CHAT:
++    //  brave::ToggleAIChat(&*browser_);
++    //  break;
+     case IDC_OPEN_FULL_PAGE_CHAT:
+       brave::ShowFullpageChat(&*browser_);
+       break;
+@@ -576,20 +576,20 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
+     case IDC_CLOSE_BRAVE_WALLET_PANEL:
+       brave::CloseWalletBubble(&*browser_);
+       break;
+-    case IDC_SHOW_BRAVE_VPN_PANEL:
+-      brave::ShowBraveVPNBubble(&*browser_);
+-      break;
+-    case IDC_TOGGLE_BRAVE_VPN_TRAY_ICON:
+-      brave::ToggleBraveVPNTrayIcon();
+-      break;
+-    case IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON:
+-      brave::ToggleBraveVPNButton(&*browser_);
+-      break;
+-    case IDC_SEND_BRAVE_VPN_FEEDBACK:
+-    case IDC_ABOUT_BRAVE_VPN:
+-    case IDC_MANAGE_BRAVE_VPN_PLAN:
+-      brave::OpenBraveVPNUrls(&*browser_, id);
+-      break;
++    //case IDC_SHOW_BRAVE_VPN_PANEL:
++    //  brave::ShowBraveVPNBubble(&*browser_);
++    //  break;
++    //case IDC_TOGGLE_BRAVE_VPN_TRAY_ICON:
++    //  brave::ToggleBraveVPNTrayIcon();
++    //  break;
++    //case IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON:
++    //  brave::ToggleBraveVPNButton(&*browser_);
++    //  break;
++    //case IDC_SEND_BRAVE_VPN_FEEDBACK:
++    //case IDC_ABOUT_BRAVE_VPN:
++    //case IDC_MANAGE_BRAVE_VPN_PLAN:
++    //  brave::OpenBraveVPNUrls(&*browser_, id);
++    //  break;
+     case IDC_SIDEBAR_TOGGLE_POSITION:
+       brave::ToggleSidebarPosition(&*browser_);
+       break;
+@@ -619,9 +619,9 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
+     case IDC_CONFIGURE_SHORTCUTS:
+       brave::ShowShortcutsPage(&*browser_);
+       break;
+-    case IDC_SHOW_BRAVE_TALK:
+-      brave::ShowBraveTalk(&*browser_);
+-      break;
++    //case IDC_SHOW_BRAVE_TALK:
++    //  brave::ShowBraveTalk(&*browser_);
++    //  break;
+     case IDC_TOGGLE_SHIELDS:
+       brave::ToggleShieldsEnabled(&*browser_);
+       break;

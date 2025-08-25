@@ -1,0 +1,63 @@
+diff --git a/browser/ui/sidebar/sidebar_utils.cc b/browser/ui/sidebar/sidebar_utils.cc
+index 2862ba0ef14662643bc28d80d5192f0f8b3ff149..7d5007c2ce22a49cca917cd9c144242d8a99027c 100644
+--- a/browser/ui/sidebar/sidebar_utils.cc
++++ b/browser/ui/sidebar/sidebar_utils.cc
+@@ -134,12 +134,12 @@ SidePanelEntryId SidePanelIdFromSideBarItemType(BuiltInItemType type) {
+       return SidePanelEntryId::kBookmarks;
+     case BuiltInItemType::kPlaylist:
+       return SidePanelEntryId::kPlaylist;
+-    case BuiltInItemType::kChatUI:
+-      return SidePanelEntryId::kChatUI;
++    //case BuiltInItemType::kChatUI:
++    //  return SidePanelEntryId::kChatUI;
+     case BuiltInItemType::kWallet:
+       [[fallthrough]];
+-    case BuiltInItemType::kBraveTalk:
+-      [[fallthrough]];
++    //case BuiltInItemType::kBraveTalk:
++    //  [[fallthrough]];
+     case BuiltInItemType::kHistory:
+       [[fallthrough]];
+     case BuiltInItemType::kNone:
+@@ -159,8 +159,8 @@ std::optional<BuiltInItemType> BuiltInItemTypeFromSidePanelId(
+       return BuiltInItemType::kBookmarks;
+     case SidePanelEntryId::kPlaylist:
+       return BuiltInItemType::kPlaylist;
+-    case SidePanelEntryId::kChatUI:
+-      return BuiltInItemType::kChatUI;
++    //case SidePanelEntryId::kChatUI:
++    //  return BuiltInItemType::kChatUI;
+     default:
+       break;
+   }
+@@ -206,9 +206,9 @@ void SetLastUsedSidePanel(PrefService* prefs,
+       case SidePanelEntryId::kPlaylist:
+         type = BuiltInItemType::kPlaylist;
+         break;
+-      case SidePanelEntryId::kChatUI:
+-        type = BuiltInItemType::kChatUI;
+-        break;
++      //case SidePanelEntryId::kChatUI:
++      //  type = BuiltInItemType::kChatUI;
++      //  break;
+       default:
+         break;
+     }
+@@ -230,7 +230,7 @@ std::optional<SidePanelEntryId> GetLastUsedSidePanel(Browser* browser) {
+ 
+ bool IsDisabledItemForPrivate(SidebarItem::BuiltInItemType type) {
+   switch (type) {
+-    case SidebarItem::BuiltInItemType::kChatUI:
++    //case SidebarItem::BuiltInItemType::kChatUI:
+     case SidebarItem::BuiltInItemType::kPlaylist:
+       return true;
+     default:
+@@ -243,7 +243,7 @@ bool IsDisabledItemForGuest(SidebarItem::BuiltInItemType type) {
+   switch (type) {
+     case SidebarItem::BuiltInItemType::kBookmarks:
+     case SidebarItem::BuiltInItemType::kReadingList:
+-    case SidebarItem::BuiltInItemType::kChatUI:
++    //case SidebarItem::BuiltInItemType::kChatUI:
+     case SidebarItem::BuiltInItemType::kPlaylist:
+       return true;
+     default:

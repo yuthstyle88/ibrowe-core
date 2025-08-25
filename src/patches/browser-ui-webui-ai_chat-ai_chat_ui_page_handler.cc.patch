@@ -1,0 +1,22 @@
+diff --git a/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc b/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc
+index c0fccb1bcc56ec95df86ff6a8b8f0a8d694958cd..57ecbf41d3fe15fac10a96293e8106142c8e3e4f 100644
+--- a/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc
++++ b/browser/ui/webui/ai_chat/ai_chat_ui_page_handler.cc
+@@ -52,13 +52,13 @@
+ 
+ namespace {
+ constexpr char kURLRefreshPremiumSession[] =
+-    "https://account.brave.com/?intent=recover&product=leo";
++    "https://account.ibrowe.com/?intent=recover&product=leo";
+ constexpr char kURLLearnMoreAboutStorage[] =
+-    "https://support.brave.com/hc/en-us/articles/"
+-    "32663367857549-How-do-I-use-Chat-History-in-Brave-Leo";
++    "https://support.ibrowe.com/hc/en-us/articles/"
++    "32663367857549-How-do-I-use-Chat-History-in-iBrowe-Leo";
+ 
+ #if !BUILDFLAG(IS_ANDROID)
+-constexpr char kURLManagePremium[] = "https://account.brave.com/";
++constexpr char kURLManagePremium[] = "https://account.ibrowe.com/";
+ #endif
+ }  // namespace
+ 

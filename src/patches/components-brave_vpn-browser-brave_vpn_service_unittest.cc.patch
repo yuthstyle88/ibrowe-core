@@ -1,0 +1,13 @@
+diff --git a/components/brave_vpn/browser/brave_vpn_service_unittest.cc b/components/brave_vpn/browser/brave_vpn_service_unittest.cc
+index 9764b841e70c26d0403805b0d9ff3293843fda55..ba03de54645f96654cfa7436df070f148306c184 100644
+--- a/components/brave_vpn/browser/brave_vpn_service_unittest.cc
++++ b/components/brave_vpn/browser/brave_vpn_service_unittest.cc
+@@ -104,7 +104,7 @@ constexpr char kTestVpnOrders[] = R"(
+             ],
+             "last_paid_at": "2022-06-13T13:06:49.466083",
+             "location": "{domain}",
+-            "merchant_id": "brave.com",
++            "merchant_id": "ibrowe.com",
+             "metadata":
+             {
+                 "stripe_checkout_session_id": null

@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/brave_wallet/market/market_ui.cc b/browser/ui/webui/brave_wallet/market/market_ui.cc
+index a7d1ce704464ee32eedbca8ae4c275a133064703..e306398b42f5098e07e6733e5e6360848e3cb1f4 100644
+--- a/browser/ui/webui/brave_wallet/market/market_ui.cc
++++ b/browser/ui/webui/brave_wallet/market/market_ui.cc
+@@ -56,7 +56,7 @@ UntrustedMarketUI::UntrustedMarketUI(content::WebUI* web_ui)
+       std::string("font-src 'self' data: chrome-untrusted://resources;"));
+   untrusted_source->OverrideContentSecurityPolicy(
+       network::mojom::CSPDirectiveName::ImgSrc,
+-      std::string("img-src 'self' https://assets.cgproxy.brave.com "
++      std::string("img-src 'self' https://assets.cgproxy.ibrowe.com "
+                   "chrome-untrusted://resources chrome-untrusted://image;"));
+ 
+   untrusted_source->AddResourcePath("load_time_data_deprecated.js",

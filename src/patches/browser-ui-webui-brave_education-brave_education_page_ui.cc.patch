@@ -1,0 +1,13 @@
+diff --git a/browser/ui/webui/brave_education/brave_education_page_ui.cc b/browser/ui/webui/brave_education/brave_education_page_ui.cc
+index 758dd233f99a5106c3d14f21249336ee76d121f7..e2d999dc7672b421c6095e561753e5a12863f26b 100644
+--- a/browser/ui/webui/brave_education/brave_education_page_ui.cc
++++ b/browser/ui/webui/brave_education/brave_education_page_ui.cc
+@@ -50,7 +50,7 @@ void CreateAndAddWhatsNewUIHtmlSource(content::WebUI* web_ui,
+   // Allow embedding of iframe content from allowed domains.
+   source->OverrideContentSecurityPolicy(
+       network::mojom::CSPDirectiveName::ChildSrc,
+-      "child-src chrome://webui-test https://browser-education.brave.com;");
++      "child-src chrome://webui-test https://browser-education.ibrowe.com;");
+ }
+ 
+ }  // namespace

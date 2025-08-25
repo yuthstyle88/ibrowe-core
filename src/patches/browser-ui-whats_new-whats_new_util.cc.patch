@@ -1,0 +1,13 @@
+diff --git a/browser/ui/whats_new/whats_new_util.cc b/browser/ui/whats_new/whats_new_util.cc
+index 8babc0d07a0d59bde2118e7e1e86771b52ef5d31..28c432368dd8e01caf12c281e1124dbc14a0206e 100644
+--- a/browser/ui/whats_new/whats_new_util.cc
++++ b/browser/ui/whats_new/whats_new_util.cc
+@@ -194,7 +194,7 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
+ }
+ 
+ void StartBraveWhatsNew(Browser* browser) {
+-  constexpr char kBraveWhatsNewURL[] = "https://brave.com/whats-new/";
++  constexpr char kBraveWhatsNewURL[] = "https://ibrowe.com/whats-new/";
+   // Load whats-new url in the first foreground tab.
+   chrome::AddTabAt(browser, GURL(kBraveWhatsNewURL), 0, true);
+   browser->tab_strip_model()->ActivateTabAt(

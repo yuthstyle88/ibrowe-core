@@ -1,0 +1,13 @@
+diff --git a/browser/ui/views/sidebar/sidebar_control_view.cc b/browser/ui/views/sidebar/sidebar_control_view.cc
+index 6f131824752445b7f4143ca8be2419633845a17c..d343e1a3e7669b0bc352c72dd88ae8d16fc0323b 100644
+--- a/browser/ui/views/sidebar/sidebar_control_view.cc
++++ b/browser/ui/views/sidebar/sidebar_control_view.cc
+@@ -202,7 +202,7 @@ void SidebarControlView::OnButtonPressed(views::View* view) {
+   if (view == sidebar_settings_view_) {
+     ShowSingletonTabOverwritingNTP(
+         browser_,
+-        GURL("brave://settings?search=" +
++        GURL("ibrowe://settings?search=" +
+              l10n_util::GetStringUTF8(
+                  IDS_SETTINGS_APPEARNCE_SETTINGS_SIDEBAR_PART_TITLE)));
+   }

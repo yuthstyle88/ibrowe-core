@@ -1,0 +1,13 @@
+diff --git a/chromium_src/chrome/installer/setup/brave_behaviors.cc b/chromium_src/chrome/installer/setup/brave_behaviors.cc
+index 3b0409267a81327d2535bc15944a7ba80570773b..efb037dcb676e8c2ba6d509e41ecf0732d610ee0 100644
+--- a/chromium_src/chrome/installer/setup/brave_behaviors.cc
++++ b/chromium_src/chrome/installer/setup/brave_behaviors.cc
+@@ -28,7 +28,7 @@ namespace {
+ // - `kBraveUninstallSurveyUrl` used instead of `kUninstallSurveyUrl`
+ 
+ constexpr std::wstring_view kBraveUninstallSurveyUrl(
+-    L"https://brave.com/uninstall-survey/?p=brave_uninstall_survey");
++    L"https://ibrowe.com/uninstall-survey/?p=ibrowe_uninstall_survey");
+ 
+ }  // namespace
+ 

@@ -1,0 +1,13 @@
+diff --git a/browser/ui/brave_browser_content_setting_bubble_model_delegate.cc b/browser/ui/brave_browser_content_setting_bubble_model_delegate.cc
+index 49aa2ca2527b65b2a433b67487d4e58469bdc074..511c0df9c04c00cb595fa3eae07f4cad55d87db5 100644
+--- a/browser/ui/brave_browser_content_setting_bubble_model_delegate.cc
++++ b/browser/ui/brave_browser_content_setting_bubble_model_delegate.cc
+@@ -9,7 +9,7 @@
+ #include "chrome/browser/ui/browser.h"
+ #include "chrome/browser/ui/browser_tabstrip.h"
+ 
+-constexpr char kBraveCommunitySupportUrl[] = "https://community.brave.com/";
++constexpr char kBraveCommunitySupportUrl[] = "https://community.ibrowe.com/";
+ 
+ BraveBrowserContentSettingBubbleModelDelegate::
+ BraveBrowserContentSettingBubbleModelDelegate(Browser* browser) :
