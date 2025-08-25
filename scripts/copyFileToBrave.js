@@ -67,6 +67,8 @@ function copyFileToBrave() {
     copyRecursiveSync(ibroweTranslates, braveCoreDir);
 }
 function copyFileToiBrowe() {
+    extension = ['.icon', '.png', '.jpg', '.svg', '.webp', '.json','.ico','.gif']
+    copyRecursiveSync(braveCoreDir, ibroweImages, extension);
     extension = ['.strings', '.grdp', '.grd', '.xtb']
     copyRecursiveSync(braveCoreDir, ibroweTranslates, extension);
 }
