@@ -1,0 +1,441 @@
+/* The description for the error message when the user's session has expired */
+"aichat.accountSessionExpiredDescription" = "Sesiunea ta de iBrowe a expirat. Accesează pagina contului pentru a actualiza apoi revino pentru a folosi funcțiile premium.";
+
+/* The title for button that submits feedback */
+"aichat.addFeedbackActionTitle" = "Adaugă feedback";
+
+/* The description for the settings to show search suggestions from Leo in url-address bar */
+"aichat.advancedSettingsAutocompleteDescription" = "Activează pentru a afișa o scurtătură de lansare Leo din bara de adrese.";
+
+/* The title for the settings to change default model for conversations */
+"aichat.advancedSettingsDefaultModelTitle" = "Model Implicit";
+
+/* The title for the header for adjusting leo ai settings */
+"aichat.advancedSettingsHeaderTitle" = "Leo este un asistent inteligent IA, disponibil direct în browser.";
+
+/* The subtitle for the button which links purchase to Brave Account */
+"aichat.advancedSettingsLinkPurchaseActionSubTitle" = "Asociază achiziția din App Store la contul tău iBrowe pentru a utiliza iBrowe Leo și pe alte dispozitive.";
+
+/* The title for the button which links purchase to Brave Account */
+"aichat.advancedSettingsLinkPurchaseActionTitle" = "Conectează achiziția la contul tău iBrowe";
+
+/* The description for the settings to show Leo in Quick Search Engines Bar. */
+"aichat.advancedSettingsShowInQSEBarDescription" = "Permite o comandă rapidă pentru a lansa Leo din bara motoarelor de căutare rapidă.";
+
+/* The title for the settings to show Leo in Quick Search Engines Bar. */
+"aichat.advancedSettingsShowInQSEBarTitle" = "Afișare în bara motoarelor de căutare rapidă";
+
+/* The title for the label showing the date which subscription expires */
+"aichat.advancedSettingsSubscriptionExpiresTitle" = "Expiră";
+
+/* The title for the header for subscription details */
+"aichat.advancedSettingsSubscriptionHeaderTitle" = "Abonament";
+
+/* The title for the label showing status if the subscription */
+"aichat.advancedSettingsSubscriptionStatusTitle" = "Stare";
+
+/* The title for the button that allows the user to view the App Store Receipt */
+"aichat.advancedSettingsViewReceiptTitle" = "Vezi chitanța App Store";
+
+/* The subtitle for the error showing there is an error from App Store */
+"aichat.appStoreErrorSubTitle" = "Conexiunea la Appstore nu s-a putut efectua, te rog să încerci din nou mai târziu.";
+
+/* The title for the error showing there is an error from App Store */
+"aichat.appStoreErrorTitle" = "Eroare App Store";
+
+/* The title of the search bar suggestion when prompting to Ask Leo */
+"aichat.askLeoSearchSuggestionTitle" = "Întreabă-l pe Leo";
+
+/* The title for view that shows when leo is too busy (active disconnected) and the user is premium */
+"aichat.busyErrorDescription" = "Leo este prea ocupat momentan. Încearcă din nou în câteva minute.";
+
+/* The subtitle for intro view which triggers just chat */
+"aichat.chatIntroJustTalkSubTitle" = "Întreabă-mă orice! Putem discuta despre orice subiect. Învăț și fac eforturi continue să mă îmbunătățesc pentru a oferi răspunsuri cât mai pertinente.";
+
+/* The title for intro view which triggers just chat */
+"aichat.chatIntroJustTalkTitle" = "Vrei doar să stăm de vorbă?";
+
+/* The subtitle for intro view */
+"aichat.chatIntroSubTitle" = "Un asistent de inteligență artificială, integrat direct în iBrowe.";
+
+/* The title for intro view */
+"aichat.chatIntroTitle" = "Salut, eu sunt Leo!";
+
+/* The subtitle for intro view which triggers website help for article */
+"aichat.chatIntroWebsiteHelpSubtitleArticleSummarize" = "Te pot ajuta cu rezumarea articolelor, cu analiza conținutului unui site plus multe altele.";
+
+/* The subtitle for intro view which triggers website help for summary */
+"aichat.chatIntroWebsiteHelpSubtitlePageSummarize" = "Te pot ajuta cu rezumarea articolelor, cu analiza conținutului unui site plus multe altele. Nu știi de unde să începi? Încearcă aici:";
+
+/* The title for intro view which triggers website help */
+"aichat.chatIntroWebsiteHelpTitle" = "Ai nevoie de ajutor cu un site web?";
+
+/* The title for the chat section in the menu */
+"aichat.chatMenuSectionTitle" = "Chat";
+
+/* The title shown on limit reached error view, which is suggesting user to change default model */
+"aichat.contextLimitErrorTitle" = "Această conversație este prea lungă și nu mai poate continua.\nAr putea exista alte modele disponibile prin care Leo poate menține acuratețea pentru conversații mai lungi.";
+
+/* The title of the section where custom models are displayed as a list. */
+"aichat.customModelChatSectionTitle" = "Modele personalizate";
+
+/* The title for the custom models section in the menu */
+"aichat.customModelsMenuSectionTitle" = "Modele personalizate";
+
+/* The title of the section where chat models are displayed as a list. */
+"aichat.defaultModelChatSectionTitle" = "Chat";
+
+/* The title of the section where language models are displayed as a list. */
+"aichat.defaultModelLanguageSectionTitle" = "MODELE LINGVISTICE";
+
+/* The title of the menu where user can change the default model */
+"aichat.defaultModelViewTitle" = "Model Implicit";
+
+/* The checkbox title for the privacy alert warning that will make it not warn the user again */
+"aichat.dontShowAgainTitle" = "Nu mai afișa";
+
+/* The text displayed under an edited user prompt/message beside a timestamp. */
+"aichat.editedMessageCaption" = "Editat";
+
+/* The title for view which user type feedback */
+"aichat.feedbackInputViewTitle" = "Oferă feedback aici";
+
+/* The title for view which listsfeedback option list */
+"aichat.feedbackOptionsViewTitle" = "Despre ce este feedback-ul tău?";
+
+/* The title for incorrect feedback option */
+"aichat.feedbackOptionTitleIncorrect" = "Incorect";
+
+/* The title for helpful feedback option */
+"aichat.feedbackOptionTitleNotHelpful" = "Nu este util";
+
+/* The title for other feedback option */
+"aichat.feedbackOptionTitleOther" = "Altceva";
+
+/* The title for unsafe/harmful feedback option */
+"aichat.feedbackOptionTitleUnsafeHarmful" = "Nesigur/dăunător";
+
+/* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
+"aichat.feedbackPremiumAdTitle" = "Leo Premium oferă acces la un set extins de modele lingvistice pentru nuanțe și mai mari ale răspunsurilor. [Află mai multe](https://brave.com/) - [Închide](braveai://dismiss)";
+
+/* The title for the button that submits feedback */
+"aichat.feedbackSubmitActionTitle" = "Trimite";
+
+/* The title for feedback view when it fails to submit feedback */
+"aichat.feedbackSubmittedErrorTitle" = "A apărut o eroare. Te rog să încerci din nou.";
+
+/* The title for feedback view when it is submitted */
+"aichat.feedbackSubmittedTitle" = "Feedback transmis cu succes";
+
+/* The title for feedback view when response is sucessfull but disliked */
+"aichat.feedbackSuccessAnswerDisLikedTitle" = "Răspuns neapreciat";
+
+/* The title for feedback view when response is sucessfull also liked */
+"aichat.feedbackSuccessAnswerLikedTitle" = "Răspuns apreciat";
+
+/* The title for view which user type feedback */
+"aichat.feedbackViewMainTitle" = "Oferă feedback pentru IA iBrowe";
+
+/* The button title for opening paywall screen */
+"aichat.goPremiumButtonTitle" = "Alege Premium";
+
+/* Description about answers are changing with page context */
+"aichat.infoAboutPageContext" = "Generează răspunsuri pe baza conținutului paginii";
+
+/* The title for view that shows an internal error screen. Suggests to try again later. */
+"aichat.internalErrorViewTitle" = "Ceva nu a funcționat în timpul procesării cererii tale. Te rugăm să încerci din nou mai târziu.";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageClaudeHaikuMessageDescription" = "Salut, eu sunt Leo. Sunt oferit prin proxy de către iBrowe și structurat pe baza Claude Haiku, un model creat de Anthropic pentru sarcini conversaționale și de procesare de text. Claude Haiku este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageClaudeHaikuModelPurposeDescription" = "Chat extrem de rapid";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageClaudeInstantMessageDescription" = "Salut, eu sunt Leo. Sunt oferit prin proxy de către iBrowe și structurat pe baza Claude Instant, un model creat de Anthropic pentru sarcini conversaționale și de procesare de text. Claude Instant este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageClaudeSonnetMessageDescription" = "Salut, eu sunt Leo. Sunt oferit prin proxy de către iBrowe și structurat pe baza Claude Sonnet, un model creat de Anthropic pentru sarcini conversaționale și de procesare de text. Claude Sonnet este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageClaudeSonnetModelPurposeDescription" = "Viteză și inteligență echilibrate";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageDeepSeekR1MessageDescription" = "Salut, eu sunt Leo, asistentul tău IA complet găzduit și oferit de iBrowe. Funcționez pe baza DeepSeek R1, un model avansat creat de DeepSeek pentru a gestiona sarcini complexe.";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageDeepSeekR1ModelPurposeDescription" = "Model de raționament";
+
+/* The model intro message when you first enter the chat assistant -- %@ is a place-holder for the model name */
+"aichat.introMessageGenericMessageDescription" = "Salut, eu sunt Leo. Sunt un asistent IA oferit de iBrowe. Sunt structurat pe baza %@. Întreabă-mă orice și voi face tot posibilul să răspund.";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageLlamaMessageDescription" = "Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Llama 3.1 8B, un model creat de Meta pentru a fi performant și aplicabil la multe cazuri de utilizare. Llama este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageLlamaModelPurposeDescription" = "Chat de interes general";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageLlamaVisionMessageDescription" = "Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Llama Vision, un model creat de Meta pentru a fi performant și aplicabil la multe cazuri de utilizare. Llama Vision este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageLlamaVisionModelPurposeDescription" = "Viziune de scop general";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageQwenMessageDescription" = "Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Qwen 14B, un model creat de Alibaba Cloud pentru a fi performant și aplicabil la multe cazuri de utilizare. Qwen este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageQwenModelPurposeDescription" = "Discuții cu scop general, codare și multe altele";
+
+/* The title for intro message */
+"aichat.introMessageTitle" = "Chat";
+
+/* The title for view that shows an invalid API key error screen. Suggests to try again later. */
+"aichat.invalidApiKeyErrorViewTitle" = "Cheia API configurată pentru acest model nu este valabilă. Te rugăm să verifici configurația și să încerci din nou.";
+
+/* The title for view that shows an invalid endpoint error screen. Suggests to try again later. */
+"aichat.invalidEndpointErrorViewTitle" = "Acest model are un punct final invalid. Te rugăm să verifici configurația și să încerci din nou.";
+
+/* The name of the AI-Assistant that's responsing to the user */
+"aichat.leoAssistantNameTitle" = "Leo";
+
+/* The default title displayed above a code block when the language of the code is not known. */
+"aichat.leoCodeExampleDefaultTitle" = "Exemplu de cod";
+
+/* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
+"aichat.leoDisabledMessageDescription" = "Leo este momentan dezactivat din feature flags. Pentru a îl reactiva, te rog să accesezi brave://flags.";
+
+/* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
+"aichat.leoDisabledMessageTitle" = "Leo este dezactivat";
+
+/* The message that shows in an alert, to let the user know the 'Leo' feature is disabled in private browsing mode. */
+"aichat.leoDisabledPrivateBrowsingMessageDescription" = "Leo nu este disponibil în prezent în modul de navigare privată. Pentru a utiliza Leo, te rugăm să ieși din modul Navigare privată și să încerci din nou.";
+
+/* The title that shows in an alert when the Leo/AI-Chat is disabled due to the user being in private browsing mode. */
+"aichat.leoDisabledPrivateBrowsingMessageTitle" = "Leo Nu este disponibil";
+
+/* The text that's read aloud to the user when accessibility is enabled for the Document Picker button */
+"aichat.leoDocumentPickerButtonAccessibilityTitle" = "Încarcă imaginea";
+
+/* The text displayed on the loading screen when searching for a user query */
+"aichat.leoImprovedAnswerBraveSearch" = "Căutare îmbunătățită pentru";
+
+/* The text displayed on the loading screen when searching for a user query */
+"aichat.leoImprovingAnswerBraveSearch" = "Îmbunătățim răspunsul cu iBrowe Search...";
+
+/* The title of the advanced settings view */
+"aichat.leoNavigationTitle" = "Leo IA";
+
+/* The title to display when the user taps on the information icon on the page context view. Brave Leo is the name of the product and should not be translated. */
+"aichat.leoPageContextInfoDescriptionTitle" = "Activează pentru a pune întrebări despre această pagină. Conținutul paginii va fi trimis lui iBrowe Leo alături de mesajele tale.";
+
+/* The accessibility text to read out loud when the user taps on the info icon on the page context view */
+"aichat.leoPageContextInfoIconAccessibilityTitle" = "Informații despre contextul paginii";
+
+/* The text that's read aloud to the user when accessibility is enabled for the Slash Tools button */
+"aichat.leoSlashToolsButtonAccessibilityTitle" = "Unelte Slash";
+
+/* The text that's displayed when the user selects an invalid slash tools option */
+"aichat.leoSlashToolsOptionNull" = "Niciuna";
+
+/* The text that's displayed when the user selects an invalid slash tools option */
+"aichat.leoSlashToolsOptionUnknown" = "Necunoscut";
+
+/* The title to display when the duration of the subscription is unknown */
+"aichat.leoSubscriptionUnknownDateTitle" = "N/A";
+
+/* The button title for managing subscriptions */
+"aichat.manageSubscriptionsButtonTitle" = "Gestionare abonamente";
+
+/* The description for alert needed to have microphone permission */
+"aichat.microphonePermissionAlertDescription" = "Te rog să permiți accesul la microfon în setările sistemului iOS pentru ca iBrowe să poată folosi introducerea vocală anonimă.";
+
+/* The description for alert needed to have microphone permission */
+"aichat.microphonePermissionAlertTitle" = "Este necesar accesul la microfon";
+
+/* Title showing monthly subscription */
+"aichat.monthlySubscriptionTitle" = "Abonament Lunar";
+
+/* The title for view that shows network - connection error and suggesting to try again */
+"aichat.networkErrorViewTitle" = "A apărut o problemă de rețea în timpul conectării la Leo. Verifică te rog conexiunea și încearcă din nou.";
+
+/* The title for button that starts a new chat */
+"aichat.newChatActionTitle" = "Discuție nouă";
+
+/* The text which will be used to indicate period of payments like 10 / month */
+"aichat.paywallMonthlyPriceDividend" = "lună";
+
+/* Title indicating monthly subscription */
+"aichat.paywallMontlySubscriptionTitle" = "Lunar";
+
+/* The title for dismiss button when premium upsell when paywall is triggered */
+"aichat.paywallPremiumUpsellDismissAction" = "Poate mai târziu";
+
+/* The title for button when premium upsell when paywall is triggered */
+"aichat.paywallPremiumUpsellPrimaryAction" = "Fă upgrade";
+
+/* The title for premium upsell when paywall is triggered */
+"aichat.paywallPremiumUpsellTitle" = "Deblochează întreaga putere a lui Leo cu Premium:";
+
+/* The title of the button for action triggering purchase */
+"aichat.paywallPurchaseActionIntroOfferTitle" = "Încearcă gratuit pentru 7 zile";
+
+/* The title of the button for action triggering purchase */
+"aichat.paywallPurchaseActionTitle" = "Fă upgrade acum";
+
+/* The text displayed on the bottom of paywall screen which indicates subscriptions are auto renewable. */
+"aichat.paywallPurchaseDeepNote" = "Toate abonamentele se reînnoiesc automat însă pot fi anulate în orice moment înainte de data scadentă a reînnoirii.";
+
+/* The error description when in app purcahse is erroneous. */
+"aichat.paywallPurchaseErrorDescription" = "Nu s-a putut finaliza achiziția. Te rog să încerci din nou sau să verifici detaliile de plată în Apple și apoi să încerci din nou.";
+
+/* The subtitle for premium upseel when rate limit is shown after sending a message */
+"aichat.paywallRateLimitSubTitle" = "Deblochează o rată mai mare de răspuns abonându-te la Premium sau încearcă din nou mai târziu.";
+
+/* The title for premium upseel when rate limit is shown after sending a message */
+"aichat.paywallRateLimitTitle" = "Limita ratei de răspunsuri a fost atinsă";
+
+/* The subtitle accuracy entry in paywall upsell screen */
+"aichat.paywallUpsellAccuracyTopicSubTitle" = "Obține răspunsuri mai exacte în cadrul unor conversații mai nuanțate.";
+
+/* The title accuracy entry in paywall upsell screen */
+"aichat.paywallUpsellAccuracyTopicTitle" = "Rămâne la subiect";
+
+/* The subtitle chat length entry in paywall upsell screen */
+"aichat.paywallUpsellChatLengthTopicSubTitle" = "Obține limite de răspuns mai mari pentru conversații lungi.";
+
+/* The title chat length entry in paywall upsell screen */
+"aichat.paywallUpsellChatLengthTopicTitle" = "Conversații mai lungi";
+
+/* The subtitle creativity entry in paywall upsell screen */
+"aichat.paywallUpsellCreativityTopicSubTitle" = "Accesează modele mai bine adaptate sarcinilor creative și generării de conținut.";
+
+/* The title creativity entry in paywall upsell screen */
+"aichat.paywallUpsellCreativityTopicTitle" = "Deblochează-ți creativitatea";
+
+/* The subtitle model type entry in paywall upsell screen */
+"aichat.paywallUpsellModelTypeTopicSubTitle" = "Acces prioritar la modele puternice cu diverse competențe.";
+
+/* The title model type entry in paywall upsell screen */
+"aichat.paywallUpsellModelTypeTopicTitle" = "Explorează diverse modele de IA";
+
+/* The title for paywall view */
+"aichat.paywallViewTitle" = "Leo Premium";
+
+/* The text which will be used to indicate period of payments like 150 / year */
+"aichat.paywallYearlyPriceDividend" = "an";
+
+/* The description indicating how valuable the yearly subscription is, compared to purchasing monthly */
+"aichat.paywallYearlySubscriptionDescription" = "CEL MAI AVANTAJOS";
+
+/* Title indicating yearly subscription */
+"aichat.paywallYearlySubscriptionTitle" = "Un an";
+
+/* The title of the badge where a model which can be used limited */
+"aichat.premiumModelStatusTitle" = "Premium";
+
+/* Title shown next to Leo in navigation bar when user has premium subcription */
+"aichat.premiumNavigationBarBadgeTitle" = "Premium";
+
+/* Title showing premium subscription - not determined monthly por yearly */
+"aichat.premiumSubscriptionTitle" = "Abonament Premium";
+
+/* The text for placeholder on textfield for entering questions for AI, after the user has asked initial question */
+"aichat.promptFollowUpPlaceHolderDescription" = "Solicită follow-up";
+
+/* The text for placeholder on textfield for entering questions for AI */
+"aichat.promptPlaceHolderDescription" = "Cum te pot ajuta astăzi?";
+
+/* The title of action for quick menu which displaying advanced settings */
+"aichat.quickMenuAdvancedSettingsActionTitle" = "Setări avansate";
+
+/* The title of action for quick menu which presents payment screen for premium */
+"aichat.quickMenuGoPremiumActionTitle" = "Alege Premium";
+
+/* The title of action for quick menu which display subscription management view */
+"aichat.quickMenuManageSubscriptionActionTitle" = "Gestionare abonamente";
+
+/* The title for error when rating a response is not success */
+"aichat.rateAnswerActionErrorText" = "Eroare întâmpinată la aprecierea răspunsului";
+
+/* The message for privacy warning alert when rating a response */
+"aichat.rateAnswerFeedbackPrivacyWarningMessage" = "Dacă apreciezi sau nu un răspuns, ratingul, conversația, modelul, limba, versiunea și informațiile privind statutul premium vor fi transmise către iBrowe pentru a contribui la îmbunătățirea lui Leo. [Află mai multe](%@)";
+
+/* The title for privacy warning alert when rating a response */
+"aichat.rateAnswerFeedbackPrivacyWarningTitle" = "Răspunde la feedback";
+
+/* The title for button that refreshes user credentials */
+"aichat.refreshCredentialsActionTitle" = "Actualizează";
+
+/* The title for the button where it triggers reset leo data */
+"aichat.resetLeoDataActionTitle" = "Resetează și șterge datele lui Leo";
+
+/* The title of a button that will reset data for leo */
+"aichat.resetLeoDataAlertButtonTitle" = "Resetează";
+
+/* The description for the error whre leo data reset */
+"aichat.resetLeoDataErrorDescription" = "Ești sigur(ă) că vrei să resetezi și să ștergi datele lui Leo?";
+
+/* The title for the error whre leo data reset */
+"aichat.resetLeoDataErrorTitle" = "Resetează datele lui Leo";
+
+/* The title for copying response to clipboard action */
+"aichat.responseContextMenuCopyTitle" = "Copiază";
+
+/* The title for disliking response to clipboard action */
+"aichat.responseContextMenuDislikeAnswerTitle" = "Dezaprobă răspunsul";
+
+/* The title for editing AI response action from context menu */
+"aichat.responseContextMenuEditAnswerTitle" = "Editează răspunsul";
+
+/* The title for editing user prompt action from context menu */
+"aichat.responseContextMenuEditPromptTitle" = "Editează input";
+
+/* The title for liking response to clipboard action */
+"aichat.responseContextMenuLikeAnswerTitle" = "Apreciază răspunsul";
+
+/* The title for regenerating response action from context menu */
+"aichat.responseContextMenuRegenerateTitle" = "Regenerează";
+
+/* The button title for restoring ai-app purchse for Leo. */
+"aichat.restorePaywallButtonTitle" = "Restabilește";
+
+/* The title for button for re-try */
+"aichat.retryActionTitle" = "Reîncearcă";
+
+/* The title for view that shows a service overloaded error screen. Suggests to try again later. */
+"aichat.serviceOverloadedErrorViewTitle" = "Punctul final este în prezent supraîncărcat. Te rugăm să încerci din nou mai târziu.";
+
+/* The description indicating voice inputs from user is not store or shared and these inpurs are totally private. */
+"aichat.speechRecognizerDisclaimer" = "iBrowe nu stochează și nu distribuie input-urile tale vocale.";
+
+/* Title showing the user has no subscription. */
+"aichat.subscriptionNoneTitle" = "Niciuna";
+
+/* The title for the button to generate suggestions */
+"aichat.suggestionsGenerationButtonTitle" = "Sugerează întrebări...";
+
+/* The title for button that start summarizing page */
+"aichat.summarizePageActionTitle" = "Rezumă această pagină";
+
+/* The title for expressing acknowledgement for the terms and conditions of Brave AI */
+"aichat.termsConditionsApproveActionTitle" = "Înțeleg";
+
+/* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
+"aichat.termsConditionsDescription" = "iBrowe Leo este un asistent inteligent privat IA care îți îmbunătățește utilizarea web-ului. Leo poate fi utilizat gratuit cu acces limitat. iBrowe Leo Premium oferă mai multe modele lingvistice, limite mai mari și oferă abonaților acces timpuriu la funcții noi. Consultă **[Centrul de asistență iBrowe](%1$@)** pentru mai multe detalii.\n\nÎn mod implicit, când îi adresezi o întrebare lui Leo, acesta poate trimite și folosi conținutul paginii web pe care o vizualizezi sau textul pe care îl evidențiezi către iBrowe Leo pentru a oferi un răspuns. În unele cazuri, Leo va trimite întrebări derivate din promptul tău către iBrowe Search și va folosi rezultatele căutărilor pentru a îti răspunde mai bine la întrebare. Acuratețea răspunsurilor nu este garantată și poate include informații inexacte, înșelătoare sau false. Nu trimite informații sensibile sau private și fii precaut cu orice răspunsuri legate de sănătate, finanțe, siguranță personală sau similare. Poți ajusta opțiunile lui Leo în Setări oricând. Mergi la Setări > Leo.\n\nLeo nu colectează identificatori, cum ar fi adresa ta IP, care pot fi legați de tine. Niciun fel de date nu sunt folosite pentru a antrena modelele de IA și niciun fel de date personale nu sunt reținute de către modelele de IA (exceptând Anthropic care reține datele pentru 30 zile înainte de a le șterge). Consultă **[politica de confidențialitate](%2$@)** pentru mai multe informații.";
+
+/* The title terms and conditions for AI chat usage */
+"aichat.termsConditionsTitle" = "Inițiază conversații private cu iBrowe Leo";
+
+/* The title of the badge where a model which can be used unlimited */
+"aichat.unlimitedModelStatusTitle" = "Nelimitat";
+
+/* The accessibility description when pressing the microphone button to access voice entry. */
+"aichat.voiceInputButtonTitle" = "Input vocal";
+
+/* Title showing yearly subscription - annual */
+"aichat.yearlySubscriptionTitle" = "Abonament anual";
+
+/* The word 'You' as in 'Me', 'Myself', 'I' (the user). */
+"aichat.youMessageTitle" = "Tu";
+

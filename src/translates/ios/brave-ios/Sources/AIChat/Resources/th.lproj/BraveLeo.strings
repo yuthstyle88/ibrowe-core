@@ -1,0 +1,441 @@
+/* The description for the error message when the user's session has expired */
+"aichat.accountSessionExpiredDescription" = "เซสชันบัญชี iBrowe ของคุณหมดอายุแล้ว โปรดไปที่หน้าบัญชีของคุณเพื่อรีเฟรช จากนั้นกลับมาใช้งานฟีเจอร์ Premium";
+
+/* The title for button that submits feedback */
+"aichat.addFeedbackActionTitle" = "เพิ่มข้อเสนอแนะ";
+
+/* The description for the settings to show search suggestions from Leo in url-address bar */
+"aichat.advancedSettingsAutocompleteDescription" = "เปิดเพื่อแสดงทางลัดสำหรับเปิด Leo จากแถบแอดเดรส";
+
+/* The title for the settings to change default model for conversations */
+"aichat.advancedSettingsDefaultModelTitle" = "โมเดลเริ่มต้น";
+
+/* The title for the header for adjusting leo ai settings */
+"aichat.advancedSettingsHeaderTitle" = "Leo คือผู้ช่วยอัจฉริยะที่ทำงานด้วยระบบ AI ที่ถูกสร้างมาสำหรับเบราว์เซอร์นี้โดยเฉพาะ";
+
+/* The subtitle for the button which links purchase to Brave Account */
+"aichat.advancedSettingsLinkPurchaseActionSubTitle" = "ลิงก์การซื้อใน App Store กับบัญชี iBrowe เพื่อใช้ Leo บนอุปกรณ์อื่นๆ";
+
+/* The title for the button which links purchase to Brave Account */
+"aichat.advancedSettingsLinkPurchaseActionTitle" = "ลิงก์การซื้อกับบัญชี iBrowe ของคุณ";
+
+/* The description for the settings to show Leo in Quick Search Engines Bar. */
+"aichat.advancedSettingsShowInQSEBarDescription" = "เปิดใช้งานทางลัดเพื่อเปิด Leo จากแถบเครื่องมือค้นหาด่วน";
+
+/* The title for the settings to show Leo in Quick Search Engines Bar. */
+"aichat.advancedSettingsShowInQSEBarTitle" = "แสดงในแถบเครื่องมือค้นหาด่วน";
+
+/* The title for the label showing the date which subscription expires */
+"aichat.advancedSettingsSubscriptionExpiresTitle" = "หมดอายุ";
+
+/* The title for the header for subscription details */
+"aichat.advancedSettingsSubscriptionHeaderTitle" = "การสมัครสมาชิก";
+
+/* The title for the label showing status if the subscription */
+"aichat.advancedSettingsSubscriptionStatusTitle" = "สถานะ";
+
+/* The title for the button that allows the user to view the App Store Receipt */
+"aichat.advancedSettingsViewReceiptTitle" = "ดูใบเสร็จ AppStore";
+
+/* The subtitle for the error showing there is an error from App Store */
+"aichat.appStoreErrorSubTitle" = "ไม่สามารถเชื่อมต่อกับ App Store ได้ โปรดลองอีกครั้งในภายหลัง";
+
+/* The title for the error showing there is an error from App Store */
+"aichat.appStoreErrorTitle" = "ข้อผิดพลาดใน App Store";
+
+/* The title of the search bar suggestion when prompting to Ask Leo */
+"aichat.askLeoSearchSuggestionTitle" = "ถาม Leo";
+
+/* The title for view that shows when leo is too busy (active disconnected) and the user is premium */
+"aichat.busyErrorDescription" = "ตอนนี้ Leo กำลังวุ่นวายมาก โปรดลองอีกครั้งในอีกสักครู่";
+
+/* The subtitle for intro view which triggers just chat */
+"aichat.chatIntroJustTalkSubTitle" = "ถามผมมาได้ทุกอย่างเลย! เราสามารถคุยกันในหัวข้ออะไรก็ได้ที่คุณต้องการ ผมเรียนรู้และพัฒนาตัวเองอยู่ตลอดเวลาเพื่อให้คำตอบที่ดียิ่งขึ้น";
+
+/* The title for intro view which triggers just chat */
+"aichat.chatIntroJustTalkTitle" = "แค่อยากจะพูดคุยอย่างนั้นหรือ";
+
+/* The subtitle for intro view */
+"aichat.chatIntroSubTitle" = "ผมเป็นผู้ช่วยอัจฉริยะที่ทำงานด้วย AI ที่ถูกสร้างขึ้นมาสำหรับ iBrowe";
+
+/* The title for intro view */
+"aichat.chatIntroTitle" = "สวัสดี ผมชื่อ Leo!";
+
+/* The subtitle for intro view which triggers website help for article */
+"aichat.chatIntroWebsiteHelpSubtitleArticleSummarize" = "ผมสามารถช่วยคุณสรุปบทความ เพิ่มเติมเนื้อหาบนเว็บไซต์ และอื่นๆ อีกมากมาย";
+
+/* The subtitle for intro view which triggers website help for summary */
+"aichat.chatIntroWebsiteHelpSubtitlePageSummarize" = "ผมสามารถช่วยคุณสรุปบทความ เพิ่มเติมเนื้อหาบนเว็บไซต์ และอื่นๆ อีกมากมาย ถ้ายังไม่รู้ว่าจะเริ่มจากตรงไหนล่ะก็ ลองนี่ดูสิ:";
+
+/* The title for intro view which triggers website help */
+"aichat.chatIntroWebsiteHelpTitle" = "ต้องการความช่วยเหลือกับเว็บไซต์ใดหรือไม่";
+
+/* The title for the chat section in the menu */
+"aichat.chatMenuSectionTitle" = "แชท";
+
+/* The title shown on limit reached error view, which is suggesting user to change default model */
+"aichat.contextLimitErrorTitle" = "บทสนทนานี้มีความยาวเกินไปและไม่สามารถดำเนินการต่อได้\nอาจมีโมเดลอื่นๆ ที่ Leo สามารถใช้เพื่อรักษาความถูกต้องในบทสนทนาที่ยาวนานขึ้น";
+
+/* The title of the section where custom models are displayed as a list. */
+"aichat.customModelChatSectionTitle" = "โมเดลแบบกำหนดเอง";
+
+/* The title for the custom models section in the menu */
+"aichat.customModelsMenuSectionTitle" = "โมเดลแบบกำหนดเอง";
+
+/* The title of the section where chat models are displayed as a list. */
+"aichat.defaultModelChatSectionTitle" = "แชท";
+
+/* The title of the section where language models are displayed as a list. */
+"aichat.defaultModelLanguageSectionTitle" = "โมเดลภาษา";
+
+/* The title of the menu where user can change the default model */
+"aichat.defaultModelViewTitle" = "โมเดลเริ่มต้น";
+
+/* The checkbox title for the privacy alert warning that will make it not warn the user again */
+"aichat.dontShowAgainTitle" = "ไม่ต้องแสดงอีก";
+
+/* The text displayed under an edited user prompt/message beside a timestamp. */
+"aichat.editedMessageCaption" = "มีการแก้ไข";
+
+/* The title for view which user type feedback */
+"aichat.feedbackInputViewTitle" = "ใส่ความคิดเห็นที่นี่";
+
+/* The title for view which listsfeedback option list */
+"aichat.feedbackOptionsViewTitle" = "ความคิดเห็นเกี่ยวข้องกับเรื่องอะไร";
+
+/* The title for incorrect feedback option */
+"aichat.feedbackOptionTitleIncorrect" = "ไม่ถูกต้อง";
+
+/* The title for helpful feedback option */
+"aichat.feedbackOptionTitleNotHelpful" = "ไม่มีประโยชน์";
+
+/* The title for other feedback option */
+"aichat.feedbackOptionTitleOther" = "อื่นๆ";
+
+/* The title for unsafe/harmful feedback option */
+"aichat.feedbackOptionTitleUnsafeHarmful" = "ไม่ปลอดภัย/เป็นอันตราย";
+
+/* The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated */
+"aichat.feedbackPremiumAdTitle" = "Leo Premium ให้การเข้าถึงชุดโมเดลภาษาที่เพิ่มมากขึ้นเพื่อให้คำตอบที่แตกต่างกันมากขึ้น [ดูข้อมูลเพิ่มเติม](https://brave.com/) - [ปิด](braveai://dismiss)";
+
+/* The title for the button that submits feedback */
+"aichat.feedbackSubmitActionTitle" = "ส่ง";
+
+/* The title for feedback view when it fails to submit feedback */
+"aichat.feedbackSubmittedErrorTitle" = "เกิดข้อผิดพลาดบางอย่าง โปรดลองใหม่อีกครั้ง";
+
+/* The title for feedback view when it is submitted */
+"aichat.feedbackSubmittedTitle" = "ส่งความคิดเห็นสำเร็จแล้ว";
+
+/* The title for feedback view when response is sucessfull but disliked */
+"aichat.feedbackSuccessAnswerDisLikedTitle" = "ตอบว่าไม่ถูกใจ";
+
+/* The title for feedback view when response is sucessfull also liked */
+"aichat.feedbackSuccessAnswerLikedTitle" = "ตอบว่าถูกใจ";
+
+/* The title for view which user type feedback */
+"aichat.feedbackViewMainTitle" = "ใส่ความคิดเห็น iBrowe AI";
+
+/* The button title for opening paywall screen */
+"aichat.goPremiumButtonTitle" = "ใช้งาน Premium";
+
+/* Description about answers are changing with page context */
+"aichat.infoAboutPageContext" = "กำหนดคำตอบโดยอิงตามเนื้อหาของหน้า";
+
+/* The title for view that shows an internal error screen. Suggests to try again later. */
+"aichat.internalErrorViewTitle" = "เกิดข้อผิดพลาดขณะประมวลผลคำขอของคุณ กรุณาลองใหม่อีกครั้งในภายหลัง";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageClaudeHaikuMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และได้รับการสนับสนุนจาก Claude Haiku ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Haiku โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageClaudeHaikuModelPurposeDescription" = "การแชทที่รวดเร็วดุจสายฟ้า";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageClaudeInstantMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และได้รับการสนับสนุนจาก Claude Instant ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Instant โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageClaudeSonnetMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และได้รับการสนับสนุนจาก Claude Sonnet ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Sonnet โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageClaudeSonnetModelPurposeDescription" = "ความรวดเร็วและความอัจฉริยะที่สมดุล";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageDeepSeekR1MessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก DeepSeek R1 ซึ่งเป็นโมเดลที่สร้างโดย DeepSeek เพื่อทำงานด้านการวิเคราะห์เชิงลึก";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageDeepSeekR1ModelPurposeDescription" = "โมเดลการให้เหตุผล";
+
+/* The model intro message when you first enter the chat assistant -- %@ is a place-holder for the model name */
+"aichat.introMessageGenericMessageDescription" = "สวัสดี ฉันชื่อ Leo ผมคือผู้ช่วย AI ของ iBrowe ผมทำงานด้วย %@ ถามทุกสิ่งกับผมได้เลย แล้วผมจะพยายามตอบคำถามให้ดีที่สุด";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageLlamaMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Llama 3.1 8B ซึ่งเป็นโมเดลที่สร้างโดย Meta เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Llama โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageLlamaModelPurposeDescription" = "การแชทด้วยวัตถุประสงค์ทั่วไป";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageLlamaVisionMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Llama Vision ซึ่งเป็นโมเดลที่สร้างโดย Meta เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Llama Vision โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageLlamaVisionModelPurposeDescription" = "ระบบการมองเห็นสำหรับวัตถุประสงค์ทั่วไป";
+
+/* The model intro message when you first enter the chat assistant */
+"aichat.introMessageQwenMessageDescription" = "สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Qwen 14B ซึ่งเป็นโมเดลที่สร้างโดย Alibaba Cloud เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Qwen โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง";
+
+/* The model's purpose - Describes what it can do best */
+"aichat.introMessageQwenModelPurposeDescription" = "การแชททั่วไป การเขียนโค้ด และอื่นๆ";
+
+/* The title for intro message */
+"aichat.introMessageTitle" = "แชท";
+
+/* The title for view that shows an invalid API key error screen. Suggests to try again later. */
+"aichat.invalidApiKeyErrorViewTitle" = "คีย์ API ที่ตั้งค่าสำหรับโมเดลนี้ไม่ถูกต้อง กรุณาตรวจสอบการตั้งค่าและลองใหม่อีกครั้ง";
+
+/* The title for view that shows an invalid endpoint error screen. Suggests to try again later. */
+"aichat.invalidEndpointErrorViewTitle" = "โมเดลนี้มีจุดสิ้นสุดที่ไม่ถูกต้อง กรุณาตรวจสอบการตั้งค่าและลองอีกครั้ง";
+
+/* The name of the AI-Assistant that's responsing to the user */
+"aichat.leoAssistantNameTitle" = "Leo";
+
+/* The default title displayed above a code block when the language of the code is not known. */
+"aichat.leoCodeExampleDefaultTitle" = "ตัวอย่างโค้ด";
+
+/* The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature. */
+"aichat.leoDisabledMessageDescription" = "Leo ถูกปิดใช้งานผ่านฟีเจอร์แฟล็กอยู่ หากต้องการเปิดใช้งานอีกครั้ง โปรดไปที่ brave://flags และเปิดใช้งานฟีเจอร์ดังกล่าว";
+
+/* The title that shows in an alert when the Leo/AI-Chat feature is disabled. */
+"aichat.leoDisabledMessageTitle" = "Leo ปิดใช้งานอยู่";
+
+/* The message that shows in an alert, to let the user know the 'Leo' feature is disabled in private browsing mode. */
+"aichat.leoDisabledPrivateBrowsingMessageDescription" = "ขณะนี้ไม่สามารถใช้ Leo ได้ในโหมดไม่ระบุตัวตน หากต้องการใช้งาน กรุณาออกจากโหมดไม่ระบุตัวตนแล้วลองใหม่อีกครั้ง";
+
+/* The title that shows in an alert when the Leo/AI-Chat is disabled due to the user being in private browsing mode. */
+"aichat.leoDisabledPrivateBrowsingMessageTitle" = "Leo ไม่พร้อมใช้งาน";
+
+/* The text that's read aloud to the user when accessibility is enabled for the Document Picker button */
+"aichat.leoDocumentPickerButtonAccessibilityTitle" = "อัปโหลดรูปภาพ";
+
+/* The text displayed on the loading screen when searching for a user query */
+"aichat.leoImprovedAnswerBraveSearch" = "ปรับปรุงการค้นหาคำตอบสำหรับ";
+
+/* The text displayed on the loading screen when searching for a user query */
+"aichat.leoImprovingAnswerBraveSearch" = "ปรับปรุงคำตอบด้วย iBrowe Search…";
+
+/* The title of the advanced settings view */
+"aichat.leoNavigationTitle" = "Leo AI";
+
+/* The title to display when the user taps on the information icon on the page context view. Brave Leo is the name of the product and should not be translated. */
+"aichat.leoPageContextInfoDescriptionTitle" = "เปิดเพื่อถามเกี่ยวกับหน้านี้ เนื้อหาของหน้านี้จะถูกส่งไปให้ iBrowe Leo พร้อมกับข้อความของคุณ";
+
+/* The accessibility text to read out loud when the user taps on the info icon on the page context view */
+"aichat.leoPageContextInfoIconAccessibilityTitle" = "ข้อมูลเชิงบริบทของหน้า";
+
+/* The text that's read aloud to the user when accessibility is enabled for the Slash Tools button */
+"aichat.leoSlashToolsButtonAccessibilityTitle" = "เครื่องมือสแลช";
+
+/* The text that's displayed when the user selects an invalid slash tools option */
+"aichat.leoSlashToolsOptionNull" = "ไม่มี";
+
+/* The text that's displayed when the user selects an invalid slash tools option */
+"aichat.leoSlashToolsOptionUnknown" = "ไม่รู้จัก";
+
+/* The title to display when the duration of the subscription is unknown */
+"aichat.leoSubscriptionUnknownDateTitle" = "N/A";
+
+/* The button title for managing subscriptions */
+"aichat.manageSubscriptionsButtonTitle" = "จัดการการสมัครสมาชิก";
+
+/* The description for alert needed to have microphone permission */
+"aichat.microphonePermissionAlertDescription" = "โปรดอนุญาตการเข้าถึงไมโครโฟนในหน้าการตั้งค่าระบบ iOS ของ iBrowe เพื่อใช้งานการป้อนข้อมูลด้วยเสียงแบบไม่ระบุชื่อ";
+
+/* The description for alert needed to have microphone permission */
+"aichat.microphonePermissionAlertTitle" = "ต้องใช้การเข้าถึงไมโครโฟน";
+
+/* Title showing monthly subscription */
+"aichat.monthlySubscriptionTitle" = "การสมัครสมาชิกรายเดือน";
+
+/* The title for view that shows network - connection error and suggesting to try again */
+"aichat.networkErrorViewTitle" = "เกิดปัญหาในการเชื่อมต่อเครือข่ายกับ Leo โปรดตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง";
+
+/* The title for button that starts a new chat */
+"aichat.newChatActionTitle" = "แชทใหม่";
+
+/* The text which will be used to indicate period of payments like 10 / month */
+"aichat.paywallMonthlyPriceDividend" = "เดือน";
+
+/* Title indicating monthly subscription */
+"aichat.paywallMontlySubscriptionTitle" = "รายเดือน";
+
+/* The title for dismiss button when premium upsell when paywall is triggered */
+"aichat.paywallPremiumUpsellDismissAction" = "ไว้ทีหลัง";
+
+/* The title for button when premium upsell when paywall is triggered */
+"aichat.paywallPremiumUpsellPrimaryAction" = "อัปเกรด";
+
+/* The title for premium upsell when paywall is triggered */
+"aichat.paywallPremiumUpsellTitle" = "ปลดล็อกความสามารถของ Leo อย่างเต็มรูปแบบด้วย Premium:";
+
+/* The title of the button for action triggering purchase */
+"aichat.paywallPurchaseActionIntroOfferTitle" = "ทดลองใช้ฟรี 7 วัน";
+
+/* The title of the button for action triggering purchase */
+"aichat.paywallPurchaseActionTitle" = "อัปเกรดตอนนี้";
+
+/* The text displayed on the bottom of paywall screen which indicates subscriptions are auto renewable. */
+"aichat.paywallPurchaseDeepNote" = "การสมัครสมาชิกทั้งหมดจะได้รับการต่ออายุโดยอัตโนมัติ แต่สามารถยกเลิกได้ทุกเมื่อก่อนต่ออายุ";
+
+/* The error description when in app purcahse is erroneous. */
+"aichat.paywallPurchaseErrorDescription" = "ไม่สามารถดำเนินการสั่งซื้อให้เสร็จสมบูรณ์ได้ โปรดลองอีกครั้ง หรือตรวจสอบรายละเอียดการชำระเงินของคุณบน Apple แล้วลองอีกครั้ง";
+
+/* The subtitle for premium upseel when rate limit is shown after sending a message */
+"aichat.paywallRateLimitSubTitle" = "ปลดล็อกอัตราการตอบสนองที่สูงขึ้นโดยสมัครใช้งาน Premium หรือลองอีกครั้งในภายหลัง";
+
+/* The title for premium upseel when rate limit is shown after sending a message */
+"aichat.paywallRateLimitTitle" = "ถึงขีดจำกัดอัตราการตอบสนองแล้ว";
+
+/* The subtitle accuracy entry in paywall upsell screen */
+"aichat.paywallUpsellAccuracyTopicSubTitle" = "ได้รับคำตอบที่แม่นยำมากขึ้นเพื่อการสนทนาที่แตกต่างมากขึ้น";
+
+/* The title accuracy entry in paywall upsell screen */
+"aichat.paywallUpsellAccuracyTopicTitle" = "ไม่หลุดประเด็น";
+
+/* The subtitle chat length entry in paywall upsell screen */
+"aichat.paywallUpsellChatLengthTopicSubTitle" = "รับขีดจำกัดอัตราการตอบสนองที่สูงขึ้นเพื่อการสนทนาที่ยาวนานขึ้น";
+
+/* The title chat length entry in paywall upsell screen */
+"aichat.paywallUpsellChatLengthTopicTitle" = "แชทได้นานขึ้น";
+
+/* The subtitle creativity entry in paywall upsell screen */
+"aichat.paywallUpsellCreativityTopicSubTitle" = "โมเดลการเข้าถึงที่เหมาะสำหรับชิ้นงานสร้างสรรค์และการสร้างเนื้อหา";
+
+/* The title creativity entry in paywall upsell screen */
+"aichat.paywallUpsellCreativityTopicTitle" = "ปลดล็อกความคิดสร้างสรรค์ของคุณ";
+
+/* The subtitle model type entry in paywall upsell screen */
+"aichat.paywallUpsellModelTypeTopicSubTitle" = "สิทธิพิเศษในการเข้าถึงโมเดลที่ทรงพลังพร้อมทักษะที่แตกต่างก่อนใคร";
+
+/* The title model type entry in paywall upsell screen */
+"aichat.paywallUpsellModelTypeTopicTitle" = "สำรวจโมเดล AI อื่นๆ";
+
+/* The title for paywall view */
+"aichat.paywallViewTitle" = "Leo Premium";
+
+/* The text which will be used to indicate period of payments like 150 / year */
+"aichat.paywallYearlyPriceDividend" = "ปี";
+
+/* The description indicating how valuable the yearly subscription is, compared to purchasing monthly */
+"aichat.paywallYearlySubscriptionDescription" = "คุ้มค่าที่สุด";
+
+/* Title indicating yearly subscription */
+"aichat.paywallYearlySubscriptionTitle" = "1 ปี";
+
+/* The title of the badge where a model which can be used limited */
+"aichat.premiumModelStatusTitle" = "Premium";
+
+/* Title shown next to Leo in navigation bar when user has premium subcription */
+"aichat.premiumNavigationBarBadgeTitle" = "Premium";
+
+/* Title showing premium subscription - not determined monthly por yearly */
+"aichat.premiumSubscriptionTitle" = "การสมัครสมาชิกแบบ Premium";
+
+/* The text for placeholder on textfield for entering questions for AI, after the user has asked initial question */
+"aichat.promptFollowUpPlaceHolderDescription" = "ถามเพิ่มเติม";
+
+/* The text for placeholder on textfield for entering questions for AI */
+"aichat.promptPlaceHolderDescription" = "วันนี้มีอะไรให้ช่วยไหม";
+
+/* The title of action for quick menu which displaying advanced settings */
+"aichat.quickMenuAdvancedSettingsActionTitle" = "การตั้งค่าขั้นสูง";
+
+/* The title of action for quick menu which presents payment screen for premium */
+"aichat.quickMenuGoPremiumActionTitle" = "ใช้งาน Premium";
+
+/* The title of action for quick menu which display subscription management view */
+"aichat.quickMenuManageSubscriptionActionTitle" = "จัดการการสมัครสมาชิก";
+
+/* The title for error when rating a response is not success */
+"aichat.rateAnswerActionErrorText" = "เกิดข้อผิดพลาดในการให้คะแนนคำตอบ";
+
+/* The message for privacy warning alert when rating a response */
+"aichat.rateAnswerFeedbackPrivacyWarningMessage" = "การกดชอบหรือไม่ชอบคำตอบจะส่งการให้คะแนน บทสนทนา โมเดล ภาษา เวอร์ชัน และสถานะพรีเมียมไปยัง iBrowe เพื่อใช้ในการพัฒนา Leo [เรียนรู้เพิ่มเติม] (%@)";
+
+/* The title for privacy warning alert when rating a response */
+"aichat.rateAnswerFeedbackPrivacyWarningTitle" = "ความคิดเห็นเกี่ยวกับคำตอบ";
+
+/* The title for button that refreshes user credentials */
+"aichat.refreshCredentialsActionTitle" = "รีเฟรช";
+
+/* The title for the button where it triggers reset leo data */
+"aichat.resetLeoDataActionTitle" = "รีเซ็ตและล้างข้อมูลของ Leo";
+
+/* The title of a button that will reset data for leo */
+"aichat.resetLeoDataAlertButtonTitle" = "รีเซ็ต";
+
+/* The description for the error whre leo data reset */
+"aichat.resetLeoDataErrorDescription" = "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตและล้างข้อมูลของ Leo";
+
+/* The title for the error whre leo data reset */
+"aichat.resetLeoDataErrorTitle" = "รีเซ็ตข้อมูลของ Leo";
+
+/* The title for copying response to clipboard action */
+"aichat.responseContextMenuCopyTitle" = "คัดลอก";
+
+/* The title for disliking response to clipboard action */
+"aichat.responseContextMenuDislikeAnswerTitle" = "ไม่ถูกใจคำตอบ";
+
+/* The title for editing AI response action from context menu */
+"aichat.responseContextMenuEditAnswerTitle" = "แก้ไขคำตอบ";
+
+/* The title for editing user prompt action from context menu */
+"aichat.responseContextMenuEditPromptTitle" = "แก้ไขพร้อมท์";
+
+/* The title for liking response to clipboard action */
+"aichat.responseContextMenuLikeAnswerTitle" = "ถูกใจคำตอบ";
+
+/* The title for regenerating response action from context menu */
+"aichat.responseContextMenuRegenerateTitle" = "สร้างใหม่";
+
+/* The button title for restoring ai-app purchse for Leo. */
+"aichat.restorePaywallButtonTitle" = "กู้คืน";
+
+/* The title for button for re-try */
+"aichat.retryActionTitle" = "ลองใหม่";
+
+/* The title for view that shows a service overloaded error screen. Suggests to try again later. */
+"aichat.serviceOverloadedErrorViewTitle" = "ขณะนี้เอนด์พอยต์มีภาระงานมากเกินไป กรุณาลองใหม่ภายหลัง";
+
+/* The description indicating voice inputs from user is not store or shared and these inpurs are totally private. */
+"aichat.speechRecognizerDisclaimer" = "iBrowe จะไม่จัดเก็บหรือแชร์การป้อนข้อมูลข้อความเสียงของคุณ";
+
+/* Title showing the user has no subscription. */
+"aichat.subscriptionNoneTitle" = "ไม่มี";
+
+/* The title for the button to generate suggestions */
+"aichat.suggestionsGenerationButtonTitle" = "แนะนำคำถาม...";
+
+/* The title for button that start summarizing page */
+"aichat.summarizePageActionTitle" = "สรุปหน้านี้";
+
+/* The title for expressing acknowledgement for the terms and conditions of Brave AI */
+"aichat.termsConditionsApproveActionTitle" = "ฉันเข้าใจ";
+
+/* The description terms and conditions for AI chat usage. The links are inside parenthesis %@ will be replaced with urls */
+"aichat.termsConditionsDescription" = "Leo เป็นผู้ช่วยอัจฉริยะที่เน้นความเป็นส่วนตัว ซึ่งช่วยให้คุณใช้งานเว็บได้ดียิ่งขึ้น Leo สามารถใช้งานได้ฟรีแบบจำกัดสิทธิ์ ส่วน iBrowe Leo Premium จะมีโมเดลให้เลือกใช้งานมากขึ้น ขีดจำกัดสูงกว่า และให้สิทธิ์ผู้ใช้งานเข้าถึงฟีเจอร์ใหม่ล่วงหน้า ดูรายละเอียดเพิ่มเติมได้ที่ **[ศูนย์ช่วยเหลือ](%1$@)** iBrowe\n\nในค่าเริ่มต้น เมื่อคุณถามคำถามกับ Leo เนื้อหาของหน้าเว็บที่คุณกำลังดู หรือข้อความที่คุณเลือก อาจถูกส่งไปยัง iBrowe Leo เพื่อใช้ในการตอบคำถาม บางกรณี คำถามที่คุณป้อนอาจถูกแปลงเป็นคำค้นหาและส่งไปยัง iBrowe Search และใช้ผลการค้นหานั้นช่วยในการตอบคำถาม คำตอบอาจไม่แม่นยำ อาจคลาดเคลื่อน ชวนให้เข้าใจผิด หรือไม่ถูกต้อง อย่าส่งข้อมูลที่เป็นความลับหรือข้อมูลส่วนตัว และใช้ความระมัดระวังเมื่อคำตอบเกี่ยวข้องกับสุขภาพ การเงิน ความปลอดภัย หรือเรื่องสำคัญอื่น ๆ คุณสามารถปรับการตั้งค่าของ Leo ได้ตลอดเวลา โดยไปที่ การตั้งค่า > Leo\n\nLeo จะไม่เก็บข้อมูลระบุตัวตน เช่น IP Address ที่สามารถเชื่อมโยงถึงตัวคุณได้ ข้อมูลจะไม่ถูกใช้ฝึกโมเดล AI และไม่มีข้อมูลส่วนตัวใดถูกเก็บไว้ (ยกเว้นในกรณีของ Anthropic ซึ่งจะเก็บข้อมูลไว้ 30 วันก่อนลบ) ดูรายละเอียดเพิ่มเติมได้ใน **[นโยบายความเป็นส่วนตัว](%2$@)**";
+
+/* The title terms and conditions for AI chat usage */
+"aichat.termsConditionsTitle" = "แชทส่วนตัวกับ iBrowe Leo";
+
+/* The title of the badge where a model which can be used unlimited */
+"aichat.unlimitedModelStatusTitle" = "ไม่จำกัด";
+
+/* The accessibility description when pressing the microphone button to access voice entry. */
+"aichat.voiceInputButtonTitle" = "การป้อนข้อมูลข้อความเสียง";
+
+/* Title showing yearly subscription - annual */
+"aichat.yearlySubscriptionTitle" = "การสมัครสมาชิกรายปี";
+
+/* The word 'You' as in 'Me', 'Myself', 'I' (the user). */
+"aichat.youMessageTitle" = "คุณ";
+
