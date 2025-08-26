@@ -1,0 +1,15 @@
+diff --git a/android/java/org/chromium/chrome/browser/settings/BraveMainPreferencesBase.java b/android/java/org/chromium/chrome/browser/settings/BraveMainPreferencesBase.java
+index 1d424fd1852ebdd8364ec54bdbcb4e5cf44e7ed0..0df30ebbb62fdd5b09b92829f8babd0d07293c1a 100644
+--- a/android/java/org/chromium/chrome/browser/settings/BraveMainPreferencesBase.java
++++ b/android/java/org/chromium/chrome/browser/settings/BraveMainPreferencesBase.java
+@@ -214,6 +214,10 @@ public abstract class BraveMainPreferencesBase extends BravePreferenceFragment
+         }
+         setCustomTabPreference();
+         setAutofillPrivateWindowPreference();
++
++         removePreferenceIfPresent(PREF_FEATURES_SECTION);
++         removePreferenceIfPresent(PREF_BRAVE_VPN);
++         removePreferenceIfPresent(PREF_BRAVE_LEO);
+     }
+ 
+     private void setAutofillPrivateWindowPreference() {
