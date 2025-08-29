@@ -1,10 +1,23 @@
 diff --git a/android/java/org/chromium/chrome/browser/app/BraveActivity.java b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
-index e1045ec8409790462367b7e11c0f3a922c7c59ef..0dbdee583614da161354a069ca508945946aa18e 100644
+index d0f6ffc0f7b4bc05e4233d795cd27817209c0334..8c8244e9203f0d68b4ff74f89a9bdb42412641d5 100644
 --- a/android/java/org/chromium/chrome/browser/app/BraveActivity.java
 +++ b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
-@@ -257,25 +257,25 @@ public abstract class BraveActivity extends ChromeActivity
-                 QuickSearchEnginesCallback,
-                 KeyboardVisibilityHelper.KeyboardVisibilityListener {
+@@ -43,9 +43,9 @@ import androidx.lifecycle.MutableLiveData;
+ import androidx.recyclerview.widget.LinearLayoutManager;
+ import androidx.recyclerview.widget.RecyclerView;
+ 
+-import com.brave.playlist.util.ConstantUtils;
+-import com.brave.playlist.util.PlaylistPreferenceUtils;
+-import com.brave.playlist.util.PlaylistUtils;
++import com.ibrowe108.playlist.util.ConstantUtils;
++import com.ibrowe108.playlist.util.PlaylistPreferenceUtils;
++import com.ibrowe108.playlist.util.PlaylistUtils;
+ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+ import com.google.android.play.core.appupdate.AppUpdateInfo;
+ import com.google.android.play.core.appupdate.AppUpdateManager;
+@@ -250,28 +250,28 @@ public abstract class BraveActivity extends ChromeActivity
+                 KeyboardVisibilityHelper.KeyboardVisibilityListener,
+                 OnSharedPreferenceChangeListener {
      public static final String BRAVE_WALLET_HOST = "wallet";
 -    public static final String BRAVE_WALLET_ORIGIN = "brave://wallet/";
 -    public static final String BRAVE_WALLET_URL = "brave://wallet/crypto/portfolio/assets";
@@ -36,10 +49,22 @@ index e1045ec8409790462367b7e11c0f3a922c7c59ef..0dbdee583614da161354a069ca508945
 -            "https://brave.com/faq-rewards/#unclaimed-funds";
 +            "https://ibrowe.com/faq-rewards/#unclaimed-funds";
      public static final String BRAVE_TERMS_PAGE =
--            "https://basicattentiontoken.org/user-terms-of-service/";
+             "https://basicattentiontoken.org/user-terms-of-service/";
 -    public static final String BRAVE_PRIVACY_POLICY = "https://brave.com/privacy/browser/#rewards";
-+            "https://ibrowe.com/user-terms-of-service/";
 +    public static final String BRAVE_PRIVACY_POLICY = "https://ibrowe.com/privacy/browser/#rewards";
      public static final String OPEN_URL = "open_url";
      public static final String BRAVE_WEBCOMPAT_INFO_WIKI_URL =
-             "https://github.com/brave/brave-browser/wiki/Web-compatibility-reports";
+-            "https://github.com/brave/brave-browser/wiki/Web-compatibility-reports";
++            "https://github.com/yuthstyle88/ibrowe-browser/wiki/Web-compatibility-reports";
+ 
+     private static final int DAYS_4 = 4;
+     private static final int DAYS_7 = 7;
+@@ -292,7 +292,7 @@ public abstract class BraveActivity extends ChromeActivity
+             Build.VERSION.SDK_INT < Build.VERSION_CODES.UPSIDE_DOWN_CAKE;
+ 
+     /** Settings for sending local notification reminders. */
+-    public static final String CHANNEL_ID = "com.brave.browser";
++    public static final String CHANNEL_ID = "com.ibrowe108.browser";
+ 
+     // Explicitly declare this variable to avoid build errors.
+     // It will be removed in asm and parent variable will be used instead.

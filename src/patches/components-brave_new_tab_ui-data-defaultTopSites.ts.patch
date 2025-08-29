@@ -1,13 +1,49 @@
 diff --git a/components/brave_new_tab_ui/data/defaultTopSites.ts b/components/brave_new_tab_ui/data/defaultTopSites.ts
-index de60029ecdc39975a7863cf93204d10a30eea2f1..04ada80be41186a6de7759ce074eac370cd2d5c3 100644
+index de60029ecdc39975a7863cf93204d10a30eea2f1..efc42b5d29c2aa07a332b30e627fb31142e2afe1 100644
 --- a/components/brave_new_tab_ui/data/defaultTopSites.ts
 +++ b/components/brave_new_tab_ui/data/defaultTopSites.ts
-@@ -12,7 +12,7 @@ import YouTubeFavicon from '../../img/newtab/defaultTopSitesIcon/youtube.png'
+@@ -12,37 +12,37 @@ import YouTubeFavicon from '../../img/newtab/defaultTopSitesIcon/youtube.png'
  export const defaultTopSitesData = [
    {
      name: 'App Store',
 -    url: 'https://itunes.apple.com/app/brave-browser-fast-adblocker/id1052879175?mt=8',
-+    url: 'https://itunes.apple.com/app/brave-browser-fast-adblocker/id6741485553?mt=8',
++    url: 'https://itunes.apple.com/app/ibrowe-browser-fast-adblocker/id6741485553?mt=8',
      favicon: AppStoreFavicon,
      background: 'rgba(255,255,255,0.8)'
    },
+   {
+-    name: 'Brave Software',
+-    url: 'https://brave.com',
++    name: 'iBrowe Software',
++    url: 'https://ibrowe.com',
+     favicon: BraveFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   },
+   {
+     name: 'Facebook',
+-    url: 'https://www.facebook.com/BraveSoftware/',
++    url: 'https://www.facebook.com/iBroweSoftware/',
+     favicon: FacebookFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   },
+   {
+     name: 'Play Store',
+-    url: 'https://play.google.com/store/apps/details?id=com.brave.browser&hl=en_US',
++    url: 'https://play.google.com/store/apps/details?id=com.ibrowe.browser&hl=en_US',
+     favicon: PlayStoreFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   },
+   {
+     name: 'Twitter',
+-    url: 'https://twitter.com/brave',
++    url: 'https://twitter.com/ibrowe',
+     favicon: TwitterFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   },
+   {
+     name: 'YouTube',
+-    url: 'https://www.youtube.com/bravesoftware',
++    url: 'https://www.youtube.com/ibrowesoftware',
+     favicon: YouTubeFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   }
