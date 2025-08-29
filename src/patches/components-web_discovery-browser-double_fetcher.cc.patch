@@ -1,8 +1,8 @@
 diff --git a/components/web_discovery/browser/double_fetcher.cc b/components/web_discovery/browser/double_fetcher.cc
-index c30e1e0d8bf202731fa6b0297eb98b957c415c26..25a63a2c5f5282a1dd41d9c2f025ceee0312f482 100644
+index cabc1d183ae8eb2eaf2944affdf228acc41c2287..5b4358cc6eba6c10e620070914b53ae8192cc318 100644
 --- a/components/web_discovery/browser/double_fetcher.cc
 +++ b/components/web_discovery/browser/double_fetcher.cc
-@@ -51,7 +51,7 @@ constexpr net::NetworkTrafficAnnotationTag kFetchNetworkTrafficAnnotation =
+@@ -53,7 +53,7 @@ constexpr net::NetworkTrafficAnnotationTag kFetchNetworkTrafficAnnotation =
      policy {
        cookies_allowed: NO
        setting:

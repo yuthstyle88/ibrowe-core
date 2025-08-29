@@ -1,8 +1,8 @@
 diff --git a/components/web_discovery/browser/server_config_loader.cc b/components/web_discovery/browser/server_config_loader.cc
-index 279e8ebf12945ed7856582387f1cb0c80448667c..d5c2451553f1c6b7a1c4cbfb99fc949be3d56f62 100644
+index d2cb606ddf6533fe7e9ca7f97f02831eda524386..94f5f8bfcac376dd88fedda4ec9c6cc23d8adbf9 100644
 --- a/components/web_discovery/browser/server_config_loader.cc
 +++ b/components/web_discovery/browser/server_config_loader.cc
-@@ -57,7 +57,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotation =
+@@ -60,7 +60,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotation =
      policy {
        cookies_allowed: NO
        setting:

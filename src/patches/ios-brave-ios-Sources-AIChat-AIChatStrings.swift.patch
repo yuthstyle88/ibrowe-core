@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
-index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58b8b4b1c3 100644
+index 3c3be204f3c90b850c36231110e4122e288833e1..fb2c7719d240031f588028bbcdcd6acefe4d8841 100644
 --- a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
 +++ b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
-@@ -144,7 +144,7 @@ extension Strings {
+@@ -177,7 +177,7 @@ extension Strings {
        "aichat.feedbackViewMainTitle",
        tableName: "BraveLeo",
        bundle: .module,
@@ -11,7 +11,7 @@ index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58
        comment: "The title for view which user type feedback"
      )
      public static let feedbackSubmitActionTitle = NSLocalizedString(
-@@ -172,7 +172,7 @@ extension Strings {
+@@ -205,7 +205,7 @@ extension Strings {
        "aichat.chatIntroSubTitle",
        tableName: "BraveLeo",
        bundle: .module,
@@ -20,7 +20,7 @@ index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58
        comment: "The subtitle for intro view"
      )
      public static let chatIntroWebsiteHelpTitle = NSLocalizedString(
-@@ -591,15 +591,15 @@ extension Strings {
+@@ -640,15 +640,15 @@ extension Strings {
        "aichat.advancedSettingsLinkPurchaseActionTitle",
        tableName: "BraveLeo",
        bundle: .module,
@@ -40,7 +40,7 @@ index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58
      )
      public static let advancedSettingsSubscriptionHeaderTitle = NSLocalizedString(
        "aichat.advancedSettingsSubscriptionHeaderTitle",
-@@ -745,7 +745,7 @@ extension Strings {
+@@ -802,7 +802,7 @@ extension Strings {
        "aichat.termsConditionsTitle",
        tableName: "BraveLeo",
        bundle: .module,
@@ -49,7 +49,7 @@ index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58
        comment: "The title terms and conditions for AI chat usage"
      )
      public static let termsConditionsDescription = NSLocalizedString(
-@@ -762,7 +762,7 @@ extension Strings {
+@@ -819,14 +819,14 @@ extension Strings {
        tableName: "BraveLeo",
        bundle: .module,
        value: "I Understand",
@@ -58,7 +58,15 @@ index d6afe564c0d57413a884bb76ed5877acfa1ec3c6..006ed78a4ff239432637dbf8b3baba58
      )
      public static let feedbackPremiumAdTitle = NSLocalizedString(
        "aichat.feedbackPremiumAdTitle",
-@@ -777,7 +777,7 @@ extension Strings {
+       tableName: "BraveLeo",
+       bundle: .module,
+       value:
+-        "Leo Premium provides access to an expanded set of language models for even greater answer nuance. [Learn more](https://brave.com/) - [Dismiss](braveai://dismiss)",
++        "Leo Premium provides access to an expanded set of language models for even greater answer nuance. [Learn more](https://ibrowe.com/) - [Dismiss](braveai://dismiss)",
+       comment:
+         "The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated"
+     )
+@@ -834,7 +834,7 @@ extension Strings {
        "aichat.speechRecognizerDisclaimer",
        tableName: "BraveLeo",
        bundle: .module,

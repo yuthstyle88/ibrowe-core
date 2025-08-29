@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BraveWallet/WalletStrings.swift b/ios/brave-ios/Sources/BraveWallet/WalletStrings.swift
-index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb569499988d0c3 100644
+index 7f7b340053377c82257b58d0c943acd17541b864..30e0e83ebeec307b8c0e8ce99ff7cb68b52a32c8 100644
 --- a/ios/brave-ios/Sources/BraveWallet/WalletStrings.swift
 +++ b/ios/brave-ios/Sources/BraveWallet/WalletStrings.swift
 @@ -14,7 +14,7 @@ extension Strings {
@@ -20,7 +20,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
      )
      public static let web3 = NSLocalizedString(
        "wallet.web3",
-@@ -488,7 +488,7 @@ extension Strings {
+@@ -495,7 +495,7 @@ extension Strings {
        "wallet.cryptoTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -29,7 +29,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment: "The title of the crypto tab"
      )
      public static let backupWalletWarningMessage = NSLocalizedString(
-@@ -664,7 +664,7 @@ extension Strings {
+@@ -671,7 +671,7 @@ extension Strings {
        "wallet.setupCryptoCreateNewSubTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -38,7 +38,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The subtitle displayed in the section for user that need to create a brand new wallet"
      )
-@@ -819,7 +819,7 @@ extension Strings {
+@@ -826,7 +826,7 @@ extension Strings {
        "wallet.onbordingCompletedSubTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -47,7 +47,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment: "The subtitle of the last step of creating a new wallet."
      )
      public static let onboardingCompletedButtonTitle = NSLocalizedString(
-@@ -918,8 +918,8 @@ extension Strings {
+@@ -925,8 +925,8 @@ extension Strings {
        "wallet.restoreLegacyBraveWalletToggleTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -58,7 +58,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
      )
      public static let createWalletBackButtonTitle = NSLocalizedString(
        "wallet.createWalletBackButtonTitle",
-@@ -1002,7 +1002,7 @@ extension Strings {
+@@ -1009,7 +1009,7 @@ extension Strings {
        "wallet.settingsResetWalletAlertTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -67,7 +67,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device"
      )
-@@ -1201,7 +1201,7 @@ extension Strings {
+@@ -1208,7 +1208,7 @@ extension Strings {
        "wallet.biometricsSetupTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -76,7 +76,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device."
      )
-@@ -1209,7 +1209,7 @@ extension Strings {
+@@ -1216,7 +1216,7 @@ extension Strings {
        "wallet.biometricsSetupSubTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -85,7 +85,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The sub-title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device."
      )
-@@ -1255,7 +1255,7 @@ extension Strings {
+@@ -1262,7 +1262,7 @@ extension Strings {
        "wallet.autoLockFooter",
        tableName: "BraveWallet",
        bundle: .module,
@@ -94,7 +94,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment: "The footer beneath the auto-lock title and interval duration"
      )
      public static let enterAmount = NSLocalizedString(
-@@ -1348,7 +1348,7 @@ extension Strings {
+@@ -1355,7 +1355,7 @@ extension Strings {
        "wallet.swapCryptoUnsupportNetworkBody",
        tableName: "BraveWallet",
        bundle: .module,
@@ -103,7 +103,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network'"
      )
-@@ -1396,7 +1396,7 @@ extension Strings {
+@@ -1403,7 +1403,7 @@ extension Strings {
        "wallet.braveFeeLabel",
        tableName: "BraveWallet",
        bundle: .module,
@@ -112,7 +112,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The title for Brave Fee label in Swap. The fee percentage is displayed beside the label."
      )
-@@ -2185,7 +2185,7 @@ extension Strings {
+@@ -2192,7 +2192,7 @@ extension Strings {
        "wallet.swapDexAggrigatorNote",
        tableName: "BraveWallet",
        bundle: .module,
@@ -121,7 +121,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange)"
      )
-@@ -2226,7 +2226,7 @@ extension Strings {
+@@ -2233,7 +2233,7 @@ extension Strings {
        "wallet.braveSwapFeeDisclaimer",
        tableName: "BraveWallet",
        bundle: .module,
@@ -130,7 +130,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee'"
      )
-@@ -2808,7 +2808,7 @@ extension Strings {
+@@ -2863,7 +2863,7 @@ extension Strings {
        "wallet.dappsConnectionNotificationTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -139,7 +139,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet."
      )
-@@ -2816,7 +2816,7 @@ extension Strings {
+@@ -2871,7 +2871,7 @@ extension Strings {
        "wallet.dappsConnectionNotificationOriginTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -148,7 +148,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: \"app.uniswap.org wants to interact with Brave Wallet\""
      )
-@@ -2877,7 +2877,7 @@ extension Strings {
+@@ -2932,7 +2932,7 @@ extension Strings {
        "wallet.newSiteConnectMessage",
        tableName: "BraveWallet",
        bundle: .module,
@@ -157,7 +157,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment: "The message displayed below the dapp's origin url in new site connection screen."
      )
      public static let newSiteConnectFooter = NSLocalizedString(
-@@ -2978,7 +2978,7 @@ extension Strings {
+@@ -3033,7 +3033,7 @@ extension Strings {
        "wallet.addNetworkDescription",
        tableName: "BraveWallet",
        bundle: .module,
@@ -166,7 +166,16 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The description of the view shown over a dapps website that describes what adding a new network will do."
      )
-@@ -3621,7 +3621,7 @@ extension Strings {
+@@ -3397,7 +3397,7 @@ extension Strings {
+       value:
+         "is requesting your wallet's public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.",
+       comment:
+-        "The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://brave.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.'"
++        "The text shown beside the URL origin of a get public encryption key request from a dapp site. Ex 'https://ibrowe.com is requesting your wallets public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.'"
+     )
+     public static let getEncryptionPublicKeyRequestApprove = NSLocalizedString(
+       "wallet.getEncryptionPublicKeyRequestApprove",
+@@ -3690,7 +3690,7 @@ extension Strings {
        "wallet.dappsSettingsConnectedSitesSectionEmpty",
        tableName: "BraveWallet",
        bundle: .module,
@@ -175,7 +184,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "A message that will be displayed under the section header when there is no dapps have been granted wallet connection."
      )
-@@ -4600,7 +4600,7 @@ extension Strings {
+@@ -4584,7 +4584,7 @@ extension Strings {
        "wallet.ensOffchainGatewayTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -184,7 +193,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "Title shown send address / ENS domain when requesting to do an ENS off chain lookup."
      )
-@@ -4649,7 +4649,7 @@ extension Strings {
+@@ -4633,7 +4633,7 @@ extension Strings {
        "wallet.snsDomainInterstitialPageTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -193,7 +202,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one."
      )
-@@ -4675,7 +4675,7 @@ extension Strings {
+@@ -4659,7 +4659,7 @@ extension Strings {
        "wallet.ensDomainInterstitialPageTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -202,7 +211,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one."
      )
-@@ -4701,7 +4701,7 @@ extension Strings {
+@@ -4685,7 +4685,7 @@ extension Strings {
        "wallet.ensOffchainDomainInterstitialPageTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -211,7 +220,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one."
      )
-@@ -4727,7 +4727,7 @@ extension Strings {
+@@ -4711,7 +4711,7 @@ extension Strings {
        "wallet.udDomainInterstitialPageTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -220,7 +229,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one."
      )
-@@ -4944,7 +4944,7 @@ extension Strings {
+@@ -4928,7 +4928,7 @@ extension Strings {
        "wallet.nftRemoveFromWalletAlertTitle",
        tableName: "BraveWallet",
        bundle: .module,
@@ -229,7 +238,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment: "The title of the alert when user attempts to remove an NFT from wallet."
      )
      public static let nftRemoveFromWalletAlertDescription = NSLocalizedString(
-@@ -5224,7 +5224,7 @@ extension Strings {
+@@ -5208,7 +5208,7 @@ extension Strings {
        "wallet.signInWithBraveWallet",
        tableName: "BraveWallet",
        bundle: .module,
@@ -238,7 +247,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment: "The title of the view shown above a Sign In With Ethereum request."
      )
      public static let securityRiskDetectedTitle = NSLocalizedString(
-@@ -5239,7 +5239,7 @@ extension Strings {
+@@ -5223,7 +5223,7 @@ extension Strings {
        "wallet.signInWithBraveWalletMessage",
        tableName: "BraveWallet",
        bundle: .module,
@@ -247,7 +256,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
        comment:
          "The title of the view shown when a security issue is detected with a Sign In With Ethereum request."
      )
-@@ -5349,7 +5349,7 @@ extension Strings {
+@@ -5333,7 +5333,7 @@ extension Strings {
        tableName: "BraveWallet",
        bundle: .module,
        value: "Details",
@@ -256,7 +265,7 @@ index 759f0474c43a83ef3cc90361ab63b5c0cc3863d2..afe6b49ddfa0c23e157871675cb56949
      )
      public static let transactionSummaryIntentLabel = NSLocalizedString(
        "wallet.transactionSummaryIntentLabel",
-@@ -5518,7 +5518,7 @@ extension Strings {
+@@ -5502,7 +5502,7 @@ extension Strings {
        "wallet.btcOrdinalsUnsupportedWarning",
        tableName: "BraveWallet",
        bundle: .module,

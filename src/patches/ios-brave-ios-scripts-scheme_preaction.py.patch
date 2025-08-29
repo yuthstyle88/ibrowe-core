@@ -1,53 +1,17 @@
 diff --git a/ios/brave-ios/scripts/scheme_preaction.py b/ios/brave-ios/scripts/scheme_preaction.py
-index 237871fbf329971d5a3b9a6ece7c5ff25477b3ae..690bc7411c07411efbfd050926092180e0862bc7 100755
+index 237871fbf329971d5a3b9a6ece7c5ff25477b3ae..575db8b01cfe2f56e42c7aaaa0be2f00216453bc 100755
 --- a/ios/brave-ios/scripts/scheme_preaction.py
 +++ b/ios/brave-ios/scripts/scheme_preaction.py
-@@ -35,6 +35,10 @@ def main():
-                         action='store_true',
-                         default=False,
-                         help='Only update the symlink')
-+    parser.add_argument('--skip_patches',
-+                        action='store_true',
-+                        default=False,
-+                        help='Skip applying ibrowe patches')
+@@ -54,9 +54,10 @@ def main():
+             err = inspect.cleandoc(f'''
+             Expected out directory for chosen build doesn't exist:
  
-     options = parser.parse_args()
+-            {output_dir}
++              {output_dir}
  
-@@ -60,6 +64,8 @@ def main():
+-            Ensure you run the correct `npm run build` command prior to building
++            You must run a Release build first before attempting to Archive / App Store build.
++            Run the correct `npm run build` command prior to building in Xcode.
              ''')
              raise Exception(err)
      else:
-+        if not options.skip_patches:
-+            ApplyIBrowePatches()
-         BuildCore(config, target_arch, target_environment)
-         CallNpm(['npm', 'run', 'ios_pack_js'])
-     UpdateSymlink(config, target_arch, target_environment)
-@@ -95,6 +101,28 @@ def BuildCore(config, target_arch, target_environment):
-     CallNpm(cmd_args)
- 
- 
-+def ApplyIBrowePatches():
-+    """Applies patches from the ibrowe repository"""
-+    patches_dir = os.path.join(brave_root_dir, 'src', 'ibrowe', 'src', 'patches')
-+    
-+    # Check if patches directory exists
-+    if not os.path.exists(patches_dir):
-+        print("Patches directory not found. Skipping patch application.")
-+        return
-+        
-+    print("Applying IBrowe patches...")
-+    try:
-+        # Run the Node.js script to apply patches
-+        cmd = ['node', os.path.join(this_dir, 'applyIBrowePatches.js')]
-+        retcode = subprocess.call(cmd, cwd=brave_root_dir, stderr=subprocess.STDOUT)
-+        if retcode:
-+            raise subprocess.CalledProcessError(retcode, cmd)
-+        print("IBrowe patches applied successfully.")
-+    except Exception as e:
-+        print(f"Error applying IBrowe patches: {str(e)}")
-+        raise
-+
-+
- def CallNpm(cmd):
-     retcode = subprocess.call(cmd, cwd=brave_root_dir, stderr=subprocess.STDOUT)
-     if retcode:

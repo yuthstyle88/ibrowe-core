@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
-index ec243f38879e3eebce2baffcace037d32006dd8e..922c291299b401e5eaa88bcab420982ffa57f2ed 100644
+index 16d7a14ce25213b541c600ec42cfcb102f99b827..bb1fa9ec9412ededd3eb67e697f371462ee6694b 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
-@@ -219,23 +219,6 @@ class SettingsViewController: TableViewController {
+@@ -225,23 +225,6 @@ class SettingsViewController: TableViewController {
        aboutSection,
      ]
  
@@ -26,7 +26,7 @@ index ec243f38879e3eebce2baffcace037d32006dd8e..922c291299b401e5eaa88bcab420982f
      // Always show debug section in local builds and show if previously shown
      if !AppConstants.isOfficialBuild || Preferences.Debug.developerOptionsEnabled.value {
        list.append(debugSection)
-@@ -246,29 +229,6 @@ class SettingsViewController: TableViewController {
+@@ -252,29 +235,6 @@ class SettingsViewController: TableViewController {
  
    // MARK: - Sections
  
@@ -56,7 +56,7 @@ index ec243f38879e3eebce2baffcace037d32006dd8e..922c291299b401e5eaa88bcab420982f
    private lazy var defaultBrowserSection: Static.Section = {
      var section = Static.Section(
        rows: [
-@@ -397,12 +357,6 @@ class SettingsViewController: TableViewController {
+@@ -417,12 +377,6 @@ class SettingsViewController: TableViewController {
        )
      )
  
@@ -69,7 +69,7 @@ index ec243f38879e3eebce2baffcace037d32006dd8e..922c291299b401e5eaa88bcab420982f
      section.rows.append(
        Row(
          text: Strings.PlayList.playListTitle,
-@@ -950,7 +904,7 @@ class SettingsViewController: TableViewController {
+@@ -987,7 +941,7 @@ class SettingsViewController: TableViewController {
              // Rate Brave
              guard
                let writeReviewURL = URL(

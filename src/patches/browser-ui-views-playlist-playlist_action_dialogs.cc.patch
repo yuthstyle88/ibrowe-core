@@ -1,8 +1,8 @@
 diff --git a/browser/ui/views/playlist/playlist_action_dialogs.cc b/browser/ui/views/playlist/playlist_action_dialogs.cc
-index 7d75fa5c5ba593a92b11fc2902dfb0ae6bae41f9..3eb95b2a5f37e3b07aca2abc718811a270e5f9cb 100644
+index c02e0524e9cdb2ba8a553168bd6b37a9f1b72046..a6d63d1ef087ce94488e3ed9807896a2f8e803c8 100644
 --- a/browser/ui/views/playlist/playlist_action_dialogs.cc
 +++ b/browser/ui/views/playlist/playlist_action_dialogs.cc
-@@ -225,7 +225,7 @@ void ShowPlaylistSettings(content::WebContents* contents) {
+@@ -231,7 +231,7 @@ void ShowPlaylistSettings(content::WebContents* contents) {
    auto* browser_view = FindBrowserViewFromWebContents(contents);
    CHECK(browser_view);
    ShowSingletonTab(browser_view->browser(),

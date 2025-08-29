@@ -1,8 +1,8 @@
 diff --git a/chromium_src/chrome/updater/branding.gni b/chromium_src/chrome/updater/branding.gni
-index 06fb0b6ec071cf4c4d2a4969b2a5f5153c5ca162..a4c012be88eaa4cb96b2f76d2728387907ddc60f 100644
+index db0ddb391250ad503d8689adfe5ef62031e84d1b..c239959df85da8c0b11d5dca905beba2a7a1942d 100644
 --- a/chromium_src/chrome/updater/branding.gni
 +++ b/chromium_src/chrome/updater/branding.gni
-@@ -14,25 +14,25 @@
+@@ -14,25 +14,26 @@
  import("//build/util/branding.gni")
  
  brave_updater_branding = {
@@ -14,7 +14,7 @@ index 06fb0b6ec071cf4c4d2a4969b2a5f5153c5ca162..a4c012be88eaa4cb96b2f76d27283879
    keystone_app_name = "BraveSoftwareUpdate"
 -  keystone_bundle_identifier = "com.brave.Keystone"
 -  mac_browser_bundle_identifier = "com.brave.Browser"
--  mac_updater_bundle_identifier = "com.brave.Updater"
+-  mac_updater_bundle_identifier = "com.brave.BraveUpdater"
 -  privileged_helper_bundle_name = "BraveUpdaterPrivilegedHelper"
 -  privileged_helper_name = "com.brave.Browser.UpdaterPrivilegedHelper"
 -  updater_company_full_name = "Brave Software, Inc"
@@ -29,19 +29,20 @@ index 06fb0b6ec071cf4c4d2a4969b2a5f5153c5ca162..a4c012be88eaa4cb96b2f76d27283879
 +  updater_company_full_name = "iBrowe Software, Inc"
 +  updater_company_short_name = "iBroweSoftware"
 +  updater_company_short_name_uppercase = "IBROWESOFTWARE"
-+  updater_copyright = "Copyright 2025 The iBrowe Authors. All rights reserved."
++  updater_copyright = "Copyright 2024 The iBrowe Authors. All rights reserved."
    updater_product_full_name = "BraveUpdater"
 -  mac_team_identifier = "KL8N8XSYF4"
 +  mac_team_identifier = "D8FP7GS222"
    grdfile_name = "brave_strings"
  
++
    # The following values come from our Omaha 3 implementation:
 -  legacy_service_name_prefix = "brave"
 +  legacy_service_name_prefix = "iBrowe"
    UpdaterLegacyLibGUID = "6FF4F468-0B5A-4878-ACEB-86263DAAD877"
    GoogleUpdate3WebUserClassGUID = "2F78AECB-0A7F-4474-89D5-C325293DE960"
    GoogleUpdate3WebSystemClassGUID = "00B16F95-319A-4F01-AC81-CE69B8F4E387"
-@@ -84,6 +84,6 @@ brave_updater_branding = {
+@@ -84,6 +85,6 @@ brave_updater_branding = {
    declare_args() {
      # Omaha 4 update server:
      update_check_url =

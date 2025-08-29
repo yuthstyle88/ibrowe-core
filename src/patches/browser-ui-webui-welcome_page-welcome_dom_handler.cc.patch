@@ -1,8 +1,8 @@
 diff --git a/browser/ui/webui/welcome_page/welcome_dom_handler.cc b/browser/ui/webui/welcome_page/welcome_dom_handler.cc
-index 7f096468d707b4b7b9f3ed55af6d4514da0ae9a3..02c194d8ac004ccb5ccf42f70f83c30fd574b1af 100644
+index a1608c56f9c4fa5247ff34c1587a20150f842934..5b077e4ba2f94e5420387d26efd89d05c9b53caa 100644
 --- a/browser/ui/webui/welcome_page/welcome_dom_handler.cc
 +++ b/browser/ui/webui/welcome_page/welcome_dom_handler.cc
-@@ -71,7 +71,7 @@ WelcomeDOMHandler::WelcomeDOMHandler(Profile* profile)
+@@ -84,7 +84,7 @@ WelcomeDOMHandler::WelcomeDOMHandler(Profile* profile)
        brave_education_server_checker_(*profile->GetPrefs(),
                                        profile->GetURLLoaderFactory()) {
    base::MakeRefCounted<shell_integration::DefaultSchemeClientWorker>(
@@ -11,7 +11,7 @@ index 7f096468d707b4b7b9f3ed55af6d4514da0ae9a3..02c194d8ac004ccb5ccf42f70f83c30f
        ->StartCheckIsDefaultAndGetDefaultClientName(
            base::BindOnce(&WelcomeDOMHandler::OnGetDefaultBrowser,
                           weak_ptr_factory_.GetWeakPtr()));
-@@ -161,7 +161,7 @@ void WelcomeDOMHandler::HandleOpenSettingsPage(const base::Value::List& args) {
+@@ -174,7 +174,7 @@ void WelcomeDOMHandler::HandleOpenSettingsPage(const base::Value::List& args) {
    Browser* browser = chrome::FindBrowserWithProfile(profile_);
    if (browser) {
      content::OpenURLParams open_params(

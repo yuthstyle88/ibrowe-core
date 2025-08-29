@@ -1,8 +1,8 @@
 diff --git a/components/sync/service/brave_sync_auth_manager.cc b/components/sync/service/brave_sync_auth_manager.cc
-index d03d8ca746ad15406205fcb48d96ab01ff212bd4..c3f11ea8b97d5270db0a3cdb2895bdf1470bf71e 100644
+index 1a6f9c29dcd0e3583f00e8cbe74d21e57a2e67b8..11ad2aa31d42b8e855a56f638088248611fe5023 100644
 --- a/components/sync/service/brave_sync_auth_manager.cc
 +++ b/components/sync/service/brave_sync_auth_manager.cc
-@@ -84,7 +84,7 @@ SyncAccountInfo BraveSyncAuthManager::DetermineAccountToUse() const {
+@@ -83,7 +83,7 @@ SyncAccountInfo BraveSyncAuthManager::DetermineAccountToUse() const {
      // data within specific width. (ex. client_version and encrypted_types)
      account_info.email =
          std::string(client_id).insert(client_id.length() / 2, 1, ' ') +

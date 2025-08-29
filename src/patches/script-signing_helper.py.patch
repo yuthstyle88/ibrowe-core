@@ -1,8 +1,8 @@
 diff --git a/script/signing_helper.py b/script/signing_helper.py
-index 8db14680d0de13db13c2ed1abbb7e485b29ad1a1..cb91a34af91a18e052f754cd942669cd54705371 100755
+index 77f8cbb9ee00d4766243d6660f50f9d891ab932d..d61366322d6714447f7a3b255981282aab943dd0 100755
 --- a/script/signing_helper.py
 +++ b/script/signing_helper.py
-@@ -103,8 +103,8 @@ def BraveModifyPartsForSigning(parts, config):
+@@ -92,8 +92,8 @@ def BraveModifyPartsForSigning(parts, config):
          # We should instead use upstream's channel_customize mechanism.
          # See https://github.com/brave/brave-browser/issues/39347.
          privileged_helper = parts['privileged-helper']

@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift b/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift
-index 48a929cd50339fb98588c36d1745e9c1103feff9..080329c1d5720930436191e0881f6301229ceea8 100644
+index 92d7b29d5ac997aa8d34eb14cb6d578e433c1c9e..8a13ad891dc16d8d5a59e362f978bdf4ea2ac8d2 100644
 --- a/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift
 +++ b/ios/brave-ios/Sources/BraveShields/ShieldStrings.swift
 @@ -221,7 +221,7 @@ extension Strings.Shields {
@@ -78,7 +78,16 @@ index 48a929cd50339fb98588c36d1745e9c1103feff9..080329c1d5720930436191e0881f6301
    )
  }
  
-@@ -462,7 +462,7 @@ extension Strings.Shields {
+@@ -322,7 +322,7 @@ extension Strings.Shields {
+     tableName: "BraveShared",
+     bundle: .module,
+     value:
+-      "Ask websites not to sell or share your data. [Learn more](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)",
++      "Ask websites not to sell or share your data. [Learn more](https://support.ibrowe.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)",
+     comment: "A description of what the Enable GPC toggle does"
+   )
+ }
+@@ -463,7 +463,7 @@ extension Strings.Shields {
      "DomainBlockedPageMessage",
      tableName: "BraveShared",
      bundle: .module,

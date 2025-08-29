@@ -1,31 +1,10 @@
 diff --git a/build/config.gni b/build/config.gni
-index fd039dda10c415a9a6af864acecb5c28d21660d2..5f2ee0f3dcd65f12c95703142adf1fc10438b94f 100644
+index 2fed6ece5949bc2c94e6227a5361bc553dd08e8d..f6c9cf831beaabd809019c084694e4b05ac57d6c 100644
 --- a/build/config.gni
 +++ b/build/config.gni
-@@ -14,7 +14,7 @@ declare_args() {
-   # "nightly" for nightly channel release.
-   # "" for stable channel release.
-   brave_channel = ""
--  is_release_channel = false
-+  is_release_channel = true
-   base_sparkle_update_url = ""
-   enable_sparkle = !is_component_build && is_mac
-   build_sparkle = false
-@@ -23,7 +23,7 @@ declare_args() {
-   sparkle_eddsa_private_key = ""
-   sparkle_eddsa_public_key = ""
- 
--  brave_product_name = "brave"
-+  brave_product_name = "ibrowe"
-   brave_exe = ""
-   brave_version_major = ""
-   brave_version_minor = ""
-@@ -109,16 +109,16 @@ if (is_win) {
-   if (target_cpu == "x86") {
-     _arch = "32"
+@@ -112,16 +112,16 @@ if (is_win) {
    }
--  brave_installer_exe = "brave_installer.exe"
-+  brave_installer_exe = "ibrowe_installer.exe"
+   brave_installer_exe = "brave_installer.exe"
    brave_stub_installer_exe =
 -      "BraveBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
 +      "iBroweBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
@@ -40,9 +19,12 @@ index fd039dda10c415a9a6af864acecb5c28d21660d2..5f2ee0f3dcd65f12c95703142adf1fc1
 -  brave_silent_installer_exe = "BraveBrowserStandaloneSilent$_channel" +
 +  brave_silent_installer_exe = "iBroweBrowserStandaloneSilent$_channel" +
                                 "Setup$_arch$brave_underline_full_version.exe"
-   brave_untagged_installer_exe = "BraveBrowserStandaloneUntagged$_channel" +
+-  brave_untagged_installer_exe = "BraveBrowserStandaloneUntagged$_channel" +
++  brave_untagged_installer_exe = "iBroweBrowserStandaloneUntagged$_channel" +
                                   "Setup$_arch$brave_underline_full_version.exe"
-@@ -143,11 +143,11 @@ if (is_win) {
+ } else if (is_mac) {
+   brave_exe = "$chrome_product_full_name.app"
+@@ -145,11 +145,11 @@ if (is_win) {
      brave_product_dir_name_suffix = "-Development"
    }
    brave_product_dir_name =
@@ -56,7 +38,7 @@ index fd039dda10c415a9a6af864acecb5c28d21660d2..5f2ee0f3dcd65f12c95703142adf1fc1
    }
  }
  
-@@ -164,7 +164,7 @@ is_release_channel = brave_channel == ""
+@@ -166,7 +166,7 @@ is_release_channel = brave_channel == ""
  
  brave_android_output = ""
  if (is_android) {

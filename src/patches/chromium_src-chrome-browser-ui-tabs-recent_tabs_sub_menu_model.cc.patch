@@ -1,8 +1,8 @@
 diff --git a/chromium_src/chrome/browser/ui/tabs/recent_tabs_sub_menu_model.cc b/chromium_src/chrome/browser/ui/tabs/recent_tabs_sub_menu_model.cc
-index 9831da879aecf121b94bf836b9b7e2ce4c191950..6fc945c859799a77c618eed8011912b536e0aa96 100644
+index 6bc548ddb4d5b7056ec9d5733bc1d690e2eb38d4..0137125d792c2c532a52dca9368b62029c956daa 100644
 --- a/chromium_src/chrome/browser/ui/tabs/recent_tabs_sub_menu_model.cc
 +++ b/chromium_src/chrome/browser/ui/tabs/recent_tabs_sub_menu_model.cc
-@@ -10,7 +10,7 @@
+@@ -11,7 +11,7 @@
  namespace {
  
  constexpr char kBraveStubSessionTag[] = "brave_stub_more_session_tag";

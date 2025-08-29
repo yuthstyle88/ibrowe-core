@@ -1,8 +1,103 @@
 diff --git a/components/sidebar/browser/sidebar_service_unittest.cc b/components/sidebar/browser/sidebar_service_unittest.cc
-index 39a7a4d4bfcab5d281d588e59d4489ac56ccf257..afb5e7cd9f9d106f30679c8648fbdaa7e1155496 100644
+index 43573b69324431d116d5b64c2d8e998e817cf74a..8678ef85f3438064fdaad16d0e88923613afd894 100644
 --- a/components/sidebar/browser/sidebar_service_unittest.cc
 +++ b/components/sidebar/browser/sidebar_service_unittest.cc
-@@ -800,8 +800,8 @@ TEST_F(SidebarServiceTest, BuiltInItemUpdateTestWithBuiltInItemTypeKey) {
+@@ -278,7 +278,7 @@ TEST_F(SidebarServiceTest, AddRemoveItems) {
+   EXPECT_EQ(0UL, service_->GetHiddenDefaultSidebarItems().size());
+ 
+   const SidebarItem item2 = SidebarItem::Create(
+-      GURL("https://www.brave.com/"), u"brave software",
++      GURL("https://www.ibrowe.com/"), u"brave software",
+       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
+   EXPECT_TRUE(item2.is_web_type());
+   EXPECT_CALL(observer_, OnItemAdded(item2, default_item_count)).Times(1);
+@@ -295,7 +295,7 @@ TEST_F(SidebarServiceTest, MoveItem) {
+ 
+   // Add one more item to test with 5 items.
+   SidebarItem new_item = SidebarItem::Create(
+-      GURL("https://www.brave.com/"), u"brave software",
++      GURL("https://www.ibrowe.com/"), u"brave software",
+       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
+   service_->AddItem(new_item);
+   EXPECT_EQ(GetDefaultItemCount() + 1, service_->items().size());
+@@ -362,7 +362,7 @@ TEST_F(SidebarServiceTest, UpdateItem) {
+   EXPECT_FALSE(service_->IsEditableItemAt(last_item_index));
+ 
+   SidebarItem brave_item;
+-  const GURL brave_url("https://brave.com/");
++  const GURL brave_url("https://ibrowe.com/");
+   const std::u16string brave_title(u"Brave software");
+   brave_item.url = brave_url;
+   brave_item.title = brave_title;
+@@ -410,7 +410,7 @@ TEST_F(SidebarServiceTest, MoveItemSavedToPrefs) {
+   // Add one more item to test.
+   const auto expected_item_count = GetDefaultItemCount() + 1;
+   SidebarItem new_item = SidebarItem::Create(
+-      GURL("https://www.brave.com/"), u"brave software",
++      GURL("https://www.ibrowe.com/"), u"brave software",
+       SidebarItem::Type::kTypeWeb, SidebarItem::BuiltInItemType::kNone, false);
+   service_->AddItem(new_item);
+   EXPECT_EQ(expected_item_count, service_->items().size());
+@@ -437,7 +437,7 @@ TEST_F(SidebarServiceTest, HideBuiltInItem) {
+   }
+   {
+     base::Value::Dict dict;
+-    dict.Set(sidebar::kSidebarItemURLKey, "https://custom1.brave.com/");
++    dict.Set(sidebar::kSidebarItemURLKey, "https://custom1.ibrowe.com/");
+     dict.Set(sidebar::kSidebarItemTitleKey, "Custom Item 1");
+     dict.Set(sidebar::kSidebarItemTypeKey,
+              static_cast<int>(SidebarItem::Type::kTypeWeb));
+@@ -474,7 +474,7 @@ TEST_F(SidebarServiceTest, NewDefaultItemAdded) {
+   }
+   {
+     base::Value::Dict dict;
+-    dict.Set(sidebar::kSidebarItemURLKey, "https://custom1.brave.com/");
++    dict.Set(sidebar::kSidebarItemURLKey, "https://custom1.ibrowe.com/");
+     dict.Set(sidebar::kSidebarItemTitleKey, "Custom Item 1");
+     dict.Set(sidebar::kSidebarItemTypeKey,
+              static_cast<int>(SidebarItem::Type::kTypeWeb));
+@@ -556,7 +556,7 @@ TEST_F(SidebarServiceTest, MigratePrefSidebarBuiltInItemsSomeHidden) {
+   // initialization.
+   {
+     base::Value::Dict dict;
+-    dict.Set(sidebar::kSidebarItemURLKey, "https://anything.brave.com/");
++    dict.Set(sidebar::kSidebarItemURLKey, "https://anything.ibrowe.com/");
+     dict.Set(sidebar::kSidebarItemTitleKey, "Anything");
+     dict.Set(sidebar::kSidebarItemTypeKey,
+              static_cast<int>(SidebarItem::Type::kTypeBuiltIn));
+@@ -612,7 +612,7 @@ TEST_F(SidebarServiceTest, MigratePrefSidebarBuiltInItemsNoneHidden) {
+     base::Value::List list;
+     for (const auto& built_in_type : hideable_types) {
+       base::Value::Dict dict;
+-      dict.Set(sidebar::kSidebarItemURLKey, "https://anything.brave.com/");
++      dict.Set(sidebar::kSidebarItemURLKey, "https://anything.ibrowe.com/");
+       dict.Set(sidebar::kSidebarItemTitleKey, "Anything");
+       dict.Set(sidebar::kSidebarItemTypeKey,
+                static_cast<int>(SidebarItem::Type::kTypeBuiltIn));
+@@ -623,7 +623,7 @@ TEST_F(SidebarServiceTest, MigratePrefSidebarBuiltInItemsNoneHidden) {
+     }
+ 
+     base::Value::Dict dict;
+-    dict.Set(sidebar::kSidebarItemURLKey, "https://custom1.brave.com/");
++    dict.Set(sidebar::kSidebarItemURLKey, "https://custom1.ibrowe.com/");
+     dict.Set(sidebar::kSidebarItemTitleKey, "Custom Item 1");
+     dict.Set(sidebar::kSidebarItemTypeKey,
+              static_cast<int>(SidebarItem::Type::kTypeWeb));
+@@ -695,7 +695,7 @@ TEST_F(SidebarServiceTest, MigratePrefSidebarBuiltInItemsNoType) {
+   {
+     // Items should not receive a built-in-item-type.
+     std::vector<std::string> urls{
+-        "https://together.brave.com/",
++        "https://together.ibrowe.com/",
+         "chrome://wallet/",
+         "chrome://bookmarks/",
+         "chrome://history/",
+@@ -797,12 +797,12 @@ TEST_F(SidebarServiceTest, BuiltInItemUpdateTestWithBuiltInItemTypeKey) {
+   // And it has old url in old pref format (storing built-in items).
+   {
+     base::Value::Dict dict;
+-    dict.Set(sidebar::kSidebarItemURLKey, "https://deprecated.brave.com/");
++    dict.Set(sidebar::kSidebarItemURLKey, "https://deprecated.ibrowe.com/");
      dict.Set(sidebar::kSidebarItemTitleKey, "Brave together");
      dict.Set(sidebar::kSidebarItemTypeKey,
               static_cast<int>(SidebarItem::Type::kTypeBuiltIn));
@@ -13,7 +108,16 @@ index 39a7a4d4bfcab5d281d588e59d4489ac56ccf257..afb5e7cd9f9d106f30679c8648fbdaa7
      dict.Set(sidebar::kSidebarItemOpenInPanelKey, true);
      base::Value::List list;
      list.Append(std::move(dict));
-@@ -1013,7 +1013,8 @@ TEST_F(SidebarServiceOrderingTest, BuiltInItemsDefaultOrder) {
+@@ -842,7 +842,7 @@ TEST_F(SidebarServiceTest, BuiltInItemDoesntHaveHistoryItem) {
+   // And it has history item.
+   {
+     base::Value::Dict dict;
+-    dict.Set(sidebar::kSidebarItemURLKey, "https://deprecated.brave.com/");
++    dict.Set(sidebar::kSidebarItemURLKey, "https://deprecated.ibrowe.com/");
+     dict.Set(sidebar::kSidebarItemTypeKey,
+              static_cast<int>(SidebarItem::Type::kTypeBuiltIn));
+     dict.Set(sidebar::kSidebarItemBuiltInItemTypeKey,
+@@ -1014,7 +1014,8 @@ TEST_F(SidebarServiceOrderingTest, BuiltInItemsDefaultOrder) {
    EXPECT_EQ(0UL, service_->GetHiddenDefaultSidebarItems().size());
  
    EXPECT_TRUE(
@@ -23,7 +127,7 @@ index 39a7a4d4bfcab5d281d588e59d4489ac56ccf257..afb5e7cd9f9d106f30679c8648fbdaa7
                                      SidebarItem::BuiltInItemType::kWallet,
                                      SidebarItem::BuiltInItemType::kChatUI,
                                      SidebarItem::BuiltInItemType::kBookmarks,
-@@ -1034,7 +1035,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAllBuiltInVisible) {
+@@ -1035,7 +1036,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAllBuiltInVisible) {
        SidebarItem::BuiltInItemType::kWallet,
        SidebarItem::BuiltInItemType::kReadingList,
        SidebarItem::BuiltInItemType::kBookmarks,
@@ -32,7 +136,7 @@ index 39a7a4d4bfcab5d281d588e59d4489ac56ccf257..afb5e7cd9f9d106f30679c8648fbdaa7
    };
  
    auto expected_count = sidebar_items->size();
-@@ -1054,7 +1055,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsWalletBuiltInHidden) {
+@@ -1055,7 +1056,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsWalletBuiltInHidden) {
    CHECK(sidebar_items);
  
    std::vector items = {
@@ -41,7 +145,7 @@ index 39a7a4d4bfcab5d281d588e59d4489ac56ccf257..afb5e7cd9f9d106f30679c8648fbdaa7
        SidebarItem::BuiltInItemType::kBookmarks,
        SidebarItem::BuiltInItemType::kReadingList,
        SidebarItem::BuiltInItemType::kChatUI,
-@@ -1081,7 +1082,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAIChatBuiltInNotListed) {
+@@ -1082,7 +1083,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAIChatBuiltInNotListed) {
    CHECK(sidebar_items);
  
    std::vector items = {

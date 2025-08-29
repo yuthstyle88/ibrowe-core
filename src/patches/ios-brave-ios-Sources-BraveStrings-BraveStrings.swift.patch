@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BraveStrings/BraveStrings.swift b/ios/brave-ios/Sources/BraveStrings/BraveStrings.swift
-index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3fd681c65 100644
+index 5d25aa608325104581186ddac4cbbefdd2c3c671..95241ce74d3a5c581bce2471323df40717b127b3 100644
 --- a/ios/brave-ios/Sources/BraveStrings/BraveStrings.swift
 +++ b/ios/brave-ios/Sources/BraveStrings/BraveStrings.swift
 @@ -188,14 +188,14 @@ extension Strings {
@@ -177,7 +177,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Popup title to let users know they can use the vpn on all their devices"
        )
  
-@@ -1811,7 +1811,7 @@ extension Strings {
+@@ -1832,7 +1832,7 @@ extension Strings {
        "optionsMenu.menuSectionTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -186,7 +186,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "Privacy Features Section title"
      )
      public static let braveVPNItemTitle = NSLocalizedString(
-@@ -1819,28 +1819,28 @@ extension Strings {
+@@ -1840,28 +1840,28 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "VPN",
@@ -219,7 +219,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let braveLeoItemDescription = NSLocalizedString(
        "optionsMenu.braveLeoItemDescription",
-@@ -1855,35 +1855,35 @@ extension Strings {
+@@ -1876,35 +1876,35 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "News",
@@ -260,7 +260,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
    }
  }
-@@ -1897,21 +1897,21 @@ extension Strings {
+@@ -1918,21 +1918,21 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Support independent search with better privacy",
@@ -287,7 +287,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let braveSearchPromotionBannerMaybeLaterButtonTitle = NSLocalizedString(
        "braveSearchPromotion.bannerMaybeLaterButtonTitle",
-@@ -2093,28 +2093,28 @@ extension Strings {
+@@ -2103,28 +2103,28 @@ extension Strings {
      "BraveRewardsTitle",
      tableName: "BraveShared",
      bundle: .module,
@@ -317,11 +317,11 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      tableName: "BraveShared",
      bundle: .module,
 -    value: "Hides the Brave Rewards icon when Brave Rewards is not enabled",
-+    value: "Hides the iBrowe Rewards icon when iBrowe Rewards is not enabled",
++    value: "Hides the Brave Rewards icon when iBrowe Rewards is not enabled",
      comment: "Hide the rewards icon explination."
    )
    public static let walletCreationDate = NSLocalizedString(
-@@ -2142,8 +2142,8 @@ extension Strings {
+@@ -2152,8 +2152,8 @@ extension Strings {
      "OpenBraveRewardsSettings",
      tableName: "BraveShared",
      bundle: .module,
@@ -332,7 +332,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let setDefaultBrowserSettingsCell =
      NSLocalizedString(
-@@ -2151,14 +2151,14 @@ extension Strings {
+@@ -2161,14 +2161,14 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Set as Default Browser",
@@ -349,7 +349,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
    public static let defaultBrowserCalloutCloseAccesabilityLabel =
-@@ -2195,7 +2195,7 @@ extension Strings {
+@@ -2213,7 +2213,7 @@ extension Strings {
          "settings.autocloseTabsSettingFooter",
          tableName: "BraveShared",
          bundle: .module,
@@ -358,7 +358,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Description of autoclose tabs feature."
        )
      public static let autocloseTabsManualOption =
-@@ -2264,8 +2264,8 @@ extension Strings {
+@@ -2282,8 +2282,8 @@ extension Strings {
          "settings.openYouTubeInBrave",
          tableName: "BraveShared",
          bundle: .module,
@@ -369,7 +369,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let highestQualityPlayback =
-@@ -2300,7 +2300,7 @@ extension Strings {
+@@ -2372,7 +2372,7 @@ extension Strings {
          "settings.sendUsagePingTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -378,7 +378,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Title to explain the daily usage ping toggle"
        )
  
-@@ -2309,7 +2309,7 @@ extension Strings {
+@@ -2381,7 +2381,7 @@ extension Strings {
          "settings.sendUsagePingDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -386,8 +386,26 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
 +        value: "This private ping lets iBrowe estimate active users.",
          comment: "Description to explain the daily usage ping toggle"
        )
+ 
+@@ -2390,7 +2390,7 @@ extension Strings {
+         "settings.surveyPanelistTitle",
+         tableName: "BraveShared",
+         bundle: .module,
+-        value: "Allow Brave surveys",
++        value: "Allow iBrowe surveys",
+         comment: "Title to explain the survey panelist toggle"
+       )
+ 
+@@ -2399,7 +2399,7 @@ extension Strings {
+         "settings.surveyPanelistDescription",
+         tableName: "BraveShared",
+         bundle: .module,
+-        value: "Allows Brave to show links to private surveys in the new tab page. Surveys help us build better features and measure the effectiveness of browser-based ad campaigns. [Learn more](%@)",
++        value: "Allows iBrowe to show links to private surveys in the new tab page. Surveys help us build better features and measure the effectiveness of browser-based ad campaigns. [Learn more](%@)",
+         comment: "Description to explain the survey panelist toggle"
+       )
    }
-@@ -2740,7 +2740,7 @@ extension Strings {
+@@ -2837,7 +2837,7 @@ extension Strings {
      "SearchWithBrave",
      tableName: "BraveShared",
      bundle: .module,
@@ -396,7 +414,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment:
        "Title of an action that allows user to perform a one-click web search for selected text"
    )
-@@ -2882,7 +2882,7 @@ extension Strings {
+@@ -2979,7 +2979,7 @@ extension Strings {
      "BraveShieldsAndPrivacy",
      tableName: "BraveShared",
      bundle: .module,
@@ -405,7 +423,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: ""
    )
    public static let braveShieldsAndPrivacySettingsTitle = NSLocalizedString(
-@@ -2998,7 +2998,7 @@ extension Strings {
+@@ -3095,7 +3095,7 @@ extension Strings {
      "PersistentPrivateBrowsingAlertMessage",
      tableName: "BraveShared",
      bundle: .module,
@@ -414,7 +432,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: "Persistent private browsing alert message to existing users"
    )
    public static let persistentPrivateBrowsing = NSLocalizedString(
-@@ -3012,7 +3012,7 @@ extension Strings {
+@@ -3109,7 +3109,7 @@ extension Strings {
      "ShieldsDefaults",
      tableName: "BraveShared",
      bundle: .module,
@@ -423,16 +441,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: "Section title for adbblock, tracking protection, HTTPS-E, and cookies"
    )
    public static let shieldsDefaultsFooter = NSLocalizedString(
-@@ -3085,7 +3085,7 @@ extension Strings {
-     "BlockCookiesDescription",
-     tableName: "BraveShared",
-     bundle: .module,
--    value: "Prevents websites from storing information about your previous visits.\nThe \"Block all Cookies\" option has been deprecated. To learn how to force-enable this option, visit [our help page](https://github.com/brave/brave-browser/wiki/Block-all-cookies-global-Shields-setting)",
-+    value: "Prevents websites from storing information about your previous visits.\nThe \"Block all Cookies\" option has been deprecated. To learn how to force-enable this option, visit [our help page](https://github.com/iBrowe/brave-browser/wiki/Block-all-cookies-global-Shields-setting)",
-     comment: ""
-   )
-   public static let fingerprintingProtection = NSLocalizedString(
-@@ -3154,7 +3154,7 @@ extension Strings {
+@@ -3244,7 +3244,7 @@ extension Strings {
      tableName: "BraveShared",
      bundle: .module,
      value: "Version %@ (%@)",
@@ -441,7 +450,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let deviceTemplate = NSLocalizedString(
      "DeviceTemplate",
-@@ -3268,8 +3268,8 @@ extension Strings {
+@@ -3344,8 +3344,8 @@ extension Strings {
      "RateBrave",
      tableName: "BraveShared",
      bundle: .module,
@@ -452,7 +461,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let reportABug = NSLocalizedString(
      "ReportABug",
-@@ -3283,14 +3283,14 @@ extension Strings {
+@@ -3359,14 +3359,14 @@ extension Strings {
      tableName: "BraveShared",
      bundle: .module,
      value: "Privacy Policy",
@@ -469,18 +478,16 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let privateTabBody = NSLocalizedString(
      "PrivateTabBody",
-@@ -3328,8 +3328,8 @@ extension Strings {
+@@ -3404,7 +3404,7 @@ extension Strings {
      "BravePanel",
      tableName: "BraveShared",
      bundle: .module,
 -    value: "Brave Panel",
--    comment: "Button to show the brave panel"
 +    value: "iBrowe Panel",
-+    comment: "Button to show the iBrowe panel"
+     comment: "Button to show the brave panel"
    )
    public static let rewardsPanel = NSLocalizedString(
-     "RewardsPanel",
-@@ -3357,7 +3357,7 @@ extension Strings {
+@@ -3433,7 +3433,7 @@ extension Strings {
      tableName: "BraveShared",
      bundle: .module,
      value: "Shields",
@@ -489,7 +496,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let adsAndTrackers = NSLocalizedString(
      "AdsAndTrackers",
-@@ -3609,14 +3609,14 @@ extension Strings {
+@@ -3685,14 +3685,14 @@ extension Strings {
      tableName: "BraveShared",
      bundle: .module,
      value: "Allow",
@@ -506,7 +513,43 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let openMobileConfigurationAlertTitle = NSLocalizedString(
      "OpenMobileConfigurationAlertTitle",
-@@ -3754,15 +3754,15 @@ extension Strings {
+@@ -3728,7 +3728,7 @@ extension Strings {
+     bundle: .module,
+     value: "\"%@\" Would Like to Access the Camera",
+     comment:
+-      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: \"talk.brave.com\")"
++      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera. %@ will be replaced with the websites address (for example: \"talk.ibrowe.com\")"
+   )
+   public static let requestMicrophonePermissionPrompt = NSLocalizedString(
+     "requestMicrophonePermissionPrompt",
+@@ -3736,7 +3736,7 @@ extension Strings {
+     bundle: .module,
+     value: "\"%@\" Would Like to Access the Microphone",
+     comment:
+-      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: \"talk.brave.com\")"
++      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's microphone. %@ will be replaced with the websites address (for example: \"talk.ibrowe.com\")"
+   )
+   public static let requestCameraAndMicrophonePermissionPrompt = NSLocalizedString(
+     "requestCameraAndMicrophonePermissionPrompt",
+@@ -3744,7 +3744,7 @@ extension Strings {
+     bundle: .module,
+     value: "\"%@\" Would Like to Access the Camera and Microphone",
+     comment:
+-      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: \"talk.brave.com\")"
++      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access their device's camera & microphone. %@ will be replaced with the websites address (for example: \"talk.ibrowe.com\")"
+   )
+   public static let requestCaptureDevicePermissionPrompt = NSLocalizedString(
+     "requestCaptureDevicePermissionPrompt",
+@@ -3752,7 +3752,7 @@ extension Strings {
+     bundle: .module,
+     value: "\"%@\" Would Like to Access a Media Capture Device",
+     comment:
+-      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: \"talk.brave.com\")"
++      "A title that appears on a permissions dialog on whether or not the user wants to allow a web page to access some media capture device such as a camera or microphone. %@ will be replaced with the websites address (for example: \"talk.ibrowe.com\")"
+   )
+   public static let requestCaptureDevicePermissionAllowButtonTitle = NSLocalizedString(
+     "requestCaptureDevicePermissionAllowButtonTitle",
+@@ -3830,15 +3830,15 @@ extension Strings {
        "defaultThemeName",
        tableName: "BraveShared",
        bundle: .module,
@@ -525,7 +568,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "Title for QR popup encouraging users to share the code with their friends."
      )
    public static let themeQRCodeShareButton =
-@@ -3835,21 +3835,21 @@ extension Strings {
+@@ -3911,21 +3911,21 @@ extension Strings {
      tableName: "BraveShared",
      bundle: .module,
      value: "Join",
@@ -550,7 +593,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
    )
    public static let OBDidntSeeAdButton = NSLocalizedString(
      "OBDidntSeeAdButton",
-@@ -3862,7 +3862,7 @@ extension Strings {
+@@ -3938,7 +3938,7 @@ extension Strings {
      "OBSearchEngineTitle",
      tableName: "BraveShared",
      bundle: .module,
@@ -559,7 +602,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: "Title for search engine onboarding screen"
    )
    public static let OBSearchEngineDetail = NSLocalizedString(
-@@ -3876,7 +3876,7 @@ extension Strings {
+@@ -3952,7 +3952,7 @@ extension Strings {
      "OBShieldsTitle",
      tableName: "BraveShared",
      bundle: .module,
@@ -568,7 +611,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: "Title for shields onboarding screen"
    )
    public static let OBShieldsDetail = NSLocalizedString(
-@@ -3891,29 +3891,29 @@ extension Strings {
+@@ -3967,14 +3967,14 @@ extension Strings {
      "OBRewardsTitle",
      tableName: "BraveShared",
      bundle: .module,
@@ -581,29 +624,11 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      tableName: "BraveShared",
      bundle: .module,
 -    value: "Brave Ads is here!",
--    comment: "Title when opting into brave Ads when region becomes available"
 +    value: "iBrowe Ads is here!",
-+    comment: "Title when opting into iBrowe Ads when region becomes available"
+     comment: "Title when opting into brave Ads when region becomes available"
    )
    public static let OBAdsOptInMessage = NSLocalizedString(
-     "OBAdsOptInMessage",
-     tableName: "BraveShared",
-     bundle: .module,
-     value: "Earn tokens and reward creators for great content while you browse.",
--    comment: "Message when opting into brave Ads when region becomes available"
-+    comment: "Message when opting into iBrowe Ads when region becomes available"
-   )
-   public static let OBAdsOptInMessageJapan = NSLocalizedString(
-     "OBAdsOptInMessageJapan",
-     tableName: "BraveShared",
-     bundle: .module,
-     value: "Earn points and reward creators for great content while you browse.",
--    comment: "Message when opting into brave Ads when region becomes available"
-+    comment: "Message when opting into iBrowe Ads when region becomes available"
-   )
-   public static let OBRewardsDetailInAdRegion = NSLocalizedString(
-     "OBRewardsDetailInAdRegion",
-@@ -3934,7 +3934,7 @@ extension Strings {
+@@ -4010,7 +4010,7 @@ extension Strings {
      "OBRewardsAgreementTitle",
      tableName: "BraveShared",
      bundle: .module,
@@ -612,7 +637,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: "Title for rewards agreement onboarding screen"
    )
    public static let OBRewardsAgreementDetail = NSLocalizedString(
-@@ -3969,7 +3969,7 @@ extension Strings {
+@@ -4045,7 +4045,7 @@ extension Strings {
      "OBAdsTitle",
      tableName: "BraveShared",
      bundle: .module,
@@ -621,7 +646,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: "Title for ads onboarding screen"
    )
    public static let OBCompleteTitle = NSLocalizedString(
-@@ -4019,7 +4019,7 @@ extension Strings {
+@@ -4095,7 +4095,7 @@ extension Strings {
      "OBPrivacyConsentClipboardPermission",
      tableName: "BraveShared",
      bundle: .module,
@@ -630,7 +655,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      comment: ""
    )
    public static let OBPrivacyConsentYesButton = NSLocalizedString(
-@@ -4123,8 +4123,8 @@ extension Strings {
+@@ -4199,8 +4199,8 @@ extension Strings {
          "ntp.earningsReport",
          tableName: "BraveShared",
          bundle: .module,
@@ -641,7 +666,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
      public static let claimRewards =
        NSLocalizedString(
-@@ -4140,7 +4140,7 @@ extension Strings {
+@@ -4216,7 +4216,7 @@ extension Strings {
          "ntp.learnMoreAboutRewards",
          tableName: "BraveShared",
          bundle: .module,
@@ -650,7 +675,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -4158,8 +4158,8 @@ extension Strings {
+@@ -4234,8 +4234,8 @@ extension Strings {
          "ntp.braveSupportFavoriteTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -661,7 +686,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let imageTypeSelectionDescription =
-@@ -4246,7 +4246,7 @@ extension Strings {
+@@ -4330,7 +4330,7 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Close Shields Menu",
@@ -670,7 +695,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
    }
  }
-@@ -4258,29 +4258,29 @@ extension Strings {
+@@ -4342,29 +4342,29 @@ extension Strings {
        "BraveShieldsToggleHint",
        tableName: "BraveShared",
        bundle: .module,
@@ -705,7 +730,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let blockedCountLabel = NSLocalizedString(
        "BraveShieldsBlockedCountLabel",
-@@ -4315,8 +4315,8 @@ extension Strings {
+@@ -4399,8 +4399,8 @@ extension Strings {
        "AboutBraveShields",
        tableName: "BraveShared",
        bundle: .module,
@@ -716,7 +741,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let aboutBraveShieldsBody = NSLocalizedString(
        "AboutBraveShieldsBody",
-@@ -4324,7 +4324,7 @@ extension Strings {
+@@ -4408,7 +4408,7 @@ extension Strings {
        bundle: .module,
        value:
          "Sites often include cookies and scripts which try to identify you and your device. They want to work out who you are and follow you across the web — tracking what you do on every site.\n\nBrave blocks these things so that you can browse without being followed around.",
@@ -725,7 +750,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let shieldsDownDisclaimer = NSLocalizedString(
        "ShieldsDownDisclaimer",
-@@ -4376,7 +4376,7 @@ extension Strings {
+@@ -4460,7 +4460,7 @@ extension Strings {
        "ReportBrokenSiteBody1",
        tableName: "BraveShared",
        bundle: .module,
@@ -734,7 +759,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "First part of the report a broken site copy. After the colon is a new line and then a website address"
      )
-@@ -4472,7 +4472,7 @@ extension Strings {
+@@ -4556,7 +4556,7 @@ extension Strings {
          "shieldEducation.trackerAdWarningSubTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -743,7 +768,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Subtitle for Shield Education Tracker Ad Warning"
        )
  
-@@ -4562,8 +4562,8 @@ extension Strings {
+@@ -4646,8 +4646,8 @@ extension Strings {
          "socialSharing.shareDescriptionTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -754,7 +779,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let domainSpecificDataSavedTitle =
-@@ -4571,7 +4571,7 @@ extension Strings {
+@@ -4655,7 +4655,7 @@ extension Strings {
          "socialSharing.domainSpecificDataSavedTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -763,7 +788,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Title used when in warning pop-over when domain specific data save appears "
        )
  
-@@ -4734,7 +4734,7 @@ extension Strings {
+@@ -4818,7 +4818,7 @@ extension Strings {
          "playList.addToPlayListAlertTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -772,7 +797,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Alert Title for adding videos to playlist"
        )
  
-@@ -4780,7 +4780,7 @@ extension Strings {
+@@ -4864,7 +4864,7 @@ extension Strings {
          "playList.noItemLabelDetailLabel",
          tableName: "BraveShared",
          bundle: .module,
@@ -781,7 +806,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Detail Text when there are no items in the playlist"
        )
  
-@@ -4854,7 +4854,7 @@ extension Strings {
+@@ -4938,7 +4938,7 @@ extension Strings {
          "playList.toastExitingItemPlaylistTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -790,7 +815,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment:
            "The title for the toast that shows up on a page when an item that has already been added, was updated."
        )
-@@ -4922,7 +4922,7 @@ extension Strings {
+@@ -5006,7 +5006,7 @@ extension Strings {
          "playlist.sharePlaylistActionTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -799,7 +824,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Title of the ActionSheet/Alert when sharing a playlist item from the Swipe-Action"
        )
  
-@@ -5249,7 +5249,7 @@ extension Strings {
+@@ -5333,7 +5333,7 @@ extension Strings {
          "playlist.carplayTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -808,7 +833,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The title of the playlist when in Carplay mode"
        )
  
-@@ -5615,7 +5615,7 @@ extension Strings {
+@@ -5699,7 +5699,7 @@ extension Strings {
          "playlistFolderSharing.addButtonAccessibilityTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -817,7 +842,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Accessibility Title for the button that adds the playlist to the database."
        )
  
-@@ -5742,7 +5742,7 @@ extension Strings {
+@@ -5826,7 +5826,7 @@ extension Strings {
          "playList.playlistSharedFolderAlreadyExistsBody",
          tableName: "BraveShared",
          bundle: .module,
@@ -826,7 +851,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Body for the error message that shows when a playlist folder already exists"
        )
  
-@@ -5949,7 +5949,7 @@ extension Strings {
+@@ -6033,7 +6033,7 @@ extension Strings {
          tableName: "BraveShared",
          bundle: .module,
          value: "Organization",
@@ -835,7 +860,16 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let organizationalUnitTitle =
-@@ -6149,7 +6149,7 @@ extension Strings {
+@@ -6071,7 +6071,7 @@ extension Strings {
+         bundle: .module,
+         value: "Domain Component",
+         comment:
+-          "Title of the section for the Domain Component such as: DNS or brave.com or a website's domain."
++          "Title of the section for the Domain Component such as: DNS or ibrowe.com or a website's domain."
+       )
+ 
+     public static let userIDTitle =
+@@ -6233,7 +6233,7 @@ extension Strings {
        NSLocalizedString(
          "storekitReceiptViewer.vpnMonthlySubscriptionName",
          bundle: .module,
@@ -844,7 +878,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The title of the product subscription the user purchased (Monthly subscription)"
        )
  
-@@ -6157,7 +6157,7 @@ extension Strings {
+@@ -6241,7 +6241,7 @@ extension Strings {
        NSLocalizedString(
          "storekitReceiptViewer.vpnYearlySubscriptionName",
          bundle: .module,
@@ -853,7 +887,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The title of the product subscription the user purchased (Yearly subscription)"
        )
  
-@@ -6165,7 +6165,7 @@ extension Strings {
+@@ -6249,7 +6249,7 @@ extension Strings {
        NSLocalizedString(
          "storekitReceiptViewer.leoMonthlySubscriptionName",
          bundle: .module,
@@ -862,7 +896,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The title of the product subscription the user purchased (Monthly subscription)"
        )
  
-@@ -6173,7 +6173,7 @@ extension Strings {
+@@ -6257,7 +6257,7 @@ extension Strings {
        NSLocalizedString(
          "storekitReceiptViewer.leoYearlySubscriptionName",
          bundle: .module,
@@ -871,7 +905,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The title of the product subscription the user purchased (Yearly subscription)"
        )
  
-@@ -6318,7 +6318,7 @@ extension Strings {
+@@ -6402,7 +6402,7 @@ extension Strings {
          "shortcuts.activityTypeOpenBookmarksTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -880,7 +914,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6327,7 +6327,7 @@ extension Strings {
+@@ -6411,7 +6411,7 @@ extension Strings {
          "shortcuts.activityTypeOpenHistoryListTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -889,7 +923,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6336,7 +6336,7 @@ extension Strings {
+@@ -6420,7 +6420,7 @@ extension Strings {
          "shortcuts.activityTypeClearHistoryTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -898,7 +932,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6345,7 +6345,7 @@ extension Strings {
+@@ -6429,7 +6429,7 @@ extension Strings {
          "shortcuts.activityTypeEnableVPNTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -907,7 +941,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6354,7 +6354,7 @@ extension Strings {
+@@ -6438,7 +6438,7 @@ extension Strings {
          "shortcuts.activityTypeOpenBraveNewsTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -916,7 +950,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6381,7 +6381,7 @@ extension Strings {
+@@ -6465,7 +6465,7 @@ extension Strings {
          "shortcuts.activityTypeTabDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -925,7 +959,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6426,7 +6426,7 @@ extension Strings {
+@@ -6510,7 +6510,7 @@ extension Strings {
          "shortcuts.activityTypeBraveNewsDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -934,7 +968,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6444,7 +6444,7 @@ extension Strings {
+@@ -6528,7 +6528,7 @@ extension Strings {
          "shortcuts.activityTypeOpenSyncedTabsDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -943,7 +977,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6507,7 +6507,7 @@ extension Strings {
+@@ -6591,7 +6591,7 @@ extension Strings {
          "shortcuts.activityTypeOpenBraveTodaySuggestedPhrase",
          tableName: "BraveShared",
          bundle: .module,
@@ -952,7 +986,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6669,7 +6669,7 @@ extension Strings {
+@@ -6753,7 +6753,7 @@ extension Strings {
          "shortcuts.shortcutSettingsEnableVPNDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -961,7 +995,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6678,7 +6678,7 @@ extension Strings {
+@@ -6762,7 +6762,7 @@ extension Strings {
          "shortcuts.shortcutSettingsOpenBraveNewsTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -970,7 +1004,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: ""
        )
  
-@@ -6687,8 +6687,8 @@ extension Strings {
+@@ -6771,8 +6771,8 @@ extension Strings {
          "shortcuts.shortcutSettingsOpenBraveNewsDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -981,7 +1015,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let shortcutSettingsOpenPlaylistTitle =
-@@ -6743,7 +6743,7 @@ extension Strings {
+@@ -6827,7 +6827,7 @@ extension Strings {
          bundle: .module,
          value:
            "This option will open Brave Settings. In order to change various Siri options, please select 'Siri & Search' menu item and customize your choices.",
@@ -990,7 +1024,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
    }
  }
-@@ -6819,7 +6819,7 @@ extension Strings {
+@@ -6936,7 +6936,7 @@ extension Strings {
          "BrowserLockDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -999,7 +1033,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Description for setting to enable the browser lock privacy feature"
        )
      public static let tabTraySetPasscodeAlertDescription =
-@@ -7104,7 +7104,7 @@ extension Strings {
+@@ -7221,7 +7221,7 @@ extension Strings {
          "opentabs.noSyncSessionPlaceHolderViewTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -1008,7 +1042,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The title of the view showing no synced sessions"
        )
      public static let noSyncChainPlaceHolderViewDescription =
-@@ -7161,7 +7161,7 @@ extension Strings {
+@@ -7286,7 +7286,7 @@ extension Strings {
          "opentabs.noSyncSessionPlaceHolderViewAdditionalDescription",
          tableName: "BraveShared",
          bundle: .module,
@@ -1017,7 +1051,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "The additional description of the view describing tab syncing should be enabled."
        )
      public static let noDevicesSyncChainPlaceholderViewTitle =
-@@ -7229,7 +7229,7 @@ extension Strings {
+@@ -7378,7 +7378,7 @@ extension Strings {
        "today.braveToday",
        tableName: "BraveShared",
        bundle: .module,
@@ -1026,7 +1060,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "The name of the feature"
      )
      public static let braveNewsTitle = NSLocalizedString(
-@@ -7250,7 +7250,7 @@ extension Strings {
+@@ -7399,7 +7399,7 @@ extension Strings {
        "today.turnOnBraveToday",
        tableName: "BraveShared",
        bundle: .module,
@@ -1035,18 +1069,16 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
      public static let learnMoreTitle = NSLocalizedString(
-@@ -7264,8 +7264,8 @@ extension Strings {
+@@ -7413,7 +7413,7 @@ extension Strings {
        "today.introCardTitle",
        tableName: "BraveShared",
        bundle: .module,
 -      value: "Turn on Brave News, and never miss a story",
--      comment: "Shown above a button that turns on the \"Brave News\" product in the app."
 +      value: "Turn on iBrowe News, and never miss a story",
-+      comment: "Shown above a button that turns on the \"iBrowe News\" product in the app."
+       comment: "Shown above a button that turns on the \"Brave News\" product in the app."
      )
      public static let introCardBody = NSLocalizedString(
-       "today.introCardBody",
-@@ -7329,7 +7329,7 @@ extension Strings {
+@@ -7478,7 +7478,7 @@ extension Strings {
        "today.errorGeneralBody",
        tableName: "BraveShared",
        bundle: .module,
@@ -1055,7 +1087,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
      public static let disablePublisherContent = NSLocalizedString(
-@@ -7337,14 +7337,14 @@ extension Strings {
+@@ -7486,14 +7486,14 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Hide content from %@",
@@ -1072,7 +1104,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let disabledAlertTitle = NSLocalizedString(
        "today.disabledAlertTitle",
-@@ -7357,14 +7357,14 @@ extension Strings {
+@@ -7506,14 +7506,14 @@ extension Strings {
        "today.disabledAlertBody",
        tableName: "BraveShared",
        bundle: .module,
@@ -1090,7 +1122,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
      public static let contentAvailableButtonTitle = NSLocalizedString(
-@@ -7378,8 +7378,8 @@ extension Strings {
+@@ -7527,8 +7527,8 @@ extension Strings {
        "today.moreBraveOffers",
        tableName: "BraveShared",
        bundle: .module,
@@ -1101,7 +1133,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let promoted = NSLocalizedString(
        "today.promoted",
-@@ -7392,7 +7392,7 @@ extension Strings {
+@@ -7541,7 +7541,7 @@ extension Strings {
        "today.addSourceShareTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1110,7 +1142,16 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "The action title displayed in the iOS share menu"
      )
      public static let addSourceFailureTitle = NSLocalizedString(
-@@ -7616,7 +7616,7 @@ extension Strings {
+@@ -7728,7 +7728,7 @@ extension Strings {
+       bundle: .module,
+       value: "Get feeds from",
+       comment:
+-        "Shown with a website the user has typed in after the text. For example: 'Get feeds from https://brave.com'."
++        "Shown with a website the user has typed in after the text. For example: 'Get feeds from https://ibrowe.com'."
+     )
+     public static let noResultsFound = NSLocalizedString(
+       "today.noResultsFound",
+@@ -7765,7 +7765,7 @@ extension Strings {
        "today.rateBraveCardRateActionTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1119,7 +1160,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "Button title / Title for long press action that will perform an action which open AppStore Rate screen"
      )
-@@ -7625,28 +7625,28 @@ extension Strings {
+@@ -7774,28 +7774,28 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Hide",
@@ -1153,7 +1194,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
    }
  }
-@@ -7659,7 +7659,7 @@ extension Strings {
+@@ -7808,7 +7808,7 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Rewards Internals",
@@ -1162,7 +1203,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let walletInfoHeader = NSLocalizedString(
        "RewardsInternalsWalletInfoHeader",
-@@ -7938,7 +7938,7 @@ extension Strings {
+@@ -8087,7 +8087,7 @@ extension Strings {
        "RewardsInternalsContributionProcessorBraveTokens",
        tableName: "BraveShared",
        bundle: .module,
@@ -1171,7 +1212,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
      public static let contributionProcessorUserFunds = NSLocalizedString(
-@@ -8023,7 +8023,7 @@ extension Strings {
+@@ -8172,7 +8172,7 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Share Rewards Internals",
@@ -1180,7 +1221,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let share = NSLocalizedString(
        "RewardsInternalsShare",
-@@ -8098,21 +8098,21 @@ extension Strings {
+@@ -8247,21 +8247,21 @@ extension Strings {
        "rewards.enabledBody",
        tableName: "BraveShared",
        bundle: .module,
@@ -1207,7 +1248,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "Displayed under verified publishers"
      )
      public static let unverifiedPublisher = NSLocalizedString(
-@@ -8126,7 +8126,7 @@ extension Strings {
+@@ -8275,7 +8275,7 @@ extension Strings {
        "rewards.enabledStatusBody",
        tableName: "BraveShared",
        bundle: .module,
@@ -1216,16 +1257,16 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "Displayed in the status container when rewards is enabled but you're not currently supporting any publishers (0 AC count)"
      )
-@@ -8134,7 +8134,7 @@ extension Strings {
+@@ -8283,7 +8283,7 @@ extension Strings {
        "rewards.disabledStatusBody",
        tableName: "BraveShared",
        bundle: .module,
 -      value: "Using Brave Rewards helps support Brave and the BAT community.",
-+      value: "Using iBrowe Rewards helps support iBrowe and the BAT community.",
++      value: "Using Brave Rewards helps support iBrowe and the BAT community.",
        comment: "Displayed in the status container when rewards is disabled"
      )
      public static let totalSupportedCount = NSLocalizedString(
-@@ -8148,7 +8148,7 @@ extension Strings {
+@@ -8297,7 +8297,7 @@ extension Strings {
        "rewards.settingsToggleTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1234,7 +1275,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
      public static let settingsToggleMessage = NSLocalizedString(
-@@ -8171,8 +8171,8 @@ extension Strings {
+@@ -8320,8 +8320,8 @@ extension Strings {
          "rewards.braveTalkRewardsOptInTitle",
          tableName: "BraveShared",
          bundle: .module,
@@ -1245,7 +1286,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let braveTalkRewardsOptInBody =
-@@ -8182,7 +8182,7 @@ extension Strings {
+@@ -8331,7 +8331,7 @@ extension Strings {
          bundle: .module,
          value:
            "With Brave Rewards, you can view privacy-preserving ads from the Brave Ads network. No trackers. No slowdowns. And your data stays totally safe.",
@@ -1254,7 +1295,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let braveTalkRewardsOptInButtonTitle =
-@@ -8191,7 +8191,7 @@ extension Strings {
+@@ -8340,7 +8340,7 @@ extension Strings {
          tableName: "BraveShared",
          bundle: .module,
          value: "Turn on Rewards",
@@ -1263,7 +1304,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let braveTalkRewardsOptInDisclaimer =
-@@ -8210,7 +8210,7 @@ extension Strings {
+@@ -8359,7 +8359,7 @@ extension Strings {
          tableName: "BraveShared",
          bundle: .module,
          value: "You can now start a free call",
@@ -1272,7 +1313,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
  
      public static let braveTalkRewardsOptInSuccessBody =
-@@ -8218,8 +8218,8 @@ extension Strings {
+@@ -8367,8 +8367,8 @@ extension Strings {
          "rewards.braveTalkRewardsOptInSuccessBody",
          tableName: "BraveShared",
          bundle: .module,
@@ -1283,7 +1324,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        )
    }
  }
-@@ -8231,7 +8231,7 @@ extension Strings {
+@@ -8380,7 +8380,7 @@ extension Strings {
        "bravetalk.braveTalkTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1292,7 +1333,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "The name of the feature"
      )
    }
-@@ -8244,7 +8244,7 @@ extension Strings {
+@@ -8393,7 +8393,7 @@ extension Strings {
        "MyFirstAdTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1301,7 +1342,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
      public static let myFirstAdBody = NSLocalizedString(
-@@ -8265,7 +8265,7 @@ extension Strings {
+@@ -8414,7 +8414,7 @@ extension Strings {
        "BraveRewardsAdNotificationTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1310,7 +1351,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: ""
      )
  
-@@ -8274,7 +8274,7 @@ extension Strings {
+@@ -8423,7 +8423,7 @@ extension Strings {
          "ads.braveAdsDataToggleOption",
          tableName: "BraveShared",
          bundle: .module,
@@ -1319,7 +1360,25 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment:
            "Text for the toggle switch to clear 'Brave Ads' data in settings"
        )
-@@ -8645,7 +8645,7 @@ extension Strings {
+@@ -8432,7 +8432,7 @@ extension Strings {
+       NSLocalizedString(
+         "searchResultAdClickedInfoBarMessage",
+         bundle: .module,
+-        value: "Thanks for supporting Brave Search by clicking a private ad. Unlike Big Tech, we measure ad performance anonymously to preserve your privacy.",
++        value: "Thanks for supporting iBrowe Search by clicking a private ad. Unlike Big Tech, we measure ad performance anonymously to preserve your privacy.",
+         comment: "The text label of creative search result ad infobar message."
+       )
+ 
+@@ -8448,7 +8448,7 @@ extension Strings {
+       NSLocalizedString(
+         "NewTabTakeoverInfoBarMessage",
+         bundle: .module,
+-        value: "Sponsored background images support Brave's mission to build an independent, user-first Web. And unlike Big Tech, we measure ad performance anonymously to preserve your privacy.",
++        value: "Sponsored background images support iBrowe's mission to build an independent, user-first Web. And unlike Big Tech, we measure ad performance anonymously to preserve your privacy.",
+         comment: "The text of new tab takeover infobar message."
+       )
+ 
+@@ -8839,7 +8839,7 @@ extension Strings {
        "privacyHub.mostFrequentTrackerAndAdBody",
        tableName: "BraveShared",
        bundle: .module,
@@ -1328,7 +1387,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "Do NOT localize asterisk('*') characters, they are used to make the text bold in the app. It says which tracker was blocked on how many websites, example usage: 'Google Analytics was blocked by Brave Shields on 42 sites'"
      )
-@@ -8680,7 +8680,7 @@ extension Strings {
+@@ -8874,7 +8874,7 @@ extension Strings {
        "privacyHub.vpnAlertsHeader",
        tableName: "BraveShared",
        bundle: .module,
@@ -1337,7 +1396,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "Section title, this section displays vpn alerts: items which the vpn managed to block on users behalf."
      )
-@@ -8752,7 +8752,7 @@ extension Strings {
+@@ -8946,7 +8946,7 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Trackers & ads",
@@ -1346,7 +1405,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
  
      public static let allTimeListsWebsitesView = NSLocalizedString(
-@@ -8884,7 +8884,7 @@ extension Strings {
+@@ -9078,7 +9078,7 @@ extension Strings {
        "privacyHub.notificationMessage",
        tableName: "BraveShared",
        bundle: .module,
@@ -1355,7 +1414,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "Message of a notification we show to the user, on tapping it, the Privacy Hub screen will open."
      )
-@@ -8894,7 +8894,7 @@ extension Strings {
+@@ -9088,7 +9088,7 @@ extension Strings {
        tableName: "BraveShared",
        bundle: .module,
        value: "Show Shields Data",
@@ -1364,7 +1423,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
  
      public static let settingsEnableShieldsFooter = NSLocalizedString(
-@@ -8903,7 +8903,7 @@ extension Strings {
+@@ -9097,7 +9097,7 @@ extension Strings {
        bundle: .module,
        value:
          "Privacy Hub shows a count of what Shields blocked. Setting will not affect Shields counter on new tab page. Shields data is not counted in private windows.",
@@ -1373,7 +1432,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
  
      public static let settingsEnableVPNAlertsTitle = NSLocalizedString(
-@@ -9028,7 +9028,7 @@ extension Strings {
+@@ -9222,7 +9222,7 @@ extension Strings {
        bundle: .module,
        value:
          "These private responses help Brave estimate the overall usage of certain features and make them better for you.",
@@ -1382,7 +1441,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
  
      public static let continueButton = NSLocalizedString(
-@@ -9205,7 +9205,7 @@ extension Strings {
+@@ -9399,7 +9399,7 @@ extension Strings {
          "voice.search.screen.disclaimer",
          tableName: "BraveShared",
          bundle: .module,
@@ -1391,7 +1450,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
          comment: "Disclaimer for screen to search using voice."
        )
  
-@@ -9378,7 +9378,7 @@ extension Strings {
+@@ -9584,7 +9584,7 @@ extension Strings {
      public static let showShieldsTitle = NSLocalizedString(
        "showShieldsTitle",
        bundle: .module,
@@ -1400,25 +1459,27 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment:
          "Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields"
      )
-@@ -9497,14 +9497,14 @@ extension Strings {
+@@ -9703,7 +9703,7 @@ extension Strings {
      public static let alreadyPurchasedTitle = NSLocalizedString(
        "paywall.alreadyPurchasedTitle",
        bundle: .module,
 -      value: "Already purchased on brave.com?",
--      comment: "Title label text for refreshing credentials from brave site."
-+      value: "Already purchased on iBrowe.com?",
-+      comment: "Title label text for refreshing credentials from iBrowe site."
++      value: "Already purchased on ibrowe.com?",
+       comment: "Title label text for refreshing credentials from brave site."
      )
      public static let refreshCredentialsButtonTitle = NSLocalizedString(
-       "paywall.refreshCredentialsButtonTitle",
+@@ -9751,8 +9751,8 @@ extension Strings {
+     public static let braveAccountCheckoutOptionTitle = NSLocalizedString(
+       "paywall.braveAccountCheckoutOptionTitle",
        bundle: .module,
-       value: "Refresh your credentials",
--      comment: "Button action text for refreshing credentials from brave site."
-+      comment: "Button action text for refreshing credentials from iBrowe site."
+-      value: "Brave Account",
+-      comment: "The checkout option that lets the user use Brave's own purchase flow"
++      value: "iBrowe Account",
++      comment: "The checkout option that lets the user use iBrowe's own purchase flow"
      )
-     public static let havePromoCodeTitle = NSLocalizedString(
-       "paywall.havePromoCodeTitle",
-@@ -9550,13 +9550,13 @@ extension Strings {
+     public static let braveAccountCheckoutOptionSubtitle = NSLocalizedString(
+       "paywall.braveAccountCheckoutOptionSubtitle",
+@@ -9792,13 +9792,13 @@ extension Strings {
        "altAppIcon.defaultAppIcon",
        bundle: .module,
        value: "Default",
@@ -1435,7 +1496,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
      )
      public static let errorTitle = NSLocalizedString(
        "altAppIcon.errorTitle",
-@@ -9613,15 +9613,15 @@ extension Strings {
+@@ -9855,15 +9855,15 @@ extension Strings {
        "BraveTranslate.settingsMenuTitle",
        tableName: "BraveShared",
        bundle: .module,
@@ -1454,7 +1515,7 @@ index 4d6b987468129fed824eca523b270a6323c792fc..72f001e08c33056b463d45b0eb2c5ce3
        comment: "This text is for the translate settings screen. It's the title of the settings menu."
      )
  
-@@ -9637,7 +9637,7 @@ extension Strings {
+@@ -9879,7 +9879,7 @@ extension Strings {
        "BraveTranslate.settingsTranslateEnabledOptionDescription",
        tableName: "BraveShared",
        bundle: .module,

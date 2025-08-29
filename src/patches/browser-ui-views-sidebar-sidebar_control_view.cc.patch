@@ -1,8 +1,8 @@
 diff --git a/browser/ui/views/sidebar/sidebar_control_view.cc b/browser/ui/views/sidebar/sidebar_control_view.cc
-index 046927edfe70796eb6fe41dd2458f7956e6eb1ce..ddc26865c9219a5a30ef14774698e9a5458516d4 100644
+index 6f131824752445b7f4143ca8be2419633845a17c..d343e1a3e7669b0bc352c72dd88ae8d16fc0323b 100644
 --- a/browser/ui/views/sidebar/sidebar_control_view.cc
 +++ b/browser/ui/views/sidebar/sidebar_control_view.cc
-@@ -205,7 +205,7 @@ void SidebarControlView::OnButtonPressed(views::View* view) {
+@@ -202,7 +202,7 @@ void SidebarControlView::OnButtonPressed(views::View* view) {
    if (view == sidebar_settings_view_) {
      ShowSingletonTabOverwritingNTP(
          browser_,

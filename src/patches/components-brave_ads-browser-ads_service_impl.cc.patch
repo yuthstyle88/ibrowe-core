@@ -1,8 +1,8 @@
 diff --git a/components/brave_ads/browser/ads_service_impl.cc b/components/brave_ads/browser/ads_service_impl.cc
-index 1b0ea15494418580120d44dfe2d4982f1c172153..b4000f42fc619b28dde75430036f61b6c4d9e1ec 100644
+index b007e7cd337b022b9317bba05a7cda6b1f12c7c5..4240c6aff80512f82c599d7ab522ef03123da116 100644
 --- a/components/brave_ads/browser/ads_service_impl.cc
 +++ b/components/brave_ads/browser/ads_service_impl.cc
-@@ -164,7 +164,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
+@@ -158,7 +158,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
        policy {
          cookies_allowed: NO
          setting:

@@ -1,8 +1,8 @@
 diff --git a/browser/brave_wallet/notifications/wallet_notification_service.cc b/browser/brave_wallet/notifications/wallet_notification_service.cc
-index 1c96ee4522cea0a7065cc651e026123092ba92c7..091da39f21dce6b2efa611899129215dfcd00257 100644
+index 7b29aeae681ec75f31a5e31c8458db6090f2e5f8..bf4d0abaa77f63c0f39657a8b4bc1602e583379e 100644
 --- a/browser/brave_wallet/notifications/wallet_notification_service.cc
 +++ b/browser/brave_wallet/notifications/wallet_notification_service.cc
-@@ -62,7 +62,7 @@ void PushNotification(content::BrowserContext* context,
+@@ -63,7 +63,7 @@ void PushNotification(content::BrowserContext* context,
                        const std::u16string& body) {
    auto notification = CreateMessageCenterNotification(
        title, body, uuid,

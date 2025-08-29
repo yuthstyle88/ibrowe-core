@@ -1,8 +1,8 @@
 diff --git a/browser/about_flags.cc b/browser/about_flags.cc
-index 50c00b6f7f8c6ff39b93714e25685ac0bc198b76..f6af68b4bf99a4efef3ab9d91254dee1f5c2b7b2 100644
+index c78f9fe8cad6cf5bd236ff3a86eaeded3f951470..7f59719e9d3b5ed111d4823e866b5f08827e5d99 100644
 --- a/browser/about_flags.cc
 +++ b/browser/about_flags.cc
-@@ -541,7 +541,7 @@
+@@ -584,7 +584,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
            "brave-adblock-cookie-list-default",                                 \
            "Treat 'Easylist-Cookie List' as a default list source",             \
            "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
@@ -11,7 +11,7 @@ index 50c00b6f7f8c6ff39b93714e25685ac0bc198b76..f6af68b4bf99a4efef3ab9d91254dee1
            kOsAll,                                                              \
            FEATURE_VALUE_TYPE(                                                  \
                brave_shields::features::kBraveAdblockCookieListDefault),        \
-@@ -587,7 +587,7 @@
+@@ -630,7 +630,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
            "source",                                                            \
                                                                                 \
            "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
@@ -20,7 +20,7 @@ index 50c00b6f7f8c6ff39b93714e25685ac0bc198b76..f6af68b4bf99a4efef3ab9d91254dee1
            kOsAll,                                                              \
            FEATURE_VALUE_TYPE(brave_shields::features::                         \
                                   kBraveAdblockMobileNotificationsListDefault), \
-@@ -606,7 +606,7 @@
+@@ -649,7 +649,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
            "source",                                                            \
                                                                                 \
            "Enables the 'Brave Experimental Adblock Rules' regional list if "   \

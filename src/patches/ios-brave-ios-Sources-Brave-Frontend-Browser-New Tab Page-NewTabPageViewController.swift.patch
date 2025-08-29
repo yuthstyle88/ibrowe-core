@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift
-index e80ec2cf01435de73a4fa718b241172c66517427..dc05d5c633bd9abcdb4378c883a2f3035451b972 100644
+index b0425e1b0f7299b182863a0b8510e56ab82caaa3..56aea45ae962e5b05a14ae36fb15624ae7a7bba0 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift	
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift	
-@@ -897,7 +897,7 @@ class NewTabPageViewController: UIViewController {
+@@ -901,7 +901,7 @@ class NewTabPageViewController: UIViewController {
        Preferences.Review.newsCardShownDate.value = Date()
        guard
          let writeReviewURL = URL(
@@ -11,3 +11,14 @@ index e80ec2cf01435de73a4fa718b241172c66517427..dc05d5c633bd9abcdb4378c883a2f303
          )
        else {
          return
+@@ -1125,8 +1125,8 @@ class NewTabPageViewController: UIViewController {
+   }
+ 
+   private func tappedQRCode(_ code: String) {
+-    // Super referrer websites come in format https://brave.com/r/REF_CODE
+-    let refUrl = URL(string: "https://brave.com/")?
++    // Super referrer websites come in format https://ibrowe.com/r/REF_CODE
++    let refUrl = URL(string: "https://ibrowe.com/")?
+       .appendingPathComponent("r")
+       .appendingPathComponent(code)
+ 

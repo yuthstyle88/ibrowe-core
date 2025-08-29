@@ -1,5 +1,5 @@
 diff --git a/chromium_src/chrome/common/url_constants.h b/chromium_src/chrome/common/url_constants.h
-index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1b027fcdc 100644
+index b52b92443aa90e061404707dc8360cd27f62a20c..e2cc02c136848b55151daeb81215bd5f0441c836 100644
 --- a/chromium_src/chrome/common/url_constants.h
 +++ b/chromium_src/chrome/common/url_constants.h
 @@ -18,24 +18,24 @@ namespace chrome {
@@ -32,12 +32,14 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // "Chrome Settings" URL for the appearance page.
  inline constexpr char kBrowserSettingsSearchEngineURL[] =
-@@ -43,20 +43,20 @@ inline constexpr char kBrowserSettingsSearchEngineURL[] =
+@@ -43,53 +43,53 @@ inline constexpr char kBrowserSettingsSearchEngineURL[] =
  
  // "Learn more" URL for Battery Saver Mode.
  inline constexpr char16_t kBatterySaverModeLearnMoreUrl[] =
--    u"https://support.brave.com/hc/en-us/articles/13380606172557";
-+    u"https://support.ibrowe.com/hc/en-us/articles/13380606172557";
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"13383683902733-How-do-I-use-the-Memory-and-Energy-Saver-features-in-"
+     u"Brave#energy-saver";
  
  // The URL for providing help when the Bluetooth adapter is off.
  inline constexpr char kBluetoothAdapterOffHelpURL[] =
@@ -57,7 +59,18 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // The URL for the WebHID API help center article.
  inline constexpr char kChooserHidOverviewUrl[] =
-@@ -72,22 +72,22 @@ inline constexpr char kChooserUsbOverviewURL[] =
+-    "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
++    "https://github.com/yuthstyle88/ibrowe-browser/wiki/Web-API-Permissions";
+ 
+ // The URL for the Web Serial API help center article.
+ inline constexpr char kChooserSerialOverviewUrl[] =
+-    "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
++    "https://github.com/yuthstyle88/ibrowe-browser/wiki/Web-API-Permissions";
+ 
+ // The URL for the WebUsb help center article.
+ inline constexpr char kChooserUsbOverviewURL[] =
+-    "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
++    "https://github.com/yuthstyle88/ibrowe-browser/wiki/Web-API-Permissions";
  
  // Link to the forum for Chrome Beta.
  inline constexpr char kChromeBetaForumURL[] =
@@ -86,7 +99,7 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // The isolated-app: scheme is used for Isolated Web Apps. A public explainer
  // can be found here: https://github.com/reillyeon/isolated-web-apps
-@@ -99,7 +99,7 @@ inline constexpr char16_t kIsolatedAppSchemeUtf16[] = u"isolated-app";
+@@ -101,7 +101,7 @@ inline constexpr char16_t kIsolatedAppSchemeUtf16[] = u"isolated-app";
  inline constexpr char kChromeNativeScheme[] = "chrome-native";
  
  // The URL of safe section in Chrome page.
@@ -95,8 +108,12 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // Pages under chrome-search.
  inline constexpr char kChromeSearchLocalNtpHost[] = "local-ntp";
-@@ -148,55 +148,55 @@ inline constexpr char16_t kChromiumProjectURL[] =
-     u"https://github.com/brave/brave-browser/";
+@@ -147,58 +147,58 @@ inline constexpr char kChromeUIUntrustedNewTabPageUrl[] =
+ 
+ // The URL for the Chromium project used in the About dialog.
+ inline constexpr char16_t kChromiumProjectURL[] =
+-    u"https://github.com/brave/brave-browser/";
++    u"https://github.com/yuthstyle88/ibrowe-browser/";
  
  inline constexpr char16_t kContentSettingsExceptionsLearnMoreURL[] =
 -    u"https://support.brave.com/hc/en-us/articles/"
@@ -161,7 +178,7 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
      "360018185651-How-do-I-stop-extensions-from-changing-my-settings-";
  
  // URL used to indicate that an extension resource load request was invalid.
-@@ -205,10 +205,10 @@ inline constexpr char kExtensionInvalidRequestURL[] =
+@@ -207,14 +207,14 @@ inline constexpr char kExtensionInvalidRequestURL[] =
  
  // Link for creating family group with Google Families.
  inline constexpr char16_t kFamilyGroupCreateURL[] =
@@ -172,9 +189,14 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
 -inline constexpr char16_t kFamilyGroupViewURL[] = u"https://support.brave.com/";
 +inline constexpr char16_t kFamilyGroupViewURL[] = u"https://support.ibrowe.com/";
  
+ // "Learn more" URL for Incognito tracking protections.
+ inline constexpr char kIncognitoTrackingProtectionsLearnMoreUrl[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
  // Url to a blogpost about Flash deprecation.
  inline constexpr char kFlashDeprecationLearnMoreURL[] =
-@@ -216,46 +216,46 @@ inline constexpr char kFlashDeprecationLearnMoreURL[] =
+@@ -222,54 +222,54 @@ inline constexpr char kFlashDeprecationLearnMoreURL[] =
  
  // URL of the 'Activity controls' section of the privacy settings page.
  inline constexpr char kGoogleAccountActivityControlsURL[] =
@@ -205,6 +227,16 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
 -    "https://support.brave.com/";
 +    "https://support.ibrowe.com/";
  
+ // URL of the Google Account home address page.
+ inline constexpr char kGoogleAccountHomeAddressURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ // URL of the Google Account work address page.
+ inline constexpr char kGoogleAccountWorkAddressURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
  // URL of the two factor authentication setup required intersitial.
  inline constexpr char kGoogleTwoFactorIntersitialURL[] =
 -    "https://support.brave.com/";
@@ -232,7 +264,7 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // The URL for the Help Center page about IP Protection.
  inline constexpr char kIpProtectionHelpCenterURL[] =
-@@ -264,178 +264,178 @@ inline constexpr char kIpProtectionHelpCenterURL[] =
+@@ -278,198 +278,198 @@ inline constexpr char kIpProtectionHelpCenterURL[] =
  // The URL for the "Learn more" page for the usage/crash reporting option in the
  // first run dialog.
  inline constexpr char kLearnMoreReportingURL[] =
@@ -319,8 +351,18 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
 -    "https://support.brave.com";
 +    "https://support.ibrowe.com";
  
+ // The URL for the "Pay over time" support page.
+ inline constexpr char16_t kPayOverTimeLearnMoreUrl[] =
+-    u"https://support.brave.com";
++    u"https://support.ibrowe.com";
+ 
  // Help URL for Autofill Prediction Improvements.
  inline constexpr char16_t kAutofillAiLearnMoreURL[] =
+-    u"https://support.brave.com";
++    u"https://support.ibrowe.com";
+ 
+ // "Learn more" URL for the autofill show card benefits setting.
+ inline constexpr char16_t kCardBenefitsLearnMoreURL[] =
 -    u"https://support.brave.com";
 +    u"https://support.ibrowe.com";
  
@@ -426,6 +468,11 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
 -    "https://support.brave.com/";
 +    "https://support.ibrowe.com/";
  
+ // The URL for the "Learn more" page for adding a new profile to Chrome.
+ inline constexpr char kAddNewProfileOnDesktopLearnMoreURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
  // The URL for the "Learn more" page for AI settings for managed users.
  inline constexpr char16_t kAiSettingsLearnMorePageManagedUrl[] =
 -    u"https://support.brave.com/";
@@ -446,6 +493,16 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
 -    "https://support.brave.com/";
 +    "https://support.ibrowe.com/";
  
+ // The URL for the "Learn more about shortcuts" page for Glic.
+ inline constexpr char kGlicKeyboardShortcutLearnMoreURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ // The URL for the "Learn more about shortcuts" page for Glic for managed users.
+ inline constexpr char kGlicKeyboardShortcutLearnMoreManagedURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
  // The URL for the "Learn more" links for pages related to History search for
  // managed users.
  inline constexpr char kHistorySearchLearnMorePageManagedURL[] =
@@ -454,7 +511,7 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // The URL for the Settings page to enable history search.
  inline constexpr char16_t kHistorySearchSettingURL[] =
-@@ -448,113 +448,113 @@ inline constexpr char16_t kHistorySearchV2SettingURL[] =
+@@ -482,114 +482,114 @@ inline constexpr char16_t kHistorySearchV2SettingURL[] =
  
  // The URL for the "Learn more" page for Wallpaper Search.
  inline constexpr char kWallpaperSearchLearnMorePageURL[] =
@@ -468,8 +525,9 @@ index 72b7127c6985157781daf4099bb55c47eccd59e0..2f0c87bc86fcfdd4e5c66c2b2c3a09f1
  
  // The URL for the "Learn more" page for Tab Organization.
  inline constexpr char kTabOrganizationLearnMorePageURL[] =
--    "https://support.brave.com/";
-+    "https://support.ibrowe.com/";
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "35200007195917-How-to-use-Tab-Focus-Mode";
  
  // The URL for the "Learn more" page for Tab Organization for managed users.
  inline constexpr char kTabOrganizationLearnMorePageManagedURL[] =

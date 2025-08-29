@@ -1,10 +1,10 @@
 diff --git a/components/brave_wallet_ui/page/screens/onboarding/disclosures/disclosures.tsx b/components/brave_wallet_ui/page/screens/onboarding/disclosures/disclosures.tsx
-index 4ced3146559bbba1e88414b1c6cfd3ce82c1194f..2017138ebec00580c8c190ccf5ac7f9d2331e897 100644
+index 0beed7b14a414e5648122982383ed12c94ba56a5..078163a26806bc1fe3a3167c03df195c952767a1 100644
 --- a/components/brave_wallet_ui/page/screens/onboarding/disclosures/disclosures.tsx
 +++ b/components/brave_wallet_ui/page/screens/onboarding/disclosures/disclosures.tsx
-@@ -33,7 +33,7 @@ const TermsOfUseText: React.FC<{}> = () => {
-     <p key={text.duringTag}>
-       {text.beforeTag}
+@@ -31,7 +31,7 @@ const TermsOfUseText: React.FC<{}> = () => {
+   const text = formatLocale('braveWalletTermsOfServiceCheckboxText', {
+     $1: (content) => (
        <TermsLink
 -        href='https://brave.com/terms-of-use/'
 +        href='https://ibrowe.com/terms-of-use/'

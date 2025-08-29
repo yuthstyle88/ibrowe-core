@@ -1,14 +1,23 @@
 diff --git a/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements b/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements
-index 6fd26ea80ec06ea489a1706bd0000256beacb42a..2643610aad7180fed4b301e5025387c3e6d64318 100644
+index 6fd26ea80ec06ea489a1706bd0000256beacb42a..91851d743bfc7c10a46c9741f79b5da6c9fe033f 100644
 --- a/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements
 +++ b/ios/brave-ios/App/iOS/Entitlements/Debug.entitlements
-@@ -28,7 +28,7 @@
+@@ -5,9 +5,7 @@
+ 	<key>aps-environment</key>
+ 	<string>development</string>
+ 	<key>com.apple.developer.associated-domains</key>
+-	<array>
+-		<string>applinks:vpn.brave.com</string>
+-	</array>
++	<array/>
+ 	<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+ 	<true/>
+ 	<key>com.apple.developer.networking.networkextension</key>
+@@ -28,7 +26,5 @@
  	<array>
  		<string>group.$(MOZ_BUNDLE_ID).unique</string>
  	</array>
 -	<key>com.apple.developer.carplay-audio</key>
 -	<true/>
-+<!--	<key>com.apple.developer.carplay-audio</key>-->
-+<!--	<true/>-->
  </dict>
  </plist>
