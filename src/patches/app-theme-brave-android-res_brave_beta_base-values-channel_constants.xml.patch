@@ -1,0 +1,24 @@
+diff --git a/app/theme/brave/android/res_brave_beta_base/values/channel_constants.xml b/app/theme/brave/android/res_brave_beta_base/values/channel_constants.xml
+index 08ee9332ba16bd1af70f81f82fce508f37e65d3d..218282a53e86cc313abdd3667ea9b59391ce32aa 100644
+--- a/app/theme/brave/android/res_brave_beta_base/values/channel_constants.xml
++++ b/app/theme/brave/android/res_brave_beta_base/values/channel_constants.xml
+@@ -1,5 +1,5 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<!-- Copyright (c) 2019 The Brave Authors. All rights reserved.
++<!-- Copyright (c) 2019 The iBrowe Authors. All rights reserved.
+      This Source Code Form is subject to the terms of the Mozilla Public
+      License, v. 2.0. If a copy of the MPL was not distributed with this file,
+      You can obtain one at http://mozilla.org/MPL/2.0/.
+@@ -7,8 +7,8 @@
+ 
+ <resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <!-- The application name displayed to the user. -->
+-    <string name="app_name" translatable="false">Brave - Beta</string>
+-    <string name="bookmark_widget_title" translatable="false">Brave bookmarks</string>
+-    <string name="search_widget_title" translatable="false">Brave search</string>
+-    <string name="quick_action_search_widget_title" translatable="false">Brave quick action search</string>
++    <string name="app_name" translatable="false">iBrowe - Beta</string>
++    <string name="bookmark_widget_title" translatable="false">iBrowe bookmarks</string>
++    <string name="search_widget_title" translatable="false">iBrowe search</string>
++    <string name="quick_action_search_widget_title" translatable="false">iBrowe quick action search</string>
+ </resources>

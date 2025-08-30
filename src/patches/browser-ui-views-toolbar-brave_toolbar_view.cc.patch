@@ -1,0 +1,83 @@
+diff --git a/browser/ui/views/toolbar/brave_toolbar_view.cc b/browser/ui/views/toolbar/brave_toolbar_view.cc
+index 9c898fac32696d14620c97a8d554ad63ea21d938..bb631f81eadd58d0070decfe0bd9bf815b01125a 100644
+--- a/browser/ui/views/toolbar/brave_toolbar_view.cc
++++ b/browser/ui/views/toolbar/brave_toolbar_view.cc
+@@ -265,22 +265,22 @@ void BraveToolbarView::Init() {
+     UpdateAIChatButtonVisibility();
+   }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
+-    brave_vpn_ = container_view->AddChildViewAt(
+-        std::make_unique<BraveVPNButton>(browser()),
+-        *container_view->GetIndexOf(GetAppMenuButton()) - 1);
+-    show_brave_vpn_button_.Init(
+-        brave_vpn::prefs::kBraveVPNShowButton, profile->GetPrefs(),
+-        base::BindRepeating(&BraveToolbarView::OnVPNButtonVisibilityChanged,
+-                            base::Unretained(this)));
+-    hide_brave_vpn_button_by_policy_.Init(
+-        brave_vpn::prefs::kManagedBraveVPNDisabled, profile->GetPrefs(),
+-        base::BindRepeating(&BraveToolbarView::OnVPNButtonVisibilityChanged,
+-                            base::Unretained(this)));
+-    brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
+-  }
+-#endif
++//#if BUILDFLAG(ENABLE_BRAVE_VPN)
++//  if (brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
++//    brave_vpn_ = container_view->AddChildViewAt(
++//        std::make_unique<BraveVPNButton>(browser()),
++//        *container_view->GetIndexOf(GetAppMenuButton()) - 1);
++//    show_brave_vpn_button_.Init(
++//        brave_vpn::prefs::kBraveVPNShowButton, profile->GetPrefs(),
++//        base::BindRepeating(&BraveToolbarView::OnVPNButtonVisibilityChanged,
++//                           base::Unretained(this)));
++//    hide_brave_vpn_button_by_policy_.Init(
++//        brave_vpn::prefs::kManagedBraveVPNDisabled, profile->GetPrefs(),
++//        base::BindRepeating(&BraveToolbarView::OnVPNButtonVisibilityChanged,
++//                            base::Unretained(this)));
++//    brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
++//  }
++//#endif
+ 
+   // Make sure that avatar button should be located right before the app menu.
+   if (auto* avatar = GetAvatarToolbarButton()) {
+@@ -292,16 +292,16 @@ void BraveToolbarView::Init() {
+   UpdateHorizontalPadding();
+ }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-bool BraveToolbarView::IsBraveVPNButtonVisible() const {
+-  return show_brave_vpn_button_.GetValue() &&
+-         !hide_brave_vpn_button_by_policy_.GetValue();
+-}
+-void BraveToolbarView::OnVPNButtonVisibilityChanged() {
+-  DCHECK(brave_vpn_);
+-  brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
+-}
+-#endif
++//#if BUILDFLAG(ENABLE_BRAVE_VPN)
++//bool BraveToolbarView::IsBraveVPNButtonVisible() const {
++//  return show_brave_vpn_button_.GetValue() &&
++//         !hide_brave_vpn_button_by_policy_.GetValue();
++//}
++//void BraveToolbarView::OnVPNButtonVisibilityChanged() {
++//  DCHECK(brave_vpn_);
++//  brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
++//}
++//#endif
+ 
+ void BraveToolbarView::OnEditBookmarksEnabledChanged() {
+   DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
+@@ -483,9 +483,9 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
+ }
+ 
+ void BraveToolbarView::UpdateAIChatButtonVisibility() {
+-  bool should_show = ai_chat::IsAllowedForContext(browser()->profile()) &&
+-                     show_ai_chat_button_.GetValue();
+-  ai_chat_button_->SetVisible(should_show);
++//  bool should_show = ai_chat::IsAllowedForContext(browser()->profile()) &&
++ //                    show_ai_chat_button_.GetValue();
++  ai_chat_button_->SetVisible(false);
+ }
+ 
+ void BraveToolbarView::UpdateWalletButtonVisibility() {

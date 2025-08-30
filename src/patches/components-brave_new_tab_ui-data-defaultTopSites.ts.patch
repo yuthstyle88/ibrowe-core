@@ -1,5 +1,5 @@
 diff --git a/components/brave_new_tab_ui/data/defaultTopSites.ts b/components/brave_new_tab_ui/data/defaultTopSites.ts
-index de60029ecdc39975a7863cf93204d10a30eea2f1..efc42b5d29c2aa07a332b30e627fb31142e2afe1 100644
+index de60029ecdc39975a7863cf93204d10a30eea2f1..c2427f93c4cd2c64da30146ab0b4da2b48089768 100644
 --- a/components/brave_new_tab_ui/data/defaultTopSites.ts
 +++ b/components/brave_new_tab_ui/data/defaultTopSites.ts
 @@ -12,37 +12,37 @@ import YouTubeFavicon from '../../img/newtab/defaultTopSitesIcon/youtube.png'
@@ -7,7 +7,7 @@ index de60029ecdc39975a7863cf93204d10a30eea2f1..efc42b5d29c2aa07a332b30e627fb311
    {
      name: 'App Store',
 -    url: 'https://itunes.apple.com/app/brave-browser-fast-adblocker/id1052879175?mt=8',
-+    url: 'https://itunes.apple.com/app/ibrowe-browser-fast-adblocker/id6741485553?mt=8',
++    url: 'https://itunes.apple.com/app/ibrowe-browser-fast-adblocker/id1052879175?mt=8',
      favicon: AppStoreFavicon,
      background: 'rgba(255,255,255,0.8)'
    },

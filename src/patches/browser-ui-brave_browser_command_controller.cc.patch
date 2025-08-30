@@ -1,0 +1,110 @@
+diff --git a/browser/ui/brave_browser_command_controller.cc b/browser/ui/brave_browser_command_controller.cc
+index ecb0fa80b2103bb9bbfea59f8f9916ee60f39866..ffd8fd122725ff140e641bdb80b0767b287c98f8 100644
+--- a/browser/ui/brave_browser_command_controller.cc
++++ b/browser/ui/brave_browser_command_controller.cc
+@@ -96,12 +96,12 @@ BraveBrowserCommandController::BraveBrowserCommandController(Browser* browser)
+       browser_(*browser),
+       brave_command_updater_(nullptr) {
+   InitBraveCommandState();
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (auto* vpn_service = brave_vpn::BraveVpnServiceFactory::GetForProfile(
+-          browser_->profile())) {
+-    brave_vpn::BraveVPNServiceObserver::Observe(vpn_service);
+-  }
+-#endif
++//#if BUILDFLAG(ENABLE_BRAVE_VPN)
++//  if (auto* vpn_service = brave_vpn::BraveVpnServiceFactory::GetForProfile(
++//          browser_->profile())) {
++//    brave_vpn::BraveVPNServiceObserver::Observe(vpn_service);
++//  }
++//#endif
+ }
+ 
+ BraveBrowserCommandController::~BraveBrowserCommandController() = default;
+@@ -241,29 +241,29 @@ void BraveBrowserCommandController::InitBraveCommandState() {
+   UpdateCommandForTor();
+ #endif
+   UpdateCommandForSidebar();
+-  UpdateCommandForBraveVPN();
++//  UpdateCommandForBraveVPN();
+   UpdateCommandForPlaylist();
+   UpdateCommandForWaybackMachine();
+   pref_change_registrar_.Init(browser_->profile()->GetPrefs());
+ 
+-  UpdateCommandForAIChat();
+-  if (ai_chat::IsAllowedForContext(browser_->profile(), false)) {
+-    pref_change_registrar_.Add(
+-        ai_chat::prefs::kEnabledByPolicy,
+-        base::BindRepeating(
+-            &BraveBrowserCommandController::UpdateCommandForAIChat,
+-            base::Unretained(this)));
+-  }
+-
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (brave_vpn::IsAllowedForContext(browser_->profile())) {
+-    pref_change_registrar_.Add(
+-        brave_vpn::prefs::kManagedBraveVPNDisabled,
+-        base::BindRepeating(
+-            &BraveBrowserCommandController::UpdateCommandForBraveVPN,
+-            base::Unretained(this)));
+-  }
+-#endif
++  //UpdateCommandForAIChat();
++  //if (ai_chat::IsAllowedForContext(browser_->profile(), false)) {
++  //  pref_change_registrar_.Add(
++  //      ai_chat::prefs::kEnabledByPolicy,
++  //      base::BindRepeating(
++  //          &BraveBrowserCommandController::UpdateCommandForAIChat,
++  //          base::Unretained(this)));
++  //}
++
++//#if BUILDFLAG(ENABLE_BRAVE_VPN)
++//  if (brave_vpn::IsAllowedForContext(browser_->profile())) {
++//    pref_change_registrar_.Add(
++//        brave_vpn::prefs::kManagedBraveVPNDisabled,
++//        base::BindRepeating(
++//            &BraveBrowserCommandController::UpdateCommandForBraveVPN,
++//            base::Unretained(this)));
++//  }
++//#endif
+   bool add_new_profile_enabled = !is_guest_session;
+   bool open_guest_profile_enabled = !is_guest_session;
+   if (!is_guest_session) {
+@@ -561,9 +561,9 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
+     case IDC_SHOW_BRAVE_WALLET:
+       brave::ShowBraveWallet(&*browser_);
+       break;
+-    case IDC_TOGGLE_AI_CHAT:
+-      brave::ToggleAIChat(&*browser_);
+-      break;
++//    case IDC_TOGGLE_AI_CHAT:
++//      brave::ToggleAIChat(&*browser_);
++//      break;
+     case IDC_OPEN_FULL_PAGE_CHAT:
+       brave::ShowFullpageChat(&*browser_);
+       break;
+@@ -576,15 +576,15 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
+     case IDC_CLOSE_BRAVE_WALLET_PANEL:
+       brave::CloseWalletBubble(&*browser_);
+       break;
+-    case IDC_SHOW_BRAVE_VPN_PANEL:
+-      brave::ShowBraveVPNBubble(&*browser_);
+-      break;
+-    case IDC_TOGGLE_BRAVE_VPN_TRAY_ICON:
+-      brave::ToggleBraveVPNTrayIcon();
+-      break;
+-    case IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON:
+-      brave::ToggleBraveVPNButton(&*browser_);
+-      break;
++//    case IDC_SHOW_BRAVE_VPN_PANEL:
++//      brave::ShowBraveVPNBubble(&*browser_);
++//      break;
++//    case IDC_TOGGLE_BRAVE_VPN_TRAY_ICON:
++//      brave::ToggleBraveVPNTrayIcon();
++//      break;
++//    case IDC_TOGGLE_BRAVE_VPN_TOOLBAR_BUTTON:
++//      brave::ToggleBraveVPNButton(&*browser_);
++//      break;
+     case IDC_SEND_BRAVE_VPN_FEEDBACK:
+     case IDC_ABOUT_BRAVE_VPN:
+     case IDC_MANAGE_BRAVE_VPN_PLAN:

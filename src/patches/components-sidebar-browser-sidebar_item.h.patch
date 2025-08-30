@@ -1,23 +1,13 @@
 diff --git a/components/sidebar/browser/sidebar_item.h b/components/sidebar/browser/sidebar_item.h
-index ec5cd1776c05a9678d69a2d1f2db4cd25121539c..190d2dcfe8504fac694d6a91da945b686e600dff 100644
+index ec5cd1776c05a9678d69a2d1f2db4cd25121539c..0d5c93fe5d91e3116e2d89fe9ca94d7e53cb5db3 100644
 --- a/components/sidebar/browser/sidebar_item.h
 +++ b/components/sidebar/browser/sidebar_item.h
-@@ -20,15 +20,15 @@ struct SidebarItem {
+@@ -20,7 +20,7 @@ struct SidebarItem {
    // items.
    enum class BuiltInItemType {
      kNone = 0,
 -    kBraveTalk,
-+//    kBraveTalk,
++    // kBraveTalk,
      kWallet,
      kBookmarks,
      kReadingList,
-     kHistory,
-     kPlaylist,
--    kChatUI,
-+//    kChatUI,
-     // When adding new item, dont' forget to update kBuiltInItemLast.
--    kBuiltInItemLast = kChatUI,
-+    kBuiltInItemLast = kPlaylist,
-   };
- 
-   static SidebarItem Create(const std::u16string& title,
