@@ -1,8 +1,16 @@
 diff --git a/components/webui/about_ui.cc b/components/webui/about_ui.cc
-index 1a2652c33483038714850ada76cae944632fee0a..3b761403ba989fc15d8cd929b0d872f66bcaf934 100644
+index 1a2652c33483038714850ada76cae944632fee0a..b55525d9ffea3995568d2b41130d20bf24958b4a 100644
 --- a/components/webui/about_ui.cc
 +++ b/components/webui/about_ui.cc
-@@ -24,9 +24,9 @@ std::string ReplaceAboutUIChromeURLs(std::string chrome_urls) {
+@@ -18,15 +18,15 @@ namespace brave {
+ std::string ReplaceAboutUIChromeURLs(std::string chrome_urls) {
+   // Replace Chrome -> Brave.
+   constexpr std::string_view kChromeHeader = "Chrome URLs";
+-  constexpr std::string_view kBraveHeader = "Brave URLs";
++  constexpr std::string_view kBraveHeader = "iBrowe URLs";
+   constexpr std::string_view kChromePagesHeader = "List of Chrome URLs";
+-  constexpr std::string_view kBravePagesHeader = "List of Brave URLs";
++  constexpr std::string_view kBravePagesHeader = "List of iBrowe URLs";
    constexpr std::string_view kChromeInternalPagesHeader =
        "List of chrome://internals pages";
    constexpr std::string_view kBraveInternalPagesHeader =
