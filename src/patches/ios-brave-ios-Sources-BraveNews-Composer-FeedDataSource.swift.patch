@@ -1,0 +1,79 @@
+diff --git a/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift b/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
+index 17aa2c3937ee6578897c568f8f54c8d1b1828c80..eb65f2b3930a765268b41a9a25e7c6c9ec0c96c6 100644
+--- a/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
++++ b/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
+@@ -111,8 +111,8 @@ public class FeedDataSource: ObservableObject {
+   public var getAdsAPI: (() -> BraveAds)?
+   public var historyAPI: BraveHistoryAPI?
+ 
+-  private let todayQueue = DispatchQueue(label: "com.brave.today")
+-  private let reloadQueue = DispatchQueue(label: "com.brave.today.reload")
++  private let todayQueue = DispatchQueue(label: "com.ibrowe.today")
++  private let reloadQueue = DispatchQueue(label: "com.ibrowe.today.reload")
+ 
+   struct FeedDecodingError: Identifiable {
+     var id: UUID = .init()
+@@ -155,9 +155,9 @@ public class FeedDataSource: ObservableObject {
+ 
+   /// A Brave News environment
+   public enum Environment: String, CaseIterable {
+-    case dev = "brave.software"
+-    case staging = "bravesoftware.com"
+-    case production = "brave.com"
++    case dev = "ibrowe.software"
++    case staging = "ibrowesoftware.com"
++    case production = "ibrowe.com"
+   }
+ 
+   /// The current Brave News environment.
+@@ -222,28 +222,28 @@ public class FeedDataSource: ObservableObject {
+     var cacheLifetime: TimeInterval
+ 
+     static let globalSources = NewsResource(
+-      bucket: NewsBucket(name: "brave-today-cdn"),
++      bucket: NewsBucket(name: "ibrowe-today-cdn"),
+       name: "sources.global",
+       type: "json",
+       isLocalized: false,
+       cacheLifetime: 1.days
+     )
+     static let sources = NewsResource(
+-      bucket: NewsBucket(name: "brave-today-cdn"),
++      bucket: NewsBucket(name: "ibrowe-today-cdn"),
+       name: "sources",
+       type: "json",
+       isLocalized: true,
+       cacheLifetime: 1.days
+     )
+     static let feed = NewsResource(
+-      bucket: NewsBucket(name: "brave-today-cdn", path: "brave-today"),
++      bucket: NewsBucket(name: "ibrowe-today-cdn", path: "ibrowe-today"),
+       name: "feed",
+       type: "json",
+       isLocalized: true,
+       cacheLifetime: 1.hours
+     )
+     static let sourceSuggestions = NewsResource(
+-      bucket: NewsBucket(name: "brave-today-cdn", path: "source-suggestions"),
++      bucket: NewsBucket(name: "ibrowe-today-cdn", path: "source-suggestions"),
+       name: "source_similarity_t10",
+       type: "json",
+       isLocalized: true,
+@@ -265,7 +265,7 @@ public class FeedDataSource: ObservableObject {
+     return "\(resource.name).\(resource.type)"
+   }
+ 
+-  private static let cacheFolderName = "brave-today"
++  private static let cacheFolderName = "ibrowe-today"
+ 
+   /// Determine whether or not some cached resource is expired
+   ///
+@@ -1037,7 +1037,7 @@ public class FeedDataSource: ObservableObject {
+       )
+       // Move to OSSignposter when we're 15+
+       let log = OSLog(
+-        subsystem: Bundle.main.bundleIdentifier ?? "com.brave.ios",
++        subsystem: Bundle.main.bundleIdentifier ?? "com.ibrowe.ios",
+         category: "Brave News"
+       )
+       let signpostID = OSSignpostID(log: log)

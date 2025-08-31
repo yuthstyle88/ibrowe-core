@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Growth/URP/UserReferralProgram.swift b/ios/brave-ios/Sources/Growth/URP/UserReferralProgram.swift
+index a1336a9aa33db85df5e8198ec222d198466377d9..35b82d6a77b1b0ea63153f238f055d07e449c542 100644
+--- a/ios/brave-ios/Sources/Growth/URP/UserReferralProgram.swift
++++ b/ios/brave-ios/Sources/Growth/URP/UserReferralProgram.swift
+@@ -18,7 +18,7 @@ public class UserReferralProgram {
+   public static let shared = UserReferralProgram()
+ 
+   struct HostUrl {
+-    static let staging = "https://usage-ping.bravesoftware.com"
++    static let staging = "https://usage-ping.ibrowesoftware.com"
+     static let prod = "https://usage-ping.brave.com"
+   }
+ 

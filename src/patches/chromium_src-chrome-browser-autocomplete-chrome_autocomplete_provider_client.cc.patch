@@ -1,0 +1,17 @@
+diff --git a/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc b/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
+index e7fbc42ab75c94c9f8cc1e288379fc1f0a728f72..9fad2466dd1cd9c7b41ba46f882082b8f3b94606 100644
+--- a/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
++++ b/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
+@@ -92,9 +92,9 @@ void ChromeAutocompleteProviderClient::OpenLeo(const std::u16string& query) {
+     conversation_handler->MaybeUnlinkAssociatedContent();
+ 
+     // Activate the panel.
+-    auto* sidebar_controller = browser->GetFeatures().sidebar_controller();
+-    sidebar_controller->ActivatePanelItem(
+-        sidebar::SidebarItem::BuiltInItemType::kChatUI);
++    // auto* sidebar_controller = browser->GetFeatures().sidebar_controller();
++    // sidebar_controller->ActivatePanelItem(
++    //     sidebar::SidebarItem::BuiltInItemType::kChatUI);
+   }
+ 
+   if (!conversation_handler) {

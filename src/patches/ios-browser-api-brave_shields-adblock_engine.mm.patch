@@ -1,0 +1,13 @@
+diff --git a/ios/browser/api/brave_shields/adblock_engine.mm b/ios/browser/api/brave_shields/adblock_engine.mm
+index dd0b5cb6ac786d0099df98ace5337ed4f3d76f22..f2efb89d35e611c0d8813561db3cdecd66a4c991 100644
+--- a/ios/browser/api/brave_shields/adblock_engine.mm
++++ b/ios/browser/api/brave_shields/adblock_engine.mm
+@@ -121,7 +121,7 @@ class AdblockEngineBox final {
+ + (NSError*)adblockErrorForKind:(adblock::ResultKind)kind
+                         message:(rust::String)message {
+   return [NSError
+-      errorWithDomain:@"com.brave.adblock"
++      errorWithDomain:@"com.ibrowe.adblock"
+                  code:static_cast<NSInteger>(kind)
+              userInfo:@{
+                NSLocalizedDescriptionKey :

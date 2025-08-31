@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/common/subdivision/url_request/subdivision_url_request_builder_unittest.cc b/components/brave_ads/core/internal/common/subdivision/url_request/subdivision_url_request_builder_unittest.cc
+index ab17786ab5e2ac5a73ec615f4f3c6705828d704b..51c9fb16662f7ac04d6defd09d792746c90bca81 100644
+--- a/components/brave_ads/core/internal/common/subdivision/url_request/subdivision_url_request_builder_unittest.cc
++++ b/components/brave_ads/core/internal/common/subdivision/url_request/subdivision_url_request_builder_unittest.cc
+@@ -26,7 +26,7 @@ TEST_F(BraveAdsSubdivisionUrlRequestBuilderTest, BuildUrl) {
+   const mojom::UrlRequestInfoPtr expected_mojom_url_request =
+       mojom::UrlRequestInfo::New();
+   expected_mojom_url_request->url =
+-      GURL("https://geo.ads.bravesoftware.com/v1/getstate");
++      GURL("https://geo.ads.ibrowesoftware.com/v1/getstate");
+   expected_mojom_url_request->method = mojom::UrlRequestMethodType::kGet;
+   EXPECT_EQ(expected_mojom_url_request, mojom_url_request);
+ }

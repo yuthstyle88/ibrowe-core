@@ -1,0 +1,27 @@
+diff --git a/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift b/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift
+index 51a1d534e7ed52e68fd69a937c384dd5ad969591..3f15724b6c7d33537842a850e301fc27cf32f81a 100644
+--- a/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift
++++ b/ios/brave-ios/Tests/ClientTests/DomainUserScriptTests.swift
+@@ -12,11 +12,11 @@ class DomainUserScriptTests: XCTestCase {
+   func testBraveSearchAPIAvailability() throws {
+     let goodURLs = [
+       URL(string: "https://search.brave.com"),
+-      URL(string: "https://search.bravesoftware.com"),
++      URL(string: "https://search.ibrowesoftware.com"),
+       URL(string: "https://search.brave.software"),
+       URL(string: "https://search.brave.com/custom/path"),
+       URL(string: "https://safesearch.brave.com"),
+-      URL(string: "https://search.bravesoftware.com/custom/path"),
++      URL(string: "https://search.ibrowesoftware.com/custom/path"),
+     ].compactMap { $0 }
+ 
+     goodURLs.forEach {
+@@ -39,7 +39,7 @@ class DomainUserScriptTests: XCTestCase {
+   func testBraveTalkAPIAvailability() throws {
+     let goodURLs = [
+       URL(string: "https://talk.brave.com"),
+-      URL(string: "https://talk.bravesoftware.com"),
++      URL(string: "https://talk.ibrowesoftware.com"),
+       URL(string: "https://talk.brave.com/account"),
+     ].compactMap { $0 }
+ 

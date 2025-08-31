@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/account/utility/redeem_confirmation/reward/url_request_builders/fetch_payment_token_url_request_builder_unittest.cc b/components/brave_ads/core/internal/account/utility/redeem_confirmation/reward/url_request_builders/fetch_payment_token_url_request_builder_unittest.cc
+index 1f0b19d1b9c2f9a872fdbc01b5ff5ea5edfc8ffa..eb6246e0402025d2b9bf6b83f78b04e779d63eaa 100644
+--- a/components/brave_ads/core/internal/account/utility/redeem_confirmation/reward/url_request_builders/fetch_payment_token_url_request_builder_unittest.cc
++++ b/components/brave_ads/core/internal/account/utility/redeem_confirmation/reward/url_request_builders/fetch_payment_token_url_request_builder_unittest.cc
+@@ -39,7 +39,7 @@ TEST_F(BraveAdsFetchPaymentTokenUrlRequestBuilderTest, BuildUrl) {
+   const mojom::UrlRequestInfoPtr expected_mojom_url_request =
+       mojom::UrlRequestInfo::New();
+   expected_mojom_url_request->url = GURL(
+-      R"(https://anonymous.ads.bravesoftware.com/v3/confirmation/8b742869-6e4a-490c-ac31-31b49130098a/paymentToken)");
++      R"(https://anonymous.ads.ibrowesoftware.com/v3/confirmation/8b742869-6e4a-490c-ac31-31b49130098a/paymentToken)");
+   expected_mojom_url_request->method = mojom::UrlRequestMethodType::kGet;
+   EXPECT_EQ(expected_mojom_url_request, mojom_url_request);
+ }

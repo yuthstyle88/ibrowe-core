@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/PlaylistUI/OEmbedThumbnailFetcher.swift b/ios/brave-ios/Sources/PlaylistUI/OEmbedThumbnailFetcher.swift
+index 76a1a5c5796ca8d252bd71979bb78ce53efe90f3..d621ae28462a16690ae3be50d2abca29cec4363e 100644
+--- a/ios/brave-ios/Sources/PlaylistUI/OEmbedThumbnailFetcher.swift
++++ b/ios/brave-ios/Sources/PlaylistUI/OEmbedThumbnailFetcher.swift
+@@ -15,7 +15,7 @@ actor OEmbedThumbnailFetcher {
+   private var providers: [Provider] = []
+   private var hasInitializedProviders: Bool = false
+   private let logger = Logger(
+-    subsystem: Bundle.main.bundleIdentifier ?? "com.brave.ios",
++    subsystem: Bundle.main.bundleIdentifier ?? "com.ibrowe.ios",
+     category: "OEmbedThumbnailFetcher"
+   )
+ 

@@ -1,0 +1,48 @@
+diff --git a/ios/brave-ios/Sources/BrowserMenu/BrowserMenuModel.swift b/ios/brave-ios/Sources/BrowserMenu/BrowserMenuModel.swift
+index 035ec008a829ccfe3f1227be498b8b5a6be04328..2e71a6dd012bb134a167df08d8407a4027d67011 100644
+--- a/ios/brave-ios/Sources/BrowserMenu/BrowserMenuModel.swift
++++ b/ios/brave-ios/Sources/BrowserMenu/BrowserMenuModel.swift
+@@ -149,21 +149,21 @@ extension BrowserMenuModel {
+     let vpnStatusPublisher = CurrentValueSubject<VPNStatus, Never>(mockStatus)
+     let model = BrowserMenuModel(
+       actions: [
+-        .init(
+-          id: .vpn,
+-          title: "VPN On",
+-          traits: .init(badgeColor: UIColor(braveSystemName: .primary50)),
+-          state: true
+-        ) { action in
+-          var actionCopy = action
+-          actionCopy.state?.toggle()
+-          actionCopy.title = "VPN \(actionCopy.state! ? "On" : "Off")"
+-          vpnStatusPublisher.send(actionCopy.state! ? mockStatus : .disconnected)
+-          return .updateAction(actionCopy)
+-        },
++//        .init(
++//          id: .vpn,
++//          title: "VPN On",
++//          traits: .init(badgeColor: UIColor(braveSystemName: .primary50)),
++//          state: true
++//        ) { action in
++//          var actionCopy = action
++//          actionCopy.state?.toggle()
++//          actionCopy.title = "VPN \(actionCopy.state! ? "On" : "Off")"
++//          vpnStatusPublisher.send(actionCopy.state! ? mockStatus : .disconnected)
++//          return .updateAction(actionCopy)
++//        },
+         .init(id: .addBookmark, attributes: .disabled),
+         .init(id: .history),
+-        .init(id: .braveLeo),
++//        .init(id: .braveLeo),
+         .init(id: .playlist),
+         .init(id: .addFavourites),
+         .init(
+@@ -180,7 +180,7 @@ extension BrowserMenuModel {
+         .init(id: .createPDF),
+         .init(id: .pageZoom),
+       ],
+-      vpnStatusPublisher: vpnStatusPublisher.eraseToAnyPublisher(),
++//      vpnStatusPublisher: vpnStatusPublisher.eraseToAnyPublisher(),
+       actionVisibility: {
+         let pref = Preferences.Option<[String: Bool]>(
+           key: "browser-menu-mock-action-visibility",

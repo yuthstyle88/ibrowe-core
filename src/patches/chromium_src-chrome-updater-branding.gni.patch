@@ -1,5 +1,5 @@
 diff --git a/chromium_src/chrome/updater/branding.gni b/chromium_src/chrome/updater/branding.gni
-index db0ddb391250ad503d8689adfe5ef62031e84d1b..dd40b17b1ad3e6da511f10ba39015def09d7b74f 100644
+index db0ddb391250ad503d8689adfe5ef62031e84d1b..6e4e45ee431554f11b4c34f539c3325b57839c3c 100644
 --- a/chromium_src/chrome/updater/branding.gni
 +++ b/chromium_src/chrome/updater/branding.gni
 @@ -14,21 +14,21 @@
@@ -35,9 +35,12 @@ index db0ddb391250ad503d8689adfe5ef62031e84d1b..dd40b17b1ad3e6da511f10ba39015def
    grdfile_name = "brave_strings"
  
    # The following values come from our Omaha 3 implementation:
-@@ -86,4 +86,4 @@ brave_updater_branding = {
+@@ -84,6 +84,6 @@ brave_updater_branding = {
+   declare_args() {
+     # Omaha 4 update server:
      update_check_url =
-         "https://updates.bravesoftware.com/non-stable/service/update2/json"
+-        "https://updates.bravesoftware.com/non-stable/service/update2/json"
++        "https://updates.ibrowesoftware.com/non-stable/service/update2/json"
    }
 -}
 +}

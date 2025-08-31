@@ -1,8 +1,37 @@
 diff --git a/ios/brave-ios/scripts/scheme_preaction.py b/ios/brave-ios/scripts/scheme_preaction.py
-index 237871fbf329971d5a3b9a6ece7c5ff25477b3ae..575db8b01cfe2f56e42c7aaaa0be2f00216453bc 100755
+index 237871fbf329971d5a3b9a6ece7c5ff25477b3ae..589b8e5f946c47b7c5eb96ce6b37ad2d0b73f2c4 100755
 --- a/ios/brave-ios/scripts/scheme_preaction.py
 +++ b/ios/brave-ios/scripts/scheme_preaction.py
-@@ -54,9 +54,10 @@ def main():
+@@ -41,11 +41,23 @@ def main():
+     # Passed in configuration is going to be based on Xcode configurations which
+     # is based on channels, so use Release for all non-Debug configs.
+     config = 'Release' if 'Debug' not in options.configuration else 'Debug'
+-    output_dir = BuildOutputDirectory(config, options.platform_name)
+-    target_arch = 'arm64' if platform.processor(
+-    ) == 'arm' or options.platform_name == 'iphoneos' else 'x64'
+-    target_environment = 'simulator' if (options.platform_name
+-                                         == 'iphonesimulator') else 'device'
++
++    # Normalize platform_name: prefer CLI arg; fallback to Xcode env
++    platform_name = options.platform_name or os.environ.get('PLATFORM_NAME')
++
++    # Determine arch/env
++    is_apple_silicon = platform.machine() in ('arm64', 'aarch64') or platform.processor() in ('arm', 'arm64')
++    if platform_name == 'iphoneos':
++        target_arch = 'arm64'
++    elif platform_name == 'iphonesimulator':
++        # Simulator on Apple Silicon still uses arm64 slices
++        target_arch = 'arm64' if is_apple_silicon else 'x64'
++    else:
++        # Fallback: assume same as host
++        target_arch = 'arm64' if is_apple_silicon else 'x64'
++    target_environment = 'simulator' if platform_name == 'iphonesimulator' else 'device'
++
++    output_dir = BuildOutputDirectory(config, target_arch, target_environment)
+ 
+     if options.only_update_symlink:
+         # If we're choosing to only update the symlink we should validate
+@@ -54,22 +66,29 @@ def main():
              err = inspect.cleandoc(f'''
              Expected out directory for chosen build doesn't exist:
  
@@ -15,3 +44,26 @@ index 237871fbf329971d5a3b9a6ece7c5ff25477b3ae..575db8b01cfe2f56e42c7aaaa0be2f00
              ''')
              raise Exception(err)
      else:
++        print(f"[DEBUG] config={config}, platform_name(arg)={options.platform_name}, PLATFORM_NAME(env)={os.environ.get('PLATFORM_NAME')}, target_arch={target_arch}, target_environment={target_environment}, output_dir={output_dir}")
+         BuildCore(config, target_arch, target_environment)
++
++        print("[DEBUG] running ios_pack_js …")
+         CallNpm(['npm', 'run', 'ios_pack_js'])
++
++    print(f"[DEBUG] Updating symlink with config={config}, arch={target_arch}, env={target_environment}, out={output_dir}")
+     UpdateSymlink(config, target_arch, target_environment)
+ 
+ 
+-def BuildOutputDirectory(config, platform_name):
+-    directory_name = 'ios_%s' % config
+-    if platform.processor() == 'arm' or platform_name == 'iphoneos':
++def BuildOutputDirectory(config, target_arch, target_environment):
++    """Return the out dir used by gn/ninja for this config/arch/env."""
++    directory_name = f'ios_{config}'
++    if target_arch == 'arm64':
+         directory_name += '_arm64'
+-    if platform_name == 'iphonesimulator':
++    if target_environment == 'simulator':
+         directory_name += '_simulator'
+     return os.path.normpath(os.path.join(src_dir, 'out', directory_name))
+ 

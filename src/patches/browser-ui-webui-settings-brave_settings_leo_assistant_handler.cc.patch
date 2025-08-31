@@ -1,0 +1,218 @@
+diff --git a/browser/ui/webui/settings/brave_settings_leo_assistant_handler.cc b/browser/ui/webui/settings/brave_settings_leo_assistant_handler.cc
+index 7bbdd2ff79f1256cd69b663001f7668d3bd5cfd2..0ca0b77b7bcde562d2a693c2799263918e430424 100644
+--- a/browser/ui/webui/settings/brave_settings_leo_assistant_handler.cc
++++ b/browser/ui/webui/settings/brave_settings_leo_assistant_handler.cc
+@@ -22,38 +22,38 @@
+ 
+ namespace {
+ 
+-const std::vector<sidebar::SidebarItem>::const_iterator FindAiChatSidebarItem(
+-    const std::vector<sidebar::SidebarItem>& items) {
+-  return std::ranges::find_if(items, [](const auto& item) {
+-    return item.built_in_item_type ==
+-           sidebar::SidebarItem::BuiltInItemType::kChatUI;
+-  });
+-}
+-
+-bool ShowLeoAssistantIconVisibleIfNot(
+-    sidebar::SidebarService* sidebar_service) {
+-  const auto hidden_items = sidebar_service->GetHiddenDefaultSidebarItems();
+-  const auto item_hidden_iter = FindAiChatSidebarItem(hidden_items);
+-
+-  if (item_hidden_iter != hidden_items.end()) {
+-    sidebar_service->AddItem(*item_hidden_iter);
+-    return true;
+-  }
+-
+-  return false;
+-}
+-
+-bool HideLeoAssistantIconIfNot(sidebar::SidebarService* sidebar_service) {
+-  const auto visible_items = sidebar_service->items();
+-  const auto item_visible_iter = FindAiChatSidebarItem(visible_items);
+-
+-  if (item_visible_iter != visible_items.end()) {
+-    sidebar_service->RemoveItemAt(item_visible_iter - visible_items.begin());
+-    return true;
+-  }
+-
+-  return false;
+-}
++// const std::vector<sidebar::SidebarItem>::const_iterator FindAiChatSidebarItem(
++//     const std::vector<sidebar::SidebarItem>& items) {
++//   return std::ranges::find_if(items, [](const auto& item) {
++//     return item.built_in_item_type ==
++//            sidebar::SidebarItem::BuiltInItemType::kChatUI;
++//   });
++// }
++
++// bool ShowLeoAssistantIconVisibleIfNot(
++//     sidebar::SidebarService* sidebar_service) {
++//   const auto hidden_items = sidebar_service->GetHiddenDefaultSidebarItems();
++//   const auto item_hidden_iter = FindAiChatSidebarItem(hidden_items);
++//
++//   if (item_hidden_iter != hidden_items.end()) {
++//     sidebar_service->AddItem(*item_hidden_iter);
++//     return true;
++//   }
++//
++//   return false;
++// }
++
++// bool HideLeoAssistantIconIfNot(sidebar::SidebarService* sidebar_service) {
++//   const auto visible_items = sidebar_service->items();
++//   const auto item_visible_iter = FindAiChatSidebarItem(visible_items);
++//
++//   if (item_visible_iter != visible_items.end()) {
++//     sidebar_service->RemoveItemAt(item_visible_iter - visible_items.begin());
++//     return true;
++//   }
++//
++//   return false;
++// }
+ 
+ }  // namespace
+ 
+@@ -64,25 +64,25 @@ BraveLeoAssistantHandler::BraveLeoAssistantHandler() = default;
+ BraveLeoAssistantHandler::~BraveLeoAssistantHandler() = default;
+ 
+ void BraveLeoAssistantHandler::RegisterMessages() {
+-  profile_ = Profile::FromWebUI(web_ui());
+-
+-  web_ui()->RegisterMessageCallback(
+-      "toggleLeoIcon",
+-      base::BindRepeating(&BraveLeoAssistantHandler::HandleToggleLeoIcon,
+-                          base::Unretained(this)));
+-  web_ui()->RegisterMessageCallback(
+-      "getLeoIconVisibility",
+-      base::BindRepeating(&BraveLeoAssistantHandler::HandleGetLeoIconVisibility,
+-                          base::Unretained(this)));
+-  web_ui()->RegisterMessageCallback(
+-      "resetLeoData",
+-      base::BindRepeating(&BraveLeoAssistantHandler::HandleResetLeoData,
+-                          base::Unretained(this)));
+-  web_ui()->RegisterMessageCallback(
+-      "validateModelEndpoint",
+-      base::BindRepeating(
+-          &BraveLeoAssistantHandler::HandleValidateModelEndpoint,
+-          base::Unretained(this)));
++  // profile_ = Profile::FromWebUI(web_ui());
++
++  // web_ui()->RegisterMessageCallback(
++  //     "toggleLeoIcon",
++  //     base::BindRepeating(&BraveLeoAssistantHandler::HandleToggleLeoIcon,
++  //                         base::Unretained(this)));
++  // web_ui()->RegisterMessageCallback(
++  //     "getLeoIconVisibility",
++  //     base::BindRepeating(&BraveLeoAssistantHandler::HandleGetLeoIconVisibility,
++  //                         base::Unretained(this)));
++  // web_ui()->RegisterMessageCallback(
++  //     "resetLeoData",
++  //     base::BindRepeating(&BraveLeoAssistantHandler::HandleResetLeoData,
++  //                         base::Unretained(this)));
++  // web_ui()->RegisterMessageCallback(
++  //     "validateModelEndpoint",
++  //     base::BindRepeating(
++  //         &BraveLeoAssistantHandler::HandleValidateModelEndpoint,
++  //         base::Unretained(this)));
+ }
+ 
+ void BraveLeoAssistantHandler::OnJavascriptAllowed() {
+@@ -97,18 +97,18 @@ void BraveLeoAssistantHandler::OnJavascriptDisallowed() {
+ 
+ void BraveLeoAssistantHandler::OnItemAdded(const sidebar::SidebarItem& item,
+                                            size_t index) {
+-  if (item.built_in_item_type ==
+-      sidebar::SidebarItem::BuiltInItemType::kChatUI) {
+-    NotifyChatUiChanged(true);
+-  }
++  // if (item.built_in_item_type ==
++  //     sidebar::SidebarItem::BuiltInItemType::kChatUI) {
++  //   NotifyChatUiChanged(true);
++  // }
+ }
+ 
+ void BraveLeoAssistantHandler::OnItemRemoved(const sidebar::SidebarItem& item,
+                                              size_t index) {
+-  if (item.built_in_item_type ==
+-      sidebar::SidebarItem::BuiltInItemType::kChatUI) {
+-    NotifyChatUiChanged(false);
+-  }
++  // if (item.built_in_item_type ==
++  //     sidebar::SidebarItem::BuiltInItemType::kChatUI) {
++  //   NotifyChatUiChanged(false);
++  // }
+ }
+ 
+ void BraveLeoAssistantHandler::NotifyChatUiChanged(const bool& is_leo_visible) {
+@@ -120,12 +120,12 @@ void BraveLeoAssistantHandler::NotifyChatUiChanged(const bool& is_leo_visible) {
+ 
+ void BraveLeoAssistantHandler::HandleToggleLeoIcon(
+     const base::Value::List& args) {
+-  auto* service = sidebar::SidebarServiceFactory::GetForProfile(profile_);
++// auto* service = sidebar::SidebarServiceFactory::GetForProfile(profile_);
+ 
+   AllowJavascript();
+-  if (!ShowLeoAssistantIconVisibleIfNot(service)) {
+-    HideLeoAssistantIconIfNot(service);
+-  }
++  // if (!ShowLeoAssistantIconVisibleIfNot(service)) {
++  //   HideLeoAssistantIconIfNot(service);
++  // }
+ }
+ 
+ void BraveLeoAssistantHandler::HandleValidateModelEndpoint(
+@@ -162,30 +162,30 @@ void BraveLeoAssistantHandler::HandleGetLeoIconVisibility(
+   auto* service = sidebar::SidebarServiceFactory::GetForProfile(profile_);
+   const auto hidden_items = service->GetHiddenDefaultSidebarItems();
+   AllowJavascript();
+-  ResolveJavascriptCallback(
+-      args[0], !base::Contains(hidden_items,
+-                               sidebar::SidebarItem::BuiltInItemType::kChatUI,
+-                               &sidebar::SidebarItem::built_in_item_type));
++  // ResolveJavascriptCallback(
++  //     args[0], !base::Contains(hidden_items,
++  //                              sidebar::SidebarItem::BuiltInItemType::kChatUI,
++  //                              &sidebar::SidebarItem::built_in_item_type));
+ }
+ 
+-void BraveLeoAssistantHandler::HandleResetLeoData(
+-    const base::Value::List& args) {
+-  auto* sidebar_service =
+-      sidebar::SidebarServiceFactory::GetForProfile(profile_);
+-
+-  ShowLeoAssistantIconVisibleIfNot(sidebar_service);
+-
+-  ai_chat::AIChatService* service =
+-      ai_chat::AIChatServiceFactory::GetForBrowserContext(profile_);
+-  if (!service) {
+-    return;
+-  }
+-  service->DeleteConversations();
+-  if (profile_) {
+-    ai_chat::SetUserOptedIn(profile_->GetPrefs(), false);
+-  }
+-
+-  AllowJavascript();
+-}
++// void BraveLeoAssistantHandler::HandleResetLeoData(
++//     const base::Value::List& args) {
++//   auto* sidebar_service =
++//       sidebar::SidebarServiceFactory::GetForProfile(profile_);
++//
++//   ShowLeoAssistantIconVisibleIfNot(sidebar_service);
++//
++//   ai_chat::AIChatService* service =
++//       ai_chat::AIChatServiceFactory::GetForBrowserContext(profile_);
++//   if (!service) {
++//     return;
++//   }
++//   service->DeleteConversations();
++//   if (profile_) {
++//     ai_chat::SetUserOptedIn(profile_->GetPrefs(), false);
++//   }
++//
++//   AllowJavascript();
++// }
+ 
+ }  // namespace settings

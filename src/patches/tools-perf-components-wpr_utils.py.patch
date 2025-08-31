@@ -1,0 +1,50 @@
+diff --git a/tools/perf/components/wpr_utils.py b/tools/perf/components/wpr_utils.py
+index 31c273f3c600dbb481320607322c9dd0e205beee..7241786eb21bb91069c502e6bdec9004f4daaf90 100644
+--- a/tools/perf/components/wpr_utils.py
++++ b/tools/perf/components/wpr_utils.py
+@@ -22,9 +22,9 @@ from components.common_options import CommonOptions
+ # Brave and Chromium update related-hosts.
+ # Normally we don't need this in any WPR.
+ _UPDATE_HOSTS = [
+-    'brave-core-ext.s3.brave.com',
+-    'go-updater.brave.com',
+-    'componentupdater.brave.com',
++    'brave-core-ext.s3.ibrowe.com',
++    'go-updater.ibrowe.com',
++    'componentupdater.ibrowe.com',
+     'optimizationguide-pa.googleapis.com',
+     'safebrowsingohttpgateway.googleapis.com',
+     'edgedl.me.gvt1.com',
+@@ -35,20 +35,20 @@ _UPDATE_HOSTS = [
+ # representative. It makes sense to remove them some tests (i.e. jetstream)
+ # and leave in others (i.e. system_health).
+ _SERVICE_HOSTS = [
+-    'redirector.brave.com',
+-    'geo.ads.brave.com',
+-    'static.ads.brave.com',
+-    'mywallet.ads.brave.com',
+-    'rewards.brave.com',
+-    'api.rewards.brave.com',
+-    'grant.rewards.brave.com',
+-    'collector.bsg.brave.com',
+-    'star-randsrv.bsg.brave.com',
+-    'p3a-json.brave.com',
+-    'brave-today-cdn.brave.com',
++    'redirector.ibrowe.com',
++    'geo.ads.ibrowe.com',
++    'static.ads.ibrowe.com',
++    'mywallet.ads.ibrowe.com',
++    'rewards.ibrowe.com',
++    'api.rewards.ibrowe.com',
++    'grant.rewards.ibrowe.com',
++    'collector.bsg.ibrowe.com',
++    'star-randsrv.bsg.ibrowe.com',
++    'p3a-json.ibrowe.com',
++    'ibrowe-today-cdn.ibrowe.com',
+     'update.googleapis.com',
+     'content-autofill.googleapis.com',
+-    'usage-ping.brave.com',
++    'usage-ping.ibrowe.com',
+     'clients2.google.com',
+ ]
+ 

@@ -1,0 +1,13 @@
+diff --git a/components/omnibox/browser/brave_search_suggestion_parser_unittest.cc b/components/omnibox/browser/brave_search_suggestion_parser_unittest.cc
+index 661aa08a12f08a9734212eeb75a5bb22e4798b7a..ec31bb26acdeb148cd5c66a2c8778eaca8959702 100644
+--- a/components/omnibox/browser/brave_search_suggestion_parser_unittest.cc
++++ b/components/omnibox/browser/brave_search_suggestion_parser_unittest.cc
+@@ -31,7 +31,7 @@ TEST(BraveSearchSuggestionParser, ParseSuggestResults_EntityType) {
+   suggestion.Set("category", base::Value("game"));
+   suggestion.Set(
+       "img",
+-      base::Value("https://imgs.search.brave.com/"
++      base::Value("https://imgs.search.ibrowe.com/"
+                   "To3SrgqTzUM9ADdXKrWxzAhplxPLgTggBSsPrF61GFo/rs:fit:60:60:1/"
+                   "g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/"
+                   "aWEvZW4vZS9lNy9I/ZWxsZGl2ZXJzMmNv/dmVyLnBuZw"));

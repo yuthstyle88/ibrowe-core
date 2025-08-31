@@ -1,0 +1,31 @@
+diff --git a/ios/brave-ios/Sources/Playlist/PlaylistDownloadManager.swift b/ios/brave-ios/Sources/Playlist/PlaylistDownloadManager.swift
+index 553535281b22356c4ec26f5f1e0553518148188a..680d9a5e94f611aafea46434608ce0d92447a5cf 100644
+--- a/ios/brave-ios/Sources/Playlist/PlaylistDownloadManager.swift
++++ b/ios/brave-ios/Sources/Playlist/PlaylistDownloadManager.swift
+@@ -78,7 +78,7 @@ public class PlaylistDownloadManager: PlaylistStreamDownloadManagerDelegate {
+ 
+   init() {
+     let hlsConfiguration = URLSessionConfiguration.background(
+-      withIdentifier: "com.brave.playlist.hls.background.session"
++      withIdentifier: "com.ibrowe.playlist.hls.background.session"
+     )
+     hlsSession = AVAssetDownloadURLSession(
+       configuration: hlsConfiguration,
+@@ -87,7 +87,7 @@ public class PlaylistDownloadManager: PlaylistStreamDownloadManagerDelegate {
+     )
+ 
+     let fileConfiguration = URLSessionConfiguration.background(
+-      withIdentifier: "com.brave.playlist.file.background.session"
++      withIdentifier: "com.ibrowe.playlist.file.background.session"
+     )
+     fileSession = URLSession(
+       configuration: fileConfiguration,
+@@ -96,7 +96,7 @@ public class PlaylistDownloadManager: PlaylistStreamDownloadManagerDelegate {
+     )
+ 
+     let dataConfiguration = URLSessionConfiguration.background(
+-      withIdentifier: "com.brave.playlist.data.background.session"
++      withIdentifier: "com.ibrowe.playlist.data.background.session"
+     )
+     dataSession = URLSession(
+       configuration: dataConfiguration,

@@ -1,0 +1,81 @@
+diff --git a/browser/net/brave_network_audit_allowed_lists.h b/browser/net/brave_network_audit_allowed_lists.h
+index 28ec14032a6a761d61e59f6f952a0fd46bf8f0d4..7f342f2f12bd75beef9513d7f40df9c7b28d4c4c 100644
+--- a/browser/net/brave_network_audit_allowed_lists.h
++++ b/browser/net/brave_network_audit_allowed_lists.h
+@@ -27,14 +27,14 @@ inline constexpr auto kAllowedUrlProtocols =
+ // Before adding to this list, get approval from the security team.
+ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
+     // allowed because it 307's to https://componentupdater.brave.com
+-    "https://componentupdater.brave.com/service/update2",
+-    "https://crxdownload.brave.com/crx/blobs/",
++    "https://componentupdater.ibrowe.com/service/update2",
++    "https://crxdownload.ibrowe.com/crx/blobs/",
+ 
+     // Omaha/Sparkle
+-    "https://updates.bravesoftware.com/",
++    "https://updates.ibrowesoftware.com/",
+ 
+     // stats/referrals
+-    "https://usage-ping.brave.com/",
++    "https://usage-ping.ibrowe.com/",
+ 
+     // needed for DoH on Mac build machines
+     "https://dns.google/dns-query",
+@@ -43,40 +43,40 @@ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
+     "https://chrome.cloudflare-dns.com/dns-query",
+ 
+     // for fetching tor client updater component
+-    "https://tor.bravesoftware.com/",
++    "https://tor.ibrowesoftware.com/",
+ 
+     // brave sync v2 production
+-    "https://sync-v2.brave.com/v2",
++    "https://sync-v2.ibrowe.com/v2",
+ 
+     // brave sync v2 staging
+-    "https://sync-v2.bravesoftware.com/v2",
++    "https://sync-v2.ibrowesoftware.com/v2",
+ 
+     // brave sync v2 dev
+     "https://sync-v2.brave.software/v2",
+ 
+     // brave A/B testing
+-    "https://variations.brave.com/seed",
++    "https://variations.ibrowe.com/seed",
+ 
+     // Brave News (production)
+-    "https://brave-today-cdn.brave.com/",
++    "https://ibrowe-today-cdn.ibrowe.com/",
+ 
+     // Brave's Privacy-focused CDN
+-    "https://pcdn.brave.com/",
++    "https://pcdn.ibrowe.com/",
+ 
+     // p3a
+-    "https://p3a-creative.brave.com/",
+-    "https://p3a-json.brave.com/",
+-    "https://p3a.brave.com/",
+-    "https://star-randsrv.bsg.brave.com/",
++    "https://p3a-creative.ibrowe.com/",
++    "https://p3a-json.ibrowe.com/",
++    "https://p3a.ibrowe.com/",
++    "https://star-randsrv.bsg.ibrowe.com/",
+ 
+     // Other
+-    "https://brave-core-ext.s3.brave.com/",
+-    "https://dict.brave.com/",
+-    "https://go-updater.brave.com/",
+-    "https://redirector.brave.com/",
+-    "https://safebrowsing.brave.com/",
+-    "https://static.brave.com/",
+-    "https://static1.brave.com/",
++    "https://brave-core-ext.s3.ibrowe.com/",
++    "https://dict.ibrowe.com/",
++    "https://go-updater.ibrowe.com/",
++    "https://redirector.ibrowe.com/",
++    "https://safebrowsing.ibrowe.com/",
++    "https://static.ibrowe.com/",
++    "https://static1.ibrowe.com/",
+ });
+ 
+ }  // namespace brave

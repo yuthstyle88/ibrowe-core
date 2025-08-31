@@ -1,0 +1,13 @@
+diff --git a/build/mac/BUILD.gn b/build/mac/BUILD.gn
+index 0750484f760207ffe5d418e575f4de9f1fef630d..d4b136a84286a7cde28874c7bb131ba914c971fa 100644
+--- a/build/mac/BUILD.gn
++++ b/build/mac/BUILD.gn
+@@ -277,7 +277,7 @@ if (is_official_build && !skip_signing) {
+   }
+   copy("copy_provisionprofile") {
+     sources = [ "${provisionprofile_basename}.provisionprofile" ]
+-    outputs = [ "${packaging_dir}/${provisionprofile_basename}.9c57a508dc89402964eb013d30ef6df4da849aa9.provisionprofile" ]
++    outputs = [ "${packaging_dir}/${provisionprofile_basename}.2008981e3650c822fbd306779343cb696f5c8f5b.provisionprofile" ]
+   }
+ }
+ 

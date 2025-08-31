@@ -1,0 +1,22 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/Tabs/Synced/SyncedTabsView.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/Tabs/Synced/SyncedTabsView.swift
+index b1c5b585e9b7804111ca0d480a2beeeab59ccbcd..296fa5c4dd006bb4d5d67344a7278de9d933fd72 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Browser/Tabs/Synced/SyncedTabsView.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/Tabs/Synced/SyncedTabsView.swift
+@@ -439,7 +439,7 @@ extension OpenDistantSession {
+           deviceFormFactor: .phone,
+           tabs: [
+             .init(
+-              url: URL(string: "https://brave.com")!,
++              url: URL(string: "https://ibrowe.com")!,
+               title: "Brave",
+               tabId: 1,
+               sessionTag: "brave"
+@@ -451,7 +451,7 @@ extension OpenDistantSession {
+           deviceFormFactor: .desktop,
+           tabs: [
+             .init(
+-              url: URL(string: "https://brave.com")!,
++              url: URL(string: "https://ibrowe.com")!,
+               title: "Brave",
+               tabId: 1,
+               sessionTag: "brave2"

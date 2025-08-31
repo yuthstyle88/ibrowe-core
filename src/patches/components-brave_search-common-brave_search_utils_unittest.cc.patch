@@ -1,0 +1,19 @@
+diff --git a/components/brave_search/common/brave_search_utils_unittest.cc b/components/brave_search/common/brave_search_utils_unittest.cc
+index 4fa351ddecc73128f896dfc1c0c304c839e16662..05849d44491acdd17ba72dbffd04446889bcc2e0 100644
+--- a/components/brave_search/common/brave_search_utils_unittest.cc
++++ b/components/brave_search/common/brave_search_utils_unittest.cc
+@@ -12,11 +12,11 @@ namespace brave_search {
+ 
+ TEST(BraveSearchUtilsUnitTest, IsAllowedHost) {
+   EXPECT_TRUE(IsAllowedHost(GURL("https://safesearch.brave.com")));
+-  EXPECT_TRUE(IsAllowedHost(GURL("https://safesearch.bravesoftware.com")));
++  EXPECT_TRUE(IsAllowedHost(GURL("https://safesearch.ibrowesoftware.com")));
+   EXPECT_TRUE(IsAllowedHost(GURL("https://search-dev-local.brave.com")));
+   EXPECT_TRUE(IsAllowedHost(GURL("https://search.brave.com")));
+-  EXPECT_TRUE(IsAllowedHost(GURL("https://search.brave.software")));
+-  EXPECT_TRUE(IsAllowedHost(GURL("https://search.bravesoftware.com")));
++  EXPECT_TRUE(IsAllowedHost(GURL("https://search.ibrowe.software")));
++  EXPECT_TRUE(IsAllowedHost(GURL("https://search.ibrowesoftware.com")));
+ 
+   // not https
+   EXPECT_FALSE(IsAllowedHost(GURL("http://safesearch.brave.com")));

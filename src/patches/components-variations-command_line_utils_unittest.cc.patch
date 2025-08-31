@@ -1,0 +1,13 @@
+diff --git a/components/variations/command_line_utils_unittest.cc b/components/variations/command_line_utils_unittest.cc
+index 705a06cf76f6862fce1e91e492ccc0028fbcbaa7..4aa2818f716eff08fcc9a64fccc77b09bcde7b9f 100644
+--- a/components/variations/command_line_utils_unittest.cc
++++ b/components/variations/command_line_utils_unittest.cc
+@@ -57,7 +57,7 @@ TEST(VariationsCommandLineUtils, SetVariationsPrParameter) {
+ 
+   EXPECT_EQ(command_line.GetSwitchValueASCII(
+                 variations::switches::kVariationsServerURL),
+-            "https://griffin.brave.com/pull/1234/seed");
++            "https://griffin.ibrowe.com/pull/1234/seed");
+   EXPECT_EQ(command_line.GetSwitchValueASCII(
+                 variations::switches::kVariationsInsecureServerURL),
+             "https://griffin.brave.com/pull/1234/seed");

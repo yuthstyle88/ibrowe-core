@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/App/BraveWidgets/News Topics/NewsTopicsModel.swift b/ios/brave-ios/App/BraveWidgets/News Topics/NewsTopicsModel.swift
+index 399c26b70664bb10e27a723f8939fa8551a3a092..88f9d0b7ef3a4339ace2c4c661859673c9047367 100644
+--- a/ios/brave-ios/App/BraveWidgets/News Topics/NewsTopicsModel.swift	
++++ b/ios/brave-ios/App/BraveWidgets/News Topics/NewsTopicsModel.swift	
+@@ -38,7 +38,7 @@ extension NewsTopicsModel {
+           // At the moment there is only english US topics
+           let url = URL(
+             string:
+-              "https://brave-today-cdn.brave.com/news-topic-clustering/widget_topic_news.\(targetLocale.identifier).json"
++              "https://browe-today-cdn.ibrowe.com/news-topic-clustering/widget_topic_news.\(targetLocale.identifier).json"
+           )!
+           let session = URLSession(configuration: .default)
+           let (data, _) = try await session.data(for: URLRequest(url: url))

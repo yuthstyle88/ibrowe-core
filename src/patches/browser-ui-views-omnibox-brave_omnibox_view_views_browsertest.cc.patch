@@ -1,0 +1,76 @@
+diff --git a/browser/ui/views/omnibox/brave_omnibox_view_views_browsertest.cc b/browser/ui/views/omnibox/brave_omnibox_view_views_browsertest.cc
+index 6ddcbec8d73e3d5a1654be2222da542d2d13f299..a158aa36fbba135cef153872fb44f6f69dab53e6 100644
+--- a/browser/ui/views/omnibox/brave_omnibox_view_views_browsertest.cc
++++ b/browser/ui/views/omnibox/brave_omnibox_view_views_browsertest.cc
+@@ -190,7 +190,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsTest, CopyCleanURLToClipboardTest) {
+     { "include": [ "*://*/*"], "params": ["utm_content"] }
+   ])");
+   const std::string test_url(
+-      "https://dev-pages.bravesoftware.com/clean-urls/"
++      "https://dev-pages.ibrowesoftware.com/clean-urls/"
+       "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&&;b&"
+       "d&utm_content=removethis&e=&f=g&=end");
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL(test_url)));
+@@ -202,7 +202,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsTest, CopyCleanURLToClipboardTest) {
+   clipboard->ReadAsciiText(ui::ClipboardBuffer::kCopyPaste,
+                            /* data_dst = */ nullptr, &text_from_clipboard);
+   EXPECT_EQ(text_from_clipboard,
+-            "https://dev-pages.bravesoftware.com/clean-urls/"
++            "https://dev-pages.ibrowesoftware.com/clean-urls/"
+             "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&&;b&d&"
+             "e=&f=g&=end");
+ }
+@@ -212,7 +212,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsTest, CopyURLToClipboardTest) {
+     { "include": [ "*://*/*"], "params": ["utm_content"] }
+   ])");
+   const std::string test_url(
+-      "https://dev-pages.bravesoftware.com/clean-urls/"
++      "https://dev-pages.ibrowesoftware.com/clean-urls/"
+       "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&"
+       "d&utm_content=removethis&e=&f=g&=end");
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL(test_url)));
+@@ -224,7 +224,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsTest, CopyURLToClipboardTest) {
+   clipboard->ReadAsciiText(ui::ClipboardBuffer::kCopyPaste,
+                            /* data_dst = */ nullptr, &text_from_clipboard);
+   EXPECT_EQ(text_from_clipboard,
+-            "https://dev-pages.bravesoftware.com/clean-urls/"
++            "https://dev-pages.ibrowesoftware.com/clean-urls/"
+             "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&d&"
+             "utm_content=removethis&e=&f=g&=end");
+ }
+@@ -235,7 +235,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsEnabledFeatureTest,
+     { "include": [ "*://*/*"], "params": ["utm_content"] }
+   ])");
+   const std::string test_url(
+-      "https://dev-pages.bravesoftware.com/clean-urls/"
++      "https://dev-pages.ibrowesoftware.com/clean-urls/"
+       "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&&;b&"
+       "d&utm_content=removethis&e=&f=g&=end");
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL(test_url)));
+@@ -250,7 +250,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsEnabledFeatureTest,
+   clipboard->ReadAsciiText(ui::ClipboardBuffer::kCopyPaste,
+                            /* data_dst = */ nullptr, &text_from_clipboard);
+   EXPECT_EQ(text_from_clipboard,
+-            "https://dev-pages.bravesoftware.com/clean-urls/"
++            "https://dev-pages.ibrowesoftware.com/clean-urls/"
+             "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&&;b&d&"
+             "e=&f=g&=end");
+ }
+@@ -278,7 +278,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsDisabledFeatureTest,
+     { "include": [ "*://*/*"], "params": ["utm_content"] }
+   ])");
+   const std::string test_url(
+-      "https://dev-pages.bravesoftware.com/clean-urls/"
++      "https://dev-pages.ibrowesoftware.com/clean-urls/"
+       "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&&;b&"
+       "d&utm_content=removethis&e=&f=g&=end");
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL(test_url)));
+@@ -293,7 +293,7 @@ IN_PROC_BROWSER_TEST_F(BraveOmniboxViewViewsDisabledFeatureTest,
+   clipboard->ReadAsciiText(ui::ClipboardBuffer::kCopyPaste,
+                            /* data_dst = */ nullptr, &text_from_clipboard);
+   EXPECT_EQ(text_from_clipboard,
+-            "https://dev-pages.bravesoftware.com/clean-urls/"
++            "https://dev-pages.ibrowesoftware.com/clean-urls/"
+             "?brave_testing1=foo&brave_testing2=bar&brave_testing3=keep&&;b&d&"
+             "utm_content=removethis&e=&f=g&=end");
+ }

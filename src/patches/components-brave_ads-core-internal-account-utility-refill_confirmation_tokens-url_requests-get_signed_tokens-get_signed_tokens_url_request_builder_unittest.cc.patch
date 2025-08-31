@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/account/utility/refill_confirmation_tokens/url_requests/get_signed_tokens/get_signed_tokens_url_request_builder_unittest.cc b/components/brave_ads/core/internal/account/utility/refill_confirmation_tokens/url_requests/get_signed_tokens/get_signed_tokens_url_request_builder_unittest.cc
+index 717bc9c441bb2f22c609aef5bfdd9a568b3f6a79..3762643050950e32ea36c83dfaa876b532eef9a3 100644
+--- a/components/brave_ads/core/internal/account/utility/refill_confirmation_tokens/url_requests/get_signed_tokens/get_signed_tokens_url_request_builder_unittest.cc
++++ b/components/brave_ads/core/internal/account/utility/refill_confirmation_tokens/url_requests/get_signed_tokens/get_signed_tokens_url_request_builder_unittest.cc
+@@ -28,7 +28,7 @@ TEST_F(BraveAdsGetSignedTokensUrlRequestBuilderTest, BuildUrl) {
+   const mojom::UrlRequestInfoPtr expected_mojom_url_request =
+       mojom::UrlRequestInfo::New();
+   expected_mojom_url_request->url = GURL(
+-      R"(https://mywallet.ads.bravesoftware.com/v3/confirmation/token/27a39b2f-9b2e-4eb0-bbb2-2f84447496e7?nonce=716c3381-66e6-46e4-962f-15d01455b5b9)");
++      R"(https://mywallet.ads.ibrowesoftware.com/v3/confirmation/token/27a39b2f-9b2e-4eb0-bbb2-2f84447496e7?nonce=716c3381-66e6-46e4-962f-15d01455b5b9)");
+   expected_mojom_url_request->method = mojom::UrlRequestMethodType::kGet;
+   EXPECT_EQ(expected_mojom_url_request, mojom_url_request);
+ }

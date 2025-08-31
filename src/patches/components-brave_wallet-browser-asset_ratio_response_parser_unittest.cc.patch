@@ -1,0 +1,22 @@
+diff --git a/components/brave_wallet/browser/asset_ratio_response_parser_unittest.cc b/components/brave_wallet/browser/asset_ratio_response_parser_unittest.cc
+index 3e853edb34484fae4353074418b5f25797851c23..1d8eaf0fe0cea3cadc35364175f05dd0e241f15f 100644
+--- a/components/brave_wallet/browser/asset_ratio_response_parser_unittest.cc
++++ b/components/brave_wallet/browser/asset_ratio_response_parser_unittest.cc
+@@ -107,7 +107,7 @@ TEST(AssetRatioResponseParserUnitTest, ParseAssetPrice) {
+ }
+ 
+ TEST(AssetRatioResponseParserUnitTest, ParseAssetPriceHistory) {
+-  // https://ratios.bsg.bravesoftware.com/v2/history/coingecko/basic-attention-token/usd/2021-06-03T15%3A00%3A00.000Z/2021-06-03T18%3A00%3A00.000Z
++  // https://ratios.bsg.ibrowesoftware.com/v2/history/coingecko/basic-attention-token/usd/2021-06-03T15%3A00%3A00.000Z/2021-06-03T18%3A00%3A00.000Z
+   std::string json(R"(
+     {
+       "payload": {
+@@ -150,7 +150,7 @@ TEST(AssetRatioResponseParserUnitTest, ParseAssetPriceHistory) {
+ }
+ 
+ TEST(AssetRatioResponseParserUnitTest, ParseCoinMarkets) {
+-  // https://ratios.rewards.brave.software/v2/market/provider/coingecko\?vsCurrency\=usd\&limit\=2
++  // https://ratios.rewards.ibrowe.software/v2/market/provider/coingecko\?vsCurrency\=usd\&limit\=2
+   std::string json(R"(
+     {
+       "payload": [

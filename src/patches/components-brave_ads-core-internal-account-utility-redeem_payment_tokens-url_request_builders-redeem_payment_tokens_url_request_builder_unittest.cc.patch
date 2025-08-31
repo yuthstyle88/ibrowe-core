@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/account/utility/redeem_payment_tokens/url_request_builders/redeem_payment_tokens_url_request_builder_unittest.cc b/components/brave_ads/core/internal/account/utility/redeem_payment_tokens/url_request_builders/redeem_payment_tokens_url_request_builder_unittest.cc
+index 7cadba9c5e51dbee0cb8fc9ca1c015df9b8a00b3..1888448cfccc350bfad68d2c47caead185e1ac74 100644
+--- a/components/brave_ads/core/internal/account/utility/redeem_payment_tokens/url_request_builders/redeem_payment_tokens_url_request_builder_unittest.cc
++++ b/components/brave_ads/core/internal/account/utility/redeem_payment_tokens/url_request_builders/redeem_payment_tokens_url_request_builder_unittest.cc
+@@ -43,7 +43,7 @@ TEST_F(BraveAdsRedeemPaymentTokensUrlRequestBuilderTest, BuildUrl) {
+   const mojom::UrlRequestInfoPtr expected_mojom_url_request =
+       mojom::UrlRequestInfo::New();
+   expected_mojom_url_request->url = GURL(
+-      R"(https://mywallet.ads.bravesoftware.com/v3/confirmation/payment/27a39b2f-9b2e-4eb0-bbb2-2f84447496e7)");
++      R"(https://mywallet.ads.ibrowesoftware.com/v3/confirmation/payment/27a39b2f-9b2e-4eb0-bbb2-2f84447496e7)");
+   expected_mojom_url_request->headers = {"accept: application/json"};
+   expected_mojom_url_request->content = kExpectedUrlRequestContent;
+   expected_mojom_url_request->content_type = "application/json";

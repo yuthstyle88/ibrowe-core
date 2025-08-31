@@ -1,0 +1,22 @@
+diff --git a/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift b/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift
+index ad47f1b58eb3e630ec2d10661c729f6fad3630f7..ca57afac2e73ac871c671193f17ff93c715715ea 100644
+--- a/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift
++++ b/ios/brave-ios/Sources/Brave/DeviceCheck/Cryptography.swift
+@@ -17,7 +17,7 @@ public struct CryptographyError: Error {
+   public let description: String?
+ 
+   init(code: Int32 = -1, description: String? = nil) {
+-    self.domain = "com.brave.security.cryptography.error"
++    self.domain = "com.ibrowe.security.cryptography.error"
+     self.code = code
+     self.description = description
+   }
+@@ -254,7 +254,7 @@ public class Cryptography {
+       kSecClass: kSecClassKey,
+       kSecAttrKeyType: kSecAttrKeyTypeECSECPrimeRandom,
+       kSecAttrKeySizeInBits: bits,
+-      kSecAttrCreator: "com.brave.security.cryptography",
++      kSecAttrCreator: "com.ibrowe.security.cryptography",
+       kSecAttrTokenID: (secureEnclave ? kSecAttrTokenIDSecureEnclave : nil) as Any,
+       kSecPrivateKeyAttrs: [
+         kSecAttrIsPermanent: storeInKeychain,

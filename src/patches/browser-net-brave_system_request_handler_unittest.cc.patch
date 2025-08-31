@@ -1,0 +1,13 @@
+diff --git a/browser/net/brave_system_request_handler_unittest.cc b/browser/net/brave_system_request_handler_unittest.cc
+index 23acf9c3661db13e89c244bc7b8390150b5ac0e7..10a8434439d55b8dbc07de592956865a5e39b334 100644
+--- a/browser/net/brave_system_request_handler_unittest.cc
++++ b/browser/net/brave_system_request_handler_unittest.cc
+@@ -25,7 +25,7 @@ TEST(BraveSystemRequestHandlerTest, AddBraveServiceKeyHeaderForBrave) {
+ }
+ 
+ TEST(BraveSystemRequestHandlerTest, AddBraveServiceKeyHeaderForBraveSoftware) {
+-  GURL url("https://demo.bravesoftware.com");
++  GURL url("https://demo.ibrowesoftware.com");
+   network::ResourceRequest request;
+ 
+   request.url = url;

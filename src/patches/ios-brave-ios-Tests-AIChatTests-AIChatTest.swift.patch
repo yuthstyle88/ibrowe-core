@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Tests/AIChatTests/AIChatTest.swift b/ios/brave-ios/Tests/AIChatTests/AIChatTest.swift
+index d2a3ec57e8d1049e438b219f9314da4acba5fe2f..2bc0fd96577fa4d03471f1812107f9c581358618 100644
+--- a/ios/brave-ios/Tests/AIChatTests/AIChatTest.swift
++++ b/ios/brave-ios/Tests/AIChatTests/AIChatTest.swift
+@@ -299,7 +299,7 @@ final class AIChatTest: XCTestCase {
+     let data = try XCTUnwrap(Data(base64Encoded: receipt))
+     let parsedReceipt = try XCTUnwrap(BraveStoreKitReceipt(data: data))
+ 
+-    XCTAssertEqual(parsedReceipt.bundleId, "com.brave.ios.browser")
++    XCTAssertEqual(parsedReceipt.bundleId, "com.ibrowe.ios.browser")
+     XCTAssertEqual(parsedReceipt.sha1Hash, "42D750D02D626DD0F8BBBBB55E9FC00DDD47AC26")
+     XCTAssertNotNil(parsedReceipt.receiptCreationDate)
+     XCTAssertEqual(

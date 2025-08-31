@@ -1,0 +1,16 @@
+diff --git a/ios/brave-ios/Sources/Brave/WebFilters/BraveS3Resource.swift b/ios/brave-ios/Sources/Brave/WebFilters/BraveS3Resource.swift
+index 7a43009f9036f57244de0ffd4ae058ed352660fa..a03e7b36e983565cb956fefcf1b98054c5e4f8d8 100644
+--- a/ios/brave-ios/Sources/Brave/WebFilters/BraveS3Resource.swift
++++ b/ios/brave-ios/Sources/Brave/WebFilters/BraveS3Resource.swift
+@@ -20,9 +20,9 @@ enum BraveS3Resource: Hashable, DownloadResourceInterface {
+   private static var baseResourceURL: URL = {
+     // TODO: Move these resources to be fetched via component updater
+     if AppConstants.isOfficialBuild {
+-      return URL(string: "https://adblock-data.s3.brave.com")!
++      return URL(string: "https://adblock-data.s3.ibrowe.com")!
+     }
+-    return URL(string: "https://adblock-data-staging.s3.bravesoftware.com")!
++    return URL(string: "https://adblock-data-staging.s3.ibrowesoftware.com")!
+   }()
+ 
+   /// The folder name under which this data should be saved under

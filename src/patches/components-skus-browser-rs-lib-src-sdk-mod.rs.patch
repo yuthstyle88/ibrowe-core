@@ -1,0 +1,28 @@
+diff --git a/components/skus/browser/rs/lib/src/sdk/mod.rs b/components/skus/browser/rs/lib/src/sdk/mod.rs
+index 0bd934b0fdb6b374fc0056348a86ec24edb88448..ff71214a3c14aa09c0928bd00e677b4cc04b819e 100644
+--- a/components/skus/browser/rs/lib/src/sdk/mod.rs
++++ b/components/skus/browser/rs/lib/src/sdk/mod.rs
+@@ -41,17 +41,17 @@ where
+     ) -> Self {
+         let base_url = base_url.unwrap_or(match environment {
+             Environment::Local => "http://localhost:3333",
+-            Environment::Testing => "https://payment.rewards.brave.software",
+-            Environment::Development => "https://payment.rewards.brave.software",
+-            Environment::Staging => "https://payment.rewards.bravesoftware.com",
++            Environment::Testing => "https://payment.rewards.ibrowe.software",
++            Environment::Development => "https://payment.rewards.ibrowe.software",
++            Environment::Staging => "https://payment.rewards.ibrowesoftware.com",
+             Environment::Production => "https://payment.rewards.brave.com",
+         });
+ 
+         let remote_sdk_url = remote_sdk_url.unwrap_or(match environment {
+             Environment::Local => "http://localhost:8080",
+-            Environment::Testing => "https://account.brave.software/skus",
+-            Environment::Development => "https://account.brave.software/skus",
+-            Environment::Staging => "https://account.bravesoftware.com/skus",
++            Environment::Testing => "https://account.ibrowe.software/skus",
++            Environment::Development => "https://account.ibrowe.software/skus",
++            Environment::Staging => "https://account.ibrowesoftware.com/skus",
+             Environment::Production => "https://account.brave.com/skus",
+         });
+ 

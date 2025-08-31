@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Brave Translate/BraveTranslateSession.swift b/ios/brave-ios/Sources/Brave/Frontend/Brave Translate/BraveTranslateSession.swift
+index 1b703f9dbc24e4b9cd65549b39c23bcfdda1fd16..94a624cccd28bce8bba1bbf6aa478378c1d1f472 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Brave Translate/BraveTranslateSession.swift	
++++ b/ios/brave-ios/Sources/Brave/Frontend/Brave Translate/BraveTranslateSession.swift	
+@@ -127,7 +127,7 @@ private class BraveTranslateSessionApple: BraveTranslateSession {
+       throw BraveTranslateError.otherError
+     }
+ 
+-    let components = URLComponents(string: "https://translate.brave.com?\(request.body)")
++    let components = URLComponents(string: "https://translate.ibrowe.com?\(request.body)")
+     let phrases = components!.queryItems!.map({ "\($0.value ?? "")" })
+     let results = try await session.translations(
+       from: phrases.map({ .init(sourceText: $0) })

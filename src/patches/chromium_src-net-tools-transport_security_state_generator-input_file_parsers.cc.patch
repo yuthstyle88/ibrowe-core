@@ -1,0 +1,650 @@
+diff --git a/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc b/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
+index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d508bc50d3b 100644
+--- a/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
++++ b/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
+@@ -37,95 +37,95 @@ constexpr std::string_view kBravePinsJson = R"brave_pins_json({
+   ],
+   "entries": [
+     // Brave
+-    { "name": "adblock-data.s3.brave.com", "pins": "brave"},
+-    { "name": "ai-chat.bsg.brave.com", "pins": "brave"},
+-    { "name": "brave-core-ext.s3.brave.com", "pins": "brave"},
+-    { "name": "brave-today-cdn.brave.com", "pins": "brave"},
+-    { "name": "clients4.brave.com", "pins": "brave"},
+-    { "name": "componentupdater.brave.com", "pins": "brave"},
+-    { "name": "crxdownload.brave.com", "pins": "brave"},
+-    { "name": "devtools.brave.com", "pins": "brave"},
+-    { "name": "dict.brave.com", "pins": "brave"},
+-    { "name": "extensionupdater.brave.com", "pins": "brave"},
+-    { "name": "feedback.brave.com", "pins": "brave"},
+-    { "name": "gaia.brave.com", "pins": "brave"},
+-    { "name": "go-updater.brave.com", "pins": "brave"},
+-    { "name": "pcdn.brave.com", "pins": "brave"},
+-    { "name": "redirector.brave.com", "pins": "brave"},
+-    { "name": "safebrowsing.brave.com", "pins": "brave"},
+-    { "name": "safebrowsing2.brave.com", "pins": "brave"},
+-    { "name": "sb-ssl.brave.com", "pins": "brave"},
+-    { "name": "static.brave.com", "pins": "brave"},
+-    { "name": "static1.brave.com", "pins": "brave"},
+-    { "name": "sync-v2.brave.com", "pins": "brave"},
+-    { "name": "sync-v2.brave.software", "pins": "brave"},
+-    { "name": "sync-v2.bravesoftware.com", "pins": "brave"},
+-    { "name": "tor.bravesoftware.com", "pins": "brave"},
+-    { "name": "translate.brave.com", "pins": "brave"},
+-    { "name": "translate-static.brave.com", "pins": "brave"},
+-    { "name": "variations.brave.com", "pins": "brave"},
++    { "name": "adblock-data.s3.ibrowe.com", "pins": "brave"},
++    { "name": "ai-chat.bsg.ibrowe.com", "pins": "brave"},
++    { "name": "ibrowe-core-ext.s3.ibrowe.com", "pins": "brave"},
++    { "name": "ibrowe-today-cdn.ibrowe.com", "pins": "brave"},
++    { "name": "clients4.ibrowe.com", "pins": "brave"},
++    { "name": "componentupdater.ibrowe.com", "pins": "brave"},
++    { "name": "crxdownload.ibrowe.com", "pins": "brave"},
++    { "name": "devtools.ibrowe.com", "pins": "brave"},
++    { "name": "dict.ibrowe.com", "pins": "brave"},
++    { "name": "extensionupdater.ibrowe.com", "pins": "brave"},
++    { "name": "feedback.ibrowe.com", "pins": "brave"},
++    { "name": "gaia.ibrowe.com", "pins": "brave"},
++    { "name": "go-updater.ibrowe.com", "pins": "brave"},
++    { "name": "pcdn.ibrowe.com", "pins": "brave"},
++    { "name": "redirector.ibrowe.com", "pins": "brave"},
++    { "name": "safebrowsing.ibrowe.com", "pins": "brave"},
++    { "name": "safebrowsing2.ibrowe.com", "pins": "brave"},
++    { "name": "sb-ssl.ibrowe.com", "pins": "brave"},
++    { "name": "static.ibrowe.com", "pins": "brave"},
++    { "name": "static1.ibrowe.com", "pins": "brave"},
++    { "name": "sync-v2.ibrowe.com", "pins": "brave"},
++    { "name": "sync-v2.browe.software", "pins": "brave"},
++    { "name": "sync-v2.browesoftware.com", "pins": "brave"},
++    { "name": "tor.browesoftware.com", "pins": "brave"},
++    { "name": "translate.ibrowe.com", "pins": "brave"},
++    { "name": "translate-static.ibrowe.com", "pins": "brave"},
++    { "name": "variations.ibrowe.com", "pins": "brave"},
+ 
+     // P2A/P3A
+-    { "name": "collector.bsg.brave.com", "pins": "brave"},
+-    { "name": "p2a.brave.com", "pins": "brave"},
+-    { "name": "p2a-json.brave.com", "pins": "brave"},
+-    { "name": "p3a.brave.com", "pins": "brave"},
+-    { "name": "p3a-creative.brave.com", "pins": "brave"},
+-    { "name": "p3a-json.brave.com", "pins": "brave"},
+-    { "name": "p3a.bravesoftware.com", "pins": "brave"},
+-    { "name": "p3a-dev.bravesoftware.com", "pins": "brave"},
+-    { "name": "star-randsrv.bsg.brave.com", "pins": "brave"},
++    { "name": "collector.bsg.ibrowe.com", "pins": "brave"},
++    { "name": "p2a.ibrowe.com", "pins": "brave"},
++    { "name": "p2a-json.ibrowe.com", "pins": "brave"},
++    { "name": "p3a.ibrowe.com", "pins": "brave"},
++    { "name": "p3a-creative.ibrowe.com", "pins": "brave"},
++    { "name": "p3a-json.ibrowe.com", "pins": "brave"},
++    { "name": "p3a.browesoftware.com", "pins": "brave"},
++    { "name": "p3a-dev.browesoftware.com", "pins": "brave"},
++    { "name": "star-randsrv.bsg.ibrowe.com", "pins": "brave"},
+ 
+     // Creators
+     { "name": "creators.basicattentiontoken.org", "pins": "brave"},
+-    { "name": "creators.brave.com", "pins": "brave"},
++    { "name": "creators.ibrowe.com", "pins": "brave"},
+     { "name": "publishers.basicattentiontoken.org", "pins": "brave"},
+-    { "name": "publishers.brave.com", "pins": "brave"},
++    { "name": "publishers.ibrowe.com", "pins": "brave"},
+ 
+     // Wallet
+-    { "name": "goerli-infura.brave.com", "pins": "brave"},
+-    { "name": "sepolia-infura.brave.com", "pins": "brave"},
+-    { "name": "mainnet-infura.brave.com", "pins": "brave"},
+-    { "name": "mainnet-beta-solana.brave.com", "pins": "brave"},
+-    { "name": "mainnet-polygon.brave.com", "pins": "brave"},
++    { "name": "goerli-infura.ibrowe.com", "pins": "brave"},
++    { "name": "sepolia-infura.ibrowe.com", "pins": "brave"},
++    { "name": "mainnet-infura.ibrowe.com", "pins": "brave"},
++    { "name": "mainnet-beta-solana.ibrowe.com", "pins": "brave"},
++    { "name": "mainnet-polygon.ibrowe.com", "pins": "brave"},
+ 
+     // Rewards
+-    { "name": "anonymous.ads.brave.com", "pins": "brave"},
+-    { "name": "anonymous.ads.bravesoftware.com", "pins": "brave"},
+-    { "name": "api.rewards.brave.com", "pins": "brave"},
+-    { "name": "api.rewards.bravesoftware.com", "pins": "brave"},
+-    { "name": "api.rewards.brave.software", "pins": "brave"},
+-    { "name": "geo.ads.brave.com", "pins": "brave"},
+-    { "name": "geo.ads.bravesoftware.com", "pins": "brave"},
+-    { "name": "grant.rewards.brave.com", "pins": "brave"},
+-    { "name": "grant.rewards.bravesoftware.com", "pins": "brave"},
+-    { "name": "grant.rewards.brave.software", "pins": "brave"},
+-    { "name": "mywallet.ads.brave.com", "pins": "brave"},
+-    { "name": "mywallet.ads.bravesoftware.com", "pins": "brave"},
+-    { "name": "payment.rewards.brave.com", "pins": "brave"},
+-    { "name": "payment.rewards.bravesoftware.com", "pins": "brave"},
+-    { "name": "payment.rewards.brave.software", "pins": "brave"},
+-    { "name": "rewards.brave.com", "pins": "brave"},
+-    { "name": "search.anonymous.brave.com", "pins": "brave"},
+-    { "name": "search.anonymous.bravesoftware.com", "pins": "brave"},
+-    { "name": "static.ads.brave.com", "pins": "brave"},
+-    { "name": "static.ads.bravesoftware.com", "pins": "brave"},
++    { "name": "anonymous.ads.ibrowe.com", "pins": "brave"},
++    { "name": "anonymous.ads.browesoftware.com", "pins": "brave"},
++    { "name": "api.rewards.ibrowe.com", "pins": "brave"},
++    { "name": "api.rewards.browesoftware.com", "pins": "brave"},
++    { "name": "api.rewards.browe.software", "pins": "brave"},
++    { "name": "geo.ads.ibrowe.com", "pins": "brave"},
++    { "name": "geo.ads.browesoftware.com", "pins": "brave"},
++    { "name": "grant.rewards.ibrowe.com", "pins": "brave"},
++    { "name": "grant.rewards.browesoftware.com", "pins": "brave"},
++    { "name": "grant.rewards.browe.software", "pins": "brave"},
++    { "name": "mywallet.ads.ibrowe.com", "pins": "brave"},
++    { "name": "mywallet.ads.browesoftware.com", "pins": "brave"},
++    { "name": "payment.rewards.ibrowe.com", "pins": "brave"},
++    { "name": "payment.rewards.browesoftware.com", "pins": "brave"},
++    { "name": "payment.rewards.browe.software", "pins": "brave"},
++    { "name": "rewards.ibrowe.com", "pins": "brave"},
++    { "name": "search.anonymous.ibrowe.com", "pins": "brave"},
++    { "name": "search.anonymous.browesoftware.com", "pins": "brave"},
++    { "name": "static.ads.ibrowe.com", "pins": "brave"},
++    { "name": "static.ads.browesoftware.com", "pins": "brave"},
+ 
+     // Search
+-    { "name": "search.brave.com", "pins": "brave"},
+-    { "name": "cdn.search.brave.com", "pins": "brave"},
+-    { "name": "fg.search.brave.com", "pins": "brave"},
+-    { "name": "imgs.search.brave.com", "pins": "brave"},
+-    { "name": "tiles.search.brave.com", "pins": "brave"},
+-    { "name": "collector.wdp.brave.com", "pins": "brave"},
+-    { "name": "patterns.wdp.brave.com", "pins": "brave"},
+-    { "name": "quorum.wdp.brave.com", "pins": "brave"},
+-    { "name": "star.wdp.brave.com", "pins": "brave"},
++    { "name": "search.ibrowe.com", "pins": "brave"},
++    { "name": "cdn.search.ibrowe.com", "pins": "brave"},
++    { "name": "fg.search.ibrowe.com", "pins": "brave"},
++    { "name": "imgs.search.ibrowe.com", "pins": "brave"},
++    { "name": "tiles.search.ibrowe.com", "pins": "brave"},
++    { "name": "collector.wdp.ibrowe.com", "pins": "brave"},
++    { "name": "patterns.wdp.ibrowe.com", "pins": "brave"},
++    { "name": "quorum.wdp.ibrowe.com", "pins": "brave"},
++    { "name": "star.wdp.ibrowe.com", "pins": "brave"},
+ 
+     // Premium
+-    { "name": "account.brave.com", "pins": "brave"},
+-    { "name": "account.bravesoftware.com", "pins": "brave"},
+-    { "name": "account.brave.software", "pins": "brave"},
++    { "name": "account.ibrowe.com", "pins": "brave"},
++    { "name": "account.browesoftware.com", "pins": "brave"},
++    { "name": "account.browe.software", "pins": "brave"},
+ 
+     // Test page using a CA outside of the pinset (expected to be blocked)
+     { "name": "ssl-pinning.someblog.org", "pins" : "brave"}
+@@ -136,189 +136,189 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
+     // Critical endpoints that should remain unpinned so that they
+     // always work.
+     {
+-      "name": "updates.bravesoftware.com",
++      "name": "updates.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "updates-cdn.bravesoftware.com",
++      "name": "updates-cdn.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "usage-ping.brave.com",
++      "name": "usage-ping.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+ 
+     // Brave
+     {
+-      "name": "adblock-data.s3.brave.com",
++      "name": "adblock-data.s3.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "ai-chat.bsg.brave.com",
++      "name": "ai-chat.bsg.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "brave-core-ext.s3.brave.com",
++      "name": "ibrowe-core-ext.s3.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "brave-today-cdn.brave.com",
++      "name": "ibrowe-today-cdn.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "clients4.brave.com",
++      "name": "clients4.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "componentupdater.brave.com",
++      "name": "componentupdater.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "crxdownload.brave.com",
++      "name": "crxdownload.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "devtools.brave.com",
++      "name": "devtools.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "dict.brave.com",
++      "name": "dict.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "extensionupdater.brave.com",
++      "name": "extensionupdater.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "feedback.brave.com",
++      "name": "feedback.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "gaia.brave.com",
++      "name": "gaia.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "go-updater.brave.com",
++      "name": "go-updater.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "p2a.brave.com",
++      "name": "p2a.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "p2a-json.brave.com",
++      "name": "p2a-json.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "p3a.brave.com",
++      "name": "p3a.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "p3a-creative.brave.com",
++      "name": "p3a-creative.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "p3a-json.brave.com",
++      "name": "p3a-json.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "p3a.bravesoftware.com",
++      "name": "p3a.browesoftware.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "p3a-dev.bravesoftware.com",
++      "name": "p3a-dev.browesoftware.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "pcdn.brave.com",
++      "name": "pcdn.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "redirector.brave.com",
++      "name": "redirector.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "safebrowsing.brave.com",
++      "name": "safebrowsing.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "safebrowsing2.brave.com",
++      "name": "safebrowsing2.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "sb-ssl.brave.com",
++      "name": "sb-ssl.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "static.brave.com",
++      "name": "static.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "static1.brave.com",
++      "name": "static1.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "sync-v2.brave.com",
++      "name": "sync-v2.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "sync-v2.brave.software",
++      "name": "sync-v2.browe.software",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "sync-v2.bravesoftware.com",
++      "name": "sync-v2.browesoftware.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "tor.bravesoftware.com",
++      "name": "tor.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "translate.brave.com",
++      "name": "translate.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "translate-static.brave.com",
++      "name": "translate-static.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "variations.brave.com",
++      "name": "variations.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+@@ -330,7 +330,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
+       "policy": "custom"
+     },
+     {
+-      "name": "creators.brave.com",
++      "name": "creators.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+@@ -340,200 +340,200 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
+       "policy": "custom"
+     },
+     {
+-      "name": "publishers.brave.com",
++      "name": "publishers.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+ 
+     // Wallet
+     {
+-      "name": "goerli-infura.brave.com",
++      "name": "goerli-infura.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "sepolia-infura.brave.com",
++      "name": "sepolia-infura.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "mainnet-infura.brave.com",
++      "name": "mainnet-infura.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "mainnet-beta-solana.brave.com",
++      "name": "mainnet-beta-solana.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "mainnet-polygon.brave.com",
++      "name": "mainnet-polygon.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+ 
+     // Rewards
+     {
+-      "name": "anonymous.ads.brave.com",
++      "name": "anonymous.ads.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "anonymous.ads.bravesoftware.com",
++      "name": "anonymous.ads.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "api.rewards.brave.com",
++      "name": "api.rewards.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "api.rewards.bravesoftware.com",
++      "name": "api.rewards.browesoftware.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "api.rewards.brave.software",
++      "name": "api.rewards.browe.software",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "geo.ads.brave.com",
++      "name": "geo.ads.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "geo.ads.bravesoftware.com",
++      "name": "geo.ads.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "grant.rewards.brave.com",
++      "name": "grant.rewards.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "grant.rewards.bravesoftware.com",
++      "name": "grant.rewards.browesoftware.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "grant.rewards.brave.software",
++      "name": "grant.rewards.browe.software",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "mywallet.ads.brave.com",
++      "name": "mywallet.ads.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "mywallet.ads.bravesoftware.com",
++      "name": "mywallet.ads.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "payment.rewards.brave.com",
++      "name": "payment.rewards.ibrowe.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "payment.rewards.bravesoftware.com",
++      "name": "payment.rewards.browesoftware.com",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "payment.rewards.brave.software",
++      "name": "payment.rewards.browe.software",
+       "policy": "custom",
+       "mode": "force-https"
+     },
+     {
+-      "name": "rewards.brave.com",
++      "name": "rewards.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "search.anonymous.brave.com",
++      "name": "search.anonymous.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "search.anonymous.bravesoftware.com",
++      "name": "search.anonymous.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "static.ads.brave.com",
++      "name": "static.ads.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "static.ads.bravesoftware.com",
++      "name": "static.ads.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+ 
+     // Search
+     {
+-      "name": "search.brave.com",
++      "name": "search.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "cdn.search.brave.com",
++      "name": "cdn.search.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "fg.search.brave.com",
++      "name": "fg.search.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "imgs.search.brave.com",
++      "name": "imgs.search.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "tiles.search.brave.com",
++      "name": "tiles.search.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "collector.wdp.brave.com",
++      "name": "collector.wdp.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "patterns.wdp.brave.com",
++      "name": "patterns.wdp.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "quorum.wdp.brave.com",
++      "name": "quorum.wdp.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "star.wdp.brave.com",
++      "name": "star.wdp.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+ 
+     // Premium
+     {
+-      "name": "account.brave.com",
++      "name": "account.ibrowe.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "account.bravesoftware.com",
++      "name": "account.browesoftware.com",
+       "mode": "force-https",
+       "policy": "custom"
+     },
+     {
+-      "name": "account.brave.software",
++      "name": "account.browe.software",
+       "mode": "force-https",
+       "policy": "custom"
+     }

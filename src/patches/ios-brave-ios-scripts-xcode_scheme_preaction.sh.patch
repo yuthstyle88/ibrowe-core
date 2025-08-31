@@ -1,0 +1,15 @@
+diff --git a/ios/brave-ios/scripts/xcode_scheme_preaction.sh b/ios/brave-ios/scripts/xcode_scheme_preaction.sh
+index b5abbe6c1e3f18ec87dc57ba3b7b039fd2d28ab5..c3180a60bdacacc47d5d9a7f49feac0650c0676f 100644
+--- a/ios/brave-ios/scripts/xcode_scheme_preaction.sh
++++ b/ios/brave-ios/scripts/xcode_scheme_preaction.sh
+@@ -30,6 +30,10 @@ if [[ $RUN_CLANG_STATIC_ANALYZER = "NO" ]]; then
+       fi
+     fi
+   fi
++  echo "[DEBUG] CONFIGURATION=$CONFIGURATION"
++  echo "[DEBUG] PLATFORM_NAME=$PLATFORM_NAME"
++  echo "[DEBUG] PROJECT_DIR=$PROJECT_DIR"
++  echo "[DEBUG] PATH=$PATH"
+   # Do not inject Xcode build configs into the GN build
+   env -i PATH="$PATH" python3 \
+     "${PROJECT_DIR}/../scripts/scheme_preaction.py" \

@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/non_anonymous_url_host.cc b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/non_anonymous_url_host.cc
+index b6124e00d208810cf8bfdfbf2f870e8e656162d6..2ab73b71c795b512472ca30265148810c9450bf6 100644
+--- a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/non_anonymous_url_host.cc
++++ b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/non_anonymous_url_host.cc
+@@ -13,7 +13,7 @@ namespace brave_ads {
+ namespace {
+ 
+ constexpr char kProductionHost[] = "https://mywallet.ads.brave.com";
+-constexpr char kStagingHost[] = "https://mywallet.ads.bravesoftware.com";
++constexpr char kStagingHost[] = "https://mywallet.ads.ibrowesoftware.com";
+ 
+ }  // namespace
+ 

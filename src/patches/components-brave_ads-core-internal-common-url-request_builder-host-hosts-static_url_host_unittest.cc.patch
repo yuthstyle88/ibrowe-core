@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/static_url_host_unittest.cc b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/static_url_host_unittest.cc
+index 0d201510abe0e68609142fbf2693e0ac840f54eb..befcd828b7aff8067c6fc873220687f15c7b3a4d 100644
+--- a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/static_url_host_unittest.cc
++++ b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/static_url_host_unittest.cc
+@@ -31,7 +31,7 @@ TEST_F(BraveAdsStaticUrlHostTest, GetStagingUrlHost) {
+       mojom::EnvironmentType::kStaging;
+ 
+   // Act & Assert
+-  EXPECT_EQ("https://static.ads.bravesoftware.com", GetStaticUrlHost());
++  EXPECT_EQ("https://static.ads.ibrowesoftware.com", GetStaticUrlHost());
+ }
+ 
+ }  // namespace brave_ads

@@ -1,0 +1,15 @@
+diff --git a/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusAccountLink.swift b/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusAccountLink.swift
+index f3f1a758859a5dd96afbed678d533be1de90076b..9778ed72ef04d4b86c7e8a7b21cb4c887c19cb4b 100644
+--- a/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusAccountLink.swift
++++ b/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusAccountLink.swift
+@@ -37,8 +37,8 @@ class BraveSkusAccountLink {
+     /// The host/domain for the environment
+     var host: String {
+       switch self {
+-      case .development: return "account.brave.software"
+-      case .staging: return "account.bravesoftware.com"
++      case .development: return "account.ibrowe.software"
++      case .staging: return "account.ibrowesoftware.com"
+       case .production: return "account.brave.com"
+       }
+     }

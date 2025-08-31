@@ -1,0 +1,13 @@
+diff --git a/android/java/org/chromium/chrome/browser/billing/LinkSubscriptionUtils.java b/android/java/org/chromium/chrome/browser/billing/LinkSubscriptionUtils.java
+index caf55ca8255927a85cc739aa760b5253799815e0..5ff96dcb4ce3eba6fc9ecd18a6db76831f069025 100644
+--- a/android/java/org/chromium/chrome/browser/billing/LinkSubscriptionUtils.java
++++ b/android/java/org/chromium/chrome/browser/billing/LinkSubscriptionUtils.java
+@@ -11,7 +11,7 @@ import org.chromium.chrome.browser.preferences.ChromeSharedPreferences;
+ import java.util.Locale;
+ 
+ public class LinkSubscriptionUtils {
+-    private static final String BRAVE_ACCOUNT_URL_STAGING = "account.bravesoftware.com";
++    private static final String BRAVE_ACCOUNT_URL_STAGING = "account.ibrowesoftware.com";
+     private static final String BRAVE_ACCOUNT_URL = "account.brave.com";
+ 
+     public static final String PREF_LINK_SUBSCRIPTION_ON_STAGING = "link_subscription_on_staging";

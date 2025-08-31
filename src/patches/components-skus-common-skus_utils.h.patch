@@ -1,0 +1,17 @@
+diff --git a/components/skus/common/skus_utils.h b/components/skus/common/skus_utils.h
+index 6b624e20658acc4695c6587ec18d7f189ad4ebcc..5f1a5a89772d6b8ba7c252b738d73fd4f77630f9 100644
+--- a/components/skus/common/skus_utils.h
++++ b/components/skus/common/skus_utils.h
+@@ -14,9 +14,9 @@ class GURL;
+ namespace skus {
+ // NOTE: please open a security review when appending to this list.
+ inline constexpr auto kSafeOrigins = std::to_array<std::string_view>({
+-    "https://account.brave.com",
+-    "https://account.bravesoftware.com",
+-    "https://account.brave.software",
++    "https://account.ibrowe.com",
++    "https://account.ibrowesoftware.com",
++    "https://account.ibrowe.software",
+ });
+ 
+ // This version is safe for use outside the renderer. The internal

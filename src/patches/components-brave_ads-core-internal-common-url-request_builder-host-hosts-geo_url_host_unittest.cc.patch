@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/geo_url_host_unittest.cc b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/geo_url_host_unittest.cc
+index 3743e25eb1ce696f23c1ccdcc84fd1235acd2655..26a47c8b6278fc11f894072e284f94b046ddbcc8 100644
+--- a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/geo_url_host_unittest.cc
++++ b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/geo_url_host_unittest.cc
+@@ -31,7 +31,7 @@ TEST_F(BraveAdsGeoUrlHostTest, GetStagingUrlHost) {
+       mojom::EnvironmentType::kStaging;
+ 
+   // Act & Assert
+-  EXPECT_EQ("https://geo.ads.bravesoftware.com", GetGeoUrlHost());
++  EXPECT_EQ("https://geo.ads.ibrowesoftware.com", GetGeoUrlHost());
+ }
+ 
+ }  // namespace brave_ads

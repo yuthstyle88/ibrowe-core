@@ -1,0 +1,35 @@
+diff --git a/components/constants/network_constants.h b/components/constants/network_constants.h
+index 4ed589545cbc2bb2d605fc013179796447fa9396..cd2524f869b8a78d8e0bd437e5be1b6bbef33e8a 100644
+--- a/components/constants/network_constants.h
++++ b/components/constants/network_constants.h
+@@ -6,22 +6,22 @@
+ #ifndef BRAVE_COMPONENTS_CONSTANTS_NETWORK_CONSTANTS_H_
+ #define BRAVE_COMPONENTS_CONSTANTS_NETWORK_CONSTANTS_H_
+ 
+-inline constexpr char kExtensionUpdaterDomain[] = "extensionupdater.brave.com";
++inline constexpr char kExtensionUpdaterDomain[] = "extensionupdater.ibrowe.com";
+ 
+-inline constexpr char kBraveProxyPattern[] = "https://*.brave.com/*";
++inline constexpr char kBraveProxyPattern[] = "https://*.ibrowe.com/*";
+ inline constexpr char kBraveSoftwareProxyPattern[] =
+-    "https://*.bravesoftware.com/*";
++    "https://*.ibrowesoftware.com/*";
+ 
+ inline constexpr char kBraveUsageStandardPath[] = "/1/usage/brave-core";
+ 
+ inline constexpr char kBraveReferralsInitPath[] = "/promo/initialize/nonua";
+ inline constexpr char kBraveReferralsActivityPath[] = "/promo/activity";
+ 
+-inline constexpr char kBraveSafeBrowsing2Proxy[] = "safebrowsing2.brave.com";
+-inline constexpr char kBraveSafeBrowsingSslProxy[] = "sb-ssl.brave.com";
+-inline constexpr char kBraveRedirectorProxy[] = "redirector.brave.com";
+-inline constexpr char kBraveClients4Proxy[] = "clients4.brave.com";
+-inline constexpr char kBraveStaticProxy[] = "static1.brave.com";
++inline constexpr char kBraveSafeBrowsing2Proxy[] = "safebrowsing2.ibrowe.com";
++inline constexpr char kBraveSafeBrowsingSslProxy[] = "sb-ssl.ibrowe.com";
++inline constexpr char kBraveRedirectorProxy[] = "redirector.ibrowe.com";
++inline constexpr char kBraveClients4Proxy[] = "clients4.ibrowe.com";
++inline constexpr char kBraveStaticProxy[] = "static1.ibrowe.com";
+ 
+ inline constexpr char kAutofillPrefix[] = "https://www.gstatic.com/autofill/*";
+ inline constexpr char kClients4Prefix[] = "*://clients4.google.com/";

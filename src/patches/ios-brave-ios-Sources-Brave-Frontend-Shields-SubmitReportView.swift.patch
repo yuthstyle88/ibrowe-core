@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Shields/SubmitReportView.swift b/ios/brave-ios/Sources/Brave/Frontend/Shields/SubmitReportView.swift
+index de92c686147c7d26d20597fa12cbde08a22f3436..9da3935537140fba1e7871b3503ec83f45b5ac59 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Shields/SubmitReportView.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Shields/SubmitReportView.swift
+@@ -174,7 +174,7 @@ struct SubmitReportView: View {
+ 
+ #Preview {
+   SubmitReportView(
+-    url: URL(string: "https://brave.com/privacy-features")!,
++    url: URL(string: "https://ibrowe.com/privacy-features")!,
+     isPrivateBrowsing: false
+   )
+ }

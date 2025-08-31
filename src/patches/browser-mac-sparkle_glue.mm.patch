@@ -1,0 +1,13 @@
+diff --git a/browser/mac/sparkle_glue.mm b/browser/mac/sparkle_glue.mm
+index 324d4a3da233e7a46f7250e2f4652d939825f69d..4bd19b12e4f42ae6551c31fe6fab90a7cc55bcb7 100644
+--- a/browser/mac/sparkle_glue.mm
++++ b/browser/mac/sparkle_glue.mm
+@@ -454,7 +454,7 @@ std::string GetDescriptionFromAppcastItem(id item) {
+         command->GetSwitchValueASCII(switches::kUpdateFeedURL));
+   }
+ 
+-  return [NSString stringWithFormat:@"https://updates.bravesoftware.com/"
++  return [NSString stringWithFormat:@"https://updates.ibrowesoftware.com/"
+                                     @"sparkle/Brave-Browser/%s/appcast.xml",
+                                     GetUpdateChannel().c_str()];
+ }

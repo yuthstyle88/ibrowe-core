@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/account/issuers/url_request/issuers_url_request_builder_unittest.cc b/components/brave_ads/core/internal/account/issuers/url_request/issuers_url_request_builder_unittest.cc
+index 22414991cdcce0636fa65ab766a28d149a2b6465..544457d710a7a53810a4b47bc4be86b059c20f08 100644
+--- a/components/brave_ads/core/internal/account/issuers/url_request/issuers_url_request_builder_unittest.cc
++++ b/components/brave_ads/core/internal/account/issuers/url_request/issuers_url_request_builder_unittest.cc
+@@ -26,7 +26,7 @@ TEST_F(BraveAdsIssuersUrlRequestBuilderTest, BuildUrl) {
+   const mojom::UrlRequestInfoPtr expected_mojom_url_request =
+       mojom::UrlRequestInfo::New();
+   expected_mojom_url_request->url =
+-      GURL("https://static.ads.bravesoftware.com/v3/issuers");
++      GURL("https://static.ads.ibrowesoftware.com/v3/issuers");
+   expected_mojom_url_request->method = mojom::UrlRequestMethodType::kGet;
+   EXPECT_EQ(expected_mojom_url_request, mojom_url_request);
+ }

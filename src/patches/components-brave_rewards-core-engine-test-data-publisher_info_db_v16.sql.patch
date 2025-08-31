@@ -1,0 +1,13 @@
+diff --git a/components/brave_rewards/core/engine/test/data/publisher_info_db_v16.sql b/components/brave_rewards/core/engine/test/data/publisher_info_db_v16.sql
+index d46eab53559bd3ce995906e5a747e4abd5a2858e..99e101d6e7cfca11742840fa0c251d42a1dd91ef 100644
+--- a/components/brave_rewards/core/engine/test/data/publisher_info_db_v16.sql
++++ b/components/brave_rewards/core/engine/test/data/publisher_info_db_v16.sql
+@@ -133,7 +133,7 @@ INSERT INTO "meta" VALUES ('version','16');
+ INSERT INTO "meta" VALUES ('last_compatible_version','1');
+ INSERT INTO "server_publisher_info" VALUES ('3zsistemi.si',2,0,'0fd15856-ada1-45a3-9ec7-74ac4db76eec');
+ INSERT INTO "server_publisher_info" VALUES ('laurenwags.github.io',2,0,'abf1ff79-a239-42af-abff-20eb121edd1c');
+-INSERT INTO "server_publisher_banner" VALUES ('laurenwags.github.io','Staging Banner Test','Lorem ipsum dolor sit amet, sale homero neglegentur ei vix, quo no tacimates vituperatoribus. Per elit luptatum temporibus ad, cibo minimum quaerendum no nec, atqui corpora complectitur te sed. Per ne vulputate neglegentur, id nec alia affert aperiri. Ea melius deserunt pro. Officiis sadipscing at nam, adhuc populo atomorum est.','chrome://rewards-image/https://rewards-stg.bravesoftware.com/xrEJASVGN9nQ5zJUnmoCxjEE','chrome://rewards-image/https://rewards-stg.bravesoftware.com/8eT9LXcpK3D795YHxvDdhrmg');
++INSERT INTO "server_publisher_banner" VALUES ('laurenwags.github.io','Staging Banner Test','Lorem ipsum dolor sit amet, sale homero neglegentur ei vix, quo no tacimates vituperatoribus. Per elit luptatum temporibus ad, cibo minimum quaerendum no nec, atqui corpora complectitur te sed. Per ne vulputate neglegentur, id nec alia affert aperiri. Ea melius deserunt pro. Officiis sadipscing at nam, adhuc populo atomorum est.','chrome://rewards-image/https://rewards-stg.ibrowesoftware.com/xrEJASVGN9nQ5zJUnmoCxjEE','chrome://rewards-image/https://rewards-stg.ibrowesoftware.com/8eT9LXcpK3D795YHxvDdhrmg');
+ INSERT INTO "server_publisher_links" VALUES ('laurenwags.github.io','twitch','https://www.twitch.tv/laurenwags');
+ INSERT INTO "server_publisher_links" VALUES ('laurenwags.github.io','twitter','https://twitter.com/bravelaurenwags');
+ INSERT INTO "server_publisher_links" VALUES ('laurenwags.github.io','youtube','https://www.youtube.com/channel/UCCs7AQEDwrHEc86r0NNXE_A/videos');

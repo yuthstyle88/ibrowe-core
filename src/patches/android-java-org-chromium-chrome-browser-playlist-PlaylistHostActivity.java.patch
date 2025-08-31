@@ -1,0 +1,41 @@
+diff --git a/android/java/org/chromium/chrome/browser/playlist/PlaylistHostActivity.java b/android/java/org/chromium/chrome/browser/playlist/PlaylistHostActivity.java
+index 5c7692ee577dda0bf8be854cd949c6eec11a63af..babad22589fdd8d2a2b690cd1f3323a4ba3d5a83 100644
+--- a/android/java/org/chromium/chrome/browser/playlist/PlaylistHostActivity.java
++++ b/android/java/org/chromium/chrome/browser/playlist/PlaylistHostActivity.java
+@@ -12,21 +12,21 @@ import android.text.TextUtils;
+ import androidx.fragment.app.FragmentTransaction;
+ import androidx.lifecycle.ViewModelProvider;
+ 
+-import com.brave.playlist.PlaylistViewModel;
+-import com.brave.playlist.enums.PlaylistOptionsEnum;
+-import com.brave.playlist.fragment.AllPlaylistFragment;
+-import com.brave.playlist.fragment.PlaylistFragment;
+-import com.brave.playlist.listener.PlaylistOptionsListener;
+-import com.brave.playlist.local_database.PlaylistRepository;
+-import com.brave.playlist.model.HlsContentProgressModel;
+-import com.brave.playlist.model.MoveOrCopyModel;
+-import com.brave.playlist.model.PlaylistItemModel;
+-import com.brave.playlist.model.PlaylistModel;
+-import com.brave.playlist.model.PlaylistOptionsModel;
+-import com.brave.playlist.playback_service.VideoPlaybackService;
+-import com.brave.playlist.util.ConstantUtils;
+-import com.brave.playlist.util.PlaylistUtils;
+-import com.brave.playlist.view.bottomsheet.MoveOrCopyToPlaylistBottomSheet;
++import com.ibrowe108.playlist.PlaylistViewModel;
++import com.ibrowe108.playlist.enums.PlaylistOptionsEnum;
++import com.ibrowe108.playlist.fragment.AllPlaylistFragment;
++import com.ibrowe108.playlist.fragment.PlaylistFragment;
++import com.ibrowe108.playlist.listener.PlaylistOptionsListener;
++import com.ibrowe108.playlist.local_database.PlaylistRepository;
++import com.ibrowe108.playlist.model.HlsContentProgressModel;
++import com.ibrowe108.playlist.model.MoveOrCopyModel;
++import com.ibrowe108.playlist.model.PlaylistItemModel;
++import com.ibrowe108.playlist.model.PlaylistModel;
++import com.ibrowe108.playlist.model.PlaylistOptionsModel;
++import com.ibrowe108.playlist.playback_service.VideoPlaybackService;
++import com.ibrowe108.playlist.util.ConstantUtils;
++import com.ibrowe108.playlist.util.PlaylistUtils;
++import com.ibrowe108.playlist.view.bottomsheet.MoveOrCopyToPlaylistBottomSheet;
+ 
+ import org.chromium.base.BraveFeatureList;
+ import org.chromium.base.BravePreferenceKeys;

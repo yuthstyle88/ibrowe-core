@@ -1,0 +1,13 @@
+diff --git a/test/data/ephemeral-storage/static/js/site.js b/test/data/ephemeral-storage/static/js/site.js
+index 842b65fd6eb2a6516024935718f04fe8c5825d40..9facf857dd1e255094170ddbef8be58c1ff0988b 100644
+--- a/test/data/ephemeral-storage/static/js/site.js
++++ b/test/data/ephemeral-storage/static/js/site.js
+@@ -3,7 +3,7 @@
+   const D = document
+   const isDebug = false
+ 
+-  const braveSoftwareOrigin = 'dev-pages.bravesoftware.com'
++  const braveSoftwareOrigin = 'dev-pages.ibrowesoftware.com'
+   const braveSoftwareComOrigin = 'dev-pages.brave.software'
+ 
+   let thisOrigin = document.location.host

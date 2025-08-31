@@ -1,0 +1,13 @@
+diff --git a/components/p3a/network_annotations.cc b/components/p3a/network_annotations.cc
+index 4ff9a63cf77b7cfad7fee2f4e61b3f333241def8..118dc2a3768a09ae415e8423a636595a0efefdf8 100644
+--- a/components/p3a/network_annotations.cc
++++ b/components/p3a/network_annotations.cc
+@@ -67,7 +67,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation() {
+         sender: "Brave Privacy-Preserving Product Analytics Uploader"
+         description:
+           "Report of anonymized usage statistics. For more info, see "
+-          "https://brave.com/P3A"
++          "https://ibrowe.com/P3A"
+         trigger:
+           "Reports are automatically generated on startup and at intervals "
+           "while Brave is running."

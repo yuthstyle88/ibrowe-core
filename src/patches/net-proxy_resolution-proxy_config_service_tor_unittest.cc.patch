@@ -1,0 +1,13 @@
+diff --git a/net/proxy_resolution/proxy_config_service_tor_unittest.cc b/net/proxy_resolution/proxy_config_service_tor_unittest.cc
+index 8ce0783ef361fc2d926ce2f21a1eeb32dfde9f2c..7b36c93fce4d730d81f6fa734b8ab82062cab137 100644
+--- a/net/proxy_resolution/proxy_config_service_tor_unittest.cc
++++ b/net/proxy_resolution/proxy_config_service_tor_unittest.cc
+@@ -236,7 +236,7 @@ TEST_F(ProxyConfigServiceTorTest, SetProxyAuthorization) {
+ 
+ TEST_F(ProxyConfigServiceTorTest, SetProxyAuthorization_Subresources) {
+   const GURL site_url1("https://brave.com/");
+-  const GURL site_url2("https://bravesoftware.com/");  // subresource
++  const GURL site_url2("https://ibrowesoftware.com/");  // subresource
+   const GURL site_url3("https://brave.software.com/");
+   const net::SchemefulSite site1(site_url1);
+   const net::SchemefulSite site2(site_url2);

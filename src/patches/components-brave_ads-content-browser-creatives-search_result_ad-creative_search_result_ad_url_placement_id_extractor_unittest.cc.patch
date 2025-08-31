@@ -1,0 +1,51 @@
+diff --git a/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_url_placement_id_extractor_unittest.cc b/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_url_placement_id_extractor_unittest.cc
+index 388673112ef6be42481904bea0546d3b45fda5d4..c9c84837a6beb1c9cdea85b84ff71a3a3379cbeb 100644
+--- a/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_url_placement_id_extractor_unittest.cc
++++ b/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_url_placement_id_extractor_unittest.cc
+@@ -29,7 +29,7 @@ TEST(BraveAdsCreativeSearchResultAdUrlPlacementIdExtractorTest,
+   EXPECT_EQ(
+       test::kCreativeAdPlacementId,
+       MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
+-          R"(https://search.brave.software/a/redirect?click_url=https://brave.com&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
++          R"(https://search.ibrowe.software/a/redirect?click_url=https://brave.com&placement_id=953f362e-98cd-4fa6-8403-e886185b88fc&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
+ }
+ 
+ TEST(BraveAdsCreativeSearchResultAdUrlPlacementIdExtractorTest,
+@@ -39,30 +39,30 @@ TEST(BraveAdsCreativeSearchResultAdUrlPlacementIdExtractorTest,
+ 
+   // Non https://.
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(
+-      GURL(R"(http://search.brave.software/a/redirect)")));
++      GURL(R"(http://search.ibrowe.software/a/redirect)")));
+ 
+   // Disallowed domain.
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(
+-      GURL(R"(https://brave.software/a/redirect)")));
++      GURL(R"(https://ibrowe.software/a/redirect)")));
+ 
+   // Invalid path.
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(
+-      GURL(R"(https://search.brave.software/foo/bar)")));
++      GURL(R"(https://search.ibrowe.software/foo/bar)")));
+ 
+   // No query.
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(
+-      GURL("https://search.brave.software/a/redirect?")));
++      GURL("https://search.ibrowe.software/a/redirect?")));
+ 
+   // No `placement_id` query.
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
+-      R"(https://search.brave.software/a/redirect?click_url=https://brave.com&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
++      R"(https://search.ibrowe.software/a/redirect?click_url=https://brave.com&creative_instance_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx)")));
+ 
+   // No `placement_id` query value.
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
+-      R"(https://search.brave.software/a/redirect?click_url=https://brave.com&placement_id=)")));
++      R"(https://search.ibrowe.software/a/redirect?click_url=https://brave.com&placement_id=)")));
+ 
+   EXPECT_FALSE(MaybeExtractCreativeAdPlacementIdFromUrl(GURL(
+-      R"(https://search.brave.software/a/redirect?click_url=https://brave.com&placement_id)")));
++      R"(https://search.ibrowe.software/a/redirect?click_url=https://brave.com&placement_id)")));
+ }
+ 
+ }  // namespace brave_ads

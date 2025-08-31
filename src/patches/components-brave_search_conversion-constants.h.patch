@@ -1,0 +1,13 @@
+diff --git a/components/brave_search_conversion/constants.h b/components/brave_search_conversion/constants.h
+index d2cf2884479418370ae46a6e94edfbf0989e4583..b817df1e51457d5c9e67ba6d5aaa3601fd27c81e 100644
+--- a/components/brave_search_conversion/constants.h
++++ b/components/brave_search_conversion/constants.h
+@@ -9,7 +9,7 @@
+ namespace brave_search_conversion {
+ 
+ inline constexpr char kBraveSearchConversionPromotionURL[] =
+-    "https://search.brave.com/search?q={SearchTerms}&action=makeDefault";
++    "https://search.ibrowe.com/search?q={SearchTerms}&action=makeDefault";
+ inline constexpr char kSearchTermsParameter[] = "{SearchTerms}";
+ 
+ }  // namespace brave_search_conversion

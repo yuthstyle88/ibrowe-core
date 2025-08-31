@@ -1,5 +1,5 @@
 diff --git a/browser/ui/views/sidebar/sidebar_items_contents_view.cc b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
-index 09844d8439066988ad2539fb436ba5d97b9ce4c9..61b10d914f7a06d3ce4ed07dec17f34a7ee4f9d5 100644
+index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc4ac1f529 100644
 --- a/browser/ui/views/sidebar/sidebar_items_contents_view.cc
 +++ b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
 @@ -155,14 +155,14 @@ void SidebarItemsContentsView::UpdateAllBuiltInItemsViewState() {
@@ -25,6 +25,39 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..61b10d914f7a06d3ce4ed07dec17f34a
  
      UpdateItemViewStateAt(item_index, item_index == active_index);
    }
+@@ -512,19 +512,19 @@ void SidebarItemsContentsView::OnItemPressed(const views::View* item,
+ 
+   const auto& item_model = controller->model()->GetAllSidebarItems()[*index];
+   if (item_model.open_in_panel) {
+-    if (item_model.built_in_item_type ==
+-        sidebar::SidebarItem::BuiltInItemType::kChatUI) {
+-      auto* profile_metrics =
+-          misc_metrics::ProfileMiscMetricsServiceFactory::GetServiceForContext(
+-              browser_->profile());
+-      if (profile_metrics) {
+-        auto* ai_chat_metrics = profile_metrics->GetAIChatMetrics();
+-        if (ai_chat_metrics) {
+-          ai_chat_metrics->HandleOpenViaEntryPoint(
+-              ai_chat::EntryPoint::kSidebar);
+-        }
+-      }
+-    }
++    // if (item_model.built_in_item_type ==
++    //     sidebar::SidebarItem::BuiltInItemType::kChatUI) {
++    //   auto* profile_metrics =
++    //       misc_metrics::ProfileMiscMetricsServiceFactory::GetServiceForContext(
++    //           browser_->profile());
++    //   if (profile_metrics) {
++    //     auto* ai_chat_metrics = profile_metrics->GetAIChatMetrics();
++    //     if (ai_chat_metrics) {
++    //       ai_chat_metrics->HandleOpenViaEntryPoint(
++    //           ai_chat::EntryPoint::kSidebar);
++    //     }
++    //   }
++    // }
+     controller->ActivatePanelItem(item_model.built_in_item_type);
+     return;
+   }
 @@ -555,8 +555,8 @@ ui::ImageModel SidebarItemsContentsView::GetImageForBuiltInItems(
    switch (type) {
      case sidebar::SidebarItem::BuiltInItemType::kWallet:
@@ -36,3 +69,14 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..61b10d914f7a06d3ce4ed07dec17f34a
      case sidebar::SidebarItem::BuiltInItemType::kBookmarks:
        return get_image_model(kLeoProductBookmarksIcon, state);
      case sidebar::SidebarItem::BuiltInItemType::kReadingList:
+@@ -565,8 +565,8 @@ ui::ImageModel SidebarItemsContentsView::GetImageForBuiltInItems(
+       return get_image_model(kLeoHistoryIcon, state);
+     case sidebar::SidebarItem::BuiltInItemType::kPlaylist:
+       return get_image_model(kLeoProductPlaylistIcon, state);
+-    case sidebar::SidebarItem::BuiltInItemType::kChatUI:
+-      return get_image_model(kLeoProductBraveLeoIcon, state);
++    // case sidebar::SidebarItem::BuiltInItemType::kChatUI:
++    //   return get_image_model(kLeoProductBraveLeoIcon, state);
+     default:
+       break;
+   }

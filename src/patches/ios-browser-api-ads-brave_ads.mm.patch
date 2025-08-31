@@ -1,0 +1,21 @@
+diff --git a/ios/browser/api/ads/brave_ads.mm b/ios/browser/api/ads/brave_ads.mm
+index a60e84d3d71ed0fa2853198daf836e61086bc4e2..d341c44003cf72821eed8d4b3aae86db49a3788e 100644
+--- a/ios/browser/api/ads/brave_ads.mm
++++ b/ios/browser/api/ads/brave_ads.mm
+@@ -659,14 +659,14 @@ constexpr NSString* kAdsResourceComponentMetadataVersion = @".v1";
+                    });
+   };
+ 
+-  NSString* baseUrl = @"https://brave-user-model-installer-input.s3.brave.com";
++  NSString* baseUrl = @"https://browe-user-model-installer-input.s3.ibrowe.com";
+   const auto flags = brave_rewards::RewardsFlags::ForCurrentProcess();
+   if (flags.environment) {
+     switch (*flags.environment) {
+       case brave_rewards::RewardsFlags::Environment::kDevelopment:
+       case brave_rewards::RewardsFlags::Environment::kStaging:
+         baseUrl = @"https://"
+-                  @"brave-user-model-installer-input-dev.s3.bravesoftware.com";
++                  @"browe-user-model-installer-input-dev.s3.ibrowesoftware.com";
+         break;
+       case brave_rewards::RewardsFlags::Environment::kProduction:
+         break;

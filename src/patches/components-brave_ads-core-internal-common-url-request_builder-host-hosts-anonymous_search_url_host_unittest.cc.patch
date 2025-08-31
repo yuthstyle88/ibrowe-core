@@ -1,0 +1,13 @@
+diff --git a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/anonymous_search_url_host_unittest.cc b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/anonymous_search_url_host_unittest.cc
+index 63b6a552c80d17e9469868643622fb8b9e513f85..377247724a27c933a62fbd28c80a4b6e89eeedfe 100644
+--- a/components/brave_ads/core/internal/common/url/request_builder/host/hosts/anonymous_search_url_host_unittest.cc
++++ b/components/brave_ads/core/internal/common/url/request_builder/host/hosts/anonymous_search_url_host_unittest.cc
+@@ -32,7 +32,7 @@ TEST_F(BraveAdsAnonymousSearchUrlHostTest, GetStagingUrlHost) {
+       mojom::EnvironmentType::kStaging;
+ 
+   // Act & Assert
+-  EXPECT_EQ("https://search.anonymous.ads.bravesoftware.com",
++  EXPECT_EQ("https://search.anonymous.ads.ibrowesoftware.com",
+             GetAnonymousSearchUrlHost());
+ }
+ 

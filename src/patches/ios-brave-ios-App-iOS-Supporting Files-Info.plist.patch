@@ -1,0 +1,24 @@
+diff --git a/ios/brave-ios/App/iOS/Supporting Files/Info.plist b/ios/brave-ios/App/iOS/Supporting Files/Info.plist
+index f67f8fd73d8dd45a920f27ca0eb99a4757ac5b86..c67c9d76b7dee96c5ecc50d1e8b7665f11f592df 100644
+--- a/ios/brave-ios/App/iOS/Supporting Files/Info.plist	
++++ b/ios/brave-ios/App/iOS/Supporting Files/Info.plist	
+@@ -32,7 +32,7 @@
+ 			<key>CFBundleTypeRole</key>
+ 			<string>Editor</string>
+ 			<key>CFBundleURLName</key>
+-			<string>com.brave.ios</string>
++			<string>com.ibrowe.ios</string>
+ 			<key>CFBundleURLSchemes</key>
+ 			<array>
+ 				<string>http</string>
+@@ -86,8 +86,8 @@
+ 		<string>OpenWebsiteIntent</string>
+ 		<string>ShortcutsConfigurationIntent</string>
+ 		<string>StatsConfigurationIntent</string>
+-		<string>com.brave.ios.browser-scene</string>
+-		<string>com.brave.ios.browsing</string>
++		<string>com.ibrowe.ios.browser-scene</string>
++		<string>com.ibrowe.ios.browsing</string>
+ 	</array>
+ 	<key>UIApplicationSceneManifest</key>
+ 	<dict>

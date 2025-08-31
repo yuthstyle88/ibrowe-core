@@ -1,0 +1,13 @@
+diff --git a/components/ai_chat/core/browser/android/ai_chat_iap_subscription_android.cc b/components/ai_chat/core/browser/android/ai_chat_iap_subscription_android.cc
+index 31c2b2226769c4a52bffd964f3c23c323e56337a..f28a0ded403e91de352c9b32c6a18aee693d4841 100644
+--- a/components/ai_chat/core/browser/android/ai_chat_iap_subscription_android.cc
++++ b/components/ai_chat/core/browser/android/ai_chat_iap_subscription_android.cc
+@@ -15,7 +15,7 @@
+ 
+ namespace {
+ 
+-inline constexpr char kDefaultPackage[] = "com.brave.browser";
++inline constexpr char kDefaultPackage[] = "com.ibrowe108.browser";
+ inline constexpr char kProductId[] = "brave.leo.monthly";
+ 
+ }  // namespace

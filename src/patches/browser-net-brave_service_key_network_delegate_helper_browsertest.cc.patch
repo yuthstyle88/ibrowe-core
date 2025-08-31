@@ -1,0 +1,13 @@
+diff --git a/browser/net/brave_service_key_network_delegate_helper_browsertest.cc b/browser/net/brave_service_key_network_delegate_helper_browsertest.cc
+index bb4fd358555322e8108d5a588e78ef9331723635..8e716decb24e0224e661d31c8e50566a6bc00c40 100644
+--- a/browser/net/brave_service_key_network_delegate_helper_browsertest.cc
++++ b/browser/net/brave_service_key_network_delegate_helper_browsertest.cc
+@@ -76,7 +76,7 @@ IN_PROC_BROWSER_TEST_F(BraveServiceKeyNetworkDelegateBrowserTest,
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), target));
+   EXPECT_FALSE(header_result());
+ 
+-  target = https_server().GetURL("bravesoftware.com", "/index.html");
++  target = https_server().GetURL("ibrowesoftware.com", "/index.html");
+   ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), target));
+   EXPECT_FALSE(header_result());
+ 

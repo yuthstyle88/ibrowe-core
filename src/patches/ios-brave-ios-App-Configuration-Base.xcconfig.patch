@@ -1,18 +1,14 @@
 diff --git a/ios/brave-ios/App/Configuration/Base.xcconfig b/ios/brave-ios/App/Configuration/Base.xcconfig
-index dd5561b77e60ee4c60b77afccba221584429db8c..a3279323f7694deb03b3de27014f05eda10f0d2f 100644
+index dd5561b77e60ee4c60b77afccba221584429db8c..97caf1f653b6369bd76e898899cfe439f1f0a749 100644
 --- a/ios/brave-ios/App/Configuration/Base.xcconfig
 +++ b/ios/brave-ios/App/Configuration/Base.xcconfig
-@@ -8,13 +8,13 @@
- // (e.g. can't use $(inherited) to 'pull' these changes, into sub-configurations)
+@@ -11,10 +11,10 @@ brave_ios_marketing_version = 0.0
+ brave_version_build = 0
  
- brave_ios_marketing_version = 0.0
--brave_version_build = 0
- 
--#include "../../../../../out/ios_current_link/args.xcconfig"
- 
+ #include "../../../../../out/ios_current_link/args.xcconfig"
+-
 -FRAMEWORK_BASE_BUNDLE_ID = com.brave
-+#include "../../../../../out/ios_current_link/args.xcconfig"
-+brave_version_build = 2
++brave_version_build = 3
 +FRAMEWORK_BASE_BUNDLE_ID = com.ibrowe
  BASE_BUNDLE_ID = $(FRAMEWORK_BASE_BUNDLE_ID).ios
  

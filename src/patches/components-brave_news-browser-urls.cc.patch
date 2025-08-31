@@ -1,0 +1,13 @@
+diff --git a/components/brave_news/browser/urls.cc b/components/brave_news/browser/urls.cc
+index 90119f7c9302da0fb243aa0cea0e94a7450f3560..fee48cea359bda95cd12f16c46fafba45bd119ba 100644
+--- a/components/brave_news/browser/urls.cc
++++ b/components/brave_news/browser/urls.cc
+@@ -12,7 +12,7 @@
+ namespace brave_news {
+ 
+ std::string GetHostname() {
+-  return brave_domains::GetServicesDomain("brave-today-cdn");
++  return brave_domains::GetServicesDomain("ibrowe-today-cdn");
+ }
+ 
+ }  // namespace brave_news
