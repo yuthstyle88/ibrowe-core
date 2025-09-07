@@ -1,0 +1,13 @@
+diff --git a/browser/ui/ai_chat/utils.cc b/browser/ui/ai_chat/utils.cc
+index 10263a7a36e7a1bc8626d86c952d77de111309ea..f7f308127eebd7fa34fc26e1dddc50770e1efa27 100644
+--- a/browser/ui/ai_chat/utils.cc
++++ b/browser/ui/ai_chat/utils.cc
+@@ -23,7 +23,7 @@ void OpenAIChatForTab(content::WebContents* web_contents) {
+   auto* coordinator =
+       tab->GetBrowserWindowInterface()->GetFeatures().side_panel_coordinator();
+   CHECK(coordinator);
+-  coordinator->Show(SidePanelEntryId::kChatUI);
++  // coordinator->Show(SidePanelEntryId::kChatUI);
+ }
+ 
+ }  // namespace ai_chat

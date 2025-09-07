@@ -1,20 +1,23 @@
 diff --git a/components/brave_vpn/common/brave_vpn_constants.h b/components/brave_vpn/common/brave_vpn_constants.h
-index 160a4df11f2b1cb72ccd7fd222cc4c892fae963d..bfe67c5964fbbb5cc241fd60da51164f11318343 100644
+index 62c0c3bdd468c14c630bfac485d7820b65ef2465..43a6c30d7f2006ff2af674377a392aaee976dcd6 100644
 --- a/components/brave_vpn/common/brave_vpn_constants.h
 +++ b/components/brave_vpn/common/brave_vpn_constants.h
-@@ -12,12 +12,12 @@ namespace brave_vpn {
+@@ -10,15 +10,15 @@
  
- inline constexpr char kManageUrlProd[] = "https://account.brave.com/account/";
+ namespace brave_vpn {
+ 
+-inline constexpr char kManageUrlProd[] = "https://account.brave.com/account/";
++inline constexpr char kManageUrlProd[] = "https://account.ibrowe.com/account/";
  inline constexpr char kManageUrlStaging[] =
--    "https://account.bravesoftware.com/account/";
-+    "https://account.ibrowesoftware.com/account/";
+     "https://account.bravesoftware.com/account/";
  inline constexpr char kManageUrlDev[] =
--    "https://account.brave.software/account/";
-+    "https://account.ibrowe.software/account/";
+     "https://account.brave.software/account/";
  
  // TODO(simonhong): Update when vpn feedback url is ready.
 -inline constexpr char kFeedbackUrl[] = "https://support.brave.com/";
+-inline constexpr char kAboutUrl[] = "https://brave.com/firewall-vpn/";
 +inline constexpr char kFeedbackUrl[] = "https://support.ibrowe.com/";
- inline constexpr char kAboutUrl[] = "https://brave.com/firewall-vpn/";
++inline constexpr char kAboutUrl[] = "https://ibrowe.com/firewall-vpn/";
  
  inline constexpr char kRegionNameKey[] = "name";
+ inline constexpr char kRegionNamePrettyKey[] = "name-pretty";

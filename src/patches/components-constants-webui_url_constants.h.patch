@@ -1,0 +1,45 @@
+diff --git a/components/constants/webui_url_constants.h b/components/constants/webui_url_constants.h
+index a4d9ed5f3cc1eacb8a05417c9cd799375dced902..7fd1ecc1f88dd186447c49600b48ab9287298354 100644
+--- a/components/constants/webui_url_constants.h
++++ b/components/constants/webui_url_constants.h
+@@ -34,9 +34,9 @@ inline constexpr char kBraveUIAdblockURL[] = "chrome://adblock/";
+ inline constexpr char kBraveUIWebcompatReporterURL[] = "chrome://webcompat/";
+ inline constexpr char kBraveUIWalletURL[] = "chrome://wallet/";
+ inline constexpr char kBraveUIWalletOnboardingURL[] =
+-    "brave://wallet/crypto/onboarding";
++    "ibrowe://wallet/crypto/onboarding";
+ inline constexpr char kBraveUIWalletAccountCreationURL[] =
+-    "brave://wallet/crypto/accounts/add-account/create/";
++    "ibrowe://wallet/crypto/accounts/add-account/create/";
+ inline constexpr char kBraveUIWalletPanelURL[] =
+     "chrome://wallet-panel.top-chrome/";
+ inline constexpr char kWalletPanelHost[] = "wallet-panel.top-chrome";
+@@ -45,8 +45,8 @@ inline constexpr char kVPNPanelURL[] =
+ inline constexpr char kVPNPanelHost[] = "vpn-panel.top-chrome";
+ inline constexpr char kBraveUIWalletPageURL[] = "chrome://wallet/";
+ inline constexpr char kWalletPageHost[] = "wallet";
+-inline constexpr char kExtensionSettingsURL[] = "brave://settings/extensions";
+-inline constexpr char kWalletSettingsURL[] = "brave://settings/wallet";
++inline constexpr char kExtensionSettingsURL[] = "ibrowe://settings/extensions";
++inline constexpr char kWalletSettingsURL[] = "ibrowe://settings/wallet";
+ inline constexpr char kBraveSyncPath[] = "braveSync";
+ inline constexpr char kBraveSyncSetupPath[] = "braveSync/setup";
+ inline constexpr char kTorInternalsHost[] = "tor-internals";
+@@ -81,7 +81,7 @@ inline constexpr char kSpeedreaderPanelHost[] = "brave-speedreader.top-chrome";
+ inline constexpr char kShortcutsURL[] = "chrome://settings/system/shortcuts";
+ inline constexpr char kAIChatUIURL[] = "chrome://leo-ai/";
+ inline constexpr char kAIChatUIHost[] = "leo-ai";
+-inline constexpr char kAIChatSettingsURL[] = "brave://settings/leo-ai/";
++inline constexpr char kAIChatSettingsURL[] = "ibrowe://settings/leo-ai/";
+ inline constexpr char kAIChatUntrustedConversationUIURL[] =
+     "chrome-untrusted://leo-ai-conversation-entries/";
+ inline constexpr char kAIChatUntrustedConversationUIHost[] =
+@@ -92,7 +92,7 @@ inline constexpr char kRewriterUIURL[] = "chrome://rewriter/";
+ inline constexpr char kRewriterUIHost[] = "rewriter";
+ 
+ inline constexpr char16_t kTransactionSimulationLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/Transaction-Simulation";
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/Transaction-Simulation";
+ 
+ inline constexpr char kNTPNewTabTakeoverRichMediaUrl[] =
+     "chrome-untrusted://new-tab-takeover/";

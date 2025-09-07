@@ -1,5 +1,5 @@
 diff --git a/components/constants/url_constants.h b/components/constants/url_constants.h
-index 24d869251438dc285c8e91eaf584f5e0564b5bca..1a6bbae6033c700886c48154decd493a2490f1c5 100644
+index 24d869251438dc285c8e91eaf584f5e0564b5bca..eb91de7bdf119d8546439721acdbab84a8da4a67 100644
 --- a/components/constants/url_constants.h
 +++ b/components/constants/url_constants.h
 @@ -12,30 +12,30 @@ inline constexpr char kMagnetScheme[] = "magnet";
@@ -23,8 +23,9 @@ index 24d869251438dc285c8e91eaf584f5e0564b5bca..1a6bbae6033c700886c48154decd493a
      "360045031392-What-is-SpeedReader";
  inline constexpr char kWebDiscoveryLearnMoreUrl[] =
 -    "https://brave.com/privacy/browser/#web-discovery-project";
+-inline constexpr char kBraveSearchHost[] = "search.brave.com";
 +    "https://ibrowe.com/privacy/browser/#web-discovery-project";
- inline constexpr char kBraveSearchHost[] = "search.brave.com";
++inline constexpr char kBraveSearchHost[] = "search.ibrowe.com";
  inline constexpr char kWidevineLearnMoreUrl[] =
 -    "https://support.brave.com/hc/en-us/articles/"
 +    "https://support.ibrowe.com/hc/en-us/articles/"

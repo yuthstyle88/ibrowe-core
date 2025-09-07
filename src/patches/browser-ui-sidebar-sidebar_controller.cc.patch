@@ -1,14 +1,21 @@
 diff --git a/browser/ui/sidebar/sidebar_controller.cc b/browser/ui/sidebar/sidebar_controller.cc
-index 71ed22a5187d5dd022b3bacdd8a124ed985eb5e3..c8275ed9ed5b2197c558413174733fa026ad633d 100644
+index 1478620edbe73bcff1ba6f5734e0e3e5cfd59391..7e763ee847dd805f7c5070a6a3d6db01c29254a1 100644
 --- a/browser/ui/sidebar/sidebar_controller.cc
 +++ b/browser/ui/sidebar/sidebar_controller.cc
-@@ -102,8 +102,7 @@ void SidebarController::ActivateItemAt(std::optional<size_t> index,
+@@ -107,11 +107,11 @@ void SidebarController::ActivateItemAt(std::optional<size_t> index,
    if (item.open_in_panel) {
      sidebar_model_->SetActiveIndex(index);
  
 -    if (sidebar::features::kOpenOneShotLeoPanel.Get() &&
 -        item.built_in_item_type == SidebarItem::BuiltInItemType::kChatUI) {
-+    if (sidebar::features::kOpenOneShotLeoPanel.Get()) {
-       // Prevent one-time Leo panel open.
-       profile_->GetPrefs()->SetBoolean(kLeoPanelOneShotOpen, true);
-     }
+-      // Prevent one-time Leo panel open.
+-      profile_->GetPrefs()->SetBoolean(kLeoPanelOneShotOpen, true);
+-    }
++    // if (sidebar::features::kOpenOneShotLeoPanel.Get() &&
++    //     item.built_in_item_type == SidebarItem::BuiltInItemType::kChatUI) {
++    //   // Prevent one-time Leo panel open.
++    //   profile_->GetPrefs()->SetBoolean(kLeoPanelOneShotOpen, true);
++    // }
+     return;
+   }
+ 

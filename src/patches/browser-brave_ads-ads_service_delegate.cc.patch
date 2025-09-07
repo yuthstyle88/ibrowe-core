@@ -1,0 +1,13 @@
+diff --git a/browser/brave_ads/ads_service_delegate.cc b/browser/brave_ads/ads_service_delegate.cc
+index 8864b3215ae9e6d442bd8b80e9ca78c735bf8abe..61a3fb305eab43fe7892bfd69eff6dbe37d99c13 100644
+--- a/browser/brave_ads/ads_service_delegate.cc
++++ b/browser/brave_ads/ads_service_delegate.cc
+@@ -36,7 +36,7 @@
+ namespace brave_ads {
+ 
+ namespace {
+-constexpr char kNotificationAdUrlPrefix[] = "https://www.brave.com/ads/?";
++constexpr char kNotificationAdUrlPrefix[] = "https://www.ibrowe.com/ads/?";
+ }  // namespace
+ 
+ AdsServiceDelegate::AdsServiceDelegate(

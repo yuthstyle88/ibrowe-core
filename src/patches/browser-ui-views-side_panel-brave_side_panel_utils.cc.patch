@@ -1,0 +1,13 @@
+diff --git a/browser/ui/views/side_panel/brave_side_panel_utils.cc b/browser/ui/views/side_panel/brave_side_panel_utils.cc
+index 94f98c927c9bffdd82561d01f1393a6e0a4e173b..4cc7e40131ef588c5e71081091e93d5b94947dd9 100644
+--- a/browser/ui/views/side_panel/brave_side_panel_utils.cc
++++ b/browser/ui/views/side_panel/brave_side_panel_utils.cc
+@@ -88,7 +88,7 @@ void RegisterContextualSidePanel(SidePanelRegistry* registry,
+       Profile::FromBrowserContext(context)->IsRegularProfile()) {
+     // If |registry| already has it, it's no-op.
+     registry->Register(std::make_unique<SidePanelEntry>(
+-        SidePanelEntry::Key(SidePanelEntry::Id::kChatUI),
++        SidePanelEntry::Key(SidePanelEntry::Id::kPlaylist),
+         base::BindRepeating(&CreateAIChatSidePanelWebView,
+                             Profile::FromBrowserContext(context)->GetWeakPtr()),
+         /*default_content_width_callback=*/base::NullCallback()));

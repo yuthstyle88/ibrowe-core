@@ -1,0 +1,19 @@
+diff --git a/components/brave_account/brave_account_ui_base.h b/components/brave_account/brave_account_ui_base.h
+index 1846e6cdd6617f6e64a14802beb36df8f6bd949e..652385f4f2abfc30231ea4422f003a8958797b11 100644
+--- a/components/brave_account/brave_account_ui_base.h
++++ b/components/brave_account/brave_account_ui_base.h
+@@ -58,11 +58,11 @@ class BraveAccountUIBase {
+ 
+  private:
+   static inline constexpr char16_t kBraveAccountSelfCustodyLearnMoreURL[] =
+-      u"https://search.brave.com";
++      u"https://search.ibrowe.com";
+   static inline constexpr char16_t kBraveAccountTermsOfServiceURL[] =
+-      u"https://brave.com/terms-of-use/";
++      u"https://ibrowe.com/terms-of-use/";
+   static inline constexpr char16_t kBraveAccountPrivacyAgreementURL[] =
+-      u"https://brave.com/privacy/browser/";
++      u"https://ibrowe.com/privacy/browser/";
+ 
+   void SetupWebUIDataSource(WebUIDataSource* source) {
+     source->OverrideContentSecurityPolicy(

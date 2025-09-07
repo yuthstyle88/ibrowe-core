@@ -1,8 +1,8 @@
 diff --git a/chromium_src/chrome/updater/branding.gni b/chromium_src/chrome/updater/branding.gni
-index db0ddb391250ad503d8689adfe5ef62031e84d1b..6e4e45ee431554f11b4c34f539c3325b57839c3c 100644
+index 903f4e22751bf7ccbe2cd25a5e8af035b9d7eab6..545447ceb67d8f712dba9085c44b64fc22d48fd4 100644
 --- a/chromium_src/chrome/updater/branding.gni
 +++ b/chromium_src/chrome/updater/branding.gni
-@@ -14,21 +14,21 @@
+@@ -14,22 +14,21 @@
  import("//build/util/branding.gni")
  
  brave_updater_branding = {
@@ -20,6 +20,7 @@ index db0ddb391250ad503d8689adfe5ef62031e84d1b..6e4e45ee431554f11b4c34f539c3325b
 +  mac_updater_bundle_identifier = "com.ibrowe.BraveUpdater"
    privileged_helper_bundle_name = "BraveUpdaterPrivilegedHelper"
 -  privileged_helper_name = "com.brave.Browser.UpdaterPrivilegedHelper"
+-  updater_app_icon_path = "//brave/app/theme/brave/mac/app.icns"
 -  updater_company_full_name = "Brave Software, Inc"
 -  updater_company_short_name = "BraveSoftware"
 -  updater_company_short_name_uppercase = "BRAVESOFTWARE"
@@ -28,20 +29,21 @@ index db0ddb391250ad503d8689adfe5ef62031e84d1b..6e4e45ee431554f11b4c34f539c3325b
 +  updater_company_full_name = "iBrowe Software, Inc"
 +  updater_company_short_name = "iBroweSoftware"
 +  updater_company_short_name_uppercase = "IBROWESOFTWARE"
-+  updater_copyright = "Copyright 2024 The iBrowe Authors. All rights reserved."
++  updater_copyright = "Copyright 2025 The iBrowe Authors. All rights reserved."
    updater_product_full_name = "BraveUpdater"
 -  mac_team_identifier = "KL8N8XSYF4"
 +  mac_team_identifier = "D8FP7GS222"
    grdfile_name = "brave_strings"
  
    # The following values come from our Omaha 3 implementation:
-@@ -84,6 +84,6 @@ brave_updater_branding = {
+@@ -83,8 +82,8 @@ brave_updater_branding = {
+   IPolicyStatusValueSystemGUID = "2592AA42-E23E-43C8-829A-46ECE27A5AA3"
+ 
    declare_args() {
-     # Omaha 4 update server:
+-    # Omaha 4 update server:
++  # Omaha 4 update server:
      update_check_url =
 -        "https://updates.bravesoftware.com/non-stable/service/update2/json"
-+        "https://updates.ibrowesoftware.com/non-stable/service/update2/json"
++    "https://updates.ibrowesoftware.com/non-stable/service/update2/json"
    }
--}
-+}
-\ No newline at end of file
+ }

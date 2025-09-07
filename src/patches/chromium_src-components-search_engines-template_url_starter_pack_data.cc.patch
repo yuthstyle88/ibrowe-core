@@ -1,0 +1,13 @@
+diff --git a/chromium_src/components/search_engines/template_url_starter_pack_data.cc b/chromium_src/components/search_engines/template_url_starter_pack_data.cc
+index b14d2911098b61942e849fa7f0694506f219f34a..ac04559eb24611d5f7847cf08863953564dbd6bc 100644
+--- a/chromium_src/components/search_engines/template_url_starter_pack_data.cc
++++ b/chromium_src/components/search_engines/template_url_starter_pack_data.cc
+@@ -17,7 +17,7 @@
+ namespace {
+ 
+ constexpr char kChromeSchema[] = "chrome://";
+-constexpr char kBraveSchema[] = "brave://";
++constexpr char kBraveSchema[] = "ibrowe://";
+ }  // namespace
+ 
+ namespace template_url_starter_pack_data {

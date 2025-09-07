@@ -1,8 +1,8 @@
 diff --git a/chromium_src/chrome/common/url_constants.h b/chromium_src/chrome/common/url_constants.h
-index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c57bc99489 100644
+index b6861e70320a030217af4e413bdd1f4a876025ed..267feba5fc9b4633d8fcdeb928eb19ae23f46953 100644
 --- a/chromium_src/chrome/common/url_constants.h
 +++ b/chromium_src/chrome/common/url_constants.h
-@@ -18,24 +18,23 @@ namespace chrome {
+@@ -18,24 +18,24 @@ namespace chrome {
  
  // "Learn more" URL linked in the dialog to cast using a code.
  inline constexpr char kAccessCodeCastLearnMoreURL[] =
@@ -23,7 +23,8 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  inline constexpr char kAutomaticSettingsResetLearnMoreURL[] =
 -    "https://support.brave.com/hc/en-us/articles/"
 -    "360017903152-How-do-I-reset-Brave-settings-to-default-";
-+    "https://community.ibrowe.com/post/74";
++    "https://support.ibrowe.com/hc/en-us/articles/"
++    "360017903152-How-do-I-reset-iBrowe-settings-to-default-";
  
  // "Learn more" URL for Advanced Protection download warnings.
  inline constexpr char kAdvancedProtectionDownloadLearnMoreURL[] =
@@ -32,7 +33,15 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // "Chrome Settings" URL for the appearance page.
  inline constexpr char kBrowserSettingsSearchEngineURL[] =
-@@ -49,16 +48,16 @@ inline constexpr char16_t kBatterySaverModeLearnMoreUrl[] =
+@@ -43,22 +43,22 @@ inline constexpr char kBrowserSettingsSearchEngineURL[] =
+ 
+ // "Learn more" URL for Battery Saver Mode.
+ inline constexpr char16_t kBatterySaverModeLearnMoreUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"13383683902733-How-do-I-use-the-Memory-and-Energy-Saver-features-in-"
+-    u"Brave#energy-saver";
++    u"iBrowe#energy-saver";
  
  // The URL for providing help when the Bluetooth adapter is off.
  inline constexpr char kBluetoothAdapterOffHelpURL[] =
@@ -52,7 +61,12 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The URL for the WebHID API help center article.
  inline constexpr char kChooserHidOverviewUrl[] =
-@@ -78,18 +77,18 @@ inline constexpr char kChromeBetaForumURL[] =
+@@ -74,22 +74,22 @@ inline constexpr char kChooserUsbOverviewURL[] =
+ 
+ // Link to the forum for Chrome Beta.
+ inline constexpr char kChromeBetaForumURL[] =
+-    "https://community.brave.com/c/beta-builds";
++    "https://community.ibrowe.com/c/beta-builds";
  
  // The URL for the help center article to fix Chrome update problems.
  inline constexpr char16_t kChromeFixUpdateProblems[] =
@@ -76,7 +90,7 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The isolated-app: scheme is used for Isolated Web Apps. A public explainer
  // can be found here: https://github.com/reillyeon/isolated-web-apps
-@@ -101,7 +100,7 @@ inline constexpr char16_t kIsolatedAppSchemeUtf16[] = u"isolated-app";
+@@ -101,7 +101,7 @@ inline constexpr char16_t kIsolatedAppSchemeUtf16[] = u"isolated-app";
  inline constexpr char kChromeNativeScheme[] = "chrome-native";
  
  // The URL of safe section in Chrome page.
@@ -85,7 +99,74 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // Pages under chrome-search.
  inline constexpr char kChromeSearchLocalNtpHost[] = "local-ntp";
-@@ -207,14 +206,14 @@ inline constexpr char kExtensionInvalidRequestURL[] =
+@@ -150,55 +150,55 @@ inline constexpr char16_t kChromiumProjectURL[] =
+     u"https://github.com/brave/brave-browser/";
+ 
+ inline constexpr char16_t kContentSettingsExceptionsLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"360018205431-How-do-I-change-site-permissions-";
+ 
+ // "Learn more" URL for cookies.
+ inline constexpr char kCookiesSettingsHelpCenterURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018205431-How-do-I-change-site-permissions-";
+ 
+ // "Learn more" URL for "Aw snap" page when showing "Reload" button.
+ inline constexpr char kCrashReasonURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018192251-How-do-I-fix-page-crashes-and-other-page-loading-errors-";
+ 
+ // "Learn more" URL for "Aw snap" page when showing "Send feedback" button.
+ inline constexpr char kCrashReasonFeedbackDisplayedURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018192251-How-do-I-fix-page-crashes-and-other-page-loading-errors-";
+ 
+ // "Learn more" URL for the inactive tabs appearance setting.
+ inline constexpr char16_t kDiscardRingTreatmentLearnMoreUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
+-    u"13383683902733-How-do-I-use-the-Memory-Saver-feature-in-Brave";
++    u"https://support.ibrowe.com/hc/en-us/articles/"
++    u"13383683902733-How-do-I-use-the-Memory-Saver-feature-in-iBrowe";
+ 
+ // "Learn more" URL for the "Do not track" setting in the privacy section.
+ inline constexpr char16_t kDoNotTrackLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"360017905612-How-do-I-turn-Do-Not-Track-on-or-off-";
+ 
+ // The URL for the "Learn more" page for interrupted downloads.
+ inline constexpr char kDownloadInterruptedLearnMoreURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018192491-How-do-I-fix-file-download-errors-";
+ 
+ // The URL for the "Learn more" page for download scanning.
+ inline constexpr char kDownloadScanningLearnMoreURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018192491-How-do-I-fix-file-download-errors-";
+ 
+ // The URL for the "Learn more" page for blocked downloads.
+ // Note: This is the same as the above URL. This is done to decouple the URLs,
+ // in case the support page is split apart into separate pages in the future.
+ inline constexpr char kDownloadBlockedLearnMoreURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018192491-How-do-I-fix-file-download-errors-";
+ 
+ // "Learn more" URL for the Settings API, NTP bubble and other settings bubbles
+ // showing which extension is controlling them.
+ inline constexpr char kExtensionControlledSettingLearnMoreURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018185651-How-do-I-stop-extensions-from-changing-my-settings-";
+ 
+ // URL used to indicate that an extension resource load request was invalid.
+@@ -207,14 +207,14 @@ inline constexpr char kExtensionInvalidRequestURL[] =
  
  // Link for creating family group with Google Families.
  inline constexpr char16_t kFamilyGroupCreateURL[] =
@@ -103,7 +184,7 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // Url to a blogpost about Flash deprecation.
  inline constexpr char kFlashDeprecationLearnMoreURL[] =
-@@ -222,41 +221,41 @@ inline constexpr char kFlashDeprecationLearnMoreURL[] =
+@@ -222,54 +222,54 @@ inline constexpr char kFlashDeprecationLearnMoreURL[] =
  
  // URL of the 'Activity controls' section of the privacy settings page.
  inline constexpr char kGoogleAccountActivityControlsURL[] =
@@ -155,7 +236,9 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The URL for the "Learn more" link for the High Efficiency Mode.
  inline constexpr char16_t kMemorySaverModeLearnMoreUrl[] =
-@@ -265,11 +264,11 @@ inline constexpr char16_t kMemorySaverModeLearnMoreUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/13383683902733";
++    u"https://support.ibrowe.com/hc/en-us/articles/13383683902733";
+ 
  // The URL in the help text for the High Efficiency Mode tab discarding
  // exceptions add dialog.
  inline constexpr char16_t kMemorySaverModeTabDiscardingHelpUrl[] =
@@ -169,7 +252,12 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The URL for the Help Center page about IP Protection.
  inline constexpr char kIpProtectionHelpCenterURL[] =
-@@ -282,22 +281,22 @@ inline constexpr char kLearnMoreReportingURL[] =
+@@ -278,26 +278,26 @@ inline constexpr char kIpProtectionHelpCenterURL[] =
+ // The URL for the "Learn more" page for the usage/crash reporting option in the
+ // first run dialog.
+ inline constexpr char kLearnMoreReportingURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
      "360017905872-How-do-I-enable-or-disable-automatic-crash-reporting-";
  
  // The URL for the Help Center page about managing third-party cookies.
@@ -182,8 +270,8 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The URL for the Learn More page about policies and enterprise enrollment.
  inline constexpr char16_t kManagedUiLearnMoreUrl[] =
--    u"https://support.brave.com/";
-+    u"https://support.ibrowe.com/";
+-    u"https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy";
++    u"https://support.ibrowe.com/hc/en-us/articles/360039248271-Group-Policy";
  
  // The URL for the "Learn more" page for insecure download blocking.
  inline constexpr char kInsecureDownloadBlockingLearnMoreUrl[] =
@@ -195,9 +283,21 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
 -    u"https://support.brave.com/";
 +    u"https://support.ibrowe.com/";
  
+ // The URL for "Your Gemini Apps Activity" page.
+ inline constexpr char16_t kMyActivityGeminiAppsUrl[] =
+@@ -305,175 +305,175 @@ inline constexpr char16_t kMyActivityGeminiAppsUrl[] =
+ 
  // Help URL for the Omnibox setting.
  inline constexpr char16_t kOmniboxLearnMoreURL[] =
-@@ -311,11 +310,11 @@ inline constexpr char kPageInfoHelpCenterURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"360017479752-How-do-I-set-my-default-search-engine-";
+ 
+ // "What do these mean?" URL for the Page Info bubble.
+ inline constexpr char kPageInfoHelpCenterURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018185871-How-do-I-check-if-a-site-s-connection-is-secure-";
  
  // Help URL for the bulk password check.
  inline constexpr char kPasswordCheckLearnMoreURL[] =
@@ -210,8 +310,9 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
 +    "https://support.ibrowe.com/";
  
  inline constexpr char16_t kPasswordManagerLearnMoreURL[] =
-     u"https://support.brave.com/hc/en-us/articles/"
-@@ -323,46 +322,46 @@ inline constexpr char16_t kPasswordManagerLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"360018185951-How-do-I-use-the-built-in-password-manager-";
  
  // Help URL for passwords import.
  inline constexpr char kPasswordManagerImportLearnMoreURL[] =
@@ -269,17 +370,30 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // "Learn more" URL for the Privacy section under Options.
  inline constexpr char kPrivacyLearnMoreURL[] =
-@@ -371,8 +370,7 @@ inline constexpr char kPrivacyLearnMoreURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360017989132-How-do-I-change-my-Privacy-Settings-";
  
  // The URL for the Learn More link of the non-CWS bubble.
  inline constexpr char kRemoveNonCWSExtensionURL[] =
 -    "https://support.brave.com/hc/en-us/articles/"
 -    "360017914832-Why-am-I-seeing-the-message-extensions-disabled-by-Brave-";
-+    "https://community.ibrowe.com/post/6";
++    "https://support.ibrowe.com/hc/en-us/articles/"
++    "360017914832-Why-am-I-seeing-the-message-extensions-disabled-by-iBrowe-";
  
  // "Learn more" URL for resetting profile preferences.
  inline constexpr char kResetProfileSettingsLearnMoreURL[] =
-@@ -386,90 +384,90 @@ inline constexpr char kSafeBrowsingHelpCenterURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
+-    "360017903152-How-do-I-reset-Brave-settings-to-default-";
++    "https://support.ibrowe.com/hc/en-us/articles/"
++    "360017903152-How-do-I-reset-iBrowe-settings-to-default-";
+ 
+ // "Learn more" URL for Safebrowsing
+ inline constexpr char kSafeBrowsingHelpCenterURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
+-    "15222663599629-Safe-Browsing-in-Brave";
++    "https://support.ibrowe.com/hc/en-us/articles/"
++    "15222663599629-Safe-Browsing-in-iBrowe";
  
  // Updated "Info icon" URL for Safebrowsing
  inline constexpr char kSafeBrowsingHelpCenterUpdatedURL[] =
@@ -304,7 +418,7 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  // "Learn more" URL for safety tip bubble.
  inline constexpr char kSafetyTipHelpCenterURL[] =
 -    "https://support.brave.com/hc/en-us/articles/17550072876045-Lookalike-URLs";
-+    "https://community.ibrowe.com/post/76";
++    "https://support.ibrowe.com/hc/en-us/articles/17550072876045-Lookalike-URLs";
  
  // Google search history URL that leads users of the CBD dialog to their search
  // history in their Google account.
@@ -392,7 +506,7 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The URL for the Settings page to enable history search.
  inline constexpr char16_t kHistorySearchSettingURL[] =
-@@ -482,25 +480,24 @@ inline constexpr char16_t kHistorySearchV2SettingURL[] =
+@@ -486,114 +486,114 @@ inline constexpr char16_t kHistorySearchV2SettingURL[] =
  
  // The URL for the "Learn more" page for Wallpaper Search.
  inline constexpr char kWallpaperSearchLearnMorePageURL[] =
@@ -407,8 +521,8 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  // The URL for the "Learn more" page for Tab Organization.
  inline constexpr char kTabOrganizationLearnMorePageURL[] =
 -    "https://support.brave.com/hc/en-us/articles/"
--    "35200007195917-How-to-use-Tab-Focus-Mode";
-+    "https://community.ibrowe.com/post/114";
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "35200007195917-How-to-use-Tab-Focus-Mode";
  
  // The URL for the "Learn more" page for Tab Organization for managed users.
  inline constexpr char kTabOrganizationLearnMorePageManagedURL[] =
@@ -423,7 +537,79 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  #if !BUILDFLAG(IS_ANDROID)
  // The URL for the trusted vault sync passphrase opt in.
-@@ -565,18 +562,17 @@ inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
+ inline constexpr char kSyncTrustedVaultOptInURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ #endif
+ 
+ // The URL for the "Learn more" link for the trusted vault sync passphrase.
+ inline constexpr char kSyncTrustedVaultLearnMoreURL[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ // The URL for the Help Center page about Tracking Protection settings.
+ inline constexpr char16_t kTrackingProtectionHelpCenterURL[] =
+-    u"https://support.brave.com/";
++    u"https://support.ibrowe.com/";
+ 
+ // The URL for the Help Center page about User Bypass.
+ inline constexpr char16_t kUserBypassHelpCenterURL[] =
+-    u"https://support.brave.com/";
++    u"https://support.ibrowe.com/";
+ 
+ inline constexpr char kUpgradeHelpCenterBaseURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
+-    "360025390311-How-do-I-download-and-install-Brave-";
++    "https://support.ibrowe.com/hc/en-us/articles/"
++    "360025390311-How-do-I-download-and-install-iBrowe-";
+ 
+ // Help center URL for who the account administrator is.
+ inline constexpr char16_t kWhoIsMyAdministratorHelpURL[] =
+-    u"https://support.brave.com/";
++    u"https://support.ibrowe.com/";
+ 
+ // The URL for the "Learn more" link about CWS Enhanced Safe Browsing.
+ inline constexpr char16_t kCwsEnhancedSafeBrowsingLearnMoreURL[] =
+-    u"https://support.brave.com/";
++    u"https://support.ibrowe.com/";
+ 
+ // The URL path to Google's Privacy Policy page.
+-inline constexpr char kPrivacyPolicyURL[] = "https://support.brave.com/";
++inline constexpr char kPrivacyPolicyURL[] = "https://support.ibrowe.com/";
+ 
+ // The URL path to Google's Privacy Policy page for users in China.
+-inline constexpr char kPrivacyPolicyURLChina[] = "https://support.brave.com/";
++inline constexpr char kPrivacyPolicyURLChina[] = "https://support.ibrowe.com/";
+ 
+ // The URL path to Google's Embedded Privacy Policy page.
+ inline constexpr char kPrivacyPolicyOnlineURLPath[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ // The URL path to Google's Embedded Privacy Policy page - Dark Mode.
+ inline constexpr char kPrivacyPolicyOnlineDarkModeURLPath[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ // The URL path to Google's Embedded Privacy Policy page for users in China.
+ inline constexpr char kPrivacyPolicyEmbeddedURLPathChina[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ // The URL path to Google's Embedded Privacy Policy page for users in China -
+ // Dark Mode.
+ inline constexpr char kPrivacyPolicyEmbeddedDarkModeURLPathChina[] =
+-    "https://support.brave.com/";
++    "https://support.ibrowe.com/";
+ 
+ #if BUILDFLAG(IS_ANDROID)
+ // "Learn more" URL for the enhanced playback notification dialog.
+ inline constexpr char kEnhancedPlaybackNotificationLearnMoreURL[] =
+     // Keep in sync with chrome/android/java/strings/android_chrome_strings.grd
+-    "https://community.brave.com";
++    "https://community.ibrowe.com";
+ #endif
+ 
  #if BUILDFLAG(IS_MAC)
  // "Learn more" URL for the enterprise sign-in confirmation dialog.
  inline constexpr char kChromeEnterpriseSignInLearnMoreURL[] =
@@ -433,8 +619,8 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  // The URL for the "learn more" link on the macOS version obsolescence infobar.
  inline constexpr char kMacOsObsoleteURL[] =
 -    "https://support.brave.com/hc/en-us/articles/"
--    "18347246446733-Changes-to-macOS-desktop-browser-requirements";
-+    "https://community.ibrowe.com/post/374";
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "18347246446733-Changes-to-macOS-desktop-browser-requirements";
  #endif
  
  #if BUILDFLAG(IS_WIN)
@@ -445,7 +631,8 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  // The URL for the Windows 7/8.1 deprecation help center article.
  inline constexpr char kWindows78DeprecationURL[] =
-@@ -584,7 +580,7 @@ inline constexpr char kWindows78DeprecationURL[] =
+-    "https://support.brave.com/hc/en-us/articles/11197967945613";
++    "https://support.ibrowe.com/hc/en-us/articles/11197967945613";
  #endif  // BUILDFLAG(IS_WIN)
  
  // "Learn more" URL for the one click signin infobar.
@@ -454,3 +641,9 @@ index b52b92443aa90e061404707dc8360cd27f62a20c..d227326646a75ce40a2bf87b50a7d8c5
  
  #if BUILDFLAG(ENABLE_PLUGINS)
  // The URL for the "Learn more" page for the outdated plugin infobar.
+ inline constexpr char kOutdatedPluginLearnMoreURL[] =
+-    "https://support.brave.com/hc/en-us/articles/"
++    "https://support.ibrowe.com/hc/en-us/articles/"
+     "360018163151-How-do-I-manage-Flash-audio-video-";
+ #endif
+ 

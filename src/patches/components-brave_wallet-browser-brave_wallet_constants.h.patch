@@ -1,0 +1,73 @@
+diff --git a/components/brave_wallet/browser/brave_wallet_constants.h b/components/brave_wallet/browser/brave_wallet_constants.h
+index 9e3893bcc432ca53f15dd304aea39baf897f8fca..55817b8e2c50acfd3038788218fe79c3e6bfe204 100644
+--- a/components/brave_wallet/browser/brave_wallet_constants.h
++++ b/components/brave_wallet/browser/brave_wallet_constants.h
+@@ -47,7 +47,7 @@ inline constexpr char kCoinbaseURL[] = "https://pay.coinbase.com";
+ inline constexpr char kCoinbaseAppId[] = "8072ff71-8469-4fef-9404-7c905e2359c9";
+ inline constexpr char kSimpleHashUrl[] = "https://api.simplehash.com";
+ inline constexpr char kSimpleHashBraveProxyUrl[] =
+-    "https://simplehash.wallet.brave.com";
++    "https://simplehash.wallet.ibrowe.com";
+ 
+ inline constexpr size_t kSimpleHashMaxBatchSize = 50;
+ 
+@@ -1688,7 +1688,7 @@ inline constexpr webui::LocalizedString kLocalizedStrings[] = {
+     {"braveWalletAddToken", IDS_BRAVE_WALLET_ADD_TOKEN}};
+ 
+ // 0x swap constants
+-inline constexpr char kZeroExBaseAPIURL[] = "https://api.0x.wallet.brave.com";
++inline constexpr char kZeroExBaseAPIURL[] = "https://api.0x.wallet.ibrowe.com";
+ inline constexpr char kEVMFeeRecipient[] =
+     "0xbd9420A98a7Bd6B89765e5715e169481602D9c3d";
+ inline constexpr char kZeroExAllowanceHolderCancun[] =
+@@ -1701,7 +1701,7 @@ inline constexpr char kZeroExAPIVersionHeader[] = "0x-version";
+ inline constexpr char kZeroExAPIVersion[] = "v2";
+ 
+ // Jupiter swap constants
+-inline constexpr char kJupiterBaseAPIURL[] = "https://jupiter.wallet.brave.com";
++inline constexpr char kJupiterBaseAPIURL[] = "https://jupiter.wallet.ibrowe.com";
+ inline constexpr char kJupiterReferralKey[] =
+     "7yke2kxg6ewNsun61qBkdsLdxuXcUiB8CMB47Zv39Aoy";
+ inline constexpr char kJupiterReferralProgram[] =
+@@ -1712,12 +1712,12 @@ inline constexpr char kWrappedSolanaMintAddress[] =
+ 
+ // Blowfish simulations constants
+ inline constexpr char kBlowfishBaseAPIURL[] =
+-    "https://blowfish.wallet.brave.com";
++    "https://blowfish.wallet.ibrowe.com";
+ inline constexpr char kBlowfishAPIVersionHeader[] = "X-Api-Version";
+ inline constexpr char kBlowfishAPIVersion[] = "2023-06-05";
+ 
+ // LiFi constants
+-inline constexpr char kLiFiBaseAPIURL[] = "https://lifi.wallet.brave.com";
++inline constexpr char kLiFiBaseAPIURL[] = "https://lifi.wallet.ibrowe.com";
+ inline constexpr char kLiFiIntegratorID[] = "brave";
+ inline constexpr char kLiFiNativeEVMAssetContractAddress[] =
+     "0x0000000000000000000000000000000000000000";
+@@ -1730,7 +1730,7 @@ inline constexpr char kNativeEVMAssetContractAddress[] =
+     "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee";
+ 
+ // Squid constants
+-inline constexpr char kSquidBaseAPIURL[] = "https://squid.wallet.brave.com";
++inline constexpr char kSquidBaseAPIURL[] = "https://squid.wallet.ibrowe.com";
+ 
+ inline constexpr int64_t kBlockTrackerDefaultTimeInSeconds = 20;
+ inline constexpr int64_t kLogTrackerDefaultTimeInSeconds = 20;
+@@ -1738,7 +1738,7 @@ inline constexpr int64_t kSolanaBlockTrackerTimeInSeconds = 2;
+ 
+ // Ankr constants
+ inline constexpr char kAnkrAdvancedAPIBaseURL[] =
+-    "https://multichain.ankr.wallet.brave.com/";
++    "https://multichain.ankr.wallet.ibrowe.com/";
+ 
+ // Unstoppable domains record key for ethereum address.
+ inline constexpr char kCryptoEthAddressKey[] = "crypto.ETH.address";
+@@ -1766,7 +1766,7 @@ inline constexpr char kEthereumBlockTagLatest[] = "latest";
+ inline constexpr char kBitcoinTestnetRpcEndpoint[] =
+     "https://blockstream.info/testnet/api/";
+ 
+-inline constexpr char kMeldRpcEndpoint[] = "https://api-meld.wallet.brave.com";
++inline constexpr char kMeldRpcEndpoint[] = "https://api-meld.wallet.ibrowe.com";
+ inline constexpr char kMeldRpcVersionHeader[] = "Meld-Version";
+ inline constexpr char kMeldRpcVersion[] = "2023-05-26";
+ 

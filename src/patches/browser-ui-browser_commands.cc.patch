@@ -1,0 +1,21 @@
+diff --git a/browser/ui/browser_commands.cc b/browser/ui/browser_commands.cc
+index ecba160e7c462c1f19bf85269efc926828dc9667..578b0c7a2f01f982d4f104979636f0decd8b3610 100644
+--- a/browser/ui/browser_commands.cc
++++ b/browser/ui/browser_commands.cc
+@@ -316,11 +316,11 @@ void OpenBraveVPNUrls(Browser* browser, int command_id) {
+ }
+ 
+ void ToggleAIChat(Browser* browser) {
+-#if defined(TOOLKIT_VIEWS)
+-  SidePanelUI* side_panel_ui = browser->GetFeatures().side_panel_ui();
+-  side_panel_ui->Toggle(SidePanelEntry::Key(SidePanelEntryId::kChatUI),
+-                        SidePanelOpenTrigger::kToolbarButton);
+-#endif
++// #if defined(TOOLKIT_VIEWS)
++//   SidePanelUI* side_panel_ui = browser->GetFeatures().side_panel_ui();
++//   side_panel_ui->Toggle(SidePanelEntry::Key(SidePanelEntryId::kChatUI),
++//                         SidePanelOpenTrigger::kToolbarButton);
++// #endif
+ }
+ 
+ void ShowWalletBubble(Browser* browser) {

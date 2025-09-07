@@ -1,5 +1,5 @@
 diff --git a/browser/net/brave_network_audit_allowed_lists.h b/browser/net/brave_network_audit_allowed_lists.h
-index 28ec14032a6a761d61e59f6f952a0fd46bf8f0d4..7f342f2f12bd75beef9513d7f40df9c7b28d4c4c 100644
+index b827b398ef1d98620e1eef89a9d0917a157a42e2..e5bc32a21c9339f971c287c91cbf80494cfb1f62 100644
 --- a/browser/net/brave_network_audit_allowed_lists.h
 +++ b/browser/net/brave_network_audit_allowed_lists.h
 @@ -27,14 +27,14 @@ inline constexpr auto kAllowedUrlProtocols =
@@ -21,7 +21,7 @@ index 28ec14032a6a761d61e59f6f952a0fd46bf8f0d4..7f342f2f12bd75beef9513d7f40df9c7
  
      // needed for DoH on Mac build machines
      "https://dns.google/dns-query",
-@@ -43,40 +43,40 @@ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
+@@ -43,37 +43,37 @@ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
      "https://chrome.cloudflare-dns.com/dns-query",
  
      // for fetching tor client updater component
@@ -37,7 +37,8 @@ index 28ec14032a6a761d61e59f6f952a0fd46bf8f0d4..7f342f2f12bd75beef9513d7f40df9c7
 +    "https://sync-v2.ibrowesoftware.com/v2",
  
      // brave sync v2 dev
-     "https://sync-v2.brave.software/v2",
+-    "https://sync-v2.brave.software/v2",
++    "https://sync-v2.ibrowe.software/v2",
  
      // brave A/B testing
 -    "https://variations.brave.com/seed",
@@ -52,13 +53,7 @@ index 28ec14032a6a761d61e59f6f952a0fd46bf8f0d4..7f342f2f12bd75beef9513d7f40df9c7
 +    "https://pcdn.ibrowe.com/",
  
      // p3a
--    "https://p3a-creative.brave.com/",
--    "https://p3a-json.brave.com/",
--    "https://p3a.brave.com/",
 -    "https://star-randsrv.bsg.brave.com/",
-+    "https://p3a-creative.ibrowe.com/",
-+    "https://p3a-json.ibrowe.com/",
-+    "https://p3a.ibrowe.com/",
 +    "https://star-randsrv.bsg.ibrowe.com/",
  
      // Other
@@ -69,7 +64,7 @@ index 28ec14032a6a761d61e59f6f952a0fd46bf8f0d4..7f342f2f12bd75beef9513d7f40df9c7
 -    "https://safebrowsing.brave.com/",
 -    "https://static.brave.com/",
 -    "https://static1.brave.com/",
-+    "https://brave-core-ext.s3.ibrowe.com/",
++    "https://ibrowe-core-ext.s3.ibrowe.com/",
 +    "https://dict.ibrowe.com/",
 +    "https://go-updater.ibrowe.com/",
 +    "https://redirector.ibrowe.com/",

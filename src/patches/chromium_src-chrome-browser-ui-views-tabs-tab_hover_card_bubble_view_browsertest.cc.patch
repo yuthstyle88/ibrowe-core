@@ -1,0 +1,13 @@
+diff --git a/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view_browsertest.cc b/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view_browsertest.cc
+index 45172c046b1a4c33297b3c9e0503d7aea43271a6..2009f2ae2a68e4b48697456bfdb880fd6b399390 100644
+--- a/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view_browsertest.cc
++++ b/chromium_src/chrome/browser/ui/views/tabs/tab_hover_card_bubble_view_browsertest.cc
+@@ -20,7 +20,7 @@
+ 
+ namespace {
+ 
+-constexpr char16_t kTabDomain[] = u"brave://settings";
++constexpr char16_t kTabDomain[] = u"ibrowe://settings";
+ constexpr char16_t kTabTitle[] = u"Settings - Addresses and more";
+ constexpr char kTabUrl[] = "chrome://settings/addresses";
+ 

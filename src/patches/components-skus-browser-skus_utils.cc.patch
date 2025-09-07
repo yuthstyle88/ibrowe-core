@@ -1,22 +1,16 @@
 diff --git a/components/skus/browser/skus_utils.cc b/components/skus/browser/skus_utils.cc
-index 02fb11fe83c200ca32b7154d32bbe3b0e8eac6e9..069eecfbbb6b5678b2b984b9edb1f16e031558db 100644
+index 02fb11fe83c200ca32b7154d32bbe3b0e8eac6e9..6b48d65aaaf966be06732a2c7310d5b685d995cb 100644
 --- a/components/skus/browser/skus_utils.cc
 +++ b/components/skus/browser/skus_utils.cc
-@@ -38,11 +38,11 @@ std::string GetDomain(const std::string& prefix,
+@@ -38,7 +38,7 @@ std::string GetDomain(const std::string& prefix,
    DCHECK(prefix == kProductTalk || prefix == kProductVPN);
  
    if (environment == kEnvProduction) {
 -    return prefix + ".brave.com";
 +    return prefix + ".ibrowe.com";
    } else if (environment == kEnvStaging) {
--    return prefix + ".bravesoftware.com";
-+    return prefix + ".ibrowesoftware.com";
+     return prefix + ".bravesoftware.com";
    } else if (environment == kEnvDevelopment) {
--    return prefix + ".brave.software";
-+    return prefix + ".ibrowe.software";
-   }
- 
-   NOTREACHED() << "Unsupported environment: " << environment;
 @@ -51,11 +51,11 @@ std::string GetDomain(const std::string& prefix,
  std::string GetEnvironmentForDomain(const std::string& domain) {
    auto base_domain = net::registry_controlled_domains::GetDomainAndRegistry(

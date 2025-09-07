@@ -1,0 +1,23 @@
+diff --git a/browser/ui/webui/speedreader/speedreader_toolbar_data_handler_impl.cc b/browser/ui/webui/speedreader/speedreader_toolbar_data_handler_impl.cc
+index 0885102c34db411f898dc390322b3347463697b2..e72d09f18c7c164099b09e5e9f62bdb1c9d4d1c0 100644
+--- a/browser/ui/webui/speedreader/speedreader_toolbar_data_handler_impl.cc
++++ b/browser/ui/webui/speedreader/speedreader_toolbar_data_handler_impl.cc
+@@ -152,12 +152,12 @@ void SpeedreaderToolbarDataHandlerImpl::AiChat() {
+     return;
+   }
+ 
+-  if (auto entry = side_panel->GetCurrentEntryId();
+-      entry == SidePanelEntryId::kChatUI) {
+-    side_panel->Close();
+-  } else {
+-    side_panel->Show(SidePanelEntryId::kChatUI);
+-  }
++  // if (auto entry = side_panel->GetCurrentEntryId();
++  //     entry == SidePanelEntryId::kChatUI) {
++  //   side_panel->Close();
++  // } else {
++  //   side_panel->Show(SidePanelEntryId::kChatUI);
++  // }
+ }
+ 
+ void SpeedreaderToolbarDataHandlerImpl::GetPlaybackState(

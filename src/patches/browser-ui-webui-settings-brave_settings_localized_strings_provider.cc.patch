@@ -1,20 +1,100 @@
 diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-index 5cc9b5dbb2177689233f05e8b553bc1808c7332c..931769e87aae1f55060843849ebfc7c5f1360851 100644
+index 6eccaaf235ab88b070ab9fed66cef19aae1553eb..29562076d3ddc84c72c5f813dd28d811e376c370 100644
 --- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
 +++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-@@ -53,12 +53,12 @@ namespace {
- constexpr char16_t kBraveAccountSelfCustodyLearnMoreURL[] =
-     u"https://search.brave.com";
- constexpr char16_t kBraveAccountTermsOfServiceURL[] =
--    u"https://brave.com/terms-of-use/";
-+    u"https://ibrowe.com/terms-of-use/";
- constexpr char16_t kBraveAccountPrivacyAgreementURL[] =
--    u"https://brave.com/privacy/browser/";
-+    u"https://ibrowe.com/ibrowe-privacy";
+@@ -56,57 +56,57 @@ namespace settings {
+ namespace {
  
  constexpr char16_t kWebRTCLearnMoreURL[] =
 -    u"https://support.brave.com/hc/en-us/articles/"
 +    u"https://support.ibrowe.com/hc/en-us/articles/"
      u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
  constexpr char16_t kBraveBuildInstructionsUrl[] =
-     u"https://github.com/brave/brave-browser/wiki";
+-    u"https://github.com/brave/brave-browser/wiki";
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki";
+ constexpr char16_t kBraveLicenseUrl[] = u"https://mozilla.org/MPL/2.0/";
+ constexpr char16_t kBraveReleaseTagPrefix[] =
+-    u"https://github.com/brave/brave-browser/releases/tag/v";
++    u"https://github.com/yuthstyle88/ibrowe-browser/releases/tag/v";
+ #if BUILDFLAG(ENABLE_CONTAINERS)
+ constexpr char16_t kContainersLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Containers";
+ #endif
+ constexpr char16_t kGoogleLoginLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Allow-Google-login---Third-Parties-and-Extensions";
+ constexpr char16_t kUnstoppableDomainsLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Resolve-Methods-for-Unstoppable-Domains";
+ constexpr char16_t kEnsOffchainLookupLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/ENS-offchain-lookup";
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/ENS-offchain-lookup";
+ constexpr char16_t kBraveSyncGuideUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/360047642371-Sync-FAQ";
++    u"https://support.ibrowe.com/hc/en-us/articles/360047642371-Sync-FAQ";
+ constexpr char16_t kDeAmpLearnMoreUrl[] =
+-    u"https://support.brave.com/hc/en-us/articles/8611298579981";
++    u"https://support.ibrowe.com/hc/en-us/articles/8611298579981";
+ constexpr char16_t kDebounceLearnMoreUrl[] =
+-    u"https://brave.com/privacy-updates/11-debouncing/";
++    u"https://ibrowe.com/privacy-updates/11-debouncing/";
+ constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"NFT-Discovery";
+ constexpr char16_t kBlockAllCookiesLearnMoreUrl[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Block-all-cookies-global-Shields-setting";
+ constexpr char16_t kLeoCustomModelsLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
+-    u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-Brave-Leo";
++    u"https://support.ibrowe.com/hc/en-us/articles/"
++    u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-iBrowe-Leo";
+ 
+ constexpr char16_t kTabOrganizationLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"35200007195917-How-to-use-Tab-Focus-Mode";
+ 
+ constexpr char16_t kLeoMemoryLearnMoreURL[] =
+     u"https://support.brave.app/hc/en-us/articles/38441287509261";
+ 
+ constexpr char16_t kLeoPrivacyPolicyURL[] =
+-    u"https://brave.com/privacy/browser/#brave-leo";
++    u"https://ibrowe.com/privacy/browser/#brave-leo";
+ 
+ constexpr char16_t kSurveyPanelistLearnMoreURL[] =
+-    u"https://support.brave.com/hc/en-us/articles/36550092449165";
++    u"https://support.ibrowe.com/hc/en-us/articles/36550092449165";
+ 
+ constexpr char16_t kExtensionsV2LearnMoreURL[] =
+-    u"https://brave.com/blog/brave-shields-manifest-v3/";
++    u"https://ibrowe.com/blog/brave-shields-manifest-v3/";
+ 
+ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+                            Profile* profile) {
+@@ -1079,11 +1079,15 @@ void BraveAddResources(content::WebUIDataSource* html_source,
+ void BraveAddAboutStrings(content::WebUIDataSource* html_source,
+                           Profile* profile) {
+   std::u16string license = l10n_util::GetStringFUTF16(
+-      IDS_BRAVE_VERSION_UI_LICENSE, kBraveLicenseUrl,
+-      chrome::kChromeUICreditsURL16, kBraveBuildInstructionsUrl,
+-      kBraveReleaseTagPrefix +
++          IDS_BRAVE_VERSION_UI_LICENSE,
++          kBraveLicenseUrl,                         // $1
++          chrome::kChromeUICreditsURL16,            // $2
++          kBraveBuildInstructionsUrl,               // $3
++          kBraveReleaseTagPrefix +
+           base::UTF8ToUTF16(
+-              version_info::GetBraveVersionWithoutChromiumMajorVersion()));
++                  version_info::GetBraveVersionWithoutChromiumMajorVersion()), // $4
++          u"https://github.com/brave/brave-core"         // $5 ✅
++  );
+   html_source->AddString("aboutProductLicense", license);
+ }
+ 

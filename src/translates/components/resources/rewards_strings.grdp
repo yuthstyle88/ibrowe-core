@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grit-part>
+  <message name="IDS_UTILITY_PROCESS_REWARDS_NAME" desc="The utility process running rewards">
+    Bat Rewards Service
+  </message>
+
   <!-- Rewards Reset -->
   <message name="IDS_BRAVE_UI_RESET" desc="">
     Reset
@@ -127,9 +131,6 @@
   </message>
   <message name="IDS_REWARDS_WIDGET_CONTINUE" desc="">
     Continue
-  </message>
-  <message name="IDS_REWARDS_WIDGET_EARNING_INFO_TEXT" desc="">
-    This reflects your estimated earnings range for iBrowe Ads this month.
   </message>
   <message name="IDS_REWARDS_WIDGET_HOW_DOES_IT_WORK" desc="">
     How does it work?
@@ -434,11 +435,17 @@
   <message name="IDS_REWARDS_TOS_UPDATE_TEXT" desc="">
     We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">$2</ph> iBrowe Rewards, which will disable the feature.
   </message>
+  <message name="IDS_REWARDS_TOS_UPDATE_NTP_TEXT" desc="">
+    We’ve updated our Terms of Service. To keep using iBrowe Rewards, please review and agree to the updated terms.
+  </message>
   <message name="IDS_REWARDS_TOS_UPDATE_LINK_TEXT" desc="">
     See <ph name="LINK_BEGIN">$1</ph>iBrowe Rewards Terms of Service<ph name="LINK_END">$2</ph>
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_BUTTON_LABEL" desc="">
     I agree
+  </message>
+  <message name="IDS_REWARDS_TOS_UPDATE_NTP_BUTTON_LABEL" desc="">
+    Review Terms
   </message>
 
   <!-- Tip panel -->
@@ -612,10 +619,10 @@
     Error
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_DEVICE_LIMIT_REACHED_TEXT" desc="">
-    You've reached the maximum device limit for this <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account.
+    You’ve connected the maximum number of iBrowe Rewards profiles to this <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_DEVICE_LIMIT_REACHED_TITLE" desc="">
-    Device limit reached
+    Limit reached on payout account
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_FLAGGED_WALLET_TEXT_1" desc="">
     Unfortunately, your iBrowe Rewards profile was flagged because our automated checks found some unexpected iBrowe Ads activity.
@@ -764,6 +771,9 @@
   </message>
   <message name="IDS_REWARDS_ADS_SETTINGS_TEXT" desc="">
     Control what kinds of iBrowe Ads you see, and how often. The more you see, the more you can earn.
+  </message>
+  <message name="IDS_REWARDS_ADS_VIEWED_TOOLTIP" desc="">
+    This shows the number of iBrowe Ads you've seen this month that qualify for earning BAT.
   </message>
   <message name="IDS_REWARDS_AD_TYPE_INLINE_CONTENT_LABEL" desc="">
     iBrowe News ads

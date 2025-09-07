@@ -1,8 +1,8 @@
 diff --git a/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc b/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
-index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d508bc50d3b 100644
+index 27952f1876cb476a1d5e84b61f9b16109fe8cbae..db88ffcc9ab290b76650e68d9cbf695d91fcde11 100644
 --- a/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
 +++ b/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
-@@ -37,95 +37,95 @@ constexpr std::string_view kBravePinsJson = R"brave_pins_json({
+@@ -37,88 +37,88 @@ constexpr std::string_view kBravePinsJson = R"brave_pins_json({
    ],
    "entries": [
      // Brave
@@ -35,8 +35,8 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
 -    { "name": "variations.brave.com", "pins": "brave"},
 +    { "name": "adblock-data.s3.ibrowe.com", "pins": "brave"},
 +    { "name": "ai-chat.bsg.ibrowe.com", "pins": "brave"},
-+    { "name": "ibrowe-core-ext.s3.ibrowe.com", "pins": "brave"},
-+    { "name": "ibrowe-today-cdn.ibrowe.com", "pins": "brave"},
++    { "name": "brave-core-ext.s3.ibrowe.com", "pins": "brave"},
++    { "name": "brave-today-cdn.ibrowe.com", "pins": "brave"},
 +    { "name": "clients4.ibrowe.com", "pins": "brave"},
 +    { "name": "componentupdater.ibrowe.com", "pins": "brave"},
 +    { "name": "crxdownload.ibrowe.com", "pins": "brave"},
@@ -54,31 +54,17 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
 +    { "name": "static.ibrowe.com", "pins": "brave"},
 +    { "name": "static1.ibrowe.com", "pins": "brave"},
 +    { "name": "sync-v2.ibrowe.com", "pins": "brave"},
-+    { "name": "sync-v2.browe.software", "pins": "brave"},
-+    { "name": "sync-v2.browesoftware.com", "pins": "brave"},
-+    { "name": "tor.browesoftware.com", "pins": "brave"},
++    { "name": "sync-v2.ibrowe.software", "pins": "brave"},
++    { "name": "sync-v2.ibrowesoftware.com", "pins": "brave"},
++    { "name": "tor.ibrowesoftware.com", "pins": "brave"},
 +    { "name": "translate.ibrowe.com", "pins": "brave"},
 +    { "name": "translate-static.ibrowe.com", "pins": "brave"},
 +    { "name": "variations.ibrowe.com", "pins": "brave"},
  
      // P2A/P3A
 -    { "name": "collector.bsg.brave.com", "pins": "brave"},
--    { "name": "p2a.brave.com", "pins": "brave"},
--    { "name": "p2a-json.brave.com", "pins": "brave"},
--    { "name": "p3a.brave.com", "pins": "brave"},
--    { "name": "p3a-creative.brave.com", "pins": "brave"},
--    { "name": "p3a-json.brave.com", "pins": "brave"},
--    { "name": "p3a.bravesoftware.com", "pins": "brave"},
--    { "name": "p3a-dev.bravesoftware.com", "pins": "brave"},
 -    { "name": "star-randsrv.bsg.brave.com", "pins": "brave"},
 +    { "name": "collector.bsg.ibrowe.com", "pins": "brave"},
-+    { "name": "p2a.ibrowe.com", "pins": "brave"},
-+    { "name": "p2a-json.ibrowe.com", "pins": "brave"},
-+    { "name": "p3a.ibrowe.com", "pins": "brave"},
-+    { "name": "p3a-creative.ibrowe.com", "pins": "brave"},
-+    { "name": "p3a-json.ibrowe.com", "pins": "brave"},
-+    { "name": "p3a.browesoftware.com", "pins": "brave"},
-+    { "name": "p3a-dev.browesoftware.com", "pins": "brave"},
 +    { "name": "star-randsrv.bsg.ibrowe.com", "pins": "brave"},
  
      // Creators
@@ -123,25 +109,25 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
 -    { "name": "static.ads.brave.com", "pins": "brave"},
 -    { "name": "static.ads.bravesoftware.com", "pins": "brave"},
 +    { "name": "anonymous.ads.ibrowe.com", "pins": "brave"},
-+    { "name": "anonymous.ads.browesoftware.com", "pins": "brave"},
++    { "name": "anonymous.ads.ibrowesoftware.com", "pins": "brave"},
 +    { "name": "api.rewards.ibrowe.com", "pins": "brave"},
-+    { "name": "api.rewards.browesoftware.com", "pins": "brave"},
-+    { "name": "api.rewards.browe.software", "pins": "brave"},
++    { "name": "api.rewards.ibrowesoftware.com", "pins": "brave"},
++    { "name": "api.rewards.ibrowe.software", "pins": "brave"},
 +    { "name": "geo.ads.ibrowe.com", "pins": "brave"},
-+    { "name": "geo.ads.browesoftware.com", "pins": "brave"},
++    { "name": "geo.ads.ibrowesoftware.com", "pins": "brave"},
 +    { "name": "grant.rewards.ibrowe.com", "pins": "brave"},
-+    { "name": "grant.rewards.browesoftware.com", "pins": "brave"},
-+    { "name": "grant.rewards.browe.software", "pins": "brave"},
++    { "name": "grant.rewards.ibrowesoftware.com", "pins": "brave"},
++    { "name": "grant.rewards.ibrowe.software", "pins": "brave"},
 +    { "name": "mywallet.ads.ibrowe.com", "pins": "brave"},
-+    { "name": "mywallet.ads.browesoftware.com", "pins": "brave"},
++    { "name": "mywallet.ads.ibrowesoftware.com", "pins": "brave"},
 +    { "name": "payment.rewards.ibrowe.com", "pins": "brave"},
-+    { "name": "payment.rewards.browesoftware.com", "pins": "brave"},
-+    { "name": "payment.rewards.browe.software", "pins": "brave"},
++    { "name": "payment.rewards.ibrowesoftware.com", "pins": "brave"},
++    { "name": "payment.rewards.ibrowe.software", "pins": "brave"},
 +    { "name": "rewards.ibrowe.com", "pins": "brave"},
 +    { "name": "search.anonymous.ibrowe.com", "pins": "brave"},
-+    { "name": "search.anonymous.browesoftware.com", "pins": "brave"},
++    { "name": "search.anonymous.ibrowesoftware.com", "pins": "brave"},
 +    { "name": "static.ads.ibrowe.com", "pins": "brave"},
-+    { "name": "static.ads.browesoftware.com", "pins": "brave"},
++    { "name": "static.ads.ibrowesoftware.com", "pins": "brave"},
  
      // Search
 -    { "name": "search.brave.com", "pins": "brave"},
@@ -168,23 +154,23 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
 -    { "name": "account.bravesoftware.com", "pins": "brave"},
 -    { "name": "account.brave.software", "pins": "brave"},
 +    { "name": "account.ibrowe.com", "pins": "brave"},
-+    { "name": "account.browesoftware.com", "pins": "brave"},
-+    { "name": "account.browe.software", "pins": "brave"},
++    { "name": "account.ibrowesoftware.com", "pins": "brave"},
++    { "name": "account.ibrowe.software", "pins": "brave"},
  
      // Test page using a CA outside of the pinset (expected to be blocked)
      { "name": "ssl-pinning.someblog.org", "pins" : "brave"}
-@@ -136,189 +136,189 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
+@@ -129,154 +129,154 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
      // Critical endpoints that should remain unpinned so that they
      // always work.
      {
 -      "name": "updates.bravesoftware.com",
-+      "name": "updates.browesoftware.com",
++      "name": "updates.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
      {
 -      "name": "updates-cdn.bravesoftware.com",
-+      "name": "updates-cdn.browesoftware.com",
++      "name": "updates-cdn.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -210,13 +196,13 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "brave-core-ext.s3.brave.com",
-+      "name": "ibrowe-core-ext.s3.ibrowe.com",
++      "name": "brave-core-ext.s3.ibrowe.com",
        "mode": "force-https",
        "policy": "custom"
      },
      {
 -      "name": "brave-today-cdn.brave.com",
-+      "name": "ibrowe-today-cdn.ibrowe.com",
++      "name": "brave-today-cdn.ibrowe.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -275,48 +261,6 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
        "policy": "custom"
      },
      {
--      "name": "p2a.brave.com",
-+      "name": "p2a.ibrowe.com",
-       "mode": "force-https",
-       "policy": "custom"
-     },
-     {
--      "name": "p2a-json.brave.com",
-+      "name": "p2a-json.ibrowe.com",
-       "mode": "force-https",
-       "policy": "custom"
-     },
-     {
--      "name": "p3a.brave.com",
-+      "name": "p3a.ibrowe.com",
-       "policy": "custom",
-       "mode": "force-https"
-     },
-     {
--      "name": "p3a-creative.brave.com",
-+      "name": "p3a-creative.ibrowe.com",
-       "policy": "custom",
-       "mode": "force-https"
-     },
-     {
--      "name": "p3a-json.brave.com",
-+      "name": "p3a-json.ibrowe.com",
-       "policy": "custom",
-       "mode": "force-https"
-     },
-     {
--      "name": "p3a.bravesoftware.com",
-+      "name": "p3a.browesoftware.com",
-       "policy": "custom",
-       "mode": "force-https"
-     },
-     {
--      "name": "p3a-dev.bravesoftware.com",
-+      "name": "p3a-dev.browesoftware.com",
-       "policy": "custom",
-       "mode": "force-https"
-     },
-     {
 -      "name": "pcdn.brave.com",
 +      "name": "pcdn.ibrowe.com",
        "mode": "force-https",
@@ -366,19 +310,19 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "sync-v2.brave.software",
-+      "name": "sync-v2.browe.software",
++      "name": "sync-v2.ibrowe.software",
        "policy": "custom",
        "mode": "force-https"
      },
      {
 -      "name": "sync-v2.bravesoftware.com",
-+      "name": "sync-v2.browesoftware.com",
++      "name": "sync-v2.ibrowesoftware.com",
        "policy": "custom",
        "mode": "force-https"
      },
      {
 -      "name": "tor.bravesoftware.com",
-+      "name": "tor.browesoftware.com",
++      "name": "tor.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -400,7 +344,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
        "mode": "force-https",
        "policy": "custom"
      },
-@@ -330,7 +330,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
+@@ -288,7 +288,7 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
        "policy": "custom"
      },
      {
@@ -409,7 +353,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
        "mode": "force-https",
        "policy": "custom"
      },
-@@ -340,200 +340,200 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
+@@ -298,200 +298,200 @@ constexpr std::string_view kBraveHstsJson = R"brave_hsts_json({
        "policy": "custom"
      },
      {
@@ -460,7 +404,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "anonymous.ads.bravesoftware.com",
-+      "name": "anonymous.ads.browesoftware.com",
++      "name": "anonymous.ads.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -472,13 +416,13 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "api.rewards.bravesoftware.com",
-+      "name": "api.rewards.browesoftware.com",
++      "name": "api.rewards.ibrowesoftware.com",
        "policy": "custom",
        "mode": "force-https"
      },
      {
 -      "name": "api.rewards.brave.software",
-+      "name": "api.rewards.browe.software",
++      "name": "api.rewards.ibrowe.software",
        "policy": "custom",
        "mode": "force-https"
      },
@@ -490,7 +434,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "geo.ads.bravesoftware.com",
-+      "name": "geo.ads.browesoftware.com",
++      "name": "geo.ads.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -502,13 +446,13 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "grant.rewards.bravesoftware.com",
-+      "name": "grant.rewards.browesoftware.com",
++      "name": "grant.rewards.ibrowesoftware.com",
        "policy": "custom",
        "mode": "force-https"
      },
      {
 -      "name": "grant.rewards.brave.software",
-+      "name": "grant.rewards.browe.software",
++      "name": "grant.rewards.ibrowe.software",
        "policy": "custom",
        "mode": "force-https"
      },
@@ -520,7 +464,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "mywallet.ads.bravesoftware.com",
-+      "name": "mywallet.ads.browesoftware.com",
++      "name": "mywallet.ads.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -532,13 +476,13 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "payment.rewards.bravesoftware.com",
-+      "name": "payment.rewards.browesoftware.com",
++      "name": "payment.rewards.ibrowesoftware.com",
        "policy": "custom",
        "mode": "force-https"
      },
      {
 -      "name": "payment.rewards.brave.software",
-+      "name": "payment.rewards.browe.software",
++      "name": "payment.rewards.ibrowe.software",
        "policy": "custom",
        "mode": "force-https"
      },
@@ -556,7 +500,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "search.anonymous.bravesoftware.com",
-+      "name": "search.anonymous.browesoftware.com",
++      "name": "search.anonymous.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -568,7 +512,7 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "static.ads.bravesoftware.com",
-+      "name": "static.ads.browesoftware.com",
++      "name": "static.ads.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
@@ -638,13 +582,13 @@ index 506ce34edc8140799bdfb1a60798969963d1370b..ea577c24ae6f1950a91f54057c8c6d50
      },
      {
 -      "name": "account.bravesoftware.com",
-+      "name": "account.browesoftware.com",
++      "name": "account.ibrowesoftware.com",
        "mode": "force-https",
        "policy": "custom"
      },
      {
 -      "name": "account.brave.software",
-+      "name": "account.browe.software",
++      "name": "account.ibrowe.software",
        "mode": "force-https",
        "policy": "custom"
      }

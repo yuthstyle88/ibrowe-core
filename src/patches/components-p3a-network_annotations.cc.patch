@@ -1,7 +1,25 @@
 diff --git a/components/p3a/network_annotations.cc b/components/p3a/network_annotations.cc
-index 4ff9a63cf77b7cfad7fee2f4e61b3f333241def8..118dc2a3768a09ae415e8423a636595a0efefdf8 100644
+index 4ff9a63cf77b7cfad7fee2f4e61b3f333241def8..10857261b9e6ca5c1433d016715c6b68e52b18f3 100644
 --- a/components/p3a/network_annotations.cc
 +++ b/components/p3a/network_annotations.cc
+@@ -30,7 +30,7 @@ net::NetworkTrafficAnnotationTag GetRandomnessRequestAnnotation() {
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can enable or disable it in brave://settings/privacy"
++        "Users can enable or disable it in ibrowe://settings/privacy"
+        policy_exception_justification:
+          "Not implemented."
+     })");
+@@ -55,7 +55,7 @@ net::NetworkTrafficAnnotationTag GetRandomnessServerInfoAnnotation() {
+     policy {
+       cookies_allowed: NO
+       setting:
+-        "Users can enable or disable it in brave://settings/privacy"
++        "Users can enable or disable it in ibrowe://settings/privacy"
+        policy_exception_justification:
+          "Not implemented."
+     })");
 @@ -67,7 +67,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation() {
          sender: "Brave Privacy-Preserving Product Analytics Uploader"
          description:
@@ -11,3 +29,12 @@ index 4ff9a63cf77b7cfad7fee2f4e61b3f333241def8..118dc2a3768a09ae415e8423a636595a
          trigger:
            "Reports are automatically generated on startup and at intervals "
            "while Brave is running."
+@@ -80,7 +80,7 @@ net::NetworkTrafficAnnotationTag GetP3AUploadAnnotation() {
+       policy {
+         cookies_allowed: NO
+         setting:
+-          "Users can enable or disable it in brave://settings/privacy"
++          "Users can enable or disable it in ibrowe://settings/privacy"
+           policy_exception_justification:
+             "Not implemented."
+       })");

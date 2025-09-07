@@ -1,0 +1,21 @@
+diff --git a/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_test_constants.h b/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_test_constants.h
+index db88e2e8e014600bb0e635052206e61b13e7b019..21d2cd8688071adc94bcde3859bea75b811dbbd3 100644
+--- a/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_test_constants.h
++++ b/components/brave_ads/content/browser/creatives/search_result_ad/creative_search_result_ad_test_constants.h
+@@ -25,14 +25,14 @@ inline constexpr char kCreativeAdCampaignId[] =
+     "c2096fe1-3eb7-4096-8fca-04bca89eab35";
+ inline constexpr char kCreativeAdAdvertiserId[] =
+     "c7bf8cbe-01bf-48a8-8282-57b5165c986a";
+-inline constexpr char kCreativeAdLandingPage[] = "https://brave.com";
++inline constexpr char kCreativeAdLandingPage[] = "https://ibrowe.com";
+ inline constexpr char kCreativeAdHeadlineText[] = "Headline text";
+ inline constexpr char kCreativeAdDescription[] = "Description";
+ inline constexpr double kCreativeAdRewardsValue = 0.5;
+ 
+ // Creative set conversion.
+ inline constexpr char kCreativeSetConversionUrlPattern[] =
+-    "https://brave.com/*";
++    "https://ibrowe.com/*";
+ inline constexpr char kCreativeSetConversionAdvertiserPublicKey[] =
+     "ofIveUY/bM7qlL9eIkAv/xbjDItFs1xRTTYKRZZsPHI=";
+ inline constexpr base::TimeDelta kCreativeSetConversionObservationWindow =

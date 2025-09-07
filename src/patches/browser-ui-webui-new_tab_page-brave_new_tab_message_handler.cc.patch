@@ -1,0 +1,42 @@
+diff --git a/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc b/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc
+index 1c5c3c1b6ed91ec984af8e6ae1d0bff8ad6df178..d33af32de4056ea067ec4df27ab6f3ad58cc1bf9 100644
+--- a/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc
++++ b/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc
+@@ -318,12 +318,12 @@ void BraveNewTabMessageHandler::OnJavascriptAllowed() {
+       kBraveTalkDisabledByPolicy,
+       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+                           base::Unretained(this)));
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  pref_change_registrar_.Add(
+-      kNewTabPageShowBraveVPN,
+-      base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+-                          base::Unretained(this)));
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   pref_change_registrar_.Add(
++//       kNewTabPageShowBraveVPN,
++//       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
++//                           base::Unretained(this)));
++// #endif
+   pref_change_registrar_.Add(
+       kNewTabPageHideAllWidgets,
+       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+@@ -428,12 +428,12 @@ void BraveNewTabMessageHandler::HandleSaveNewTabPagePref(
+     settings_key = kBrandedWallpaperNotificationDismissed;
+   } else if (settings_key_input == "hideAllWidgets") {
+     settings_key = kNewTabPageHideAllWidgets;
+-  } else if (settings_key_input == "showBraveTalk") {
+-    settings_key = kNewTabPageShowBraveTalk;
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  } else if (settings_key_input == "showBraveVPN") {
+-    settings_key = kNewTabPageShowBraveVPN;
+-#endif
++//   } else if (settings_key_input == "showBraveTalk") {
++//     settings_key = kNewTabPageShowBraveTalk;
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   } else if (settings_key_input == "showBraveVPN") {
++//     settings_key = kNewTabPageShowBraveVPN;
++// #endif
+   } else if (settings_key_input == "showSearchBox") {
+     settings_key = brave_search_conversion::prefs::kShowNTPSearchBox;
+   } else if (settings_key_input == "promptEnableSearchSuggestions") {

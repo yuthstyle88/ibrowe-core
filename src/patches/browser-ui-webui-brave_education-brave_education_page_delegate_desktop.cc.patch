@@ -1,0 +1,15 @@
+diff --git a/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc b/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc
+index f848aaf3c9b28d62a98c2e11cd53aea634507b36..77a793feaa116c35c7e976a3e755cb637cadf12d 100644
+--- a/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc
++++ b/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc
+@@ -45,8 +45,8 @@ void BraveEducationPageDelegateDesktop::OpenVPNPanel() {
+ }
+ 
+ void BraveEducationPageDelegateDesktop::OpenAIChat() {
+-  window_interface_->GetFeatures().side_panel_ui()->Show(
+-      SidePanelEntry::Key(SidePanelEntryId::kChatUI));
++  // window_interface_->GetFeatures().side_panel_ui()->Show(
++  //     SidePanelEntry::Key(SidePanelEntryId::kChatUI));
+ }
+ 
+ }  // namespace brave_education

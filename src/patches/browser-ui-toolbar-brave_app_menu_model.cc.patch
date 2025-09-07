@@ -1,0 +1,84 @@
+diff --git a/browser/ui/toolbar/brave_app_menu_model.cc b/browser/ui/toolbar/brave_app_menu_model.cc
+index 3a698218899378a12eee2a5839189461f7379219..f65a7bc9216d85c0e65ee466a92e2c057e5485db 100644
+--- a/browser/ui/toolbar/brave_app_menu_model.cc
++++ b/browser/ui/toolbar/brave_app_menu_model.cc
+@@ -104,12 +104,12 @@ void BraveAppMenuModel::Build() {
+   BuildMoreToolsSubMenu();
+   BuildHelpSubMenu();
+ 
+-  ApplyLeoIcons(this);
+-  ApplyLeoIcons(bookmark_sub_menu_model());
+-
+-  for (const auto& submenu : sub_menus()) {
+-    ApplyLeoIcons(submenu.get());
+-  }
++//  ApplyLeoIcons(this);
++//  ApplyLeoIcons(bookmark_sub_menu_model());
++//
++//  for (const auto& submenu : sub_menus()) {
++//    ApplyLeoIcons(submenu.get());
++//  }
+ 
+   // TODO(simonhong): apply Nala icons recursively.
+   // Can be null in tests.
+@@ -123,7 +123,7 @@ void BraveAppMenuModel::Build() {
+     auto* reading_list_submenu = bookmark_sub_menu_model()->GetSubmenuModelAt(
+         *reading_list_submenu_index);
+     CHECK(reading_list_submenu);
+-    ApplyLeoIcons(static_cast<ui::SimpleMenuModel*>(reading_list_submenu));
++//    ApplyLeoIcons(static_cast<ui::SimpleMenuModel*>(reading_list_submenu));
+   }
+ }
+ 
+@@ -145,11 +145,11 @@ void BraveAppMenuModel::BuildBraveProductsSection() {
+   // Needs to add separator as this section is brave specific section.
+   bool need_separator = false;
+ 
+-  if (IsCommandIdEnabled(IDC_TOGGLE_AI_CHAT)) {
+-    InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
+-                             IDC_TOGGLE_AI_CHAT, IDS_TOGGLE_AI_CHAT);
+-    need_separator = true;
+-  }
++//  if (IsCommandIdEnabled(IDC_TOGGLE_AI_CHAT)) {
++//    InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
++//                             IDC_TOGGLE_AI_CHAT, IDS_TOGGLE_AI_CHAT);
++//    need_separator = true;
++//  }
+ 
+   if (IsCommandIdEnabled(IDC_SHOW_BRAVE_WALLET)) {
+     InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
+@@ -157,20 +157,20 @@ void BraveAppMenuModel::BuildBraveProductsSection() {
+     need_separator = true;
+   }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (IsCommandIdEnabled(IDC_BRAVE_VPN_MENU)) {
+-    sub_menus().push_back(std::make_unique<BraveVPNMenuModel>(
+-        browser(), browser()->profile()->GetPrefs()));
+-    InsertSubMenuWithStringIdAt(GetNextIndexOfBraveProductsSection(),
+-                                IDC_BRAVE_VPN_MENU, IDS_BRAVE_VPN_MENU,
+-                                sub_menus().back().get());
+-    need_separator = true;
+-  } else if (IsCommandIdEnabled(IDC_SHOW_BRAVE_VPN_PANEL)) {
+-    InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
+-                             IDC_SHOW_BRAVE_VPN_PANEL, IDS_BRAVE_VPN_MENU);
+-    need_separator = true;
+-  }
+-#endif
++//#if BUILDFLAG(ENABLE_BRAVE_VPN)
++//  if (IsCommandIdEnabled(IDC_BRAVE_VPN_MENU)) {
++//    sub_menus().push_back(std::make_unique<BraveVPNMenuModel>(
++//        browser(), browser()->profile()->GetPrefs()));
++//    InsertSubMenuWithStringIdAt(GetNextIndexOfBraveProductsSection(),
++//                                IDC_BRAVE_VPN_MENU, IDS_BRAVE_VPN_MENU,
++//                                sub_menus().back().get());
++//    need_separator = true;
++//  } else if (IsCommandIdEnabled(IDC_SHOW_BRAVE_VPN_PANEL)) {
++//    InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
++//                             IDC_SHOW_BRAVE_VPN_PANEL, IDS_BRAVE_VPN_MENU);
++//    need_separator = true;
++//  }
++//#endif
+ 
+ #if defined(TOOLKIT_VIEWS)
+   if (sidebar::CanUseSidebar(browser())) {

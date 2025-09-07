@@ -5,6 +5,8 @@
     <output filename="grit/brave_generated_resources.h" type="rc_header">
       <emit emit_type='prepend'></emit>
     </output>
+    <output filename="grit/brave_generated_resources_webui_strings.h" type="webui_header" />
+    <output filename="grit/brave_generated_resources_webui_strings.ts" type="webui_ts" />
     <output filename="brave_generated_resources.pak" type="data_package" />
     <output filename="brave_generated_resources_af.pak" type="data_package" lang="af" />
     <output filename="brave_generated_resources_am.pak" type="data_package" lang="am" />
@@ -131,9 +133,11 @@
     <file path="resources/brave_generated_resources_iw.xtb" lang="he" />
     <file path="resources/brave_generated_resources_ja.xtb" lang="ja" />
     <file path="resources/brave_generated_resources_ka.xtb" lang="ka" />
+    <file path="resources/brave_generated_resources_kk.xtb" lang="kk" />
     <file path="resources/brave_generated_resources_km.xtb" lang="km" />
     <file path="resources/brave_generated_resources_kn.xtb" lang="kn" />
     <file path="resources/brave_generated_resources_ko.xtb" lang="ko" />
+    <file path="resources/brave_generated_resources_lo.xtb" lang="lo" />
     <file path="resources/brave_generated_resources_lt.xtb" lang="lt" />
     <file path="resources/brave_generated_resources_lv.xtb" lang="lv" />
     <file path="resources/brave_generated_resources_mk.xtb" lang="mk" />
@@ -239,14 +243,6 @@
       </message>
       <message name="IDS_OPEN_MORE_OTHER_DEVICES_SESSIONS" desc="The history sub-menu item to show sessions from other devices">
         More…
-      </message>
-
-      <!-- Private Profile Menu bubble. -->
-      <message name="IDS_GUEST_PROFILE_MENU_CLOSE_BUTTON" desc="The text of the button offering to close all guest windows. The number in ICU syntax represents the number of open guest windows, but it is not used in the English text and can be used to choose singular/plural in translation to other languages, if needed.[ICU Syntax]">
-        {0, plural,
-          =1 {Close Guest}
-          other {Close Guest}
-        }
       </message>
 
       <!-- Widevine -->
@@ -706,9 +702,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
       </if>
 
       <!-- Brave Ads -->
-      <message name="IDS_UTILITY_PROCESS_REWARDS_NAME" desc="The utility process running rewards">
-        Bat Rewards Service
-      </message>
       <message name="IDS_BRAVE_ADS_NOTIFICATION_AD_CLOSE_BUTTON" desc="Text to be spoken for the notification ad close button">
         Close
       </message>
@@ -914,11 +907,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
       <message name="IDS_BRAVE_WEB3_DOMAINS_SETTINGS_SECTION" desc="Open Web3 Domains settings section">
         Web3 Domains
       </message>
-      <!-- Brave Wallet -->
-      <message name="IDS_UTILITY_PROCESS_WALLET_UTILS_NAME" desc="The utility process running wallet utils">
-        iBrowe Wallet Utility Service
-      </message>
-
       <!-- Brave Wayback Machine -->
       <message name="IDS_BRAVE_WAYBACK_MACHINE_BUBBLE_SORRY_HEADER_TEXT" desc="The label for sorry message when page is not available on bubble">
         Sorry, that page is missing.
@@ -941,9 +929,8 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
 
       <!-- Brave's copyright statement -->
       <message name="IDS_BRAVE_VERSION_UI_LICENSE" desc="The label below the copyright message, containing the URLs.">
-        iBrowe is built on <ph name="BEGIN_LINK_BRAVE">&lt;a target="_blank" href="$5"&gt;</ph>Brave Core<ph name="END_LINK_BRAVE">&lt;/a&gt;</ph> and is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL), the same license used by Brave.
-        It also includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
-        You can read <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>instructions on how to download and build this browser<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph>, and the exact <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>source code used to create this copy<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.
+        iBrowe is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) and includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
+        You can read <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>instructions on how to download and build for yourself<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>source code used to create this copy<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.
       </message>
 
       <!-- Brave's tab context menu -->
@@ -972,6 +959,12 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         <message name="IDS_TAB_CXMENU_CLOSE_DUPLICATE_TABS" desc="The label of the 'Close duplicate tabs' tab context menu item">
           Close duplicate tabs
         </message>
+        <message name="IDS_CXMENU_OPEN_IN_CONTAINER" desc="The label of the 'Open in Container' context menu item">
+          Open in container
+        </message>
+        <message name="IDS_CXMENU_OPEN_CONTAINERS_SETTINGS" desc="The label of the context menu item for opening the Containers settings page.">
+          Manage containers
+        </message>
       </if>
       <if expr="use_titlecase">
         <message name="IDS_TAB_CXMENU_BOOKMARK_ALL_TABS" desc="In Title Case: The label of the tab context menu item for creating a bookmark folder containing an entry for each open tab.">
@@ -997,6 +990,12 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         </message>
         <message name="IDS_TAB_CXMENU_CLOSE_DUPLICATE_TABS" desc="The label of the 'Close duplicate tabs' tab context menu item">
           Close Duplicate Tabs
+        </message>
+        <message name="IDS_CXMENU_OPEN_IN_CONTAINER" desc="The label of the 'Open in Container' context menu item">
+          Open in Container
+        </message>
+        <message name="IDS_CXMENU_OPEN_CONTAINERS_SETTINGS" desc="The label of the tab context menu item for opening the Containers settings page.">
+          Manage Containers
         </message>
       </if>
 
@@ -1463,6 +1462,17 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
       <!--Customize Chrome Panel -->
       <message name="IDS_BRAVE_CUSTOMIZE_MENU_TOOLBAR_LABEL" desc="The label for the option to customize toolbar icons in the customization menu on the New Tab Page. This is a button which opens a panel for customizing toolbar icons when clicked.">
         Customize toolbar
+      </message>
+      <message name="IDS_BRAVE_NTP_CUSTOMIZE_APPEARANCE_LABEL" desc="The label for header of the customize appearance section in customize chrome side panel">
+        Theme and colors
+      </message>
+
+      <!--Password Manager -->
+      <message name="IDS_BRAVE_PASSWORD_MANAGER_UI_EMPTY_STATE_SIGNEDOUT_USERS" desc="A label shown if there are no saved passwords prompting user to import them.">
+        Saved passwords will appear here. To import passwords to <ph name="BRAND">$1<ex>iBrowe Password Manager</ex></ph> on this device, <ph name="BEGIN_LINK">&lt;a href="#" &gt;</ph> select a CSV file<ph name="END_LINK">&lt;/a&gt;</ph>
+      </message>
+      <message name="IDS_BRAVE_PASSWORD_MANAGER_UI_IMPORT_DESCRIPTION_SIGNEDOUT_USERS" desc="The description for the password import banner in Password Manager settings.">
+        To import passwords to <ph name="BRAND">$1<ex>iBrowe Password Manager</ex></ph> on this device, select a CSV file
       </message>
       <!--Add new items to the appropriate sections above -->
     </messages>

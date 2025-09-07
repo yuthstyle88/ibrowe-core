@@ -26,8 +26,7 @@
     Get started
   </message>
 
-  <!-- <Brave Account> -->
-  <!-- Row: -->
+  <!-- <Brave Account Row> -->
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ROW_TITLE" translateable="false" desc="Title of the iBrowe Account row in the Get Started section">
     Sign in or create a iBrowe account
   </message>
@@ -40,113 +39,7 @@
   <message name="IDS_SETTINGS_BRAVE_ACCOUNT_MANAGE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to their iBrowe Account settings">
     Manage account
   </message>
-
-  <!-- 'Entry' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can choose to create a iBrowe Account, or sign in">
-    Get started with your iBrowe account
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can choose to create a iBrowe Account, or sign in">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ENTRY_DIALOG_CREATE_BRAVE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Create' dialog">
-    Create a iBrowe account
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ALREADY_HAVE_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Sign In' dialog">
-    Already have an account? Sign in
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SELF_CUSTODY_DESCRIPTION" translateable="false" desc="Description of the self-custody option which we provide for advanced users">
-    For advanced users, we also support self-custody of your iBrowe account keys for an extra layer of privacy. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SELF_CUSTODY_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the self-custody settings">
-    Use self-custody
-  </message>
-
-  <!-- 'Create' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can create their iBrowe Account">
-    Create your account
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can create their iBrowe Account">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_ERROR_MESSAGE" translateable="false" desc="Error message for when the user tries to use a @ibrowealias.com email address when creating their iBrowe Account">
-    You can't use @ibrowealias.com addresses for creating iBrowe accounts. Please try again with a different domain.
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Create a password' input field">
-    Create a password
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_STRENGTH_METER_WEAK" translateable="false" desc="The password strength meter's 'weak' state">
-    Weak
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_STRENGTH_METER_MEDIUM" translateable="false" desc="The password strength meter's 'medium' state">
-    Medium
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_STRENGTH_METER_STRONG" translateable="false" desc="The password strength meter's 'strong' state">
-    Strong
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Confirm password' input field">
-    Confirm password
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Confirm password' input field">
-    Confirm your password
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_ERROR_MESSAGE" translateable="false" desc="Message for a failed password confirmation">
-    Passwords don't match
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONFIRM_PASSWORD_INPUT_SUCCESS_MESSAGE" translateable="false" desc="Message for a successful password confirmation">
-    Passwords match
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CONSENT_CHECKBOX_LABEL" translateable="false" desc="Label for the checkbox where the user consents to the Terms of service and Privacy agreement">
-    I have read and accept the <ph name="BEGIN_LINK_1">&lt;a target="_blank" href="$1"&gt;</ph>Terms of service<ph name="END_LINK_1">&lt;/a&gt;</ph> and <ph name="BEGIN_LINK_2">&lt;a target="_blank" href="$2"&gt;</ph>Privacy agreement<ph name="END_LINK_2">&lt;/a&gt;</ph>.
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CREATE_ACCOUNT_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Create' dialog">
-    Create account
-  </message>
-
-  <!-- 'Sign In' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can sign in to their iBrowe Account">
-    Sign in to your account
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can sign in to their iBrowe Account">
-    A iBrowe account will allow you to easily sync your settings, passwords, bookmarks, etc. across all your devices and access our full range of premium products.
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_LABEL" translateable="false" desc="Label for the 'Password' input field">
-    Password
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user to the 'Forgot Password' dialog">
-    Forgot your password?
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_SIGN_IN_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Sign In' dialog">
-    Sign in
-  </message>
-
-  <!-- 'Forgot Password' dialog: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_TITLE" translateable="false" desc="Title for the dialog where the user can reset their iBrowe Account password">
-    Forgot your password?
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_FORGOT_PASSWORD_DIALOG_DESCRIPTION" translateable="false" desc="Description for the dialog where the user can reset their iBrowe Account password">
-    Confirm your iBrowe account email and we'll email you a link to reset your password. The link will only be valid for 30 minutes.
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_ALERT_MESSAGE" translateable="false" desc="Alert message explaining that if the user resets their password without having an active login, all their data will be deleted">
-    [Explain that if they reset their password without having an active login, all the user data will be deleted]
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_CANCEL_BUTTON_LABEL" translateable="false" desc="Label for the button that takes the user back to the 'Sign In' dialog">
-    Cancel
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_RESET_PASSWORD_BUTTON_LABEL" translateable="false" desc="Label for the button that submits the 'Forgot Password' dialog">
-    Reset your password
-  </message>
-
-  <!-- Common: -->
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_LABEL" translateable="false" desc="Label for the 'Email address' input field">
-    Email address
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_EMAIL_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Email address' input field">
-    Enter your email address
-  </message>
-  <message name="IDS_SETTINGS_BRAVE_ACCOUNT_PASSWORD_INPUT_PLACEHOLDER" translateable="false" desc="Placeholder for the 'Create a password'/'Password' input fields">
-    Enter your password
-  </message>
-  <!-- </Brave Account> -->
+  <!-- </Brave Account Row> -->
 
   <!-- Settings / Get started / Profile name and icon -->
   <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
@@ -216,8 +109,49 @@
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_CONTENT_SECTION" desc="The label for section containing settings related to content">
     Content
   </message>
+  <if expr="enable_containers">
+    <message name="IDS_SETTINGS_CONTAINERS_SECTION_LABEL" desc="The label for section containing settings related to containers" formatter_data="webui=Containers">
+      Containers
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_SECTION_DESCRIPTION" desc="The description for section containing settings related to containers" formatter_data="webui=Containers">
+      Organize your browsing with containers. <ph name="BEGIN_LINK">&lt;a target="_blank" href="#"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_ADD_CONTAINER_LABEL" desc="The label for dialog title for adding a container" formatter_data="webui=Containers">
+      Add new container
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_EDIT_CONTAINER_LABEL" desc="The label for dialog title for editing a container" formatter_data="webui=Containers">
+      Edit container
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_DELETE_CONTAINER_LABEL" desc="The label for dialog title for deleting a container" formatter_data="webui=Containers">
+      Delete container
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_DELETE_CONTAINER_DESCRIPTION" desc="The description for dialog title for deleting a container" formatter_data="webui=Containers">
+      Are you sure you want to delete container <ph name="CONTAINER_NAME">"$1"<ex>"Work"</ex></ph>? This will remove all the data associated with it.
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_CONTAINER_NAME_LABEL" desc="The label for container name input field" formatter_data="webui=Containers">
+      Name
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_CONTAINER_ICON_LABEL" desc="The label for container section to select icon" formatter_data="webui=Containers">
+      Icon
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_CONTAINER_COLOR_LABEL" desc="The label for container section to select color" formatter_data="webui=Containers">
+      Color
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_CONTAINER_NAME_PLACEHOLDER" desc="The placeholder for container name input field" formatter_data="webui=Containers">
+      Give your container a name like Work or Personal
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_ERROR_TEMPLATE" desc="The error message template for container operations" formatter_data="webui=Containers">
+      Error: <ph name="ERROR_MESSAGE">$1<ex>Container is not found</ex></ph>
+    </message>
+    <message name="IDS_SETTINGS_CONTAINERS_ERROR_NOT_FOUND" desc="The error if container is not found" formatter_data="webui=Containers">
+      Container is not found
+    </message>
+  </if>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_TABS_SHOW_VERTICAL_TABS" desc="The label for showing tabs vertically">
     Use vertical tabs
+  </message>
+  <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_TABS_USE_TREE_TABS" desc="The label for using tree tabs" formatter_data="webui=BraveSettings">
+    Use tree tabs
   </message>
   <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_TABS_SHOW_TITLE_BAR" desc="The label for showing window title when vertical tab strip is enabled.">
     Show title bar
@@ -312,10 +246,19 @@
   <message name="IDS_SETTINGS_TABS_SEARCH_SHOW" desc="The button for searching tabs on the left of tab strip region.">
     Show tab search button
   </message>
-  <message name="IDS_SETTINGS_SPEEDREADER_LABEL" desc="The label to activate Speedreader">
+  <message name="IDS_SETTINGS_SPEEDREADER_SETTING_LABEL" desc="The main label for the Speedreader settings section">
     Speedreader
   </message>
-  <message name="IDS_SETTINGS_SPEEDREADER_SUB_LABEL" desc="The sub-label describing Speedreader">
+  <message name="IDS_SETTINGS_SPEEDREADER_FEATURE_LABEL" desc="The label for the Speedreader feature toggle">
+    Speedreader
+  </message>
+  <message name="IDS_SETTINGS_SPEEDREADER_FEATURE_SUB_LABEL" desc="The sub-label describing the Speedreader feature">
+    Enable the Speedreader feature
+  </message>
+  <message name="IDS_SETTINGS_SPEEDREADER_ENABLED_FOR_ALL_SITES_LABEL" desc="The label for enabling Speedreader on all sites">
+    Automatically use Speedreader when possible
+  </message>
+  <message name="IDS_SETTINGS_SPEEDREADER_ENABLED_FOR_ALL_SITES_SUB_LABEL" desc="The sub-label for enabling Speedreader on all sites">
     Articles automatically load in reader mode, saving you time
   </message>
   <message name="IDS_SETTINGS_DISABLE_CLICKABLE_MUTE_INDICATORS" desc="The text for the settings option for disabling clickable tab mute indicators">
@@ -606,7 +549,7 @@
   </message>
   <message name="IDS_BRAVE_ADBLOCK_ADD_CUSTOM_SCRIPTLET_DIALOG_TITLE" desc="A title for the add custom scriptlet dialog">
     Add new scriptlet
-  </message>  
+  </message>
   <message name="IDS_BRAVE_ADBLOCK_EDIT_CUSTOM_SCRIPTLET_DIALOG_TITLE" desc="A title for the edit custom scriptlet dialog">
     Edit scriptlet
   </message>
@@ -682,7 +625,7 @@
     Block cookies
   </message>
   <message name="IDS_SETTINGS_COOKIE_CONTROLLED_BY_SHIELDS_TOOLTIP_TEXT" desc="Text for the tooltip explaining cookies generated by Shields settings.">
-    This setting is controlled by iBrowe Shields. 
+    This setting is controlled by iBrowe Shields.
   </message>
   <message name="IDS_SETTINGS_COOKIE_CONTROLLED_BY_GOOGLE_SIGN_IN_TOOLTIP_TEXT" desc="Text for the tooltip explaining cookies generated by Google Sign-in settings.">
     This setting is controlled by Google Sign-in.
@@ -863,24 +806,34 @@
     Block sites from autoplaying videos
   </message>
   <!-- Ethereum -->
-  <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM" desc="Label for ethereum site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM" desc="Title for ethereum site settings.">
     Ethereum
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM_ASK" desc="Label for ethereum site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM_ASK" desc="Label for ethereum site settings as group.">
     Ask when a site wants to access the Ethereum provider API
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM_BLOCK" desc="Label for ethereum site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_ETHEREUM_BLOCK" desc="Label for ethereum site settings block group.">
     Block sites from accessing the Ethereum provider API
   </message>
   <!-- Solana -->
-  <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA" desc="Label for solana site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA" desc="Title for solana site settings.">
     Solana
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA_ASK" desc="Label for solana site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA_ASK" desc="Label for solana site settings ask group.">
     Ask when a site wants to access the Solana provider API
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA_BLOCK" desc="Label for solana site settings.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_SOLANA_BLOCK" desc="Label for solana site settings block group.">
     Block sites from accessing the Solana provider API
+  </message>
+  <!-- Cardano -->
+  <message name="IDS_SETTINGS_SITE_SETTINGS_CARDANO" desc="Title for cardano site settings.">
+    Cardano
+  </message>
+  <message name="IDS_SETTINGS_SITE_SETTINGS_CARDANO_ASK" desc="Label for cardano site settings ask group.">
+    Ask when a site wants to access the Cardano provider API
+  </message>
+  <message name="IDS_SETTINGS_SITE_SETTINGS_CARDANO_BLOCK" desc="Label for cardano site settings block group.">
+    Block sites from accessing the Cardano provider API
   </message>
   <!-- Google Sign-In setting -->
   <message name="IDS_SETTINGS_SITE_SETTINGS_GOOGLE_SIGN_IN" desc="Label for G sign-in site settings.">
@@ -1326,6 +1279,9 @@
   <message name="IDS_SETTINGS_DEFAULT_SOLANA_WALLET_DESC" desc="The default cryptocurrency wallet for the Solana blockchain">
     Default Solana wallet
   </message>
+  <message name="IDS_SETTINGS_DEFAULT_CARDANO_WALLET_DESC" desc="The default cryptocurrency wallet for the Cardano blockchain">
+    Default Cardano wallet
+  </message>
   <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_BRAVE" desc="Select control value for which web3 provider to use">
     iBrowe Wallet
   </message>
@@ -1570,14 +1526,11 @@
   <message name="IDS_SETTINGS_LEO_ASSISTANT_HISTORY_PREFERENCE_CONFIRM" desc="The confirmation prompt about disabling the AI Chat history preference">
     Disabling conversation storage will permanently erase all previously stored conversations. This action can't be undone.
   </message>
-  <message name="IDS_SETTINGS_LEO_ASSISTANT_RESET_AND_CLEAR_DATA_LABEL" desc="The button label for deleteing all AI Chat conversations">
-    Delete all Leo AI conversation data
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_RESET_AND_CLEAR_DATA_LABEL" desc="The button label for resetting AI Chat data">
+    Clear Leo data
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_RESET_AND_CLEAR_DATA_CONFIRMATION_LABEL" desc="The confirmation window message for reset option">
-    Resetting Leo AI will require you to opt-in to use iBrowe
-Leo AI in the future and will also clear your chat history. Clearing your
-chat history will delete all your previous conversations with iBrowe
-Leo AI. This action can't be undone.
+    Resetting Leo AI will require you to opt-in to use iBrowe Leo AI in the future and will also clear your chat history, customizations, and memories. Clearing your chat history will delete all your previous conversations with iBrowe Leo AI. This action can't be undone.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_AUTOCOMPLETE_LINK" desc="A label for a link to settings page to adjust autocomplete suggestion based on Leo">
     Adjust autocomplete suggestions
@@ -1599,6 +1552,12 @@ Leo AI. This action can't be undone.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_MODEL_SELECTION_LABEL" desc="Label for selecting default model">
     Default model for new conversations
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_PERSONALIZATION_LABEL" desc="Label for the personalization section">
+    Personalization
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_LINK_LABEL" desc="Label for a link to Leo customization page">
+    Customize Leo's responses and memories
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_MANAGE_URL" desc="Label for managing accounts url">
     Manage premium subscription
@@ -1704,6 +1663,93 @@ Leo AI. This action can't be undone.
   </message>
   <message name="IDS_SETTINGS_LEO_ASSISTANT_TOKENS_COUNT" desc="A label for the (estimated) number of tokens in the system prompt">
     ≈<ph name="TOKENS_COUNT">$1<ex>175</ex></ph> tokens
+  </message>
+   <!-- Leo Customization -->
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_PAGE_TITLE" desc="The title for Leo Assistant customization page">
+    Customize Leo
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_TITLE" desc="The title for Leo Assistant customization section">
+    About you
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_DESCRIPTION" desc="The description for Leo Assistant customization section">
+    Tell Leo about yourself to get more personalized answers. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_ENABLED_LABEL" desc="The label for enabling Leo Assistant customization">
+    Enable Leo Customization
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_USER_MEMORY_ENABLED_LABEL" desc="The label for enabling user memory in Leo Assistant">
+    Enable User Memory
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_NAME_LABEL" desc="Label for the input where the user specifies what Leo should call them">
+    What should Leo call you?
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_NAME_PLACEHOLDER" desc="Placeholder for the input where the user specifies what Leo should call them">
+    Enter your preferred name for Leo to call you by
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_JOB_LABEL" desc="Label for the input where the user describes what they do">
+    What do you do?
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_JOB_PLACEHOLDER" desc="Placeholder for the input where the user describes what they do">
+    Tell Leo a little bit about what you do
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_TONE_LABEL" desc="Label for the input where the user describes how Leo should answer">
+    How should Leo answer your questions?
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_TONE_PLACEHOLDER" desc="Placeholder for the input where the user describes how Leo should answer">
+    Describe the tone and traits you would like Leo to use when answering
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_OTHER_LABEL" desc="Label for the input where the user can add anything else Leo should know">
+    Anything else Leo should know about you?
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_OTHER_PLACEHOLDER" desc="Placeholder for the input where the user can add anything else Leo should know">
+    Let Leo know about any preferences you want it to keep in mind when answering
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_SAVE_BUTTON" desc="Label for the save changes button in Leo customization">
+    Save changes
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CUSTOMIZATION_CHANGES_SAVED" desc="Label for the save changes button in Leo customization when the changes are saved">
+    Changes saved
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_INPUT_LENGTH_ERROR" desc="General error message shown when any input exceeds the maximum length">
+    Input is too long
+  </message>
+
+  <!-- Leo Assistant Memory Section -->
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_YOUR_MEMORIES_TITLE" desc="The title for Leo Assistant memory section">
+    Memories
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_YOUR_MEMORIES_DESC" desc="The description for Leo Assistant memory section">
+    All the things that Leo learned about you and won't forget about. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_MEMORY_LIST_EMPTY_TITLE" desc="The title shown when the memory list is empty">
+    No memories created yet
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_MEMORY_LIST_EMPTY_DESCRIPTION" desc="The description shown when the memory list is empty">
+    Add a memory to help Leo get to know you better.
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_ADD_NEW_MEMORY_BUTTON_LABEL" desc="The label for the button to add a new memory">
+    Add new memory
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_EDIT_MEMORY_DIALOG_TITLE" desc="The title for the edit memory dialog">
+    Edit this memory
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_CREATE_MEMORY_DIALOG_TITLE" desc="The title for the create new memory dialog">
+    Create a new memory
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_MEMORY_INPUT_PLACEHOLDER" desc="The placeholder text for the memory input field">
+    What do you want Leo to remember?
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_DELETE_MEMORY_CONFIRMATION_TITLE" desc="The title for delete memory dialog">
+    Delete this memory
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_DELETE_MEMORY_CONFIRMATION" desc="The confirmation message for deleting a memory">
+    Are you sure you want to delete this memory? This action cannot be undone.
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_DELETE_ALL_MEMORIES_CONFIRMATION_TITLE" desc="The title for delete all memories dialog and the label for delete all memories action button">
+    Delete all memories
+  </message>
+  <message name="IDS_SETTINGS_LEO_ASSISTANT_DELETE_ALL_MEMORIES_CONFIRMATION" desc="The confirmation message for deleting all memories">
+    Are you sure you want to delete all memories? This action cannot be undone.
   </message>
 
   <!-- Settings / Survey Panelist -->

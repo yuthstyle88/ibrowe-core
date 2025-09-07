@@ -115,9 +115,11 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
     <file lang="iw" path="translations/android_brave_strings_iw.xtb" />
     <file lang="ja" path="translations/android_brave_strings_ja.xtb" />
     <file lang="ka" path="translations/android_brave_strings_ka.xtb" />
+    <file lang="kk" path="translations/android_brave_strings_kk.xtb" />
     <file lang="km" path="translations/android_brave_strings_km.xtb" />
     <file lang="kn" path="translations/android_brave_strings_kn.xtb" />
     <file lang="ko" path="translations/android_brave_strings_ko.xtb" />
+    <file lang="lo" path="translations/android_brave_strings_lo.xtb" />
     <file lang="lt" path="translations/android_brave_strings_lt.xtb" />
     <file lang="lv" path="translations/android_brave_strings_lv.xtb" />
     <file lang="mk" path="translations/android_brave_strings_mk.xtb" />
@@ -1443,10 +1445,10 @@ Are you sure you want to do this?
         Show Background Images
       </message>
       <message name="IDS_SHOW_SPONSORED_IMAGES" desc ="Title of show sponsored images option.">
-        Show Sponsored Images
+        Show New Tab Page Ads
       </message>
-      <message name="IDS_SPONSORED_IMAGES_LEARN_MORE" desc="Title of learn more about Sponsored images.">
-        Learn more about Sponsored images
+      <message name="IDS_SPONSORED_IMAGES_LEARN_MORE" desc="Title of learn more about new tab page ads.">
+        Learn more about new tab page ads
       </message>
       <message name="IDS_WIDGETS" desc ="Categary of Widget option.">
         Widgets
@@ -1681,6 +1683,12 @@ Are you sure you want to do this?
       </message>
       <message name="IDS_THANK_YOU_TEXT" desc="Text for thank you UI for shields.">
         Thanks for letting iBrowe's developers know that there's something wrong with this site. We'll do our best to fix it!
+      </message>
+      <message name="IDS_ISSUE_CATEGORY_SPINNER_TEXT" desc="Label for a dropdown containing categories of issues on a webpage">
+        What's the main issue you're seeing?
+      </message>
+      <message name="IDS_ISSUE_CATEGORY_PLACEHOLDER" desc="Placeholder text that instructs the user to select one of the following categories of issues on a webpage">
+        Select one option
       </message>
       <message name="IDS_ADVANCED_CONTROLS" desc="Title for toggle section.">
         Advanced controls
@@ -2411,6 +2419,9 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_SERVER" desc="iBrowe VPN settings section title">
       Server
     </message>
+    <message name="IDS_CHANGE_LOCATION" desc="iBrowe VPN settings section text">
+      Location
+    </message>
     <message name="IDS_RESET_CONFIGURATION" desc="iBrowe VPN settings section text">
       Reset Configuration
     </message>
@@ -2599,6 +2610,9 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_EDIT" desc="iBrowe wallet accounts text">
       Edit
+    </message>
+    <message name="IDS_WALLET_ACCOUNTS_UPDATE" desc="iBrowe wallet accounts update text">
+      Update
     </message>
     <message name="IDS_ACCOUNT_UPDATE_FAILED" desc="iBrowe Wallet account update error text">
       Account update failed.
@@ -4051,6 +4065,126 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_BRAVE_HOMEPAGE_MOBILE_BOOKMARKS_TEXT" desc="Text for `Mobile bookmarks` setting in `Homepage` settings">
       Mobile bookmarks
+    </message>
+    <!-- Password Manager backport -->
+    <message name="IDS_PASSWORD_SETTINGS_SAVE_PASSWORDS" desc="Title for the checkbox toggling whether passwords are saved or not. [CHAR_LIMIT=32]">
+      Save passwords
+    </message>
+    <message name="IDS_PASSWORDS_AUTO_SIGNIN_TITLE" desc="Title for checkbox to enable automatically signing the user in to websites">
+      Auto Sign-in
+    </message>
+    <message name="IDS_PASSWORDS_AUTO_SIGNIN_DESCRIPTION" desc="Text under 'Auto sign-in' checkbox">
+      Automatically sign in to websites using stored credentials. When the feature is off, you’ll be asked for verification every time before signing in to a website.
+    </message>
+    <message name="IDS_SAVED_PASSWORDS_NONE_TEXT" desc="Text when there are no saved passwords/exceptions.">
+      Saved passwords will appear here.
+    </message>
+    <message name="IDS_PASSWORD_NO_RESULT" desc="Text when a password search returned no results.">
+      Can’t find that password. Check your spelling and try again.
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_EXPORT_ACTION_TITLE" desc="The title of a menu item to trigger exporting passwords from the password settings.">
+      Export passwords…
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_EXPORT_ACTION_DESCRIPTION" desc="The description of a menu item to trigger exporting passwords from the password settings.">
+      Export passwords stored with iBrowe
+    </message>
+    <message name="IDS_SETTINGS_PASSWORDS_PREPARING_EXPORT" desc="Text shown to the user above a progress bar, informing the user that passwords are being prepared for export.">
+      Preparing passwords…
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_EXPORT_LEARN_GOOGLE_DRIVE" desc="The label of a button in an error dialog after exporting passwords from the settings failed. The button takes the user to a help article about using Google Drive.">
+      Learn how to use Google Drive
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_EXPORT_NO_APP" desc="The explanation of the error when exporting passwords fails because the user has no Android app installed which could consume the exported data. The description is shown in the body of an alert dialog.">
+      Your device doesn’t have an app to store the passwords file.
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_EXPORT_ERROR_DETAILS" desc="A short prefix to introduce a technical error message passed to the user from Android after exporting passwords through a temporary file fails. Both the prefix and the error message are shown in the body of an alert dialog.">
+      Details: <ph name="ERROR_DESCRIPTION">%1$s<ex>IOException: No space left on device</ex></ph>
+    </message>
+    <message name="IDS_LOCKSCREEN_DESCRIPTION_EXPORT" desc="When a user attempts to export saved passwords in iBrowe's settings, iBrowe launches a lock screen to verify the user's identity and displays the following explanation.">
+      Unlock to export your passwords
+    </message>
+    <message name="IDS_HELP_CONTEXT_PASSWORDS" desc="When a user attempts to export saved passwords in iBrowe's settings, iBrowe launches a lock screen to verify the user's identity and displays the following explanation.">
+      passwords
+    </message>
+    <message name="IDS_SECTION_SAVED_PASSWORDS_EXCEPTIONS" desc="Header for the list of websites for which user selected to never save passwords. [CHAR_LIMIT=32]">
+      Never saved
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_COPY_STORED_USERNAME" desc="Content description for the button that copies the stored username.">
+      Copy username
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_COPY_STORED_PASSWORD" desc="Content description for the button that copies the stored password.">
+      Copy password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_SHOW_STORED_PASSWORD" desc="Content description for the button that allows users to view the stored password upon reauthentication.">
+      Show password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_DELETE_STORED_PASSWORD_ACTION_TITLE" desc="Title for button on action bar that deletes the stored password.">
+      Delete password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_EDIT_STORED_PASSWORD_ACTION_TITLE" desc="Title for button on action bar that edits the stored password.">
+      Edit password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_HIDE_STORED_PASSWORD" desc="A tooltip on a button that hides the saved password that is being shown.">
+      Hide password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_DELETE_STORED_PASSWORD" desc="Content description for the button that allows users to delete the stored password.">
+      Delete stored password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_USERNAME_COPIED_INTO_CLIPBOARD" desc="Text that announces to the user that the username of a saved account has been copied into clipboard.">
+      Username copied
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_PASSWORD_COPIED_INTO_CLIPBOARD" desc="Text that announces to the user that the password of a saved account has been copied into clipboard.">
+      Password copied
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_TITLE" desc="Title of the overview screen for a saved password.">
+      Saved password
+    </message>
+    <message name="IDS_PASSWORD_EDIT_HINT" desc="Small hint on the editing screens that advises users to store the same password as they use on the currently edited site.">
+      Make sure the password you are saving matches your password for <ph name="SITE">%1$s<ex>example.com</ex></ph>
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_EDIT_DUPLICATE_USERNAME_ERROR" desc="Error text displayed when the user changes the username in the editor to another username that they already saved for the same site.">
+      You already saved this username for this site
+    </message>
+    <message name="IDS_PASSWORD_VIA_FEDERATION" desc="Text for federated credential's value.">
+      with <ph name="PROVIDER">%1$s<ex>example.com</ex></ph>
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_EDIT_DELETE_CREDENTIAL_DIALOG_TITLE" desc="The title of a prompt to confirm that the user intends to delete the stored password.">
+      Delete password?
+    </message>
+    <message name="IDS_PASSWORD_CHECK_DELETE_CREDENTIAL_DIALOG_BODY" desc="The body of a prompt to confirm that the user intends to delete the stored password.">
+      Deleting this password will not delete your account on <ph name="SITE">%1$s<ex>example.com</ex></ph>. Change your password or delete your account on <ph name="SITE">%1$s<ex>example.com</ex></ph> to keep it safe from others.
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_EDIT_DELETE_CREDENTIAL_DIALOG_CONFIRM" desc="The caption the button confirming that the user intends to delete the stored password.">
+      Delete password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_SITE_TITLE" desc="Title preceding the identification of the site where the stored password comes from.">
+      Site
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_USERNAME_TITLE" desc="Title preceding username of the account where the stored password comes from.">
+      Username
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEWER_PASSWORD" desc="Title preceding password on password entry viewer.">
+      Password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_EDIT_DELETION_DIALOG_BODY" desc="Text explaining the user that deleting the credential that they are viewing will not remove their account on the reaspective website.">
+      Deleting this password will not delete your account on <ph name="SITE">%1$s<ex>example.com</ex></ph>
+    </message>
+
+    <!-- Lock Screen Fragment -->
+    <message name="IDS_LOCKSCREEN_DESCRIPTION_COPY" desc="When a user attempts to copy a password for a particular website into clipboard in iBrowe's settings, iBrowe launches a lock screen to verify the user's identity and displays the following explanation.">
+      Unlock to copy your password
+    </message>
+    <message name="IDS_LOCKSCREEN_DESCRIPTION_VIEW" desc="When a user attempts to view a password for a particular website in iBrowe's settings, iBrowe launches a lock screen to verify the user's identity and displays the following explanation.">
+      Unlock to view your password
+    </message>
+    <message name="IDS_LOCKSCREEN_DESCRIPTION_EDIT" desc="When a user attempts to edit a password for a particular website in iBrowe's settings, iBrowe launches a lock screen to verify the user's identity and displays the following explanation.">
+      Unlock to edit your password
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_COPY_SET_SCREEN_LOCK" desc="Text prompting user to set up screen lock on their device in order to copy passwords">
+      To copy passwords, first set a screen lock on your device
+    </message>
+    <message name="IDS_PASSWORD_ENTRY_VIEW_SET_SCREEN_LOCK" desc="Text prompting user to set up screen lock on their device in order to view passwords">
+      To view passwords, first set a screen lock on your device
     </message>
   </messages>
   </release>

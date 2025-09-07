@@ -1,0 +1,65 @@
+diff --git a/browser/ui/views/toolbar/brave_app_menu.cc b/browser/ui/views/toolbar/brave_app_menu.cc
+index 82fb879332ed518c62a676f2a5397ef74cec5714..2723aaeef7bb14482badabcc65dcf9b3f55e3638 100644
+--- a/browser/ui/views/toolbar/brave_app_menu.cc
++++ b/browser/ui/views/toolbar/brave_app_menu.cc
+@@ -234,16 +234,16 @@ void BraveAppMenu::OnMenuClosed(views::MenuItemView* menu) {
+ void BraveAppMenu::RecordMenuUsage(int command_id) {
+   misc_metrics::MenuGroup group;
+ 
+-  if (command_id == IDC_TOGGLE_AI_CHAT) {
+-    auto* profile_metrics =
+-        misc_metrics::ProfileMiscMetricsServiceFactory::GetServiceForContext(
+-            browser_->profile());
+-    if (profile_metrics) {
+-      auto* ai_chat_metrics = profile_metrics->GetAIChatMetrics();
+-      CHECK(ai_chat_metrics);
+-      ai_chat_metrics->HandleOpenViaEntryPoint(ai_chat::EntryPoint::kMenuItem);
+-    }
+-  }
++//  if (command_id == IDC_TOGGLE_AI_CHAT) {
++//    auto* profile_metrics =
++//        misc_metrics::ProfileMiscMetricsServiceFactory::GetServiceForContext(
++//            browser_->profile());
++//    if (profile_metrics) {
++//      auto* ai_chat_metrics = profile_metrics->GetAIChatMetrics();
++//      CHECK(ai_chat_metrics);
++//      ai_chat_metrics->HandleOpenViaEntryPoint(ai_chat::EntryPoint::kMenuItem);
++//    }
++//  }
+ 
+   switch (command_id) {
+     case IDC_NEW_WINDOW:
+@@ -254,8 +254,8 @@ void BraveAppMenu::RecordMenuUsage(int command_id) {
+       group = misc_metrics::MenuGroup::kTabWindow;
+       break;
+     case IDC_SHOW_BRAVE_WALLET:
+-    case IDC_TOGGLE_AI_CHAT:
+-    case IDC_OPEN_FULL_PAGE_CHAT:
++//    case IDC_TOGGLE_AI_CHAT:
++//    case IDC_OPEN_FULL_PAGE_CHAT:
+     case IDC_SHOW_BRAVE_SYNC:
+     case IDC_SHOW_BRAVE_REWARDS:
+       group = misc_metrics::MenuGroup::kBraveFeatures;
+@@ -282,14 +282,14 @@ void BraveAppMenu::RecordMenuUsage(int command_id) {
+ }
+ 
+ void BraveAppMenu::UpdateMenuItemView() {
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  CHECK(root_menu_item());
+-  if (auto* menu_item =
+-          root_menu_item()->GetMenuItemByID(IDC_TOGGLE_BRAVE_VPN)) {
+-    menu_item->AddChildView(std::make_unique<BraveVPNStatusLabel>(browser_));
+-    menu_item->AddChildView(std::make_unique<BraveVPNToggleButton>(browser_));
+-  }
+-#endif
++//#if BUILDFLAG(ENABLE_BRAVE_VPN)
++//  CHECK(root_menu_item());
++//  if (auto* menu_item =
++//          root_menu_item()->GetMenuItemByID(IDC_TOGGLE_BRAVE_VPN)) {
++//    menu_item->AddChildView(std::make_unique<BraveVPNStatusLabel>(browser_));
++//    menu_item->AddChildView(std::make_unique<BraveVPNToggleButton>(browser_));
++//  }
++//#endif
+ 
+   if (auto* sidebar_item =
+           root_menu_item()->GetMenuItemByID(IDC_SIDEBAR_SHOW_OPTION_MENU)) {

@@ -1,0 +1,18 @@
+diff --git a/components/ai_chat/core/browser/constants.h b/components/ai_chat/core/browser/constants.h
+index 028fb358fa30b84b77632c1cc9d6546e5a081ac9..70a34214ef7faeb425e2ef5a1acc80579ca6e1f5 100644
+--- a/components/ai_chat/core/browser/constants.h
++++ b/components/ai_chat/core/browser/constants.h
+@@ -30,11 +30,11 @@ inline constexpr auto kPrintPreviewRetrievalHosts =
+ 
+ inline constexpr uint8_t kMaxPreviewPages = 20;
+ inline constexpr char kLeoModelSupportUrl[] =
+-    "https://support.brave.com/hc/en-us/articles/26727364100493-"
++    "https://support.ibrowe.com/hc/en-us/articles/26727364100493-"
+     "What-are-the-differences-between-Leo-s-AI-Models";
+ 
+ inline constexpr char kLeoGoPremiumUrl[] =
+-    "https://account.brave.com/account/?intent=checkout&product=leo";
++    "https://account.ibrowe.com/account/?intent=checkout&product=leo";
+ 
+ // Upon registering a custom model, users have the ability to explicitly
+ // provide a context size (in tokens). When present, we'll use this value to

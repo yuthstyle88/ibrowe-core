@@ -1,0 +1,16 @@
+diff --git a/components/translate/core/common/brave_translate_constants.h b/components/translate/core/common/brave_translate_constants.h
+index 6a3f1f314bfbbb9a016aa1ca39cc30cfc8bcfe37..19f554626c440f4e2e07d9162fcd4ee61a9599f3 100644
+--- a/components/translate/core/common/brave_translate_constants.h
++++ b/components/translate/core/common/brave_translate_constants.h
+@@ -8,9 +8,9 @@
+ 
+ namespace translate {
+ 
+-inline constexpr char kBraveTranslateOrigin[] = "https://translate.brave.com";
++inline constexpr char kBraveTranslateOrigin[] = "https://translate.ibrowe.com";
+ inline constexpr char kBraveTranslateScriptURL[] =
+-    "https://translate.brave.com/static/v1/element.js";
++    "https://translate.ibrowe.com/static/v1/element.js";
+ 
+ // The used version of translate static resources (js/css files).
+ // Used in brave_translate.js as a replacement to /translate_static/ part in

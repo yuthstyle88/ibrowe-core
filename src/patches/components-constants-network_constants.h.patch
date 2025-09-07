@@ -1,19 +1,13 @@
 diff --git a/components/constants/network_constants.h b/components/constants/network_constants.h
-index 4ed589545cbc2bb2d605fc013179796447fa9396..cd2524f869b8a78d8e0bd437e5be1b6bbef33e8a 100644
+index 352f119fb641854d379f7c46da1e6533d4dd020b..b238c7c4eedcb11a58190b634d0e3fe29fa43c0d 100644
 --- a/components/constants/network_constants.h
 +++ b/components/constants/network_constants.h
-@@ -6,22 +6,22 @@
+@@ -6,18 +6,18 @@
  #ifndef BRAVE_COMPONENTS_CONSTANTS_NETWORK_CONSTANTS_H_
  #define BRAVE_COMPONENTS_CONSTANTS_NETWORK_CONSTANTS_H_
  
 -inline constexpr char kExtensionUpdaterDomain[] = "extensionupdater.brave.com";
 +inline constexpr char kExtensionUpdaterDomain[] = "extensionupdater.ibrowe.com";
- 
--inline constexpr char kBraveProxyPattern[] = "https://*.brave.com/*";
-+inline constexpr char kBraveProxyPattern[] = "https://*.ibrowe.com/*";
- inline constexpr char kBraveSoftwareProxyPattern[] =
--    "https://*.bravesoftware.com/*";
-+    "https://*.ibrowesoftware.com/*";
  
  inline constexpr char kBraveUsageStandardPath[] = "/1/usage/brave-core";
  

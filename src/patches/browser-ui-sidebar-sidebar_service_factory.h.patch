@@ -1,5 +1,5 @@
 diff --git a/browser/ui/sidebar/sidebar_service_factory.h b/browser/ui/sidebar/sidebar_service_factory.h
-index 62ca8d0a17a9ed8cc9705ac3b334723defa5e04d..97c47b22813e1c8cba0e959c730c262a57c32034 100644
+index 62ca8d0a17a9ed8cc9705ac3b334723defa5e04d..ba608d410a746cd20feeb419b28c9c837cd96f2f 100644
 --- a/browser/ui/sidebar/sidebar_service_factory.h
 +++ b/browser/ui/sidebar/sidebar_service_factory.h
 @@ -35,8 +35,8 @@ class SidebarServiceFactory : public BrowserContextKeyedServiceFactory {
@@ -8,8 +8,8 @@ index 62ca8d0a17a9ed8cc9705ac3b334723defa5e04d..97c47b22813e1c8cba0e959c730c262a
    static constexpr SidebarItem::BuiltInItemType kDefaultBuiltInItemTypes[] = {
 -      SidebarItem::BuiltInItemType::kChatUI,
 -      SidebarItem::BuiltInItemType::kBraveTalk,
-+//      SidebarItem::BuiltInItemType::kChatUI,
-+    //   SidebarItem::BuiltInItemType::kBraveTalk,
++      // SidebarItem::BuiltInItemType::kChatUI,
++      // SidebarItem::BuiltInItemType::kBraveTalk,
        SidebarItem::BuiltInItemType::kWallet,
        SidebarItem::BuiltInItemType::kBookmarks,
        SidebarItem::BuiltInItemType::kReadingList,

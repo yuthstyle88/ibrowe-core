@@ -1,5 +1,5 @@
 diff --git a/browser/ui/views/sidebar/sidebar_items_contents_view.cc b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
-index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc4ac1f529 100644
+index 09844d8439066988ad2539fb436ba5d97b9ce4c9..43e4583f07830f3623c8ccfd420c3011b37e14d8 100644
 --- a/browser/ui/views/sidebar/sidebar_items_contents_view.cc
 +++ b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
 @@ -155,14 +155,14 @@ void SidebarItemsContentsView::UpdateAllBuiltInItemsViewState() {
@@ -14,14 +14,14 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc
 -                                ->DoesBrowserHaveOpenedTabForItem(item));
 -      continue;
 -    }
-+    //if (item.built_in_item_type ==
-+    //    sidebar::SidebarItem::BuiltInItemType::kBraveTalk) {
-+    //  UpdateItemViewStateAt(item_index,
-+    //                        browser_->GetFeatures()
-+    //                            .sidebar_controller()
-+    //                            ->DoesBrowserHaveOpenedTabForItem(item));
-+    //  continue;
-+    //}
++    // if (item.built_in_item_type ==
++    //     sidebar::SidebarItem::BuiltInItemType::kBraveTalk) {
++    //   UpdateItemViewStateAt(item_index,
++    //                         browser_->GetFeatures()
++    //                             .sidebar_controller()
++    //                             ->DoesBrowserHaveOpenedTabForItem(item));
++    //   continue;
++    // }
  
      UpdateItemViewStateAt(item_index, item_index == active_index);
    }
@@ -64,8 +64,8 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc
        return get_image_model(kLeoProductBraveWalletIcon, state);
 -    case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
 -      return get_image_model(kLeoProductBraveTalkIcon, state);
-+    //case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
-+    // return get_image_model(kLeoProductBraveTalkIcon, state);
++    // case sidebar::SidebarItem::BuiltInItemType::kBraveTalk:
++    //   return get_image_model(kLeoProductBraveTalkIcon, state);
      case sidebar::SidebarItem::BuiltInItemType::kBookmarks:
        return get_image_model(kLeoProductBookmarksIcon, state);
      case sidebar::SidebarItem::BuiltInItemType::kReadingList:

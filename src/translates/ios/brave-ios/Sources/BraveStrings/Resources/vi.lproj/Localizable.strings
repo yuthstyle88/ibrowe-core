@@ -1,5 +1,5 @@
 /* A label shown above a list of icons designed by Brave */
-"altAppIcon.braveIconsHeader" = "Biểu tượng iBrowe";
+"altAppIcon.braveIconsHeader" = "Biểu tượng Brave";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "Đổi biểu tượng ứng dụng";
@@ -35,7 +35,7 @@
 "newTabTakeoverInfoBarLearnMoreOptOutChoices" = "Tìm hiểu thêm / lựa chọn từ chối";
 
 /* The text of new tab takeover infobar message. */
-"NewTabTakeoverInfoBarMessage" = "Hình nền được tài trợ hỗ trợ sứ mệnh xây dựng một nền tảng web độc lập và ưu tiên người dùng của iBrowe. Khác với sản phẩm của công ty Big Tech, chúng tôi đo lường hiệu suất quảng cáo theo cách đo ẩn danh để bảo toàn quyền riêng tư của bạn.";
+"NewTabTakeoverInfoBarMessage" = "Hình nền được tài trợ hỗ trợ sứ mệnh xây dựng một nền tảng web độc lập và ưu tiên người dùng của Brave. Khác với sản phẩm của công ty Big Tech, chúng tôi đo lường hiệu suất quảng cáo theo cách đo ẩn danh để bảo toàn quyền riêng tư của bạn.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "Thẻ mới";
@@ -49,18 +49,6 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "Đã mua trên brave.com?";
 
-/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
-"paywall.appStoreCheckoutOptionSubtitle" = "Giá gốc";
-
-/* The checkout option that lets the user use Apple's standard App Store puchase flow */
-"paywall.appStoreCheckoutOptionTitle" = "App Store";
-
-/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
-"paywall.braveAccountCheckoutOptionSubtitle" = "Mã **%1$@** để được giảm %2$@";
-
-/* The checkout option that lets the user use Brave's own purchase flow */
-"paywall.braveAccountCheckoutOptionTitle" = "Tài khoản iBrowe";
-
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "Bạn có mã khuyến mãi?";
 
@@ -69,12 +57,6 @@
 
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "Làm mới thông tin đăng nhập của bạn";
-
-/* Text shown above buttons that give the user the option to choose a checkout option */
-"paywall.startTrialSubtitle" = "Chọn phương thức thanh toán phù hợp với bạn:";
-
-/* Text shown above buttons that give the user the option to start a trial */
-"paywall.startTrialTitle" = "Bắt đầu dùng thử miễn phí 7 ngày";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "Mở lại thẻ đã đóng";
@@ -86,7 +68,7 @@
 "searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "Tìm hiểu thêm / lựa chọn từ chối";
 
 /* The text label of creative search result ad infobar message. */
-"searchResultAdClickedInfoBarMessage" = "Cảm ơn vì đã ủng hộ Tìm kiếm iBrowe khi bấm vào quảng cáo riêng tư. Khác với sản phẩm của công ty Big Tech, chúng tôi đo lường hiệu suất quảng cáo theo cách đo ẩn danh để bảo toàn quyền riêng tư của bạn.";
+"searchResultAdClickedInfoBarMessage" = "Cảm ơn vì đã ủng hộ Tìm kiếm Brave khi bấm vào quảng cáo riêng tư. Khác với sản phẩm của công ty Big Tech, chúng tôi đo lường hiệu suất quảng cáo theo cách đo ẩn danh để bảo toàn quyền riêng tư của bạn.";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "Chọn thanh vị trí";
@@ -107,7 +89,7 @@
 "ShowPreviousTabTitle" = "Hiển thị thẻ trước";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
-"showShieldsTitle" = "Mở Lá chắn iBrowe";
+"showShieldsTitle" = "Mở Lá chắn Brave";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "Hiển thị tất cả thẻ";
@@ -116,10 +98,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "Phiên bản ứng dụng";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo hằng tháng";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo hằng tháng";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo hằng năm";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo hằng năm";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "Xin lỗi, không tìm thấy biên lai App Store";
@@ -161,10 +143,10 @@
 "storekitReceiptViewer.shareReceiptTitle" = "Chia sẻ biên lai";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "iBrowe VPN hằng tháng";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "Brave VPN hằng tháng";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN hằng năm";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN hằng năm";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "Chế độ duyệt bình thường";

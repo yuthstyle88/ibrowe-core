@@ -86,7 +86,7 @@
 "wallet.addCustomTokenTitle" = "Token";
 
 /* The description of the view shown over a dapps website that describes what adding a new network will do. */
-"wallet.addNetworkDescription" = "Dette giver tilladelse til, at netværket bruges inden i iBrowe Wallet.";
+"wallet.addNetworkDescription" = "Dette giver tilladelse til, at netværket bruges inden i Brave Wallet.";
 
 /* The subtitle of the view shown over a dapps website that requests permission from the user to add a new network. */
 "wallet.addNetworkSubtitle" = "Tillad denne side at tilføje te netværk?";
@@ -161,7 +161,7 @@
 "wallet.auroraPopupDontShowAgain" = "Vis ikke igen";
 
 /* The footer beneath the auto-lock title and interval duration */
-"wallet.autoLockFooter" = "Antallet minutter, indtil iBrowe Wallet automatisk bliver låst";
+"wallet.autoLockFooter" = "Antallet minutter, indtil Brave Wallet automatisk bliver låst";
 
 /* The title that appears before an auto-lock interval. Example: Automatically lock after 5 minutes */
 "wallet.autoLockTitle" = "Lås automatisk efter";
@@ -221,10 +221,10 @@
 "wallet.biometricsSetupFaceId" = "Face ID";
 
 /* The sub-title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupSubTitle" = "Vil du bruge %@ til at låse iBrowe wallet op?";
+"wallet.biometricsSetupSubTitle" = "Vil du bruge %@ til at låse Brave wallet op?";
 
 /* The title shown when a user is asked if they would like to setup biometric unlock. `%@` will be replaced with the biometric type name of the current device. */
-"wallet.biometricsSetupTitle" = "Lås iBrowe wallet op med %@";
+"wallet.biometricsSetupTitle" = "Lås Brave wallet op med %@";
 
 /* Type of biometrics. This will be used in Biometric setup screen. */
 "wallet.biometricsSetupTouchId" = "Tryk på ID";
@@ -233,10 +233,10 @@
 "wallet.bitcoinImportExtendedKeyWarning" = "Der understøttes kun %@ udvidede taster.";
 
 /* The title for Brave Fee label in Swap. The fee percentage is displayed beside the label. */
-"wallet.braveFeeLabel" = "iBrowe-gebyr: %@";
+"wallet.braveFeeLabel" = "Brave-gebyr: %@";
 
 /* A disclaimer that appears at the bottom of an swap screen which discloses the fixed Brave fee included in the swap quotes. '%@' will be replaced by a percentage. For example: 'Quote includes a 0.875% Brave fee' */
-"wallet.braveSwapFeeDisclaimer" = "Tilbuddet inkluderer et iBrowe-gebyr på %@.";
+"wallet.braveSwapFeeDisclaimer" = "Tilbuddet inkluderer et Brave-gebyr på %@.";
 
 /* The text beside the striked-through percentage Brave would normally charge for a swap. */
 "wallet.braveSwapFree" = "Gratis";
@@ -251,7 +251,7 @@
 "wallet.btcAvailableBalanceTitle" = "Tilgængelig";
 
 /* A warning displayed in row before the Send button in Send Crypto view when a Bitcoin asset is selected. */
-"wallet.btcOrdinalsUnsupportedWarning" = "iBrowe-tegnebogen understøtter ikke Bitcoin NFTs (ordinaler) på dette tidspunkt. Hvis du sender BTC fra en adresse, der har ordinaler, kan dette medføre, at dens ordinaler bliver overført uhensigtsmæssigt.";
+"wallet.btcOrdinalsUnsupportedWarning" = "Brave-tegnebogen understøtter ikke Bitcoin NFTs (ordinaler) på dette tidspunkt. Hvis du sender BTC fra en adresse, der har ordinaler, kan dette medføre, at dens ordinaler bliver overført uhensigtsmæssigt.";
 
 /* Description displayed in row beside users pending balance. */
 "wallet.btcPendingBalanceDesc" = "Der venter en ændring i din tegnebogssaldo.";
@@ -301,6 +301,9 @@
 /* The y-axis label on an asset or portfolio chart describing that y-axis values are based on the price at a given date */
 "wallet.chartAxisPriceLabel" = "Pris";
 
+/* The description of one of the 'Coinbase Pay' provider. */
+"wallet.coinbaseNetworkProviderDescription" = "Køb med det mest tiltroede navn i crypto.";
+
 /* A disclaimer that appears at the bottom of an asset detail screen which shows prices and price history. CoinGecko is a third-party product. */
 "wallet.coinGeckoDisclaimer" = "Prisdata leveret af CoinGecko";
 
@@ -348,12 +351,6 @@
 
 /* A placeholder for unknown coin type. */
 "wallet.coinTypeUnknown" = "ukendt";
-
-/* One of the coin types for users to create an account to store ZEC assets */
-"wallet.coinTypeZCash" = "ZCash";
-
-/* A description for ZCash coin type. */
-"wallet.coinTypeZCashDescription" = "Gem ZEC-aktiv";
 
 /* 1. A button title to confirm a transaction. It is shown below details about a given transaction. 2. A button title to confirm to grant permission of a dapp connect request. It is displayed at the bottom of last step to grant permission in new site connection screen. */
 "wallet.confirm" = "Bekræft";
@@ -449,7 +446,7 @@
 "wallet.creatingWallet" = "Opretter tegnebog...";
 
 /* The title of the crypto tab */
-"wallet.cryptoTitle" = "iBrowe-wallet";
+"wallet.cryptoTitle" = "Brave-wallet";
 
 /* The title above the input fields for users to input network block explorer urls in Custom Network Details Screen. */
 "wallet.customNetworkBlockExplorerUrlsTitle" = "Blokér Explorer-url'er";
@@ -521,13 +518,13 @@
 "wallet.customTokenTitle" = "Tilføj tilpasset aktiv";
 
 /* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. The '%@' will be the site attempting to connect. For example: "app.uniswap.org wants to interact with Brave Wallet" */
-"wallet.dappsConnectionNotificationOriginTitle" = "%@ ønsker at interagere med iBrowe Wallet";
+"wallet.dappsConnectionNotificationOriginTitle" = "%@ ønsker at interagere med Brave Wallet";
 
 /* The title of the notification which will prompt at the top of the browser when users are visiting web3 site that is not yet connected with Brave Wallet. */
-"wallet.dappsConnectionNotificationTitle" = "Denne side vil gerne interagere med iBrowe Wallet";
+"wallet.dappsConnectionNotificationTitle" = "Denne side vil gerne interagere med Brave Wallet";
 
 /* A message that will be displayed under the section header when there is no dapps have been granted wallet connection. */
-"wallet.dappsSettingsConnectedSitesSectionEmpty" = "DApps, du forbinder til iBrowe wallet, vises her";
+"wallet.dappsSettingsConnectedSitesSectionEmpty" = "DApps, du forbinder til Brave wallet, vises her";
 
 /* The title of the section that will list all the permitted dapp connections */
 "wallet.dappsSettingsConnectedSitesSectionTitle" = "Tilsluttede DApps";
@@ -590,7 +587,7 @@
 "wallet.decimalsPrecision" = "Decimalpræcision";
 
 /* The message displayed when the user takes a screenshot of their dapp decrypt request. */
-"wallet.decryptMessageScreenshotDetectedMessage" = "Advarsel: Et skærmbillede af din besked kan blive sikkerhedskopieret til en cloud-filtjeneste og kan læses af enhver applikation med fotoadgang. iBrowe anbefaler, at du ikke gemmer dette skærmbillede og sletter det så hurtigt som muligt.";
+"wallet.decryptMessageScreenshotDetectedMessage" = "Advarsel: Et skærmbillede af din besked kan blive sikkerhedskopieret til en cloud-filtjeneste og kan læses af enhver applikation med fotoadgang. Brave anbefaler, at du ikke gemmer dette skærmbillede og sletter det så hurtigt som muligt.";
 
 /* The title of the button to approve a decrypt request from a dapps website. */
 "wallet.decryptRequestApprove" = "Tillad";
@@ -713,10 +710,10 @@
 "wallet.ensDomainInterstitialPageButtonProceed" = "Fortsæt med Infura-server";
 
 /* Description displayed when users chose Brave to ask them if they want the ENS to be resolved every time they enter one. The first '%@' will be replaced with a link to Infura's terms of use page. The second '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The third '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.ensDomainInterstitialPageDescription" = "iBrowe vil bruge Infura til at løse .eth domænenavne, der er på Ethereum Name Service (ENS). iBrowe skjuler din IP-adresse. Hvis du aktiverer dette, vil Infura se, at nogen forsøger at besøge disse .eth-domæner, men intet andet. Se Infuras <a href=%1$@>%2$@</a> og <a href=%3$@>%4$@</a>.";
+"wallet.ensDomainInterstitialPageDescription" = "Brave vil bruge Infura til at løse .eth domænenavne, der er på Ethereum Name Service (ENS). Brave skjuler din IP-adresse. Hvis du aktiverer dette, vil Infura se, at nogen forsøger at besøge disse .eth-domæner, men intet andet. Se Infuras <a href=%1$@>%2$@</a> og <a href=%3$@>%4$@</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS domain to be resolved every time they enter one. */
-"wallet.ensDomainInterstitialPageTitle" = "Aktiver support af Ethereum Name Service (ENS) i iBrowe?";
+"wallet.ensDomainInterstitialPageTitle" = "Aktiver support af Ethereum Name Service (ENS) i Brave?";
 
 /* Title on the button that users can click to enable Brave to resolve the ENS offchain lookup for the domain they entered. */
 "wallet.ensOffchainDomainInterstitialPageButtonProceed" = "Fortsæt med offchain lookup";
@@ -725,7 +722,7 @@
 "wallet.ensOffchainDomainInterstitialPageDescription" = "Dette .eth domænenavn gemmes offchain og vil blive løst af en tredjeparts gateway. Hvis du aktiverer ENS offchain-opslag, vil tredjeparts-gatewayen se, at du forsøger at besøge .eth-domænet. <a href=%1$@>%2$@</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the ENS Offchain domain to be resolved every time they enter one. */
-"wallet.ensOffchainDomainInterstitialPageTitle" = "Vil du aktivere understøttelse af Ethereum Name Service (ENS) offchain lookup i iBrowe?";
+"wallet.ensOffchainDomainInterstitialPageTitle" = "Vil du aktivere understøttelse af Ethereum Name Service (ENS) offchain lookup i Brave?";
 
 /* Button title when requesting to do an ENS off chain lookup. */
 "wallet.ensOffchainGatewayButton" = "Anvend ENS-domæne";
@@ -734,7 +731,7 @@
 "wallet.ensOffchainGatewayDesc" = "Det ser ud til, at du har indtastet en ESS-adresse. Vi er nødt til at bruge en tredjeparts resolver til at løse denne anmodning. Det er med til at sikre, at dit .eth-domæne ikke bliver lækket, og at din transaktion er sikker.";
 
 /* Title shown send address / ENS domain when requesting to do an ENS off chain lookup. */
-"wallet.ensOffchainGatewayTitle" = "iBrowe understøtter brug af offchain-gateways til at løse .eth-domæner.";
+"wallet.ensOffchainGatewayTitle" = "Brave understøtter brug af offchain-gateways til at løse .eth-domæner.";
 
 /* The description for the options to allow Ethereum Name service domain names offchain. '%@' will be replaced with a url to explain more about ENS offchain lookup. */
 "wallet.ensOffchainResolveMethodDescription" = "[Lær mere](%@) om overvejelser om privatlivets fred ved ENS offchain-opslag.";
@@ -956,7 +953,7 @@
 "wallet.legalTitle" = "Før vi begynder";
 
 /* The responsibility explained in screen for users to check indicates they understand before setting up a wallet. */
-"wallet.legalUserResponsibility" = "Jeg forstår, at dette er en wallet til selv-varetægt, og at jeg alene er ansvarlig for eventuelle tilknyttede midler, aktiver eller konti og for at træffe passende foranstaltninger for at sikre, beskytte og sikkerhedskopiere min pung. Jeg forstår, at iBrowe ikke kan få adgang til min pung eller tilbageføre transaktioner på mine vegne, og at min gendannelsessætning i tilfælde af en mistet adgangskode, stjålet enhed eller lignende omstændigheder er den ENESTE måde at få adgang.";
+"wallet.legalUserResponsibility" = "Jeg forstår, at dette er en wallet til selv-varetægt, og at jeg alene er ansvarlig for eventuelle tilknyttede midler, aktiver eller konti og for at træffe passende foranstaltninger for at sikre, beskytte og sikkerhedskopiere min pung. Jeg forstår, at Brave ikke kan få adgang til min pung eller tilbageføre transaktioner på mine vegne, og at min gendannelsessætning i tilfælde af en mistet adgangskode, stjålet enhed eller lignende omstændigheder er den ENESTE måde at få adgang.";
 
 /* The title of the lock option inside the menu when user clicks the three dots button beside assets search button. */
 "wallet.lock" = "Lås";
@@ -1006,26 +1003,8 @@
 /* The title of the edit gas fee screen for EIP-1559 transactions */
 "wallet.maxPriorityFeeTitle" = "Maks. prioritetsafgift";
 
-/* The header title of the section that user can pick an account in buy screen in Brave Wallet. */
-"wallet.meldAccountHeaderTitle" = "Konto";
-
-/* The header title of the section that user can pick a country in buy screen in Brave Wallet. */
-"wallet.meldCountryHeaderTitle" = "Land";
-
-/* The header title of the section that user can pick a payment method in buy screen in Brave Wallet. */
-"wallet.meldPaymentMethodHeaderTitle" = "Betalingsmetode";
-
-/* The title of the pop up when user first time open buy screen in Brave Wallet. */
-"wallet.meldTransactionPartner" = "Transaktionspartner";
-
-/* The description of the pop up when user first time open buy screen in Brave Wallet. */
-"wallet.meldTransactionPartnerDescription" = "iBrowe Wallet bruger Meld.io til at hjælpe med at finde og samle forskellige kryptoudbydere for din region. Vi deler oplysninger med Meld.io for at gennemføre transaktionen, herunder din wallet-adresse og landekode. Læs Melds brugsbetingelser for at få mere information.";
-
-/* The description of the checkbox for the pop up when user first time open buy screen in Brave Wallet. */
-"wallet.meldTransactionPartnerLegal" = "Jeg har læst og accepterer [Melds brugsbetingelser](%@)";
-
 /* The title shown on the wallet settings page, and the value shown when selecting the default wallet as Brave Wallet in wallet settings. */
-"wallet.module" = "iBrowe-wallet";
+"wallet.module" = "Brave-wallet";
 
 /* A button title for user to open more option in asset details screen other than buy/send/swap. */
 "wallet.more" = "Mere";
@@ -1073,7 +1052,7 @@
 "wallet.newSiteConnectFooter" = "Forbind kun med websteder, du stoler på.";
 
 /* The message displayed below the dapp's origin url in new site connection screen. */
-"wallet.newSiteConnectMessage" = "Opret forbindelse til iBrowe Wallet";
+"wallet.newSiteConnectMessage" = "Opret forbindelse til Brave Wallet";
 
 /* The transaction edit error alert button which will dismiss the alert. */
 "wallet.newSiteConnectScreenTitle" = "Forbind";
@@ -1121,7 +1100,7 @@
 "wallet.nftDetailTokenStandard" = "Token-standard";
 
 /* The title of the alert that asks users either to enable NFT discovery or import manually. `SimpleHash` is the third-party service name, so it does not need to be translated. */
-"wallet.nftDiscoveryCalloutDescription" = "iBrowe Wallet kan bruge en tredjepartstjeneste til automatisk at vise dine NFT'er. iBrowe deler dine wallet-adresser med SimpleHash for at levere denne service. Lær mere.";
+"wallet.nftDiscoveryCalloutDescription" = "Brave Wallet kan bruge en tredjepartstjeneste til automatisk at vise dine NFT'er. Brave deler dine wallet-adresser med SimpleHash for at levere denne service. Lær mere.";
 
 /* This is the same `Learn more` at the end of `nftDiscoveryCalloutDescription`, but we need a separat translation to detect the range of it in order to build some attributed strings. */
 "wallet.nftDiscoveryCalloutDescriptionLearnMore" = "Flere oplysninger";
@@ -1157,10 +1136,10 @@
 "wallet.nftRemoveFromWallet" = "Vis ikke i Wallet";
 
 /* The description of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertDescription" = "NFT vil blive fjernet fra iBrowe tegnebog, men forbliver på blockchain. Hvis du fjerner den og skifter mening, skal du manuelt importere igen.";
+"wallet.nftRemoveFromWalletAlertDescription" = "NFT vil blive fjernet fra Brave tegnebog, men forbliver på blockchain. Hvis du fjerner den og skifter mening, skal du manuelt importere igen.";
 
 /* The title of the alert when user attempts to remove an NFT from wallet. */
-"wallet.nftRemoveFromWalletAlertTitle" = "Fjern fra iBrowe tegnebog?";
+"wallet.nftRemoveFromWalletAlertTitle" = "Fjern fra Brave tegnebog?";
 
 /* The description of the NFTs row in Account Details when user has zero or multiple NFTs. */
 "wallet.nftsDescription" = "%d NFT'er";
@@ -1202,7 +1181,7 @@
 "wallet.onboardingCompletedButtonTitle" = "Gå til min portefølje";
 
 /* The subtitle of the last step of creating a new wallet. */
-"wallet.onbordingCompletedSubTitle" = "Din iBrowe Wallet er klar til brug.";
+"wallet.onbordingCompletedSubTitle" = "Din Brave Wallet er klar til brug.";
 
 /* The title of the last step of creating a new wallet. */
 "wallet.onbordingCompletedTitle" = "Du er klar!";
@@ -1256,34 +1235,10 @@
 "wallet.portfolioPageTitle" = "Portefølje";
 
 /* The message displayed when the user takes a screenshot of their private key */
-"wallet.privateKeyScreenshotDetectedMessage" = "Advarsel: Et skærmbillede af din private nøgle kan blive sikkerhedskopieret til en cloud-filtjeneste og være læsbar af ethvert program med fotoadgang. iBrowe anbefaler, at du ikke gemmer dette skærmbillede, og at du sletter det så hurtigt som muligt.";
+"wallet.privateKeyScreenshotDetectedMessage" = "Advarsel: Et skærmbillede af din private nøgle kan blive sikkerhedskopieret til en cloud-filtjeneste og være læsbar af ethvert program med fotoadgang. Brave anbefaler, at du ikke gemmer dette skærmbillede, og at du sletter det så hurtigt som muligt.";
 
 /* The title for Protocol Fee label in Swap. The fee percentage is displayed beside the label. */
 "wallet.protocolFeeLabel" = "Protokolgebyr: %@";
-
-/* A label that will display on the provider option to indicate this is the best option. */
-"wallet.providerListBestOption" = "BEDSTE MULIGHED";
-
-/* The title of the button that user can use to open the link to buy crypto. */
-"wallet.providerListBuyWith" = "Køb med %@";
-
-/* One of title that displays under provider option. Exchange rate with fees that this provider offers. */
-"wallet.providerListExchangeRateWithFees" = "Valutakurs med gebyrer";
-
-/* One of title that displays under provider option. The fees that provider will charge. */
-"wallet.providerListFees" = "Gebyrer";
-
-/* The description that will show when there is no available provider with givin input. */
-"wallet.providerListNoProviderDescription" = "Prøv at søge efter et andet aktiv.";
-
-/* The title that will show when there is no available provider with givin input. */
-"wallet.providerListNoProviderTitle" = "Ingen udbydere fundet for %@";
-
-/* One of title that displays under provider option. The price of the target currency on market. */
-"wallet.providerListPrice" = "Pris";
-
-/* One of title that displays under provider option. The total cost of this purchase. */
-"wallet.providerListTotal" = "Samlet";
 
 /* The button title for users to click. It will redirect user to that specific provider website. '%@' will be replaced provider's short name. For example, Buy with Ramp'. */
 "wallet.providerSelectionButtonTitle" = "Køb med %@";
@@ -1297,8 +1252,17 @@
 /* The title of the button for users to click to select a purchase method. */
 "wallet.purchaseMethodButtonTitle" = "Vælg betalingsmetode";
 
+/* The description of one of the 'Ramp.Network' provider. */
+"wallet.rampNetworkProviderDescription" = "Køb krypto med Visa eller Mastercard.";
+
+/* The name of one of the on ramp provider. */
+"wallet.rampNetworkProviderName" = "Ramp.Network";
+
+/* The short name of one of the on ramp provider. */
+"wallet.rampNetworkProviderShortName" = "Rampe";
+
 /* The message displayed when the user takes a screenshot of their recovery phrase */
-"wallet.recoveryPhraseScreenshotDetectedMessage" = "Advarsel: Et skærmbillede af din gendannelsessætning kan blive sikkerhedskopieret til en filservice i skyen og kan læses af ethvert program med adgang til fotos. iBrowe anbefaler, at du ikke gemmer dette skærmbillede, og at du sletter det så hurtigt som muligt.";
+"wallet.recoveryPhraseScreenshotDetectedMessage" = "Advarsel: Et skærmbillede af din gendannelsessætning kan blive sikkerhedskopieret til en filservice i skyen og kan læses af ethvert program med adgang til fotos. Brave anbefaler, at du ikke gemmer dette skærmbillede, og at du sletter det så hurtigt som muligt.";
 
 /* A description for a refresh icon that when pressed receives a new snap quote for the currently swap assets */
 "wallet.refreshMarketPriceLabel" = "Opdater markedsprisen";
@@ -1331,7 +1295,7 @@
 "wallet.repeatedPasswordPlaceholder" = "Indtast adgangskoden igen";
 
 /* A label for toggle for user to use to indicate importing a legacy brave wallet or not */
-"wallet.restoreLegacyBraveWalletToggleTitle" = "Importér fra legacy iBrowe crypto-wallets?";
+"wallet.restoreLegacyBraveWalletToggleTitle" = "Importér fra legacy Brave crypto-wallets?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As to gain access to your assets from a different device */
 "wallet.restoreWalletBackButtonTitle" = "Gendan Wallet";
@@ -1365,6 +1329,15 @@
 
 /* The title for the button to retry a failed transaction. */
 "wallet.retryTransactionButtonTitle" = "Forsøg transaktionen igen";
+
+/* The description of one of the 'Sardine' provider. */
+"wallet.sardineProviderDescription" = "Køb øjeblikkeligt med din bankkonto. Lavere gebyrer.";
+
+/* The name of one of the on ramp provider. */
+"wallet.sardineProviderName" = "Sardine";
+
+/* The short name of one of the on ramp provider. */
+"wallet.sardineProviderShortName" = "Sardine";
 
 /* A button title for saving the users selected gas fee options. Or to save a custom nonce value. Or to save a custom network */
 "wallet.saveButtonTitle" = "Gem";
@@ -1429,9 +1402,6 @@
 /* As in sending cryptocurrency to another account */
 "wallet.send" = "Send";
 
-/* An error that appears below the send amount 4 grids when the user inputs an invalid amount format. */
-"wallet.sendAmountFormatError" = "Ugyldigt beløbsformat";
-
 /* A title above the amount of asset you want to send. '%@' will be replaced with a token symbol such as 'ETH' or 'BAT' */
 "wallet.sendCryptoAmountTitle" = "Indtast mængden af ​​%@ for at sende";
 
@@ -1458,21 +1428,6 @@
 
 /* An error that appears below the send crypto address text field, when the input `To` Filecoin address that is invalid */
 "wallet.sendErrorInvalidRecipientAddress" = "Ugyldig modtageradresse";
-
-/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address error - network mismatch. */
-"wallet.sendErrorZecAddressNetworkMissmatch" = "Uoverensstemmelse mellem netværk";
-
-/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address error - orchard part missing. */
-"wallet.sendErrorZecAddressOrchardPartMissing" = "Orchard-del mangler";
-
-/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address error - transparent part missing. */
-"wallet.sendErrorZecAddressTransparentPartMissing" = "Transparent del mangler";
-
-/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash address error - wrong transparent address. */
-"wallet.sendErrorZecAddressWrongTransparentAddress" = "Forkert transparent adresse";
-
-/* An error that appears below the send crypto address text field, when the input `To` address is an invalid recipient zcash unified address. */
-"wallet.sendErrorZecAddressWrongUnifiedAddress" = "Forkert forenet adresseformat";
 
 /* A placeholder of the address text field. */
 "wallet.sendToCryptoAddressPlaceholder" = "Indtast adresse";
@@ -1541,7 +1496,7 @@
 "wallet.settingsResetWalletAlertMessage" = "Denne handling kan ikke fortrydes. Din gendannelsessætning er den eneste måde at genvinde kontoadgang til dine kryptoaktiver.";
 
 /* The title the confirmation dialog when resetting the wallet. As in to erase the users wallet from the device */
-"wallet.settingsResetWalletAlertTitle" = "Er du sikker på, at du vil nulstille iBrowe Wallet?";
+"wallet.settingsResetWalletAlertTitle" = "Er du sikker på, at du vil nulstille Brave Wallet?";
 
 /* The title that will be displayed when long-pressing the back button in the navigation bar. As in the first step of an onboarding process is to welcome a user. */
 "wallet.setupCryptoButtonBackButtonTitle" = "Velkommen";
@@ -1550,13 +1505,13 @@
 "wallet.setupCryptoButtonTitle" = "Kom godt i gang";
 
 /* The subtitle displayed in the section for user that need to create a brand new wallet */
-"wallet.setupCryptoCreateNewSubTitle" = "Kom i gang med iBrowe Wallet på få minutter.";
+"wallet.setupCryptoCreateNewSubTitle" = "Kom i gang med Brave Wallet på få minutter.";
 
 /* The title displayed in the section for user that need to create a brand new wallet */
 "wallet.setupCryptoCreateNewTitle" = "Har du brug for en ny wallet?";
 
 /* The disclaimer text at the bottom of the first step of onboarding flow. */
-"wallet.setupCryptoDisclaimer" = "©2023 iBrowe Software Inc. iBrowe og iBrowe-logoet er registrerede varemærker tilhørende iBrowe. Andre produktnavne og logoer kan være varemærker tilhørende deres respektive virksomheder. Alle rettigheder forbeholdes.";
+"wallet.setupCryptoDisclaimer" = "©2023 Brave Software Inc. Brave og Brave-logoet er registrerede varemærker tilhørende Brave. Andre produktnavne og logoer kan være varemærker tilhørende deres respektive virksomheder. Alle rettigheder forbeholdes.";
 
 /* The subtitle displayed in the section for user that need to restore an existed wallet */
 "wallet.setupCryptoRestoreSubTitle" = "Importer din eksisterende wallet.";
@@ -1565,7 +1520,7 @@
 "wallet.setupCryptoRestoreTitle" = "Har du allerede en wallet?";
 
 /* The subtitle displayed on the 'setup crypto' onboarding screen */
-"wallet.setupCryptoSubtitle" = "Tag kontrol over din krypto og NFT'er. iBrowe Wallet understøtter Ethereum, EVM-kæder, Solana og mere.";
+"wallet.setupCryptoSubtitle" = "Tag kontrol over din krypto og NFT'er. Brave Wallet understøtter Ethereum, EVM-kæder, Solana og mere.";
 
 /* The title displayed on the 'setup crypto' onboarding screen */
 "wallet.setupCryptoTitle" = "Browserindbyggede.\nSelv-varetægt.\nOg multi-chain.";
@@ -1607,10 +1562,10 @@
 "wallet.signedTransactionTitle" = "Transaktion underskrevet";
 
 /* The title of the view shown above a Sign In With Ethereum request. */
-"wallet.signInWithBraveWallet" = "Log ind med iBrowe Wallet";
+"wallet.signInWithBraveWallet" = "Log ind med Brave Wallet";
 
 /* The title of the view shown when a security issue is detected with a Sign In With Ethereum request. */
-"wallet.signInWithBraveWalletMessage" = "Du logger ind på %1$@. iBrowe Wallet deler din wallet-adresse med %2$@.";
+"wallet.signInWithBraveWalletMessage" = "Du logger ind på %1$@. Brave Wallet deler din wallet-adresse med %2$@.";
 
 /* A warning message to tell users that the sign request message contains consecutive new-line characters. */
 "wallet.signMessageConsecutiveNewlineWarning" = "På hinanden følgende newline-tegn registreret!";
@@ -1676,10 +1631,10 @@
 "wallet.snsDomainInterstitialPageButtonProceed" = "Fortsæt med SNS-server";
 
 /* Description displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. The first '%@' will be replaced with a link to Brave's wiki page which will link to the providersterms of use page and privacy policy page. The last '%@' will be replaced with the value of 'snsDomainInterstitialPagePrivacyPolicy'. */
-"wallet.snsDomainInterstitialPageDescription" = "iBrowe vil bruge en tredjepart til at løse .sol-domænenavne. iBrowe skjuler din IP-adresse. Hvis du aktiverer dette, vil tredjeparten se, at nogen forsøger at besøge disse .sol-domæner, men intet andet. For mere information om, hvilke tredjeparter vi bruger og deres privatlivspolitikker, henvises der til vores <a href=%@>hjælpeside</a>.";
+"wallet.snsDomainInterstitialPageDescription" = "Brave vil bruge en tredjepart til at løse .sol-domænenavne. Brave skjuler din IP-adresse. Hvis du aktiverer dette, vil tredjeparten se, at nogen forsøger at besøge disse .sol-domæner, men intet andet. For mere information om, hvilke tredjeparter vi bruger og deres privatlivspolitikker, henvises der til vores <a href=%@>hjælpeside</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the SNS to be resolved every time they enter one. */
-"wallet.snsDomainInterstitialPageTitle" = "Aktiver support af Solana Name Service (SNS) i iBrowe?";
+"wallet.snsDomainInterstitialPageTitle" = "Aktiver support af Solana Name Service (SNS) i Brave?";
 
 /* A description of an Solana account, displayed in Accounts tab. */
 "wallet.solAccountDescription" = "Solana + SVM-kæder";
@@ -1787,7 +1742,7 @@
 "wallet.solanaSignTransactionDetails" = "Detaljer ";
 
 /* The warning message to let users understand the risk of using Brave Wallet to sign any transaction. */
-"wallet.solanaSignTransactionWarning" = "Vær opmærksom på, at iBrowe ikke kan garantere, hvad der vil ske, hvis du skriver under. En signatur kan godkende næsten enhver form for handling i din konto eller på dine vegne, blandt andet at give fuld kontrol over din konto og crypto-aktiver til siden, der anmoder dig. Skriv kun under, hvis du er sikker på, du vil udføre denne handling og stoler på siden.";
+"wallet.solanaSignTransactionWarning" = "Vær opmærksom på, at Brave ikke kan garantere, hvad der vil ske, hvis du skriver under. En signatur kan godkende næsten enhver form for handling i din konto eller på dine vegne, blandt andet at give fuld kontrol over din konto og crypto-aktiver til siden, der anmoder dig. Skriv kun under, hvis du er sikker på, du vil udføre denne handling og stoler på siden.";
 
 /* The title displayed above the value of a Solana swap transaction in transaction confirmation view, transaction details view and transaction summary rows. */
 "wallet.solanaSwapTransactionTitle" = "Byttetransaktion";
@@ -1837,6 +1792,12 @@
 /* The title for the button to speed up a submitted transaction. */
 "wallet.speedUpTransactionButtonTitle" = "Fremskynd";
 
+/* The description of one of the 'Stripe' provider. */
+"wallet.stripeNetworkProviderDescription" = "Betal med kredit, debet, bankkonto.";
+
+/* The name of one of the on ramp providers where the first '%@' is `Link` and second '%@' is `Stripe` product names. */
+"wallet.stripeNetworkProviderName" = "%1$@ af %2$@";
+
 /* A description explains submitted transaction has been sent to the netwokr and awaits confirmation. */
 "wallet.submittedTransactionDescription" = "Transaktionen er blevet sendt til netværket og afventer bekræftelse.";
 
@@ -1883,7 +1844,7 @@
 "wallet.swapCryptoToTitle" = "Til";
 
 /* The description of where user will see once a test network has been picked in swap screen. '%@' will be replaced with a network such as 'Rinkeby Test Network' or 'Ropsten Test Network' */
-"wallet.swapCryptoUnsupportNetworkBody" = "iBrowe understøtter i øjeblikket ikke swap på %@. Skift til en understøttet kæde.";
+"wallet.swapCryptoUnsupportNetworkBody" = "Brave understøtter i øjeblikket ikke swap på %@. Skift til en understøttet kæde.";
 
 /* The title below account picker when user has selected a test network to swap cryptos */
 "wallet.swapCryptoUnsupportNetworkTitle" = "Ikke-understøttet kæde";
@@ -1895,7 +1856,7 @@
 "wallet.swapDexAggrigatorDisclaimer" = "%1$@ vil behandle %2$@-adressen og IP-adressen for at udføre en transaktion (inklusive at få tilbud). %3$@ vil KUN bruge disse data til at behandle transaktioner.";
 
 /* A disclaimer note shown on the Swap screen. '%@' will be replaced by a company name, ex. '0x' / 'Jupiter'. 'DEX aggregator' is a type of blockchain-based service (decentralized exchange) */
-"wallet.swapDexAggrigatorNote" = "iBrowe bruger %@ som en DEX-aggregator.";
+"wallet.swapDexAggrigatorNote" = "Brave bruger %@ som en DEX-aggregator.";
 
 /* The 'Limit' order type. Limit orders only execute when the price requirements are met */
 "wallet.swapLimitOrderType" = "Grænse";
@@ -2050,6 +2011,15 @@
 /* A title shown for a erc 20 transfer. The first '%@' becomes the symbol for the cryptocurrency For example: "Sent ETH" */
 "wallet.transactionUnknownSendTitle" = "Sendt %@";
 
+/* The description of one of the 'Transak' provider. */
+"wallet.transakProviderDescription" = "Køb øjeblikkeligt med din bankkonto. Lavere gebyrer.";
+
+/* The name of one of the on ramp provider. */
+"wallet.transakProviderName" = "Transak";
+
+/* The short name of one of the on ramp provider. */
+"wallet.transakProviderShortName" = "Transak";
+
 /* Blockchain function name for Solana compressed NFT transfers. */
 "wallet.txFunctionTypeCompressedNFTTransfer" = "Komprimeret NFT-overførsel";
 
@@ -2119,6 +2089,9 @@
 /* The message when a sign transaction is completed/confirmed on the blockchain. */
 "wallet.txStatusSignedConfirmedMsg" = "Transaktionen er blevet underskrevet og vil blive sendt til netværket af dapps og afventer bekræftelse.";
 
+/* The text in the disclosure view in transaction status screen. */
+"wallet.txStatusSubmittedDisclosure" = "Du kan trygt lukke denne skærm.";
+
 /* A message explains an ETH Swap transaction is confirmed on the blockchain. */
 "wallet.txStatusSwappedMsg" = "er blevet føjet til din";
 
@@ -2137,17 +2110,11 @@
 /* The title for the button. User would tap on this button to view the transaction status in the `Activity` tab. */
 "wallet.txStatusViewInActivity" = "Se under Aktivitet";
 
-/* The text in the disclosure view in transaction status screen. */
-"wallet.txStatusSubmittedDisclosure" = "Du kan trygt lukke denne skærm.";
-
-/* The title displays in confirmation screen when there is no more pending transaction. */
-"wallet.txConfirmationNoMorePendingTitle" = "Ikke flere ventende transaktioner";
-
 /* Description displayed when users chose Brave to ask them if they want the Unstoppable Domains to be resolved every time they enter one. The first '%@' will be replaced with a list of supported TLDs like '.x' or '.bitcoin'. The second '%@' be replaced with a link to Infura's terms of use page. The third '%@' will be replaced with the value of 'Web3DomainInterstitialPageTAndU'. The fourth '%@' will be replaced with a link to Infura's privacy policy page. The last '%@' will be replaced with the value of 'Web3DomainInterstitialPagePrivacyPolicy'. */
-"wallet.udDomainInterstitialPageDescription" = "iBrowe vil bruge Infura til at løse .crypto (og også %1$@) domænenavne, der er på Unstoppable Domains. iBrowe skjuler din IP-adresse. Hvis du aktiverer dette, vil Infura se, at nogen forsøger at besøge disse domæner, men intet andet. Se Infuras <a href=%2$@>%3$@</a> og <a href=%4$@>%5$@</a>.";
+"wallet.udDomainInterstitialPageDescription" = "Brave vil bruge Infura til at løse .crypto (og også %1$@) domænenavne, der er på Unstoppable Domains. Brave skjuler din IP-adresse. Hvis du aktiverer dette, vil Infura se, at nogen forsøger at besøge disse domæner, men intet andet. Se Infuras <a href=%2$@>%3$@</a> og <a href=%4$@>%5$@</a>.";
 
 /* Title displayed when users chose Brave to ask them if they want the Unstoppable Domains domain to be resolved every time they enter one. */
-"wallet.udDomainInterstitialPageTitle" = "Aktivér understøttelse af Unstoppable-domæner i iBrowe?";
+"wallet.udDomainInterstitialPageTitle" = "Aktivér understøttelse af Unstoppable-domæner i Brave?";
 
 /* The description for the options to allow Unstoppable Domain domain names. '%@' will be replaced with a url to explain more about Unstoppable Domains. */
 "wallet.udResolveMethodDescription" = "[Learn more](%@) om Unstoppable Domains' privatlivsovervejelser.";
@@ -2283,9 +2250,6 @@
 
 /* The footer of the toggle for user to enable/disable NFT discovery inside Web3 settings. */
 "wallet.web3SettingsEnableNFTDiscoveryFooter" = "Tilføj automatisk NFT'er, du ejer, til Wallet ved hjælp af tredjeparts-API'er. [Få mere at vide](%@)";
-
-/* A description of an ZCash account, displayed in Accounts tab. */
-"wallet.zecAccountDescription" = "ZCash";
 
 /* The title of the sort option that sorts alphabetically from Z to A. Used in Portfolio/NFT filters and display settings. */
 "wallet.zToASortOption" = "Z til A";

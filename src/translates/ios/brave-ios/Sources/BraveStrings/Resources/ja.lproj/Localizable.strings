@@ -1,5 +1,5 @@
 /* A label shown above a list of icons designed by Brave */
-"altAppIcon.braveIconsHeader" = "iBroweアイコン";
+"altAppIcon.braveIconsHeader" = "Braveアイコン";
 
 /* The title for the screen that lets the user select a custom app icon */
 "altAppIcon.changeAppIcon" = "アプリのアイコンを変更";
@@ -35,7 +35,7 @@
 "newTabTakeoverInfoBarLearnMoreOptOutChoices" = "詳細 / オプトアウトの選択";
 
 /* The text of new tab takeover infobar message. */
-"NewTabTakeoverInfoBarMessage" = "スポンサー画像は、ユーザーファーストの独立したウェブを構築するというiBroweのミッションをサポートしています。また、ビッグテックとは異なり、あなたのプライバシーを守るために匿名で広告パフォーマンスを測定します。";
+"NewTabTakeoverInfoBarMessage" = "スポンサー画像は、ユーザーファーストの独立したウェブを構築するというBraveのミッションをサポートしています。また、ビッグテックとは異なり、あなたのプライバシーを守るために匿名で広告パフォーマンスを測定します。";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "NewTabTitle" = "新しいタブ";
@@ -49,18 +49,6 @@
 /* Title label text for refreshing credentials from brave site. */
 "paywall.alreadyPurchasedTitle" = "brave.comで購入済みですか？";
 
-/* A subtitle shown on the checkout button that denotes that this checkout option is full price */
-"paywall.appStoreCheckoutOptionSubtitle" = "通常価格";
-
-/* The checkout option that lets the user use Apple's standard App Store puchase flow */
-"paywall.appStoreCheckoutOptionTitle" = "App Store";
-
-/* A subtitle shown on the checkout button that denotes that this checkout option is discounted. The first `%@` is replaced with a promo code, the second `%@` is replaced by the discount percentage */
-"paywall.braveAccountCheckoutOptionSubtitle" = "コード **%1$@** で %2$@ オフ";
-
-/* The checkout option that lets the user use Brave's own purchase flow */
-"paywall.braveAccountCheckoutOptionTitle" = "iBroweアカウント";
-
 /* Title label text for entering a promo code. */
 "paywall.havePromoCodeTitle" = "プロモコードをお持ちですか？";
 
@@ -69,12 +57,6 @@
 
 /* Button action text for refreshing credentials from brave site. */
 "paywall.refreshCredentialsButtonTitle" = "認証情報を更新";
-
-/* Text shown above buttons that give the user the option to choose a checkout option */
-"paywall.startTrialSubtitle" = "ご都合の良い支払い方法をお選びください: ";
-
-/* Text shown above buttons that give the user the option to start a trial */
-"paywall.startTrialTitle" = "7日間の無料トライアルを開始";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts used for opening recently closed tab. */
 "RecentlyClosedTabTitle" = "閉じたタブを再度開く";
@@ -86,7 +68,7 @@
 "searchResultAdClickedInfoBarLearnMoreOptOutChoices" = "詳細 / オプトアウトの選択";
 
 /* The text label of creative search result ad infobar message. */
-"searchResultAdClickedInfoBarMessage" = "プライベート広告をクリックしてiBroweサーチをサポートしてくださり、ありがとうございます。私たちはビッグテックとは異なり、あなたのプライバシーを保護するために匿名で広告パフォーマンスを測定しています。";
+"searchResultAdClickedInfoBarMessage" = "プライベート広告をクリックしてBraveサーチをサポートしてくださり、ありがとうございます。私たちはビッグテックとは異なり、あなたのプライバシーを保護するために匿名で広告パフォーマンスを測定しています。";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts */
 "SelectLocationBarTitle" = "ロケーションバーを選択";
@@ -107,7 +89,7 @@
 "ShowPreviousTabTitle" = "前のタブを表示";
 
 /* Label to display in the Discoverability overlay for keyboard shortcuts which is for Showing Brave Shields */
-"showShieldsTitle" = "iBrowe Shieldを開く";
+"showShieldsTitle" = "Brave Shieldを開く";
 
 /* Hardware shortcut to open the tab tray from a tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "ShowTabTrayFromTabKeyCodeTitle" = "すべてのタブを表示";
@@ -116,10 +98,10 @@
 "storekitReceiptViewer.applicationVersionTitle" = "アプリケーション・バージョン";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.leoMonthlySubscriptionName" = "iBrowe Leo (月額プラン)";
+"storekitReceiptViewer.leoMonthlySubscriptionName" = "Brave Leo (月額プラン)";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.leoYearlySubscriptionName" = "iBrowe Leo (年間購読)";
+"storekitReceiptViewer.leoYearlySubscriptionName" = "Brave Leo (年間購読)";
 
 /* The error message when the App Store Receipt was not found in the Application Bundle */
 "storekitReceiptViewer.noReceiptFoundTitle" = "申し訳ありませんが、App Storeのレシートは見つかりませんでした";
@@ -161,10 +143,10 @@
 "storekitReceiptViewer.shareReceiptTitle" = "株式領収書";
 
 /* The title of the product subscription the user purchased (Monthly subscription) */
-"storekitReceiptViewer.vpnMonthlySubscriptionName" = "月刊iBrowe VPN";
+"storekitReceiptViewer.vpnMonthlySubscriptionName" = "月刊Brave VPN";
 
 /* The title of the product subscription the user purchased (Yearly subscription) */
-"storekitReceiptViewer.vpnYearlySubscriptionName" = "iBrowe VPN年鑑";
+"storekitReceiptViewer.vpnYearlySubscriptionName" = "Brave VPN年鑑";
 
 /* Hardware shortcut for non-private tab or tab. Shown in the Discoverability overlay when the hardware Command Key is held down. */
 "SwitchToNonPBMKeyCodeTitle" = "通常ブラウジングモード";

@@ -1,0 +1,19 @@
+diff --git a/browser/brave_profile_prefs.cc b/browser/brave_profile_prefs.cc
+index df6432761908f8e854bbe6af00cdc680e28f0fc6..ffcc5b735610b0b314da682c85785755d8b644e4 100644
+--- a/browser/brave_profile_prefs.cc
++++ b/browser/brave_profile_prefs.cc
+@@ -402,12 +402,12 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
+   registry->RegisterStringPref(kNewTabPageClockFormat, "");
+   registry->RegisterBooleanPref(kNewTabPageShowStats, true);
+   registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
+-  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, true);
++  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, false);
+   registry->RegisterBooleanPref(kBraveTalkDisabledByPolicy, false);
+   registry->RegisterBooleanPref(kNewTabPageHideAllWidgets, false);
+ 
+ #if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  registry->RegisterBooleanPref(kNewTabPageShowBraveVPN, true);
++  registry->RegisterBooleanPref(kNewTabPageShowBraveVPN, false);
+ #endif
+ 
+ // Private New Tab Page
