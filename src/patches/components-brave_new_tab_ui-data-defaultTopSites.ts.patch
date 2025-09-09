@@ -1,0 +1,13 @@
+diff --git a/components/brave_new_tab_ui/data/defaultTopSites.ts b/components/brave_new_tab_ui/data/defaultTopSites.ts
+index de60029ecdc39975a7863cf93204d10a30eea2f1..ad99312b71c34c756016ddfc060a6441bc979fb1 100644
+--- a/components/brave_new_tab_ui/data/defaultTopSites.ts
++++ b/components/brave_new_tab_ui/data/defaultTopSites.ts
+@@ -30,7 +30,7 @@ export const defaultTopSitesData = [
+   },
+   {
+     name: 'Play Store',
+-    url: 'https://play.google.com/store/apps/details?id=com.brave.browser&hl=en_US',
++    url: 'https://play.google.com/store/apps/details?id=com.ibrowe108.browser&hl=en_US',
+     favicon: PlayStoreFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   },

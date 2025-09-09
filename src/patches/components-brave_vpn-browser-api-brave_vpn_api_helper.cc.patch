@@ -1,0 +1,13 @@
+diff --git a/components/brave_vpn/browser/api/brave_vpn_api_helper.cc b/components/brave_vpn/browser/api/brave_vpn_api_helper.cc
+index d8bf40bf4ecdb45b7b158b7e7a8b8f000753df10..15204b801139ea5673c23d3426816cf60d8466c3 100644
+--- a/components/brave_vpn/browser/api/brave_vpn_api_helper.cc
++++ b/components/brave_vpn/browser/api/brave_vpn_api_helper.cc
+@@ -110,7 +110,7 @@ base::Value::Dict GetValueWithTicketInfos(
+   dict.Set(kSupportTicketEmailKey, email_trimmed);
+   dict.Set(kSupportTicketSubjectKey, subject_trimmed);
+   dict.Set(kSupportTicketSupportTicketKey, base::Base64Encode(body_trimmed));
+-  dict.Set(kSupportTicketPartnerClientIdKey, "com.brave.browser");
++  dict.Set(kSupportTicketPartnerClientIdKey, "com.ibrowe.browser");
+   dict.Set(kSupportTicketTimezoneKey, timezone);
+ 
+   return dict;

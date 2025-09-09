@@ -1,0 +1,24 @@
+diff --git a/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift b/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
+index 17aa2c3937ee6578897c568f8f54c8d1b1828c80..264e1196e2d518ff2aae9f34207cf7bb345bf9ab 100644
+--- a/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
++++ b/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
+@@ -111,8 +111,8 @@ public class FeedDataSource: ObservableObject {
+   public var getAdsAPI: (() -> BraveAds)?
+   public var historyAPI: BraveHistoryAPI?
+ 
+-  private let todayQueue = DispatchQueue(label: "com.brave.today")
+-  private let reloadQueue = DispatchQueue(label: "com.brave.today.reload")
++  private let todayQueue = DispatchQueue(label: "com.ibrowe.today")
++  private let reloadQueue = DispatchQueue(label: "com.ibrowe.today.reload")
+ 
+   struct FeedDecodingError: Identifiable {
+     var id: UUID = .init()
+@@ -1037,7 +1037,7 @@ public class FeedDataSource: ObservableObject {
+       )
+       // Move to OSSignposter when we're 15+
+       let log = OSLog(
+-        subsystem: Bundle.main.bundleIdentifier ?? "com.brave.ios",
++        subsystem: Bundle.main.bundleIdentifier ?? "com.ibrowe.ios",
+         category: "Brave News"
+       )
+       let signpostID = OSSignpostID(log: log)

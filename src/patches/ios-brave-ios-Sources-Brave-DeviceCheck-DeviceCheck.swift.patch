@@ -1,0 +1,31 @@
+diff --git a/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift b/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift
+index d597584841fc1da62002cdcf07d8b32acb14265c..82e51c2ea04c711b166362868b7f02bca126100a 100644
+--- a/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift
++++ b/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift
+@@ -28,7 +28,7 @@ public struct DeviceCheckRegistration: Codable {
+     guard let data = Data(base64Encoded: try container.decode(String.self, forKey: .enrollmentBlob))
+     else {
+       throw NSError(
+-        domain: "com.brave.device.check.enrollment",
++        domain: "com.ibrowe.device.check.enrollment",
+         code: -1,
+         userInfo: [
+           NSLocalizedDescriptionKey: "Cannot decode enrollmentBlob"
+@@ -91,7 +91,7 @@ public struct AttestationVerifcation: Codable {
+       let data = Data(base64Encoded: try container.decode(String.self, forKey: .attestationBlob))
+     else {
+       throw NSError(
+-        domain: "com.brave.device.check.enrollment",
++        domain: "com.ibrowe.device.check.enrollment",
+         code: -1,
+         userInfo: [
+           NSLocalizedDescriptionKey: "Cannot decode attestationBlob"
+@@ -139,7 +139,7 @@ public struct Attestation: Codable {
+ public class DeviceCheckClient {
+ 
+   // The ID of the private-key stored in the secure-enclave chip
+-  private static let privateKeyId = "com.brave.device.check.private.key"
++  private static let privateKeyId = "com.ibrowe.device.check.private.key"
+ 
+   // The current build environment
+   private let environment: BraveRewards.Configuration.Environment

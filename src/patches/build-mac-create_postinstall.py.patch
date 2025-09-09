@@ -1,0 +1,13 @@
+diff --git a/build/mac/create_postinstall.py b/build/mac/create_postinstall.py
+index f42a0d7ab5e1765cc7da2bfe1400599cb21a6a85..85241da94f02eeede5d0010e89460c13b91bbd47 100755
+--- a/build/mac/create_postinstall.py
++++ b/build/mac/create_postinstall.py
+@@ -31,7 +31,7 @@ def main():
+         'KSProductID': 'CFBundleIdentifier',
+         'KSVersion': 'CFBundleShortVersionString',
+         '/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/'
+-        'Contents/MacOS/ksadmin': '/Library/Application Support/BraveSoftware'
++        'Contents/MacOS/ksadmin': '/Library/Application Support/iBroweSoftware'
+         '/BraveUpdater/Current/BraveUpdater.app/'
+         'Contents/Helpers/BraveSoftwareUpdate.bundle/'
+         'Contents/Helpers/ksadmin'

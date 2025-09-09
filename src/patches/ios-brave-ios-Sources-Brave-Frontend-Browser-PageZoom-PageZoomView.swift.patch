@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/PageZoom/PageZoomView.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/PageZoom/PageZoomView.swift
+index 3365f612ea9d57e30c7fb9eabb529184a6cbbb5c..cde706848e991406b0b0f04c491d7ce424395f3f 100644
+--- a/ios/brave-ios/Sources/Brave/Frontend/Browser/PageZoom/PageZoomView.swift
++++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/PageZoom/PageZoomView.swift
+@@ -93,7 +93,7 @@ struct PageZoomView: View {
+     $0.minimumFractionDigits = 0
+   }
+ 
+-  public static let notificationName = Notification.Name(rawValue: "com.brave.pagezoom-change")
++  public static let notificationName = Notification.Name(rawValue: "com.ibrowe.pagezoom-change")
+ 
+   var dismiss: (() -> Void)?
+ 

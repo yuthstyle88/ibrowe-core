@@ -1,0 +1,67 @@
+diff --git a/ios/brave-ios/fastlane/Fastfile b/ios/brave-ios/fastlane/Fastfile
+index 23c8d736664c5b3f11d5348c46b4aec90be37034..6689aefb7a067c72fe17dc05b49ff9b65c4959a3 100644
+--- a/ios/brave-ios/fastlane/Fastfile
++++ b/ios/brave-ios/fastlane/Fastfile
+@@ -38,13 +38,13 @@ platform :ios do
+       export_options: {
+         manageAppVersionAndBuildNumber: false,
+         provisioningProfiles: {
+-          "com.brave.ios.browser.beta" => "Brave iOS Beta",
+-          "com.brave.ios.browser.beta.ActionExtension" => "Brave iOS Beta Action Extension",
+-          "com.brave.ios.browser.beta.ShareExtension" => "Brave iOS Beta Share Extension",
+-          "com.brave.ios.browser.beta.BrowserIntents" => "Brave iOS Beta Intents Extension",
+-          "com.brave.ios.browser.beta.BraveWidgetsExtension" => "Brave iOS Beta Widgets Extension",
+-          "com.brave.ios.browser.beta.BraveWireGuard" => "Brave iOS Beta Wireguard Extension",
+-          "com.brave.ios.browser.beta.AutoFillProvider" => "Brave iOS Beta AutoFill Provider",
++          "com.ibrowe.ios.browser.beta" => "Brave iOS Beta",
++          "com.ibrowe.ios.browser.beta.ActionExtension" => "Brave iOS Beta Action Extension",
++          "com.ibrowe.ios.browser.beta.ShareExtension" => "Brave iOS Beta Share Extension",
++          "com.ibrowe.ios.browser.beta.BrowserIntents" => "Brave iOS Beta Intents Extension",
++          "com.ibrowe.ios.browser.beta.BraveWidgetsExtension" => "Brave iOS Beta Widgets Extension",
++          "com.ibrowe.ios.browser.beta.BraveWireGuard" => "Brave iOS Beta Wireguard Extension",
++          "com.ibrowe.ios.browser.beta.AutoFillProvider" => "Brave iOS Beta AutoFill Provider",
+         },
+       }
+     }
+@@ -59,13 +59,13 @@ platform :ios do
+       export_options: {
+         manageAppVersionAndBuildNumber: false,
+         provisioningProfiles: {
+-          "com.brave.ios.BrowserBeta" => "Brave iOS Nightly",
+-          "com.brave.ios.BrowserBeta.ActionExtension" => "Brave iOS Nightly Action Extension",
+-          "com.brave.ios.BrowserBeta.ShareExtension" => "Brave iOS Nightly Share Extension",
+-          "com.brave.ios.BrowserBeta.BrowserIntents" => "Brave iOS Nightly Intents Extension",
+-          "com.brave.ios.BrowserBeta.BraveWidgetsExtension" => "Brave iOS Nightly Widgets Extension",
+-          "com.brave.ios.BrowserBeta.BraveWireGuard" => "Brave iOS Nightly Wireguard Extension",
+-          "com.brave.ios.BrowserBeta.AutoFillProvider" => "Brave iOS Nightly AutoFill Provider",
++          "com.ibrowe.ios.BrowserBeta" => "Brave iOS Nightly",
++          "com.ibrowe.ios.BrowserBeta.ActionExtension" => "Brave iOS Nightly Action Extension",
++          "com.ibrowe.ios.BrowserBeta.ShareExtension" => "Brave iOS Nightly Share Extension",
++          "com.ibrowe.ios.BrowserBeta.BrowserIntents" => "Brave iOS Nightly Intents Extension",
++          "com.ibrowe.ios.BrowserBeta.BraveWidgetsExtension" => "Brave iOS Nightly Widgets Extension",
++          "com.ibrowe.ios.BrowserBeta.BraveWireGuard" => "Brave iOS Nightly Wireguard Extension",
++          "com.ibrowe.ios.BrowserBeta.AutoFillProvider" => "Brave iOS Nightly AutoFill Provider",
+         },
+       }
+     }
+@@ -80,13 +80,13 @@ platform :ios do
+       export_options: {
+         method: "app-store",
+         provisioningProfiles: {
+-          "com.brave.ios.browser" => "Brave iOS Release",
+-          "com.brave.ios.browser.ActionExtension" => "Brave iOS Release Action Extension",
+-          "com.brave.ios.browser.ShareExtension" => "Brave iOS Release Share Extension",
+-          "com.brave.ios.browser.BrowserIntents" => "Brave iOS Release Intents Extension",
+-          "com.brave.ios.browser.BraveWidgetsExtension" => "Brave iOS Release Widgets Extension",
+-          "com.brave.ios.browser.BraveWireGuard" => "Brave iOS Release WireGuard Extension",
+-          "com.brave.ios.browser.AutoFillProvider" => "Brave iOS Release AutoFill Provider",
++          "com.ibrowe.ios.browser" => "Brave iOS Release",
++          "com.ibrowe.ios.browser.ActionExtension" => "Brave iOS Release Action Extension",
++          "com.ibrowe.ios.browser.ShareExtension" => "Brave iOS Release Share Extension",
++          "com.ibrowe.ios.browser.BrowserIntents" => "Brave iOS Release Intents Extension",
++          "com.ibrowe.ios.browser.BraveWidgetsExtension" => "Brave iOS Release Widgets Extension",
++          "com.ibrowe.ios.browser.BraveWireGuard" => "Brave iOS Release WireGuard Extension",
++          "com.ibrowe.ios.browser.AutoFillProvider" => "Brave iOS Release AutoFill Provider",
+         },
+         manageAppVersionAndBuildNumber: false
+       },

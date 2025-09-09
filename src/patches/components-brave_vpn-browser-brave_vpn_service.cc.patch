@@ -1,0 +1,13 @@
+diff --git a/components/brave_vpn/browser/brave_vpn_service.cc b/components/brave_vpn/browser/brave_vpn_service.cc
+index 0fd71bd0e91e35c48538536d7c7e2b143e5e9b4a..9b5ff65eed0cb315974fb38ff88007e55fe82647 100644
+--- a/components/brave_vpn/browser/brave_vpn_service.cc
++++ b/components/brave_vpn/browser/brave_vpn_service.cc
+@@ -507,7 +507,7 @@ void BraveVpnService::OnFetchRegionList(GetAllRegionsCallback callback,
+ 
+ void BraveVpnService::GetPurchaseToken(GetPurchaseTokenCallback callback) {
+   std::string purchase_token_string = "";
+-  std::string package_string = "com.brave.browser";
++  std::string package_string = "com.ibrowe.browser";
+   std::string product_id_string = "brave-firewall-vpn-premium";
+ 
+   // Get the Android purchase token (for Google Play Store).

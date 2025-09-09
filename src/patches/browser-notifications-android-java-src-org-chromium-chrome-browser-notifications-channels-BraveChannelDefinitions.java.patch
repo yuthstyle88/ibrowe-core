@@ -1,0 +1,22 @@
+diff --git a/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/BraveChannelDefinitions.java b/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/BraveChannelDefinitions.java
+index 066d360050a0289a6226cb86400a95778fda3e68..309fa2ae5111d3a58cda007a734886b6bbebaf32 100644
+--- a/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/BraveChannelDefinitions.java
++++ b/browser/notifications/android/java/src/org/chromium/chrome/browser/notifications/channels/BraveChannelDefinitions.java
+@@ -19,13 +19,13 @@ import java.util.Set;
+ 
+ public class BraveChannelDefinitions {
+     public static class ChannelId {
+-        public static final String BRAVE_ADS = "com.brave.browser.ads";
+-        public static final String BRAVE_ADS_BACKGROUND = "com.brave.browser.ads.background";
+-        public static final String BRAVE_BROWSER = "com.brave.browser";
++        public static final String BRAVE_ADS = "com.ibrowe108.browser.ads";
++        public static final String BRAVE_ADS_BACKGROUND = "com.ibrowe108.browser.ads.background";
++        public static final String BRAVE_BROWSER = "com.ibrowe108.browser";
+     }
+ 
+     public static class ChannelGroupId {
+-        public static final String BRAVE_ADS = "com.brave.browser.ads";
++        public static final String BRAVE_ADS = "com.ibrowe108.browser.ads";
+         public static final String GENERAL = "general";
+     }
+ 

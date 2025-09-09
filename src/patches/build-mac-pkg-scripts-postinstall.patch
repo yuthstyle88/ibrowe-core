@@ -1,0 +1,13 @@
+diff --git a/build/mac/pkg-scripts/postinstall b/build/mac/pkg-scripts/postinstall
+index e626fc4b9381faa595d1ec59db50c3beaab3fb04..6ffc5d7da5eb796d32d307154d93c619cd21362d 100755
+--- a/build/mac/pkg-scripts/postinstall
++++ b/build/mac/pkg-scripts/postinstall
+@@ -33,7 +33,7 @@ fi
+ 
+ appNameNoDash=$(echo $appName | sed "s/-/ /g")
+ installationAppPath="$installationPath/${appNameNoDash}.app"
+-userDataDir="$HOME/Library/Application Support/BraveSoftware"
++userDataDir="$HOME/Library/Application Support/iBroweSoftware"
+ appDataDir="$userDataDir/${appName}"
+ promoCodePath="$appDataDir/promoCode"
+ 

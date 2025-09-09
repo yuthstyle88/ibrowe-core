@@ -1,0 +1,15 @@
+diff --git a/chromium_src/components/os_crypt/sync/key_storage_linux.cc b/chromium_src/components/os_crypt/sync/key_storage_linux.cc
+index db6e7fe62908778f9b8a9c0b1fd1a8becad735ef..e415bda85bfffd752d0c878b158a40ef70b4a1a5 100644
+--- a/chromium_src/components/os_crypt/sync/key_storage_linux.cc
++++ b/chromium_src/components/os_crypt/sync/key_storage_linux.cc
+@@ -8,8 +8,8 @@
+ #include "base/logging.h"
+ 
+ #define BRAVE_KEY_STORAGE_LINUX                             \
+-  const char KeyStorageLinux::kFolderName[] = "Brave Keys"; \
+-  const char KeyStorageLinux::kKey[] = "Brave Safe Storage";
++  const char KeyStorageLinux::kFolderName[] = "iBrowe Keys"; \
++  const char KeyStorageLinux::kKey[] = "iBrowe Safe Storage";
+ 
+ #define BRAVE_KEY_STORAGE_LINUX_CREATE_SERVICE                          \
+   if (use_backend && config.store.empty() &&                            \

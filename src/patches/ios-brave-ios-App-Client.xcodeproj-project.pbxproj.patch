@@ -1,0 +1,58 @@
+diff --git a/ios/brave-ios/App/Client.xcodeproj/project.pbxproj b/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
+index 75202e9ea247822ce5dcbaaa6d07d0131d154819..e57d9971547298ed0ea310db0db59cdf3a426538 100644
+--- a/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
++++ b/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
+@@ -1939,7 +1939,7 @@
+ 				MARKETING_VERSION = 1;
+ 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+ 				MTL_FAST_MATH = YES;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios.WebShell;
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.WebShell;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -1983,7 +1983,7 @@
+ 				MARKETING_VERSION = 1;
+ 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+ 				MTL_FAST_MATH = YES;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios.WebShell;
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.WebShell;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2025,7 +2025,7 @@
+ 				);
+ 				MARKETING_VERSION = 1;
+ 				MTL_FAST_MATH = YES;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios.WebShell;
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.WebShell;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2068,7 +2068,7 @@
+ 				);
+ 				MARKETING_VERSION = 1;
+ 				MTL_FAST_MATH = YES;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios.WebShell;
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.WebShell;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2111,7 +2111,7 @@
+ 				);
+ 				MARKETING_VERSION = 1;
+ 				MTL_FAST_MATH = YES;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios.WebShell;
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.WebShell;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";
+@@ -2154,7 +2154,7 @@
+ 				);
+ 				MARKETING_VERSION = 1;
+ 				MTL_FAST_MATH = YES;
+-				PRODUCT_BUNDLE_IDENTIFIER = com.brave.ios.WebShell;
++				PRODUCT_BUNDLE_IDENTIFIER = com.ibrowe.ios.WebShell;
+ 				PRODUCT_NAME = "$(TARGET_NAME)";
+ 				SWIFT_VERSION = 5.0;
+ 				TARGETED_DEVICE_FAMILY = "1,2";

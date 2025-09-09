@@ -1,0 +1,17 @@
+diff --git a/android/java/org/chromium/chrome/browser/util/BraveConstants.java b/android/java/org/chromium/chrome/browser/util/BraveConstants.java
+index a1b425e6be03e25bedc21548ebf5582800255808..7a65abca2cbc7166abe7a743e84320dc6dc283c1 100644
+--- a/android/java/org/chromium/chrome/browser/util/BraveConstants.java
++++ b/android/java/org/chromium/chrome/browser/util/BraveConstants.java
+@@ -17,9 +17,9 @@ public final class BraveConstants {
+     // used in BravseSetDefaultBrowserUtils
+     public static final int DEFAULT_BROWSER_ROLE_REQUEST_CODE = 37;
+ 
+-    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.brave.browser";
+-    public static final String BRAVE_BETA_PACKAGE_NAME = "com.brave.browser_beta";
+-    public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.brave.browser_nightly";
++    public static final String BRAVE_PRODUCTION_PACKAGE_NAME = "com.ibrowe108.browser";
++    public static final String BRAVE_BETA_PACKAGE_NAME = "com.ibrowe108.browser_beta";
++    public static final String BRAVE_NIGHTLY_PACKAGE_NAME = "com.ibrowe108.browser_nightly";
+ 
+     // used in BraveNtpAdapter
+     public static final String BRAVE_REF_URL = "https://brave.com/r/";

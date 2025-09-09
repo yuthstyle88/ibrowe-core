@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/App/iOS/Delegates/SceneDelegate.swift b/ios/brave-ios/App/iOS/Delegates/SceneDelegate.swift
+index 38e8a18ea4f07b02970c0e3acc0ed18cb8195e18..50ec64acb4e3f0bf39b893429f37daedc15ff0a9 100644
+--- a/ios/brave-ios/App/iOS/Delegates/SceneDelegate.swift
++++ b/ios/brave-ios/App/iOS/Delegates/SceneDelegate.swift
+@@ -25,7 +25,7 @@ import os.log
+ extension Logger {
+   fileprivate static var module: Logger {
+     .init(
+-      subsystem: "\(Bundle.main.bundleIdentifier ?? "com.brave.ios")",
++      subsystem: "\(Bundle.main.bundleIdentifier ?? "com.ibrowe.ios")",
+       category: "SceneDelegate"
+     )
+   }

@@ -1,0 +1,26 @@
+diff --git a/android/java/org/chromium/chrome/browser/app/BraveActivity.java b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
+index c7a7260db51ca55cd190d53dbac15baebf5993ce..50bd11e432e2d11086690a19878a86a8f93adb03 100644
+--- a/android/java/org/chromium/chrome/browser/app/BraveActivity.java
++++ b/android/java/org/chromium/chrome/browser/app/BraveActivity.java
+@@ -44,9 +44,9 @@ import androidx.lifecycle.MutableLiveData;
+ import androidx.recyclerview.widget.LinearLayoutManager;
+ import androidx.recyclerview.widget.RecyclerView;
+ 
+-import com.brave.playlist.util.ConstantUtils;
+-import com.brave.playlist.util.PlaylistPreferenceUtils;
+-import com.brave.playlist.util.PlaylistUtils;
++import com.ibrowe108.playlist.util.ConstantUtils;
++import com.ibrowe108.playlist.util.PlaylistPreferenceUtils;
++import com.ibrowe108.playlist.util.PlaylistUtils;
+ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
+ import com.google.android.play.core.appupdate.AppUpdateInfo;
+ import com.google.android.play.core.appupdate.AppUpdateManager;
+@@ -299,7 +299,7 @@ public abstract class BraveActivity extends ChromeActivity
+             Build.VERSION.SDK_INT < Build.VERSION_CODES.UPSIDE_DOWN_CAKE;
+ 
+     /** Settings for sending local notification reminders. */
+-    public static final String CHANNEL_ID = "com.brave.browser";
++    public static final String CHANNEL_ID = "com.ibrowe108.browser";
+ 
+     // Explicitly declare this variable to avoid build errors.
+     // It will be removed in asm and parent variable will be used instead.

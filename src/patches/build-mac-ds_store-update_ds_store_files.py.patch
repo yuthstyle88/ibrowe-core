@@ -1,0 +1,13 @@
+diff --git a/build/mac/ds_store/update_ds_store_files.py b/build/mac/ds_store/update_ds_store_files.py
+index 90c4c5a49bf70802c9ec75a030cd6027ece645bf..be7d5b627e9e7b8f317a3a9ac95a425603d69186 100644
+--- a/build/mac/ds_store/update_ds_store_files.py
++++ b/build/mac/ds_store/update_ds_store_files.py
+@@ -21,7 +21,7 @@ from uuid import uuid4
+ 
+ def main():
+     for channel in ('', 'Nightly', 'Beta', 'Release'):
+-        app_name = 'Brave Browser' + (f' {channel}' if channel else '')
++        app_name = 'iBrowe Browser' + (f' {channel}' if channel else '')
+         ds_store = 'DS_Store' + (f'.{channel.lower()}' if channel else '')
+         create_ds_store(app_name, '../dmg-background.png', f'{ds_store}')
+ 

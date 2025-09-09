@@ -1,0 +1,22 @@
+diff --git a/ios/brave-ios/Sources/BraveShared/Extensions/URLSessionExtensions.swift b/ios/brave-ios/Sources/BraveShared/Extensions/URLSessionExtensions.swift
+index 8cc03c784f97b1a3ffdb4bcb6e4e20674764e95b..91bd2fc6f0fedd36e04074830a4a10f35e110961 100644
+--- a/ios/brave-ios/Sources/BraveShared/Extensions/URLSessionExtensions.swift
++++ b/ios/brave-ios/Sources/BraveShared/Extensions/URLSessionExtensions.swift
+@@ -37,7 +37,7 @@ extension URLSession {
+           return completion(
+             .failure(
+               NSError(
+-                domain: "com.brave.url.session.build-request",
++                domain: "com.ibrowe.url.session.build-request",
+                 code: -1,
+                 userInfo: [NSLocalizedDescriptionKey: "No data returned from the server"]
+               )
+@@ -168,7 +168,7 @@ extension URLSession {
+           queryParameters.append(URLQueryItem(name: item.key, value: value))
+         } else {
+           throw NSError(
+-            domain: "com.brave.url.session.build-request",
++            domain: "com.ibrowe.url.session.build-request",
+             code: -1,
+             userInfo: [
+               NSLocalizedDescriptionKey:
