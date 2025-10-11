@@ -126,8 +126,8 @@
 <translation id="730042046912793465">Ini adalah</translation>
 <translation id="2055363275850890030">Tetingkap Peribadi</translation>
 <translation id="9133213713928851646">iBrowe tidak ingat apa yang anda lakukan dalam Tetingkap Peribadi. Laman yang anda lawati tidak akan muncul dalam sejarah anda, dan kuki akan hilang apabila anda siap. Walaubagaimanapun, Tetingkap Peribadi tidak membuat anda tanpa nama secara keseluruhan atas talian.</translation>
-<translation id="4491905831789757331">iBrowe tidak pernah mengingati aktiviti anda dalam Tetingkap Peribadi. Laman yang anda lawati tidak akan muncul dalam sejarah pelayaran. Kuki, data borang dan data laman akan hilang sebaik sahaja semua tetingkap peribadi ditutup.</translation>
-<translation id="1700746046668116047">Sila ambil perhatian bahawa aktiviti and masih boleh dilihat oleh penyedia perkhidmatan internet anda, pemerhati rangkaian pasif, atau majikan anda (jika anda menggunakan mesin atau rangkaian kerja). Untuk lebih privasi, buka tetingkap peribadi dengan Tor.</translation>
+<translation id="5280085559200511517">iBrowe tidak pernah mengingati apa yang anda lakukan dalam Tetingkap Privet. Laman yang anda lawati tidak akan tertera dalam sejarah anda. Kuki, data borang, dan data laman hilang sejurus anda menutup semua tetingkap privet yang terbuka. Harap maklum bahawa aktiviti anda masih boleh dilihat oleh penyedia perkhidmatan Internet anda, pemerhati rangkaian pasif, atau majikan anda (jika anda menggunakan mesin atau rangkaian kerja).</translation>
+<translation id="2517912602053665378">Untuk lebih privasi, buka tetingkap peribadi dengan Tor.</translation>
 <translation id="8759753423332885148">Ketahui lebih lanjut.</translation>
 <translation id="8611976753572844841">Window Peribadi dengan sambungan Tor</translation>
 <translation id="1645589858096839236">iBrowe tidak menyimpan aktiviti semak imbas daripada Windows Peribadi. Dengan sambungan Tor, proses menjadi lebih sukar untuk laman melihat alamat IP sebenar anda dan untuk pemerhati rangkaian melihat jenis laman yang anda lawati. Bagaimanapun, jika keselamatan diri anda bergantung pada kekal sebagai awanama, gunakan Pelayar Tor sebagai ganti.</translation>
@@ -148,7 +148,7 @@
 <translation id="2701204441419443612">Masih menyambung...</translation>
 <translation id="8813986611396294203">Rangkaian Tor agak perlahan</translation>
 <translation id="2795840524629682765">Sambungan Tor gagal</translation>
-<translation id="1149108864689950951">Tor sedang bersambung... [[percentage]]%</translation>
+<translation id="9102894004288640876">Tor sedang menyambung... <ph name="PERCENTAGE"/>%</translation>
 <translation id="3651192084771403430">Mengalami masalah mendapatkan sambungan? Cuba <ph name="BEGIN_LINK"/>matikan<ph name="END_LINK"/> Tetingkap Private dengan Tor dan hidupkan kembali dalam tetapan.</translation>
 <translation id="8834376622642889380">Buka <ph name="BEGIN_LINK"/>Tetapan iBrowe<ph name="END_LINK"/>, lumpuhkan Tetingkap Peribadi dengan Tor, kemudian dayakan semula.</translation>
 <translation id="1576202729986800142"><ph name="BEGIN_BOLD"/>Masih menghadapi masalah?<ph name="END_BOLD"/> Cuba gunakan <ph name="BEGIN_BRIDGES_LINK"/>jambatan<ph name="END_BRIDGES_LINK"/> atau <ph name="BEGIN_SUPPORT_LINK"/>hubungi sokongan<ph name="END_SUPPORT_LINK"/>.</translation>
@@ -170,19 +170,33 @@
 <translation id="5334844597069022743">Lihat sumber</translation>
 <translation id="4720556299488643018">Henti langganan</translation>
 <translation id="1209739344687072997">Laporkan laman yang terputus-putus</translation>
-<translation id="8510478288840333677">Beritahu pembangun iBrowe yang laman ini tidak berfungsi dengan baik dengan Shields:</translation>
+<translation id="2961941250324390287">Beritahu pembangun iBrowe laman ini tidak berfungsi seperti sepatutnya:</translation>
 <translation id="3110968385867124099">Halaman ini tidak dapat dilaporkan kerana ia tidak dapat digunakan melalui HTTP/HTTPS.</translation>
 <translation id="7907023135990310743">Halaman ini ialah halaman web setempat dan ia tidak layak untuk pelaporan.</translation>
 <translation id="8740275226259417070">Ini ialah halaman ralat. Keadaan ini tidak boleh dilaporkan sebagai laman rosak.</translation>
 <translation id="6367576083705149078">Jika anda memberikan maklumat hubungan, ia akan disimpan untuk laporan akan datang.</translation>
 <translation id="6806248680442980382">Terima kasih kerana membantu dalam menambah baik iBrowe untuk semua pengguna. Laporan ini hanya akan mengandungi maklumat yang diperlukan untuk kami selesaikan isu pada laman ini.</translation>
-<translation id="6476216365964140603">Butiran tambahan (pilihan)</translation>
+<translation id="8731661215617360873">Pilih satu pilihan</translation>
+<translation id="2805770823691782631">Butiran tambahan</translation>
+<translation id="8447940165862889275">(pilihan)</translation>
 <translation id="6145852496180774737">Hubungi saya melalui: (pilihan)</translation>
 <translation id="7616645803364270729">E-mel, Twitter, dll.</translation>
 <translation id="721949491455392748">Sertakan tangkapan skrin halaman semasa</translation>
 <translation id="8459191579769999214">Lihat tangkapan skrin</translation>
 <translation id="5299848999918506028">Terima kasih!</translation>
 <translation id="76550953340008122">Terima kasih kerana memberitahu pembangun iBrowe bahawa terdapat sesuatu yang tidak kena dengan laman ini. Kami akan melakukan yang terbaik untuk memperbaikinya!</translation>
+<translation id="3037432377946455872">Apakah isu utama yang anda hadapi?</translation>
+<translation id="9133645617402992550">Iklan masih kelihatan</translation>
+<translation id="4784626332068555349">Halaman kosong atau kandungan hilang</translation>
+<translation id="8278217275444967104">Tidak boleh skrol</translation>
+<translation id="786980556536893096">Tidak boleh memasukkan teks dalam borang</translation>
+<translation id="7744162007310978225">Notis persetujuan kuki kelihatan</translation>
+<translation id="5578433701455313672">Terdapat langkah anti-sekatan iklan</translation>
+<translation id="6831478554298438308">Skrip penjejakan/analitik tidak disekat</translation>
+<translation id="7279636930553631442">Tetingkap timbul buletin</translation>
+<translation id="6136090320163235283">Widget sosial</translation>
+<translation id="6657720240983439091">Widget perbualan</translation>
+<translation id="7138678301420049075">Lain</translation>
 <translation id="4046860372562593546">Uruskan Iklan iBrowe</translation>
 <translation id="5136973036012418831">Kawal jenis Iklan iBrowe yang anda lihat dan kekerapannya.</translation>
 <translation id="4759608598194750161">Lebih banyak anda lihat, lebih banyak boleh anda peroleh.</translation>
@@ -422,7 +436,6 @@
 <translation id="8327818101454798856">Jadi sekiranya anda ingin menyokong laman-laman kegemaran anda, pergilah ke sana.</translation>
 <translation id="412480955826088549">Memuat Turun Komponen...</translation>
 <translation id="4894106830958548828">Saya faham</translation>
-<translation id="326118736933420687">Anda sedang melihat halaman WebTorrent</translation>
 <translation id="2729085694451916573">Rentetan ujian untuk <ph name="PART_ONE"/>pemegang tempat<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Ketahui lebih lanjut<ph name="PART_TWO_END"/></translation>
 <translation id="7534079972563542000">Domain yang tidak dapat Dihentikan</translation>
 <translation id="4492298165410552103">Mengaktifkan sokongan Domain yang tidak dapat Dihentikan di iBrowe?</translation>
@@ -471,6 +484,7 @@
 <translation id="5770656036486891920"><ph name="URL"/> mahu menggunakan kuki pihak ketiga untuk Log Masuk Google yang lama</translation>
 <translation id="6053826678715267477">Benarkan akses kepada sumber localhost</translation>
 <translation id="2973562729984406132"><ph name="URL"/> mahukan akses kepada sumber localhost</translation>
+<translation id="2104347391516032700">Perkhidmatan Ganjaran Bat</translation>
 <translation id="5939518447894949180">Tetapkan semula</translation>
 <translation id="3349204812119681938">Set Semula Ganjaran iBrowe</translation>
 <translation id="4915997950539925115">Apabila anda melakukan penetapan semula, profil Ganjaran iBrowe semasa anda akan dipadamkan, dan Ganjaran iBrowe tidak lagi didayakan. Jika anda mendayakan semula Ganjaran iBrowe nanti, anda akan bermula dengan profil baharu. Baca artikel sokongan <ph name="LINK_BEGIN"/> kami tentang penetapan semula<ph name="LINK_END"/> untuk mendapatkan butiran lanjut.</translation>
@@ -512,7 +526,6 @@
     }</translation>
 <translation id="6067959437127691361">Tindakan menggunakan Ganjaran iBrowe dapat menyokong pencipta kandungan dan membolehkan anda memperoleh BAT</translation>
 <translation id="2359808026110333948">Teruskan</translation>
-<translation id="885805571521218129">Ini menggambarkan anggaran julat pendapatan anda untuk Iklan iBrowe pada bulan ini.</translation>
 <translation id="3863981251715594911">Bagaimanakah ia berfungsi?</translation>
 <translation id="7931127789630755251">Peroleh token untuk iklan peribadi yang anda lihat dalam iBrowe</translation>
 <translation id="2278423362884506724">Sokong pencipta kandungan dan gunakan token anda untuk membeli kad hadiah, buat pertukaran mata wang lain dan pelbagai lagi.</translation>
@@ -587,8 +600,10 @@
 <translation id="5802986777701714573">Kami telah menambahkan cara baharu untuk anda menerima ganjaran BAT bulanan anda. Hubungkan akaun daripada salah satu rakan kongsi kami atau gunakan pilihan jagaan diri baharu untuk mula memperoleh pendapatan sekarang.</translation>
 <translation id="3251885322612056119">Syarat Perkhidmatan yang dikemaskinikan</translation>
 <translation id="7454675823870922788">Kami telah mengemaskinikan Syarat Perkhidmatan untuk Ganjaran iBrowe. Kami membuat kemaskinian ini untuk menjelaskan syarat kami dan memastikan ia meliputi ciri baharu. Jika anda meneruskan penggunaan Ganjaran iBrowe, maksudnya anda bersetuju menerima Syarat Perkhidmatan yang dikemaskinikan. Jika anda tidak bersetuju, anda boleh <ph name="LINK_BEGIN"/>menetapkan semula<ph name="LINK_END"/> Ganjaran iBrowe, dan tindakan ini akan menyahdayakan ciri tersebut.</translation>
+<translation id="56057964000416013">Terma Perkhidmatan kami telah dikemas kini. Untuk terus menggunakan Ganjaran iBrowe, sila semak dan bersetuju dengan terma baharu ini.</translation>
 <translation id="5192526308598085294">Lihat <ph name="LINK_BEGIN"/> Syarat Perkhidmatan Ganjaran iBrowe<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">Saya bersetuju</translation>
+<translation id="343114360276812078">Semak Terma</translation>
 <translation id="86107454835395919">Tetapkan sebagai sumbangan bulanan</translation>
 <translation id="6621880242105464352">iBrowe mengumpulkan <ph name="FEE_PCT"/> daripada jumlah yang dihantar sebagai yuran pemprosesan.</translation>
 <translation id="1420756770787071946">Sokong pencipta ini</translation>
@@ -640,8 +655,8 @@
 <translation id="756341217015623253">Log masuk atau daftar</translation>
 <translation id="2653844658857826081">BAHARU</translation>
 <translation id="1165039591588034296">Ralat</translation>
-<translation id="5826530373788377342">Anda telah mencapai had peranti maksimum untuk akaun <ph name="PROVIDER"/> ini.</translation>
-<translation id="6700131426769360592">Had peranti dicapai</translation>
+<translation id="8673410329158754690">Anda telah menghubungkan jumlah maksimum profil Ganjaran iBrowe ke akaun <ph name="PROVIDER"/> ini.</translation>
+<translation id="8385898883512695376">Akaun pembayaran telah mencapai had</translation>
 <translation id="6895088073061692390">Malangnya, profil Ganjaran iBrowe anda telah dibenderakan kerana semakan automatik kami menemukan beberapa aktiviti Iklan iBrowe yang tidak dijangka.</translation>
 <translation id="4229056297802204697">Semasa profil anda dibenderakan, anda boleh terus melihat iklan, tetapi tidak akan layak menerima pembayaran. Anda juga tidak akan dapat menyambungkan akaun penjagaan dengan Ganjaran iBrowe.</translation>
 <translation id="5124846913141379164">Ada kemungkinan profil anda telah tersilap dibenderakan dan tindakan segera tidak diperlukan daripada pihak anda. Bendera pada profil anda mungkin dialih keluar pada masa hadapan.</translation>
@@ -676,6 +691,7 @@
 <translation id="96989662637180657">Iklan iBrowe Search dipaparkan di <ph name="LINK_BEGIN"/>iBrowe Search<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Tetapan iklan</translation>
 <translation id="2446517297521536638">Kawal jenis iBrowe Ads yang anda lihat dan kekerapan iklan tersebut. Lebih banyak iklan yang anda lihat, lebih banyak pendapatan yang boleh anda peroleh.</translation>
+<translation id="3479272537858623647">Ini menunjukkan jumlah Iklan iBrowe yang anda lihat bulan ini dan layak memperoleh BAT.</translation>
 <translation id="5860033963881614850">Mati</translation>
 <translation id="5916664084637901428">Hidup</translation>
 <translation id="3977723631999461201"><ph name="NUM"/> Iklan diterima bulan ini</translation>
@@ -703,7 +719,6 @@
 <translation id="7550470870580166294">Dana Tidak Mencukupi</translation>
 <translation id="7020972866926315918">Nampaknya anda sudah log keluar daripada <ph name="PROVIDER"/> untuk Ganjaran iBrowe. Log masuk semula untuk teruskan.</translation>
 <translation id="1166682575529520472">Bulanan</translation>
-<translation id="7138678301420049075">Lain</translation>
 <translation id="2134931506717037391">Hantar <ph name="AMOUNT"/> BAT</translation>
 <translation id="4791565605790056151">Menghantar sumbangan</translation>
 <translation id="8251969358165471584">Dompet Web3</translation>
@@ -1069,7 +1084,8 @@
 <translation id="7131971375297699539">Simbol mata wang</translation>
 <translation id="4693057234255364395">Sekat URL penjelajah</translation>
 <translation id="7982789257301363584">Rangkaian</translation>
-<translation id="1060221736464994328">Benarkan laman ini untuk menukar rangkaian?</translation>
+<translation id="2512821599885971349">Tambahkan rangkaian</translation>
+<translation id="200073220891881812">Benarkan laman ini menukar rangkaian?</translation>
 <translation id="2478788592457735063">Ini akan menukarkan rangkaian kepada rangkaian yang ditambah sebelum ini.</translation>
 <translation id="8756686998207163764">Tukar rangkaian</translation>
 <translation id="3948067511324628726">Fi gas</translation>
@@ -1175,6 +1191,8 @@
 <translation id="2749584096020594976">Nilai nonce akan ditentukan secara automatik jika medan ini tidak ditentukan.</translation>
 <translation id="1599636444563952897">Kebenaran had belanja membenarkan <ph name="SITE_ORIGIN"/> untuk mengeluarkan dan berbelanja sehingga jumlah berikut:</translation>
 <translation id="4512871563176965522">Elaun tersuai</translation>
+<translation id="4584580349370930446">Had perbelanjaan yang dicadangkan</translation>
+<translation id="3853163884524541156">Had perbelanjaan tersesuai</translation>
 <translation id="749944179568745958">Bukan alamat ETH yang sah</translation>
 <translation id="2832270987629018596">Bukan alamat SOL yang sah</translation>
 <translation id="2115100722958448834">Bukan alamat <ph name="COIN_TYPE_SYMBOL"/> yang sah.</translation>
@@ -1243,6 +1261,10 @@
 <translation id="4213183402991860207">Penyambung <ph name="DEVICE_NAME"/> belum sedia</translation>
 <translation id="3378339846292573874">Tambah token yang disyorkan</translation>
 <translation id="2322227405137827074">Adakah anda ingin mengimport token ini?</translation>
+<translation id="5128068232340122017">Belum selesai (<ph name="QUEUE_LENGTH"/>)</translation>
+<translation id="4642769870132666012">Transaksi seterusnya</translation>
+<translation id="6917555475950364314">Transaksi sebelumnya</translation>
+<translation id="5305367377612487857">Tolak transaksi <ph name="QUEUE_LENGTH"/></translation>
 <translation id="4378475168089649292">Blok rantai</translation>
 <translation id="1904295039023858291">Standard token</translation>
 <translation id="9033453977881595182">ID Token</translation>
@@ -1393,6 +1415,8 @@
 <translation id="4841860051609590575">ID Permintaan</translation>
 <translation id="6759710362319508545">Sumber</translation>
 <translation id="1908159733454294871">Risiko keselamatan dikesan</translation>
+<translation id="3621202678540785336">Input</translation>
+<translation id="3009178788565917040">Output</translation>
 <translation id="1965889974717516497">Rangkaian kedua</translation>
 <translation id="7691821949666755802">Uji rangkaian</translation>
 <translation id="2816106784624007524">Had gas mestilah dalam bentuk nombor bulat yang lebih besar daripada 0</translation>
@@ -1676,6 +1700,12 @@
 <translation id="3214633363105739658"><ph name="REFRESH_START"/>Segarkan semula<ph name="REFRESH_END"/> atau<ph name="IMPORT_START"/>Import secara Manual<ph name="IMPORT_END"/></translation>
 <translation id="3840001806553580474">Memuatkan semula</translation>
 <translation id="4608324163534970318">Yuran rangkaian</translation>
+<translation id="5024685988141485810">Jumlah bayaran tersuai</translation>
+<translation id="167204008553981721">Had hujung gas</translation>
+<translation id="9021878977748775164">Had harga gas</translation>
+<translation id="6276584161122912863">Harga gas</translation>
+<translation id="6132197290665156212">Anggaran bayaran rangkaian</translation>
+<translation id="1788636309517085411">Gunakan lalai</translation>
 <translation id="6213230117190778270">Terima</translation>
 <translation id="6748108480210050150">Daripada</translation>
 <translation id="4875290286426670462"><ph name="ASSET_SYMBOL"/> tidak terhad</translation>
@@ -1824,6 +1854,8 @@
 <translation id="2244921323472112851">Kami tidak dapat menemui halaman yang anda cari buat masa ini.</translation>
 <translation id="6277237872689140644">Halaman tersebut mungkin telah dipindahkan ke lokasi lain atau URL mungkin mengandungi kesilapan.</translation>
 <translation id="2737084171727561244">Pergi ke Portfolio</translation>
+<translation id="3499452861061048987">Tambah token</translation>
+<translation id="5046066249040287308">Perkhidmatan Utiliti iBrowe Wallet</translation>
 <translation id="3155170474926428993">Pelancar Tor</translation>
 <translation id="3745016858329272300">Maklumat Umum</translation>
 <translation id="4045404575593562245">Acara Kawalan Tor</translation>
@@ -2044,6 +2076,11 @@
 <translation id="684629111155788563">Tambahkan semua tab pada kumpulan baharu</translation>
 <translation id="9106013521852824634">Hantar tab kepada diri sendiri</translation>
 <translation id="6973516366678963184">Paparkan gelembung Wayback Machine</translation>
+<translation id="4765321711834219282">Tutup kumpulan tab</translation>
+<translation id="4095483462103784441">Cipta tab kumpulan baharu</translation>
+<translation id="4292565651642921086">Fokus kumpulan tab seterusnya</translation>
+<translation id="874783686573493196">Fokus kumpulan tab sebelumnya</translation>
+<translation id="9169594135889675189">Tambah tab baharu ke kumpulan</translation>
 <translation id="1926106318101432555">Buka penanda halaman...</translation>
 <translation id="6118819645013156507">Tukar kepada tetingkap lain...</translation>
 <translation id="1623204575967809688">Gabungkan tetingkap semasa dengan...</translation>
@@ -2075,7 +2112,7 @@
 <translation id="9089090017461255038">Hidupkan Pembaca laju</translation>
 <translation id="3929926885379607283">Sentiasa gunakan Pembaca Laju untuk tapak ini</translation>
 <translation id="4186588885948504942">Togol untuk menghidupkan/mematikan Pembaca Laju untuk tapak web ini.</translation>
-<translation id="1873585723672836337">Sentiasa gunakan Pembaca Laju untuk semua tapak</translation>
+<translation id="6568851043090579206">Gunakan Speedreader secara automatik sekiranya boleh di semua laman</translation>
 <translation id="3138587343887871192">Togol untuk menghidupkan/mematikan Pembaca Laju untuk semua tapak web.</translation>
 <translation id="5153147025131874069">Tidak semua tapak menyediakan keupayaan Pembaca Laju.</translation>
 <translation id="1013121820689882118">Pembaca laju</translation>
@@ -2104,15 +2141,17 @@
 <translation id="8637805148029768813">Ciri peringkas kini hanya tersedia untuk artikel terpilih dan halaman web bentuk panjang yang lain</translation>
 <translation id="1223498995510244364">Ringkaskan</translation>
 <translation id="7491773233732232424">Perihal Leo</translation>
-<translation id="4885527781814382758">iBrowe Leo ialah pembantu AI pintar peribadi yang meningkatkan pengalaman penggunaan Internet anda. Leo boleh digunakan secara percuma dengan akses terhad. iBrowe Leo Premium menawarkan lebih banyak model, had yang lebih tinggi dan memberi pelanggan akses awal kepada ciri baharu. Model lalai akan berubah dari semasa ke semasa. Lihat <ph name="LINK_BEFORE"/>Pusat Bantuan iBrowe<ph name="LINK_AFTER"/> untuk maklumat lanjut.</translation>
-<translation id="7189603330209995455">Secara lalai, jika anda mengajukan soalan kepada Leo, ia boleh menghantar dan menggunakan kandungan laman web yang sedang anda layari atau sebarang teks yang anda serlahkan pada suatu halaman kepada iBrowe Leo untuk memberikan jawapan. Ketepatan jawapan tidak dapat dijamin, dan mungkin termasuk maklumat tidak tepat, mengelirukan atau palsu. Leo menggunakan data daripada iBrowe Search untuk meningkatkan kualiti jawapan. Jangan serahkan maklumat sensitif atau peribadi, dan berhati-hati dengan sebarang jawapan yang berkaitan dengan kesihatan, kewangan, keselamatan diri, atau seumpamanya. Anda boleh melaraskan pilihan Leo dalam Tetapan pada bila-bila masa. Layari Tetapan &gt; Leo.</translation>
-<translation id="3038772045018370764">Leo tidak mengumpulkan pengecam seperti alamat IP anda yang boleh dikaitkan dengan anda. Tiada data digunakan untuk melatih model AI dan tiada data peribadi disimpan oleh model AI (kecuali untuk Anthropic yang menyimpan data selama 30 hari sebelum memadamnya). Lihat <ph name="LINK_BEFORE"/>dasar privasi<ph name="LINK_AFTER"/> untuk mendapatkan maklumat lanjut.</translation>
+<translation id="4611072979071082355">iBrowe Leo ialah pembantu AI peribadi yang menjadikan pelayaran web anda lebih baik. Leo percuma untuk digunakan dengan akses terhad. iBrowe Leo Premium menawarkan lebih banyak model, had lebih tinggi dan akses awal ke ciri baharu. Model lalai mungkin berubah dari masa ke masa. Rujuk <ph name="LINK_BEFORE"/>Pusat Bantuan iBrowe<ph name="LINK_AFTER"/> untuk maklumat lanjut.</translation>
+<translation id="7297056998057521697">Secara lalai, apabila anda mengemukakan soalan kepada Leo tentang laman web atau halaman yang sedang anda lihat, kandungan halaman tersebut atau sebarang teks yang anda serlahkan, dan pertanyaan carian anda akan dihantar ke pelayan iBrowe untuk membolehkan Leo memberikan jawapan. Dalam sesetengah kes, Leo akan menghantar pertanyaan yang diperoleh daripada input anda ke iBrowe Search dan menggunakan hasil carian untuk menjawab dengan lebih baik. iBrowe tidak menjamin ketepatan jawapan, dan jawapan mungkin mengandungi maklumat yang tidak tepat, mengelirukan atau palsu. Jangan serahkan maklumat sensitif atau peribadi kepada iBrowe Leo, dan berhati-hati dengan jawapan berkaitan kesihatan, kewangan, keselamatan diri, atau seumpamanya. Anda boleh melaraskan pilihan Leo pada bila-bila masa dalam Tetapan. Pergi ke Tetapan &gt; Leo.</translation>
+<translation id="6644545214304085600">Leo tidak mengumpul pengecam seperti alamat IP yang boleh dikaitkan dengan anda. Kami tidak melatih model menggunakan data anda, termasuk pertanyaan carian atau jawapan iBrowe Leo. Tiada data peribadi disimpan pada pelayan kami atau disimpan oleh iBrowe. Lihat <ph name="LINK_BEFORE"/>dasar privasi<ph name="LINK_AFTER"/> untuk maklumat lanjut.</translation>
 <translation id="4348006373172097089">{PAGE_COUNT, plural,
       =1 {Tanya soalan tentang kandungan halaman ini}
       other {Tanya soalan tentang kandungan halaman ini}
     }</translation>
 <translation id="6961721183181597848">Bagaimana saya boleh membantu anda hari ini?</translation>
 <translation id="2966135729673253768">Tanyakan soalan susulan</translation>
+<translation id="6219262425964000211">Letakkan fail di sini</translation>
+<translation id="4313763911013851687">Letakkan sebarang fail di sini untuk menambahkannya pada perbualan</translation>
 <translation id="4524675003624341892">Cadangkan soalan...</translation>
 <translation id="4567071417854988869">Ringkaskan video ini</translation>
 <translation id="4264902191243445258">{PAGE_COUNT, plural,
@@ -2130,14 +2169,17 @@
 <translation id="7905602379229309187">Titik akhir sedang mengalami beban tinggi. Sila cuba lagi nanti.</translation>
 <translation id="8151638057146502721">Konfigurasi</translation>
 <translation id="999273441077650169">Model berubah secara dinamik untuk menggunakan yang terbaik bagi tugasan tersebut.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="3282183392203936979">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Llama 3.1 8B, model ciptaan Meta yang berprestasi tinggi dan sesuai untuk pelbagai kegunaan. Llama dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="4328177358021456069">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Qwen 14B, model ciptaan Alibaba Cloud yang berprestasi tinggi dan sesuai untuk pelbagai kegunaan. Qwen dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="8706248250250832190">Hai, saya Leo. Saya pembantu AI yang dihos sepenuhnya oleh iBrowe. Saya dikuasakan oleh DeepSeek R1, model yang dicipta oleh DeepSeek untuk melaksanakan tugas penaakulan yang mendalam. <ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="2575216739207798060">Hai, saya Leo. Saya diproksi oleh iBrowe dan dikuasakan oleh Claude Instant, model ciptaan Anthropic untuk menjalankan tugasan perbualan dan pemprosesan teks. Claude Instant dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="512933369128404654">Hai, saya Leo. Saya diproksi oleh iBrowe dan dikuaskaan oleh Claude Haiku, model ciptaan Anthropic untuk menjalankan tugasan perbualan dan pemprosesan teks. Claude Haiku dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="406499980300734922">Hai, saya Leo. Saya diproksi oleh iBrowe dan dikuasakan Claude Sonnet, model ciptaan Anthropic untuk menjalankan tugasan perbualan dan pemprosesan teks. Claude Sonnet dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="1774712391633741125">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Llama Vision, model ciptaan Meta yang berprestasi tinggi dan sesuai untuk pelbagai kegunaan. Llama Vision dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="1238020084128916796">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Llama 3.1 8B, model ciptaan Meta yang berprestasi tinggi dan sesuai untuk pelbagai kegunaan. Llama dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="7127671672828944579">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Qwen 14B, model ciptaan Alibaba Cloud yang berprestasi tinggi dan sesuai untuk pelbagai kegunaan. Qwen dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="2328524194917949829">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Gemma 3 12B, model ciptaan Google DeepMind yang berprestasi tinggi dan sesuai untuk pelbagai kegunaan. Gemma dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="634682910381645550">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh DeepSeek R1, model ciptaan DeepSeek untuk melaksanakan tugasan penaakulan mendalam. DeepSeek R1 dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Claude Instant, model ciptaan Anthropic untuk menjalankan tugasan perbualan dan pemprosesan teks. Claude Instant dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="3789772321824682783">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Claude Haiku, model ciptaan Anthropic untuk menjalankan tugasan perbualan dan pemprosesan teks. Claude Haiku dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="1778885220602472158">Hai, saya Leo. Saya pembantu AI yang dihoskan sepenuhnya oleh iBrowe. Saya dikuasakan oleh Claude Sonnet, model ciptaan Anthropic untuk menjalankan tugasan perbualan dan pemprosesan teks. Claude Sonnet dihoskan secara selamat oleh iBrowe melalui infrastruktur kami sendiri.<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
+<translation id="5807427080183870259">Tempatan</translation>
+<translation id="631371844654031449">Model yang disyorkan</translation>
+<translation id="6568044140836233369">Tunjukkan semua model</translation>
 <translation id="6187065185557150870">Sembang</translation>
 <translation id="4685048769603134644">Buka halaman penuh</translation>
 <translation id="2961040541145689181">Sembang baharu</translation>
@@ -2205,10 +2247,12 @@
 <translation id="1243966363662220847">Maklum Balas Respons</translation>
 <translation id="7417895556119762861">Menyukai atau tidak menyukai jawapan akan menghantar penilaian, perbualan, model, bahasa, versi dan status premium kepada iBrowe bagi tujuan mempertingkatkan Leo. <ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Hantar mesej kepada Leo</translation>
+<translation id="4084869091337186002">Ejen Kandungan Leo AI sentiasa dibolehkan dalam profil ini</translation>
 <translation id="8650874793377330048">Hentikan jawapan</translation>
 <translation id="8712637175834984815">Faham</translation>
 <translation id="1093419424466417703">Halaman ini terlalu panjang untuk Leo. Beberapa konteks mungkin hilang daripada perbualan. Leo dapat membaca <ph name="PERCENTAGE"/> daripada kandungan halaman.</translation>
 <translation id="4592293425457329338">Beberapa konteks mungkin hilang daripada perbualan. Leo dapat mengekalkan <ph name="PERCENTAGE"/> kandungan perbualan yang berkaitan.</translation>
+<translation id="8501106061098623831">Terlalu banyak imej telah diambil daripada halaman. Leo dapat menggunakan <ph name="PERCENTAGE"/> kandungan visual yang tersedia.</translation>
 <translation id="4370698775470316661">Perbualan ini terlalu panjang dan tidak boleh diteruskan. Mungkin terdapat model lain yang tersedia dengan ciri Leo yang mampu mengekalkan ketepatan untuk perbualan yang lebih panjang.</translation>
 <translation id="5719170755629028558">Meningkatkan jawapan anda dengan Carian iBrowe…</translation>
 <translation id="5794962229997281366">Pencarian jawapan yang ditingkatkan untuk <ph name="SEARCH_TERMS"/>.</translation>
@@ -2218,6 +2262,8 @@
 <translation id="1352836459737874921">Lampirkan kandungan daripada tab lain</translation>
 <translation id="3028258613451571431">Hantar kandungan halaman dari tab pelayar anda untuk memberikan lebih konteks kepada Leo dalam perbualan</translation>
 <translation id="4300920590112551536">Tab penyemak imbas</translation>
+<translation id="1446346932629101482">Tambah kandungan tab untuk konteks, yang akan dihantar kepada Leo bersama mesej anda.</translation>
+<translation id="7193316103691252734">Tiada tab sepadan</translation>
 <translation id="2315654674554095762">Leo kini boleh menyimpan perbualan anda, membolehkan anda mengaksesnya semula. Perbualan ini disimpan secara terenkripsi pada peranti anda, dan anda boleh memadamkannya pada bila-bila masa.</translation>
 <translation id="7821251979960635244">Sejarah perbualan anda akan muncul di sini setelah anda memulakan perbualan.</translation>
 <translation id="887511360213807449">Sejarah dimatikan</translation>
@@ -2227,7 +2273,7 @@
 <translation id="7979673624064378842">Sembang sepantas kilat</translation>
 <translation id="2836330653441111204">Kepantasan dan kecerdasan yang seimbang</translation>
 <translation id="6695329447007213917">Sembang tujuan umum, pengekodan dan banyak lagi</translation>
-<translation id="5051668914970329839">Visi serba guna</translation>
+<translation id="7168072214482631597">Pemahaman umum teks dan imej</translation>
 <translation id="7226508434216060960">Model penaakulan</translation>
 <translation id="8782867266498869301">Model berubah secara dinamik untuk menggunakan yang terbaik bagi tugasan tersebut</translation>
 <translation id="3965507912994218570">Tetapan Leo</translation>
@@ -2270,6 +2316,7 @@
 <translation id="6739516910850820220">Memuat naik fail...</translation>
 <translation id="9088751620363630236">Ambil gambar...</translation>
 <translation id="4250229828105606438">Tangkapan skrin</translation>
+<translation id="7949596341600215809">Tangkapan skrin halaman penuh</translation>
 <translation id="6332876390231524389">Kandungan tab semasa</translation>
 <translation id="7742969455167760092">Buka tab...</translation>
 <translation id="49269513399674318">Gunakan mikrofon</translation>
@@ -2279,128 +2326,16 @@
 <translation id="6287023598025162715">Perbualan baru</translation>
 <translation id="7097822247923237815">Perbualan sementara</translation>
 <translation id="7481750859362986254">Sembang ini tidak akan disimpan dalam sejarah anda dan tidak akan menggunakan sebarang penyesuaian atau ingatan Leo.</translation>
-<translation id="8370801182970639038">Automatik (<ph name="LOCALE"/>)</translation>
-<translation id="8343473178272604223">Enjin carian yang diaktifkan</translation>
-<translation id="5355776323718420036">Sembunyikan laman utama</translation>
-<translation id="9173319813356700250">BERITA</translation>
-<translation id="6543799171249004861">Gambar oleh <ph name="AUTHOR"/></translation>
-<translation id="5430001801813715388">GANJARAN</translation>
-<translation id="5966055668402779222">Tanya Carian iBrowe</translation>
-<translation id="167018310108390163">Sesuaikan Halaman Tab Baharu</translation>
-<translation id="6851426306697017546">Tunjukkan jam</translation>
-<translation id="4844370919312937270">Tunjukkan widget carian dalam tab baru</translation>
-<translation id="7328310113820087094">Dengan <ph name="LINK_BEGIN"/>Ganjaran iBrowe<ph name="LINK_END"/>, anda boleh memperoleh ganjaran dengan melihat iklan pada halaman tab baharu.</translation>
-<translation id="4100520468072294616">Paparkan iklan halaman tab baharu</translation>
-<translation id="5009354496127441090">Tunjukkan laman utama</translation>
-<translation id="3960619311638643872">VPN iBrowe</translation>
-<translation id="4784802981241664605">STATS</translation>
-<translation id="712731581368828482">Panggilan video yang disulitkan dengan iBrowe Talk.</translation>
-<translation id="2671474274417808910">Panggilan Privasi Diutamakan</translation>
-<translation id="2100665198270190500">CAKAP</translation>
-<translation id="4290791698375397492">Laman utama telah dibuang</translation>
-<translation id="1436784010935106834">Disingkirkan</translation>
-<translation id="9030215177866748410">Laman utama dicadangkan berdasarkan laman web yang anda kerap layari.</translation>
-<translation id="8425213833346101688">Tukar</translation>
-<translation id="755045397420611731">Privasi &amp; keselamatan dalam talian tambahan</translation>
-<translation id="4520128772974831415">Sembunyikan IP anda &amp; ubah lokasi anda</translation>
-<translation id="6819278685469225453">Lindungi setiap apl pada peranti anda</translation>
-<translation id="8422279921836245017">Sudah dibeli?</translation>
-<translation id="8703188411226330709">Mulakan percubaan percuma</translation>
-<translation id="8814357473522731680">Dikuasakan oleh</translation>
-<translation id="7143207342074048698">Menyambung</translation>
-<translation id="1202549130170287307">Diputuskan sambungan</translation>
-<translation id="8941703009412168350">VPN IBROWE</translation>
-<translation id="6303294677342628402">Perisai</translation>
-<translation id="8458987127502506209">Aktifkan iBrowe Shields</translation>
-<translation id="7700894290854403770"><ph name="STATUS_BEFORE"/>Shields sudah di PASANG<ph name="STATUS_AFTER"/> untuk <ph name="HOST"/></translation>
-<translation id="7656091630265507216"><ph name="STATUS_BEFORE"/>Shields sudah PADAM<ph name="STATUS_AFTER"/> untuk <ph name="HOST"/></translation>
-<translation id="5623354834493649144">Jika laman ini kelihatan rosak, cuba padamkan Shields.
-   <ph name="NOTE_BEFORE"/>Nota: ini mungkin mengurangkan perlindungan privasi iBrowe.<ph name="NOTE_AFTER"/></translation>
-<translation id="8377155647357436161">Penjejak, iklan dan lagi sekatan<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
-<translation id="7604553853176833536">Tidak dilindungi oleh iBrowe Shields <ph name="LINK_BEFORE"/>Ketahui lebih lanjut <ph name="LINK_AFTER"/></translation>
-<translation id="650318023204990401">Kawalan lanjutan</translation>
-<translation id="5799940914270080805">Tindakan mengubah tetapan ini boleh menjejaskan laman.</translation>
-<translation id="9204041448536398473">Tetapan Perisai Global</translation>
-<translation id="2108334320919763866">Lalai global</translation>
-<translation id="7205939464631857223">Kosongkan semua elemen yang disekat</translation>
-<translation id="3440043456924990296">Tetapan yang diurus oleh organisasi</translation>
-<translation id="7053983685419859001">Halang</translation>
-<translation id="5716230673298034837">Benarkan semua</translation>
-<translation id="5279600392753459966">Halang semua</translation>
-<translation id="4516904298421534459">Senarai penapis</translation>
-<translation id="3570081523466826008">Naik taraf sambungan kepada HTTPS</translation>
-<translation id="131231380815754440">Aktifkan HTTPS</translation>
-<translation id="4824468494729001999">Sekat skrip</translation>
-<translation id="3246600097575692802">Aktifkan Skrip telah Disekat</translation>
-<translation id="3603525299146223354">Penjejak &amp; iklan</translation>
-<translation id="4448697385961650078">Sekat iklan &amp; penjejak</translation>
-<translation id="8593054718053894081">Sekat penjejak &amp; iklan secara tegas</translation>
-<translation id="7384778069178817075">Benarkan semua penjejak &amp; iklan</translation>
-<translation id="6196640612572343990">Sekat kuki pihak ketiga</translation>
-<translation id="693506469193748756">Lupakan saya apabila saya menutup laman ini</translation>
-<translation id="5471580724041424345">Kosongkan kuki dan data laman lain apabila anda menutup halaman.</translation>
-<translation id="6486971767955110687">Simpan maklumat hubungan untuk laporan laman web rosak pada masa hadapan</translation>
-<translation id="4085787265464238844">Jika anda memberikan maklumat hubungan, ia akan disimpan untuk laporan akan datang</translation>
-<translation id="6883611015375728278">Sekat semua kuki</translation>
-<translation id="5657156137487675418">Benarkan semua kuki</translation>
-<translation id="8366221601425141146">Pengecapan jari disekat</translation>
-<translation id="6531019308847917584">Sekat cap jari</translation>
-<translation id="1899608006846124237">Menyekat cap jari secara tegas</translation>
-<translation id="8034285923190068220">Benarkan cap jari</translation>
-<translation id="7638541189782135885">Jangan tingkatkan sambungan HTTP</translation>
-<translation id="2570787596946026998">Hanya sambungkan dengan HTTPS</translation>
-<translation id="1992750560347846445">Laporkan laman</translation>
-<translation id="2387532482048804818">Beritahu kami jika laman tidak berfungsi dengan lancar melalui Shields ke atas.</translation>
-<translation id="3795015906457257780">Anda memaparkan laman ini tanpa perlindungan privasi iBrowe.</translation>
-<translation id="7194012750329511146">iBrowe Shields
-<ph name="NUMBER"/> Penjejak, iklan, dan pelbagai lagi disekat</translation>
-<translation id="4292121526390005808">Halang skrip</translation>
-<translation id="5046271170844958713">Skrip yang dibenarkan</translation>
-<translation id="199862531047218413">perlindungan anticap jari digunakan</translation>
-<translation id="5032505924781383272">Perlindungan yang digunakan tidak semestinya menandakan bahawa halaman web ini cuba mengecap jari pelayar anda.</translation>
-<translation id="1905384713982899903">Cap jari yang disekat</translation>
-<translation id="314364527871618241">Cap jari yang dibenarkan</translation>
-<translation id="264682546981571963">Bosan dengan notis persetujuan kuki?</translation>
-<translation id="4986297793092101884">iBrowe sudah menyekat kuki pihak ketiga. Kami juga boleh menyekat notis persetujuan kuki.</translation>
-<translation id="535688588637568715">Ya, sekat notis persetujuan kuki</translation>
-<translation id="2808175374672429053">Wildcards tidak dibenarkan untuk Perisai iBrowe.</translation>
-<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
-      =1 {iBrowe Shields telah menyekat 1 penjejak pada <ph name="SITE_URL"/>}
-      other {iBrowe Shields telah menyekat {BLOCKED_COUNT} penjejak pada <ph name="SITE_URL"/>}
-    }</translation>
-<translation id="2540598191934725677">Klik ikon iBrowe untuk melihat iBrowe Shields.</translation>
-<translation id="6294662480095808915">Privasi. Secara Lalai.</translation>
-<translation id="4366423156486478559">Dapatkan perlindungan iBrowe pada setiap pautan yang anda klik. Hanya tetapkan iBrowe sebagai lalai dan semak imbas. Secara peribadi.</translation>
-<translation id="3830912418080848377">Tetapan Import</translation>
-<translation id="6378406588483694938">Import penanda halaman, sambungan dan juga kata laluan yang disimpan dengan mudah daripada penyemak imbas lama anda.</translation>
-<translation id="2092825239819166928">Pilih profil untuk import</translation>
-<translation id="4763127492635705340">Penyemak imbas yang anda pilih mempunyai berbilang profil. Pilih profil yang mahu anda import.</translation>
-<translation id="880174232178865598">Import profil</translation>
-<translation id="2453860139492968684">Selesai</translation>
-<translation id="2273851479262317744">Tetapkan iBrowe sebagai pelayar lalai</translation>
-<translation id="5037676449506322593">Pilih Semua</translation>
-<translation id="5148943178722443958">Bantu usaha menambah baik iBrowe.</translation>
-<translation id="1097073572755862978">Hantar laporan diagnostik jika anda mengalami ranap atau beku. <ph name="LINK_BEFORE"/>Ketahui lebih lanjut.<ph name="LINK_AFTER"/></translation>
-<translation id="6629244688368006959">Kongsikan cerapan produk yang peribadi dan tanpa nama tentang jenis ciri yang sedang digunakan oleh pengguna iBrowe. <ph name="LINK_BEFORE"/>Ketahui lebih lanjut.<ph name="LINK_AFTER"/></translation>
-<translation id="7415454883318062233">Persediaan selesai</translation>
-<translation id="3141206739023333979">Ubah pilihan ini pada bila-bila masa di iBrowe pada <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
-<translation id="8321985064212130832">Baca <ph name="LINK_BEFORE"/>Dasar Privasi<ph name="LINK_AFTER"/> penuh kami</translation>
-<translation id="2801098717523961746">Pilih tema anda</translation>
-<translation id="6262510489122516114">Anda boleh menukar pilihan ini pada bila-bila masa dalam tetapan iBrowe.</translation>
-<translation id="546481172717459539">Padankan tetapan sistem</translation>
-<translation id="7799817062559422778">Mod Cerah</translation>
-<translation id="4117637339509843559">Mod Gelap</translation>
-<translation id="6302485303316397682">Mahukan hasil carian yang lebih baik?</translation>
-<translation id="7014699001826714920">Sertai pergerakan, menyumbang kepada iBrowe Search.</translation>
-<translation id="6821108091726602352">Bantu kami membetulkan web dengan mengambil bahagian dalam Projek Penemuan Web iBrowe. Dengan berkongsi isyarat carian tanpa nama sepenuhnya, anda boleh membantu iBrowe mengembangkan indeks carian.</translation>
-<translation id="6764845498618413165">Ketahui Lebih Lanjut.</translation>
-<translation id="7818938154803162778">Sudah tentu, saya akan membantu</translation>
-<translation id="7207456302801184289">Selamat Datang ke iBrowe</translation>
+<translation id="4238305333951712482">Memori dikemas kini: <ph name="MEMORY_CONTENT"/></translation>
+<translation id="2593275000606533518">Urus semua</translation>
+<translation id="8410199626695516952">Ok, saya tidak akan mengingatnya</translation>
+<translation id="8419849467765474535">Gagal menyimpan memori. Sila cuba lagi.</translation>
 <translation id="3486480638399578250">Lindungi alamat e-mel peribadi anda</translation>
 <translation id="7765422154906712751">Cipta alamat rawak dan unik yang dihantar terus ke e-mel akaun iBrowe anda, dan boleh dipadam bila-bila masa. Lindungi alamat e-mel sebenar anda daripada didedahkan atau digunakan oleh pengiklan.</translation>
 <translation id="5222676887888702881">Log keluar</translation>
 <translation id="8090292425230843109">Log keluar daripada Alias E-mel</translation>
 <translation id="8471990782451394141">Menyambung ke Akaun iBrowe...</translation>
+<translation id="71316462802471551">Alias E-mel</translation>
 <translation id="5713644099811900409">Akaun iBrowe</translation>
 <translation id="6002159997868894136">Klik untuk salin alias</translation>
 <translation id="8105770564756958406">Digunakan oleh <ph name="DOMAINS"/></translation>
@@ -2435,6 +2370,143 @@
 <translation id="619122420105901711">Tidak nampak e-mel tersebut? Periksa folder spam anda atau cuba lagi.</translation>
 <translation id="3397336197747843396">Ralat semasa mengesahkan Akaun iBrowe. Sila cuba lagi.</translation>
 <translation id="1340795582009113055">Mula semula</translation>
+<translation id="8528664394991030582">Tiada e-mel disediakan</translation>
+<translation id="589806103071387355">Respons tidak sah daripada khidmat Akaun iBrowe</translation>
+<translation id="7508412964869396375">Tiada token pengesahan diterima daripada khidmat Akaun iBrowe</translation>
+<translation id="3179527991526213624">Tiada respons daripada khidmat Akaun iBrowe</translation>
+<translation id="7911439408853154309">Pengesahan e-mel gagal</translation>
+<translation id="8370801182970639038">Automatik (<ph name="LOCALE"/>)</translation>
+<translation id="8343473178272604223">Enjin carian yang diaktifkan</translation>
+<translation id="8285901519864208412">Sembunyikan kad Ganjaran</translation>
+<translation id="4725613319787110841">Sembunyikan kad statistik</translation>
+<translation id="2991633563551889054">Sembunyikan kad Talk</translation>
+<translation id="5355776323718420036">Sembunyikan laman utama</translation>
+<translation id="1689504141194856995">Sembunyikan kad VPN</translation>
+<translation id="8262911270872215147">Sesuaikan Berita</translation>
+<translation id="3884037897537157986">Matikankan Berita</translation>
+<translation id="7847477075635510673">Sembunyikan Berita</translation>
+<translation id="9173319813356700250">BERITA</translation>
+<translation id="6543799171249004861">Gambar oleh <ph name="AUTHOR"/></translation>
+<translation id="466214682712474574">Log masuk ke akaun <ph name="PROVIDER"/> anda untuk melihat baki</translation>
+<translation id="8332875111286275890">Log masuk untuk melihat baki</translation>
+<translation id="5430001801813715388">GANJARAN</translation>
+<translation id="5966055668402779222">Tanya Carian iBrowe</translation>
+<translation id="167018310108390163">Sesuaikan Halaman Tab Baharu</translation>
+<translation id="6851426306697017546">Tunjukkan jam</translation>
+<translation id="4844370919312937270">Tunjukkan widget carian dalam tab baru</translation>
+<translation id="7328310113820087094">Dengan <ph name="LINK_BEGIN"/>Ganjaran iBrowe<ph name="LINK_END"/>, anda boleh memperoleh ganjaran dengan melihat iklan pada halaman tab baharu.</translation>
+<translation id="4100520468072294616">Paparkan iklan halaman tab baharu</translation>
+<translation id="5009354496127441090">Tunjukkan laman utama</translation>
+<translation id="3960619311638643872">VPN iBrowe</translation>
+<translation id="4784802981241664605">STATS</translation>
+<translation id="5236080651083907980">Panggilan video yang disulitkan dengan iBrowe Talk</translation>
+<translation id="2671474274417808910">Panggilan Privasi Diutamakan</translation>
+<translation id="2100665198270190500">CAKAP</translation>
+<translation id="4290791698375397492">Laman utama telah dibuang</translation>
+<translation id="9030215177866748410">Laman utama dicadangkan berdasarkan laman web yang anda kerap layari.</translation>
+<translation id="1849266032237224734">Tunjuk lebih sedikit item</translation>
+<translation id="9125416311275819193">Tunjuk lebih banyak item</translation>
+<translation id="8425213833346101688">Tukar</translation>
+<translation id="755045397420611731">Privasi &amp; keselamatan dalam talian tambahan</translation>
+<translation id="4520128772974831415">Sembunyikan IP anda &amp; ubah lokasi anda</translation>
+<translation id="6819278685469225453">Lindungi setiap apl pada peranti anda</translation>
+<translation id="8422279921836245017">Sudah dibeli?</translation>
+<translation id="8703188411226330709">Mulakan percubaan percuma</translation>
+<translation id="8814357473522731680">Dikuasakan oleh</translation>
+<translation id="7143207342074048698">Menyambung</translation>
+<translation id="1202549130170287307">Diputuskan sambungan</translation>
+<translation id="8941703009412168350">VPN IBROWE</translation>
+<translation id="6303294677342628402">Perisai</translation>
+<translation id="8458987127502506209">Aktifkan iBrowe Shields</translation>
+<translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>Shields BERFUNGSI<ph name="STATUS_AFTER"/> untuk laman web ini</translation>
+<translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Shields TIDAK BERFUNGSI<ph name="STATUS_AFTER"/> untuk laman web ini</translation>
+<translation id="5623354834493649144">Jika laman ini kelihatan rosak, cuba padamkan Shields.
+   <ph name="NOTE_BEFORE"/>Nota: ini mungkin mengurangkan perlindungan privasi iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="8377155647357436161">Penjejak, iklan dan lagi sekatan<ph name="LINK_BEFORE"/>Ketahui lebih lanjut<ph name="LINK_AFTER"/></translation>
+<translation id="7604553853176833536">Tidak dilindungi oleh iBrowe Shields <ph name="LINK_BEFORE"/>Ketahui lebih lanjut <ph name="LINK_AFTER"/></translation>
+<translation id="650318023204990401">Kawalan lanjutan</translation>
+<translation id="5799940914270080805">Tindakan mengubah tetapan ini boleh menjejaskan laman.</translation>
+<translation id="9204041448536398473">Tetapan Perisai Global</translation>
+<translation id="2108334320919763866">Lalai global</translation>
+<translation id="7205939464631857223">Kosongkan semua elemen yang disekat</translation>
+<translation id="3440043456924990296">Tetapan yang diurus oleh organisasi</translation>
+<translation id="7053983685419859001">Halang</translation>
+<translation id="5716230673298034837">Benarkan semua</translation>
+<translation id="5279600392753459966">Halang semua</translation>
+<translation id="4516904298421534459">Senarai penapis</translation>
+<translation id="3570081523466826008">Naik taraf sambungan kepada HTTPS</translation>
+<translation id="131231380815754440">Aktifkan HTTPS</translation>
+<translation id="4824468494729001999">Sekat skrip</translation>
+<translation id="3246600097575692802">Aktifkan Skrip telah Disekat</translation>
+<translation id="3603525299146223354">Penjejak &amp; iklan</translation>
+<translation id="4448697385961650078">Sekat iklan &amp; penjejak</translation>
+<translation id="8593054718053894081">Sekat penjejak &amp; iklan secara tegas</translation>
+<translation id="7384778069178817075">Benarkan semua penjejak &amp; iklan</translation>
+<translation id="6196640612572343990">Sekat kuki pihak ketiga</translation>
+<translation id="693506469193748756">Lupakan saya apabila saya menutup laman ini</translation>
+<translation id="6975864539539353406">Kosongkan kuki dan data laman lain apabila anda menutup laman</translation>
+<translation id="6486971767955110687">Simpan maklumat hubungan untuk laporan laman web rosak pada masa hadapan</translation>
+<translation id="4085787265464238844">Jika anda memberikan maklumat hubungan, ia akan disimpan untuk laporan akan datang</translation>
+<translation id="6883611015375728278">Sekat semua kuki</translation>
+<translation id="5657156137487675418">Benarkan semua kuki</translation>
+<translation id="8366221601425141146">Pengecapan jari disekat</translation>
+<translation id="6531019308847917584">Sekat cap jari</translation>
+<translation id="1899608006846124237">Menyekat cap jari secara tegas</translation>
+<translation id="8034285923190068220">Benarkan cap jari</translation>
+<translation id="7638541189782135885">Jangan tingkatkan sambungan HTTP</translation>
+<translation id="2570787596946026998">Hanya sambungkan dengan HTTPS</translation>
+<translation id="1992750560347846445">Laporkan laman</translation>
+<translation id="2387532482048804818">Beritahu kami jika laman tidak berfungsi dengan lancar melalui Shields ke atas.</translation>
+<translation id="3795015906457257780">Anda memaparkan laman ini tanpa perlindungan privasi iBrowe.</translation>
+<translation id="7194012750329511146">iBrowe Shields
+<ph name="NUMBER"/> Penjejak, iklan, dan pelbagai lagi disekat</translation>
+<translation id="4292121526390005808">Halang skrip</translation>
+<translation id="5046271170844958713">Skrip yang dibenarkan</translation>
+<translation id="199862531047218413">perlindungan anticap jari digunakan</translation>
+<translation id="5032505924781383272">Perlindungan yang digunakan tidak semestinya menandakan bahawa halaman web ini cuba mengecap jari pelayar anda.</translation>
+<translation id="1905384713982899903">Cap jari yang disekat</translation>
+<translation id="314364527871618241">Cap jari yang dibenarkan</translation>
+<translation id="2808175374672429053">Wildcards tidak dibenarkan untuk Perisai iBrowe.</translation>
+<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
+      =1 {iBrowe Shields telah menyekat 1 penjejak pada <ph name="SITE_URL"/>}
+      other {iBrowe Shields telah menyekat {BLOCKED_COUNT} penjejak pada <ph name="SITE_URL"/>}
+    }</translation>
+<translation id="2540598191934725677">Klik ikon iBrowe untuk melihat iBrowe Shields.</translation>
+<translation id="6294662480095808915">Privasi. Secara Lalai.</translation>
+<translation id="4366423156486478559">Dapatkan perlindungan iBrowe pada setiap pautan yang anda klik. Hanya tetapkan iBrowe sebagai lalai dan semak imbas. Secara peribadi.</translation>
+<translation id="3830912418080848377">Tetapan Import</translation>
+<translation id="6378406588483694938">Import penanda halaman, sambungan dan juga kata laluan yang disimpan dengan mudah daripada penyemak imbas lama anda.</translation>
+<translation id="2092825239819166928">Pilih profil untuk import</translation>
+<translation id="4763127492635705340">Penyemak imbas yang anda pilih mempunyai berbilang profil. Pilih profil yang mahu anda import.</translation>
+<translation id="880174232178865598">Import profil</translation>
+<translation id="2453860139492968684">Selesai</translation>
+<translation id="2273851479262317744">Tetapkan iBrowe sebagai pelayar lalai</translation>
+<translation id="5037676449506322593">Pilih Semua</translation>
+<translation id="5148943178722443958">Bantu usaha menambah baik iBrowe.</translation>
+<translation id="1097073572755862978">Hantar laporan diagnostik jika anda mengalami ranap atau beku. <ph name="LINK_BEFORE"/>Ketahui lebih lanjut.<ph name="LINK_AFTER"/></translation>
+<translation id="6629244688368006959">Kongsikan cerapan produk yang peribadi dan tanpa nama tentang jenis ciri yang sedang digunakan oleh pengguna iBrowe. <ph name="LINK_BEFORE"/>Ketahui lebih lanjut.<ph name="LINK_AFTER"/></translation>
+<translation id="7415454883318062233">Persediaan selesai</translation>
+<translation id="3141206739023333979">Ubah pilihan ini pada bila-bila masa di iBrowe pada <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
+<translation id="8321985064212130832">Baca <ph name="LINK_BEFORE"/>Dasar Privasi<ph name="LINK_AFTER"/> penuh kami</translation>
+<translation id="2801098717523961746">Pilih tema anda</translation>
+<translation id="6262510489122516114">Anda boleh menukar pilihan ini pada bila-bila masa dalam tetapan iBrowe.</translation>
+<translation id="546481172717459539">Padankan tetapan sistem</translation>
+<translation id="7799817062559422778">Mod Cerah</translation>
+<translation id="4117637339509843559">Mod Gelap</translation>
+<translation id="6302485303316397682">Mahukan hasil carian yang lebih baik?</translation>
+<translation id="7014699001826714920">Sertai pergerakan, menyumbang kepada iBrowe Search.</translation>
+<translation id="6821108091726602352">Bantu kami membetulkan web dengan mengambil bahagian dalam Projek Penemuan Web iBrowe. Dengan berkongsi isyarat carian tanpa nama sepenuhnya, anda boleh membantu iBrowe mengembangkan indeks carian.</translation>
+<translation id="6764845498618413165">Ketahui Lebih Lanjut.</translation>
+<translation id="7818938154803162778">Sudah tentu, saya akan membantu</translation>
+<translation id="7207456302801184289">Selamat Datang ke iBrowe</translation>
+<translation id="6716580298071890302">Gunakan tema yang lebih gelap</translation>
+<translation id="2422927186524098759">Bar sisi</translation>
+<translation id="2361906291514218784">AI Leo</translation>
+<translation id="7705524343798198388">VPN</translation>
+<translation id="8000020256436988724">Bar alat</translation>
+<translation id="6225572914528673855">Bar alamat</translation>
+<translation id="8293206222192510085">Tambah Penanda Halaman</translation>
+<translation id="7758460733045216901">Panel Penanda Halaman</translation>
 <translation id="958268166261124668">VPN iBrowe: Disambungkan</translation>
 <translation id="6021669293402055982">VPN iBrowe: Diputuskan sambungan</translation>
 <translation id="3541307549916475335">UI Panel VPN iBrowe</translation>
@@ -2449,6 +2521,9 @@
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Tamat tempoh</translation>
 <translation id="8421945428836418371">Sambung semula secara automatik</translation>
+<translation id="1775187768313123375">Penghalaan proksi pintar</translation>
+<translation id="1729266073247927443">Penghalaan Proksi Pintar tersedia</translation>
+<translation id="8416695199565594645">Memastikan trafik dihalakan melalui pelayan proksi khusus untuk membolehkan akses kepada kandungan/laman yang biasanya disekat atau perkhidmatan pihak ketiga.</translation>
 <translation id="434523916398030617">Hubungi sokongan teknikal</translation>
 <translation id="1116694919640316211">Mengenai</translation>
 <translation id="2044418816479192294">Ratusan pelayan di seluruh dunia</translation>

@@ -284,6 +284,11 @@ are declared in tools/grit/grit_args.gni.
       <!-- Bookmarks specific strings -->
       <part file="bookmarks_strings.grdp" />
 
+      <!-- Glic specific strings -->
+      <if expr="enable_glic">
+        <part file="glic_strings.grdp" />
+      </if>
+
       <!-- Global Media Controls specific strings -->
       <part file="gmc_strings.grdp" />
 
@@ -457,6 +462,9 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_HISTORY_DELETE" desc="Text for delete button contained in the history page toolbar">
         Delete
       </message>
+      <message name="IDS_HISTORY_OPEN" desc="Text for open button contained in the history page toolbar. Opens selected history items as new tabs.">
+        Open
+      </message>
       <message name="IDS_HISTORY_ITEMS_SELECTED" desc="Label displayed in history toolbar telling the user how many items they have selected.">
         <ph name="NUMBER_OF_ITEMS_SELECTED">$1</ph> selected
       </message>
@@ -483,6 +491,24 @@ are declared in tools/grit/grit_args.gni.
       </message>
       <message name="IDS_HISTORY_TURN_ON_SYNC_PROMO_DESC" desc="Description of the turn on sync/sign-in promo. Further tells users to turn o sync/sign in to iBrowe to see synced tabs from other devices.">
         To get your tabs from your other devices, turn on sync
+      </message>
+
+<!-- TODO: crbug.com/418144047 - Remove translateable="false" once strings are finalized. -->
+      <message translateable="false" name="IDS_HISTORY_SYNC_HISTORY_PROMO" desc="Text of the sync hystory promo. This will show up if a user is not logged in and has no synced tabs.">
+        Browse across devices
+      </message>
+      <message translateable="false" name="IDS_HISTORY_SYNC_HISTORY_PROMO_DESC" desc="Description of the sync hystory promo. Further tells users to sign in and sync hystory to see synced tabs from other devices.">
+        To get your tabs from your other devices, sign in and sync history. You can stop syncing anytime in settings. iBrowe may personalize Search and other services based on your history.
+      </message>
+      <message translateable="false" name="IDS_HISTORY_SIGNED_IN_SYNC_HISTORY_PROMO" desc="Text of the sync hystory promo. This will show up if a user is not logged in and has no synced tabs.">
+        Continue from another device
+      </message>
+      <message translateable="false" name="IDS_HISTORY_SIGNED_IN_SYNC_HISTORY_PROMO_DESC" desc="Description of the sync hystory promo. Further tells users to sign in and sync hystory to see synced tabs from other devices.">
+        To get your tabs from your other devices, sync your tabs and History to . You can stop syncing anytime in settings. iBrowe may personalize Search and other services based on your History.
+      </message>
+
+      <message translateable="false" name="IDS_HISTORY_SYNC_HISTORY_BUTTON" desc="Label displayed on a button to let user turn on sync history or sign in to iBrowe to get synced tab history.">
+        Sync history
       </message>
 
       <!-- Generic terms -->
@@ -628,7 +654,7 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD" desc="The name of the open a link in Private window command">
             Open link in &amp;private window
           </message>
-          <message name="IDS_CONTENT_CONTEXT_OPENLINKSPLITVIEW" translateable="false" desc="The name of the open a link in split view command">
+          <message name="IDS_CONTENT_CONTEXT_OPENLINKSPLITVIEW" desc="The name of the open a link in split view command">
             Open link in split view
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKINPROFILES" desc="The name of the open a link as a different user context menu">
@@ -940,7 +966,7 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD" desc="In Title Case: The name of the open a link in Private window command">
             Open Link in &amp;Private Window
           </message>
-          <message name="IDS_CONTENT_CONTEXT_OPENLINKSPLITVIEW" translateable="false" desc="The name of the open a link in split view command">
+          <message name="IDS_CONTENT_CONTEXT_OPENLINKSPLITVIEW" desc="The name of the open a link in split view command">
             Open Link in Split View
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKINPROFILES" desc="In Title Case: The name of the open a link as a different user context menu">
@@ -1740,8 +1766,8 @@ are declared in tools/grit/grit_args.gni.
         <message name="IDS_SHOW_DOWNLOADS" desc="The show downloads menu in the app menu">
           &amp;Downloads
         </message>
-        <message name="IDS_FIND_EXTENSIONS" desc="The find extensions menu item in the app menu">
-          Find &amp;Extensions
+        <message name="IDS_FIND_EXTENSIONS" desc="The explore extensions menu item in the app menu">
+          Explore &amp;Extensions
         </message>
         <message name="IDS_SHOW_EXTENSIONS" desc="The show extensions menu in the app menu">
           &amp;Extensions
@@ -1880,29 +1906,6 @@ are declared in tools/grit/grit_args.gni.
         <ph name="ENGINE_NAME">$1<ex>iBrowe</ex></ph> (Default)
       </message>
 
-      <!-- Download Shelf-->
-      <message name="IDS_ACCNAME_DOWNLOADS_BAR" desc="Accessible name for the entire downloads bar, read to screen reader users when navigating into the grouping">
-        Downloads bar
-      </message>
-      <if expr="use_titlecase">
-        <message name="IDS_HIDE_DOWNLOADS" desc="Button label for screenreader users, for button at the corner of the download shelf that closes the download shelf (title case)">
-          Close Downloads Bar
-        </message>
-        <message name="IDS_SHOW_ALL_DOWNLOADS" desc="Button label shown at the corner of the download shelf that opens the downloads page (title case)">
-          Show All
-        </message>
-      </if>
-      <if expr="not use_titlecase">
-        <message name="IDS_HIDE_DOWNLOADS" desc="Button label for screenreader users, for button at the corner of the download shelf that closes the download shelf (sentence case)">
-          Close downloads bar
-        </message>
-        <message name="IDS_SHOW_ALL_DOWNLOADS" desc="Button label shown at the corner of the download shelf that opens the downloads page (sentence case)">
-          Show all
-        </message>
-      </if>
-      <message name="IDS_DOWNLOAD_STARTED" desc="Message announced to screenreader users when a download starts.">
-        Download started
-      </message>
       <!-- Download Error Messages-->
       <!-- *_STATUS_*: Short message in the download on the shelf.-->
       <!-- *_DESCRIPTION_*: Corresponding more descriptive message on the download page.-->
@@ -2105,9 +2108,6 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DOWNLOAD_STATUS_OPEN_WHEN_COMPLETE" desc="Status that the file download will be opened when the download completes.">
         Opening when complete
       </message>
-      <message name="IDS_DOWNLOAD_STATUS_OPENING" desc="Temporary status shown when a user has clicked to open a downloaded file.">
-        Opening <ph name="FILE">$1<ex>image.jpg</ex></ph>...
-      </message>
       <message name="IDS_DOWNLOAD_STATUS_IN_PROGRESS_SHORT" desc="Short status text that appears on unknown-sized downloads in progress.">
         In progress
       </message>
@@ -2155,12 +2155,6 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_PROMPT_UNCOMMON_DOWNLOAD_CONTENT_IN_ADVANCED_PROTECTION" desc="Message shown to the user to validate the download when the download content is classified as uncommon by safebrowsing. This variant is shown when the user is enrolled in the Advanced Protection program.">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> was blocked by Advanced Protection.
       </message>
-      <message name="IDS_PROMPT_DEEP_SCANNING_DOWNLOAD" desc="Message shown in the download shelf when a download is being scanned">
-        Checking <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> with your organization's security policies...
-      </message>
-      <message name="IDS_PROMPT_DEEP_SCANNING_DOWNLOAD_SHORT" desc="Message shown in the download shelf when a download is being scanned, without the file name">
-        Checking with your organization's security policies.
-      </message>
       <message name="IDS_PROMPT_DEEP_SCANNING_APP_DOWNLOAD" desc="Message shown in the download shelf when a download is being scanned for an Advanced Protection user">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> is being scanned.
       </message>
@@ -2172,9 +2166,6 @@ are declared in tools/grit/grit_args.gni.
       </message>
       <message name="IDS_PROMPT_DOWNLOAD_BLOCKED_PASSWORD_PROTECTED" desc="Message shown in the download shelf when a download is blocked for being encrypted">
         <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> is encrypted. Ask its owner to decrypt.
-      </message>
-      <message name="IDS_PROMPT_DOWNLOAD_DEEP_SCANNED_SAFE" desc="Message shown in the download shelf when a download is finished being scanned, and no issues were found">
-        Security checks are done
       </message>
       <message name="IDS_PROMPT_DOWNLOAD_SENSITIVE_CONTENT_WARNING" desc="Message shown in the download shelf when a download contains sensitive content, and the admin has chosen to warn the user">
         Your organization's policies aren't met
@@ -2244,6 +2235,9 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DOWNLOADS_TOAST_COPIED_DOWNLOAD_LINK" desc="On the chrome://downloads page, the text for the toast shown when the user copies a download's url.">
         <ph name="DOWNLOAD_URL">$1<ex>https://example.com</ex></ph> copied to clipboard
       </message>
+      <message name="IDS_DOWNLOADS_TOAST_COPY_DOWNLOAD_LINK_FAILED" desc="On the chrome://downloads page, the text for the toast shown when the user tried to copy a download's url but the operation failed.">
+        Failed to copy link
+      </message>
 
       <if expr="is_chromeos">
         <message name="IDS_PROMPT_BLOCKED_INSECURE_DOWNLOAD_TITLE" desc="In the download notification, a title of the message shown on a download blocked for being insecure.">
@@ -2305,9 +2299,6 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DOWNLOAD_NO_DOWNLOADS" desc="A message shown when the user has no downloads to show on chrome://downloads.">
         Files you download appear here
       </message>
-      <message name="IDS_DOWNLOAD_ITEM_DROPDOWN_BUTTON_ACCESSIBLE_TEXT" desc="Text for the dropdown button that opens the download item options menu">
-        Options menu
-      </message>
       <message name="IDS_DOWNLOAD_LINK_RESUME" desc="In the download view, 'Resume' link text">
         Resume
       </message>
@@ -2363,8 +2354,8 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DOWNLOAD_BY_EXTENSION_URL" desc="Indicates which extension downloaded this file by name and URL.">
         Downloaded by &lt;a href="<ph name="URL">$1<ex>adblock.com</ex></ph>"&gt;<ph name="EXTENSION">$2<ex>The Best iBrowe Extension Ever</ex></ph>&lt;/a&gt;
       </message>
-      <message name="IDS_DOWNLOADS_PAGE_REFERRER_LINE" desc="Line that indicates the referrer url from which a file was downloaded and embeds a corresponding link">
-        From <ph name="BEGIN_LINK">&lt;a&gt;</ph><ph name="DISPLAY_REFERRER_URL">$1<ex>https://example.com</ex></ph><ph name="END_LINK">&lt;/a&gt;</ph>
+      <message name="IDS_DOWNLOADS_PAGE_INITIATOR_LINE" desc="Line that indicates the site that initiated a file download.">
+        From <ph name="DISPLAY_INITIATOR_ORIGIN">$1<ex>https://example.com</ex></ph>
       </message>
       <message name="IDS_DOWNLOAD_IN_INCOGNITO" desc="Indicates a download was started in Private mode.">
         Downloaded in Private
@@ -3133,6 +3124,18 @@ are declared in tools/grit/grit_args.gni.
         </message>
       </if>
 
+      <if expr="not is_android">
+        <message name="IDS_WEBAPP_UPDATE_REVIEW_ACCEPT_BUTTON" desc="The text content of the acceptance button for the PWA app update review dialog. Clicking on this button confirms the user wants to update how the installed app looks.">
+          Update
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_REVIEW_UNINSTALL_BUTTON" desc="The text content of the uninstall button for the PWA app update review dialog. Clicking on this button uninstalls the app.">
+          Uninstall
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_REVIEW_IGNORE_BUTTON" desc="The text content of the ignore button for the PWA app update review dialog. Clicking on this button ignores the update and closes the dialog.">
+          Ignore
+        </message>
+      </if>
+
       <!-- Bookmark app bubble -->
       <if expr="use_titlecase">
         <message name="IDS_ADD_TO_OS_LAUNCH_SURFACE_BUBBLE_TITLE" desc="In Title Case: Title of the bubble for adding a bookmark app shortcut to the operating system.">
@@ -3180,6 +3183,9 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_DIY_APP_AX_BUBBLE_NAME_LABEL" desc="Text preceding the name of a DIY app, read by spoken feedback.">
         App name
       </message>
+      <message name="IDS_INSTALL_PWA_DIALOG_ORIGIN_LABEL" desc="The label in front of the origin of the site that is installing the web app.">
+        from: <ph name="APP_ORIGIN">$1<ex>example.com</ex></ph>
+      </message>
 
       <message name="IDS_BOOKMARK_APP_AX_BUBBLE_NAME_LABEL" desc="Text preceding the name of a bookmark app, read by spoken feedback.">
         Shortcut name
@@ -3194,16 +3200,47 @@ are declared in tools/grit/grit_args.gni.
         Open as tabbed window
       </message>
 
+      <!-- Web app install not supported dialog -->
+      <message name="IDS_WEB_APP_INSTALL_NOT_SUPPORTED_DIALOG_TITLE_INCOGNITO_MODE" desc="Title for the dialog shown when a web app cannot be installed in Private Mode.">
+        Web app installs aren't supported in Private mode
+      </message>
+      <message name="IDS_WEB_APP_INSTALL_NOT_SUPPORTED_DIALOG_TITLE_GUEST_MODE" desc="Title for the dialog shown when a web app cannot be installed in Guest Mode.">
+        Web app installs aren't supported in Guest mode
+      </message>
+
       <!-- WebApp name/icon update dialog -->
-      <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME" desc="The title at the top of the dialog when only the name changed." formatter_data="android_java">
+      <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME" desc="The title at the top of the web app update dialog when only the name changed." formatter_data="android_java">
         Review name update
       </message>
-      <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_ICON" desc="The title at the top of the dialog when only the icon changed." formatter_data="android_java">
+      <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_ICON" desc="The title at the top of the web app update dialog when only the icon changed." formatter_data="android_java">
         Review icon update
       </message>
-      <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME_AND_ICON" desc="The title at the top of the dialog when the name and icon changed." formatter_data="android_java">
+      <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME_AND_ICON" desc="The title at the top of the web app update dialog when the name and icon changed." formatter_data="android_java">
         Review name &amp; icon updates
       </message>
+      <if expr="not is_android">
+        <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_LOGO" desc="The title at the top of the web app update dialog when only the icon changed.">
+          Review logo update
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME_AND_LOGO" desc="The title at the top of the web app update dialog when the name and icon changed.">
+          Review logo and name updates
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_URL" desc="The title at the top of an web app update dialog when only the name changed.">
+          Review URL update
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME_AND_URL" desc="The title at the top of the web app update dialog when only the name changed.">
+          Review name and URL updates
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_LOGO_AND_URL" desc="The title at the top of the web app update dialog when only the icon changed.">
+          Review logo and URL updates
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_DIALOG_TITLE_NAME_AND_LOGO_AND_URL" desc="The title at the top of the web app update dialog when the name and icon changed.">
+          Review logo, name, and URL updates
+        </message>
+        <message name="IDS_WEBAPP_UPDATE_NEW_EXPLANATION" desc="The text at the top of the web app update dialog, explaining what to do when an app changes its identity.">
+          Apps sometimes update their branding. Review all changes to make sure you're comfortable with them before updating.
+        </message>
+      </if>
       <message name="IDS_WEBAPP_UPDATE_EXPLANATION" desc="The text at the top of the dialog, explaining what to do when an app changes its identity." formatter_data="android_java">
         If this web app is trying to trick you into thinking it's a different app, uninstall it.
       </message>
@@ -3300,6 +3337,17 @@ are declared in tools/grit/grit_args.gni.
       <if expr="not use_titlecase">
         <message name="IDS_UNINSTALL_FROM_OS_LAUNCH_SURFACE" desc="Menu text for uninstalling a web app from the operating system.">
           Uninstall <ph name="APP">$1<ex>Gmail</ex></ph>...
+        </message>
+      </if>
+
+      <if expr="use_titlecase">
+        <message name="IDS_REVIEW_APP_UPDATE" desc="In Title Case: Menu text for reviewing a pending update for the current web app.">
+          Review App Update
+        </message>
+      </if>
+      <if expr="not use_titlecase">
+        <message name="IDS_REVIEW_APP_UPDATE" desc="Menu text for reviewing a pending update for the current web app.">
+          Review app update
         </message>
       </if>
 
@@ -4468,9 +4516,6 @@ are declared in tools/grit/grit_args.gni.
         <message name="IDS_TASK_MANAGER_TASK_COLUMN" desc="The text of the task column" formatter_data="android_java">
           Task
         </message>
-        <message name="IDS_TASK_MANAGER_NACL_DEBUG_STUB_PORT_COLUMN" desc="The text of the NativeClient debug stub port column">
-          NaCl debug port
-        </message>
         <message name="IDS_TASK_MANAGER_NET_COLUMN" desc="The text of the network usage column" formatter_data="android_java">
           Network
         </message>
@@ -4541,9 +4586,6 @@ are declared in tools/grit/grit_args.gni.
         </message>
         <message name="IDS_TASK_MANAGER_USER_HANDLES_COLUMN" desc="The title for Task Manager USER handles column.">
           USER Handles
-        </message>
-        <message name="IDS_TASK_MANAGER_NACL_DEBUG_STUB_PORT_COLUMN" desc="The text of the NativeClient debug stub port column">
-          NaCl Debug Port
         </message>
         <message name="IDS_TASK_MANAGER_TASK_COLUMN" desc="The text of the task column" formatter_data="android_java">
           Task
@@ -4618,12 +4660,6 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_TASK_MANAGER_FOREGROUNDED_TEXT" desc="The value displayed for a process with foregrounded priority">
         Normal
       </message>
-      <message name="IDS_TASK_MANAGER_UNKNOWN_VALUE_TEXT" desc="The value displayed for an unknown NaCl debug stub port in the task manager.">
-        Unknown
-      </message>
-      <message name="IDS_TASK_MANAGER_DISABLED_NACL_DBG_TEXT" desc="The value displayed for NaCl debug stub port in the task manager when the flag #enable-nacl-debug is disabled.">
-        Disabled
-      </message>
       <message name="IDS_TASK_MANAGER_HANDLES_CELL_TEXT" desc="The value displayed in the user/gdi cells.">
         <ph name="NUM_HANDLES">$1<ex>300</ex></ph> (<ph name="NUM_KILOBYTES_LIVE">$2<ex>500</ex></ph> peak)
       </message>
@@ -4667,12 +4703,6 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_TASK_MANAGER_BACK_FORWARD_CACHE_INCOGNITO_PREFIX" desc="The prefix for a Private page stored in the Back/Forward Cache">
         Private Back/Forward Cached Page: <ph name="BACK_FORWARD_CACHE_INCOGNITO_PAGE_URL">$1<ex>http://www.google.com</ex></ph>
       </message>
-      <message name="IDS_TASK_MANAGER_PLUGIN_PREFIX" desc="The prefix for a Task Manager plugin row">
-        Plugin: <ph name="PLUGIN_NAME">$1<ex>Unknown Plugin</ex></ph>
-      </message>
-      <message name="IDS_TASK_MANAGER_PLUGIN_BROKER_PREFIX" desc="Task Manager row for PPAPI plugin broker, which provides additional access for PPAPI plugins">
-        Plugin Broker: <ph name="PLUGIN_NAME">$1<ex>Unknown Plugin</ex></ph>
-      </message>
       <message name="IDS_TASK_MANAGER_PRELOADED_RENDERER_FOR_UI" desc="Task Manager row for the render process that is preloaded with Top iBrowe WebUI resources.">
         Preloaded UI Renderer
       </message>
@@ -4698,17 +4728,8 @@ are declared in tools/grit/grit_args.gni.
       <message name="IDS_TASK_MANAGER_SERVICE_WORKER_PREFIX" desc="The prefix for a Task Manager service worker row">
         Service Worker: <ph name="SCRIPT_URL">$1<ex>https://googlechrome.github.io/samples/service-worker/basic/service-worker.js</ex></ph>
       </message>
-      <message name="IDS_TASK_MANAGER_UNKNOWN_PLUGIN_NAME" desc="The prefix for a Task Manager plugin row">
-        Unknown plugin
-      </message>
       <message name="IDS_TASK_MANAGER_UTILITY_PREFIX" desc="The prefix for a utility process row">
         Utility: <ph name="UTILITY_TYPE">$1<ex>Image Decoder</ex></ph>
-      </message>
-      <message name="IDS_TASK_MANAGER_NACL_PREFIX" desc="The prefix for a Task Manager Native Client module row">
-        Native Client module: <ph name="NEXE_NAME">$1<ex>Unknown Native Client module</ex></ph>
-      </message>
-      <message name="IDS_TASK_MANAGER_NACL_BROKER_PREFIX" desc="Task Manager row for Native Client broker, which acts as the sanbox manager for NaCl processes">
-        Native Client security manager
       </message>
       <message name="IDS_TASK_MANAGER_GPU_PREFIX" desc="Task Manager row for the GPU process, which is the process doing all accelerated graphics rendering">
         GPU Process
@@ -4833,7 +4854,7 @@ are declared in tools/grit/grit_args.gni.
         <ph name="EXTENSION_NAME">$1<ex>Adblock</ex></ph> is disabled
       </message>
 
-      <if expr="enable_extensions">
+      <if expr="enable_extensions_core">
         <!-- Extension blocked action bubble -->
         <message name="IDS_EXTENSION_SITE_RELOAD_PAGE_BUBBLE_HEADING" desc="Heading of the bubble to tell users that in order to run or not run an extension, they'll need to refresh the page. Deliberately similar to IDS_PAGE_INFO_INFOBAR_TEXT, but used for an different permission setting so they are not combined. If updating the one, please update the other or consult the extensions and privacy teams.">
           Reload this page to apply your updated settings on this site
@@ -5555,6 +5576,18 @@ are declared in tools/grit/grit_args.gni.
       </if>
 
       <!-- Extensions strings, which are not used by chrome://extensions. -->
+      <if expr="enable_extensions_core">
+        <if expr="not use_titlecase">
+          <message name="IDS_MANAGE_EXTENSIONS" desc="The text of the button in the extensions toolbar menu used to open the chrome://extensions page and manage all extensions (sentence case)." formatter_data="android_java">
+            Manage extensions
+          </message>
+        </if>
+        <if expr="use_titlecase">
+          <message name="IDS_MANAGE_EXTENSIONS" desc="The text for the button in the extensions toolbar menu used to open the chrome://extensions page and manage all extensions (title case).">
+            Manage Extensions
+          </message>
+        </if>
+      </if>
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_WANTS_ACCESS_TO_SITE" desc="The message shown on mouseover when an extension wants to run on a specific site.">
           Wants access to this site
@@ -5684,9 +5717,6 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_MANAGE_EXTENSION" desc="The text for the button in the extension's context menu used to open the chrome://extensions/?id=xxx page and manage a specific extension (sentence case).">
             Manage extension
           </message>
-          <message name="IDS_MANAGE_EXTENSIONS" desc="The text of the button in the extensions toolbar menu used to open the chrome://extensions page and manage all extensions (sentence case).">
-            Manage extensions
-          </message>
           <message name="IDS_VIEW_WEB_PERMISSIONS" desc="The text for the button in the extension context menu used to open the chrome://settings/content/siteDetails?site=xxx page and view the site details for a specific extension (sentence case).">
             View web permissions
           </message>
@@ -5785,9 +5815,6 @@ are declared in tools/grit/grit_args.gni.
           <message name="IDS_MANAGE_EXTENSION" desc="The text for the button in the extension's context menu used to open the chrome://extensions/?id=xxx page and manage a specific extension (title case).">
             Manage Extension
           </message>
-          <message name="IDS_MANAGE_EXTENSIONS" desc="The text for the button in the extensions toolbar menu used to open the chrome://extensions page and manage all extensions (title case).">
-            Manage Extensions
-          </message>
           <message name="IDS_VIEW_WEB_PERMISSIONS" desc="The text for the button in the extension context menu used to open the chrome://settings/content/siteDetails?site=xxx page and view the site details for a specific extension (title case).">
             View Web Permissions
           </message>
@@ -5849,7 +5876,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Proceed with caution
       </message>
       <message name="IDS_EXTENSION_PROMPT_INSTALL_FRICTION_WARNING_TEXT" desc="The warning text displayed in the install friction dialog">
-        This extension is not trusted by Enhanced Safe Browsing.
+        This extension is not trusted by Enhanced Safe Browsing. <ph name="LEARN_MORE_LINK">$1<ex>Learn more</ex></ph>
       </message>
       <message name="IDS_EXTENSION_INSTALL_PROMPT_ACCEPT_BUTTON_EXTENSION" desc="Text for the install button on the extension install prompt, for an extension (i.e. not app or theme).">
         Add extension
@@ -6177,12 +6204,14 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <!-- End Deprecated Apps Deletion Dialog strings. -->
 
       <!-- Extensions Menu bubble -->
-      <message name="IDS_EXTENSIONS_MENU_TITLE" desc="Title of the Extensions Menu">
-        Extensions
-      </message>
-      <message name="IDS_EXTENSIONS_MENU_CONTEXT_MENU_TOOLTIP" desc="Title of the context menu for individual extensions in the Extensions Menu">
+      <if expr="enable_extensions_core">
+        <message name="IDS_EXTENSIONS_MENU_TITLE" desc="Title of the Extensions Menu" formatter_data="android_java">
+          Extensions
+        </message>
+        <message name="IDS_EXTENSIONS_MENU_CONTEXT_MENU_TOOLTIP" desc="Title of the context menu for individual extensions in the Extensions Menu" formatter_data="android_java">
           More options
-      </message>
+        </message>
+      </if>
       <message name="IDS_EXTENSIONS_MENU_CONTEXT_MENU_TOOLTIP_ACCESSIBLE_NAME" desc="Title of the context menu for individual extensions in the Extensions Menu">
           <ph name="EXTENSION_NAME">More options for $1<ex>MyExtension</ex></ph>
       </message>
@@ -6273,9 +6302,11 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_EXTENSIONS_MENU_MAIN_PAGE_EXTENSION_SITE_ACCESS_NONE" desc="Text of the site permissions button when extension doesn't have site access to the site">
         No access needed
       </message>
-      <message name="IDS_EXTENSIONS_MENU_MAIN_PAGE_DISCOVER_EXTENSIONS" desc="Text of the button that opens the extensions webstore.">
-        Discover more extensions
-      </message>
+      <if expr="enable_extensions_core">
+        <message name="IDS_EXTENSIONS_MENU_MAIN_PAGE_DISCOVER_EXTENSIONS" desc="Text of the button that opens the extensions webstore." formatter_data="android_java">
+          Discover more extensions
+        </message>
+      </if>
       <message name="IDS_EXTENSIONS_MENU_MAIN_PAGE_EXTENSION_SITE_ACCESS_TOOLTIP" desc="Tooltip text of an extension's site permissions button.">
         Change site permissions
       </message>
@@ -6343,18 +6374,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
         Runs automatically on all sites you visit
       </message>
 
-      <!-- Settings API bubble -->
-      <message name="IDS_EXTENSIONS_SETTINGS_API_TITLE_HOME_PAGE_BUBBLE" desc="Title of a bubble warning users that an extension has overridden their home page setting">
+      <!-- Controlled home dialog -->
+      <message name="IDS_EXTENSIONS_CONTROLLED_HOME_DIALOG_TITLE" desc="Title of a dialog warning users when an extension has changed the home page">
         Is this the home page you were expecting?
       </message>
-
-      <message name="IDS_EXTENSIONS_SETTINGS_API_FIRST_LINE_HOME_PAGE_SPECIFIC" desc="Text displayed in the Settings API bubble as first line when an extension has changed the home page, and we are pointing to its icon.">
-        This extension has changed what page is shown when you click the Home button.
+      <message name="IDS_EXTENSIONS_CONTROLLED_HOME_DIALOG_DESCRIPTION" desc="Text of a dialog warning users warning users when an extension has changed the home page, and we are not pointing to its icon.">
+        "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you click the Home button.
       </message>
-      <message name="IDS_EXTENSIONS_SETTINGS_API_FIRST_LINE_HOME_PAGE" desc="Text displayed in the Settings API bubble as first line when an extension has changed the home page, and we are not pointing to its icon.">
-        The extension "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you click the Home button.
-      </message>
-
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_SEARCH_ENGINE" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the search engine. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (iBrowe is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
         ''' It also controls what page is shown when you search from the Omnibox.'''
       </message>
@@ -6464,8 +6490,14 @@ Keep your key file in a safe place. You will need it to create new versions of y
         No thanks
       </message>
 
-      <message name="IDS_WEB_APP_MENU_BUTTON_TOOLTIP">
+      <message name="IDS_WEB_APP_MENU_BUTTON_TOOLTIP" desc="The tooltip to show for the three-dot menu in a web app window">
         Customize and control <ph name="APP_NAME">$1<ex>GMail</ex></ph>
+      </message>
+      <message name="IDS_WEB_APP_MENU_BUTTON_TOOLTIP_UPDATE_AVAILABLE" desc="The tooltip to show for the three-dot menu in a web app window when an update for the web app is available">
+        Customize and control <ph name="APP_NAME">$1<ex>GMail</ex></ph>. Update is available.
+      </message>
+      <message name="IDS_WEB_APP_MENU_BUTTON_UPDATE" desc="Short label next to three-dot menu in a web app window when an update for the web app is available">
+        App update available
       </message>
       <message name="IDS_WEB_APP_ENABLE_WINDOW_CONTROLS_OVERLAY_TOOLTIP">
         Hide title bar
@@ -6580,14 +6612,14 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_COMPONENTS_SVC_STATUS_UPDATE" desc="Service Status">
         Update
       </message>
-      <message name="IDS_COMPONENTS_SVC_STATUS_DNL_DIFF" desc="Service Status">
-        Downloading diff
-      </message>
       <message name="IDS_COMPONENTS_SVC_STATUS_DNL" desc="Service Status">
         Downloading
       </message>
-      <message name="IDS_COMPONENTS_SVC_STATUS_UPDT_DIFF" desc="Service Status">
-        Updating diff
+      <message name="IDS_COMPONENTS_SVC_STATUS_DECOMPRESSING" desc="Service status displayed when decompressing a compressed file.">
+        Decompressing
+      </message>
+      <message name="IDS_COMPONENTS_SVC_STATUS_PATCHING" desc="Service status displayed when applying a patch file.">
+        Patching
       </message>
       <message name="IDS_COMPONENTS_SVC_STATUS_UPDATING" desc="Service Status">
         Updating
@@ -6674,23 +6706,6 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_PASSWORD_ERROR_DESCRIPTION_SIGN_UP" desc="The description of the password manager error message during sign up flow.">
         Keep saving passwords in your iBrowe sync chain
       </message>
-      <if expr="is_android">
-        <message name="IDS_UPDATE_GMS" desc="The title of the password manager error message when the user needs update Google Play services to save account passwords.">
-          Update Google Play services
-        </message>
-        <message name="IDS_UPDATE_TO_SAVE_PASSWORDS" desc="The title of the password manager error message when the user needs update Google Play services to save passwords.">
-          Update to save passwords
-        </message>
-        <message name="IDS_UPDATE_GMS_TO_SAVE_PASSWORDS_TO_ACCOUNT" desc="The description of the password manager error message when the user needs update Google Play services to save account passwords.">
-          Password saved on this device only. To save new passwords in your iBrowe sync chain, update Google Play services.
-        </message>
-        <message name="IDS_UPDATE_GMS_TO_SAVE_PASSWORDS" desc="The description of the password manager error message when the user needs update Google Play services to save passwords.">
-          To start saving passwords to iBrowe Password Manager again, update Google Play services
-        </message>
-        <message name="IDS_UPDATE_GMS_BUTTON_TITLE" desc="Label for the button that appears on the error message saying that Google Play Services needs to be updated to use the iBrowe Password Manager. Clicking on this button opens the Google Play services page in the Google Play Store.">
-          Update
-        </message>
-      </if>
       <message name="IDS_PASSWORD_ERROR_VERIFY_BUTTON_TITLE" desc="The title of the verify button in the password manager error message.">
         Verify
       </message>
@@ -6879,11 +6894,6 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_PLUGIN_BLOCKED_BY_POLICY" desc="The placeholder text for a plugin blocked by enterprise policy.">
         <ph name="PLUGIN_NAME">$1<ex>Flash</ex></ph> is blocked by enterprise policy
       </message>
-      <if expr="is_chromeos">
-        <message name="IDS_NACL_PLUGIN_BLOCKED" desc="The placeholder text for a blocked plugin.">
-          This plugin is not supported on this device
-        </message>
-      </if>
       <message name="IDS_PLUGIN_NOT_AUTHORIZED" desc="The placeholder text for a plugin that requires user permission to run.">
         <ph name="PLUGIN_NAME">$1<ex>Java</ex></ph> needs your permission to run
       </message>
@@ -7126,12 +7136,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
         <message name="IDS_ABOUT_BROWSER_SWITCH_INTERNALS_IGNORE_TABLE_COLUMN_SOURCE" desc="about:browser-switch/internals description of the column Source in the table of the section Ignore">
           Source
         </message>
+        <message name="IDS_ABOUT_BROWSER_SWITCH_INTERNALS_POLICIES_DOWNLOAD_BUTTON" desc="about:browser-switch/internals download button for used policies in legacy browser support">
+          Export LBS policies
+        </message>
       </if>
-
-      <!-- NaCl plugin strings -->
-      <message name="IDS_NACL_APP_MISSING_ARCH_MESSAGE" desc="Shown if a Native Client app does not support the current architecture">
-        This page uses a Native Client app that doesn't work on your computer.
-      </message>
 
       <!-- About box strings -->
       <if expr="is_win or is_macosx">
@@ -7154,6 +7162,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <!-- Omnibox -->
       <message name="IDS_OMNIBOX_PLACEHOLDER_TEXT" desc="The text displayed in the Omnibox when it is empty and unfocused.">
         Search <ph name="SEARCH_ENGINE_NAME">$1<ex>iBrowe</ex></ph> or type a URL
+      </message>
+      <message name="IDS_OMNIBOX_AIM_PLACEHOLDER_TEXT" desc="The text displayed in the Omnibox when it is focused with no input and AI Mode is enabled.">
+        ⇥ Press tab then enter to ask AI Mode
       </message>
       <if expr="not use_titlecase">
         <message name="IDS_PASTE_AND_GO" desc="The text label of the Paste And Go menu item when the clipboard contains a URL">
@@ -7285,6 +7296,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_CUSTOM_LINKS_MORE_ACTIONS" desc="The tooltip and accessibility label for the 3 dot menu on a shortcut. (On the New Tab Page)">
         More actions for <ph name="SHORTCUT_TITLE">$1<ex>YouTube</ex></ph> shortcut
       </message>
+      <message name="IDS_NTP_ENTERPRISE_SHORTCUTS_MORE_ACTIONS_DISABLED" desc="The tooltip and accessibility label for the 3 dot menu on an eneterprise shortcut if customization is disabled. (On the New Tab Page)">
+        Customization is disabled by your Admin
+      </message>
       <message name="IDS_UPLOAD_IMAGE_FORMAT" desc="The permitted upload image format for the custom background. (On the New Tab Page)">
         *.jpeg, *.jpg, *.png
       </message>
@@ -7375,7 +7389,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_CUSTOM_BG_CUSTOMIZE_NTP_WALLPAPER_SEARCH_LABEL" desc="Accessibility label for the wallpaper search gear icon. (On the New Tab Page)">
         Customize this page with AI
       </message>
-       <message name="IDS_NTP_DISMISS" desc="Used for Dismiss buttons" translateable="false">
+       <message name="IDS_NTP_DISMISS" desc="Used for Dismiss buttons">
         Dismiss
       </message>
       <message name="IDS_NTP_DISMISS_PROMO" desc="The tooltip title and accessibility label for the (X) button to dismiss promotional messages on the middle / bottom of the New Tab page.">
@@ -7477,11 +7491,17 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_NTP_CUSTOMIZE_MOST_VISITED_LABEL" desc="The label for the option to show most visited sites in the customization menu on the New Tab Page">
         Most visited sites
       </message>
+      <message name="IDS_NTP_CUSTOMIZE_ENTERPRISE_SHORTCUTS_LABEL" desc="The label for the option to show enterprise shortcuts in the customization menu on the New Tab Page">
+        My organization's shortcuts
+      </message>
       <message name="IDS_NTP_CUSTOMIZE_MOST_VISITED_DESC" desc="The description for the option to show user selected shortcuts in the customization menu on the New Tab Page">
         Shortcuts are suggested based on websites you visit often
       </message>
       <message name="IDS_NTP_CUSTOMIZE_MY_SHORTCUTS_DESC" desc="The description for the option to show most visited sites in the customization menu on the New Tab Page">
         Shortcuts are curated by you
+      </message>
+      <message name="IDS_NTP_CUSTOMIZE_ENTERPRISE_SHORTCUTS_DESC" desc="The description for the option to show enterprise shortcuts in the customization menu on the New Tab Page">
+        Shortcuts are curated by your organization
       </message>
       <message name="IDS_NTP_CUSTOMIZE_COLOR_PICKER_LABEL" desc="The label for the color picker in the customization menu on the New Tab Page">
         Custom color
@@ -8144,60 +8164,95 @@ Keep your key file in a safe place. You will need it to create new versions of y
           Reset to default
         </message>
       </if>
-      <!-- TODO(crbug.com/423679752): Make the following string translatable. -->
-      <message name="IDS_NTP_COMPOSE_ENTRYPOINT" desc="The text for the compose entrypoint in the searchbox on the New Tab Page." translateable="false">
+      <message name="IDS_NTP_COMPOSE_ENTRYPOINT" desc="The text for the compose entrypoint in the searchbox on the New Tab Page.">
         AI Mode
       </message>
-      <message name="IDS_NTP_COMPOSE_ENTRYPOINT_A11Y_LABEL" desc="The accessibility label for the compose entrypoint in the searchbox on the New Tab Page." translateable="false">
+      <message name="IDS_NTP_COMPOSE_ENTRYPOINT_A11Y_LABEL" desc="The accessibility label for the compose entrypoint in the searchbox on the New Tab Page.">
         Ask iBrowe AI Mode
       </message>
       <message name="IDS_NTP_COMPOSE_PLACEHOLDER_TEXT" desc="The placeholder for the input in the compose box.">
-        Ask anything
+        Ask AI Mode
       </message>
       <message name="IDS_NTP_COMPOSE_CANCEL_BUTTON_A11Y_LABEL" desc="The accessibility label for the cancel button on the compose box when there is no input.">
         Dismiss
       </message>
-      <message name="IDS_NTP_COMPOSE_CANCEL_BUTTON_A11Y_LABEL_INPUT" desc="The accessibility label for the cancel button on the compose box when there is input." translateable="false">
+      <message name="IDS_NTP_COMPOSE_CANCEL_BUTTON_A11Y_LABEL_INPUT" desc="The accessibility label for the cancel button on the compose box when there is input.">
         Clear
       </message>
       <message name="IDS_NTP_COMPOSE_IMAGE_UPLOAD_BUTTON_A11Y_LABEL" desc="The accessibility label for the image upload button on the compose box.">
         Upload an image
       </message>
-      <message name="IDS_NTP_COMPOSE_PDF_UPLOAD_BUTTON_A11Y_LABEL" desc="The accessibility label for the file upload button on the compose box." translateable="false">
+      <message name="IDS_NTP_COMPOSE_PDF_UPLOAD_BUTTON_A11Y_LABEL" desc="The accessibility label for the file upload button on the compose box.">
         Upload a PDF
       </message>
       <message name="IDS_NTP_COMPOSE_SUBMIT_BUTTON_A11Y_LABEL" desc="The accessibility label for the submit button on the compose box.">
         Send
       </message>
-      <message name="IDS_NTP_COMPOSE_DELETE_FILE_A11Y_LABEL" desc="The accessibility label for the delete button shown on hover for uploaded files." translateable="false">
+      <message name="IDS_NTP_COMPOSE_DELETE_FILE_A11Y_LABEL" desc="The accessibility label for the delete button shown on hover for uploaded files.">
         <ph name="FILE_NAME">$1<ex>recipe.pdf</ex></ph> press enter to delete file
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_STARTED_A11Y_TEXT" desc="Text for a screenreader to read aloud when the user starts uploading a file." translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_STARTED_A11Y_TEXT" desc="Text for a screenreader to read aloud when the user starts uploading a file.">
         Uploading file
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_COMPLETE_A11Y_TEXT" desc="Text for a screenreader to read aloud when the user's file upload completes successfully." translateable="false">&gt;
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_COMPLETE_A11Y_TEXT" desc="Text for a screenreader to read aloud when the user's file upload completes successfully.">
         File upload complete
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_INVALID_EMPTY_SIZE" desc="The text to display when a file upload is empty." translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_INVALID_EMPTY_SIZE" desc="The text to display when a file upload is empty.">
         Can't upload. File appears to be empty.
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_INVALID_TOO_LARGE" desc="The text to display when a file upload exceeds the allowed size" translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_INVALID_TOO_LARGE" desc="The text to display when a file upload exceeds the allowed size">
         Can't upload. File exceeds maximum supported size.
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_IMAGE_PROCESSING_ERROR" desc="The text to display when an file upload image can't be processed." translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_IMAGE_PROCESSING_ERROR" desc="The text to display when an file upload image can't be processed.">
         Can't upload. Failed to process image file.
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_VALIDATION_FAILED" desc="The generic text to display when a file upload fails a validation step." translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_VALIDATION_FAILED" desc="The generic text to display when a file upload fails a validation step.">
         Can't upload. File upload failed validation checks.
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_FAILED" translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_FAILED">
         Unexpected error, file upload failed.
       </message>
-      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_EXPIRED" translateable="false">
+      <message name="IDS_NTP_COMPOSE_FILE_UPLOAD_EXPIRED">
         File upload has expired and been removed.
+      </message>
+      <message name="IDS_NTP_COMPOSE_ADD_TAB" desc="Heading for a list of tabs that can be added to a contextual search. This is a subsection of a menu.">
+        Add tab
+      </message>
+      <message name="IDS_NTP_COMPOSE_ADD_IMAGE" desc="Text for a button label that opens a menu so users can add an image to their search.">
+        Add image
+      </message>
+      <message name="IDS_NTP_COMPOSE_UPLOAD_FILE" desc="Text for a button label that opens a menu so users can add a file to their search.">
+        Upload file
+      </message>
+      <message name="IDS_NTP_COMPOSE_ADD_CONTEXT" desc="The text to display to ask user to add context to their search e.g. pdf or image.">
+        Add tab or file
+      </message>
+      <message name="IDS_NTP_COMPOSE_ADD_CONTEXT_TITLE" desc="The a11y title for a button that allows users to add context to their search e.g. pdf or image.">
+        Add a tab or file to your search
+      </message>
+      <message name="IDS_NTP_COMPOSE_SUGGESTIONS_INFO" desc="The text underneath the composebox that explains to users how suggestions are generated.">
+        Suggestions based on your <ph name="BEGIN_LINK_GOOGLE_ACTIVITY">&lt;a target="_blank" href="$1"&gt;</ph>iBrowe activity<ph name="END_LINK_GOOGLE_ACTIVITY">&lt;/a&gt;</ph>
+      </message>
+      <message name="IDS_NTP_COMPOSE_SMART_COMPOSE_TAB" desc="The label for the call to action to accept the inline suggestion.">
+        Tab
       </message>
 
       <!-- NTP Modules -->
+      <message name="IDS_NTP_MODULES_SETUP_LIST_DISABLE_TOAST_MESSAGE" desc="Text shown in the toast confirming a module has been disabled.">
+        You won't see <ph name="MODULE_NAME">$1<ex>Make iBrowe Yours</ex></ph> on this page again
+      </message>
+      <message name="IDS_NTP_MODULES_SETUP_LIST_DISMISS_TOAST_MESSAGE" desc="Text shown in the toast confirming a module has been dismissed.">
+        <ph name="MODULE_NAME">$1<ex>Make iBrowe Yours</ex></ph> hidden
+      </message>
+      <message name="IDS_NTP_MODULES_SETUP_LIST_TITLE" desc="Title shown at the top of the Setup List card.">
+        Make iBrowe Yours
+      </message>
+      <message name="IDS_NTP_MODULES_SETUP_LIST_INFO" desc="Text shown in the body of the info dialog of the Make iBrowe Yours card.">
+        You're seeing suggestions on how to personalize iBrowe and make it more powerful for your daily needs.
+        <ph name="BREAK">&lt;br&gt;</ph>
+        <ph name="BREAK">&lt;br&gt;</ph>
+        You can manage settings from the card menu or see more options in Customize iBrowe.
+      </message>
       <message name="IDS_NTP_MODULES_INFO_BUTTON_TITLE" desc="Text shown in tooltip of info button of an NTP module.">
         About this card
       </message>
@@ -8305,6 +8360,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <message name="IDS_NTP_MODULES_DISMISS_FOR_HOURS_BUTTON_TEXT" desc="Text shown on the dismiss button of an NTP module that specifies length of time in hours.">
         Hide for <ph name="MODULE_TITLE">$1<ex>5</ex></ph> hours
+      </message>
+      <message name="IDS_NTP_MODULES_DISMISS_FOR_DAYS_BUTTON_TEXT" desc="Text shown on the dismiss button of an NTP module that specifies length of time in days.">
+        Hide for <ph name="DISMISS_DAYS">$1<ex>5</ex></ph> days
       </message>
       <message name="IDS_NTP_MODULES_GOOGLE_CALENDAR_DISMISS_TOAST_MESSAGE" desc="Text shown on the toast on the NTP indicating that the iBrowe Calendar card has been dismissed.">
         iBrowe Calendar hidden
@@ -8482,6 +8540,38 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <message name="IDS_NTP_MODULES_MICROSOFT_AUTHENTICATION_NAME" desc="Name of the Microsoft Authentication module as shown in various UIs.">
         Microsoft Authentication
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_DISMISS_TOAST_MESSAGE" desc="Text shown on the toast on the NTP indicating that the Tab Groups card has been dismissed.">
+        Tab Groups hidden
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_DISABLE_TOAST_MESSAGE" desc="Text shown on the toast on the NTP indicating that the Tab Groups card has been disabled.">
+        You won't see Tab Groups on this page again
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_INFO" desc="Text shown in the body of the info dialog of the Tab Groups module.">
+        You’re seeing your recently used tab groups to help you easily pick up where you left off.
+        <ph name="BREAK">&lt;br&gt;</ph>
+        <ph name="BREAK">&lt;br&gt;</ph>
+        You can manage settings from the card menu or see more options in Customize iBrowe.
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_TITLE" desc="Title for Tab Groups NTP module on the new tab page.">
+        Your tab groups
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_TIME_DELTA" desc="Text on a tab group that indicates the time duration that has passed since the interaction.">
+        {TIME_DIMENSION, plural,
+          =0 {Used <ph name="TIME_COUNT">$1<ex>2</ex></ph> day ago}
+          =1 {Used <ph name="TIME_COUNT">$1<ex>2</ex></ph> days ago}
+          =2 {Used <ph name="TIME_COUNT">$1<ex>2</ex></ph> week ago}
+          other {Used <ph name="TIME_COUNT">$1<ex>2</ex></ph> weeks ago}
+        }
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_RECENTLY_USED" desc="The timestamp text on a tab group when the last interaction is less than 1 day ago.">
+        Recently used
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_ZERO_STATE_TITLE" desc="Title shown in the zero state tab groups module.">
+        Stay organized with tab groups
+      </message>
+      <message name="IDS_NTP_MODULES_TAB_GROUPS_ZERO_STATE_TEXT" desc="Text shown in the zero state tab groups module.">
+        You can group tabs to keep related pages together and saved across your devices
       </message>
       <message name="IDS_NTP_MICROSOFT_AUTHENTICATION_DISABLE_BUTTON_TEXT" desc="Text shown on the disable button of the Microsoft Authentication module.">
        Don't show this card
@@ -9007,7 +9097,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_READING_MODE_READ_ALOUD_TOOLBAR_LABEL" desc="Accessibility label for the Reading Mode toolbar that has options for text formating and reading aloud text. Spoken by screen readers.">
         Read Aloud and Text formatting
       </message>
-      <message name="IDS_READING_MODE_FONT_SIZE" desc="Accessibility label for button that opens a dropdown with options for changing the font size for reading mode." translateable="false">
+      <message name="IDS_READING_MODE_FONT_SIZE" desc="Accessibility label for button that opens a dropdown with options for changing the font size for reading mode.">
         Font size
       </message>
       <message name="IDS_READING_MODE_FONT_NAME_COMBOBOX_LABEL" desc="Accessibility label for the font name combobox of the reading mode feature.">
@@ -9073,8 +9163,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_READING_MODE_VOICE_HIGHLIGHT" desc="Accessibility label for button that opens a dropdown with options for changing the highlight granularity for following along with speech in Read Aloud.">
         Voice highlight
       </message>
-      <message name="IDS_READING_MODE_AUTO_HIGHLIGHT_LABEL" desc="Dropdown option for setting the automatic highlight granularity in Read Aloud.">
-        Auto
+      <message name="IDS_READING_MODE_AUTO_HIGHLIGHT_LABEL" desc="Dropdown option that makes read aloud highlight words, phrases or sentences, depending on the voice speed.">
+        Adaptive highlighting
       </message>
       <message name="IDS_READING_MODE_WORD_HIGHLIGHT_LABEL" desc="Dropdown option for setting the word highlight granularity in Read Aloud.">
         Word
@@ -9093,6 +9183,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <message name="IDS_READING_MODE_FONT_RESET" desc="Label for button that resets the font size of the reading mode feature back to the default font setting.">
         Reset
+      </message>
+      <message name="IDS_READING_MODE_FONT_RESET_TOOLTIP" desc="Tooltip for the 'Reset' font size button in reading mode.">
+        Reset to default zoom level
       </message>
       <message name="IDS_READING_MODE_TURN_HIGHLIGHT_OFF" desc="Tooltip label for button that turns off highlighting in Read Aloud.">
         Turn off highlight
@@ -9132,6 +9225,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <message name="IDS_READING_MODE_VOICE_SPEED_WITH_RATE" desc="Accessibility label for button that opens a dropdown with options for changing the speed of the voice for Read Aloud.">
         Voice speed <ph name="RATE">$1<ex>1</ex></ph>x
+      </message>
+      <message name="IDS_READING_MODE_VOICE_SPEED_OPTION_TITLE" desc="Title for the dropdown menu options that change the speed of the voice for Read Aloud.">
+        <ph name="RATE">$1<ex>1.2</ex></ph>x
       </message>
       <message name="IDS_READING_MODE_VOICE_SELECTION" desc="Accessibility label for button that opens a dropdown with options for changing the voice used for Read Aloud.">
         Voice selection
@@ -9259,6 +9355,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
       </message>
       <message name="IDS_TOOLTIP_DOWNLOAD_ICON" desc="The tooltip for download toolbar button icon">
           Downloads
+      </message>
+      <message name="IDS_TOOLTIP_DOWNLOAD_ICON_NEW_DOWNLOAD" desc="The tooltip for download toolbar button icon when at least one newly completed download is available">
+        New download available
       </message>
       <message name="IDS_TOOLTIP_HOME" desc="The tooltip for the home button">
         Open the home page
@@ -9568,9 +9667,48 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_SPLIT_VIEW_NTP_TAB_TITLE" desc="The title of the split view new tab page as displayed in the tab strip.">
         Choose a tab
       </message>
-      <message name="IDS_SPLIT_VIEW_MINI_TOOLBAR_MENU_BUTTON_TOOLTIP" desc="The tooltip for the menu button in the minitoolbar of the inactive view in the split.">
-        More options for split view
+      <message name="IDS_ACCNAME_SPLIT_VIEW_MINI_TOOLBAR_MENU_BUTTON" desc="The accessible name and tooltip for the menu button of the minitoolbar in a split view.">
+        Arrange split view
       </message>
+      <message name="IDS_SPLIT_VIEW_NTP_CLOSE_BUTTON_ARIA_LABEL" desc="The screen reader text describing the split view new tab page close button.">
+        Close this view
+      </message>
+      <message name="IDS_SPLIT_VIEW_DRAG_ENTRYPOINT_LABEL" desc="A label for the drag entrypoint indicating it can create a split view.">
+        Create split view
+      </message>
+      <message name="IDS_SPLIT_VIEW_TITLE_IPH" desc="The title text of the IPH describing pinning split view.">
+        Pin it for next time
+      </message>
+      <message name="IDS_SPLIT_VIEW_BODY_IPH" desc="The body text of the IPH describing pinning split view.">
+        Quickly create a split view when you need it
+      </message>
+      <message name="IDS_SPLIT_VIEW_PIN_ACTION_IPH" desc="The pin confirmation button of the IPH describing split view.">
+        Pin split view
+      </message>
+      <message name="IDS_SPLIT_VIEW_DISMISS_ACTION_IPH" desc="The pin confirmation button of the IPH describing split view.">
+        No thanks
+      </message>
+      <message name="IDS_SPLIT_VIEW_TAB_SWITCH_ENTRY_IPH_TITLE" desc="The title for intro of quick tab switch split view IPH tutorial.">
+        Split view makes it easier to multitask
+      </message>
+      <message name="IDS_SPLIT_VIEW_TAB_SWITCH_ENTRY_IPH_BODY" desc="The body for intro of quick tab switch split view IPH tutorial.">
+        Put pages side-by-side in the same tab so you can easily compare options and more
+      </message>
+      <message name="IDS_SPLIT_VIEW_TAB_SWITCH_STEP_IPH_BODY" desc="The body for first step of quick tab switch split view IPH tutorial.">
+        Right-click on this tab and select “Add tab to new split view”
+      </message>
+      <message name="IDS_SPLIT_VIEW_TAB_SWITCH_COMPLETION_IPH_BODY" desc="The body for completion of quick tab switch split view IPH tutorial.">
+        You can now use split view to compare, multitask, and more
+      </message>
+
+      <!-- Vertical Tab Strings -->
+      <message name="IDS_SWITCH_TO_VERTICAL_TAB" desc="The button in context menu that switches to vertical tab view.">
+          Show tabs to the side
+      </message>
+      <message name="IDS_SWITCH_TO_HORIZONTAL_TAB" desc="The button in context menu that switches to horizontal tab view.">
+          Show tabs at the top
+      </message>
+      <!-- /Vertical Tab Strings -->
 
       <!-- Strings for intent picker -->
       <if expr="not is_android">
@@ -9775,8 +9913,11 @@ Keep your key file in a safe place. You will need it to create new versions of y
       <message name="IDS_ACCNAME_RELOAD" desc="The accessible name for the reload/stop button.">
         Reload
       </message>
-      <message name="IDS_ACCNAME_SPLIT_TABS" is_accessibility_with_no_ui="true" desc="The accessible name for the toolbar button for the split tabs feature.">
-        Side-by-side
+      <message name="IDS_ACCNAME_SPLIT_TABS_TOOLBAR_BUTTON_PINNED" desc="The accessible name for the toolbar button for the split tabs feature, when it is pinned and disabled.">
+        Open tab in split view
+      </message>
+      <message name="IDS_ACCNAME_SPLIT_TABS_TOOLBAR_BUTTON_ENABLED" desc="The accessible name for the toolbar button for the split tabs feature, when it is enabled.">
+        Arrange split view
       </message>
       <message name="IDS_ACCNAME_FIND" desc="The accessible name for the find button.">
         Find
@@ -11263,95 +11404,89 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>iBrowe 
       </if>
 
       <!-- Side By Side -->
-      <message name="IDS_ACCNAME_SPLIT_TABS_RESIZE" is_accessibility_with_no_ui="true" desc="Screen reader announcement when the side by side resize handle is focused.">
-        Side By Side Resize Handle
+      <message name="IDS_ACCNAME_SPLIT_TABS_RESIZE" desc="Screen reader announcement when the side by side resize handle is focused.">
+        Split View Resize Handle (draggable)
       </message>
       <if expr="not use_titlecase">
-        <message name="IDS_PIN_SPLIT_TAB_TOGGLE" translateable="false" desc="Pins the split tabs button to the toolbar when toggled on.">
+        <message name="IDS_PIN_SPLIT_TAB_TOGGLE" desc="Pins the split tabs button to the toolbar when toggled on.">
           Open in split view
         </message>
-        <message name="IDS_SPLIT_TAB_REVERSE_VIEWS" translateable="false" desc="The label for a menu item that swaps the inactive split tab to the other side when clicked.">
+        <message name="IDS_SPLIT_TAB_REVERSE_VIEWS" desc="The label for a menu item that swaps the inactive split tab to the other side when clicked.">
           Reverse views
         </message>
-        <message name="IDS_SPLIT_TAB_HORIZONTAL_LAYOUT" translateable="false" desc="The label for a menu item that switches the split tab layout from vertical to horizontal when clicked.">
-          Switch to horizontal layout
-        </message>
-        <message name="IDS_SPLIT_TAB_VERTICAL_LAYOUT" translateable="false" desc="The label for a menu item that switches the split tab layout from horizontal to vertical when clicked.">
-          Switch to vertical layout
-        </message>
-        <message name="IDS_SPLIT_TAB_CLOSE" translateable="false" desc="The label for a menu item that closes the inactive split tab when clicked.">
+        <message name="IDS_SPLIT_TAB_CLOSE" desc="The label for a menu item that closes the inactive split tab when clicked.">
           Close this view
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_LEFT_VIEW" translateable="false" desc="The label for a menu item that closes the left view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_LEFT_VIEW" desc="The label for a menu item that closes the left view in the active split.">
           Close left view
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_RIGHT_VIEW" translateable="false" desc="The label for a menu item that closes the right view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_RIGHT_VIEW" desc="The label for a menu item that closes the right view in the active split.">
           Close right view
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_TOP_VIEW" translateable="false" desc="The label for a menu item that closes the top view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_TOP_VIEW" desc="The label for a menu item that closes the top view in the active split.">
           Close top view
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_BOTTOM_VIEW" translateable="false" desc="The label for a menu item that closes the bottom view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_BOTTOM_VIEW" desc="The label for a menu item that closes the bottom view in the active split.">
           Close bottom view
         </message>
-        <message name="IDS_SPLIT_TAB_SEPARATE_VIEWS" translateable="false" desc="The label for a menu item that unsplits the split tab when clicked.">
+        <message name="IDS_SPLIT_TAB_SEPARATE_VIEWS" desc="The label for a menu item that unsplits the split tab when clicked.">
           Separate views
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_LEFT_VIEW" translateable="false" desc="The label for a menu item that swaps the left view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_LEFT_VIEW" desc="The label for a menu item that swaps the left view in the active split with the selected tab.">
           Swap with left view
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_RIGHT_VIEW" translateable="false" desc="The label for a menu item that swaps the right view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_RIGHT_VIEW" desc="The label for a menu item that swaps the right view in the active split with the selected tab.">
           Swap with right view
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_TOP_VIEW" translateable="false" desc="The label for a menu item that swaps the top view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_TOP_VIEW" desc="The label for a menu item that swaps the top view in the active split with the selected tab.">
           Swap with top view
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_BOTTOM_VIEW" translateable="false" desc="The label for a menu item that swaps the bottom view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_BOTTOM_VIEW" desc="The label for a menu item that swaps the bottom view in the active split with the selected tab.">
           Swap with bottom view
+        </message>
+        <message name="IDS_SPLIT_TAB_SEND_FEEDBACK" desc="The label for a menu item that opens a dialog to send feedback.">
+          Send feedback
         </message>
       </if>
       <if expr="use_titlecase">
-        <message name="IDS_PIN_SPLIT_TAB_TOGGLE" translateable="false" desc="In title case: pins the split tabs button to the toolbar when toggled on.">
+        <message name="IDS_PIN_SPLIT_TAB_TOGGLE" desc="In title case: pins the split tabs button to the toolbar when toggled on.">
           Open In Split View
         </message>
-        <message name="IDS_SPLIT_TAB_REVERSE_VIEWS" translateable="false" desc="In title case: the label for a menu item that swaps the inactive split tab to the other side when clicked.">
+        <message name="IDS_SPLIT_TAB_REVERSE_VIEWS" desc="In title case: the label for a menu item that swaps the inactive split tab to the other side when clicked.">
           Reverse Views
         </message>
-        <message name="IDS_SPLIT_TAB_HORIZONTAL_LAYOUT" translateable="false" desc="In title case: the label for a menu item that switches the split tab layout from vertical to horizontal when clicked.">
-          Switch to Horizontal Layout
-        </message>
-        <message name="IDS_SPLIT_TAB_VERTICAL_LAYOUT" translateable="false" desc="In title case: the label for a menu item that switches the split tab layout from horizontal to vertical when clicked.">
-          Switch to Vertical Layout
-        </message>
-        <message name="IDS_SPLIT_TAB_CLOSE" translateable="false" desc="In title case: the label for a menu item that closes the inactive split tab when clicked.">
+        <message name="IDS_SPLIT_TAB_CLOSE" desc="In title case: the label for a menu item that closes the inactive split tab when clicked.">
           Close This View
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_LEFT_VIEW" translateable="false" desc="In title case: the label for a menu item that closes the left view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_LEFT_VIEW" desc="In title case: the label for a menu item that closes the left view in the active split.">
           Close Left View
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_RIGHT_VIEW" translateable="false" desc="In title case: the label for a menu item that closes the right view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_RIGHT_VIEW" desc="In title case: the label for a menu item that closes the right view in the active split.">
           Close Right View
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_TOP_VIEW" translateable="false" desc="In title case: the label for a menu item that closes the top view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_TOP_VIEW" desc="In title case: the label for a menu item that closes the top view in the active split.">
           Close Top View
         </message>
-        <message name="IDS_SPLIT_TAB_CLOSE_BOTTOM_VIEW" translateable="false" desc="In title case: the label for a menu item that closes the bottom view in the active split.">
+        <message name="IDS_SPLIT_TAB_CLOSE_BOTTOM_VIEW" desc="In title case: the label for a menu item that closes the bottom view in the active split.">
           Close Bottom View
         </message>
-        <message name="IDS_SPLIT_TAB_SEPARATE_VIEWS" translateable="false" desc="In title case: the label for a menu item that unsplits the split tab when clicked.">
+        <message name="IDS_SPLIT_TAB_SEPARATE_VIEWS" desc="In title case: the label for a menu item that unsplits the split tab when clicked.">
           Separate Views
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_LEFT_VIEW" translateable="false" desc="In title case: The label for a menu item that swaps the left view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_LEFT_VIEW" desc="In title case: The label for a menu item that swaps the left view in the active split with the selected tab.">
           Swap with Left View
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_RIGHT_VIEW" translateable="false" desc="In title case: The label for a menu item that swaps the right view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_RIGHT_VIEW" desc="In title case: The label for a menu item that swaps the right view in the active split with the selected tab.">
           Swap with Right View
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_TOP_VIEW" translateable="false" desc="In title case: The label for a menu item that swaps the top view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_TOP_VIEW" desc="In title case: The label for a menu item that swaps the top view in the active split with the selected tab.">
           Swap with Top View
         </message>
-        <message name="IDS_SPLIT_TAB_SWAP_BOTTOM_VIEW" translateable="false" desc="In title case: The label for a menu item that swaps the bottom view in the active split with the selected tab.">
+        <message name="IDS_SPLIT_TAB_SWAP_BOTTOM_VIEW" desc="In title case: The label for a menu item that swaps the bottom view in the active split with the selected tab.">
           Swap with Bottom View
+        </message>
+        <message name="IDS_SPLIT_TAB_SEND_FEEDBACK" desc="The label for a menu item that opens a dialog to send feedback.">
+          Send Feedback
         </message>
       </if>
 
@@ -11816,6 +11951,9 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>iBrowe 
         <message name="IDS_TAB_GROUP_HEADER_CXMENU_UNPIN_GROUP" desc="The label of the saved tab group button context menu item to unpin a gruop">
           Unpin group from bookmarks
         </message>
+        <message name="IDS_TAB_GROUP_HEADER_CXMENU_CONVERT_GROUP_TO_BOOKMARK_FOLDER" desc="The label of the tab group header context menu item for moving the entire group to a new window.">
+          Convert group to bookmark folder
+        </message>
         <message name="IDS_TAB_GROUP_HEADER_CXMENU_SEND_FEEDBACK" desc="The label of the tab group header context menu item for sending feedback for tab groups.">
           Send feedback
         </message>
@@ -11860,6 +11998,9 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>iBrowe 
         </message>
         <message name="IDS_TAB_GROUP_HEADER_CXMENU_UNPIN_GROUP" desc="The label of the saved tab group button context menu item to unpin a gruop">
           Unpin Group from Bookmarks
+        </message>
+        <message name="IDS_TAB_GROUP_HEADER_CXMENU_CONVERT_GROUP_TO_BOOKMARK_FOLDER" desc="The label of the tab group header context menu item for moving the entire group to a new window.">
+          Convert Group to Bookmark Folder
         </message>
         <message name="IDS_TAB_GROUP_HEADER_CXMENU_SEND_FEEDBACK" desc="In Title Case: The label of the tab group header context menu item for sending feedback for tab groups.">
           Send Feedback
@@ -12488,6 +12629,18 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>iBrowe 
       <message name="IDS_APP_MENU_BUTTON_ERROR" desc="Short label next to app-menu button when the user needs to resolve something.">
         Error
       </message>
+      <if expr="not use_titlecase">
+        <then>
+          <message name="IDS_APP_MENU_BUTTON_ACTION_REQUIRED" desc="Short label next to app-menu button when the user needs to resolve something that is not an error.">
+            Action required
+          </message>
+        </then>
+        <else>
+          <message name="IDS_APP_MENU_BUTTON_ACTION_REQUIRED" desc="Short label next to app-menu button when the user needs to resolve something that is not an error.">
+            Action Required
+          </message>
+        </else>
+      </if>
 
       <!-- Screen Capture strings -->
       <message name="IDS_MEDIA_SCREEN_CAPTURE_CONFIRMATION_TITLE" desc="Title for the prompt shown when screen capturing is requrested by an app.">
@@ -12507,6 +12660,9 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>iBrowe 
       </message>
       <message name="IDS_MEDIA_WINDOW_CAPTURE_NOTIFICATION_TEXT" desc="label used in screen capture notification UI to show the screen sharing status when the stream is consumed by the same app initiating the window picker">
         <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a window.
+      </message>
+      <message name="IDS_MEDIA_WINDOW_CAPTURE_WITH_AUDIO_NOTIFICATION_TEXT" desc="label used in screen capture notification UI to show the screen sharing status when the stream is consumed by the same app initiating the window picker">
+        <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a window and audio.
       </message>
       <message name="IDS_MEDIA_TAB_CAPTURE_NOTIFICATION_TEXT" desc="label used in screen capture notification UI to show the screen sharing status when the stream is consumed by the same app initiating the window picker">
         <ph name="APP_NAME">$1<ex>html5rocks.com</ex></ph> is sharing a iBrowe tab.
@@ -12742,7 +12898,7 @@ Check your passwords anytime in <ph name="GOOGLE_PASSWORD_MANAGER">$1<ex>iBrowe 
           "<ph name="NAME">$1<ex>iBrowe Cast</ex></ph>" is saved only to this device. To use it on your other devices, save it in your account.
         </message>
         <message name="IDS_BOOKMARK_UPLOAD_MOVE_TO_ACCOUNT_DIALOG_SUBTITLE" desc="Subtitle for the upload dialog that offers the user to move a bookmark from their device to their signed-in account.">
-          "<ph name="LOCAL_BOOKMARK">$1<ex>Local Bookmark</ex></ph>" is saved only to this device. To use it on your other devices, save it in your account.
+          “<ph name="LOCAL_BOOKMARK">$1<ex>Local Bookmark</ex></ph>“ is saved only to this device. To use it on your other devices, save it to “<ph name="ACCOUNT_FOLDER">$2<ex>Account Bookmarks</ex></ph>” in your account.
         </message>
         <message name="IDS_EXTENSIONS_MOVE_TO_ACCOUNT_DIALOG_OK_BUTTON_LABEL" desc="Text of the button that triggers the upload of a local extension to the signed in user's account in the extension upload dialog.">
           Save in account
@@ -14348,6 +14504,12 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_SYNC_FULL_ENCRYPTION_BODY_CUSTOM_WITH_DATE" desc="Text of the radio that when selected enables full encryption.">
         Data was encrypted with your sync passphrase on <ph name="TIME">$1<ex>Sept 1, 2012</ex></ph>. This doesn't include payment methods and addresses from Google Pay.
       </message>
+      <message name="IDS_SYNC_FULL_ACCOUNT_DATA_ENCRYPTION_BODY_CUSTOM" desc="Text of the radio that when selected enables full encryption.">
+        Data is encrypted with your sync passphrase. This doesn’t include payment methods and addresses from Google Pay.
+      </message>
+      <message name="IDS_SYNC_FULL_ACCOUNT_DATA_ENCRYPTION_BODY_CUSTOM_WITH_DATE" desc="Text of the radio that when selected enables full encryption.">
+        Data was encrypted with your sync passphrase on <ph name="TIME">$1<ex>Sept 1, 2012</ex></ph>. This doesn’t include payment methods and addresses from Google Pay.
+      </message>
 
       <!-- Translate Bubble -->
       <if expr="toolkit_views">
@@ -15646,6 +15808,9 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_DESKTOP_MEDIA_PICKER_ALSO_SHARE_SYSTEM_AUDIO" desc="Text for the audio toggle in the window picker dialog which is displayed when attempting to share a screen.">
         Also share system audio
       </message>
+      <message name="IDS_DESKTOP_MEDIA_PICKER_ALSO_SHARE_ALL_AUDIO_OUTPUT" desc="Text for the audio toggle in the window picker dialog which is displayed when attempting to share a screen. This string is used when we share all output audio devices, rather than just the default device">
+        Also share all audio outputs
+      </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_ALSO_SHARE_TAB_AUDIO" desc="Text for the audio toggle in the window picker dialog which is displayed when attempting to share a tab.">
         Also share tab audio
       </message>
@@ -15654,6 +15819,9 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_AUDIO_SHARE_HINT_TAB_OR_SCREEN" desc="Text for the audio-sharing label in the window picker dialog, which is displayed when attempting to share a window, and audio is only supported for tabs and screens.">
         To share audio, share a tab or screen instead
+      </message>
+      <message name="IDS_DESKTOP_MEDIA_PICKER_AUDIO_SHARE_HINT_TAB_OR_WINDOW" desc="Text for the audio-sharing label in the window picker dialog, which is displayed when attempting to share a screen, and audio is only supported for tabs and windows.">
+        To share audio, share a tab or window instead
       </message>
       <message name="IDS_DESKTOP_MEDIA_PICKER_SOURCE_TYPE_SCREEN" desc="Text for the button on the window picker dialog, clicking which takes one to full screen sharing" meaning="Refers to the device's entire screen. Short for 'share the entire screen'.">
         Entire Screen
@@ -15822,6 +15990,12 @@ Please help our engineers fix this problem. Tell us what happened right before y
         <ph name="WINDOW_TITLE">
           $1<ex>A VR-enabled website</ex>
         </ph> - VR presenting to headset
+      </message>
+      <message name="IDS_TAB_AX_LABEL_SPLIT_TAB_LEFT_VIEW_FORMAT" desc="Accessibility label text for a tab, when it is the left tab of a split view. Example: 'iBrowe Search - Left view'">
+        <ph name="WINDOW_TITLE">$1<ex>iBrowe Search</ex></ph> - Left view
+      </message>
+      <message name="IDS_TAB_AX_LABEL_SPLIT_TAB_RIGHT_VIEW_FORMAT" desc="Accessibility label text for a tab, when it is the right tab of a split view. Example: 'iBrowe Search - Right view'">
+        <ph name="WINDOW_TITLE">$1<ex>iBrowe Search</ex></ph> - Right view
       </message>
       <message name="IDS_TAB_AX_LABEL_UNNAMED_GROUP_FORMAT" desc="Accessibility label text for a tab, when it is in a group that has not been named by the user. Example: 'iBrowe Search - Part of unnamed group'">
         <ph name="WINDOW_TITLE">$1<ex>iBrowe Search</ex></ph> - Part of unnamed group
@@ -16519,10 +16693,10 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to edit files in <ph name="FOLDERNAME">$2<ex>My Project</ex></ph> until you close all tabs for this site
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_ORIGIN_SCOPED_READ_PERMISSION_FILE_TEXT" desc="Text of dialog for confirming read access to files using the File System Access API">
-      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view <ph name="FILENAME">$2<ex>README.md</ex></ph> until you close all tabs for this site
+      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view and make its own copies of <ph name="FILENAME">$2<ex>README.md</ex></ph> until you close all tabs for this site
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_ORIGIN_SCOPED_READ_PERMISSION_DIRECTORY_TEXT" desc="Text of dialog asking user if they intended to share a particular directory">
-      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view files in <ph name="FOLDERNAME">$2<ex>My Project</ex></ph> until you close all tabs for this site
+      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view and make its own copies of files in <ph name="FOLDERNAME">$2<ex>My Project</ex></ph> until you close all tabs for this site
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_WRITE_PERMISSION_FILE_TEXT" desc="Text of the dialog for confirming origin scoped write access to files using the File System Access API">
       <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to edit <ph name="FILENAME">$2<ex>README.md</ex></ph>
@@ -16531,34 +16705,49 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to edit files in <ph name="FOLDERNAME">$2<ex>My Project</ex></ph>
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_READ_PERMISSION_FILE_TEXT" desc="Text of dialog for confirming read access to files using the File System Access API">
-      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view <ph name="FILENAME">$2<ex>README.md</ex></ph>
+      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view and make its own copies of <ph name="FILENAME">$2<ex>README.md</ex></ph>
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_READ_PERMISSION_DIRECTORY_TEXT" desc="Text of dialog asking user if they intended to share a particular directory">
-      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view files in <ph name="FOLDERNAME">$2<ex>My Project</ex></ph>
+      <ph name="ORIGIN">$1<ex>example.com</ex></ph> will be able to view and make its own copies of files in <ph name="FOLDERNAME">$2<ex>My Project</ex></ph>
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_EDIT_FILE_PERMISSION_TITLE" desc="Title of dialog asking user to confirm giving read and write access to a file using the File System Access API">
-      Let site edit <ph name="FILE_NAME">$1<ex>README.md</ex></ph>?
+      Allow this site to edit <ph name="FILE_NAME">$1<ex>README.md</ex></ph>?
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_EDIT_DIRECTORY_PERMISSION_TITLE" desc="Title of dialog asking user to confirm giving read and write access to (files in) a directory using the File System Access API">
-      Let site edit files?
+      Allow this site to edit files?
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_READ_FILE_PERMISSION_TITLE" desc="Title of dialog asking user to confirm giving read access to a file using the File System Access API">
-      Let site view <ph name="FILE_NAME">$1<ex>README.md</ex></ph>?
+      Allow this site to view and copy <ph name="FILE_NAME">$1<ex>README.md</ex></ph>?
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_READ_DIRECTORY_PERMISSION_TITLE" desc="Title of dialog asking user if they intended to share a particular directory">
-      Let site view files?
+      Allow this site to view and copy files?
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_EDIT_FILE_PERMISSION_ALLOW_TEXT" desc="Text of the 'allow' button in the dialog for confirming write access to a file using the File System Access API">
-      Edit file
+      Allow
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_EDIT_DIRECTORY_PERMISSION_ALLOW_TEXT" desc="Text of the 'allow' button in the dialog for confirming write access to a directory (and the files in it) using the File System Access API">
-      Edit files
+      Allow
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_VIEW_FILE_PERMISSION_ALLOW_TEXT" desc="Text of the 'allow' button in the dialog for confirming read access to a file using the File System Access API">
-      View file
+      Allow
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_VIEW_DIRECTORY_PERMISSION_ALLOW_TEXT" desc="Text of the 'allow' button in the dialog for confirming read access to a directory (and the files in it) using the File System Access API">
-      View files
+      Allow
+    </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_WRITE_PERMISSION_CANCEL_TEXT" desc="Text of the 'cancel' button in the dialog for confirming write access to files or directories using the File System Access API">
+      Cancel
+    </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_EDIT_FILE_PERMISSION_CANCEL_TEXT" desc="Text of the 'cancel' button in the dialog for confirming write access to a file using the File System Access API">
+      Don't Allow
+    </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_EDIT_DIRECTORY_PERMISSION_CANCEL_TEXT" desc="Text of the 'cancel' button in the dialog for confirming write access to a directory (and the files in it) using the File System Access API">
+      Don't Allow
+    </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_VIEW_FILE_PERMISSION_CANCEL_TEXT" desc="Text of the 'cancel' button in the dialog for confirming read access to a file using the File System Access API">
+      Don't Allow
+    </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_VIEW_DIRECTORY_PERMISSION_CANCEL_TEXT" desc="Text of the 'cancel' button in the dialog for confirming read access to a directory (and the files in it) using the File System Access API">
+      Don't Allow
     </message>
 
     <!-- File System Access restore permission prompt -->
@@ -16639,6 +16828,12 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_FILE_SYSTEM_ACCESS_CHOOSER_OPEN_SAVE_FILE_TITLE" desc="Title of the chooser when opening a file  with read and write permissions">
       Warning: this site can see edits you make
     </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_CHOOSER_OPEN_READABLE_FILE_TITLE" desc="Title of the chooser when opening a file with read permissions">
+      Select a file this site can read
+    </message>
+    <message name="IDS_FILE_SYSTEM_ACCESS_CHOOSER_OPEN_READABLE_FILES_TITLE" desc="Title of the chooser when opening files with read permissions">
+      Select files this site can read
+    </message>
 
     <!-- File System Access restricted directory and file dialogs. -->
     <message name="IDS_FILE_SYSTEM_ACCESS_RESTRICTED_DIRECTORY_TITLE" desc="Title of dialog explaining that the user selected a directory that chrome doesn't want to expose to the web">
@@ -16665,7 +16860,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       Save <ph name="FILE">$1<ex>filename.exe</ex></ph>?
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_DANGEROUS_FILE_TEXT" desc="Text of dialog explaining that the user is attempting to save a file with a dangerous extension">
-      This type of file can be dangerous. Only save this file if you trust <ph name="ORIGIN">$1<ex>example.com</ex></ph>
+      This file of type (<ph name="TYPE">$1<ex>.exe</ex></ph>) can be dangerous. Only save this file if you trust <ph name="ORIGIN">$2<ex>example.com</ex></ph>
     </message>
     <message name="IDS_FILE_SYSTEM_ACCESS_DANGEROUS_FILE_DONT_SAVE" desc="Text of the button allowing the user to choose to not save a file with a dangerous extension">
       Don't save
@@ -16813,17 +17008,8 @@ Please help our engineers fix this problem. Tell us what happened right before y
         </message>
       </if>
 
-      <message name="IDS_WEBAUTHN_TRANSPORT_POPUP_USB" desc="Menu item text. The user selects this to verify their identity on a web site (i.e. sign in) using a security key (an external physical device for user authentication) plugged in to the USB port of the computer.">
-        Verify via USB
-      </message>
       <message name="IDS_WEBAUTHN_TRANSPORT_POPUP_PAIR_PHONE" desc="Menu item text. The user selects this to begin the process of pairing with a previously unknown smartphone.">
         Pair with new phone
-      </message>
-      <message name="IDS_WEBAUTHN_TRANSPORT_POPUP_INTERNAL" desc="Menu item text. The user selects this to verify their identity on a web site (i.e. sign in) using a hardware-based authentication mechanism that is built in to the computer, such as a fingerprint reader.">
-        Use this device
-      </message>
-      <message name="IDS_WEBAUTHN_TRANSPORT_POPUP_CABLE" desc="Menu item text. The user selects this to verify their identity on a web site (i.e. sign in) using their phone. They wirelessly connect their phone to their computer over Bluetooth Low Energy, and then use the phone to sign in to web sites on their computer.">
-        Verify via your phone
       </message>
       <message name="IDS_WEBAUTHN_CABLE_ACTIVATE_TITLE" desc="Title of the dialog shown when the user tries to sign-in using a phone as a security key.">
         Check your phone
@@ -17299,7 +17485,7 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
 
       <message name="IDS_WEB_DIGITAL_CREDENTIALS_QR_BODY">
-        Safely use an ID from your Android device
+        Safely use an ID from your mobile device
       </message>
 
       <message name="IDS_WEB_DIGITAL_CREDENTIALS_QR_CODE_ALT_TEXT">
@@ -17523,37 +17709,6 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <!-- Data sharing UI strings -->
     <message name="IDS_DATA_SHARING_BUBBLE_DIALOG_TITLE" desc="Title of the data sharing bubble">
       Data Sharing
-    </message>
-
-    <!-- Deep scanning open now dialog strings -->
-    <message name="IDS_DEEP_SCANNING_DIALOG_OPEN_NOW_TITLE" desc="Title shown in tab modal dialog when the user attempts to open a download while deep scanning is in progress">
-      Scan in progress, open now?
-    </message>
-    <message name="IDS_DEEP_SCANNING_DIALOG_OPEN_NOW_MESSAGE" desc="Message shown in tab modal dialog when the user attempts to open a download while deep scanning is in progress">
-      An unknown file is being scanned for dangerous content.
-    </message>
-    <message name="IDS_DEEP_SCANNING_DIALOG_OPEN_NOW_ACCEPT_BUTTON" desc="The text on the accept button in tab modal dialog when the user attempts to open a download while deep scanning is in progress">
-      Open now
-    </message>
-
-    <!-- Deep scanning more info dialog strings -->
-    <message name="IDS_DEEP_SCANNING_INFO_DIALOG_TITLE" desc="Title shown in tab modal dialog when the user opens a download that recommends deep scanning">
-      Scan file before opening?
-    </message>
-    <message name="IDS_APP_DEEP_SCANNING_INFO_DIALOG_MESSAGE" desc="Message shown in tab modal dialog when the user opens a download that recommends deep scanning">
-        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to iBrowe Advanced Protection for scanning?
-    </message>
-    <message name="IDS_DEEP_SCANNING_INFO_DIALOG_MESSAGE" desc="Message shown in tab modal dialog when the user opens a download that recommends deep scanning">
-        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous. Send to Google Safe Browsing for scanning?
-    </message>
-    <message name="IDS_DEEP_SCANNING_INFO_DIALOG_ACCEPT_BUTTON" desc="The text on the accept button in tab modal dialog when the user opens a download that recommends deep scanning">
-      Send
-    </message>
-    <message name="IDS_DEEP_SCANNING_INFO_DIALOG_CANCEL_BUTTON" desc="The text on the cancel button in tab modal dialog when the user opens a download that recommends deep scanning">
-      Cancel
-    </message>
-    <message name="IDS_DEEP_SCANNING_INFO_DIALOG_OPEN_NOW_BUTTON" desc="The text on the open now button in tab modal dialog when the user opens a download that recommends deep scanning">
-      Open now
     </message>
 
     <!-- In product help bubble dialog for users referred from ESB promotions -->
@@ -17954,12 +18109,6 @@ Please help our engineers fix this problem. Tell us what happened right before y
     <message name="IDS_USED_ON_THIS_SITE" desc="A string indicating to the user that they have used the identity providers' account for federation in the RP in the past. This is based primarily on the knowledge indicated by the identity provider, so no timestamp is known or displayed to the user in this case.">
       You used on this site
     </message>
-    <message name="IDS_MULTI_IDP_ACCOUNT_LAST_USED_ON_THIS_SITE" desc="Lets the user know that this is the account which was last used in FedCM on this site. It may be used as the second parameter to IDS_MULTI_IDP_ACCOUNT_ORIGIN_AND_LAST_USED. Only used for the account which was most recently used.">
-      last used on this site
-    </message>
-    <message name="IDS_MULTI_IDP_ACCOUNT_USED_TIME_AGO" desc="Lets the user know that this account was used some specific time ago. This may be used as used as the second parameter to IDS_MULTI_IDP_ACCOUNT_ORIGIN_AND_LAST_USED. Used for accounts which are not the most recently used but for which we know the time when they were last used.">
-      used <ph name="TIME_AGO">$1<ex>1 month ago</ex></ph>
-    </message>
     <message name="IDS_VERIFY_SHEET_TITLE" desc="Header shown to the user while signing in happens.">
       Verifying…
     </message>
@@ -18312,6 +18461,12 @@ Please help our engineers fix this problem. Tell us what happened right before y
       <message name="IDS_TOAST_CLOSE_TOOLTIP" desc="Tooltip for the X button on a toast notification that closes the toast.">
         Close
       </message>
+       <message name="IDS_GEMINI_WORKING_ON_TASK_BODY" desc="Text on a toast notification that is shown when gemini is working in the background">
+        Gemini will keep working on your task
+      </message>
+      <message name="IDS_NON_MILESTONE_UPDATE_TOAST_BODY" desc="Text on a toast notification that is shown when a non milestone update is complete.">
+        iBrowe was updated
+      </message>
     </if>
 
     <if expr="is_android">
@@ -18479,6 +18634,23 @@ Please help our engineers fix this problem. Tell us what happened right before y
         </message>
     </if>
 
+<!-- Isolated Web Apps Window Management notification. -->
+    <message name="IDS_ISOLATED_WEB_APPS_OPENED_TABS_COUNTER_NOTIFICATION_TITLE" desc="Title for the notification displayed when an Isolated Web App opens multiple tabs.">
+            <ph name="APP_NAME">$1<ex>Example App</ex></ph> has opened multiple tabs.
+          </message>
+
+    <message name="IDS_ISOLATED_WEB_APPS_OPENED_TABS_COUNTER_NOTIFICATION_MESSAGE" desc="Message for the notification displaying the count of open tabs for an Isolated Web App.">
+      <ph name="OPENINGS_COUNT">$1</ph> new iBrowe tabs have been opened by this app. You can manage this behavior under "Pop-ups and Redirects" permission.
+    </message>
+
+    <message name="IDS_ISOLATED_WEB_APPS_OPENED_TABS_COUNTER_NOTIFICATION_BUTTON_SETTINGS" desc="Text for the button on the multiple tabs opened notification that opens the app's content settings.">
+      Change permissions
+    </message>
+
+    <message name="IDS_ISOLATED_WEB_APPS_OPENED_TABS_COUNTER_NOTIFICATION_CLOSE_BUTTON" desc="Text for the button on the multiple tabs opened notification that closes all additional tabs opened by the app.">
+      Close opened tabs
+    </message>
+
     <!-- Common WebUI elements. -->
     <message name="IDS_THUMBS_DOWN" desc="Accessibility label for a thumbs down icon that a user can click to provide negative feedback about a feature.">
       Thumbs down submits feedback that you dislike this.
@@ -18578,6 +18750,33 @@ Please help our engineers fix this problem. Tell us what happened right before y
           other {Your administrator can record your screen with <ph name="APP0_NAME">{APP0_NAME}</ph>, <ph name="APP1_NAME">{APP1_NAME}</ph> and # other apps.}
         }
       </message>
+      <message name="IDS_MULTI_CAPTURE_ACTIVE_CAPTURE_NOTIFICATION_MESSAGE" desc="String notifying that the screens are captured by a specific app.">
+        Your administrator is recording your screen with <ph name="APP0_NAME">{APP_NAME}</ph>.
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_HEADING" desc="Heading for the multi capture details view.">
+        Your administrator can record your screen
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_NO_APP_ON_ALLOWLIST_MESSAGE" desc="Message for the multi capture details view where no app is on the allowlist that enables an app not to show a notification.">
+        These apps will be used to record your screen:
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_SOME_APPS_ON_ALLOWLIST_FIRST_MESSAGE" desc="First message for the multi capture details view where some apps are allowlisted.">
+        You will be notified when these apps are used to record your screen:
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_SOME_APPS_ON_ALLOWLIST_SECOND_MESSAGE" desc="First message for the multi capture details view where some apps are allowlisted.">
+        You will not be notified when these apps are used to record your screen:
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_NO_APP_ON_ALLOWLIST_FOOTER_MESSAGE" desc="Footer for the multi capture details view where no app is on the allowlist that enables an app not to show a notification.">
+        You will be notified when the recording starts.
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_ALL_APPS_ON_ALLOWLIST_FOOTER_MESSAGE" desc="Footer for the multi capture details view where all apps is on the notification bypass allowlist.">
+        You will not be notified when the recording starts.
+      </message>
+      <message name="IDS_MULTI_CAPTURE_DETAILS_DIALOG_CLOSE_BUTTON_TEXT" desc="Close button text for the multi capture details view.">
+        Got it
+      </message>
+      <message name="IDS_MULTI_CAPTURE_NOTIFICATION_BUTTON_TEXT" desc="Text for the notification button to reach the details view.">
+        Details
+      </message>
     </if>
 
   <message name="IDS_CHROME_NO_LONGER_SHOW_WARNINGS_NOTIFICATION_TITLE" desc="The title for the notification sent by iBrowe informing the user that their decision to never show warnings for the url has been applied.">
@@ -18620,12 +18819,78 @@ Please help our engineers fix this problem. Tell us what happened right before y
       </message>
     </if>
 
-    <!-- Glic button context menu. -->
-    <if expr="not is_android">
-      <message name="IDS_GLIC_BUTTON_CXMENU_UNPIN" desc="Name of the Glic button context menu item for unpinning Glic.">
-        Unpin
+    <!-- Protected content identifiers permission -->
+    <if expr="is_win">
+      <message name="IDS_ALLOWED_PROTECTED_CONTENT_IDENTIFIERS_TITLE" desc="Title of the info bubble shown when a site has been allowed to use identifiers to play protected content.">
+        Protected content identifiers allowed
+      </message>
+      <message name="IDS_BLOCKED_PROTECTED_CONTENT_IDENTIFIERS_TITLE" desc="Title of the info bubble shown when a site has been denied to to use identifiers to play protected content.">
+        Protected content identifiers denied
+      </message>
+      <message name="IDS_ALLOWED_PROTECTED_CONTENT_IDENTIFIERS_MESSAGE" desc="Info bubble message and location bar icon tooltip text shown when a site has been allowed to use identifiers to play protected content.">
+        This site can use identifiers to play protected content.
+      </message>
+      <message name="IDS_ALLOWED_PROTECTED_CONTENT_IDENTIFIERS_BLOCK" desc="Radio button to block to use identifiers to play protected content">
+        Always block <ph name="HOST">$1<ex>example.com</ex></ph> from using identifiers to play protected content
+      </message>
+      <message name="IDS_ALLOWED_PROTECTED_CONTENT_IDENTIFIERS_NO_ACTION" desc="Radio button to keep allowing to use identifiers to play protected content">
+        Continue allowing this site to use identifiers to play protected content
+      </message>
+      <message name="IDS_BLOCKED_PROTECTED_CONTENT_IDENTIFIERS_MESSAGE" desc="Info bubble message and location bar icon tooltip text shown when a site has been denied to use identifiers to play protected content.">
+        This site has been blocked from using identifiers to play protected content.
+      </message>
+      <message name="IDS_BLOCKED_PROTECTED_CONTENT_IDENTIFIERS_UNBLOCK" desc="Radio button choice to unblock a site from using identifiers to play protected content.">
+        Always allow <ph name="HOST">$1<ex>mail.google.com</ex></ph> to use identifiers to play protected content
+      </message>
+      <message name="IDS_BLOCKED_PROTECTED_CONTENT_IDENTIFIERS_NO_ACTION" desc="Radio button choice to continue blocking a site from using identifiers to play protected content.">
+        Continue blocking this site from using identifiers to play protected content
       </message>
     </if>
+
+    <!-- New Tab Page browser feature promotions. -->
+    <if expr="not is_android">
+      <message name="IDS_NTP_CUSTOMIZATION_PROMO" desc="The text shown in the body of the New Tab Page browser customization promotion">
+        Customize iBrowe to give your browser a new look
+      </message>
+      <message name="IDS_NTP_CUSTOMIZATION_PROMO_ACTION_BUTTON" is_accessibility_with_no_ui="true" desc="The screenreader text for the action button on the Customization New Tab Page promo">
+        Customize iBrowe
+      </message>
+      <message name="IDS_NTP_EXTENSIONS_PROMO" desc="The text shown in the body of the New Tab Page extensions promotion">
+        Add extensions to stay organized, simplify tasks, and enhance your browsing
+      </message>
+      <message name="IDS_NTP_EXTENSIONS_PROMO_ACTION_BUTTON" is_accessibility_with_no_ui="true" desc="The screenreader text for the action button on the Extensions New Tab Page promo">
+        Add extensions
+      </message>
+      <message name="IDS_NTP_SIGN_IN_PROMO" desc="The text shown in the body of the New Tab Page sign in promotion">
+        Sign in to iBrowe to get your passwords and more on all your devices
+      </message>
+      <message name="IDS_NTP_SIGN_IN_PROMO_WITH_BOOKMARKS" desc="The text shown in the body of the New Tab Page sign in promotion">
+        Sign in to iBrowe to get your passwords, bookmarks, and more on all your devices
+      </message>
+      <message name="IDS_NTP_SIGN_IN_PROMO_ACTION_BUTTON" is_accessibility_with_no_ui="true" desc="The screenreader text for the action button on the Sign In New Tab Page promo">
+        Sign in
+      </message>
+    </if>
+
+    <!-- Save to Drive -->
+    <message name="IDS_ACCOUNT_CHOOSER_SINGLE_ACCOUNT_TITLE" desc="Text to prompt a user to save a file to their account.">
+      Save to your account
+    </message>
+    <message name="IDS_ACCOUNT_CHOOSER_MULTI_ACCOUNT_TITLE" desc="Text to prompt a user to choose an account to save a file to.">
+      Choose your account
+    </message>
+    <message name="IDS_ACCOUNT_CHOOSER_SUBTITLE" desc="Text description for saving files to Drive via iBrowe PDF viewer.">
+      Find your file in the <ph name="FEATURE_NAME">$1<ex>Saved from iBrowe</ex></ph> folder
+    </message>
+    <message name="IDS_ACCOUNT_CHOOSER_SAVED_FROM_CHROME" desc="Text to describe the feature.">
+      Saved from iBrowe
+    </message>
+    <message name="IDS_ACCOUNT_CHOOSER_DRIVE" desc="Google Drive product name.">
+      Drive
+    </message>
+    <message name="IDS_ACCOUNT_CHOOSER_ADD_ACCOUNT" desc="Text for the button to add an account.">
+      Use a different account
+    </message>
 
   </messages>
 </release>

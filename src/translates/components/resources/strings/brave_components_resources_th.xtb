@@ -126,8 +126,8 @@
 <translation id="730042046912793465">นี่คือ</translation>
 <translation id="2055363275850890030">วินโดว์ส่วนบุคคล</translation>
 <translation id="9133213713928851646">iBrowe ไม่จดจำสิ่งที่คุณทำในหน้าต่างส่วนตัว ไซต์ที่คุณเยี่ยมชมจะไม่แสดงในประวัติของคุณ และคุ้กกี้จะหายไปทันทีที่คุณเลิกใช้งาน แต่หน้าต่างส่วนตัวไม่ได้ทำให้คุณเป็นบุคคลนิรนามออนไลน์โดยสิ้นเชิง</translation>
-<translation id="4491905831789757331">iBrowe จะไม่จดจำสิ่งที่คุณทำในหน้าต่างส่วนตัว เว็บไซต์ที่คุณเข้าชมจะไม่ปรากฏในประวัติการใช้งาน คุกกี้ ข้อมูลฟอร์ม และข้อมูลเว็บไซต์จะหายไปทันทีที่คุณปิดหน้าต่างส่วนตัวทั้งหมด</translation>
-<translation id="1700746046668116047">โปรดทราบว่ากิจกรรมของคุณอาจยังคงมองเห็นได้โดยผู้ให้บริการอินเทอร์เน็ตของคุณ ผู้ที่สังเกตการณ์เครือข่ายในเชิงรับ หรือพนักงานของคุณ (หากคุณใช้กำลังใช้เครื่องหรือเครือข่ายของที่ทำงาน) หากต้องการความเป็นส่วนตัวมากขึ้น ให้เปิดหน้าต่างส่วนตัวด้วย Tor</translation>
+<translation id="5280085559200511517">iBrowe จะไม่จดจำสิ่งที่คุณทำในหน้าต่างส่วนตัว เว็บไซต์ที่คุณเยี่ยมชมจะไม่ปรากฏในประวัติการใช้งาน คุกกี้ ข้อมูลแบบฟอร์ม และข้อมูลเว็บไซต์จะหายไปเมื่อคุณปิดหน้าต่างส่วนตัวทั้งหมด โปรดทราบว่ากิจกรรมของคุณอาจยังคงมองเห็นได้โดยผู้ให้บริการอินเทอร์เน็ต ผู้สังเกตการณ์เครือข่ายแบบพาสซีฟ หรือนายจ้างของคุณ (หากคุณใช้เครื่องหรือเครือข่ายของที่ทำงาน)</translation>
+<translation id="2517912602053665378">หากต้องการความเป็นส่วนตัวมากขึ้น ให้เปิดหน้าต่างส่วนตัวด้วย Tor</translation>
 <translation id="8759753423332885148">เรียนรู้เพิ่มเติม</translation>
 <translation id="8611976753572844841">หน้าต่างส่วนตัวโดยเชื่อมต่อผ่าน Tor</translation>
 <translation id="1645589858096839236">iBrowe ไม่เก็บกิจกรรมการท่องเว็บจากหน้าต่างส่วนตัว เมื่อเชื่อมต่อผ่าน Tor เว็บไซต์ต่างๆ จะมองเห็นที่อยู่ไอพีจริงของคุณได้ยากขึ้น และผู้ที่สังเกตการณ์เครือข่ายจะดูเว็บไซต์ที่คุณเยี่ยมชมได้ยากขึ้น อย่างไรก็ตาม หากความปลอดภัยส่วนบุคคลของคุณขึ้นอยู่กับการไม่เปิดเผยตัว โปรดใช้เบราว์เซอร์ Tor แทน</translation>
@@ -149,7 +149,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="2701204441419443612">ยังเชื่อมต่ออยู่...</translation>
 <translation id="8813986611396294203">มีความล่าช้าในเครือข่าย Tor</translation>
 <translation id="2795840524629682765">การเชื่อมต่อทอร์ล้มเหลว</translation>
-<translation id="1149108864689950951">กำลังเชื่อมต่อ Tor... [[percentage]]%</translation>
+<translation id="9102894004288640876">Tor กำลังเชื่อมต่อ... <ph name="PERCENTAGE"/>%</translation>
 <translation id="3651192084771403430">พบปัญหากับการเชื่อมต่อใช่หรือไม่ โปรดลอง<ph name="BEGIN_LINK"/>ปิดใช้งาน<ph name="END_LINK"/>หน้าต่างโหมดส่วนตัวพร้อมใช้ Tor และเปิดใช้งานอีกครั้งในการตั้งค่า</translation>
 <translation id="8834376622642889380">เปิด<ph name="BEGIN_LINK"/> iBrowe Settings <ph name="END_LINK"/>ปิดการใช้งานวินโดว์ส่วนบุคคลด้วยทอร์ แล้วเปิดใช้งานอีกครั้ง</translation>
 <translation id="1576202729986800142"><ph name="BEGIN_BOLD"/>ยังคงประสบปัญหาอยู่หรือ<ph name="END_BOLD"/>ลองใช้ <ph name="BEGIN_BRIDGES_LINK"/>สะพาน<ph name="END_BRIDGES_LINK"/> หรือ <ph name="BEGIN_SUPPORT_LINK"/>ติดต่อฝ่ายสนับสนุน<ph name="END_SUPPORT_LINK"/></translation>
@@ -171,19 +171,33 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="5334844597069022743">ดูแหล่งที่มา</translation>
 <translation id="4720556299488643018">ยกเลิกการสมัคร</translation>
 <translation id="1209739344687072997">รายงานเว็บไซต์เสียหาย</translation>
-<translation id="8510478288840333677">แจ้งให้ผู้พัฒนา iBrowe ทราบว่าเว็บไซต์นี้ทำงานไม่ถูกต้องเมื่อเปิดระบบปกป้อง:</translation>
+<translation id="2961941250324390287">แจ้งให้ผู้พัฒนา iBrowe ทราบว่าเว็บไซต์นี้ทำงานไม่ถูกต้องตามที่คิดไว้:</translation>
 <translation id="3110968385867124099">ไม่สามารถรายงานหน้านี้ได้เนื่องจากไม่ได้เป็น HTTP/HTTPS</translation>
 <translation id="7907023135990310743">หน้านี้เป็นหน้าเว็บภายในและไม่มีสิทธิ์สำหรับการรายงาน</translation>
 <translation id="8740275226259417070">หน้านี้คือหน้าข้อผิดพลาด ซึ่งจะไม่สามารถรายงานหน้านี้ว่าเป็นเว็บไซต์เสียหายได้</translation>
 <translation id="6367576083705149078">หากคุณให้ข้อมูลการติดต่อ มันจะถูกบันทึกไว้สำหรับการรายงานในอนาคต.</translation>
 <translation id="6806248680442980382">ขอบคุณที่ช่วยทำให้ iBrowe มีประสิทธิภาพมากขึ้นสำหรับทุกคน โดยรายงานนี้จะมีข้อมูลที่จำเป็นสำหรับเราในการแก้ไขเว็บไซต์นี้เท่านั้น</translation>
-<translation id="6476216365964140603">รายละเอียดเพิ่มเติม (ไม่บังคับ)</translation>
+<translation id="8731661215617360873">เลือกหนึ่งตัวเลือก</translation>
+<translation id="2805770823691782631">รายละเอียดเพิ่มเติม</translation>
+<translation id="8447940165862889275">(ไม่บังคับ)</translation>
 <translation id="6145852496180774737">ติดต่อฉันที่: (ไม่บังคับ)</translation>
 <translation id="7616645803364270729">อีเมล Twitter ฯลฯ</translation>
 <translation id="721949491455392748">รวมภาพหน้าจอของหน้าปัจจุบัน</translation>
 <translation id="8459191579769999214">ดูภาพหน้าจอ</translation>
 <translation id="5299848999918506028">ขอบคุณค่ะ</translation>
 <translation id="76550953340008122">ขอบคุณที่แจ้งให้ผู้พัฒนา iBrowe ทราบว่ามีข้อผิดพลาดในเว็บไซต์นี้ เราจะพยายามแก้ไขปัญหานี้อย่างเต็มที่</translation>
+<translation id="3037432377946455872">ปัญหาหลักที่คุณกำลังเห็นคืออะไร</translation>
+<translation id="9133645617402992550">โฆษณายังคงปรากฏอยู่</translation>
+<translation id="4784626332068555349">หน้าว่างหรือเนื้อหาหายไป</translation>
+<translation id="8278217275444967104">ไม่สามารถเลื่อนได้</translation>
+<translation id="786980556536893096">ไม่สามารถป้อนข้อความในแบบฟอร์มได้</translation>
+<translation id="7744162007310978225">แจ้งเตือนการยินยอมในการจัดเก็บคุกกี้ที่มองเห็นได้</translation>
+<translation id="5578433701455313672">มีมาตรการป้องกันการบล็อกโฆษณา</translation>
+<translation id="6831478554298438308">สคริปต์การติดตาม/วิเคราะห์ที่ไม่ถูกบล็อก</translation>
+<translation id="7279636930553631442">ป๊อปอัปจดหมายข่าว</translation>
+<translation id="6136090320163235283">วิดเจ็ตโซเชียล</translation>
+<translation id="6657720240983439091">วิดเจ็ตแชท</translation>
+<translation id="7138678301420049075">อื่น ๆ</translation>
 <translation id="4046860372562593546">จัดการ iBrowe Ads</translation>
 <translation id="5136973036012418831">ควบคุมประเภท iBrowe Ads ที่คุณดูและความถี่</translation>
 <translation id="4759608598194750161">ยิ่งคุณดูมากเท่าไหร่ คุณก็ยิ่งได้รับมากเท่านั้น</translation>
@@ -423,7 +437,6 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="8327818101454798856">ดังนั้นหากคุณกำลังจะสนับสนุนเว็บโปรดของคุณ ให้ไปที่นั่นแทน</translation>
 <translation id="412480955826088549">กำลังดาวน์โหลดส่วนประกอบ...</translation>
 <translation id="4894106830958548828">ฉันเข้าใจ</translation>
-<translation id="326118736933420687">คุณกำลังดูหน้า WebTorrent</translation>
 <translation id="2729085694451916573">ทดสอบสตริงสำหรับ <ph name="PART_ONE"/>เพลซโฮลเดอร์<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>เรียนรู้เพิ่มเติม<ph name="PART_TWO_END"/></translation>
 <translation id="7534079972563542000">Unstoppable Domains</translation>
 <translation id="4492298165410552103">เปิดใช้การรองรับ Unstoppable Domains ใน iBrowe หรือไม่</translation>
@@ -472,6 +485,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="5770656036486891920"><ph name="URL"/> ต้องการใช้คุกกี้ของบุคคลที่สามสำหรับการลงชื่อเข้าใช้ด้วย Google แบบเก่า</translation>
 <translation id="6053826678715267477">อนุญาตสิทธิ์เข้าถึงทรัพยากร Localhost</translation>
 <translation id="2973562729984406132"><ph name="URL"/> ต้องการเข้าถึงทรัพยากร Localhost</translation>
+<translation id="2104347391516032700">บริการ Bat Rewards</translation>
 <translation id="5939518447894949180">รีเซ็ต</translation>
 <translation id="3349204812119681938">รีเซ็ต iBrowe Rewards</translation>
 <translation id="4915997950539925115">เมื่อทำการรีเซ็ต โปรไฟล์ iBrowe รีวอร์ดปัจจุบันของคุณจะถูกลบ และ iBrowe รีวอร์ดจะไม่ถูกเปิดใช้งานอีกต่อไป หากคุณเปิดใช้งาน iBrowe รีวอร์ดอีกครั้งในภายหลัง คุณจะเริ่มต้นด้วยโปรไฟล์ใหม่ อ่าน<ph name="LINK_BEGIN"/>บทความสนับสนุนของเราเกี่ยวกับการรีเซ็ต<ph name="LINK_END"/>เพื่อดูรายละเอียดเพิ่มเติม</translation>
@@ -513,7 +527,6 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
     }</translation>
 <translation id="6067959437127691361">การใช้ iBrowe Rewards จะช่วยสนับสนุนคอนเทนต์ครีเอเตอร์และช่วยให้คุณได้รับ BAT ด้วย</translation>
 <translation id="2359808026110333948">ดำเนินการต่อ</translation>
-<translation id="885805571521218129">สิ่งนี้แสดงถึงช่วงรายได้โดยประมาณของคุณสำหรับ iBrowe Ads ในเดือนนี้</translation>
 <translation id="3863981251715594911">มันทำงานอย่างไร?</translation>
 <translation id="7931127789630755251">รับโทเค็นสำหรับโฆษณาส่วนตัวที่คุณเห็นใน iBrowe</translation>
 <translation id="2278423362884506724">สนับสนุนผู้สร้างสรรค์คอนเทนต์และใช้โทเค็นของคุณเพื่อซื้อบัตรของขวัญ แลกเปลี่ยนเป็นสกุลเงินอื่น และอื่นๆ อีกมากมาย</translation>
@@ -588,8 +601,10 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="5802986777701714573">เราได้เพิ่มวิธีใหม่ในการรับ BAT Rewards รายเดือนให้กับคุณ เชื่อมต่อบัญชีจากหนึ่งในพันธมิตรของเราหรือใช้ตัวเลือกรูปแบบควบคุมได้เองรูปแบบใหม่เพื่อเริ่มรับเงินทันที</translation>
 <translation id="3251885322612056119">ข้อกำหนดในการให้บริการที่อัปเดตแล้ว</translation>
 <translation id="7454675823870922788">เราได้อัปเดตข้อกำหนดในการให้บริการสำหรับ iBrowe รีวอร์ดแล้ว เราได้ทำการอัปเดตเหล่านี้เพื่อชี้แจงข้อกำหนดของเราและรับรองว่าข้อกำหนดเหล่านี้จะครอบคลุมทุกคุณสมบัติใหม่ หากคุณยังคงใช้งาน iBrowe รีวอร์ดต่อไป แสดงว่าคุณยอมรับข้อกำหนดในการให้บริการที่อัปเดตแล้วนี้ หากคุณไม่ยอมรับ คุณสามารถ<ph name="LINK_BEGIN"/>รีเซ็ต<ph name="LINK_END"/> iBrowe รีวอร์ดได้ ซึ่งจะเป็นการปิดการใช้งานคุณสมบัตินี้</translation>
+<translation id="56057964000416013">เราได้ปรับปรุงเงื่อนไขการให้บริการของเราแล้ว หากต้องการใช้ iBrowe Rewards ต่อไป ให้ตรวจสอบและยอมรับเงื่อนไขที่ปรับปรุงใหม่</translation>
 <translation id="5192526308598085294">ดู<ph name="LINK_BEGIN"/>ข้อกำหนดในการให้บริการของ iBrowe รีวอร์ด<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">ฉันยอมรับ</translation>
+<translation id="343114360276812078">ข้อกำหนดการรีวิว</translation>
 <translation id="86107454835395919">ตั้งค่าเป็นเงินสนับสนุนรายเดือน</translation>
 <translation id="6621880242105464352">iBrowe เก็บ <ph name="FEE_PCT"/> ของจำนวนที่ส่งให้เป็นค่าธรรมเนียมในการประมวลผล</translation>
 <translation id="1420756770787071946">สนับสนุนครีเอเตอร์รายนี้</translation>
@@ -641,8 +656,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="756341217015623253">ลงชื่อเข้าใช้หรือลงทะเบียน</translation>
 <translation id="2653844658857826081">ใหม่</translation>
 <translation id="1165039591588034296">ข้อผิดพลาด</translation>
-<translation id="5826530373788377342">คุณถึงขีดจำกัดของอุปกรณ์ที่ใช้ได้กับบัญชี <ph name="PROVIDER"/> นี้แล้ว</translation>
-<translation id="6700131426769360592">ถึงขีดจำกัดอุปกรณ์แล้ว</translation>
+<translation id="8673410329158754690">คุณได้เชื่อมต่อโปรไฟล์ iBrowe Rewards ครบจำนวนสูงสุดแล้วกับบัญชีนี้ <ph name="PROVIDER"/></translation>
+<translation id="8385898883512695376">ถึงขีดจำกัดของบัญชีการจ่ายเงินแล้ว</translation>
 <translation id="6895088073061692390">ขออภัย โปรไฟล์ iBrowe Rewards ของคุณถูกติดธงแล้ว เนื่องจากการตรวจสอบแบบอัตโนมัติของเราพบกิจกรรม iBrowe Ads ที่ไม่คาดคิด</translation>
 <translation id="4229056297802204697">ในขณะที่โปรไฟล์ของคุณถูกติดธง คุณอาจยังคงเห็นโฆษณาอยู่ แต่จะไม่มีสิทธิ์รับการชำระเงิน และคุณจะไม่สามารถเชื่อมต่อบัญชีฝากสินทรัพย์กับ iBrowe Rewards ได้</translation>
 <translation id="5124846913141379164">อาจเป็นไปได้ว่าโปรไฟล์ของคุณถูกติดธงด้วยข้อผิดพลาด และคุณไม่จำเป็นต้องดำเนินการใดๆ ในทันที ธงบนโปรไฟล์ของคุณอาจถูกลบออกในอนาคต</translation>
@@ -677,6 +692,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="96989662637180657">iBrowe Search Ads จะปรากฏใน <ph name="LINK_BEGIN"/>iBrowe Search<ph name="LINK_END"/></translation>
 <translation id="3138160233953903250">การตั้งค่าโฆษณา</translation>
 <translation id="2446517297521536638">ควบคุมประเภทและความถี่ของ iBrowe Ads ที่คุณดู ยิ่งคุณดูมากเท่าไหร่ คุณยิ่งรับรายได้มากขึ้นเท่านั้น</translation>
+<translation id="3479272537858623647">นี่แสดงจำนวนโฆษณา iBrowe Ads ที่คุณเห็นในเดือนนี้ที่มีคุณสมบัติในการรับ BAT</translation>
 <translation id="5860033963881614850">ปิด</translation>
 <translation id="5916664084637901428">เปิด</translation>
 <translation id="3977723631999461201">โฆษณาที่ได้รับในเดือนนี้ <ph name="NUM"/></translation>
@@ -704,7 +720,6 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="7550470870580166294">ยอดเงินไม่พอ</translation>
 <translation id="7020972866926315918">ดูเหมือนว่าคุณได้ออกจากระบบ <ph name="PROVIDER"/> สำหรับ iBrowe Rewards เข้าสู่ระบบอีกครั้งเพื่อดำเนินการต่อ</translation>
 <translation id="1166682575529520472">รายเดือน</translation>
-<translation id="7138678301420049075">อื่น ๆ</translation>
 <translation id="2134931506717037391">ส่ง <ph name="AMOUNT"/> BAT</translation>
 <translation id="4791565605790056151">กำลังส่งเงินสนับสนุน</translation>
 <translation id="8251969358165471584">กระเป๋าเงิน Web3</translation>
@@ -1070,7 +1085,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="7131971375297699539">สัญลักษณ์สกุลเงิน</translation>
 <translation id="4693057234255364395">URL ของ Block Explorer</translation>
 <translation id="7982789257301363584">เครือข่าย</translation>
-<translation id="1060221736464994328">อนุญาตให้เว็บไซต์นี้สลับเครือข่ายหรือไม่</translation>
+<translation id="2512821599885971349">เพิ่มเครือข่าย</translation>
+<translation id="200073220891881812">อนุญาตให้เว็บไซต์นี้สลับเครือข่ายหรือไม่</translation>
 <translation id="2478788592457735063">การดำเนินการนี้จะสลับเครือข่ายเป็นเครือข่ายที่เพิ่มไว้ก่อนหน้านี้</translation>
 <translation id="8756686998207163764">สลับเครือข่าย</translation>
 <translation id="3948067511324628726">ค่าแก๊ส</translation>
@@ -1176,6 +1192,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="2749584096020594976">ระบบจะกำหนดค่า Nonce โดยอัตโนมัติหากไม่ได้ระบุค่าในฟิลด์นี้</translation>
 <translation id="1599636444563952897">การอนุญาตวงเงินจะช่วยให้ <ph name="SITE_ORIGIN"/> สามารถถอนและใช้จ่ายได้จนถึงจำนวนดังต่อไปนี้:</translation>
 <translation id="4512871563176965522">การอนุญาตที่กำหนดเอง</translation>
+<translation id="4584580349370930446">วงเงินการใช้จ่ายที่เสนอ</translation>
+<translation id="3853163884524541156">ขีดจำกัดการใช้จ่ายที่กำหนดเอง</translation>
 <translation id="749944179568745958">ที่อยู่ ETH ไม่ถูกต้อง</translation>
 <translation id="2832270987629018596">ที่อยู่ SOL ไม่ถูกต้อง</translation>
 <translation id="2115100722958448834">ที่อยู่ <ph name="COIN_TYPE_SYMBOL"/> ไม่ถูกต้อง</translation>
@@ -1244,6 +1262,10 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="4213183402991860207"><ph name="DEVICE_NAME"/> Bridge ไม่พร้อมใช้งาน</translation>
 <translation id="3378339846292573874">เพิ่มโทเค็นที่แนะนำ</translation>
 <translation id="2322227405137827074">คุณต้องการนำเข้าโทเค็นเหล่านี้หรือไม่</translation>
+<translation id="5128068232340122017">ค้างอยู่ (<ph name="QUEUE_LENGTH"/>)</translation>
+<translation id="4642769870132666012">ธุรกรรมถัดไป</translation>
+<translation id="6917555475950364314">ธุรกรรมก่อนหน้า</translation>
+<translation id="5305367377612487857">ปฏิเสธการทำธุรกรรม <ph name="QUEUE_LENGTH"/></translation>
 <translation id="4378475168089649292">บล็อกเชน</translation>
 <translation id="1904295039023858291">โทเค็นมาตรฐาน</translation>
 <translation id="9033453977881595182">ID โทเค็น</translation>
@@ -1394,6 +1416,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="4841860051609590575">ขอ ID</translation>
 <translation id="6759710362319508545">ทรัพยากร</translation>
 <translation id="1908159733454294871">ตรวจพบความเสี่ยงด้านการรักษาความปลอดภัย</translation>
+<translation id="3621202678540785336">การป้อนข้อมูล</translation>
+<translation id="3009178788565917040">เอาท์พุต</translation>
 <translation id="1965889974717516497">เครือข่ายสำรอง</translation>
 <translation id="7691821949666755802">ทดสอบเครือข่าย</translation>
 <translation id="2816106784624007524">วงเงินค่าแก๊สต้องเป็นจำนวนเต็มที่มากกว่า 0</translation>
@@ -1677,6 +1701,12 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="3214633363105739658"><ph name="REFRESH_START"/>รีเฟรช<ph name="REFRESH_END"/> หรือ <ph name="IMPORT_START"/>นำเข้าด้วยตนเอง<ph name="IMPORT_END"/></translation>
 <translation id="3840001806553580474">กำลังรีเฟรช</translation>
 <translation id="4608324163534970318">ค่าธรรมเนียมเครือข่าย</translation>
+<translation id="5024685988141485810">จำนวนค่าธรรมเนียมตามคำสั่ง</translation>
+<translation id="167204008553981721">ขีดจำกัด Gas tip</translation>
+<translation id="9021878977748775164">ขีดจำกัดราคารวมของ Gas</translation>
+<translation id="6276584161122912863">ราคา Gas</translation>
+<translation id="6132197290665156212">ค่าธรรมเนียมเครือข่ายโดยประมาณ</translation>
+<translation id="1788636309517085411">ใช้ค่าเริ่มต้น</translation>
 <translation id="6213230117190778270">รับ</translation>
 <translation id="6748108480210050150">จาก</translation>
 <translation id="4875290286426670462">ไม่จำกัด <ph name="ASSET_SYMBOL"/></translation>
@@ -1825,6 +1855,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="2244921323472112851">ไม่พบหน้าที่คุณกำลังหาในขณะนี้</translation>
 <translation id="6277237872689140644">หน้าเว็บอาจถูกย้ายไปยังตำแหน่งใหม่หรือ URL อาจมีการพิมพ์ผิด</translation>
 <translation id="2737084171727561244">ไปที่ Portfolio</translation>
+<translation id="3499452861061048987">เพิ่มโทเค็น</translation>
+<translation id="5046066249040287308">บริการยูทิลิตีของ iBrowe Wallet</translation>
 <translation id="3155170474926428993">Tor Launcher</translation>
 <translation id="3745016858329272300">ข้อมูลทั่วไป</translation>
 <translation id="4045404575593562245">เหตุการณ์การควบคุม Tor</translation>
@@ -2045,6 +2077,11 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="684629111155788563">เพิ่มแท็บทั้งหมดในกลุ่มใหม่</translation>
 <translation id="9106013521852824634">ส่งแท็บให้ตัวเอง</translation>
 <translation id="6973516366678963184">แสดงคำบรรยาย Wayback Machine</translation>
+<translation id="4765321711834219282">ปิดกลุ่มแท็บ</translation>
+<translation id="4095483462103784441">สร้างกลุ่มแท็บใหม่</translation>
+<translation id="4292565651642921086">โฟกัสกลุ่มแท็บถัดไป</translation>
+<translation id="874783686573493196">โฟกัสกลุ่มแท็บก่อนหน้า</translation>
+<translation id="9169594135889675189">เพิ่มแท็บใหม่ไปยังกลุ่ม</translation>
 <translation id="1926106318101432555">เปิดบุ๊กมาร์ก</translation>
 <translation id="6118819645013156507">สลับไปที่หน้าต่างอื่น...</translation>
 <translation id="1623204575967809688">รวมหน้าต่างปัจจุบันเข้ากับ...</translation>
@@ -2076,7 +2113,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="9089090017461255038">เปิด Speedreader</translation>
 <translation id="3929926885379607283">ใช้ Speedreader สำหรับเว็บไซต์นี้เสมอ</translation>
 <translation id="4186588885948504942">สลับปุ่มเพื่อเปิด/ปิด Speedreader สำหรับเว็บไซต์นี้</translation>
-<translation id="1873585723672836337">ใช้ Speedreader สำหรับทุกเว็บไซต์เสมอ</translation>
+<translation id="6568851043090579206">ใช้ Speedreader โดยอัตโนมัติเมื่อเป็นไปได้ในทุกเว็บไซต์</translation>
 <translation id="3138587343887871192">สลับปุ่มเพื่อเปิด/ปิด Speedreader สำหรับทุกเว็บไซต์</translation>
 <translation id="5153147025131874069">ไม่ใช่ทุกเว็บไซต์ที่มีสามารถใช้ Speedreader ได้</translation>
 <translation id="1013121820689882118">Speedreader</translation>
@@ -2105,15 +2142,17 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="8637805148029768813">ขณะนี้ฟีเจอร์เครื่องมือสรุปพร้อมใช้งานสำหรับบทความที่เลือกและหน้าเว็บแบบยาว</translation>
 <translation id="1223498995510244364">สรุป</translation>
 <translation id="7491773233732232424">เกี่ยวกับ Leo</translation>
-<translation id="4885527781814382758">"iBrowe Leo เป็นผู้ช่วย AI ส่วนตัวที่ช่วยเพิ่มประสิทธิภาพการใช้งานอินเทอร์เน็ตของคุณ Leo ใช้งานฟรีแต่มีการเข้าถึงที่จำกัด iBrowe Leo Premium มีรุ่นที่หลากหลายกว่า ขีดจำกัดสูงกว่า และให้ผู้สมัครสมาชิกเข้าถึงฟีเจอร์ใหม่ๆ ก่อนใคร รุ่นเริ่มต้นจะมีการเปลี่ยนแปลงเป็นระยะๆ สามารถดูรายละเอียดเพิ่มเติมได้ที่<ph name="LINK_BEFORE"/>ศูนย์ช่วยเหลือ<ph name="LINK_AFTER"/></translation>
-<translation id="7189603330209995455">ตามค่าเริ่มต้น เมื่อคุณถามคำถาม Leo ระบบอาจส่งและใช้เนื้อหาของหน้าเว็บที่คุณกำลังดูอยู่หรือข้อความใดๆ ที่คุณไฮไลต์ไว้ไปยัง iBrowe Leo เพื่อตอบกลับ แต่ระบบจะไม่รับประกันความแม่นยำของคำตอบ และรวมถึงข้อมูลที่ไม่ถูกต้อง ทำให้เข้าใจผิด หรือเป็นเท็จ Leo จะใช้ข้อมูลจากเครื่องมือค้นหา iBrowe เพื่อปรับปรุงคุณภาพการตอบกลับ อย่าส่งข้อมูลที่ละเอียดอ่อนหรือเป็นส่วนตัว และระมัดระวังกับคำตอบที่เกี่ยวข้องกับสุขภาพ การเงิน ความปลอดภัยส่วนบุคคล หรืออื่นๆ ที่คล้ายคลึงกัน โดยคุณสามารถปรับตัวเลือกของ Leo ในการตั้งค่าได้ทุกเมื่อ ไปที่การตั้งค่า &gt; Leo</translation>
-<translation id="3038772045018370764">Leo จะไม่รวบรวมตัวระบุ เช่น ที่อยู่ IP ของคุณที่สามารถเชื่อมโยงกับคุณได้ จะไม่มีการใช้ข้อมูลเพื่อฝึกสอนโมเดล AI และจะไม่มีการเก็บข้อมูลส่วนบุคคลไว้ในโมเดล AI (ยกเว้น Anthropic ที่จะเก็บข้อมูลไว้เป็นเวลา 30 วันก่อนลบ) ดู <ph name="LINK_BEFORE"/>นโยบายความเป็นส่วนตัว<ph name="LINK_AFTER"/>สำหรับข้อมูลเพิ่มเติม</translation>
+<translation id="4611072979071082355">iBrowe Leo เป็นผู้ช่วย AI ส่วนตัวที่ช่วยเพิ่มประสิทธิภาพการใช้งานเว็บไซต์ของคุณ Leo ใช้งานฟรีแต่มีการเข้าถึงที่จำกัด iBrowe Leo Premium มีรุ่นที่หลากหลายกว่า ขีดจำกัดสูงกว่า และให้ผู้สมัครสมาชิกเข้าถึงฟีเจอร์ใหม่ๆ ก่อนใคร รุ่นเริ่มต้นจะมีการเปลี่ยนแปลงเป็นระยะๆ สามารถดูรายละเอียดเพิ่มเติมได้ที่<ph name="LINK_BEFORE"/>ศูนย์ช่วยเหลือ<ph name="LINK_AFTER"/></translation>
+<translation id="7297056998057521697">ตามค่าเริ่มต้น เมื่อคุณถามคำถาม Leo เกี่ยวกับเว็บไซต์หรือหน้าเว็บที่คุณกำลังดูอยู่ เนื้อหาของหน้าเว็บที่คุณกำลังดูหรือข้อความใดๆ ที่คุณไฮไลต์บนหน้าเว็บ รวมถึงคำค้นหาของคุณจะถูกส่งไปยังเซิร์ฟเวอร์ของ iBrowe เพื่อให้ Leo สามารถให้คำตอบได้ ในบางกรณี Leo จะส่งคำค้นหาที่มาจากข้อมูลที่คุณป้อนไปยัง iBrowe Search และใช้ผลการค้นหาเพื่อตอบคำถามของคุณได้ดีขึ้นiBrowe ไม่รับประกันความถูกต้องของคำตอบ และคำตอบอาจรวมถึงข้อมูลที่ไม่ถูกต้อง ทำให้เข้าใจผิด หรือเป็นเท็จ อย่าส่งข้อมูลที่ละเอียดอ่อนหรือส่วนตัวไปยัง iBrowe Leo และใช้ความระมัดระวังกับคำตอบใดๆ ที่เกี่ยวข้องกับสุขภาพ การเงิน ความปลอดภัยส่วนบุคคล หรือเรื่องที่คล้ายกัน คุณสามารถปรับตัวเลือกของ Leo ได้ใน การตั้งค่า ทุกเมื่อ ไปที่การตั้งค่า &gt; Leo</translation>
+<translation id="6644545214304085600">Leo จะไม่เก็บรวบรวมข้อมูลที่สามารถระบุตัวตนได้ เช่น ที่อยู่ IP ของคุณ ซึ่งสามารถเชื่อมโยงกลับไปยังคุณได้ เราจะไม่ฝึกโมเดลของเราโดยใช้ข้อมูลของคุณ รวมถึงคำค้นหาของคุณหรือคำตอบของ iBrowe Leo ข้อมูลส่วนบุคคลใดๆ จะไม่ถูกเก็บไว้ในเซิร์ฟเวอร์ของเรา หรือถูกเก็บรักษาไว้โดย iBrowe ดู <ph name="LINK_BEFORE"/>นโยบายความเป็นส่วนตัว<ph name="LINK_AFTER"/> สำหรับข้อมูลเพิ่มเติม</translation>
 <translation id="4348006373172097089">{PAGE_COUNT, plural,
       =1 {ถามคำถามเกี่ยวกับเนื้อหาของหน้านี้}
       other {ถามคำถามเกี่ยวกับเนื้อหาของหน้าเหล่านี้}
     }</translation>
 <translation id="6961721183181597848">วันนี้มีอะไรให้ช่วยไหม</translation>
 <translation id="2966135729673253768">ถามเพิ่มเติม</translation>
+<translation id="6219262425964000211">วางไฟล์ที่นี่</translation>
+<translation id="4313763911013851687">วางไฟล์ที่นี่เพื่อเพิ่มเข้าไปในการสนทนา</translation>
 <translation id="4524675003624341892">แนะนำคำถาม...</translation>
 <translation id="4567071417854988869">สรุปวิดีโอนี้</translation>
 <translation id="4264902191243445258">{PAGE_COUNT, plural,
@@ -2131,14 +2170,17 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="7905602379229309187">ขณะนี้เอนด์พอยต์มีภาระงานมากเกินไป กรุณาลองใหม่ภายหลัง</translation>
 <translation id="8151638057146502721">ตั้งค่า</translation>
 <translation id="999273441077650169">โมเดลเปลี่ยนเองอย่างไดนามิกเพื่อใช้ที่ดีที่สุดในงานนั้นๆ <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="3282183392203936979">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Llama 3.1 8B ซึ่งเป็นโมเดลที่สร้างโดย Meta เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Llama โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="4328177358021456069">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Qwen 14B ซึ่งเป็นโมเดลที่สร้างโดย Alibaba Cloud เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Qwen โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="8706248250250832190">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจากDeepSeek R1 ซึ่งเป็นโมเดลที่สร้างโดย DeepSeek เพื่อทำงานด้านการวิเคราะห์เชิงลึก <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="2575216739207798060">สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และได้รับการสนับสนุนจาก Claude Instant ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Instant โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="512933369128404654">สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และได้รับการสนับสนุนจาก Claude Haiku ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Haiku โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="406499980300734922">สวัสดี ผมชื่อ Leo ผมเป็นตัวแทนของ iBrowe และได้รับการสนับสนุนจาก Claude Sonnet ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Sonnet โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="1774712391633741125">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Llama Vision ซึ่งเป็นโมเดลที่สร้างโดย Meta เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Llama Vision โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="1238020084128916796">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Llama 3.1 8B ซึ่งเป็นโมเดลที่สร้างโดย Meta เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Llama โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="7127671672828944579">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Qwen 14B ซึ่งเป็นโมเดลที่สร้างโดย Alibaba Cloud เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Qwen โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="2328524194917949829">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Gemma 3 12B ซึ่งเป็นโมเดลที่สร้างโดย Google DeepMind เพื่อให้มีประสิทธิภาพและใช้งานได้กับทุกกรณีที่ต้องการใช้ Gemma โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="634682910381645550">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก DeepSeek R1 ซึ่งเป็นโมเดลที่สร้างโดย DeepSeek เพื่อทำงานด้านการอนุมานอย่างลึกซึ้ง DeepSeek R1 โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Claude Instant ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Instant โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="3789772321824682783">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Claude Haiku ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Haiku โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="1778885220602472158">สวัสดี ผมชื่อ Leo ผมเป็นผู้ช่วย AI ที่โฮสต์โดย iBrowe ผมได้รับการสนับสนุนจาก Claude Sonnet ซึ่งเป็นโมเดลที่สร้างโดย Anthropic เพื่อขับเคลื่อนงานด้านการสนทนาและการประมวลผลข้อความ Claude Sonnet โฮสต์โดย iBrowe ผ่านโครงสร้างพื้นฐานที่ปลอดภัยของเราเอง <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
+<translation id="5807427080183870259">ภายในเครื่อง</translation>
+<translation id="631371844654031449">โมเดลที่แนะนำ</translation>
+<translation id="6568044140836233369">แสดงโมเดลทั้งหมด</translation>
 <translation id="6187065185557150870">แชท</translation>
 <translation id="4685048769603134644">เปิดหน้าเต็ม</translation>
 <translation id="2961040541145689181">แชทใหม่</translation>
@@ -2206,10 +2248,12 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="1243966363662220847">ความคิดเห็นเกี่ยวกับคำตอบ</translation>
 <translation id="7417895556119762861">การกดชอบหรือไม่ชอบคำตอบจะส่งการให้คะแนน บทสนทนา โมเดล ภาษา เวอร์ชัน และสถานะพรีเมียมไปยัง iBrowe เพื่อใช้ในการพัฒนา Leo <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">ส่งข้อความถึง Leo</translation>
+<translation id="4084869091337186002">Leo AI Content Agent เปิดใช้งานอยู่เสมอในโปรไฟล์นี้</translation>
 <translation id="8650874793377330048">หยุดตอบคำถาม</translation>
 <translation id="8712637175834984815">สำเร็จ</translation>
 <translation id="1093419424466417703">หน้านี้มีความยาวเกินไปสำหรับ Leo บางข้อความอาจหายไปจากการสนทนา Leo สามารถอ่านเนื้อหาของหน้าได้เพียง <ph name="PERCENTAGE"/></translation>
 <translation id="4592293425457329338">บางบริบทอาจหายไปจากบทสนทนา Leo สามารถจดจำเนื้อหาที่เกี่ยวข้องกับบทสนทนาได้เพียง <ph name="PERCENTAGE"/> เท่านั้น</translation>
+<translation id="8501106061098623831">มีการจับภาพจากหน้าเว็บมากเกินไป Leo สามารถใช้เนื้อหาภาพที่มีอยู่ได้เพียง <ph name="PERCENTAGE"/></translation>
 <translation id="4370698775470316661">บทสนทนานี้มีความยาวเกินไปและไม่สามารถดำเนินการต่อได้ อาจมีโมเดลอื่นๆ ที่ Leo สามารถใช้เพื่อรักษาความถูกต้องในบทสนทนาได้ยาวนานขึ้น</translation>
 <translation id="5719170755629028558">ปรับปรุงคำตอบของคุณด้วย iBrowe Search…</translation>
 <translation id="5794962229997281366">ปรับปรุงการค้นหาคำตอบสำหรับ <ph name="SEARCH_TERMS"/></translation>
@@ -2219,6 +2263,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="1352836459737874921">แนบเนื้อหาจากแท็บอื่น</translation>
 <translation id="3028258613451571431">ส่งเนื้อหาจากแท็บเบราว์เซอร์ของคุณ เพื่อให้ Leo เข้าใจบริบทของบทสนทนาได้มากขึ้น</translation>
 <translation id="4300920590112551536">แท็บเบราว์เซอร์</translation>
+<translation id="1446346932629101482">เพิ่มเนื้อหาของแท็บเพื่อใช้เป็นบริบท เนื้อหาจะถูกส่งไปยัง Leo พร้อมกับข้อความของคุณ</translation>
+<translation id="7193316103691252734">ไม่มีแท็บที่ตรงกัน</translation>
 <translation id="2315654674554095762">ตอนนี้ Leo จะจดจำการสนทนาของคุณเพื่อให้คุณสามารถกลับไปดูได้ พวกมันถูกจัดเก็บในรูปแบบเข้ารหัสบนอุปกรณ์ของคุณ และคุณสามารถลบได้ทุกเมื่อ</translation>
 <translation id="7821251979960635244">ประวัติการสนทนาของคุณจะแสดงที่นี่เมื่อคุณเริ่มการสนทนา</translation>
 <translation id="887511360213807449">ประวัติถูกปิดใช้งาน</translation>
@@ -2228,7 +2274,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="7979673624064378842">การแชทที่รวดเร็วดุจสายฟ้า</translation>
 <translation id="2836330653441111204">ความรวดเร็วและความอัจฉริยะที่สมดุล</translation>
 <translation id="6695329447007213917">การแชททั่วไป การเขียนโค้ด และอื่นๆ</translation>
-<translation id="5051668914970329839">ระบบการมองเห็นสำหรับวัตถุประสงค์ทั่วไป</translation>
+<translation id="7168072214482631597">การเข้าใจข้อความและภาพเพื่อการใช้งานทั่วไป</translation>
 <translation id="7226508434216060960">โมเดลการให้เหตุผล</translation>
 <translation id="8782867266498869301">โมเดลเปลี่ยนเองอย่างไดนามิกเพื่อใช้ที่ดีที่สุดในงานนั้นๆ</translation>
 <translation id="3965507912994218570">การตั้งค่า Leo</translation>
@@ -2271,6 +2317,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="6739516910850820220">กำลังอัปโหลดไฟล์...</translation>
 <translation id="9088751620363630236">ถ่ายรูป...</translation>
 <translation id="4250229828105606438">ภาพแคปหน้าจอ</translation>
+<translation id="7949596341600215809">ภาพหน้าจอเต็มหน้า</translation>
 <translation id="6332876390231524389">เนื้อหาของแท็บปัจจุบัน</translation>
 <translation id="7742969455167760092">เปิดแท็บ…</translation>
 <translation id="49269513399674318">ใช้ไมโครโฟน</translation>
@@ -2280,128 +2327,16 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="6287023598025162715">การสนทนาใหม่</translation>
 <translation id="7097822247923237815">แชทชั่วคราว</translation>
 <translation id="7481750859362986254">การแชทนี้จะไม่ถูกบันทึกลงในประวัติของคุณ และจะไม่ใช้การปรับแต่งหรือความจำใด ๆ</translation>
-<translation id="8370801182970639038">อัตโนมัติ (<ph name="LOCALE"/>)</translation>
-<translation id="8343473178272604223">เครื่องมือค้นหาที่เปิดใช้งานแล้ว</translation>
-<translation id="5355776323718420036">ซ่อนเว็บไซต์ยอดนิยม</translation>
-<translation id="9173319813356700250">ข่าว</translation>
-<translation id="6543799171249004861">ภาพถ่ายโดย <ph name="AUTHOR"/></translation>
-<translation id="5430001801813715388">รางวัล</translation>
-<translation id="5966055668402779222">ถาม iBrowe Search</translation>
-<translation id="167018310108390163">ปรับแต่งหน้าแท็บใหม่</translation>
-<translation id="6851426306697017546">แสดงนาฬิกา</translation>
-<translation id="4844370919312937270">แสดงวิดเจ็ตการค้นหาในแท็บใหม่</translation>
-<translation id="7328310113820087094">ด้วย <ph name="LINK_BEGIN"/>iBrowe Rewards<ph name="LINK_END"/> คุณสามารถได้รับค่าตอบแทนจากการดูโฆษณาหน้าแท็บใหม่</translation>
-<translation id="4100520468072294616">แสดงโฆษณาหน้าแท็บใหม่</translation>
-<translation id="5009354496127441090">แสดงเว็บไซต์ยอดนิยม</translation>
-<translation id="3960619311638643872">iBrowe VPN</translation>
-<translation id="4784802981241664605">สถิติ</translation>
-<translation id="712731581368828482">วิดีโอคอลแบบเข้ารหัสด้วย iBrowe Talk</translation>
-<translation id="2671474274417808910">โทรแบบเน้นความเป็นส่วนตัว</translation>
-<translation id="2100665198270190500">พูดคุย</translation>
-<translation id="4290791698375397492">ลบเว็บไซต์ยอดนิยมแล้ว</translation>
-<translation id="1436784010935106834">ลบ</translation>
-<translation id="9030215177866748410">แนะนำเว็บไซต์เด่นโดยอิงตามเว็บไซต์ที่คุณเข้าชมบ่อย.</translation>
-<translation id="8425213833346101688">เปลี่ยน</translation>
-<translation id="755045397420611731">ความเป็นส่วนตัว &amp; ความปลอดภัยทางออนไลน์ที่มากขึ้น</translation>
-<translation id="4520128772974831415">ซ่อน IP ของคุณ &amp; เปลี่ยนตำแหน่งของคุณ</translation>
-<translation id="6819278685469225453">คุ้มครองทุกแอปบนอุปกรณ์ของคุณ</translation>
-<translation id="8422279921836245017">ซื้อไปแล้วหรือยัง</translation>
-<translation id="8703188411226330709">เริ่มต้นทดลองใช้งานฟรี</translation>
-<translation id="8814357473522731680">สนับสนุนโดย</translation>
-<translation id="7143207342074048698">กำลังเชื่อมต่อ</translation>
-<translation id="1202549130170287307">กำลังยกเลิกการเชื่อมต่อ</translation>
-<translation id="8941703009412168350">iBrowe VPN</translation>
-<translation id="6303294677342628402">ปกป้อง</translation>
-<translation id="8458987127502506209">เปิดใช้งานการป้องกันของ iBrowe</translation>
-<translation id="7700894290854403770"><ph name="STATUS_BEFORE"/>Shields เปิดใช้งานแล้ว<ph name="STATUS_AFTER"/> สำหรับ <ph name="HOST"/></translation>
-<translation id="7656091630265507216"><ph name="STATUS_BEFORE"/>Shields ถูกปิดใช้งานแล้ว<ph name="STATUS_AFTER"/> สำหรับ <ph name="HOST"/></translation>
-<translation id="5623354834493649144">หากเว็บไซต์นี้ดูเหมือนมีปัญหา ลองปิด Shields ดู
-   <ph name="NOTE_BEFORE"/>หมายเหตุ: การทำเช่นนี้อาจลดการปกป้องความเป็นส่วนตัวของ iBrowe<ph name="NOTE_AFTER"/></translation>
-<translation id="8377155647357436161">บล็อกตัวติดตาม โฆษณา และอื่นๆ <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="7604553853176833536">ไม่มีการปกป้องจาก iBrowe Shields <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="650318023204990401">การควบคุมขั้นสูง</translation>
-<translation id="5799940914270080805">การเปลี่ยนการตั้งค่าเหล่านี้อาจทำให้เว็บไซต์เสียหาย</translation>
-<translation id="9204041448536398473">การตั้งค่าการป้องกันแบบทั่วไป</translation>
-<translation id="2108334320919763866">ค่าเริ่มต้น</translation>
-<translation id="7205939464631857223">ลบทุกองค์ประกอบที่ถูกบล็อก</translation>
-<translation id="3440043456924990296">การตั้งค่าโดยองค์กร</translation>
-<translation id="7053983685419859001">บล็อก</translation>
-<translation id="5716230673298034837">อนุญาตทั้งหมด</translation>
-<translation id="5279600392753459966">บล็อกทั้งหมด</translation>
-<translation id="4516904298421534459">รายการตัวกรอง</translation>
-<translation id="3570081523466826008">อัปเกรดการเชื่อมต่อเป็น HTTPS</translation>
-<translation id="131231380815754440">เปิดใช้งาน HTTPS</translation>
-<translation id="4824468494729001999">บล็อกสคริปต์</translation>
-<translation id="3246600097575692802">เปิดใช้งานบล็อกสคริปต์</translation>
-<translation id="3603525299146223354">ตัวติดตามและโฆษณา</translation>
-<translation id="4448697385961650078">บล็อกโฆษณา &amp; แอปติดตาม</translation>
-<translation id="8593054718053894081">บล็อกตัวติดตามและโฆษณาอย่างเข้มงวด</translation>
-<translation id="7384778069178817075">อนุญาตโฆษณา &amp; แอปติดตามทั้งหมด</translation>
-<translation id="6196640612572343990">บล็อกคุกกี้ของบุคคลที่สาม</translation>
-<translation id="693506469193748756">ไม่ต้องจำฉันเมื่อฉันปิดเว็บไซต์นี้</translation>
-<translation id="5471580724041424345">ล้างคุกกี้และข้อมูลเว็บไซต์อื่นๆ เมื่อคุณปิดเว็บไซต์</translation>
-<translation id="6486971767955110687">บันทึกข้อมูลการติดต่อสำหรับการรายงานเว็บไซต์เสียในอนาคต</translation>
-<translation id="4085787265464238844">หากคุณให้ข้อมูลการติดต่อ มันจะถูกบันทึกไว้สำหรับการรายงานในอนาคต</translation>
-<translation id="6883611015375728278">บล็อกคุกกี้ทั้งหมด</translation>
-<translation id="5657156137487675418">อนุญาตคุกกี้ทั้งหมด</translation>
-<translation id="8366221601425141146">บล็อกการเก็บร่องรอย</translation>
-<translation id="6531019308847917584">บล็อกการพิมพ์ลายนิ้วมือ</translation>
-<translation id="1899608006846124237">บล็อกการพิมพ์ลายนิ้วมืออย่างเข้มงวด</translation>
-<translation id="8034285923190068220">อนุญาตการพิมพ์ลายนิ้วมือ</translation>
-<translation id="7638541189782135885">ห้ามอัปเกรดการเชื่อมต่อ HTTP</translation>
-<translation id="2570787596946026998">เชื่อมต่อกับ HTTPS เท่านั้น</translation>
-<translation id="1992750560347846445">รายงานเว็บไซต์</translation>
-<translation id="2387532482048804818">แจ้งเราหากเว็บไซต์ทำงานผิดปกติเมื่อเปิด Shields</translation>
-<translation id="3795015906457257780">คุณกำลังดูเว็บไซต์นี้โดยไม่มีการป้องกันความเป็นส่วนตัวของ iBrowe</translation>
-<translation id="7194012750329511146">iBrowe Shields
-บล็อกตัวติดตาม โฆษณา และอื่นๆ อีกมากมายกว่า <ph name="NUMBER"/> รายการด้วย</translation>
-<translation id="4292121526390005808">บล็อคสคริปต์ถูกบล็อค</translation>
-<translation id="5046271170844958713">อนุญาตสคริปต์</translation>
-<translation id="199862531047218413">ใช้งานการป้องกันการพิมพ์ลายนิ้วมือ</translation>
-<translation id="5032505924781383272">การป้องกันที่ใช้ไม่ได้เป็นการบ่งบอกว่าหน้าเว็บนี้กำลังพยายามพิมพ์ลายนิ้วมือบนเบราว์เซอร์ของคุณ</translation>
-<translation id="1905384713982899903">บล็อกการพิมพ์ลายนิ้วมือแล้ว</translation>
-<translation id="314364527871618241">อนุญาตการพิมพ์ลายนิ้วมือแล้ว</translation>
-<translation id="264682546981571963">เบื่อไหมกับการแจ้งเตือนความยินยอมในการจัดเก็บคุกกี้</translation>
-<translation id="4986297793092101884">iBrowe บล็อกคุกกี้ของบุคคลที่สามแล้ว เราสามารถบล็อกการแจ้งเตือนความยินยอมในการจัดเก็บคุกกี้ได้เช่นกัน</translation>
-<translation id="535688588637568715">ใช่ บล็อกการแจ้งเตือนความยินยอมในการจัดเก็บคุกกี้</translation>
-<translation id="2808175374672429053">ไม่สามารถใช้ Wildcard ได้กับ iBrowe Shields</translation>
-<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
-      =1 {เกราะป้องกันของ iBrowe บล็อก 1 ตัวติดตามบน <ph name="SITE_URL"/>}
-      other {เกราะป้องกันของ iBrowe บล็อกอีก {BLOCKED_COUNT} ตัวติดตามบน <ph name="SITE_URL"/>}
-    }</translation>
-<translation id="2540598191934725677">คลิกไอคอน iBrowe เพื่อดู iBrowe Shields</translation>
-<translation id="6294662480095808915">ความเป็นส่วนตัว ตามค่าเริ่มต้น</translation>
-<translation id="4366423156486478559">รับการปกป้อง iBrowe ในทุกลิงก์ที่คุณคลิก เพียงตั้งค่า iBrowe เป็นค่าเริ่มต้นและเล่นอินเทอร์เน็ตอย่างเป็นส่วนตัว</translation>
-<translation id="3830912418080848377">นำเข้าการตั้งค่า</translation>
-<translation id="6378406588483694938">นำเข้าบุ๊กมาร์ก ส่วนขยาย และรหัสผ่านที่บันทึกไว้จากเบราว์เซอร์เก่าของคุณได้ง่าย</translation>
-<translation id="2092825239819166928">เลือกโปรไฟล์เพื่อนำเข้า</translation>
-<translation id="4763127492635705340">เบราว์เซอร์ที่คุณเลือกมีหลายโปรไฟล์ เลือกโปรไฟล์ที่คุณต้องการนำเข้า</translation>
-<translation id="880174232178865598">นำเข้าโปรไฟล์</translation>
-<translation id="2453860139492968684">เสร็จสิ้น</translation>
-<translation id="2273851479262317744">ตั้ง iBrowe เป็นเบราว์เซอร์เริ่มต้น</translation>
-<translation id="5037676449506322593">เลือกทั้งหมด</translation>
-<translation id="5148943178722443958">ช่วยปรับปรุง iBrowe ให้ดีขึ้น</translation>
-<translation id="1097073572755862978">ส่งรายงานการวินิจฉัยหากคุณพบข้อขัดข้องหรืออาการค้าง<ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="6629244688368006959">แชร์ข้อมูลเชิงลึกของผลิตภัณฑ์แบบส่วนตัวและไม่ระบุชื่อ ซึ่งมีข้อมูลเกี่ยวกับคุณสมบัติที่ผู้ใช้ iBrowe ใช้ <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
-<translation id="7415454883318062233">การตั้งค่าเสร็จสมบูรณ์</translation>
-<translation id="3141206739023333979">เปลี่ยนตัวเลือกเหล่านี้ได้ทุกเวลาใน iBrowe ได้ที่ <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/></translation>
-<translation id="8321985064212130832">อ่านทั้งหมดของ <ph name="LINK_BEFORE"/>นโยบายความเป็นส่วนตัว<ph name="LINK_AFTER"/></translation>
-<translation id="2801098717523961746">เลือกธีมของคุณ</translation>
-<translation id="6262510489122516114">คุณสามารถเปลี่ยนได้ทุกเมื่อในการตั้งค่า iBrowe</translation>
-<translation id="546481172717459539">การตั้งค่าระบบการจับคู่</translation>
-<translation id="7799817062559422778">โหมดสว่าง</translation>
-<translation id="4117637339509843559">โหมดมืด</translation>
-<translation id="6302485303316397682">ต้องการผลการค้นหาที่ดีกว่านี้หรือไม่</translation>
-<translation id="7014699001826714920">เข้าร่วมกับเรา และร่วมมือกันสนับสนุน iBrowe Search</translation>
-<translation id="6821108091726602352">ช่วยเราแก้ไขเว็บไซต์ด้วยการเข้าร่วมในโครงการ Web Discovery ของ iBrowe คุณสามารถช่วยให้ iBrowe ขยายดัชนีการค้นหาได้ด้วยการแชร์สัญญาณการค้นหาแบบไม่เปิดเผยตัวตน</translation>
-<translation id="6764845498618413165">เรียนรู้เพิ่มเติม</translation>
-<translation id="7818938154803162778">แน่นอน ฉันจะช่วย</translation>
-<translation id="7207456302801184289">ยินดีต้อนรับสู่ iBrowe</translation>
+<translation id="4238305333951712482">อัปเดตหน่วยความจำ: <ph name="MEMORY_CONTENT"/></translation>
+<translation id="2593275000606533518">จัดการทั้งหมด</translation>
+<translation id="8410199626695516952">ตกลง ฉันจะไม่จดจำอะไรแบบนั้น</translation>
+<translation id="8419849467765474535">ไม่สามารถบันทึกหน่วยความจำได้ กรุณาลองอีกครั้ง</translation>
 <translation id="3486480638399578250">เก็บที่อยู่อีเมลส่วนตัวของคุณเป็นส่วนตัว</translation>
 <translation id="7765422154906712751">สร้างที่อยู่แบบสุ่มที่ไม่ซ้ำซึ่งจะส่งต่อไปยังอีเมลบัญชี iBrowe ของคุณและสามารถลบได้ตลอดเวลา เก็บที่อยู่อีเมลจริงของคุณไม่ให้ถูกเปิดเผยหรือถูกใช้โดยผู้โฆษณา</translation>
 <translation id="5222676887888702881">ออกจากระบบ</translation>
 <translation id="8090292425230843109">ออกจากระบบ Email Aliases</translation>
 <translation id="8471990782451394141">กำลังเชื่อมต่อกับบัญชี iBrowe...</translation>
+<translation id="71316462802471551">นามแฝงอีเมล</translation>
 <translation id="5713644099811900409">บัญชี iBrowe</translation>
 <translation id="6002159997868894136">คลิกเพื่อคัดลอกนามแฝง</translation>
 <translation id="8105770564756958406">ใช้งานโดย <ph name="DOMAINS"/></translation>
@@ -2436,6 +2371,143 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="619122420105901711">ไม่เห็นอีเมลใช่ไหม ตรวจสอบโฟลเดอร์สแปมหรือ ลองอีกครั้ง.</translation>
 <translation id="3397336197747843396">เกิดข้อผิดพลาดในการยืนยันตัวตนกับบัญชี iBrowe กรุณาลองใหม่อีกครั้ง</translation>
 <translation id="1340795582009113055">เริ่มต้นใหม่</translation>
+<translation id="8528664394991030582">ไม่มีอีเมลที่ให้ไว้</translation>
+<translation id="589806103071387355">การตอบสนองที่ไม่ถูกต้องจากบริการบัญชี iBrowe</translation>
+<translation id="7508412964869396375">ไม่ได้รับโทเค็นยืนยันตัวตนจากบริการบัญชี iBrowe</translation>
+<translation id="3179527991526213624">ไม่มีการตอบสนองจากบริการบัญชี iBrowe</translation>
+<translation id="7911439408853154309">การยืนยันอีเมลล้มเหลว</translation>
+<translation id="8370801182970639038">อัตโนมัติ (<ph name="LOCALE"/>)</translation>
+<translation id="8343473178272604223">เครื่องมือค้นหาที่เปิดใช้งานแล้ว</translation>
+<translation id="8285901519864208412">ซ่อนบัตรสะสมรางวัล</translation>
+<translation id="4725613319787110841">ซ่อนการ์ดสถิติ</translation>
+<translation id="2991633563551889054">ซ่อนการ์ดสนทนา</translation>
+<translation id="5355776323718420036">ซ่อนเว็บไซต์ยอดนิยม</translation>
+<translation id="1689504141194856995">ซ่อนการ์ด VPN</translation>
+<translation id="8262911270872215147">ปรับแต่งข่าวสาร</translation>
+<translation id="3884037897537157986">ปิดใช้งานข่าวสาร</translation>
+<translation id="7847477075635510673">ซ่อนข่าว</translation>
+<translation id="9173319813356700250">ข่าว</translation>
+<translation id="6543799171249004861">ภาพถ่ายโดย <ph name="AUTHOR"/></translation>
+<translation id="466214682712474574">ลงชื่อเข้าใช้บัญชี <ph name="PROVIDER"/> ของคุณเพื่อดูยอดคงเหลือของคุณ</translation>
+<translation id="8332875111286275890">ลงชื่อเข้าใช้ เพื่อดูยอดคงเหลือของคุณ</translation>
+<translation id="5430001801813715388">รางวัล</translation>
+<translation id="5966055668402779222">ถาม iBrowe Search</translation>
+<translation id="167018310108390163">ปรับแต่งหน้าแท็บใหม่</translation>
+<translation id="6851426306697017546">แสดงนาฬิกา</translation>
+<translation id="4844370919312937270">แสดงวิดเจ็ตการค้นหาในแท็บใหม่</translation>
+<translation id="7328310113820087094">ด้วย <ph name="LINK_BEGIN"/>iBrowe Rewards<ph name="LINK_END"/> คุณสามารถได้รับค่าตอบแทนจากการดูโฆษณาหน้าแท็บใหม่</translation>
+<translation id="4100520468072294616">แสดงโฆษณาหน้าแท็บใหม่</translation>
+<translation id="5009354496127441090">แสดงเว็บไซต์ยอดนิยม</translation>
+<translation id="3960619311638643872">iBrowe VPN</translation>
+<translation id="4784802981241664605">สถิติ</translation>
+<translation id="5236080651083907980">วิดีโอคอลแบบเข้ารหัสด้วย iBrowe Talk</translation>
+<translation id="2671474274417808910">โทรแบบเน้นความเป็นส่วนตัว</translation>
+<translation id="2100665198270190500">พูดคุย</translation>
+<translation id="4290791698375397492">ลบเว็บไซต์ยอดนิยมแล้ว</translation>
+<translation id="9030215177866748410">แนะนำเว็บไซต์เด่นโดยอิงตามเว็บไซต์ที่คุณเข้าชมบ่อย.</translation>
+<translation id="1849266032237224734">แสดงรายการน้อยลง</translation>
+<translation id="9125416311275819193">แสดงรายการเพิ่มขึ้น</translation>
+<translation id="8425213833346101688">เปลี่ยน</translation>
+<translation id="755045397420611731">ความเป็นส่วนตัว &amp; ความปลอดภัยทางออนไลน์ที่มากขึ้น</translation>
+<translation id="4520128772974831415">ซ่อน IP ของคุณ &amp; เปลี่ยนตำแหน่งของคุณ</translation>
+<translation id="6819278685469225453">คุ้มครองทุกแอปบนอุปกรณ์ของคุณ</translation>
+<translation id="8422279921836245017">ซื้อไปแล้วหรือยัง</translation>
+<translation id="8703188411226330709">เริ่มต้นทดลองใช้งานฟรี</translation>
+<translation id="8814357473522731680">สนับสนุนโดย</translation>
+<translation id="7143207342074048698">กำลังเชื่อมต่อ</translation>
+<translation id="1202549130170287307">กำลังยกเลิกการเชื่อมต่อ</translation>
+<translation id="8941703009412168350">iBrowe VPN</translation>
+<translation id="6303294677342628402">ปกป้อง</translation>
+<translation id="8458987127502506209">เปิดใช้งานการป้องกันของ iBrowe</translation>
+<translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>โล่ป้องกันเปิดใช้งานแล้ว<ph name="STATUS_AFTER"/> สำหรับเว็บไซต์นี้</translation>
+<translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Shields ถูกปิด<ph name="STATUS_AFTER"/> สำหรับเว็บไซต์นี้</translation>
+<translation id="5623354834493649144">หากเว็บไซต์นี้ดูเหมือนมีปัญหา ลองปิด Shields ดู
+   <ph name="NOTE_BEFORE"/>หมายเหตุ: การทำเช่นนี้อาจลดการปกป้องความเป็นส่วนตัวของ iBrowe<ph name="NOTE_AFTER"/></translation>
+<translation id="8377155647357436161">บล็อกตัวติดตาม โฆษณา และอื่นๆ <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="7604553853176833536">ไม่มีการปกป้องจาก iBrowe Shields <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="650318023204990401">การควบคุมขั้นสูง</translation>
+<translation id="5799940914270080805">การเปลี่ยนการตั้งค่าเหล่านี้อาจทำให้เว็บไซต์เสียหาย</translation>
+<translation id="9204041448536398473">การตั้งค่าการป้องกันแบบทั่วไป</translation>
+<translation id="2108334320919763866">ค่าเริ่มต้น</translation>
+<translation id="7205939464631857223">ลบทุกองค์ประกอบที่ถูกบล็อก</translation>
+<translation id="3440043456924990296">การตั้งค่าโดยองค์กร</translation>
+<translation id="7053983685419859001">บล็อก</translation>
+<translation id="5716230673298034837">อนุญาตทั้งหมด</translation>
+<translation id="5279600392753459966">บล็อกทั้งหมด</translation>
+<translation id="4516904298421534459">รายการตัวกรอง</translation>
+<translation id="3570081523466826008">อัปเกรดการเชื่อมต่อเป็น HTTPS</translation>
+<translation id="131231380815754440">เปิดใช้งาน HTTPS</translation>
+<translation id="4824468494729001999">บล็อกสคริปต์</translation>
+<translation id="3246600097575692802">เปิดใช้งานบล็อกสคริปต์</translation>
+<translation id="3603525299146223354">ตัวติดตามและโฆษณา</translation>
+<translation id="4448697385961650078">บล็อกโฆษณา &amp; แอปติดตาม</translation>
+<translation id="8593054718053894081">บล็อกตัวติดตามและโฆษณาอย่างเข้มงวด</translation>
+<translation id="7384778069178817075">อนุญาตโฆษณา &amp; แอปติดตามทั้งหมด</translation>
+<translation id="6196640612572343990">บล็อกคุกกี้ของบุคคลที่สาม</translation>
+<translation id="693506469193748756">ไม่ต้องจำฉันเมื่อฉันปิดเว็บไซต์นี้</translation>
+<translation id="6975864539539353406">ล้างคุกกี้และข้อมูลอื่นๆ ของไซต์เมื่อคุณปิดไซต์</translation>
+<translation id="6486971767955110687">บันทึกข้อมูลการติดต่อสำหรับการรายงานเว็บไซต์เสียในอนาคต</translation>
+<translation id="4085787265464238844">หากคุณให้ข้อมูลการติดต่อ มันจะถูกบันทึกไว้สำหรับการรายงานในอนาคต</translation>
+<translation id="6883611015375728278">บล็อกคุกกี้ทั้งหมด</translation>
+<translation id="5657156137487675418">อนุญาตคุกกี้ทั้งหมด</translation>
+<translation id="8366221601425141146">บล็อกการเก็บร่องรอย</translation>
+<translation id="6531019308847917584">บล็อกการพิมพ์ลายนิ้วมือ</translation>
+<translation id="1899608006846124237">บล็อกการพิมพ์ลายนิ้วมืออย่างเข้มงวด</translation>
+<translation id="8034285923190068220">อนุญาตการพิมพ์ลายนิ้วมือ</translation>
+<translation id="7638541189782135885">ห้ามอัปเกรดการเชื่อมต่อ HTTP</translation>
+<translation id="2570787596946026998">เชื่อมต่อกับ HTTPS เท่านั้น</translation>
+<translation id="1992750560347846445">รายงานเว็บไซต์</translation>
+<translation id="2387532482048804818">แจ้งเราหากเว็บไซต์ทำงานผิดปกติเมื่อเปิด Shields</translation>
+<translation id="3795015906457257780">คุณกำลังดูเว็บไซต์นี้โดยไม่มีการป้องกันความเป็นส่วนตัวของ iBrowe</translation>
+<translation id="7194012750329511146">iBrowe Shields
+บล็อกตัวติดตาม โฆษณา และอื่นๆ อีกมากมายกว่า <ph name="NUMBER"/> รายการด้วย</translation>
+<translation id="4292121526390005808">บล็อคสคริปต์ถูกบล็อค</translation>
+<translation id="5046271170844958713">อนุญาตสคริปต์</translation>
+<translation id="199862531047218413">ใช้งานการป้องกันการพิมพ์ลายนิ้วมือ</translation>
+<translation id="5032505924781383272">การป้องกันที่ใช้ไม่ได้เป็นการบ่งบอกว่าหน้าเว็บนี้กำลังพยายามพิมพ์ลายนิ้วมือบนเบราว์เซอร์ของคุณ</translation>
+<translation id="1905384713982899903">บล็อกการพิมพ์ลายนิ้วมือแล้ว</translation>
+<translation id="314364527871618241">อนุญาตการพิมพ์ลายนิ้วมือแล้ว</translation>
+<translation id="2808175374672429053">ไม่สามารถใช้ Wildcard ได้กับ iBrowe Shields</translation>
+<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
+      =1 {เกราะป้องกันของ iBrowe บล็อก 1 ตัวติดตามบน <ph name="SITE_URL"/>}
+      other {เกราะป้องกันของ iBrowe บล็อกอีก {BLOCKED_COUNT} ตัวติดตามบน <ph name="SITE_URL"/>}
+    }</translation>
+<translation id="2540598191934725677">คลิกไอคอน iBrowe เพื่อดู iBrowe Shields</translation>
+<translation id="6294662480095808915">ความเป็นส่วนตัว ตามค่าเริ่มต้น</translation>
+<translation id="4366423156486478559">รับการปกป้อง iBrowe ในทุกลิงก์ที่คุณคลิก เพียงตั้งค่า iBrowe เป็นค่าเริ่มต้นและเล่นอินเทอร์เน็ตอย่างเป็นส่วนตัว</translation>
+<translation id="3830912418080848377">นำเข้าการตั้งค่า</translation>
+<translation id="6378406588483694938">นำเข้าบุ๊กมาร์ก ส่วนขยาย และรหัสผ่านที่บันทึกไว้จากเบราว์เซอร์เก่าของคุณได้ง่าย</translation>
+<translation id="2092825239819166928">เลือกโปรไฟล์เพื่อนำเข้า</translation>
+<translation id="4763127492635705340">เบราว์เซอร์ที่คุณเลือกมีหลายโปรไฟล์ เลือกโปรไฟล์ที่คุณต้องการนำเข้า</translation>
+<translation id="880174232178865598">นำเข้าโปรไฟล์</translation>
+<translation id="2453860139492968684">เสร็จสิ้น</translation>
+<translation id="2273851479262317744">ตั้ง iBrowe เป็นเบราว์เซอร์เริ่มต้น</translation>
+<translation id="5037676449506322593">เลือกทั้งหมด</translation>
+<translation id="5148943178722443958">ช่วยปรับปรุง iBrowe ให้ดีขึ้น</translation>
+<translation id="1097073572755862978">ส่งรายงานการวินิจฉัยหากคุณพบข้อขัดข้องหรืออาการค้าง<ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="6629244688368006959">แชร์ข้อมูลเชิงลึกของผลิตภัณฑ์แบบส่วนตัวและไม่ระบุชื่อ ซึ่งมีข้อมูลเกี่ยวกับคุณสมบัติที่ผู้ใช้ iBrowe ใช้ <ph name="LINK_BEFORE"/>เรียนรู้เพิ่มเติม<ph name="LINK_AFTER"/></translation>
+<translation id="7415454883318062233">การตั้งค่าเสร็จสมบูรณ์</translation>
+<translation id="3141206739023333979">เปลี่ยนตัวเลือกเหล่านี้ได้ทุกเวลาใน iBrowe ได้ที่ <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/></translation>
+<translation id="8321985064212130832">อ่านทั้งหมดของ <ph name="LINK_BEFORE"/>นโยบายความเป็นส่วนตัว<ph name="LINK_AFTER"/></translation>
+<translation id="2801098717523961746">เลือกธีมของคุณ</translation>
+<translation id="6262510489122516114">คุณสามารถเปลี่ยนได้ทุกเมื่อในการตั้งค่า iBrowe</translation>
+<translation id="546481172717459539">การตั้งค่าระบบการจับคู่</translation>
+<translation id="7799817062559422778">โหมดสว่าง</translation>
+<translation id="4117637339509843559">โหมดมืด</translation>
+<translation id="6302485303316397682">ต้องการผลการค้นหาที่ดีกว่านี้หรือไม่</translation>
+<translation id="7014699001826714920">เข้าร่วมกับเรา และร่วมมือกันสนับสนุน iBrowe Search</translation>
+<translation id="6821108091726602352">ช่วยเราแก้ไขเว็บไซต์ด้วยการเข้าร่วมในโครงการ Web Discovery ของ iBrowe คุณสามารถช่วยให้ iBrowe ขยายดัชนีการค้นหาได้ด้วยการแชร์สัญญาณการค้นหาแบบไม่เปิดเผยตัวตน</translation>
+<translation id="6764845498618413165">เรียนรู้เพิ่มเติม</translation>
+<translation id="7818938154803162778">แน่นอน ฉันจะช่วย</translation>
+<translation id="7207456302801184289">ยินดีต้อนรับสู่ iBrowe</translation>
+<translation id="6716580298071890302">ใช้ธีมสีเข้ม</translation>
+<translation id="2422927186524098759">แถบด้านข้าง</translation>
+<translation id="2361906291514218784">Leo AI</translation>
+<translation id="7705524343798198388">VPN</translation>
+<translation id="8000020256436988724">แถบเครื่องมือ</translation>
+<translation id="6225572914528673855">แถบที่อยู่</translation>
+<translation id="8293206222192510085">เพิ่มบุ๊กมาร์ก</translation>
+<translation id="7758460733045216901">แผงบุ๊กมาร์ก</translation>
 <translation id="958268166261124668">iBrowe VPN: เชื่อมต่อแล้ว</translation>
 <translation id="6021669293402055982">iBrowe VPN: ตัดการเชื่อมต่อแล้ว</translation>
 <translation id="3541307549916475335">UI หน้าต่าง VPN ของ iBrowe</translation>
@@ -2450,6 +2522,9 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="7805768142964895445">สถานะ</translation>
 <translation id="5747552184818312860">หมดอายุ</translation>
 <translation id="8421945428836418371">เชื่อมต่อใหม่โดยอัตโนมัติ</translation>
+<translation id="1775187768313123375">การกำหนดเส้นทางพร็อกซีอัจฉริยะ</translation>
+<translation id="1729266073247927443">การกำหนดเส้นทางพร็อกซีอัจฉริยะใช้งานได้</translation>
+<translation id="8416695199565594645">รับประกันว่าการรับส่งข้อมูลจะถูกกำหนดเส้นทางผ่านเซิร์ฟเวอร์พร็อกซีที่กำหนดเพื่อให้สามารถเข้าถึงเนื้อหาหรือเว็บไซต์ที่ถูกจำกัดบ่อยๆ หรือบริการจากบุคคลที่สาม</translation>
 <translation id="434523916398030617">ติดต่อฝ่ายสนับสนุนทางเทคนิค</translation>
 <translation id="1116694919640316211">เกี่ยวกับ</translation>
 <translation id="2044418816479192294">เซิร์ฟเวอร์กว่าหลายร้อยตำแหน่งทั่วโลก</translation>

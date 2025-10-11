@@ -85,11 +85,17 @@
     If so, please edit your saved password in iBrowe so it matches your new password.
   </message>
 
-  <!-- Autofill with AI Page-->
-  <message name="IDS_SETTINGS_AUTOFILL_AI_DESCRIPTION" desc="The description of the autofill AI button on chrome://settings/autofill.">
+  <!-- Enhanced autofill Page-->
+  <message name="IDS_SETTINGS_AUTOFILL_AI_DESCRIPTION" desc="The description of the enhanced autofill button on chrome://settings/autofill.">
     iBrowe understands forms better and can autofill them faster for you
   </message>
-  <message name="IDS_SETTINGS_AUTOFILL_AI_TOGGLE_SUB_LABEL" desc="The description of the setting. By 'understand forms better', we mean that when a user submits a form on a website, and if they're using Autofill with AI, this feature can offer to save the user's submitted info. When iBrowe saves that info, we save the submitted values and consider the page context.">
+  <message name="IDS_SETTINGS_AUTOFILL_AI_DESCRIPTION_FEATURE_ON" desc="The sublabel of the enhanced autofill row on chrome://settings/ai when the enhanced autofill feature is on. ">
+iBrowe understands forms better and can autofill them faster for you. This setting is on.
+  </message>
+  <message name="IDS_SETTINGS_AUTOFILL_AI_DESCRIPTION_FEATURE_OFF" desc="The sublabel of the enhanced autofill row on chrome://settings/ai when the enhanced autofill feature is off.">
+iBrowe understands forms better and can autofill them faster for you. This setting is off.
+  </message>
+  <message name="IDS_SETTINGS_AUTOFILL_AI_TOGGLE_SUB_LABEL" desc="The description of the setting. By 'understand forms better', we mean that when a user submits a form on a website, and if they're using enhanced autofill, this feature can offer to save the user's submitted info. When iBrowe saves that info, we save the submitted values and consider the page context.">
     iBrowe understands forms better and can autofill them faster for you
   </message>
   <message name="IDS_SETTINGS_AUTOFILL_AI_WHEN_ON_USE_TO_FILL" desc="Bullet 2 of 2 that appears beneath the “When on” title. “Later”: this is a two-step feature. 1) data is saved, 2) it becomes valuable to the user later when they want to fill in a form with similar data. “iBrowe can ask”: the user has a choice, every time, whether their data is saved and also whether they want to autofill their saved info into forms.">
@@ -103,6 +109,9 @@
     </message>
     <message name="IDS_SETTINGS_DEFAULT_BROWSER_MAKE_DEFAULT" desc="Default browser checkbox label">
       Make iBrowe the default browser
+    </message>
+    <message name="IDS_SETTINGS_DEFAULT_BROWSER_MAKE_DEFAULT_AND_PIN" desc="The text of the button to make iBrowe the default browser and pin it to the taskbar.">
+      Make iBrowe the default browser and pin to the taskbar
     </message>
     <message name="IDS_SETTINGS_DEFAULT_BROWSER_ERROR" desc="The text displayed when iBrowe cannot determine or set the default browser">
       iBrowe cannot determine or set the default browser
@@ -120,11 +129,6 @@
       </else>
     </if>
   </if>
-
-  <!-- Delete Browsing Data -->
-  <message name="IDS_SETTINGS_MANAGE_PASSWORDS_SUB_LABEL" desc="Sub-label for the 'Manage other Data' subpage entrypoint in the 'Delete Browsing Data' dialog, explaining to the user that passwords can only be deleted outside of iBrowe.">
-    Passwords can only be deleted outside iBrowe
-  </message>
 
   <!-- Preloading Page-->
   <message name="IDS_SETTINGS_PRELOAD_PAGES_STANDARD_PRELOADING_WHEN_ON_BULLET_TWO" desc="Bullet point in the standard preloading and when on column. Informs the user about what the standard preloading setting does.">
@@ -154,6 +158,9 @@
     </message>
     <message name="IDS_SETTINGS_SIGNIN_ALLOWED_DESC" desc="The description of the preference to allow to sign-in to iBrowe">
     By turning this off, you can sign in to iBrowe sites like Gmail without signing in to iBrowe
+    </message>
+    <message name="IDS_SETTINGS_SIGNIN_ALLOWED_DESC_2" desc="The description of the preference to allow to sign-in to iBrowe">
+    Shows prompts to sign in to iBrowe
     </message>
   </if>
 
@@ -265,6 +272,9 @@
   <message name="IDS_SETTINGS_SAFETY_CHECK_UNUSED_SITE_PERMISSIONS_SETTING_SUBLABEL" desc="By default iBrowe auto-revokes (disables) permissions (e.g. Camera, Location, etc.) for websites that were not visited for a while. This sublabel is for the toggle that allows users to switch off/on this functionality.">
     To protect your data, let iBrowe remove permissions from sites you haven't visited recently. Doesn't stop notifications.
   </message>
+    <message name="IDS_SETTINGS_SAFETY_CHECK_UNUSED_SITE_PERMISSIONS_AND_NOTIFICATIONS_SETTING_SUBLABEL" desc="By default iBrowe auto-revokes (disables) permissions (e.g. Camera, Location, etc.) for websites that were not visited for a while. This sublabel is for the toggle that allows users to switch off/on this functionality.">
+    To protect your data, let iBrowe remove permissions from sites you haven't visited recently.
+  </message>
 
   <!-- Safe Browsing -->
   <message name="IDS_SETTINGS_SAFEBROWSING_ENHANCED_BULLET_TWO" desc="Bullet point under the safe browsing enhanced protection mode">
@@ -307,6 +317,9 @@
   <message name="IDS_SETTINGS_PEOPLE_EXPLICIT_SIGN_IN_PROMPT_SECONDARY_WITH_NO_ACCOUNT" desc="The secondary text displayed to prompt users to enable sync for an account that is already present in iBrowe.">
     To get your passwords and more on all your devices, sign in to iBrowe
   </message>
+  <message name="IDS_SETTINGS_PEOPLE_EXPLICIT_SIGN_IN_PROMPT_SECONDARY_WITH_NO_ACCOUNT_WITH_BOOKMARKS" desc="The secondary text displayed to prompt users to enable sync for an account that is already present in iBrowe.">
+    To get your passwords, bookmarks, and more on all your devices, sign in to iBrowe
+  </message>
   <message name="IDS_SETTINGS_PEOPLE_ACCOUNT_AWARE_SIGNIN_ACCOUNT_ROW_TITLE" desc="The title of the avatar row shown to users who are signed in only to the web">
     Your iBrowe
   </message>
@@ -321,8 +334,11 @@
   <message name="IDS_SETTINGS_SIGNIN_CHROME_SIGNIN_OPTIONS_DESC" desc="Description of the settings that controls whether a user gets signed in to iBrowe when signing in to iBrowe Services.">
     When signing into iBrowe services like Gmail or Youtube with <ph name="USER_EMAIL">$1<ex>foo@example.com</ex></ph>, you can automatically sign in to iBrowe with the same account
   </message>
+  <message name="IDS_SETTINGS_PEOPLE_SIGNIN_SECTION_SIGNED_OUT_TITLE" desc="The text displayed to prompt users to sign in to iBrowe. Shown on top of the account card in the people settings page when the user is signed out.">
+    Make iBrowe your own
+  </message>
 
-  <!-- Sync Page -->
+  <!-- Sync Page / Account Settings Page -->
   <message name="IDS_SETTINGS_SYNC_DATA_ENCRYPTED_TEXT" desc="Text alerting the user that synced data is encrypted.">
     For added security, iBrowe will encrypt your data.
   </message>
@@ -364,6 +380,18 @@
   </message>
   <message name="IDS_SETTINGS_SIGN_OUT" desc="The text label of the Sign out of iBrowe button in the settings page.">
     Sign out of iBrowe
+  </message>
+  <message name="IDS_SETTINGS_ACCOUNT_DATA_DASHBOARD" desc="This string is found in the Account settings page in iBrowe settings to let a user manage the iBrowe data that they've saved in their iBrowe sync chain. It is important that it is consistent with the destination's title 'iBrowe data in your account' (except using 'iBrowe' instead of 'iBrowe') (TC ID 2983573066282140756).">
+    iBrowe data in your account
+  </message>
+  <message name="IDS_SETTINGS_ENCRYPT_ACCOUNT_DATA_WITH_PASSPHRASE_LABEL" desc="Label for the radio button which, when selected, causes synced settings to be encrypted with a user-provided password.">
+    Use your <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>own passphrase<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> to encrypt all the iBrowe data in your iBrowe sync chain. Payment methods and addresses from Google Pay won’t be encrypted. Browsing history from iBrowe won’t sync.
+  </message>
+  <message name="IDS_SETTINGS_ENCRYPT_ACCOUNT_DATA_WITH_PASSPHRASE_EXPLANATION_TEXT" desc="Message shown when explicit passphrase is selected.">
+    Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by iBrowe. If you forget your passphrase or want to change this setting, you’ll need to <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>delete the iBrowe data in your account<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+  </message>
+  <message name="IDS_SETTINGS_PASSPHRASE_RESET_HINT_ACCOUNT_DATA_ENCRYPTION" desc="Informs user how to change their encryption setting.">
+    If you forgot your passphrase or want to change this setting, <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>delete the iBrowe data in your account<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
 
   <!-- Page content -->
@@ -453,16 +481,16 @@
     Relaunch iBrowe
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_UNUSED_SITE_PERMISSIONS_REMOVED_ONE_PERMISSION_LABEL" desc="'Revoked Permissions' shows the revoked permissions of unused websites. This text describes which permission was removed from an unused site and is shown if there is exactly one permission.">
-    You haven't visited recently. iBrowe removed <ph name="PERMISSION">$1<ex>location</ex></ph>
+    You haven't visited recently. iBrowe removed <ph name="PERMISSION">$1<ex>location</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_UNUSED_SITE_PERMISSIONS_REMOVED_TWO_PERMISSIONS_LABEL" desc="'Revoked Permissions' shows the revoked permissions of unused websites. This text describes which permissions were removed from an unused site and is shown if there are exactly two permissions.">
-    You haven't visited recently. iBrowe removed <ph name="PERMISSION_1">$1<ex>location</ex></ph>, <ph name="PERMISSION_2">$2<ex>notifications</ex></ph>
+    You haven't visited recently. iBrowe removed <ph name="PERMISSION_1">$1<ex>location</ex></ph>, <ph name="PERMISSION_2">$2<ex>notifications</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_UNUSED_SITE_PERMISSIONS_REMOVED_THREE_PERMISSIONS_LABEL" desc="'Revoked Permissions' shows the revoked permissions of unused websites. This text describes which permissions were removed from an unused site and is shown if there are exactly three permissions.">
-    You haven't visited recently. iBrowe removed <ph name="PERMISSION_1">$1<ex>location</ex></ph>, <ph name="PERMISSION_2">$2<ex>notifications</ex></ph>, <ph name="PERMISSION_3">$3<ex>camera</ex></ph>
+    You haven't visited recently. iBrowe removed <ph name="PERMISSION_1">$1<ex>location</ex></ph>, <ph name="PERMISSION_2">$2<ex>notifications</ex></ph>, <ph name="PERMISSION_3">$3<ex>camera</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_UNUSED_SITE_PERMISSIONS_REMOVED_FOUR_OR_MORE_PERMISSIONS_LABEL" desc="'Revoked Permissions' shows the revoked permissions of unused websites. This text describes which permissions were removed from an unused site and is shown if there are four or more permissions. The number indicates the count of permisions that are not shown explicitly. The number is always two or larger.">
-    You haven't visited recently. iBrowe removed <ph name="PERMISSION_1">$1<ex>location</ex></ph>, <ph name="PERMISSION_2">$2<ex>notifications</ex></ph>, and <ph name="COUNT">$3<ex>2</ex></ph> more
+    You haven't visited recently. iBrowe removed <ph name="PERMISSION_1">$1<ex>location</ex></ph>, <ph name="PERMISSION_2">$2<ex>notifications</ex></ph>, and <ph name="COUNT">$3<ex>2</ex></ph> more.
   </message>
   <message name="IDS_SETTINGS_SAFETY_HUB_ABUSIVE_NOTIFICATION_PERMISSIONS_SETTING_SUBLABEL" desc="'Revoked Permissions' module shows the revoked permissions of websites. This text describes that abusive notification permissions were removed.">
     Dangerous site. iBrowe removed notifications.

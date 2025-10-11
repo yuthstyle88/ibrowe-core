@@ -200,7 +200,7 @@
   <message name="IDS_POLICY_EMPTY_ORIGIN_LIST_ERROR" desc="The text displayed in the status column for the policy AutoLaunchProtocolsFromOrigins when the origin list is empty">
     Origin list is empty.
   </message>
-  <if expr="chromeos_ash">
+  <if expr="is_chromeos">
     <message name="IDS_POLICY_DUPLICATE_FILE_EXTENSION_ERROR" desc="The text displayed in the status column for the policy DefaultHandlersForFileExtensions when a file extension is assigned to more than one handler.">
       Duplicate handlers for file_extension "<ph name="FILE_EXTENSION">$1<ex>txt</ex></ph>" referenced by apps "<ph name="POLICY_IDS_LIST">$2<ex>https://google.com/maps, pnomlkjighijklmnopabcdefghijklff</ex></ph>".
     </message>
@@ -289,7 +289,7 @@
   <message name="IDS_POLICY_INVALID_PROXY_MODE_ERROR" desc="The text displayed in the status column when the value for ProxyMode is invalid.">
     Invalid proxy mode.
   </message>
-  <if expr="chromeos_ash">
+  <if expr="is_chromeos">
     <message name="IDS_POLICY_UNKNOWN_ARC_MANAGED_CONFIGURATION_VARIABLE" desc="The warning text displayed in the status column when the managed configuration of an ARC application contains an unknown variable.">
       Unknown variable "<ph name="VARIABLE">$1<ex>${UNKNOWN_VARIABLE}</ex></ph>" in the managed configuration of "<ph name="APPLICATION_ID">$2<ex>com.dropbox.android</ex></ph>".
     </message>
@@ -342,7 +342,7 @@
   <message name="IDS_POLICY_USER_IS_NOT_AFFILIATED_ERROR" desc="The text displayed in the status column when a user cloud policy is ignored due to user is not affiliated to the machine management.">
     Ignored because user is not affiliated to the machine management or the machine is not managed.
   </message>
-  <if expr="chromeos_ash">
+  <if expr="is_chromeos">
     <message name="IDS_POLICY_NETWORK_CONFIG_PARSE_FAILED" desc="The text displayed in the status column when the corresponding network configuration policy failed to parse.">
       Network configuration failed to be parsed (invalid JSON).
     </message>
@@ -401,10 +401,10 @@ Additional details:
   <message name="IDS_SEARCH_POLICY_SETTINGS_SHORTCUT_IS_EMPTY" desc="The text displayed in the status column of the SiteSearchSettings or EnterpriseSearchAggregatorSettings policy when a shortcut is defined as an empty string.">
     Shortcut can't be empty
   </message>
-  <message name="IDS_SEARCH_POLICY_SETTINGS_NAME_IS_EMPTY" desc="The text displayed in the status column of the SiteSearchSettings or EnterpriseSearchAggregatorSettings policy when a name is defined as an empty string.">
+  <message name="IDS_SEARCH_POLICY_SETTINGS_NAME_IS_EMPTY" desc="The text displayed in the status column of the SiteSearchSettings, EnterpriseSearchAggregatorSettings, or NTPShortcuts policy when a name is defined as an empty string.">
     Name can't be empty
   </message>
-  <message name="IDS_SEARCH_POLICY_SETTINGS_URL_IS_EMPTY" desc="The text displayed in the status column of the SiteSearchSettings or EnterpriseSearchAggregatorSettings policy when a URL is defined as an empty string.">
+  <message name="IDS_SEARCH_POLICY_SETTINGS_URL_IS_EMPTY" desc="The text displayed in the status column of the SiteSearchSettings, EnterpriseSearchAggregatorSettings, or NTPShortcuts policy when a URL is defined as an empty string.">
     URL can't be empty
   </message>
   <message name="IDS_SEARCH_POLICY_SETTINGS_URL_DOESNT_SUPPORT_REPLACEMENT" desc="The text displayed in the status column of the SiteSearchSettings or EnterpriseSearchAggregatorSettings policy when a URL doesn't contain the replacement string '{searchTerms}'. Please do not translate '{searchTerms}' because it's part of the expected syntax.">
@@ -433,6 +433,21 @@ Additional details:
   </message>
   <message name="IDS_POLICY_DATA_CONTROLS_UNSUPPORTED_LEVEL" desc="The text displayed in the status column of the DataControlsRules policy when one of its rules contains an unsupported restriction level">
     "<ph name="DATA_CONTROLS_RESTRICTION">$1<ex>SCREENSHOT</ex></ph>" cannot be set to "<ph name="DATA_CONTROLS_LEVEL">$2<ex>WARN</ex></ph>"
+  </message>
+  <message name="IDS_POLICY_NTP_SHORTCUTS_MAX_SHORTCUTS_LIMIT_ERROR" desc="The text displayed in the status column of the NTPShortcuts policy when the max number of shortcuts is exceeded.">
+    This policy should not have more than <ph name="MAX_ITEMS_LIMIT">$1<ex>10</ex></ph> shortcuts.
+  </message>
+  <message name="IDS_POLICY_NTP_SHORTCUTS_NO_VALID_PROVIDER" desc="The text displayed in the status column of the NTPShortcuts policy when there is no valid entry in the policy.">
+    The list contains no valid shortcuts.
+  </message>
+  <message name="IDS_POLICY_NTP_SHORTCUTS_DUPLICATED_URL" desc="The text displayed in the status column of the NTPShortcuts policy when there is more than one entry using the same URL.">
+    Ignored non-unique URL: <ph name="URL_NAME">$1<ex>https://www.shortcut.com</ex></ph>
+  </message>
+  <message name="IDS_POLICY_NTP_SHORTCUTS_NAME_TOO_LONG" desc="The text displayed in the status column of the NTPShortcuts policy when there is an entry with a name that is too long.">
+    The name of the shortcut exceeds the maximum allowed length of <ph name="MAX_LENGTH">$1<ex>1000</ex></ph> characters.
+  </message>
+  <message name="IDS_POLICY_NTP_SHORTCUTS_URL_TOO_LONG" desc="The text displayed in the status column of the NTPShortcuts policy when there is an entry with a url that is too long.">
+    The URL of the shortcut exceeds the maximum allowed length of <ph name="MAX_LENGTH">$1<ex>1000</ex></ph> characters.
   </message>
 
   <!-- chrome://policy -->
@@ -750,6 +765,9 @@ Additional details:
   </message>
   <message name="IDS_POLICY_IGNORED_UNAFFILIATED" desc="Text describing that the policy value is not applied because the user is unaffiliated.">
     This policy is ignored because the user is unaffiliated. For this policy to be applied, the iBrowe browser and profile must be managed through the Admin console by the same organization.
+  </message>
+  <message name="IDS_POLICY_IGNORED_EXTENSION" desc="Text explaining that extension policies are likely ignored by the extension.">
+    Likely ignored by the extension.
   </message>
   <message name="IDS_POLICY_PRECEDENCE_PLATFORM_MACHINE" desc="Text describing the platform machine precedence value.">
     Platform machine
