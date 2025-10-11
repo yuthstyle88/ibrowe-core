@@ -126,8 +126,8 @@
 <translation id="730042046912793465">Detta är ett</translation>
 <translation id="2055363275850890030">Privat fönster</translation>
 <translation id="9133213713928851646">iBrowe minns inte vad du gör i ett privat fönster. Webbplatser som du besöker syns inte i din historik och kakor försvinner när du är klar. Privata fönster gör dig emellertid inte helt anonym online.</translation>
-<translation id="4491905831789757331">iBrowe kommer aldrig ihåg vad du gör i ett privat fönster. Webbplatser du besöker visas inte i din historik. Cookies, formulärdata och webbplatsdata försvinner när du stänger fönstret.</translation>
-<translation id="1700746046668116047">Uppmärksamma att din aktivitet fortfarande kan vara synlig för din internetleverantör, passiva nätverksobservatörer eller din arbetsgivare (om du använder en arbetsmaskin eller ett nätverk). För mer integritet, öppna ett privat fönster med Tor.</translation>
+<translation id="5280085559200511517">iBrowe kommer aldrig ihåg vad du gör i ett privat fönster. Webbplatser du besöker kommer inte att visas i din historik. Cookies, formulärdata och webbplatsdata försvinner när du stänger alla öppna privata fönster. Observera att din aktivitet fortfarande kan vara synlig för din internetleverantör, passiva nätverksobservatörer eller din arbetsgivare (om du använder en arbetsmaskin eller ett nätverk).</translation>
+<translation id="2517912602053665378">Om du vill ha mer integritet kan du öppna ett privat fönster med Tor.</translation>
 <translation id="8759753423332885148">Lär dig mer.</translation>
 <translation id="8611976753572844841">Privat fönster med Tor-anslutning</translation>
 <translation id="1645589858096839236">iBrowe lagrar inte surfaktivitet från privata fönster. Med Tor-anslutning blir det svårare för webbplatser att se din riktiga IP-adress och för nätverksobservatörer att se vilka webbplatser du besöker. Men om din personliga säkerhet är beroende av att du är anonym bör du använda Tor Browser istället.</translation>
@@ -148,7 +148,7 @@
 <translation id="2701204441419443612">Ansluter fortfarande ...</translation>
 <translation id="8813986611396294203">Det finns en viss långsamhet i Tor-nätverket</translation>
 <translation id="2795840524629682765">Tor-anslutningen misslyckades</translation>
-<translation id="1149108864689950951">Tor ansluter ... [[percentage]] %</translation>
+<translation id="9102894004288640876">Tor ansluter ... <ph name="PERCENTAGE"/>%</translation>
 <translation id="3651192084771403430">Har du problem med att ansluta? Prova att <ph name="BEGIN_LINK"/>inaktivera<ph name="END_LINK"/> Privat fönster med Tor och aktivera det igen i inställningarna.</translation>
 <translation id="8834376622642889380">Öppna <ph name="BEGIN_LINK"/>iBrowe Settings<ph name="END_LINK"/>, inaktivera Privat fönster med Tor och aktivera sedan igen.</translation>
 <translation id="1576202729986800142"><ph name="BEGIN_BOLD"/>Har du fortfarande problem?<ph name="END_BOLD"/> Testa att använda <ph name="BEGIN_BRIDGES_LINK"/>broar<ph name="END_BRIDGES_LINK"/> eller <ph name="BEGIN_SUPPORT_LINK"/>kontakta support<ph name="END_SUPPORT_LINK"/>.</translation>
@@ -170,19 +170,33 @@
 <translation id="5334844597069022743">Visa källa</translation>
 <translation id="4720556299488643018">Avsluta prenumeration</translation>
 <translation id="1209739344687072997">Rapportera en trasig webbplats</translation>
-<translation id="8510478288840333677">Låt iBrowes utvecklare veta att denna webbplats inte fungerar korrekt med Shields:</translation>
+<translation id="2961941250324390287">Låt iBrowes utvecklare veta att denna webbplats inte fungerar som förväntat:</translation>
 <translation id="3110968385867124099">Denna sida kan inte anmälas eftersom den inte levererades via HTTP/HTTPS.</translation>
 <translation id="7907023135990310743">Denna sida är en lokal webbsida och kan inte anmälas.</translation>
 <translation id="8740275226259417070">Detta är en felsida. Den kan inte rapporteras som en ej fungerande webbplats.</translation>
 <translation id="6367576083705149078">Om du uppger kontaktinformation kommer den att lagras för framtida rapporter.</translation>
 <translation id="6806248680442980382">Tack för att du hjälper till att göra iBrowe bättre för alla. Denna rapport kommer endast att innehålla information som är nödvändig för att vi ska kunna åtgärda webbplatsen.</translation>
-<translation id="6476216365964140603">Ytterligare information (valfritt)</translation>
+<translation id="8731661215617360873">Välj ett alternativ</translation>
+<translation id="2805770823691782631">Ytterligare uppgifter</translation>
+<translation id="8447940165862889275">(valfritt)</translation>
 <translation id="6145852496180774737">Kontakta mig på: (valfritt)</translation>
 <translation id="7616645803364270729">E-post, Twitter, osv.</translation>
 <translation id="721949491455392748">Inkludera skärmdump av den aktuella sidan</translation>
 <translation id="8459191579769999214">Visa skärmdump</translation>
 <translation id="5299848999918506028">Tack!</translation>
 <translation id="76550953340008122">Tack för att du lät iBrowes utvecklare veta att något är fel på denna webbplats. Vi ska göra vårt bästa för att fixa det!</translation>
+<translation id="3037432377946455872">Vad ser du som det huvudsakliga problemet?</translation>
+<translation id="9133645617402992550">Annonser syns fortfarande</translation>
+<translation id="4784626332068555349">Tom sida eller innehåll som saknas</translation>
+<translation id="8278217275444967104">Kan inte bläddra</translation>
+<translation id="786980556536893096">Kan inte skriva in text i ett formulär</translation>
+<translation id="7744162007310978225">Synligt meddelande om cookie-samtycke</translation>
+<translation id="5578433701455313672">Det finns en åtgärd mot annonsblockering</translation>
+<translation id="6831478554298438308">Oblockerat skript för spårning/analys</translation>
+<translation id="7279636930553631442">Popup-fönster för nyhetsbrev</translation>
+<translation id="6136090320163235283">Social widget</translation>
+<translation id="6657720240983439091">Chatt-widget</translation>
+<translation id="7138678301420049075">Övrigt</translation>
 <translation id="4046860372562593546">Hantera iBrowe Ads</translation>
 <translation id="5136973036012418831">Styr vilka typer av iBrowe-annonser du ser och hur ofta.</translation>
 <translation id="4759608598194750161">Ju fler du ser, desto mer kan du tjäna.</translation>
@@ -422,7 +436,6 @@
 <translation id="8327818101454798856">Så om du tänkte stödja dina favoritsajter går du dit istället.</translation>
 <translation id="412480955826088549">Laddar ned komponent ...</translation>
 <translation id="4894106830958548828">Jag förstår</translation>
-<translation id="326118736933420687">Du visar en WebTorrent-sida</translation>
 <translation id="2729085694451916573">Teststräng för <ph name="PART_ONE"/>platshållare<ph name="PART_ONE_END"/>. <ph name="PART_TWO"/>Läs mer<ph name="PART_TWO_END"/></translation>
 <translation id="7534079972563542000">Ostoppbara domäner</translation>
 <translation id="4492298165410552103">Aktivera stöd för ostoppbara domäner i iBrowe?</translation>
@@ -471,6 +484,7 @@
 <translation id="5770656036486891920"><ph name="URL"/> vill använda cookies från tredje part för äldre Google-inloggning</translation>
 <translation id="6053826678715267477">Tillåt åtkomst till localhost-resurser</translation>
 <translation id="2973562729984406132"><ph name="URL"/> vill ha åtkomst till localhost-resurser</translation>
+<translation id="2104347391516032700">Bat-belöningstjänst</translation>
 <translation id="5939518447894949180">Återställ</translation>
 <translation id="3349204812119681938">Återställ iBrowe Rewards</translation>
 <translation id="4915997950539925115">Genom att återställa raderas din nuvarande iBrowe Rewards-profil och iBrowe Rewards kommer inte längre att vara aktiverat. Om du aktiverar iBrowe Rewards igen senare kommer du att börja med en ny profil. Läs vår supportartikel på <ph name="LINK_BEGIN"/>om återställning<ph name="LINK_END"/> för mer information.</translation>
@@ -512,7 +526,6 @@
     }</translation>
 <translation id="6067959437127691361">Med Belöningar i iBrowe kan du stötta kreatörer samtidigt som du tjänar BAT.</translation>
 <translation id="2359808026110333948">Fortsätt</translation>
-<translation id="885805571521218129">Detta återspeglar ditt beräknade intäktsintervall för iBrowe Ads den här månaden.</translation>
 <translation id="3863981251715594911">Hur fungerar det?</translation>
 <translation id="7931127789630755251">Tjäna tokens för privata annonser som du tittar på i iBrowe</translation>
 <translation id="2278423362884506724">Stöd innehållsskapare och använd dina tokens för att köpa presentkort, byta mot andra valutor och mer.</translation>
@@ -587,8 +600,10 @@
 <translation id="5802986777701714573">Vi har lagt till ett nytt sätt för dig att ta emot dina månatliga BAT-belöningar. Anslut ett konto från en av våra partner eller använd det nya självförvaringsalternativet och börja tjäna BAT nu.</translation>
 <translation id="3251885322612056119">Uppdaterade användarvillkor</translation>
 <translation id="7454675823870922788">Vi har uppdaterat användarvillkoren för iBrowe Rewards. Vi har gjort dessa uppdateringar för att förtydliga våra villkor och se till att de omfattar nya funktioner. Om du fortsätter att använda iBrowe Rewards godkänner du de uppdaterade användarvillkoren. Om du inte samtycker kan du <ph name="LINK_BEGIN"/>återställa<ph name="LINK_END"/> iBrowe Rewards, vilket inaktiverar funktionen.</translation>
+<translation id="56057964000416013">Vi har uppdaterat våra användarvillkor. Om du vill fortsätta använda iBrowe Rewards ska du läsa igenom och godkänna de uppdaterade villkoren.</translation>
 <translation id="5192526308598085294">Se <ph name="LINK_BEGIN"/>Användarvillkoren för iBrowe Rewards<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">Jag godkänner</translation>
+<translation id="343114360276812078">Läs villkor</translation>
 <translation id="86107454835395919">Ställ in som månatligt bidrag</translation>
 <translation id="6621880242105464352">iBrowe samlar in <ph name="FEE_PCT"/> av det skickade beloppet som en behandlingsavgift.</translation>
 <translation id="1420756770787071946">Stöd den här skaparen</translation>
@@ -640,8 +655,8 @@
 <translation id="756341217015623253">Logga in eller registrera dig</translation>
 <translation id="2653844658857826081">NY</translation>
 <translation id="1165039591588034296">Fel</translation>
-<translation id="5826530373788377342">Du har nått den maximala enhetsgränsen för detta <ph name="PROVIDER"/>-konto.</translation>
-<translation id="6700131426769360592">Enhetsgränsen nådd</translation>
+<translation id="8673410329158754690">Du har anslutit det maximala antalet iBrowe Rewards-profiler till detta <ph name="PROVIDER"/> konto.</translation>
+<translation id="8385898883512695376">Gränsen för utbetalningskonto har uppnåtts</translation>
 <translation id="6895088073061692390">Tyvärr flaggades din iBrowe Rewards-profil eftersom våra automatiska kontroller hittade en oväntad iBrowe Ads-aktivitet.</translation>
 <translation id="4229056297802204697">Medan din profil är flaggad kan du fortsätta att se annonser, men du kan inte ta emot utbetalningar. Du kommer inte heller att kunna ansluta ett depåkonto till iBrowe Rewards.</translation>
 <translation id="5124846913141379164">Det är möjligt att din profil flaggades av misstag och att ingen omedelbar åtgärd krävs från din sida. Flaggan på din profil kan komma att tas bort i framtiden.</translation>
@@ -676,6 +691,7 @@
 <translation id="96989662637180657">iBrowe Sök-annonser visas i <ph name="LINK_BEGIN"/>iBrowe Sök<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Annonsinställningar</translation>
 <translation id="2446517297521536638">Kontrollera vilka typer av iBrowe Annonser du ser och hur ofta. Ju mer du ser, desto mer kan du tjäna.</translation>
+<translation id="3479272537858623647">Detta visar antalet iBrowe-annonser du har sett den här månaden som kvalificerar sig för att tjäna BAT.</translation>
 <translation id="5860033963881614850">Av</translation>
 <translation id="5916664084637901428">På</translation>
 <translation id="3977723631999461201"><ph name="NUM"/> Annonser mottagna denna månad</translation>
@@ -703,7 +719,6 @@
 <translation id="7550470870580166294">Otillräckliga medel</translation>
 <translation id="7020972866926315918">Det ser ut som att du är utloggad från <ph name="PROVIDER"/> för iBrowe Belöningar. Logga in igen för att fortsätta.</translation>
 <translation id="1166682575529520472">Månatligen</translation>
-<translation id="7138678301420049075">Övrigt</translation>
 <translation id="2134931506717037391">Skicka <ph name="AMOUNT"/> BAT</translation>
 <translation id="4791565605790056151">Skickar bidrag</translation>
 <translation id="8251969358165471584">Web3-plånbok</translation>
@@ -1069,7 +1084,8 @@
 <translation id="7131971375297699539">Valutasymbol</translation>
 <translation id="4693057234255364395">Blockera explorer URL</translation>
 <translation id="7982789257301363584">Nätverk</translation>
-<translation id="1060221736464994328">Tillåt denna webbplats att byta nätverket?</translation>
+<translation id="2512821599885971349">Lägg till nätverk</translation>
+<translation id="200073220891881812">Tillåt denna webbplats att byta nätverk?</translation>
 <translation id="2478788592457735063">Detta byter nätverket till ett som har lagts till tidigare.</translation>
 <translation id="8756686998207163764">Byta nätverk</translation>
 <translation id="3948067511324628726">Gasavgift</translation>
@@ -1175,6 +1191,8 @@
 <translation id="2749584096020594976">Nonce-värdet fastställs automatiskt om det här fältet inte specifieras.</translation>
 <translation id="1599636444563952897">Köpgränsbehörighet tillåter <ph name="SITE_ORIGIN"/> att ta ut och spendera upp till följande summa:</translation>
 <translation id="4512871563176965522">Anpassad ersättning</translation>
+<translation id="4584580349370930446">Föreslagen utgiftsgräns</translation>
+<translation id="3853163884524541156">Anpassa utgiftsgräns</translation>
 <translation id="749944179568745958">Inte en giltig ETH-adress</translation>
 <translation id="2832270987629018596">Ogiltig SOL-adress</translation>
 <translation id="2115100722958448834">Inte en giltig <ph name="COIN_TYPE_SYMBOL"/>-adress.</translation>
@@ -1243,6 +1261,10 @@
 <translation id="4213183402991860207"><ph name="DEVICE_NAME"/> bron är inte klar</translation>
 <translation id="3378339846292573874">Lägg till föreslagen token</translation>
 <translation id="2322227405137827074">Vill du importera denna token?</translation>
+<translation id="5128068232340122017">Pågående (<ph name="QUEUE_LENGTH"/>)</translation>
+<translation id="4642769870132666012">Nästa transaktion</translation>
+<translation id="6917555475950364314">Föregående transaktion</translation>
+<translation id="5305367377612487857">Avvisa <ph name="QUEUE_LENGTH"/> transaktioner</translation>
 <translation id="4378475168089649292">Blockkedja</translation>
 <translation id="1904295039023858291">Tokenstandard</translation>
 <translation id="9033453977881595182">Token-id</translation>
@@ -1393,6 +1415,8 @@
 <translation id="4841860051609590575">Begäran-ID</translation>
 <translation id="6759710362319508545">Resurser</translation>
 <translation id="1908159733454294871">Säkerhetsrisk identifierad</translation>
+<translation id="3621202678540785336">In</translation>
+<translation id="3009178788565917040">Ut</translation>
 <translation id="1965889974717516497">Sekundära nätverk</translation>
 <translation id="7691821949666755802">Testnätverk</translation>
 <translation id="2816106784624007524">Gasgränsen måste vara ett heltal som är större än 0</translation>
@@ -1676,6 +1700,12 @@
 <translation id="3214633363105739658"><ph name="REFRESH_START"/>Uppdatera<ph name="REFRESH_END"/> eller <ph name="IMPORT_START"/>importera manuellt<ph name="IMPORT_END"/></translation>
 <translation id="3840001806553580474">Uppdaterar</translation>
 <translation id="4608324163534970318">Nätverksavgifter</translation>
+<translation id="5024685988141485810">Anpassa avgiftsbelopp</translation>
+<translation id="167204008553981721">Dricksgräns för bensin</translation>
+<translation id="9021878977748775164">Prisgräns för bensin</translation>
+<translation id="6276584161122912863">Bensinpris</translation>
+<translation id="6132197290665156212">Uppskattad nätverksavgift</translation>
+<translation id="1788636309517085411">Använd standardinställning</translation>
 <translation id="6213230117190778270">Ta emot</translation>
 <translation id="6748108480210050150">Från</translation>
 <translation id="4875290286426670462">Obegränsat <ph name="ASSET_SYMBOL"/></translation>
@@ -1824,6 +1854,8 @@
 <translation id="2244921323472112851">Vi kan inte hitta sidan du letar efter just nu.</translation>
 <translation id="6277237872689140644">Den kan ha flyttats till en annan plats eller så innehåller URL:en ett stavfel.</translation>
 <translation id="2737084171727561244">Gå till portfölj</translation>
+<translation id="3499452861061048987">Lägg till token</translation>
+<translation id="5046066249040287308">iBrowe Wallet-funktionsservice</translation>
 <translation id="3155170474926428993">Tor launcher</translation>
 <translation id="3745016858329272300">Allmän information</translation>
 <translation id="4045404575593562245">Tor kontrollhändelse</translation>
@@ -2044,6 +2076,11 @@
 <translation id="684629111155788563">Lägg till alla flikar i ny grupp</translation>
 <translation id="9106013521852824634">Skicka flik till dig själv</translation>
 <translation id="6973516366678963184">Visa Wayback Machine-bubbla</translation>
+<translation id="4765321711834219282">Stäng flikgrupp</translation>
+<translation id="4095483462103784441">Skapa ny flikgrupp</translation>
+<translation id="4292565651642921086">Fokusera nästa flikgrupp</translation>
+<translation id="874783686573493196">Fokusera föregående flikgrupp</translation>
+<translation id="9169594135889675189">Lägg till ny flik till gruppen</translation>
 <translation id="1926106318101432555">Öppna bokmärke ...</translation>
 <translation id="6118819645013156507">Växla till fönster ...</translation>
 <translation id="1623204575967809688">Sammanfoga aktuellt fönster med ...</translation>
@@ -2075,7 +2112,7 @@
 <translation id="9089090017461255038">Aktivera snabbläsaren</translation>
 <translation id="3929926885379607283">Använd alltid Speedreader för den här webbplatsen</translation>
 <translation id="4186588885948504942">Växla Speedreader på/av för den här webbplatsen.</translation>
-<translation id="1873585723672836337">Använd alltid Speedreader för alla webbplatser</translation>
+<translation id="6568851043090579206">Använd Speedreader automatiskt om möjligt på alla webbplatser</translation>
 <translation id="3138587343887871192">Växla Speedreader på/av för alla webbplatser.</translation>
 <translation id="5153147025131874069">Alla webbplatser stöder inte Speedreader.</translation>
 <translation id="1013121820689882118">Speedreader</translation>
@@ -2104,15 +2141,17 @@
 <translation id="8637805148029768813">Sammanfattningsfunktionen är för närvarande endast tillgänglig för utvalda artiklar och andra webbsidor i långt format.</translation>
 <translation id="1223498995510244364">Sammanfatta</translation>
 <translation id="7491773233732232424">Om Leo</translation>
-<translation id="4885527781814382758">iBrowe Leo är en privat, smart AI-assistent som förbättrar din internetanvändning. Leo är gratis att använda med begränsad åtkomst. iBrowe Leo Premium erbjuder fler modeller, högre gränser och ger prenumeranter tidig åtkomst till nya funktioner. Standardmodellen för alla användare är för närvarande Mixtral 8x7B. Se <ph name="LINK_BEFORE"/>iBrowe wiki<ph name="LINK_AFTER"/> för mer information.</translation>
-<translation id="7189603330209995455">Som standard, när du frågar Leo en fråga kan innehållet på webbsidan du tittar på eller valfri text du markerar på en sida skickas och användas för att ge ett svar. Exaktheten i svaren är inte garanterad och kan innehålla felaktig, vilseledande eller falsk information. Leo använder data från iBrowe Search för att förbättra svarskvaliteten. Skicka inte känslig eller privat information och var försiktig med svar relaterade till hälsa, ekonomi, personlig säkerhet eller liknande. Du kan justera Leos inställningar när som helst. Gå till Inställningar &gt; Leo.</translation>
-<translation id="3038772045018370764">Leo samlar inte in identifierare som din IP-adress som kan kopplas till dig. Ingen data används för att träna AI-modellerna och inga personliga data sparas av AI-modellerna (förutom Anthropic som behåller data i 30 dagar innan den raderas). Se <ph name="LINK_BEFORE"/>integritetspolicyn<ph name="LINK_AFTER"/> för mer information.</translation>
+<translation id="4611072979071082355">iBrowe Leo är en privat, smart AI-assistent som förbättrar din internetanvändning. Leo är gratis att använda med begränsad åtkomst. iBrowe Leo Premium erbjuder fler modeller, högre gränser och ger prenumeranter tidig åtkomst till nya funktioner. Standardmodellen kommer att ändras till och från. Se <ph name="LINK_BEFORE"/>iBrowe wiki<ph name="LINK_AFTER"/> för mer information.</translation>
+<translation id="7297056998057521697">Som standard, när du ställer en fråga till Leo om en webbplats eller sida kommer innehållet på webbsidan eller text som du markerar på en sida samt din sökfråga att skickas till iBrowe-servrar för att Leo ska kunna ge ett svar. I vissa fall kommer Leo att skicka frågor som härrör från din inmatning till iBrowe Sök och använda sökresultaten för att bättre svara på din fråga. iBrowe garanterar inte att svaren är korrekta, och svaren kan innehålla felaktig, vilseledande eller falsk information. Skicka inte känslig eller privat information till iBrowe Leo och var försiktig med svar som rör hälsa, ekonomi, personlig säkerhet eller liknande. Du kan justera Leos alternativ i Inställningar när som helst. Gå till Inställningar &gt; Leo.</translation>
+<translation id="6644545214304085600">Leo samlar inte in identifierare som kan kopplas till dig, såsom din IP-adress. Vi tränar inte våra modeller baserat på dina data, inklusive dina sökfrågor eller iBrowe Leos svar. Inga personuppgifter lagras på våra servrar eller behålls av iBrowe. Se <ph name="LINK_BEFORE"/>integritetspolicy<ph name="LINK_AFTER"/> för mer information.</translation>
 <translation id="4348006373172097089">{PAGE_COUNT, plural,
       =1 {Ställ en fråga om innehållet på den här sidan}
       other {Ställ en fråga om innehållet på dessa sidor}
     }</translation>
 <translation id="6961721183181597848">Hur kan jag hjälpa dig idag?</translation>
 <translation id="2966135729673253768">Fråga efter uppföljning</translation>
+<translation id="6219262425964000211">Släpp filer här</translation>
+<translation id="4313763911013851687">Släpp filer här för att lägga till dem i konversationen</translation>
 <translation id="4524675003624341892">Föreslå frågor ...</translation>
 <translation id="4567071417854988869">Sammanfatta den här videon</translation>
 <translation id="4264902191243445258">{PAGE_COUNT, plural,
@@ -2130,14 +2169,17 @@
 <translation id="7905602379229309187">Slutpunkten är för närvarande överbelastad. Vänligen försök igen senare.</translation>
 <translation id="8151638057146502721">Konfigurera</translation>
 <translation id="999273441077650169">Modellen ändras dynamiskt för att använda den bästa för uppgiften.<ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="3282183392203936979">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av Llama 3.1 8B, en modell skapad av Meta för att vara effektiv och mångsidig. Llama arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer om Leo<ph name="LINK_AFTER"/></translation>
-<translation id="4328177358021456069">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av Qwen 14B, en modell skapad av Alibaba Cloud för att vara effektiv och mångsidig. Qwen arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="8706248250250832190">Hej, jag heter Leo. Jag är en AI-assistent från iBrowe. Jag drivs av DeepSeek R1, en modell skapad av DeepSeek för att utföra djupa resonemangsuppgifter. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="2575216739207798060">Hej! Jag heter Leo. Jag är en proxybaserad AI-assistent från iBrowe. Jag drivs av Claude Instant, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter. Claude Instant arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="512933369128404654">Hej! Jag heter Leo. Jag är en proxybaserad AI-assistent från iBrowe. Jag drivs av Claude Haiku, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter. Claude Haiku arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="406499980300734922">Hej! Jag heter Leo. Jag är en proxybaserad AI-assistent från iBrowe. Jag drivs av Claude Sonnet, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter. Claude Sonnet arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="1774712391633741125">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av Llama Vision, en modell skapad av Meta för att vara effektiv och mångsidig. Llama Vision arrangeras av iBrowe genom vår egna säkra infrastruktur.<ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="1238020084128916796">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av Llama 3.1 8B, en modell skapad av Meta för att vara effektiv och mångsidig. Llama arrangeras av iBrowe genom vår egna säkra infrastruktur.<ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="7127671672828944579">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av Qwen 14B, en modell skapad av Alibaba Cloud för att vara effektiv och mångsidig. Qwen arrangeras av iBrowe genom vår egna säkra infrastruktur.<ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="2328524194917949829">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av Gemma 3 12B, en modell som skapats av Google DeepMind för att vara effektiv och mångsidig. Gemma är iBrowe-hostad genom vår egen säkra infrastruktur.<ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="634682910381645550">Hej, jag heter Leo. Jag är en AI-assistent som arrangeras helt av iBrowe. Jag drivs av DeepSeek R1, en modell skapad av DeepSeek för att utföra djuplodande resonemangsuppgifter. DeepSeek R1 är iBrowe-hostad genom vår egna säkra infrastruktur.<ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Hej! Jag heter Leo. Jag är en proxybaserad AI-assistent från iBrowe. Jag drivs av Claude Instant, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter. Claude Instant arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="3789772321824682783">Hej! Jag heter Leo. Jag är en proxybaserad AI-assistent från iBrowe. Jag drivs av Claude Haiku, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter. Claude Haiku arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="1778885220602472158">Hej! Jag heter Leo. Jag är en proxybaserad AI-assistent från iBrowe. Jag drivs av Claude Sonnet, en modell skapad av Anthropic med förmåga att klara konversations- och textbehandlingsuppgifter. Claude Sonnet arrangeras av iBrowe genom vår egna säkra infrastruktur. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
+<translation id="5807427080183870259">Lokal</translation>
+<translation id="631371844654031449">Rekommenderade modeller</translation>
+<translation id="6568044140836233369">Visa alla modeller</translation>
 <translation id="6187065185557150870">Chatt</translation>
 <translation id="4685048769603134644">Öppna hela sidan</translation>
 <translation id="2961040541145689181">Ny chatt</translation>
@@ -2205,10 +2247,12 @@
 <translation id="1243966363662220847">Återkoppling av svar</translation>
 <translation id="7417895556119762861">Om du gillar eller ogillar ett svar kommer betyg, konversation, modell, språk, version och premiumstatus att skickas till iBrowe för att förbättra Leo. <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Skicka meddelande till Leo</translation>
+<translation id="4084869091337186002">Leo AI innehållsagent är alltid aktiverad i denna profil</translation>
 <translation id="8650874793377330048">Sluta svara</translation>
 <translation id="8712637175834984815">Uppfattat</translation>
 <translation id="1093419424466417703">Sidan är för lång för Leo. Viss kontext kan saknas i konversationen. Leo kunde läsa <ph name="PERCENTAGE"/> av sidans innehåll.</translation>
 <translation id="4592293425457329338">Vissa sammanhang kan saknas i konversationen. Leo lyckades behålla <ph name="PERCENTAGE"/> av konversationens tillhörande innehåll.</translation>
+<translation id="8501106061098623831">Alltför många bilder togs från sidan. Leo kunde använda <ph name="PERCENTAGE"/> av det tillgängliga visuella innehållet.</translation>
 <translation id="4370698775470316661">Den här konversationen är för lång och kan inte fortsätta. Det kan finnas andra modeller som Leo kan använda för att klara längre konversationer.</translation>
 <translation id="5719170755629028558">Förbättra ditt svar med iBrowe Sök ...</translation>
 <translation id="5794962229997281366">Förbättrat svar söker efter <ph name="SEARCH_TERMS"/>.</translation>
@@ -2218,6 +2262,8 @@
 <translation id="1352836459737874921">Bifoga innehåll från andra flikar</translation>
 <translation id="3028258613451571431">Skicka sidinnehåll från webbläsarflikarna för att ge Leo mer sammanhang i konversationen</translation>
 <translation id="4300920590112551536">Webbläsarflikar</translation>
+<translation id="1446346932629101482">Lägg till flikinnehåll för kontext. Innehållet kommer att skickas till Leo tillsammans med dina meddelanden.</translation>
+<translation id="7193316103691252734">Inga matchande flikar</translation>
 <translation id="2315654674554095762">Leo kommer nu ihåg dina konversationer så att du kan gå tillbaka till dem. De lagras krypterade på din enhet, och du kan ta bort dem när som helst.</translation>
 <translation id="7821251979960635244">Din konversationshistorik kommer att visas här när du startar en konversation.</translation>
 <translation id="887511360213807449">Historik är avaktiverad</translation>
@@ -2227,7 +2273,7 @@
 <translation id="7979673624064378842">Blixtsnabb chatt</translation>
 <translation id="2836330653441111204">Balanserad snabbhet och intelligens</translation>
 <translation id="6695329447007213917">Chatt för allmänna ändamål, kodning och mer</translation>
-<translation id="5051668914970329839">Visionen för det allmänna ändamålet</translation>
+<translation id="7168072214482631597">Text- och bildförståelse för allmänna ändamål</translation>
 <translation id="7226508434216060960">Resonemangsmodell</translation>
 <translation id="8782867266498869301">Modellen ändras dynamiskt för att använda den bästa för uppgiften</translation>
 <translation id="3965507912994218570">Leo-inställningar</translation>
@@ -2270,6 +2316,7 @@
 <translation id="6739516910850820220">Laddar upp fil ...</translation>
 <translation id="9088751620363630236">Ta en bild ...</translation>
 <translation id="4250229828105606438">Skärmdump</translation>
+<translation id="7949596341600215809">Helsidig skärmdump</translation>
 <translation id="6332876390231524389">Innehållet i aktuell flik</translation>
 <translation id="7742969455167760092">Öppna flikar ...</translation>
 <translation id="49269513399674318">Använd mikrofonen</translation>
@@ -2279,128 +2326,16 @@
 <translation id="6287023598025162715">Ny konversation</translation>
 <translation id="7097822247923237815">Tillfällig chatt</translation>
 <translation id="7481750859362986254">Denna chatt kommer inte att sparas i din historik eller använda någon av Leos anpassningar eller minnen.</translation>
-<translation id="8370801182970639038">Automatisk (<ph name="LOCALE"/>)</translation>
-<translation id="8343473178272604223">Aktiverade sökmotorer</translation>
-<translation id="5355776323718420036">Dölj toppsajter</translation>
-<translation id="9173319813356700250">NYHETER</translation>
-<translation id="6543799171249004861">Foto: <ph name="AUTHOR"/></translation>
-<translation id="5430001801813715388">BELÖNINGAR</translation>
-<translation id="5966055668402779222">Fråga iBrowe Sök</translation>
-<translation id="167018310108390163">Anpassa sidan för ny flik</translation>
-<translation id="6851426306697017546">Visa klocka</translation>
-<translation id="4844370919312937270">Visa sökwidgeten i nya flikar</translation>
-<translation id="7328310113820087094">Med <ph name="LINK_BEGIN"/>iBrowe Rewards<ph name="LINK_END"/> kan du tjäna pengar på att se annonser på ny fliksidan.</translation>
-<translation id="4100520468072294616">Visa annonser på nya fliksidan</translation>
-<translation id="5009354496127441090">Visa toppsajter</translation>
-<translation id="3960619311638643872">iBrowe VPN</translation>
-<translation id="4784802981241664605">STATISTIK</translation>
-<translation id="712731581368828482">Krypterade videosamtal med iBrowe Samtal.</translation>
-<translation id="2671474274417808910">Samtal med integritet först</translation>
-<translation id="2100665198270190500">SAMTAL</translation>
-<translation id="4290791698375397492">Länken borttagen</translation>
-<translation id="1436784010935106834">Borttagen</translation>
-<translation id="9030215177866748410">Toppsidor föreslås baserat på webbplatser som du besöker ofta.</translation>
-<translation id="8425213833346101688">Ändra</translation>
-<translation id="755045397420611731">Extra integritet och säkerhet online</translation>
-<translation id="4520128772974831415">Dölj din IP-adress och ändra din plats</translation>
-<translation id="6819278685469225453">Skydda alla appar på din enhet</translation>
-<translation id="8422279921836245017">Redan köpt?</translation>
-<translation id="8703188411226330709">Starta gratis provperiod</translation>
-<translation id="8814357473522731680">Drivs av</translation>
-<translation id="7143207342074048698">Ansluter</translation>
-<translation id="1202549130170287307">Kopplar från</translation>
-<translation id="8941703009412168350">IBROWE VPN</translation>
-<translation id="6303294677342628402">Shields</translation>
-<translation id="8458987127502506209">Aktivera iBrowe Shields</translation>
-<translation id="7700894290854403770"><ph name="STATUS_BEFORE"/>Skydd är uppe<ph name="STATUS_AFTER"/> för <ph name="HOST"/></translation>
-<translation id="7656091630265507216"><ph name="STATUS_BEFORE"/>Skydd är NERE<ph name="STATUS_AFTER"/> för <ph name="HOST"/></translation>
-<translation id="5623354834493649144">Om den här sidan verkar trasig, testa att inaktivera Skydd.
- <ph name="NOTE_BEFORE"/>Obs! Detta kan minska iBrowes integritetsskydd.<ph name="NOTE_AFTER"/></translation>
-<translation id="8377155647357436161">Spårare, annonser och mer blockeras <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="7604553853176833536">Skyddas inte av iBrowe Shields <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
-<translation id="650318023204990401">Avancerade kontroller</translation>
-<translation id="5799940914270080805">Om du ändrar dessa inställningar kan webbplatser sluta fungera.</translation>
-<translation id="9204041448536398473">Globala inställningar för Shields</translation>
-<translation id="2108334320919763866">Global standard</translation>
-<translation id="7205939464631857223">Rensa alla blockerade element</translation>
-<translation id="3440043456924990296">Inställningar hanterade av organisation</translation>
-<translation id="7053983685419859001">Blockera</translation>
-<translation id="5716230673298034837">Tillåt alla</translation>
-<translation id="5279600392753459966">Blockera alla</translation>
-<translation id="4516904298421534459">Filtrera listor</translation>
-<translation id="3570081523466826008">Uppgradera anslutningar till HTTPS</translation>
-<translation id="131231380815754440">Aktivera HTTPS</translation>
-<translation id="4824468494729001999">Blockera skript</translation>
-<translation id="3246600097575692802">Aktivera blockerade skript</translation>
-<translation id="3603525299146223354">Spårare och annonser</translation>
-<translation id="4448697385961650078">Blocka spårare och annonser</translation>
-<translation id="8593054718053894081">Blocka aggressivt spårare och annonser</translation>
-<translation id="7384778069178817075">Tillåt alla spårare och annonser</translation>
-<translation id="6196640612572343990">Blockera kakor från tredje part</translation>
-<translation id="693506469193748756">Glöm mig när jag stänger den här webbplatsen</translation>
-<translation id="5471580724041424345">Rensa cookies och andra webbplatsdata när du stänger en webbplats.</translation>
-<translation id="6486971767955110687">Spara kontaktinformation för framtida rapporter om avbrutna webbsidor</translation>
-<translation id="4085787265464238844">Om du uppger kontaktinformation kommer den att lagras för framtida rapporter</translation>
-<translation id="6883611015375728278">Blockera alla kakor</translation>
-<translation id="5657156137487675418">Tillåt alla cookies</translation>
-<translation id="8366221601425141146">Fingeravtryck blockerat</translation>
-<translation id="6531019308847917584">Blockera fingeravtryck</translation>
-<translation id="1899608006846124237">Blockera aggressivt fingeravtryck</translation>
-<translation id="8034285923190068220">Tillåt användning av fingertryck</translation>
-<translation id="7638541189782135885">Uppgradera inte HTTP-anslutningar</translation>
-<translation id="2570787596946026998">Anslut endast med HTTPS</translation>
-<translation id="1992750560347846445">Rapportera webbplats</translation>
-<translation id="2387532482048804818">Berätta för oss om webbplatsen inte fungerade korrekt när Shields är aktiverat.</translation>
-<translation id="3795015906457257780">Du visar den här webbplatsen utan iBrowes sekretesskydd.</translation>
-<translation id="7194012750329511146">iBrowe Shields
-<ph name="NUMBER"/> spårare, annonser med mera är blockerade</translation>
-<translation id="4292121526390005808">Blockerade skript</translation>
-<translation id="5046271170844958713">Tillåtna skript</translation>
-<translation id="199862531047218413">Skydd mot fingeravtryck har tillämpats</translation>
-<translation id="5032505924781383272">Tillämpade skydd behöver inte nödvändigtvis betyda att den här webbsidan försöker ta fingeravtryck av din webbläsare.</translation>
-<translation id="1905384713982899903">Blockerade fingeravtryck</translation>
-<translation id="314364527871618241">Tillåtna fingeravtryck</translation>
-<translation id="264682546981571963">Trött på meddelanden om samtycke till cookies?</translation>
-<translation id="4986297793092101884">iBrowe blockerar redan tredjepartscookies. Vi kan också blockera meddelanden om samtycke till cookies.</translation>
-<translation id="535688588637568715">Ja, blockera meddelanden om samtycke till cookies</translation>
-<translation id="2808175374672429053">Jokertecken tillåts inte för iBrowe Shields.</translation>
-<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
-      =1 {iBrowe Shields blockerade 1 spårare på <ph name="SITE_URL"/>}
-      other {iBrowe Shields blockerade {BLOCKED_COUNT} spårare på <ph name="SITE_URL"/>}
-    }</translation>
-<translation id="2540598191934725677">Klicka på iBrowe-ikonen för att visa iBrowe Shields.</translation>
-<translation id="6294662480095808915">Integritet. Som standard.</translation>
-<translation id="4366423156486478559">Få iBrowe-skydd varje gång du klickar på en länk. Ställ bara in iBrowe som standard och surfa vidare privat.</translation>
-<translation id="3830912418080848377">Importera inställningar</translation>
-<translation id="6378406588483694938">Importera enkelt bokmärken, tillägg, till och med sparade lösenord från din gamla webbläsare.</translation>
-<translation id="2092825239819166928">Välj profil att importera</translation>
-<translation id="4763127492635705340">Webbläsaren du valde har flera profiler. Välj den eller de profiler du vill importera.</translation>
-<translation id="880174232178865598">Importera profiler</translation>
-<translation id="2453860139492968684">Slutför</translation>
-<translation id="2273851479262317744">Ange iBrowe som standardwebbläsare</translation>
-<translation id="5037676449506322593">Välj alla</translation>
-<translation id="5148943178722443958">Hjälp till att göra iBrowe bättre.</translation>
-<translation id="1097073572755862978">Skicka diagnostikrapporter om du upplever en krasch eller frysning. <ph name="LINK_BEFORE"/>Läs mer.<ph name="LINK_AFTER"/></translation>
-<translation id="6629244688368006959">Dela helt privat och anonym produktstatistik om vilka funktioner som används av iBrowes användare. <ph name="LINK_BEFORE"/>Läs mer.<ph name="LINK_AFTER"/></translation>
-<translation id="7415454883318062233">Konfigurationen är klar</translation>
-<translation id="3141206739023333979">Ändra dessa val när som helst i iBrowe: <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
-<translation id="8321985064212130832">Läs vår fullständiga <ph name="LINK_BEFORE"/>Integritetspolicy<ph name="LINK_AFTER"/></translation>
-<translation id="2801098717523961746">Välj tema</translation>
-<translation id="6262510489122516114">Du kan ändra detta när som helst i iBrowe-inställningarna.</translation>
-<translation id="546481172717459539">Matcha systeminställning</translation>
-<translation id="7799817062559422778">Ljust läge</translation>
-<translation id="4117637339509843559">Mörkt läge</translation>
-<translation id="6302485303316397682">Vill du ha bättre sökresultat?</translation>
-<translation id="7014699001826714920">Gå med i rörelsen, bidra till iBrowe Search.</translation>
-<translation id="6821108091726602352">Hjälp oss att fixa webben genom att delta i iBrowes Web Discovery Project. Genom att dela helt anonyma söksignaler kan du hjälpa iBrowe att utöka sökindexet.</translation>
-<translation id="6764845498618413165">Läs mer.</translation>
-<translation id="7818938154803162778">Ok, jag hjälper till.</translation>
-<translation id="7207456302801184289">Välkommen till iBrowe</translation>
+<translation id="4238305333951712482">Minne uppdaterat: <ph name="MEMORY_CONTENT"/></translation>
+<translation id="2593275000606533518">Hantera alla</translation>
+<translation id="8410199626695516952">Ok, jag kommer inte ihåg det</translation>
+<translation id="8419849467765474535">Det gick inte att spara minnet. Försök igen.</translation>
 <translation id="3486480638399578250">Håll din personliga e-postadress privat</translation>
 <translation id="7765422154906712751">Skapa unika, slumpmässiga adresser som vidarebefordras till ditt iBrowe-kontos e-post och kan tas bort när som helst. Förhindra att din faktiska e-postadress avslöjas eller används av annonsörer.</translation>
 <translation id="5222676887888702881">Logga ut</translation>
 <translation id="8090292425230843109">Logga ut från E-postalias</translation>
 <translation id="8471990782451394141">Ansluter till iBrowe-konto ...</translation>
+<translation id="71316462802471551">E-post alias</translation>
 <translation id="5713644099811900409">iBrowe-konto</translation>
 <translation id="6002159997868894136">Klicka för att kopiera alias</translation>
 <translation id="8105770564756958406">Används av <ph name="DOMAINS"/></translation>
@@ -2435,6 +2370,143 @@
 <translation id="619122420105901711">Ser du inte e-postmeddelandet? Kolla din skräppostmapp eller försök igen.</translation>
 <translation id="3397336197747843396">Fel vid autentisering med iBrowe-konto. Försök igen.</translation>
 <translation id="1340795582009113055">Börja om</translation>
+<translation id="8528664394991030582">Ingen e-postadress angiven</translation>
+<translation id="589806103071387355">Ogiltigt svar från iBrowe-kontotjänsten</translation>
+<translation id="7508412964869396375">Ingen verifieringstoken mottagen från iBrowe-kontotjänsten</translation>
+<translation id="3179527991526213624">Inget svar från iBrowe-kontotjänsten</translation>
+<translation id="7911439408853154309">E-postverifiering misslyckades</translation>
+<translation id="8370801182970639038">Automatisk (<ph name="LOCALE"/>)</translation>
+<translation id="8343473178272604223">Aktiverade sökmotorer</translation>
+<translation id="8285901519864208412">Dölj Belöningskort</translation>
+<translation id="4725613319787110841">Dölj statistik-kort</translation>
+<translation id="2991633563551889054">Dölj Samtal-kort</translation>
+<translation id="5355776323718420036">Dölj toppsajter</translation>
+<translation id="1689504141194856995">Dölj VPN-kort</translation>
+<translation id="8262911270872215147">Anpassa nyheter</translation>
+<translation id="3884037897537157986">Inaktivera nyheter</translation>
+<translation id="7847477075635510673">Dölj nyheter</translation>
+<translation id="9173319813356700250">NYHETER</translation>
+<translation id="6543799171249004861">Foto: <ph name="AUTHOR"/></translation>
+<translation id="466214682712474574">Logga in på ditt <ph name="PROVIDER"/>-konto för att se ditt saldo</translation>
+<translation id="8332875111286275890">Logga in för att se ditt saldo</translation>
+<translation id="5430001801813715388">BELÖNINGAR</translation>
+<translation id="5966055668402779222">Fråga iBrowe Sök</translation>
+<translation id="167018310108390163">Anpassa sidan för ny flik</translation>
+<translation id="6851426306697017546">Visa klocka</translation>
+<translation id="4844370919312937270">Visa sökwidgeten i nya flikar</translation>
+<translation id="7328310113820087094">Med <ph name="LINK_BEGIN"/>iBrowe Rewards<ph name="LINK_END"/> kan du tjäna pengar på att se annonser på ny fliksidan.</translation>
+<translation id="4100520468072294616">Visa annonser på nya fliksidan</translation>
+<translation id="5009354496127441090">Visa toppsajter</translation>
+<translation id="3960619311638643872">iBrowe VPN</translation>
+<translation id="4784802981241664605">STATISTIK</translation>
+<translation id="5236080651083907980">Krypterade videosamtal med iBrowe Samtal</translation>
+<translation id="2671474274417808910">Samtal med integritet först</translation>
+<translation id="2100665198270190500">SAMTAL</translation>
+<translation id="4290791698375397492">Länken borttagen</translation>
+<translation id="9030215177866748410">Toppsidor föreslås baserat på webbplatser som du besöker ofta.</translation>
+<translation id="1849266032237224734">Visa färre objekt</translation>
+<translation id="9125416311275819193">Visa fler objekt</translation>
+<translation id="8425213833346101688">Ändra</translation>
+<translation id="755045397420611731">Extra integritet och säkerhet online</translation>
+<translation id="4520128772974831415">Dölj din IP-adress och ändra din plats</translation>
+<translation id="6819278685469225453">Skydda alla appar på din enhet</translation>
+<translation id="8422279921836245017">Redan köpt?</translation>
+<translation id="8703188411226330709">Starta gratis provperiod</translation>
+<translation id="8814357473522731680">Drivs av</translation>
+<translation id="7143207342074048698">Ansluter</translation>
+<translation id="1202549130170287307">Kopplar från</translation>
+<translation id="8941703009412168350">IBROWE VPN</translation>
+<translation id="6303294677342628402">Shields</translation>
+<translation id="8458987127502506209">Aktivera iBrowe Shields</translation>
+<translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>Skydden är UP<ph name="STATUS_AFTER"/> för denna webbplats</translation>
+<translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Skydden är NERE<ph name="STATUS_AFTER"/> för denna webbplats</translation>
+<translation id="5623354834493649144">Om den här sidan verkar trasig, testa att inaktivera Skydd.
+ <ph name="NOTE_BEFORE"/>Obs! Detta kan minska iBrowes integritetsskydd.<ph name="NOTE_AFTER"/></translation>
+<translation id="8377155647357436161">Spårare, annonser och mer blockeras <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="7604553853176833536">Skyddas inte av iBrowe Shields <ph name="LINK_BEFORE"/>Läs mer<ph name="LINK_AFTER"/></translation>
+<translation id="650318023204990401">Avancerade kontroller</translation>
+<translation id="5799940914270080805">Om du ändrar dessa inställningar kan webbplatser sluta fungera.</translation>
+<translation id="9204041448536398473">Globala inställningar för Shields</translation>
+<translation id="2108334320919763866">Global standard</translation>
+<translation id="7205939464631857223">Rensa alla blockerade element</translation>
+<translation id="3440043456924990296">Inställningar hanterade av organisation</translation>
+<translation id="7053983685419859001">Blockera</translation>
+<translation id="5716230673298034837">Tillåt alla</translation>
+<translation id="5279600392753459966">Blockera alla</translation>
+<translation id="4516904298421534459">Filtrera listor</translation>
+<translation id="3570081523466826008">Uppgradera anslutningar till HTTPS</translation>
+<translation id="131231380815754440">Aktivera HTTPS</translation>
+<translation id="4824468494729001999">Blockera skript</translation>
+<translation id="3246600097575692802">Aktivera blockerade skript</translation>
+<translation id="3603525299146223354">Spårare och annonser</translation>
+<translation id="4448697385961650078">Blocka spårare och annonser</translation>
+<translation id="8593054718053894081">Blocka aggressivt spårare och annonser</translation>
+<translation id="7384778069178817075">Tillåt alla spårare och annonser</translation>
+<translation id="6196640612572343990">Blockera kakor från tredje part</translation>
+<translation id="693506469193748756">Glöm mig när jag stänger den här webbplatsen</translation>
+<translation id="6975864539539353406">Rensa cookies och andra webbplatsdata när du stänger en webbplats</translation>
+<translation id="6486971767955110687">Spara kontaktinformation för framtida rapporter om avbrutna webbsidor</translation>
+<translation id="4085787265464238844">Om du uppger kontaktinformation kommer den att lagras för framtida rapporter</translation>
+<translation id="6883611015375728278">Blockera alla kakor</translation>
+<translation id="5657156137487675418">Tillåt alla cookies</translation>
+<translation id="8366221601425141146">Fingeravtryck blockerat</translation>
+<translation id="6531019308847917584">Blockera fingeravtryck</translation>
+<translation id="1899608006846124237">Blockera aggressivt fingeravtryck</translation>
+<translation id="8034285923190068220">Tillåt användning av fingertryck</translation>
+<translation id="7638541189782135885">Uppgradera inte HTTP-anslutningar</translation>
+<translation id="2570787596946026998">Anslut endast med HTTPS</translation>
+<translation id="1992750560347846445">Rapportera webbplats</translation>
+<translation id="2387532482048804818">Berätta för oss om webbplatsen inte fungerade korrekt när Shields är aktiverat.</translation>
+<translation id="3795015906457257780">Du visar den här webbplatsen utan iBrowes sekretesskydd.</translation>
+<translation id="7194012750329511146">iBrowe Shields
+<ph name="NUMBER"/> spårare, annonser med mera är blockerade</translation>
+<translation id="4292121526390005808">Blockerade skript</translation>
+<translation id="5046271170844958713">Tillåtna skript</translation>
+<translation id="199862531047218413">Skydd mot fingeravtryck har tillämpats</translation>
+<translation id="5032505924781383272">Tillämpade skydd behöver inte nödvändigtvis betyda att den här webbsidan försöker ta fingeravtryck av din webbläsare.</translation>
+<translation id="1905384713982899903">Blockerade fingeravtryck</translation>
+<translation id="314364527871618241">Tillåtna fingeravtryck</translation>
+<translation id="2808175374672429053">Jokertecken tillåts inte för iBrowe Shields.</translation>
+<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
+      =1 {iBrowe Shields blockerade 1 spårare på <ph name="SITE_URL"/>}
+      other {iBrowe Shields blockerade {BLOCKED_COUNT} spårare på <ph name="SITE_URL"/>}
+    }</translation>
+<translation id="2540598191934725677">Klicka på iBrowe-ikonen för att visa iBrowe Shields.</translation>
+<translation id="6294662480095808915">Integritet. Som standard.</translation>
+<translation id="4366423156486478559">Få iBrowe-skydd varje gång du klickar på en länk. Ställ bara in iBrowe som standard och surfa vidare privat.</translation>
+<translation id="3830912418080848377">Importera inställningar</translation>
+<translation id="6378406588483694938">Importera enkelt bokmärken, tillägg, till och med sparade lösenord från din gamla webbläsare.</translation>
+<translation id="2092825239819166928">Välj profil att importera</translation>
+<translation id="4763127492635705340">Webbläsaren du valde har flera profiler. Välj den eller de profiler du vill importera.</translation>
+<translation id="880174232178865598">Importera profiler</translation>
+<translation id="2453860139492968684">Slutför</translation>
+<translation id="2273851479262317744">Ange iBrowe som standardwebbläsare</translation>
+<translation id="5037676449506322593">Välj alla</translation>
+<translation id="5148943178722443958">Hjälp till att göra iBrowe bättre.</translation>
+<translation id="1097073572755862978">Skicka diagnostikrapporter om du upplever en krasch eller frysning. <ph name="LINK_BEFORE"/>Läs mer.<ph name="LINK_AFTER"/></translation>
+<translation id="6629244688368006959">Dela helt privat och anonym produktstatistik om vilka funktioner som används av iBrowes användare. <ph name="LINK_BEFORE"/>Läs mer.<ph name="LINK_AFTER"/></translation>
+<translation id="7415454883318062233">Konfigurationen är klar</translation>
+<translation id="3141206739023333979">Ändra dessa val när som helst i iBrowe: <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/>.</translation>
+<translation id="8321985064212130832">Läs vår fullständiga <ph name="LINK_BEFORE"/>Integritetspolicy<ph name="LINK_AFTER"/></translation>
+<translation id="2801098717523961746">Välj tema</translation>
+<translation id="6262510489122516114">Du kan ändra detta när som helst i iBrowe-inställningarna.</translation>
+<translation id="546481172717459539">Matcha systeminställning</translation>
+<translation id="7799817062559422778">Ljust läge</translation>
+<translation id="4117637339509843559">Mörkt läge</translation>
+<translation id="6302485303316397682">Vill du ha bättre sökresultat?</translation>
+<translation id="7014699001826714920">Gå med i rörelsen, bidra till iBrowe Search.</translation>
+<translation id="6821108091726602352">Hjälp oss att fixa webben genom att delta i iBrowes Web Discovery Project. Genom att dela helt anonyma söksignaler kan du hjälpa iBrowe att utöka sökindexet.</translation>
+<translation id="6764845498618413165">Läs mer.</translation>
+<translation id="7818938154803162778">Ok, jag hjälper till.</translation>
+<translation id="7207456302801184289">Välkommen till iBrowe</translation>
+<translation id="6716580298071890302">Använd ett mörkare tema</translation>
+<translation id="2422927186524098759">Sidofält</translation>
+<translation id="2361906291514218784">Leo AI</translation>
+<translation id="7705524343798198388">VPN</translation>
+<translation id="8000020256436988724">Verktygsfält</translation>
+<translation id="6225572914528673855">Adressrad</translation>
+<translation id="8293206222192510085">Lägg till bokmärke</translation>
+<translation id="7758460733045216901">Panel för bokmärken</translation>
 <translation id="958268166261124668">iBrowe VPN: Ansluten</translation>
 <translation id="6021669293402055982">iBrowe VPN: Frånkopplad</translation>
 <translation id="3541307549916475335">Användargränssnitt för iBrowe VPN-panel</translation>
@@ -2449,6 +2521,9 @@
 <translation id="7805768142964895445">Status</translation>
 <translation id="5747552184818312860">Upphör att gälla</translation>
 <translation id="8421945428836418371">Återanslut automatiskt</translation>
+<translation id="1775187768313123375">Smart proxy-routing</translation>
+<translation id="1729266073247927443">Smart proxy-routing tillgänglig</translation>
+<translation id="8416695199565594645">Säkerställer att trafiken dirigeras via dedikerade proxyservrar för att ge tillgång till allmänt begränsat innehåll/webbplatser eller tjänster från tredje part.</translation>
 <translation id="434523916398030617">Kontakta teknisk support</translation>
 <translation id="1116694919640316211">Om</translation>
 <translation id="2044418816479192294">Hundratals servrar runt om i världen</translation>

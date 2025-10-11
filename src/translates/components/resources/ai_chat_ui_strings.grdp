@@ -19,13 +19,13 @@
     About Leo
   </message>
   <message name="IDS_CHAT_UI_ABOUT_DESCRIPTION" desc="Outlining the functioning of AIChat (paragraph 1 of 3)" formatter_data="webui=AiChat">
-    iBrowe Leo is a private AI smart assistant that enhances your use of the Internet. Leo is free to use with limited access. iBrowe Leo Premium offers more models, higher limits and gives subscribers early access to new features. The default model will change from time to time. See the <ph name="LINK_BEFORE">$1</ph>iBrowe Help Center<ph name="LINK_AFTER">$2</ph> for more details.
+    iBrowe Leo is a private AI smart assistant that enhances your use of the web. Leo is free to use with limited access. iBrowe Leo Premium offers more models, higher limits and gives subscribers early access to new features. The default model will change from time to time. See the <ph name="LINK_BEFORE">$1</ph>iBrowe Help Center<ph name="LINK_AFTER">/$1</ph> for more details.
   </message>
   <message name="IDS_CHAT_UI_ABOUT_DESCRIPTION_2" desc="Outlining the functioning of AIChat (paragraph 2 of 3)" formatter_data="webui=AiChat">
-    By default, when you ask Leo a question it may send and use the content of the web page you are viewing or any text you highlight on a page to iBrowe Leo to provide a response. The accuracy of responses is not guaranteed, and may include inaccurate, misleading, or false information. Leo uses data from iBrowe Search to improve response quality. Don't submit sensitive or private info, and use caution with any answers related to health, finance, personal safety, or similar. You can adjust Leo’s options in Settings any time. Go to Settings > Leo.
+    By default, when you ask Leo a question about a website or page you are viewing, the content of the webpage you are viewing or any text you highlight on a page, as well as your search query will be sent to iBrowe servers in order for Leo to provide a response. In some cases, Leo will send queries derived from your input to iBrowe Search and use the search results to better answer your question. iBrowe does not guarantee the accuracy of responses, and responses may include inaccurate, misleading, or false information. Don't submit sensitive or private information to iBrowe Leo, and use caution with any answers related to health, finance, personal safety, or similar. You can adjust Leo’s options in Settings any time. Go to Settings > Leo.
   </message>
   <message name="IDS_CHAT_UI_ABOUT_DESCRIPTION_3" desc="Outlining the functioning of AIChat (paragraph 3 of 3)" formatter_data="webui=AiChat">
-    Leo does not collect identifiers such as your IP address that can be linked to you. No data is used to train the AI models and no personal data is retained by the AI models (except for Anthropic that holds data for 30 days before deleting it). See the <ph name="LINK_BEFORE">$1</ph>privacy policy<ph name="LINK_AFTER">$2</ph> for more information.
+    Leo does not collect identifiers such as your IP address that can be linked to you. We do not train our models based on your data, including your search queries or iBrowe Leo’s responses. No personal data is stored on our servers, or retained by iBrowe. See the <ph name="LINK_BEFORE">$1</ph>privacy policy<ph name="LINK_AFTER">/$1</ph> for more information.
   </message>
   <message name="IDS_CHAT_UI_PLACEHOLDER_ATTACHED_PAGES_LABEL" desc="Placeholder text for when there are attached pages in the input box" formatter_data="webui=AiChat">
     {PAGE_COUNT, plural,
@@ -38,6 +38,12 @@
   </message>
   <message name="IDS_CHAT_UI_PLACEHOLDER_LABEL" desc="Placeholder text for an input box allowing users to send messages to the AI service" formatter_data="webui=AiChat">
     Ask follow up
+  </message>
+  <message name="IDS_CHAT_UI_DROP_IMAGES_HERE_LABEL" desc="Text shown when dragging images over the input area" formatter_data="webui=AiChat">
+    Drop files here
+  </message>
+  <message name="IDS_CHAT_UI_DROP_FILES_DESCRIPTION" desc="Descriptive text shown when dragging files over the page" formatter_data="webui=AiChat">
+    Drop any files here to add them to the conversation
   </message>
   <message name="IDS_CHAT_UI_SUGGEST_QUESTIONS_LABEL" desc="Button label to ask the AI Chat to suggest some related questions" formatter_data="webui=AiChat">
     Suggest questions…
@@ -85,31 +91,40 @@
      Configure
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_AUTOMATIC" desc="AI Chat intro message for the default model" formatter_data="webui=AiChat">
-    Model changes dynamically to use the best one for the task.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Model changes dynamically to use the best one for the task.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_BASIC" desc="AI Chat intro message for the basic model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Llama 3.1 8B, a model created by Meta to be performant and applicable to many use cases. Llama is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Llama 3.1 8B, a model created by Meta to be performant and applicable to many use cases. Llama is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_QWEN" desc="AI Chat intro message for the qwen model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Qwen 14B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Qwen 14B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
+  </message>
+  <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_GEMMA" desc="AI Chat intro message for the gemma model" formatter_data="webui=AiChat">
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Gemma 3 12B, a model created by Google DeepMind to be performant and applicable to many use cases. Gemma is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_DEEPSEEK_R1" desc="AI Chat intro message for the deepseek-r1 model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by DeepSeek R1, a model created by DeepSeek to perform deep reasoning tasks. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by DeepSeek R1, a model created by DeepSeek to perform deep reasoning tasks. DeepSeek R1 is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_CLAUDE_INSTANT" desc="AI Chat intro message for the Claude Instant model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. Claude Instant is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. Claude Instant is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_CLAUDE_HAIKU" desc="AI Chat intro message for the Claude Haiku model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Haiku, a model created by Anthropic to power conversational and text processing tasks. Claude Haiku is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Haiku, a model created by Anthropic to power conversational and text processing tasks. Claude Haiku is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_CLAUDE_SONNET" desc="AI Chat intro message for the Claude Sonnet model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm proxied by iBrowe and powered by Claude Sonnet, a model created by Anthropic to power conversational and text processing tasks. Claude Sonnet is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
-  </message>
-  <message name="IDS_CHAT_UI_INTRO_MESSAGE_CHAT_VISION_BASIC" desc="AI Chat intro message for the default vision model" formatter_data="webui=AiChat">
-    Hi, I'm Leo. I'm a fully hosted AI assistant by iBrowe. I'm powered by Llama Vision, a model created by Meta to be performant and applicable to many use cases. Llama Vision is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Sonnet, a model created by Anthropic to power conversational and text processing tasks. Claude Sonnet is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_MODEL_PREMIUM_LABEL_NON_PREMIUM" desc="Label indentifying that an AI Chat model is a premium model" formatter_data="webui=AiChat">
     Premium
+  </message>
+  <message name="IDS_CHAT_UI_MODEL_LOCAL_LABEL" desc="Label identifying that an AI Chat model is a local model" formatter_data="webui=AiChat">
+    Local
+  </message>
+  <message name="IDS_CHAT_UI_RECOMMENDED_MODELS_BUTTON" desc="Button label to show recommended models" formatter_data="webui=AiChat">
+    Recommended models
+  </message>
+  <message name="IDS_CHAT_UI_SHOW_ALL_MODELS_BUTTON" desc="Button label to show all models" formatter_data="webui=AiChat">
+    Show all models
   </message>
   <message name="IDS_CHAT_UI_MODEL_CATEGORY_CHAT" desc="Category name for Chat" formatter_data="webui=AiChat">
     Chat
@@ -238,7 +253,7 @@
     Provide feedback here
   </message>
   <message name="IDS_CHAT_UI_FEEDBACK_PREMIUM_NOTE" desc="Note about the benefits of a premium subscription" formatter_data="webui=AiChat">
-    Leo Premium provides access to an expanded set of language models for even greater answer nuance. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$2</ph>
+    Leo Premium provides access to an expanded set of language models for even greater answer nuance. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_SUBMIT_BUTTON_LABEL" desc="Button label to submit data/form" formatter_data="webui=AiChat">
     Submit
@@ -346,10 +361,13 @@
     Response Feedback
   </message>
   <message name="IDS_CHAT_UI_RATE_MESSAGE_PRIVACY_MODAL_DESCRIPTION" desc="A description for the rate message privacy modal" formatter_data="webui=AiChat">
-    Liking or disliking an answer will send rating, conversation, model, language, version, and premium status to iBrowe in order to improve Leo. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">$1</ph>
+    Liking or disliking an answer will send rating, conversation, model, language, version, and premium status to iBrowe in order to improve Leo. <ph name="LINK_BEFORE">$1</ph>Learn more<ph name="LINK_AFTER">/$1</ph>
   </message>
   <message name="IDS_CHAT_UI_SEND_CHAT_BUTTON_LABEL" desc="A button label for sending a chat message" formatter_data="webui=AiChat">
     Send message to Leo
+  </message>
+  <message name="IDS_CHAT_UI_CONTENT_AGENT_PROFILE_BUTTON_LABEL" desc="Tooltip for when the AI content agent is not disableable in the current profile" formatter_data="webui=AiChat">
+    Leo AI Content Agent is always enabled in this profile
   </message>
   <message name="IDS_CHAT_UI_STOP_GENERATION_BUTTON_LABEL" desc="A button label for stopping generation" formatter_data="webui=AiChat">
     Stop answering
@@ -362,6 +380,9 @@
   </message>
   <message name="IDS_CHAT_UI_TRIMMED_TOKENS_WARNING" desc="A warning issued when the user is trying to summarize a long content page" formatter_data="webui=AiChat">
     Some context could be missing from the conversation. Leo was able to retain <ph name="PERCENTAGE">$1<ex>75.5%</ex></ph> of the conversation's associated content.
+  </message>
+  <message name="IDS_CHAT_UI_VISUAL_CONTENT_TOO_MUCH_WARNING" desc="A warning issued when too many images are captured and some had to be discarded due to limits" formatter_data="webui=AiChat">
+    Too many images were captured from the page. Leo was able to use <ph name="PERCENTAGE">$1<ex>75.5%</ex></ph> of the available visual content.
   </message>
   <message name="IDS_CHAT_UI_CONVERSATION_END_ERROR" desc="An error issued when the user cannot continue chatting" formatter_data="webui=AiChat">
     This conversation is too long and cannot continue. There may be other models available with which Leo is capable of maintaining accuracy for longer conversations.
@@ -396,6 +417,12 @@
   <message name="IDS_CHAT_UI_ATTACHMENTS_BROWSER_TABS_TITLE" desc="Title for the browser tabs section" formatter_data="webui=AiChat">
     Browser tabs
   </message>
+  <message name="IDS_CHAT_UI_TABS_MENU_TITLE" desc="Title for the tabs menu" formatter_data="webui=AiChat">
+    Add tab contents for context. The contents will be sent to Leo along with your messages.
+  </message>
+  <message name="IDS_CHAT_UI_TABS_MENU_NO_MATCHING_TABS" desc="A message shown when no tabs match the filter" formatter_data="webui=AiChat">
+    No matching tabs
+  </message>
   <message name="IDS_CHAT_UI_NOTICE_CONVERSATION_HISTORY_BODY" desc="Main text for the notice about conversation history" formatter_data="webui=AiChat">
     Leo will now remember your conversations so you can go back to them. They are stored encrypted on your device, and you can delete them any time.
   </message>
@@ -426,8 +453,8 @@
   <message name="IDS_CHAT_UI_CHAT_QWEN_SUBTITLE" desc="A description for qwen model" formatter_data="webui=AiChat">
       General purpose chat, coding, and more
   </message>
-  <message name="IDS_CHAT_UI_CHAT_VISION_BASIC_SUBTITLE" desc="A description for llama vision model" formatter_data="webui=AiChat">
-    General purpose vision
+  <message name="IDS_CHAT_UI_CHAT_GEMMA_SUBTITLE" desc="A description for gemma model" formatter_data="webui=AiChat">
+    General purpose text and image understanding
   </message>
   <message name="IDS_CHAT_UI_CHAT_DEEPSEEK_R1_SUBTITLE" desc="A description for deepseek-r1 model" formatter_data="webui=AiChat">
     Reasoning model
@@ -561,6 +588,9 @@
   <message name="IDS_AI_CHAT_SCREENSHOT_BUTTON_LABEL" desc="The button label for screenshot" formatter_data="webui=AiChat">
     Screenshot
   </message>
+  <message name="IDS_CHAT_UI_FULL_PAGE_SCREENSHOT_TITLE" desc="Title for full page screenshot attachment" formatter_data="webui=AiChat">
+    Full page screenshot
+  </message>
   <message name="IDS_AI_CHAT_CURRENT_TAB_CONTENTS_BUTTON_LABEL" desc="The button label for current tab contents" formatter_data="webui=AiChat">
     Current tab contents
   </message>
@@ -587,5 +617,20 @@
   </message>
   <message name="IDS_AI_CHAT_TEMPORARY_CHAT_DESCRIPTION" desc="Description for temporary chat functionality" formatter_data="webui=AiChat">
     This chat won't be saved into your history or use any of Leo's customization or memories.
+  </message>
+  <message name="IDS_CHAT_UI_MEMORY_UPDATED_WITH_CONTENT_LABEL" desc="Label indicating that memory has been updated with specific content, with placeholder for the memory content" formatter_data="webui=AiChat">
+    Memory updated: <ph name="MEMORY_CONTENT">$1<ex>User prefers dark mode themes</ex></ph>
+  </message>
+  <message name="IDS_CHAT_UI_MEMORY_UNDO_BUTTON_LABEL" desc="Button label to undo a memory update" formatter_data="webui=AiChat">
+    Undo
+  </message>
+  <message name="IDS_CHAT_UI_MEMORY_MANAGE_ALL_BUTTON_LABEL" desc="Button label to manage all memories" formatter_data="webui=AiChat">
+    Manage all
+  </message>
+  <message name="IDS_CHAT_UI_MEMORY_UNDONE_LABEL" desc="Message shown after memory has been undone/removed" formatter_data="webui=AiChat">
+    Ok, I won't remember that
+  </message>
+  <message name="IDS_CHAT_UI_MEMORY_ERROR_LABEL" desc="Message shown when memory storage fails" formatter_data="webui=AiChat">
+    Failed to save memory. Please try again.
   </message>
 </grit-part>

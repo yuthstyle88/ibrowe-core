@@ -8,7 +8,7 @@
 "AddFilterByURL" = "Adicionar filtro por URL";
 
 /* A discription of the Brave Player. */
-"AntiAdBlockWarningBravePlayerDescription" = "O **iBrowe Player** é o seu passaporte para ver vídeos sem anúncios nem interrupções.";
+"AntiAdBlockWarningBravePlayerDescription" = "O **Brave Player** é o seu passaporte para ver vídeos sem anúncios nem interrupções.";
 
 /* A button that disables ad-blocking and uses brave player. */
 "AntiAdBlockWarningConfirmationButton" = "Ajustar proteções";
@@ -17,7 +17,7 @@
 "AntiAdBlockWarningDescription" = "Este site está bloqueando alguns bloqueadores de anúncios e poderá não funcionar como esperado.";
 
 /* A descriptive message explaining to disable shields on this site. */
-"AntiAdBlockWarningDescription2" = "Para resolver o problema, o iBrowe pode ajustar as definições das proteções. Depois, você pode tentar ver este conteúdo no iBrowe Player.";
+"AntiAdBlockWarningDescription2" = "Para resolver o problema, o Brave pode ajustar as definições das proteções. Depois, você pode tentar ver este conteúdo no Brave Player.";
 
 /* A button that dismisses the warning and does nothing. */
 "AntiAdBlockWarningDismissButton" = "Manter definições atuais";
@@ -35,7 +35,7 @@
 "BlockAdsAndTrackingDescription" = "Impede o carregamento de anúncios, pop-ups e rastreadores.";
 
 /* The option the user can select to disable ad and tracker blocking */
-"BlockAdsAndTrackingDisabled" = "Desativado";
+"BlockAdsAndTrackingDisabled" = "Desativada";
 
 /* The option the user can select to do standard (non-aggressive) ad and tracker blocking */
 "BlockAdsAndTrackingStandard" = "Padrão";
@@ -44,22 +44,22 @@
 "blockMobileAnnoyances" = "Bloquear avisos \"Mudar para o app\"";
 
 /* Title for the brave player feature */
-"BravePlayer" = "iBrowe Player";
+"BravePlayer" = "Brave Player";
 
 /* A label for a toggle that enables automatic launching of brave player for certain sites */
-"BravePlayerAlwaysOpenYouTubeLinks" = "Abrir sempre vídeos deste site com o iBrowe Player";
+"BravePlayerAlwaysOpenYouTubeLinks" = "Abrir sempre vídeos deste site com o Brave Player";
 
 /* A button that confirms to use the brave player. */
 "BravePlayerConfirmButton" = "Experimentar";
 
 /* A button that ignores the brave player */
-"BravePlayerDismissButton" = "Não agora";
+"BravePlayerDismissButton" = "Agora não";
 
 /* A description of the brave player that is presented on the info panel when clicing on the brave player icon for the first time. */
-"BravePlayerInfoMessage" = "O iBrowe Player permite ver vídeos sem interrupções.";
+"BravePlayerInfoMessage" = "O Brave Player permite ver vídeos sem interrupções.";
 
 /* Title for the brave player info popup which appears when clicking on the brave player icon on the navigation bar. */
-"BravePlayerInfoTitle" = "Ver antes no iBrowe Player";
+"BravePlayerInfoTitle" = "Ver antes no Brave Player";
 
 /* A title to the content filtering page under global shield settings and the title on the Content filtering page */
 "ContentFiltering" = "Filtragem de conteúdo";
@@ -95,10 +95,10 @@
 "DomainBlockedGoBackAction" = "Voltar";
 
 /* A description in the warning page that appears when a page was blocked */
-"DomainBlockedPageDescription" = "Como você solicitou o bloqueio agressivo de rastreadores e anúncios, o iBrowe está bloqueando este site antes da primeira conexão de rede.";
+"DomainBlockedPageDescription" = "Como você solicitou o bloqueio agressivo de rastreadores e anúncios, o Brave está bloqueando este site antes da primeira conexão de rede.";
 
 /* A message in the warning page that appears when a page was blocked */
-"DomainBlockedPageMessage" = "O iBrowe impediu o carregamento do seguinte site:";
+"DomainBlockedPageMessage" = "O Brave impediu o carregamento do seguinte site:";
 
 /* A title in the warning page that appears when a page was blocked */
 "DomainBlockedPageTitle" = "Este site poderá tentar monitorar sua navegação em outros sites";
@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "Domínio bloqueado";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "Ativar a API do Controle de privacidade global em JS";
+"EnableGPCDescription" = "Solicite que os sites não vendam ou compartilhem seus dados. [Saiba mais](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "Ativar o Controle de privacidade global";
@@ -160,6 +160,30 @@
 /* This is a label on a button that updates filter lists which signifies that lists have been updated */
 "ListsUpdated" = "Listas atualizadas";
 
+/* A label displayed above a value indicating if the site is in aggressive mode in Blocked Requests view. */
+"shields.aggressiveLabel" = "Agressivo";
+
+/* A label displayed above the location a request was blocked in Blocked Requests view. */
+"shields.blockedByLabel" = "Bloqueado por";
+
+/* The title displayed in the navigation bar of Blocked Requests view. */
+"shields.blockedRequestsTitle" = "Solicitações bloqueadas";
+
+/* Used to describe when a request was blocked by the Content Blocker in Blocked Requests view. */
+"shields.contentBlocker" = "Bloqueio de conteúdo";
+
+/* Used to describe when a request was blocked by our request blocking scripts in Blocked Requests view. */
+"shields.requestBlocking" = "Bloqueio de pedido";
+
+/* A label displayed above the request url that was blocked in Blocked Requests view. */
+"shields.requestURLLabel" = "URL de solicitação";
+
+/* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
+"shields.resourceTypeLabel" = "Tipo de recurso";
+
+/* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
+"shields.sourceURLLabel" = "URL de origem";
+
 /* A button title when confirming to shred website data */
 "ShredDataButtonTitle" = "Destruir dados";
 
@@ -191,7 +215,7 @@
 "TheConnectionIsNotSecure" = "A conexão com %@ não é segura";
 
 /* A label for a shield option that allows you to switch between different blocking levels for tracker and ads blocking. Options include disabled, standard and aggressive. */
-"TrackersAndAdsBlocking" = "Rastreadores e bloqueio de anúncios";
+"TrackersAndAdsBlocking" = "Bloqueio de anúncios & rastreadores";
 
 /* This is a label for a button which when pressed updates all the filter lists */
 "UpdateLists" = "Atualizar listas";
