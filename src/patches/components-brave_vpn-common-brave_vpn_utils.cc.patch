@@ -1,8 +1,8 @@
 diff --git a/components/brave_vpn/common/brave_vpn_utils.cc b/components/brave_vpn/common/brave_vpn_utils.cc
-index f8203e3cfb82f8c5104002cee8df2866fe74908b..7d67f8a1b893d9b9433fc7e2f760378cb892f0d6 100644
+index 5126e09e8401c0a4e1cf5d3a451e3e5c6f1dd60a..0cdc31f4383be35bd382f412834c5c56eee327b2 100644
 --- a/components/brave_vpn/common/brave_vpn_utils.cc
 +++ b/components/brave_vpn/common/brave_vpn_utils.cc
-@@ -154,7 +154,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
+@@ -153,7 +153,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
        return manage_url.ReplaceComponents(replacements);
      }
      case mojom::ManageURLType::PRIVACY:
@@ -11,7 +11,7 @@ index f8203e3cfb82f8c5104002cee8df2866fe74908b..7d67f8a1b893d9b9433fc7e2f760378c
      case mojom::ManageURLType::ABOUT:
        return GURL(brave_vpn::kAboutUrl);
      case mojom::ManageURLType::MANAGE:
-@@ -262,7 +262,7 @@ std::string GetManageUrl(const std::string& env) {
+@@ -265,7 +265,7 @@ std::string GetManageUrl(const std::string& env) {
  }
  
  // On desktop, the environment is tied to SKUs because you would purchase it

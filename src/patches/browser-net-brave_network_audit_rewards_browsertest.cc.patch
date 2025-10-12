@@ -1,5 +1,5 @@
 diff --git a/browser/net/brave_network_audit_rewards_browsertest.cc b/browser/net/brave_network_audit_rewards_browsertest.cc
-index ba6790aba6671743df5bdc278f3430c7bf75cfb9..285108e2e4ec4cc6e9880503e3f1b6afa0fdeba8 100644
+index ba6790aba6671743df5bdc278f3430c7bf75cfb9..e6168b9bc573f09bcba6d8b99883a63a04826226 100644
 --- a/browser/net/brave_network_audit_rewards_browsertest.cc
 +++ b/browser/net/brave_network_audit_rewards_browsertest.cc
 @@ -100,18 +100,18 @@ class BraveRewardsNetworkAuditTest : public InProcessBrowserTest {
@@ -27,3 +27,14 @@ index ba6790aba6671743df5bdc278f3430c7bf75cfb9..285108e2e4ec4cc6e9880503e3f1b6af
          });
    }
  
+@@ -132,8 +132,8 @@ class BraveRewardsNetworkAuditTest : public InProcessBrowserTest {
+ };
+ 
+ IN_PROC_BROWSER_TEST_F(BraveRewardsNetworkAuditTest, BasicTests) {
+-  // Load brave://rewards and enable Brave Rewards.
+-  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("brave://rewards")));
++  // Load ibrowe://rewards and enable Brave Rewards.
++  ASSERT_TRUE(ui_test_utils::NavigateToURL(browser(), GURL("ibrowe://rewards")));
+   ASSERT_TRUE(EnableBraveRewards());
+   WaitForTimeout(kMaxTimeoutPerLoadedURL);
+ }

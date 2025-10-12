@@ -1,80 +1,29 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
-index 16d7a14ce25213b541c600ec42cfcb102f99b827..bb1fa9ec9412ededd3eb67e697f371462ee6694b 100644
+index 0adc27dde274b3948e6d475e24d5400e9316f597..3a22f145b1b704f43cbb1f2cba0cda14b6b30a16 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Settings/SettingsViewController.swift
-@@ -225,23 +225,6 @@ class SettingsViewController: TableViewController {
-       aboutSection,
-     ]
- 
--    let shouldShowVPNSection = { () -> Bool in
--      if !BraveVPNProductInfo.isComplete || Preferences.VPN.vpnSettingHeaderWasDismissed.value {
--        return false
--      }
--
--      switch BraveVPN.vpnState {
--      case .notPurchased, .expired:
--        return true
--      case .purchased:
--        return false
--      }
--    }()
--
--    if shouldShowVPNSection {
--      list.insert(enableBraveVPNSection, at: 0)
--    }
--
-     // Always show debug section in local builds and show if previously shown
-     if !AppConstants.isOfficialBuild || Preferences.Debug.developerOptionsEnabled.value {
-       list.append(debugSection)
-@@ -252,29 +235,6 @@ class SettingsViewController: TableViewController {
- 
-   // MARK: - Sections
- 
--  private lazy var enableBraveVPNSection: Static.Section = {
--    let header = BraveVPNEnableSettingsHeaderView(
--      enableVPNTapped: { [weak self] in
--        self?.enableVPNTapped()
--      },
--      dismissHeaderTapped: { [weak self] in
--        self?.dismissVPNHeaderTapped()
--      }
--    )
--    let headerHostingVC = UIHostingController(rootView: header)
--
--    let calculatedSize = headerHostingVC.view.systemLayoutSizeFitting(
--      CGSize(width: navigationController?.navigationBar.frame.width ?? 0, height: 300),
--      withHorizontalFittingPriority: .required,
--      verticalFittingPriority: .fittingSizeLevel
--    )
--
--    headerHostingVC.view.backgroundColor = .clear
--    headerHostingVC.view.bounds = CGRect(size: calculatedSize)
--
--    return Static.Section(header: .view(headerHostingVC.view))
--  }()
--
-   private lazy var defaultBrowserSection: Static.Section = {
-     var section = Static.Section(
-       rows: [
-@@ -417,12 +377,6 @@ class SettingsViewController: TableViewController {
-       )
-     )
- 
--    if !tabManager.privateBrowsingManager.isPrivateBrowsing && FeatureList.kAIChat.enabled {
--      section.rows.append(leoSettingsRow)
--    }
--
--    section.rows.append(vpnSettingsRow)
--
-     section.rows.append(
-       Row(
-         text: Strings.PlayList.playListTitle,
-@@ -987,7 +941,7 @@ class SettingsViewController: TableViewController {
-             // Rate Brave
-             guard
-               let writeReviewURL = URL(
--                string: "https://itunes.apple.com/app/id1052879175?action=write-review"
-+                string: "https://itunes.apple.com/app/id6741485553?action=write-review"
-               )
-             else { return }
-             UIApplication.shared.open(writeReviewURL)
+@@ -335,7 +335,7 @@ class SettingsViewController: TableViewController {
+             let controller = ChromeWebUIController(braveCore: braveCore, isPrivateBrowsing: false)
+             let container = UINavigationController(rootViewController: controller)
+             controller.title = Strings.braveAccount
+-            controller.webView.load(URLRequest(url: URL(string: "brave://account")!))
++            controller.webView.load(URLRequest(url: URL(string: "ibrowe://account")!))
+             controller.navigationItem.rightBarButtonItem = .init(
+               systemItem: .done,
+               primaryAction: .init { [unowned container] _ in
+@@ -1142,13 +1142,13 @@ class SettingsViewController: TableViewController {
+           text: Strings.settingsLicenses,
+           selection: { [unowned self] in
+             if FeatureList.kUseChromiumWebViews.enabled {
+-              if let url = URL(string: "brave://credits") {
++              if let url = URL(string: "ibrowe://credits") {
+                 settingsDelegate?.settingsOpenURLInNewTab(url)
+               }
+             } else {
+               let controller = ChromeWebUIController(braveCore: braveCore, isPrivateBrowsing: false)
+               let container = UINavigationController(rootViewController: controller)
+-              controller.webView.load(URLRequest(url: URL(string: "brave://credits")!))
++              controller.webView.load(URLRequest(url: URL(string: "ibrowe://credits")!))
+               controller.navigationItem.leftBarButtonItem = .init(
+                 systemItem: .done,
+                 primaryAction: .init { [unowned container] _ in

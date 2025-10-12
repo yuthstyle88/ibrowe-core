@@ -1,8 +1,8 @@
 diff --git a/components/brave_ads/browser/ads_service_impl.cc b/components/brave_ads/browser/ads_service_impl.cc
-index b007e7cd337b022b9317bba05a7cda6b1f12c7c5..4240c6aff80512f82c599d7ab522ef03123da116 100644
+index 5c6d26f2c00b6b05326c30e4726897299250e343..27eb25f6cc6bfb7f52e531273e5eef98a9a59db6 100644
 --- a/components/brave_ads/browser/ads_service_impl.cc
 +++ b/components/brave_ads/browser/ads_service_impl.cc
-@@ -158,7 +158,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
+@@ -157,7 +157,7 @@ net::NetworkTrafficAnnotationTag GetNetworkTrafficAnnotationTag() {
        policy {
          cookies_allowed: NO
          setting:
@@ -11,3 +11,14 @@ index b007e7cd337b022b9317bba05a7cda6b1f12c7c5..4240c6aff80512f82c599d7ab522ef03
          policy_exception_justification:
            "Not implemented."
        }
+@@ -342,8 +342,8 @@ void AdsServiceImpl::GetDeviceIdAndMaybeStartBatAdsServiceCallback(
+ 
+ bool AdsServiceImpl::CanStartBatAdsService() const {
+   if (UserHasJoinedBraveRewards()) {
+-    // Always start the service to update brave://ads-internals,
+-    // brave://rewards, and brave://rewards-internals if the user has joined
++    // Always start the service to update ibrowe://ads-internals,
++    // ibrowe://rewards, and ibrowe://rewards-internals if the user has joined
+     // Brave Rewards, even if all ad units are opted out.
+     return true;
+   }

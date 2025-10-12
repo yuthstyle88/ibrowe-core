@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
-index 3c3be204f3c90b850c36231110e4122e288833e1..fb2c7719d240031f588028bbcdcd6acefe4d8841 100644
+index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df373459c13e 100644
 --- a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
 +++ b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
 @@ -177,7 +177,7 @@ extension Strings {
@@ -74,4 +74,13 @@ index 3c3be204f3c90b850c36231110e4122e288833e1..fb2c7719d240031f588028bbcdcd6ace
 +      value: "iBrowe does not store or share your voice inputs.",
        comment:
          "The description indicating voice inputs from user is not store or shared and these inpurs are totally private."
+     )
+@@ -1088,7 +1088,7 @@ extension Strings {
+       tableName: "BraveLeo",
+       bundle: .module,
+       value:
+-        "Leo is currently disabled via feature flags. To re-enable Leo, please visit brave://flags and enable it.",
++        "Leo is currently disabled via feature flags. To re-enable Leo, please visit ibrowe://flags and enable it.",
+       comment:
+         "The message that shows in an alert, to let the user know the 'Leo' feature is disabled, and explains how to re-enable the feature."
      )

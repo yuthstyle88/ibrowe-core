@@ -1,8 +1,8 @@
 diff --git a/browser/ui/views/brave_news/brave_news_bubble_view.cc b/browser/ui/views/brave_news/brave_news_bubble_view.cc
-index b9bca2e01416f47033eecd4c441d49bcf17aab1b..8f052070102db1621aa7e8dafb0f7eefa1495480 100644
+index 89f757f6edfc6da91d6df16bb2d428a9ae5ebc68..ae74151525094c4d0caea3176566547b1776241b 100644
 --- a/browser/ui/views/brave_news/brave_news_bubble_view.cc
 +++ b/browser/ui/views/brave_news/brave_news_bubble_view.cc
-@@ -149,7 +149,7 @@ BraveNewsBubbleView::~BraveNewsBubbleView() = default;
+@@ -148,7 +148,7 @@ BraveNewsBubbleView::~BraveNewsBubbleView() = default;
  void BraveNewsBubbleView::OpenManageFeeds() {
    auto* browser = chrome::FindBrowserWithTab(contents_);
    browser->OpenURL(

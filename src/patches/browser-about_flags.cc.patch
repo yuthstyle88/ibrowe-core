@@ -1,8 +1,8 @@
 diff --git a/browser/about_flags.cc b/browser/about_flags.cc
-index c78f9fe8cad6cf5bd236ff3a86eaeded3f951470..7f59719e9d3b5ed111d4823e866b5f08827e5d99 100644
+index 8a4df860cd2a11fb604471db87d1fca0ae4d9dca..c321cbcf4d5c6818ce3c6ca600bd14eee0237bda 100644
 --- a/browser/about_flags.cc
 +++ b/browser/about_flags.cc
-@@ -584,7 +584,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
+@@ -715,7 +715,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
            "brave-adblock-cookie-list-default",                                 \
            "Treat 'Easylist-Cookie List' as a default list source",             \
            "Enables the 'Easylist-Cookie List' regional list if its toggle in " \
@@ -11,7 +11,7 @@ index c78f9fe8cad6cf5bd236ff3a86eaeded3f951470..7f59719e9d3b5ed111d4823e866b5f08
            kOsAll,                                                              \
            FEATURE_VALUE_TYPE(                                                  \
                brave_shields::features::kBraveAdblockCookieListDefault),        \
-@@ -630,7 +630,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
+@@ -751,7 +751,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
            "source",                                                            \
                                                                                 \
            "Enables the 'Fanboy's Mobile Notifications List' regional list if " \
@@ -20,7 +20,7 @@ index c78f9fe8cad6cf5bd236ff3a86eaeded3f951470..7f59719e9d3b5ed111d4823e866b5f08
            kOsAll,                                                              \
            FEATURE_VALUE_TYPE(brave_shields::features::                         \
                                   kBraveAdblockMobileNotificationsListDefault), \
-@@ -649,7 +649,7 @@ const flags_ui::FeatureEntry::FeatureVariation kZCashFeatureVariations[] = {
+@@ -770,7 +770,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
            "source",                                                            \
                                                                                 \
            "Enables the 'Brave Experimental Adblock Rules' regional list if "   \
@@ -29,3 +29,12 @@ index c78f9fe8cad6cf5bd236ff3a86eaeded3f951470..7f59719e9d3b5ed111d4823e866b5f08
            kOsAll,                                                              \
            FEATURE_VALUE_TYPE(                                                  \
                brave_shields::features::kBraveAdblockExperimentalListDefault),  \
+@@ -789,7 +789,7 @@ constexpr flags_ui::FeatureEntry::Choice kVerticalTabCollapseDelayChoices[] = {
+           "brave-adblock-show-hidden-components",                              \
+           "Show hidden adblock filter list components",                        \
+           "Reveals adblock filter list components in "                         \
+-          "brave://settings/shields/filters that would normally be hidden.",   \
++          "ibrowe://settings/shields/filters that would normally be hidden.",   \
+           kOsAll,                                                              \
+           FEATURE_VALUE_TYPE(                                                  \
+               brave_shields::features::kBraveAdblockShowHiddenComponents),     \

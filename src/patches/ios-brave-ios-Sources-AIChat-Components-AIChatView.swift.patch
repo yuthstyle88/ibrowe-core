@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/Sources/AIChat/Components/AIChatView.swift b/ios/brave-ios/Sources/AIChat/Components/AIChatView.swift
-index a5cb7c988957a82fa338cbe9d72925de7e0c823d..ba1d64d828f453eda743d81cf32f67333f88c999 100644
+index 84cd7990c7fddfe827068aeb685f7e662f44a31b..54a4aed3879863246277c5cbc3548425fcabf2a7 100644
 --- a/ios/brave-ios/Sources/AIChat/Components/AIChatView.swift
 +++ b/ios/brave-ios/Sources/AIChat/Components/AIChatView.swift
-@@ -904,8 +904,8 @@ struct AIChatView_Preview: PreviewProvider {
+@@ -916,8 +916,8 @@ struct AIChatView_Preview: PreviewProvider {
  
        AIChatPageContextView(
          isToggleOn: .constant(true),

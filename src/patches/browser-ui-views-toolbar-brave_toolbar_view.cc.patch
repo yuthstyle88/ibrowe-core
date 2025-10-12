@@ -1,8 +1,8 @@
 diff --git a/browser/ui/views/toolbar/brave_toolbar_view.cc b/browser/ui/views/toolbar/brave_toolbar_view.cc
-index 9c898fac32696d14620c97a8d554ad63ea21d938..bb631f81eadd58d0070decfe0bd9bf815b01125a 100644
+index 131954528aa7dfadaaf4efcbd4674366635c45d3..d742fd1bd87fea7a3fdb428349277ce1a61a9235 100644
 --- a/browser/ui/views/toolbar/brave_toolbar_view.cc
 +++ b/browser/ui/views/toolbar/brave_toolbar_view.cc
-@@ -265,22 +265,22 @@ void BraveToolbarView::Init() {
+@@ -278,22 +278,22 @@ void BraveToolbarView::Init() {
      UpdateAIChatButtonVisibility();
    }
  
@@ -41,7 +41,7 @@ index 9c898fac32696d14620c97a8d554ad63ea21d938..bb631f81eadd58d0070decfe0bd9bf81
  
    // Make sure that avatar button should be located right before the app menu.
    if (auto* avatar = GetAvatarToolbarButton()) {
-@@ -292,16 +292,16 @@ void BraveToolbarView::Init() {
+@@ -305,16 +305,16 @@ void BraveToolbarView::Init() {
    UpdateHorizontalPadding();
  }
  
@@ -68,7 +68,7 @@ index 9c898fac32696d14620c97a8d554ad63ea21d938..bb631f81eadd58d0070decfe0bd9bf81
  
  void BraveToolbarView::OnEditBookmarksEnabledChanged() {
    DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
-@@ -483,9 +483,9 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
+@@ -513,9 +513,9 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
  }
  
  void BraveToolbarView::UpdateAIChatButtonVisibility() {

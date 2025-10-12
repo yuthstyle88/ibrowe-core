@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/App/WebShell/ContentView.swift b/ios/brave-ios/App/WebShell/ContentView.swift
-index 632860d5572c65c658377acef052f8e00da2b91f..a1f9f9c322972137547a6793e06c27af5f859424 100644
+index 6d87d6c5fcb76fd6bec26a5ac38d2575558714a8..ec3fdb8517d45bee0c507f7fdd943e3617edf3bf 100644
 --- a/ios/brave-ios/App/WebShell/ContentView.swift
 +++ b/ios/brave-ios/App/WebShell/ContentView.swift
-@@ -182,7 +182,7 @@ struct ContentView: View {
+@@ -180,7 +180,7 @@ struct ContentView: View {
      )
      .onAppear {
        DispatchQueue.main.async {

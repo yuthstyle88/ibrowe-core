@@ -1,20 +1,13 @@
 diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-index 5cc9b5dbb2177689233f05e8b553bc1808c7332c..931769e87aae1f55060843849ebfc7c5f1360851 100644
+index 6416841cc80525f1621995aa3846566f107ec34b..7c42d8837d85f6cb351363c764a28b85dca104e9 100644
 --- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
 +++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-@@ -53,12 +53,12 @@ namespace {
- constexpr char16_t kBraveAccountSelfCustodyLearnMoreURL[] =
-     u"https://search.brave.com";
- constexpr char16_t kBraveAccountTermsOfServiceURL[] =
--    u"https://brave.com/terms-of-use/";
-+    u"https://ibrowe.com/terms-of-use/";
- constexpr char16_t kBraveAccountPrivacyAgreementURL[] =
--    u"https://brave.com/privacy/browser/";
-+    u"https://ibrowe.com/ibrowe-privacy";
+@@ -1222,7 +1222,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+   BraveAddEmailAliasesStrings(html_source);
+   BraveAddBraveAccountStrings(html_source);
  
- constexpr char16_t kWebRTCLearnMoreURL[] =
--    u"https://support.brave.com/hc/en-us/articles/"
-+    u"https://support.ibrowe.com/hc/en-us/articles/"
-     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
- constexpr char16_t kBraveBuildInstructionsUrl[] =
-     u"https://github.com/brave/brave-browser/wiki";
+-  // Load time data for brave://settings/extensions
++  // Load time data for ibrowe://settings/extensions
+   html_source->AddBoolean(
+       "signInAllowedOnNextStartupInitialValue",
+       profile->GetPrefs()->GetBoolean(prefs::kSigninAllowedOnNextStartup));

@@ -1,10 +1,13 @@
 diff --git a/build/config.gni b/build/config.gni
-index 2fed6ece5949bc2c94e6227a5361bc553dd08e8d..f6c9cf831beaabd809019c084694e4b05ac57d6c 100644
+index 97d218f8c5cc490c38a73e4272cce522b8f309b9..7f1f3cf518fcc87702329b38bef49dc400e2e736 100644
 --- a/build/config.gni
 +++ b/build/config.gni
-@@ -112,16 +112,16 @@ if (is_win) {
+@@ -104,18 +104,18 @@ if (is_win) {
+   if (target_cpu == "x86") {
+     _arch = "32"
    }
-   brave_installer_exe = "brave_installer.exe"
+-  brave_installer_exe = "brave_installer.exe"
++  brave_installer_exe = "ibrowe_installer.exe"
    brave_stub_installer_exe =
 -      "BraveBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
 +      "iBroweBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
@@ -24,7 +27,7 @@ index 2fed6ece5949bc2c94e6227a5361bc553dd08e8d..f6c9cf831beaabd809019c084694e4b0
                                   "Setup$_arch$brave_underline_full_version.exe"
  } else if (is_mac) {
    brave_exe = "$chrome_product_full_name.app"
-@@ -145,11 +145,11 @@ if (is_win) {
+@@ -139,11 +139,11 @@ if (is_win) {
      brave_product_dir_name_suffix = "-Development"
    }
    brave_product_dir_name =
@@ -34,11 +37,11 @@ index 2fed6ece5949bc2c94e6227a5361bc553dd08e8d..f6c9cf831beaabd809019c084694e4b0
    if (base_sparkle_update_url == "") {
      base_sparkle_update_url =
 -        "https://updates.bravesoftware.com/sparkle/Brave-Browser"
-+        "https://updates.ibrowesoftware.com/sparkle/iBrowe-Browser"
++        "https://updates.ibrowesoftware.com/sparkle/ibrowe-Browser"
    }
  }
  
-@@ -166,7 +166,7 @@ is_release_channel = brave_channel == ""
+@@ -160,7 +160,7 @@ is_release_channel = brave_channel == ""
  
  brave_android_output = ""
  if (is_android) {

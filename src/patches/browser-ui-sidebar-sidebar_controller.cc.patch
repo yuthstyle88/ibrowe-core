@@ -1,8 +1,8 @@
 diff --git a/browser/ui/sidebar/sidebar_controller.cc b/browser/ui/sidebar/sidebar_controller.cc
-index 71ed22a5187d5dd022b3bacdd8a124ed985eb5e3..c8275ed9ed5b2197c558413174733fa026ad633d 100644
+index 1478620edbe73bcff1ba6f5734e0e3e5cfd59391..d183d11b170c3b06ba88cdf30f797978de2b4ea2 100644
 --- a/browser/ui/sidebar/sidebar_controller.cc
 +++ b/browser/ui/sidebar/sidebar_controller.cc
-@@ -102,8 +102,7 @@ void SidebarController::ActivateItemAt(std::optional<size_t> index,
+@@ -107,8 +107,7 @@ void SidebarController::ActivateItemAt(std::optional<size_t> index,
    if (item.open_in_panel) {
      sidebar_model_->SetActiveIndex(index);
  

@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/fastlane/Fastfile b/ios/brave-ios/fastlane/Fastfile
-index 02b67bb25e4e996081644e6db11104516e2078c1..4e81ba3679209b1c15ac79b485326722bde3c87d 100644
+index fcfe54fc6a7217617eebf4070c1b8d5e18133833..057317390438fe86be1ec927ecab2e54a4bc1eb6 100644
 --- a/ios/brave-ios/fastlane/Fastfile
 +++ b/ios/brave-ios/fastlane/Fastfile
-@@ -32,13 +32,13 @@ platform :ios do
+@@ -38,13 +38,13 @@ platform :ios do
        export_options: {
          manageAppVersionAndBuildNumber: false,
          provisioningProfiles: {
@@ -23,7 +23,7 @@ index 02b67bb25e4e996081644e6db11104516e2078c1..4e81ba3679209b1c15ac79b485326722
          },
        }
      }
-@@ -53,13 +53,13 @@ platform :ios do
+@@ -59,13 +59,13 @@ platform :ios do
        export_options: {
          manageAppVersionAndBuildNumber: false,
          provisioningProfiles: {
@@ -44,7 +44,7 @@ index 02b67bb25e4e996081644e6db11104516e2078c1..4e81ba3679209b1c15ac79b485326722
          },
        }
      }
-@@ -74,13 +74,13 @@ platform :ios do
+@@ -80,13 +80,13 @@ platform :ios do
        export_options: {
          method: "app-store",
          provisioningProfiles: {

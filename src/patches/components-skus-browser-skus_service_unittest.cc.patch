@@ -1,8 +1,8 @@
 diff --git a/components/skus/browser/skus_service_unittest.cc b/components/skus/browser/skus_service_unittest.cc
-index 626a9c61dd2fabc3d72e78194ab4c290b6764e26..0f62e6612f9472ec2de24c0cd6779cf4d4c71c69 100644
+index 745380b1c2ef5c0995597a19020204dead90e3e9..0b5c986a642ac8523c32ca80f1e188e6481e9826 100644
 --- a/components/skus/browser/skus_service_unittest.cc
 +++ b/components/skus/browser/skus_service_unittest.cc
-@@ -311,9 +311,9 @@ TEST_F(SkusServiceTestUnitTest, CredentialSummaryFailed) {
+@@ -312,9 +312,9 @@ TEST_F(SkusServiceTestUnitTest, CredentialSummaryFailed) {
  
  TEST_F(SkusServiceTestUnitTest, CredentialSummaryWrongEnv) {
    base::Value::Dict state;

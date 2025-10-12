@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/scripts/xcode_scheme_preaction.sh b/ios/brave-ios/scripts/xcode_scheme_preaction.sh
-index b5abbe6c1e3f18ec87dc57ba3b7b039fd2d28ab5..c3180a60bdacacc47d5d9a7f49feac0650c0676f 100644
+index ab1d475b582f34a74d8829190253fc6721a1c3d0..1dc20261f816efeda508f812076223d0d3d39d49 100644
 --- a/ios/brave-ios/scripts/xcode_scheme_preaction.sh
 +++ b/ios/brave-ios/scripts/xcode_scheme_preaction.sh
 @@ -30,6 +30,10 @@ if [[ $RUN_CLANG_STATIC_ANALYZER = "NO" ]]; then

@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/App/Client.xcodeproj/project.pbxproj b/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
-index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd01151c43 100644
+index 1b763da35652feccbb13d86069e6a4d7894956a8..529d8c3033fbf9edc17bf5e07065106d230a71b1 100644
 --- a/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
 +++ b/ios/brave-ios/App/Client.xcodeproj/project.pbxproj
-@@ -1840,6 +1840,7 @@
+@@ -1833,6 +1833,7 @@
  				CODE_SIGN_ENTITLEMENTS = AutoFillProvider/Entitlements/AutoFillProvider.entitlements;
  				COPY_PHASE_STRIP = NO;
  				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -10,7 +10,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				ENABLE_USER_SCRIPT_SANDBOXING = YES;
  				GCC_C_LANGUAGE_STANDARD = gnu17;
  				GENERATE_INFOPLIST_FILE = NO;
-@@ -1854,6 +1855,7 @@
+@@ -1847,6 +1848,7 @@
  				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release AutoFill Provider";
@@ -18,7 +18,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SKIP_INSTALL = YES;
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -1965,7 +1967,7 @@
+@@ -1958,7 +1960,7 @@
  				MARKETING_VERSION = 1;
  				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
  				MTL_FAST_MATH = YES;
@@ -27,7 +27,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -2009,7 +2011,7 @@
+@@ -2002,7 +2004,7 @@
  				MARKETING_VERSION = 1;
  				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
  				MTL_FAST_MATH = YES;
@@ -36,7 +36,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -2051,7 +2053,7 @@
+@@ -2044,7 +2046,7 @@
  				);
  				MARKETING_VERSION = 1;
  				MTL_FAST_MATH = YES;
@@ -45,7 +45,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -2077,7 +2079,7 @@
+@@ -2070,7 +2072,7 @@
  				CURRENT_PROJECT_VERSION = 1.0;
  				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
  				DEVELOPMENT_ASSET_PATHS = "";
@@ -54,7 +54,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				ENABLE_PREVIEWS = YES;
  				ENABLE_USER_SCRIPT_SANDBOXING = YES;
  				GCC_C_LANGUAGE_STANDARD = gnu17;
-@@ -2094,7 +2096,7 @@
+@@ -2087,7 +2089,7 @@
  				);
  				MARKETING_VERSION = 1;
  				MTL_FAST_MATH = YES;
@@ -63,7 +63,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -2120,7 +2122,7 @@
+@@ -2113,7 +2115,7 @@
  				CURRENT_PROJECT_VERSION = 1.0;
  				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
  				DEVELOPMENT_ASSET_PATHS = "";
@@ -72,7 +72,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				ENABLE_PREVIEWS = YES;
  				ENABLE_USER_SCRIPT_SANDBOXING = YES;
  				GCC_C_LANGUAGE_STANDARD = gnu17;
-@@ -2137,7 +2139,7 @@
+@@ -2130,7 +2132,7 @@
  				);
  				MARKETING_VERSION = 1;
  				MTL_FAST_MATH = YES;
@@ -81,7 +81,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -2180,7 +2182,7 @@
+@@ -2173,7 +2175,7 @@
  				);
  				MARKETING_VERSION = 1;
  				MTL_FAST_MATH = YES;
@@ -90,7 +90,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -2285,12 +2287,15 @@
+@@ -2278,12 +2280,15 @@
  				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "windows 3d 80s aqua bat holo neon netscape supernova terminal popart popart-dark";
  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Local;
  				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOS/Entitlements/Debug (AppStore).entitlements";
@@ -106,7 +106,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SWIFT_VERSION = 5.0;
  			};
  			name = "Debug (AppStore)";
-@@ -2736,6 +2741,7 @@
+@@ -2729,6 +2734,7 @@
  				CLANG_WARN_UNREACHABLE_CODE = YES;
  				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
  				COPY_PHASE_STRIP = NO;
@@ -114,7 +114,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				ENABLE_NS_ASSERTIONS = NO;
  				ENABLE_STRICT_OBJC_MSGSEND = YES;
  				GCC_C_LANGUAGE_STANDARD = gnu11;
-@@ -2757,6 +2763,7 @@
+@@ -2750,6 +2756,7 @@
  				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Share Extension";
@@ -122,7 +122,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SKIP_INSTALL = YES;
  				SWIFT_COMPILATION_MODE = wholemodule;
  				SWIFT_OPTIMIZATION_LEVEL = "-O";
-@@ -2906,6 +2913,7 @@
+@@ -2899,6 +2906,7 @@
  				CODE_SIGN_ENTITLEMENTS = "BrowserIntents/Entitlements/BrowserIntentsRelease (AppStore).entitlements";
  				COPY_PHASE_STRIP = NO;
  				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -130,7 +130,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				GCC_C_LANGUAGE_STANDARD = gnu11;
  				INFOPLIST_FILE = BrowserIntents/Info.plist;
  				LD_RUNPATH_SEARCH_PATHS = (
-@@ -2917,6 +2925,7 @@
+@@ -2910,6 +2918,7 @@
  				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Intents Extension";
@@ -138,7 +138,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SKIP_INSTALL = YES;
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -3110,6 +3119,7 @@
+@@ -3103,6 +3112,7 @@
  				COPY_PHASE_STRIP = NO;
  				CURRENT_PROJECT_VERSION = "";
  				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -146,7 +146,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				GCC_C_LANGUAGE_STANDARD = gnu11;
  				GENERATE_INFOPLIST_FILE = NO;
  				INFOPLIST_FILE = BraveWireGuard/Info.plist;
-@@ -3124,6 +3134,7 @@
+@@ -3117,6 +3127,7 @@
  				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release WireGuard Extension";
@@ -154,7 +154,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SKIP_INSTALL = YES;
  				SWIFT_EMIT_LOC_STRINGS = NO;
  				SWIFT_VERSION = 5.0;
-@@ -3279,6 +3290,7 @@
+@@ -3272,6 +3283,7 @@
  				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
  				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
  				COPY_PHASE_STRIP = NO;
@@ -162,7 +162,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				GCC_C_LANGUAGE_STANDARD = gnu17;
  				GENERATE_INFOPLIST_FILE = NO;
  				INFOPLIST_FILE = ActionExtension/ActionExtension.plist;
-@@ -3288,6 +3300,7 @@
+@@ -3281,6 +3293,7 @@
  				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Action Extension";
@@ -170,7 +170,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SKIP_INSTALL = YES;
  				SWIFT_VERSION = 5.0;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -3440,6 +3453,7 @@
+@@ -3433,6 +3446,7 @@
  				CURRENT_PROJECT_VERSION = 1;
  				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
  				DEVELOPMENT_ASSET_PATHS = "$(SRCROOT)/BraveWidgets/Development\\ Assets";
@@ -178,7 +178,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				GCC_C_LANGUAGE_STANDARD = gnu11;
  				INFOPLIST_FILE = BraveWidgets/Info.plist;
  				LD_RUNPATH_SEARCH_PATHS = (
-@@ -3452,6 +3466,7 @@
+@@ -3445,6 +3459,7 @@
  				PRODUCT_BUNDLE_IDENTIFIER = "$(inherited).$(PRODUCT_NAME:rfc1034identifier)";
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				PROVISIONING_PROFILE_SPECIFIER = "Brave iOS Release Widgets Extension";
@@ -186,7 +186,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SDKROOT = iphoneos;
  				SKIP_INSTALL = YES;
  				SWIFT_VERSION = 5.0;
-@@ -3603,11 +3618,13 @@
+@@ -3596,11 +3611,13 @@
  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
  				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOS/Entitlements/Release (AppStore).entitlements";
  				DEVELOPMENT_ASSET_PATHS = "\"$(PROJECT_DIR)/../Sources/Brave/Frontend/Preview Content\"";
@@ -200,7 +200,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SWIFT_VERSION = 5.0;
  			};
  			name = "Release (AppStore)";
-@@ -3690,10 +3707,12 @@
+@@ -3683,10 +3700,12 @@
  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Nightly;
  				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOS/Entitlements/Nightly.entitlements";
  				DEVELOPMENT_ASSET_PATHS = "\"$(PROJECT_DIR)/../Sources/Brave/Frontend/Preview Content\"";
@@ -213,7 +213,7 @@ index 21a861ff3d12b0aa2ab8ee048dfd3c07fc902e41..4adb656022ba2bd7cb3e4d175ae2e4bd
  				SWIFT_VERSION = 5.0;
  			};
  			name = Nightly;
-@@ -3774,10 +3793,12 @@
+@@ -3767,10 +3786,12 @@
  				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Beta;
  				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/iOS/Entitlements/Beta.entitlements";
  				DEVELOPMENT_ASSET_PATHS = "\"$(PROJECT_DIR)/../Sources/Brave/Frontend/Preview Content\"";
