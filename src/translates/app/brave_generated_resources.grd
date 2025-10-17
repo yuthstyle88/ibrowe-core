@@ -181,11 +181,6 @@
 
       <!--Add new items to the appropriate sections below -->
 
-      <!-- Profile menu -->
-      <message name="IDS_PROFILE_MENU_BRAVE_PLACEHOLDER_PROFILE_NAME" desc="Placeholder profile name, used when the user did not enter a name for their profile.">
-        Personal
-      </message>
-
       <!-- App Menu -->
       <message name="IDS_SHOW_BRAVE_REWARDS" desc="The show iBrowe Rewards menu in the app menu">
         iBrowe Rewards
@@ -882,7 +877,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         Automatically send daily usage ping to iBrowe
       </message>
       <message name="IDS_BRAVE_STATS_USAGE_PING_SETTING_SUBITEM" desc="Description that shows under main toggle setting for usage pings">
-        This private ping lets iBrowe estimate active users
+        This private ping lets iBrowe estimate active users.
       </message>
 
       <!-- P3A -->
@@ -899,7 +894,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         Allow privacy-preserving product analytics (P3A)
       </message>
       <message name="IDS_BRAVE_P3A_ENABLE_SETTING_SUBITEM" desc="Description that shows under main toggle setting for P3A">
-        These private responses help iBrowe estimate the overall usage of certain features and make them better for you
+        These private responses help iBrowe estimate the overall usage of certain features and make them better for you.
       </message>
 
       <!-- Web3 detection -->
@@ -970,9 +965,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         <message name="IDS_CXMENU_OPEN_CONTAINERS_SETTINGS" desc="The label of the context menu item for opening the Containers settings page.">
           Manage containers
         </message>
-        <message name="IDS_TAB_CXMENU_RENAME_TAB" desc="The label of the tab context menu item for renaming a tab.">
-          Rename tab
-        </message>
       </if>
       <if expr="use_titlecase">
         <message name="IDS_TAB_CXMENU_BOOKMARK_ALL_TABS" desc="In Title Case: The label of the tab context menu item for creating a bookmark folder containing an entry for each open tab.">
@@ -1004,9 +996,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         </message>
         <message name="IDS_CXMENU_OPEN_CONTAINERS_SETTINGS" desc="The label of the tab context menu item for opening the Containers settings page.">
           Manage Containers
-        </message>
-        <message name="IDS_TAB_CXMENU_RENAME_TAB" desc="The label of the tab context menu item for renaming a tab.">
-          Rename Tab
         </message>
       </if>
 

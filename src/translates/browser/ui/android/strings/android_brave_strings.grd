@@ -476,12 +476,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_PREFS_SUPPORT_SECTION" desc="Title for the support section ">
         Support
       </message>
-      <message name="IDS_PREFS_SECTION_BRAVE_ACCOUNT" desc="Title for the iBrowe Account section in settings">
-        iBrowe Account
-      </message>
-      <message name="IDS_GET_STARTED" desc="Button text to get started with iBrowe Account">
-        Get started
-      </message>
       <message name="IDS_PREFS_SECTION_FEATURES" desc="Title for iBrowe-specific features section">
         Features
       </message>
@@ -2360,7 +2354,7 @@ Are you sure you want to do this?
     <message name="IDS_YEARLY_SUBSCRIPTION_AMOUNT" desc="iBrowe VPN plan text">
       <ph name="YEARLY_AMOUNT">%1$s</ph> /year
     </message>
-    <message name="IDS_BRAVE_SUBSCRIPTION_RENEWAL_TEXT" desc="iBrowe subscription renewal text">
+    <message name="IDS_BRAVE_VPN_RENEWAL_TEXT" desc="iBrowe VPN plan text">
       Subscriptions will be charged via your Google account. Any unused portion of the free trial, if offered, is forfeited when you buy a subscription.\n\nYour subscription will renew automatically unless it is canceled at least 24 hours before the end of the current period.\n\nYou can manage your subscriptions in Settings.\n\nBy using iBrowe, you agree to the Terms of Use and Privacy Policy.
     </message>
     <message name="IDS_ALREADY_PURCHASED" desc="iBrowe subscription plan page already purchased text">
@@ -2424,6 +2418,9 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_SERVER" desc="iBrowe VPN settings section title">
       Server
+    </message>
+    <message name="IDS_CHANGE_LOCATION" desc="iBrowe VPN settings section text">
+      Location
     </message>
     <message name="IDS_RESET_CONFIGURATION" desc="iBrowe VPN settings section text">
       Reset Configuration
@@ -3646,7 +3643,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_BRAVE_LEO_PREMIUM" desc="Title for iBrowe Leo plans dialog">
       Leo Premium
     </message>
-    <message name="IDS_ONE_YEAR_SUBSCRIPTION" desc="iBrowe Leo and Origin yearly plan text">
+    <message name="IDS_YEARLY_SUBSCRIPTION_LEO" desc="iBrowe Leo yearly plan text">
       One year
     </message>
     <message name="IDS_YEARLY_SUBSCRIPTION_LEO_BEST_VALUE" desc="iBrowe Leo yearly plan best value text">
@@ -4068,39 +4065,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_BRAVE_HOMEPAGE_MOBILE_BOOKMARKS_TEXT" desc="Text for `Mobile bookmarks` setting in `Homepage` settings">
       Mobile bookmarks
-    </message>
-    <message name="IDS_BRAVE_ORIGIN_PREMIUM" desc="Title for Origin Premium">
-      Origin
-    </message>
-    <message name="IDS_YEARLY_SUBSCRIPTION_AMOUNT_ORIGIN" desc="iBrowe Origin plan text">
-      <ph name="YEARLY_AMOUNT">%1$s</ph> /year
-    </message>
-    <message name="IDS_MONTHLY_SUBSCRIPTION_AMOUNT_ORIGIN" desc="iBrowe Origin plan text">
-      <ph name="MONTHLY_AMOUNT">%1$s</ph> /month
-    </message>
-    <message name="IDS_ORIGIN_SUBSCRIPTION_TRY_FREE_TRIAL" desc="Try free trial now button for iBrowe Origin subscription">
-      Try 7 days free
-    </message>
-    <message name="IDS_ORIGIN_PAYWALL_TEXT_1" desc="iBrowe Origin paywall text">
-      Support iBrowe's industry-leading work for Web privacy and open-source adblocking lists
-    </message>
-    <message name="IDS_ORIGIN_PAYWALL_TEXT_2" desc="iBrowe Origin paywall text">
-      Optimized for a more minimalist browser interface
-    </message>
-    <message name="IDS_ORIGIN_PAYWALL_TEXT_3" desc="iBrowe Origin paywall text">
-      A core of iBrowe Shields for adblock, privacy, and speed
-    </message>
-    <message name="IDS_ORIGIN_PAYWALL_TEXT_4" desc="iBrowe Origin paywall text">
-      Support for IT-managed policies at work
-    </message>
-    <message name="IDS_YEARLY_SUBSCRIPTION_BEST_VALUE" desc="iBrowe Origin yearly plan best value text">
-      best value
-    </message>
-    <message name="IDS_MONTHLY_SUBSCRIPTION_ORIGIN" desc="iBrowe Origin monthly subscription text">
-      Monthly subscription
-    </message>
-    <message name="IDS_LEARN_MORE_ABOUT_ORIGIN" desc="iBrowe Origin learn more about text">
-      Learn more about Origin
     </message>
     <!-- Password Manager backport -->
     <message name="IDS_PASSWORD_SETTINGS_SAVE_PASSWORDS" desc="Title for the checkbox toggling whether passwords are saved or not. [CHAR_LIMIT=32]">
