@@ -1,0 +1,21 @@
+diff --git a/components/brave_referrals/browser/file_extended_attribute_unittest.cc b/components/brave_referrals/browser/file_extended_attribute_unittest.cc
+index 954bac8fdf96ee8868a0eecb915c23868224457e..5ca11bca00bbad50c551bd1db466bf92d32c22fe 100644
+--- a/components/brave_referrals/browser/file_extended_attribute_unittest.cc
++++ b/components/brave_referrals/browser/file_extended_attribute_unittest.cc
+@@ -14,7 +14,7 @@
+ #include "testing/gtest/include/gtest/gtest.h"
+ 
+ namespace {
+-constexpr char kXattrName[] = "com.brave.refcode";
++constexpr char kXattrName[] = "com.ibrowe.refcode";
+ constexpr char kXattrValue[] = "0xDEADFACE";
+ }  // namespace
+ 
+@@ -55,6 +55,6 @@ TEST_F(BraveFileExtendedAttributeTest, GetNonexistentAttribute) {
+   std::vector<char> value;
+   // Test file does NOT have this extended attribute
+   int result_errno = brave::GetFileExtendedAttribute(
+-      test_file_path(), "com.brave.MadSheep", &value);
++      test_file_path(), "com.ibrowe.MadSheep", &value);
+   EXPECT_EQ(ENOATTR, result_errno);
+ }

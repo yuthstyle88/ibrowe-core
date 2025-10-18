@@ -1,0 +1,11 @@
+diff --git a/android/java/AndroidManifest_intent_filters.xml b/android/java/AndroidManifest_intent_filters.xml
+index a1e165a0f92d49a34e677ef407f9769040b7a0ad..78ba5c3a54e0c17c162be42866c6262384859642 100644
+--- a/android/java/AndroidManifest_intent_filters.xml
++++ b/android/java/AndroidManifest_intent_filters.xml
+@@ -16,5 +16,5 @@
+     <category android:name="android.intent.category.DEFAULT" />
+     <category android:name="android.intent.category.BROWSABLE" />
+     <data android:scheme="https"
+-          android:host="brave.com" />
++          android:host="ibrowe.com" />
+ </intent-filter>

@@ -1,8 +1,17 @@
 diff --git a/script/signing_helper.py b/script/signing_helper.py
-index 77f8cbb9ee00d4766243d6660f50f9d891ab932d..d61366322d6714447f7a3b255981282aab943dd0 100755
+index 77f8cbb9ee00d4766243d6660f50f9d891ab932d..6d676e973016bdd4747cb58e6a429719c5fee87c 100755
 --- a/script/signing_helper.py
 +++ b/script/signing_helper.py
-@@ -92,8 +92,8 @@ def BraveModifyPartsForSigning(parts, config):
+@@ -85,15 +85,15 @@ def BraveModifyPartsForSigning(parts, config):
+                                    | CodeSignOptions.HARDENED_RUNTIME)
+ 
+     if config.enable_updater:
+-        # The privileged helper is com.brave.Browser.UpdaterPrivilegedHelper.
++        # The privileged helper is com.ibrowe.Browser.UpdaterPrivilegedHelper.
+         # But the value here is
+-        # com.brave.Browser.<channel>.UpdaterPrivilegedHelper. This is because
++        # com.ibrowe.Browser.<channel>.UpdaterPrivilegedHelper. This is because
+         # our current branding logic treats each channel as a separate product.
          # We should instead use upstream's channel_customize mechanism.
          # See https://github.com/brave/brave-browser/issues/39347.
          privileged_helper = parts['privileged-helper']

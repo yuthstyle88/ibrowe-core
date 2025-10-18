@@ -1,0 +1,49 @@
+diff --git a/ios/brave-ios/Tests/ClientTests/AdBlockGroupsManagerTests.swift b/ios/brave-ios/Tests/ClientTests/AdBlockGroupsManagerTests.swift
+index a6ecc8c306fe36d4d7b4393266a6566a12dd1714..bce9f5d11745ead331970e25b840ee37ed104d38 100644
+--- a/ios/brave-ios/Tests/ClientTests/AdBlockGroupsManagerTests.swift
++++ b/ios/brave-ios/Tests/ClientTests/AdBlockGroupsManagerTests.swift
+@@ -116,7 +116,7 @@ final class AdBlockGroupsManagerTests: XCTestCase {
+     XCTAssertEqual(aggressiveGroup?.infos, [aggressiveFileInfo.filterListInfo])
+   }
+ 
+-  /// Partially testing expectations found in https://dev-pages.bravesoftware.com/filtering/index.html
++  /// Partially testing expectations found in https://dev-pages.ibrowesoftware.com/filtering/index.html
+   @MainActor func testBlocking() async throws {
+     AdblockEngine.setDomainResolver()
+ 
+@@ -173,7 +173,7 @@ final class AdBlockGroupsManagerTests: XCTestCase {
+     groupsManager.update(fileInfo: standardFileInfo)
+     await groupsManager.compileEnginesIfNeeded()
+ 
+-    let mainFrameURL = URL(string: "https://dev-pages.bravesoftware.com")!
++    let mainFrameURL = URL(string: "https://dev-pages.ibrowesoftware.com")!
+     let domain = await MainActor.run {
+       return Domain.getOrCreate(forUrl: mainFrameURL, persistent: false)
+     }
+@@ -181,7 +181,7 @@ final class AdBlockGroupsManagerTests: XCTestCase {
+     // Then
+     // Should have certian script types
+     let scriptTypes = await groupsManager.makeEngineScriptTypes(
+-      frameURL: URL(string: "https://dev-pages.bravesoftware.com/filtering/scriptlets.html")!,
++      frameURL: URL(string: "https://dev-pages.ibrowesoftware.com/filtering/scriptlets.html")!,
+       isMainFrame: true,
+       isDeAmpEnabled: false,
+       isAdBlockEnabled: true
+@@ -207,7 +207,7 @@ final class AdBlockGroupsManagerTests: XCTestCase {
+ 
+     // Should block certain 3rd party content
+     let sourceURL = URL(
+-      string: "https://dev-pages.bravesoftware.com/filtering/network-requests.html"
++      string: "https://dev-pages.ibrowesoftware.com/filtering/network-requests.html"
+     )!
+     let requestURL = URL(
+       string: "https://dev-pages.brave.software/static/images/test.jpg?335962573013224749"
+@@ -223,7 +223,7 @@ final class AdBlockGroupsManagerTests: XCTestCase {
+ 
+     // Should not block certain 1sd party content
+     let requestURL2 = URL(
+-      string: "https://dev-pages.bravesoftware.com/static/images/test.jpg?335962573013224749"
++      string: "https://dev-pages.ibrowesoftware.com/static/images/test.jpg?335962573013224749"
+     )!
+     blockResult = await groupsManager.shouldBlock(
+       requestURL: requestURL2,

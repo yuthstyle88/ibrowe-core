@@ -1,0 +1,13 @@
+diff --git a/tools/perf/components/android_tools.py b/tools/perf/components/android_tools.py
+index 58daf4af42b37e200de2f3fc0b4c835f18701c61..94ef6d17e97376086694dda0804f4ddc7459d502 100644
+--- a/tools/perf/components/android_tools.py
++++ b/tools/perf/components/android_tools.py
+@@ -101,7 +101,7 @@ def InstallApk(apk_path: str, expected_version: Optional[str]) -> str:
+   GetProcessOutput([
+       adb, 'shell',
+       ('ps -o NAME -A' +
+-       '| grep -e com.brave -e com.chrome -e com.chromium -e android.chrome' +
++       '| grep -e com.ibrowe -e com.chrome -e com.chromium -e android.chrome' +
+        '| xargs -r -n 1 am force-stop')
+   ],
+                    check=True)

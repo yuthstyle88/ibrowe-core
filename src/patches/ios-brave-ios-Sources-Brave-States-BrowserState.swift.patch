@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Brave/States/BrowserState.swift b/ios/brave-ios/Sources/Brave/States/BrowserState.swift
+index c7bc3368b30d67c795c90ae5bc8fe891b98809a3..6ba20602f7bd50f75344264c0516466ad9b5e9e4 100644
+--- a/ios/brave-ios/Sources/Brave/States/BrowserState.swift
++++ b/ios/brave-ios/Sources/Brave/States/BrowserState.swift
+@@ -7,7 +7,7 @@ import Foundation
+ import UIKit
+ 
+ public class BrowserState {
+-  public static let sceneId = "com.brave.ios.browser-scene"
++  public static let sceneId = "com.ibrowe.ios.browser-scene"
+ 
+   let window: UIWindow
+   let profile: LegacyBrowserProfile

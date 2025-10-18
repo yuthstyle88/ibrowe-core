@@ -1,5 +1,5 @@
 diff --git a/browser/ui/views/sidebar/sidebar_items_contents_view.cc b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
-index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc4ac1f529 100644
+index 09844d8439066988ad2539fb436ba5d97b9ce4c9..530888f5ad8a7550b9242802662caddb4e44d2fe 100644
 --- a/browser/ui/views/sidebar/sidebar_items_contents_view.cc
 +++ b/browser/ui/views/sidebar/sidebar_items_contents_view.cc
 @@ -155,14 +155,14 @@ void SidebarItemsContentsView::UpdateAllBuiltInItemsViewState() {
@@ -25,10 +25,12 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc
  
      UpdateItemViewStateAt(item_index, item_index == active_index);
    }
-@@ -512,19 +512,19 @@ void SidebarItemsContentsView::OnItemPressed(const views::View* item,
+@@ -510,22 +510,22 @@ void SidebarItemsContentsView::OnItemPressed(const views::View* item,
+     return;
+   }
  
-   const auto& item_model = controller->model()->GetAllSidebarItems()[*index];
-   if (item_model.open_in_panel) {
+-  const auto& item_model = controller->model()->GetAllSidebarItems()[*index];
+-  if (item_model.open_in_panel) {
 -    if (item_model.built_in_item_type ==
 -        sidebar::SidebarItem::BuiltInItemType::kChatUI) {
 -      auto* profile_metrics =
@@ -42,6 +44,9 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc
 -        }
 -      }
 -    }
+-    controller->ActivatePanelItem(item_model.built_in_item_type);
++  // const auto& item_model = controller->model()->GetAllSidebarItems()[*index];
++  // if (item_model.open_in_panel) {
 +    // if (item_model.built_in_item_type ==
 +    //     sidebar::SidebarItem::BuiltInItemType::kChatUI) {
 +    //   auto* profile_metrics =
@@ -55,9 +60,10 @@ index 09844d8439066988ad2539fb436ba5d97b9ce4c9..d0ff4fc3dc677823bddcc3718a9cfffc
 +    //     }
 +    //   }
 +    // }
-     controller->ActivatePanelItem(item_model.built_in_item_type);
++    // controller->ActivatePanelItem(item_model.built_in_item_type);
      return;
    }
+ 
 @@ -555,8 +555,8 @@ ui::ImageModel SidebarItemsContentsView::GetImageForBuiltInItems(
    switch (type) {
      case sidebar::SidebarItem::BuiltInItemType::kWallet:

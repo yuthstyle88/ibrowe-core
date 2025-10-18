@@ -1,0 +1,13 @@
+diff --git a/script/deps_config.py b/script/deps_config.py
+index d9ac5517034a64512ace7943f7ebc90232f21aaf..89c24d01e80dad0666b18511ec9b91e74160854e 100755
+--- a/script/deps_config.py
++++ b/script/deps_config.py
+@@ -9,7 +9,7 @@ import os
+ 
+ # Version number and URL for pre-configured rust dependency package
+ # e.g. rust_deps_mac_0.1.0.gz
+-DEPS_PACKAGES_URL = "https://brave-build-deps-public.s3.brave.com"
++DEPS_PACKAGES_URL = "https://brave-build-deps-public.s3.ibrowe.com"
+ DEPS_PACKAGES_INTERNAL_URL = "https://vhemnu34de4lf5cj6bx2wwshyy0egdxk.lambda-url.us-west-2.on.aws"  # pylint: disable=line-too-long
+ MAC_TOOLCHAIN_ROOT = os.path.join(os.path.dirname(os.path.dirname(
+                                   os.path.dirname(__file__))),

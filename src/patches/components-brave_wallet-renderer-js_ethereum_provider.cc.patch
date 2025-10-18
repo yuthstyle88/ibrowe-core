@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet/renderer/js_ethereum_provider.cc b/components/brave_wallet/renderer/js_ethereum_provider.cc
+index 654665286d5377ddbd506c7762a3c2c9e29bc42f..04f6ab972a896b1a7636cddbf09b97a0cbf308d8 100644
+--- a/components/brave_wallet/renderer/js_ethereum_provider.cc
++++ b/components/brave_wallet/renderer/js_ethereum_provider.cc
+@@ -710,7 +710,7 @@ void JSEthereumProvider::AnnounceProvider() {
+       render_frame()->GetWebFrame()->MainWorldScriptContext();
+ 
+   base::Value::Dict provider_info_value;
+-  provider_info_value.Set("rdns", "com.brave.wallet");
++  provider_info_value.Set("rdns", "com.ibrowe.wallet");
+   provider_info_value.Set("uuid", uuid_);
+   provider_info_value.Set(
+       "name", l10n_util::GetStringUTF8(IDS_WALLET_EIP6963_PROVIDER_NAME));

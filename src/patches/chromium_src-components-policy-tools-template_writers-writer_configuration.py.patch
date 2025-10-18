@@ -1,0 +1,13 @@
+diff --git a/chromium_src/components/policy/tools/template_writers/writer_configuration.py b/chromium_src/components/policy/tools/template_writers/writer_configuration.py
+index c2eb0c183e16945201f7ec15f567f8f698dafd5f..2ccd3f41d80cf15dac3e3b426fcb506f01a02e1d 100644
+--- a/chromium_src/components/policy/tools/template_writers/writer_configuration.py
++++ b/chromium_src/components/policy/tools/template_writers/writer_configuration.py
+@@ -38,7 +38,7 @@ _BRAVE_VALUES = {
+     },
+     'admx_prefix': 'brave',
+     'linux_policy_path': '/etc/brave/policies/',
+-    'bundle_id': 'com.brave.ios.core',
++    'bundle_id': 'com.ibrowe.ios.core',
+ }
+ 
+ def _merge_dicts(src, dst):

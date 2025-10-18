@@ -1,0 +1,29 @@
+diff --git a/browser/net/brave_network_audit_allowed_lists.h b/browser/net/brave_network_audit_allowed_lists.h
+index b827b398ef1d98620e1eef89a9d0917a157a42e2..ef01c339444f43a0af717b587820a74f7bf05e48 100644
+--- a/browser/net/brave_network_audit_allowed_lists.h
++++ b/browser/net/brave_network_audit_allowed_lists.h
+@@ -31,7 +31,7 @@ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
+     "https://crxdownload.brave.com/crx/blobs/",
+ 
+     // Omaha/Sparkle
+-    "https://updates.bravesoftware.com/",
++    "https://updates.ibrowesoftware.com/",
+ 
+     // stats/referrals
+     "https://usage-ping.brave.com/",
+@@ -43,13 +43,13 @@ inline constexpr auto kAllowedUrlPrefixes = std::to_array<std::string_view>({
+     "https://chrome.cloudflare-dns.com/dns-query",
+ 
+     // for fetching tor client updater component
+-    "https://tor.bravesoftware.com/",
++    "https://tor.ibrowesoftware.com/",
+ 
+     // brave sync v2 production
+     "https://sync-v2.brave.com/v2",
+ 
+     // brave sync v2 staging
+-    "https://sync-v2.bravesoftware.com/v2",
++    "https://sync-v2.ibrowesoftware.com/v2",
+ 
+     // brave sync v2 dev
+     "https://sync-v2.brave.software/v2",

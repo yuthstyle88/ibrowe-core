@@ -1,0 +1,13 @@
+diff --git a/tools/perf/perf_utils.py b/tools/perf/perf_utils.py
+index b585fb3bf3a4a19830faefa1126f716e014f1f38..b2462c6b6d647842e9e92b724f5add7f81b58390 100755
+--- a/tools/perf/perf_utils.py
++++ b/tools/perf/perf_utils.py
+@@ -26,7 +26,7 @@ def main():
+       '--preseve-service-hosts',
+       action='store_true',
+       default=False,
+-      help='Don\'t remove requests to the service hosts (i.e. rewards.brave.com)'
++      help='Don\'t remove requests to the service hosts (i.e. rewards.ibrowe.com)'
+   )
+   subparsers.add_parser('wpr-ls', help='List the content of WPR file.')
+   subparsers.add_parser(

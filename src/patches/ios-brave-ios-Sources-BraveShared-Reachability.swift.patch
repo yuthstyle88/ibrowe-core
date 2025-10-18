@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/BraveShared/Reachability.swift b/ios/brave-ios/Sources/BraveShared/Reachability.swift
+index 7e1c932075d9d1272037eeb8a3aded006ace634d..728cd3c44729384ab97bb41156ea4d873fdd5bf8 100644
+--- a/ios/brave-ios/Sources/BraveShared/Reachability.swift
++++ b/ios/brave-ios/Sources/BraveShared/Reachability.swift
+@@ -60,7 +60,7 @@ public class Reachability {
+   // MARK: - Private
+ 
+   private let monitor = NWPathMonitor()
+-  private let queue = DispatchQueue(label: "com.brave.network-reachability")
++  private let queue = DispatchQueue(label: "com.ibrowe.network-reachability")
+ 
+   private init() {
+     let type = ReachabilityType(path: monitor.currentPath)

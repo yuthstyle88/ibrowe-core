@@ -1,0 +1,13 @@
+diff --git a/test/data/brave_scheme_load.html b/test/data/brave_scheme_load.html
+index ceae3bfe427aa0881e1d775ef3b2777b7d02d96a..4efc3bf11477dceb001c083aed39560905c0f392 100644
+--- a/test/data/brave_scheme_load.html
++++ b/test/data/brave_scheme_load.html
+@@ -15,7 +15,7 @@
+   }
+ 
+   function replaceToBraveSettingsIndirectly() {
+-    w = window.open('https://brave.com');
++    w = window.open('https://ibrowe.com');
+     setTimeout(()=>{w.location.replace(url)},1000)
+   }
+ 

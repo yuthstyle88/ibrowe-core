@@ -1,0 +1,13 @@
+diff --git a/tools/perf/components/browser_type.py b/tools/perf/components/browser_type.py
+index be374c70b03d0bc775b7a5746b2ae53460c99939..871747e4e45c101fc5ef9e424b47fa5d1a3c1bad 100644
+--- a/tools/perf/components/browser_type.py
++++ b/tools/perf/components/browser_type.py
+@@ -158,7 +158,7 @@ class BraveBrowserTypeImpl(BrowserType):
+     if self.channel is not None:
+       app_name += '-' + self.channel
+     return os.path.join(os.path.expanduser('~'), 'AppData', 'Local',
+-                        'BraveSoftware', app_name, 'Application')
++                        'iBroweSoftware', app_name, 'Application')
+ 
+   def DownloadBrowserBinary(self, url: Optional[str], version: BraveVersion,
+                             out_dir: str, common_options: CommonOptions) -> str:

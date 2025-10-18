@@ -1,0 +1,22 @@
+diff --git a/tools/cr/brockit.py b/tools/cr/brockit.py
+index 427d573b7721e53e32f28eaf62a37b1a7e6a8f22..9ff9223e3cd6a6b126e1bb8a7cca8e8cda89bd26 100755
+--- a/tools/cr/brockit.py
++++ b/tools/cr/brockit.py
+@@ -198,7 +198,7 @@ GOOGLESOURCE_COMMIT_LINK = f'{versioning.GOOGLESOURCE_LINK}' '/+/{commit}'
+ 
+ # A basic url to the rust toolchain that can be used to check for the toolchain
+ # availability for a given version.
+-RUST_TOOLCHAIN_URL = 'https://brave-build-deps-public.s3.brave.com/rust-toolchain-aux/linux-x64-rust-toolchain-{revision}.tar.xz'
++RUST_TOOLCHAIN_URL = 'https://brave-build-deps-public.s3.ibrowe.com/rust-toolchain-aux/linux-x64-rust-toolchain-{revision}.tar.xz'
+ 
+ # Google dash link used to check the latest version for a given channel
+ CHROMIUMDASH_LATEST_RELEASE = 'https://chromiumdash.appspot.com/fetch_releases?channel={channel}&platform={platform}&num=1'
+@@ -1287,7 +1287,7 @@ class Upgrade(Versioned):
+         * The rust toolchain has been updated.
+             CL: Roll clang+rust llvmorg-21-init-1655-g7b473dfe-1 : llvmorg-2...
+                 https://chromium.googlesource.com/chromium/src/+/f9fada98083846
+-            Run the jobs in https://ci.brave.com/view/rust to generate a new...
++            Run the jobs in https://ci.ibrowe.com/view/rust to generate a new...
+ 
+     Returns:
+         True if all checks pass, and False otherwise.

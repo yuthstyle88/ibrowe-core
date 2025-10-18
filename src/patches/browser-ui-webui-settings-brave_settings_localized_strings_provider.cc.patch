@@ -1,0 +1,124 @@
+diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
+index 6eccaaf235ab88b070ab9fed66cef19aae1553eb..40c8c0845da991fb83e918a30edcd375338a2c1f 100644
+--- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
++++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
+@@ -52,9 +52,7 @@
+ #endif
+ 
+ namespace settings {
+-
+ namespace {
+-
+ constexpr char16_t kWebRTCLearnMoreURL[] =
+     u"https://support.brave.com/hc/en-us/articles/"
+     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
+@@ -227,7 +225,8 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+       {"appearanceSettingsTabsVerticalTabPosition",
+        IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_POSITION},
+       {"appearanceSettingsTabsVerticalTabExpandedStatePerWindow",
+-       IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_EXPANDED_STATE_PER_WINDOW},
++       IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_EXPANDED_STATE_PER_WINDOW}
++      ,
+       {"appearanceSettingsTabsVerticalTabShowScrollbar",
+        IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_TAB_VERTICAL_TAB_SHOW_SCROLLBAR},
+       {"appearanceSettingsTabsVerticalTabOnRight",
+@@ -268,7 +267,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+ #if BUILDFLAG(IS_MAC)
+       {"showToolbarInFullScreen", IDS_SHOW_TOOLBAR_IN_FULL_SCREEN},
+ #endif
+-  // Search settings
++      // Search settings
+ #if BUILDFLAG(ENABLE_EXTENSIONS)
+       {"braveWebDiscoveryLabel", IDS_SETTINGS_WEB_DISCOVERY_LABEL},
+       {"braveWebDiscoverySubLabel", IDS_SETTINGS_WEB_DISCOVERY_SUBLABEL},
+@@ -657,7 +656,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+       {"braveNewTabNewTabPageShows", IDS_SETTINGS_NEW_TAB_NEW_TAB_PAGE_SHOWS},
+       {"braveNewTabNewTabCustomizeWidgets",
+        IDS_SETTINGS_NEW_TAB_NEW_TAB_CUSTOMIZE_WIDGETS},
+-  // Pin shortcut page
++      // Pin shortcut page
+ #if BUILDFLAG(ENABLE_PIN_SHORTCUT)
+       {"canPinShortcut", IDS_SETTINGS_CAN_PIN_SHORTCUT},
+       {"pinShortcut", IDS_SETTINGS_PIN_SHORTCUT},
+@@ -1007,7 +1006,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+           google_util::AppendGoogleLocaleParam(
+               GURL(extension_urls::GetWebstoreExtensionsCategoryURL()),
+               g_browser_process->GetApplicationLocale())
+-              .spec()));
++          .spec()));
+   html_source->AddString("autoLockMinutesValue",
+                          base::NumberToString(profile->GetPrefs()->GetInteger(
+                              kBraveWalletAutoLockMinutes)));
+@@ -1069,7 +1068,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+       "extensionsV2Warn",
+       l10n_util::GetStringFUTF16(IDS_SETTINGS_MANAGE_EXTENSIONS_V2_WARN,
+                                  kExtensionsV2LearnMoreURL));
+-}  // NOLINT(readability/fn_size)
++} // NOLINT(readability/fn_size)
+ 
+ void BraveAddResources(content::WebUIDataSource* html_source,
+                        Profile* profile) {
+@@ -1079,11 +1078,15 @@ void BraveAddResources(content::WebUIDataSource* html_source,
+ void BraveAddAboutStrings(content::WebUIDataSource* html_source,
+                           Profile* profile) {
+   std::u16string license = l10n_util::GetStringFUTF16(
+-      IDS_BRAVE_VERSION_UI_LICENSE, kBraveLicenseUrl,
+-      chrome::kChromeUICreditsURL16, kBraveBuildInstructionsUrl,
++      IDS_BRAVE_VERSION_UI_LICENSE,
++      kBraveLicenseUrl, // $1
++      chrome::kChromeUICreditsURL16, // $2
++      kBraveBuildInstructionsUrl, // $3
+       kBraveReleaseTagPrefix +
+-          base::UTF8ToUTF16(
+-              version_info::GetBraveVersionWithoutChromiumMajorVersion()));
++      base::UTF8ToUTF16(
++          version_info::GetBraveVersionWithoutChromiumMajorVersion()), // $4
++      u"https://github.com/brave/brave-core" // $5 ✅
++      );
+   html_source->AddString("aboutProductLicense", license);
+ }
+ 
+@@ -1196,8 +1199,7 @@ void BraveAddBraveAccountStrings(content::WebUIDataSource* html_source) {
+ 
+   html_source->AddLocalizedStrings(localized_strings);
+ }
+-
+-}  // namespace
++} // namespace
+ 
+ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+                               Profile* profile) {
+@@ -1231,7 +1233,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+       profile->GetPrefs()->GetBoolean(kBraveTalkDisabledByPolicy));
+ 
+   if (base::FeatureList::IsEnabled(
+-          net::features::kBraveFirstPartyEphemeralStorage)) {
++      net::features::kBraveFirstPartyEphemeralStorage)) {
+     const webui::LocalizedString kSessionOnlyToEphemeralStrings[] = {
+         {"cookiePageSessionOnlyExceptions",
+          IDS_SETTINGS_COOKIES_USE_EPHEMERAL_STORAGE_EXCEPTIONS},
+@@ -1290,7 +1292,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+       "cookieFileSystem",
+       l10n_util::GetStringUTF16(IDS_SETTINGS_COOKIES_FILE_SYSTEM));
+   html_source->AddString("cookieFlashLso", l10n_util::GetStringUTF16(
+-                                               IDS_SETTINGS_COOKIES_FLASH_LSO));
++                             IDS_SETTINGS_COOKIES_FLASH_LSO));
+   html_source->AddString(
+       "cookieLocalStorage",
+       l10n_util::GetStringUTF16(IDS_SETTINGS_COOKIES_LOCAL_STORAGE));
+@@ -1353,7 +1355,7 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+                              IDS_SETTINGS_COOKIES_LOCAL_STORAGE_ORIGIN_LABEL));
+   html_source->AddString(
+       "quotaSize", l10n_util::GetStringUTF16(
+-                       IDS_SETTINGS_COOKIES_LOCAL_STORAGE_SIZE_ON_DISK_LABEL));
++          IDS_SETTINGS_COOKIES_LOCAL_STORAGE_SIZE_ON_DISK_LABEL));
+   html_source->AddString("serviceWorkerOrigin",
+                          l10n_util::GetStringUTF16(
+                              IDS_SETTINGS_COOKIES_LOCAL_STORAGE_ORIGIN_LABEL));
+@@ -1380,5 +1382,4 @@ void BraveAddLocalizedStrings(content::WebUIDataSource* html_source,
+                              IDS_SETTINGS_PLAYLIST_CACHE_BY_DEFAULT_SUB_LABEL));
+ #endif
+ }
+-
+-}  // namespace settings
++} // namespace settings
