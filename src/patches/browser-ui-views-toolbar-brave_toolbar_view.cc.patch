@@ -1,11 +1,27 @@
 diff --git a/browser/ui/views/toolbar/brave_toolbar_view.cc b/browser/ui/views/toolbar/brave_toolbar_view.cc
-index 131954528aa7dfadaaf4efcbd4674366635c45d3..d742fd1bd87fea7a3fdb428349277ce1a61a9235 100644
+index 4d6c31ef0c5ae0c3aea731c3999c2d2753a7d1cb..af1102d61e6149fedc522213b638463c8de640f9 100644
 --- a/browser/ui/views/toolbar/brave_toolbar_view.cc
 +++ b/browser/ui/views/toolbar/brave_toolbar_view.cc
-@@ -278,22 +278,22 @@ void BraveToolbarView::Init() {
-     UpdateAIChatButtonVisibility();
-   }
+@@ -264,38 +264,38 @@ void BraveToolbarView::Init() {
  
+   // Don't check policy status since we're going to
+   // setup a watcher for policy pref.
+-  if (ai_chat::IsAllowedForContext(browser_->profile(), false)) {
+-    ai_chat_button_ = container_view->AddChildViewAt(
+-        std::make_unique<AIChatButton>(browser()),
+-        *container_view->GetIndexOf(GetAppMenuButton()) - 1);
+-    show_ai_chat_button_.Init(
+-        ai_chat::prefs::kBraveAIChatShowToolbarButton,
+-        browser_->profile()->GetPrefs(),
+-        base::BindRepeating(&BraveToolbarView::UpdateAIChatButtonVisibility,
+-                            base::Unretained(this)));
+-    hide_ai_chat_button_by_policy_.Init(
+-        ai_chat::prefs::kEnabledByPolicy, profile->GetPrefs(),
+-        base::BindRepeating(&BraveToolbarView::UpdateAIChatButtonVisibility,
+-                            base::Unretained(this)));
+-    UpdateAIChatButtonVisibility();
+-  }
+-
 -#if BUILDFLAG(ENABLE_BRAVE_VPN)
 -  if (brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
 -    brave_vpn_ = container_view->AddChildViewAt(
@@ -22,6 +38,22 @@ index 131954528aa7dfadaaf4efcbd4674366635c45d3..d742fd1bd87fea7a3fdb428349277ce1
 -    brave_vpn_->SetVisible(IsBraveVPNButtonVisible());
 -  }
 -#endif
++  // if (ai_chat::IsAllowedForContext(browser_->profile(), false)) {
++  //   ai_chat_button_ = container_view->AddChildViewAt(
++  //       std::make_unique<AIChatButton>(browser()),
++  //       *container_view->GetIndexOf(GetAppMenuButton()) - 1);
++  //   show_ai_chat_button_.Init(
++  //       ai_chat::prefs::kBraveAIChatShowToolbarButton,
++  //       browser_->profile()->GetPrefs(),
++  //       base::BindRepeating(&BraveToolbarView::UpdateAIChatButtonVisibility,
++  //                           base::Unretained(this)));
++  //   hide_ai_chat_button_by_policy_.Init(
++  //       ai_chat::prefs::kEnabledByPolicy, profile->GetPrefs(),
++  //       base::BindRepeating(&BraveToolbarView::UpdateAIChatButtonVisibility,
++  //                           base::Unretained(this)));
++  //   UpdateAIChatButtonVisibility();
++  // }
++
 +//#if BUILDFLAG(ENABLE_BRAVE_VPN)
 +//  if (brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
 +//    brave_vpn_ = container_view->AddChildViewAt(
@@ -41,7 +73,7 @@ index 131954528aa7dfadaaf4efcbd4674366635c45d3..d742fd1bd87fea7a3fdb428349277ce1
  
    // Make sure that avatar button should be located right before the app menu.
    if (auto* avatar = GetAvatarToolbarButton()) {
-@@ -305,16 +305,16 @@ void BraveToolbarView::Init() {
+@@ -307,16 +307,16 @@ void BraveToolbarView::Init() {
    UpdateHorizontalPadding();
  }
  
@@ -68,16 +100,20 @@ index 131954528aa7dfadaaf4efcbd4674366635c45d3..d742fd1bd87fea7a3fdb428349277ce1
  
  void BraveToolbarView::OnEditBookmarksEnabledChanged() {
    DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
-@@ -513,9 +513,9 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
+@@ -509,11 +509,11 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
+   }
  }
  
- void BraveToolbarView::UpdateAIChatButtonVisibility() {
+-void BraveToolbarView::UpdateAIChatButtonVisibility() {
 -  bool should_show = ai_chat::IsAllowedForContext(browser()->profile()) &&
 -                     show_ai_chat_button_.GetValue();
 -  ai_chat_button_->SetVisible(should_show);
-+//  bool should_show = ai_chat::IsAllowedForContext(browser()->profile()) &&
-+ //                    show_ai_chat_button_.GetValue();
-+  ai_chat_button_->SetVisible(false);
- }
+-}
++// void BraveToolbarView::UpdateAIChatButtonVisibility() {
++// //  bool should_show = ai_chat::IsAllowedForContext(browser()->profile()) &&
++//  //                    show_ai_chat_button_.GetValue();
++//   ai_chat_button_->SetVisible(false);
++// }
  
  void BraveToolbarView::UpdateWalletButtonVisibility() {
+   Profile* profile = browser()->profile();

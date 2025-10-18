@@ -1,8 +1,8 @@
 diff --git a/browser/net/brave_ad_block_tp_network_delegate_helper_unittest.cc b/browser/net/brave_ad_block_tp_network_delegate_helper_unittest.cc
-index ae2f8ff618d61f79422f37a01d3ef0355fa58e3a..c322eb4d1493fd2e8e659e9403c6247b32502309 100644
+index ebcf69d3f1d523f38955bd721535a7742fb93693..81f5aa561ce393b4ec3d31c341b74f18e49b0a98 100644
 --- a/browser/net/brave_ad_block_tp_network_delegate_helper_unittest.cc
 +++ b/browser/net/brave_ad_block_tp_network_delegate_helper_unittest.cc
-@@ -210,7 +210,7 @@ TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, SimpleBlocking) {
+@@ -215,7 +215,7 @@ TEST_F(BraveAdBlockTPNetworkDelegateHelperTest, SimpleBlocking) {
    auto request_info = std::make_shared<brave::BraveRequestInfo>(url);
    request_info->request_identifier = 1;
    request_info->resource_type = blink::mojom::ResourceType::kScript;

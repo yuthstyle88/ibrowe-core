@@ -1,8 +1,48 @@
 diff --git a/components/brave_vpn/common/brave_vpn_utils.cc b/components/brave_vpn/common/brave_vpn_utils.cc
-index 5126e09e8401c0a4e1cf5d3a451e3e5c6f1dd60a..0cdc31f4383be35bd382f412834c5c56eee327b2 100644
+index 5126e09e8401c0a4e1cf5d3a451e3e5c6f1dd60a..7159ae82359de01ca0b9e1f5af9e8fcc0a6df0d3 100644
 --- a/components/brave_vpn/common/brave_vpn_utils.cc
 +++ b/components/brave_vpn/common/brave_vpn_utils.cc
-@@ -153,7 +153,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
+@@ -48,9 +48,9 @@ void RegisterVPNLocalStatePrefs(PrefRegistrySimple* registry) {
+   registry->RegisterTimePref(prefs::kBraveVPNLastCredentialExpiry, {});
+   registry->RegisterBooleanPref(prefs::kBraveVPNLocalStateMigrated, false);
+   registry->RegisterTimePref(prefs::kBraveVPNSessionExpiredDate, {});
+-#if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
+-  registry->RegisterBooleanPref(prefs::kBraveVPNWireguardEnabled, false);
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
++//   registry->RegisterBooleanPref(prefs::kBraveVPNWireguardEnabled, false);
++// #endif
+ #if BUILDFLAG(IS_MAC)
+   registry->RegisterBooleanPref(prefs::kBraveVPNOnDemandEnabled, false);
+ #endif
+@@ -112,16 +112,17 @@ bool IsBraveVPNWireguardEnabled(PrefService* local_state) {
+     return false;
+   }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
+-  auto enabled = local_state->GetBoolean(prefs::kBraveVPNWireguardEnabled);
+-#if BUILDFLAG(IS_MAC)
+-  enabled = enabled && base::FeatureList::IsEnabled(
+-                           brave_vpn::features::kBraveVPNEnableWireguardForOSX);
+-#endif  // BUILDFLAG(IS_MAC)
+-  return enabled;
+-#else
++// #if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
++//   auto enabled = local_state->GetBoolean(prefs::kBraveVPNWireguardEnabled);
++// #if BUILDFLAG(IS_MAC)
++//   enabled = enabled && base::FeatureList::IsEnabled(
++//                            brave_vpn::features::kBraveVPNEnableWireguardForOSX);
++// #endif  // BUILDFLAG(IS_MAC)
++//   return enabled;
++// #else
++//   return false;
++// #endif
+   return false;
+-#endif
+ }
+ 
+ #if BUILDFLAG(IS_WIN)
+@@ -153,7 +154,7 @@ GURL GetManageURLForUIType(mojom::ManageURLType type, const GURL& manage_url) {
        return manage_url.ReplaceComponents(replacements);
      }
      case mojom::ManageURLType::PRIVACY:
@@ -11,7 +51,7 @@ index 5126e09e8401c0a4e1cf5d3a451e3e5c6f1dd60a..0cdc31f4383be35bd382f412834c5c56
      case mojom::ManageURLType::ABOUT:
        return GURL(brave_vpn::kAboutUrl);
      case mojom::ManageURLType::MANAGE:
-@@ -265,7 +265,7 @@ std::string GetManageUrl(const std::string& env) {
+@@ -265,7 +266,7 @@ std::string GetManageUrl(const std::string& env) {
  }
  
  // On desktop, the environment is tied to SKUs because you would purchase it

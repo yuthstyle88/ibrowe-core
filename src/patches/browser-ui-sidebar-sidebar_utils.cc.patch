@@ -1,7 +1,18 @@
 diff --git a/browser/ui/sidebar/sidebar_utils.cc b/browser/ui/sidebar/sidebar_utils.cc
-index 2862ba0ef14662643bc28d80d5192f0f8b3ff149..7e6d20ad915da271812a920857e5d3892f54e62e 100644
+index 2862ba0ef14662643bc28d80d5192f0f8b3ff149..a80c32e12ba3da6110775d5a2036dfacfaec28c5 100644
 --- a/browser/ui/sidebar/sidebar_utils.cc
 +++ b/browser/ui/sidebar/sidebar_utils.cc
+@@ -94,8 +94,8 @@ GURL ConvertURLToBuiltInItemURL(const GURL& url) {
+   if (url == GURL(chrome::kChromeUIBookmarksURL))
+     return GURL(chrome::kChromeUIBookmarksSidePanelURL);
+ 
+-  if (url.host() == kBraveTalkHost)
+-    return GURL(kBraveTalkURL);
++  // if (url.host() == kBraveTalkHost)
++  //   return GURL(kBraveTalkURL);
+ 
+   if (url.SchemeIs(content::kChromeUIScheme) && url.host() == kWalletPageHost) {
+     return GURL(kBraveUIWalletPageURL);
 @@ -134,12 +134,12 @@ SidePanelEntryId SidePanelIdFromSideBarItemType(BuiltInItemType type) {
        return SidePanelEntryId::kBookmarks;
      case BuiltInItemType::kPlaylist:

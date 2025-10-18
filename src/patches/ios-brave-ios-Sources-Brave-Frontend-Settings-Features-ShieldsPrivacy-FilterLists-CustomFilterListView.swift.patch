@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Settings/Features/ShieldsPrivacy/FilterLists/CustomFilterListView.swift b/ios/brave-ios/Sources/Brave/Frontend/Settings/Features/ShieldsPrivacy/FilterLists/CustomFilterListView.swift
-index 70d4b012f739dadd91294c3c8ee141518bc23d3a..61268ec7481cc7f9f0c3aa1bd1c0fc5874805e4f 100644
+index 90828844c86abe2ff36bf6be0c3b6606ca1f9465..d7041b751217d9c037ec4f7ab6a4edc72b5621d6 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Settings/Features/ShieldsPrivacy/FilterLists/CustomFilterListView.swift
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Settings/Features/ShieldsPrivacy/FilterLists/CustomFilterListView.swift
-@@ -179,8 +179,8 @@ struct CustomFilterListView: View {
+@@ -169,8 +169,8 @@ struct CustomFilterListView: View {
        ! Hide the header on example.com (CF Test)
        example.com,example.net##h1
  

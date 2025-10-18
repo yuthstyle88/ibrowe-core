@@ -1,8 +1,21 @@
 diff --git a/browser/ui/brave_pages.cc b/browser/ui/brave_pages.cc
-index b84410163a911dd31a3744c0bddbb8edb96fb9bd..a553974fb0362be19102d8ee7c2170aa6523f7b0 100644
+index b84410163a911dd31a3744c0bddbb8edb96fb9bd..ee4fe005cfd104dfcc5e4bafd8405308ba37f89c 100644
 --- a/browser/ui/brave_pages.cc
 +++ b/browser/ui/brave_pages.cc
-@@ -36,7 +36,7 @@ void ShowSync(Browser* browser) {
+@@ -21,9 +21,9 @@
+ 
+ namespace brave {
+ 
+-void ShowBraveRewards(Browser* browser) {
+-  ShowSingletonTabOverwritingNTP(browser, GURL(kRewardsPageURL));
+-}
++// void ShowBraveRewards(Browser* browser) {
++//   ShowSingletonTabOverwritingNTP(browser, GURL(kRewardsPageURL));
++// }
+ 
+ void ShowBraveAdblock(Browser* browser) {
+   ShowSingletonTabOverwritingNTP(browser, GURL(kBraveUIAdblockURL));
+@@ -36,23 +36,23 @@ void ShowSync(Browser* browser) {
  
  void ShowBraveNewsConfigure(Browser* browser) {
    ShowSingletonTabOverwritingNTP(
@@ -11,3 +24,28 @@ index b84410163a911dd31a3744c0bddbb8edb96fb9bd..a553974fb0362be19102d8ee7c2170aa
  }
  
  void ShowShortcutsPage(Browser* browser) {
+   ShowSingletonTabOverwritingNTP(browser, GURL(kShortcutsURL));
+ }
+ 
+-void ShowBraveTalk(Browser* browser) {
+-  ShowSingletonTabOverwritingNTP(browser, GURL(sidebar::kBraveTalkURL));
+-}
++// void ShowBraveTalk(Browser* browser) {
++//   ShowSingletonTabOverwritingNTP(browser, GURL(sidebar::kBraveTalkURL));
++// }
+ 
+-void ShowFullpageChat(Browser* browser) {
+-  if (!ai_chat::features::IsAIChatHistoryEnabled()) {
+-    return;
+-  }
+-  ShowSingletonTabOverwritingNTP(browser, GURL(kAIChatUIURL));
+-}
++// void ShowFullpageChat(Browser* browser) {
++//   if (!ai_chat::features::IsAIChatHistoryEnabled()) {
++//     return;
++//   }
++//   ShowSingletonTabOverwritingNTP(browser, GURL(kAIChatUIURL));
++// }
+ 
+ void ShowWebcompatReporter(Browser* browser) {
+   content::WebContents* web_contents =

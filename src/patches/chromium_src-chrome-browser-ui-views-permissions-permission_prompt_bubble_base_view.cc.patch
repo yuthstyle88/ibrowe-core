@@ -1,8 +1,8 @@
 diff --git a/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc b/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc
-index a7922d3ccc58e0b6b6753cb118f33182d8fcb690..accb1322c11a92b958d7746b78ecb278dad6c995 100644
+index 2ff156006b499111c3697a5aa60abbd79cab1f75..fef7890c71dfd1c080eaf51cb28f2d0cc718592c 100644
 --- a/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc
 +++ b/chromium_src/chrome/browser/ui/views/permissions/permission_prompt_bubble_base_view.cc
-@@ -69,7 +69,7 @@ constexpr char kGeolocationPermissionLearnMoreURL[] =
+@@ -68,7 +68,7 @@ constexpr char kGeolocationPermissionLearnMoreURL[] =
      "allow-apps-to-detect-the-location-of-your-mac-mh35873/mac";
  #else
      // Not used now. Set proper link when detailed bubble is enabled on linux.

@@ -1,8 +1,8 @@
 diff --git a/components/brave_welcome_ui/components/help-improve/index.tsx b/components/brave_welcome_ui/components/help-improve/index.tsx
-index 9ee335f51e30f37afb3e25138fa1572b51652aee..40c049c117f4d7f0745f50abe9cb79ae5aaa90c6 100644
+index cd277dfb6330df4ff22c9181653304c90ea499dc..50a5db1c3f33fc7729448dec44fa8a8bb8c28d84 100644
 --- a/components/brave_welcome_ui/components/help-improve/index.tsx
 +++ b/components/brave_welcome_ui/components/help-improve/index.tsx
-@@ -19,7 +19,7 @@ interface InputCheckboxProps {
+@@ -18,7 +18,7 @@ interface InputCheckboxProps {
  }
  
  const changeSettingsNote = formatLocale('braveWelcomeChangeSettingsNote', {

@@ -1,8 +1,8 @@
 diff --git a/components/sidebar/browser/sidebar_service_unittest.cc b/components/sidebar/browser/sidebar_service_unittest.cc
-index 2d360fcce93445f0f00b21b022a3e6317bdc2ab1..fe8c9b20a73fcf9c4fe54e18150c794413c77b2b 100644
+index f87b28cc25dd2229f5ea413fce50353823a7fb7a..ac9fd291e151c548cc6ac42f2f10077254cab67b 100644
 --- a/components/sidebar/browser/sidebar_service_unittest.cc
 +++ b/components/sidebar/browser/sidebar_service_unittest.cc
-@@ -804,8 +804,8 @@ TEST_F(SidebarServiceTest, BuiltInItemUpdateTestWithBuiltInItemTypeKey) {
+@@ -799,8 +799,8 @@ TEST_F(SidebarServiceTest, BuiltInItemUpdateTestWithBuiltInItemTypeKey) {
      dict.Set(sidebar::kSidebarItemTitleKey, "Brave together");
      dict.Set(sidebar::kSidebarItemTypeKey,
               static_cast<int>(SidebarItem::Type::kTypeBuiltIn));
@@ -13,7 +13,7 @@ index 2d360fcce93445f0f00b21b022a3e6317bdc2ab1..fe8c9b20a73fcf9c4fe54e18150c7944
      dict.Set(sidebar::kSidebarItemOpenInPanelKey, true);
      base::Value::List list;
      list.Append(std::move(dict));
-@@ -1017,7 +1017,8 @@ TEST_F(SidebarServiceOrderingTest, BuiltInItemsDefaultOrder) {
+@@ -1012,7 +1012,8 @@ TEST_F(SidebarServiceOrderingTest, BuiltInItemsDefaultOrder) {
    EXPECT_EQ(0UL, service_->GetHiddenDefaultSidebarItems().size());
  
    EXPECT_TRUE(
@@ -23,7 +23,7 @@ index 2d360fcce93445f0f00b21b022a3e6317bdc2ab1..fe8c9b20a73fcf9c4fe54e18150c7944
                                      SidebarItem::BuiltInItemType::kWallet,
                                      SidebarItem::BuiltInItemType::kChatUI,
                                      SidebarItem::BuiltInItemType::kBookmarks,
-@@ -1038,7 +1039,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAllBuiltInVisible) {
+@@ -1033,7 +1034,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAllBuiltInVisible) {
        SidebarItem::BuiltInItemType::kWallet,
        SidebarItem::BuiltInItemType::kReadingList,
        SidebarItem::BuiltInItemType::kBookmarks,
@@ -32,7 +32,7 @@ index 2d360fcce93445f0f00b21b022a3e6317bdc2ab1..fe8c9b20a73fcf9c4fe54e18150c7944
    };
  
    auto expected_count = sidebar_items->size();
-@@ -1058,7 +1059,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsWalletBuiltInHidden) {
+@@ -1053,7 +1054,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsWalletBuiltInHidden) {
    CHECK(sidebar_items);
  
    std::vector items = {
@@ -41,7 +41,7 @@ index 2d360fcce93445f0f00b21b022a3e6317bdc2ab1..fe8c9b20a73fcf9c4fe54e18150c7944
        SidebarItem::BuiltInItemType::kBookmarks,
        SidebarItem::BuiltInItemType::kReadingList,
        SidebarItem::BuiltInItemType::kChatUI,
-@@ -1085,7 +1086,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAIChatBuiltInNotListed) {
+@@ -1080,7 +1081,7 @@ TEST_F(SidebarServiceOrderingTest, LoadFromPrefsAIChatBuiltInNotListed) {
    CHECK(sidebar_items);
  
    std::vector items = {

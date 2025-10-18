@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
-index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df373459c13e 100644
+index 0ff0859d775bc5ef7bcf6d06fb6b8e4703faca2f..1d192bf2381687380874805769110ff52b6cc424 100644
 --- a/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
 +++ b/ios/brave-ios/Sources/AIChat/AIChatStrings.swift
 @@ -177,7 +177,7 @@ extension Strings {
@@ -20,7 +20,7 @@ index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df37
        comment: "The subtitle for intro view"
      )
      public static let chatIntroWebsiteHelpTitle = NSLocalizedString(
-@@ -640,15 +640,15 @@ extension Strings {
+@@ -624,15 +624,15 @@ extension Strings {
        "aichat.advancedSettingsLinkPurchaseActionTitle",
        tableName: "BraveLeo",
        bundle: .module,
@@ -40,7 +40,7 @@ index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df37
      )
      public static let advancedSettingsSubscriptionHeaderTitle = NSLocalizedString(
        "aichat.advancedSettingsSubscriptionHeaderTitle",
-@@ -802,7 +802,7 @@ extension Strings {
+@@ -786,7 +786,7 @@ extension Strings {
        "aichat.termsConditionsTitle",
        tableName: "BraveLeo",
        bundle: .module,
@@ -49,7 +49,7 @@ index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df37
        comment: "The title terms and conditions for AI chat usage"
      )
      public static let termsConditionsDescription = NSLocalizedString(
-@@ -819,14 +819,14 @@ extension Strings {
+@@ -803,14 +803,14 @@ extension Strings {
        tableName: "BraveLeo",
        bundle: .module,
        value: "I Understand",
@@ -66,7 +66,7 @@ index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df37
        comment:
          "The title for premium ad view. The links are inside parenthesis and the phrases inside square brackets should be translated"
      )
-@@ -834,7 +834,7 @@ extension Strings {
+@@ -818,7 +818,7 @@ extension Strings {
        "aichat.speechRecognizerDisclaimer",
        tableName: "BraveLeo",
        bundle: .module,
@@ -75,7 +75,7 @@ index a1ee53c7ade719696d1829407879ada56707f041..5d90685e40ee2b8ed404ee432da5df37
        comment:
          "The description indicating voice inputs from user is not store or shared and these inpurs are totally private."
      )
-@@ -1088,7 +1088,7 @@ extension Strings {
+@@ -1072,7 +1072,7 @@ extension Strings {
        tableName: "BraveLeo",
        bundle: .module,
        value:

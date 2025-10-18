@@ -1,8 +1,8 @@
 diff --git a/build/config.gni b/build/config.gni
-index 97d218f8c5cc490c38a73e4272cce522b8f309b9..7f1f3cf518fcc87702329b38bef49dc400e2e736 100644
+index c4545e965fc5733b7df334c369ecb8a9c335b0d9..618119a173e1df52d77a95f02f943a7fa06b2df4 100644
 --- a/build/config.gni
 +++ b/build/config.gni
-@@ -104,18 +104,18 @@ if (is_win) {
+@@ -109,18 +109,18 @@ if (is_win) {
    if (target_cpu == "x86") {
      _arch = "32"
    }
@@ -27,7 +27,7 @@ index 97d218f8c5cc490c38a73e4272cce522b8f309b9..7f1f3cf518fcc87702329b38bef49dc4
                                   "Setup$_arch$brave_underline_full_version.exe"
  } else if (is_mac) {
    brave_exe = "$chrome_product_full_name.app"
-@@ -139,11 +139,11 @@ if (is_win) {
+@@ -144,11 +144,11 @@ if (is_win) {
      brave_product_dir_name_suffix = "-Development"
    }
    brave_product_dir_name =
@@ -41,7 +41,7 @@ index 97d218f8c5cc490c38a73e4272cce522b8f309b9..7f1f3cf518fcc87702329b38bef49dc4
    }
  }
  
-@@ -160,7 +160,7 @@ is_release_channel = brave_channel == ""
+@@ -165,7 +165,7 @@ is_release_channel = brave_channel == ""
  
  brave_android_output = ""
  if (is_android) {

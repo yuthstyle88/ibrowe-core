@@ -1,8 +1,8 @@
 diff --git a/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift b/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift
-index e14ca3f1ed5db23825acb013065f23c3f568534f..4cd729f76f40f0a914f63877cdb3a3aa51a2275d 100644
+index d0ccb2c60986284313bf18d90d3e15f5295b140b..c86b52c908b00dc89f3e869f3fcb1b7e8ac84b77 100644
 --- a/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift	
 +++ b/ios/brave-ios/Sources/Brave/Frontend/Browser/New Tab Page/NewTabPageViewController.swift	
-@@ -904,7 +904,7 @@ class NewTabPageViewController: UIViewController {
+@@ -901,7 +901,7 @@ class NewTabPageViewController: UIViewController {
        Preferences.Review.newsCardShownDate.value = Date()
        guard
          let writeReviewURL = URL(
@@ -11,7 +11,7 @@ index e14ca3f1ed5db23825acb013065f23c3f568534f..4cd729f76f40f0a914f63877cdb3a3aa
          )
        else {
          return
-@@ -1128,8 +1128,8 @@ class NewTabPageViewController: UIViewController {
+@@ -1125,8 +1125,8 @@ class NewTabPageViewController: UIViewController {
    }
  
    private func tappedQRCode(_ code: String) {

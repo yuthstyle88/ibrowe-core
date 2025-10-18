@@ -1,5 +1,5 @@
 diff --git a/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc b/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
-index ea33397d69e7205820459b4270eb220faada682e..10c9696b3b92e62b090217876be4d7e1e0cdb5e9 100644
+index 0a98589aecbf408a3a228719f588ee165de33f12..91529f51420ec6d801eeea41e49d233a9acab223 100644
 --- a/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
 +++ b/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
 @@ -92,9 +92,9 @@ void ChromeAutocompleteProviderClient::OpenLeo(const std::u16string& query) {
