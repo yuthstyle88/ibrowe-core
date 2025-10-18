@@ -1,0 +1,46 @@
+diff --git a/browser/extensions/api/settings_private/brave_prefs_util.cc b/browser/extensions/api/settings_private/brave_prefs_util.cc
+index eb26d257a5b159a2509f5d6802ccc9b1e16e1ecb..08c23cdf03a92e43f5ae2d919faa1b2c216e929e 100644
+--- a/browser/extensions/api/settings_private/brave_prefs_util.cc
++++ b/browser/extensions/api/settings_private/brave_prefs_util.cc
+@@ -154,14 +154,14 @@ const PrefsUtil::TypedPrefMap& BravePrefsUtil::GetAllowlistedKeys() {
+   (*s_brave_allowlist)[prefs::kShowFullscreenToolbar] =
+       settings_api::PrefType::kBoolean;
+ #endif
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  (*s_brave_allowlist)[brave_vpn::prefs::kBraveVPNShowButton] =
+-      settings_api::PrefType::kBoolean;
+-#if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
+-  (*s_brave_allowlist)[brave_vpn::prefs::kBraveVPNWireguardEnabled] =
+-      settings_api::PrefType::kBoolean;
+-#endif
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   (*s_brave_allowlist)[brave_vpn::prefs::kBraveVPNShowButton] =
++//       settings_api::PrefType::kBoolean;
++// #if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
++//   (*s_brave_allowlist)[brave_vpn::prefs::kBraveVPNWireguardEnabled] =
++//       settings_api::PrefType::kBoolean;
++// #endif
++// #endif
+ #if defined(TOOLKIT_VIEWS)
+   (*s_brave_allowlist)[sidebar::kSidebarShowOption] =
+       settings_api::PrefType::kNumber;
+@@ -185,12 +185,12 @@ const PrefsUtil::TypedPrefMap& BravePrefsUtil::GetAllowlistedKeys() {
+       settings_api::PrefType::kBoolean;
+   (*s_brave_allowlist)[kNewTabPageShowClock] = settings_api::PrefType::kBoolean;
+   (*s_brave_allowlist)[kNewTabPageShowStats] = settings_api::PrefType::kBoolean;
+-  (*s_brave_allowlist)[kNewTabPageShowRewards] =
+-      settings_api::PrefType::kBoolean;
+-  (*s_brave_allowlist)[kNewTabPageShowBraveTalk] =
+-      settings_api::PrefType::kBoolean;
+-  (*s_brave_allowlist)[kNewTabPageShowBraveVPN] =
+-      settings_api::PrefType::kBoolean;
++  // (*s_brave_allowlist)[kNewTabPageShowRewards] =
++  //     settings_api::PrefType::kBoolean;
++  // (*s_brave_allowlist)[kNewTabPageShowBraveTalk] =
++  //     settings_api::PrefType::kBoolean;
++  // (*s_brave_allowlist)[kNewTabPageShowBraveVPN] =
++  //     settings_api::PrefType::kBoolean;
+   (*s_brave_allowlist)[kNewTabPageShowsOptions] =
+       settings_api::PrefType::kNumber;
+ #if BUILDFLAG(ENABLE_EXTENSIONS) || BUILDFLAG(ENABLE_WEB_DISCOVERY_NATIVE)

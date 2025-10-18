@@ -1,0 +1,46 @@
+diff --git a/components/skus/renderer/skus_js_handler.cc b/components/skus/renderer/skus_js_handler.cc
+index 239c41921c3373402703549624957c2231aa4df7..c29b59412216ccac0a509017f2b45fdf13a07dbd 100644
+--- a/components/skus/renderer/skus_js_handler.cc
++++ b/components/skus/renderer/skus_js_handler.cc
+@@ -49,15 +49,15 @@ bool SkusJSHandler::EnsureConnected() {
+         skus_service_.BindNewPipeAndPassReceiver());
+   }
+   bool result = skus_service_.is_bound();
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (brave_vpn::IsBraveVPNFeatureEnabled()) {
+-    if (!vpn_service_.is_bound()) {
+-      render_frame()->GetBrowserInterfaceBroker().GetInterface(
+-          vpn_service_.BindNewPipeAndPassReceiver());
+-    }
+-    result = result && vpn_service_.is_bound();
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   if (brave_vpn::IsBraveVPNFeatureEnabled()) {
++//     if (!vpn_service_.is_bound()) {
++//       render_frame()->GetBrowserInterfaceBroker().GetInterface(
++//           vpn_service_.BindNewPipeAndPassReceiver());
++//     }
++//     result = result && vpn_service_.is_bound();
++//   }
++// #endif
+ 
+   return result;
+ }
+@@ -309,11 +309,11 @@ void SkusJSHandler::OnCredentialSummary(
+     return;
+   }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (vpn_service_.is_bound()) {
+-    vpn_service_->LoadPurchasedState(domain);
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   if (vpn_service_.is_bound()) {
++//     vpn_service_->LoadPurchasedState(domain);
++//   }
++// #endif
+   v8::Local<v8::Value> local_result =
+       content::V8ValueConverter::Create()->ToV8Value(*result_dict, context);
+   std::ignore = resolver->Resolve(context, local_result);

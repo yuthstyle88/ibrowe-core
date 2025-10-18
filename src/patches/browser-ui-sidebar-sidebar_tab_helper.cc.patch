@@ -1,0 +1,13 @@
+diff --git a/browser/ui/sidebar/sidebar_tab_helper.cc b/browser/ui/sidebar/sidebar_tab_helper.cc
+index fe09a717017036ff63c5721e86d07b40e51f721c..25cb52a0120f5423404538ec3758862f8201b9b0 100644
+--- a/browser/ui/sidebar/sidebar_tab_helper.cc
++++ b/browser/ui/sidebar/sidebar_tab_helper.cc
+@@ -125,7 +125,7 @@ void SidebarTabHelper::PrimaryPageChanged(content::Page& page) {
+     }
+   }
+ 
+-  side_panel_ui->Show(SidePanelEntryId::kChatUI);
++  // side_panel_ui->Show(SidePanelEntryId::kChatUI);
+ }
+ 
+ WEB_CONTENTS_USER_DATA_KEY_IMPL(SidebarTabHelper);

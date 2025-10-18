@@ -1,0 +1,110 @@
+diff --git a/browser/ui/webui/skus_internals_ui.cc b/browser/ui/webui/skus_internals_ui.cc
+index d2913fde04dd605e18b25162ddff690cfc04361c..0accd555d3abddbf0f0e847c3090dd19844eb26d 100644
+--- a/browser/ui/webui/skus_internals_ui.cc
++++ b/browser/ui/webui/skus_internals_ui.cc
+@@ -91,20 +91,20 @@ void SkusInternalsUI::GetSkusState(GetSkusStateCallback callback) {
+ 
+ void SkusInternalsUI::GetVpnState(GetVpnStateCallback callback) {
+   base::Value::Dict dict;
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-#if !BUILDFLAG(IS_ANDROID)
+-  dict.Set("Last connection error", GetLastVPNConnectionError());
+-#endif
+-  auto* profile = Profile::FromWebUI(web_ui());
+-  if (!brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())) {
+-    dict.Set("Order", base::Value::Dict());
+-  } else {
+-    auto order_info = GetOrderInfo("vpn.");
+-    order_info.Set(
+-        "env", local_state_->GetString(brave_vpn::prefs::kBraveVPNEnvironment));
+-    dict.Set("Order", std::move(order_info));
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++// #if !BUILDFLAG(IS_ANDROID)
++//   dict.Set("Last connection error", GetLastVPNConnectionError());
++// #endif
++//   auto* profile = Profile::FromWebUI(web_ui());
++//   if (!brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())) {
++//     dict.Set("Order", base::Value::Dict());
++//   } else {
++//     auto order_info = GetOrderInfo("vpn.");
++//     order_info.Set(
++//         "env", local_state_->GetString(brave_vpn::prefs::kBraveVPNEnvironment));
++//     dict.Set("Order", std::move(order_info));
++//   }
++// #endif
+   std::string result;
+   base::JSONWriter::Write(dict, &result);
+   std::move(callback).Run(result);
+@@ -165,19 +165,19 @@ base::Value::Dict SkusInternalsUI::GetOrderInfo(
+ }
+ 
+ void SkusInternalsUI::ResetSkusState() {
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  // VPN service caches credentials. It should be cleared also
+-  // when skus state is reset. Otherwise, vpn service is still
+-  // in purchased state.
+-  auto* profile = Profile::FromWebUI(web_ui());
+-  if (brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())) {
+-    brave_vpn::ClearSubscriberCredential(local_state_);
+-    if (auto* service =
+-            brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
+-      service->ReloadPurchasedState();
+-    }
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   // VPN service caches credentials. It should be cleared also
++//   // when skus state is reset. Otherwise, vpn service is still
++//   // in purchased state.
++//   auto* profile = Profile::FromWebUI(web_ui());
++//   if (brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())) {
++//     brave_vpn::ClearSubscriberCredential(local_state_);
++//     if (auto* service =
++//             brave_vpn::BraveVpnServiceFactory::GetForProfile(profile)) {
++//       service->ReloadPurchasedState();
++//     }
++//   }
++// #endif
+ 
+   local_state_->ClearPref(skus::prefs::kSkusState);
+ }
+@@ -229,11 +229,11 @@ void SkusInternalsUI::FileSelectionCanceled() {
+ 
+ std::string SkusInternalsUI::GetLastVPNConnectionError() const {
+   std::string error;
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  auto* manager = g_brave_browser_process->brave_vpn_connection_manager();
+-  CHECK(manager);
+-  error = manager->GetLastConnectionError();
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   auto* manager = g_brave_browser_process->brave_vpn_connection_manager();
++//   CHECK(manager);
++//   error = manager->GetLastConnectionError();
++// #endif
+   return error;
+ }
+ 
+@@ -241,13 +241,13 @@ std::string SkusInternalsUI::GetSkusStateAsString() const {
+   const auto& skus_state = local_state_->GetDict(skus::prefs::kSkusState);
+   base::Value::Dict dict;
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  auto* profile = Profile::FromWebUI(web_ui());
+-  if (brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())) {
+-    dict.Set("env",
+-             local_state_->GetString(brave_vpn::prefs::kBraveVPNEnvironment));
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   auto* profile = Profile::FromWebUI(web_ui());
++//   if (brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())) {
++//     dict.Set("env",
++//              local_state_->GetString(brave_vpn::prefs::kBraveVPNEnvironment));
++//   }
++// #endif
+ 
+   for (const auto kv : skus_state) {
+     // Only shows "skus:xx" kv in webui.

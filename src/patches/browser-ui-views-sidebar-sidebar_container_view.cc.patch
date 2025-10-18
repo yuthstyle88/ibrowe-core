@@ -1,0 +1,13 @@
+diff --git a/browser/ui/views/sidebar/sidebar_container_view.cc b/browser/ui/views/sidebar/sidebar_container_view.cc
+index 3514b8669aa3afd3bc3eba9bf24edc25edd67fb2..193349cfb1637272e4ee2f8aa42db4f5258ea107 100644
+--- a/browser/ui/views/sidebar/sidebar_container_view.cc
++++ b/browser/ui/views/sidebar/sidebar_container_view.cc
+@@ -859,7 +859,7 @@ void SidebarContainerView::OnTabStripModelChanged(
+     auto* registry = SidePanelRegistry::GetDeprecated(replace->new_contents);
+     if (registry) {
+       if (auto* entry = registry->GetEntryForKey(
+-              SidePanelEntry::Key(SidePanelEntryId::kChatUI))) {
++              SidePanelEntry::Key(SidePanelEntryId::kPlaylist))) {
+         if (side_panel_coordinator_->IsSidePanelEntryShowing(entry->key())) {
+           side_panel_coordinator_->Close();
+         } else {

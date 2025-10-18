@@ -1,0 +1,15 @@
+diff --git a/components/sidebar/browser/constants.h b/components/sidebar/browser/constants.h
+index 9d050908ec9e31dbdfc471f1c66c0cac59594399..917309ea9761257fa5c8314c625da565cef31768 100644
+--- a/components/sidebar/browser/constants.h
++++ b/components/sidebar/browser/constants.h
+@@ -16,8 +16,8 @@ inline constexpr char kSidebarItemOpenInPanelKey[] = "open_in_panel";
+ inline constexpr int kDefaultSidePanelWidth = 320;
+ 
+ // list is provided from chrome layer.
+-inline constexpr char kBraveTalkURL[] = "https://talk.brave.com/widget";
+-inline constexpr char kBraveTalkHost[] = "talk.brave.com";
++// inline constexpr char kBraveTalkURL[] = "https://talk.brave.com/widget";
++inline constexpr char kBraveTalkHost[] = "talk.ibrowe.com";
+ 
+ }  // namespace sidebar
+ 

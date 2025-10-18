@@ -1,0 +1,25 @@
+diff --git a/browser/ui/webui/new_tab_page/brave_new_tab_ui.cc b/browser/ui/webui/new_tab_page/brave_new_tab_ui.cc
+index 0b6e167d36549a88fc23302e66010aface91e81b..dfae0a5660efdcf352bffd8ccfaf3d9ee7f351ed 100644
+--- a/browser/ui/webui/new_tab_page/brave_new_tab_ui.cc
++++ b/browser/ui/webui/new_tab_page/brave_new_tab_ui.cc
+@@ -132,13 +132,13 @@ BraveNewTabUI::BraveNewTabUI(
+   source->AddString("newTabTakeoverLearnMoreLinkUrl",
+                     ntp_background_images::kNewTabTakeoverLearnMoreLinkUrl);
+ 
+-  source->AddBoolean("vpnWidgetSupported",
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-                     brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())
+-#else
+-                     false
+-#endif
+-  );
++//   source->AddBoolean("vpnWidgetSupported",
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//                      brave_vpn::IsBraveVPNEnabled(profile->GetPrefs())
++// #else
++//                      false
++// #endif
++  // );
+ 
+   web_ui->AddMessageHandler(base::WrapUnique(
+       BraveNewTabMessageHandler::Create(source, profile, was_restored)));

@@ -1,0 +1,17 @@
+diff --git a/browser/browser_context_keyed_service_factories.cc b/browser/browser_context_keyed_service_factories.cc
+index 72cc120ce4797935af9fd1545eaf144d09456203..76ef9899f8f82bc01e5501b778dfec8a20566756 100644
+--- a/browser/browser_context_keyed_service_factories.cc
++++ b/browser/browser_context_keyed_service_factories.cc
+@@ -152,9 +152,9 @@ void EnsureBrowserContextKeyedServiceFactoriesBuilt() {
+   EphemeralStorageServiceFactory::GetInstance();
+   PermissionLifetimeManagerFactory::GetInstance();
+   skus::SkusServiceFactory::GetInstance();
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  brave_vpn::BraveVpnServiceFactory::GetInstance();
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   brave_vpn::BraveVpnServiceFactory::GetInstance();
++// #endif
+ #if BUILDFLAG(ENABLE_PLAYLIST)
+   if (base::FeatureList::IsEnabled(playlist::features::kPlaylist)) {
+     playlist::PlaylistServiceFactory::GetInstance();

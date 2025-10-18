@@ -1,0 +1,17 @@
+diff --git a/browser/ui/browser_commands.cc b/browser/ui/browser_commands.cc
+index ecba160e7c462c1f19bf85269efc926828dc9667..654995c7c80f6f00bd698a4250e88993168faeb8 100644
+--- a/browser/ui/browser_commands.cc
++++ b/browser/ui/browser_commands.cc
+@@ -317,9 +317,9 @@ void OpenBraveVPNUrls(Browser* browser, int command_id) {
+ 
+ void ToggleAIChat(Browser* browser) {
+ #if defined(TOOLKIT_VIEWS)
+-  SidePanelUI* side_panel_ui = browser->GetFeatures().side_panel_ui();
+-  side_panel_ui->Toggle(SidePanelEntry::Key(SidePanelEntryId::kChatUI),
+-                        SidePanelOpenTrigger::kToolbarButton);
++  // SidePanelUI* side_panel_ui = browser->GetFeatures().side_panel_ui();
++  // side_panel_ui->Toggle(SidePanelEntry::Key(SidePanelEntryId::kChatUI),
++  //                       SidePanelOpenTrigger::kToolbarButton);
+ #endif
+ }
+ 

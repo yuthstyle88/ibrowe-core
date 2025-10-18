@@ -1,0 +1,53 @@
+diff --git a/components/webui/webui_resources.cc b/components/webui/webui_resources.cc
+index 985f1d323d50b0e70f4a468f02c3296085151846..40adb30b195f47fe4006e6d7f2fa6d0444d57c2e 100644
+--- a/components/webui/webui_resources.cc
++++ b/components/webui/webui_resources.cc
+@@ -303,27 +303,27 @@ base::span<const webui::LocalizedString> GetWebUILocalizedStrings(
+ 
+                {"loading", IDS_BRAVE_REWARDS_LOADING_LABEL},
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN) & !BUILDFLAG(IS_ANDROID)
+-               // Brave VPN Widget
+-               {"braveVpnWidgetTitle", IDS_BRAVE_VPN_WIDGET_TITLE},
+-               {"braveVpnWidgetSettingTitle", IDS_BRAVE_VPN_WIDGET_TITLE},
+-               {"braveVpnWidgetSettingDesc", IDS_BRAVE_VPN_WIDGET_SETTING_DESC},
+-               {"braveVpnFeature1", IDS_BRAVE_VPN_FEATURE_1},
+-               {"braveVpnFeature2", IDS_BRAVE_VPN_FEATURE_2},
+-               {"braveVpnWidgetFeature3", IDS_BRAVE_VPN_WIDGET_FEATURE_3},
+-               {"braveVpnConnected", IDS_BRAVE_VPN_CONNECTED},
+-               {"braveVpnConnecting", IDS_BRAVE_VPN_CONNECTING},
+-               {"braveVpnDisconnected", IDS_BRAVE_VPN_DISCONNECTED},
+-               {"braveVpnDisconnecting", IDS_BRAVE_VPN_DISCONNECTING},
+-               {"braveVpnPoweredBy", IDS_BRAVE_VPN_POWERED_BY},
+-               {"braveVpnOptimal",
+-                IDS_BRAVE_VPN_SERVER_SELECTION_OPTIMAL_LABEL},
+-               {"braveVpnChangeRegion", IDS_BRAVE_VPN_WIDGET_CHANGE_LABEL},
+-               {"braveVpnCTA", IDS_BRAVE_VPN_WIDGET_CTA},
+-               {"braveVpnPurchased", IDS_BRAVE_VPN_HAS_PURCHASED},
+-#endif
+-
+-               // Brave Talk  Widget
++// #if BUILDFLAG(ENABLE_BRAVE_VPN) & !BUILDFLAG(IS_ANDROID)
++//                // Brave VPN Widget
++//                {"braveVpnWidgetTitle", IDS_BRAVE_VPN_WIDGET_TITLE},
++//                {"braveVpnWidgetSettingTitle", IDS_BRAVE_VPN_WIDGET_TITLE},
++//                {"braveVpnWidgetSettingDesc", IDS_BRAVE_VPN_WIDGET_SETTING_DESC},
++//                {"braveVpnFeature1", IDS_BRAVE_VPN_FEATURE_1},
++//                {"braveVpnFeature2", IDS_BRAVE_VPN_FEATURE_2},
++//                {"braveVpnWidgetFeature3", IDS_BRAVE_VPN_WIDGET_FEATURE_3},
++//                {"braveVpnConnected", IDS_BRAVE_VPN_CONNECTED},
++//                {"braveVpnConnecting", IDS_BRAVE_VPN_CONNECTING},
++//                {"braveVpnDisconnected", IDS_BRAVE_VPN_DISCONNECTED},
++//                {"braveVpnDisconnecting", IDS_BRAVE_VPN_DISCONNECTING},
++//                {"braveVpnPoweredBy", IDS_BRAVE_VPN_POWERED_BY},
++//                {"braveVpnOptimal",
++//                 IDS_BRAVE_VPN_SERVER_SELECTION_OPTIMAL_LABEL},
++//                {"braveVpnChangeRegion", IDS_BRAVE_VPN_WIDGET_CHANGE_LABEL},
++//                {"braveVpnCTA", IDS_BRAVE_VPN_WIDGET_CTA},
++//                {"braveVpnPurchased", IDS_BRAVE_VPN_HAS_PURCHASED},
++// #endif
++//
++//                // Brave Talk  Widget
+                {"braveTalkWidgetTitle", IDS_BRAVE_TALK_WIDGET_TITLE},
+                {"braveTalkWidgetWelcomeTitle",
+                 IDS_BRAVE_TALK_WIDGET_WELCOME_TITLE},

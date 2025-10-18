@@ -1,0 +1,19 @@
+diff --git a/browser/ui/brave_browser_command_controller_browsertest.cc b/browser/ui/brave_browser_command_controller_browsertest.cc
+index eff1d2457deec8f4d12a4eca87badfd80587caf3..bcade1cb4cf292b75fed1c8ffe537052bd554b9d 100644
+--- a/browser/ui/brave_browser_command_controller_browsertest.cc
++++ b/browser/ui/brave_browser_command_controller_browsertest.cc
+@@ -66,10 +66,10 @@
+ class BraveBrowserCommandControllerTest : public InProcessBrowserTest {
+  public:
+   BraveBrowserCommandControllerTest() {
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-    scoped_feature_list_.InitWithFeatures(
+-        {skus::features::kSkusFeature, brave_vpn::features::kBraveVPN}, {});
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//     scoped_feature_list_.InitWithFeatures(
++//         {skus::features::kSkusFeature, brave_vpn::features::kBraveVPN}, {});
++// #endif
+   }
+   void SetUpInProcessBrowserTestFixture() override {
+     InProcessBrowserTest::SetUpInProcessBrowserTestFixture();

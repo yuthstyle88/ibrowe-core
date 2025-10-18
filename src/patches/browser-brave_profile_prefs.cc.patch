@@ -1,0 +1,56 @@
+diff --git a/browser/brave_profile_prefs.cc b/browser/brave_profile_prefs.cc
+index df6432761908f8e854bbe6af00cdc680e28f0fc6..335903d52b02330a8e895ca95f0022fb2aee61e2 100644
+--- a/browser/brave_profile_prefs.cc
++++ b/browser/brave_profile_prefs.cc
+@@ -285,7 +285,7 @@ void RegisterProfilePrefsForMigration(
+ #endif
+ 
+   // Added Feb 2023
+-  registry->RegisterBooleanPref(brave_rewards::prefs::kShowButton, true);
++  // registry->RegisterBooleanPref(brave_rewards::prefs::kShowButton, true);
+ 
+   brave_rewards::RegisterProfilePrefsForMigration(registry);
+ 
+@@ -401,14 +401,14 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
+   registry->RegisterBooleanPref(kNewTabPageShowClock, false);
+   registry->RegisterStringPref(kNewTabPageClockFormat, "");
+   registry->RegisterBooleanPref(kNewTabPageShowStats, true);
+-  registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
+-  registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, true);
+-  registry->RegisterBooleanPref(kBraveTalkDisabledByPolicy, false);
++  // registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
++  // registry->RegisterBooleanPref(kNewTabPageShowBraveTalk, true);
++  // registry->RegisterBooleanPref(kBraveTalkDisabledByPolicy, false);
+   registry->RegisterBooleanPref(kNewTabPageHideAllWidgets, false);
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  registry->RegisterBooleanPref(kNewTabPageShowBraveVPN, true);
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   registry->RegisterBooleanPref(kNewTabPageShowBraveVPN, true);
++// #endif
+ 
+ // Private New Tab Page
+ #if !BUILDFLAG(IS_ANDROID)
+@@ -480,8 +480,8 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
+   welcome_ui::prefs::RegisterProfilePrefs(registry);
+ #endif  // !BUILDFLAG(IS_ANDROID)
+ 
+-  ai_chat::prefs::RegisterProfilePrefs(registry);
+-  ai_chat::ModelService::RegisterProfilePrefs(registry);
++  // ai_chat::prefs::RegisterProfilePrefs(registry);
++  // ai_chat::ModelService::RegisterProfilePrefs(registry);
+ 
+   brave_search_conversion::RegisterPrefs(registry);
+ 
+@@ -502,8 +502,8 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
+   bookmarks::prefs::RegisterProfilePrefs(registry);
+ #endif
+ 
+-  brave_ads::RegisterProfilePrefs(registry);
+-  brave_rewards::RegisterProfilePrefs(registry);
++  // brave_ads::RegisterProfilePrefs(registry);
++  // brave_rewards::RegisterProfilePrefs(registry);
+ 
+   webcompat_reporter::prefs::RegisterProfilePrefs(registry);
+ 

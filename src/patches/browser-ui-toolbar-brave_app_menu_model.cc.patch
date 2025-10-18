@@ -1,0 +1,39 @@
+diff --git a/browser/ui/toolbar/brave_app_menu_model.cc b/browser/ui/toolbar/brave_app_menu_model.cc
+index 3a698218899378a12eee2a5839189461f7379219..d659d1925657ecfb746a1afa65cbc888afe394ab 100644
+--- a/browser/ui/toolbar/brave_app_menu_model.cc
++++ b/browser/ui/toolbar/brave_app_menu_model.cc
+@@ -157,20 +157,20 @@ void BraveAppMenuModel::BuildBraveProductsSection() {
+     need_separator = true;
+   }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (IsCommandIdEnabled(IDC_BRAVE_VPN_MENU)) {
+-    sub_menus().push_back(std::make_unique<BraveVPNMenuModel>(
+-        browser(), browser()->profile()->GetPrefs()));
+-    InsertSubMenuWithStringIdAt(GetNextIndexOfBraveProductsSection(),
+-                                IDC_BRAVE_VPN_MENU, IDS_BRAVE_VPN_MENU,
+-                                sub_menus().back().get());
+-    need_separator = true;
+-  } else if (IsCommandIdEnabled(IDC_SHOW_BRAVE_VPN_PANEL)) {
+-    InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
+-                             IDC_SHOW_BRAVE_VPN_PANEL, IDS_BRAVE_VPN_MENU);
+-    need_separator = true;
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   if (IsCommandIdEnabled(IDC_BRAVE_VPN_MENU)) {
++//     sub_menus().push_back(std::make_unique<BraveVPNMenuModel>(
++//         browser(), browser()->profile()->GetPrefs()));
++//     InsertSubMenuWithStringIdAt(GetNextIndexOfBraveProductsSection(),
++//                                 IDC_BRAVE_VPN_MENU, IDS_BRAVE_VPN_MENU,
++//                                 sub_menus().back().get());
++//     need_separator = true;
++//   } else if (IsCommandIdEnabled(IDC_SHOW_BRAVE_VPN_PANEL)) {
++//     InsertItemWithStringIdAt(GetNextIndexOfBraveProductsSection(),
++//                              IDC_SHOW_BRAVE_VPN_PANEL, IDS_BRAVE_VPN_MENU);
++//     need_separator = true;
++//   }
++// #endif
+ 
+ #if defined(TOOLKIT_VIEWS)
+   if (sidebar::CanUseSidebar(browser())) {

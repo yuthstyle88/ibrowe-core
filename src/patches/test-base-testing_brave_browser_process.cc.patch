@@ -1,0 +1,31 @@
+diff --git a/test/base/testing_brave_browser_process.cc b/test/base/testing_brave_browser_process.cc
+index bebef66cfa2234e69bbed4aaa0c61612d5e1d22d..f33617d4bf3cb068984bc31d2410a1d86d04ce47 100644
+--- a/test/base/testing_brave_browser_process.cc
++++ b/test/base/testing_brave_browser_process.cc
+@@ -152,16 +152,16 @@ brave_ads::ResourceComponent* TestingBraveBrowserProcess::resource_component() {
+   return nullptr;
+ }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-brave_vpn::BraveVPNConnectionManager*
+-TestingBraveBrowserProcess::brave_vpn_connection_manager() {
+-  return brave_vpn_connection_manager_.get();
+-}
+-void TestingBraveBrowserProcess::SetBraveVPNConnectionManagerForTesting(
+-    std::unique_ptr<brave_vpn::BraveVPNConnectionManager> manager) {
+-  brave_vpn_connection_manager_ = std::move(manager);
+-}
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++// brave_vpn::BraveVPNConnectionManager*
++// TestingBraveBrowserProcess::brave_vpn_connection_manager() {
++//   return brave_vpn_connection_manager_.get();
++// }
++// void TestingBraveBrowserProcess::SetBraveVPNConnectionManagerForTesting(
++//     std::unique_ptr<brave_vpn::BraveVPNConnectionManager> manager) {
++//   brave_vpn_connection_manager_ = std::move(manager);
++// }
++// #endif
+ 
+ misc_metrics::ProcessMiscMetrics*
+ TestingBraveBrowserProcess::process_misc_metrics() {

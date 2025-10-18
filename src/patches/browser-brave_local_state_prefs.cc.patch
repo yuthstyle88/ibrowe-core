@@ -1,0 +1,17 @@
+diff --git a/browser/brave_local_state_prefs.cc b/browser/brave_local_state_prefs.cc
+index bec86137abdfbed4cea22cdd300a062d29bddbac..f6d21ea302cc1dc54334c68476605f56022de444 100644
+--- a/browser/brave_local_state_prefs.cc
++++ b/browser/brave_local_state_prefs.cc
+@@ -172,9 +172,9 @@ void RegisterLocalStatePrefs(PrefRegistrySimple* registry) {
+ 
+   brave_search_conversion::p3a::RegisterLocalStatePrefs(registry);
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  brave_vpn::RegisterLocalStatePrefs(registry);
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   brave_vpn::RegisterLocalStatePrefs(registry);
++// #endif
+ 
+   ai_chat::prefs::RegisterLocalStatePrefs(registry);
+ 

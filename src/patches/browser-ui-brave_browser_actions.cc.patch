@@ -1,0 +1,23 @@
+diff --git a/browser/ui/brave_browser_actions.cc b/browser/ui/brave_browser_actions.cc
+index 9b8f33cd58bbd75226a07a3451b88c8cc25f81d1..9831ac94e2ce497dc91379b938ba43644275812c 100644
+--- a/browser/ui/brave_browser_actions.cc
++++ b/browser/ui/brave_browser_actions.cc
+@@ -64,11 +64,11 @@ void BraveBrowserActions::InitializeBrowserActions() {
+   }
+ #endif
+ 
+-  if (ai_chat::IsAIChatEnabled(profile_->GetPrefs())) {
+-    root_action_item_->AddChild(
+-        SidePanelAction(SidePanelEntryId::kChatUI, IDS_CHAT_UI_TITLE,
+-                        IDS_CHAT_UI_TITLE, kLeoProductBraveLeoIcon,
+-                        kActionSidePanelShowChatUI, bwi, false)
+-            .Build());
+-  }
++  // if (ai_chat::IsAIChatEnabled(profile_->GetPrefs())) {
++  //   root_action_item_->AddChild(
++  //       SidePanelAction(SidePanelEntryId::kChatUI, IDS_CHAT_UI_TITLE,
++  //                       IDS_CHAT_UI_TITLE, kLeoProductBraveLeoIcon,
++  //                       kActionSidePanelShowChatUI, bwi, false)
++  //           .Build());
++  // }
+ }

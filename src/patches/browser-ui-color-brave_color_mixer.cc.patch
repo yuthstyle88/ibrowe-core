@@ -1,0 +1,235 @@
+diff --git a/browser/ui/color/brave_color_mixer.cc b/browser/ui/color/brave_color_mixer.cc
+index 26497863df95dfcba44a8b5dc41e80ae5118096b..afdb4d826248e7085e03e47fbed0b792bb22e01f 100644
+--- a/browser/ui/color/brave_color_mixer.cc
++++ b/browser/ui/color/brave_color_mixer.cc
+@@ -66,24 +66,24 @@ bool HasCustomToolbarColor(const ui::ColorProviderKey& key) {
+                                     &custom_toolbar_color);
+ }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN) || BUILDFLAG(ENABLE_SPEEDREADER)
+-SkColor PickSimilarColorToToolbar(const ui::ColorProviderKey& key,
+-                                  const ui::ColorMixer& mixer,
+-                                  SkColor light_theme_color,
+-                                  SkColor dark_theme_color) {
+-  auto toolbar_color = mixer.GetResultColor(kColorToolbar);
+-  SkColor custom_toolbar_color;
+-  if (key.custom_theme &&
+-      key.custom_theme->GetColor(ThemeProperties::COLOR_TOOLBAR,
+-                                 &custom_toolbar_color)) {
+-    toolbar_color = custom_toolbar_color;
+-  }
+-
+-  // Give min constrast color.
+-  return color_utils::IsDark(toolbar_color) ? dark_theme_color
+-                                            : light_theme_color;
+-}
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN) || BUILDFLAG(ENABLE_SPEEDREADER)
++// SkColor PickSimilarColorToToolbar(const ui::ColorProviderKey& key,
++//                                   const ui::ColorMixer& mixer,
++//                                   SkColor light_theme_color,
++//                                   SkColor dark_theme_color) {
++//   auto toolbar_color = mixer.GetResultColor(kColorToolbar);
++//   SkColor custom_toolbar_color;
++//   if (key.custom_theme &&
++//       key.custom_theme->GetColor(ThemeProperties::COLOR_TOOLBAR,
++//                                  &custom_toolbar_color)) {
++//     toolbar_color = custom_toolbar_color;
++//   }
++//
++//   // Give min constrast color.
++//   return color_utils::IsDark(toolbar_color) ? dark_theme_color
++//                                             : light_theme_color;
++// }
++// #endif
+ 
+ bool IsHighContrast() {
+ #if !defined(USE_AURA)
+@@ -111,87 +111,87 @@ void AddOmniboxHoverSelect(ui::ColorMixer& mixer) {
+       kOmniboxOpacitySelected)};
+ }
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-void AddBraveVpnColorMixer(ui::ColorProvider* provider,
+-                           const ui::ColorProviderKey& key) {
+-  ui::ColorMixer& mixer = provider->AddMixer();
+-  if (key.custom_theme) {
+-    mixer[kColorBraveVpnButtonIconConnected] = {PickSimilarColorToToolbar(
+-        key, mixer, mixer.GetResultColor(nala::kColorPrimitiveGreen50),
+-        mixer.GetResultColor(nala::kColorPrimitiveGreen60))};
+-    mixer[kColorBraveVpnButtonIconDisconnected] = {PickSimilarColorToToolbar(
+-        key, mixer, mixer.GetResultColor(nala::kColorPrimitiveNeutral30),
+-        mixer.GetResultColor(nala::kColorPrimitiveNeutral80))};
+-    mixer[kColorBraveVpnButtonIconError] = {PickSimilarColorToToolbar(
+-        key, mixer, mixer.GetResultColor(nala::kColorPrimitiveRed60),
+-        mixer.GetResultColor(nala::kColorPrimitiveRed50))};
+-    mixer[kColorBraveVpnButtonErrorBackgroundNormal] = {
+-        PickSimilarColorToToolbar(
+-            key, mixer, mixer.GetResultColor(nala::kColorPrimitiveRed95),
+-            mixer.GetResultColor(nala::kColorPrimitiveRed15))};
+-  } else {
+-    mixer[kColorBraveVpnButtonIconConnected] = {
+-        nala::kColorSystemfeedbackSuccessIcon};
+-    mixer[kColorBraveVpnButtonIconDisconnected] = {nala::kColorIconDefault};
+-    mixer[kColorBraveVpnButtonIconError] = {
+-        nala::kColorSystemfeedbackErrorIcon};
+-    mixer[kColorBraveVpnButtonErrorBackgroundNormal] = {
+-        nala::kColorSystemfeedbackErrorBackground};
+-  }
+-
+-  mixer[kColorBraveVpnButtonBackgroundNormal] = {kColorToolbar};
+-}
+-#endif
+-
+-#if BUILDFLAG(ENABLE_SPEEDREADER)
+-void AddBraveSpeedreaderColorMixer(ui::ColorProvider* provider,
+-                                   const ui::ColorProviderKey& key) {
+-  ui::ColorMixer& mixer = provider->AddMixer();
+-
+-  if (key.custom_theme) {
+-    auto mix_custom = [&mixer, &key](ui::ColorId light_id,
+-                                     ui::ColorId dark_id) -> SkColor {
+-      return PickSimilarColorToToolbar(key, mixer,
+-                                       mixer.GetResultColor(light_id),
+-                                       mixer.GetResultColor(dark_id));
+-    };
+-
+-    mixer[kColorSpeedreaderIcon] = {mix_custom(nala::kColorPrimitivePrimary35,
+-                                               nala::kColorPrimitivePrimary80)};
+-
+-    mixer[kColorSpeedreaderToolbarForeground] = {mix_custom(
+-        nala::kColorPrimitiveNeutral30, nala::kColorPrimitiveNeutral80)};
+-
+-    mixer[kColorSpeedreaderToolbarBorder] = {mix_custom(
+-        nala::kColorPrimitiveNeutral90, nala::kColorPrimitiveNeutral25)};
+-
+-    mixer[kColorSpeedreaderToolbarButtonHover] = {mix_custom(
+-        nala::kColorPrimitiveNeutral95, nala::kColorPrimitiveNeutral10)};
+-    mixer[kColorSpeedreaderToolbarButtonActive] = {mix_custom(
+-        nala::kColorPrimitiveNeutral90, nala::kColorPrimitiveNeutral5)};
+-    mixer[kColorSpeedreaderToolbarButtonActiveText] = {mix_custom(
+-        nala::kColorPrimitivePrimary35, nala::kColorPrimitivePrimary80)};
+-    mixer[kColorSpeedreaderToolbarButtonBorder] = {mix_custom(
+-        nala::kColorPrimitiveNeutral90, nala::kColorPrimitiveNeutral25)};
+-  } else {
+-    mixer[kColorSpeedreaderIcon] = {nala::kColorIconInteractive};
+-    mixer[kColorSpeedreaderToolbarForeground] = {nala::kColorIconDefault};
+-    mixer[kColorSpeedreaderToolbarBorder] = {
+-        nala::kColorDesktopbrowserToolbarButtonOutline};
+-
+-    mixer[kColorSpeedreaderToolbarButtonHover] = {
+-        nala::kColorDesktopbrowserToolbarButtonHover};
+-    mixer[kColorSpeedreaderToolbarButtonActive] = {
+-        nala::kColorDesktopbrowserToolbarButtonActive};
+-    mixer[kColorSpeedreaderToolbarButtonActiveText] = {
+-        nala::kColorIconInteractive};
+-    mixer[kColorSpeedreaderToolbarButtonBorder] = {
+-        nala::kColorDesktopbrowserToolbarButtonOutline};
+-  }
+-
+-  mixer[kColorSpeedreaderToolbarBackground] = {kColorToolbar};
+-}
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++// void AddBraveVpnColorMixer(ui::ColorProvider* provider,
++//                            const ui::ColorProviderKey& key) {
++//   ui::ColorMixer& mixer = provider->AddMixer();
++//   if (key.custom_theme) {
++//     mixer[kColorBraveVpnButtonIconConnected] = {PickSimilarColorToToolbar(
++//         key, mixer, mixer.GetResultColor(nala::kColorPrimitiveGreen50),
++//         mixer.GetResultColor(nala::kColorPrimitiveGreen60))};
++//     mixer[kColorBraveVpnButtonIconDisconnected] = {PickSimilarColorToToolbar(
++//         key, mixer, mixer.GetResultColor(nala::kColorPrimitiveNeutral30),
++//         mixer.GetResultColor(nala::kColorPrimitiveNeutral80))};
++//     mixer[kColorBraveVpnButtonIconError] = {PickSimilarColorToToolbar(
++//         key, mixer, mixer.GetResultColor(nala::kColorPrimitiveRed60),
++//         mixer.GetResultColor(nala::kColorPrimitiveRed50))};
++//     mixer[kColorBraveVpnButtonErrorBackgroundNormal] = {
++//         PickSimilarColorToToolbar(
++//             key, mixer, mixer.GetResultColor(nala::kColorPrimitiveRed95),
++//             mixer.GetResultColor(nala::kColorPrimitiveRed15))};
++//   } else {
++//     mixer[kColorBraveVpnButtonIconConnected] = {
++//         nala::kColorSystemfeedbackSuccessIcon};
++//     mixer[kColorBraveVpnButtonIconDisconnected] = {nala::kColorIconDefault};
++//     mixer[kColorBraveVpnButtonIconError] = {
++//         nala::kColorSystemfeedbackErrorIcon};
++//     mixer[kColorBraveVpnButtonErrorBackgroundNormal] = {
++//         nala::kColorSystemfeedbackErrorBackground};
++//   }
++//
++//   mixer[kColorBraveVpnButtonBackgroundNormal] = {kColorToolbar};
++// }
++// #endif
++//
++// #if BUILDFLAG(ENABLE_SPEEDREADER)
++// void AddBraveSpeedreaderColorMixer(ui::ColorProvider* provider,
++//                                    const ui::ColorProviderKey& key) {
++//   ui::ColorMixer& mixer = provider->AddMixer();
++//
++//   if (key.custom_theme) {
++//     auto mix_custom = [&mixer, &key](ui::ColorId light_id,
++//                                      ui::ColorId dark_id) -> SkColor {
++//       return PickSimilarColorToToolbar(key, mixer,
++//                                        mixer.GetResultColor(light_id),
++//                                        mixer.GetResultColor(dark_id));
++//     };
++//
++//     mixer[kColorSpeedreaderIcon] = {mix_custom(nala::kColorPrimitivePrimary35,
++//                                                nala::kColorPrimitivePrimary80)};
++//
++//     mixer[kColorSpeedreaderToolbarForeground] = {mix_custom(
++//         nala::kColorPrimitiveNeutral30, nala::kColorPrimitiveNeutral80)};
++//
++//     mixer[kColorSpeedreaderToolbarBorder] = {mix_custom(
++//         nala::kColorPrimitiveNeutral90, nala::kColorPrimitiveNeutral25)};
++//
++//     mixer[kColorSpeedreaderToolbarButtonHover] = {mix_custom(
++//         nala::kColorPrimitiveNeutral95, nala::kColorPrimitiveNeutral10)};
++//     mixer[kColorSpeedreaderToolbarButtonActive] = {mix_custom(
++//         nala::kColorPrimitiveNeutral90, nala::kColorPrimitiveNeutral5)};
++//     mixer[kColorSpeedreaderToolbarButtonActiveText] = {mix_custom(
++//         nala::kColorPrimitivePrimary35, nala::kColorPrimitivePrimary80)};
++//     mixer[kColorSpeedreaderToolbarButtonBorder] = {mix_custom(
++//         nala::kColorPrimitiveNeutral90, nala::kColorPrimitiveNeutral25)};
++//   } else {
++//     mixer[kColorSpeedreaderIcon] = {nala::kColorIconInteractive};
++//     mixer[kColorSpeedreaderToolbarForeground] = {nala::kColorIconDefault};
++//     mixer[kColorSpeedreaderToolbarBorder] = {
++//         nala::kColorDesktopbrowserToolbarButtonOutline};
++//
++//     mixer[kColorSpeedreaderToolbarButtonHover] = {
++//         nala::kColorDesktopbrowserToolbarButtonHover};
++//     mixer[kColorSpeedreaderToolbarButtonActive] = {
++//         nala::kColorDesktopbrowserToolbarButtonActive};
++//     mixer[kColorSpeedreaderToolbarButtonActiveText] = {
++//         nala::kColorIconInteractive};
++//     mixer[kColorSpeedreaderToolbarButtonBorder] = {
++//         nala::kColorDesktopbrowserToolbarButtonOutline};
++//   }
++//
++//   mixer[kColorSpeedreaderToolbarBackground] = {kColorToolbar};
++// }
++// #endif
+ 
+ void AddChromeLightThemeColorMixer(ui::ColorProvider* provider,
+                                    const ui::ColorProviderKey& key) {
+@@ -527,12 +527,12 @@ void AddBraveThemeColorMixer(ui::ColorProvider* provider,
+   key.color_mode == ui::ColorProviderKey::ColorMode::kDark
+       ? AddBraveDarkThemeColorMixer(provider, key)
+       : AddBraveLightThemeColorMixer(provider, key);
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  AddBraveVpnColorMixer(provider, key);
+-#endif
+-#if BUILDFLAG(ENABLE_SPEEDREADER)
+-  AddBraveSpeedreaderColorMixer(provider, key);
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   AddBraveVpnColorMixer(provider, key);
++// #endif
++// #if BUILDFLAG(ENABLE_SPEEDREADER)
++//   AddBraveSpeedreaderColorMixer(provider, key);
++// #endif
+ 
+   auto& mixer = provider->AddMixer();
+   mixer[kColorIconBase] = {nala::kColorIconDefault};

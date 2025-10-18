@@ -1,0 +1,19 @@
+diff --git a/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc b/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc
+index f848aaf3c9b28d62a98c2e11cd53aea634507b36..4dda9b29d5ba79e079b9a931c4090ba705651575 100644
+--- a/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc
++++ b/browser/ui/webui/brave_education/brave_education_page_delegate_desktop.cc
+@@ -42,11 +42,11 @@ void BraveEducationPageDelegateDesktop::OpenVPNPanel() {
+   window_interface_->GetFeatures().brave_vpn_controller()->ShowBraveVPNBubble(
+       /* show_select */ false);
+ #endif
+-}
++ }
+ 
+ void BraveEducationPageDelegateDesktop::OpenAIChat() {
+-  window_interface_->GetFeatures().side_panel_ui()->Show(
+-      SidePanelEntry::Key(SidePanelEntryId::kChatUI));
++ // window_interface_->GetFeatures().side_panel_ui()->Show(
++ //     SidePanelEntry::Key(SidePanelEntryId::kChatUI));
+ }
+ 
+ }  // namespace brave_education

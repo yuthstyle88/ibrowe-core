@@ -1,0 +1,117 @@
+diff --git a/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc b/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc
+index 1c5c3c1b6ed91ec984af8e6ae1d0bff8ad6df178..b3ba5b1ebaccf897b6796505827b7109276db117 100644
+--- a/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc
++++ b/browser/ui/webui/new_tab_page/brave_new_tab_message_handler.cc
+@@ -82,7 +82,7 @@ base::Value::Dict GetPreferencesDictionary(PrefService* prefs) {
+   pref_data.Set("showStats", prefs->GetBoolean(kNewTabPageShowStats));
+   pref_data.Set("showToday",
+                 prefs->GetBoolean(brave_news::prefs::kNewTabPageShowToday));
+-  pref_data.Set("showRewards", prefs->GetBoolean(kNewTabPageShowRewards));
++  // pref_data.Set("showRewards", prefs->GetBoolean(kNewTabPageShowRewards));
+   pref_data.Set("isBrandedWallpaperNotificationDismissed",
+                 prefs->GetBoolean(kBrandedWallpaperNotificationDismissed));
+   pref_data.Set("isBraveNewsOptedIn",
+@@ -91,12 +91,12 @@ base::Value::Dict GetPreferencesDictionary(PrefService* prefs) {
+       "isBraveNewsDisabledByPolicy",
+       prefs->GetBoolean(brave_news::prefs::kBraveNewsDisabledByPolicy));
+   pref_data.Set("hideAllWidgets", prefs->GetBoolean(kNewTabPageHideAllWidgets));
+-  pref_data.Set("showBraveTalk", prefs->GetBoolean(kNewTabPageShowBraveTalk));
+-  pref_data.Set("isBraveTalkDisabledByPolicy",
+-                prefs->GetBoolean(kBraveTalkDisabledByPolicy));
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  pref_data.Set("showBraveVPN", prefs->GetBoolean(kNewTabPageShowBraveVPN));
+-#endif
++  // pref_data.Set("showBraveTalk", prefs->GetBoolean(kNewTabPageShowBraveTalk));
++  // pref_data.Set("isBraveTalkDisabledByPolicy",
++  //               prefs->GetBoolean(kBraveTalkDisabledByPolicy));
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   pref_data.Set("showBraveVPN", prefs->GetBoolean(kNewTabPageShowBraveVPN));
++// #endif
+   pref_data.Set(
+       "showSearchBox",
+       prefs->GetBoolean(brave_search_conversion::prefs::kShowNTPSearchBox));
+@@ -187,8 +187,8 @@ void BraveNewTabMessageHandler::RegisterMessages() {
+   auto plural_string_handler = std::make_unique<PluralStringHandler>();
+   plural_string_handler->AddLocalizedString("BRAVE_NEWS_SOURCE_COUNT",
+                                             IDS_BRAVE_NEWS_SOURCE_COUNT);
+-  plural_string_handler->AddLocalizedString("rewardsPublisherCountText",
+-                                            IDS_REWARDS_PUBLISHER_COUNT_TEXT);
++  // plural_string_handler->AddLocalizedString("rewardsPublisherCountText",
++  //                                           IDS_REWARDS_PUBLISHER_COUNT_TEXT);
+   web_ui()->AddMessageHandler(std::move(plural_string_handler));
+ 
+   web_ui()->RegisterMessageCallback(
+@@ -302,28 +302,28 @@ void BraveNewTabMessageHandler::OnJavascriptAllowed() {
+       brave_news::prefs::kNewTabPageShowToday,
+       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+                           base::Unretained(this)));
+-  pref_change_registrar_.Add(
+-      kNewTabPageShowRewards,
+-      base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+-                          base::Unretained(this)));
++  // pref_change_registrar_.Add(
++  //     kNewTabPageShowRewards,
++  //     base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
++  //                         base::Unretained(this)));
+   pref_change_registrar_.Add(
+       kBrandedWallpaperNotificationDismissed,
+       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+                           base::Unretained(this)));
+-  pref_change_registrar_.Add(
+-      kNewTabPageShowBraveTalk,
+-      base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+-                          base::Unretained(this)));
+-  pref_change_registrar_.Add(
+-      kBraveTalkDisabledByPolicy,
+-      base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+-                          base::Unretained(this)));
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  pref_change_registrar_.Add(
+-      kNewTabPageShowBraveVPN,
+-      base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+-                          base::Unretained(this)));
+-#endif
++  // pref_change_registrar_.Add(
++  //     kNewTabPageShowBraveTalk,
++  //     base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
++  //                         base::Unretained(this)));
++  // pref_change_registrar_.Add(
++  //     kBraveTalkDisabledByPolicy,
++  //     base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
++  //                         base::Unretained(this)));
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   pref_change_registrar_.Add(
++//       kNewTabPageShowBraveVPN,
++//       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
++//                           base::Unretained(this)));
++// #endif
+   pref_change_registrar_.Add(
+       kNewTabPageHideAllWidgets,
+       base::BindRepeating(&BraveNewTabMessageHandler::OnPreferencesChanged,
+@@ -422,18 +422,18 @@ void BraveNewTabMessageHandler::HandleSaveNewTabPagePref(
+     settings_key = brave_news::prefs::kNewTabPageShowToday;
+   } else if (settings_key_input == "isBraveNewsOptedIn") {
+     settings_key = brave_news::prefs::kBraveNewsOptedIn;
+-  } else if (settings_key_input == "showRewards") {
+-    settings_key = kNewTabPageShowRewards;
++  // } else if (settings_key_input == "showRewards") {
++  //   settings_key = kNewTabPageShowRewards;
+   } else if (settings_key_input == "isBrandedWallpaperNotificationDismissed") {
+     settings_key = kBrandedWallpaperNotificationDismissed;
+   } else if (settings_key_input == "hideAllWidgets") {
+     settings_key = kNewTabPageHideAllWidgets;
+-  } else if (settings_key_input == "showBraveTalk") {
+-    settings_key = kNewTabPageShowBraveTalk;
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  } else if (settings_key_input == "showBraveVPN") {
+-    settings_key = kNewTabPageShowBraveVPN;
+-#endif
++  // } else if (settings_key_input == "showBraveTalk") {
++  //   settings_key = kNewTabPageShowBraveTalk;
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   } else if (settings_key_input == "showBraveVPN") {
++//     settings_key = kNewTabPageShowBraveVPN;
++// #endif
+   } else if (settings_key_input == "showSearchBox") {
+     settings_key = brave_search_conversion::prefs::kShowNTPSearchBox;
+   } else if (settings_key_input == "promptEnableSearchSuggestions") {

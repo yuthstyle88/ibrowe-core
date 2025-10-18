@@ -1,0 +1,27 @@
+diff --git a/browser/ui/views/toolbar/brave_app_menu.cc b/browser/ui/views/toolbar/brave_app_menu.cc
+index 82fb879332ed518c62a676f2a5397ef74cec5714..6f29abd38293d5b7930f8dd25833a116b45decc3 100644
+--- a/browser/ui/views/toolbar/brave_app_menu.cc
++++ b/browser/ui/views/toolbar/brave_app_menu.cc
+@@ -282,14 +282,14 @@ void BraveAppMenu::RecordMenuUsage(int command_id) {
+ }
+ 
+ void BraveAppMenu::UpdateMenuItemView() {
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  CHECK(root_menu_item());
+-  if (auto* menu_item =
+-          root_menu_item()->GetMenuItemByID(IDC_TOGGLE_BRAVE_VPN)) {
+-    menu_item->AddChildView(std::make_unique<BraveVPNStatusLabel>(browser_));
+-    menu_item->AddChildView(std::make_unique<BraveVPNToggleButton>(browser_));
+-  }
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   CHECK(root_menu_item());
++//   if (auto* menu_item =
++//           root_menu_item()->GetMenuItemByID(IDC_TOGGLE_BRAVE_VPN)) {
++//     menu_item->AddChildView(std::make_unique<BraveVPNStatusLabel>(browser_));
++//     menu_item->AddChildView(std::make_unique<BraveVPNToggleButton>(browser_));
++//   }
++// #endif
+ 
+   if (auto* sidebar_item =
+           root_menu_item()->GetMenuItemByID(IDC_SIDEBAR_SHOW_OPTION_MENU)) {

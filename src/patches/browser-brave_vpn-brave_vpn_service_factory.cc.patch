@@ -1,0 +1,21 @@
+diff --git a/browser/brave_vpn/brave_vpn_service_factory.cc b/browser/brave_vpn/brave_vpn_service_factory.cc
+index 41ac448950956cfa3c561c659e5ce9365008764b..44412a98b95aac937d59d1ecb1b5ed9b357cd98a 100644
+--- a/browser/brave_vpn/brave_vpn_service_factory.cc
++++ b/browser/brave_vpn/brave_vpn_service_factory.cc
+@@ -43,11 +43,11 @@ std::unique_ptr<KeyedService> BuildVpnService(
+     return nullptr;
+   }
+ 
+-#if !BUILDFLAG(IS_ANDROID)
+-  if (!g_brave_browser_process->brave_vpn_connection_manager()) {
+-    return nullptr;
+-  }
+-#endif
++// #if !BUILDFLAG(IS_ANDROID)
++//   if (!g_brave_browser_process->brave_vpn_connection_manager()) {
++//     return nullptr;
++//   }
++// #endif
+ 
+   auto* default_storage_partition = context->GetDefaultStoragePartition();
+   auto shared_url_loader_factory =

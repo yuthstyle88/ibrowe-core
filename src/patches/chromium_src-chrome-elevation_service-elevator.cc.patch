@@ -1,0 +1,49 @@
+diff --git a/chromium_src/chrome/elevation_service/elevator.cc b/chromium_src/chrome/elevation_service/elevator.cc
+index 7a660986fa66f6ff3319ad1b0571e97a11260058..5727b04fa3d78faf5c8a9ebba76ef5a0e8c4fb7e 100644
+--- a/chromium_src/chrome/elevation_service/elevator.cc
++++ b/chromium_src/chrome/elevation_service/elevator.cc
+@@ -60,25 +60,25 @@ HRESULT Elevator::InstallVPNServices() {
+   }
+   // End of trusted source check
+ 
+-#if BUILDFLAG(ENABLE_BRAVE_VPN)
+-  if (!brave_vpn::IsBraveVPNHelperServiceInstalled()) {
+-    auto success = brave_vpn::InstallBraveVPNHelperService(
+-        base::PathService::CheckedGet(base::DIR_ASSETS));
+-    if (!success) {
+-      return E_FAIL;
+-    }
+-  }
+-
+-#if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
+-  if (!brave_vpn::wireguard::IsWireguardServiceInstalled()) {
+-    auto success = brave_vpn::InstallBraveWireguardService(
+-        base::PathService::CheckedGet(base::DIR_ASSETS));
+-    if (!success) {
+-      return E_FAIL;
+-    }
+-  }
+-#endif
+-#endif
++// #if BUILDFLAG(ENABLE_BRAVE_VPN)
++//   if (!brave_vpn::IsBraveVPNHelperServiceInstalled()) {
++//     auto success = brave_vpn::InstallBraveVPNHelperService(
++//         base::PathService::CheckedGet(base::DIR_ASSETS));
++//     if (!success) {
++//       return E_FAIL;
++//     }
++//   }
++//
++// #if BUILDFLAG(ENABLE_BRAVE_VPN_WIREGUARD)
++//   if (!brave_vpn::wireguard::IsWireguardServiceInstalled()) {
++//     auto success = brave_vpn::InstallBraveWireguardService(
++//         base::PathService::CheckedGet(base::DIR_ASSETS));
++//     if (!success) {
++//       return E_FAIL;
++//     }
++//   }
++// #endif
++// #endif
+   return S_OK;
+ }
+ 
