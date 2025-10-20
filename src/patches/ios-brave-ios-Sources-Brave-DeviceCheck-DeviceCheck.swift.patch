@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift b/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift
-index d597584841fc1da62002cdcf07d8b32acb14265c..82e51c2ea04c711b166362868b7f02bca126100a 100644
+index d597584841fc1da62002cdcf07d8b32acb14265c..1b3c7325fd156e6def5fe9f55f34cd09c93c27de 100644
 --- a/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift
 +++ b/ios/brave-ios/Sources/Brave/DeviceCheck/DeviceCheck.swift
 @@ -28,7 +28,7 @@ public struct DeviceCheckRegistration: Codable {
@@ -29,3 +29,15 @@ index d597584841fc1da62002cdcf07d8b32acb14265c..82e51c2ea04c711b166362868b7f02bc
  
    // The current build environment
    private let environment: BraveRewards.Configuration.Environment
+@@ -290,9 +290,9 @@ extension DeviceCheckClient {
+   private var baseURL: URL? {
+     switch environment {
+     case .development:
+-      return URL(string: "https://grant.rewards.brave.software")
++      return URL(string: "https://grant.rewards.ibrowe.software")
+     case .staging:
+-      return URL(string: "https://grant.rewards.bravesoftware.com")
++      return URL(string: "https://grant.rewards.ibrowesoftware.com")
+     case .production:
+       return URL(string: "https://grant.rewards.brave.com")
+     }

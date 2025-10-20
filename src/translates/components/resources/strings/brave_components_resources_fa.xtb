@@ -126,8 +126,8 @@
 <translation id="730042046912793465">این یک</translation>
 <translation id="2055363275850890030">پنجره خصوصی</translation>
 <translation id="9133213713928851646">iBrowe آنچه را در «پنجره خصوصی» انجام می‌دهید به‌خاطر نمی‌سپارد. سایت‌هایی که بازدید می‌کنید در سابقه‌تان نشان داده نخواهند شد و وقتی کارتان تمام شد، کوکی‌ها پاک خواهند شد. با این حال، «پنجره خصوصی» به‌طور کامل شما را درحالت آنلاین ناشناس نمی‌کند.</translation>
-<translation id="4491905831789757331">iBrowe هرگز فعالیت‌های شما در «پنجره خصوصی» را نگهداری نمی‌کند. سایت‌هایی که بازدید می‌کنید در سابقه شما نمایش داده نمی‌شوند. کوکی‌ها، داده‌های تکمیل فرم و داده‌های سایت پس از بستن تمام پنجره‌های خصوصی حذف می‌شوند.</translation>
-<translation id="1700746046668116047">توجه داشته باشید که (اگر از دستگاه کاری یا شبکه استفاده می‌کنید) فعالیت شما همچنان می‌تواند برای ارائه‌دهنده خدمات اینترنت، ناظران منفعل شبکه یا کارفرمای شما قابل مشاهده باشد. برای حفظ حریم خصوصی بیشتر، پنجره‌ای خصوصی با Tor باز کنید.</translation>
+<translation id="5280085559200511517">مرورگر iBrowe هرگز فعالیت‌های شما در یک «پنجره خصوصی» را به خاطر نمی‌سپارد. سایت‌هایی که بازدید می‌کنید در تاریخچه شما نمایش داده نخواهند شد. کوکی‌ها، داده‌های فرم و داده‌های سایت به محض بستن تمام پنجره‌های خصوصیِ باز، حذف می‌شوند. توجه داشته باشید که فعالیت شما همچنان می‌تواند برای ارائه‌دهنده خدمات اینترنت، ناظران غیرفعال شبکه، یا کارفرمای شما (در صورت استفاده از رایانه یا شبکه کاری) قابل مشاهده باشد.</translation>
+<translation id="2517912602053665378">برای حریم خصوصی بیشتر، یک پنجره خصوصی با Tor باز کنید.</translation>
 <translation id="8759753423332885148">بیشتر بدانید.</translation>
 <translation id="8611976753572844841">پنجره خصوصی با اتصال Tor</translation>
 <translation id="1645589858096839236">iBrowe هرگز آنچه را در پنجره خصوصی انجام می‌دهید ذخیره نمی‌کند. با اتصال Tor، دسترسی به آدرس IP حقیقی شما از طریق سایت‌ها و دسترسی شبکه‌ها به سایت‌هایی که از آن‌ها بازدید می‌کنید دشوارتر خواهد بود. در هر صورت، اگر امنیت شخصی‌تان به ناشناس ماندن بستگی دارد، در عوض از مرورگر Tor استفاده کنید.</translation>
@@ -1191,6 +1191,8 @@
 <translation id="2749584096020594976">اگر این فیلد مشخص نشده باشد، مقدار نانس به‌طور خودکار تعیین می‌شود.</translation>
 <translation id="1599636444563952897">مجوز محدودیت خرج کردن به <ph name="SITE_ORIGIN"/> اجازه می‌دهد از حساب برداشت کند و تا سقف مبلغ زیر خرج کند:</translation>
 <translation id="4512871563176965522">سهمیه سفارشی</translation>
+<translation id="4584580349370930446">سقف هزینه پیشنهادی</translation>
+<translation id="3853163884524541156">تعیین سقف هزینه به‌صورت دستی</translation>
 <translation id="749944179568745958">آدرس ETH معتبری نیست</translation>
 <translation id="2832270987629018596">نشانی SOL معتبر نیست</translation>
 <translation id="2115100722958448834">آدرس <ph name="COIN_TYPE_SYMBOL"/> معتبر نیست.</translation>
@@ -1259,6 +1261,10 @@
 <translation id="4213183402991860207">پل <ph name="DEVICE_NAME"/> آماده نیست</translation>
 <translation id="3378339846292573874">افزودن توکن پیشنهادی</translation>
 <translation id="2322227405137827074">آیا می‌خواهید این توکن را وارد کنید؟</translation>
+<translation id="5128068232340122017">در انتظار (<ph name="QUEUE_LENGTH"/>)</translation>
+<translation id="4642769870132666012">تراکنش بعدی</translation>
+<translation id="6917555475950364314">تراکنش قبلی</translation>
+<translation id="5305367377612487857">رد کردن تراکنش‌ها <ph name="QUEUE_LENGTH"/></translation>
 <translation id="4378475168089649292">بلاکچین</translation>
 <translation id="1904295039023858291">توکن استاندارد</translation>
 <translation id="9033453977881595182">شناسه توکن</translation>
@@ -1410,6 +1416,8 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="4841860051609590575">شناسه درخواست</translation>
 <translation id="6759710362319508545">منابع</translation>
 <translation id="1908159733454294871">خطر امنیتی شناسایی شد</translation>
+<translation id="3621202678540785336">ورودی</translation>
+<translation id="3009178788565917040">خروجی</translation>
 <translation id="1965889974717516497">شبکه‌های ثانویه</translation>
 <translation id="7691821949666755802">تست شبکه‌ها</translation>
 <translation id="2816106784624007524">محدوده گس باید عدد صحیح بزرگ‌تر از 0 باشد</translation>
@@ -1693,6 +1701,12 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="3214633363105739658"><ph name="REFRESH_START"/>Refresh<ph name="REFRESH_END"/> or <ph name="IMPORT_START"/>Import Manually<ph name="IMPORT_END"/></translation>
 <translation id="3840001806553580474">در حال بارگذاری مجدد</translation>
 <translation id="4608324163534970318">هزینه‌های شبکه</translation>
+<translation id="5024685988141485810">میزان کارمزد دلخواه</translation>
+<translation id="167204008553981721">سقف انعام گاز</translation>
+<translation id="9021878977748775164">سقف قیمت گاز</translation>
+<translation id="6276584161122912863">هزینه هر واحد گاز</translation>
+<translation id="6132197290665156212">کارمزد تخمینی شبکه</translation>
+<translation id="1788636309517085411">استفاده از پیش‌فرض</translation>
 <translation id="6213230117190778270">دریافت</translation>
 <translation id="6748108480210050150">از</translation>
 <translation id="4875290286426670462">نامحدود <ph name="ASSET_SYMBOL"/></translation>
@@ -2099,7 +2113,7 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="9089090017461255038">روشن کردن Speedreader</translation>
 <translation id="3929926885379607283">همیشه برای این سایت از تندخوان استفاده شود</translation>
 <translation id="4186588885948504942">برای روشن/ خاموش کردن تندخوان برای این سایت، کلیک کنید.</translation>
-<translation id="6568851043090579206">همیشه از تندخوان برای همه سایت‌ها استفاده شود</translation>
+<translation id="6568851043090579206">استفاده خودکار از سریع‌خوان در صورت امکان در همه سایت‌ها</translation>
 <translation id="3138587343887871192">برای روشن/ خاموش کردن تندخوان برای همه سایت‌ها، کلیک کنید.</translation>
 <translation id="5153147025131874069">همه سایت‌ها دارای قابلیت تندخوانی نیستند.</translation>
 <translation id="1013121820689882118">تندخوان</translation>
@@ -2137,6 +2151,8 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
     }</translation>
 <translation id="6961721183181597848">امروز چطور می‌توانم کمکتان کنم؟</translation>
 <translation id="2966135729673253768">سؤالات بعدی را بپرسید</translation>
+<translation id="6219262425964000211">فایل‌ها را اینجا بیندازید</translation>
+<translation id="4313763911013851687">برای افزودن فایل به گفتگو، آن را اینجا بیندازید</translation>
 <translation id="4524675003624341892">سؤالاتی را پیشنهاد کنید…</translation>
 <translation id="4567071417854988869">این ویدیو را خلاصه کن</translation>
 <translation id="4264902191243445258">{PAGE_COUNT, plural,
@@ -2154,14 +2170,17 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="7905602379229309187">این نقطه پایان در حال حاضر تحت بار سنگین است. لطفاً بعداً دوباره تلاش کنید.</translation>
 <translation id="8151638057146502721">پیکربندی کنید</translation>
 <translation id="999273441077650169">مدل به صورت پویا تغییر می‌کند تا بهترین راه را برای انجام کار پیدا کند.<ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
-<translation id="3282183392203936979">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر Llama 3.1 8B هستم؛ مدلی که Meta توسعه داده تا برای کاربردهای مختلف مناسب باشد. Llama از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
-<translation id="4328177358021456069">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر Qwen 14B هستم؛ مدلی که Alibaba Cloud توسعه داده تا برای کاربردهای مختلف مناسب باشد. Qwen از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
-<translation id="5594884291408453470">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر Gemma 3 12B هستم؛ مدلی که Google DeepMind توسعه داده تا برای کاربردهای مختلف مناسب باشد. Gemma از طریق زیرساخت امن خود iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
-<translation id="8706248250250832190">سلام من Leo هستم؛ یک دستیار هوش مصنوعی کاملاً توسط iBrowe میزبانی می‌شوم. من با DeepSeek R1 که یک مدل ساخته‌شده توسط DeepSeek برای انجام فعالیت‌های استدلال عمیق است، کار می‌کنم. <ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
-<translation id="2575216739207798060">سلام، من Leo هستم. من متکی بر iBrowe هستم و از طریق Claude Instant، مدلی که Anthropic برای پشتیبانی از مکالمه و پردازش متن توسعه داده است، توانمندسازی شده‌ام. Claude Instant از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
-<translation id="512933369128404654">سلام، من Leo هستم. من متکی بر iBrowe هستم و از طریق Claude Haiku، مدلی که Anthropic برای پشتیبانی از مکالمه و پردازش متن توسعه داده است، توانمندسازی شده‌ام. Claude Haiku از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
-<translation id="406499980300734922">سلام، من Leo هستم. من متکی بر iBrowe هستم و از طریق Claude Instant، مدلی که Anthropic برای پشتیبانی از مکالمه و پردازش متن توسعه داده است، توانمندسازی شده‌ام. Claude Instant از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
+<translation id="1238020084128916796">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر Llama 3.1 8B هستم؛ مدلی که Meta توسعه داده تا برای کاربردهای مختلف مناسب باشد. Llama از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
+<translation id="7127671672828944579">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر Qwen 14B هستم؛ مدلی که Alibaba Cloud توسعه داده تا برای کاربردهای مختلف مناسب باشد. Qwen از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
+<translation id="2328524194917949829">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر Gemma 3 12B هستم؛ مدلی که Google DeepMind توسعه داده تا برای کاربردهای مختلف مناسب باشد. Gemma از طریق زیرساخت امن خود iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
+<translation id="634682910381645550">سلام، من Leo هستم. یک دستیار هوش مصنوعی هستم که کاملاً توسط iBrowe میزبانی می‌شوم. من مبتنی بر DeepSeek R1 هستم؛ مدلی که DeepSeek توسعه داده تا وظایف استدلال عمیق را انجام دهد. DeepSeek R1 از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">سلام، من Leo هستم. من متکی بر iBrowe هستم و از طریق Claude Instant، مدلی که Anthropic برای پشتیبانی از مکالمه و پردازش متن توسعه داده است، توانمندسازی شده‌ام. Claude Instant از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
+<translation id="3789772321824682783">سلام، من Leo هستم. من متکی بر iBrowe هستم و از طریق Claude Haiku، مدلی که Anthropic برای پشتیبانی از مکالمه و پردازش متن توسعه داده است، توانمندسازی شده‌ام. Claude Haiku از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
+<translation id="1778885220602472158">سلام، من Leo هستم. من متکی بر iBrowe هستم و از طریق Claude Sonnet، مدلی که Anthropic برای پشتیبانی از مکالمه و پردازش متن توسعه داده است، توانمندسازی شده‌ام. Claude Sonnet از طریق زیرساخت امن خودِ iBrowe میزبانی می‌شود.<ph name="LINK_BEFORE"/>اطلاعات بیشتر<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">پریمیوم</translation>
+<translation id="5807427080183870259">محلی</translation>
+<translation id="631371844654031449">مدل‌های پیشنهادی</translation>
+<translation id="6568044140836233369">نشان دادن همه مدل‌ها</translation>
 <translation id="6187065185557150870">چت</translation>
 <translation id="4685048769603134644">باز کردن تمام‌صفحه</translation>
 <translation id="2961040541145689181">چت جدید</translation>
@@ -2229,10 +2248,12 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="1243966363662220847">بازخورد پاسخ</translation>
 <translation id="7417895556119762861">دوست داشتن یا دوست نداشتن یک پاسخ باعث می‌شود امتیاز، مکالمه، مدل، زبان، نسخه و وضعیت پرمیوم برای بهبود Leo به iBrowe ارسال شود. <ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">ارسال پیام به Leo</translation>
+<translation id="4084869091337186002">دستیار هوش مصنوعی Leo در این نمایه همیشه فعال است</translation>
 <translation id="8650874793377330048">توقف پاسخگویی</translation>
 <translation id="8712637175834984815">متوجه شدم</translation>
 <translation id="1093419424466417703">این صفحه برای Leo خیلی طولانی است. ممکن است برخی از مطالب از مکالمه حذف شده باشد. Leo توانست <ph name="PERCENTAGE"/> از محتوای صفحه را بخواند.</translation>
 <translation id="4592293425457329338">ممکن است مقداری از محتوای گفتگو جا مانده باشد. Leo توانست <ph name="PERCENTAGE"/> از محتوای مرتبط با گفتگو را بازیابی کند.</translation>
+<translation id="8501106061098623831">تعداد تصاویر بسیار زیادی از صفحه گرفته شد. لئو توانست از <ph name="PERCENTAGE"/> از محتوای بصری موجود استفاده کند.</translation>
 <translation id="4370698775470316661">این مکالمه طولانی است و قادر به ادامه دادن نیستید. ممکن است مدل‌های دیگری موجود باشد که Leo قادر است با آن‌ها دقت خود را در مکالمه‌های بلند حفظ کند.</translation>
 <translation id="5719170755629028558">در حال بهبود پاسخ شما با جستجوی iBrowe…</translation>
 <translation id="5794962229997281366">جستجوی پاسخ بهبودیافته برای <ph name="SEARCH_TERMS"/>.</translation>
@@ -2296,6 +2317,7 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="6739516910850820220">در حال بارگذاری فایل...</translation>
 <translation id="9088751620363630236">گرفتن عکس...</translation>
 <translation id="4250229828105606438">عکس صفحه</translation>
+<translation id="7949596341600215809">اسکرین‌شات از کل صفحه</translation>
 <translation id="6332876390231524389">محتوای برگه‌های فعلی</translation>
 <translation id="7742969455167760092">باز کردن زبانه‌ها...</translation>
 <translation id="49269513399674318">از میکروفون استفاده کنید</translation>
@@ -2305,126 +2327,10 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="6287023598025162715">گفتگوی جدید</translation>
 <translation id="7097822247923237815">چت موقت</translation>
 <translation id="7481750859362986254">این چت در تاریخچه شما ذخیره نخواهد شد و هیچ‌کدام از سفارشی‌سازی‌ها یا حافظه‌های Leo برای آن استفاده نخواهد شد.</translation>
-<translation id="8370801182970639038">خودکار (<ph name="LOCALE"/>)</translation>
-<translation id="8343473178272604223">موتورهای جستجو فعال شد</translation>
-<translation id="5355776323718420036">پنهان کردن سایت‌های برتر</translation>
-<translation id="9173319813356700250">اخبار</translation>
-<translation id="6543799171249004861">عکس توسط <ph name="AUTHOR"/></translation>
-<translation id="466214682712474574">برای مشاهده موجودی، وارد حساب <ph name="PROVIDER"/> خود شوید</translation>
-<translation id="8332875111286275890">برای مشاهده موجودی خود وارد شوید</translation>
-<translation id="5430001801813715388">پاداش‌ها</translation>
-<translation id="5966055668402779222">از جستجوی iBrowe بپرس</translation>
-<translation id="167018310108390163">سفارشی کردن صفحه برگه جدید</translation>
-<translation id="6851426306697017546">نمایش ساعت</translation>
-<translation id="4844370919312937270">نمایش ابزارک جستجو در برگه‌های جدید</translation>
-<translation id="7328310113820087094">با <ph name="LINK_BEGIN"/>iBrowe Rewards<ph name="LINK_END"/>، می‌توانید با دیدن تبلیغات صفحه برگه جدید درآمد کسب کنید.</translation>
-<translation id="4100520468072294616">نمایش تبلیغات صفحه برگه جدید</translation>
-<translation id="5009354496127441090">نمایش سایت‌های برتر</translation>
-<translation id="3960619311638643872">iBrowe VPN</translation>
-<translation id="4784802981241664605">آمار</translation>
-<translation id="712731581368828482">تماس‌های ویدیویی رمزگذاری‌شده با iBrowe Talk.</translation>
-<translation id="2671474274417808910">تماس‌ها با اولویت حریم خصوصی</translation>
-<translation id="2100665198270190500">TALK</translation>
-<translation id="4290791698375397492">سایت برتر حذف شد</translation>
-<translation id="1436784010935106834">حذف‌ شد</translation>
-<translation id="9030215177866748410">سایت‌های برتر براساس وب‌سایت‌هایی پیشنهاد می‌شوند که اغلب بازدید می‌کنید.</translation>
-<translation id="1849266032237224734">نمایش موارد کمتر</translation>
-<translation id="9125416311275819193">نمایش موارد بیشتر</translation>
-<translation id="8425213833346101688">تغییر</translation>
-<translation id="755045397420611731">حریم خصوصی و امنیت آنلاین بیشتر</translation>
-<translation id="4520128772974831415">مخفی کردن IP و تغییر موقعیت مکانی</translation>
-<translation id="6819278685469225453">از هر برنامه در دستگاه خود محافظت کنید</translation>
-<translation id="8422279921836245017">قبلاً خریده‌اید؟</translation>
-<translation id="8703188411226330709">شروع نسخه آزمایشی رایگان</translation>
-<translation id="8814357473522731680">تحت پشتیبانی</translation>
-<translation id="7143207342074048698">در حال اتصال</translation>
-<translation id="1202549130170287307">در حال قطع اتصال</translation>
-<translation id="8941703009412168350">IBROWE VPN</translation>
-<translation id="6303294677342628402">سپر ایمنی</translation>
-<translation id="8458987127502506209">فعال کردن iBrowe سپرها</translation>
-<translation id="7700894290854403770"><ph name="STATUS_BEFORE"/>سپرهای محافظ برای <ph name="HOST"/> روشن هستند<ph name="STATUS_AFTER"/></translation>
-<translation id="7656091630265507216"><ph name="STATUS_BEFORE"/>سپرهای محافظ‌ برای <ph name="HOST"/> خاموش هستند<ph name="STATUS_AFTER"/></translation>
-<translation id="5623354834493649144">اگر این سایت خراب به نظر می‌رسد، سپرهای محافظ را خاموش کنید.<ph name="NOTE_BEFORE"/>توجه: این کار ممکن است حفاظت‌های حریم خصوصی iBrowe را کاهش دهد.<ph name="NOTE_AFTER"/></translation>
-<translation id="8377155647357436161">ردیاب‌ها، آگهی‌ها و <ph name="LINK_BEFORE"/> موارد دیگر مسدود شدند. بیشتر بدانید<ph name="LINK_AFTER"/></translation>
-<translation id="7604553853176833536">تحت محافظت «سپر ایمنی iBrowe» نیست <ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
-<translation id="650318023204990401">کنترل‌های پیشرفته</translation>
-<translation id="5799940914270080805">تغییر این تنظیمات ممکن است سایت‌ها را خراب کند.</translation>
-<translation id="9204041448536398473">تنظیمات عمومی سپرها</translation>
-<translation id="2108334320919763866">تنظیمات پیش‌فرض سراسری</translation>
-<translation id="7205939464631857223">همه عناصر مسدودشده را پاک کن</translation>
-<translation id="3440043456924990296">تنظیمات مدیریت‌شده توسط سازمان</translation>
-<translation id="7053983685419859001">مسدود کنید</translation>
-<translation id="5716230673298034837">همه را مجاز کنید</translation>
-<translation id="5279600392753459966">همه را مسدود کنید</translation>
-<translation id="4516904298421534459">فیلتر کردن فهرست‌ها</translation>
-<translation id="3570081523466826008">ارتقاء اتصال‌ها به HTTPS</translation>
-<translation id="131231380815754440">فعال کردن HTTPS</translation>
-<translation id="4824468494729001999">مسدود کردن اسکریپت‌ها</translation>
-<translation id="3246600097575692802">فعال کردن اسکریپت‌های مسدود</translation>
-<translation id="3603525299146223354">ردیاب‌ها و آگهی‌ها</translation>
-<translation id="4448697385961650078">مسدود کردن ردیاب‌ها و آگهی‌ها</translation>
-<translation id="8593054718053894081">مسدود کردن فعالانه ردیاب‌ها و آگهی‌ها</translation>
-<translation id="7384778069178817075">مجاز بودن همه ردیاب‌ها و آگهی‌ها</translation>
-<translation id="6196640612572343990">مسدود کردن کوکی‌های شخص ثالث</translation>
-<translation id="693506469193748756">وقتی این سایت را می‌بندم مرا فراموش کن</translation>
-<translation id="5471580724041424345">وقتی سایتی را می‌بندید، کوکی‌ها و سایر داده‌های سایت را پاک می‌کند.</translation>
-<translation id="6486971767955110687">ذخیره‌سازی اطلاعات تماس برای گزارش‌های خرابی وبسایت</translation>
-<translation id="4085787265464238844">اگر اطلاعات تماس خود را ارائه دهید، برای گزارش‌های آتی ذخیره خواهد شد</translation>
-<translation id="6883611015375728278">مسدود کردن همه کوکی‌ها</translation>
-<translation id="5657156137487675418">مجاز کردن همه کوکی‌ها</translation>
-<translation id="8366221601425141146">اثر انگشت مسدود شده است</translation>
-<translation id="6531019308847917584">مسدود کردن تشخیص اثر انگشت</translation>
-<translation id="1899608006846124237">مسدود کردن فعالانه تشخیص اثرانگشت</translation>
-<translation id="8034285923190068220">اجازه به اثر انگشت</translation>
-<translation id="7638541189782135885">اتصال‌های HTTP را ارتقا ندهید</translation>
-<translation id="2570787596946026998">صرفاً با HTTPS متصل شوید</translation>
-<translation id="1992750560347846445">گزارش سایت</translation>
-<translation id="2387532482048804818">اگر سایت با سپرهای روشن به‌درستی کار نکرد به ما اطلاع دهید.</translation>
-<translation id="3795015906457257780">بدون محافظت‌های حریم خصوصی iBrowe در حال مشاهده این سایت هستید.</translation>
-<translation id="7194012750329511146">«سپرهای iBrowe»
-<ph name="NUMBER"/> ردیاب‌،‌ آگهی و موارد دیگر مسدود شد</translation>
-<translation id="4292121526390005808">اسکریپت‌های مسدود</translation>
-<translation id="5046271170844958713">اسکریپت‌های مجاز</translation>
-<translation id="199862531047218413">محافظت در برابر انگشت‌نگاری اعمال شده است</translation>
-<translation id="5032505924781383272">استفاده از اقدامات حفاظتی الزاماً به معنای تلاش این صفحه وب برای شناسایی مرورگر شما نیست.</translation>
-<translation id="1905384713982899903">اثرانگشت‌های مسدودشده</translation>
-<translation id="314364527871618241">اثرانگشت‌های مجاز</translation>
-<translation id="264682546981571963">از اعلامیه های رضایت کوکی خسته شده اید؟</translation>
-<translation id="4986297793092101884">iBrowe قبلاً کوکی‌های شخص ثالث را مسدود می‌کند. همچنین می‌توانیم اعلامیه‌های رضایت کوکی را مسدود کنیم.</translation>
-<translation id="535688588637568715">بله، اعلامیه‌های رضایت کوکی را مسدود کنید</translation>
-<translation id="2808175374672429053">Wildcardها اجازه دسترسی به iBrowe Shieldها را ندارند.</translation>
-<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
-      =1 {iBrowe Shields یک ردیاب را در <ph name="SITE_URL"/> مسدود کردند}
-      other {iBrowe Shields  تعداد  {BLOCKED_COUNT} ردیاب را در <ph name="SITE_URL"/> مسدود کردند}
-    }</translation>
-<translation id="2540598191934725677">برای مشاهده iBrowe Shields، روی نماد iBrowe کلیک کنید.</translation>
-<translation id="6294662480095808915">حریم خصوصی. به‌صورت پیش‌فرض.</translation>
-<translation id="4366423156486478559">روی هر لینک که کلیک می‌کنید،‌ از محافظت iBrowe بهره‌مند شوید. کافی است iBrowe را به‌عنوان مرورگر پیش‌فرض خود انتخاب کنید و به مرور اینترنت بپردازید. آن هم به‌صورت محرمانه.</translation>
-<translation id="3830912418080848377">وارد کردن تنظیمات</translation>
-<translation id="6378406588483694938">نشانک‌ها، افزونه‌ها، و حتی رمزهای عبور ذخیره‌شده را از مرورگر قدیمی خود به‌سادگی وارد کنید.</translation>
-<translation id="2092825239819166928">نمایه را برای وارد کردن انتخاب کنید</translation>
-<translation id="4763127492635705340">نمایه‌ای که انتخاب کردید، دارای چندین نمایه است. نمایه‌(هایی) را که مایل به وارد کردن هستید، انتخاب کنید.</translation>
-<translation id="880174232178865598">وارد کردن نمایه‌ها</translation>
-<translation id="2453860139492968684">پایان</translation>
-<translation id="2273851479262317744">تنظیم iBrowe به‌عنوان مرورگر پیش‌فرض</translation>
-<translation id="5037676449506322593">انتخاب همه</translation>
-<translation id="5148943178722443958">به بهبود iBrowe کمک کنید.</translation>
-<translation id="1097073572755862978">اگر با از کار افتادن یا توقف مواجه شدید، گزارش‌های عیب‌یابی را ارسال کنید. <ph name="LINK_BEFORE"/>بیشتر بدانید.<ph name="LINK_AFTER"/></translation>
-<translation id="6629244688368006959">اطلاعات آماری محصول درباره ویژگی‌هایی که توسط کاربران iBrowe استفاده می‌شود به‌طور خصوصی و ناشناس به اشتراک گذاشته می‌شود. <ph name="LINK_BEFORE"/>بیشتر بدانید.<ph name="LINK_AFTER"/></translation>
-<translation id="7415454883318062233">راه‌اندازی تکمیل شد</translation>
-<translation id="3141206739023333979">هر زمان خواستید،‌ این انتخاب‌ها را در <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/> تغییر دهید.</translation>
-<translation id="8321985064212130832">لطفاً <ph name="LINK_BEFORE"/>خط مشی حریم خصوصی<ph name="LINK_AFTER"/>ما را به‌طور کامل مطالعه کنید</translation>
-<translation id="2801098717523961746">انتخاب طرح زمینه</translation>
-<translation id="6262510489122516114">می‌توانید این مورد را هر زمان که بخواهید در تنظیمات iBrowe تغییر دهید.</translation>
-<translation id="546481172717459539">تنظیم سیستم مطابقت</translation>
-<translation id="7799817062559422778">حالت روشن</translation>
-<translation id="4117637339509843559">حالت تیره</translation>
-<translation id="6302485303316397682">نتایج جستجوی بهتری می‌خواهید؟</translation>
-<translation id="7014699001826714920">به جنبش بپیوندید، با «جستجوی iBrowe» مشارکت کنید.</translation>
-<translation id="6821108091726602352">با مشارکت در پروژه کاوش وب iBrowe، به ما در برطرف کردن مشکل وب کمک کنید. با اشتراک‌گذاری سیگنال‌های جستجوی کاملاً ناشناس، می‌توانید به iBrowe کمک کنید شاخص جستجو را رشد دهد.</translation>
-<translation id="6764845498618413165">بیشتر بدانید.</translation>
-<translation id="7818938154803162778">حتماً، کمک خواهم کرد</translation>
-<translation id="7207456302801184289">‏به iBrowe خوش آمدید</translation>
+<translation id="4238305333951712482">حافظه به روز رسانی شد: <ph name="MEMORY_CONTENT"/></translation>
+<translation id="2593275000606533518">مدیریت همه</translation>
+<translation id="8410199626695516952">بسیار خوب،من این را به خاطر نمی‌سپارم</translation>
+<translation id="8419849467765474535">در ذخیره حافظه خطایی روی داد. لطفاً دوباره تلاش کنید.</translation>
 <translation id="3486480638399578250">آدرس ایمیل شخصی خود را خصوصی نگه دارید</translation>
 <translation id="7765422154906712751">آدرس‌های تصادفی و منحصربه‌فرد ایجاد کنید که به ایمیل حساب iBrowe شما بازارسال می‌شوند و می‌توان در هر زمان حذف کرد. از افشا یا استفاده شدن آدرس ایمیل واقعی خود توسط تبلیغ‌کنندگان جلوگیری کنید.</translation>
 <translation id="5222676887888702881">خروج از سیستم</translation>
@@ -2465,6 +2371,135 @@ Meld‏<ph name="LINK_AFTER"/> را خوانده‌ام و با آن موافق�
 <translation id="619122420105901711">ایمیل را نمی‌بینید؟ پوشه هرزنامه خود را بررسی کنید یا دوباره تلاش کنید.</translation>
 <translation id="3397336197747843396">خطا در احراز هویت با حساب iBrowe. لطفاً دوباره امتحان کنید.</translation>
 <translation id="1340795582009113055">شروع مجدد</translation>
+<translation id="8528664394991030582">ایمیلی ثبت نشده است</translation>
+<translation id="589806103071387355">پاسخی نامعتبر از سرویس حساب‌های iBrowe دریافت شد</translation>
+<translation id="7508412964869396375">توکن تأیید از سرویس حساب‌های iBrowe دریافت نشد</translation>
+<translation id="3179527991526213624">پاسخی از سرویس حساب‌های iBrowe دریافت نشد</translation>
+<translation id="7911439408853154309">تأیید ایمیل ناموفق بود</translation>
+<translation id="8370801182970639038">خودکار (<ph name="LOCALE"/>)</translation>
+<translation id="8343473178272604223">موتورهای جستجو فعال شد</translation>
+<translation id="8285901519864208412">پنهان کردن کارت پاداش‌ها</translation>
+<translation id="4725613319787110841">پنهان کردن کارت آمار</translation>
+<translation id="2991633563551889054">پنهان کردن کارت گفتگو</translation>
+<translation id="5355776323718420036">پنهان کردن سایت‌های برتر</translation>
+<translation id="1689504141194856995">پنهان کردن کارت VPN</translation>
+<translation id="8262911270872215147">سفارشی‌سازی اخبار</translation>
+<translation id="3884037897537157986">غیرفعال کردن اخبار</translation>
+<translation id="7847477075635510673">پنهان کردن اخبار</translation>
+<translation id="9173319813356700250">اخبار</translation>
+<translation id="6543799171249004861">عکس توسط <ph name="AUTHOR"/></translation>
+<translation id="466214682712474574">برای مشاهده موجودی، وارد حساب <ph name="PROVIDER"/> خود شوید</translation>
+<translation id="8332875111286275890">برای مشاهده موجودی خود وارد شوید</translation>
+<translation id="5430001801813715388">پاداش‌ها</translation>
+<translation id="5966055668402779222">از جستجوی iBrowe بپرس</translation>
+<translation id="167018310108390163">سفارشی کردن صفحه برگه جدید</translation>
+<translation id="6851426306697017546">نمایش ساعت</translation>
+<translation id="4844370919312937270">نمایش ابزارک جستجو در برگه‌های جدید</translation>
+<translation id="7328310113820087094">با <ph name="LINK_BEGIN"/>iBrowe Rewards<ph name="LINK_END"/>، می‌توانید با دیدن تبلیغات صفحه برگه جدید درآمد کسب کنید.</translation>
+<translation id="4100520468072294616">نمایش تبلیغات صفحه برگه جدید</translation>
+<translation id="5009354496127441090">نمایش سایت‌های برتر</translation>
+<translation id="3960619311638643872">iBrowe VPN</translation>
+<translation id="4784802981241664605">آمار</translation>
+<translation id="5236080651083907980">تماس‌های ویدیویی رمزگذاری‌شده با iBrowe Talk</translation>
+<translation id="2671474274417808910">تماس‌ها با اولویت حریم خصوصی</translation>
+<translation id="2100665198270190500">TALK</translation>
+<translation id="4290791698375397492">سایت برتر حذف شد</translation>
+<translation id="9030215177866748410">سایت‌های برتر براساس وب‌سایت‌هایی پیشنهاد می‌شوند که اغلب بازدید می‌کنید.</translation>
+<translation id="1849266032237224734">نمایش موارد کمتر</translation>
+<translation id="9125416311275819193">نمایش موارد بیشتر</translation>
+<translation id="8425213833346101688">تغییر</translation>
+<translation id="755045397420611731">حریم خصوصی و امنیت آنلاین بیشتر</translation>
+<translation id="4520128772974831415">مخفی کردن IP و تغییر موقعیت مکانی</translation>
+<translation id="6819278685469225453">از هر برنامه در دستگاه خود محافظت کنید</translation>
+<translation id="8422279921836245017">قبلاً خریده‌اید؟</translation>
+<translation id="8703188411226330709">شروع نسخه آزمایشی رایگان</translation>
+<translation id="8814357473522731680">تحت پشتیبانی</translation>
+<translation id="7143207342074048698">در حال اتصال</translation>
+<translation id="1202549130170287307">در حال قطع اتصال</translation>
+<translation id="8941703009412168350">IBROWE VPN</translation>
+<translation id="6303294677342628402">سپر ایمنی</translation>
+<translation id="8458987127502506209">فعال کردن iBrowe سپرها</translation>
+<translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>سپرها<ph name="STATUS_AFTER"/> برای این سایت فعال هستند</translation>
+<translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>سپرها<ph name="STATUS_AFTER"/> برای این سایت غیر فعال هستند</translation>
+<translation id="5623354834493649144">اگر این سایت خراب به نظر می‌رسد، سپرهای محافظ را خاموش کنید.<ph name="NOTE_BEFORE"/>توجه: این کار ممکن است حفاظت‌های حریم خصوصی iBrowe را کاهش دهد.<ph name="NOTE_AFTER"/></translation>
+<translation id="8377155647357436161">ردیاب‌ها، آگهی‌ها و <ph name="LINK_BEFORE"/> موارد دیگر مسدود شدند. بیشتر بدانید<ph name="LINK_AFTER"/></translation>
+<translation id="7604553853176833536">تحت محافظت «سپر ایمنی iBrowe» نیست <ph name="LINK_BEFORE"/>بیشتر بدانید<ph name="LINK_AFTER"/></translation>
+<translation id="650318023204990401">کنترل‌های پیشرفته</translation>
+<translation id="5799940914270080805">تغییر این تنظیمات ممکن است سایت‌ها را خراب کند.</translation>
+<translation id="9204041448536398473">تنظیمات عمومی سپرها</translation>
+<translation id="2108334320919763866">تنظیمات پیش‌فرض سراسری</translation>
+<translation id="7205939464631857223">همه عناصر مسدودشده را پاک کن</translation>
+<translation id="3440043456924990296">تنظیمات مدیریت‌شده توسط سازمان</translation>
+<translation id="7053983685419859001">مسدود کنید</translation>
+<translation id="5716230673298034837">همه را مجاز کنید</translation>
+<translation id="5279600392753459966">همه را مسدود کنید</translation>
+<translation id="4516904298421534459">فیلتر کردن فهرست‌ها</translation>
+<translation id="3570081523466826008">ارتقاء اتصال‌ها به HTTPS</translation>
+<translation id="131231380815754440">فعال کردن HTTPS</translation>
+<translation id="4824468494729001999">مسدود کردن اسکریپت‌ها</translation>
+<translation id="3246600097575692802">فعال کردن اسکریپت‌های مسدود</translation>
+<translation id="3603525299146223354">ردیاب‌ها و آگهی‌ها</translation>
+<translation id="4448697385961650078">مسدود کردن ردیاب‌ها و آگهی‌ها</translation>
+<translation id="8593054718053894081">مسدود کردن فعالانه ردیاب‌ها و آگهی‌ها</translation>
+<translation id="7384778069178817075">مجاز بودن همه ردیاب‌ها و آگهی‌ها</translation>
+<translation id="6196640612572343990">مسدود کردن کوکی‌های شخص ثالث</translation>
+<translation id="693506469193748756">وقتی این سایت را می‌بندم مرا فراموش کن</translation>
+<translation id="6975864539539353406">وقتی سایتی را می‌بندید، کوکی‌ها و سایر اطلاعات سایت را پاک می‌کند</translation>
+<translation id="6486971767955110687">ذخیره‌سازی اطلاعات تماس برای گزارش‌های خرابی وبسایت</translation>
+<translation id="4085787265464238844">اگر اطلاعات تماس خود را ارائه دهید، برای گزارش‌های آتی ذخیره خواهد شد</translation>
+<translation id="6883611015375728278">مسدود کردن همه کوکی‌ها</translation>
+<translation id="5657156137487675418">مجاز کردن همه کوکی‌ها</translation>
+<translation id="8366221601425141146">اثر انگشت مسدود شده است</translation>
+<translation id="6531019308847917584">مسدود کردن تشخیص اثر انگشت</translation>
+<translation id="1899608006846124237">مسدود کردن فعالانه تشخیص اثرانگشت</translation>
+<translation id="8034285923190068220">اجازه به اثر انگشت</translation>
+<translation id="7638541189782135885">اتصال‌های HTTP را ارتقا ندهید</translation>
+<translation id="2570787596946026998">صرفاً با HTTPS متصل شوید</translation>
+<translation id="1992750560347846445">گزارش سایت</translation>
+<translation id="2387532482048804818">اگر سایت با سپرهای روشن به‌درستی کار نکرد به ما اطلاع دهید.</translation>
+<translation id="3795015906457257780">بدون محافظت‌های حریم خصوصی iBrowe در حال مشاهده این سایت هستید.</translation>
+<translation id="7194012750329511146">«سپرهای iBrowe»
+<ph name="NUMBER"/> ردیاب‌،‌ آگهی و موارد دیگر مسدود شد</translation>
+<translation id="4292121526390005808">اسکریپت‌های مسدود</translation>
+<translation id="5046271170844958713">اسکریپت‌های مجاز</translation>
+<translation id="199862531047218413">محافظت در برابر انگشت‌نگاری اعمال شده است</translation>
+<translation id="5032505924781383272">استفاده از اقدامات حفاظتی الزاماً به معنای تلاش این صفحه وب برای شناسایی مرورگر شما نیست.</translation>
+<translation id="1905384713982899903">اثرانگشت‌های مسدودشده</translation>
+<translation id="314364527871618241">اثرانگشت‌های مجاز</translation>
+<translation id="2808175374672429053">Wildcardها اجازه دسترسی به iBrowe Shieldها را ندارند.</translation>
+<translation id="7630425922041907505">{BLOCKED_COUNT, plural,
+      =1 {iBrowe Shields یک ردیاب را در <ph name="SITE_URL"/> مسدود کردند}
+      other {iBrowe Shields  تعداد  {BLOCKED_COUNT} ردیاب را در <ph name="SITE_URL"/> مسدود کردند}
+    }</translation>
+<translation id="2540598191934725677">برای مشاهده iBrowe Shields، روی نماد iBrowe کلیک کنید.</translation>
+<translation id="6294662480095808915">حریم خصوصی. به‌صورت پیش‌فرض.</translation>
+<translation id="4366423156486478559">روی هر لینک که کلیک می‌کنید،‌ از محافظت iBrowe بهره‌مند شوید. کافی است iBrowe را به‌عنوان مرورگر پیش‌فرض خود انتخاب کنید و به مرور اینترنت بپردازید. آن هم به‌صورت محرمانه.</translation>
+<translation id="3830912418080848377">وارد کردن تنظیمات</translation>
+<translation id="6378406588483694938">نشانک‌ها، افزونه‌ها، و حتی رمزهای عبور ذخیره‌شده را از مرورگر قدیمی خود به‌سادگی وارد کنید.</translation>
+<translation id="2092825239819166928">نمایه را برای وارد کردن انتخاب کنید</translation>
+<translation id="4763127492635705340">نمایه‌ای که انتخاب کردید، دارای چندین نمایه است. نمایه‌(هایی) را که مایل به وارد کردن هستید، انتخاب کنید.</translation>
+<translation id="880174232178865598">وارد کردن نمایه‌ها</translation>
+<translation id="2453860139492968684">پایان</translation>
+<translation id="2273851479262317744">تنظیم iBrowe به‌عنوان مرورگر پیش‌فرض</translation>
+<translation id="5037676449506322593">انتخاب همه</translation>
+<translation id="5148943178722443958">به بهبود iBrowe کمک کنید.</translation>
+<translation id="1097073572755862978">اگر با از کار افتادن یا توقف مواجه شدید، گزارش‌های عیب‌یابی را ارسال کنید. <ph name="LINK_BEFORE"/>بیشتر بدانید.<ph name="LINK_AFTER"/></translation>
+<translation id="6629244688368006959">اطلاعات آماری محصول درباره ویژگی‌هایی که توسط کاربران iBrowe استفاده می‌شود به‌طور خصوصی و ناشناس به اشتراک گذاشته می‌شود. <ph name="LINK_BEFORE"/>بیشتر بدانید.<ph name="LINK_AFTER"/></translation>
+<translation id="7415454883318062233">راه‌اندازی تکمیل شد</translation>
+<translation id="3141206739023333979">هر زمان خواستید،‌ این انتخاب‌ها را در <ph name="LINK_BEFORE1"/>ibrowe://settings/privacy<ph name="LINK_AFTER2"/> تغییر دهید.</translation>
+<translation id="8321985064212130832">لطفاً <ph name="LINK_BEFORE"/>خط مشی حریم خصوصی<ph name="LINK_AFTER"/>ما را به‌طور کامل مطالعه کنید</translation>
+<translation id="2801098717523961746">انتخاب طرح زمینه</translation>
+<translation id="6262510489122516114">می‌توانید این مورد را هر زمان که بخواهید در تنظیمات iBrowe تغییر دهید.</translation>
+<translation id="546481172717459539">تنظیم سیستم مطابقت</translation>
+<translation id="7799817062559422778">حالت روشن</translation>
+<translation id="4117637339509843559">حالت تیره</translation>
+<translation id="6302485303316397682">نتایج جستجوی بهتری می‌خواهید؟</translation>
+<translation id="7014699001826714920">به جنبش بپیوندید، با «جستجوی iBrowe» مشارکت کنید.</translation>
+<translation id="6821108091726602352">با مشارکت در پروژه کاوش وب iBrowe، به ما در برطرف کردن مشکل وب کمک کنید. با اشتراک‌گذاری سیگنال‌های جستجوی کاملاً ناشناس، می‌توانید به iBrowe کمک کنید شاخص جستجو را رشد دهد.</translation>
+<translation id="6764845498618413165">بیشتر بدانید.</translation>
+<translation id="7818938154803162778">حتماً، کمک خواهم کرد</translation>
+<translation id="7207456302801184289">‏به iBrowe خوش آمدید</translation>
+<translation id="6716580298071890302">از پوسته تاریک‌تر استفاده کنید</translation>
 <translation id="2422927186524098759">نوار کناری</translation>
 <translation id="2361906291514218784">هوش مصنوعی Leo</translation>
 <translation id="7705524343798198388">VPN</translation>

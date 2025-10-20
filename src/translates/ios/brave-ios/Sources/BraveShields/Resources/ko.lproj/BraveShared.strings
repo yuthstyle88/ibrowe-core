@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "도메인 차단";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "웹사이트에서 내 데이터를 판매 또는 공유하지 않도록 요청하세요. [자세히 알아보기](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "웹사이트에서 내 데이터를 판매 또는 공유하지 않도록 요청하세요. [자세히 알아보기](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "글로벌 프라이버시 컨트롤 활성화";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "사이트 탭이 닫혔을 때";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "파쇄하면 이 사이트에 열린 모든 탭이 닫히고 모든 사이트 데이터가 삭제됩니다. 번복할 수 없습니다.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "사이트 데이터 파쇄";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "지금 사이트 데이터 파쇄";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "파쇄하면 선택된 탭이 닫히고 모든 사이트 데이터가 삭제됩니다. 번복할 수 없습니다.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "사이트가 비보안임";

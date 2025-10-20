@@ -1,5 +1,5 @@
 diff --git a/components/brave_new_tab_ui/data/defaultTopSites.ts b/components/brave_new_tab_ui/data/defaultTopSites.ts
-index de60029ecdc39975a7863cf93204d10a30eea2f1..ad99312b71c34c756016ddfc060a6441bc979fb1 100644
+index de60029ecdc39975a7863cf93204d10a30eea2f1..c4a73f402d50541b1be0e40fa1135f72768a1956 100644
 --- a/components/brave_new_tab_ui/data/defaultTopSites.ts
 +++ b/components/brave_new_tab_ui/data/defaultTopSites.ts
 @@ -30,7 +30,7 @@ export const defaultTopSitesData = [
@@ -11,3 +11,12 @@ index de60029ecdc39975a7863cf93204d10a30eea2f1..ad99312b71c34c756016ddfc060a6441
      favicon: PlayStoreFavicon,
      background: 'rgba(255,255,255,0.8)'
    },
+@@ -42,7 +42,7 @@ export const defaultTopSitesData = [
+   },
+   {
+     name: 'YouTube',
+-    url: 'https://www.youtube.com/bravesoftware',
++    url: 'https://www.youtube.com/ibrowesoftware',
+     favicon: YouTubeFavicon,
+     background: 'rgba(255,255,255,0.8)'
+   }

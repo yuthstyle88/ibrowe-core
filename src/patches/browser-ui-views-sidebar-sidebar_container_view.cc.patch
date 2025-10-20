@@ -1,8 +1,8 @@
 diff --git a/browser/ui/views/sidebar/sidebar_container_view.cc b/browser/ui/views/sidebar/sidebar_container_view.cc
-index 3514b8669aa3afd3bc3eba9bf24edc25edd67fb2..193349cfb1637272e4ee2f8aa42db4f5258ea107 100644
+index 7b724b0665e60bfb698efeccbfb1e2aaa4aa833a..f669045108fbabd7e58798c7e9b1f89d97feff8d 100644
 --- a/browser/ui/views/sidebar/sidebar_container_view.cc
 +++ b/browser/ui/views/sidebar/sidebar_container_view.cc
-@@ -859,7 +859,7 @@ void SidebarContainerView::OnTabStripModelChanged(
+@@ -848,7 +848,7 @@ void SidebarContainerView::OnTabStripModelChanged(
      auto* registry = SidePanelRegistry::GetDeprecated(replace->new_contents);
      if (registry) {
        if (auto* entry = registry->GetEntryForKey(

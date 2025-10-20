@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "Domein geblokkeerd";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "Vraag websites om je gegevens niet te verkopen of te delen. [Meer informatie](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "Vraag websites om je gegevens niet te verkopen of te delen. [Meer informatie](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "Schakel Global Privacy Control in";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "Tabbladen van site gesloten";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "Door de versnippering worden alle tabbladen gesloten en worden alle sitegegevens verwijderd. Deze actie kun je niet ongedaan maken.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Versnipper sitegegevens";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Versnipper sitegegevens nu";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "Door de versnippering worden de geselecteerde tabbladen gesloten en alle sitegegevens verwijderd. Deze actie kun je niet ongedaan maken.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Site is niet veilig";

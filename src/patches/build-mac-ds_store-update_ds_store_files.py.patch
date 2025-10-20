@@ -1,13 +1,197 @@
 diff --git a/build/mac/ds_store/update_ds_store_files.py b/build/mac/ds_store/update_ds_store_files.py
-index 90c4c5a49bf70802c9ec75a030cd6027ece645bf..be7d5b627e9e7b8f317a3a9ac95a425603d69186 100644
+index 90c4c5a49bf70802c9ec75a030cd6027ece645bf..ccaf104b3cfd84647f6f20f34122f6b30134ebbe 100644
 --- a/build/mac/ds_store/update_ds_store_files.py
 +++ b/build/mac/ds_store/update_ds_store_files.py
-@@ -21,7 +21,7 @@ from uuid import uuid4
+@@ -1,61 +1,123 @@
+-# Copyright (c) 2025 The Brave Authors. All rights reserved.
+-# This Source Code Form is subject to the terms of the Mozilla Public
+-# License, v. 2.0. If a copy of the MPL was not distributed with this file,
+-# You can obtain one at https://mozilla.org/MPL/2.0/.
+-
+-# This script updates the DS_Store files in this directory. (Cf. README.md.)
+-# It is not used in the build process. The motivation for having it here is that
+-# DS_Store is a proprietary format that is notoriously hard to edit. This script
+-# gives us a way to edit the files in a more convenient way, should we need to
+-# do so in the future.
++#!/usr/bin/env python3
++# SPDX-License-Identifier: MPL-2.0
++# Copyright (c) 2025 The iBrowe Authors.
++# This script regenerates .DS_Store for the DMG layout (icon positions + background)
++# so the "iBrowe Browser" app icon and the "Applications" alias are balanced.
+ 
+ from ds_store import DSStore
+ from mac_alias import Alias
+ from os import makedirs, symlink
+-from os.path import join, basename
++from os.path import join, basename, dirname, abspath, exists
+ from shutil import copyfile
+ from subprocess import check_call
+ from tempfile import TemporaryDirectory
+ from uuid import uuid4
++from PIL import Image  # pip install pillow
++
++# Resolve paths relative to this script
++SCRIPT_DIR = dirname(abspath(__file__))
++
++# --- Tunables ---------------------------------------------------------------
++
++# Window size (points). Finder uses points, not pixels. Tweak as needed.
++WIN_W, WIN_H = 614, 360
++
++# Icon size used by the DMG window (points).
++ICON_SIZE = 112.0
++
++# Horizontal padding from the window edges to icon centers (points).
++PAD_X = 170
++# Vertical offset for icon centering (points).
++CENTER_Y_OFFSET = -10
++
++# IMPORTANT: the window is a bit taller than the background (ADD vertical border only).
++# Background image inside the DMG (copied to .background/)
++# IMPORTANT: background image should be exactly WIN_W x WIN_H pixels to avoid borders/letterboxing.
++BACKGROUND_FILE = join(SCRIPT_DIR, '../dmg-background.png')
++
++# Window border padding: Finder window needs extra room VERTICALLY (top & bottom),
++# but **no horizontal padding** is required (left/right).
++WINDOW_BORDER_X = 0   # pixels on each side (left/right)
++WINDOW_BORDER_Y = 30  # pixels on each side (top/bottom); increase if you still see edges
++
++# Auto-fit window size to the background + vertical border only
++try:
++    with Image.open(BACKGROUND_FILE) as _im_bg:
++        _bg_w, _bg_h = _im_bg.size
++        WIN_W = max(200, _bg_w + WINDOW_BORDER_X * 2)
++        WIN_H = max(160, _bg_h + WINDOW_BORDER_Y * 2)
++except Exception as _e:
++    print(f"[warn] Cannot read background size at {BACKGROUND_FILE}: {_e}. Using defaults {WIN_W}x{WIN_H}.")
++
++# Recompute vertical center because WIN_H may have changed
++CENTER_Y = WIN_H // 2 + CENTER_Y_OFFSET
++
++# Channels to generate (empty string means stable)
++CHANNELS = ('', 'Nightly', 'Beta', 'Release')
++
++# Volume name base (shown as DMG window title)
++VOLUME_BASENAME = 'iBrowe Browser'
+ 
++# ---------------------------------------------------------------------------
  
  def main():
-     for channel in ('', 'Nightly', 'Beta', 'Release'):
+-    for channel in ('', 'Nightly', 'Beta', 'Release'):
 -        app_name = 'Brave Browser' + (f' {channel}' if channel else '')
-+        app_name = 'iBrowe Browser' + (f' {channel}' if channel else '')
++    for channel in CHANNELS:
++        app_name = VOLUME_BASENAME + (f' {channel}' if channel else '')
          ds_store = 'DS_Store' + (f'.{channel.lower()}' if channel else '')
-         create_ds_store(app_name, '../dmg-background.png', f'{ds_store}')
+-        create_ds_store(app_name, '../dmg-background.png', f'{ds_store}')
++        create_ds_store(app_name, BACKGROUND_FILE, ds_store)
++        print(f'Wrote {ds_store} for volume "{app_name}"')
  
+ 
+-def create_ds_store(app_name, bg_file, ds_store_path):
++def create_ds_store(app_name: str, bg_file: str, ds_store_path: str):
++    """Create a temporary HFS+ DMG, set Finder view options + icon layout,
++    then export its .DS_Store for reuse in the real DMG build."""
+     with TemporaryDirectory() as temp_dir:
+-        # We create and mount a temporary DMG because this creates an HFS+ file
+-        # system, which is required for at least Alias.for_file(...) below. See
+-        # github.com/dmgbuild/mac_alias/issues/22#issuecomment-1350790003.
+         dmg_path = join(temp_dir, f'{app_name}.dmg')
++
++        # Create an empty HFS+ image; HFS+ is required by mac_alias to build a real Finder alias
+         with TemporaryDirectory() as empty:
+             check_call([
+                 'hdiutil', 'create', '-fs', 'HFS+', '-format', 'UDRW',
+-                '-sectors',
+-                str(8 * 1024 * 1024), '-volname', app_name, '-srcfolder',
+-                empty, '-quiet', dmg_path
++                '-sectors', str(131072),  # ~64MB sparse; plenty for metadata
++                '-volname', app_name, '-srcfolder', empty, '-quiet', dmg_path
+             ])
++
+         mount_path = join('/Volumes', basename(__file__) + str(uuid4()))
+         check_call([
+             'hdiutil', 'attach', '-mountpoint', mount_path, '-noautoopen',
+             '-quiet', dmg_path
+         ])
++
+         try:
++            # Create the Applications alias (Finder treats this as a special link)
+             symlink('/Applications', join(mount_path, 'Applications'))
++
++            # Prepare background image folder
+             background_dir = join(mount_path, '.background')
+-            makedirs(background_dir)
++            makedirs(background_dir, exist_ok=True)
++            if not exists(bg_file):
++                raise FileNotFoundError(f'Background image not found: {bg_file}')
+             copyfile(bg_file, join(background_dir, 'background.png'))
++
+             ds_store_tmp = join(mount_path, '.DS_Store')
++
++            # Compute balanced icon positions:
++            # App icon on the left, Applications alias on the right, both vertically centered
++            app_icon_pos = (PAD_X, CENTER_Y)  # (x, y)
++            apps_icon_pos = (WIN_W - PAD_X, CENTER_Y)
++
++            # Build a Finder alias to the background image
++            bg_alias = Alias.for_file(join(background_dir, 'background.png'))
++
+             with DSStore.open(ds_store_tmp, 'w+') as d:
+-                # Many of the magic string constants below were gleaned from
+-                # resources online where people partially reverse-engineered
+-                # the DS_Store format.
+-                d[app_name + '.app']['Iloc'] = (150, 155)
+-                d[' ']['Iloc'] = (430, 150)
++                # Position of icons (Iloc = icon location)
++                d[app_name + '.app']['Iloc'] = app_icon_pos
++                d[' ']['Iloc'] = apps_icon_pos  # The "Applications" link is stored under key " "
++                d['Applications']['Iloc'] = apps_icon_pos
++
++                # Window chrome + frame (bwsp)
++                # WindowBounds format: '{{left, top}, {width, height}}'
++                # Note: "left, top" are screen coords for first open; values are not critical.
+                 d['.']['bwsp'] = {
+                     'ContainerShowSidebar': False,
+                     'ShowPathbar': False,
+@@ -63,31 +125,34 @@ def create_ds_store(app_name, bg_file, ds_store_path):
+                     'ShowStatusBar': False,
+                     'ShowTabView': False,
+                     'ShowToolbar': False,
+-                    'WindowBounds': '{{548, 815}, {602, 350}}'
++                    'WindowBounds': f'{{{{548, 815}}, {{{WIN_W}, {WIN_H}}}}}'
+                 }
+-                bg_alias = Alias.for_file(
+-                    join(background_dir, 'background.png'))
++
++                # Icon view options + background
+                 d['.']['icvp'] = {
+                     'arrangeBy': 'none',
+                     'backgroundColorBlue': 1.0,
+                     'backgroundColorGreen': 1.0,
+                     'backgroundColorRed': 1.0,
+-                    'backgroundType': 2,
++                    'backgroundType': 2,  # 2 = picture background
+                     'backgroundImageAlias': bg_alias.to_bytes(),
+                     'gridOffsetX': 0.0,
+                     'gridOffsetY': 0.0,
+                     'gridSpacing': 100.0,
+-                    'iconSize': 128.0,
++                    'iconSize': float(ICON_SIZE),
+                     'labelOnBottom': True,
+                     'showIconPreview': True,
+                     'showItemInfo': False,
+                     'textSize': 16.0,
+                     'viewOptionsVersion': 1
+                 }
++
++            # Export DS_Store for this channel
+             copyfile(ds_store_tmp, ds_store_path)
++
+         finally:
+             check_call(['hdiutil', 'detach', '-quiet', mount_path])
+ 
+ 
+ if __name__ == '__main__':
+-    main()
++    main()
+\ No newline at end of file

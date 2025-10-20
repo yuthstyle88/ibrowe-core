@@ -1,8 +1,8 @@
 diff --git a/build/commands/lib/config.js b/build/commands/lib/config.js
-index 3b1f342d5126c659b1611e8df03164a4d88cab7f..2d78d53aece5a0ce2647168c3730f0b244f3c8a4 100644
+index bf81a39eb73c50d9f428b880806016fefd29f526..a7b5c6a516363988e0aba1d6e8581aa61a2626af 100644
 --- a/build/commands/lib/config.js
 +++ b/build/commands/lib/config.js
-@@ -626,17 +626,17 @@ Config.prototype.buildArgs = function () {
+@@ -616,17 +616,17 @@ Config.prototype.buildArgs = function () {
      args.android_channel = this.channel
      if (!this.isReleaseBuild()) {
        args.android_channel = 'default'

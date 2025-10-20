@@ -1,8 +1,8 @@
 diff --git a/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc b/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
-index a5bc4262944110cf6247844075a0ca84e199ec4f..d8c1dd5212af6bae926645ab5879664c1451e1fc 100644
+index ea33397d69e7205820459b4270eb220faada682e..10c9696b3b92e62b090217876be4d7e1e0cdb5e9 100644
 --- a/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
 +++ b/chromium_src/chrome/browser/autocomplete/chrome_autocomplete_provider_client.cc
-@@ -93,9 +93,9 @@ void ChromeAutocompleteProviderClient::OpenLeo(const std::u16string& query) {
+@@ -92,9 +92,9 @@ void ChromeAutocompleteProviderClient::OpenLeo(const std::u16string& query) {
      conversation_handler->MaybeUnlinkAssociatedContent();
  
      // Activate the panel.

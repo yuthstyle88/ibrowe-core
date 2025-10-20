@@ -1,8 +1,8 @@
 diff --git a/browser/ui/views/toolbar/brave_toolbar_view.cc b/browser/ui/views/toolbar/brave_toolbar_view.cc
-index 4d6c31ef0c5ae0c3aea731c3999c2d2753a7d1cb..0aa3cded5aac68593b6079075fc51146abddae82 100644
+index 131954528aa7dfadaaf4efcbd4674366635c45d3..997b4147f7c18cafc2d6972a3647d684a635a7dc 100644
 --- a/browser/ui/views/toolbar/brave_toolbar_view.cc
 +++ b/browser/ui/views/toolbar/brave_toolbar_view.cc
-@@ -264,38 +264,38 @@ void BraveToolbarView::Init() {
+@@ -262,38 +262,38 @@ void BraveToolbarView::Init() {
  
    // Don't check policy status since we're going to
    // setup a watcher for policy pref.
@@ -73,7 +73,7 @@ index 4d6c31ef0c5ae0c3aea731c3999c2d2753a7d1cb..0aa3cded5aac68593b6079075fc51146
  
    // Make sure that avatar button should be located right before the app menu.
    if (auto* avatar = GetAvatarToolbarButton()) {
-@@ -307,16 +307,16 @@ void BraveToolbarView::Init() {
+@@ -305,16 +305,16 @@ void BraveToolbarView::Init() {
    UpdateHorizontalPadding();
  }
  
@@ -100,7 +100,7 @@ index 4d6c31ef0c5ae0c3aea731c3999c2d2753a7d1cb..0aa3cded5aac68593b6079075fc51146
  
  void BraveToolbarView::OnEditBookmarksEnabledChanged() {
    DCHECK_EQ(DisplayMode::NORMAL, display_mode_);
-@@ -509,11 +509,11 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
+@@ -512,11 +512,11 @@ void BraveToolbarView::ResetBookmarkButtonBounds() {
    }
  }
  

@@ -1,12 +1,12 @@
 diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-index 6eccaaf235ab88b070ab9fed66cef19aae1553eb..29562076d3ddc84c72c5f813dd28d811e376c370 100644
+index 6416841cc80525f1621995aa3846566f107ec34b..ed1d618719018609d1c15fb9544cebd1a982904a 100644
 --- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
 +++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-@@ -56,57 +56,57 @@ namespace settings {
+@@ -61,54 +61,54 @@ namespace settings {
  namespace {
  
  constexpr char16_t kWebRTCLearnMoreURL[] =
--    u"https://support.brave.com/hc/en-us/articles/"
+-    u"https://support.brave.app/hc/en-us/articles/"
 +    u"https://support.ibrowe.com/hc/en-us/articles/"
      u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
  constexpr char16_t kBraveBuildInstructionsUrl[] =
@@ -34,14 +34,13 @@ index 6eccaaf235ab88b070ab9fed66cef19aae1553eb..29562076d3ddc84c72c5f813dd28d811
 -    u"https://github.com/brave/brave-browser/wiki/ENS-offchain-lookup";
 +    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/ENS-offchain-lookup";
  constexpr char16_t kBraveSyncGuideUrl[] =
--    u"https://support.brave.com/hc/en-us/articles/360047642371-Sync-FAQ";
+-    u"https://support.brave.app/hc/en-us/articles/360047642371-Sync-FAQ";
 +    u"https://support.ibrowe.com/hc/en-us/articles/360047642371-Sync-FAQ";
  constexpr char16_t kDeAmpLearnMoreUrl[] =
--    u"https://support.brave.com/hc/en-us/articles/8611298579981";
+-    u"https://support.brave.app/hc/en-us/articles/8611298579981";
 +    u"https://support.ibrowe.com/hc/en-us/articles/8611298579981";
  constexpr char16_t kDebounceLearnMoreUrl[] =
--    u"https://brave.com/privacy-updates/11-debouncing/";
-+    u"https://ibrowe.com/privacy-updates/11-debouncing/";
+     u"https://brave.com/privacy-updates/11-debouncing/";
  constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
 -    u"https://github.com/brave/brave-browser/wiki/"
 +    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
@@ -51,34 +50,38 @@ index 6eccaaf235ab88b070ab9fed66cef19aae1553eb..29562076d3ddc84c72c5f813dd28d811
 +    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
      u"Block-all-cookies-global-Shields-setting";
  constexpr char16_t kLeoCustomModelsLearnMoreURL[] =
--    u"https://support.brave.com/hc/en-us/articles/"
--    u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-Brave-Leo";
+-    u"https://support.brave.app/hc/en-us/articles/"
 +    u"https://support.ibrowe.com/hc/en-us/articles/"
-+    u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-iBrowe-Leo";
+     u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-Brave-Leo";
  
  constexpr char16_t kTabOrganizationLearnMoreURL[] =
--    u"https://support.brave.com/hc/en-us/articles/"
+-    u"https://support.brave.app/hc/en-us/articles/"
 +    u"https://support.ibrowe.com/hc/en-us/articles/"
      u"35200007195917-How-to-use-Tab-Focus-Mode";
  
  constexpr char16_t kLeoMemoryLearnMoreURL[] =
-     u"https://support.brave.app/hc/en-us/articles/38441287509261";
+-    u"https://support.brave.app/hc/en-us/articles/38441287509261";
++    u"https://support.ibrowe.com/hc/en-us/articles/38441287509261";
  
  constexpr char16_t kLeoPrivacyPolicyURL[] =
--    u"https://brave.com/privacy/browser/#brave-leo";
-+    u"https://ibrowe.com/privacy/browser/#brave-leo";
+     u"https://brave.com/privacy/browser/#brave-leo";
  
  constexpr char16_t kSurveyPanelistLearnMoreURL[] =
--    u"https://support.brave.com/hc/en-us/articles/36550092449165";
+-    u"https://support.brave.app/hc/en-us/articles/36550092449165";
 +    u"https://support.ibrowe.com/hc/en-us/articles/36550092449165";
  
  constexpr char16_t kExtensionsV2LearnMoreURL[] =
--    u"https://brave.com/blog/brave-shields-manifest-v3/";
-+    u"https://ibrowe.com/blog/brave-shields-manifest-v3/";
+     u"https://brave.com/blog/brave-shields-manifest-v3/";
+@@ -1080,7 +1080,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+                                  kExtensionsV2LearnMoreURL));
  
- void BraveAddCommonStrings(content::WebUIDataSource* html_source,
-                            Profile* profile) {
-@@ -1079,11 +1079,15 @@ void BraveAddResources(content::WebUIDataSource* html_source,
+   // Disabled due to crash with tab group dragging.
+-  // TODO(https://github.com/brave/brave-browser/issues/49752): Re-enable.
++  // TODO(https://github.com/yuthstyle88/ibrowe-browser/issues/49752): Re-enable.
+   html_source->AddBoolean("showSplitViewDragAndDropSetting", false);
+ }  // NOLINT(readability/fn_size)
+ 
+@@ -1092,11 +1092,15 @@ void BraveAddResources(content::WebUIDataSource* html_source,
  void BraveAddAboutStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {
    std::u16string license = l10n_util::GetStringFUTF16(
@@ -93,7 +96,7 @@ index 6eccaaf235ab88b070ab9fed66cef19aae1553eb..29562076d3ddc84c72c5f813dd28d811
            base::UTF8ToUTF16(
 -              version_info::GetBraveVersionWithoutChromiumMajorVersion()));
 +                  version_info::GetBraveVersionWithoutChromiumMajorVersion()), // $4
-+          u"https://github.com/brave/brave-core"         // $5 ✅
++          u"https://github.com/yuthstyle88/ibrowe-core"         // $5
 +  );
    html_source->AddString("aboutProductLicense", license);
  }

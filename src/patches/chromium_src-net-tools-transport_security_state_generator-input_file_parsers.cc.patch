@@ -1,5 +1,5 @@
 diff --git a/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc b/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
-index 27952f1876cb476a1d5e84b61f9b16109fe8cbae..db88ffcc9ab290b76650e68d9cbf695d91fcde11 100644
+index 4c9c4870f387b1bff265f54089a4fbbff3de9759..8f0bae5a3ba1159d7dd3247ca096c133e867a50f 100644
 --- a/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
 +++ b/chromium_src/net/tools/transport_security_state_generator/input_file_parsers.cc
 @@ -37,88 +37,88 @@ constexpr std::string_view kBravePinsJson = R"brave_pins_json({
@@ -35,7 +35,7 @@ index 27952f1876cb476a1d5e84b61f9b16109fe8cbae..db88ffcc9ab290b76650e68d9cbf695d
 -    { "name": "variations.brave.com", "pins": "brave"},
 +    { "name": "adblock-data.s3.ibrowe.com", "pins": "brave"},
 +    { "name": "ai-chat.bsg.ibrowe.com", "pins": "brave"},
-+    { "name": "brave-core-ext.s3.ibrowe.com", "pins": "brave"},
++    { "name": "ibrowe-core-ext.s3.ibrowe.com", "pins": "brave"},
 +    { "name": "brave-today-cdn.ibrowe.com", "pins": "brave"},
 +    { "name": "clients4.ibrowe.com", "pins": "brave"},
 +    { "name": "componentupdater.ibrowe.com", "pins": "brave"},
@@ -196,7 +196,7 @@ index 27952f1876cb476a1d5e84b61f9b16109fe8cbae..db88ffcc9ab290b76650e68d9cbf695d
      },
      {
 -      "name": "brave-core-ext.s3.brave.com",
-+      "name": "brave-core-ext.s3.ibrowe.com",
++      "name": "ibrowe-core-ext.s3.ibrowe.com",
        "mode": "force-https",
        "policy": "custom"
      },

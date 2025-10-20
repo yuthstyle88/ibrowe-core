@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "Domain Disekat";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "Minta laman web agar tidak menjual atau kongsikan data anda. [Ketahui lebih lanjut](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "Minta laman web agar tidak menjual atau kongsikan data anda. [Ketahui lebih lanjut](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "Dayakan Kawalan Privasi Global";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "Tab Laman Ditutup";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "Penghapusan akan menutup semua tab, dan memadamkan semua data laman. Tindakan ini tidak boleh dibuat asal.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Hapuskan Data Laman";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Hapuskan Data Laman Sekarang";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "Penghapusan akan menutup tab yang dipilih, dan memadamkan semua data laman. Tindakan ini tidak boleh dibuat asal.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Laman tidak selamat";

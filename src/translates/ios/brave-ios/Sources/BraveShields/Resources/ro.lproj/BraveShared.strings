@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "Domeniu blocat";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "Solicită site-urilor web să nu vândă sau să-ți partajeze datele. [Află mai multe](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "Solicită site-urilor web să nu vândă sau să-ți partajeze datele. [Află mai multe](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "Activează Global Privacy Control";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "La închiderea filelor site-ului";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "Distrugerea va închide toate filele și va șterge toate datele de pe acest site. Nu se poate anula.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Distruge datele site-ului";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Distruge datele site-ului acum";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "Distrugerea va închide filele selectate și va șterge toate datele de pe acest site. Nu se poate anula.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Site-ul nu este sigur";

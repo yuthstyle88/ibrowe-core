@@ -1,5 +1,5 @@
 diff --git a/chromium_src/chrome/updater/branding.gni b/chromium_src/chrome/updater/branding.gni
-index 903f4e22751bf7ccbe2cd25a5e8af035b9d7eab6..545447ceb67d8f712dba9085c44b64fc22d48fd4 100644
+index 903f4e22751bf7ccbe2cd25a5e8af035b9d7eab6..71dbdaff23de328d6c34e4d7181528a3128db09c 100644
 --- a/chromium_src/chrome/updater/branding.gni
 +++ b/chromium_src/chrome/updater/branding.gni
 @@ -14,22 +14,21 @@
@@ -10,14 +10,11 @@ index 903f4e22751bf7ccbe2cd25a5e8af035b9d7eab6..545447ceb67d8f712dba9085c44b64fc
 +  browser_name = "iBrowe"
    browser_product_name = chrome_product_full_name
    crash_product_name = "BraveUpdater"
--  keystone_app_name = "BraveSoftwareUpdate"
--  keystone_bundle_identifier = "com.brave.Keystone"
+   keystone_app_name = "BraveSoftwareUpdate"
+   keystone_bundle_identifier = "com.brave.Keystone"
 -  mac_browser_bundle_identifier = "com.brave.Browser"
--  mac_updater_bundle_identifier = "com.brave.BraveUpdater"
-+  keystone_app_name = "iBroweSoftwareUpdate"
-+  keystone_bundle_identifier = "com.ibrowe.Keystone"
 +  mac_browser_bundle_identifier = "com.ibrowe.Browser"
-+  mac_updater_bundle_identifier = "com.ibrowe.BraveUpdater"
+   mac_updater_bundle_identifier = "com.brave.BraveUpdater"
    privileged_helper_bundle_name = "BraveUpdaterPrivilegedHelper"
 -  privileged_helper_name = "com.brave.Browser.UpdaterPrivilegedHelper"
 -  updater_app_icon_path = "//brave/app/theme/brave/mac/app.icns"

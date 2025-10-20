@@ -1,8 +1,8 @@
 diff --git a/components/brave_referrals/browser/brave_referrals_service.cc b/components/brave_referrals/browser/brave_referrals_service.cc
-index b0b4a721f6a08666cdacc7a12bc503197a610d40..2b15bf5fd28b0d73c3c508545c332487849afbd5 100644
+index 968da66ad00021c45c66d5142090fa07fe41a982..5640f3849082b2575076149a7472d5b35af3ba66 100644
 --- a/components/brave_referrals/browser/brave_referrals_service.cc
 +++ b/components/brave_referrals/browser/brave_referrals_service.cc
-@@ -71,7 +71,7 @@ void DeletePromoCodeFile(const base::FilePath& promo_code_file) {
+@@ -75,7 +75,7 @@ void DeletePromoCodeFile(const base::FilePath& promo_code_file) {
  
  #if BUILDFLAG(IS_MAC)
  std::string ReadPromoCodeFromXattr() {

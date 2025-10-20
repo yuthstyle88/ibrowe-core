@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift b/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
-index 17aa2c3937ee6578897c568f8f54c8d1b1828c80..264e1196e2d518ff2aae9f34207cf7bb345bf9ab 100644
+index 17aa2c3937ee6578897c568f8f54c8d1b1828c80..d62befc049bf91d036c474b8d8eb943cb38c5a28 100644
 --- a/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
 +++ b/ios/brave-ios/Sources/BraveNews/Composer/FeedDataSource.swift
 @@ -111,8 +111,8 @@ public class FeedDataSource: ObservableObject {
@@ -13,6 +13,17 @@ index 17aa2c3937ee6578897c568f8f54c8d1b1828c80..264e1196e2d518ff2aae9f34207cf7bb
  
    struct FeedDecodingError: Identifiable {
      var id: UUID = .init()
+@@ -155,8 +155,8 @@ public class FeedDataSource: ObservableObject {
+ 
+   /// A Brave News environment
+   public enum Environment: String, CaseIterable {
+-    case dev = "brave.software"
+-    case staging = "bravesoftware.com"
++    case dev = "ibrowe.software"
++    case staging = "ibrowesoftware.com"
+     case production = "brave.com"
+   }
+ 
 @@ -1037,7 +1037,7 @@ public class FeedDataSource: ObservableObject {
        )
        // Move to OSSignposter when we're 15+

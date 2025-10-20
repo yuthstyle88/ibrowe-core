@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "הדומיין חסום";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "לבקש מאתרי אינטרנט לא למכור או לשתף את הנתונים שלך. [למידע נוסף](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "לבקש מאתרי אינטרנט לא למכור או לשתף את הנתונים שלך. [למידע נוסף](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "הפעלת Global Privacy Control";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "כשכרטיסיות האתר סגורות";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "גריסה תסגור את כל הכרטיסיות, ותמחק את כל נתוני האתר. פעולה זו לא ניתנת לביטול.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "נתוני גריסת אתר";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "גריסת נתוני אתר כעת";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "גריסה תסגור את הכרטיסיות שנבחרו, ותמחק את כל נתוני האתר. פעולה זו לא ניתנת לביטול.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "האתר אינו מאובטח";

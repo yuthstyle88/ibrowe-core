@@ -1,8 +1,8 @@
 diff --git a/browser/brave_search/backup_results_service_impl.cc b/browser/brave_search/backup_results_service_impl.cc
-index 3fbe386188f387aff8183b7c2801abc30f792329..871ccc705cd859fea2b39372a3960be9c27e4e0f 100644
+index 551d34e50ce1d22ed36efab124dc7452cadd23b1..49ecc92f50a766e2309d51edb43e3e5aedbfa758 100644
 --- a/browser/brave_search/backup_results_service_impl.cc
 +++ b/browser/brave_search/backup_results_service_impl.cc
-@@ -50,7 +50,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
+@@ -58,7 +58,7 @@ constexpr net::NetworkTrafficAnnotationTag kNetworkTrafficAnnotationTag =
        policy {
          cookies_allowed: YES
          setting:

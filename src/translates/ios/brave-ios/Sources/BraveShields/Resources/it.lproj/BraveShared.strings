@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "Dominio bloccato";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "Chiedi ai siti di non vendere o condividere i tuoi dati. [Scopri di più](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "Chiedi ai siti di non vendere o condividere i tuoi dati. [Scopri di più](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "Attiva il Global Privacy Control";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "Schede del sito chiuse";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "La cancellazione chiuderà tutte le schede, eliminando tutti i dati. L’azione non può essere annullata.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Cancella i dati del sito";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Cancella i dati del sito ora";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "La cancellazione chiuderà le schede selezionate, eliminando tutti i dati. L’azione non può essere annullata.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Il sito non è sicuro";

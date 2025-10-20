@@ -110,7 +110,7 @@
 "DomainBlockedTitle" = "Tên miền Đã chặn";
 
 /* A description of what the Enable GPC toggle does */
-"EnableGPCDescription" = "Yêu cầu các trang web không bán hoặc chia sẻ dữ liệu của bạn. [Tìm hiểu thêm](https://support.brave.com/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
+"EnableGPCDescription" = "Yêu cầu các trang web không bán hoặc chia sẻ dữ liệu của bạn. [Tìm hiểu thêm](https://support.brave.app/hc/en-us/articles/360017989132-How-do-I-change-my-Privacy-Settings#h_01HHFRRT6B5YTRREA4ZDARGTWM)";
 
 /* A label of the GPC toggle */
 "EnableGPCLabel" = "Bật Kiểm soát Quyền riêng tư toàn cầu";
@@ -196,6 +196,9 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "Khi các thẻ đã đóng";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "Thao tác hủy sẽ đóng tất cả thẻ đang mở của trang này, và xóa tất cả dữ liệu của trang. Quá trình này không thể được hoàn tác.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Hủy dữ liệu trang";
 
@@ -207,6 +210,9 @@
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Hủy dữ liệu trang ngay";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "Thao tác hủy sẽ đóng các thẻ được chọn, và xóa tất cả dữ liệu của trang. Quá trình này không thể được hoàn tác.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Trang web không bảo mật";
