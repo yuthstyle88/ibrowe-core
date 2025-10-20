@@ -1,0 +1,40 @@
+diff --git a/components/brave_rewards/core/engine/util/environment_config.cc b/components/brave_rewards/core/engine/util/environment_config.cc
+index 011c7c9839a857579a8aba937c9cfe93d6d07d6a..6663ca7d049038ce04fc6e546b8b5a9aa4fde1c6 100644
+--- a/components/brave_rewards/core/engine/util/environment_config.cc
++++ b/components/brave_rewards/core/engine/util/environment_config.cc
+@@ -26,9 +26,9 @@ mojom::Environment EnvironmentConfig::current_environment() const {
+ GURL EnvironmentConfig::brave_pcdn_url() const {
+   switch (current_environment()) {
+     case mojom::Environment::kDevelopment:
+-      return GURL("https://pcdn.brave.software");
++      return GURL("https://pcdn.ibrowe.software");
+     case mojom::Environment::kStaging:
+-      return GURL("https://pcdn.bravesoftware.com");
++      return GURL("https://pcdn.ibrowesoftware.com");
+     case mojom::Environment::kProduction:
+       return GURL("https://pcdn.brave.com");
+   }
+@@ -37,9 +37,9 @@ GURL EnvironmentConfig::brave_pcdn_url() const {
+ GURL EnvironmentConfig::rewards_url() const {
+   switch (current_environment()) {
+     case mojom::Environment::kDevelopment:
+-      return GURL("https://rewards-dev.brave.software");
++      return GURL("https://rewards-dev.ibrowe.software");
+     case mojom::Environment::kStaging:
+-      return GURL("https://rewards-stg.bravesoftware.com");
++      return GURL("https://rewards-stg.ibrowesoftware.com");
+     case mojom::Environment::kProduction:
+       return GURL("https://rewards.brave.com");
+   }
+@@ -48,9 +48,9 @@ GURL EnvironmentConfig::rewards_url() const {
+ GURL EnvironmentConfig::rewards_api_url() const {
+   switch (current_environment()) {
+     case mojom::Environment::kDevelopment:
+-      return GURL("https://api.rewards.brave.software");
++      return GURL("https://api.rewards.ibrowe.software");
+     case mojom::Environment::kStaging:
+-      return GURL("https://api.rewards.bravesoftware.com");
++      return GURL("https://api.rewards.ibrowesoftware.com");
+     case mojom::Environment::kProduction:
+       return GURL("https://api.rewards.brave.com");
+   }

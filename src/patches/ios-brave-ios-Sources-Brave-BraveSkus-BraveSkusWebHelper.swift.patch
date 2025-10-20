@@ -1,0 +1,24 @@
+diff --git a/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusWebHelper.swift b/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusWebHelper.swift
+index 532c30c213d16e72ca4dda00c4e6ef4a8169765c..4b20ad3aced1b6741b2d765f523802c0519887d1 100644
+--- a/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusWebHelper.swift
++++ b/ios/brave-ios/Sources/Brave/BraveSkus/BraveSkusWebHelper.swift
+@@ -12,7 +12,7 @@ import os.log
+ class BraveSkusWebHelper {
+   /// On which hosts the receipt should be allowed to be exposed.
+   private let allowedHosts = [
+-    "account.brave.com", "account.bravesoftware.com", "account.brave.software",
++    "account.brave.com", "account.ibrowesoftware.com", "account.ibrowe.software",
+   ]
+   /// Which parameters have to be present before we expose the iOS receipt.
+   private let requiredQueryItems: [URLQueryItem] =
+@@ -101,8 +101,8 @@ class BraveSkusWebHelper {
+ 
+   static func environment(domain: String) -> String? {
+     switch domain {
+-    case "account.brave.software", "vpn.brave.software": return SkusEnvironment.development.rawValue
+-    case "account.bravesoftware.com", "vpn.bravesoftware.com":
++    case "account.ibrowe.software", "vpn.ibrowe.software": return SkusEnvironment.development.rawValue
++    case "account.ibrowesoftware.com", "vpn.ibrowesoftware.com":
+       return SkusEnvironment.staging.rawValue
+     case "account.brave.com", "vpn.brave.com": return SkusEnvironment.production.rawValue
+     default:

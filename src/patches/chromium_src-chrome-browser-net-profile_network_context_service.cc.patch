@@ -1,0 +1,19 @@
+diff --git a/chromium_src/chrome/browser/net/profile_network_context_service.cc b/chromium_src/chrome/browser/net/profile_network_context_service.cc
+index 7a6af34fad12d9d465ae0b1607ceba54153aedbe..57708967c2e9d693b7b8c9ef246dcb8482335ae0 100644
+--- a/chromium_src/chrome/browser/net/profile_network_context_service.cc
++++ b/chromium_src/chrome/browser/net/profile_network_context_service.cc
+@@ -4,11 +4,11 @@
+  * You can obtain one at https://mozilla.org/MPL/2.0/. */
+ static const char* kBraveCTExcludedHosts[] = {
+     // Critical endpoints that shouldn't require SCTs so they always work
+-    "updates.bravesoftware.com",
+-    "updates-cdn.bravesoftware.com",
++    "updates.ibrowesoftware.com",
++    "updates-cdn.ibrowesoftware.com",
+     "usage-ping.brave.com",
+     // Test host for manual testing
+-    "sct-exempted.bravesoftware.com",
++    "sct-exempted.ibrowesoftware.com",
+ };
+ 
+ #define BRAVE_PROFILE_NETWORK_CONTEXT_SERVICE_GET_CT_POLICY \

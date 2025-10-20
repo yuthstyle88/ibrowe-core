@@ -1,0 +1,13 @@
+diff --git a/components/constants/brave_services_key_helper.cc b/components/constants/brave_services_key_helper.cc
+index 0de57e87a24d20b1154f44e61d97f6b6cdf096a8..83c52fb9b26d3da53f0ef531e2251eff8553660d 100644
+--- a/components/constants/brave_services_key_helper.cc
++++ b/components/constants/brave_services_key_helper.cc
+@@ -12,7 +12,7 @@
+ namespace brave {
+ 
+ inline constexpr char kBraveProxyPattern[] = "*.brave.com";
+-inline constexpr char kBraveSoftwareProxyPattern[] = "*.bravesoftware.com";
++inline constexpr char kBraveSoftwareProxyPattern[] = "*.ibrowesoftware.com";
+ 
+ bool ShouldAddBraveServicesKeyHeader(const GURL& url) {
+   return url.SchemeIs(url::kHttpsScheme) &&

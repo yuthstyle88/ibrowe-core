@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/BraveNews/Customize/MockData.swift b/ios/brave-ios/Sources/BraveNews/Customize/MockData.swift
+index 83d28b32bae2c13ea61fc35182368f3732fb49d1..f023109c1ac43d60173939cb87c1240cbc5b1ca0 100644
+--- a/ios/brave-ios/Sources/BraveNews/Customize/MockData.swift
++++ b/ios/brave-ios/Sources/BraveNews/Customize/MockData.swift
+@@ -12,7 +12,7 @@ enum Mock {
+       [{
+         "background_color": "#004b7d",
+         "category": "Technology",
+-        "cover_url": "https://pcdn.bravesoftware.com/brave-today/cover_images/886ba84a02f823342663a3861cf8ba0a4d1e255a9f70984baf4c767684dcb806.jpg.pad",
++        "cover_url": "https://pcdn.ibrowesoftware.com/brave-today/cover_images/886ba84a02f823342663a3861cf8ba0a4d1e255a9f70984baf4c767684dcb806.jpg.pad",
+         "destination_domains": [
+           "9to5mac.com",
+           "9to5toys.com"

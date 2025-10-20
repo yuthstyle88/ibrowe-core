@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/Growth/DAU.swift b/ios/brave-ios/Sources/Growth/DAU.swift
+index 246527d7e52950af0768fd31ba98d1df5aab5b48..6feb15dc6c9515eeaf07ff39babf7aca1e73001e 100644
+--- a/ios/brave-ios/Sources/Growth/DAU.swift
++++ b/ios/brave-ios/Sources/Growth/DAU.swift
+@@ -21,7 +21,7 @@ public class DAU {
+     let domain =
+       AppConstants.isOfficialBuild
+       ? "https://usage-ping.brave.com/"
+-      : "https://usage-ping.bravesoftware.com/"
++      : "https://usage-ping.ibrowesoftware.com/"
+ 
+     return "\(domain)\(apiVersion)/usage/ios?platform=ios"
+   }

@@ -1,0 +1,13 @@
+diff --git a/ios/brave-ios/Sources/BraveStore/Subscription/SDK/BraveSkusSDK.swift b/ios/brave-ios/Sources/BraveStore/Subscription/SDK/BraveSkusSDK.swift
+index 5a093505cade38b4f4df5e82a24d55445e13ed8f..90ca7b55ae404395008fac5e6cafcb4d39d34b3e 100644
+--- a/ios/brave-ios/Sources/BraveStore/Subscription/SDK/BraveSkusSDK.swift
++++ b/ios/brave-ios/Sources/BraveStore/Subscription/SDK/BraveSkusSDK.swift
+@@ -47,7 +47,7 @@ public struct SkusOrder: Codable {
+     public let quantity: Int
+     public let price: Double
+     public let subTotal: Double
+-    public let location: String  // leo.bravesoftware.com
++    public let location: String  // leo.ibrowesoftware.com
+     public let productDescription: String
+     public let credentialType: SkusCredentialType
+ 
