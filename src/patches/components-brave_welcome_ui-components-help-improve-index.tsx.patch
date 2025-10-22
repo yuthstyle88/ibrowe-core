@@ -1,0 +1,36 @@
+diff --git a/components/brave_welcome_ui/components/help-improve/index.tsx b/components/brave_welcome_ui/components/help-improve/index.tsx
+index 9ee335f51e30f37afb3e25138fa1572b51652aee..b3b3159ad6d8d5b4a8f934017adbf0ea5b4c16c1 100644
+--- a/components/brave_welcome_ui/components/help-improve/index.tsx
++++ b/components/brave_welcome_ui/components/help-improve/index.tsx
+@@ -19,7 +19,7 @@ interface InputCheckboxProps {
+ }
+ 
+ const changeSettingsNote = formatLocale('braveWelcomeChangeSettingsNote', {
+-  $1: content => <a href="brave://settings/privacy" onClick={() => {
++  $1: content => <a href="ibrowe://settings/privacy" onClick={() => {
+     WelcomeBrowserProxyImpl.getInstance().openSettingsPage()
+   }}>
+     {content}
+@@ -27,19 +27,19 @@ const changeSettingsNote = formatLocale('braveWelcomeChangeSettingsNote', {
+ })
+ 
+ const readPrivacyPolicy = formatLocale('braveWelcomePrivacyPolicyNote', {
+-  $1: content => <a href='https://brave.com/privacy/browser' target='_blank'>
++  $1: content => <a href='https://ibrowe.com/en/ibrowe-privacy' target='_blank'>
+     {content}
+   </a>
+ })
+ 
+ const diagnosticReportsLabel = formatLocale('braveWelcomeSendReportsLabel', {
+-  $1: content => <a href='https://support.brave.app/hc/en-us/articles/360017905872-How-do-I-enable-or-disable-automatic-crash-reporting' target='_blank'>
++  $1: content => <a href='https://community.ibrowe.com/post/406' target='_blank'>
+     {content}
+   </a>
+ })
+ 
+ const braveProductUsageDataLabel = formatLocale('braveWelcomeSendInsightsLabel', {
+-  $1: content => <a href='https://support.brave.app/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-' target='_blank'>
++  $1: content => <a href='https://community.ibrowe.com/post/384' target='_blank'>
+     {content}
+   </a>
+ })

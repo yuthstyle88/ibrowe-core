@@ -1,0 +1,13 @@
+diff --git a/components/brave_welcome_ui/components/help-wdp/index.tsx b/components/brave_welcome_ui/components/help-wdp/index.tsx
+index 276f90e1873e103cb7e1c491c43ca459dd5a9788..88acc040ed848f2e4f8a963077102204e79c9487 100644
+--- a/components/brave_welcome_ui/components/help-wdp/index.tsx
++++ b/components/brave_welcome_ui/components/help-wdp/index.tsx
+@@ -46,7 +46,7 @@ function HelpWDP () {
+         {getLocale('braveWelcomeHelpWDPDescription')}
+         <span> </span>
+         <a
+-          href='https://support.brave.app/hc/articles/4409406835469-What-is-the-Web-Discovery-Project'
++          href='https://community.ibrowe.com/post/34'
+           target='_blank'
+         >
+           {getLocale('braveWelcomeHelpWDPLearnMore')}

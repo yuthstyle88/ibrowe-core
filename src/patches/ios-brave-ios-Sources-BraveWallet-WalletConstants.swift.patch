@@ -1,5 +1,5 @@
 diff --git a/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift b/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift
-index d6369ad37152e958bb9758118aa72d4efc22b239..b544daee2c309803173e7b4290d1d66c313f8ddb 100644
+index d6369ad37152e958bb9758118aa72d4efc22b239..743f80e1fb82b5aa3c270c21fdb2a199789739e2 100644
 --- a/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift
 +++ b/ios/brave-ios/Sources/BraveWallet/WalletConstants.swift
 @@ -28,7 +28,7 @@ public struct WalletConstants {
@@ -11,6 +11,15 @@ index d6369ad37152e958bb9758118aa72d4efc22b239..b544daee2c309803173e7b4290d1d66c
    )!
  
    // TODO: update wiki link
+@@ -64,7 +64,7 @@ public struct WalletConstants {
+     string: "https://github.com/brave/brave-browser/wiki/NFT-Discovery"
+   )!
+ 
+-  public static let braveWalletTermsOfUse = URL(string: "https://brave.com/terms-of-use/")!
++  public static let braveWalletTermsOfUse = URL(string: "https://ibrowe.com/terms-of-use/")!
+ 
+   /// The currently supported test networks.
+   static let supportedTestNetworkChainIds = [
 @@ -224,7 +224,7 @@ public struct WalletConstants {
  
    /// The link for users to learn more about Solana SPL token account creation in transaction confirmation screen

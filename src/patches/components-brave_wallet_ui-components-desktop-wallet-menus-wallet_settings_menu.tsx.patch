@@ -1,0 +1,13 @@
+diff --git a/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx b/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx
+index 4d42dccabca9013e4f58d635b683c774e64de102..a35ddb6b6d3ded0277167186c7ca2306f8c701aa 100644
+--- a/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx
++++ b/components/brave_wallet_ui/components/desktop/wallet-menus/wallet_settings_menu.tsx
+@@ -118,7 +118,7 @@ export const WalletSettingsMenu = (props: Props) => {
+   const onClickHelpCenter = React.useCallback(() => {
+     chrome.tabs.create(
+       {
+-        url: 'https://support.brave.app/hc/categories/360001062531-Wallet',
++        url: 'https://community.ibrowe.com/c/Wallet',
+       },
+       () => {
+         if (chrome.runtime.lastError) {
