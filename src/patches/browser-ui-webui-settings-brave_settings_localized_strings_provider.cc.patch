@@ -1,14 +1,14 @@
 diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-index 6416841cc80525f1621995aa3846566f107ec34b..ed1d618719018609d1c15fb9544cebd1a982904a 100644
+index 6416841cc80525f1621995aa3846566f107ec34b..885feabd60a5e420a7ab5d321db720e6f0bbec21 100644
 --- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
 +++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-@@ -61,54 +61,54 @@ namespace settings {
+@@ -61,57 +61,55 @@ namespace settings {
  namespace {
  
  constexpr char16_t kWebRTCLearnMoreURL[] =
 -    u"https://support.brave.app/hc/en-us/articles/"
-+    u"https://support.ibrowe.com/hc/en-us/articles/"
-     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
+-    u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
++    u"https://community.ibrowe.com/post/434";
  constexpr char16_t kBraveBuildInstructionsUrl[] =
 -    u"https://github.com/brave/brave-browser/wiki";
 +    u"https://github.com/yuthstyle88/ibrowe-browser/wiki";
@@ -38,9 +38,10 @@ index 6416841cc80525f1621995aa3846566f107ec34b..ed1d618719018609d1c15fb9544cebd1
 +    u"https://support.ibrowe.com/hc/en-us/articles/360047642371-Sync-FAQ";
  constexpr char16_t kDeAmpLearnMoreUrl[] =
 -    u"https://support.brave.app/hc/en-us/articles/8611298579981";
-+    u"https://support.ibrowe.com/hc/en-us/articles/8611298579981";
++    u"https://community.ibrowe.com/post/242";
  constexpr char16_t kDebounceLearnMoreUrl[] =
-     u"https://brave.com/privacy-updates/11-debouncing/";
+-    u"https://brave.com/privacy-updates/11-debouncing/";
++    u"https://community.ibrowe.com/c/privacyupdates";
  constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
 -    u"https://github.com/brave/brave-browser/wiki/"
 +    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
@@ -56,8 +57,8 @@ index 6416841cc80525f1621995aa3846566f107ec34b..ed1d618719018609d1c15fb9544cebd1
  
  constexpr char16_t kTabOrganizationLearnMoreURL[] =
 -    u"https://support.brave.app/hc/en-us/articles/"
-+    u"https://support.ibrowe.com/hc/en-us/articles/"
-     u"35200007195917-How-to-use-Tab-Focus-Mode";
+-    u"35200007195917-How-to-use-Tab-Focus-Mode";
++    u"https://community.ibrowe.com/post/114";
  
  constexpr char16_t kLeoMemoryLearnMoreURL[] =
 -    u"https://support.brave.app/hc/en-us/articles/38441287509261";
@@ -68,11 +69,15 @@ index 6416841cc80525f1621995aa3846566f107ec34b..ed1d618719018609d1c15fb9544cebd1
  
  constexpr char16_t kSurveyPanelistLearnMoreURL[] =
 -    u"https://support.brave.app/hc/en-us/articles/36550092449165";
-+    u"https://support.ibrowe.com/hc/en-us/articles/36550092449165";
++    u"https://community.ibrowe.com/post/747";
  
  constexpr char16_t kExtensionsV2LearnMoreURL[] =
-     u"https://brave.com/blog/brave-shields-manifest-v3/";
-@@ -1080,7 +1080,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+-    u"https://brave.com/blog/brave-shields-manifest-v3/";
++    u"https://ibrowe.com/shields/";
+ 
+ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+                            Profile* profile) {
+@@ -1080,7 +1078,7 @@ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
                                   kExtensionsV2LearnMoreURL));
  
    // Disabled due to crash with tab group dragging.
@@ -81,7 +86,7 @@ index 6416841cc80525f1621995aa3846566f107ec34b..ed1d618719018609d1c15fb9544cebd1
    html_source->AddBoolean("showSplitViewDragAndDropSetting", false);
  }  // NOLINT(readability/fn_size)
  
-@@ -1092,11 +1092,15 @@ void BraveAddResources(content::WebUIDataSource* html_source,
+@@ -1092,11 +1090,15 @@ void BraveAddResources(content::WebUIDataSource* html_source,
  void BraveAddAboutStrings(content::WebUIDataSource* html_source,
                            Profile* profile) {
    std::u16string license = l10n_util::GetStringFUTF16(

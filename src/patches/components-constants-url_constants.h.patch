@@ -1,0 +1,42 @@
+diff --git a/components/constants/url_constants.h b/components/constants/url_constants.h
+index 3c2df19f6dfe6ca47021f6085a267086e12f6809..d8d3bb6727e538ed4c7391afc0989ed112293fa6 100644
+--- a/components/constants/url_constants.h
++++ b/components/constants/url_constants.h
+@@ -12,30 +12,26 @@ inline constexpr char kMagnetScheme[] = "magnet";
+ inline constexpr char kWidevineTOS[] = "https://policies.google.com/terms";
+ inline constexpr char kRewardsUpholdSupport[] =
+     "https://uphold.com/en/brave/support";
+-inline constexpr char kP3ALearnMoreURL[] = "https://brave.com/P3A";
++inline constexpr char kP3ALearnMoreURL[] = "https://community.ibrowe.com/post/384";
+ inline constexpr char kP3ASettingsLink[] = "chrome://settings/privacy";
+ inline constexpr char kImportDataHelpURL[] =
+-    "https://support.brave.app/hc/en-us/articles/360019782291#safari";
++    "https://community.ibrowe.com/post/69";
+ inline constexpr char kPermissionPromptLearnMoreUrl[] =
+     "https://github.com/brave/brave-browser/wiki/Web-API-Permissions";
+ inline constexpr char kPermissionPromptHardwareAccessPrivacyRisksURL[] =
+     "https://github.com/brave/brave-browser/wiki/"
+     "Privacy-risks-from-allowing-sites-to-access-hardware";
+ inline constexpr char kSpeedreaderLearnMoreUrl[] =
+-    "https://support.brave.app/hc/en-us/articles/"
+-    "360045031392-What-is-SpeedReader";
++    "https://community.ibrowe.com/post/746";
+ inline constexpr char kWebDiscoveryLearnMoreUrl[] =
+-    "https://brave.com/privacy/browser/#web-discovery-project";
++    "https://ibrowe.com/en/ibrowe-privacy";
+ inline constexpr char kBraveSearchHost[] = "search.brave.com";
+ inline constexpr char kWidevineLearnMoreUrl[] =
+-    "https://support.brave.app/hc/en-us/articles/"
+-    "360023851591-How-do-I-view-DRM-protected-content-";
++    "https://community.ibrowe.com/post/403";
+ inline constexpr char kDevChannelDeprecationLearnMoreUrl[] =
+-    "https://support.brave.app/hc/en-us/articles/"
+-    "17924707453581-How-do-I-migrate-my-Brave-Dev-data-to-another-channel-"
+-    "Nightly-Beta-Release-";
++    "https://community.ibrowe.com/post/395";
+ 
+-inline constexpr char kDownloadBraveUrl[] = "https://www.brave.com/download";
++inline constexpr char kDownloadBraveUrl[] = "https://www.ibrowe.com/download";
+ inline constexpr char kAIChatAboutUrl[] = "https://brave.com/leo/";
+ 
+ #endif  // BRAVE_COMPONENTS_CONSTANTS_URL_CONSTANTS_H_
