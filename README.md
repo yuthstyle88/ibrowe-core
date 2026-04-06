@@ -235,17 +235,71 @@ python scripts/sync-images.py
 
 ---
 
+### update_from_brave.py
+
+**Main script for automating the update workflow from brave-core releases.**
+
+**Usage:**
+```bash
+# Download specific version and update everything
+python scripts/update_from_brave.py --version v1.91.13
+
+# Specify chrome tag manually
+python scripts/update_from_brave.py --version v1.91.13 --chrome-tag 146.0.7680.178
+
+# Only check and report on images (no download)
+python scripts/update_from_brave.py --check-images
+
+# Preview what generic UI images would be removed
+python scripts/update_from_brave.py --remove-generic-images --dry-run
+
+# Actually remove generic UI images (keeps only branding)
+python scripts/update_from_brave.py --remove-generic-images
+```
+
+**Options:**
+| Option | Description |
+|--------|-------------|
+| `--version, -v` | Brave-core version to download (e.g., v1.91.13) |
+| `--chrome-tag, -c` | Chromium tag to use (auto-detected if not specified) |
+| `--check-images` | Analyze and report on images (no download) |
+| `--remove-generic-images` | Remove generic UI images (keeps only branding) |
+| `--dry-run` | Show what would be done without making changes |
+| `--skip-replacement` | Skip running replacement scripts |
+| `--skip-package-update` | Skip updating package.json |
+
+**Workflow:**
+1. Downloads brave-core source from GitHub releases
+2. Extracts and compares files with ibrowe-core
+3. Copies new/changed files (images and translations)
+4. Updates package.json with version and chrome tag
+5. Runs replacement scripts (replace_all_scripts.py, replace_strings.py)
+6. Identifies and can remove non-branding images
+
+**Image Categories:**
+| Category | Description |
+|----------|-------------|
+| Branding | Logo/branding images that should be kept/updated |
+| Generic UI | Generic UI icons (arrows, buttons, etc.) that can be removed |
+| Unknown | Images that need manual review |
+
+---
+
 ## Quick Reference
 
 | Task | Command |
 |------|---------|
+| **Update from brave-core** | `python scripts/update_from_brave.py --version v1.91.13` |
+| **Check images (branding vs generic)** | `python scripts/update_from_brave.py --check-images` |
+| **Remove generic UI images** | `python scripts/update_from_brave.py --remove-generic-images` |
 | Copy iBrowe → Brave (JS) | `node -e "require('./scripts/copyFileToBrave.js').copyFileToBrave()"` |
 | Copy Brave → iBrowe (JS) | `node -e "require('./scripts/copyFileToBrave.js').copyFileToiBrowe()"` |
 | Copy iBrowe → Brave (Python) | `python scripts/apply-image-patches.py` |
 | Copy Brave → iBrowe translations | `python scripts/sync-images.py` |
 | Replace branding in .grd files | `python scripts/replace_all_scripts.py --ext .grd` |
+| Replace branding in .grdp files | `python scripts/replace_all_scripts.py --ext .grdp` |
 | Replace branding in .xtb files | `python scripts/replace_all_scripts.py --ext .xtb` |
-| Replace branding in .strings | `python scripts/replace_strings.py` |
+| Replace branding in .strings files | `python scripts/replace_strings.py` |
 | Convert icon → SVG | `python scripts/icon2svg.py input.icon output.svg` |
 | Convert SVG ↔ icon | `python scripts/svg2icon.py input output` |
 | Convert icons → PNG | `python scripts/convert_icons.py src/ output/` |
