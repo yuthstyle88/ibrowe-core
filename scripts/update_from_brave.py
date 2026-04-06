@@ -13,7 +13,7 @@ This script automates the workflow:
 Usage:
     python scripts/update_from_brave.py --version v1.91.13
     python scripts/update_from_brave.py --version v1.91.13 --chrome-tag 146.0.7680.178
-    python scripts/update_from_brave.py --version v1.91.13 --check-images-only
+    python scripts/update_from_brave.py --check-images-only
 
 Requirements:
     - Python 3.x
@@ -36,6 +36,8 @@ from pathlib import Path
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 
+from typing import Dict, List, Tuple
+
 # Configuration
 SCRIPT_DIR = Path(__file__).parent.absolute()
 IBROWE_ROOT = SCRIPT_DIR.parent
@@ -43,6 +45,10 @@ SRC_DIR = IBROWE_ROOT / "src"
 IMAGES_DIR = SRC_DIR / "images"
 TRANSLATES_DIR = SRC_DIR / "translates"
 PACKAGE_JSON = IBROWE_ROOT / "package.json"
+CACHE_DIR = IBROWE_ROOT / ".brave-core-cache"  # Cache directory for downloads
+
+if not CACHE_DIR.exists():
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
 # Image extensions to process
 IMAGE_EXTENSIONS = {".png", ".svg", ".ico", ".icns", ".icon", ".gif", ".jpg", ".jpeg", ".webp", ".xpm"}
@@ -159,8 +165,6 @@ def get_file_hash(file_path: Path) -> str:
         for chunk in iter(lambda: f.read(4096), b""):
             hash_md5.update(chunk)
     return hash_md5.hexdigest()
-
-
 def extract_brave_core(zip_path: Path, extract_dir: Path) -> Path:
     """Extract brave-core zip and return the root directory."""
     print(f"Extracting {zip_path}...")
@@ -173,8 +177,6 @@ def extract_brave_core(zip_path: Path, extract_dir: Path) -> Path:
     if extracted_dirs:
         return extracted_dirs[0]
     return extract_dir
-
-
 def compare_and_copy_files(source_dir: Path, dest_dir: Path, extensions: set, dry_run: bool = False) -> dict:
     """
     Compare files between source and destination, copy new/changed files.
@@ -227,33 +229,26 @@ def compare_and_copy_files(source_dir: Path, dest_dir: Path, extensions: set, dr
         print(f"  No new or changed files found.")
 
     return stats
-
-
 def is_branding_image(file_path: Path) -> bool:
     """Check if an image file is likely a logo/branding image."""
     path_str = str(file_path).lower().replace("\\", "/")
-
     # Check if it matches branding patterns
     for pattern in BRANDING_PATTERNS:
         if re.search(pattern, path_str, re.IGNORECASE):
             return True
-
     return False
-
-
 def is_generic_ui_image(file_path: Path) -> bool:
     """Check if an image file is likely a generic UI icon."""
     path_str = str(file_path).lower().replace("\\", "/")
     filename = file_path.name.lower()
-
+    # Never remove images with "brave" in the name - they are Brave-specific
+    if "brave" in path_str or "brave" in filename:
+        return False
     # Check if it matches generic UI patterns
     for pattern in GENERIC_UI_PATTERNS:
         if re.search(pattern, path_str, re.IGNORECASE) or re.search(pattern, filename, re.IGNORECASE):
             return True
-
     return False
-
-
 def analyze_images(images_dir: Path) -> dict:
     """
     Analyze images and categorize them as branding or generic UI.
@@ -264,45 +259,34 @@ def analyze_images(images_dir: Path) -> dict:
         "generic_ui": [],    # Generic UI icons - can be removed
         "unknown": [],       # Unclear - needs manual review
     }
-
     for root, _, files in os.walk(images_dir):
         # Skip hidden and node_modules directories
         if "/." in root or "\\." in root or "node_modules" in root:
             continue
-
         for file in files:
             if not any(file.lower().endswith(ext) for ext in IMAGE_EXTENSIONS):
                 continue
-
             file_path = Path(root) / file
-
             if is_branding_image(file_path):
                 categories["branding"].append(file_path)
             elif is_generic_ui_image(file_path):
                 categories["generic_ui"].append(file_path)
             else:
                 categories["unknown"].append(file_path)
-
     return categories
-
-
 def remove_generic_ui_images(images_dir: Path, dry_run: bool = True) -> list:
     """
     Remove images that are identified as generic UI icons.
     Returns list of removed files.
     """
     removed = []
-
     for root, _, files in os.walk(images_dir):
         if "/." in root or "\\." in root or "node_modules" in root:
             continue
-
         for file in files:
             if not any(file.lower().endswith(ext) for ext in IMAGE_EXTENSIONS):
                 continue
-
             file_path = Path(root) / file
-
             if is_generic_ui_image(file_path) and not is_branding_image(file_path):
                 if dry_run:
                     print(f"  [WOULD REMOVE] {file_path.relative_to(images_dir)}")
@@ -310,21 +294,16 @@ def remove_generic_ui_images(images_dir: Path, dry_run: bool = True) -> list:
                     file_path.unlink()
                     print(f"  [REMOVED] {file_path.relative_to(images_dir)}")
                 removed.append(file_path)
-
     return removed
-
-
 def update_package_json(version: str, chrome_tag: str = None) -> bool:
     """Update package.json with new version and chrome tag."""
     try:
         with open(PACKAGE_JSON, "r") as f:
             package_data = json.load(f)
-
         # Update version (remove 'v' prefix if present)
         clean_version = version.lstrip("v")
         old_version = package_data.get("version", "")
         package_data["version"] = clean_version
-
         # Update chrome tag if provided
         if chrome_tag:
             if "config" not in package_data:
@@ -335,27 +314,20 @@ def update_package_json(version: str, chrome_tag: str = None) -> bool:
                 package_data["config"]["projects"]["chrome"] = {}
             if "tag" not in package_data["config"]["projects"]["chrome"]:
                 package_data["config"]["projects"]["chrome"]["tag"] = {}
-
             old_tag = package_data["config"]["projects"]["chrome"].get("tag", "")
             package_data["config"]["projects"]["chrome"]["tag"] = chrome_tag
-
             print(f"  Version: {old_version} -> {clean_version}")
             print(f"  Chrome tag: {old_tag} -> {chrome_tag}")
         else:
             print(f"  Version: {old_version} -> {clean_version}")
-
         # Write back to file
         with open(PACKAGE_JSON, "w") as f:
             json.dump(package_data, f, indent=2)
             f.write("\n")  # Add trailing newline
-
         return True
-
     except Exception as e:
         print(f"  Error updating package.json: {e}")
         return False
-
-
 def run_replacement_scripts():
     """Run the replacement scripts to update branding strings."""
     scripts = [
@@ -364,7 +336,6 @@ def run_replacement_scripts():
         ("replace_all_scripts.py", ["--ext", ".xtb"]),
         ("replace_strings.py", []),
     ]
-
     for script_name, args in scripts:
         script_path = SCRIPT_DIR / script_name
         if script_path.exists():
@@ -384,20 +355,15 @@ def run_replacement_scripts():
                 print(f"    Error running script: {e}")
         else:
             print(f"\n  Warning: {script_name} not found, skipping...")
-
-
 def get_chrome_tag_from_brave_package(package_json_path: Path) -> str:
     """Extract chrome tag from brave-core's package.json."""
     try:
         with open(package_json_path, "r") as f:
             data = json.load(f)
-
         return data.get("config", {}).get("projects", {}).get("chrome", {}).get("tag", "")
     except Exception as e:
         print(f"  Warning: Could not read chrome tag from brave-core: {e}")
         return ""
-
-
 def main():
     parser = argparse.ArgumentParser(
         description="Update ibrowe-core from brave-core releases",
@@ -406,18 +372,14 @@ def main():
 Examples:
   # Download specific version and update everything
   python scripts/update_from_brave.py --version v1.91.13
-
   # Specify chrome tag manually
   python scripts/update_from_brave.py --version v1.91.13 --chrome-tag 146.0.7680.178
-
   # Only check and report on images
   python scripts/update_from_brave.py --check-images
-
   # Remove generic UI images (not branding)
   python scripts/update_from_brave.py --remove-generic-images
         """
     )
-
     parser.add_argument(
         "--version", "-v",
         help="Brave-core version to download (e.g., v1.91.13)"
@@ -451,41 +413,38 @@ Examples:
         action="store_true",
         help="Skip updating package.json"
     )
-
+    parser.add_argument(
+        "--clean-cache",
+        action="store_true",
+        help="Clean the cache directory after update"
+    )
     args = parser.parse_args()
-
     print("=" * 60)
     print("iBrowe Core Update Script")
     print("=" * 60)
-
     # Mode 1: Check images only
     if args.check_images:
         print("\n[1/1] Analyzing images...")
         print("-" * 40)
-
         categories = analyze_images(IMAGES_DIR)
-
         print(f"\n  BRANDING IMAGES ({len(categories['branding'])} files):")
         print("  These are logo/branding images that should be kept/updated:")
         for f in categories["branding"][:20]:  # Show first 20
             print(f"    - {f.relative_to(IMAGES_DIR)}")
         if len(categories["branding"]) > 20:
             print(f"    ... and {len(categories['branding']) - 20} more")
-
         print(f"\n  GENERIC UI IMAGES ({len(categories['generic_ui'])} files):")
         print("  These are generic UI icons that can be removed:")
         for f in categories["generic_ui"][:20]:
             print(f"    - {f.relative_to(IMAGES_DIR)}")
         if len(categories["generic_ui"]) > 20:
             print(f"    ... and {len(categories['generic_ui']) - 20} more")
-
         print(f"\n  UNKNOWN IMAGES ({len(categories['unknown'])} files):")
         print("  These need manual review:")
         for f in categories["unknown"][:20]:
             print(f"    - {f.relative_to(IMAGES_DIR)}")
         if len(categories["unknown"]) > 20:
             print(f"    ... and {len(categories['unknown']) - 20} more")
-
         print("\n" + "=" * 60)
         print("Summary:")
         print(f"  Branding: {len(categories['branding'])}")
@@ -493,52 +452,50 @@ Examples:
         print(f"  Unknown: {len(categories['unknown'])}")
         print("=" * 60)
         return 0
-
     # Mode 2: Remove generic images
     if args.remove_generic_images:
         print("\n[1/1] Removing generic UI images...")
         print("-" * 40)
-
         if args.dry_run:
             print("  DRY RUN - no files will be removed\n")
-
         removed = remove_generic_ui_images(IMAGES_DIR, dry_run=args.dry_run)
-
         print(f"\n  {'Would remove' if args.dry_run else 'Removed'} {len(removed)} files")
         return 0
-
     # Mode 3: Full update from brave-core
     if not args.version:
         print("Error: --version is required for full update")
         parser.print_help()
         return 1
-
     version = args.version.lstrip("v")
     version_with_v = f"v{version}"
-
-    # Step 1: Download brave-core
-    print(f"\n[1/5] Downloading brave-core {version_with_v}...")
-    print("-" * 40)
-
-    # Create temp directory
-    temp_dir = Path(tempfile.mkdtemp(prefix="brave-core-"))
-    zip_path = temp_dir / f"brave-core-{version}.zip"
-
-    # GitHub release URL
+    # Setup cache directory
+    cache_dir = CACHE_DIR
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    zip_path = cache_dir / f"brave-core-{version}.zip"
+    extracted_dir = cache_dir / f"brave-core-{version}"
     download_url = f"https://github.com/brave/brave-core/archive/refs/tags/{version_with_v}.zip"
-
-    if not download_file(download_url, zip_path, f"brave-core {version_with_v}"):
-        print("Failed to download brave-core")
-        shutil.rmtree(temp_dir)
-        return 1
-
-    # Step 2: Extract and analyze
-    print(f"\n[2/5] Extracting and analyzing...")
+    # Step 1: Download brave-core (with caching)
+    print(f"\n[1/5] Checking brave-core {version_with_v}...")
     print("-" * 40)
-
-    brave_core_dir = extract_brave_core(zip_path, temp_dir)
-    print(f"  Extracted to: {brave_core_dir}")
-
+    if extracted_dir.exists():
+        print(f"  Found cached extraction: {extracted_dir}")
+        print(f"  Skipping download...")
+        brave_core_dir = extracted_dir
+    elif zip_path.exists():
+        print(f"  Found cached zip: {zip_path}")
+        print(f"  Extracting...")
+        brave_core_dir = extract_brave_core(zip_path, cache_dir)
+        print(f"  Extracted to: {brave_core_dir}")
+    else:
+        print(f"  Downloading from: {download_url}")
+        if not download_file(download_url, zip_path, f"brave-core {version_with_v}"):
+            print("Failed to download brave-core")
+            return 1
+        brave_core_dir = extract_brave_core(zip_path, cache_dir)
+        print(f"  Extracted to: {brave_core_dir}")
+    # Step 2: Analyze
+    print(f"\n[2/5] Analyzing...")
+    print("-" * 40)
     # Get chrome tag from brave-core package.json
     brave_package_json = brave_core_dir / "package.json"
     if brave_package_json.exists():
@@ -547,18 +504,15 @@ Examples:
             print(f"  Detected Chrome tag: {detected_chrome_tag}")
             if not args.chrome_tag:
                 args.chrome_tag = detected_chrome_tag
-
     # Step 3: Copy new/changed files
     print(f"\n[3/5] Copying files to ibrowe-core...")
     print("-" * 40)
-
     # Copy images
     print("\n  Processing images...")
     brave_images_dir = brave_core_dir
     image_stats = compare_and_copy_files(
         brave_images_dir, IMAGES_DIR, IMAGE_EXTENSIONS, dry_run=args.dry_run
     )
-
     # Copy translations
     print("\n  Processing translations...")
     if TRANSLATES_DIR.exists():
@@ -567,12 +521,10 @@ Examples:
         )
     else:
         print(f"  Warning: {TRANSLATES_DIR} does not exist, skipping translations")
-
     # Step 4: Update package.json
     if not args.skip_package_update:
         print(f"\n[4/5] Updating package.json...")
         print("-" * 40)
-
         if args.dry_run:
             print(f"  DRY RUN - would update:")
             print(f"    version: {version}")
@@ -583,12 +535,10 @@ Examples:
                 print("  Failed to update package.json")
     else:
         print(f"\n[4/5] Skipping package.json update...")
-
     # Step 5: Run replacement scripts
     if not args.skip_replacement:
         print(f"\n[5/5] Running replacement scripts...")
         print("-" * 40)
-
         if args.dry_run:
             print("  DRY RUN - would run:")
             print("    - replace_all_scripts.py --ext .grd")
@@ -599,11 +549,10 @@ Examples:
             run_replacement_scripts()
     else:
         print(f"\n[5/5] Skipping replacement scripts...")
-
-    # Cleanup
-    print(f"\nCleaning up temp files...")
-    shutil.rmtree(temp_dir)
-
+    # Cleanup cache if requested
+    if args.clean_cache:
+        print(f"\nCleaning up cache...")
+        shutil.rmtree(cache_dir)
     # Summary
     print("\n" + "=" * 60)
     print("Update Complete!")
@@ -613,15 +562,13 @@ Examples:
     if args.chrome_tag:
         print(f"  Chrome tag: {args.chrome_tag}")
     print(f"  Images - New: {image_stats['new']}, Changed: {image_stats['changed']}")
+    print(f"\nCache location: {cache_dir}")
     print(f"\nNext steps:")
     print("  1. Review the changes")
     print("  2. Run: python scripts/update_from_brave.py --check-images")
     print("  3. Manually update logo/branding images if needed")
     print("  4. Run: python scripts/update_from_brave.py --remove-generic-images --dry-run")
     print("  5. If satisfied, run without --dry-run to actually remove")
-
     return 0
-
-
 if __name__ == "__main__":
     sys.exit(main())

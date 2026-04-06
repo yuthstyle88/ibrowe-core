@@ -1,0 +1,10 @@
+# iBrowe Core
+
+.env
+.DS_Store
+node_modules/
+*.log
+npm-debug.log*
+
+# Cache directory for brave-core downloads
+.brave-core-cache/
