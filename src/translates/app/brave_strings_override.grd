@@ -101,6 +101,8 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </if>
       <if expr="is_macosx or is_linux">
         </if>
+      <if expr="is_linux">
+        </if>
       <if expr="is_chromeos">
         </if>
       <if expr="is_win">
@@ -108,6 +110,10 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       <if expr="is_macosx or is_chromeos">
         </if>
       <if expr="not is_macosx and not is_chromeos">
+        </if>
+      <if expr="not is_android">
+        </if>
+      <if expr="is_android">
         </if>
       <if expr="not is_chromeos">
         <if expr="_is_chrome_for_testing_branded">
@@ -159,6 +165,8 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </if>
       <if expr="is_win">
         </if>
+      <if expr="not is_chromeos and not is_android">
+        </if>
       <if expr="is_win">
         </if>
       <if expr="use_titlecase">
@@ -178,11 +186,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </if>
       <if expr="is_win">
         </if>
+      <if expr="not is_android">
+        </if>
       <if expr="is_win">
         </if>
       <if expr="is_macosx">
         </if>
-        <if expr="is_win or is_macosx">
+      <if expr="not is_android and not is_chromeos">
+        </if>
+      <if expr="is_win or is_macosx">
         </if>
       <message name="IDS_DOWNLOAD_BUBBLE_SUBPAGE_SUMMARY_UNKNOWN_SOURCE" desc="Summary of dangerous warning for a file (like an extension) from an unknown source.">
         Extensions, apps, and themes from unknown sources can harm your device. iBrowe recommends only installing them from the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph>
@@ -235,6 +247,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       <if expr="is_macosx">
         </if>
 
+      <if expr="not is_android">
+        <if expr="use_titlecase">
+          <then>
+            </then>
+          <else>
+            </else>
+        </if>
+      </if>
+
       <if expr="not is_chromeos">
         </if>
 
@@ -253,6 +274,8 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <else>
           </else>
       </if>
+      <if expr="not is_android">
+        </if>
 
       <if expr="not is_chromeos">
         </if>
@@ -354,7 +377,11 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <if expr="not use_titlecase">
           </if>
 
+        <if expr="use_titlecase">
+          </if>
+        <if expr="not use_titlecase">
         </if>
+      </if>
 
       <if expr="is_chromeos">
         </if>
@@ -375,6 +402,12 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
               =1 {Your administrator requires that you relaunch iBrowe to apply an update. Your Private window won't reopen.}
               other {Your administrator requires that you relaunch iBrowe to apply an update. Your # Private windows won't reopen.}}
           </message>
+             <message name="IDS_ADVANCED_PROTECTION_RELAUNCH_REQUIRED_BODY" desc="The body text of a dialog that tells Advanced Protection users the browser must be relaunched with Private counter">
+             {COUNT, plural,
+              =0 {Advanced Protection requires that you relaunch iBrowe to apply an update}
+              =1 {Advanced Protection requires that you relaunch iBrowe to apply an update. Your Private window won't reopen.}
+              other {Advanced Protection requires that you relaunch iBrowe to apply an update. Your # Private windows won't reopen.}}
+          </message>
         </if>
       </if>
       <if expr="not is_android and not is_chromeos">
@@ -392,10 +425,13 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </message>
       </if>
 
-      <if expr="enable_extensions">
+      <if expr="enable_extensions_core">
         </if>
 
       <if expr="not is_chromeos and not is_android">
+        </if>
+
+      <if expr="is_win">
         </if>
 
       <if expr="is_win">
@@ -405,11 +441,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         </if>
 
       <if expr="not is_android">
-        <if expr="use_titlecase">
-          </if>
-        <if expr="not use_titlecase">
-          </if>
-      </if>
+        </if>
 
       <if expr="not is_android">
         <if expr="use_titlecase">
@@ -438,6 +470,10 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <if expr="not use_titlecase">
           </if>
       </if>
-    </messages>
+
+      <if expr="not is_android">
+        </if>
+
+      </messages>
   </release>
 </grit>

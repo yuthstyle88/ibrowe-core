@@ -196,6 +196,7 @@
 <translation id="7279636930553631442">Popup buletin</translation>
 <translation id="6136090320163235283">Widget sosial</translation>
 <translation id="6657720240983439091">Widget obrolan</translation>
+<translation id="3597441883564676263">Browser tidak didukung</translation>
 <translation id="7138678301420049075">Lainnya</translation>
 <translation id="4046860372562593546">Kelola Iklan iBrowe</translation>
 <translation id="5136973036012418831">Kendalikan jenis Iklan iBrowe yang akan Anda lihat dan seberapa sering.</translation>
@@ -482,14 +483,21 @@
 <translation id="1518915449477235311">Izinkan <ph name="URL"/> untuk membuka percakapan AI Leo di iBrowe?</translation>
 <translation id="4355784577209159847">Mengizinkan kuki pihak ketiga untuk Masuk Google lama</translation>
 <translation id="5770656036486891920"><ph name="URL"/> ingin menggunakan kuki pihak ketiga untuk Masuk ke Google lama</translation>
-<translation id="6053826678715267477">Izinkan akses ke sumber daya localhost</translation>
-<translation id="2973562729984406132"><ph name="URL"/> ingin mengakses sumber daya localhost</translation>
 <translation id="2104347391516032700">Layanan Imbalan BAT</translation>
 <translation id="5939518447894949180">Setel ulang</translation>
 <translation id="3349204812119681938">Setel Ulang iBrowe Rewards</translation>
 <translation id="4915997950539925115">Dengan mengatur ulang, profil Imbalan iBrowe Anda saat ini akan dihapus, dan Imbalan iBrowe tidak akan lagi diaktifkan. Jika Anda mengaktifkan kembali Imbalan iBrowe di kemudian hari, Anda akan memulai dengan profil baru. Baca <ph name="LINK_BEGIN"/>artikel pendukung kami tentang pengaturan ulang<ph name="LINK_END"/> untuk detail lebih lanjut.</translation>
 <translation id="4806029412510565611">Saya memahami bahwa profil Imbalan iBrowe dan data Imbalan iBrowe saya saat ini akan dihapus dari perangkat saya, dan saya telah membaca <ph name="LINK_BEGIN"/>artikel pendukung tentang pengaturan ulang<ph name="LINK_END"/>.</translation>
 <translation id="8835777704176513489">Nonaktifkan dan reset Rewards</translation>
+<translation id="1570055891464728855">Setel ulang sekarang</translation>
+<translation id="6431824580671230473">Jangan khawatir: BAT apa pun yang sudah ada di akun <ph name="PROVIDER"/> Anda tidak akan terpengaruh oleh pengaturan ulang.</translation>
+<translation id="2881473942058010900">Anda tidak akan mendapatkan penghasilan dari iklan saat terhubung ke <ph name="PROVIDER"/>. Setel ulang iBrowe Rewards dan hubungkan akun pembayaran lain untuk terus mendapatkan penghasilan. <ph name="LINK_BEGIN"/>Pelajari selengkapnya<ph name="LINK_END"/></translation>
+<translation id="5803444802570526678">Akun <ph name="PROVIDER"/> tidak lagi didukung.</translation>
+<translation id="3794463124070392793">Konfirmasi wilayah Anda</translation>
+<translation id="4620879582500359234">BAT apa pun yang sudah ada di akun <ph name="PROVIDER"/> Anda akan tetap berada di sana.</translation>
+<translation id="935303782545595866">Riwayat Iklan 30 Hari dan pengaturan iBrowe Rewards lainnya akan diatur ulang.</translation>
+<translation id="6279637499952804615">Anda dapat memilih akun pembayaran lain setelah langkah ini.</translation>
+<translation id="5419770758409992826">Akun <ph name="PROVIDER"/> Anda akan diputuskan, dan profil iBrowe Rewards Anda akan diatur ulang.</translation>
 <translation id="7717357606512850995">Periksa status</translation>
 <translation id="6473937687348632190">Pembayaran untuk imbalan bulan <ph name="MONTH"/> telah diselesaikan.</translation>
 <translation id="1711367267038576241">Pembayaran untuk imbalan bulan <ph name="MONTH"/> akan mulai diproses sebelum <ph name="DATE"/>.</translation>
@@ -514,15 +522,15 @@
     }</translation>
 <translation id="3264975266761862670">Siap untuk mulai dapat Reward?</translation>
 <translation id="2784412028126205842">Menghubungkan ke akun pembayaran</translation>
-<translation id="766126983336630294">{ADS_VIEWED, plural,
-      =0 {Anda telah melihat <ph name="COUNT_BEGIN"/># Iklan<ph name="COUNT_END"/> bulan ini}
-      =1 {Anda bisa mendapatkan bayaran untuk <ph name="COUNT_BEGIN"/># Iklan<ph name="COUNT_END"/> yang telah Anda lihat bulan ini.}
-      other {Anda bisa mendapatkan bayaran untuk <ph name="COUNT_BEGIN"/># Iklan<ph name="COUNT_END"/> yang telah Anda lihat bulan ini.}
+<translation id="1789518312567918588">{ADS_VIEWED, plural,
+      =0 {Anda telah melihat <ph name="COUNT_BEGIN"/> # Iklan<ph name="COUNT_END"/> bulan ini}
+      =1 {Anda bisa mendapatkan bayaran untuk <ph name="COUNT_BEGIN"/> # Iklan<ph name="COUNT_END"/> yang telah Anda lihat bulan ini.}
+      other {Anda bisa mendapatkan bayaran untuk <ph name="COUNT_BEGIN"/> # Iklan<ph name="COUNT_END"/> yang telah Anda lihat bulan ini.}
     }</translation>
-<translation id="8611388433418909120">{ADS_VIEWED, plural,
-      =0 {Anda telah melihat <ph name="COUNT_BEGIN"/># Iklan<ph name="COUNT_END"/> bulan ini}
-      =1 {Anda mendapat penghasilan dari melihat <ph name="COUNT_BEGIN"/># Iklan<ph name="COUNT_END"/> bulan ini}
-      other {Anda mendapat penghasilan dari melihat <ph name="COUNT_BEGIN"/># Iklan<ph name="COUNT_END"/> bulan ini}
+<translation id="1100743684843603297">{ADS_VIEWED, plural,
+      =0 {Anda telah melihat <ph name="COUNT_BEGIN"/> # Iklan<ph name="COUNT_END"/> bulan ini}
+      =1 {Anda mendapat penghasilan dari melihat <ph name="COUNT_BEGIN"/> # Iklan<ph name="COUNT_END"/> bulan ini}
+      other {Anda mendapat penghasilan dari melihat <ph name="COUNT_BEGIN"/> # Iklan<ph name="COUNT_END"/> bulan ini}
     }</translation>
 <translation id="6067959437127691361">Menggunakan iBrowe Rewards akan membantu mendukung kreator konten, dan memungkinkan Anda untuk mendapatkan BAT.</translation>
 <translation id="2359808026110333948">Lanjutkan</translation>
@@ -600,7 +608,7 @@
 <translation id="5802986777701714573">Kami menambahkan cara baru bagi Anda untuk menerima imbalan BAT bulanan Anda. Sambungkan akun dari salah satu mitra kami atau gunakan opsi kustodian mandiri baru agar dapat mulai menerima imbalan sekarang.</translation>
 <translation id="3251885322612056119">Syarat Layanan yang Diperbarui</translation>
 <translation id="7454675823870922788">Kami telah memperbarui Syarat Layanan untuk Imbalan iBrowe. Kami membuat pembaruan ini untuk mengklarifikasi syarat kami dan memastikan bahwa fitur-fitur baru telah tercakup. Jika Anda tetap menggunakan Imbalan iBrowe, Anda menyetujui Syarat Layanan yang telah diperbarui. Jika Anda tidak setuju, Anda dapat <ph name="LINK_BEGIN"/>mengatur ulang<ph name="LINK_END"/> Imbalan iBrowe, yang akan menonaktifkan fitur.</translation>
-<translation id="56057964000416013">Kami telah memperbarui Ketentuan Layanan kami. Untuk terus menggunakan iBrowe Rewards, silakan tinjau dan setujui persyaratan yang telah diperbarui.</translation>
+<translation id="616595399243298960">Kami telah memperbarui Ketentuan Layanan kami. Untuk terus menggunakan iBrowe Rewards, silakan tinjau dan setujui persyaratan yang telah diperbarui.</translation>
 <translation id="5192526308598085294">Lihat <ph name="LINK_BEGIN"/>Syarat Layanan Imbalan iBrowe<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">Saya setuju</translation>
 <translation id="343114360276812078">Tinjau Ketentuan</translation>
@@ -648,6 +656,8 @@
 <translation id="6751803821780922506">Pilih di mana Anda ingin menerima BAT</translation>
 <translation id="3162035476318501831">Pelajari lebih lanjut tentang wilayah dan dukungan.</translation>
 <translation id="7329170127335794328">Saat ini belum tersedia di wilayah Anda</translation>
+<translation id="1947910788470806100">Kami belum memiliki opsi pembayaran di wilayah Anda. Anda dapat memeriksa kembali nanti untuk melihat apakah ketersediaan telah berubah.</translation>
+<translation id="271689813824682404">Opsi pembayaran tidak tersedia</translation>
 <translation id="966956302643313970">Untuk mulai memperoleh imbalan Token Perhatian Dasar (BAT), hubungkan dengan sebuah akun. BAT yang Anda peroleh akan secara otomatis ditransfer ke akun Anda setiap bulan.</translation>
 <translation id="4009439571146350519">Atau dompet lain yang mendukung Solana</translation>
 <translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Syarat Penggunaan<ph name="TOS_LINK_END"/> dan <ph name="PP_LINK_BEGIN"/>Kebijakan Privasi<ph name="PP_LINK_END"/>.</translation>
@@ -688,7 +698,6 @@
 <translation id="3266055641283174315">Jenis iklan</translation>
 <translation id="8706824117053903390">Penayangan bulan ini</translation>
 <translation id="5105890735834548623">Pengaturan Iklan</translation>
-<translation id="96989662637180657">Iklan Pencarian iBrowe muncul di <ph name="LINK_BEGIN"/>Pencarian iBrowe<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Pengaturan iklan</translation>
 <translation id="2446517297521536638">Kendalikan jenis Iklan iBrowe yang akan Anda lihat, dan seberapa sering. Semakin banyak yang Anda lihat, semakin banyak yang bisa Anda dapatkan.</translation>
 <translation id="3479272537858623647">Ini menunjukkan jumlah iBrowe Iklan yang telah Anda lihat bulan ini yang memenuhi syarat untuk mendapatkan BAT.</translation>
@@ -855,6 +864,14 @@
       other {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} langkah}
     }</translation>
 <translation id="8621264173374071200"><ph name="EXCHANGE_NAME"/> via <ph name="PROVIDER_NAME"/></translation>
+<translation id="646023614746251785">Konfirmasi pertukaran</translation>
+<translation id="6264944956989873014">Konfirmasi jembatan</translation>
+<translation id="7067917728851842589">Konfirmasi pengiriman</translation>
+<translation id="2841837950101800123">Penyedia</translation>
+<translation id="1114725160772317155">Status penyedia</translation>
+<translation id="2351357639951873714">Konfirmasi pelindungan</translation>
+<translation id="7480044382160806610">Konfirmasi buka perisai</translation>
+<translation id="8332923694292360653">Pengeluaran</translation>
 <translation id="3735740477244556633">Urutkan menurut</translation>
 <translation id="6484605214219822434">Tinjau jembatan</translation>
 <translation id="3365052891357224017">Perkiraan waktu</translation>
@@ -875,6 +892,8 @@
 <translation id="7465227658364622464">Jupiter akan memproses alamat Solana dan alamat IP untuk memenuhi transaksi (termasuk mendapatkan kuotasi). Jupiter HANYA akan menggunakan data ini untuk keperluan pemrosesan transaksi.</translation>
 <translation id="712738518060477110">Kuotasi termasuk biaya iBrowe <ph name="SWAP_FEE_PERCENTAGE"/>.</translation>
 <translation id="8368540604723748428">Terlalu banyak lokasi desimal</translation>
+<translation id="4797709125717981664">Minimal yang dibutuhkan adalah 1 ADA</translation>
+<translation id="3826737479910350533">Jumlah kiriman terlalu kecil</translation>
 <translation id="6575120282593094155">Anda belum memiliki akun <ph name="ACCOUNT_TYPE"/>. Ingin membuatnya sekarang?</translation>
 <translation id="1426410128494586442">Ya</translation>
 <translation id="4250680216510889253">Tidak</translation>
@@ -921,7 +940,7 @@
 <translation id="2274014756904854136">Ketuk layar dua kali untuk melanjutkan</translation>
 <translation id="7795718119973968770">Dompet Anda terkunci untuk keamanan Anda. Buka kunci dompet untuk melanjutkan.</translation>
 <translation id="9175546523521600401">Kunci dompet</translation>
-<translation id="765834632354589737">Cadangkan Dompet</translation>
+<translation id="7117128722034148989">Cadangkan dompet</translation>
 <translation id="1108298724135935307">Situs terkoneksi</translation>
 <translation id="5716350339763180836">Saldo</translation>
 <translation id="5538251867290702601">Grafik</translation>
@@ -964,6 +983,8 @@
 <translation id="3451958544919449297">Simpan aset ZEC Testnet</translation>
 <translation id="8459631690385393533">Menyimpan aset Cardano</translation>
 <translation id="4915057812371523845">Menyimpan aset Cardano Testnet</translation>
+<translation id="5387140102951033657">Mendukung aset Substrate pada rantai relai Polkadot dan parachain Substrate</translation>
+<translation id="5601177227092533167">Mendukung aset Substrate pada rantai relai Westend dan parachain Substrate</translation>
 <translation id="8500387257977999003">Kunci privat <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Impor</translation>
 <translation id="232925166623833246">Mengimpor dari dompet peranti keras</translation>
@@ -1021,6 +1042,7 @@
 <translation id="2416098547200943834">CATATAN: Kunci privat diberikan sebagai JSON dikodekan-hex yang berisi kunci privat dan informasi protokol. <ph name="LINK_START"/>Pelajari lebih lanjut<ph name="LINK_END"/>.</translation>
 <translation id="7657130382217527063">CATATAN: Kunci privat harus diberikan sebagai JSON dikodekan-hex yang berisi kunci privat dan informasi protokol. <ph name="LINK_START"/>Pelajari lebih lanjut<ph name="LINK_END"/>.</translation>
 <translation id="4482913669726886926">CATATAN: Hanya kunci diperpanjang <ph name="FORMAT"/> yang didukung.</translation>
+<translation id="9133762451347918196">Akun testnet</translation>
 <translation id="42126664696688958">Ekspor</translation>
 <translation id="1366855498335432549">Deposit</translation>
 <translation id="790104325876206743">Pengaturan akun</translation>
@@ -1028,6 +1050,11 @@
 <translation id="836614343069504000">Setorkan atau beli token untuk memulai. Jika Anda tidak melihat token dari akun yang diimpor, periksalah filter dan pengaturan tampilan. Token yang tidak diketahui mungkin perlu ditambahkan sebagai aset khusus.</translation>
 <translation id="2902856457593699108">Tunjukkan kunci</translation>
 <translation id="8033497299373164724">Sembunyikan kunci</translation>
+<translation id="7514365320538308">Unduh</translation>
+<translation id="4505811804838254812">Masukkan kata sandi untuk mengenkripsi file ekspor akun Anda.</translation>
+<translation id="4664684820522660564">Masukkan kata sandi enkripsi</translation>
+<translation id="6873030689896652259">Konfirmasi kata sandi enkripsi</translation>
+<translation id="5148285448107770349">Kata sandi harus terdiri dari minimal 8 karakter</translation>
 <translation id="2702143907607790516">Gagal memperbarui nama akun, silakan coba lagi.</translation>
 <translation id="3318280255740629162">25%</translation>
 <translation id="2636487255623744079">50%</translation>
@@ -1048,9 +1075,6 @@
 <translation id="1506421160138798546">memperkirakan</translation>
 <translation id="59223531494896848">Limit</translation>
 <translation id="8569380433211549748">Harga dalam</translation>
-<translation id="2490428413101944234">Uji faucet</translation>
-<translation id="3352959425838279177">Dapatkan Ether dari keran untuk <ph name="SELECTED_NETWORK"/></translation>
-<translation id="6449626816252815844">Pilih metode pembelian</translation>
 <translation id="8009571545960303544">Tanda tangan Anda sedang diminta</translation>
 <translation id="5294062982587710720">Perhatikan bahwa iBrowe tidak dapat memverifikasi hal yang akan terjadi jika Anda menandatangani. Tanda tangan dapat mengotorisasi hampir semua operasi di akun Anda atau atas nama Anda, termasuk (namun tidak terbatas pada) memberikan kendali penuh atas akun dan aset kripto Anda kepada situs yang mengajukan permintaan. Tanda tangani hanya jika Anda yakin ingin melakukan tindakan ini, dan Anda mempercayai situs yang meminta.</translation>
 <translation id="3474375934783434676">Tanda tangani dengan menanggung risiko Anda sendiri</translation>
@@ -1058,6 +1082,7 @@
 <translation id="3586931643579894722">Sembunyikan detail</translation>
 <translation id="7702907602086592255">Domain</translation>
 <translation id="3586752056660754651">Tanda tangani</translation>
+<translation id="4217653732094303705">Kunci enkripsi publik</translation>
 <translation id="3484981968509595506">Ada DApp yang meminta kunci enkripsi publik Anda</translation>
 <translation id="2300240008330189182"><ph name="URL"/> meminta kunci enkripsi publik dompet Anda. Jika Anda mengizinkan pemberian kunci ini, situs ini akan dapat menyusun pesan terenkripsi bagi Anda.</translation>
 <translation id="3340247553212049934">Sediakan</translation>
@@ -1075,6 +1100,10 @@
 <translation id="8904889345035514635">Toleransi saat ini</translation>
 <translation id="7073918978411974168">Toleransi yang diusulkan</translation>
 <translation id="9019403281000653275">Persetujuan tanpa batas telah diminta</translation>
+<translation id="9108474191347769758">Batas pengeluaran</translation>
+<translation id="2102091845281366189">Target persetujuan</translation>
+<translation id="772196962479335292">Batas persetujuan saat ini</translation>
+<translation id="8215431557133305629">Batas persetujuan yang diusulkan</translation>
 <translation id="4717431746210146708">Izinkan situs ini untuk menambah jaringan?</translation>
 <translation id="2521480044079508357">Ini akan mengizinkan penggunaan jaringan di dalam iBrowe Wallet.</translation>
 <translation id="1982257600591932657">Nama jaringan</translation>
@@ -1091,7 +1120,7 @@
 <translation id="3948067511324628726">Biaya bensin</translation>
 <translation id="7163997622278957886">Penawaran</translation>
 <translation id="1074360622426001342">Jumlah + bensin</translation>
-<translation id="2186011161688824046">Jumlah + biaya</translation>
+<translation id="7542099582407803878">Jumlah + Biaya jaringan</translation>
 <translation id="7084089311475827950">Tidak ada data.</translation>
 <translation id="5821668936183240062">berikutnya</translation>
 <translation id="793994607260936590">pertama</translation>
@@ -1200,12 +1229,12 @@
 <translation id="4932382283590063268">Alamat penerima adalah alamat Anda sendiri.</translation>
 <translation id="3124753063207986114">Alamat penerima adalah alamat kontrak token.</translation>
 <translation id="7029817408221097939">Alamat disatukan yang tidak valid</translation>
-<translation id="6370376419663123629">Alamat tampaknya tidak benar</translation>
-<translation id="3767148796886402380">Silakan periksa alamat Anda guna memastikan bahwa alamat tersebut sudah benar (misalnya huruf kecil atau huruf besar).</translation>
+<translation id="5749543778008369411">Alamat kehilangan checksum</translation>
+<translation id="8225310967627152630">Validitas alamat ini tidak dapat diverifikasi. Untuk menghindari kehilangan dana potensial, tinjau alamat dengan hati-hati sebelum mengirim.</translation>
+<translation id="5139218857087774333">Alamat tidak terlihat benar (checksum tidak sah)</translation>
+<translation id="6551446819927864899">Alamat ini tampaknya memiliki kesalahan ketik. Tinjau alamat dan ketik lagi.</translation>
 <translation id="2585599787090762065">Bagaimana cara menyelesaikannya?</translation>
 <translation id="5517732667776806421">Informasi checksum tidak ada</translation>
-<translation id="2975056993833847787">Alamat ini tidak dapat diverifikasi (cheksum hilang). Lanjutkan?</translation>
-<translation id="6320252966164556855">Alamat ini tidak lolos verifikasi (checksum tidak valid). Silakan coba lagi, dengan mengganti huruf kecil menjadi huruf besar.</translation>
 <translation id="4667144295226514387">Batas bensin tidak ada</translation>
 <translation id="2021522108838444624">Jumlahnya harus lebih besar dari 0</translation>
 <translation id="8464365289405373974">Alamat pengiriman diperlukan</translation>
@@ -1231,6 +1260,8 @@
 <translation id="471055802670233033">Anda menghabiskan</translation>
 <translation id="7916618590403748182">Anda menerima</translation>
 <translation id="8328657208304368165">Konfirmasikan pesanan</translation>
+<translation id="3784821115971261512">Alamat program</translation>
+<translation id="6302865118026274740">Alamat setoran</translation>
 <translation id="8220255674527598378">Pertukaran Solana</translation>
 <translation id="5071303414930953888">Akun <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">Wallet perlu dibuka kuncinya terlebih dahulu</translation>
@@ -1290,10 +1321,7 @@
 <translation id="4312994183947987913">Beli/Deposit</translation>
 <translation id="5133421763709317473">Aset yang sesuai dengan pencarian atau filter tidak ditemukan</translation>
 <translation id="6423985584914773314">Bukan alamat FIL yang valid</translation>
-<translation id="5522073372365069684">Beli dengan Ramp</translation>
 <translation id="6153197326949684688">Jual dengan <ph name="OFFRAMP_PROVIDER"/></translation>
-<translation id="7902920577183739843">Membeli dengan Sardine</translation>
-<translation id="3301984548406568819">Data keuangan dan transaksi diproses oleh mitra onramp kami. iBrowe tidak mengumpulkan atau memiliki akses ke data semacam itu.</translation>
 <translation id="5795821518596541838">Mitra transaksi</translation>
 <translation id="1916136859742693273">Dompet iBrowe menggunakan Meld.io untuk membantu mengumpulkan dan menampilkan berbagai penyedia kripto untuk wilayah Anda. Kami akan berbagi informasi dengan Meld.io untuk menyelesaikan transaksi, termasuk alamat dompet dan kode negara Anda. Untuk informasi lebih lanjut, silakan baca ketentuan penggunaan Meld.</translation>
 <translation id="245827814248186739">Saya telah membaca dan menyetujui <ph name="LINK_BEFORE"/>Ketentuan penggunaan Meld<ph name="LINK_AFTER"/></translation>
@@ -1314,19 +1342,8 @@
 <translation id="4196022627437957774">Apakah Anda ingin membuat akun <ph name="ACCOUNT_TYPE"/>?</translation>
 <translation id="5982914754413312620">Untuk menerima <ph name="TOKEN_SYMBOL"/> Anda memerlukan akun <ph name="ACCOUNT_TYPE"/>.</translation>
 <translation id="3067168166931605141">Nama akun</translation>
-<translation id="6534275647567011533">Beli dengan Transak</translation>
-<translation id="5973390321030037823">Beli dengan Tautan</translation>
-<translation id="1932640759496708012">Beli dengan Pembayaran Coinbase</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
-<translation id="7295150312737713113">Tautkan dengan Stripe</translation>
-<translation id="7191335763519723663">Pembayaran Coinbase</translation>
-<translation id="7667423728712601865">Beli kripto dengan Visa atau Mastercard.</translation>
-<translation id="3648994606506382289">Cara termudah, tercepat, dan termurah untk membeli kripto dengan kartu dan transfer bank.</translation>
-<translation id="3101839349578102016">Beli instan dengan rekening bank Anda. Biaya lebih rendah.</translation>
-<translation id="8280898387224328221">Bayar dengan kredit, debit, rekening bank</translation>
-<translation id="2218174283683424104">Membeli dari nama paling tepercaya dalam dunia kripto.</translation>
+<translation id="1213870770696612739">Jumlah minimum: <ph name="AMOUNT"/></translation>
+<translation id="3041074161036535192">Jumlah maksimum: <ph name="AMOUNT"/></translation>
 <translation id="8528916244724490964">Semua Jaringan</translation>
 <translation id="7721139939763655123">Rendah ke Tinggi</translation>
 <translation id="5458608274117818139">Tinggi ke Rendah</translation>
@@ -1371,8 +1388,13 @@
 <translation id="7694836973509310467">Bridging</translation>
 <translation id="8419958386475786929"><ph name="SWAPPING_OR_BRIDGING"/> di <ph name="NETWORK"/></translation>
 <translation id="7903225589949400974">Terjadi kesalahan saat mencoba <ph name="SWAP_OR_BRIDGE"/> di <ph name="NETWORK"/></translation>
+<translation id="7220786058474068424">Memproses</translation>
+<translation id="3248185426436836442">Tertunda</translation>
+<translation id="5503843345634715425">Dikembalikan</translation>
 <translation id="1778601041100951971">Melindungi <ph name="AMOUNT"/></translation>
+<translation id="6439110433198887239">Membuka perisai <ph name="AMOUNT"/></translation>
 <translation id="5549369333299694936"><ph name="AMOUNT"/> telah dilindungi</translation>
+<translation id="3860973324426281816"><ph name="AMOUNT"/> telah dibuka perisainya</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} lebih banyak transaksi yang tertunda.}
       other {{PENDING_TRANSACTIONS} lebih banyak transaksi yang tertunda.}
@@ -1397,6 +1419,7 @@
 <translation id="5601436886921227795">Interaksi Dapp</translation>
 <translation id="9104177294757104789">Kirimkan <ph name="VALUE"/></translation>
 <translation id="4048336522751528394">Tukar <ph name="MAKER"/> menjadi <ph name="TAKER"/></translation>
+<translation id="5140590056890937774">Menjembatani <ph name="SOURCE"/> ke <ph name="DESTINATION"/></translation>
 <translation id="1748114617341025015">Membuat akun token terkait</translation>
 <translation id="4418115887224983240">Gagal membuat akun token terkait</translation>
 <translation id="7165697599360786670">Akun token terkait dibuat</translation>
@@ -1417,6 +1440,8 @@
 <translation id="1908159733454294871">Risiko keamanan terdeteksi</translation>
 <translation id="3621202678540785336">Masukan</translation>
 <translation id="3009178788565917040">Keluaran</translation>
+<translation id="7953669802889559161">Masukan</translation>
+<translation id="4554024082642878647">Keluaran</translation>
 <translation id="1965889974717516497">Jaringan sekunder</translation>
 <translation id="7691821949666755802">Jaringan pengujian</translation>
 <translation id="2816106784624007524">Batas bensin harus berupa integer yang lebih besar dari 0</translation>
@@ -1565,8 +1590,6 @@
 <translation id="1422451606553326863">Beli kripto</translation>
 <translation id="3887541341068007345">Memeriksa ekstensi dompet...</translation>
 <translation id="8407091560429310499">Pilih aset</translation>
-<translation id="756590380936155533">Untuk menyelesaikan pembelian <ph name="ASSET_TICKER"/> Anda, pilih salah satu mitra kami</translation>
-<translation id="7880860489474966219">Setelah selesai, dana Anda akan ditransfer ke Dompet iBrowe Anda</translation>
 <translation id="6182661078713714878">Menyetor kripto</translation>
 <translation id="3683305208314702347">Setor <ph name="VALUE"/></translation>
 <translation id="5768739294929936862">Setor token Solana atau SPL</translation>
@@ -1623,12 +1646,16 @@
 <translation id="3356580495013324916">Masukkan kata sandi Dompet iBrowe Anda untuk mulai mencadangkan dompet.</translation>
 <translation id="7545441766078366279">Setujui <ph name="TOKEN"/></translation>
 <translation id="3115303896544539834">Saldo <ph name="TOKEN"/> tidak mencukupi</translation>
+<translation id="6612125470074657311">Jumlah terlalu rendah</translation>
+<translation id="5838312420826727653">Token yang tidak didukung</translation>
+<translation id="4930106154893104117">Permintaan tidak sah</translation>
 <translation id="3453833142586986467">Pilih token</translation>
 <translation id="4937657825850660613">Setengah</translation>
 <translation id="7639814793732182496">Maks</translation>
 <translation id="6584782231358487640">Masukkan jumlah</translation>
 <translation id="477281933640372562">Mengambil penawaran</translation>
 <translation id="5450317966495183014">Menerima (estimasi)</translation>
+<translation id="387870937508841726">Menerima (min.)</translation>
 <translation id="8747614139273050577">Dari token</translation>
 <translation id="1726158192333401896">Ke token</translation>
 <translation id="1817370679212109974">Kuotasi baru dalam <ph name="COUNTDOWN"/></translation>
@@ -1653,6 +1680,7 @@
 <translation id="8044899503464538266">Lambat</translation>
 <translation id="3569512916300900704">Rata-rata</translation>
 <translation id="7019805045859631636">Cepat</translation>
+<translation id="1345580220012169610">Perkiraan biaya</translation>
 <translation id="632241521608275119">Toleransi selip</translation>
 <translation id="6778140392042462129">Pertukaran</translation>
 <translation id="6173494033320397682">Hanya rute langsung</translation>
@@ -1706,6 +1734,9 @@
 <translation id="6276584161122912863">Harga gas</translation>
 <translation id="6132197290665156212">Perkiraan biaya jaringan</translation>
 <translation id="1788636309517085411">Gunakan default</translation>
+<translation id="3968375068626660591">Biaya gas ini akan menggantikan yang asli.</translation>
+<translation id="1661088862481901887">Ini akan membuat transaksi baru dengan biaya gas baru untuk menggantikan dan membatalkan transaksi yang tertunda. Pembatalan hanya bisa dicoba jika transaksi masih menunggu di jaringan.</translation>
+<translation id="5797060124625958778">Prioritas kecepatan</translation>
 <translation id="6213230117190778270">Terima</translation>
 <translation id="6748108480210050150">Dari</translation>
 <translation id="4875290286426670462"><ph name="ASSET_SYMBOL"/> tak terbatas</translation>
@@ -1735,7 +1766,6 @@
 <translation id="2410455471299328417">Layanan ini disediakan oleh <ph name="BOLD_BEFORE"/>Blowfish.xyz<ph name="BOLD_AFTER"/> dan tunduk pada <ph name="TERMS_LINK_BEFORE"/>Syarat Layanan<ph name="TERMS_LINK_AFTER"/> dan <ph name="PRIVACY_POLICY_LINK_BEFORE"/>Kebijakan Privasi<ph name="PRIVACY_POLICY_LINK_AFTER"/> mereka</translation>
 <translation id="8688672835843460752">Tersedia</translation>
 <translation id="5296640085393149413">Dana tersedia yang dapat Anda gunakan.</translation>
-<translation id="3248185426436836442">Tertunda</translation>
 <translation id="2515906149804238711">Perubahan yang tertunda di saldo dompet Anda.</translation>
 <translation id="7700365440186054030">Dana Anda yang tersedia plus setiap transaksi yang belum terkonfirmasi.</translation>
 <translation id="4118601537508887039">Sejumlah saldo mungkin belum tersedia</translation>
@@ -1801,10 +1831,14 @@
 <translation id="7747318989577709780">Akun sedang disinkronkan</translation>
 <translation id="9086302186042011942">Menyinkronkan</translation>
 <translation id="99991973626409495">Tinjau perisai</translation>
+<translation id="6779429520470417361">Tinjau buka perisai</translation>
 <translation id="3114681061018999547">Melindungi</translation>
+<translation id="1564172583156967455">Membuka perisai</translation>
 <translation id="8897189056319316783">Melindungi ZEC</translation>
+<translation id="508249542337194541">Buka perisai ZEC</translation>
 <translation id="3382275793825152362">Lindungi dana</translation>
 <translation id="8631765320256788981">Anda mengirimkan dana dari akun transparan ke akun terlindung.</translation>
+<translation id="3860364671495430495">Anda mengirimkan dana dari akun terlindung Anda ke akun transparan Anda.</translation>
 <translation id="7144878232160441200">Coba Lagi</translation>
 <translation id="9094621390791852268">Pratinjau transaksi gagal.</translation>
 <translation id="4982713341035600933">Perkiraan perubahan saldo</translation>
@@ -2081,6 +2115,8 @@
 <translation id="4292565651642921086">Grup tab fokus berikutnya</translation>
 <translation id="874783686573493196">Grup tab fokus sebelumnya</translation>
 <translation id="9169594135889675189">Tambahkan tab baru ke grup</translation>
+<translation id="1722567105086139392">Tautkan</translation>
+<translation id="4729794914864902904">Lepas</translation>
 <translation id="1926106318101432555">Buka markah...</translation>
 <translation id="6118819645013156507">Beralih ke jendela...</translation>
 <translation id="1623204575967809688">Gabungkan jendela saat ini ke dalam...</translation>
@@ -2106,6 +2142,7 @@
 <translation id="5329136173514538969">Jangan pisahkan tab</translation>
 <translation id="7595612919377246359">Tukar posisi tab</translation>
 <translation id="2367972762794486313">Tampilkan aplikasi</translation>
+<translation id="3468387898712904997">Alias email baru</translation>
 <translation id="8591883849678260674">Lihat halaman asli</translation>
 <translation id="1969654232209826429">menit membaca</translation>
 <translation id="4101707289420716287">Nonaktifkan Pembaca Cepat</translation>
@@ -2139,7 +2176,6 @@
 <translation id="5872363163901278000">Tingkatkan kecepatan pemutaran ulang</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">Fitur peringkas saat ini hanya tersedia untuk artikel tertentu dan halaman web berbentuk panjang lainnya.</translation>
-<translation id="1223498995510244364">Ringkas</translation>
 <translation id="7491773233732232424">Tentang Leo</translation>
 <translation id="4611072979071082355">iBrowe Leo adalah asisten pintar AI privat yang menyempurnakan penggunaan web Anda. Leo dapat digunakan secara gratis dengan akses terbatas. iBrowe Leo Premium menawarkan lebih banyak model, batasan yang lebih tinggi, dan memberi pelanggan akses awal ke fitur-fitur baru. Model default berubah dari waktu ke waktu. Buka <ph name="LINK_BEFORE"/>Pusat Bantuan iBrowe<ph name="LINK_AFTER"/> untuk detail selengkapnya.</translation>
 <translation id="7297056998057521697">Secara default, saat Anda mengajukan pertanyaan kepada Leo tentang situs web atau halaman yang Anda lihat, konten halaman web yang Anda lihat atau teks apa pun yang Anda sorot di halaman, serta kueri penelusuran Anda akan dikirim ke server iBrowe agar Leo dapat memberikan tanggapan. Dalam beberapa kasus, Leo akan mengirimkan kueri yang berasal dari masukan Anda ke iBrowe Penelusuran dan menggunakan hasil penelusuran untuk menjawab pertanyaan Anda dengan lebih baik. iBrowe tidak menjamin keakuratan jawaban, dan jawaban yang diberikan mungkin berisi informasi yang tidak akurat, menyesatkan, atau salah. Jangan kirimkan informasi sensitif atau pribadi ke iBrowe Leo, dan berhati-hatilah dengan jawaban apa pun yang berkaitan dengan kesehatan, keuangan, keselamatan pribadi, atau yang serupa. Anda dapat menyesuaikan opsi Leo di Pengaturan kapan saja. Buka Pengaturan &gt; Leo.</translation>
@@ -2170,14 +2206,25 @@
 <translation id="8151638057146502721">Konfigurasi</translation>
 <translation id="999273441077650169">Model berubah secara dinamis untuk menggunakan yang terbaik untuk tugas tersebut.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
 <translation id="1238020084128916796">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Llama 3.1 8B, model yang diciptakan oleh Meta agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Llama dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
-<translation id="7127671672828944579">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Qwen 14B, model yang diciptakan oleh Alibaba Cloud agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Qwen dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
-<translation id="2328524194917949829">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Gemma 3 12B, model yang diciptakan oleh Google DeepMind agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Gemma dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
-<translation id="634682910381645550">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh DeepSeek R1, model yang diciptakan oleh DeepSeek untuk melakukan tugas-tugas penalaran mendalam. DeepSeek R1 dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
-<translation id="8932568551552504373">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Claude Instant, model yang diciptakan oleh Anthropic untuk menangani tugas-tugas pemrosesan percakapan dan teks. Claude Instant dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="3852808100039989429">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Qwen VL 30B, model yang diciptakan oleh Alibaba Cloud agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Qwen dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="6406961656408495869">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh DeepSeek V3.1, model yang diciptakan oleh DeepSeek agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. DeepSeek V3.1 dihost oleh NEAR melalui infrastruktur pribadi aman yang dapat diverifikasi.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Hai, saya Leo. Saya asisten AI dari iBrowe. Saya didukung oleh Claude Instant, sebuah model dari Anthropic untuk percakapan dan pemrosesan teks. Claude Instant dihosting iBrowe melalui infrastruktur aman kami sendiri.<ph name="LINK_BEFORE"/>Pelajari lebih lanjut<ph name="LINK_AFTER"/></translation>
 <translation id="3789772321824682783">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Claude Haiku, model yang diciptakan oleh Anthropic untuk menangani tugas-tugas pemrosesan percakapan dan teks. Claude Haiku dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
 <translation id="1778885220602472158">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Claude Sonnet, model yang diciptakan oleh Anthropic untuk menangani tugas-tugas pemrosesan percakapan dan teks. Claude Sonnet dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="1058830842518828124">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Llama 4 Scout, model yang diciptakan oleh Meta agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Llama 4 Scout dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="6277330815126859513">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Llama 4 Maverick, model yang diciptakan oleh Meta agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Llama 4 Maverick dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="5833148755396048122">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh GPT OSS 20B, model yang diciptakan oleh OpenAI agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. GPT OSS 20B dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="5414593137581221307">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh GPT OSS 120B, model yang diciptakan oleh OpenAI agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. GPT OSS 120B dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="5037359072717016032">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Mistral Large, model yang diciptakan oleh Mistral agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Mistral Large dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="8947618429500471804">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Pixtral Large, model yang diciptakan oleh Mistral agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Pixtral Large dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="4026902371301997261">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Qwen 3 235B, model yang diciptakan oleh Alibaba Cloud agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Qwen 3 235B dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="768541432895104346">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Deepseek V3.1, model yang diciptakan oleh Deepseek agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Deepseek V3.1 dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="3767678495358551728">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Qwen 3 Coder 480B, model yang diciptakan oleh Alibaba Cloud agar berfungsi dengan baik dan dapat diterapkan untuk banyak kasus penggunaan. Qwen 3 Coder 480B dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="3369866806475938617">Hai, saya Leo. Saya adalah asisten AI oleh iBrowe. Saya didukung oleh Claude Opus, model yang diciptakan oleh Anthropic untuk menangani tugas-tugas pemrosesan percakapan dan teks. Claude Opus dihost oleh iBrowe dalam infrastruktur kami yang aman.<ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="5807427080183870259">Lokal</translation>
+<translation id="830868413617744215">Beta</translation>
+<translation id="4773408460773097271">Ollama</translation>
 <translation id="631371844654031449">Model yang direkomendasikan</translation>
 <translation id="6568044140836233369">Tampilkan semua model</translation>
 <translation id="6187065185557150870">Obrolan</translation>
@@ -2186,6 +2233,7 @@
 <translation id="7557539689487606886">Jadilah Premium</translation>
 <translation id="1691256669639196606">Kelola paket langganan</translation>
 <translation id="3840096463915153852">Riwayat percakapan</translation>
+<translation id="6761921176674289184">Kelola memori</translation>
 <translation id="2304783958703511257">Pengaturan Lanjutan</translation>
 <translation id="3037594989275592390">Model bahasa</translation>
 <translation id="5543505256451301851">Cobalah gratis selama 7 hari</translation>
@@ -2210,6 +2258,7 @@
 <translation id="9109355817507033196">Jawaban tidak disukai</translation>
 <translation id="4049425842478222936">Jawaban disukai</translation>
 <translation id="6393149565874086128">Tambahkan umpan balik</translation>
+<translation id="4621961534325272682">Percakapan disalin ke papan klip</translation>
 <translation id="3521125531016408657">Suka jawaban</translation>
 <translation id="8202517001427388906">Tidak suka jawaban</translation>
 <translation id="1379399209929302811">Berikan Umpan Balik untuk AI iBrowe</translation>
@@ -2222,6 +2271,24 @@
 <translation id="7488762544858401571">Diedit</translation>
 <translation id="5604254791550001355">Edit perintah</translation>
 <translation id="8115786586976830777">Salin perintah</translation>
+<translation id="3666616415490815310">Simpan sebagai keterampilan</translation>
+<translation id="6574544364990812112">Keahlian Saya</translation>
+<translation id="6696824203401957025">Keterampilan baru</translation>
+<translation id="6410279677882692627">Keterampilan akan muncul di alat [/] Anda dan dapat diakses hanya dengan mengetikkan "/nama" yang Anda siapkan di bawah ini.</translation>
+<translation id="1344606707744657196">Model untuk prompt</translation>
+<translation id="8458341576712814616">Jalan Pintas</translation>
+<translation id="1326559827339317236">Masukkan pintasan Anda di sini</translation>
+<translation id="5032574515228824816">Cepat</translation>
+<translation id="2573797314568446575">Masukkan prompt Anda di sini</translation>
+<translation id="900733896273558337">Keterampilan mengedit</translation>
+<translation id="7662963028545588801">Hapus keterampilan</translation>
+<translation id="4209790625997566418">Apakah Anda yakin ingin menghapus keterampilan ini? Tindakan ini tidak dapat dibatalkan.</translation>
+<translation id="7161540406494327389">Diperlukan pintasan</translation>
+<translation id="3722223049736774445">Pintasan hanya dapat berisi huruf, angka, garis bawah, dan tanda hubung</translation>
+<translation id="6997214168632888867">Pintasan harus terdiri dari 64 karakter atau kurang</translation>
+<translation id="2806891468525657116">Pintasan sudah ada</translation>
+<translation id="5497501845974700950">Diperlukan permintaan</translation>
+<translation id="5642369858603376334">Prompt harus terdiri dari 5000 karakter atau kurang</translation>
 <translation id="1406205536570262057">Edit jawaban</translation>
 <translation id="3386725253392845084">Coba lagi model yang sama</translation>
 <translation id="2461822463642141190">Saat ini</translation>
@@ -2236,6 +2303,8 @@
 <translation id="6495402307502950726">Hapus percakapan</translation>
 <translation id="903201991022343217">Mulai percakapan baru</translation>
 <translation id="8171760814579050200">Ganti nama percakapan</translation>
+<translation id="402386227879573975">Salin seluruh percakapan</translation>
+<translation id="5397794290049113714">Anda</translation>
 <translation id="7754678742055438573">Hapus percakapan</translation>
 <translation id="1946267518364740045">Penalaran...</translation>
 <translation id="4198859185714743678">Penalaran selesai</translation>
@@ -2247,7 +2316,8 @@
 <translation id="1243966363662220847">Respons Masukan</translation>
 <translation id="7417895556119762861">Menyukai atau tidak menyukai jawaban akan mengirimkan peringkat, percakapan, model, bahasa, versi, dan status premium ke iBrowe untuk menyempurnakan Leo. <ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Kirim pesan ke Leo</translation>
-<translation id="4084869091337186002">Agen Konten AI Leo selalu diaktifkan di profil ini</translation>
+<translation id="6222803935921999130">Buka jendela profil penelusuran AI</translation>
+<translation id="1530903352777607099">Penelusuran AI selalu diaktifkan di profil ini</translation>
 <translation id="8650874793377330048">Berhenti menjawab</translation>
 <translation id="8712637175834984815">Mengerti</translation>
 <translation id="1093419424466417703">Halaman ini terlalu panjang untuk Leo. Sebagian konteksnya mungkin hilang dari percakapan. Leo mampu membaca <ph name="PERCENTAGE"/> dari isi halaman.</translation>
@@ -2259,31 +2329,42 @@
 <translation id="7307396647043599949"><ph name="COUNT"/> selengkapnya…</translation>
 <translation id="8103700533980268469">Tutup pemberitahuan ini</translation>
 <translation id="3417835166382867856">Tab penelusuran</translation>
+<translation id="3828029223314399057">Cari penanda</translation>
+<translation id="381480092025168632">Cari riwayat browser</translation>
+<translation id="7311244614769792472">Hasil tidak ditemukan</translation>
+<translation id="3112448569149476523">Coba penelusuran lain</translation>
 <translation id="1352836459737874921">Lampirkan konten dari tab lain</translation>
-<translation id="3028258613451571431">Kirim konten halaman dari tab browser guna memberi Leo lebih banyak konteks untuk percakapan</translation>
-<translation id="4300920590112551536">Tab browser</translation>
-<translation id="1446346932629101482">Tambahkan konten tab sebagai konteks. Konten akan dikirim ke Leo bersama dengan pesan Anda.</translation>
-<translation id="7193316103691252734">Tidak ada tab yang sesuai</translation>
+<translation id="7173836072258346701">Melampirkan konten dari penanda</translation>
+<translation id="163680814308917875">Melampirkan konten dari riwayat browser</translation>
+<translation id="7039179822221107025">Kirim konten halaman dari tab browser guna memberi Leo lebih banyak konteks untuk percakapan.</translation>
+<translation id="1602382615168212961">Kirim konten halaman dari tab di bookmark Anda untuk memberi Leo lebih banyak konteks untuk percakapan.</translation>
+<translation id="4808122506413075135">Kirim konten halaman dari riwayat peramban Anda untuk memberi Leo lebih banyak konteks percakapan.</translation>
+<translation id="220541218939267992">Konten halaman akan dikirim ke Leo bersama pesan Anda.</translation>
+<translation id="2152389270152475874">Tambahkan tab, bookmark, atau riwayat untuk konteks. Konten yang dipilih akan dikirim ke Leo bersama dengan pesan Anda.</translation>
 <translation id="2315654674554095762">Kini Leo mengingat percakapan sehingga Anda bisa kembali ke percakapan itu. Percakapan disimpan dan dienkripsi di perangkat, dan Anda bisa hapus kapan saja.</translation>
 <translation id="7821251979960635244">Riwayat percakapan akan muncul di sini setelah Anda memulai percakapan.</translation>
 <translation id="887511360213807449">Riwayat dinonaktifkan</translation>
 <translation id="5380979378058584412">Untuk melihat percakapan sebelumnya dengan Leo, Anda perlu mengaktifkan riwayat percakapan.</translation>
-<translation id="6291843235651817590">Obrolan umum</translation>
+<translation id="7348809809749151120">Cepat • Penelusuran</translation>
 <translation id="3185367320601718531">Penghasil percakapan dan teks</translation>
-<translation id="7979673624064378842">Obrolan secepat kilat</translation>
-<translation id="2836330653441111204">Kecepatan yang seimbang dengan kecerdasan</translation>
-<translation id="6695329447007213917">Obrolan umum, koding, dan lainnya</translation>
-<translation id="7168072214482631597">Pemahaman teks dan gambar untuk tujuan umum</translation>
-<translation id="7226508434216060960">Model penalaran</translation>
+<translation id="2793458212460902934">Cepat • Penelusuran • Alat</translation>
+<translation id="8506027496671575183">Penelusuran • Penglihatan • Alat</translation>
+<translation id="3184606955650139158">Cepat • Penelusuran • Visi</translation>
+<translation id="7465032796278724624">Privasi Terbukti Dengan NEAR AI TEE</translation>
 <translation id="8782867266498869301">Model berubah secara dinamis untuk menggunakan yang terbaik untuk tugas tersebut</translation>
+<translation id="3213834013136637671">Penelusuran • Penglihatan</translation>
 <translation id="3965507912994218570">Pengaturan Leo</translation>
-<translation id="1037324977127422019">Hai, saya Leo!</translation>
-<translation id="8930348081963284873">Asisten cerdas yang didukung AI, dibangun langsung ke dalam iBrowe.</translation>
-<translation id="3528849152231418380">Perlu bantuan dengan situs web?</translation>
-<translation id="1558192229187362674">Saya dapat membantu Anda meringkas artikel, memperluas konten situs dan banyak lagi.</translation>
-<translation id="861953757568623294">Saya dapat membantu Anda meringkas artikel, memperluas konten situs dan banyak lagi. Tidak yakin di mana harus memulai? Coba ini:</translation>
-<translation id="5642775487085641191">Hanya ingin mengobrol?</translation>
-<translation id="8857222718794549840">Tanya saya hal apa pun! Kita bisa berbicara tentang topik apa pun yang Anda inginkan. Saya selalu belajar dan meningkatkan diri untuk memberikan jawaban yang lebih baik.</translation>
+<translation id="3754337604877048671">Perkenalkan Leo AI</translation>
+<translation id="5295261408976371809">Asisten AI <ph name="TEXT_BEFORE"/>pribadi<ph name="TEXT_AFTER"/> Anda, langsung di dalam peramban.</translation>
+<translation id="7452913484571004528">AI benar-benar pribadi</translation>
+<translation id="8525501048785085223">Leo tidak menyimpan atau membagikan percakapan, atau menggunakannya untuk pelatihan model. Tidak perlu akun atau masuk. Cukup buka dan mulai obrolan. Secara pribadi.</translation>
+<translation id="6401201054391523929">Obrolan dengan tab dan file Anda</translation>
+<translation id="8522038408130089105">Perlu tahu lebih lanjut tentang situs yang Anda kunjungi? Cukup tambahkan ke obrolan. Lampirkan tab dan file lokal Anda untuk jawaban cepat dan relevan.</translation>
+<translation id="3844955602461425647">Otomatisasi tugas membosankan</translation>
+<translation id="2196247864500723577">Biarkan iBrowe menjelajah bersama Anda dan berinteraksi dengan semua yang Anda lakukan di peramban. Serahkan tugas membosankan, dan hemat waktu Anda untuk hal yang lebih penting.</translation>
+<translation id="235457946228076038">Bawa model Anda sendiri</translation>
+<translation id="7024005267156189454">Sambungkan model AI Anda sendiri, baik yang berjalan secara lokal maupun jarak jauh. Sesuaikan perilaku, keluaran, dan kemampuan Leo sesuai preferensi Anda.</translation>
+<translation id="7291578285403921288">Pelajari lebih lanjut tentang Leo AI</translation>
 <translation id="9051226419897869406">Mengobrol Secara Privat dengan iBrowe Leo</translation>
 <translation id="2414904697165579184">Bentuk jawaban berdasarkan konten tab</translation>
 <translation id="8258324391302611485">Konten halaman ini akan dikirim ke Leo bersama dengan pesan Anda.</translation>
@@ -2292,6 +2373,7 @@
 <translation id="8732450785281947197">Alat AI Leo</translation>
 <translation id="6535533770697728087">Tindakan cepat</translation>
 <translation id="3237710083340813756">Tulis ulang</translation>
+<translation id="1223498995510244364">Ringkas</translation>
 <translation id="1252805982772190086">Postingan singkat</translation>
 <translation id="2087555497198267113">Postingan panjang</translation>
 <translation id="4170307327863874820">Postingan blog</translation>
@@ -2318,7 +2400,9 @@
 <translation id="4250229828105606438">Tangkapan layar</translation>
 <translation id="7949596341600215809">Tangkapan layar halaman penuh</translation>
 <translation id="6332876390231524389">Isi tab saat ini</translation>
-<translation id="7742969455167760092">Buka tab...</translation>
+<translation id="6397861830483632092">Buka tab…</translation>
+<translation id="802080272588201037">Bookmark…</translation>
+<translation id="2716127283451902393">Sejarah…</translation>
 <translation id="49269513399674318">Gunakan mikrofon</translation>
 <translation id="3895031624234442305">Model khusus</translation>
 <translation id="4572010449071015143">Memulai percakapan baru</translation>
@@ -2330,13 +2414,47 @@
 <translation id="2593275000606533518">Kelola semua</translation>
 <translation id="8410199626695516952">Baik, saya tidak akan mengingatnya</translation>
 <translation id="8419849467765474535">Gagal menyimpan memori. Coba lagi.</translation>
+<translation id="5517580030864973329">Menavigasi halaman web ke alamat baru</translation>
+<translation id="9197920788851078696">Menavigasi halaman web ke <ph name="URL"/></translation>
+<translation id="5095252080770652994">Kemajuan</translation>
+<translation id="8332385567036775056">Langkah-langkah</translation>
+<translation id="4521931942079977149">Mengklik pada halaman</translation>
+<translation id="7732267913911704962">Menyeret dan menjatuhkan pada halaman</translation>
+<translation id="7703800915509570212">Menavigasi kembali</translation>
+<translation id="4875586490950981498">Menavigasi ke depan</translation>
+<translation id="738881387603843066">Menggerakkan mouse</translation>
+<translation id="4850669014075537160">Menggulir</translation>
+<translation id="1265072406500460724">Memilih dari menu tarik-turun</translation>
+<translation id="7573920298077917439">Mengetik teks</translation>
+<translation id="4089034800311309656">Menunggu halaman</translation>
+<translation id="4798146464408730445">Tidak ada keterampilan yang ditemukan. Buat yang baru dengan mengeklik tombol "Baru".</translation>
+<translation id="271033894570825754">Baru</translation>
+<translation id="8266605059880650542">Mencatat beberapa informasi untuk nanti tentang halaman tersebut</translation>
+<translation id="5103625298494362646">Mode agen AI berfungsi dengan model yang mendukung alat. Model yang tidak kompatibel disembunyikan dari daftar ini.</translation>
+<translation id="3397808797783614750">Mengaktifkan AI untuk menjelajah secara otomatis demi Anda dapat menimbulkan konsekuensi berbahaya dan tidak diinginkan bagi privasi, keuangan, dan komunikasi online Anda. <ph name="LINK_BEFORE"/>Pelajari selengkapnya<ph name="LINK_AFTER"/></translation>
+<translation id="4522025297473237294">Peringatan keamanan</translation>
+<translation id="6077070599873946984">iBrowe AI memerlukan izin Anda untuk: <ph name="TOOL_LABEL"/></translation>
+<translation id="4163837693685963037">Operasi ini terdeteksi berpotensi tidak selaras dengan permintaan Anda:</translation>
+<translation id="3927932062596804919">Tolak</translation>
+<translation id="4569155249847375786">Terverifikasi</translation>
+<translation id="8200772114523450471">Lanjutkan</translation>
+<translation id="7607002721634913082">Dijeda</translation>
+<translation id="4773299976671772492">Dihentikan</translation>
+<translation id="6946722113367118030">Sedang berpikir</translation>
+<translation id="2113810663179257944">Eksekusi Kode</translation>
+<translation id="6338250692384725496">Menjalankan kode dalam sandbox untuk membantu pertanyaan Anda</translation>
+<translation id="4379566111233326721">Kode:</translation>
+<translation id="3542130965673205258">Keluaran:</translation>
+<translation id="3428245742224818842">Penjelajahan AI</translation>
+<translation id="2854657728271352435">Tentang profil penjelajahan AI</translation>
+<translation id="2301685062527585986">Untuk melindungi data Anda, profil penjelajahan AI yang terisolasi ini memastikan agen AI tidak memiliki akses ke profil penjelajahan utama Anda, dengan izin hanya untuk mengunjungi dan berinteraksi dengan situs bila diperlukan. Anda dapat meningkatkan produktivitas dengan memberinya tugas dan membiarkannya menjelajah untuk Anda.</translation>
+<translation id="648116453147783450">Data dan sesi Anda</translation>
+<translation id="4879348540868082026">Saat Anda masuk ke sebuah situs web menggunakan profil ini, agen penjelajahan AI iBrowe dapat melihat informasi pada situs tersebut jika sedang terbuka, baik saat IA mengunjungi situs itu sendiri maupun saat Anda memintanya untuk melakukan sesuatu di sana.</translation>
+<translation id="5583803492921648196">Beralih kembali</translation>
+<translation id="864117099189791993">Anda dapat beralih kembali ke profil reguler kapan saja dari menu utama atau lewat menu profil di bilah alat. Penjelajahan AI akan selalu terbuka di profil penjelajahan AI.</translation>
 <translation id="3486480638399578250">Pastikan alamat email pribadi Anda tetap privat</translation>
 <translation id="7765422154906712751">Buat alamat yang unik dan acak, yang meneruskan pesan ke email akun iBrowe Anda dan dapat dihapus kapan saja. Ini untuk mencegah alamat email asli Anda diungkapkan atau digunakan oleh pengiklan.</translation>
-<translation id="5222676887888702881">Keluar</translation>
-<translation id="8090292425230843109">Keluar dari Alias Email</translation>
-<translation id="8471990782451394141">Menghubungkan ke Akun iBrowe...</translation>
 <translation id="71316462802471551">Alias Email</translation>
-<translation id="5713644099811900409">Akun iBrowe</translation>
 <translation id="6002159997868894136">Klik untuk menyalin alias</translation>
 <translation id="8105770564756958406">Digunakan oleh <ph name="DOMAINS"/></translation>
 <translation id="5006956315579221642">Buat hingga 5 alias email gratis untuk melindungi alamat email asli Anda.</translation>
@@ -2360,8 +2478,8 @@
 <translation id="646524615209870492">Menghapus <ph name="ALIAS"/> sebagai alias akan mengakibatkan hilangnya kemampuan Anda untuk menerima email.</translation>
 <translation id="8133100642915054515">Terjadi kesalahan saat menghapus alias. Periksa koneksi internet Anda dan coba lagi.</translation>
 <translation id="8465742443901727718">Tindakan ini tidak dapat dibatalkan. Yakin ingin melanjutkan?</translation>
-<translation id="8662104432574824754">Untuk memulai, masuk atau buat akun iBrowe</translation>
-<translation id="8069030342700068465">Masukkan alamat email Anda untuk mendapatkan tautan login aman yang dikirim ke email Anda. Mengklik tautan ini akan membuat atau mengakses Akun iBrowe dan memungkinkan Anda menggunakan layanan Alias Email gratis.</translation>
+<translation id="9162685486229945876">Masuk atau buat akun iBrowe</translation>
+<translation id="1335007417599138852">Akun iBrowe akan memungkinkan Anda mengakses produk iBrowe tertentu dan dengan mudah menyinkronkan informasi Anda di semua perangkat Anda.</translation>
 <translation id="2133391407495495735">Dapatkan tautan login</translation>
 <translation id="2650906829817220223">Terjadi kesalahan saat meminta autentikasi. Periksa koneksi internet Anda dan coba lagi.</translation>
 <translation id="3699624789011381381">Alamat email</translation>
@@ -2375,6 +2493,10 @@
 <translation id="7508412964869396375">Tidak ada token verifikasi yang diterima dari layanan Akun iBrowe</translation>
 <translation id="3179527991526213624">Tidak ada respons dari layanan Akun iBrowe</translation>
 <translation id="7911439408853154309">Verifikasi email gagal</translation>
+<translation id="2595463802839066496">Tidak ada respons dari layanan Email Alias</translation>
+<translation id="367191282389216837">Respons tidak valid dari layanan Email Alias</translation>
+<translation id="7203490731644771170">Kesalahan layanan Email Alias: <ph name="ERROR"/></translation>
+<translation id="8767862600155091621">Kesalahan: Alias tidak tersedia</translation>
 <translation id="8370801182970639038">Otomatis (<ph name="LOCALE"/>)</translation>
 <translation id="8343473178272604223">Mesin penelusuran diaktifkan</translation>
 <translation id="8285901519864208412">Sembunyikan kartu Rewards</translation>
@@ -2390,7 +2512,7 @@
 <translation id="466214682712474574">Login ke akun <ph name="PROVIDER"/> untuk melihat saldo Anda</translation>
 <translation id="8332875111286275890">Login untuk melihat saldo Anda</translation>
 <translation id="5430001801813715388">REWARDS</translation>
-<translation id="5966055668402779222">Tanya iBrowe Penelusuran</translation>
+<translation id="2430295257226173518">Tanya apa saja, cari apa saja…</translation>
 <translation id="167018310108390163">Kustomisasi Halaman Tab Baru</translation>
 <translation id="6851426306697017546">Tampilkan jam</translation>
 <translation id="4844370919312937270">Tampilkan widget penelusuran di tab baru</translation>
@@ -2420,8 +2542,19 @@
 <translation id="8458987127502506209">Aktifkan iBrowe Shield</translation>
 <translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>Perisai sedang AKTIF<ph name="STATUS_AFTER"/> untuk situs ini</translation>
 <translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Perisai sedang NONAKTIF<ph name="STATUS_AFTER"/> untuk situs ini</translation>
-<translation id="5623354834493649144">Jika situs ini tampak bermasalah, coba nonaktifkan Perisai.
-   <ph name="NOTE_BEFORE"/>Catatan: ini bisa mengurangi tingkat perlindungan privasi iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="4724752924364329714">Jika situs ini tampaknya rusak, coba Shields down.</translation>
+<translation id="3992385019509961907"><ph name="NOTE_BEFORE"/>Catatan: hal ini dapat mengurangi perlindungan privasi iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="3620004479054499575">Apakah Anda mengalami masalah dengan situs ini?</translation>
+<translation id="9176447766421988172">Kami mencoba eksperimen untuk meningkatkan kompatibilitas situs web, di mana kami hanya mengaktifkan pemblokiran iklan. Peringatan: menghapus semua perlindungan privasi. Ingin mencobanya? <ph name="LINK_BEFORE"/>Pelajari lebih lanjut<ph name="LINK_AFTER"/>.</translation>
+<translation id="5372101283158221516">Harap diperhatikan bahwa untuk situs web individual yang dilanggar oleh perlindungan privasi iBrowe, Anda dapat mengatur Perisai ke TURUN.</translation>
+<translation id="2850777974644218370">Aktifkan mode Hanya Blokir Iklan</translation>
+<translation id="6623668214089604469">Apakah situs ini berfungsi dengan benar sekarang?</translation>
+<translation id="8978860854770042258">Mohon pertimbangkan untuk mengirimkan laporan jika situs ini masih rusak.</translation>
+<translation id="4677356505199464553">Terlihat bagus</translation>
+<translation id="1992750560347846445">Laporkan situs</translation>
+<translation id="2863270180245144869">Mode Hanya Blokir Iklan diaktifkan</translation>
+<translation id="3773808439655997805">Anda saat ini menggunakan mode Hanya Blokir Iklan. Mode ini hanya menawarkan perlindungan pemblokiran iklan (jika Perisai AKTIF). Jika Anda ingin kembali ke mode Perisai penuh, nonaktifkan mode ini dari pengaturan.</translation>
+<translation id="4820891023903368625">Iklan diblokir <ph name="LINK_BEFORE"/>Pelajari lebih lanjut<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Pelacak, iklan, dan lebih banyak pemblokiran <ph name="LINK_BEFORE"/>Pelajari lebih lanjut<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Tidak dilindungi oleh Pelindung iBrowe <ph name="LINK_BEFORE"/>Pelajari lebih lanjut<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Kontrol lanjutan</translation>
@@ -2437,6 +2570,12 @@
 <translation id="3570081523466826008">Tingkatkan koneksi ke HTTPS</translation>
 <translation id="131231380815754440">Aktifkan HTTPS</translation>
 <translation id="4824468494729001999">Blokir skrip</translation>
+<translation id="5465091511225410553">(diterapkan)</translation>
+<translation id="8646614940337543907">(diterapkan oleh ekstensi)</translation>
+<translation id="3559821445144429594">(diterapkan oleh kebijakan)</translation>
+<translation id="550374350047782149">(diterapkan oleh daftar izinkan)</translation>
+<translation id="68858161161918073">(diterapkan oleh supervisor)</translation>
+<translation id="5735057546627037489">(diterapkan oleh PWA)</translation>
 <translation id="3246600097575692802">Aktifkan Skrip yang Diblokir</translation>
 <translation id="3603525299146223354">Pelacak &amp; iklan</translation>
 <translation id="4448697385961650078">Blokir pelacak &amp; iklan</translation>
@@ -2447,6 +2586,8 @@
 <translation id="6975864539539353406">Hapus kuki dan data situs lainnya ketika Anda menutup situs</translation>
 <translation id="6486971767955110687">Menyimpan informasi kontak untuk pelaporan situs yang rusak di masa mendatang</translation>
 <translation id="4085787265464238844">Jika Anda memberikan info kontak, maka info akan disimpan untuk laporan di masa mendatang</translation>
+<translation id="7740929262043547697">Izinkan pemblokiran elemen di jendela privat</translation>
+<translation id="1260864846935682371">Mengaktifkan fitur Pemblokiran Elemen Perisai di jendela privat. Perhatikan bahwa elemen yang diblokir di jendela privat juga akan diblokir di jendela non-privat.</translation>
 <translation id="6883611015375728278">Blokir semua kuki</translation>
 <translation id="5657156137487675418">Izinkan semua cookie</translation>
 <translation id="8366221601425141146">Sidik jari diblokir</translation>
@@ -2455,7 +2596,6 @@
 <translation id="8034285923190068220">Izinkan pengambilan sidik jari</translation>
 <translation id="7638541189782135885">Jangan meningkatkan koneksi HTTP</translation>
 <translation id="2570787596946026998">Hubungkan hanya dengan HTTPS</translation>
-<translation id="1992750560347846445">Laporkan situs</translation>
 <translation id="2387532482048804818">Beri tahu kami jika situs tidak berfungsi dengan baik saat Perisai diaktifkan.</translation>
 <translation id="3795015906457257780">Anda melihat situs ini tanpa perlindungan privasi iBrowe.</translation>
 <translation id="7194012750329511146">Perisai iBrowe
@@ -2472,6 +2612,9 @@
       other {Perisai iBrowe memblokir {BLOCKED_COUNT} pelacak di <ph name="SITE_URL"/>}
     }</translation>
 <translation id="2540598191934725677">Klik ikon iBrowe untuk melihat Perisai iBrowe.</translation>
+<translation id="542789539047208469">Info Situs</translation>
+<translation id="7586067492365979844">iBrowe Perisai memiliki rumah dan desain baru. Sekarang terintegrasi dengan informasi situs untuk pengalaman satu atap.</translation>
+<translation id="9114542678887529043">iBrowe Perisai memiliki rumah dan desain baru. Akses dengan mengklik ikon situs di bilah alamat.</translation>
 <translation id="6294662480095808915">Privasi. Secara Bawaan.</translation>
 <translation id="4366423156486478559">Dapatkan perlindungan iBrowe pada setiap tautan yang Anda klik. Cukup tetapkan iBrowe sebagai bawaan dan menjelajahlah. Secara privat.</translation>
 <translation id="3830912418080848377">Impor Pengaturan</translation>
@@ -2483,6 +2626,7 @@
 <translation id="2273851479262317744">Tetapkan iBrowe sebagai peramban bawaan</translation>
 <translation id="5037676449506322593">Pilih Semua</translation>
 <translation id="5148943178722443958">Bantulah membuat iBrowe lebih baik.</translation>
+<translation id="479535542793009168">Stabilitas &amp; Diagnostik</translation>
 <translation id="1097073572755862978">Kirimkan laporan diagnostik jika Anda mengalami kerusakan atau kebekuan. <ph name="LINK_BEFORE"/>Pelajari lebih lanjut.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Bagikan wawasan produk secara privat dan anonim tentang fitur apa saja yang digunakan oleh pengguna iBrowe. <ph name="LINK_BEFORE"/>Pelajari lebih lanjut.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Pengaturan selesai</translation>
@@ -2499,13 +2643,16 @@
 <translation id="6764845498618413165">Pelajari Lebih Lanjut.</translation>
 <translation id="7818938154803162778">Tentu saja saya akan membantu</translation>
 <translation id="7207456302801184289">Selamat Datang di iBrowe</translation>
-<translation id="6716580298071890302">Gunakan tema lebih gelap</translation>
+<translation id="4988030440045495002">Tema ultra gelap</translation>
 <translation id="2422927186524098759">Bilah Sisi</translation>
 <translation id="2361906291514218784">AI Leo</translation>
 <translation id="7705524343798198388">VPN</translation>
 <translation id="8000020256436988724">Bilah Alat</translation>
 <translation id="6225572914528673855">Bilah alamat</translation>
+<translation id="6821966107067356137">Tambahkan umpan RSS</translation>
+<translation id="2478076885740497414">Instal aplikasi</translation>
 <translation id="8293206222192510085">Tambahkan Markah</translation>
+<translation id="1010029336854254368">Menu Bagikan</translation>
 <translation id="7758460733045216901">Panel Bookmark</translation>
 <translation id="958268166261124668">VPN iBrowe: Tersambung</translation>
 <translation id="6021669293402055982">VPN iBrowe: Terputus</translation>
@@ -2607,5 +2754,6 @@ Mari kita buat Anda terhubung!</translation>
     tab yang sudah ada</translation>
 <translation id="451189393813405346">Tanyakan pada Leo</translation>
 <translation id="1602850501393095406">Tekan ↑ untuk menyoroti</translation>
+<translation id="8367705492654390392">Tanya apa saja</translation>
 <translation id="8525248723479742219">Putar Nanti</translation>
 </translationbundle>

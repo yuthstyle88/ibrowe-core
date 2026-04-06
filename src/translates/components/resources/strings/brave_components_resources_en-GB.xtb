@@ -196,6 +196,7 @@
 <translation id="7279636930553631442">Newsletter popup</translation>
 <translation id="6136090320163235283">Social widget</translation>
 <translation id="6657720240983439091">Chat widget</translation>
+<translation id="3597441883564676263">Browser not supported</translation>
 <translation id="7138678301420049075">Other</translation>
 <translation id="4046860372562593546">Manage iBrowe Ads</translation>
 <translation id="5136973036012418831">Control what kinds of iBrowe Ads you see and how often.</translation>
@@ -482,14 +483,21 @@
 <translation id="1518915449477235311">Allow <ph name="URL"/> to open Leo AI conversations in iBrowe?</translation>
 <translation id="4355784577209159847">Allow use of third-party cookies for legacy Google sign-in</translation>
 <translation id="5770656036486891920"><ph name="URL"/> wants to use third-party cookies for legacy Google sign-in</translation>
-<translation id="6053826678715267477">Allow access to localhost resources</translation>
-<translation id="2973562729984406132"><ph name="URL"/> wants access to localhost resources</translation>
 <translation id="2104347391516032700">Bat Rewards Service</translation>
 <translation id="5939518447894949180">Reset</translation>
 <translation id="3349204812119681938">Reset iBrowe Rewards</translation>
 <translation id="4915997950539925115">By resetting, your current iBrowe Rewards profile will be deleted and iBrowe Rewards will no longer be enabled. If you enable iBrowe Rewards again later, you will start with a new profile. Read our <ph name="LINK_BEGIN"/>support article about resetting<ph name="LINK_END"/> for more details.</translation>
 <translation id="4806029412510565611">I understand that my current iBrowe Rewards profile and iBrowe Rewards data will be deleted from my device, and I've read the <ph name="LINK_BEGIN"/>support article about resetting<ph name="LINK_END"/>.</translation>
 <translation id="8835777704176513489">Disable and reset Rewards</translation>
+<translation id="1570055891464728855">Reset now</translation>
+<translation id="6431824580671230473">Don't worry: Any BAT already in your <ph name="PROVIDER"/> account won't be affected by resetting.</translation>
+<translation id="2881473942058010900">You will not earn for ads while connected to <ph name="PROVIDER"/>. Reset iBrowe Rewards and connect a different payout account to keep earning. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
+<translation id="5803444802570526678"><ph name="PROVIDER"/> account no longer supported.</translation>
+<translation id="3794463124070392793">Confirm your region</translation>
+<translation id="4620879582500359234">Any BAT already in your <ph name="PROVIDER"/> account will stay there.</translation>
+<translation id="935303782545595866">Your 30-day Ads History and other iBrowe Rewards settings will reset.</translation>
+<translation id="6279637499952804615">You can choose a different payout account after this step.</translation>
+<translation id="5419770758409992826">Your <ph name="PROVIDER"/> account will be disconnected, and your iBrowe Rewards profile will be reset.</translation>
 <translation id="7717357606512850995">Check status</translation>
 <translation id="6473937687348632190">The payout for <ph name="MONTH"/> rewards has completed.</translation>
 <translation id="1711367267038576241">The payout for <ph name="MONTH"/> rewards will begin processing by <ph name="DATE"/>.</translation>
@@ -514,10 +522,15 @@
     }</translation>
 <translation id="3264975266761862670">Ready to start earning?</translation>
 <translation id="2784412028126205842">Connect a payout account</translation>
-<translation id="766126983336630294">{ADS_VIEWED, plural,
-      =0 {You've seen <ph name="COUNT_BEGIN"/># Ads<ph name="COUNT_END"/> this month}
-      =1 {You could be getting paid for the <ph name="COUNT_BEGIN"/># Ad<ph name="COUNT_END"/> you've seen this month.}
-      other {You could be getting paid for the <ph name="COUNT_BEGIN"/># Ads<ph name="COUNT_END"/> you've seen this month.}
+<translation id="1789518312567918588">{ADS_VIEWED, plural,
+      =0 {You've seen <ph name="COUNT_BEGIN"/> # Ads<ph name="COUNT_END"/> this month}
+      =1 {You could be getting paid for the <ph name="COUNT_BEGIN"/> # Ad<ph name="COUNT_END"/> you've seen this month.}
+      other {You could be getting paid for the <ph name="COUNT_BEGIN"/> # Ads<ph name="COUNT_END"/> you've seen this month.}
+    }</translation>
+<translation id="1100743684843603297">{ADS_VIEWED, plural,
+      =0 {You've seen <ph name="COUNT_BEGIN"/> # Ads<ph name="COUNT_END"/> this month}
+      =1 {You're earning for seeing <ph name="COUNT_BEGIN"/> # Ad<ph name="COUNT_END"/> this month}
+      other {You're earning for seeing <ph name="COUNT_BEGIN"/> # Ads<ph name="COUNT_END"/> this month}
     }</translation>
 <translation id="6067959437127691361">Using iBrowe Rewards helps support content creators, and lets you earn BATs.</translation>
 <translation id="2359808026110333948">Continue</translation>
@@ -595,7 +608,7 @@
 <translation id="5802986777701714573">We’ve added a new way for you to receive your monthly BAT rewards. Connect an account from one of our partners or use the new self-custody option to start earning now.</translation>
 <translation id="3251885322612056119">Updated Terms of Service</translation>
 <translation id="7454675823870922788">We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN"/>reset<ph name="LINK_END"/> iBrowe Rewards, which will disable the feature.</translation>
-<translation id="56057964000416013">We’ve updated our Terms of Service. To keep using iBrowe Rewards, please review and agree to the updated terms.</translation>
+<translation id="616595399243298960">We’ve updated our Terms of Service. To keep using iBrowe Rewards, please review and agree to the updated terms.</translation>
 <translation id="5192526308598085294">See <ph name="LINK_BEGIN"/>iBrowe Rewards Terms of Service<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">I agree</translation>
 <translation id="343114360276812078">Review Terms</translation>
@@ -643,6 +656,8 @@
 <translation id="6751803821780922506">Choose where you'd like to receive BATs</translation>
 <translation id="3162035476318501831">Learn more about regions and support.</translation>
 <translation id="7329170127335794328">Currently not available in your region</translation>
+<translation id="1947910788470806100">We don’t have any payout options in your region yet. You can check again later to see if availability has changed.</translation>
+<translation id="271689813824682404">Payout options unavailable</translation>
 <translation id="966956302643313970">To begin earning Basic Attention Token (BAT) rewards, connect an account. BATs you earn will be automatically transferred to your account every month.</translation>
 <translation id="4009439571146350519">Or other wallet that supports Solana</translation>
 <translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Terms of Use<ph name="TOS_LINK_END"/> and <ph name="PP_LINK_BEGIN"/>Privacy Policy<ph name="PP_LINK_END"/>.</translation>
@@ -683,7 +698,6 @@
 <translation id="3266055641283174315">Ad type</translation>
 <translation id="8706824117053903390">Views this month</translation>
 <translation id="5105890735834548623">Ads settings</translation>
-<translation id="96989662637180657">iBrowe Search Ads appear on <ph name="LINK_BEGIN"/>iBrowe Search<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Ads settings</translation>
 <translation id="2446517297521536638">Control what kinds of iBrowe Ads you see, and how often. The more you see, the more you can earn.</translation>
 <translation id="3479272537858623647">This shows the number of iBrowe Ads you've seen this month that qualify for earning BAT.</translation>
@@ -850,6 +864,14 @@
       other {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} steps}
     }</translation>
 <translation id="8621264173374071200"><ph name="EXCHANGE_NAME"/> via <ph name="PROVIDER_NAME"/></translation>
+<translation id="646023614746251785">Confirm swap</translation>
+<translation id="6264944956989873014">Confirm bridge</translation>
+<translation id="7067917728851842589">Confirm send</translation>
+<translation id="2841837950101800123">Provider</translation>
+<translation id="1114725160772317155">Provider status</translation>
+<translation id="2351357639951873714">Confirm shield</translation>
+<translation id="7480044382160806610">Confirm unshield</translation>
+<translation id="8332923694292360653">Spend</translation>
 <translation id="3735740477244556633">Sort by</translation>
 <translation id="6484605214219822434">Review bridge</translation>
 <translation id="3365052891357224017">Est time</translation>
@@ -870,6 +892,8 @@
 <translation id="7465227658364622464">Jupiter will process the Solana address and IP address to fulfill a transaction (including getting quotes). Jupiter will ONLY use this data for the purposes of processing transactions.</translation>
 <translation id="712738518060477110">Quote includes a <ph name="SWAP_FEE_PERCENTAGE"/> iBrowe fee.</translation>
 <translation id="8368540604723748428">Too many decimal places</translation>
+<translation id="4797709125717981664">Minimum required is 1 ADA</translation>
+<translation id="3826737479910350533">Send amount is too small</translation>
 <translation id="6575120282593094155">You don’t yet have a <ph name="ACCOUNT_TYPE"/> account. Create one now?</translation>
 <translation id="1426410128494586442">Yes</translation>
 <translation id="4250680216510889253">No</translation>
@@ -916,7 +940,7 @@
 <translation id="2274014756904854136">Double-tap screen to continue</translation>
 <translation id="7795718119973968770">Your wallet is locked for your security. Unlock wallet to continue.</translation>
 <translation id="9175546523521600401">Lock wallet</translation>
-<translation id="765834632354589737">Backup Wallet</translation>
+<translation id="7117128722034148989">Backup wallet</translation>
 <translation id="1108298724135935307">Connected sites</translation>
 <translation id="5716350339763180836">Balances</translation>
 <translation id="5538251867290702601">Graph</translation>
@@ -959,6 +983,8 @@
 <translation id="3451958544919449297">Store ZEC Testnet assets</translation>
 <translation id="8459631690385393533">Store Cardano assets</translation>
 <translation id="4915057812371523845">Store Cardano Testnet assets</translation>
+<translation id="5387140102951033657">Supports Substrate assets on Polkadot relay chain and Substrate parachains</translation>
+<translation id="5601177227092533167">Supports Substrate assets on Westend relay chain and Substrate parachains</translation>
 <translation id="8500387257977999003">Private key <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Import</translation>
 <translation id="232925166623833246">Import from hardware wallet</translation>
@@ -1016,6 +1042,7 @@
 <translation id="2416098547200943834">NOTE: private key is provided as a hex-encoded JSON that contains private key and protocol information. <ph name="LINK_START"/>Learn more<ph name="LINK_END"/>.</translation>
 <translation id="7657130382217527063">NOTE: private key must be provided as a hex-encoded JSON that contains private key and protocol information. <ph name="LINK_START"/>Learn more<ph name="LINK_END"/>.</translation>
 <translation id="4482913669726886926">NOTE: Only <ph name="FORMAT"/> extended keys are supported.</translation>
+<translation id="9133762451347918196">Testnet accounts</translation>
 <translation id="42126664696688958">Export</translation>
 <translation id="1366855498335432549">Deposit</translation>
 <translation id="790104325876206743">Account settings</translation>
@@ -1023,6 +1050,11 @@
 <translation id="836614343069504000">Deposit or purchase tokens to get started. If you don't see tokens from an imported account, check the filters and display settings. Unknown tokens may need to be added as custom assets.</translation>
 <translation id="2902856457593699108">Show key</translation>
 <translation id="8033497299373164724">Hide key</translation>
+<translation id="7514365320538308">Download</translation>
+<translation id="4505811804838254812">Enter a password to encrypt your account export file.</translation>
+<translation id="4664684820522660564">Enter encryption password</translation>
+<translation id="6873030689896652259">Confirm encryption password</translation>
+<translation id="5148285448107770349">Password must be at least 8 characters</translation>
 <translation id="2702143907607790516">Failed to update account name, please try again.</translation>
 <translation id="3318280255740629162">25%</translation>
 <translation id="2636487255623744079">50%</translation>
@@ -1043,9 +1075,6 @@
 <translation id="1506421160138798546">estimate</translation>
 <translation id="59223531494896848">Limit</translation>
 <translation id="8569380433211549748">Price in</translation>
-<translation id="2490428413101944234">Test faucet</translation>
-<translation id="3352959425838279177">Get Ether from a faucet for <ph name="SELECTED_NETWORK"/></translation>
-<translation id="6449626816252815844">Select purchase method</translation>
 <translation id="8009571545960303544">Your signature is being requested</translation>
 <translation id="5294062982587710720">Note that iBrowe can’t verify what will happen if you sign. A signature could authorise nearly any operation in your account or on your behalf, including (but not limited to) giving total control of your account and crypto assets to the site making the request. Only sign if you’re sure you want to take this action, and trust the requesting site.</translation>
 <translation id="3474375934783434676">Sign at your own risk</translation>
@@ -1053,6 +1082,7 @@
 <translation id="3586931643579894722">Hide details</translation>
 <translation id="7702907602086592255">Domain</translation>
 <translation id="3586752056660754651">Sign</translation>
+<translation id="4217653732094303705">Public encryption key</translation>
 <translation id="3484981968509595506">A DApp is requesting your public encryption key</translation>
 <translation id="2300240008330189182"><ph name="URL"/> is requesting your wallet's public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.</translation>
 <translation id="3340247553212049934">Provide</translation>
@@ -1070,6 +1100,10 @@
 <translation id="8904889345035514635">Current allowance</translation>
 <translation id="7073918978411974168">Proposed allowance</translation>
 <translation id="9019403281000653275">Unlimited approval requested</translation>
+<translation id="9108474191347769758">Spend limit</translation>
+<translation id="2102091845281366189">Approval target</translation>
+<translation id="772196962479335292">Current approval limit</translation>
+<translation id="8215431557133305629">Proposed approval limit</translation>
 <translation id="4717431746210146708">Allow this site to add a network?</translation>
 <translation id="2521480044079508357">This will allow this network to be used within iBrowe Wallet.</translation>
 <translation id="1982257600591932657">Network name</translation>
@@ -1086,7 +1120,7 @@
 <translation id="3948067511324628726">Gas fee</translation>
 <translation id="7163997622278957886">Bid</translation>
 <translation id="1074360622426001342">Amount + gas</translation>
-<translation id="2186011161688824046">Amount + fee</translation>
+<translation id="7542099582407803878">Amount + Network fee</translation>
 <translation id="7084089311475827950">No data.</translation>
 <translation id="5821668936183240062">next</translation>
 <translation id="793994607260936590">first</translation>
@@ -1195,12 +1229,12 @@
 <translation id="4932382283590063268">The receiving address is your own address.</translation>
 <translation id="3124753063207986114">The receiving address is a token's contract address.</translation>
 <translation id="7029817408221097939">Invalid unified address</translation>
-<translation id="6370376419663123629">Address doesn’t look correct</translation>
-<translation id="3767148796886402380">Check your address to make sure it’s the right address (e.g. letters with lower or upper case).</translation>
+<translation id="5749543778008369411">Address is missing checksum</translation>
+<translation id="8225310967627152630">Validity of this address cannot be verified. To avoid a potential loss of funds, review the address carefully before sending.</translation>
+<translation id="5139218857087774333">Address doesn't look correct (invalid checksum)</translation>
+<translation id="6551446819927864899">This address appears to have a typo. Please review the address and type it again.</translation>
 <translation id="2585599787090762065">How can I solve it?</translation>
 <translation id="5517732667776806421">Missing checksum information</translation>
-<translation id="2975056993833847787">This address cannot be verified (missing checksum). Proceed?</translation>
-<translation id="6320252966164556855">Address did not pass verification (invalid checksum). Please try again, replacing lowercase letters with uppercase.</translation>
 <translation id="4667144295226514387">Missing gas limit</translation>
 <translation id="2021522108838444624">Amount must be greater than 0</translation>
 <translation id="8464365289405373974">To address is required</translation>
@@ -1226,6 +1260,8 @@
 <translation id="471055802670233033">You spend</translation>
 <translation id="7916618590403748182">You'll receive</translation>
 <translation id="8328657208304368165">Confirm order</translation>
+<translation id="3784821115971261512">Programme address</translation>
+<translation id="6302865118026274740">Deposit address</translation>
 <translation id="8220255674527598378">Solana Swap</translation>
 <translation id="5071303414930953888">Account <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">Wallet needs to be unlocked first</translation>
@@ -1285,10 +1321,7 @@
 <translation id="4312994183947987913">Buy/deposit</translation>
 <translation id="5133421763709317473">No assets matching search or filter found</translation>
 <translation id="6423985584914773314">Not a valid FIL address</translation>
-<translation id="5522073372365069684">Buy with Ramp</translation>
 <translation id="6153197326949684688">Sell with <ph name="OFFRAMP_PROVIDER"/></translation>
-<translation id="7902920577183739843">Buy with Sardine</translation>
-<translation id="3301984548406568819">Financial and transaction data is processed by our onramp partners. iBrowe does not collect or have access to such data.</translation>
 <translation id="5795821518596541838">Transactions partner</translation>
 <translation id="1916136859742693273">iBrowe Wallet uses Meld.io to help aggregate and surface various crypto providers for your region. We will share information with Meld.io to complete the transaction, including your wallet address and country code. For more information please read Meld’s terms of use.</translation>
 <translation id="245827814248186739">I have read and agree to the <ph name="LINK_BEFORE"/>Meld's Terms of Use<ph name="LINK_AFTER"/></translation>
@@ -1309,19 +1342,8 @@
 <translation id="4196022627437957774">Do you want to create a <ph name="ACCOUNT_TYPE"/> account?</translation>
 <translation id="5982914754413312620">In order to receive <ph name="TOKEN_SYMBOL"/> you will need a <ph name="ACCOUNT_TYPE"/> account.</translation>
 <translation id="3067168166931605141">Account name</translation>
-<translation id="6534275647567011533">Buy with Transak</translation>
-<translation id="5973390321030037823">Buy with Link</translation>
-<translation id="1932640759496708012">Buy with Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
-<translation id="7295150312737713113">Link by Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
-<translation id="7667423728712601865">Buy crypto with Visa or Mastercard.</translation>
-<translation id="3648994606506382289">Easiest, fastest and cheapest way to buy crypto with card and bank transfers.</translation>
-<translation id="3101839349578102016">Instant buy with your bank account. Lower fees.</translation>
-<translation id="8280898387224328221">Pay with credit, debit, bank account</translation>
-<translation id="2218174283683424104">Buy with the most trusted name in crypto.</translation>
+<translation id="1213870770696612739">Minimum amount: <ph name="AMOUNT"/></translation>
+<translation id="3041074161036535192">Maximum amount: <ph name="AMOUNT"/></translation>
 <translation id="8528916244724490964">All networks</translation>
 <translation id="7721139939763655123">Low to high</translation>
 <translation id="5458608274117818139">High to low</translation>
@@ -1366,8 +1388,13 @@
 <translation id="7694836973509310467">Bridging</translation>
 <translation id="8419958386475786929"><ph name="SWAPPING_OR_BRIDGING"/> on <ph name="NETWORK"/></translation>
 <translation id="7903225589949400974">There was an error attempting to <ph name="SWAP_OR_BRIDGE"/> on <ph name="NETWORK"/></translation>
+<translation id="7220786058474068424">Processing</translation>
+<translation id="3248185426436836442">Pending</translation>
+<translation id="5503843345634715425">Refunded</translation>
 <translation id="1778601041100951971">Shielding <ph name="AMOUNT"/></translation>
+<translation id="6439110433198887239">Unshielding <ph name="AMOUNT"/></translation>
 <translation id="5549369333299694936"><ph name="AMOUNT"/> has been shielded</translation>
+<translation id="3860973324426281816"><ph name="AMOUNT"/> has been unshielded</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} more transaction pending.}
       other {{PENDING_TRANSACTIONS} more transactions pending.}
@@ -1392,6 +1419,7 @@
 <translation id="5601436886921227795">Dapp interaction</translation>
 <translation id="9104177294757104789">Send <ph name="VALUE"/></translation>
 <translation id="4048336522751528394">Swap <ph name="MAKER"/> to <ph name="TAKER"/></translation>
+<translation id="5140590056890937774">Bridge <ph name="SOURCE"/> to <ph name="DESTINATION"/></translation>
 <translation id="1748114617341025015">Creating associated token account</translation>
 <translation id="4418115887224983240">Failed to create associated token account</translation>
 <translation id="7165697599360786670">Associated token account created</translation>
@@ -1412,6 +1440,8 @@
 <translation id="1908159733454294871">Security risk detected</translation>
 <translation id="3621202678540785336">Input</translation>
 <translation id="3009178788565917040">Output</translation>
+<translation id="7953669802889559161">Inputs</translation>
+<translation id="4554024082642878647">Outputs</translation>
 <translation id="1965889974717516497">Secondary networks</translation>
 <translation id="7691821949666755802">Test networks</translation>
 <translation id="2816106784624007524">Gas limit must be an integer greater than 0</translation>
@@ -1560,8 +1590,6 @@
 <translation id="1422451606553326863">Buy crypto</translation>
 <translation id="3887541341068007345">Checking for wallet extensions...</translation>
 <translation id="8407091560429310499">Select an asset</translation>
-<translation id="756590380936155533">To finish your <ph name="ASSET_TICKER"/> purchase, select one of our partners</translation>
-<translation id="7880860489474966219">On completion, your funds will be transferred to your iBrowe Wallet</translation>
 <translation id="6182661078713714878">Deposit crypto</translation>
 <translation id="3683305208314702347">Deposit <ph name="VALUE"/></translation>
 <translation id="5768739294929936862">Deposit Solana or SPL tokens</translation>
@@ -1618,12 +1646,16 @@
 <translation id="3356580495013324916">Enter your iBrowe Wallet password to start backing up wallet.</translation>
 <translation id="7545441766078366279">Approve <ph name="TOKEN"/></translation>
 <translation id="3115303896544539834">Insufficient <ph name="TOKEN"/> balance</translation>
+<translation id="6612125470074657311">Amount too low</translation>
+<translation id="5838312420826727653">Unsupported token(s)</translation>
+<translation id="4930106154893104117">Invalid request</translation>
 <translation id="3453833142586986467">Select token</translation>
 <translation id="4937657825850660613">Half</translation>
 <translation id="7639814793732182496">Max</translation>
 <translation id="6584782231358487640">Enter an amount</translation>
 <translation id="477281933640372562">Fetching quote</translation>
 <translation id="5450317966495183014">Receive (est.)</translation>
+<translation id="387870937508841726">Receive (min.)</translation>
 <translation id="8747614139273050577">From token</translation>
 <translation id="1726158192333401896">To token</translation>
 <translation id="1817370679212109974">New quote in <ph name="COUNTDOWN"/></translation>
@@ -1648,6 +1680,7 @@
 <translation id="8044899503464538266">Slow</translation>
 <translation id="3569512916300900704">Average</translation>
 <translation id="7019805045859631636">Fast</translation>
+<translation id="1345580220012169610">Estimated network fee</translation>
 <translation id="632241521608275119">Slippage tolerance</translation>
 <translation id="6778140392042462129">Exchanges</translation>
 <translation id="6173494033320397682">Direct route only</translation>
@@ -1701,6 +1734,9 @@
 <translation id="6276584161122912863">Gas price</translation>
 <translation id="6132197290665156212">Estimated network fee</translation>
 <translation id="1788636309517085411">Use default</translation>
+<translation id="3968375068626660591">This gas fee will replace the original.</translation>
+<translation id="1661088862481901887">This will create a new transaction with a new gas fee to override and cancel the pending one. A cancellation can only be attempted if the transaction is still pending on the network.</translation>
+<translation id="5797060124625958778">Speed priority</translation>
 <translation id="6213230117190778270">Receive</translation>
 <translation id="6748108480210050150">From</translation>
 <translation id="4875290286426670462">Unlimited <ph name="ASSET_SYMBOL"/></translation>
@@ -1730,7 +1766,6 @@
 <translation id="2410455471299328417">This service is provided by <ph name="BOLD_BEFORE"/>Blowfish.xyz<ph name="BOLD_AFTER"/> and is subject to their <ph name="TERMS_LINK_BEFORE"/>Terms of Service<ph name="TERMS_LINK_AFTER"/> and <ph name="PRIVACY_POLICY_LINK_BEFORE"/>Privacy Policy<ph name="PRIVACY_POLICY_LINK_AFTER"/></translation>
 <translation id="8688672835843460752">Available</translation>
 <translation id="5296640085393149413">Funds available for you to use.</translation>
-<translation id="3248185426436836442">Pending</translation>
 <translation id="2515906149804238711">A pending change in your wallet balance.</translation>
 <translation id="7700365440186054030">Your available funds plus any not-yet-confirmed transactions.</translation>
 <translation id="4118601537508887039">Some balances may be unavailable</translation>
@@ -1796,10 +1831,14 @@
 <translation id="7747318989577709780">Account is syncing</translation>
 <translation id="9086302186042011942">Syncing</translation>
 <translation id="99991973626409495">Review shield</translation>
+<translation id="6779429520470417361">Review unshield</translation>
 <translation id="3114681061018999547">Shielding</translation>
+<translation id="1564172583156967455">Unshielding</translation>
 <translation id="8897189056319316783">Shield ZEC</translation>
+<translation id="508249542337194541">Unshield ZEC</translation>
 <translation id="3382275793825152362">Shield funds</translation>
 <translation id="8631765320256788981">You are sending funds from your transparent account to your shielded account.</translation>
+<translation id="3860364671495430495">You are sending funds from your shielded account to your transparent account.</translation>
 <translation id="7144878232160441200">Retry</translation>
 <translation id="9094621390791852268">Transaction preview failed.</translation>
 <translation id="4982713341035600933">Estimated balance change</translation>
@@ -2076,6 +2115,8 @@
 <translation id="4292565651642921086">Focus next tab group</translation>
 <translation id="874783686573493196">Focus previous tab group</translation>
 <translation id="9169594135889675189">Add new tab to group</translation>
+<translation id="1722567105086139392">Link</translation>
+<translation id="4729794914864902904">Unlink</translation>
 <translation id="1926106318101432555">Open bookmark ...</translation>
 <translation id="6118819645013156507">Switch to window ...</translation>
 <translation id="1623204575967809688">Merge current window into ...</translation>
@@ -2101,6 +2142,7 @@
 <translation id="5329136173514538969">Unsplit tabs</translation>
 <translation id="7595612919377246359">Swap tab positions</translation>
 <translation id="2367972762794486313">Show apps</translation>
+<translation id="3468387898712904997">New Email Alias</translation>
 <translation id="8591883849678260674">View original</translation>
 <translation id="1969654232209826429">min. read</translation>
 <translation id="4101707289420716287">Turn off Speedreader</translation>
@@ -2134,17 +2176,24 @@
 <translation id="5872363163901278000">Increase the playback speed</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">The summariser feature is currently available only for select articles and other long-form web pages.</translation>
-<translation id="1223498995510244364">Summarise</translation>
 <translation id="7491773233732232424">About Leo</translation>
 <translation id="4611072979071082355">iBrowe Leo is a private AI smart assistant that enhances your use of the web. Leo is free to use with limited access. iBrowe Leo Premium offers more models, higher limits and gives subscribers early access to new features. The default model will change from time to time. See the <ph name="LINK_BEFORE"/>iBrowe Help Center<ph name="LINK_AFTER"/> for more details.</translation>
 <translation id="7297056998057521697">By default, when you ask Leo a question about a website or page you are viewing, the content of the webpage you are viewing or any text you highlight on a page, as well as your search query will be sent to iBrowe servers in order for Leo to provide a response. In some cases, Leo will send queries derived from your input to iBrowe Search and use the search results to better answer your question. iBrowe does not guarantee the accuracy of responses, and responses may include inaccurate, misleading, or false information. Don't submit sensitive or private information to iBrowe Leo, and use caution with any answers related to health, finance, personal safety, or similar. You can adjust Leo’s options in Settings any time. Go to Settings &gt; Leo.</translation>
 <translation id="6644545214304085600">Leo does not collect identifiers such as your IP address that can be linked to you. We do not train our models based on your data, including your search queries or iBrowe Leo’s responses. No personal data is stored on our servers, or retained by iBrowe. See the <ph name="LINK_BEFORE"/>privacy policy<ph name="LINK_AFTER"/> for more information.</translation>
+<translation id="4348006373172097089">{PAGE_COUNT, plural,
+      =1 {Ask a question about the content of this page}
+      other {Ask a question about the content of these pages}
+    }</translation>
 <translation id="6961721183181597848">How can I help you today?</translation>
 <translation id="2966135729673253768">Ask follow up</translation>
 <translation id="6219262425964000211">Drop files here</translation>
 <translation id="4313763911013851687">Drop any files here to add them to the conversation</translation>
 <translation id="4524675003624341892">Suggest questions …</translation>
 <translation id="4567071417854988869">Summarise this video</translation>
+<translation id="4264902191243445258">{PAGE_COUNT, plural,
+      =1 {Summarise this page}
+      other {Summarise these pages}
+    }</translation>
 <translation id="7921782882718083488">Summarise this page</translation>
 <translation id="7932221068776853847">Disconnect to stop sending this page content to Leo, and start a new conversation</translation>
 <translation id="8743383817154663379">Something went wrong while processing your request. Please try again later.</translation>
@@ -2157,14 +2206,25 @@
 <translation id="8151638057146502721">Configure</translation>
 <translation id="999273441077650169">Model changes dynamically to use the best one for the task.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="1238020084128916796">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Llama 3.1 8B, a model created by Meta to be performant and applicable to many use cases. Llama is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
-<translation id="7127671672828944579">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Qwen 14B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
-<translation id="2328524194917949829">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Gemma 3 12B, a model created by Google DeepMind to be performant and applicable to many use cases. Gemma is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
-<translation id="634682910381645550">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by DeepSeek R1, a model created by DeepSeek to perform deep reasoning tasks. DeepSeek R1 is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
-<translation id="8932568551552504373">Hi, I'm Leo.I'm an AI assistant by iBrowe. I'm powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. Claude Instant is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="3852808100039989429">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Qwen VL 30B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="6406961656408495869">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by DeepSeek V3.1, a model created by DeepSeek to be performant and applicable to many use cases. DeepSeek V3.1 is NEAR-hosted through their own verifiably private secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. Claude Instant is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="3789772321824682783">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Haiku, a model created by Anthropic to power conversational and text processing tasks. Claude Haiku is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="1778885220602472158">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Sonnet, a model created by Anthropic to power conversational and text processing tasks. Claude Sonnet is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="1058830842518828124">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Llama 4 Scout, a model created by Meta to be performant and applicable to many use cases. Llama 4 Scout is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="6277330815126859513">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Llama 4 Maverick, a model created by Meta to be performant and applicable to many use cases. Llama 4 Maverick is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="5833148755396048122">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by GPT OSS 20B, a model created by OpenAI to be performant and applicable to many use cases. GPT OSS 20B is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="5414593137581221307">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by GPT OSS 120B, a model created by OpenAI to be performant and applicable to many use cases. GPT OSS 120B is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="5037359072717016032">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Mistral Large, a model created by Mistral to be performant and applicable to many use cases. Mistral Large is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="8947618429500471804">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Pixtral Large, a model created by Mistral to be performant and applicable to many use cases. Pixtral Large is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="4026902371301997261">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Qwen 3 235B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen 3 235B is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="768541432895104346">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Deepseek V3.1, a model created by Deepseek to be performant and applicable to many use cases. Deepseek V3.1 is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="3767678495358551728">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Qwen 3 Coder 480B, a model created by Alibaba Cloud to be performant and applicable to many use cases. Qwen 3 Coder 480B is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="3369866806475938617">Hi, I'm Leo. I'm an AI assistant by iBrowe. I'm powered by Claude Opus, a model created by Anthropic to power conversational and text processing tasks. Claude Opus is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="5807427080183870259">Local</translation>
+<translation id="830868413617744215">Beta</translation>
+<translation id="4773408460773097271">Ollama</translation>
 <translation id="631371844654031449">Recommended models</translation>
 <translation id="6568044140836233369">Show all models</translation>
 <translation id="6187065185557150870">Chat</translation>
@@ -2173,6 +2233,7 @@
 <translation id="7557539689487606886">Go Premium</translation>
 <translation id="1691256669639196606">Manage subscription</translation>
 <translation id="3840096463915153852">Conversation history</translation>
+<translation id="6761921176674289184">Manage memories</translation>
 <translation id="2304783958703511257">Advanced settings</translation>
 <translation id="3037594989275592390">Language models</translation>
 <translation id="5543505256451301851">Try 7 days free</translation>
@@ -2197,6 +2258,7 @@
 <translation id="9109355817507033196">Answer disliked</translation>
 <translation id="4049425842478222936">Answer liked</translation>
 <translation id="6393149565874086128">Add feedback</translation>
+<translation id="4621961534325272682">Conversation copied to clipboard</translation>
 <translation id="3521125531016408657">Like answer</translation>
 <translation id="8202517001427388906">Dislike answer</translation>
 <translation id="1379399209929302811">Provide iBrowe AI feedback</translation>
@@ -2209,6 +2271,24 @@
 <translation id="7488762544858401571">Edited</translation>
 <translation id="5604254791550001355">Edit prompt</translation>
 <translation id="8115786586976830777">Copy prompt</translation>
+<translation id="3666616415490815310">Save as skill</translation>
+<translation id="6574544364990812112">My Skills</translation>
+<translation id="6696824203401957025">New skill</translation>
+<translation id="6410279677882692627">Skills will appear in your [/] tools and are accessible by just typing the "/name" you set up below.</translation>
+<translation id="1344606707744657196">Model for prompt</translation>
+<translation id="8458341576712814616">Shortcut</translation>
+<translation id="1326559827339317236">Enter your shortcut here</translation>
+<translation id="5032574515228824816">Prompt</translation>
+<translation id="2573797314568446575">Enter your prompt here</translation>
+<translation id="900733896273558337">Edit skill</translation>
+<translation id="7662963028545588801">Delete skill</translation>
+<translation id="4209790625997566418">Are you sure you want to delete this skill? This action cannot be undone.</translation>
+<translation id="7161540406494327389">Shortcut is required</translation>
+<translation id="3722223049736774445">Shortcut can only contain letters, numbers, underscore, and hyphen</translation>
+<translation id="6997214168632888867">Shortcut must be 64 characters or less</translation>
+<translation id="2806891468525657116">Shortcut already exists</translation>
+<translation id="5497501845974700950">Prompt is required</translation>
+<translation id="5642369858603376334">Prompt must be 5000 characters or less</translation>
 <translation id="1406205536570262057">Edit answer</translation>
 <translation id="3386725253392845084">Retry same model</translation>
 <translation id="2461822463642141190">Current</translation>
@@ -2223,6 +2303,8 @@
 <translation id="6495402307502950726">Clear conversation</translation>
 <translation id="903201991022343217">Start a new conversation</translation>
 <translation id="8171760814579050200">Rename conversation</translation>
+<translation id="402386227879573975">Copy entire conversation</translation>
+<translation id="5397794290049113714">You</translation>
 <translation id="7754678742055438573">Delete conversation</translation>
 <translation id="1946267518364740045">Reasoning...</translation>
 <translation id="4198859185714743678">Reasoning complete</translation>
@@ -2234,7 +2316,8 @@
 <translation id="1243966363662220847">Response Feedback</translation>
 <translation id="7417895556119762861">Liking or disliking an answer will send rating, conversation, model, language, version, and premium status to iBrowe in order to improve Leo. <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Send message to Leo</translation>
-<translation id="4084869091337186002">Leo AI Content Agent is always enabled in this profile</translation>
+<translation id="6222803935921999130">Open AI browsing profile window</translation>
+<translation id="1530903352777607099">AI browsing is always enabled in this profile</translation>
 <translation id="8650874793377330048">Stop answering</translation>
 <translation id="8712637175834984815">Got it</translation>
 <translation id="1093419424466417703">The page is too long for Leo. Some context could be missing from the conversation. Leo was able to read <ph name="PERCENTAGE"/> of the page's contents.</translation>
@@ -2246,31 +2329,42 @@
 <translation id="7307396647043599949"><ph name="COUNT"/> more…</translation>
 <translation id="8103700533980268469">Close this notice</translation>
 <translation id="3417835166382867856">Search tabs</translation>
+<translation id="3828029223314399057">Search bookmarks</translation>
+<translation id="381480092025168632">Search browser history</translation>
+<translation id="7311244614769792472">No results found</translation>
+<translation id="3112448569149476523">Please try a different search</translation>
 <translation id="1352836459737874921">Attach content from other tabs</translation>
-<translation id="3028258613451571431">Send page content from your browser tabs to give Leo more context for the conversation</translation>
-<translation id="4300920590112551536">Browser tabs</translation>
-<translation id="1446346932629101482">Add tab contents for context. The contents will be sent to Leo along with your messages.</translation>
-<translation id="7193316103691252734">No matching tabs</translation>
+<translation id="7173836072258346701">Attach content from bookmarks</translation>
+<translation id="163680814308917875">Attach content from browser history</translation>
+<translation id="7039179822221107025">Send page content from your browser tabs to give Leo more context for the conversation.</translation>
+<translation id="1602382615168212961">Send page content from tabs in your bookmarks to give Leo more context for the conversation.</translation>
+<translation id="4808122506413075135">Send page content from your browser history to give Leo more context for the conversation.</translation>
+<translation id="220541218939267992">Page contents will be sent to Leo along with your messages.</translation>
+<translation id="2152389270152475874">Add tabs, bookmarks, or history for context. Selected contents will be sent to Leo with your messages.</translation>
 <translation id="2315654674554095762">Leo will now remember your conversations so you can go back to them. They are stored encrypted on your device, and you can delete them any time.</translation>
 <translation id="7821251979960635244">Your conversation history will appear here once you start a conversation.</translation>
 <translation id="887511360213807449">History is disabled</translation>
 <translation id="5380979378058584412">In order to view your previous conversations with Leo, you need to enable conversation history.</translation>
-<translation id="6291843235651817590">General purpose chat</translation>
+<translation id="7348809809749151120">Fast • Search</translation>
 <translation id="3185367320601718531">Conversation and text generation</translation>
-<translation id="7979673624064378842">Lightning fast chat</translation>
-<translation id="2836330653441111204">Balanced speed and intelligence</translation>
-<translation id="6695329447007213917">General purpose chat, coding, and more</translation>
-<translation id="7168072214482631597">General purpose text and image understanding</translation>
-<translation id="7226508434216060960">Reasoning model</translation>
+<translation id="2793458212460902934">Fast • Search • Tools</translation>
+<translation id="8506027496671575183">Search • Vision • Tools</translation>
+<translation id="3184606955650139158">Fast • Search • Vision</translation>
+<translation id="7465032796278724624">Verifiably Private With NEAR AI TEE</translation>
 <translation id="8782867266498869301">Model changes dynamically to use the best one for the task</translation>
+<translation id="3213834013136637671">Search • Vision</translation>
 <translation id="3965507912994218570">Leo settings</translation>
-<translation id="1037324977127422019">Hi, I'm Leo!</translation>
-<translation id="8930348081963284873">An AI-powered intelligent assistant, built right into iBrowe.</translation>
-<translation id="3528849152231418380">Need help with a website?</translation>
-<translation id="1558192229187362674">I can help you summarising articles, expanding on a site's content and much more.</translation>
-<translation id="861953757568623294">I can help you summarising articles, expanding on a site's content and much more. Not sure where to start? Try this:</translation>
-<translation id="5642775487085641191">Just want to chat?</translation>
-<translation id="8857222718794549840">Ask me anything! We can talk about any topic you want. I'm always learning and improving to provide better answers.</translation>
+<translation id="3754337604877048671">Introducing Leo AI</translation>
+<translation id="5295261408976371809">Your <ph name="TEXT_BEFORE"/>private<ph name="TEXT_AFTER"/> AI assistant, built right into the browser.</translation>
+<translation id="7452913484571004528">Truly private AI</translation>
+<translation id="8525501048785085223">Leo doesn’t retain or share chats, or use them for model training. No account or login is required. Just open and chat. Privately.</translation>
+<translation id="6401201054391523929">Chat with your tabs and files</translation>
+<translation id="8522038408130089105">Need to know more about the sites you’re visiting? Just add them to a chat. Attach your tabs and local files for fast, relevant answers.</translation>
+<translation id="3844955602461425647">Automate the boring work</translation>
+<translation id="2196247864500723577">Let iBrowe browse with you and interact with everything you do in the browser. Offload the tedious tasks, and save your time for the important stuff.</translation>
+<translation id="235457946228076038">Bring your own model</translation>
+<translation id="7024005267156189454">Connect your own AI models, whether running locally or remotely. Tailor Leo's behaviour, outputs, and capabilities to your preferences.</translation>
+<translation id="7291578285403921288">Learn more about Leo AI</translation>
 <translation id="9051226419897869406">Chat Privately with iBrowe Leo</translation>
 <translation id="2414904697165579184">Shape answers based on the tab(s) contents</translation>
 <translation id="8258324391302611485">This page's content will be sent to Leo along with your messages.</translation>
@@ -2279,6 +2373,7 @@
 <translation id="8732450785281947197">Leo AI tools</translation>
 <translation id="6535533770697728087">Quick actions</translation>
 <translation id="3237710083340813756">Rewrite</translation>
+<translation id="1223498995510244364">Summarise</translation>
 <translation id="1252805982772190086">Short post</translation>
 <translation id="2087555497198267113">Long post</translation>
 <translation id="4170307327863874820">Blog post</translation>
@@ -2305,7 +2400,9 @@
 <translation id="4250229828105606438">Screenshot</translation>
 <translation id="7949596341600215809">Full page screenshot</translation>
 <translation id="6332876390231524389">Current tab contents</translation>
-<translation id="7742969455167760092">Open tabs...</translation>
+<translation id="6397861830483632092">Open tabs…</translation>
+<translation id="802080272588201037">Bookmarks…</translation>
+<translation id="2716127283451902393">History…</translation>
 <translation id="49269513399674318">Use microphone</translation>
 <translation id="3895031624234442305">Custom models</translation>
 <translation id="4572010449071015143">Start new conversation</translation>
@@ -2317,13 +2414,47 @@
 <translation id="2593275000606533518">Manage all</translation>
 <translation id="8410199626695516952">Ok, I won't remember that</translation>
 <translation id="8419849467765474535">Failed to save memory. Please try again.</translation>
+<translation id="5517580030864973329">Navigating the web page to a new address</translation>
+<translation id="9197920788851078696">Navigating the web page to <ph name="URL"/></translation>
+<translation id="5095252080770652994">Progress</translation>
+<translation id="8332385567036775056">Steps</translation>
+<translation id="4521931942079977149">Clicking on the page</translation>
+<translation id="7732267913911704962">Dragging and dropping on the page</translation>
+<translation id="7703800915509570212">Navigating back</translation>
+<translation id="4875586490950981498">Navigating forward</translation>
+<translation id="738881387603843066">Moving the mouse</translation>
+<translation id="4850669014075537160">Scrolling</translation>
+<translation id="1265072406500460724">Selecting from a dropdown</translation>
+<translation id="7573920298077917439">Typing text</translation>
+<translation id="4089034800311309656">Waiting for the page</translation>
+<translation id="4798146464408730445">No skills found. Create a new one by clicking the "New" button.</translation>
+<translation id="271033894570825754">New</translation>
+<translation id="8266605059880650542">Noting down some information for later about the page</translation>
+<translation id="5103625298494362646">AI browsing mode works with models with tool support. Non-compatible models are hidden from this list.</translation>
+<translation id="3397808797783614750">Enabling AI to browse automatically for you may cause harmful, unintended consequences for your privacy, finances, and online communications. <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
+<translation id="4522025297473237294">Security warning</translation>
+<translation id="6077070599873946984">iBrowe AI needs your permission for: <ph name="TOOL_LABEL"/></translation>
+<translation id="4163837693685963037">The operation was detected as potentially misaligned with your request:</translation>
+<translation id="3927932062596804919">Deny</translation>
+<translation id="4569155249847375786">Verified</translation>
+<translation id="8200772114523450471">Resume</translation>
+<translation id="7607002721634913082">Paused</translation>
+<translation id="4773299976671772492">Stopped</translation>
+<translation id="6946722113367118030">Thinking</translation>
+<translation id="2113810663179257944">Code Execution</translation>
+<translation id="6338250692384725496">Executed code in sandbox to help with your query</translation>
+<translation id="4379566111233326721">Code:</translation>
+<translation id="3542130965673205258">Output:</translation>
+<translation id="3428245742224818842">AI browsing</translation>
+<translation id="2854657728271352435">About the AI browsing profile</translation>
+<translation id="2301685062527585986">To protect your data, this isolated AI browsing profile ensures the AI agent has no access to your main browsing profile, with permissions only to visit and interact with sites as needed. You can boost your productivity by giving it tasks and letting it browse for you.</translation>
+<translation id="648116453147783450">Your data and sessions</translation>
+<translation id="4879348540868082026">When you log into a website using this profile, Leo can see the information on that site if it's open, either when it visits the site itself or when you ask it to do something there.</translation>
+<translation id="5583803492921648196">Switching back</translation>
+<translation id="864117099189791993">You can switch back to your regular profile at any time from the main menu or the Leo avatar in your toolbar. Agent mode will always open in this profile.</translation>
 <translation id="3486480638399578250">Keep your personal email address private</translation>
 <translation id="7765422154906712751">Create unique, random addresses that forward to your iBrowe account email and can be deleted at any time. Keep your actual email address from being disclosed or used by advertisers.</translation>
-<translation id="5222676887888702881">Sign out</translation>
-<translation id="8090292425230843109">Sign out of Email Aliases</translation>
-<translation id="8471990782451394141">Connecting to iBrowe Account...</translation>
 <translation id="71316462802471551">Email Aliases</translation>
-<translation id="5713644099811900409">iBrowe Account</translation>
 <translation id="6002159997868894136">Click to copy alias</translation>
 <translation id="8105770564756958406">Used by <ph name="DOMAINS"/></translation>
 <translation id="5006956315579221642">Create up to 5 free email aliases to protect your real email address.</translation>
@@ -2347,8 +2478,8 @@
 <translation id="646524615209870492">Removing <ph name="ALIAS"/> as an alias will result in the loss of your ability to receive emails.</translation>
 <translation id="8133100642915054515">Error deleting alias. Check your internet connection and try again.</translation>
 <translation id="8465742443901727718">This action is irreversible. Are you sure you want to proceed?</translation>
-<translation id="8662104432574824754">To get started, sign in or create a iBrowe account</translation>
-<translation id="8069030342700068465">Enter your email address to get a secure login link sent to your email. Clicking this link will either create or access a iBrowe Account and let you use the free Email Aliases service.</translation>
+<translation id="9162685486229945876">Sign in or create a iBrowe account</translation>
+<translation id="1335007417599138852">A iBrowe account will allow you to access certain iBrowe products and easily sync your information across all your devices.</translation>
 <translation id="2133391407495495735">Get login link</translation>
 <translation id="2650906829817220223">Error requesting authentication. Check your internet connection and try again.</translation>
 <translation id="3699624789011381381">Email address</translation>
@@ -2362,6 +2493,10 @@
 <translation id="7508412964869396375">No verification token received from iBrowe Accounts service</translation>
 <translation id="3179527991526213624">No response from iBrowe Accounts service</translation>
 <translation id="7911439408853154309">Email verification failed</translation>
+<translation id="2595463802839066496">No response from Email Aliases service</translation>
+<translation id="367191282389216837">Invalid response from Email Aliases service</translation>
+<translation id="7203490731644771170">Email Aliases service error: <ph name="ERROR"/></translation>
+<translation id="8767862600155091621">Error: Alias not available</translation>
 <translation id="8370801182970639038">Automatic (<ph name="LOCALE"/>)</translation>
 <translation id="8343473178272604223">Enabled search engines</translation>
 <translation id="8285901519864208412">Hide Rewards card</translation>
@@ -2377,7 +2512,7 @@
 <translation id="466214682712474574">Log in to your <ph name="PROVIDER"/> account to see your balance</translation>
 <translation id="8332875111286275890">Log in to see your balance</translation>
 <translation id="5430001801813715388">REWARDS</translation>
-<translation id="5966055668402779222">Ask iBrowe Search</translation>
+<translation id="2430295257226173518">Ask anything, find anything…</translation>
 <translation id="167018310108390163">Customise New Tab Page</translation>
 <translation id="6851426306697017546">Show clock</translation>
 <translation id="4844370919312937270">Show search widget in new tabs</translation>
@@ -2407,8 +2542,19 @@
 <translation id="8458987127502506209">Enable iBrowe Shields</translation>
 <translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>Shields are UP<ph name="STATUS_AFTER"/> for this site</translation>
 <translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Shields are DOWN<ph name="STATUS_AFTER"/> for this site</translation>
-<translation id="5623354834493649144">If this site seems broken, try Shields down.
-   <ph name="NOTE_BEFORE"/>Note: this may reduce iBrowe's privacy protections.<ph name="NOTE_AFTER"/></translation>
+<translation id="4724752924364329714">If this site seems broken, try Shields down.</translation>
+<translation id="3992385019509961907"><ph name="NOTE_BEFORE"/>Note: this may reduce iBrowe's privacy protections.<ph name="NOTE_AFTER"/></translation>
+<translation id="3620004479054499575">Are you experiencing issues with this site?</translation>
+<translation id="9176447766421988172">We're trying out an experiment to increase website compatibility, where we keep only ad blocking enabled. Warning: removes all privacy protections. Do you want to try it out? <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/>.</translation>
+<translation id="5372101283158221516">Please note that for individual websites broken by iBrowe's privacy protections, you can set Shields to DOWN.</translation>
+<translation id="2850777974644218370">Enable Ad Block Only mode</translation>
+<translation id="6623668214089604469">Is the site working correctly now?</translation>
+<translation id="8978860854770042258">Please consider submitting a report if this site is still broken.</translation>
+<translation id="4677356505199464553">Looks good</translation>
+<translation id="1992750560347846445">Report site</translation>
+<translation id="2863270180245144869">Ad Block Only mode enabled</translation>
+<translation id="3773808439655997805">You're currently using Ad Blocking Only mode. This mode only offers ad blocking protection (if Shields are UP). If you wish to return to full Shields mode, disable this mode from settings.</translation>
+<translation id="4820891023903368625">Ads blocked <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Trackers, ads and more blocked <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Not protected by iBrowe Shields <ph name="LINK_BEFORE"/>Learn more<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Advanced controls</translation>
@@ -2424,6 +2570,12 @@
 <translation id="3570081523466826008">Upgrade connections to HTTPS</translation>
 <translation id="131231380815754440">Enable HTTPS</translation>
 <translation id="4824468494729001999">Block scripts</translation>
+<translation id="5465091511225410553">(enforced)</translation>
+<translation id="8646614940337543907">(enforced by extension)</translation>
+<translation id="3559821445144429594">(enforced by policy)</translation>
+<translation id="550374350047782149">(enforced by allowlist)</translation>
+<translation id="68858161161918073">(enforced by supervisor)</translation>
+<translation id="5735057546627037489">(enforced by PWA)</translation>
 <translation id="3246600097575692802">Enable scripts blocked</translation>
 <translation id="3603525299146223354">Trackers &amp; ads</translation>
 <translation id="4448697385961650078">Block trackers &amp; ads</translation>
@@ -2434,6 +2586,8 @@
 <translation id="6975864539539353406">Clears cookies and other site data when you close a site</translation>
 <translation id="6486971767955110687">Store contact information for future broken site reports</translation>
 <translation id="4085787265464238844">If you provide contact info it will be stored for future reports</translation>
+<translation id="7740929262043547697">Allow element blocking in private windows</translation>
+<translation id="1260864846935682371">Enables the Shields Block Elements feature in private windows. Note that elements blocked in private windows will also be blocked in non-private windows.</translation>
 <translation id="6883611015375728278">Block all cookies</translation>
 <translation id="5657156137487675418">Allow all cookies</translation>
 <translation id="8366221601425141146">Fingerprinting blocked</translation>
@@ -2442,7 +2596,6 @@
 <translation id="8034285923190068220">Allow fingerprinting</translation>
 <translation id="7638541189782135885">Don't upgrade HTTP connections</translation>
 <translation id="2570787596946026998">Only connect with HTTPS</translation>
-<translation id="1992750560347846445">Report site</translation>
 <translation id="2387532482048804818">Tell us if the site wasn't working properly with Shields up.</translation>
 <translation id="3795015906457257780">You are viewing this site without iBrowe's privacy protections.</translation>
 <translation id="7194012750329511146">iBrowe Shields
@@ -2459,6 +2612,9 @@
       other {iBrowe Shields blocked {BLOCKED_COUNT} trackers on <ph name="SITE_URL"/>}
     }</translation>
 <translation id="2540598191934725677">Click the iBrowe icon to view iBrowe Shields.</translation>
+<translation id="542789539047208469">Site Info</translation>
+<translation id="7586067492365979844">iBrowe Shields has a new home and design. It now integrates with site information for a one-stop experience.</translation>
+<translation id="9114542678887529043">iBrowe Shields has a new home and design. Access it by clicking the site icon in the address bar.</translation>
 <translation id="6294662480095808915">Privacy. By default.</translation>
 <translation id="4366423156486478559">Get iBrowe protection on every link you click. Just set iBrowe as default and browse. Privately.</translation>
 <translation id="3830912418080848377">Import Settings</translation>
@@ -2470,6 +2626,7 @@
 <translation id="2273851479262317744">Set iBrowe as default browser</translation>
 <translation id="5037676449506322593">Select all</translation>
 <translation id="5148943178722443958">Help make iBrowe better.</translation>
+<translation id="479535542793009168">Stability &amp; Diagnostics</translation>
 <translation id="1097073572755862978">Send diagnostic reports if you experience a crash or freeze. <ph name="LINK_BEFORE"/>Learn more.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Share private and anonymous product insights about what features are being used by iBrowe's users. <ph name="LINK_BEFORE"/>Learn more.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Set-up complete</translation>
@@ -2486,13 +2643,16 @@
 <translation id="6764845498618413165">Learn more.</translation>
 <translation id="7818938154803162778">Sure, I'll help</translation>
 <translation id="7207456302801184289">Welcome to iBrowe</translation>
-<translation id="6716580298071890302">Use darker theme</translation>
+<translation id="4988030440045495002">Ultra dark theme</translation>
 <translation id="2422927186524098759">Sidebar</translation>
 <translation id="2361906291514218784">Leo AI</translation>
 <translation id="7705524343798198388">VPN</translation>
 <translation id="8000020256436988724">Toolbar</translation>
 <translation id="6225572914528673855">Address bar</translation>
+<translation id="6821966107067356137">Add RSS feed</translation>
+<translation id="2478076885740497414">Install app</translation>
 <translation id="8293206222192510085">Add bookmark</translation>
+<translation id="1010029336854254368">Share Menu</translation>
 <translation id="7758460733045216901">Bookmarks Panel</translation>
 <translation id="958268166261124668">iBrowe VPN: connected</translation>
 <translation id="6021669293402055982">iBrowe VPN: disconnected</translation>
@@ -2594,5 +2754,6 @@ Let's get you connected!</translation>
     existing tab</translation>
 <translation id="451189393813405346">Ask Leo</translation>
 <translation id="1602850501393095406">Press ↑ to highlight</translation>
+<translation id="8367705492654390392">Ask anything</translation>
 <translation id="8525248723479742219">Play later</translation>
 </translationbundle>

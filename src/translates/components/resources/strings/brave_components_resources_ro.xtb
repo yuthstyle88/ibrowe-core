@@ -196,6 +196,7 @@
 <translation id="7279636930553631442">Popup newsletter</translation>
 <translation id="6136090320163235283">Widget social</translation>
 <translation id="6657720240983439091">Widget chat</translation>
+<translation id="3597441883564676263">Browserul nu este acceptat</translation>
 <translation id="7138678301420049075">Altceva</translation>
 <translation id="4046860372562593546">Gestionați Anunțurile iBrowe</translation>
 <translation id="5136973036012418831">Controlați tipurile de anunțuri pe care doriți să le vizionați, precum și frecvența acestora.</translation>
@@ -482,14 +483,21 @@
 <translation id="1518915449477235311">Permiteți <ph name="URL"/> să deschidă conversații Leo AI în iBrowe?</translation>
 <translation id="4355784577209159847">Permiteți utilizarea modulelor cookie ale terților pentru conectarea cu Google anterioară</translation>
 <translation id="5770656036486891920"><ph name="URL"/> dorește să folosească module cookie terțe pentru conectarea Google anterioară</translation>
-<translation id="6053826678715267477">Permiteți accesul la resursele localhost</translation>
-<translation id="2973562729984406132"><ph name="URL"/> dorește acces la resursele localhost</translation>
 <translation id="2104347391516032700">Serviciu de recompense Bat</translation>
 <translation id="5939518447894949180">Resetează</translation>
 <translation id="3349204812119681938">Resetați recompensele iBrowe</translation>
 <translation id="4915997950539925115">Resetând, profilul dvs. actual de Recompense iBrowe va fi șters, iar Recompense iBrowe nu va mai fi activat. Dacă activați Recompense iBrowe din nou mai târziu, veți începe cu un profil nou. Citiți <ph name="LINK_BEGIN"/> articolul nostru explicativ despre resetare <ph name="LINK_END"/> pentru mai multe detalii.</translation>
 <translation id="4806029412510565611">Înțeleg că profilul meu actual de Recompense iBrowe și datele referitoare la Recompensele iBrowe vor fi șterse de pe dispozitivul meu și confirm că am citit <ph name="LINK_BEGIN"/>articolul explicativ despre resetare<ph name="LINK_END"/>.</translation>
 <translation id="8835777704176513489">Dezactivați și resetați Recompensele</translation>
+<translation id="1570055891464728855">Resetați acum</translation>
+<translation id="6431824580671230473">Nu vă faceți griji: Orice BAT deja în contul dvs. <ph name="PROVIDER"/> nu va fi afectat de resetare.</translation>
+<translation id="2881473942058010900">Nu veți câștiga pentru reclame cât timp sunteți conectat(ă) la <ph name="PROVIDER"/>. Resetați iBrowe Rewards și conectați un alt cont de plată pentru a continua să câștigați. <ph name="LINK_BEGIN"/>Află mai multe<ph name="LINK_END"/></translation>
+<translation id="5803444802570526678">Contul <ph name="PROVIDER"/> nu mai este acceptat.</translation>
+<translation id="3794463124070392793">Confirmați regiunea</translation>
+<translation id="4620879582500359234">Orice BAT este deja în contul dvs. <ph name="PROVIDER"/> va rămâne acolo.</translation>
+<translation id="935303782545595866">Istoricul de Reklame din ultimele 30 de zile și alte setări iBrowe Rewards vor fi resetate.</translation>
+<translation id="6279637499952804615">Puteți alege un alt cont de plată după acest pas.</translation>
+<translation id="5419770758409992826">Contul dvs. <ph name="PROVIDER"/> va fi deconectat, iar profilul iBrowe Rewards va fi resetat.</translation>
 <translation id="7717357606512850995">Verificați starea</translation>
 <translation id="6473937687348632190">Plata pentru recompensele din <ph name="MONTH"/> a fost procesată</translation>
 <translation id="1711367267038576241">Procesarea plății pentru recompensele din <ph name="MONTH"/> va începe până în <ph name="DATE"/></translation>
@@ -514,15 +522,17 @@
     }</translation>
 <translation id="3264975266761862670">Sunteți gata să începeți să câștigați?</translation>
 <translation id="2784412028126205842">Conectați un cont de plată</translation>
-<translation id="766126983336630294">{ADS_VIEWED, plural,
+<translation id="1789518312567918588">{ADS_VIEWED, plural,
       =0 {Ați vizualizat <ph name="COUNT_BEGIN"/> # reclame <ph name="COUNT_END"/> luna aceasta}
       =1 {Puteți fi plătit(ă) pentru <ph name="COUNT_BEGIN"/> # reclamă <ph name="COUNT_END"/> pe care ați vizualizat-o luna aceasta.}
-      other {Puteți fi plătit(ă) pentru <ph name="COUNT_BEGIN"/> # (de) reclame <ph name="COUNT_END"/> pe care le-ați vizualizat luna aceasta.}
+      few {Puteți fi plătit(ă) pentru <ph name="COUNT_BEGIN"/> # reclame <ph name="COUNT_END"/> pe care le-ați vizualizat luna aceasta.}
+      other {Puteți fi plătit(ă) pentru <ph name="COUNT_BEGIN"/> # reclame <ph name="COUNT_END"/> pe care le-ați vizualizat luna aceasta.}
     }</translation>
-<translation id="8611388433418909120">{ADS_VIEWED, plural,
-      =0 {Ai văzut <ph name="COUNT_BEGIN"/># anunțuri<ph name="COUNT_END"/> luna aceasta}
-      =1 {Câștigi pentru că ai văzut <ph name="COUNT_BEGIN"/># Anunțuri<ph name="COUNT_END"/> luna aceasta}
-      other {Câștigi pentru că vezi <ph name="COUNT_BEGIN"/># Ads<ph name="COUNT_END"/> luna aceasta}
+<translation id="1100743684843603297">{ADS_VIEWED, plural,
+      =0 {Ai văzut <ph name="COUNT_BEGIN"/># reclame<ph name="COUNT_END"/> luna aceasta}
+      =1 {Câștigi pentru că ai văzut <ph name="COUNT_BEGIN"/># reclamă<ph name="COUNT_END"/> luna aceasta}
+      few {Câștigi pentru că vezi <ph name="COUNT_BEGIN"/># reclame<ph name="COUNT_END"/> luna aceasta}
+      other {Câștigi pentru că vezi <ph name="COUNT_BEGIN"/># reclame<ph name="COUNT_END"/> luna aceasta}
     }</translation>
 <translation id="6067959437127691361">Folosind Recompensele iBrowe, îi puteți susține pe creatorii de conținut și puteți câștiga BAT.</translation>
 <translation id="2359808026110333948">Continuă</translation>
@@ -600,7 +610,7 @@
 <translation id="5802986777701714573">Am introdus o nouă modalitate de a primi recompense lunare BAT. Conectați un cont al unuia dintre partenerii noștri sau folosiți noua opțiune de custodie proprie pentru a începe să câștigați bani chiar acum.</translation>
 <translation id="3251885322612056119">Termeni de Serviciu actualizați</translation>
 <translation id="7454675823870922788">Am actualizat Termenii de Serviciu pentru Recompense iBrowe. Am făcut aceste actualizări pentru a clarifica termenii și a ne asigura că includ funcțiile noi. În cazul în care continuați să utilizați Recompense iBrowe, sunteți de acord cu Termenii de Serviciu actualizați. Dacă nu sunteți de acord, puteți <ph name="LINK_BEGIN"/>reseta<ph name="LINK_END"/> Recompense iBrowe, acțiune ce va dezactiva funcția.</translation>
-<translation id="56057964000416013">Ne-am actualizat Termenii și condițiile de serviciu. Pentru a continua să utilizezi iBrowe Rewards, te rugăm să consulți și să accepți termenii actualizați.</translation>
+<translation id="616595399243298960">Ne-am actualizat Termenii de Serviciu. Pentru a continua să utilizezi iBrowe Rewards, te rugăm să consulți și să accepți termenii actualizați.</translation>
 <translation id="5192526308598085294">Vedeți <ph name="LINK_BEGIN"/>Termenii de Serviciu pentru Recompense iBrowe<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">Sunt de acord</translation>
 <translation id="343114360276812078">Revizuiește termenii</translation>
@@ -648,6 +658,8 @@
 <translation id="6751803821780922506">Alegeți unde doriți să primiți BAT</translation>
 <translation id="3162035476318501831">Aflați mai multe despre regiuni și suport.</translation>
 <translation id="7329170127335794328">Momentan indisponibil în regiunea dvs.</translation>
+<translation id="1947910788470806100">Încă nu avem nicio opțiune de plată disponibilă în regiunea dvs. Puteți verifica din nou mai târziu pentru a vedea dacă disponibilitatea s-a schimbat.</translation>
+<translation id="271689813824682404">Opțiuni de plată indisponibile</translation>
 <translation id="966956302643313970">Pentru a începe să câștigați recompensele Basic Attention Token (BAT), conectați un cont. BAT pe care îl câștigați va fi transferat automat în contul dvs. în fiecare lună.</translation>
 <translation id="4009439571146350519">Sau despre portofelul compatibil cu Solana</translation>
 <translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Condiții de utilizare<ph name="TOS_LINK_END"/> și <ph name="PP_LINK_BEGIN"/>Politica de confidențialitate<ph name="PP_LINK_END"/>.</translation>
@@ -688,7 +700,6 @@
 <translation id="3266055641283174315">Tip reclamă</translation>
 <translation id="8706824117053903390">Vizualizări în această lună</translation>
 <translation id="5105890735834548623">Setări Reclame</translation>
-<translation id="96989662637180657">iBrowe Search Ads apar pe <ph name="LINK_BEGIN"/>Căutare iBrowe<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Setări Reclame</translation>
 <translation id="2446517297521536638">Controlați ce tipuri de iBrowe Ads vedeți și cât de des. Cu cât vedeți mai multe, cu atât puteți câștiga mai mult.</translation>
 <translation id="3479272537858623647">Acest lucru arată numărul de anunțuri iBrowe pe care le-ai văzut în această lună care se califică pentru a câțtiga BAT.</translation>
@@ -851,11 +862,18 @@
 <translation id="3799091982455573025">Conversie pe <ph name="NETWORK_NAME"/> via <ph name="EXCHANGE_NAME"/></translation>
 <translation id="5136093123841570193">Punte de la <ph name="FRIST_NETWORK_NAME"/> la <ph name="SECOND_NETWORK_NAME"/></translation>
 <translation id="5962276579291287541">{SWAP_EXCHANGE_STEPS, plural,
-      one {}
       few {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} pași}=1 {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} spas}
       other {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} pași}
     }</translation>
 <translation id="8621264173374071200"><ph name="EXCHANGE_NAME"/> prin intermediul <ph name="PROVIDER_NAME"/></translation>
+<translation id="646023614746251785">Confirmă schimbul</translation>
+<translation id="6264944956989873014">Confirmă puntea</translation>
+<translation id="7067917728851842589">Confirmă trimiterea</translation>
+<translation id="2841837950101800123">Furnizor</translation>
+<translation id="1114725160772317155">Starea furnizorului</translation>
+<translation id="2351357639951873714">Confirmă protecția</translation>
+<translation id="7480044382160806610">Confirmă deprotejarea</translation>
+<translation id="8332923694292360653">Cheltuie</translation>
 <translation id="3735740477244556633">Sortează după</translation>
 <translation id="6484605214219822434">Verificați puntea</translation>
 <translation id="3365052891357224017">Timp estimat</translation>
@@ -876,6 +894,8 @@
 <translation id="7465227658364622464">Jupiter va prelucra adresa Solana și adresa IP pentru a realiza o tranzacție (inclusiv obținerea de oferte). Jupiter va folosi aceste date DOAR în scopul procesării tranzacțiilor.</translation>
 <translation id="712738518060477110">Oferta include o <ph name="SWAP_FEE_PERCENTAGE"/> taxă iBrowe.</translation>
 <translation id="8368540604723748428">Prea multe zecimale</translation>
+<translation id="4797709125717981664">Minimul necesar este 1 ADA</translation>
+<translation id="3826737479910350533">Suma de trimis este prea mică</translation>
 <translation id="6575120282593094155">Nu aveți încă un cont <ph name="ACCOUNT_TYPE"/> . Creați unul acum?</translation>
 <translation id="1426410128494586442">Da</translation>
 <translation id="4250680216510889253">Nu</translation>
@@ -922,7 +942,7 @@
 <translation id="2274014756904854136">Atingeți de două ori ecranul pentru a continua</translation>
 <translation id="7795718119973968770">Portofelul dvs. este blocat pentru siguranța dvs. Deblocați portofelul pentru a continua.</translation>
 <translation id="9175546523521600401">Blocați portofelul</translation>
-<translation id="765834632354589737">Rezervă Portofel</translation>
+<translation id="7117128722034148989">Backup portofel</translation>
 <translation id="1108298724135935307">Site-uri conectate</translation>
 <translation id="5716350339763180836">Solduri</translation>
 <translation id="5538251867290702601">Grafic</translation>
@@ -965,6 +985,8 @@
 <translation id="3451958544919449297">Stocați activele rețele de test ZEC</translation>
 <translation id="8459631690385393533">Salvează activele Cardano</translation>
 <translation id="4915057812371523845">Salvează activele Cardano Testnet</translation>
+<translation id="5387140102951033657">Acceptă active Substrate în lanțul de relee Polkadot și parachains Substrate</translation>
+<translation id="5601177227092533167">Acceptă active Substrate în lanțul de relee Westend și parachains Substrate</translation>
 <translation id="8500387257977999003">Cheie privată <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Importă</translation>
 <translation id="232925166623833246">Importare din portofelul hardware</translation>
@@ -1022,6 +1044,7 @@
 <translation id="2416098547200943834">NOTĂ: Cheia privată este oferită ca fișier JSON hexa-codificat care conține cheia privată și informațiile de protocol <ph name="LINK_START"/>Aflați mai multe<ph name="LINK_END"/>.</translation>
 <translation id="7657130382217527063">Cheia privată trebuie să fie furnizată ca fișier JSON hexa-codificat care conține cheia privată și informațiile de protocol. <ph name="LINK_START"/>Aflați mai multe<ph name="LINK_END"/>.</translation>
 <translation id="4482913669726886926">NOTĂ: Sunt acceptate numai cheile extinse <ph name="FORMAT"/>.</translation>
+<translation id="9133762451347918196">Conturi testnet</translation>
 <translation id="42126664696688958">Exportă</translation>
 <translation id="1366855498335432549">Depune</translation>
 <translation id="790104325876206743">Setări cont</translation>
@@ -1029,6 +1052,11 @@
 <translation id="836614343069504000">Depozitați sau achiziționați tokenuri pentru a începe. Dacă nu vedeți tokenuri dintr-un cont importat, verificați filtrele și afișați setările. Tokenurile necunoscute ar putea trebuie adăugate ca active personalizate.</translation>
 <translation id="2902856457593699108">Afișați cheia</translation>
 <translation id="8033497299373164724">Ascundeți cheia</translation>
+<translation id="7514365320538308">Descarcă</translation>
+<translation id="4505811804838254812">Introdu o parolă pentru a encrypta fișierul de export al contului.</translation>
+<translation id="4664684820522660564">Introdu parola de criptare</translation>
+<translation id="6873030689896652259">Confirmă parola de criptare</translation>
+<translation id="5148285448107770349">Parola trebuie să conțină cel puțin 8 caractere</translation>
 <translation id="2702143907607790516">Nu s-a reușit actualizarea numelui contului. Încercați din nou!</translation>
 <translation id="3318280255740629162">25%</translation>
 <translation id="2636487255623744079">50%</translation>
@@ -1049,9 +1077,6 @@
 <translation id="1506421160138798546">valoarea estimată de</translation>
 <translation id="59223531494896848">Limită</translation>
 <translation id="8569380433211549748">Prețul în</translation>
-<translation id="2490428413101944234">Robinet de testare</translation>
-<translation id="3352959425838279177">Obțineți Ether de la un robinet pentru <ph name="SELECTED_NETWORK"/></translation>
-<translation id="6449626816252815844">Selectați metoda de achiziționare</translation>
 <translation id="8009571545960303544">Semnătura dvs. este solicitată</translation>
 <translation id="5294062982587710720">Rețineți că iBrowe nu poate verifica ce se va întâmpla dacă semnați. O semnătură ar putea autoriza aproape orice operațiune în contul dvs. sau în numele dvs. Este posibil inclusiv să oferiți controlul total asupra contului și activelor dvs. (fără limitare la acestea) site-ului care face solicitarea. Semnați numai dacă aveți certitudinea că doriți să faceți acest pas și aveți încredere în site-ul care vă cere acest lucru.</translation>
 <translation id="3474375934783434676">Semnați pe propria răspundere</translation>
@@ -1059,6 +1084,7 @@
 <translation id="3586931643579894722">Ascunde detaliile</translation>
 <translation id="7702907602086592255">Domeniu</translation>
 <translation id="3586752056660754651">Semnați</translation>
+<translation id="4217653732094303705">Cheie publică de criptare</translation>
 <translation id="3484981968509595506">A DApp vă solicită cheia publică de criptare</translation>
 <translation id="2300240008330189182"><ph name="URL"/> vă solicită cheia publică de criptare. Dacă sunteți de acord să furnizați această cheie, site-ul vă va putea trimite mesaje criptate.</translation>
 <translation id="3340247553212049934">Indicați</translation>
@@ -1076,6 +1102,10 @@
 <translation id="8904889345035514635">Toleranța actuală</translation>
 <translation id="7073918978411974168">Toleranță propusă</translation>
 <translation id="9019403281000653275">Aprobare nelimitată solicitată</translation>
+<translation id="9108474191347769758">Limită de cheltuire</translation>
+<translation id="2102091845281366189">Țintă de aprobare</translation>
+<translation id="772196962479335292">Limita actuală de aprobare</translation>
+<translation id="8215431557133305629">Limita propusă de aprobare</translation>
 <translation id="4717431746210146708">Permiteți acestui site să adauge o rețea?</translation>
 <translation id="2521480044079508357">Acest lucru va permite utilizarea acestei rețele în portofelul iBrowe.</translation>
 <translation id="1982257600591932657">Numele rețelei</translation>
@@ -1092,7 +1122,7 @@
 <translation id="3948067511324628726">Taxă gas</translation>
 <translation id="7163997622278957886">Sumă licitată</translation>
 <translation id="1074360622426001342">Valoare + gas</translation>
-<translation id="2186011161688824046">Sumă + tarif</translation>
+<translation id="7542099582407803878">Sumă + Taxă de rețea</translation>
 <translation id="7084089311475827950">Nu există date.</translation>
 <translation id="5821668936183240062">înainte</translation>
 <translation id="793994607260936590">prima</translation>
@@ -1201,12 +1231,12 @@
 <translation id="4932382283590063268">Adresa destinatarului este propria dvs. adresă.</translation>
 <translation id="3124753063207986114">Adresa destinatarului este adresa de contract a unui token.</translation>
 <translation id="7029817408221097939">Adresă unificată nevalidă</translation>
-<translation id="6370376419663123629">Adresa nu pare corectă</translation>
-<translation id="3767148796886402380">Verificați adresa dvs. pentru a vă asigura că este cea corectă (de exemplu, literă mică sau mare).</translation>
+<translation id="5749543778008369411">Adresa lipsește suma de control</translation>
+<translation id="8225310967627152630">Validitatea acestei adrese nu poate fi verificată. Pentru a evita o pierdere potențială de fonduri, revizuiți cu atenție adresa înainte de a trimite.</translation>
+<translation id="5139218857087774333">Adresa nu pare corectă (suma de control nevalidă)</translation>
+<translation id="6551446819927864899">Se pare că această adresă are o greșeală de tipar. Te rog revizuiți adresa și tastați-o din nou.</translation>
 <translation id="2585599787090762065">Cum pot să rezolv această problemă?</translation>
 <translation id="5517732667776806421">Informații lipsă privind suma de verificare</translation>
-<translation id="2975056993833847787">Această adresă nu poate fi confirmată (lipsește suma de verificare). Continuați?</translation>
-<translation id="6320252966164556855">Adresa nu a promovat confirmarea (sumă de verificare nevalidă). Încercați din nou, înlocuind literele mici cu litere mari.</translation>
 <translation id="4667144295226514387">Limită gas lipsă</translation>
 <translation id="2021522108838444624">Suma trebuie să fie mai mare decât 0</translation>
 <translation id="8464365289405373974">Adresa destinatarului este solicitată</translation>
@@ -1232,6 +1262,8 @@
 <translation id="471055802670233033">Cheltuiți</translation>
 <translation id="7916618590403748182">Veți primi</translation>
 <translation id="8328657208304368165">Confirmați comanda</translation>
+<translation id="3784821115971261512">Adresă program</translation>
+<translation id="6302865118026274740">Adresa de depozitare</translation>
 <translation id="8220255674527598378">Schimb Solana</translation>
 <translation id="5071303414930953888">Contul <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">Portofelul trebuie deblocat întâi</translation>
@@ -1290,10 +1322,7 @@
 <translation id="4312994183947987913">Cumpărați/Depuneți</translation>
 <translation id="5133421763709317473">Nu s-au găsit active care să corespundă căutării sau filtrului</translation>
 <translation id="6423985584914773314">Nu este o adresă FIL validă</translation>
-<translation id="5522073372365069684">Cumpărați cu Ramp</translation>
 <translation id="6153197326949684688">Vindeți folosind <ph name="OFFRAMP_PROVIDER"/></translation>
-<translation id="7902920577183739843">Cumpărați cu Sardine</translation>
-<translation id="3301984548406568819">Datele financiare și referitoare la tranzacții sunt procesate de partenerii noștri onramp. iBrowe nu colectează și nui are acces la astfel de date.</translation>
 <translation id="5795821518596541838">Partener de tranzacții</translation>
 <translation id="1916136859742693273">iBrowe Wallet utilizează Meld.io pentru a ajuta la agregarea și identificarea diverșilor furnizori de criptomonede pentru regiunea dvs. Vom partaja informații cu Meld.io pentru a finaliza tranzacția, inclusiv adresa portofelului dvs. și codul țării. Pentru mai multe informații, vă rugăm să citiți termenii de utilizare ai Meld.</translation>
 <translation id="245827814248186739">Am citit și sunt de acord cu <ph name="LINK_BEFORE"/>Termenii de utilizare ai Meld<ph name="LINK_AFTER"/></translation>
@@ -1314,19 +1343,8 @@
 <translation id="4196022627437957774">Doriți să creați un cont <ph name="ACCOUNT_TYPE"/>?</translation>
 <translation id="5982914754413312620">Pentru a primi <ph name="TOKEN_SYMBOL"/> veți avea nevoie de un cont <ph name="ACCOUNT_TYPE"/>.</translation>
 <translation id="3067168166931605141">Numele contului</translation>
-<translation id="6534275647567011533">Cumpărați cu Transak</translation>
-<translation id="5973390321030037823">Cumpărați cu Link</translation>
-<translation id="1932640759496708012">Cumpărați cu Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
-<translation id="7295150312737713113">Cumpărați cu Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
-<translation id="7667423728712601865">Cumpărați criptomonede utilizând un card Visa sau Mastercard.</translation>
-<translation id="3648994606506382289">Cel mai simplu, rapid și ieftin mod de a cumpăra cripto este prin card și prin transferuri bancare.</translation>
-<translation id="3101839349578102016">Cumpărați instant cu contul dvs. bancar. Taxe mai mici.</translation>
-<translation id="8280898387224328221">Plătiți cu card de credit, debit sau din contul bancar</translation>
-<translation id="2218174283683424104">Cumpărați cu cel mai cunoscut nume de domeniul crypto.</translation>
+<translation id="1213870770696612739">Suma minimă: <ph name="AMOUNT"/></translation>
+<translation id="3041074161036535192">Suma maximă: <ph name="AMOUNT"/></translation>
 <translation id="8528916244724490964">Toate rețelele</translation>
 <translation id="7721139939763655123">De la mic la mare</translation>
 <translation id="5458608274117818139">De la mare la mic</translation>
@@ -1371,10 +1389,14 @@
 <translation id="7694836973509310467">Se creează o punte</translation>
 <translation id="8419958386475786929"><ph name="SWAPPING_OR_BRIDGING"/> pe <ph name="NETWORK"/></translation>
 <translation id="7903225589949400974">A apărut o eroare încercând să <ph name="SWAP_OR_BRIDGE"/> pe <ph name="NETWORK"/></translation>
+<translation id="7220786058474068424">Se prelucrează</translation>
+<translation id="3248185426436836442">În așteptare</translation>
+<translation id="5503843345634715425">Rambursate</translation>
 <translation id="1778601041100951971">Se protejează <ph name="AMOUNT"/></translation>
+<translation id="6439110433198887239">Se deprotejează <ph name="AMOUNT"/></translation>
 <translation id="5549369333299694936"><ph name="AMOUNT"/> a fost protejat</translation>
+<translation id="3860973324426281816"><ph name="AMOUNT"/> a fost deprotejat</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
-      one {}
       few {{PENDING_TRANSACTIONS} tranzacții în așteptare.}=1 {{PENDING_TRANSACTIONS} tranzacție în așteptare.}
       other {{PENDING_TRANSACTIONS} tranzacții în așteptare.}
     }</translation>
@@ -1398,6 +1420,7 @@
 <translation id="5601436886921227795">Interacțiune Dapp</translation>
 <translation id="9104177294757104789">Trimiteți <ph name="VALUE"/></translation>
 <translation id="4048336522751528394">Convertiți <ph name="MAKER"/> în <ph name="TAKER"/></translation>
+<translation id="5140590056890937774">Facem legătura <ph name="SOURCE"/> către <ph name="DESTINATION"/></translation>
 <translation id="1748114617341025015">Se creează contul token asociat</translation>
 <translation id="4418115887224983240">A eșuat crearea contului token asociat</translation>
 <translation id="7165697599360786670">Cont token asociat creat</translation>
@@ -1418,6 +1441,8 @@
 <translation id="1908159733454294871">Risc de securitate detectat</translation>
 <translation id="3621202678540785336">Input</translation>
 <translation id="3009178788565917040">Output</translation>
+<translation id="7953669802889559161">Intrări</translation>
+<translation id="4554024082642878647">Ieșiri</translation>
 <translation id="1965889974717516497">Rețele secundare</translation>
 <translation id="7691821949666755802">Rețele de test</translation>
 <translation id="2816106784624007524">Limita Gas trebuie să fie un număr întreg mai mare decât 0</translation>
@@ -1566,8 +1591,6 @@
 <translation id="1422451606553326863">Cumpărați cripto</translation>
 <translation id="3887541341068007345">Verificarea extensiilor de portofel...</translation>
 <translation id="8407091560429310499">Selectarea unui activ</translation>
-<translation id="756590380936155533">Pentru a finaliza achiziția dvs. <ph name="ASSET_TICKER"/>, selectați unul dintre partenerii noștri</translation>
-<translation id="7880860489474966219">La finalizare, fondurile dvs. vor fi transferate în Portofelul iBrowe</translation>
 <translation id="6182661078713714878">Depunere cripto</translation>
 <translation id="3683305208314702347">Depuneți <ph name="VALUE"/></translation>
 <translation id="5768739294929936862">Depuneți tokenuri Solana sau SPL</translation>
@@ -1624,12 +1647,16 @@
 <translation id="3356580495013324916">Introduceți parola pentru Portofelul iBrowe pentru a efectua un backup al portofelului.</translation>
 <translation id="7545441766078366279">Aprobați <ph name="TOKEN"/></translation>
 <translation id="3115303896544539834">Sold <ph name="TOKEN"/> insuficient</translation>
+<translation id="6612125470074657311">Suma prea mică</translation>
+<translation id="5838312420826727653">Token(uri) nesuportat(e)</translation>
+<translation id="4930106154893104117">Cerere nevalidă</translation>
 <translation id="3453833142586986467">Selectați token</translation>
 <translation id="4937657825850660613">Jumătate</translation>
 <translation id="7639814793732182496">Maximum</translation>
 <translation id="6584782231358487640">Introduceți o sumă</translation>
 <translation id="477281933640372562">Se preia oferta</translation>
 <translation id="5450317966495183014">Primiți (est.)</translation>
+<translation id="387870937508841726">Primiți (min.)</translation>
 <translation id="8747614139273050577">De la tokenul</translation>
 <translation id="1726158192333401896">La tokenul</translation>
 <translation id="1817370679212109974">Nouă cotație în <ph name="COUNTDOWN"/></translation>
@@ -1654,6 +1681,7 @@
 <translation id="8044899503464538266">Lent</translation>
 <translation id="3569512916300900704">Mediu</translation>
 <translation id="7019805045859631636">Rapid</translation>
+<translation id="1345580220012169610">Taxă estimată</translation>
 <translation id="632241521608275119">Marjă de toleranță</translation>
 <translation id="6778140392042462129">Schimburi</translation>
 <translation id="6173494033320397682">Exclusiv rută directă</translation>
@@ -1707,6 +1735,9 @@
 <translation id="6276584161122912863">Gas price</translation>
 <translation id="6132197290665156212">Taxă estimată pentru rețea</translation>
 <translation id="1788636309517085411">Folosește implicit</translation>
+<translation id="3968375068626660591">Această taxă de gaz va înlocui valoarea originală.</translation>
+<translation id="1661088862481901887">Aceasta va crea o tranzacție nouă cu o taxă de gaz nouă pentru a înlocui și anula tranzacția în așteptare. O anulare poate fi încercată doar dacă tranzacția este încă în așteptare în rețea.</translation>
+<translation id="5797060124625958778">Prioritate viteză</translation>
 <translation id="6213230117190778270">Primiți</translation>
 <translation id="6748108480210050150">De la</translation>
 <translation id="4875290286426670462">Nelimitate <ph name="ASSET_SYMBOL"/></translation>
@@ -1736,7 +1767,6 @@
 <translation id="2410455471299328417">Acest serviciu este furnizat de <ph name="BOLD_BEFORE"/>Blowfish.xyz<ph name="BOLD_AFTER"/> și se supune condițiilor <ph name="TERMS_LINK_BEFORE"/>Termenilor de Serviciu<ph name="TERMS_LINK_AFTER"/> și <ph name="PRIVACY_POLICY_LINK_BEFORE"/>Politicii de confidențialitate<ph name="PRIVACY_POLICY_LINK_AFTER"/></translation>
 <translation id="8688672835843460752">Disponibil</translation>
 <translation id="5296640085393149413">Fonduri disponibile pe care le puteți folosi</translation>
-<translation id="3248185426436836442">În așteptare</translation>
 <translation id="2515906149804238711">O modificare în așteptare în soldul portofelului dvs.</translation>
 <translation id="7700365440186054030">Fondurile disponibile alături de tranzacțiile neconfirmate încă.</translation>
 <translation id="4118601537508887039">Anumite solduri ar putea fi indisponibile</translation>
@@ -1802,10 +1832,14 @@
 <translation id="7747318989577709780">Contul se sincronizează</translation>
 <translation id="9086302186042011942">Se sincronizează</translation>
 <translation id="99991973626409495">Revizuire protecție</translation>
+<translation id="6779429520470417361">Revizuire deprotejare</translation>
 <translation id="3114681061018999547">Se protejează</translation>
+<translation id="1564172583156967455">Deprotejare</translation>
 <translation id="8897189056319316783">Protecție ZEC</translation>
+<translation id="508249542337194541">Deprotejează ZEC</translation>
 <translation id="3382275793825152362">Protejează fondurile</translation>
 <translation id="8631765320256788981">Trimiți fonduri din contul tău transparent în contul tău protejat.</translation>
+<translation id="3860364671495430495">Trimiți fonduri din contul tău protejat în contul tău transparent.</translation>
 <translation id="7144878232160441200">Reîncearcă</translation>
 <translation id="9094621390791852268">Previzualizarea tranzacției a eșuat.</translation>
 <translation id="4982713341035600933">Modificarea estimată a soldului</translation>
@@ -2082,6 +2116,8 @@ other {# surse}
 <translation id="4292565651642921086">Focalizare pe următorul grup de file</translation>
 <translation id="874783686573493196">Focalizare pe grupul anterior de file</translation>
 <translation id="9169594135889675189">Adaugă o filă nouă la grup</translation>
+<translation id="1722567105086139392">Link</translation>
+<translation id="4729794914864902904">Deconectează</translation>
 <translation id="1926106318101432555">Deschideți marcajul...</translation>
 <translation id="6118819645013156507">Comutați la fereastră...</translation>
 <translation id="1623204575967809688">Comasați fereastra curentă cu...</translation>
@@ -2107,6 +2143,7 @@ other {# surse}
 <translation id="5329136173514538969">Anulați divizarea filelor</translation>
 <translation id="7595612919377246359">Schimbă pozițiile filelor</translation>
 <translation id="2367972762794486313">Afișați aplicații</translation>
+<translation id="3468387898712904997">Nume alternativ nou pentru email</translation>
 <translation id="8591883849678260674">Vedeți originalul</translation>
 <translation id="1969654232209826429">min. de citire</translation>
 <translation id="4101707289420716287">Dezactivați Speedreader</translation>
@@ -2140,7 +2177,6 @@ other {# surse}
 <translation id="5872363163901278000">Creșteți viteza de redare</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">Funcția de rezumare este momentan disponibilă doar pentru anumite articole și alte pagini web în format lung.</translation>
-<translation id="1223498995510244364">Rezumați</translation>
 <translation id="7491773233732232424">Despre Leo</translation>
 <translation id="4611072979071082355">iBrowe Leo este un asistent inteligent de IA privat menit să îmbunătățească folosirea internetului. Leo poate fi folosit gratuit cu funcții limitate. iBrowe Leo Premium oferă mai multe modele, limite mai ridicate și oferă abonaților acces timpuriu la funcții noi. Modelul implicit se va schimba din când în când. Consultă <ph name="LINK_BEFORE"/>Centrul de ajutor<ph name="LINK_AFTER"/> pentru mai multe detalii.</translation>
 <translation id="7297056998057521697">În mod implicit, atunci când îi adresezi lui Leo o întrebare despre un site web sau o pagină pe care o vizualizezi, conținutul paginii web pe care o vizualizezi sau orice text pe care îl evidențiezi pe o pagină, precum și interogarea ta de căutare vor fi trimise către serverele iBrowe pentru ca Leo să ofere un răspuns. În unele cazuri, Leo va trimite interogări derivate din datele introduse de tine către iBrowe Search și va utiliza rezultatele căutării pentru a răspunde mai bine la întrebarea ta. iBrowe nu garantează acuratețea răspunsurilor, iar răspunsurile pot include informații inexacte, înșelătoare sau false. Nu trimite informații sensibile sau private către iBrowe Leo și fii prudent cu orice răspunsuri legate de sănătate, finanțe, siguranță personală sau altele similare. Poți ajusta oricând opțiunile lui Leo în Setări. Mergi la Setări &gt; Leo.</translation>
@@ -2171,14 +2207,25 @@ other {# surse}
 <translation id="8151638057146502721">Configurare</translation>
 <translation id="999273441077650169">Modelul se schimbă dinamic pentru a folosi cel mai bun pentru sarcină.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="1238020084128916796">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Llama 3.1 8B, un model creat de Meta pentru a fi performant și aplicabil la multe cazuri de utilizare. Llama este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
-<translation id="7127671672828944579">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Qwen 14B, un model creat de Alibaba Cloud pentru a fi performant și aplicabil la multe cazuri de utilizare. Qwen este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
-<translation id="2328524194917949829">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Gemma 3 12B, un model creat de Google DeepMind pentru a fi performant și aplicabil la multe cazuri de utilizare. Gemma este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
-<translation id="634682910381645550">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza DeepSeek R1, un model creat de DeepSeek pentru a îndeplini sarcini de raționament profund. DeepSeek R1 este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
-<translation id="8932568551552504373">Salut, eu sunt Leo.I'm an AI assistant by iBrowe. I'm powered by Claude Instant, a model created by Anthropic to power conversational and text processing tasks. Claude Instant is iBrowe-hosted through our own secure infrastructure.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="3852808100039989429">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Qwen VL 30B, un model creat de Alibaba Cloud pentru a fi performant și aplicabil la multe cazuri de utilizare. Qwen este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="6406961656408495869">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza DeepSeek V3.1, un model creat de DeepSeek pentru a fi performant și aplicabil la multe cazuri de utilizare. DeepSeek V3.1 este găzduit de NEAR prin intermediul infrastructurii lor verificabile și securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Salut, sunt Leo. Sunt un asistent AI oferit de iBrowe. Sunt alimentat de Claude Instant, un model creat de Anthropic pentru a susține sarcini conversaționale și de procesare a textului. Claude Instant este găzduit de iBrowe prin infrastructura noastră securizată.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="3789772321824682783">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Claude Haiku, un model creat de Anthropic pentru sarcini conversaționale și de procesare de text. Claude Haiku este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="1778885220602472158">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Claude Sonnet, un model creat de Anthropic pentru sarcini conversaționale și de procesare de text. Claude Sonnet este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="1058830842518828124">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Llama 4 Scout, un model creat de Meta pentru a fi performant și aplicabil la multe cazuri de utilizare. Llama 4 Scout este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="6277330815126859513">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Llama 4 Maverick, un model creat de Meta pentru a fi performant și aplicabil la multe cazuri de utilizare. Llama 4 Maverick este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="5833148755396048122">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza GPT OSS 20B, un model creat de OpenAI pentru a fi performant și aplicabil la multe cazuri de utilizare. GPT OSS 20B este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="5414593137581221307">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza GPT OSS 120B, un model creat de OpenAI pentru a fi performant și aplicabil la multe cazuri de utilizare. GPT OSS 120B este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="5037359072717016032">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Mistral Large, un model creat de Mistral pentru a fi performant și aplicabil la multe cazuri de utilizare. Mistral Large este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="8947618429500471804">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Pixtral Large, un model creat de Mistral pentru a fi performant și aplicabil la multe cazuri de utilizare. Pixtral Large este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="4026902371301997261">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Qwen 3 235B, un model creat de Alibaba Cloud pentru a fi performant și aplicabil la multe cazuri de utilizare. Qwen 3 235B este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="768541432895104346">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Deepseek V3.1, un model creat de Deepseek pentru a fi performant și aplicabil la multe cazuri de utilizare. Deepseek V3.1 este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="3767678495358551728">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Qwen 3 Coder 480B, un model creat de Alibaba Cloud pentru a fi performant și aplicabil la multe cazuri de utilizare. Qwen 3 Coder 480B este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="3369866806475938617">Salut, eu sunt Leo. Sunt un asistent IA complet găzduit de iBrowe. Sunt structurat pe baza Claude Opus, un model creat de Anthropic pentru sarcini conversaționale și de procesare de text. Claude Opus este găzduit de iBrowe prin intermediul propriei noastre infrastructuri securizate.<ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="5807427080183870259">Local</translation>
+<translation id="830868413617744215">beta</translation>
+<translation id="4773408460773097271">Ollama</translation>
 <translation id="631371844654031449">Modele recomandate</translation>
 <translation id="6568044140836233369">Afișați toate modelele</translation>
 <translation id="6187065185557150870">Chat</translation>
@@ -2187,6 +2234,7 @@ other {# surse}
 <translation id="7557539689487606886">Alege Premium</translation>
 <translation id="1691256669639196606">Gestionați abonamentul</translation>
 <translation id="3840096463915153852">Istoricul conversației</translation>
+<translation id="6761921176674289184">Gestionează amintirile</translation>
 <translation id="2304783958703511257">Setări avansate</translation>
 <translation id="3037594989275592390">Modele de limbaj</translation>
 <translation id="5543505256451301851">Încercați gratuit pentru 7 zile</translation>
@@ -2211,6 +2259,7 @@ other {# surse}
 <translation id="9109355817507033196">Răspuns neapreciat</translation>
 <translation id="4049425842478222936">Răspuns apreciat</translation>
 <translation id="6393149565874086128">Adăugați feedback</translation>
+<translation id="4621961534325272682">Conversația copiată în clipboard</translation>
 <translation id="3521125531016408657">Apreciați răspunsul</translation>
 <translation id="8202517001427388906">Respingeți răspunsul</translation>
 <translation id="1379399209929302811">Oferiți feedback pentru IA iBrowe</translation>
@@ -2223,6 +2272,24 @@ other {# surse}
 <translation id="7488762544858401571">Editat</translation>
 <translation id="5604254791550001355">Editare prompt</translation>
 <translation id="8115786586976830777">Copiere prompt</translation>
+<translation id="3666616415490815310">Salvați ca abilitate</translation>
+<translation id="6574544364990812112">Competențele mele</translation>
+<translation id="6696824203401957025">Competență nouă</translation>
+<translation id="6410279677882692627">Competențele vor apărea în instrumentele [/] și sunt accesibile prin simpla tastare a "/name" pe care l-ați configurat mai jos.</translation>
+<translation id="1344606707744657196">Model pentru prompt</translation>
+<translation id="8458341576712814616">Comandă rapidă</translation>
+<translation id="1326559827339317236">Introduceți aici scurtătura dvs.</translation>
+<translation id="5032574515228824816">Prompt</translation>
+<translation id="2573797314568446575">Introduceți promptul dvs. aici</translation>
+<translation id="900733896273558337">Modifică abilitatea</translation>
+<translation id="7662963028545588801">Ștergeți abilitatea</translation>
+<translation id="4209790625997566418">Sunteți sigur că doriți să ștergeți această abilitate? Această acțiune nu poate fi anulată.</translation>
+<translation id="7161540406494327389">Este necesară o comandă rapidă</translation>
+<translation id="3722223049736774445">Scurtarea poate conține numai litere, cifre, liniuțe de subliniere și cratimă</translation>
+<translation id="6997214168632888867">Scurtătura trebuie să aibă 64 de caractere sau mai puțin</translation>
+<translation id="2806891468525657116">Accesul scurt există deja</translation>
+<translation id="5497501845974700950">Promptul este necesar</translation>
+<translation id="5642369858603376334">Promptul trebuie să fie de cel mult 5000 de caractere</translation>
 <translation id="1406205536570262057">Editați răspunsul</translation>
 <translation id="3386725253392845084">Reîncearcă același model</translation>
 <translation id="2461822463642141190">Curent</translation>
@@ -2237,6 +2304,8 @@ other {# surse}
 <translation id="6495402307502950726">Ștergeți conversația</translation>
 <translation id="903201991022343217">Începeți o nouă conversație</translation>
 <translation id="8171760814579050200">Redenumiți conversația</translation>
+<translation id="402386227879573975">Copiează întreaga conversație</translation>
+<translation id="5397794290049113714">Tu</translation>
 <translation id="7754678742055438573">Ștergeți conversația</translation>
 <translation id="1946267518364740045">Raționament...</translation>
 <translation id="4198859185714743678">Raționament finalizat</translation>
@@ -2248,7 +2317,8 @@ other {# surse}
 <translation id="1243966363662220847">Răspunde la feedback</translation>
 <translation id="7417895556119762861">Dacă apreciezi sau nu un răspuns, ratingul, conversația, modelul, limba, versiunea și informațiile privind statutul premium vor fi transmise către iBrowe pentru a contribui la îmbunătățirea lui Leo. <ph name="LINK_BEFORE"/>Aflați mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Trimiteți-i un mesaj lui Leo</translation>
-<translation id="4084869091337186002">Leo AI Content Agent is always enabled in this profile</translation>
+<translation id="6222803935921999130">Deschide fereastra de profil AI browsing</translation>
+<translation id="1530903352777607099">Navigarea cu AI este întotdeauna activată în acest profil</translation>
 <translation id="8650874793377330048">Nu mai răspunde</translation>
 <translation id="8712637175834984815">Am înțeles</translation>
 <translation id="1093419424466417703">Această pagină este prea lungă pentru Leo. E posibil să lipsească context din conversație. Leo a putut citi <ph name="PERCENTAGE"/> din conținutul paginii.</translation>
@@ -2260,31 +2330,42 @@ other {# surse}
 <translation id="7307396647043599949">încă <ph name="COUNT"/>…</translation>
 <translation id="8103700533980268469">Închide această notificare</translation>
 <translation id="3417835166382867856">File de căutare</translation>
+<translation id="3828029223314399057">Căutare marcaje</translation>
+<translation id="381480092025168632">Istoricul browserului de căutare</translation>
+<translation id="7311244614769792472">Nu au fost găsite rezultate</translation>
+<translation id="3112448569149476523">Încercați o altă căutare</translation>
 <translation id="1352836459737874921">Atașează conținut din alte file</translation>
-<translation id="3028258613451571431">Trimite conținutul paginii din filele browser-ului pentru a oferi lui Leo mai mult context pentru conversație</translation>
-<translation id="4300920590112551536">File browser</translation>
-<translation id="1446346932629101482">Addaugă conținutul filelor pentru context. Conținutul va fi trimis către Leo împreună cu mesajele tale.</translation>
-<translation id="7193316103691252734">Nu există file corespunzătoare</translation>
+<translation id="7173836072258346701">Atașați conținut din marcaje</translation>
+<translation id="163680814308917875">Atașați conținut din istoricul browserului</translation>
+<translation id="7039179822221107025">Trimite conținutul paginii din filele browser-ului pentru a oferi lui Leo mai mult context pentru conversație.</translation>
+<translation id="1602382615168212961">Trimiteți conținutul paginii din filele din marcajele dvs. pentru a-i oferi lui Leo mai mult context pentru conversație.</translation>
+<translation id="4808122506413075135">Trimiteți conținutul paginii din istoricul browserului pentru a-i oferi lui Leo mai mult context pentru conversație.</translation>
+<translation id="220541218939267992">Conținutul paginii va fi trimis către Leo împreună cu mesajele dumneavoastră.</translation>
+<translation id="2152389270152475874">Adaugă file, marcaje sau istoric pentru context. Conținutul selectat va fi trimis către Leo împreună cu mesajele tale.</translation>
 <translation id="2315654674554095762">Leo își va aminti acum conversațiile tale ca să te poți întoarce la ele. Acestea sunt stocate criptat pe dispozitivul tău și le poți șterge oricând.</translation>
 <translation id="7821251979960635244">Istoricul conversațiilor tale va apărea aici odată ce începi o conversație.</translation>
 <translation id="887511360213807449">Istoricul este dezactivat</translation>
 <translation id="5380979378058584412">Pentru a vizualiza conversațiile anterioare cu Leo, trebuie să activezi istoricul conversațiilor.</translation>
-<translation id="6291843235651817590">Chat de interes general</translation>
+<translation id="7348809809749151120">Rapid • Căutare</translation>
 <translation id="3185367320601718531">Conversație și generare de text</translation>
-<translation id="7979673624064378842">Chat extrem de rapid</translation>
-<translation id="2836330653441111204">Viteză și inteligență echilibrate</translation>
-<translation id="6695329447007213917">Discuții cu scop general, codare și multe altele</translation>
-<translation id="7168072214482631597">Înțelegerea textului și a imaginii în scopuri generale</translation>
-<translation id="7226508434216060960">Model de raționament</translation>
+<translation id="2793458212460902934">Rapid • Căutare • Instrumente</translation>
+<translation id="8506027496671575183">Căutare • Viziune • Instrumente</translation>
+<translation id="3184606955650139158">Rapid • Căutare • Viziune</translation>
+<translation id="7465032796278724624">Privacy verificabilă cu NEAR AI TEE</translation>
 <translation id="8782867266498869301">Modelul se schimbă dinamic pentru a folosi cel mai bun pentru sarcină</translation>
+<translation id="3213834013136637671">Căutare • Viziune</translation>
 <translation id="3965507912994218570">Setări Leo</translation>
-<translation id="1037324977127422019">Bună, sunt Leo!</translation>
-<translation id="8930348081963284873">Un asistent de inteligență artificială, integrat direct în iBrowe.</translation>
-<translation id="3528849152231418380">Aveți nevoie de ajutor cu un site web/</translation>
-<translation id="1558192229187362674">Vă pot ajuta cu rezumate de articole, cu extinderea conținutului unui site web și cu multe altele.</translation>
-<translation id="861953757568623294">Vă pot ajuta cu rezumate de articole, cu extinderea conținutului unui site și multe altele. Nu știți de unde să începeți? Încercați aici:</translation>
-<translation id="5642775487085641191">Vreți doar chat?</translation>
-<translation id="8857222718794549840">Întrebați-mă orice! Putem discuta despre orice subiect. Învăț și fac eforturi continue să mă îmbunătățesc pentru a oferi răspunsuri cât mai pertinente.</translation>
+<translation id="3754337604877048671">Prezentarea Leo AI</translation>
+<translation id="5295261408976371809">Asistentul dvs. AI <ph name="TEXT_BEFORE"/>privat<ph name="TEXT_AFTER"/>, integrat direct în navigator.</translation>
+<translation id="7452913484571004528">AI cu adevărat privat</translation>
+<translation id="8525501048785085223">Leo nu reține și nu partajează conversațiile și nici nu le folosește pentru antrenarea modelului. Nu este necesar niciun cont sau autentificare. Doar deschideți și începeți conversația. În mod privat.</translation>
+<translation id="6401201054391523929">Conversați cu filele și fișierele dvs.</translation>
+<translation id="8522038408130089105">Aveți nevoie de mai multe informații despre site-urile pe care le vizitați? Doar adăugați-le într-o conversație. Atașați filele și fișierele locale pentru răspunsuri rapide și relevante.</translation>
+<translation id="3844955602461425647">Automatizați munca plictisitoare</translation>
+<translation id="2196247864500723577">Lăsați-l pe iBrowe să navigheze împreună cu dumneavoastră și să interacționeze cu tot ceea ce faceți în browser. Transferați sarcinile obositoare și păstrați-vă timpul pentru lucrurile importante.</translation>
+<translation id="235457946228076038">Adăugați propriul model</translation>
+<translation id="7024005267156189454">Conectați propriile modele AI, fie locale sau la distanță. Personalizați comportamentul, rezultatele și capabilitățile lui Leo conform preferințelor dumneavoastră.</translation>
+<translation id="7291578285403921288">Află mai multe despre Leo AI</translation>
 <translation id="9051226419897869406">Inițiați conversații private cu iBrowe Leo</translation>
 <translation id="2414904697165579184">Definește răspunsurile pe baza conținutului filei (filelor)</translation>
 <translation id="8258324391302611485">Conținutul acestei pagini va fi trimis la Leo împreună cu mesajele tale.</translation>
@@ -2293,6 +2374,7 @@ other {# surse}
 <translation id="8732450785281947197">Instrumente Leo IA</translation>
 <translation id="6535533770697728087">Acțiuni rapide</translation>
 <translation id="3237710083340813756">Rescrieți</translation>
+<translation id="1223498995510244364">Rezumați</translation>
 <translation id="1252805982772190086">Postare scurtă</translation>
 <translation id="2087555497198267113">Postare lungă</translation>
 <translation id="4170307327863874820">Postare pe blog</translation>
@@ -2319,7 +2401,9 @@ other {# surse}
 <translation id="4250229828105606438">Captură de ecran</translation>
 <translation id="7949596341600215809">Captură de ecran a paginii întregi</translation>
 <translation id="6332876390231524389">Conținutul filei curente</translation>
-<translation id="7742969455167760092">Deschide file...</translation>
+<translation id="6397861830483632092">File deschise…</translation>
+<translation id="802080272588201037">Marcaje…</translation>
+<translation id="2716127283451902393">Istorie…</translation>
 <translation id="49269513399674318">Utilizați microfonul</translation>
 <translation id="3895031624234442305">Modele personalizate</translation>
 <translation id="4572010449071015143">Începeți o nouă conversație</translation>
@@ -2331,13 +2415,47 @@ other {# surse}
 <translation id="2593275000606533518">Gestionați toate</translation>
 <translation id="8410199626695516952">Ok, nu o să-mi amintesc asta</translation>
 <translation id="8419849467765474535">Salvarea memoriei a eșuat. Vă rugăm să încercați din nou.</translation>
+<translation id="5517580030864973329">Navigarea paginii web la o adresă nouă</translation>
+<translation id="9197920788851078696">Navighează pe pagina web la <ph name="URL"/></translation>
+<translation id="5095252080770652994">Progres</translation>
+<translation id="8332385567036775056">Trepte</translation>
+<translation id="4521931942079977149">Faceți clic pe pagină</translation>
+<translation id="7732267913911704962">Glisarea și fixarea pe pagină</translation>
+<translation id="7703800915509570212">Navigarea înapoi</translation>
+<translation id="4875586490950981498">Navigarea înainte</translation>
+<translation id="738881387603843066">Mutarea mouse-ului</translation>
+<translation id="4850669014075537160">Derularea</translation>
+<translation id="1265072406500460724">Selectarea dintr-o listă derulantă</translation>
+<translation id="7573920298077917439">Tastatura textului</translation>
+<translation id="4089034800311309656">Așteptarea paginii</translation>
+<translation id="4798146464408730445">Nu s-au găsit competențe. Creați una nouă făcând clic pe butonul "Nou".</translation>
+<translation id="271033894570825754">Nou</translation>
+<translation id="8266605059880650542">Notarea unor informații despre pagină pentru mai târziu</translation>
+<translation id="5103625298494362646">Modul Agent funcționează cu modele care au suport pentru instrumente. Modelele non-compatibile sunt ascunse din această listă.</translation>
+<translation id="3397808797783614750">Activarea navigării automate AI poate duce la consecințe dăunătoare, neintenționate pentru confidențialitatea, finanțele și comunicările dvs. online. <ph name="LINK_BEFORE"/>Află mai multe<ph name="LINK_AFTER"/></translation>
+<translation id="4522025297473237294">Avertisment de securitate</translation>
+<translation id="6077070599873946984">iBrowe IA are nevoie de permisiunea ta pentru: <ph name="TOOL_LABEL"/></translation>
+<translation id="4163837693685963037">Operațiunea a fost detectată ca fiind potențial aliniată greșit cu cererea ta:</translation>
+<translation id="3927932062596804919">Refuză</translation>
+<translation id="4569155249847375786">Verificat</translation>
+<translation id="8200772114523450471">Reia</translation>
+<translation id="7607002721634913082">Întrerupt</translation>
+<translation id="4773299976671772492">Oprit</translation>
+<translation id="6946722113367118030">Se gândește</translation>
+<translation id="2113810663179257944">Executare cod</translation>
+<translation id="6338250692384725496">S-a executat codul în sandbox pentru a te ajuta cu interogarea</translation>
+<translation id="4379566111233326721">Cod:</translation>
+<translation id="3542130965673205258">Output:</translation>
+<translation id="3428245742224818842">IA navigare</translation>
+<translation id="2854657728271352435">Despre profilul de navigare IA</translation>
+<translation id="2301685062527585986">Pentru a-ți proteja datele, acest profil izolat pentru navigare IA garantează că agentul IA nu are acces la profilul tău principal de navigare și are permisiuni doar pentru a vizita și interacționa cu site-uri după cum este necesar. Îți poți crește productivitatea oferindu-i sarcini și permițându-i să navigheze în locul tău.</translation>
+<translation id="648116453147783450">Datele și sesiunile tale</translation>
+<translation id="4879348540868082026">Când te autentifici pe un site web utilizând acest profil, agentul de navigare IA al iBrowe poate vedea informațiile de pe acel site dacă este deschis, fie când el vizitează site-ul, fie când îi soliciți să realizeze o acțiune acolo.</translation>
+<translation id="5583803492921648196">Comutarea înapoi</translation>
+<translation id="864117099189791993">Poți comuta înapoi la profilul tău obișnuit oricând din meniul principal sau folosind meniul de profil din bara de instrumente. Navigarea IA se va deschide întotdeauna în profilul de navigare IA.</translation>
 <translation id="3486480638399578250">Menține adresa de e-mail privată</translation>
 <translation id="7765422154906712751">Creează adrese unice și aleatorii care redirecționează către contul tău de e-mail iBrowe și care pot fi șterse oricând. Menține adresa ta reală de e-mail departe de publicitate.</translation>
-<translation id="5222676887888702881">Deconectare</translation>
-<translation id="8090292425230843109">Deconectare de la numele alternative pentru email</translation>
-<translation id="8471990782451394141">Conectare la Contul iBrowe...</translation>
 <translation id="71316462802471551">Nume alternative pentru email</translation>
-<translation id="5713644099811900409">Contul iBrowe</translation>
 <translation id="6002159997868894136">Fă clic pentru a copia numele alternativ</translation>
 <translation id="8105770564756958406">Utilizat de <ph name="DOMAINS"/></translation>
 <translation id="5006956315579221642">Creează până la 5 nume alternative pentru email gratuite pentru a-ți proteja adresa de email reală.</translation>
@@ -2361,8 +2479,8 @@ other {# surse}
 <translation id="646524615209870492">Eliminarea <ph name="ALIAS"/> ca alias va duce la pierderea capacității de a primi e-mailuri.</translation>
 <translation id="8133100642915054515">Eroare la ștergerea aliasului. Verifică conexiunea la internet și încearcă din nou.</translation>
 <translation id="8465742443901727718">Această acțiune este ireversibilă. Sigur vrei să continui?</translation>
-<translation id="8662104432574824754">Pentru a începe, autentifică-te sau creează un cont iBrowe</translation>
-<translation id="8069030342700068465">Introdu adresa ta de email pentru a primi un link de autentificare securizat trimis la emailul tău. Dacă dai clic pe acest link se va crea sau accesa un Cont iBrowe și îți va permite să utilizezi serviciul gratuit de Nume alternative pentru Email.</translation>
+<translation id="9162685486229945876">Autentifică-te sau creează un cont iBrowe</translation>
+<translation id="1335007417599138852">Un cont iBrowe te va permite să accesezi anumite produse iBrowe și să sincronizezi cu ușurință informațiile tale pe toate dispozitivele tale.</translation>
 <translation id="2133391407495495735">Obține linkul de autentificare</translation>
 <translation id="2650906829817220223">Eroare la solicitarea autentificării. Verifică conexiunea la internet și încearcă din nou.</translation>
 <translation id="3699624789011381381">Adresă de email</translation>
@@ -2376,6 +2494,10 @@ other {# surse}
 <translation id="7508412964869396375">Nu s-a primit niciun token de verificare de la serviciul iBrowe Accounts</translation>
 <translation id="3179527991526213624">Niciun răspuns din partea serviciului iBrowe Accounts</translation>
 <translation id="7911439408853154309">Verificarea e-mailului a eșuat</translation>
+<translation id="2595463802839066496">Niciun răspuns de la serviciul Email Aliases</translation>
+<translation id="367191282389216837">Răspuns invalid de la serviciul Email Aliases</translation>
+<translation id="7203490731644771170">Eroare la serviciul Email Aliases: <ph name="ERROR"/></translation>
+<translation id="8767862600155091621">Eroare: Aliasul nu este disponibil</translation>
 <translation id="8370801182970639038">Automat (<ph name="LOCALE"/>)</translation>
 <translation id="8343473178272604223">Activează motoarele de căutare</translation>
 <translation id="8285901519864208412">Ascundeți cardul Recompense</translation>
@@ -2391,7 +2513,7 @@ other {# surse}
 <translation id="466214682712474574">Autentifică-te în contul <ph name="PROVIDER"/> pentru a vedea soldul tău</translation>
 <translation id="8332875111286275890">Conectează-te pentru a -ți vedea soldul</translation>
 <translation id="5430001801813715388">RECOMPENSE</translation>
-<translation id="5966055668402779222">Întreabă iBrowe Search</translation>
+<translation id="2430295257226173518">Întreabă orice, găsește orice…</translation>
 <translation id="167018310108390163">Personalizează pagina cu file noi</translation>
 <translation id="6851426306697017546">Afișează ceas</translation>
 <translation id="4844370919312937270">Afișează widgetul de căutare pe filele noi</translation>
@@ -2421,8 +2543,19 @@ other {# surse}
 <translation id="8458987127502506209">Activați scuturile iBrowe</translation>
 <translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>Protecțiile sunt ACTIVATE<ph name="STATUS_AFTER"/> pentru acest site</translation>
 <translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Protecțiile sunt DEZACTIVATE<ph name="STATUS_AFTER"/> pentru acest site</translation>
-<translation id="5623354834493649144">Dacă acest site nu se afișează corect, încearcă să dezactivezi funcția Protecții
-   <ph name="NOTE_BEFORE"/>Atenție: această modificare poate diminua protecțiile de confidențialitate furnizate de iBrowe..<ph name="NOTE_AFTER"/></translation>
+<translation id="4724752924364329714">Dacă acest site pare defect, încercați să dezactivați scuturile.</translation>
+<translation id="3992385019509961907"><ph name="NOTE_BEFORE"/>Notă: acest lucru poate reduce protecția vieții private a iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="3620004479054499575">Aveți probleme cu acest site?</translation>
+<translation id="9176447766421988172">Încercăm un experiment pentru a crește compatibilitatea site-urilor web, în care menținem activată doar blocarea reclamelor. Atenție: elimină toate protecțiile de confidențialitate. Doriți să îl încercați? <ph name="LINK_BEFORE"/>Aflați mai multe<ph name="LINK_AFTER"/>.</translation>
+<translation id="5372101283158221516">Vă rugăm să rețineți că, pentru site-urile web individuale care nu beneficiază de protecția confidențialității iBrowe, puteți seta Scuturile la DOWN.</translation>
+<translation id="2850777974644218370">Activează modul Adblock-Only</translation>
+<translation id="6623668214089604469">Site-ul funcționează corect acum?</translation>
+<translation id="8978860854770042258">Vă rugăm să luați în considerare trimiterea unui raport dacă acest site este încă defect.</translation>
+<translation id="4677356505199464553">Arată bine</translation>
+<translation id="1992750560347846445">Raportați site-ul</translation>
+<translation id="2863270180245144869">Mod Adblock-Only activat</translation>
+<translation id="3773808439655997805">În prezent folosești modul Adblock-Only. Acest mod oferă doar protecție împotriva reclamelor (dacă Shields sunt UP). Dacă dorești să revii la modul complet Shields, dezactivează acest mod din setări.</translation>
+<translation id="4820891023903368625">Anunțuri blocate <ph name="LINK_BEFORE"/>Aflați mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Următori, reclame și multe altele blocate <ph name="LINK_BEFORE"/> Aflați mai multe <ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Fără protecția iBrowe Shields <ph name="LINK_BEFORE"/>Aflați mai multe<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controale avansate</translation>
@@ -2438,6 +2571,12 @@ other {# surse}
 <translation id="3570081523466826008">Upgrade conexiuni la HTTPS</translation>
 <translation id="131231380815754440">Activați HTTPS</translation>
 <translation id="4824468494729001999">Blocare scripturi</translation>
+<translation id="5465091511225410553">(impus)</translation>
+<translation id="8646614940337543907">(impus de extensie)</translation>
+<translation id="3559821445144429594">(impus de politică)</translation>
+<translation id="550374350047782149">(impus de lista de permisiuni)</translation>
+<translation id="68858161161918073">(impus de supervizor)</translation>
+<translation id="5735057546627037489">(impus de PWA)</translation>
 <translation id="3246600097575692802">Activați scripturile blocate</translation>
 <translation id="3603525299146223354">Urmăritori &amp; reclame</translation>
 <translation id="4448697385961650078">Blocare șabloane de urmărire &amp; reclame</translation>
@@ -2448,6 +2587,8 @@ other {# surse}
 <translation id="6975864539539353406">Șterge modulele cookie și alte date referitoare la site în momentul în care închideți un site</translation>
 <translation id="6486971767955110687">Stochează informațiile de contact pentru viitoarele rapoarte privind site-urile defecte</translation>
 <translation id="4085787265464238844">Dacă furnizezi informații de contact, acestea vor fi stocate pentru rapoarte viitoare</translation>
+<translation id="7740929262043547697">Permite blocarea elementelor în Ferestre Incognito</translation>
+<translation id="1260864846935682371">Activează funcția Shields Blochează Elemente în Ferestre Incognito. Reține că elementele blocate în ferestre incognito vor fi, de asemenea, blocate și în ferestrele non-incognito.</translation>
 <translation id="6883611015375728278">Blochează toate cookie-urile</translation>
 <translation id="5657156137487675418">Permiteți toate cookie-urile</translation>
 <translation id="8366221601425141146">Fingerprinting blocat</translation>
@@ -2456,7 +2597,6 @@ other {# surse}
 <translation id="8034285923190068220">Permite amprentarea</translation>
 <translation id="7638541189782135885">Nu actualizați conexiunile HTTP</translation>
 <translation id="2570787596946026998">Conectați-vă numai cu HTTPS</translation>
-<translation id="1992750560347846445">Raportați site-ul</translation>
 <translation id="2387532482048804818">Spuneți-ne dacă site-ul n-a funcționat corect cu scuturile active.</translation>
 <translation id="3795015906457257780">Vizualizați acest site fără protecțiile de confidențialitate iBrowe.</translation>
 <translation id="7194012750329511146">Scuturile iBrowe
@@ -2473,6 +2613,9 @@ other {# surse}
       other {Scuturile iBrowe a blocat {BLOCKED_COUNT} trackere pe <ph name="SITE_URL"/>}
     }</translation>
 <translation id="2540598191934725677">Dați clic pe pictograma iBrowe pentru a afișa Scuturile iBrowe.</translation>
+<translation id="542789539047208469">Informații site</translation>
+<translation id="7586067492365979844">iBrowe Shields are o nouă locație și design. Acum se integrează cu informațiile site-ului pentru o experiență cu o singură oprire.</translation>
+<translation id="9114542678887529043">iBrowe Shields are o nouă locație și design. Accesează-l făcând clic pe pictograma site-ului din bara de adrese.</translation>
 <translation id="6294662480095808915">Confidențialitate. În mod implicit.</translation>
 <translation id="4366423156486478559">Obțineți protecție iBrowe la fiecare link pe care faceți clic. Pur și simplu setați iBrowe ca implicită și navigați. Privat.</translation>
 <translation id="3830912418080848377">Import setări</translation>
@@ -2484,6 +2627,7 @@ other {# surse}
 <translation id="2273851479262317744">Setați iBrowe ca browser implicit</translation>
 <translation id="5037676449506322593">Selectează tot</translation>
 <translation id="5148943178722443958">Ajutați-ne să îmbunătățim iBrowe.</translation>
+<translation id="479535542793009168">Stabilitate și diagnostice</translation>
 <translation id="1097073572755862978">Transmiteți rapoarte de diagnostic în caz că întâmpinați erori sau blocaje. <ph name="LINK_BEFORE"/>Aflați mai multe.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Trimiteți statistici de produse confidențiale și anonime referitoare la funcțiile utilizate de utilizatorii iBrowe. <ph name="LINK_BEFORE"/>Aflați mai multe.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Configurare completă</translation>
@@ -2500,13 +2644,16 @@ other {# surse}
 <translation id="6764845498618413165">Aflați mai multe.</translation>
 <translation id="7818938154803162778">Sigur, voi ajuta</translation>
 <translation id="7207456302801184289">Bun venit la iBrowe</translation>
-<translation id="6716580298071890302">Folosiți temă mai întunecată</translation>
+<translation id="4988030440045495002">Temă ultra întunecată</translation>
 <translation id="2422927186524098759">Bara laterală</translation>
 <translation id="2361906291514218784">Leo IA</translation>
 <translation id="7705524343798198388">VPN</translation>
 <translation id="8000020256436988724">Bară de instrumente</translation>
 <translation id="6225572914528673855">Bară de adrese</translation>
+<translation id="6821966107067356137">Adaugă flux RSS</translation>
+<translation id="2478076885740497414">Instalează aplicația</translation>
 <translation id="8293206222192510085">Adăugați un marcaj</translation>
+<translation id="1010029336854254368">Meniu de partajare</translation>
 <translation id="7758460733045216901">Panou de marcaje</translation>
 <translation id="958268166261124668">iBrowe VPN: Conectat</translation>
 <translation id="6021669293402055982">iBrowe VPN: Deconectat</translation>
@@ -2608,5 +2755,6 @@ Permiteți-ne să vă conectăm!</translation>
  fila existentă</translation>
 <translation id="451189393813405346">Întrebați-l pe Leo</translation>
 <translation id="1602850501393095406">Apasă ↑ pentru a evidenția</translation>
+<translation id="8367705492654390392">Întreabă orice</translation>
 <translation id="8525248723479742219">Redați mai târziu</translation>
 </translationbundle>

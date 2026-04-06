@@ -19,6 +19,7 @@
 <translation id="1544192797660353713">საფულე</translation>
 <translation id="2361906291514218784">Leo AI</translation>
 <translation id="8275068909952022340">მეტი…</translation>
+<translation id="71316462802471551">ელფოსტის ზედმეტსახელები</translation>
 <translation id="1990886731975529483">Google Widevine-ის ინსტალაცია და გააქტიურება</translation>
 <translation id="8926389886865778422">აღარ მკითხო</translation>
 <translation id="4900351245762303149">Google Widevine-ის ინსტალაცია და გააქტიურება</translation>
@@ -65,11 +66,9 @@
 <translation id="1434416574322382019">გახსენით ახალი პირადი ფანჯარა Tor-ის გამოყენებით</translation>
 <translation id="4703780849509456860">გახსნა ბმული პირად ფანჯარაში Tor-ით</translation>
 <translation id="3488584642074079080">ბმული გახსნილია iBrowe-ის პირად ფანჯარაში Tor-ის გამოყენებით</translation>
-<translation id="8594912907680633924">ბმულის გახსნა გაყოფილ ხედვაში</translation>
 <translation id="6313675821927505581">ახალი პირადი ფანჯარა Tor-ით</translation>
 <translation id="2638041073279639246">ბმულის გახსნა პირად ფანჯარაში Tor-ით</translation>
 <translation id="3425600262621021599">ბმული გახსნა iBrowe-ის პირად ფანჯარაში Tor-ის გამოყენებით</translation>
-<translation id="3795436270513738622">ბმულის გახსნა გაყოფილ ხედვაში</translation>
 <translation id="2545072023356206691">2023 წლის 1 დეკემბრიდან iBrowe Dev არხი აღარ მიიღებს ბრაუზერის განახლებებს. რეკომენდაცია ვაძლევთ მომხმარებლებს გადაიტანონ Nightly, Beta ან Release iBrowe ვერსიებზე.</translation>
 <translation id="474217410105706308">ჩანართის ჩუმად მხილება</translation>
 <translation id="2804710924397009224">iBrowe Rewards-ის ხატი დამალვა</translation>
@@ -133,7 +132,6 @@
 <translation id="780301667611848630">არა, გმადლობთ</translation>
 <translation id="1162706247109707219">OK-ზე დაკლიკებით, აღიარებთ რომ თქვენი iBrowe-ის ინსტალაცია ვერ მიიღებს კრიტიკულ უსაფრთხოების ფიქსებს, სანამ არ განაახლებთ Windows 10 ან მოგვიანოების ვერსიაზე. ეს შეხსენება აღარ გამოისახება.</translation>
 <translation id="9164786361657554526">OK-ზე დაკლიკებით, აღიარებთ რომ თქვენი iBrowe-ის ინსტალაცია ვერ მიიღებს კრიტიკულ უსაფრთხოების ფიქსებს, სანამ არ განაახლებთ macOS 10.15 ან მოგვიანოების ვერსიაზე. ეს შეხსენება აღარ გამოისახება.</translation>
-<translation id="2770465223704140727">სია წაშლა</translation>
 <translation id="6020553119523541665">ეს ჩანართი აქტიური არის სხვა ფანჯარაში</translation>
 <translation id="4987392683074136770">ამ ჩანართზე დაკლიკებით, მისი შინაარსი კონვერტირდება ამ ფანჯარაში</translation>
 <translation id="8355523213948477234">გაყოფილი ხედი მენიუს ღილაკი</translation>
@@ -199,15 +197,17 @@
 შეგიძლიათ წაიკითხოთ <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS"/>ინსტრუქციები როგორ გადმოტვირთოთ და ააწყოთ იგი დამოუკიდებლად<ph name="END_LINK_BUILD_INSTRUCTIONS"/> კონკრეტული <ph name="BEGIN_LINK_SOURCE_CODE"/>სორს კოდი, რომლითაც შეიქმნა ეს ასლი<ph name="END_LINK_SOURCE_CODE"/>.</translation>
 <translation id="4474155171896946103">ყველა ტაბის ჩანიშვნა...</translation>
 <translation id="3987546108749866209">ვერტიკალური ჩანართების გამოყენება</translation>
+<translation id="1904394285866191268">{NUM_TABS, plural, =1 {Mute tab} other {Mute tabs}}</translation>
+<translation id="5179127818058486126">{NUM_TABS, plural, =1 {Unmute tab} other {Unmute tabs}}</translation>
 <translation id="2289567621059034186">ახალი ტაბი ქვემოთ</translation>
 <translation id="3228962656492373217">ტაბების დახურვა ქვემოთ</translation>
 <translation id="8030501904366631501">ყველა ტაბის ამ ფანჯარაში მოტანა</translation>
 <translation id="253980346046488815">დუბლირებული ტაბების დახურვა</translation>
 <translation id="8670218546624422041">გასახსნელი კონტეინერში</translation>
 <translation id="8638526693050780542">კონტეინერების მართვა</translation>
-<translation id="7302999361397024774">ტაბის გადარქმევა</translation>
 <translation id="2336228925368920074">ყველა ტაბის ჩანიშვნა...</translation>
 <translation id="2523967823495420116">ვერტიკალური ტაბების გამოყენება</translation>
+<translation id="3785071023202624850">{NUM_TABS, plural, =1 {Mute Tab} other {Mute Tabs}}</translation>
 <translation id="2120478168904746065">{NUM_TABS, plural, =1 {სტატუსის აუდიო გახსნა} other {სტატუსების აუდიო გახსნა}}</translation>
 <translation id="4405580203042711503">ახალი გვერდი ქვემოთ</translation>
 <translation id="5611474372949142946">ქვემოთ გვერდების დახურვა</translation>
@@ -215,7 +215,6 @@
 <translation id="2703180365855369896">დუბლირებული გვერდების დახურვა</translation>
 <translation id="1987871867023021397">გახსნილი კონტეინერში</translation>
 <translation id="6745991613881384719">კონტეინერების მართვა</translation>
-<translation id="3917844427669888979">ტაბის გადარქმევა</translation>
 <translation id="3704707436873245822">ტექსტის კოპირება გამოსახულებიდან</translation>
 <translation id="5268098808165185458">ტექსტის კოპირება გამოსახულებიდან...</translation>
 <translation id="4046485130884276245">ტექსტი კოპირებულია გამოსახულებიდან</translation>
@@ -223,6 +222,8 @@
 <translation id="3960619311638643872">iBrowe VPN</translation>
 <translation id="2506438154311626334">გამოიყენეთ WireGuard პროტოკოლი iBrowe VPN-ში</translation>
 <translation id="8519170191215826548">ეს პარამეტრი არ შეიძლება შეიცვალოს სანამ iBrowe VPN დაკავშირებულია.</translation>
+<translation id="1177917174080821247">VPN ტრაიზითონის ჩვენება</translation>
+<translation id="3747459938663420752">როდესაც ჩართულია, Windows-ის დაქვეითებულ ზოლზე გამოჩნდება iBrowe VPN-ის ხატულა.</translation>
 <translation id="4235920711083356755">VPN ღილაკის ჩვენება</translation>
 <translation id="4070612712151038707">ჩვენება VPN ღილაკის პანელში</translation>
 <translation id="7705524343798198388">VPN</translation>
@@ -234,7 +235,6 @@
 <translation id="8030169304546394654">გათიშული</translation>
 <translation id="1863950594388384201">VPN ღილაკის ჩვენება პანელში</translation>
 <translation id="5187139277471084437">VPN ღილაკის დამალვა პანელში</translation>
-<translation id="1177917174080821247">VPN ტრაიზითონის ჩვენება</translation>
 <translation id="8041089156583427627">უკუკავშირი</translation>
 <translation id="4049186905514157504">გეგმების მართვა</translation>
 <translation id="7570585565843385325">VPN ღილაკის ჩვენება პანელში</translation>
@@ -250,10 +250,6 @@
 <translation id="796831669370432378">სანიშნების დასამატებლად, დააჭირეთ სანიშნების ღილაკს მისამართის ზოლთან ახლოს</translation>
 <translation id="8487693399751278191">სანიშნების იმპორტი...</translation>
 <translation id="2557899542277210112">სანახავად, დასახარგებლად, დაამატეთ სანიშნები სანიშნების პანელზე.</translation>
-<translation id="1968543937259008435">მზად ხართ საუკეთესო ონლაინ კონფიდენციალურობისთვის?</translation>
-<translation id="6817415381278637662">გაყენეთ iBrowe როგორც თქვენი ნაგულისხმევი ბრაუზერი ყველა ვებ გვერდზე.</translation>
-<translation id="7537601449003285327">სამუშაო დაფაზე მიმაგრება</translation>
-<translation id="2307973900865360088">დოკში შენახვა</translation>
 <translation id="961012016278832836">Microsoft Edge Legacy</translation>
 <translation id="6436994631426134065">იმპორტირებულია <ph name="BROWSER_NAME"/>-დან.</translation>
 <translation id="5119173345047096771">Mozilla Firefox</translation>
@@ -339,6 +335,7 @@
 <translation id="7557539689487606886">პრემიუმის გააქტიურება</translation>
 <translation id="1035309871698658326">როდესაც გაიხსნება, ეს ავტომატურად გააგზავნის ყველა არამხოლოდ პირადი ტაბის დასახელებებს და წარმოშობას Leo-ში, რათა ისინი კატეგორიზირება.</translation>
 <translation id="3435896845095436175">გააქტიურება</translation>
+<translation id="9082792303833649978">ეს პარამეტრი შეიქმნა თქვენი ადმინისტრატორის ან სხვა iBrowe პოლიტიკის მეშვეობით.</translation>
 <translation id="1940221956626514677">დაარეგულირეთ ხელსაწყოთა პანელი</translation>
 <translation id="6501807887341963552">თემა და ფერები</translation>
 <translation id="6724227215236550330">შენახული პაროლები აქ გამოჩნდება. პაროლების ამ მოწყობილობაზე <ph name="BRAND"/> იმპორტისთვის, <ph name="BEGIN_LINK"/> აირჩიეთ CSV ფაილი <ph name="END_LINK"/></translation>
@@ -381,9 +378,12 @@
 <translation id="5436069931267876389">კონტეინერი არ მოიძებნა</translation>
 <translation id="2263346047290834619">გამოიყენეთ ხის ჩანართები</translation>
 <translation id="5860254591544742609">ტიტულის ზოლის ჩვენება</translation>
-<translation id="5371926069408837914">გაფართოვეთ ვერტიკალური ჩანართების პანელი მაუსის გადაადგილებაზე, როცა შეკვეცილია</translation>
+<translation id="4691131445504068802">დამალე სრულად, როდესაც მინიმიზებულია</translation>
+<translation id="6763346436728173884">ყოველთვის დამალე ჩანართის დახურვის ღილაკი</translation>
+<translation id="8082625757059443808">შუალედური ღილაკით დაწკაპუნებით დახურვის ნებართვა გახსნილ ჩანართებზე</translation>
+<translation id="4909269867860362936">ავტომატურად გაფართოვება კურსორის მიყოლისას, როცა მინიმიზებულია</translation>
 <translation id="3367129510799209147">ჩანართის გადაადგილების რეჟიმი</translation>
-<translation id="8527099657928614787">გაფართოვეთ ვერტიკალური ჩანართები დამოუკიდებლად ყოველ ფანჯარაში</translation>
+<translation id="8925055964134259461">ავტომატურად გაფართოვება ვერტიკალური ჩანართებისთვის ყოველ ფანჯარაზე ცალ-ცალკე</translation>
 <translation id="916373084491701212">შოუსcrollbar</translation>
 <translation id="515949045075831661">მარჯვნივ გამოჩენა</translation>
 <translation id="3725395376319291415">მარცხნივ გამოჩენა</translation>
@@ -393,24 +393,25 @@
 <translation id="5219886318310413094">საფოსტო ჩანართების ჩვენება ყველა ფანჯარაში</translation>
 <translation id="2396127686705429331">სანიშნებიები ღილაკის ჩვენება</translation>
 <translation id="2814998458708016836">გაფართოებული მისამართების ზოლის გამოყენება</translation>
+<translation id="4749586705247636385">მთავარი შიგთავსის არეალზე მოჭრილი კუთხეების ჩვენება</translation>
 <translation id="4109670531935487117">ავტომატური შევსების შემოთავაზებების მისამართის ზოლში ჩვენება</translation>
-<translation id="3405901785709583668">ტოპ რეკომენდაციები</translation>
+<translation id="4579877808890085926">მოწყობილობაზე გენერირებული შემოთავაზებები</translation>
 <translation id="7859704718976024901">ბრაუზინგის ისტორია</translation>
 <translation id="8820817407110198400">სანიშნები</translation>
 <translation id="4144468798716165316">სწრაფი ბრძანებები</translation>
 <translation id="7310387888625228830">Leo AI ასისტენტი</translation>
 <translation id="5222974844674487962">iBrowe სიახლეების ღილაკის ჩვენება</translation>
 <translation id="2085436423511121572">Leo AI ღილაკის ჩვენება</translation>
-<translation id="383007806262310953">სანიშნების ჩვენება</translation>
+<translation id="6156323911414505561">სანიშნების პანელის ჩვენება</translation>
 <translation id="4054323497808446566">სანიშნეების ზოლი ჩანს ყველა გვერდზე</translation>
 <translation id="8693858092251192712">სანიშნეების ზოლი დაფარულია ყველა გვერდზე გარდა ახალი ჩანართის გვერდისა</translation>
 <translation id="7158817046543187970">სანიშნეების ზოლი დაფარულია ყველა გვერდზე</translation>
 <translation id="3416468988018290825">ყოველთვის აჩვენეთ სრული URLები</translation>
 <translation id="5529693968082667490">ჩანართების საძიებო ღილაკის ჩვენება</translation>
 <translation id="1013121820689882118">სწრაფმკითხველი</translation>
-<translation id="1467652519828052368">ჩართეთ Speedreader ფუნქცია</translation>
+<translation id="5522420266446076076">ჩართეთ Speedreader ფუნქცია.</translation>
 <translation id="5211997910936574251">ავტომატურად გამოიყენეთ Speedreader, შესაძლებლობის შემთხვევაში</translation>
-<translation id="2025435450953474282">სტატიები ავტო-დაყნედის რეჟიმში იტვირთება, დროის უკიონების სიმშემდეგი.</translation>
+<translation id="2025435450953474282">სტატიები ავტომატურად იტვირთება მკითხველის რეჟიმში და ზოგავთ დროს</translation>
 <translation id="7984721311211272523">ჩანართის მოსაუბრეზე ჩუმი ფუნქციის გამორთვა</translation>
 <translation id="832432428796481785">გვერდითი პანელის ღილაკის ჩვენება</translation>
 <translation id="5581036754486769849">ავტო-შევსების ნებართვა პირად ფანჯრებში</translation>
@@ -421,9 +422,11 @@
 <translation id="3719826155360621982">მთავარი გვერდი</translation>
 <translation id="5448570825852364919">ცარიელი გვერდი</translation>
 <translation id="8244387390464017490">ახალი ჩანართის გვერდის პერსონალიზაცია</translation>
+<translation id="7537601449003285327">სამუშაო დაფაზე მიმაგრება</translation>
 <translation id="7461924472993315131">დამაგრება</translation>
 <translation id="735832369569964359">დაკლიკეთ 'დამაგრებაზე' და დადასტურეთ მას Windows-ის შეტყობინებაში</translation>
 <translation id="7506648566440714944">iBrowe უკვე დამაგრებულია</translation>
+<translation id="2307973900865360088">დოკში შენახვა</translation>
 <translation id="239275665037555969">დოკი</translation>
 <translation id="4057614912106618659">iBrowe უკვე დოკშია</translation>
 <translation id="3195845168740336657">Shields-ის პარამეტრები</translation>
@@ -432,7 +435,7 @@
 <translation id="5690973901138662477">Shields-მაღლა</translation>
 <translation id="4697275813919189958">Shields-ქვემოთ</translation>
 <translation id="6303294677342628402">Shields</translation>
-<translation id="7133511168130368997">დაბლოკეთ ტრეკერები და რეკლამები, რომლებიც გიცარიელებენ ინტერნეტში.</translation>
+<translation id="5128768857590582420">დაბლოკეთ ტრეკერები და რეკლამები, რომლებიც გიცარიელებენ ინტერნეტში</translation>
 <translation id="2761825942249694703">ეს არის ნაგულისხმევი Shields პარამეტრები. ისინი მიესადაგება ყველა ვებგვერდს, თუ რამეს შეცვლით კონკრეტულ საიტზე Shields პანელში. ამ პარამეტრის შეცვლა არ იმოქმედებს თქვენს არსებული თითოეული საიტის პარამეტრებზე.</translation>
 <translation id="8452536890042542134">ეს დაბლოკავს უმეტეს რეკლამებს ვებგვერდებზე.</translation>
 <translation id="4800195524776354947">აჩვენეთ დაბლოკილი ნივთების რაოდენობა Shields სიმბოლოზე</translation>
@@ -495,10 +498,34 @@
 <translation id="2718718846210516552">სქრიპტლეტი ვერ მოიძებნა.</translation>
 <translation id="4088315951291671239">არ ჩასვათ აქ კოდი, რომ არ გესმით ან არ შეგიმოწმებია. ეს შეიძლება თავდასხმელებმა გამოიყენონ თქვენი ვინაობის მოპარვისთვის ან თქვენი კომპიუტერის გაკონტროლებისთვის.</translation>
 <translation id="3020183492814296499">მოკლე გზები</translation>
+<translation id="2935698011275148880">iBrowe Origin</translation>
+<translation id="2587535830241068901">დააკონფიგურირეთ თქვენი ბრაუზერი ისე, რომ iBrowe-ის მხარდაჭერა შეინარჩუნოთ</translation>
+<translation id="553273341094971255">iBrowe Origin გაძლევთ საშუალებას მოირგოთ iBrowe თქვენზე ისე, რომ გამორთოს ყველა შიგნითა რეკლამა, ბრენდის შეთავაზებები და ანონიმური ანალიტიკა, რომელიც შესაძლოა გააქტიურებული გქონდეთ ინსტალაციის დროს.</translation>
+<translation id="534725333104202278">ნებისმიერი ადონები ან მახასიათებლები, რომლებიც ადრე გქონდათ გააქტიურებული ან გამოყენებული, დარჩება ხილვად და ინტეგრირებული. დარჩენილი კი გამორთული იქნება. განაგრძეთ iBrowe-ის მორგება, როდესაც ბრაუზერში ახალ შესაძლებლობებს დავამატებთ — ისინი გამოჩნდება ჩუმად და დამალულად iBrowe Origin-ის პანელში.</translation>
+<translation id="1919345977826869612">რეკლამები</translation>
+<translation id="944736176598169208">ჯილდოები</translation>
+<translation id="2839742394543397416">ანალიტიკა</translation>
+<translation id="1799030480311994998">ფუნქციები</translation>
+<translation id="6709133671862442373">სიახლეები</translation>
+<translation id="6297791103122079275">iBrowe Talk</translation>
+<translation id="1458638489455808030">Wayback Machine</translation>
+<translation id="1199170151481311646">კონფიდენციალურობის დამცველი ანალიტიკა</translation>
+<translation id="5990642573624858459">სტატისტიკის გაგზავნა</translation>
+<translation id="2441719842399509963">ყველას დაბრუნება ნაგულისხმევად</translation>
+<translation id="4530494379350999373">წარმომავლობა</translation>
+<translation id="2964215604640804042">iBrowe Origin არის ব্রাউজერის გადახდილი ვერსია მომხმარებლებისთვის, რომლებიც არ სჭირდებათ ყველა ის ფუნქცია, რომელიც iBrowe-ს ბიზნესად მხარს უჭერს, მაგრამ მაინც სურთ iBrowe-ის მხოლოდ მისაც სთავაზო კონფიდენციალურობა. iBrowe Origin მომხმარებლები განაგრძობენ ჩვენი ინდუსტრიაში წამყვანი კონფიდენციალურობის, დაბლოკვის და სიჩქარის (iBrowe Shields-ის მეშვეობით) უპირატესობის გამოყენებას, ასევე რეგულარული პროგრამული განახლებების, Chromium პატჩებისა და უსაფრთხოების და კონფიდენციალურობის გაუმჯობესებების. ისინი ასევე განბლოკავენ ფუნქციების გამორთვის შესაძლებლობას, როგორიცაა AI, Rewards, Wallet, VPN, Web3 დომენები და სხვა.</translation>
+<translation id="9130916892338379417">iBrowe Origin ხელმისაწვდომია ერთჯერადი ყიდვის საშუალებით. მობილურზე (Android და iOS) და დესკტოპზე, Origin შეიძლება იყიდოთ როგორც განახლება თქვენი არსებული გამოშვების ვერსიაზე. დესკტოპზე, Origin ასევე ხელმისაწვდომია როგორც ცალკე, დამოუკიდებელი აპლიკაცია. Origin მომხმარებლები ხედავენ ახალ საკონტროლო პანელს Settings მენიუში. არსებული ფუნქციები—ასევე ნებისმიერი ახალი ფუნქცია, რომელსაც წარმოვიდგენთ მომავალში—აქ გამოჩნდებიან და ჩართვის შესაძლებლობა აღმოფხვრილი იქნება.</translation>
+<translation id="7984508421152399880">ახლავე ყიდვა</translation>
 <translation id="5567412479632285879">iBrowe Rewards გამორთულია</translation>
 <translation id="413570371620795359">გახსენით ჯილდოების პანელი გასააქტიურებლად და დასაწყებად</translation>
 <translation id="1051600834033686945">გახსენით სრული iBrowe Rewards პარამეტრები</translation>
 <translation id="8826461509529116322">iBrowe Rewards-ის ღილაკის ჩვენება</translation>
+<translation id="4859866966646365361">მხოლოდ რეკლამების ბლოკირების რეჟიმი</translation>
+<translation id="4146834954839563870">გამოყენება მხოლოდ რეკლამების ბლოკირების რეჟიმით</translation>
+<translation id="420732343671200734">მხოლოდ რეკლამების ბლოკირების რეჟიმი ინარჩუნებს iBrowe Shields-ის ძირითად ბლოკირების წესებს.  გაფრთხილება: გამორთავს ყველა კონფიდენციალურობის დაცვის მახასიათებელს. გაითვალისწინეთ, რომ ცალკეული ვებსაიტებისთვის, რომლებიც iBrowe-ის კონფიდენციალურობის დაცვით არ ფუნქციონირებენ სწორად, შეგიძლიათ დააყენოთ Shields მდგომარეობა DOWN-ზე. ეს არის ექსპერიმენტული რეჟიმი. <ph name="BEGIN_LINK"/>გაიგეთ მეტი<ph name="END_LINK"/></translation>
+<translation id="3055675200351793825">Shields პარამეტრები ამჟამად გათიშულია.</translation>
+<translation id="2687830906359353344">მხოლოდ რეკლამების ბლოკირების რეჟიმი ინარჩუნებს iBrowe Shields-ის ძირითად ბლოკირების წესებს და გამორთავს კონფიდენციალურობის დამცავ მახასიათებლებს. თუ გსურთ სისტემური Shields-ის დაბრუნება, გამორთეთ ეს რეჟიმი.</translation>
+<translation id="3809423899581611047">გამორთე მხოლოდ რეკლამების ბლოკირების რეჟიმი</translation>
 <translation id="9185018653595759199">სოციალური მედიის დაბლოკვა</translation>
 <translation id="863171915776379000">Facebook-ით შესვლისა და ჩაშენებული პოსტების დაშვება</translation>
 <translation id="7791141927430186653">X-ის (ადრე Twitter) ინტეგრირებული ტვიტების ჩართვა</translation>
@@ -531,7 +558,6 @@
 <translation id="5747552184818312860">ვადის გასვლა</translation>
 <translation id="3858860766373142691">სახელი</translation>
 <translation id="361106536627977100">Flash მონაცემები</translation>
-<translation id="4530494379350999373">წარმომავლობა</translation>
 <translation id="8195027750202970175">დისკზე ზომა</translation>
 <translation id="9116465289595958864">ბოლო ცვლილება</translation>
 <translation id="4590324241397107707">მონაცემთა ბაზის შენახვა</translation>
@@ -564,11 +590,6 @@
 <translation id="2903783737778379345">არ მისცეთ ნებართვა Google-ში შესვლაზე მესამე მხარის cookies-ების საშუალებით</translation>
 <translation id="2570833232754279153">მეორე მხარის cookies-ის გამოყენება Google Sign-In-ისთვის არათავმჯდომარე</translation>
 <translation id="6880817299303842099">ნებადართულია მესამე მხარის cookies-ების საშუალებით Google-ში შესვლა</translation>
-<translation id="2136412236435693622">Localhost-ის წვდომა</translation>
-<translation id="4172219483893066798">საიტებს შეუძლიათ ითხოვონ localhost-ის რესურსებზე წვდომა</translation>
-<translation id="7181706637590665047">არ მისცეთ localhost-ის რესურსებზე წვდომის ნებართვა</translation>
-<translation id="1336116824874668514">localhost-ის რესურსებზე წვდომის ნებართვა არ არის</translation>
-<translation id="1485435696620658073">ნებადართულია localhost-ის რესურსებზე წვდომა</translation>
 <translation id="5794692721727586076">Leo AI ჩატი</translation>
 <translation id="8115153008662981040">საიტები კითხვას მთხოვენ Leo AI ჩატის გახსნას</translation>
 <translation id="1145070115730668595">ნუ მისცემენ საიტებს უფლებას Leo AI ჩატის გახსნაზე</translation>
@@ -637,8 +658,6 @@
 <translation id="7029809446516969842">პაროლები</translation>
 <translation id="6011308810877101166">ძიების შეთავაზებების გაუმჯობესება</translation>
 <translation id="2332576387809612040">როდესაც ჩართულია, iBrowe აგზავნის იმას, რაც თქვენ ტიპავთ მისამართის ზოლში ან საძიებო ყუთში, თქვენს ნაგულისხმევ საძიებო სისტემა, რათა მიიღოთ უკეთესი შეთავაზებები. როდესაც გამორთულია, iBrowe მხოლოდ აჩვენებს შეთავაზებებს, რომლებიც გენერირებულია თქვენს მოწყობილობაზე. ეს ყოველთვის გამორთულია პირად ფანჯრებში.</translation>
-<translation id="6285118765755298263">სხვა საძიებო სისტემების ინდექსირება</translation>
-<translation id="5526883767168905185">ავტომატურად ინდექსდება ვებგვერდები, რომლებიც ემთხვევა OpenSearch სპეციფიკაციას</translation>
 <translation id="5522403133543437426">საძიებო სისტემა გამოიყენება მისამართის ზოლში.</translation>
 <translation id="280472502078788655">საძიებო სისტემა გამოიყენება მისამართის ზოლში პირადი ფანჯრისთვის.</translation>
 <translation id="7232120595886556478">ჩვეულებრივი ფანჯარა</translation>
@@ -726,6 +745,7 @@
 <translation id="7141438739990875547">ბიტკოინის ქსელები</translation>
 <translation id="1077567586443625607">Zcash ქსელები</translation>
 <translation id="1177180573354712438">კარდანოს ქსელები</translation>
+<translation id="3176794108951154148">Polkadot-ის ქსელები</translation>
 <translation id="3159419679550543837">ტესტ ქსელების ჩვენება</translation>
 <translation id="3215569562674795548">ქსელის დამატების ან შეცვლა</translation>
 <translation id="4418993400653250511">ჩეინის ID-დადა</translation>
@@ -810,6 +830,7 @@
 <translation id="8137606697798069075">გამოიყენეთ ნებისმიერი OpenAI Chat Protocol-ის შესაბამისი სისტემა, როგორიცაა Ollama. <ph name="BEGIN_LINK"/>გაიგეთ მეტი<ph name="END_LINK"/></translation>
 <translation id="2642905648178380593">მოდელის შენახვა</translation>
 <translation id="6304169450064541679">სისტემური მოთხოვნა</translation>
+<translation id="3081947790648024460">მოდელისთვის მორგებული ინსტრუქციები და/ან კონტექსტი, რათა პასუხების სტილი ან მიმართულება განსაზღვროს. გამოიყენეთ %datetime% იმ ადგილას, სადაც გსურთ რომ განთავსდეს მიმდინარე თარიღი და დრო.</translation>
 <translation id="5688878061573389791">შეიცავს ≈<ph name="TOKENS_COUNT"/> ტოკენს</translation>
 <translation id="6911466383346197271">ლეოს პერსონალიზაცია</translation>
 <translation id="5702085383070170010">თქვენს შესახებ</translation>
@@ -838,6 +859,11 @@
 <translation id="1721787502053471881">დარწმუნებული ხართ, რომ გსურთ მეხსიერების წაშლა? ეს ქმედება ვერ იქნება უკან წაღებული.</translation>
 <translation id="5239685926753073108">ყველა მეხსიერების წაშლა</translation>
 <translation id="2600803466586623124">დარწმუნებული ხართ, რომ გსურთ ყველა მეხსიერების წაშლა? ეს ქმედება ვერ იქნება უკან წაღებული.</translation>
+<translation id="7311244614769792472">ვერ მოიძებნა შედეგები</translation>
+<translation id="1838374766361614909">ძიების გასუფთავება</translation>
+<translation id="5126255551970171328">მეხსიერებაში ძიება</translation>
+<translation id="7402116145895962069">დაასინქრონე შენს Ollama-ის ლოკალური მოდელები</translation>
+<translation id="4835154437390745810">მართავს Ollama</translation>
 <translation id="5985516785067818307">კითხვარის პანელი</translation>
 <translation id="8347743943525229984">iBrowe-ის გამოკითხვის დაშვება</translation>
 <translation id="3204080538332044581">ეს პარამეტრი iBrowe-ს საშუალებას აძლევს, ახალ ტაბზე პირადი გამოკითხვის ბმულები გვაჩვენოს. გამოკითხვები გვეხმარება მომხმარებელთა საჭიროებების უკეთ გაცნობაში, ფუნქციონალის გაუმჯობესებასა და ბრაუზერზე დაფუძნებული სარეკლამო კამპანიების ეფექტიანობის შეფასებაში. <ph name="BEGIN_LINK"/>გაიგეთ მეტი<ph name="END_LINK"/>;</translation>

@@ -19,6 +19,7 @@
 <translation id="1544192797660353713">วอลเล็ท</translation>
 <translation id="2361906291514218784">Leo AI</translation>
 <translation id="8275068909952022340">เพิ่มเติม…</translation>
+<translation id="71316462802471551">นามแฝงอีเมล</translation>
 <translation id="1990886731975529483">ติดตั้งและเรียกใช้ Google Widevine</translation>
 <translation id="8926389886865778422">ไม่ต้องถามอีก</translation>
 <translation id="4900351245762303149">ติดตั้ง Google Widevine</translation>
@@ -65,11 +66,9 @@
 <translation id="1434416574322382019">การสร้างวินโดว์ส่วนบุคคลกับทอร์</translation>
 <translation id="4703780849509456860">เปิดลิงก์ในหน้าต่างส่วนตัวพร้อม Tor</translation>
 <translation id="3488584642074079080">เปิดลิงก์ในหน้าต่างส่วนตัวของ iBrowe พร้อม Tor</translation>
-<translation id="8594912907680633924">เปิดลิงก์ในมุมมองแบบแยก</translation>
 <translation id="6313675821927505581">หน้าต่างส่วนตัวใหม่ด้วย Tor</translation>
 <translation id="2638041073279639246">เปิดลิงก์ในหน้าต่างส่วนตัวด้วย Tor</translation>
 <translation id="3425600262621021599">เปิดลิงก์ในหน้าต่างส่วนตัวของ iBrowe ด้วย Tor</translation>
-<translation id="3795436270513738622">เปิดลิงก์ในมุมมองแบบแยก</translation>
 <translation id="2545072023356206691">ตั้งแต่วันที่ 1 ธันวาคม 2566 เป็นต้นไป ช่องทาง iBrowe Dev จะไม่ได้รับการอัปเดตอีกต่อไป เราจึงขอแนะนำให้ผู้ใช้เปลี่ยนไปใช้งาน Nightly ในรุ่น Beta หรือตัวเต็มของ iBrowe</translation>
 <translation id="474217410105706308">ปิดเสียงแท็บ</translation>
 <translation id="2804710924397009224">ซ่อนไอคอน iBrowe Rewards</translation>
@@ -133,7 +132,6 @@
 <translation id="780301667611848630">ไม่ ขอบคุณ</translation>
 <translation id="1162706247109707219">ด้วยการกด "ตกลง" คุณได้รับทราบว่า iBrowe ที่ติดตั้งในเครื่องของคุณจะไม่ได้รับการแก้ไขความปลอดภัยสำคัญจนกว่าคุณจะอัปเดตเป็น Windows 10 หรือใหม่กว่า คำเตือนนี้จะไม่มีการแสดงอีก</translation>
 <translation id="9164786361657554526">ด้วยการกด "ตกลง" คุณได้รับทราบว่า iBrowe ที่ติดตั้งในเครื่องของคุณจะไม่ได้รับการแก้ไขความปลอดภัยสำคัญจนกว่าคุณจะอัปเดตเป็น macOS 10.15 หรือใหม่กว่า คำเตือนนี้จะไม่มีการแสดงอีก</translation>
-<translation id="2770465223704140727">ลบจากรายการ</translation>
 <translation id="6020553119523541665">แท็บนี้จะทำงานในอีกหน้าต่าง</translation>
 <translation id="4987392683074136770">การคลิกแท็บนี้จะเป็นการนำเนื้อหาของแท็บมาที่หน้าต่างนี้</translation>
 <translation id="8355523213948477234">ปุ่มเมนูแบบแยก</translation>
@@ -207,7 +205,6 @@
 <translation id="253980346046488815">ปิดแท็บที่ซ้ำกัน</translation>
 <translation id="8670218546624422041">เปิดในคอนเทนเนอร์</translation>
 <translation id="8638526693050780542">จัดการคอนเทนเนอร์</translation>
-<translation id="7302999361397024774">เปลี่ยนชื่อแท็บ</translation>
 <translation id="2336228925368920074">บุ๊กมาร์กแท็บทั้งหมด...</translation>
 <translation id="2523967823495420116">ใช้แท็บแนวตั้ง</translation>
 <translation id="3785071023202624850">{NUM_TABS,plural, =1{ซ่อนแท็บ}other{ซ่อนแท็บ}}</translation>
@@ -218,7 +215,6 @@
 <translation id="2703180365855369896">ปิดแท็บที่ซ้ำกัน</translation>
 <translation id="1987871867023021397">เปิดในคอนเทนเนอร์</translation>
 <translation id="6745991613881384719">จัดการคอนเทนเนอร์</translation>
-<translation id="3917844427669888979">เปลี่ยนชื่อแท็บ</translation>
 <translation id="3704707436873245822">คัดลอกข้อความจากรูปภาพ</translation>
 <translation id="5268098808165185458">กำลังคัดลอกข้อความจากรูปภาพ...</translation>
 <translation id="4046485130884276245">คัดลอกข้อความจากรูปภาพแล้ว</translation>
@@ -226,6 +222,8 @@
 <translation id="3960619311638643872">iBrowe VPN</translation>
 <translation id="2506438154311626334">ใช้โปรโตคอล WireGuard ใน iBrowe VPN</translation>
 <translation id="8519170191215826548">การตั้งค่านี้ไม่สามารถเปลี่ยนแปลงได้ในขณะที่เชื่อมต่อกับ iBrowe VPN</translation>
+<translation id="1177917174080821247">แสดงไอคอนแถบ VPN</translation>
+<translation id="3747459938663420752">เมื่อเปิดใช้งาน ไอคอน iBrowe VPN จะปรากฏในแถบงานของ Windows</translation>
 <translation id="4235920711083356755">แสดงปุ่ม VPN</translation>
 <translation id="4070612712151038707">แสดงปุ่ม VPN ในแถบเครื่องมือ</translation>
 <translation id="7705524343798198388">VPN</translation>
@@ -237,7 +235,6 @@
 <translation id="8030169304546394654">ไม่ได้เชื่อมต่อ</translation>
 <translation id="1863950594388384201">แสดงปุ่ม VPN ในแถบเครื่องมือ</translation>
 <translation id="5187139277471084437">ซ่อนปุ่ม VPN ในแถบเครื่องมือ</translation>
-<translation id="1177917174080821247">แสดงไอคอนแถบ VPN</translation>
 <translation id="8041089156583427627">ส่งความคิดเห็น</translation>
 <translation id="4049186905514157504">จัดการการสมัครสมาชิกของฉัน</translation>
 <translation id="7570585565843385325">แสดงปุ่ม VPN ในแถบเครื่องมือ</translation>
@@ -253,10 +250,6 @@
 <translation id="796831669370432378">หากต้องการเพิ่มบุ๊กมาร์ก ให้คลิกปุ่มบุ๊กมาร์กที่อยู่ถัดจากแถบที่อยู่</translation>
 <translation id="8487693399751278191">นำเข้าบุ๊กมาร์กเดี๋ยวนี้...</translation>
 <translation id="2557899542277210112">สำหรับการเข้าถึงแบบด่วน วางบุ๊กมาร์กไว้ที่นี่บนแถบบุ๊กมาร์ก</translation>
-<translation id="1968543937259008435">พร้อมท่องโลกออนไลน์แบบส่วนตัวที่สุดแล้วหรือยัง</translation>
-<translation id="6817415381278637662">ตั้งค่าให้ iBrowe เป็นเบราว์เซอร์เริ่มต้นของคุณเพื่อรับการป้องกันความเป็นส่วนตัวของ iBrowe ในทุกหน้าเว็บที่คุณเปิด</translation>
-<translation id="7537601449003285327">ตรึงกับแถบงาน</translation>
-<translation id="2307973900865360088">เก็บใน Dock</translation>
 <translation id="961012016278832836">Microsoft Edge เวอร์ชันเก่า</translation>
 <translation id="6436994631426134065">นำเข้าจาก <ph name="BROWSER_NAME"/></translation>
 <translation id="5119173345047096771">Mozilla Firefox</translation>
@@ -342,6 +335,7 @@
 <translation id="7557539689487606886">ใช้งาน Premium</translation>
 <translation id="1035309871698658326">เมื่อเปิดใช้งาน ฟีเจอร์นี้จะส่งชื่อและแหล่งที่มาของแท็บทั้งหมดที่ไม่ใช่โหมดส่วนตัวไปยัง Leo เพื่อจัดประเภท</translation>
 <translation id="3435896845095436175">เปิดการใช้งาน</translation>
+<translation id="9082792303833649978">การตั้งค่านี้ถูกจัดการโดยผู้ดูแลระบบของคุณหรือโดยนโยบาย iBrowe อื่น</translation>
 <translation id="1940221956626514677">ปรับแต่งแถบเครื่องมือ</translation>
 <translation id="6501807887341963552">ธีมและสี</translation>
 <translation id="6724227215236550330">รหัสที่บันทึกไว้จะปรากฏที่นี่ หากต้องการนำเข้ารหัสผ่านไปยัง<ph name="BRAND"/>บนอุปกรณ์นี้ <ph name="BEGIN_LINK"/>เลือกไฟล์ CSV <ph name="END_LINK"/></translation>
@@ -384,9 +378,12 @@
 <translation id="5436069931267876389">ไม่พบคอนเทนเนอร์</translation>
 <translation id="2263346047290834619">ใช้แท็บแบบต้นไม้</translation>
 <translation id="5860254591544742609">แสดงแถบหัวเรื่อง</translation>
-<translation id="5371926069408837914">ขยายหน้าต่างแท็บแนวตั้งเมื่อชี้เมาส์ขณะยุบอยู่</translation>
+<translation id="4691131445504068802">ซ่อนอย่างสมบูรณ์เมื่อย่อแท็บแนวตั้ง</translation>
+<translation id="6763346436728173884">ซ่อนปุ่มปิดแท็บเสมอ</translation>
+<translation id="8082625757059443808">อนุญาตให้คลิกปุ่มกลางเพื่อปิดแท็บ</translation>
+<translation id="4909269867860362936">ขยายอัตโนมัติเมื่อเลื่อนเมาส์ไปหยุดเหนือ เมื่อแท็บแนวตั้งถูกย่อ</translation>
 <translation id="3367129510799209147">โหมดโฮเวอร์แท็บ</translation>
-<translation id="8527099657928614787">ขยายหน้าต่างแท็บแนวตั้งแยกกันในหน้าต่างแต่ละบาน</translation>
+<translation id="8925055964134259461">ขยายหน้าต่างแท็บแนวตั้งแยกกันในหน้าต่างแต่ละบาน</translation>
 <translation id="916373084491701212">แสดงแถบเลื่อน</translation>
 <translation id="515949045075831661">แสดงทางด้านขวา</translation>
 <translation id="3725395376319291415">แสดงทางด้านซ้าย</translation>
@@ -396,22 +393,23 @@
 <translation id="5219886318310413094">แสดงแท็บที่ปักหมุดในหน้าต่างทั้งหมด</translation>
 <translation id="2396127686705429331">แสดงปุ่มบุ๊กมาร์ก</translation>
 <translation id="2814998458708016836">ใช้แถบที่อยู่แบบกว้าง</translation>
+<translation id="4749586705247636385">แสดงมุมโค้งมนในพื้นที่เนื้อหาหลัก</translation>
 <translation id="4109670531935487117">แสดงคำแนะนำการเติมข้อความอัตโนมัติในแถบที่อยู่</translation>
-<translation id="3405901785709583668">คำแนะนำยอดนิยม</translation>
+<translation id="4579877808890085926">คำแนะนำในอุปกรณ์</translation>
 <translation id="7859704718976024901">ประวัติการเรียกดู</translation>
 <translation id="8820817407110198400">บุ๊กมาร์ก</translation>
 <translation id="4144468798716165316">คำสั่งด่วน</translation>
 <translation id="7310387888625228830">Leo ผู้ช่วย AI</translation>
 <translation id="5222974844674487962">แสดงปุ่ม iBrowe News</translation>
 <translation id="2085436423511121572">แสดงปุ่ม Leo AI</translation>
-<translation id="383007806262310953">แสดงแถบบุ๊กมาร์ก</translation>
+<translation id="6156323911414505561">แสดงแถบบุ๊กมาร์ก</translation>
 <translation id="4054323497808446566">แถบบุ๊กมาร์กจะแสดงให้เห็นบนทุกหน้า</translation>
 <translation id="8693858092251192712">แถบบุ๊กมาร์กจะซ่อนอยู่บนทุกหน้า ยกเว้นหน้าแท็บใหม่</translation>
 <translation id="7158817046543187970">แถบบุ๊กมาร์กจะซ่อนอยู่บนทุกหน้า</translation>
 <translation id="3416468988018290825">แสดง URL แบบเต็มเสมอ</translation>
 <translation id="5529693968082667490">แสดงปุ่มค้นหาแท็บ</translation>
 <translation id="1013121820689882118">Speedreader</translation>
-<translation id="1467652519828052368">เปิดใช้งานฟีเจอร์ Speedreader</translation>
+<translation id="5522420266446076076">เปิดใช้งานฟีเจอร์ Speedreader</translation>
 <translation id="5211997910936574251">ใช้ Speedreader โดยอัตโนมัติเมื่อเป็นไปได้</translation>
 <translation id="2025435450953474282">โหลดบทความโดยอัตโนมัติในโหมดผู้อ่านเพื่อประหยัดเวลาของคุณ</translation>
 <translation id="7984721311211272523">ปิดใช้ฟังก์ชันปิดเสียงในไอคอนแท็บลำโพง</translation>
@@ -424,9 +422,11 @@
 <translation id="3719826155360621982">หน้าหลัก</translation>
 <translation id="5448570825852364919">หน้าว่าง</translation>
 <translation id="8244387390464017490">ปรับแต่งหน้าแท็บใหม่</translation>
+<translation id="7537601449003285327">ตรึงกับแถบงาน</translation>
 <translation id="7461924472993315131">ตรึง</translation>
 <translation id="735832369569964359">คลิกตรึงและยืนยันในการแจ้งเตือน Windows ด้านล่าง</translation>
 <translation id="7506648566440714944">มีการตรึง iBrowe แล้ว</translation>
+<translation id="2307973900865360088">เก็บใน Dock</translation>
 <translation id="239275665037555969">Dock</translation>
 <translation id="4057614912106618659">iBrowe อยู่ใน Dock แล้ว</translation>
 <translation id="3195845168740336657">การตั้งค่า Shields</translation>
@@ -435,7 +435,7 @@
 <translation id="5690973901138662477">เปิด Shields</translation>
 <translation id="4697275813919189958">ปิด Shields</translation>
 <translation id="6303294677342628402">ปกป้อง</translation>
-<translation id="7133511168130368997">บล็อกตัวติดตามและโฆษณาที่ติดตามคุณข้ามเว็บ</translation>
+<translation id="5128768857590582420">บล็อกตัวติดตามและโฆษณาที่ติดตามคุณข้ามเว็บ</translation>
 <translation id="2761825942249694703">นี่คือการตั้งค่า Shields เริ่มต้น การตั้งค่าเหล่านี้จะมีผลกับเว็บไซต์ทั้งหมด เว้นแต่ว่าคุณจะเปลี่ยนแปลงอะไรบางอย่างในแผง Shields บนไซต์ใดไซต์หนึ่งโดยเฉพาะ การเปลี่ยนแปลงค่าเหล่านี้จะไม่มีผลกับการตั้งค่าต่อไซต์ที่มีอยู่แล้วของคุณ</translation>
 <translation id="8452536890042542134">สิ่งนี้จะบล็อคโฆษณาส่วนใหญ่บนเว็บไซต์</translation>
 <translation id="4800195524776354947">แสดงจำนวนรายการที่ถูกบล็อคบนไอคอนชิลด์</translation>
@@ -498,10 +498,34 @@
 <translation id="2718718846210516552">ไม่พบสคริปต์ย่อย</translation>
 <translation id="4088315951291671239">อย่าคัดลอกและวางโค้ดที่คุณไม่เข้าใจหรือไม่ได้ตรวจสอบเองที่นี่ เพราะมันอาจทำให้ผู้โจมตีขโมยข้อมูลส่วนตัวของคุณหรือควบคุมคอมพิวเตอร์ของคุณได้</translation>
 <translation id="3020183492814296499">ทางลัด</translation>
+<translation id="2935698011275148880">ต้นกำเนิดแห่งความกล้าหาญ</translation>
+<translation id="2587535830241068901">ปรับแต่งเบราว์เซอร์ของคุณในขณะที่ยังคงสนับสนุน iBrowe</translation>
+<translation id="553273341094971255">iBrowe Origin ช่วยให้คุณปรับแต่ง iBrowe ให้ตรงกับความต้องการของคุณ และลบข้อเสนอโปรโมชั่นในแอปทั้งหมด โฆษณาที่มีแบรนด์ และแม้แต่การวิเคราะห์ข้อมูลแบบไม่ระบุตัวตนที่คุณอาจเปิดใช้งานไว้ระหว่างการติดตั้ง</translation>
+<translation id="534725333104202278">ส่วนเสริมหรือฟีเจอร์ใด ๆ ที่คุณได้เปิดใช้งานหรือเคยใช้มาก่อนจะยังคงแสดงและผสานรวมอยู่ตามเดิม ส่วนที่เหลือจะถูกปิดใช้งานชั่วคราว คุณสามารถปรับแต่ง iBrowe ได้อย่างต่อเนื่องขณะที่เราทยอยเพิ่มฟีเจอร์ใหม่ ๆ เข้าสู่เบราว์เซอร์ ฟีเจอร์เหล่านี้จะปรากฏโดยอัตโนมัติและถูกซ่อนไว้เป็นค่าเริ่มต้นในแผงควบคุม iBrowe Origin</translation>
+<translation id="1919345977826869612">โฆษณา</translation>
+<translation id="944736176598169208">รีวอร์ด</translation>
+<translation id="2839742394543397416">การวิเคราะห์</translation>
+<translation id="1799030480311994998">ฟีเจอร์</translation>
+<translation id="6709133671862442373">ข่าวสาร</translation>
+<translation id="6297791103122079275">พูดคุย</translation>
+<translation id="1458638489455808030">เครื่องย้อนเวลาเว็บ</translation>
+<translation id="1199170151481311646">การวิเคราะห์ข้อมูลที่รักษาความเป็นส่วนตัว</translation>
+<translation id="5990642573624858459">การรายงานสถิติ</translation>
+<translation id="2441719842399509963">รีเซ็ตเป็นค่าเริ่มต้น</translation>
+<translation id="4530494379350999373">Origin</translation>
+<translation id="2964215604640804042">iBrowe Origin เป็นเบราว์เซอร์เวอร์ชั่นที่เสียค่าใช้สำหรับผู้ใช้ที่ไม่ต้องการฟีเจอร์ทั้งหมดที่สนับสนุน iBrowe ในฐานะธุรกิจ แต่ยังต้องการความเป็นส่วนตัวที่เพียงแค่ iBrowe เท่านั้นที่มีให้ ผู้ใช้ iBrowe Origin จะได้รับประโยชน์อย่างต่อเนื่องจากการป้องกันความเป็นส่วนตัวระดับอุตสาหกรรม การบล็อกโฆษณา และความเร็ว (ผ่าน iBrowe Shields) รวมถึงการอัปเดตซอฟต์แวร์อย่างสม่ำเสมอ แพตช์ Chromium และการปรับปรุงความเป็นส่วนตัวและความปลอดภัย พวกเขาจะปลดล็อกตัวเลือกในการปิดใช้งานฟีเจอร์เช่น AI รางวัล วอลเล็ท VPN โดเมน Web3 และอื่นๆ อีกมากมาย</translation>
+<translation id="9130916892338379417">iBrowe Origin สามารถซื้อได้แบบครั้งเดียว บนมือถือ (Android และ iOS) และเดสก์ทอป Origin สามารถซื้อเป็นการอัปเกรดเวอร์ชันที่เผยแพร่ของคุณได้ บนเดสก์ทอป Origin ยังพร้อมใช้งานเป็นแอปแยกต่างหากในโหมดสแตนดโลน ผู้ใช้ Origin จะเห็นแผงควบคุมใหม่ในเมนู "การตั้งค่า" ฟีเจอร์ที่มีอยู่ ตลอดจนฟีเจอร์ใหม่ที่เราจะนำมาใช้ในอนาคต จะปรากฏที่นี่ และจะปิดใช้งานโดยค่าเริ่มต้น</translation>
+<translation id="7984508421152399880">ซื้อเลย</translation>
 <translation id="5567412479632285879">iBrowe รีวอร์ดปิดใช้งานอยู่</translation>
 <translation id="413570371620795359">เปิดรายการ Rewards เพื่อเปิดใช้งานและเริ่มต้น</translation>
 <translation id="1051600834033686945">เปิดการตั้งค่า iBrowe Rewards ทั้งหมด</translation>
 <translation id="8826461509529116322">แสดงปุ่ม iBrowe รีวอร์ด</translation>
+<translation id="4859866966646365361">โหมดบล็อกโฆษณาเท่านั้น</translation>
+<translation id="4146834954839563870">ใช้โหมดบล็อกโฆษณาเท่านั้น</translation>
+<translation id="420732343671200734">โหมดบล็อกโฆษณาเท่านั้นจะรักษากฎการบล็อกโฆษณาหลักของ iBrowe Shields เอาไว้ หมายเหตุ: โหมดนี้จะตัดการป้องกันความเป็นส่วนตัวทั้งหมด โดยสำหรับเว็บไซต์ที่การป้องกันความเป็นส่วนตัวของ iBrowe ทำให้เกิดปัญหา คุณสามารถตั้งค่า Shields เป็น DOWN ได้ โหมดนี้ยังอยู่ในระยะทดลอง <ph name="BEGIN_LINK"/>เรียนรู้เพิ่มเติม<ph name="END_LINK"/></translation>
+<translation id="3055675200351793825">ตัวเลือกโล่ป้องกันถูกปิดใช้งานอยู่ในขณะนี้</translation>
+<translation id="2687830906359353344">โหมดบล็อกโฆษณาเท่านั้นจะรักษากฎการบล็อกโฆษณาหลักของ iBrowe Shields ไว้ และจะปิดการป้องกันความเป็นส่วนตัว หากคุณต้องการเปิดใช้ Shields แบบมาตรฐาน กรุณาปิดโหมดนี้</translation>
+<translation id="3809423899581611047">ปิดโหมดปิดกั้นโฆษณาเท่านั้น</translation>
 <translation id="9185018653595759199">การบล็อกโซเชียลมีเดีย</translation>
 <translation id="863171915776379000">อนุญาตให้เข้าสู่ระบบผ่าน Facebook และโพสต์แบบฝัง</translation>
 <translation id="7791141927430186653">อนุญาตทวีตแบบฝังของ X (เดิมเรียกว่า Twitter)</translation>
@@ -534,7 +558,6 @@
 <translation id="5747552184818312860">หมดอายุ</translation>
 <translation id="3858860766373142691">ชื่อ</translation>
 <translation id="361106536627977100">ข้อมูล Flash</translation>
-<translation id="4530494379350999373">Origin</translation>
 <translation id="8195027750202970175">ขนาดบนดิสก์</translation>
 <translation id="9116465289595958864">แก้ไขล่าสุด</translation>
 <translation id="4590324241397107707">พื้นที่จัดเก็บฐานข้อมูล</translation>
@@ -567,11 +590,6 @@
 <translation id="2903783737778379345">ไม่อนุญาตให้ใช้การลงชื่อเข้าใช้ด้วย Google แบบเก่าผ่านคุกกี้ของบุคคลที่สาม</translation>
 <translation id="2570833232754279153">ไม่อนุญาตการใช้คุกกี้ของบุคคลที่สามสำหรับการลงชื่อเข้าใช้ด้วย Google แบบเก่า</translation>
 <translation id="6880817299303842099">อนุญาตการใช้คุกกี้ของบุคคลที่สามสำหรับการลงชื่อเข้าใช้ด้วย Google แบบเก่า</translation>
-<translation id="2136412236435693622">การเข้าถึง Localhost</translation>
-<translation id="4172219483893066798">เว็บไซต์สามารถขอสิทธิ์เข้าถึงทรัพยากร Localhost ได้</translation>
-<translation id="7181706637590665047">อย่าอนุญาตสิทธิ์เข้าถึงทรัพยากร Localhost</translation>
-<translation id="1336116824874668514">ไม่ได้รับอนุญาตให้เข้าถึงทรัพยากร Localhost</translation>
-<translation id="1485435696620658073">ได้รับอนุญาตให้เข้าถึงทรัพยากร Localhost</translation>
 <translation id="5794692721727586076">แชท Leo AI</translation>
 <translation id="8115153008662981040">เว็บไซต์สามารถขออนุญาตเพื่อเปิดแชทของ Leo AI ได้</translation>
 <translation id="1145070115730668595">ไม่อนุญาตให้เว็บไซต์เปิดแชทของ Leo AI ได้</translation>
@@ -645,8 +663,6 @@
 <translation id="7029809446516969842">รหัสผ่าน</translation>
 <translation id="6011308810877101166">ปรับปรุงข้อเสนอแนะการค้นหา</translation>
 <translation id="2332576387809612040">เมื่อเปิดใช้งาน iBrowe จะส่งสิ่งที่คุณพิมพ์ในแถบที่อยู่หรือกล่องค้นหาถึงเครื่องมือค้นหามาตรฐานของคุณเพื่อให้ได้ข้อเสนอแนะที่ดีกว่า เมื่อปิดใช้งาน iBrowe จะโชว์ข้อเสนอแนะที่สร้างขึ้นในอุปกรณ์ของคุณเท่านั้น ซึ่งจะปิดใช้งานเสมอในโหมดส่วนตัว</translation>
-<translation id="6285118765755298263">จัดทำดัชนีเครื่องมือค้นหาอื่นๆ</translation>
-<translation id="5526883767168905185">จัดทำดัชนีเว็บไซต์ที่เป็นไปตามข้อกำหนดของ OpenSearch โดยอัตโนมัติ</translation>
 <translation id="5522403133543437426">เครื่องมือค้นหาที่ใช้ในแถบที่อยู่</translation>
 <translation id="280472502078788655">เครื่องมือค้นหาที่ใช้ในแถบที่อยู่สำหรับหน้าต่างส่วนตัว</translation>
 <translation id="7232120595886556478">หน้าต่างปกติ</translation>
@@ -736,6 +752,7 @@
 <translation id="7141438739990875547">เครือข่าย Bitcoin</translation>
 <translation id="1077567586443625607">เครือข่าย Zcash</translation>
 <translation id="1177180573354712438">เครือข่ายบล็อกเชน Cardano</translation>
+<translation id="3176794108951154148">เครือข่าย Polkadot</translation>
 <translation id="3159419679550543837">แสดงเครือข่ายทดสอบ</translation>
 <translation id="3215569562674795548">แก้ไขหรือเพิ่มเครือข่ายใหม่</translation>
 <translation id="4418993400653250511">หมายเลขของเชน</translation>
@@ -849,6 +866,11 @@
 <translation id="1721787502053471881">แน่ใจไหมว่าต้องการลบการความทรงจำนี้ ลบแล้วจะเอาคืนไม่ได้นะ</translation>
 <translation id="5239685926753073108">ลบความทรงจำทั้งหมด</translation>
 <translation id="2600803466586623124">แน่ใจไหมว่าต้องการลบการความทรงจำทั้งหมด ลบแล้วจะเอาคืนไม่ได้นะ</translation>
+<translation id="7311244614769792472">ไม่พบผลลัพธ์</translation>
+<translation id="1838374766361614909">ล้างการค้นหา</translation>
+<translation id="5126255551970171328">ค้นหาข้อมูลในความจำ</translation>
+<translation id="7402116145895962069">ซิงค์โมเดลโลคอล Ollama ของคุณ</translation>
+<translation id="4835154437390745810">จัดการโดย Ollama</translation>
 <translation id="5985516785067818307">ผู้ร่วมตอบแบบสำรวจ</translation>
 <translation id="8347743943525229984">เปิดใช้งานแบบสำรวจจาก iBrowe</translation>
 <translation id="3204080538332044581">อนุญาตให้ iBrowe แสดงลิงก์ไปยังแบบสำรวจส่วนตัวในหน้าแท็บใหม่ แบบสำรวจเหล่านี้ช่วยให้เราพัฒนาฟีเจอร์ให้ดีขึ้น และวัดประสิทธิภาพของแคมเปญโฆษณาบนเบราว์เซอร์ได้

@@ -12,26 +12,57 @@
     Reset iBrowe Rewards
   </message>
   <message name="IDS_BRAVE_UI_REWARDS_RESET_TEXT" desc="">
-    By resetting, your current iBrowe Rewards profile will be deleted, and iBrowe Rewards will no longer be enabled. If you enable iBrowe Rewards again later, you will start with a new profile. Read our <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">$2</ph> for more details.
+    By resetting, your current iBrowe Rewards profile will be deleted, and iBrowe Rewards will no longer be enabled. If you enable iBrowe Rewards again later, you will start with a new profile. Read our <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">/$1</ph> for more details.
   </message>
   <message name="IDS_BRAVE_UI_REWARDS_RESET_CONSENT" desc="">
-    I understand that my current iBrowe Rewards profile and iBrowe Rewards data will be deleted from my device, and I've read the <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">$2</ph>.
+    I understand that my current iBrowe Rewards profile and iBrowe Rewards data will be deleted from my device, and I've read the <ph name="LINK_BEGIN">$1</ph>support article about resetting<ph name="LINK_END">/$1</ph>.
   </message>
   <message name="IDS_REWARDS_RESET_REWARDS_BUTTON_LABEL" desc="">
     Disable and reset Rewards
+  </message>
+
+  <!-- Reset External Wallet -->
+  <message name="IDS_REWARDS_RESET_EXTERNAL_WALLET_BUTTON_LABEL" desc="">
+    Reset now
+  </message>
+  <message name="IDS_REWARDS_RESET_EXTERNAL_WALLET_NOTE" desc="">
+    Don't worry: Any BAT already in your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account won't be affected by resetting.
+  </message>
+  <message name="IDS_REWARDS_RESET_EXTERNAL_WALLET_TEXT" desc="" formatter_data="webui=BraveRewards">
+    You will not earn for ads while connected to <ph name="PROVIDER">$1<ex>Uphold</ex></ph>. Reset iBrowe Rewards and connect a different payout account to keep earning. <ph name="LINK_BEGIN">$2</ph>Learn more<ph name="LINK_END">/$2</ph>
+  </message>
+  <message name="IDS_REWARDS_RESET_EXTERNAL_WALLET_TITLE" desc="" formatter_data="webui=BraveRewards">
+    <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account no longer supported.
+  </message>
+
+  <!-- Switch Account -->
+  <message name="IDS_REWARDS_SWITCH_ACCOUNT_COUNTRY_SELECT_LABEL" desc="">
+    Confirm your region
+  </message>
+  <message name="IDS_REWARDS_SWITCH_ACCOUNT_TEXT_1" desc="">
+    Any BAT already in your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account will stay there.
+  </message>
+  <message name="IDS_REWARDS_SWITCH_ACCOUNT_TEXT_2" desc="">
+    Your 30-day Ads History and other iBrowe Rewards settings will reset.
+  </message>
+  <message name="IDS_REWARDS_SWITCH_ACCOUNT_TEXT_3" desc="">
+    You can choose a different payout account after this step.
+  </message>
+  <message name="IDS_REWARDS_SWITCH_ACCOUNT_TITLE" desc="">
+    Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account will be disconnected, and your iBrowe Rewards profile will be reset.
   </message>
 
   <!-- Payout status banner -->
   <message name="IDS_REWARDS_PAYMENT_CHECK_STATUS" desc="">
     Check status
   </message>
-  <message name="IDS_REWARDS_PAYMENT_COMPLETED" desc="">
+  <message name="IDS_REWARDS_PAYMENT_COMPLETED" desc="" formatter_data="webui=BraveRewards">
     The payout for <ph name="MONTH">$1<ex>October</ex></ph> rewards has completed.
   </message>
   <message name="IDS_REWARDS_PAYMENT_PENDING" desc="">
     The payout for <ph name="MONTH">$1<ex>October</ex></ph> rewards will begin processing by <ph name="DATE">$2<ex>October 5</ex></ph>.
   </message>
-  <message name="IDS_REWARDS_PAYMENT_PROCESSING" desc="">
+  <message name="IDS_REWARDS_PAYMENT_PROCESSING" desc="" formatter_data="webui=BraveRewards">
     The payout for <ph name="MONTH">$1<ex>October</ex></ph> rewards is in progress.
   </message>
   <message name="IDS_REWARDS_PAYMENT_SUPPORT" desc="">
@@ -40,7 +71,7 @@
 
   <!-- Rewards "card-and-summary" -->
   <message name="IDS_REWARDS_LOG_IN_TO_SEE_BALANCE" desc="">
-    <ph name="BEGIN_BOLD">$1</ph>Log in to <ph name="PROVIDER">$2<ex>Uphold</ex></ph><ph name="END_BOLD">$3</ph> to see your balance
+    <ph name="BEGIN_BOLD">$1</ph>Log in to <ph name="PROVIDER">$2<ex>Uphold</ex></ph><ph name="END_BOLD">/$1</ph> to see your balance
   </message>
   <message name="IDS_REWARDS_WALLET_ACCOUNT_LINK" desc="">
     Go to my <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account
@@ -87,7 +118,7 @@
     Connect account
   </message>
   <message name="IDS_REWARDS_CONNECT_ACCOUNT_TEXT" desc="">
-    <ph name="BOLD_BEGIN">$1</ph>Ready to start earning?<ph name="BOLD_END">$2</ph> Connect an account so we have a place to send your earnings.
+    <ph name="BOLD_BEGIN">$1</ph>Ready to start earning?<ph name="BOLD_END">/$1</ph> Connect an account so we have a place to send your earnings.
   </message>
   <message name="IDS_REWARDS_CONNECT_CONTRIBUTE_HEADER" desc="">
     Send contributions with iBrowe Rewards
@@ -109,16 +140,16 @@
   </message>
   <message name="IDS_REWARDS_UNCONNECTED_ADS_VIEWED_TEXT" desc="">
     {ADS_VIEWED, plural,
-      =0 {You've seen <ph name="COUNT_BEGIN">$1</ph># Ads<ph name="COUNT_END">$2</ph> this month}
-      =1 {You could be getting paid for the <ph name="COUNT_BEGIN">$1</ph># Ad<ph name="COUNT_END">$2</ph> you've seen this month.}
-      other {You could be getting paid for the <ph name="COUNT_BEGIN">$1</ph># Ads<ph name="COUNT_END">$2</ph> you've seen this month.}
+      =0 {You've seen <ph name="COUNT_BEGIN">$1</ph> # Ads<ph name="COUNT_END">/$1</ph> this month}
+      =1 {You could be getting paid for the <ph name="COUNT_BEGIN">$1</ph> # Ad<ph name="COUNT_END">/$1</ph> you've seen this month.}
+      other {You could be getting paid for the <ph name="COUNT_BEGIN">$1</ph> # Ads<ph name="COUNT_END">/$1</ph> you've seen this month.}
     }
   </message>
-  <message name="IDS_REWARDS_CONNECTED_ADS_VIEWED_TEXT" desc="">
+  <message name="IDS_REWARDS_CONNECTED_ADS_VIEWED_TEXT" desc="" formatter_data="webui=BraveRewards">
     {ADS_VIEWED, plural,
-      =0 {You've seen <ph name="COUNT_BEGIN">$1</ph># Ads<ph name="COUNT_END">$2</ph> this month}
-      =1 {You're earning for seeing <ph name="COUNT_BEGIN">$1</ph># Ad<ph name="COUNT_END">$2</ph> this month}
-      other {You're earning for seeing <ph name="COUNT_BEGIN">$1</ph># Ads<ph name="COUNT_END">$2</ph> this month}
+      =0 {You've seen <ph name="COUNT_BEGIN">$1</ph> # Ads<ph name="COUNT_END">/$1</ph> this month}
+      =1 {You're earning for seeing <ph name="COUNT_BEGIN">$1</ph> # Ad<ph name="COUNT_END">/$1</ph> this month}
+      other {You're earning for seeing <ph name="COUNT_BEGIN">$1</ph> # Ads<ph name="COUNT_END">/$1</ph> this month}
     }
   </message>
 
@@ -148,7 +179,7 @@
     Select your country
   </message>
   <message name="IDS_REWARDS_WIDGET_SELECT_COUNTRY_TEXT" desc="">
-    To continue using iBrowe Rewards, select your country so we can show you the right options and ads for your region. <ph name="LINK_BEGIN">$1</ph>Privacy Policy<ph name="LINK_END">$2</ph>
+    To continue using iBrowe Rewards, select your country so we can show you the right options and ads for your region. <ph name="LINK_BEGIN">$1</ph>Privacy Policy<ph name="LINK_END">/$1</ph>
   </message>
   <message name="IDS_REWARDS_WIDGET_START_USING_REWARDS" desc="">
     Start using Rewards
@@ -317,7 +348,7 @@
     Unfortunately, there was an error while trying to set your country. Please try again.
   </message>
   <message name="IDS_BRAVE_REWARDS_ONBOARDING_ERROR_TEXT_DISABLED" desc="">
-    New signups for iBrowe Rewards are currently disabled in your region. However, you can always try again later. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph>
+    New signups for iBrowe Rewards are currently disabled in your region. However, you can always try again later. <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">/$1</ph>
   </message>
   <message name="IDS_BRAVE_REWARDS_ONBOARDING_GEO_HEADER" desc="">
     Select your country
@@ -344,7 +375,7 @@
     Press the <ph name="BAT_ICON">$1</ph> BAT icon in the URL bar to start.
   </message>
   <message name="IDS_BRAVE_REWARDS_ONBOARDING_TERMS" desc="">
-    By proceeding, you agree to the <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Service<ph name="TOS_LINK_END">$2</ph> and <ph name="PP_LINK_BEGIN">$3</ph>Privacy Policy<ph name="PP_LINK_END">$4</ph>.
+    By proceeding, you agree to the <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Service<ph name="TOS_LINK_END">/$1</ph> and <ph name="PP_LINK_BEGIN">$2</ph>Privacy Policy<ph name="PP_LINK_END">/$2</ph>.
   </message>
   <message name="IDS_REWARDS_COUNTRY_SELECT_TITLE" desc="">
     Select your region
@@ -356,12 +387,12 @@
     Start using iBrowe Rewards
   </message>
   <message name="IDS_REWARDS_ONBOARDING_TERMS_TEXT" desc="">
-    By enabling Rewards, you agree to the <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Service<ph name="TOS_LINK_END">$2</ph> and <ph name="PP_LINK_BEGIN">$3</ph>Privacy Policy<ph name="PP_LINK_END">$4</ph>.
+    By enabling Rewards, you agree to the <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Service<ph name="TOS_LINK_END">/$1</ph> and <ph name="PP_LINK_BEGIN">$2</ph>Privacy Policy<ph name="PP_LINK_END">/$2</ph>.
   </message>
-  <message name="IDS_REWARDS_ONBOARDING_TEXT_ITEM_1" desc="">
+  <message name="IDS_REWARDS_ONBOARDING_TEXT_ITEM_1" desc="" formatter_data="webui=BraveRewards">
     Get paid for private ads you see in iBrowe
   </message>
-  <message name="IDS_REWARDS_ONBOARDING_TEXT_ITEM_2" desc="">
+  <message name="IDS_REWARDS_ONBOARDING_TEXT_ITEM_2" desc="" formatter_data="webui=BraveRewards">
     Get special benefits and discounts
   </message>
   <message name="IDS_REWARDS_ONBOARDING_TITLE" desc="">
@@ -376,7 +407,7 @@
     Unfortunately, it looks like you’re in a region where iBrowe Rewards is not available.
   </message>
   <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_LEARN_MORE" desc="">
-    <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph>
+    <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">/$1</ph>
   </message>
   <message name="IDS_BRAVE_REWARDS_UNSUPPORTED_REGION_NOTICE_TEXT_1" desc="">
     Don’t worry.
@@ -404,7 +435,7 @@
   <message name="IDS_REWARDS_HELP_BUTTON_LABEL" desc="">
     Help
   </message>
-  <message name="IDS_REWARDS_MORE_BUTTON_LABEL" desc="">
+  <message name="IDS_REWARDS_MORE_BUTTON_LABEL" desc="" formatter_data="webui=BraveRewards">
     More
   </message>
   <message name="IDS_REWARDS_NAVIGATION_CREATORS_LABEL" desc="">
@@ -429,22 +460,22 @@
   </message>
 
   <!-- Terms of Service update notification -->
-  <message name="IDS_REWARDS_TOS_UPDATE_HEADING" desc="">
+  <message name="IDS_REWARDS_TOS_UPDATE_HEADING" desc="" formatter_data="webui=BraveRewards">
     Updated Terms of Service
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_TEXT" desc="">
-    We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">$2</ph> iBrowe Rewards, which will disable the feature.
+    We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="LINK_BEGIN">$1</ph>reset<ph name="LINK_END">/$1</ph> iBrowe Rewards, which will disable the feature.
   </message>
-  <message name="IDS_REWARDS_TOS_UPDATE_NTP_TEXT" desc="">
-    We’ve updated our Terms of Service. To keep using iBrowe Rewards, please review and agree to the updated terms.
+  <message name="IDS_REWARDS_TOS_UPDATE_NTP_TEXT" desc="" formatter_data="webui=BraveRewards">
+    We've updated our Terms of Service. To keep using iBrowe Rewards, please review and agree to the updated terms.
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_LINK_TEXT" desc="">
-    See <ph name="LINK_BEGIN">$1</ph>iBrowe Rewards Terms of Service<ph name="LINK_END">$2</ph>
+    See <ph name="LINK_BEGIN">$1</ph>iBrowe Rewards Terms of Service<ph name="LINK_END">/$1</ph>
   </message>
   <message name="IDS_REWARDS_TOS_UPDATE_BUTTON_LABEL" desc="">
     I agree
   </message>
-  <message name="IDS_REWARDS_TOS_UPDATE_NTP_BUTTON_LABEL" desc="">
+  <message name="IDS_REWARDS_TOS_UPDATE_NTP_BUTTON_LABEL" desc="" formatter_data="webui=BraveRewards">
     Review Terms
   </message>
 
@@ -489,7 +520,7 @@
     You're already sending monthly contributions to this creator
   </message>
   <message name="IDS_REWARDS_TIP_MONTHLY_SET_TEXT" desc="">
-    You can still send a contribution now, and you can cancel your monthly contributions to this creator by removing them from <ph name="LINK_BEGIN">$1</ph>Monthly Contributions<ph name="LINK_END">$2</ph>.
+    You can still send a contribution now, and you can cancel your monthly contributions to this creator by removing them from <ph name="LINK_BEGIN">$1</ph>Monthly Contributions<ph name="LINK_END">/$1</ph>.
   </message>
   <message name="IDS_REWARDS_TIP_PROVIDER_MISMATCH_TITLE" desc="">
     Can't send your contribution
@@ -592,6 +623,12 @@
   <message name="IDS_REWARDS_CONNECT_PROVIDER_NOT_AVAILABLE" desc="">
     Currently not available in your region
   </message>
+  <message name="IDS_REWARDS_CONNECT_PROVIDERS_UNAVAILABLE_TEXT" desc="">
+    We don’t have any payout options in your region yet. You can check again later to see if availability has changed.
+  </message>
+  <message name="IDS_REWARDS_CONNECT_PROVIDERS_UNAVAILABLE_TITLE" desc="">
+    Payout options unavailable
+  </message>
   <message name="IDS_REWARDS_CONNECT_TEXT" desc="">
     To begin earning Basic Attention Token (BAT) rewards, connect an account. BAT you earn will be automatically transferred to your account every month.
   </message>
@@ -602,7 +639,7 @@
     Or other wallet that supports Solana
   </message>
   <message name="IDS_REWARDS_CONNECT_SELF_CUSTODY_TERMS" desc="">
-    <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Use<ph name="TOS_LINK_END">$2</ph> and <ph name="PP_LINK_BEGIN">$3</ph>Privacy Policy<ph name="PP_LINK_END">$4</ph>.
+    <ph name="TOS_LINK_BEGIN">$1</ph>Terms of Use<ph name="TOS_LINK_END">/$1</ph> and <ph name="PP_LINK_BEGIN">$2</ph>Privacy Policy<ph name="PP_LINK_END">/$2</ph>.
   </message>
   <message name="IDS_REWARDS_CONNECT_SELF_CUSTODY_ERROR" desc="">
     Something went wrong. Please try again
@@ -661,7 +698,7 @@
     It looks like connecting <ph name="PROVIDER">$1<ex>Uphold</ex></ph> to iBrowe Rewards is temporarily unavailable. Please try again later.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROVIDER_UNAVAILABLE_TEXT_2" desc="">
-    You can view <ph name="BEGIN_LINK">$2</ph>service status here<ph name="END_LINK">$3</ph>.
+    You can view <ph name="BEGIN_LINK">$1</ph>service status here<ph name="END_LINK">/$1</ph>.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROVIDER_UNAVAILABLE_TITLE" desc="">
     Connecting to selected custodian temporarily unavailable
@@ -670,7 +707,7 @@
     Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account can't be connected to your iBrowe Rewards profile at this time. Your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account is registered in a country that's not currently supported for connecting to iBrowe Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TEXT_2" desc="">
-    See the <ph name="LINK_BEGIN">$2</ph>current list of supported regions and learn more<ph name="END_LINK">$3</ph> about connecting a custodial account to iBrowe Rewards.
+    See the <ph name="LINK_BEGIN">$1</ph>current list of supported regions and learn more<ph name="END_LINK">/$1</ph> about connecting a custodial account to iBrowe Rewards.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_REGION_NOT_SUPPORTED_TITLE" desc="">
     Region currently not supported
@@ -688,7 +725,7 @@
     Limited Uphold account functionality
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_SIGNATURE_VERIFICATION_ERROR_TEXT" desc="">
-    There was a problem validating your request to connect your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account to iBrowe Rewards. You can <ph name="BEGIN_LINK">$2</ph>contact support<ph name="END_LINK">$3</ph> for more help.
+    There was a problem validating your request to connect your <ph name="PROVIDER">$1<ex>Uphold</ex></ph> account to iBrowe Rewards. You can <ph name="BEGIN_LINK">$2</ph>contact support<ph name="END_LINK">/$2</ph> for more help.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_SIGNATURE_VERIFICATION_ERROR_TITLE" desc="">
     Request could not be validated
@@ -697,7 +734,7 @@
     Something went wrong
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_UNEXPECTED_ERROR_TEXT" desc="">
-    We weren’t able to complete your request. Please try again, and <ph name="LINK_BEGIN">$2</ph>contact support<ph name="LINK_END">$3</ph> if the problem persists.
+    We weren’t able to complete your request. Please try again, and <ph name="LINK_BEGIN">$1</ph>contact support<ph name="LINK_END">/$1</ph> if the problem persists.
   </message>
   <message name="IDS_REWARDS_AUTHORIZE_PROCESSING_TEXT" desc="">
     Your request is still being processed, please wait.
@@ -748,12 +785,6 @@
   <message name="IDS_REWARDS_ADS_SETTINGS_NEWS_ON_TOOLTIP" desc="">
     iBrowe News contains ads that cannot be independently disabled.
   </message>
-  <message name="IDS_REWARDS_ADS_SETTINGS_SEARCH_CONNECTED_TOOLTIP" desc="">
-    You cannot earn BAT from iBrowe Search Ads yet, but you help support iBrowe by having them on.
-  </message>
-  <message name="IDS_REWARDS_ADS_SETTINGS_SEARCH_TOOLTIP" desc="">
-    iBrowe Search Ads appear on <ph name="LINK_BEGIN">$1</ph>iBrowe Search<ph name="LINK_END">$2</ph>.
-  </message>
   <message name="IDS_REWARDS_ADS_SETTINGS_SUBDIVISION_LABEL" desc="">
     Regional ad relevance
   </message>
@@ -772,11 +803,8 @@
   <message name="IDS_REWARDS_ADS_SETTINGS_TEXT" desc="">
     Control what kinds of iBrowe Ads you see, and how often. The more you see, the more you can earn.
   </message>
-  <message name="IDS_REWARDS_ADS_VIEWED_TOOLTIP" desc="">
+  <message name="IDS_REWARDS_ADS_VIEWED_TOOLTIP" desc="" formatter_data="webui=BraveRewards">
     This shows the number of iBrowe Ads you've seen this month that qualify for earning BAT.
-  </message>
-  <message name="IDS_REWARDS_AD_TYPE_INLINE_CONTENT_LABEL" desc="">
-    iBrowe News ads
   </message>
   <message name="IDS_REWARDS_AD_TYPE_NEW_TAB_PAGE_LABEL" desc="">
     New tab page ads
@@ -789,9 +817,6 @@
   </message>
   <message name="IDS_REWARDS_AD_TYPE_ON_LABEL" desc="">
     On
-  </message>
-  <message name="IDS_REWARDS_AD_TYPE_SEARCH_RESULT_LABEL" desc="">
-    Search ads
   </message>
 
   <message name="IDS_REWARDS_EARNINGS_ADS_RECEIVED_TEXT" desc="">
@@ -935,7 +960,7 @@
   </message>
 
   <message name="IDS_REWARDS_WDP_CHECKBOX_LABEL" desc="">
-    Yes, I’d also like to contribute to iBrowe Search and opt in to <ph name="LINK_BEGIN">$1</ph>Web Discovery Project<ph name="LINK_END">$2</ph>.
+    Yes, I’d also like to contribute to iBrowe Search and opt in to <ph name="LINK_BEGIN">$1</ph>Web Discovery Project<ph name="LINK_END">/$1</ph>.
   </message>
   <message name="IDS_REWARDS_WDP_OPT_IN_TEXT" desc="">
     Contribute some anonymous search and browsing data to refine iBrowe Search with Web Discovery Project. It’s completely open-source.

@@ -196,6 +196,7 @@
 <translation id="7279636930553631442">Popup de boletim informativo</translation>
 <translation id="6136090320163235283">Widget social</translation>
 <translation id="6657720240983439091">Widget de chat</translation>
+<translation id="3597441883564676263">Navegador não suportado</translation>
 <translation id="7138678301420049075">Outro</translation>
 <translation id="4046860372562593546">Gerenciar anúncios do iBrowe</translation>
 <translation id="5136973036012418831">Controle que tipos de Anúncios do iBrowe você vê e com que frequência.</translation>
@@ -482,14 +483,21 @@
 <translation id="1518915449477235311">Permitir que <ph name="URL"/> abra as conversas do Leo AI no iBrowe?</translation>
 <translation id="4355784577209159847">Permitir o uso de cookies de terceiros para login herdado do Google</translation>
 <translation id="5770656036486891920"><ph name="URL"/> deseja usar cookies de terceiros para o login legado do Google</translation>
-<translation id="6053826678715267477">Permitir acesso aos recursos de localhost</translation>
-<translation id="2973562729984406132"><ph name="URL"/> quer acessar os recursos do localhost</translation>
 <translation id="2104347391516032700">Serviço de Recompensas iBrowe</translation>
 <translation id="5939518447894949180">Redefinir</translation>
 <translation id="3349204812119681938">Redefinir o Programa de Recompensas iBrowe</translation>
 <translation id="4915997950539925115">Ao redefinir, seu perfil atual das Recompensas iBrowe será excluído e as Recompensas iBrowe não estarão mais ativadas. Se você ativar as Recompensas iBrowe novamente mais tarde, começará com um novo perfil. Leia nosso <ph name="LINK_BEGIN"/>artigo de suporte sobre como redefinir<ph name="LINK_END"/> para saber mais detalhes.</translation>
 <translation id="4806029412510565611">Entendo que meu perfil atual das Recompensas iBrowe e meus dados das Recompensas iBrowe serão excluídos do meu dispositivo e li o <ph name="LINK_BEGIN"/>artigo de suporte sobre a redefinição<ph name="LINK_END"/>.</translation>
 <translation id="8835777704176513489">Desativar e redefinir recompensas</translation>
+<translation id="1570055891464728855">Redefinir agora</translation>
+<translation id="6431824580671230473">Não se preocupe: qualquer BAT já presente na sua conta <ph name="PROVIDER"/> não será afetado pela redefinição.</translation>
+<translation id="2881473942058010900">Você não receberá por anúncios enquanto estiver conectado à <ph name="PROVIDER"/>. Redefina as Recompensas iBrowe e conecte uma conta de pagamento diferente para continuar ganhando. <ph name="LINK_BEGIN"/>Saiba mais<ph name="LINK_END"/></translation>
+<translation id="5803444802570526678">Conta do <ph name="PROVIDER"/> não é mais compatível.</translation>
+<translation id="3794463124070392793">Confirme sua região</translation>
+<translation id="4620879582500359234">Qualquer BAT já presente na sua conta <ph name="PROVIDER"/> permanecerá lá.</translation>
+<translation id="935303782545595866">Seu histórico de anúncios de 30 dias e outras configurações das Recompensas iBrowe serão redefinidos.</translation>
+<translation id="6279637499952804615">Você poderá escolher uma conta de pagamento diferente após esta etapa.</translation>
+<translation id="5419770758409992826">Sua conta <ph name="PROVIDER"/> será desconectada e seu perfil das Recompensas iBrowe será redefinido.</translation>
 <translation id="7717357606512850995">Verificar status</translation>
 <translation id="6473937687348632190">O pagamento das recompensas de <ph name="MONTH"/> foi concluído.</translation>
 <translation id="1711367267038576241">O pagamento das recompensas de <ph name="MONTH"/>começará a ser processado até <ph name="DATE"/>.</translation>
@@ -514,15 +522,15 @@
     }</translation>
 <translation id="3264975266761862670">Pronto para começar a ganhar?</translation>
 <translation id="2784412028126205842">Conecte uma conta de pagamento</translation>
-<translation id="766126983336630294">{ADS_VIEWED, plural,
-      =0 {Você viu <ph name="COUNT_BEGIN"/># Anúncios <ph name="COUNT_END"/> este mês}
-      =1 {Você poderia estar sendo pago pelo <ph name="COUNT_BEGIN"/># Anúncio<ph name="COUNT_END"/> que viu este mês.}
-      other {Você poderia estar sendo pago pelos<ph name="COUNT_BEGIN"/># Anúncios<ph name="COUNT_END"/> que viu este mês.}
+<translation id="1789518312567918588">{ADS_VIEWED, plural,
+      =0 {Você viu <ph name="COUNT_BEGIN"/> # Anúncios <ph name="COUNT_END"/> este mês}
+      =1 {Você poderia estar sendo pago pelo <ph name="COUNT_BEGIN"/> # Anúncio<ph name="COUNT_END"/> que viu este mês.}
+      other {Você poderia estar sendo pago pelos <ph name="COUNT_BEGIN"/> # Anúncios<ph name="COUNT_END"/> que viu este mês.}
     }</translation>
-<translation id="8611388433418909120">{ADS_VIEWED, plural,
-      =0 {Você viu <ph name="COUNT_BEGIN"/># anúncios<ph name="COUNT_END"/> este mês}
-      =1 {Você está recebendo por ver <ph name="COUNT_BEGIN"/># anúncio<ph name="COUNT_END"/> este mês}
-      other {Você está recebendo por ver <ph name="COUNT_BEGIN"/># anúncios<ph name="COUNT_END"/> este mês}
+<translation id="1100743684843603297">{ADS_VIEWED, plural,
+      =0 {Você viu <ph name="COUNT_BEGIN"/> # anúncios<ph name="COUNT_END"/> este mês}
+      =1 {Você está recebendo por ver <ph name="COUNT_BEGIN"/> # anúncio<ph name="COUNT_END"/> este mês}
+      other {Você está recebendo por ver <ph name="COUNT_BEGIN"/> # anúncios<ph name="COUNT_END"/> este mês}
     }</translation>
 <translation id="6067959437127691361">Ao usar as Recompensas iBrowe, você apoia os criadores de conteúdo e ganha BATs.</translation>
 <translation id="2359808026110333948">Continuar</translation>
@@ -600,7 +608,7 @@
 <translation id="5802986777701714573">Adicionamos uma nova maneira de você receber suas recompensas BAT mensais. Conecte uma conta de um de nossos parceiros ou use a nova opção de autocustódia para começar a ganhar agora.</translation>
 <translation id="3251885322612056119">Termos de Serviço atualizados</translation>
 <translation id="7454675823870922788">Atualizamos os Termos de Serviço das Recompensas iBrowe. Implementamos essas atualizações para esclareces os termos e garantir que abordem os novos recursos. Ao continuar usando as Recompensas iBrowe, você concorda com os novos Termos de Serviço. Se não concordar, pode <ph name="LINK_BEGIN"/>redefinir<ph name="LINK_END"/> as Recompensas iBrowe, de modo a desativar o recurso.</translation>
-<translation id="56057964000416013">Atualizamos nossos Termos de Serviço. Para continuar usando as Recompensas iBrowe, leia e concorde com os termos atualizados.</translation>
+<translation id="616595399243298960">Atualizamos nossos Termos de Serviço. Para continuar usando as Recompensas iBrowe, leia e concorde com os termos atualizados.</translation>
 <translation id="5192526308598085294">Consulte os <ph name="LINK_BEGIN"/>Termos de Serviço das Recompensas iBrowe<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">Concordo</translation>
 <translation id="343114360276812078">Termos de revisão</translation>
@@ -648,6 +656,8 @@
 <translation id="6751803821780922506">Escolha onde pretende receber oBAT</translation>
 <translation id="3162035476318501831">Saiba mais sobre regiões e suporte.</translation>
 <translation id="7329170127335794328">Atualmente indisponível na sua região</translation>
+<translation id="1947910788470806100">Ainda não temos opções de pagamento disponíveis em sua região. Você pode verificar novamente mais tarde para ver se houve alguma mudança.</translation>
+<translation id="271689813824682404">Opções de pagamento indisponíveis</translation>
 <translation id="966956302643313970">Para começar a receber recompensas de Basic Attention Token (BAT), associe uma conta. O BAT que receber será automaticamente transferido para a sua conta todos os meses.</translation>
 <translation id="4009439571146350519">Ou outra carteira que suporte Solana</translation>
 <translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Termos de Uso<ph name="TOS_LINK_END"/> e <ph name="PP_LINK_BEGIN"/>política de Privacidade<ph name="PP_LINK_END"/>.</translation>
@@ -688,7 +698,6 @@
 <translation id="3266055641283174315">Tipo de anúncio</translation>
 <translation id="8706824117053903390">Visualizações este mês</translation>
 <translation id="5105890735834548623">Configurações de anúncios</translation>
-<translation id="96989662637180657">Os Anúncios de Pesquisa do iBrowe aparecem na <ph name="LINK_BEGIN"/>Pesquisa iBrowe<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Configurações de anúncios</translation>
 <translation id="2446517297521536638">Controle que tipos de Anúncios iBrowe você vê e com que frequência. Quanto mais você vê, mais você pode ganhar.</translation>
 <translation id="3479272537858623647">Isso mostra o número de Anúncios iBrowe que você viu neste mês e que se qualificam para ganhar BAT.</translation>
@@ -855,6 +864,14 @@
       other {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} etapas}
     }</translation>
 <translation id="8621264173374071200"><ph name="EXCHANGE_NAME"/> via <ph name="PROVIDER_NAME"/></translation>
+<translation id="646023614746251785">Confirmar troca</translation>
+<translation id="6264944956989873014">Confirmar ponte</translation>
+<translation id="7067917728851842589">Confirmar envio</translation>
+<translation id="2841837950101800123">Provedor</translation>
+<translation id="1114725160772317155">Status do provedor</translation>
+<translation id="2351357639951873714">Confirmar blindagem</translation>
+<translation id="7480044382160806610">Confirmar desproteção</translation>
+<translation id="8332923694292360653">Gastar</translation>
 <translation id="3735740477244556633">Classificar por</translation>
 <translation id="6484605214219822434">Revisar ponte</translation>
 <translation id="3365052891357224017">Tempo est.</translation>
@@ -875,6 +892,8 @@
 <translation id="7465227658364622464">A Jupiter processará o endereço Solana e o endereço IP para realizar uma transação (incluindo a obtenção de cotações). A Jupiter usará esses dados SOMENTE para fins de processamento de transações.</translation>
 <translation id="712738518060477110">A cotação inclui uma taxa de <ph name="SWAP_FEE_PERCENTAGE"/> do iBrowe.</translation>
 <translation id="8368540604723748428">Excesso de casas decimais</translation>
+<translation id="4797709125717981664">O mínimo exigido é 1 ADA</translation>
+<translation id="3826737479910350533">O valor do envio é muito pequeno</translation>
 <translation id="6575120282593094155">Você ainda não tem uma conta do <ph name="ACCOUNT_TYPE"/>. Deseja criar uma agora?</translation>
 <translation id="1426410128494586442">Sim</translation>
 <translation id="4250680216510889253">Não</translation>
@@ -921,7 +940,7 @@
 <translation id="2274014756904854136">Toque duas vezes na tela para continuar</translation>
 <translation id="7795718119973968770">Sua carteira está bloqueada para sua segurança. Desbloqueie a carteira para continuar.</translation>
 <translation id="9175546523521600401">Bloquear carteira</translation>
-<translation id="765834632354589737">Fazer Backup da Carteira</translation>
+<translation id="7117128722034148989">Fazer backup da carteira</translation>
 <translation id="1108298724135935307">Sites conectados</translation>
 <translation id="5716350339763180836">Equilíbrios</translation>
 <translation id="5538251867290702601">Gráfico</translation>
@@ -964,6 +983,8 @@
 <translation id="3451958544919449297">Armazenar ativos do ZEC Testnet</translation>
 <translation id="8459631690385393533">Armazenar ativos de Cardano</translation>
 <translation id="4915057812371523845">Armazenar ativos de Cardano Testnet</translation>
+<translation id="5387140102951033657">Oferece suporte a ativos Substrate na relay chain Polkadot e parachains Substrate</translation>
+<translation id="5601177227092533167">Oferece suporte a ativos Substrate na relay chain Westend e parachains Substrate</translation>
 <translation id="8500387257977999003">Chave privada <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Importar</translation>
 <translation id="232925166623833246">Importar de carteira de hardware</translation>
@@ -1021,6 +1042,7 @@
 <translation id="2416098547200943834">OBSERVAÇÃO: a chave privada é fornecida como um JSON com codificação hexadecimal que contém informações da chave privada e de protocolo. <ph name="LINK_START"/>Saiba mais<ph name="LINK_END"/>.</translation>
 <translation id="7657130382217527063">OBSERVAÇÃO: a chave privada precisa ser fornecida como um JSON com codificação hexadecimal que contém informações da chave privada e de protocolo. <ph name="LINK_START"/>Saiba mais<ph name="LINK_END"/>.</translation>
 <translation id="4482913669726886926">NOTA: Somente as chaves estendidas <ph name="FORMAT"/> são compatíveis.</translation>
+<translation id="9133762451347918196">Contas Testnet</translation>
 <translation id="42126664696688958">Exportar</translation>
 <translation id="1366855498335432549">Depositar</translation>
 <translation id="790104325876206743">Configurações de conta</translation>
@@ -1028,6 +1050,11 @@
 <translation id="836614343069504000">Deposite ou compre tokens para começar. Se você não vir os tokens de uma conta importada, verifique os filtros e as configurações de exibição. Pode ser necessário adicionar tokens desconhecidos como recursos personalizados.</translation>
 <translation id="2902856457593699108">Mostrar chave</translation>
 <translation id="8033497299373164724">Ocultar chave</translation>
+<translation id="7514365320538308">Baixar</translation>
+<translation id="4505811804838254812">Insira uma senha para criptografar seu arquivo de exportação de conta.</translation>
+<translation id="4664684820522660564">Insira a senha de criptografia</translation>
+<translation id="6873030689896652259">Confirme a senha de criptografia</translation>
+<translation id="5148285448107770349">A senha deve ter pelo menos 8 caracteres</translation>
 <translation id="2702143907607790516">Houve uma falha ao obter o nome da conta. Tente novamente.</translation>
 <translation id="3318280255740629162">25%</translation>
 <translation id="2636487255623744079">50%</translation>
@@ -1048,9 +1075,6 @@
 <translation id="1506421160138798546">estimativa</translation>
 <translation id="59223531494896848">Limite</translation>
 <translation id="8569380433211549748">Preço em</translation>
-<translation id="2490428413101944234">Testar faucet</translation>
-<translation id="3352959425838279177">Obter Ether de uma faucet para <ph name="SELECTED_NETWORK"/></translation>
-<translation id="6449626816252815844">Selecionar método de compra</translation>
 <translation id="8009571545960303544">Sua assinatura está sendo solicitada</translation>
 <translation id="5294062982587710720">Tenha em mente que o iBrowe não pode verificar o que acontecerá se você assinar. Uma assinatura pode autorizar praticamente qualquer operação na sua conta ou em seu nome, incluindo (entre outras coisas) total controle da sua conta e dos seus criptoativos para o site que está fazendo a solicitação. Assine somente se tiver certeza de que deseja realizar essa ação e se confiar no site que fez a solicitação.</translation>
 <translation id="3474375934783434676">Assine por sua conta e risco</translation>
@@ -1058,6 +1082,7 @@
 <translation id="3586931643579894722">Ocultar detalhes</translation>
 <translation id="7702907602086592255">Domínio</translation>
 <translation id="3586752056660754651">Assinar</translation>
+<translation id="4217653732094303705">Chave de criptografia pública</translation>
 <translation id="3484981968509595506">Um DApp está solicitando sua chave de criptografia pública</translation>
 <translation id="2300240008330189182"><ph name="URL"/> está solicitando a chave de criptografia pública da sua carteira. Se você consentir com o fornecimento dessa chave, o site poderá criar mensagens criptografadas para você.</translation>
 <translation id="3340247553212049934">Providenciar</translation>
@@ -1075,6 +1100,10 @@
 <translation id="8904889345035514635">Provisão atual</translation>
 <translation id="7073918978411974168">Provisão proposta</translation>
 <translation id="9019403281000653275">Aprovação ilimitada solicitada</translation>
+<translation id="9108474191347769758">Limite de gastos</translation>
+<translation id="2102091845281366189">Destino da aprovação</translation>
+<translation id="772196962479335292">Limite de aprovação atual</translation>
+<translation id="8215431557133305629">Limite de aprovação proposto</translation>
 <translation id="4717431746210146708">Permitir que este site adicione uma rede?</translation>
 <translation id="2521480044079508357">Isso permitirá que essa rede seja usada na Carteira iBrowe.</translation>
 <translation id="1982257600591932657">Nome da rede</translation>
@@ -1091,7 +1120,7 @@
 <translation id="3948067511324628726">Taxa de gás</translation>
 <translation id="7163997622278957886">Oferta</translation>
 <translation id="1074360622426001342">Valor + gás</translation>
-<translation id="2186011161688824046">Valor + taxa</translation>
+<translation id="7542099582407803878">Valor + Taxa de rede</translation>
 <translation id="7084089311475827950">Não há dados.</translation>
 <translation id="5821668936183240062">próxima</translation>
 <translation id="793994607260936590">primeira</translation>
@@ -1200,12 +1229,12 @@
 <translation id="4932382283590063268">O endereço de recebimento é o seu próprio endereço.</translation>
 <translation id="3124753063207986114">O endereço de recebimento é o endereço do contrato de um token.</translation>
 <translation id="7029817408221097939">Endereço unificado inválido</translation>
-<translation id="6370376419663123629">O endereço não parece correto</translation>
-<translation id="3767148796886402380">Verifique seu endereço para garantir que é o endereço correto (por exemplo, letras com letras minúsculas ou maiúsculas).</translation>
+<translation id="5749543778008369411">Endereço não possui checksum</translation>
+<translation id="8225310967627152630">A validade deste endereço não pode ser verificada. Para evitar uma possível perda de fundos, revise o endereço cuidadosamente antes de enviar.</translation>
+<translation id="5139218857087774333">Endereço não parece correto (checksum inválido)</translation>
+<translation id="6551446819927864899">Este endereço parece ter um erro de digitação. Revise o endereço e digite-o novamente.</translation>
 <translation id="2585599787090762065">Como podemos resolver isso?</translation>
 <translation id="5517732667776806421">Informações de soma de verificação não encontradas</translation>
-<translation id="2975056993833847787">Não é possível verificar esse endereço (soma de verificação não encontrada). Continuar?</translation>
-<translation id="6320252966164556855">O endereço não foi aprovado pela verificação (soma de verificação inválida). Tente novamente, substituindo as letras minúsculas por maiúsculas.</translation>
 <translation id="4667144295226514387">Limite de gás não encontrado</translation>
 <translation id="2021522108838444624">O valor precisa ser superior a 0</translation>
 <translation id="8464365289405373974">O endereço do destinatário é obrigatório</translation>
@@ -1231,6 +1260,8 @@
 <translation id="471055802670233033">Você gasta</translation>
 <translation id="7916618590403748182">Você receberá</translation>
 <translation id="8328657208304368165">Confirmar pedido</translation>
+<translation id="3784821115971261512">Endereço de programa</translation>
+<translation id="6302865118026274740">Endereço de depósito</translation>
 <translation id="8220255674527598378">Trocar com a Solana</translation>
 <translation id="5071303414930953888">Conta <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">Primeiro é necessário desbloquear a carteira</translation>
@@ -1290,10 +1321,7 @@
 <translation id="4312994183947987913">Comprar/depositar</translation>
 <translation id="5133421763709317473">Não foi encontrado nenhum ativo que corresponda à pesquisa ou ao filtro</translation>
 <translation id="6423985584914773314">Não é um endereço FIL válido</translation>
-<translation id="5522073372365069684">Comprar com Ramp</translation>
 <translation id="6153197326949684688">Vender com <ph name="OFFRAMP_PROVIDER"/></translation>
-<translation id="7902920577183739843">Comprar com Sardine</translation>
-<translation id="3301984548406568819">Os dados financeiros e de transações são processados por nossos parceiros de integração. O iBrowe não coleta nem tem acesso a esses dados.</translation>
 <translation id="1916136859742693273">A Carteira iBrowe usa a Meld.io para ajudar a agregar e supervisionar vários provedores de criptomoedas para sua região. Nós compartilharemos informações com a Meld. para completar a transação, incluindo o endereço da sua carteira e código do país. Para obter mais informações, leia os termos de uso de Meld.</translation>
 <translation id="245827814248186739">Li e concordo com os <ph name="LINK_BEFORE"/>Termos de uso da Meld<ph name="LINK_AFTER"/></translation>
 <translation id="2050829168433446009">Melhor opção</translation>
@@ -1313,19 +1341,8 @@
 <translation id="4196022627437957774">Você quer criar uma conta <ph name="ACCOUNT_TYPE"/>?</translation>
 <translation id="5982914754413312620">Para receber <ph name="TOKEN_SYMBOL"/>, você precisará de uma conta <ph name="ACCOUNT_TYPE"/>.</translation>
 <translation id="3067168166931605141">Nome da conta</translation>
-<translation id="6534275647567011533">Comprar com Transak</translation>
-<translation id="5973390321030037823">Comprar com link</translation>
-<translation id="1932640759496708012">Comprar com Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
-<translation id="7295150312737713113">Link da Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
-<translation id="7667423728712601865">Compre criptomoedas com Visa ou Mastercard.</translation>
-<translation id="3648994606506382289">A maneira mais fácil, rápida e barata de comprar criptomoedas com cartão e transferências bancárias.</translation>
-<translation id="3101839349578102016">Compra instantânea com sua conta bancária. Taxas mais baixas.</translation>
-<translation id="8280898387224328221">Pagar com cartão de crédito, débito ou conta bancária.</translation>
-<translation id="2218174283683424104">Compre com o nome mais confiável em criptografia.</translation>
+<translation id="1213870770696612739">Valor mínimo: <ph name="AMOUNT"/></translation>
+<translation id="3041074161036535192">Valor máximo: <ph name="AMOUNT"/></translation>
 <translation id="8528916244724490964">Todas as redes</translation>
 <translation id="7721139939763655123">Ascendente</translation>
 <translation id="5458608274117818139">Decrescente</translation>
@@ -1370,8 +1387,13 @@
 <translation id="7694836973509310467">Ponte</translation>
 <translation id="8419958386475786929"><ph name="SWAPPING_OR_BRIDGING"/> em <ph name="NETWORK"/></translation>
 <translation id="7903225589949400974">Houve um erro ao tentar <ph name="SWAP_OR_BRIDGE"/> na <ph name="NETWORK"/></translation>
+<translation id="7220786058474068424">Processando</translation>
+<translation id="3248185426436836442">Pendente</translation>
+<translation id="5503843345634715425">Reembolsado</translation>
 <translation id="1778601041100951971">Protegendo <ph name="AMOUNT"/></translation>
+<translation id="6439110433198887239">Desprotegendo <ph name="AMOUNT"/></translation>
 <translation id="5549369333299694936"><ph name="AMOUNT"/> foi protegido</translation>
+<translation id="3860973324426281816"><ph name="AMOUNT"/> foi desprotegido</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {mais {PENDING_TRANSACTIONS} transações pendentes.}
       other {mais {PENDING_TRANSACTIONS} transações pendentes.}
@@ -1396,6 +1418,7 @@
 <translation id="5601436886921227795">Interação com DApp</translation>
 <translation id="9104177294757104789">Enviar <ph name="VALUE"/></translation>
 <translation id="4048336522751528394">Trocar <ph name="MAKER"/> por <ph name="TAKER"/></translation>
+<translation id="5140590056890937774">Transpor <ph name="SOURCE"/> para <ph name="DESTINATION"/></translation>
 <translation id="1748114617341025015">Criar uma conta de token associada</translation>
 <translation id="4418115887224983240">Não foi possível criar uma conta de token associada</translation>
 <translation id="7165697599360786670">Criação de conta de token associada concluída</translation>
@@ -1416,6 +1439,8 @@
 <translation id="1908159733454294871">Risco de segurança detectado</translation>
 <translation id="3621202678540785336">Entrada</translation>
 <translation id="3009178788565917040">Saída</translation>
+<translation id="7953669802889559161">Entradas</translation>
+<translation id="4554024082642878647">Saídas</translation>
 <translation id="1965889974717516497">Redes secundárias</translation>
 <translation id="7691821949666755802">Redes de teste</translation>
 <translation id="2816106784624007524">O limite de gás precisa ser um número inteiro superior a 0</translation>
@@ -1564,8 +1589,6 @@
 <translation id="1422451606553326863">Comprar criptomoedas</translation>
 <translation id="3887541341068007345">Verificando extensões de carteira...</translation>
 <translation id="8407091560429310499">Selecione um ativo</translation>
-<translation id="756590380936155533">Para concluir sua compra de <ph name="ASSET_TICKER"/>, selecione um de nossos parceiros</translation>
-<translation id="7880860489474966219">Após a conclusão, seus fundos serão transferidos para sua Carteira iBrowe</translation>
 <translation id="6182661078713714878">Depositar criptomoedas</translation>
 <translation id="3683305208314702347">Depositar <ph name="VALUE"/></translation>
 <translation id="5768739294929936862">Depositar tokens Solana ou SPL</translation>
@@ -1622,12 +1645,16 @@
 <translation id="3356580495013324916">Insira sua senha da Carteira iBrowe para começar a fazer o backup da sua carteira.</translation>
 <translation id="7545441766078366279">Aprovar <ph name="TOKEN"/></translation>
 <translation id="3115303896544539834">Saldo de <ph name="TOKEN"/> insuficiente</translation>
+<translation id="6612125470074657311">Valor muito baixo</translation>
+<translation id="5838312420826727653">Token(s) não suportado(s)</translation>
+<translation id="4930106154893104117">Solicitação inválida</translation>
 <translation id="3453833142586986467">Selecionar token</translation>
 <translation id="4937657825850660613">Metade</translation>
 <translation id="7639814793732182496">Máx.</translation>
 <translation id="6584782231358487640">Insira um valor</translation>
 <translation id="477281933640372562">Buscando cotação</translation>
 <translation id="5450317966495183014">Receber (est.)</translation>
+<translation id="387870937508841726">Receber (mín.)</translation>
 <translation id="8747614139273050577">Do token</translation>
 <translation id="1726158192333401896">Para o token</translation>
 <translation id="1817370679212109974">Nova cotação em <ph name="COUNTDOWN"/></translation>
@@ -1652,6 +1679,7 @@
 <translation id="8044899503464538266">Lento</translation>
 <translation id="3569512916300900704">Média</translation>
 <translation id="7019805045859631636">Rápido</translation>
+<translation id="1345580220012169610">Taxa estimada</translation>
 <translation id="632241521608275119">Tolerância de slippage</translation>
 <translation id="6778140392042462129">Exchanges</translation>
 <translation id="6173494033320397682">Somente rotas diretas</translation>
@@ -1705,6 +1733,9 @@
 <translation id="6276584161122912863">Preço do combustível</translation>
 <translation id="6132197290665156212">Taxa de rede estimada</translation>
 <translation id="1788636309517085411">Usar taxa padrão</translation>
+<translation id="3968375068626660591">Essa taxa de gás substituirá a original.</translation>
+<translation id="1661088862481901887">Isso criará uma nova transação com uma nova taxa de gás para sobrescrever e cancelar a pendente. É possível tentar um cancelamento apenas se a transação ainda estiver pendente na rede.</translation>
+<translation id="5797060124625958778">Prioridade de velocidade</translation>
 <translation id="6213230117190778270">Receber</translation>
 <translation id="6748108480210050150">De</translation>
 <translation id="4875290286426670462">Ilimitado <ph name="ASSET_SYMBOL"/></translation>
@@ -1734,7 +1765,6 @@
 <translation id="2410455471299328417">Este serviço é fornecido por <ph name="BOLD_BEFORE"/>Blowfish.xyz<ph name="BOLD_AFTER"/> e está sujeito aos seus <ph name="TERMS_LINK_BEFORE"/>Termos de Serviço<ph name="TERMS_LINK_AFTER"/> e <ph name="PRIVACY_POLICY_LINK_BEFORE"/>Política de Privacidade<ph name="PRIVACY_POLICY_LINK_AFTER"/></translation>
 <translation id="8688672835843460752">Disponível</translation>
 <translation id="5296640085393149413">Fundos disponíveis para você usar.</translation>
-<translation id="3248185426436836442">Pendente</translation>
 <translation id="2515906149804238711">Uma alteração pendente no saldo da sua carteira.</translation>
 <translation id="7700365440186054030">Seus fundos disponíveis mais quaisquer transações ainda não confirmadas.</translation>
 <translation id="4118601537508887039">Alguns saldos podem estar indisponíveis</translation>
@@ -1800,10 +1830,14 @@
 <translation id="7747318989577709780">A conta está sendo sincronizada</translation>
 <translation id="9086302186042011942">Sincronizando</translation>
 <translation id="99991973626409495">Proteção de revisão</translation>
+<translation id="6779429520470417361">Revisar desproteção</translation>
 <translation id="3114681061018999547">Protegendo</translation>
+<translation id="1564172583156967455">Desprotegendo</translation>
 <translation id="8897189056319316783">Proteção ZEC</translation>
+<translation id="508249542337194541">Desproteger ZEC</translation>
 <translation id="3382275793825152362">Fundos protegidos</translation>
 <translation id="8631765320256788981">Você está enviando fundos de sua conta transparente para a sua conta protegida.</translation>
+<translation id="3860364671495430495">Você está enviando fundos de sua conta protegida para sua conta transparente.</translation>
 <translation id="7144878232160441200">Tentar novamente</translation>
 <translation id="9094621390791852268">Falha na visualização da transação.</translation>
 <translation id="4982713341035600933">Alteração de saldo estimada</translation>
@@ -2080,6 +2114,8 @@
 <translation id="4292565651642921086">Foco no próximo grupo de guia</translation>
 <translation id="874783686573493196">Foco no grupo de guia anterior</translation>
 <translation id="9169594135889675189">Adicionar nova guia ao grupo</translation>
+<translation id="1722567105086139392">Link</translation>
+<translation id="4729794914864902904">Desvincular</translation>
 <translation id="1926106318101432555">Abrir favorito...</translation>
 <translation id="6118819645013156507">Mudar para a janela...</translation>
 <translation id="1623204575967809688">Combinar janela atual com...</translation>
@@ -2105,6 +2141,7 @@
 <translation id="5329136173514538969">Juntar separadores</translation>
 <translation id="7595612919377246359">Trocar posições da guia</translation>
 <translation id="2367972762794486313">Mostrar aplicativos</translation>
+<translation id="3468387898712904997">Novo alias de e-mail</translation>
 <translation id="8591883849678260674">Ver original</translation>
 <translation id="1969654232209826429">leitura mínima</translation>
 <translation id="4101707289420716287">Desligar o Speedreader</translation>
@@ -2138,13 +2175,12 @@
 <translation id="5872363163901278000">Aumentar a velocidade de reprodução</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">O recurso de resumo só está disponível para alguns artigos e outras páginas Web de formato longo.</translation>
-<translation id="1223498995510244364">Resumir</translation>
 <translation id="7491773233732232424">Sobre o Leo</translation>
 <translation id="4611072979071082355">O iBrowe Leo é um assistente inteligente privado de IA que aprimora o uso da Internet. Leo é de uso gratuito com acesso limitado. O iBrowe Leo Premium oferece mais modelos, limites mais altos e dá aos assinantes acesso antecipado a novos recursos. O modelo padrão mudará de vez em quando. Veja a <ph name="LINK_BEFORE"/>Central de Ajuda do iBrowe<ph name="LINK_AFTER"/> para saber mais detalhes.</translation>
 <translation id="7297056998057521697">Por padrão, quando você faz uma pergunta ao Leo sobre um site ou página que está visualizando, o conteúdo da página que está visualizando ou qualquer texto que você destacar em uma página, bem como sua consulta de pesquisa, serão enviados aos servidores do iBrowe para que o Leo forneça uma resposta. Em alguns casos, o Leo enviará consultas derivadas de suas informações para a Pesquisa iBrowe e usará os resultados da pesquisa para responder melhor à sua pergunta. O iBrowe não garante a precisão das respostas e as respostas podem incluir informações imprecisas, enganosas ou falsas. Não envie informações confidenciais ou privadas ao iBrowe Leo e tenha cuidado com respostas relacionadas a saúde, finanças, segurança pessoal ou similares. Você pode ajustar as opções do Leo em Configurações a qualquer momento. Acesse Configurações &gt; Leo.</translation>
 <translation id="6644545214304085600">O Leo não coleta identificadores, como seu endereço IP, que possam ser vinculados a você. Não treinamos nossos modelos baseados em seus dados, incluindo suas consultas de pesquisa ou as respostas do iBrowe Leo. Nenhum dado pessoal é armazenado em nossos servidores ou retido pelo iBrowe. Consulte nossa <ph name="LINK_BEFORE"/>Política de privacidade<ph name="LINK_AFTER"/> para obter mais informações.</translation>
 <translation id="4348006373172097089">{PAGE_COUNT, plural,
-      one {}=1 {Faça uma pergunta sobre o conteúdo desta página}
+      =1 {Faça uma pergunta sobre o conteúdo desta página}
       other {Faça uma pergunta sobre o conteúdo destas páginas}
     }</translation>
 <translation id="6961721183181597848">Como posso ajudá-lo hoje?</translation>
@@ -2154,7 +2190,7 @@
 <translation id="4524675003624341892">Sugerir perguntas...</translation>
 <translation id="4567071417854988869">Resumir este vídeo</translation>
 <translation id="4264902191243445258">{PAGE_COUNT, plural,
-      one {}=1 {Resuma esta página}
+      =1 {Resuma esta página}
       other {Resuma estas páginas}
     }</translation>
 <translation id="7921782882718083488">Resumir esta página</translation>
@@ -2169,14 +2205,25 @@
 <translation id="8151638057146502721">Configurar</translation>
 <translation id="999273441077650169">O modelo muda dinamicamente para usar o melhor para a tarefa.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="1238020084128916796">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Llama 3.1 8B, um modelo criado pela Meta para ter um bom desempenho e ser aplicável a muitos casos de uso. A Llama é alojada no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
-<translation id="7127671672828944579">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Qwen 14B, um modelo criado pela Alibaba Cloud para ter um bom desempenho e ser aplicável a muitos casos de uso. O Qwen é alojado no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
-<translation id="2328524194917949829">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Gemma 3 12B, um modelo criado pelo Google DeepMind para ter um bom desempenho e ser aplicável a muitos casos de uso. O Gemma é alojado no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
-<translation id="634682910381645550">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia DeepSeek R1, um modelo criado pelo DeepSeek para realizar tarefas de raciocínio profundo. O DeepSeek R1 é alojado no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
-<translation id="8932568551552504373">Olá, eu sou o Léo. Sou representado pelo iBrowe e desenvolvido por Claude Instant, um modelo criado pela Anthropic para potencializar tarefas de conversação e processamento de texto. O Claude Instant é alojado no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="3852808100039989429">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Qwen VL 30B, um modelo criado pela Alibaba Cloud para ter um bom desempenho e ser aplicável a muitos casos de uso. O Qwen é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="6406961656408495869">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia DeepSeek V3.1, um modelo criado pela DeepSeek para ter um bom desempenho e ser aplicável a muitos casos de uso. O DeepSeek V3.1 é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Oi, sou o Leo. Sou um assistente de IA do iBrowe. Sou alimentado pelo Claude Instant, um modelo criado pela Anthropic para tarefas de conversação e processamento de texto. O Claude Instant é hospedado pelo iBrowe por meio de nossa própria infraestrutura segura.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="3789772321824682783">Olá, eu sou o Léo. Sou representado pelo iBrowe e desenvolvido por Claude Haiku, um modelo criado pela Anthropic para potencializar tarefas de conversação e processamento de texto. O Claude Haiku é alojado no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="1778885220602472158">Olá, eu sou o Léo. Sou representado pelo iBrowe e desenvolvido por Claude Sonnet, um modelo criado pela Anthropic para potencializar tarefas de conversação e processamento de texto. O Claude Sonnet é alojado no iBrowe por meio de nossa própria infraestrutura de segurança. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="1058830842518828124">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Llama 4 Scout, um modelo criado pela Meta para ter um bom desempenho e ser aplicável a muitos casos de uso. O Llama 4 Scout é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="6277330815126859513">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Llama 4 Maverick, um modelo criado pela Meta para ter um bom desempenho e ser aplicável a muitos casos de uso. O Llama 4 Maverick é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="5833148755396048122">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia GPT OSS 20B, um modelo criado pela OpenAI para ter um bom desempenho e ser aplicável a muitos casos de uso. O GPT OSS 20B é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="5414593137581221307">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia GPT OSS 120B, um modelo criado pela OpenAI para ter um bom desempenho e ser aplicável a muitos casos de uso. O GPT OSS 120B é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="5037359072717016032">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Mistral Large, um modelo criado pela Mistral para ter um bom desempenho e ser aplicável a muitos casos de uso. O Mistral Large é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="8947618429500471804">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Pixtral Large, um modelo criado pela Mistral para ter um bom desempenho e ser aplicável a muitos casos de uso. O Pixtral Large é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="4026902371301997261">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Qwen 3 235B, um modelo criado pela Alibaba Cloud para ter um bom desempenho e ser aplicável a muitos casos de uso. O Qwen 3 235B é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="768541432895104346">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Deepseek V3.1, um modelo criado pela Deepseek para ter um bom desempenho e ser aplicável a muitos casos de uso. O Deepseek V3.1 é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="3767678495358551728">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Qwen 3 Coder 480B, um modelo criado pela Alibaba Cloud para ter um bom desempenho e ser aplicável a muitos casos de uso. O Qwen 3 Coder 480B é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="3369866806475938617">Olá, eu sou o Leo. Sou um assistente de IA integralmente alojado no iBrowe. Uso tecnologia Claude Opus, um modelo criado pela Anthropic para potencializar tarefas de conversação e processamento de texto. O Claude Opus é alojado no iBrowe por meio de nossa própria infraestrutura de segurança.<ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="5807427080183870259">Local</translation>
+<translation id="830868413617744215">Beta</translation>
+<translation id="4773408460773097271">Ollama</translation>
 <translation id="631371844654031449">Modelos recomendados</translation>
 <translation id="6568044140836233369">Mostrar todos os modelos</translation>
 <translation id="6187065185557150870">Chat</translation>
@@ -2185,6 +2232,7 @@
 <translation id="7557539689487606886">Assinar o Premium</translation>
 <translation id="1691256669639196606">Gerenciar assinatura</translation>
 <translation id="3840096463915153852">Histórico de conversas</translation>
+<translation id="6761921176674289184">Gerenciar memórias</translation>
 <translation id="2304783958703511257">Configurações avançadas</translation>
 <translation id="3037594989275592390">Modelos de linguagem</translation>
 <translation id="5543505256451301851">Experimentar 7 dias grátis</translation>
@@ -2209,6 +2257,7 @@
 <translation id="9109355817507033196">Não gostou da resposta</translation>
 <translation id="4049425842478222936">Gostou da resposta</translation>
 <translation id="6393149565874086128">Adicionar feedback</translation>
+<translation id="4621961534325272682">Conversa copiada para a área de transferência</translation>
 <translation id="3521125531016408657">Curtir a resposta</translation>
 <translation id="8202517001427388906">Não curtir a resposta</translation>
 <translation id="1379399209929302811">Fornecer feedback sobre a IA do iBrowe</translation>
@@ -2221,6 +2270,24 @@
 <translation id="7488762544858401571">Editado</translation>
 <translation id="5604254791550001355">Editar aviso</translation>
 <translation id="8115786586976830777">Copiar aviso</translation>
+<translation id="3666616415490815310">Salvar como habilidade</translation>
+<translation id="6574544364990812112">Minhas habilidades</translation>
+<translation id="6696824203401957025">Nova habilidade</translation>
+<translation id="6410279677882692627">As habilidades aparecerão em suas ferramentas [/] e poderão ser acessadas simplesmente digitando o "/name" que o senhor definiu abaixo.</translation>
+<translation id="1344606707744657196">Modelo para prompt</translation>
+<translation id="8458341576712814616">Atalho</translation>
+<translation id="1326559827339317236">Digite seu atalho aqui</translation>
+<translation id="5032574515228824816">Prompt</translation>
+<translation id="2573797314568446575">Digite seu prompt aqui</translation>
+<translation id="900733896273558337">Editar habilidade</translation>
+<translation id="7662963028545588801">Excluir habilidade</translation>
+<translation id="4209790625997566418">O senhor tem certeza de que deseja excluir essa habilidade? Essa ação não pode ser desfeita.</translation>
+<translation id="7161540406494327389">É necessário um atalho</translation>
+<translation id="3722223049736774445">O atalho só pode conter letras, números, sublinhado e hífen</translation>
+<translation id="6997214168632888867">O atalho deve ter 64 caracteres ou menos</translation>
+<translation id="2806891468525657116">O atalho já existe</translation>
+<translation id="5497501845974700950">O prompt é necessário</translation>
+<translation id="5642369858603376334">O prompt deve ter 5000 caracteres ou menos</translation>
 <translation id="1406205536570262057">Editar resposta</translation>
 <translation id="3386725253392845084">Tentar novamente o mesmo modelo</translation>
 <translation id="2461822463642141190">Atual</translation>
@@ -2235,6 +2302,8 @@
 <translation id="6495402307502950726">Limpar conversa</translation>
 <translation id="903201991022343217">Iniciar uma nova conversa</translation>
 <translation id="8171760814579050200">Renomear conversa</translation>
+<translation id="402386227879573975">Copiar conversa inteira</translation>
+<translation id="5397794290049113714">Você</translation>
 <translation id="7754678742055438573">Excluir conversa</translation>
 <translation id="1946267518364740045">Justificativa...</translation>
 <translation id="4198859185714743678">Justificativa concluída</translation>
@@ -2246,7 +2315,8 @@
 <translation id="1243966363662220847">Feedback da resposta</translation>
 <translation id="7417895556119762861">Curtir ou não uma resposta vai enviar a classificação, a conversa, o modelo, o idioma, a versão e o status premium para o iBrowe a fim de aprimorar o Leo. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Enviar mensagem para o Leo</translation>
-<translation id="4084869091337186002">O Leo AI Content Agent está sempre ativado nesse perfil</translation>
+<translation id="6222803935921999130">Abrir janela do perfil de navegação com IA</translation>
+<translation id="1530903352777607099">O Leo AI Content Agent está sempre ativado nesse perfil</translation>
 <translation id="8650874793377330048">Parar de responder</translation>
 <translation id="8712637175834984815">Entendi</translation>
 <translation id="1093419424466417703">A página é muito longa para Leo. Algum contexto pode estar faltando na conversa. Leo sabia ler <ph name="PERCENTAGE"/> do conteúdo da página.</translation>
@@ -2258,31 +2328,42 @@
 <translation id="7307396647043599949"><ph name="COUNT"/> mais…</translation>
 <translation id="8103700533980268469">Fechar esta notificação</translation>
 <translation id="3417835166382867856">Pesquisar guias</translation>
+<translation id="3828029223314399057">Pesquisar favoritos</translation>
+<translation id="381480092025168632">Histórico do navegador de pesquisa</translation>
+<translation id="7311244614769792472">Nenhum resultado foi encontrado</translation>
+<translation id="3112448569149476523">Tente uma pesquisa diferente</translation>
 <translation id="1352836459737874921">Anexar conteúdo de outras guias</translation>
-<translation id="3028258613451571431">Envie conteúdo de página das guias do seu navegador para dar ao Leo mais contexto para a conversa</translation>
-<translation id="4300920590112551536">Guias do navegador</translation>
-<translation id="1446346932629101482">Adicione os conteúdos da guia para o contexto. Os conteúdos serão enviados ao Leo junto com suas mensagens.</translation>
-<translation id="7193316103691252734">Não há guias correspondentes</translation>
+<translation id="7173836072258346701">Anexar conteúdo dos marcadores</translation>
+<translation id="163680814308917875">Anexar conteúdo do histórico do navegador</translation>
+<translation id="7039179822221107025">Envie conteúdo de página das guias do seu navegador para dar ao Leo mais contexto para a conversa.</translation>
+<translation id="1602382615168212961">Envie o conteúdo da página de guias em seus favoritos para dar ao Leo mais contexto para a conversa.</translation>
+<translation id="4808122506413075135">Envie o conteúdo da página do histórico do seu navegador para dar ao Leo mais contexto para a conversa.</translation>
+<translation id="220541218939267992">O conteúdo da página será enviado ao Leo junto com suas mensagens.</translation>
+<translation id="2152389270152475874">Adicione conteúdos de guias, marcadores ou histórico para o contexto. O conteúdo selecionado será enviado ao Leo com suas mensagens.</translation>
 <translation id="2315654674554095762">Agora o Leo vai lembrar das suas conversas para que você possa voltar a acessá-las. Elas são armazenadas criptografadas no seu dispositivo, e você pode excluí-las a qualquer momento.</translation>
 <translation id="7821251979960635244">Seu histórico de conversas aparecerá aqui depois que você iniciar uma conversa.</translation>
 <translation id="887511360213807449">O histórico está desativado</translation>
 <translation id="5380979378058584412">Para ver suas conversas anteriores com o Leo, você precisa ativar o histórico de conversas.</translation>
-<translation id="6291843235651817590">Chat de utilização geral</translation>
+<translation id="7348809809749151120">Rápido • Pesquisa</translation>
 <translation id="3185367320601718531">Criação de conversa e texto</translation>
-<translation id="7979673624064378842">Bate-papo extremamente rápido</translation>
-<translation id="2836330653441111204">Velocidade e inteligência equilibradas</translation>
-<translation id="6695329447007213917">Chat sobre propósito geral, codificação e mais</translation>
-<translation id="7168072214482631597">Propósito geral do texto e compreensão da imagem</translation>
-<translation id="7226508434216060960">Modelo de raciocínio</translation>
+<translation id="2793458212460902934">Rápido • Pesquisa • Ferramentas</translation>
+<translation id="8506027496671575183">Pesquisa • Visão • Ferramentas</translation>
+<translation id="3184606955650139158">Rápido • Pesquisa • Visão</translation>
+<translation id="7465032796278724624">Verificadamente privado com IA NEAR TEE</translation>
 <translation id="8782867266498869301">O modelo muda dinamicamente para usar o melhor para a tarefa</translation>
+<translation id="3213834013136637671">Pesquisa • Visão</translation>
 <translation id="3965507912994218570">Configurações do Leo</translation>
-<translation id="1037324977127422019">Olá, sou o Leo!</translation>
-<translation id="8930348081963284873">Um assistente inteligente fornecido por IA, incorporado diretamente no iBrowe.</translation>
-<translation id="3528849152231418380">Precisa de ajuda com um site?</translation>
-<translation id="1558192229187362674">Posso ajudar você a resumir artigos, a desenvolver o conteúdo de um site e muito mais.</translation>
-<translation id="861953757568623294">Posso ajudar você a resumir artigos, a desenvolver o conteúdo de um site e muito mais. Não sabe por onde começar? Experimente isso:</translation>
-<translation id="5642775487085641191">Só quer conversar?</translation>
-<translation id="8857222718794549840">Pergunte-me o que quiser! Podemos falar sobre qualquer tema. Estou sempre aprendendo e melhorando para dar as melhores respostas.</translation>
+<translation id="3754337604877048671">Apresentando Leo AI</translation>
+<translation id="5295261408976371809">Seu assistente de IA <ph name="TEXT_BEFORE"/>privado<ph name="TEXT_AFTER"/>, integrado diretamente ao navegador.</translation>
+<translation id="7452913484571004528">IA verdadeiramente privada</translation>
+<translation id="8525501048785085223">O Leo não retém ou compartilha conversas, nem as utiliza para treinar modelos. Não é necessário ter conta ou fazer login. Basta abrir e conversar. Com privacidade.</translation>
+<translation id="6401201054391523929">Converse com suas abas e arquivos</translation>
+<translation id="8522038408130089105">Precisa saber mais sobre os sites que está visitando? Basta adicioná-los a uma conversa. Anexe suas abas e arquivos locais para obter respostas rápidas e relevantes.</translation>
+<translation id="3844955602461425647">Automatize tarefas entediantes</translation>
+<translation id="2196247864500723577">Deixe o iBrowe navegar com você e interagir com tudo o que você faz no navegador. Transfira as tarefas repetitivas e ganhe tempo para o que importa.</translation>
+<translation id="235457946228076038">Traga seu próprio model</translation>
+<translation id="7024005267156189454">Conecte seus próprios modelos de IA, rodando localmente ou remotamente. Personalize o comportamento, respostas e capacidades do Leo conforme suas preferências.</translation>
+<translation id="7291578285403921288">Saiba mais sobre Leo AI</translation>
 <translation id="9051226419897869406">Converse em particular com o iBrowe Leo</translation>
 <translation id="2414904697165579184">Alinhe as respostas com base no(s) conteúdo(s) da página</translation>
 <translation id="8258324391302611485">O conteúdo desta página será enviado ao Leo junto com suas mensagens.</translation>
@@ -2291,6 +2372,7 @@
 <translation id="8732450785281947197">Ferramentas de IA do Leo</translation>
 <translation id="6535533770697728087">Ações rápidas</translation>
 <translation id="3237710083340813756">Reescrever</translation>
+<translation id="1223498995510244364">Resumir</translation>
 <translation id="1252805982772190086">Postagem curta</translation>
 <translation id="2087555497198267113">Postagem longa</translation>
 <translation id="4170307327863874820">Postagem de blog</translation>
@@ -2317,7 +2399,9 @@
 <translation id="4250229828105606438">Captura de tela</translation>
 <translation id="7949596341600215809">Captura de tela da página inteira</translation>
 <translation id="6332876390231524389">Conteúdos da guia atual</translation>
-<translation id="7742969455167760092">Guias abertas...</translation>
+<translation id="6397861830483632092">Abrir guias…</translation>
+<translation id="802080272588201037">Favoritos…</translation>
+<translation id="2716127283451902393">História…</translation>
 <translation id="49269513399674318">Usar microfone</translation>
 <translation id="3895031624234442305">Modelos personalizados</translation>
 <translation id="4572010449071015143">Iniciar nova conversa</translation>
@@ -2329,13 +2413,47 @@
 <translation id="2593275000606533518">Gerenciar tudo</translation>
 <translation id="8410199626695516952">Está bem, isso não será lembrado</translation>
 <translation id="8419849467765474535">Não foi possível salvar a memória. Tente novamente.</translation>
+<translation id="5517580030864973329">Navegar na página da Web para um novo endereço</translation>
+<translation id="9197920788851078696">Navegando pela página da Web até <ph name="URL"/></translation>
+<translation id="5095252080770652994">Progresso</translation>
+<translation id="8332385567036775056">Passos</translation>
+<translation id="4521931942079977149">Clicar na página</translation>
+<translation id="7732267913911704962">Arrastar e soltar na página</translation>
+<translation id="7703800915509570212">Navegando de volta</translation>
+<translation id="4875586490950981498">Navegando para frente</translation>
+<translation id="738881387603843066">Mover o mouse</translation>
+<translation id="4850669014075537160">Rolagem</translation>
+<translation id="1265072406500460724">Selecionando em um menu suspenso</translation>
+<translation id="7573920298077917439">Digitação de texto</translation>
+<translation id="4089034800311309656">Aguardando a página</translation>
+<translation id="4798146464408730445">Não foram encontradas habilidades. Crie uma nova clicando no botão "New" (Novo).</translation>
+<translation id="271033894570825754">Novo</translation>
+<translation id="8266605059880650542">Anotar algumas informações sobre a página para uso posterior</translation>
+<translation id="5103625298494362646">O modo Agente funciona com modelos compatíveis com ferramentas. Modelos incompatíveis são ocultados desta lista.</translation>
+<translation id="3397808797783614750">Permitir que a IA navegue automaticamente por você pode causar consequências prejudiciais e não intencionais para sua privacidade, finanças e comunicações on-line. <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
+<translation id="4522025297473237294">Aviso de segurança</translation>
+<translation id="6077070599873946984">O iBrowe IA precisa da sua permissão para: <ph name="TOOL_LABEL"/></translation>
+<translation id="4163837693685963037">A operação foi detectada como potencialmente desalinhada com sua solicitação:</translation>
+<translation id="3927932062596804919">Negar</translation>
+<translation id="4569155249847375786">Verificado</translation>
+<translation id="8200772114523450471">Retomar</translation>
+<translation id="7607002721634913082">Pausado</translation>
+<translation id="4773299976671772492">Parado</translation>
+<translation id="6946722113367118030">Pensando</translation>
+<translation id="2113810663179257944">Execução de código</translation>
+<translation id="6338250692384725496">Executou código em sandbox para ajudar com sua busca</translation>
+<translation id="4379566111233326721">Código:</translation>
+<translation id="3542130965673205258">Saída:</translation>
+<translation id="3428245742224818842">IA navegando</translation>
+<translation id="2854657728271352435">Sobre o perfil de navegação com IA</translation>
+<translation id="2301685062527585986">Para proteger seus dados, este perfil de navegação com IA isolado garante que o agente de IA não tenha acesso ao seu perfil de navegação principal, com permissões apenas para visitar e interagir com sites conforme necessário. Você pode aumentar sua produtividade atribuindo tarefas e permitindo que ele navegue por você.</translation>
+<translation id="648116453147783450">Seus dados e sessões</translation>
+<translation id="4879348540868082026">Quando você faz login em um site usando este perfil, o agente de navegação com IA do iBrowe pode visualizar as informações desse site se estiver aberto, seja ao acessá-lo por conta própria ou quando solicitado por você para realizar algo lá.</translation>
+<translation id="5583803492921648196">Retornando</translation>
+<translation id="864117099189791993">Você pode voltar ao seu perfil regular a qualquer momento através do menu principal ou do menu de perfil na barra de ferramentas. A navegação com IA sempre será aberta no perfil de navegação com IA.</translation>
 <translation id="3486480638399578250">Mantenha seu endereço de e-mail pessoal privado</translation>
 <translation id="7765422154906712751">Crie endereços exclusivos e aleatórios que encaminham para seu e-mail da conta iBrowe e podem ser excluídos a qualquer momento. Evite que seu endereço de e-mail real seja divulgado ou utilizado por anunciantes.</translation>
-<translation id="5222676887888702881">Sair</translation>
-<translation id="8090292425230843109">Sair dos aliases de e-mail</translation>
-<translation id="8471990782451394141">Conectando-se à Conta iBrowe...</translation>
 <translation id="71316462802471551">Aliases de e-mail</translation>
-<translation id="5713644099811900409">Conta iBrowe</translation>
 <translation id="6002159997868894136">Clique para copiar o alias</translation>
 <translation id="8105770564756958406">Usado por <ph name="DOMAINS"/></translation>
 <translation id="5006956315579221642">Crie até 5 aliases de e-mail gratuitos para proteger seu endereço de e-mail real.</translation>
@@ -2359,8 +2477,8 @@
 <translation id="646524615209870492">Ao remover <ph name="ALIAS"/> como um alias, você não poderá mais receber e-mails.</translation>
 <translation id="8133100642915054515">Erro ao excluir alias. Verifique sua conexão e tente novamente.</translation>
 <translation id="8465742443901727718">Essa ação é irreversível. Tem certeza de que deseja prosseguir?</translation>
-<translation id="8662104432574824754">Para começar, faça login ou crie uma conta iBrowe</translation>
-<translation id="8069030342700068465">Digite seu endereço de e-mail para receber um link de login seguro enviado para o seu e-mail. Ao clicar neste link, você poderá criar ou acessar uma Conta iBrowe e utilizar o serviço gratuito de Aliases de E-mail.</translation>
+<translation id="9162685486229945876">Faça login ou crie uma conta iBrowe</translation>
+<translation id="1335007417599138852">Uma conta iBrowe permitirá que você acesse certos produtos iBrowe e sincronize facilmente suas informações em todos os seus dispositivos.</translation>
 <translation id="2133391407495495735">Obter link de login</translation>
 <translation id="2650906829817220223">Erro ao solicitar autenticação. Verifique sua conexão e tente novamente.</translation>
 <translation id="3699624789011381381">Endereço de e-mail</translation>
@@ -2374,6 +2492,10 @@
 <translation id="7508412964869396375">Não foi recebido nenhum token de verificação da Conta iBrowe</translation>
 <translation id="3179527991526213624">Não foi recebida nenhuma resposta da Conta iBrowe</translation>
 <translation id="7911439408853154309">Falha na verificação do e-mail</translation>
+<translation id="2595463802839066496">Nenhuma resposta do serviço Email Aliases</translation>
+<translation id="367191282389216837">Resposta inválida do serviço Email Aliases</translation>
+<translation id="7203490731644771170">Erro no serviço de aliases de e-mail: <ph name="ERROR"/></translation>
+<translation id="8767862600155091621">Erro: Alias não disponível</translation>
 <translation id="8370801182970639038">Automático (<ph name="LOCALE"/>)</translation>
 <translation id="8343473178272604223">Mecanismos de pesquisa habilitados</translation>
 <translation id="8285901519864208412">Ocultar cartão de recompensas</translation>
@@ -2389,7 +2511,7 @@
 <translation id="466214682712474574">Faça login na sua conta <ph name="PROVIDER"/> para ver seu saldo</translation>
 <translation id="8332875111286275890">Faça login para ver seu saldo</translation>
 <translation id="5430001801813715388">RECOMPENSAS</translation>
-<translation id="5966055668402779222">Pergunte a Pesquisa iBrowe</translation>
+<translation id="2430295257226173518">Pergunte o que quiser, encontre o que está procurando…</translation>
 <translation id="167018310108390163">Personalizar Nova Guia</translation>
 <translation id="6851426306697017546">Mostrar relógio</translation>
 <translation id="4844370919312937270">Mostrar widget de pesquisa nas novas guias</translation>
@@ -2419,8 +2541,19 @@
 <translation id="8458987127502506209">Ativar Proteções do iBrowe</translation>
 <translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>As proteções estão ATIVADAS<ph name="STATUS_AFTER"/> para este site</translation>
 <translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>As proteções estão DESATIVADAS<ph name="STATUS_AFTER"/> para este site</translation>
-<translation id="5623354834493649144">Se este site parece não estar funcionando corretamente, tente desativar as Proteções.
-   <ph name="NOTE_BEFORE"/>Observação: isso poderá reduzir as proteções de privacidade do iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="4724752924364329714">Se o site parecer estar quebrado, tente usar o Shields down.</translation>
+<translation id="3992385019509961907"><ph name="NOTE_BEFORE"/>Observação: isso pode reduzir as proteções de privacidade do iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="3620004479054499575">O senhor está tendo problemas com este site?</translation>
+<translation id="9176447766421988172">Estamos fazendo um experimento para aumentar a compatibilidade do site, no qual mantemos apenas o bloqueio de anúncios ativado. Aviso: remove todas as proteções de privacidade. O senhor deseja experimentar? <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/>.</translation>
+<translation id="5372101283158221516">Observe que, para sites individuais não protegidos pelas proteções de privacidade do iBrowe, o senhor pode definir os Shields como DOWN.</translation>
+<translation id="2850777974644218370">Ativar o modo Ad Block Only</translation>
+<translation id="6623668214089604469">O site está funcionando corretamente agora?</translation>
+<translation id="8978860854770042258">Considere a possibilidade de enviar uma denúncia se o site ainda estiver com problemas.</translation>
+<translation id="4677356505199464553">Parece bom</translation>
+<translation id="1992750560347846445">Informar site com problema</translation>
+<translation id="2863270180245144869">Modo Ad Block Only ativado</translation>
+<translation id="3773808439655997805">No momento, você está usando o modo Apenas Bloqueio de Anúncios. Este modo oferece apenas proteção contra anúncios (se as Proteções estiverem ATIVADAS). Se desejar retornar ao modo de Proteções completo, desative este modo nas configurações.</translation>
+<translation id="4820891023903368625">Anúncios bloqueados <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Rastreadores, anúncios e outros conteúdos bloqueados <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Não protegido pelas Proteções do iBrowe <ph name="LINK_BEFORE"/>Saiba mais<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Controles avançados</translation>
@@ -2436,6 +2569,12 @@
 <translation id="3570081523466826008">Fazer upgrade das conexões para HTTPS</translation>
 <translation id="131231380815754440">Ativar HTTPS</translation>
 <translation id="4824468494729001999">Bloquear scripts</translation>
+<translation id="5465091511225410553">(aplicado)</translation>
+<translation id="8646614940337543907">(aplicado por extensão)</translation>
+<translation id="3559821445144429594">(aplicado por política)</translation>
+<translation id="550374350047782149">(aplicado pela lista de permissões)</translation>
+<translation id="68858161161918073">(aplicado por supervisor)</translation>
+<translation id="5735057546627037489">(aplicado por PWA)</translation>
 <translation id="3246600097575692802">Expandir lista de scripts bloqueados</translation>
 <translation id="3603525299146223354">Rastreadores e anúncios</translation>
 <translation id="4448697385961650078">Bloquear rastreadores e anúncios</translation>
@@ -2446,6 +2585,8 @@
 <translation id="6975864539539353406">Limpa os cookies e outros dados do site quando você fecha um site</translation>
 <translation id="6486971767955110687">Armazenar informações de contato para futuros relatórios de sites com erros</translation>
 <translation id="4085787265464238844">Se você fornecer informações de contato, elas serão armazenadas para relatórios futuros</translation>
+<translation id="7740929262043547697">Permitir bloqueio de elementos em janelas privadas</translation>
+<translation id="1260864846935682371">Ativa o recurso de Bloquear Elementos das Proteções em janelas privadas. Elementos bloqueados em janelas privadas também serão bloqueados em janelas não privadas.</translation>
 <translation id="6883611015375728278">Bloquear todos os cookies</translation>
 <translation id="5657156137487675418">Permitir todos os cookies</translation>
 <translation id="8366221601425141146">Impressão digital bloqueada.</translation>
@@ -2454,7 +2595,6 @@
 <translation id="8034285923190068220">Permitir impressão digital</translation>
 <translation id="7638541189782135885">Não atualize as conexões HTTP</translation>
 <translation id="2570787596946026998">Conecte-se apenas com HTTPS</translation>
-<translation id="1992750560347846445">Informar site com problema</translation>
 <translation id="2387532482048804818">Informe-nos se o site não estiver funcionando corretamente com as Proteções ativadas.</translation>
 <translation id="3795015906457257780">Você está visualizando este site sem as proteções de privacidade do iBrowe.</translation>
 <translation id="7194012750329511146">Proteções do iBrowe
@@ -2471,6 +2611,9 @@
       other {iBrowe Shields bloqueados {BLOCKED_COUNT} rastreadores ativados <ph name="SITE_URL"/>}
     }</translation>
 <translation id="2540598191934725677">Clique no ícone iBrowe para visualizar iBrowe Shields.</translation>
+<translation id="542789539047208469">Informações do site</translation>
+<translation id="7586067492365979844">Proteções iBrowe tem uma nova página inicial e design. Agora se integra com informações do site para uma experiência única.</translation>
+<translation id="9114542678887529043">Proteções iBrowe tem uma nova página inicial e design. Acesse-a clicando no ícone do site na barra de endereços.</translation>
 <translation id="6294662480095808915">Privacidade. Por padrão.</translation>
 <translation id="4366423156486478559">Tenha a proteção do iBrowe em todos os links nos quais clicar. Basta definir o iBrowe como padrão e navegar com privacidade.</translation>
 <translation id="3830912418080848377">Importar configurações</translation>
@@ -2482,6 +2625,7 @@
 <translation id="2273851479262317744">Definir o iBrowe como navegador padrão</translation>
 <translation id="5037676449506322593">Selecionar todos</translation>
 <translation id="5148943178722443958">Ajude a melhorar o iBrowe.</translation>
+<translation id="479535542793009168">Estabilidade &amp; Diagnósticos</translation>
 <translation id="1097073572755862978">Envie relatórios de diagnóstico em caso de falha ou congelamento. <ph name="LINK_BEFORE"/>Saiba mais.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Compartilhe insights de produtos privados e anônimos sobre quais recursos estão sendo usados ​​pelos usuários do iBrowe. <ph name="LINK_BEFORE"/>Saiba mais.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Configuração concluída</translation>
@@ -2498,13 +2642,16 @@
 <translation id="6764845498618413165">Saiba mais.</translation>
 <translation id="7818938154803162778">Claro, vou ajudar</translation>
 <translation id="7207456302801184289">Este é o iBrowe</translation>
-<translation id="6716580298071890302">Usar um tema mais escuro</translation>
+<translation id="4988030440045495002">Tema ultra escuro</translation>
 <translation id="2422927186524098759">Barra lateral</translation>
 <translation id="2361906291514218784">Leo AI</translation>
 <translation id="7705524343798198388">VPN</translation>
 <translation id="8000020256436988724">Barra de ferramentas</translation>
 <translation id="6225572914528673855">Barra de endereços</translation>
+<translation id="6821966107067356137">Adicionar feed RSS</translation>
+<translation id="2478076885740497414">Instalar app</translation>
 <translation id="8293206222192510085">Adicionar favorito</translation>
+<translation id="1010029336854254368">Menu Compartilhar</translation>
 <translation id="7758460733045216901">Painel de favoritos</translation>
 <translation id="958268166261124668">iBrowe VPN: conectado</translation>
 <translation id="6021669293402055982">iBrowe VPN: desconectado</translation>
@@ -2606,5 +2753,6 @@ Vamos conectar você!</translation>
     guia existente</translation>
 <translation id="451189393813405346">Perguntar ao Leo</translation>
 <translation id="1602850501393095406">Pressione ↑ para destacar</translation>
+<translation id="8367705492654390392">Pergunte qualquer coisa</translation>
 <translation id="8525248723479742219">Reproduzir mais tarde</translation>
 </translationbundle>

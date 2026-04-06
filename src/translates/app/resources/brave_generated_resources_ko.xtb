@@ -19,6 +19,7 @@
 <translation id="1544192797660353713">월렛</translation>
 <translation id="2361906291514218784">레오 AI</translation>
 <translation id="8275068909952022340">더 보기…</translation>
+<translation id="71316462802471551">이메일 별명</translation>
 <translation id="1990886731975529483">Google Widevine 설치 및 실행</translation>
 <translation id="8926389886865778422">이 메시지 그만 보기</translation>
 <translation id="4900351245762303149">Google Widevine 설치</translation>
@@ -65,11 +66,9 @@
 <translation id="1434416574322382019">Tor와 함께하는 새로운 비공개 윈도우</translation>
 <translation id="4703780849509456860">Tor와 함께 비공개 윈도우에서 링크 열기</translation>
 <translation id="3488584642074079080">iBrowe 비공개 창의 링크를 Tor로 열기</translation>
-<translation id="8594912907680633924">분할 보기에서 링크 열기</translation>
 <translation id="6313675821927505581">Tor를 이용한 새로운 비공개 윈도우</translation>
 <translation id="2638041073279639246">Tor를 이용해 비공개 윈도우에서 링크 열기</translation>
 <translation id="3425600262621021599">Tor를 이용해 iBrowe 비공개 윈도우에서 링크 열기</translation>
-<translation id="3795436270513738622">분할 보기에서 링크 열기</translation>
 <translation id="2545072023356206691">2023년 12월 1일부터 iBrowe Dev 채널이 더 이상 브라우저 업데이트를 수신하지 않습니다. 기존 이용자는 iBrowe Nightly, Beta 또는 Release 버전으로 전환하기를 권장합니다.</translation>
 <translation id="474217410105706308">탭 음소거</translation>
 <translation id="2804710924397009224">iBrowe Rewards 아이콘 숨기기</translation>
@@ -133,7 +132,6 @@
 <translation id="780301667611848630">아니요, 괜찮습니다.</translation>
 <translation id="1162706247109707219">확인을 클릭하면 Windows 10 이상으로 업데이트할 때까지 설치된 iBrowe에 매우 중요한 보안 픽스를 받지 못한다는 사실에 동의합니다. 이 경고는 다시 표시되지 않습니다.</translation>
 <translation id="9164786361657554526">확인을 클릭하면 macOS 10.15 이상으로 업데이트할 때까지 설치된 iBrowe에 매우 중요한 보안 픽스를 받지 못한다는 사실에 동의합니다. 이 경고는 다시 표시되지 않습니다.</translation>
-<translation id="2770465223704140727">목록에서 제거</translation>
 <translation id="6020553119523541665">이미 다른 창에 이 탭이 활성화되어 있음</translation>
 <translation id="4987392683074136770">이 탭을 클릭하면 콘텐츠를 이 창으로 가져옵니다.</translation>
 <translation id="8355523213948477234">분할 보기 메뉴 버튼</translation>
@@ -207,7 +205,6 @@
 <translation id="253980346046488815">중복 탭 닫기</translation>
 <translation id="8670218546624422041">컨테이너에서 열기</translation>
 <translation id="8638526693050780542">컨테이너 관리</translation>
-<translation id="7302999361397024774">탭 이름 바꾸기</translation>
 <translation id="2336228925368920074">모든 탭 북마크...</translation>
 <translation id="2523967823495420116">세로 탭 사용</translation>
 <translation id="3785071023202624850">{NUM_TABS,plural, =1{탭 음소거}other{탭 음소거}}</translation>
@@ -218,7 +215,6 @@
 <translation id="2703180365855369896">중복 탭 닫기</translation>
 <translation id="1987871867023021397">컨테이너에서 열기</translation>
 <translation id="6745991613881384719">컨테이너 관리</translation>
-<translation id="3917844427669888979">탭 이름 바꾸기</translation>
 <translation id="3704707436873245822">이미지에서 텍스트 복사</translation>
 <translation id="5268098808165185458">이미지에서 텍스트 복사 중...</translation>
 <translation id="4046485130884276245">이미지에서 텍스트 복사됨</translation>
@@ -226,6 +222,8 @@
 <translation id="3960619311638643872">iBrowe VPN</translation>
 <translation id="2506438154311626334">iBrowe VPN에서 WireGuard 프로토콜 사용</translation>
 <translation id="8519170191215826548">iBrowe VPN이 연결되어 있을 때는 이 설정을 변경할 수 없습니다.</translation>
+<translation id="1177917174080821247">VPN 트레이 아이콘 표시</translation>
+<translation id="3747459938663420752">활성화하면 Windows 작업 표시줄에 iBrowe VPN의 트레이 아이콘이 표시됩니다.</translation>
 <translation id="4235920711083356755">VPN 버튼 표시</translation>
 <translation id="4070612712151038707">툴바에 VPN 버튼 표시</translation>
 <translation id="7705524343798198388">VPN</translation>
@@ -237,7 +235,6 @@
 <translation id="8030169304546394654">연결 해제됨</translation>
 <translation id="1863950594388384201">툴바에 VPN 버튼 표시</translation>
 <translation id="5187139277471084437">툴바에서 VPN 버튼 숨기기</translation>
-<translation id="1177917174080821247">VPN 트레이 아이콘 표시</translation>
 <translation id="8041089156583427627">의견 보내기</translation>
 <translation id="4049186905514157504">내 플랜 관리</translation>
 <translation id="7570585565843385325">툴바에 VPN 버튼 표시</translation>
@@ -253,10 +250,6 @@
 <translation id="796831669370432378">북마크를 추가하려면 주소 표시줄 옆에 있는 북마크 버튼을 클릭하세요</translation>
 <translation id="8487693399751278191">지금 북마크 가져오기...</translation>
 <translation id="2557899542277210112">빠르게 액세스하려면, 북마크 바에 북마크를 배치하세요.</translation>
-<translation id="1968543937259008435">가장 철저한 온라인 프라이버시를 접할 준비가 되셨나요?</translation>
-<translation id="6817415381278637662">iBrowe를 기본 브라우저로 설정하여, 모든 웹페이지에서 iBrowe의 프라이버시 보호 기능을 마음껏 누리세요.</translation>
-<translation id="7537601449003285327">작업 표시줄에 고정</translation>
-<translation id="2307973900865360088">도크에 고정</translation>
 <translation id="961012016278832836">Microsoft Edge 레거시</translation>
 <translation id="6436994631426134065"><ph name="BROWSER_NAME"/>에서 가져왔습니다.</translation>
 <translation id="5119173345047096771">Mozilla Firefox</translation>
@@ -342,6 +335,7 @@
 <translation id="7557539689487606886">프리미엄 가입</translation>
 <translation id="1035309871698658326">탭을 열면 비공개 탭이 아닌 모든 탭의 제목과 출처가 자동으로 레오로 전송되어 분류됩니다.</translation>
 <translation id="3435896845095436175">사용</translation>
+<translation id="9082792303833649978">이 설정은 관리자 또는 다른 iBrowe 정책에 의해 관리되고 있습니다.</translation>
 <translation id="1940221956626514677">도구 모음 사용자 지정</translation>
 <translation id="6501807887341963552">테마 및 색상</translation>
 <translation id="6724227215236550330">저장된 암호가 여기에 표시됩니다. 이 기기에서 <ph name="BRAND"/>(으)로 비밀번호를 가져오려면 <ph name="BEGIN_LINK"/>CSV 파일을 선택하세요.<ph name="END_LINK"/></translation>
@@ -384,9 +378,12 @@
 <translation id="5436069931267876389">컨테이너가 없습니다</translation>
 <translation id="2263346047290834619">트리 탭 사용</translation>
 <translation id="5860254591544742609">제목 바 표시</translation>
-<translation id="5371926069408837914">접혀 있을 때 마우스 커서를 올리면 세로 탭 패널 펼치기</translation>
+<translation id="4691131445504068802">최소화될 때 완전히 숨기기</translation>
+<translation id="6763346436728173884">탭 닫기 버튼 항상 숨기기</translation>
+<translation id="8082625757059443808">중간 버튼 클릭으로 탭을 닫을 수 있도록 허용</translation>
+<translation id="4909269867860362936">최소화된 상태에서 마우스를 올리면 자동 확장</translation>
 <translation id="3367129510799209147">탭 호버 모드</translation>
-<translation id="8527099657928614787">페이지별로 독립적으로 세로 탭 펼치기</translation>
+<translation id="8925055964134259461">창별로 독립적으로 세로 탭 자동 확장</translation>
 <translation id="916373084491701212">스크롤바 표시</translation>
 <translation id="515949045075831661">오른쪽에 표시</translation>
 <translation id="3725395376319291415">왼쪽에 표시</translation>
@@ -396,22 +393,23 @@
 <translation id="5219886318310413094">모든 창에 고정된 탭 표시</translation>
 <translation id="2396127686705429331">북마크 버튼 표시</translation>
 <translation id="2814998458708016836">넓은 주소 표시줄 사용</translation>
+<translation id="4749586705247636385">주요 콘텐츠 영역에 둥근 모서리 표시</translation>
 <translation id="4109670531935487117">주소 표시줄에 자동 완성 추천 표시</translation>
-<translation id="3405901785709583668">인기 추천 항목</translation>
+<translation id="4579877808890085926">기기 내 추천 항목</translation>
 <translation id="7859704718976024901">검색 내역</translation>
 <translation id="8820817407110198400">북마크</translation>
 <translation id="4144468798716165316">빠른 명령</translation>
 <translation id="7310387888625228830">레오 AI 어시스턴트</translation>
 <translation id="5222974844674487962">iBrowe News 버튼 표시</translation>
 <translation id="2085436423511121572">레오 AI 버튼 표시</translation>
-<translation id="383007806262310953">북마크바 표시</translation>
+<translation id="6156323911414505561">북마크바 표시</translation>
 <translation id="4054323497808446566">모든 페이지에서 북마크 바 표시</translation>
 <translation id="8693858092251192712">새 탭 페이지를 제외한 모든 페이지에서 북마크 바 숨김</translation>
 <translation id="7158817046543187970">모든 페이지에서 북마크 바 숨김</translation>
 <translation id="3416468988018290825">항상 URL 풀로 표시</translation>
 <translation id="5529693968082667490">탭 검색 버튼 표시</translation>
 <translation id="1013121820689882118">Speedreader</translation>
-<translation id="1467652519828052368">스피드리더 기능 활성화</translation>
+<translation id="5522420266446076076">스피드리더 기능 활성화.</translation>
 <translation id="5211997910936574251">가능한 경우 스피드리더 자동 사용</translation>
 <translation id="2025435450953474282">기사가 리더 모드로 자동 로드되어 시간 절약</translation>
 <translation id="7984721311211272523">탭 스피커 아이콘에서 음소거 기능 비활성화</translation>
@@ -424,9 +422,11 @@
 <translation id="3719826155360621982">홈페이지</translation>
 <translation id="5448570825852364919">빈 페이지</translation>
 <translation id="8244387390464017490">새 탭 페이지 맞춤설정</translation>
+<translation id="7537601449003285327">작업 표시줄에 고정</translation>
 <translation id="7461924472993315131">고정</translation>
 <translation id="735832369569964359">PIN을 클릭하고, 표시되는 Windows 알림에서 확인하세요.</translation>
 <translation id="7506648566440714944">iBrowe가 이미 고정됨</translation>
+<translation id="2307973900865360088">도크에 고정</translation>
 <translation id="239275665037555969">도크</translation>
 <translation id="4057614912106618659">iBrowe가 이미 도크에 있음</translation>
 <translation id="3195845168740336657">Shields 설정</translation>
@@ -435,7 +435,7 @@
 <translation id="5690973901138662477">Shields 올림</translation>
 <translation id="4697275813919189958">Shields 내림</translation>
 <translation id="6303294677342628402">보호</translation>
-<translation id="7133511168130368997">웹에서 귀하를 따라오는 추적기 및 광고를 차단하세요.</translation>
+<translation id="5128768857590582420">웹에서 귀하를 따라오는 추적기 및 광고를 차단하세요</translation>
 <translation id="2761825942249694703">이는 기본 Shields 설정입니다. 특정 사이트에 대해 Shields 패널에서 무언가를 바꾸지 않는 한 모든 웹사이트에 적용됩니다. 이를 바꾼다고 해도 기존 사이트별 설정에는 영향을 미치지 않습니다.</translation>
 <translation id="8452536890042542134">대부분의 광고가 웹사이트에서 차단됩니다.</translation>
 <translation id="4800195524776354947">방패 아이콘에 차단된 항목 수 표시</translation>
@@ -498,10 +498,34 @@
 <translation id="2718718846210516552">스크립트릿을 찾을 수 없습니다.</translation>
 <translation id="4088315951291671239">이해가 가지 않거나 아직 검토하지 않은 코드를 여기에 붙여 넣지 마세요. 공격자가 신원을 도용하거나 컴퓨터를 제어하게 될 수 있습니다.</translation>
 <translation id="3020183492814296499">바로가기</translation>
+<translation id="2935698011275148880">브레이브 오리진</translation>
+<translation id="2587535830241068901">iBrowe를 계속 지원하면서 브라우저 사용자 지정</translation>
+<translation id="553273341094971255">iBrowe Origin은 사용자가 원하는 대로 iBrowe를 조정하고 설치 중에 활성화했을 수 있는 모든 인앱 프로모션 제안, 브랜드 광고 및 익명 분석 기능을 제거할 수 있도록 도와줍니다.</translation>
+<translation id="534725333104202278">이전에 활성화했거나 사용했던 애드온이나 기능은 계속 표시되고 통합된 상태로 유지되며, 나머지는 비활성화됩니다. 브라우저에 새로운 기능이 추가될 때마다 iBrowe를 계속 조정해 주세요. 이러한 기능은 기본적으로 iBrowe Origin 제어판에서 조용히 표시되고 숨겨집니다.</translation>
+<translation id="1919345977826869612">광고</translation>
+<translation id="944736176598169208">리워드</translation>
+<translation id="2839742394543397416">분석</translation>
+<translation id="1799030480311994998">기능</translation>
+<translation id="6709133671862442373">뉴스</translation>
+<translation id="6297791103122079275">Talk</translation>
+<translation id="1458638489455808030">웨이백 머신</translation>
+<translation id="1199170151481311646">개인 정보 보호 분석</translation>
+<translation id="5990642573624858459">통계 보고</translation>
+<translation id="2441719842399509963">기본값으로 재설정</translation>
+<translation id="4530494379350999373">오리진</translation>
+<translation id="2964215604640804042">iBrowe Origin은 iBrowe를 비즈니스로 운영하기 위한 모든 기능이 필요하지 않지만 iBrowe만이 제공하는 프라이버시를 원하는 사용자를 위한 브라우저의 유료 버전입니다. iBrowe Origin 사용자는 업계 최고 수준의 프라이버시, 광고 차단 및 속도(iBrowe 쉴드를 통해)는 물론 정기적인 소프트웨어 업데이트, Chromium 패치, 보안 및 프라이버시 개선 사항의 이점을 계속 누릴 수 있습니다. 또한 AI, 리워드, 지갑, VPN, Web3 도메인 등의 기능을 비활성화할 수 있는 옵션도 잠금 해제됩니다.</translation>
+<translation id="9130916892338379417">iBrowe Origin은 일회성 구매를 통해 이용할 수 있습니다. 모바일(Android 및 iOS)과 데스크톱에서 Origin은 기존 릴리스 버전의 업그레이드로 구매할 수 있습니다. 데스크톱에서 Origin은 독립 실행형 앱으로도 이용할 수 있습니다. Origin 사용자는 설정 메뉴에서 새로운 제어판을 볼 수 있습니다. 기존 기능뿐만 아니라 향후 출시될 새로운 기능도 여기에 표시되며 기본적으로 비활성화되어 있습니다.</translation>
+<translation id="7984508421152399880">지금 구매하기</translation>
 <translation id="5567412479632285879">iBrowe Rewards 비활성화됨</translation>
 <translation id="413570371620795359">Rewards 패널을 열고 활성화하여 시작하세요.</translation>
 <translation id="1051600834033686945">iBrowe Rewards 설정 전체 열기</translation>
 <translation id="8826461509529116322">iBrowe Rewards 버튼 표시</translation>
+<translation id="4859866966646365361">광고 차단 전용 모드</translation>
+<translation id="4146834954839563870">광고 차단 전용 모드 사용</translation>
+<translation id="420732343671200734">광고 차단 전용 모드는 iBrowe 쉴드의 핵심 광고 차단 규칙을 유지합니다. 경고: 모든 개인정보 보호 기능을 제거합니다. iBrowe의 개인정보 보호 기능으로 인해 정상 작동하지 않는 개별 웹사이트의 경우, 쉴드를 DOWN으로 설정할 수 있습니다. 이 기능은 실험적인 모드입니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
+<translation id="3055675200351793825">보호막 옵션은 현재 비활성화되어 있습니다.</translation>
+<translation id="2687830906359353344">광고 차단 전용 모드는 iBrowe 쉴드의 핵심 광고 차단 규칙을 유지하며 개인정보 보호 기능을 해제합니다. 표준 쉴드를 사용하려면 이 모드를 비활성화하세요.</translation>
+<translation id="3809423899581611047">광고 차단 전용 모드 끄기</translation>
 <translation id="9185018653595759199">소셜 미디어 차단</translation>
 <translation id="863171915776379000">Facebook 로그인 및 내장 포스트를 허용합니다</translation>
 <translation id="7791141927430186653">X(구 Twitter) 임베디드 트윗 허용</translation>
@@ -534,7 +558,6 @@
 <translation id="5747552184818312860">만료</translation>
 <translation id="3858860766373142691">이름</translation>
 <translation id="361106536627977100">Flash 데이터</translation>
-<translation id="4530494379350999373">오리진</translation>
 <translation id="8195027750202970175">디스크 크기</translation>
 <translation id="9116465289595958864">최종 수정 날짜</translation>
 <translation id="4590324241397107707">데이터베이스 저장소</translation>
@@ -567,11 +590,6 @@
 <translation id="2903783737778379345">타사 쿠키를 통한 레거시 Google 로그인 허용 안 함</translation>
 <translation id="2570833232754279153">레거시 Google 로그인에 타사 쿠키 사용 허용 안 됨</translation>
 <translation id="6880817299303842099">레거시 Google 로그인에 타사 쿠키 사용 허용됨</translation>
-<translation id="2136412236435693622">Localhost 액세스</translation>
-<translation id="4172219483893066798">사이트가 Localhost 액세스를 요청할 수 있음</translation>
-<translation id="7181706637590665047">Localhost 리소스 액세스 허용 안 함</translation>
-<translation id="1336116824874668514">Localhost 리소스 액세스가 허용되지 않음</translation>
-<translation id="1485435696620658073">Localhost 리소스 액세스가 허용됨</translation>
 <translation id="5794692721727586076">레오 AI 채팅</translation>
 <translation id="8115153008662981040">사이트가 레오 AI 채팅 열기를 요청할 수 있음</translation>
 <translation id="1145070115730668595">사이트의 레오 AI 채팅 열기를 허용 안 함</translation>
@@ -645,8 +663,6 @@
 <translation id="7029809446516969842">비밀번호</translation>
 <translation id="6011308810877101166">검색 제안 향상</translation>
 <translation id="2332576387809612040">이 기능을 사용할 경우 iBrowe는 사용자가 주소창이나 검색창에 입력한 내용을 기본 검색 엔진으로 전송하여 더 나은 제안을 제공합니다. 이 기능을 사용하지 않을 경우 iBrowe는 장치에서 생성된 제안만 표시합니다. 비공개 창에서는 항상 꺼져 있습니다.</translation>
-<translation id="6285118765755298263">다른 검색 엔진 색인</translation>
-<translation id="5526883767168905185">OpenSearch 사양을 준수하는 웹사이트를 자동으로 색인합니다</translation>
 <translation id="5522403133543437426">주소 표시줄에서 사용하는 검색 엔진입니다.</translation>
 <translation id="280472502078788655">비공개(시크릿) 창의 주소 표시줄에서 사용하는 검색 엔진입니다.</translation>
 <translation id="7232120595886556478">일반 창</translation>
@@ -734,6 +750,7 @@
 <translation id="7141438739990875547">비트코인 네트워크</translation>
 <translation id="1077567586443625607">Zcash 네트워크</translation>
 <translation id="1177180573354712438">Cardano 네트워크</translation>
+<translation id="3176794108951154148">Polkadot 네트워크</translation>
 <translation id="3159419679550543837">테스트 네트워크 표시</translation>
 <translation id="3215569562674795548">네트워크 편집 또는 새로 추가</translation>
 <translation id="4418993400653250511">체인의 ID</translation>
@@ -847,6 +864,11 @@
 <translation id="1721787502053471881">이 기억을 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</translation>
 <translation id="5239685926753073108">모든 기억 삭제</translation>
 <translation id="2600803466586623124">기억을 전부 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</translation>
+<translation id="7311244614769792472">결과가 없습니다</translation>
+<translation id="1838374766361614909">검색어 지우기</translation>
+<translation id="5126255551970171328">메모리 검색</translation>
+<translation id="7402116145895962069">Ollama 로컬 모델 동기화</translation>
+<translation id="4835154437390745810">Ollama에서 관리됨</translation>
 <translation id="5985516785067818307">설문조사 패널리스트</translation>
 <translation id="8347743943525229984">iBrowe 설문조사 허용</translation>
 <translation id="3204080538332044581">새 탭 페이지에서 비공개 설문조사 링크를 표시할 수 있도록 허용합니다. 설문조사는 더 나은 기능을 개발하고, 브라우저 기반 광고 캠페인의 효과를 측정하는 데 도움이 됩니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>

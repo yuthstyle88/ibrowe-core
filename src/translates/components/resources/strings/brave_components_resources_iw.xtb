@@ -196,6 +196,7 @@
 <translation id="7279636930553631442">חלונית קופצת של ניוזלטר</translation>
 <translation id="6136090320163235283">ווידג'ט רשת חברתית</translation>
 <translation id="6657720240983439091">ווידג'ט צ'אט</translation>
+<translation id="3597441883564676263">הדפדפן אינו נתמך</translation>
 <translation id="7138678301420049075">אחר</translation>
 <translation id="4046860372562593546">נהל את iBrowe Ads</translation>
 <translation id="5136973036012418831">שליטה באילו סוגי iBrowe Ads תראה ובאיזו תדירות.</translation>
@@ -486,8 +487,6 @@
 <translation id="1518915449477235311">האם לאפשר ל-<ph name="URL"/> לפתוח את שיחות Leo AI ב-iBrowe?</translation>
 <translation id="4355784577209159847">אפשר להשתמש בקובצי Cookie של צד שלישי לכניסה ב-Google מהדור הקודם</translation>
 <translation id="5770656036486891920"><ph name="URL"/> רוצה להשתמש בקובצי Cookie של צד שלישי לצורך כניסה מדור קודם של Google</translation>
-<translation id="6053826678715267477">אפשר גישה למשאבי localhost</translation>
-<translation id="2973562729984406132"><ph name="URL"/> מבקשת גישה למשאבים של localhost</translation>
 <translation id="2104347391516032700">שירות Bat Ads</translation>
 <translation id="5939518447894949180">אפס</translation>
 <translation id="3349204812119681938">איפוס iBrowe Rewards</translation>
@@ -497,6 +496,15 @@
 מאמר על איפוס
 <ph name="LINK_END"/>.</translation>
 <translation id="8835777704176513489">להשבית ולאפס תגמולים</translation>
+<translation id="1570055891464728855">אפס כעת</translation>
+<translation id="6431824580671230473">אל דאגה: אין שינוי ל-BAT שכבר נמצא ב-<ph name="PROVIDER"/> שלך בעקבות האיפוס.</translation>
+<translation id="2881473942058010900">לא תרוויח/י על מודעות כל עוד את/ה מחובר/ת אל <ph name="PROVIDER"/>. אפס/י את תגמולי iBrowe ותחבר/י חשבון תשלום אחר כדי להמשיך להרוויח. <ph name="LINK_BEGIN"/>למידע נוסף<ph name="LINK_END"/></translation>
+<translation id="5803444802570526678">החשבון שלך ב-<ph name="PROVIDER"/> אינו נתמך יותר.</translation>
+<translation id="3794463124070392793">אשר/י את האזור שלך</translation>
+<translation id="4620879582500359234">כל BAT שכבר נמצא ב-<ph name="PROVIDER"/> שלך יישאר שם.</translation>
+<translation id="935303782545595866">היסטוריית המודעות שלך ל־30 יום והגדרות תגמולי iBrowe אחרות יאופסו.</translation>
+<translation id="6279637499952804615">תוכל/י לבחור חשבון תשלום אחר לאחר שלב זה.</translation>
+<translation id="5419770758409992826">החשבון שלך ב-<ph name="PROVIDER"/> ינותק, ופרופיל תגמולי iBrowe שלך יאופס.</translation>
 <translation id="7717357606512850995">בדקו את המצב</translation>
 <translation id="6473937687348632190">התשלום עבור תגמולי <ph name="MONTH"/> הושלם.</translation>
 <translation id="1711367267038576241">התשלום עבור תגמולי <ph name="MONTH"/> יתחיל בעיבוד עד <ph name="DATE"/>.</translation>
@@ -518,14 +526,18 @@
 <translation id="2584752537998444309">{PUBLISHER_COUNT, plural, =1 {החודש, ביקרת ביוצר אחד נתמך על ידי iBrowe Rewards} other {החודש, ביקרת ב-# יוצרים נתמכים על ידי iBrowe Rewards} }</translation>
 <translation id="3264975266761862670">מוכנ/ה להתחיל להרוויח?</translation>
 <translation id="2784412028126205842">יש לחבר חשבון לתשלום</translation>
-<translation id="766126983336630294">{ADS_VIEWED, plural,
+<translation id="1789518312567918588">{ADS_VIEWED, plural,
       =0 {צפית ב-<ph name="COUNT_BEGIN"/># מודעות<ph name="COUNT_END"/> החודש}
       =1 {ניתן לקבל תשלום בגין <ph name="COUNT_BEGIN"/>מודעה #<ph name="COUNT_END"/> שצפית בה החודש.}
+      two {ניתן לקבל תשלום בגין <ph name="COUNT_BEGIN"/># מודעות<ph name="COUNT_END"/> שצפית בהן החודש.}
+      many {ניתן לקבל תשלום בגין <ph name="COUNT_BEGIN"/># מודעות<ph name="COUNT_END"/> שצפית בהן החודש.}
       other {ניתן לקבל תשלום בגין <ph name="COUNT_BEGIN"/># המודעות<ph name="COUNT_END"/> שבהן צפית החודש.}
     }</translation>
-<translation id="8611388433418909120">{ADS_VIEWED, plural,
+<translation id="1100743684843603297">{ADS_VIEWED, plural,
       =0 {צפית ב-<ph name="COUNT_BEGIN"/># מודעות<ph name="COUNT_END"/> החודש}
       =1 {ניתן לקבל תשלום על <ph name="COUNT_BEGIN"/>מודעה #<ph name="COUNT_END"/> שצפית בה החודש}
+      two {ניתן לקבל תשלום על <ph name="COUNT_BEGIN"/># מודעות<ph name="COUNT_END"/> שצפית בהן החודש}
+      many {ניתן לקבל תשלום על <ph name="COUNT_BEGIN"/># מודעות<ph name="COUNT_END"/> שצפית בהן החודש}
       other {ניתן לקבל תשלום על <ph name="COUNT_BEGIN"/># המודעות<ph name="COUNT_END"/> שצפית בהן החודש}
     }</translation>
 <translation id="6067959437127691361">השימוש ב-iBrowe Rewards עוזר לתמוך ביוצרי תוכן, ומאפשר לך להרוויח BAT.</translation>
@@ -606,7 +618,7 @@
 <translation id="5802986777701714573">הוספנו דרך חדשה שבה ניתן לקבל את ה-BAT rewards החודשיים שלכם. התחברו לחשבון דרך אחד השותפים שלנו או השתמשו באפשרות המשמורת העצמית החדשה כדי להתחיל להרוויח עכשיו.</translation>
 <translation id="3251885322612056119">תנאי שירות מעודכנים</translation>
 <translation id="7454675823870922788">עדכנו את תנאי השירות של iBrowe Rewards. יצרנו עדכונים אלה כדי להבהיר את התנאים שלנו ולוודא שהם מכסים את התכונות החדשות. אם תמשיכו להשתמש ב-iBrowe Rewards, אתם מסכימים בזאת לתנאי השירות המעודכנים. אם אינכם מסכימים, באפשרותכם <ph name="LINK_BEGIN"/>לאפס<ph name="LINK_END"/> את iBrowe Rewards, על מנת שהתכונה תושבת.</translation>
-<translation id="56057964000416013">עדכנו את תנאי השירות שלנו. כדי להמשיך להשתמש בתגמולי iBrowe, יש לקרוא את התנאים המעודכנים ולהסכים להם.</translation>
+<translation id="616595399243298960">עדכנו את תנאי השירות שלנו. כדי להמשיך להשתמש בתגמולי iBrowe, יש לקרוא את התנאים המעודכנים ולהסכים להם.</translation>
 <translation id="5192526308598085294">יש לעיין <ph name="LINK_BEGIN"/>בתנאי השירות של iBrowe Rewards<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">אני מסכים/ה</translation>
 <translation id="343114360276812078">סקירת תנאים</translation>
@@ -654,6 +666,8 @@
 <translation id="6751803821780922506">בחר היכן תרצה לקבל BAT</translation>
 <translation id="3162035476318501831">קבלו מידע נוסף על אזורים ותמיכה.</translation>
 <translation id="7329170127335794328">כרגע לא זמין באזור שלך</translation>
+<translation id="1947910788470806100">כרגע אין אפשרויות תשלום זמינות באזור שלך. תוכל/י לבדוק מאוחר יותר אם תשתנה זמינות.</translation>
+<translation id="271689813824682404">אפשרויות תשלום אינן זמינות</translation>
 <translation id="966956302643313970">כדי להתחיל לזכות בתגמולים של אסימון תשומת לב בסיסי (BAT), חבר חשבון. BAT שתרוויח יועבר אוטומטית לחשבון שלך מדי חודש.</translation>
 <translation id="4009439571146350519">או ארנק אחר התומך ב-Solana</translation>
 <translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>תנאי השימוש<ph name="TOS_LINK_END"/> <ph name="PP_LINK_BEGIN"/>ומדיניות הפרטיות<ph name="PP_LINK_END"/>.</translation>
@@ -694,7 +708,6 @@
 <translation id="3266055641283174315">סוג פרסומת</translation>
 <translation id="8706824117053903390">מספר הצפיות בחודש זה</translation>
 <translation id="5105890735834548623">הגדרות המודעות</translation>
-<translation id="96989662637180657">מודעות iBrowe חיפוש מופיעות <ph name="LINK_BEGIN"/>ב-iBrowe חיפוש<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">הגדרות המודעות</translation>
 <translation id="2446517297521536638">ניתן לקבוע איזה סוג של iBrowe מודעות יוצגו בפניך ובאיזו תדירות. ככל שמספר הצפיות יהיה גבוה יותר, כך תוכל להרוויח.</translation>
 <translation id="3479272537858623647">זה מראה את מספר המודעות של מודעות iBrowe שראית החודש שמזכות אותך ב-BAT.</translation>
@@ -861,6 +874,14 @@
       other {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} שלבים}
     }</translation>
 <translation id="8621264173374071200"><ph name="EXCHANGE_NAME"/> דרך <ph name="PROVIDER_NAME"/></translation>
+<translation id="646023614746251785">אישור החלפה</translation>
+<translation id="6264944956989873014">אישור גישור</translation>
+<translation id="7067917728851842589">אישור שליחה</translation>
+<translation id="2841837950101800123">ספק</translation>
+<translation id="1114725160772317155">סטטוס ספק</translation>
+<translation id="2351357639951873714">אישור מיגון</translation>
+<translation id="7480044382160806610">אישור ביטול הגנה</translation>
+<translation id="8332923694292360653">הוצאה</translation>
 <translation id="3735740477244556633">מיון לפי</translation>
 <translation id="6484605214219822434">סקרו גשר</translation>
 <translation id="3365052891357224017">זמן EST</translation>
@@ -881,6 +902,8 @@
 <translation id="7465227658364622464">יופיטר יעבד את כתובת סולאנה וכתובת ה-IP כדי למלא עסקה (כולל קבלת הצעות מחיר). יופיטר ישתמש בנתונים אלו רק למטרות עיבוד עסקאות.</translation>
 <translation id="712738518060477110">הצעת המחיר כוללת <ph name="SWAP_FEE_PERCENTAGE"/> עמלת iBrowe.</translation>
 <translation id="8368540604723748428">יותר מדי מקומות עשרוניים</translation>
+<translation id="4797709125717981664">נדרש לפחות 1 ADA</translation>
+<translation id="3826737479910350533">סכום השליחה קטן מדי</translation>
 <translation id="6575120282593094155">עדיין אין לך <ph name="ACCOUNT_TYPE"/> חשבון. ליצור אחד עכשיו?</translation>
 <translation id="1426410128494586442">כן</translation>
 <translation id="4250680216510889253">לא</translation>
@@ -927,7 +950,7 @@
 <translation id="2274014756904854136">הקש פעמיים על המסך כדי להמשיך</translation>
 <translation id="7795718119973968770">הארנק שלך נעול מטעמי אבטחה. פתח את נעילת הארנק כדי להמשיך.</translation>
 <translation id="9175546523521600401">נעילת ארנק</translation>
-<translation id="765834632354589737">ארנק גיבוי</translation>
+<translation id="7117128722034148989">ארנק גיבוי</translation>
 <translation id="1108298724135935307">אתרים מחוברים</translation>
 <translation id="5716350339763180836">מאזנים</translation>
 <translation id="5538251867290702601">גרף</translation>
@@ -970,6 +993,8 @@
 <translation id="3451958544919449297">אחסון נכסי ZEC Testnet</translation>
 <translation id="8459631690385393533">אחסון נכסי Carando</translation>
 <translation id="4915057812371523845">אחסון נכסי Cardano Testnet</translation>
+<translation id="5387140102951033657">תומך בנכסי Substrate בשרשרת Polkadot וב-parachains של Substrate</translation>
+<translation id="5601177227092533167">תומך בנכסי Substrate בשרשרת Westend וב-parachains של Substrate</translation>
 <translation id="8500387257977999003">מפתח פרטי<ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">ייבוא</translation>
 <translation id="232925166623833246">ייבוא מארנק חומרה</translation>
@@ -1027,6 +1052,7 @@
 <translation id="2416098547200943834">הערה: מפתח פרטי מסופק בתור JSON בקידוד הקסדצימלי המכיל מפתח פרטי ומידע פרוטוקול. <ph name="LINK_START"/>פרטים נוספים<ph name="LINK_END"/>.</translation>
 <translation id="7657130382217527063">הערה: יש לספק מפתח פרטי בתור JSON בקידוד הקסדצימלי המכיל מפתח פרטי ומידע פרוטוקול.<ph name="LINK_START"/>פרטים נוספים<ph name="LINK_END"/>.</translation>
 <translation id="4482913669726886926">לתשומת לבך: רק מפתחות מוצפנים של <ph name="FORMAT"/> נתמכים.</translation>
+<translation id="9133762451347918196">חשבונות Testnet</translation>
 <translation id="42126664696688958">ייצא</translation>
 <translation id="1366855498335432549">הפקדה</translation>
 <translation id="790104325876206743">הגדרות חשבון</translation>
@@ -1034,6 +1060,11 @@
 <translation id="836614343069504000">הפקדה או רכישה של אסימונים כדי להתחיל. אם אינך רואה אסימונים מחשבון מיובא, בדוק את המסננים ואת הגדרות התצוגה. ייתכן שיהיה צורך להוסיף אסימונים לא ידועים כנכסים מותאמים אישית.</translation>
 <translation id="2902856457593699108">הצג מפתח</translation>
 <translation id="8033497299373164724">הסתר מפתח</translation>
+<translation id="7514365320538308">הורדה</translation>
+<translation id="4505811804838254812">הזן סיסמה כדי להצפין את קובץ ייצוא החשבון שלך.</translation>
+<translation id="4664684820522660564">הזן סיסמת הצפנה</translation>
+<translation id="6873030689896652259">אשר סיסמת הצפנה</translation>
+<translation id="5148285448107770349">על הסיסמה לכלול 8 תווים לפחות</translation>
 <translation id="2702143907607790516">עדכון שם החשבון נכשל. נסה שוב.</translation>
 <translation id="3318280255740629162">25%</translation>
 <translation id="2636487255623744079">50%</translation>
@@ -1054,9 +1085,6 @@
 <translation id="1506421160138798546">הערכה</translation>
 <translation id="59223531494896848">הגבלה (limit)</translation>
 <translation id="8569380433211549748">מחיר ב</translation>
-<translation id="2490428413101944234">בדיקת ברז (Faucet)</translation>
-<translation id="3352959425838279177">קבלו Eter מ-faucet עבור <ph name="SELECTED_NETWORK"/></translation>
-<translation id="6449626816252815844">יש לבחור אמצעי תשלום</translation>
 <translation id="8009571545960303544">נדרשת חתימתך</translation>
 <translation id="5294062982587710720">שים לב כי iBrowe לא יכול לאמת מה יקרה אם תחתום. חתימה יכולה לאשר כמעט כל פעולה בחשבונך או בשמך, כולל (אך לא מוגבל ל)מתן שליטה מוחלטת בחשבונך ובנכסי הקריפטו לאתר המבקש את הבקשה. חתום רק אם אתה בטוח שאתה רוצה לבצע פעולה זו וסומך על האתר המבקש.</translation>
 <translation id="3474375934783434676">הירשם על אחריותך בלבד</translation>
@@ -1064,6 +1092,7 @@
 <translation id="3586931643579894722">הסתר פרטים</translation>
 <translation id="7702907602086592255">דומיין</translation>
 <translation id="3586752056660754651">חתימה</translation>
+<translation id="4217653732094303705">מפתח הצפנה ציבורי</translation>
 <translation id="3484981968509595506">אפליקציית DApp מבקשת את מפתח ההצפנה הפומבי שלך</translation>
 <translation id="2300240008330189182"><ph name="URL"/> מבקש את מפתח ההצפנה הציבורי של הארנק שלך. אם תסכים להעביר לו את המפתח הזה, האתר יוכל לשלוח לך הודעות מוצפנות.</translation>
 <translation id="3340247553212049934">ספק</translation>
@@ -1081,6 +1110,10 @@
 <translation id="8904889345035514635">קצבה נוכחית</translation>
 <translation id="7073918978411974168">קצבה מוצעת</translation>
 <translation id="9019403281000653275">התבקש אישור בלתי מוגבל</translation>
+<translation id="9108474191347769758">הגבלת הוצאה</translation>
+<translation id="2102091845281366189">יעד אישור</translation>
+<translation id="772196962479335292">מכסת אישור נוכחית</translation>
+<translation id="8215431557133305629">מכסת אישור מוצעת</translation>
 <translation id="4717431746210146708">לאפשר לאתר זה להוסיף רשת?</translation>
 <translation id="2521480044079508357">זה יאפשר שימוש ברשת זו בתוך ה-iBrowe Wallet.</translation>
 <translation id="1982257600591932657">שם רשת</translation>
@@ -1097,7 +1130,7 @@
 <translation id="3948067511324628726">דמי דלק</translation>
 <translation id="7163997622278957886">הצע מחיר</translation>
 <translation id="1074360622426001342">סכום + דלק</translation>
-<translation id="2186011161688824046">סכום + עמלה</translation>
+<translation id="7542099582407803878">סכום + עמלת רשת</translation>
 <translation id="7084089311475827950">אין נתונים.</translation>
 <translation id="5821668936183240062">הבא</translation>
 <translation id="793994607260936590">ראשון</translation>
@@ -1206,12 +1239,12 @@
 <translation id="4932382283590063268">כתובת הקבלה היא הכתובת שלך.</translation>
 <translation id="3124753063207986114">הכתובת המקבלת היא כתובת הקשר של האסימון.</translation>
 <translation id="7029817408221097939">כתובת מאוחדת לא חוקית</translation>
-<translation id="6370376419663123629">הכתובת לא נראית נכונה</translation>
-<translation id="3767148796886402380">בדוק את הכתובת שלך כדי לוודא שזו הכתובת הנכונה (למשל, אותיות קטנות או רישיות).</translation>
+<translation id="5749543778008369411">כתובת חסרה בדיקת סכום</translation>
+<translation id="8225310967627152630">לא ניתן לאמת את תקפות כתובת זו. כדי להימנע מאובדן אפשרי של כספים, בדוק את הכתובת בעיון לפני השליחה.</translation>
+<translation id="5139218857087774333">כתובת לא נראית נכונה (בדיקת סכום לא חוקית)</translation>
+<translation id="6551446819927864899">נראה שכתובת זו מכילה כתב חדש. אנא בדוק את הכתובת והקלד אותה שוב.</translation>
 <translation id="2585599787090762065">איך אני יכול לפתור את זה?</translation>
 <translation id="5517732667776806421">חסר מידע על סכום בדיקה</translation>
-<translation id="2975056993833847787">לא ניתן היה לאמת את הכתובת הזו (סכום הבדיקה חסר). להמשיך?</translation>
-<translation id="6320252966164556855">הכתובת לא עברה את האימות (סכום הבדיקה בלתי תקף). יש לנסות שוב, הפעם לאחר החלפה של אותיות קטנות באותיות גדולות.</translation>
 <translation id="4667144295226514387">חסרה מגבלת גז</translation>
 <translation id="2021522108838444624">הסכום חייב להיות גדול מ-0</translation>
 <translation id="8464365289405373974">יש להזין כתובת</translation>
@@ -1237,6 +1270,8 @@
 <translation id="471055802670233033">אתם משלמים</translation>
 <translation id="7916618590403748182">אתם תקבלו</translation>
 <translation id="8328657208304368165">אישור הזמנה</translation>
+<translation id="3784821115971261512">כתובת תוכנית</translation>
+<translation id="6302865118026274740">כתובת הפקדה</translation>
 <translation id="8220255674527598378">Solana Swap</translation>
 <translation id="5071303414930953888">חשבון <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">תחילה יש לבטל את נעילת הארנק</translation>
@@ -1296,10 +1331,7 @@
 <translation id="4312994183947987913">קנה/הפקד</translation>
 <translation id="5133421763709317473">לא נמצאו נכסים התואמים לחיפוש או מסנן</translation>
 <translation id="6423985584914773314">כתובת FIL לא חוקית</translation>
-<translation id="5522073372365069684">לרכישה באמצעות Ramp</translation>
 <translation id="6153197326949684688">מכור עם<ph name="OFFRAMP_PROVIDER"/></translation>
-<translation id="7902920577183739843">קנה עם Sardine</translation>
-<translation id="3301984548406568819">הנתונים הפיננסיים והעסקאות מעובדים על ידי השותפים שלנו ב-onramp.  ואילו iBrowe  אינה אוספת או בעלת גישה לנתונים כאלה.</translation>
 <translation id="5795821518596541838">שותף עסקאות</translation>
 <translation id="1916136859742693273">ארנק iBrowe עושה שימוש ב-Meld.io כדי לסייע לקבץ ולהציג ספקי קריפטו שונים עבור האזור שלך. נשתף מידע עם Meld.io כדי להשלים את העסקה, כולל כתובת הארנק וקוד המדינה שלך. למידע נוסף אפשר לעיין בתנאי השימוש של Meld.</translation>
 <translation id="245827814248186739">קראתי והסכמתי ל<ph name="LINK_BEFORE"/>תנאי השימוש של Meld<ph name="LINK_AFTER"/></translation>
@@ -1320,19 +1352,8 @@
 <translation id="4196022627437957774">רוצה ליצור חשבון <ph name="ACCOUNT_TYPE"/>?</translation>
 <translation id="5982914754413312620">על מנת לקבל <ph name="TOKEN_SYMBOL"/>, צריך חשבון <ph name="ACCOUNT_TYPE"/>.</translation>
 <translation id="3067168166931605141">שם החשבון</translation>
-<translation id="6534275647567011533">רכישה עם Transak</translation>
-<translation id="5973390321030037823">רכישה עם Link</translation>
-<translation id="1932640759496708012">קנה עם Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
-<translation id="7295150312737713113">Link מאת Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
-<translation id="7667423728712601865">רכשו קריפטו באמצעות ויזה או מאסטרקארד.</translation>
-<translation id="3648994606506382289">הדרך הקלה, המהירה והזולה ביותר לקנות קריפטו באמצעות כרטיס והעברות בנקאיות.</translation>
-<translation id="3101839349578102016">קנייה מיידית עם חשבון הבנק שלך. עמלות נמוכות יותר.</translation>
-<translation id="8280898387224328221">שלם באמצעות אשראי, חיוב, חשבון בנק</translation>
-<translation id="2218174283683424104">קנייה עם השמות האמינים ביותר בקריפטו.</translation>
+<translation id="1213870770696612739">סכום מינימלי: <ph name="AMOUNT"/></translation>
+<translation id="3041074161036535192">סכום מקסימלי: <ph name="AMOUNT"/></translation>
 <translation id="8528916244724490964">כל הרשתות</translation>
 <translation id="7721139939763655123">נמוך עד גבוה</translation>
 <translation id="5458608274117818139">גבוה לנמוך</translation>
@@ -1377,8 +1398,13 @@
 <translation id="7694836973509310467">גישור</translation>
 <translation id="8419958386475786929"><ph name="SWAPPING_OR_BRIDGING"/> דרך <ph name="NETWORK"/></translation>
 <translation id="7903225589949400974">אירעה שגיאה בעת ניסיון <ph name="SWAP_OR_BRIDGE"/> דרך <ph name="NETWORK"/></translation>
+<translation id="7220786058474068424">עיבוד</translation>
+<translation id="3248185426436836442">בהמתנה</translation>
+<translation id="5503843345634715425">הוחזר</translation>
 <translation id="1778601041100951971">מגן על <ph name="AMOUNT"/></translation>
+<translation id="6439110433198887239">שולח/ת ממצאים <ph name="AMOUNT"/></translation>
 <translation id="5549369333299694936"><ph name="AMOUNT"/> מוגנים</translation>
+<translation id="3860973324426281816"><ph name="AMOUNT"/> בוטלו מההגנה</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} עוד עסקאות ממתינות.}
       other {{PENDING_TRANSACTIONS} עוד עסקאות ממתינות.}
@@ -1407,6 +1433,7 @@
 <ph name="VALUE"/></translation>
 <translation id="4048336522751528394">החלף <ph name="MAKER"/> ל-
 <ph name="TAKER"/></translation>
+<translation id="5140590056890937774">גשר <ph name="SOURCE"/> אל <ph name="DESTINATION"/></translation>
 <translation id="1748114617341025015">יוצרים חשבון טוקן משויך</translation>
 <translation id="4418115887224983240">יצירת חשבון טוקן משויך נכשלה</translation>
 <translation id="7165697599360786670">נוצר חשבון טוקן משויך</translation>
@@ -1427,6 +1454,8 @@
 <translation id="1908159733454294871">זוהה סיכון אבטחה</translation>
 <translation id="3621202678540785336">קלט</translation>
 <translation id="3009178788565917040">פלט</translation>
+<translation id="7953669802889559161">קלטים</translation>
+<translation id="4554024082642878647">פלטים</translation>
 <translation id="1965889974717516497">רשתות משניות</translation>
 <translation id="7691821949666755802">בדיקת רשתות</translation>
 <translation id="2816106784624007524">הגבלת הדלק חייבת להיות מספר שלם הגדול מאפס</translation>
@@ -1575,8 +1604,6 @@
 <translation id="1422451606553326863">רכישת קריפטו</translation>
 <translation id="3887541341068007345">בודק תוספות ארנק...</translation>
 <translation id="8407091560429310499">בחר נכס</translation>
-<translation id="756590380936155533">כדי לסיים את רכישת <ph name="ASSET_TICKER"/> שלך, בחר אחד מהשותפים שלנו</translation>
-<translation id="7880860489474966219">בסיום, הכספים שלך יועברו ל- iBrowe Wallet שלך</translation>
 <translation id="6182661078713714878">הפקד קריפטו</translation>
 <translation id="3683305208314702347">הפקד <ph name="VALUE"/></translation>
 <translation id="5768739294929936862">הפקד אסימוני Solana או SPL</translation>
@@ -1633,12 +1660,16 @@
 <translation id="3356580495013324916">הזינו את סיסמת iBrowe Wallet שלכם כדי להתחיל לגבות את הארנק.</translation>
 <translation id="7545441766078366279">אשר את <ph name="TOKEN"/></translation>
 <translation id="3115303896544539834">יתרת <ph name="TOKEN"/> לא מספקת</translation>
+<translation id="6612125470074657311">הסכום נמוך מדי</translation>
+<translation id="5838312420826727653">אסימונים לא נתמכים</translation>
+<translation id="4930106154893104117">בקשה לא חוקית</translation>
 <translation id="3453833142586986467">בחירת טוקן</translation>
 <translation id="4937657825850660613">חצי</translation>
 <translation id="7639814793732182496">מקסימום</translation>
 <translation id="6584782231358487640">הזן/י סכום</translation>
 <translation id="477281933640372562">מחפש הצעת מחיר</translation>
 <translation id="5450317966495183014">תקבלו (משוער)</translation>
+<translation id="387870937508841726">קבלו (מינימום)</translation>
 <translation id="8747614139273050577">מאסימון</translation>
 <translation id="1726158192333401896">לאסימון</translation>
 <translation id="1817370679212109974">הצעה חדשה בעוד <ph name="COUNTDOWN"/></translation>
@@ -1663,6 +1694,7 @@
 <translation id="8044899503464538266">אטי</translation>
 <translation id="3569512916300900704">ממוצע</translation>
 <translation id="7019805045859631636">מהיר</translation>
+<translation id="1345580220012169610">עמלה משוערת</translation>
 <translation id="632241521608275119">רגישות למעידה</translation>
 <translation id="6778140392042462129">המרה</translation>
 <translation id="6173494033320397682">מסלול ישיר בלבד</translation>
@@ -1720,6 +1752,9 @@ CoinGecko</translation>
 <translation id="6276584161122912863">מחיר גז</translation>
 <translation id="6132197290665156212">עמלת רשת משוערת</translation>
 <translation id="1788636309517085411">שימוש בברירת מחדל</translation>
+<translation id="3968375068626660591">עמלת הגז הזו תחליף את המקורית.</translation>
+<translation id="1661088862481901887">פעולה זו תיצור עסקה חדשה עם עמלת גז חדשה כדי לעקוף ולבטל את העסקה הממתינה. ביטול ניתן רק אם העסקה עדיין ממתינה ברשת.</translation>
+<translation id="5797060124625958778">עדיפות מהירות</translation>
 <translation id="6213230117190778270">קבל</translation>
 <translation id="6748108480210050150">מאת</translation>
 <translation id="4875290286426670462">ללא הגבלה <ph name="ASSET_SYMBOL"/></translation>
@@ -1749,7 +1784,6 @@ CoinGecko</translation>
 <translation id="2410455471299328417">שירות זה מסופק על ידי <ph name="BOLD_BEFORE"/>Blowfish.xyz<ph name="BOLD_AFTER"/> וכפוף <ph name="TERMS_LINK_BEFORE"/>לתנאי השירות<ph name="TERMS_LINK_AFTER"/> <ph name="PRIVACY_POLICY_LINK_BEFORE"/>ולמדיניות הפרטיות שלהם<ph name="PRIVACY_POLICY_LINK_AFTER"/></translation>
 <translation id="8688672835843460752">פנוי</translation>
 <translation id="5296640085393149413">הכספים הזמינים עבורכם לשימוש.</translation>
-<translation id="3248185426436836442">בהמתנה</translation>
 <translation id="2515906149804238711">קיים שינוי בהמתנה ביתרת הארנק שלכם.</translation>
 <translation id="7700365440186054030">הכספים הזמינים עבורכם ועסקאות שטרם אושרו.</translation>
 <translation id="4118601537508887039">ייתכן שחלק מהיתרה אינו זמין</translation>
@@ -1815,10 +1849,14 @@ CoinGecko</translation>
 <translation id="7747318989577709780">החשבון מסתנכרן</translation>
 <translation id="9086302186042011942">מתבצע סנכרון</translation>
 <translation id="99991973626409495">הצגת פרטי הגנה</translation>
+<translation id="6779429520470417361">הצגת פרטי ביטול הגנה</translation>
 <translation id="3114681061018999547">בהגנה</translation>
+<translation id="1564172583156967455">ביטול הגנה</translation>
 <translation id="8897189056319316783">הגנת ZEC</translation>
+<translation id="508249542337194541">ביטול הגנת ZEC</translation>
 <translation id="3382275793825152362">הגנה על כספים</translation>
 <translation id="8631765320256788981">את/ה מעביר/ה כספים מהחשבון השקוף שלך לחשבון המוגן שלך.</translation>
+<translation id="3860364671495430495">את/ה מעביר/ה כספים מהחשבון המוגן שלך לחשבון השקוף שלך.</translation>
 <translation id="7144878232160441200">נסה שוב</translation>
 <translation id="9094621390791852268">תצוגה מקדימה של העסקה נכשלה.</translation>
 <translation id="4982713341035600933">שינוי יתרה משוער</translation>
@@ -1890,9 +1928,9 @@ CoinGecko</translation>
 <translation id="6401776069326703655">צפייה בהכל</translation>
 <translation id="8032569120109842252">במעקב</translation>
 <translation id="3790976909891317760">{FEED_COUNT, plural,
-      one {}
+      =1 {# מקור}
       two {# מקורות}
-      many {# מקורות}=1 {# מקור}
+      many {# מקורות}
       other {# מקורות}
     }</translation>
 <translation id="6143382357119101833">קבל עדכונים מ-<ph name="URL"/></translation>
@@ -2097,6 +2135,8 @@ CoinGecko</translation>
 <translation id="4292565651642921086">התמקדות בקבוצת הכרטיסיות הבאה</translation>
 <translation id="874783686573493196">התמקדות בקבוצת הכרטיסיות הקודמת</translation>
 <translation id="9169594135889675189">הוספת כרטיסיה חדשה לקבוצה</translation>
+<translation id="1722567105086139392">קישור</translation>
+<translation id="4729794914864902904">ניתוק קישור</translation>
 <translation id="1926106318101432555">פתח את הסימניה...</translation>
 <translation id="6118819645013156507">עבור לחלון...</translation>
 <translation id="1623204575967809688">מיזוג החלון הנוכחי לתוך...</translation>
@@ -2122,6 +2162,7 @@ CoinGecko</translation>
 <translation id="5329136173514538969">לא לפצל כרטיסיות</translation>
 <translation id="7595612919377246359">החליפו מיקום טאב</translation>
 <translation id="2367972762794486313">הצג יישומים</translation>
+<translation id="3468387898712904997">מייל בדוי חדש</translation>
 <translation id="8591883849678260674">צפה במקור</translation>
 <translation id="1969654232209826429">קריאה מינימלית</translation>
 <translation id="4101707289420716287">כבה את Speedreader</translation>
@@ -2155,7 +2196,6 @@ CoinGecko</translation>
 <translation id="5872363163901278000">הגבר את מהירות ההשמעה</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">תכונת הסיכום זמינה כרגע רק עבור מאמרים נבחרים ודפי אינטרנט ארוכים אחרים.</translation>
-<translation id="1223498995510244364">סכם</translation>
 <translation id="7491773233732232424">על ליאו</translation>
 <translation id="4611072979071082355">iBrowe Leo הוא עוזר חכם אישי המופעל באמצעות בינה מלאכותית ומשפר את השימוש שלך ברשת. השימוש ב-Leo ניתן ללא עלות עם גישה מוגבלת. גרסת iBrowe Leo Premium מציעה מודלים נוספים ומגבלות רחבות יותר, ומאפשרת למנויים גישה מוקדמת לפיצ׳רים חדשים. מודל ברירת ישתנה מעת לעת. ניתן לבקר ב<ph name="LINK_BEFORE"/>מרכז העזרה של iBrowe<ph name="LINK_AFTER"/> לפרטים נוספים.</translation>
 <translation id="7297056998057521697">כברירת מחדל, כאשר שואלים את Leo שאלה על אתר או דף שצופים בו, תוכן דף האינטרנט הנצפה או כל טקסט שהדגשת בדף, כמו גם שאילתת החיפוש שלך, יישלחו לשרתי iBrowe על מנת לאפשר ל-Leo לספק תשובה. במקרים מסוימים, Leo ישלח שאילתות הנגזרות מהקלט שלך ל-iBrowe Search וישתמש בתוצאות החיפוש כדי לענות טוב יותר על השאלה שלך. iBrowe אינה מתחייבת לדיוק התשובות, והתשובות עשויות לכלול מידע לא מדויק, מטעה או כוזב. אין לשלוח מידע רגיש או פרטי ל-iBrowe Leo, ויש להקפיד לנהוג בזהירות בכל תשובה הקשורה לבריאות, כספים, בטיחות אישית או נושאים דומים. באפשרותך לשנות את אפשרויות Leo בהגדרות בכל עת. מעבר אל הגדרות &gt; Leo.</translation>
@@ -2186,14 +2226,25 @@ CoinGecko</translation>
 <translation id="8151638057146502721">קביעת קונפיגורציה</translation>
 <translation id="999273441077650169">המודל משתנה באופן דינמי כדי להשתמש בזה שמתאם למשימה באופן המיטבי.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="1238020084128916796">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Llama 3.1 8B, מודל שנוצר על ידי Meta לשימוש ויישום במגוון תרחישים. Llama מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
-<translation id="7127671672828944579">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Qwen 14B, מודל שנוצר על ידי Alibaba לשימוש ויישום במגוון תרחישים. Qwen מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
-<translation id="2328524194917949829">היי, אני ליאו. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל על ידי Gemma 3 12B, מודל שנוצר על ידי Google DeepMind לשימוש ויישום במגוון תרחישים. Gemma מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
-<translation id="634682910381645550">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות DeepSeek R1, מודל שנוצר על ידי DeepSeek כדי לבצע משימות הנמקות עמוקות. DeepSeek R1 מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
-<translation id="8932568551552504373">היי, אני Leo.I'm an AI assistant by iBrowe. אני מופעל באמצעות Claude Instant, מודל שנוצר על ידי Anthropic לשימוש ויישום במגוון תרחישים. Claude Instant מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="3852808100039989429">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Qwen VL 30B, מודל שנוצר על ידי Alibaba Cloud לשימוש ויישום במגוון תרחישים. Qwen מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="6406961656408495869">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות DeepSeek V3.1, מודל שנוצר על ידי DeepSeek לשימוש ויישום במגוון תרחישים. DeepSeek V3.1 מתארח על ידי NEAR באמצעות התשתית המאובטחת והפרטית שלהם.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">שלום, אני לאו. אני עוזר AI של iBrowe. אני מוטמע יחד עם Claude Instant, מודל שפותח על ידי Anthropic לביצוע משימות שיחה ועיבוד טקסט. Claude Instant מתארח על-ידי iBrowe בתשתית המאובטחת שלה.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="3789772321824682783">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Claude Haiku, מודל שנוצר על ידי Anthropic לשימוש ויישום במגוון תרחישים. Claude Haiku מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="1778885220602472158">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Claude Sonnet, מודל שנוצר על ידי Anthropic לשימוש ויישום במגוון תרחישים. Claude Sonnet מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="1058830842518828124">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Llama 4 Scout, מודל שנוצר על ידי Meta לשימוש ויישום במגוון תרחישים. Llama 4 Scout מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="6277330815126859513">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Llama 4 Maverick, מודל שנוצר על ידי Meta לשימוש ויישום במגוון תרחישים. Llama 4 Maverick מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="5833148755396048122">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות GPT OSS 20B, מודל שנוצר על ידי OpenAI לשימוש ויישום במגוון תרחישים. GPT OSS 20B מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="5414593137581221307">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות GPT OSS 120B, מודל שנוצר על ידי OpenAI לשימוש ויישום במגוון תרחישים. GPT OSS 120B מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="5037359072717016032">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Mistral Large, מודל שנוצר על ידי Mistral לשימוש ויישום במגוון תרחישים. Mistral Large מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="8947618429500471804">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Pixtral Large, מודל שנוצר על ידי Mistral לשימוש ויישום במגוון תרחישים. Pixtral Large מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="4026902371301997261">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Qwen 3 235B, מודל שנוצר על ידי Alibaba לשימוש ויישום במגוון תרחישים. Qwen 3 235B מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="768541432895104346">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Deepseek V3.1, מודל שנוצר על ידי Deepseek לשימוש ויישום במגוון תרחישים. Deepseek V3.1 מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="3767678495358551728">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Qwen 3 Coder 480B, מודל שנוצר על ידי Alibaba לשימוש ויישום במגוון תרחישים. Qwen 3 Coder 480B מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="3369866806475938617">היי, אני Leo. אני עוזר AI המנוהל במלואו על ידי iBrowe. אני מופעל באמצעות Claude Opus, מודל שנוצר על ידי Anthropic למטרות עיבוד שפה ושיחות. Claude Opus מנוהל על ידי iBrowe באמצעות התשתית המאובטחת שלנו.<ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">פרמיום</translation>
 <translation id="5807427080183870259">מקומי</translation>
+<translation id="830868413617744215">בטא</translation>
+<translation id="4773408460773097271">Ollama</translation>
 <translation id="631371844654031449">מודלים מומלצים</translation>
 <translation id="6568044140836233369">הצגת כל המודלים</translation>
 <translation id="6187065185557150870">לְשׂוֹחֵחַ</translation>
@@ -2202,6 +2253,7 @@ CoinGecko</translation>
 <translation id="7557539689487606886">לעבור לפרימיום</translation>
 <translation id="1691256669639196606">ניהול מנוי</translation>
 <translation id="3840096463915153852">היסטוריית שיחה</translation>
+<translation id="6761921176674289184">ניהול זיכרונות</translation>
 <translation id="2304783958703511257">הגדרות מתקדמות</translation>
 <translation id="3037594989275592390">מודלים של שפה</translation>
 <translation id="5543505256451301851">נסה 7 ימים בחינם</translation>
@@ -2226,6 +2278,7 @@ CoinGecko</translation>
 <translation id="9109355817507033196">התשובה לא אהבתי</translation>
 <translation id="4049425842478222936">תשובה אהבתי</translation>
 <translation id="6393149565874086128">הוסף משוב</translation>
+<translation id="4621961534325272682">השיחה הועתקה לתיקייה</translation>
 <translation id="3521125531016408657">כמו תשובה</translation>
 <translation id="8202517001427388906">לא אוהב תשובה</translation>
 <translation id="1379399209929302811">ספק משוב אמיץ לבינה מלאכותית</translation>
@@ -2238,6 +2291,24 @@ CoinGecko</translation>
 <translation id="7488762544858401571">נערך</translation>
 <translation id="5604254791550001355">עריכת פרומפט</translation>
 <translation id="8115786586976830777">העתקת פרומפט</translation>
+<translation id="3666616415490815310">שמור כמיומנות</translation>
+<translation id="6574544364990812112">הכישורים שלי</translation>
+<translation id="6696824203401957025">מיומנות חדשה</translation>
+<translation id="6410279677882692627">המיומנויות יופיעו בכלי ה-[/] שלך וניתן לגשת אליהן על ידי הקלדת "/name" שהגדרת להלן.</translation>
+<translation id="1344606707744657196">מודל להנחיה</translation>
+<translation id="8458341576712814616">קיצור דרך</translation>
+<translation id="1326559827339317236">הזן כאן את קיצור הדרך שלך</translation>
+<translation id="5032574515228824816">הנחיה</translation>
+<translation id="2573797314568446575">הזן את ההנחיה שלך כאן</translation>
+<translation id="900733896273558337">ערוך מיומנות</translation>
+<translation id="7662963028545588801">מחק מיומנות</translation>
+<translation id="4209790625997566418">האם אתה בטוח שברצונך למחוק מיומנות זו? פעולה זו אינה ניתנת לביטול.</translation>
+<translation id="7161540406494327389">קיצור דרך נדרש</translation>
+<translation id="3722223049736774445">קיצור יכול להכיל רק אותיות, מספרים, קו תחתון ומקף</translation>
+<translation id="6997214168632888867">קיצור הדרך חייב להיות בן 64 תווים לכל היותר</translation>
+<translation id="2806891468525657116">קיצור הדרך כבר קיים</translation>
+<translation id="5497501845974700950">נדרשת הנחיה</translation>
+<translation id="5642369858603376334">ההנחיה חייבת להיות באורך של 5000 תווים לכל היותר.</translation>
 <translation id="1406205536570262057">ערוך תשובה</translation>
 <translation id="3386725253392845084">לנסות שוב עם אותו מודל</translation>
 <translation id="2461822463642141190">נוכחי</translation>
@@ -2252,6 +2323,8 @@ CoinGecko</translation>
 <translation id="6495402307502950726">ניקוי שיחה</translation>
 <translation id="903201991022343217">התחלת שיחה חדשה</translation>
 <translation id="8171760814579050200">שינוי שם שיחה</translation>
+<translation id="402386227879573975">העתק שיחה שלמה</translation>
+<translation id="5397794290049113714">את/ה</translation>
 <translation id="7754678742055438573">מחיקת שיחה</translation>
 <translation id="1946267518364740045">מעבד תגובה...</translation>
 <translation id="4198859185714743678">העיבוד הושלם</translation>
@@ -2263,7 +2336,8 @@ CoinGecko</translation>
 <translation id="1243966363662220847">משוב על תשובה</translation>
 <translation id="7417895556119762861">סימוני ׳אהבתי׳ או ׳לא אהבתי׳ על תשובה ישלחו את הדירוג, השיחה, המודל, השפה, הגרסה, וסטטוס הפרימיום אל iBrowe על מנת לשפר את Leo. <ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">שלח הודעה לליאו</translation>
-<translation id="4084869091337186002">סוכן התוכן של Leo AI מופעל תמיד בפרופיל זה</translation>
+<translation id="6222803935921999130">פתח חלון פרופיל GPT</translation>
+<translation id="1530903352777607099">סוכן התוכן של Leo AI מופעל תמיד בפרופיל זה</translation>
 <translation id="8650874793377330048">הפסקת מענה</translation>
 <translation id="8712637175834984815">הבנתי</translation>
 <translation id="1093419424466417703">הדף ארוך מדי עבור ליאו. ייתכן שחלק מההקשר חסר מהשיחה. ליאו הצליח לקרוא <ph name="PERCENTAGE"/> מתוכן הדף.</translation>
@@ -2275,31 +2349,42 @@ CoinGecko</translation>
 <translation id="7307396647043599949">עוד <ph name="COUNT"/>…</translation>
 <translation id="8103700533980268469">סגירת התראה זו</translation>
 <translation id="3417835166382867856">חיפוש בכרטיסיות</translation>
+<translation id="3828029223314399057">חיפוש בסימניות</translation>
+<translation id="381480092025168632">חיפוש בהיסטוריית הדפדפן</translation>
+<translation id="7311244614769792472">לא נמצאו תוצאות</translation>
+<translation id="3112448569149476523">נסה לחפש מונח אחר</translation>
 <translation id="1352836459737874921">צירוף תוכן מכרטיסיות אחרות</translation>
-<translation id="3028258613451571431">שליחת תוכן דפים מכרטיסיות הדפדפן שלך כדי לתת ל-Leo הקשר נוסף לשיחה</translation>
-<translation id="4300920590112551536">כרטיסיות דפדפן</translation>
-<translation id="1446346932629101482">אפשר להוסיף תכני כרטיסיות למטרת הקשר. התכנים יישלחו אל Leo יחד עם ההודעות שלך.</translation>
-<translation id="7193316103691252734">אין כרטיסיות תואמות</translation>
+<translation id="7173836072258346701">צרף תוכן מסימניות</translation>
+<translation id="163680814308917875">צרף תוכן מהיסטוריית הדפדפן</translation>
+<translation id="7039179822221107025">שליחת תוכן דפים מכרטיסיות הדפדפן שלך כדי לתת ל-Leo הקשר נוסף לשיחה.</translation>
+<translation id="1602382615168212961">שלח את תוכן הדף מהכרטיסיות בסימניות שלך כדי לספק לליאו יותר הקשר לשיחה.</translation>
+<translation id="4808122506413075135">שלח את תוכן הדף מההיסטוריה של הדפדפן שלך כדי לספק לליאו יותר הקשר לשיחה.</translation>
+<translation id="220541218939267992">תוכן הדף יישלח ללאו יחד עם ההודעות שלך.</translation>
+<translation id="2152389270152475874">הוסף כרטיסיות, סימניות או היסטוריה לצורך הקשר. התוכן הנבחר יישלח לליאו יחד עם ההודעות שלך.</translation>
 <translation id="2315654674554095762">עכשיו Leo יזכור את השיחות שלך כך שתהיה לך אפשרות לחזור אליהן. הן מאוחסנות באופן מוצפן במכשיר שלך, ובאפשרותך למחוק אותן בכל עת.</translation>
 <translation id="7821251979960635244">היסטוריית השיחות שלך תופיע כאן ברגע שתתחיל/י שיחה.</translation>
 <translation id="887511360213807449">היסטוריה מושבתת</translation>
 <translation id="5380979378058584412">כדי להציג את השיחות הקודמות שלך עם Leo, צריך לאפשר היסטוריית שיחות.</translation>
-<translation id="6291843235651817590">צ'אט למטרות כלליות</translation>
+<translation id="7348809809749151120">מהיר • לחפש</translation>
 <translation id="3185367320601718531">יצירת שיחות וטקסט</translation>
-<translation id="7979673624064378842">צ'אט מהיר כברק</translation>
-<translation id="2836330653441111204">מהירות ואינטליגנציה מאוזנות</translation>
-<translation id="6695329447007213917">צ׳אט כללי, תכנות, ועוד</translation>
-<translation id="7168072214482631597">הבנת טקסט ותמונות למטרות כלליות</translation>
-<translation id="7226508434216060960">מודל הסקה</translation>
+<translation id="2793458212460902934">מהיר • לחפש • כלים</translation>
+<translation id="8506027496671575183">לחפש • חזון • כלים</translation>
+<translation id="3184606955650139158">מהיר • חיפוש • חזון</translation>
+<translation id="7465032796278724624">פרטי בראי אימות עם NEAR AI TEE</translation>
 <translation id="8782867266498869301">המודל משתנה באופן דינמי על מנת להשתמש בזה שמותאם למשימה באופן המיטבי</translation>
+<translation id="3213834013136637671">חיפוש • חזון</translation>
 <translation id="3965507912994218570">הגדרות Leo</translation>
-<translation id="1037324977127422019">היי, אני ליאו!</translation>
-<translation id="8930348081963284873">עוזר אינטליגנטי המופעל על ידי בינה מלאכותית, מובנה ישירות לתוך iBrowe.</translation>
-<translation id="3528849152231418380">זקוק לעזרה עם אתר אינטרנט?</translation>
-<translation id="1558192229187362674">אני יכול לעזור לך לסכם מאמרים, להרחיב על תוכן האתר ועוד הרבה יותר.</translation>
-<translation id="861953757568623294">אני יכול לעזור לך לסכם מאמרים, להרחיב על תוכן האתר ועוד הרבה יותר. לא בטוח מאיפה להתחיל? כדאי לנסות את זה:</translation>
-<translation id="5642775487085641191">רק רוצה לשוחח?</translation>
-<translation id="8857222718794549840">ניתן לשאול אותי כל דבר! נוכל לדבר על כל נושא. אני תמיד לומד ומשתפר כדי לספק תשובות טובות יותר.</translation>
+<translation id="3754337604877048671">היכרות עם Leo AI</translation>
+<translation id="5295261408976371809">העוזר AI ה<ph name="TEXT_BEFORE"/>פרטי<ph name="TEXT_AFTER"/> שלך, מובנה בדפדפן.</translation>
+<translation id="7452913484571004528">AI פרטי באמת</translation>
+<translation id="8525501048785085223">לאו אינו שומר או משתף צ'אטים, ואינו משתמש בהם לצורך אימון מודלים. אין צורך בחשבון או התחברות. פשוט פתח וצ'וטט — בפרטיות.</translation>
+<translation id="6401201054391523929">צ'אט עם הלשוניות והקבצים שלך</translation>
+<translation id="8522038408130089105">צריך מידע נוסף על האתרים שאתה מבקר בהם? פשוט הוסף אותם לצ'אט. צרף את הלשוניות והקבצים המקומיים שלך לקבלת תשובות מהירות ורלוונטיות.</translation>
+<translation id="3844955602461425647">הפוך את העבודה המשעממת לאוטומטית</translation>
+<translation id="2196247864500723577">תן ל-iBrowe לגלוש יחד איתך ולקיים אינטראקציה עם כל מה שאתה עושה בדפדפן. הפנה את המשימות המייגעות, וחסוך את זמנך לדברים החשובים.</translation>
+<translation id="235457946228076038">הביאו מודל משלכם</translation>
+<translation id="7024005267156189454">חבר את המודלים האישיים שלך, בין אם הם מורצים מקומית או מרחוק. התאם את ההתנהגות, הפלטים והיכולות של לאו להעדפותיך.</translation>
+<translation id="7291578285403921288">למידע נוסף על Leo AI</translation>
 <translation id="9051226419897869406">נהלו צ'טים בפרטיות עם iBrowe Leo</translation>
 <translation id="2414904697165579184">התאמת תשובות על סמך תוכן הכרטיסיות</translation>
 <translation id="8258324391302611485">תוכן הדף הזה יישלח ל-Leo יחד עם ההודעות שלך.</translation>
@@ -2308,6 +2393,7 @@ CoinGecko</translation>
 <translation id="8732450785281947197">כלי הבינה המלאכותית של ליאו</translation>
 <translation id="6535533770697728087">פעולות מהירות</translation>
 <translation id="3237710083340813756">כתיבה מחדש</translation>
+<translation id="1223498995510244364">סכם</translation>
 <translation id="1252805982772190086">פוסט קצר</translation>
 <translation id="2087555497198267113">פוסט ארוך</translation>
 <translation id="4170307327863874820">פוסט לבלוג</translation>
@@ -2334,7 +2420,9 @@ CoinGecko</translation>
 <translation id="4250229828105606438">צילום מסך</translation>
 <translation id="7949596341600215809">צילום מסך של עמוד מלא</translation>
 <translation id="6332876390231524389">תוכן כרטיסיה נוכחי</translation>
-<translation id="7742969455167760092">כרטיסיות פתוחות...</translation>
+<translation id="6397861830483632092">כרטיסיות פתוחות…</translation>
+<translation id="802080272588201037">סימניות…</translation>
+<translation id="2716127283451902393">היסטוריה…</translation>
 <translation id="49269513399674318">השתמש במיקרופון</translation>
 <translation id="3895031624234442305">התאמים אישית מודלים</translation>
 <translation id="4572010449071015143">התחל שיחה חדשה</translation>
@@ -2346,13 +2434,47 @@ CoinGecko</translation>
 <translation id="2593275000606533518">ניהול הכל</translation>
 <translation id="8410199626695516952">אוקיי, לא אזכור את זה</translation>
 <translation id="8419849467765474535">שמירת זיכרון נכשלה. נא לנסות שוב.</translation>
+<translation id="5517580030864973329">ניווט בדף האינטרנט לכתובת חדשה</translation>
+<translation id="9197920788851078696">ניווט בדף האינטרנט ל- <ph name="URL"/></translation>
+<translation id="5095252080770652994">התקדמות</translation>
+<translation id="8332385567036775056">שלבים</translation>
+<translation id="4521931942079977149">לחיצה על הדף</translation>
+<translation id="7732267913911704962">גרירה ושחרור על הדף</translation>
+<translation id="7703800915509570212">חזרה</translation>
+<translation id="4875586490950981498">ניווט קדימה</translation>
+<translation id="738881387603843066">הזזת העכבר</translation>
+<translation id="4850669014075537160">גלילה</translation>
+<translation id="1265072406500460724">בחירה מתפריט נפתח</translation>
+<translation id="7573920298077917439">הקלדת טקסט</translation>
+<translation id="4089034800311309656">מחכה לדף</translation>
+<translation id="4798146464408730445">לא נמצאו כישורים. צור כישורים חדשים על ידי לחיצה על כפתור "חדש".</translation>
+<translation id="271033894570825754">חדש</translation>
+<translation id="8266605059880650542">רישום מידע על הדף לשימוש עתידי</translation>
+<translation id="5103625298494362646">מצב סוכן עובד עם מודלים התומכים בכלים. מודלים לא תואמים מוסתרים מהרשימה.</translation>
+<translation id="3397808797783614750">הפעלה אוטומטית של גלישה עבורך עלולה לגרום לתוצאות לא רצויות ולהשפיע לרעה על פרטיותך, כספך והתקשורת המקוונת שלך. <ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
+<translation id="4522025297473237294">אזהרת אבטחה</translation>
+<translation id="6077070599873946984">iBrowe AI זקוק להרשאתך עבור: <ph name="TOOL_LABEL"/></translation>
+<translation id="4163837693685963037">הפעולה זוהתה ככזו שעלולה להיות לא תואמת לבקשתך:</translation>
+<translation id="3927932062596804919">דחייה</translation>
+<translation id="4569155249847375786">מאומת</translation>
+<translation id="8200772114523450471">חדש</translation>
+<translation id="7607002721634913082">מושהה</translation>
+<translation id="4773299976671772492">נעצר</translation>
+<translation id="6946722113367118030">חושב</translation>
+<translation id="2113810663179257944">הרצת קוד</translation>
+<translation id="6338250692384725496">קוד שונים בתיבת חול כדי לעזור לשאלתך</translation>
+<translation id="4379566111233326721">קוד:</translation>
+<translation id="3542130965673205258">פלט:</translation>
+<translation id="3428245742224818842">גלישת AI</translation>
+<translation id="2854657728271352435">אודות פרופיל הגלישה של AI</translation>
+<translation id="2301685062527585986">כדי להגן על הנתונים שלך, פרופיל גלישת AI מבודד זה מבטיח שלסוכן ה-AI אין גישה לפרופיל הגלישה הראשי שלך, עם הרשאות רק לבקר באתרים ולבצע בהם פעולות לפי הצורך. ניתן להעלות את פרודוקטיביות על ידי הקצאת משימות לאינטליגנציה ושהיא תבצע את הגלישה עבורך.</translation>
+<translation id="648116453147783450">הנתונים וההפעלות שלך</translation>
+<translation id="4879348540868082026">כאשר אתה מתחבר לאתר באמצעות פרופיל זה, סוכן גלישת ה-AI של iBrowe יכול לראות את המידע באתר אם הוא פתוח, בין אם הוא מבקר באתר בעצמו ובין אם אתה מבקש ממנו לבצע שם פעולה.</translation>
+<translation id="5583803492921648196">חזרה</translation>
+<translation id="864117099189791993">תוכל לעבור חזרה לפרופיל הרגיל שלך בכל רגע מתפריט הראשי או מהתפריט של הפרופיל בשורת הכלים. גלישת AI תמיד תיפתח בפרופיל הגלישה של AI.</translation>
 <translation id="3486480638399578250">לשמור על כתובת המייל האישית שלך פרטית</translation>
 <translation id="7765422154906712751">יצירת כתובות ייחודיות ואקראיות המפנות לאימייל החשבון שלך ב-iBrowe וניתן למחוק אותן בכל עת. זה שומר על כתובת במייל האמיתית שלך מלהתגלות או להיות בשימוש על ידי מפרסמים.</translation>
-<translation id="5222676887888702881">התנתקות</translation>
-<translation id="8090292425230843109">התנתקות מכתובות אימייל בדויות</translation>
-<translation id="8471990782451394141">מתחבר לחשבון iBrowe...</translation>
 <translation id="71316462802471551">מיילים בדויים</translation>
-<translation id="5713644099811900409">חשבון iBrowe</translation>
 <translation id="6002159997868894136">יש ללחוץ כדי להעתיק מייל בדוי</translation>
 <translation id="8105770564756958406">בשימוש על ידי <ph name="DOMAINS"/></translation>
 <translation id="5006956315579221642">יצירת עד 5 מיילים בדויים בחינם כדי להגן על כתובת האימייל האמיתית שלך.</translation>
@@ -2376,8 +2498,8 @@ CoinGecko</translation>
 <translation id="646524615209870492">הסרת <ph name="ALIAS"/> כמייל בדוי תביא לאובדן היכולת שלך לקבל מיילים.</translation>
 <translation id="8133100642915054515">שגיאה במחיקת מייל בדוי. יש לבדוק את חיבור האינטרנט שלך ולנסות שוב.</translation>
 <translation id="8465742443901727718">פעולה זו היא בלתי הפיכה. בטוח שברצונך להמשיך?</translation>
-<translation id="8662104432574824754">כדי להתחיל, יש להתחבר או או ליצור חשבון iBrowe</translation>
-<translation id="8069030342700068465">יש להזין את כתובת האימייל שלך כדי לקבל לינק מאובטח לכניסה לאימייל שלך. לחיצה על הקישור תנווט אותך אל חשבון iBrowe קיים (אם יש כזה) או תיצור חשבון iBrowe חדש (אם אין), ותאפשר לך להשתמש בשירות המיילים הבדויים החינמי.</translation>
+<translation id="9162685486229945876">התחבר או צור חשבון iBrowe</translation>
+<translation id="1335007417599138852">חשבון iBrowe יאפשר לך לגשת למוצרי iBrowe מסוימים ולסנכרן בקלות את המידע שלך בכל התקניך.</translation>
 <translation id="2133391407495495735">קבלת לינק כניסה</translation>
 <translation id="2650906829817220223">שגיאה בבקשת אימות. יש לבדוק את חיבור האינטרנט שלך ולנסות שוב.</translation>
 <translation id="3699624789011381381">כתובת אימייל</translation>
@@ -2391,6 +2513,10 @@ CoinGecko</translation>
 <translation id="7508412964869396375">לא התקבל אסימון אימות משירות iBrowe Accounts</translation>
 <translation id="3179527991526213624">אין תגובה משירות iBrowe Accounts</translation>
 <translation id="7911439408853154309">אימות אימייל נכשל</translation>
+<translation id="2595463802839066496">אין תגובה משירות כינויי דוא"ל</translation>
+<translation id="367191282389216837">תגובה לא חוקית משירות כינויי דוא"ל</translation>
+<translation id="7203490731644771170">שגיאת שירות כינויי דוא"ל: <ph name="ERROR"/></translation>
+<translation id="8767862600155091621">שגיאה: כינוי לא זמין</translation>
 <translation id="8370801182970639038">אוטומטי (<ph name="LOCALE"/>)</translation>
 <translation id="8343473178272604223">מנועי חיפושי מופעלים</translation>
 <translation id="8285901519864208412">הסתרת כרטיס תגמולים</translation>
@@ -2406,7 +2532,7 @@ CoinGecko</translation>
 <translation id="466214682712474574">יש להתחבר ךחשבון <ph name="PROVIDER"/> שלך כדי לראות את היתרה שלך</translation>
 <translation id="8332875111286275890">יש להתחבר כדי לראות את היתרה שלך</translation>
 <translation id="5430001801813715388">תגמולים</translation>
-<translation id="5966055668402779222">כדאי לשאול את חיפוש iBrowe</translation>
+<translation id="2430295257226173518">שאל כל דבר, מצא כל דבר...</translation>
 <translation id="167018310108390163">התאמה אישית של דף הכרטיסיה החדשה</translation>
 <translation id="6851426306697017546">הצגת שעון</translation>
 <translation id="4844370919312937270">הצגת ווידג׳ט חיפוש בכרטיסיות חדשות</translation>
@@ -2436,7 +2562,19 @@ CoinGecko</translation>
 <translation id="8458987127502506209">אפשר iBrowe מגנים</translation>
 <translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>מגנים מופעלים<ph name="STATUS_AFTER"/> עבור אתר זה</translation>
 <translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>מגנים מושבתים<ph name="STATUS_AFTER"/> עבור אתר זה</translation>
-<translation id="5623354834493649144">אם אתר האינטרנט הזה נראה שבור, כדאי לנסות להשבית את מגינים.   <ph name="NOTE_BEFORE"/>לתשומת לבך: זה עלול להפחית את הגנות הפרטיות של iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="4724752924364329714">אם האתר נראה מקולקל, נסה להוריד את Shields.</translation>
+<translation id="3992385019509961907"><ph name="NOTE_BEFORE"/>הערה: פעולה זו עלולה להפחית את רמת ההגנה על הפרטיות של iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="3620004479054499575">האם אתה נתקל בבעיות באתר זה?</translation>
+<translation id="9176447766421988172">אנו מנסים ניסוי כדי להגביר את תאימות האתר, שבו אנו משאירים רק את חסימת הפרסומות מופעלת. אזהרה: מסיר את כל הגנות הפרטיות. האם ברצונך לנסות זאת? <ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/>.</translation>
+<translation id="5372101283158221516">שימו לב: עבור אתרים בודדים שנפגעים מהגנות הפרטיות של iBrowe, ניתן להגדיר את Shields למצב DOWN.</translation>
+<translation id="2850777974644218370">הפעל מצב חסימת מודעות בלבד</translation>
+<translation id="6623668214089604469">האתר פועל כעת כראוי?</translation>
+<translation id="8978860854770042258">אם האתר עדיין לא פועל כראוי, אנא שקול לשלוח דיווח.</translation>
+<translation id="4677356505199464553">נראה טוב</translation>
+<translation id="1992750560347846445">דיווח על בעיה באתר</translation>
+<translation id="2863270180245144869">מצב חסימת מודעות בלבד מופעל</translation>
+<translation id="3773808439655997805">כרגע אתה משתמש במצב חסימת פרסומות בלבד. מצב זה מציע רק הגנה מפני חסימת פרסומות (אם מגנים עולים). אם ברצונך לחזור למצב מגן מלא, השבת מצב זה מההגדרות.</translation>
+<translation id="4820891023903368625">מודעות חסומות <ph name="LINK_BEFORE"/>למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">עוקבים, מודעות ועוד חסומים <ph name="LINK_BEFORE"/>
 למידע נוסף<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">ללא ההגנה של iBrowe Shields <ph name="LINK_BEFORE"/> לפרטים נוספים <ph name="LINK_AFTER"/></translation>
@@ -2453,6 +2591,12 @@ CoinGecko</translation>
 <translation id="3570081523466826008">שדרג חיבורים ל-HTTPS</translation>
 <translation id="131231380815754440">הפעל HTTPS</translation>
 <translation id="4824468494729001999">חסום סקריפטים</translation>
+<translation id="5465091511225410553">(מאכף)</translation>
+<translation id="8646614940337543907">(מאכף על-ידי תוסף)</translation>
+<translation id="3559821445144429594">(מאכף על-ידי מדיניות)</translation>
+<translation id="550374350047782149">(מאכף על-ידי רשימת אישור)</translation>
+<translation id="68858161161918073">(מאכף על-ידי מנהל)</translation>
+<translation id="5735057546627037489">(מאכף על-ידי PWA)</translation>
 <translation id="3246600097575692802">אפשר סקריפטים חסומים</translation>
 <translation id="3603525299146223354">עוקבים &amp; מודעות</translation>
 <translation id="4448697385961650078">חסום עוקבים &amp; פרסומות</translation>
@@ -2463,6 +2607,8 @@ CoinGecko</translation>
 <translation id="6975864539539353406">מנקה קובצי Cookie ונתוני אתר אחרים כאשר אתה סוגר אתר</translation>
 <translation id="6486971767955110687">אחסון פרטי קשר עבור דוחות עתידיים על אתרים לא תקינים</translation>
 <translation id="4085787265464238844">אם סיפקת פרטי קשר, הם יאוחסנו עבור דוחות עתידיים</translation>
+<translation id="7740929262043547697">אפשר חסימת רכיבים בחלונות אנונימיים</translation>
+<translation id="1260864846935682371">מפעיל את תכונת חסימת רכיבים במגנים ב-Windows אנונימיים. שים לב שרכיבים שנחסמים בחלונות אנונימיים ייחסמו גם בחלונות שאינם אנונימיים.</translation>
 <translation id="6883611015375728278">חסימת כל העוגיות</translation>
 <translation id="5657156137487675418">הרשאת כל קבצי העוגיות</translation>
 <translation id="8366221601425141146">טביעות אצבעות נחסמו</translation>
@@ -2471,7 +2617,6 @@ CoinGecko</translation>
 <translation id="8034285923190068220">אפשרו טביעות אצבע</translation>
 <translation id="7638541189782135885">אל תשדרג את חיבורי HTTP</translation>
 <translation id="2570787596946026998">התחבר רק עם HTTPS</translation>
-<translation id="1992750560347846445">דיווח על בעיה באתר</translation>
 <translation id="2387532482048804818">ספר לנו אם האתר לא פעל כשורה במצב הגנות מופעלות.</translation>
 <translation id="3795015906457257780">הצפייה שלך באתר זה נעשית בלי הגנת הפרטיות של iBrowe.</translation>
 <translation id="7194012750329511146">ההגנות של iBrowe 
@@ -2488,6 +2633,9 @@ CoinGecko</translation>
       other {iBrowe Shields חסמו {BLOCKED_COUNT} עוקבים ב-<ph name="SITE_URL"/>}
     }</translation>
 <translation id="2540598191934725677">לחצו על סמל iBrowe כדי להציג את iBrowe Shields.</translation>
+<translation id="542789539047208469">פרטי האתר</translation>
+<translation id="7586067492365979844">לברייב Shields יש בית חדש וועיצוב. הוא משתלב כעת עם מידע אתר לחוויה של תחנה אחת.</translation>
+<translation id="9114542678887529043">לברייב Shields יש בית חדש וועיצוב. גש אליו על ידי לחיצה על סמל האתר בשורת הכתובות.</translation>
 <translation id="6294662480095808915">פרטיות. כברירת מחדל.</translation>
 <translation id="4366423156486478559">קבלו הגנה מ-iBrowe בכל קישור שעליו אתם מקליקים. פשוט הגדירו את iBrowe כברירת מחדל ותתחילו לגלוש. בפרטיות.</translation>
 <translation id="3830912418080848377">ייבוא הגדרות</translation>
@@ -2499,6 +2647,7 @@ CoinGecko</translation>
 <translation id="2273851479262317744">הגדירו את iBrowe כדפדפן ברירת המחדל</translation>
 <translation id="5037676449506322593">בחר הכל</translation>
 <translation id="5148943178722443958">עזרו לנו להפוך את iBrowe לטוב יותר.</translation>
+<translation id="479535542793009168">יציבות ועדכון חלקי</translation>
 <translation id="1097073572755862978">שלחו דוחות אבחון, במידה וחוויתם קריסה או הקפאה. <ph name="LINK_BEFORE"/>למידע נוסך.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">שתפו תובנות בנוגע למוצרים באופן פרטי ואנונימי בכל מה שקשור לתכונות שבהן משתמשי iBrowe עושים שימוש. <ph name="LINK_BEFORE"/>למידע נוסף.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">ההתקנה הסתיימה</translation>
@@ -2515,13 +2664,16 @@ CoinGecko</translation>
 <translation id="6764845498618413165">למד עוד.</translation>
 <translation id="7818938154803162778">בטח, אעזור</translation>
 <translation id="7207456302801184289">‏ברוכים הבאים ל-iBrowe‏</translation>
-<translation id="6716580298071890302">שימוש בערכת נושא ככה יותר</translation>
+<translation id="4988030440045495002">ערכת נושא כהה מאוד</translation>
 <translation id="2422927186524098759">סרגל צידי</translation>
 <translation id="2361906291514218784">Leo המבוסס בינה מלאכותית</translation>
 <translation id="7705524343798198388">VPN</translation>
 <translation id="8000020256436988724">סרגל כלים</translation>
 <translation id="6225572914528673855">שורת הכתובת</translation>
+<translation id="6821966107067356137">הוסף הזנת RSS</translation>
+<translation id="2478076885740497414">התקן אפליקציה</translation>
 <translation id="8293206222192510085">הוספת סימניה</translation>
+<translation id="1010029336854254368">תפריט שיתוף</translation>
 <translation id="7758460733045216901">לוח הסימניות</translation>
 <translation id="958268166261124668">iBrowe VPN: מחובר</translation>
 <translation id="6021669293402055982">iBrowe VPN: מנותק</translation>
@@ -2623,5 +2775,6 @@ iBrowe יש שירות עוזר שמגן עליך מפני חשיפה זו על 
 הכרטיסייה הקיימת</translation>
 <translation id="451189393813405346">תשאל את ליאו</translation>
 <translation id="1602850501393095406">יש ללחוץ ↑ כדי להדגיש</translation>
+<translation id="8367705492654390392">שאל כל דבר</translation>
 <translation id="8525248723479742219">נגן מאוחר יותר</translation>
 </translationbundle>

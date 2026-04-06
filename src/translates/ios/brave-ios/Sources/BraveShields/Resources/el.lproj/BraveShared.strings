@@ -181,6 +181,21 @@
 /* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
 "shields.resourceTypeLabel" = "Τύπος πόρου";
 
+/* A description beside a toggle that appears in the Shred settings screen, within Shields & Privacy settings. */
+"shields.shredHistoryRowDescription" = "Εάν το Shred πρέπει να αφαιρεί στοιχεία ιστορικού.";
+
+/* A title beside a toggle that appears in the Shred settings screen, within Shields & Privacy settings. */
+"shields.shredHistoryRowTitle" = "Το Shred Αφαιρεί το Ιστορικό";
+
+/* A row description that appears in the Shields & Privacy settings. */
+"shields.shredRowDescription" = "Ενημερώστε το Auto Shred και προσαρμόστε ποια δεδομένα θα αφαιρεθούν.";
+
+/* A row title that appears in the Shields & Privacy settings. */
+"shields.shredRowTitle" = "Καταστροφή";
+
+/* A title for the Shred settings screen, within Shields & Privacy settings. */
+"shields.shredSettingsViewTitle" = "Καταστροφή";
+
 /* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
 "shields.sourceURLLabel" = "URL πηγής";
 
@@ -196,11 +211,13 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "Με κλείσιμο καρτελών ιστότοπου";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "Με την καταστροφή θα κλείσουν όλες οι καρτέλες που είναι ανοιχτές και θα διαγραφούν όλα τα δεδομένα του ιστότοπου. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Δεδομένα ιστότοπου καταστροφής";
 
-/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'.
-A message for a confirmation window that appears when a user clicks on 'Shred Data'. */
+/* A message for a confirmation window that appears when a user clicks on 'Shred Data'. */
 "ShredSiteDataConfirmationMessage" = "Με την καταστροφή θα κλείσουν όλες οι καρτέλες που είναι ανοιχτές σε αυτόν τον ιστότοπο και θα διαγραφούν όλα τα δεδομένα του ιστότοπου. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί.";
 
 /* A title for a confirmation window that appears when a user clicks on 'Shred Data' */
@@ -208,6 +225,9 @@ A message for a confirmation window that appears when a user clicks on 'Shred Da
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Καταστροφή δεδομένων ιστοτόπου τώρα";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "Με την καταστροφή θα κλείσουν οι επιλεγμένες καρτέλες και θα διαγραφούν όλα τα δεδομένα του ιστότοπου. Η ενέργεια αυτή δεν μπορεί να αναιρεθεί.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Ο ιστότοπος δεν είναι ασφαλής";

@@ -158,140 +158,11 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_CONTEXTMENU_COPY_CLEAN_LINK"  desc="Text for Copy clean link">
         Copy clean link
       </message>
-      <message name="IDS_NOTIFICATIONS_ARE_DISABLED"  desc="Text for Notifications are disabled">
-        Notifications are disabled
+      <message name="IDS_PASSWORD_SETTINGS_IMPORT_ACTION_TITLE" desc="Title for the password import action in Android settings">
+        Import passwords
       </message>
-      <message name="IDS_SELECT_YOUR_COUNTRY"  desc="Text for Select your country">
-        Select your country
-      </message>
-      <message name="IDS_SELECT_YOUR_COUNTRY_DESCRIPTION"  desc="Text for Select your country so we can show you the right options and ads for your region.">
-        Select your country so we can show you the right options and ads for your region.
-      </message>
-      <message name="IDS_REWARDS_ONBOARDING_ALL_SET_DESCRIPTION"  desc="Text for Now you can get rewarded for viewing ads. You’re helping make the web a better place for everyone. And that’s awesome!">
-        Now you can get rewarded for viewing ads. You’re helping make the web a better place for everyone. And that’s awesome!
-      </message>
-      <message name="IDS_REWARDS_ONBOARDING_ALL_SET_TITLE"  desc="Woohoo You’re all set!">
-        Woohoo! You’re all set!
-      </message>
-      <message name="IDS_LOADING"  desc="Text for loading text for progressbar">
-        Loading...
-      </message>
-      <message name="IDS_EARN_TOKENS_FOR_PRIVATE_ADS_TITLE"  desc="Text for Earn tokens for private ads you see in iBrowe">
-        Earn tokens for private ads you see in iBrowe
-      </message>
-      <message name="IDS_EARN_TOKENS_FOR_PRIVATE_ADS_DESCRIPTION"  desc="Text for Use tokens to buy gift cards, exchange for other currencies, support content creators, and more.">
-        Use tokens to buy gift cards, exchange for other currencies, support content creators, and more.
-      </message>
-      <message name="IDS_HOW_DOES_IT_WORK"  desc="Text for How does it work">
-        How does it work?
-      </message>
-      <message name="IDS_HOW_DOES_BRAVE_REWARDS_WORK"  desc="Text for How does iBrowe Rewards work?">
-        How does iBrowe Rewards work?
-      </message>
-      <message name="IDS_START_USING_REWARDS"  desc="Text for Start using Rewards">
-        Start using Rewards
-      </message>
-      <message name="IDS_STILL_RECEIVE_CONTRIBUTIONS_FROM_WEB3" desc="Text for still send crypto contributions">
-        \n\nYou can still send crypto contributions to this creator by using your Web3 wallet.
-      </message>
-      <message name="IDS_CREATOR_UNABLE_RECEIVE_CONTRIBUTIONS" desc="Text for This creator is unable to receive contributions from CUSTODIAN">
-        This creator is unable to receive contributions from <ph name="CUSTODIAN">%1$s</ph>.
-      </message>
-      <message name="IDS_CREATOR_ISNT_SETUP_WEB3" desc="Text for This creator is unable to receive web3 contributions">
-        This creator isn't set up to receive Web3 or crypto contributions yet.
-      </message>
-      <message name="IDS_NOT_ENOUGH_TOKENS" desc="Text for You don't have enough tokens">
-        You don't have enough tokens
-      </message>
-      <message name="IDS_MONTHLY_RECURRING_CONTRIBUTION_TOOLTIP" desc="Text for Make this a monthly recurring contribution. You can cancel it at any time.">
-        Make this a monthly recurring contribution. You can cancel it at any time.
-      </message>
-      <message name="IDS_NOT_ENOUGH_TOKENS_DESCRIPTION" desc="Text for You don't have enough tokens description">
-        You can only send up to <ph name="AMOUNT">%1$s</ph> BAT using your iBrowe Rewards balance.
-      </message>
-      <message name="IDS_MONTHLY_CONTRIBUTIONS" desc="Text for Monthly Contributions">
-        Monthly Contributions
-      </message>
-      <message name="IDS_ALREADY_MONTHLY_CONTRIBUTION" desc="Text for You're already sending monthly contributions">
-        You're already sending monthly contributions to this creator
-      </message>
-      <message name="IDS_ALREADY_MONTHLY_CONTRIBUTION_DESCRIPTION" desc="Text for You're already sending monthly contributions description">
-        You can still send a contribution now, and you can cancel your monthly contributions to this creator by removing them from <ph name="MONTHLY_CONTRIBUTION">%1$s</ph>.
-      </message>
-      <message name="IDS_CONTRIBUTION_SENT" desc="Text for Contribution sent">
-        Contribution sent!
-      </message>
-      <message name="IDS_SHARE_YOUR_SUPPORT" desc="Text for Share your support">
-        Share your support
-      </message>
-      <message name="IDS_DOLLAR" desc="Text for dollar" translateable="false">
-        $
-      </message>
-      <message name="IDS_EMPTY_VALUE_PALCEHOLDER" desc="Text for empty value placeholder" translateable="false">
-        --
-      </message>
-      <message name="IDS_REWARDS_TIP_DEFAULT_CREATOR_DESCRIPTION" desc="Text for tipping default description">
-        Welcome! Users can support this content creator by sending them contributions. It’s a way of thanking them for making great content.
-      </message>
-      <message name="IDS_TITLE_ON_PROVIDER"  desc="Text for Tipping title with provider">
-        <ph name="TITLE">%1$s</ph> on <ph name="PROVIDER">%2$s</ph>
-      </message>
-      <message name="IDS_LOGGED_OUT_OF_CUSTODIAN"  desc="Text for logged out message">
-        Logged out of <ph name="CUSTODIAN">%1$s</ph>
-      </message>
-      <message name="IDS_LOGIN_TO_CUSTODIAN"  desc="Text for Log in to custodian">
-        Log in to <ph name="CUSTODIAN">%1$s</ph>
-      </message>
-      <message name="IDS_THANKS_FOR_SUPPORTING_YOUR_FAVORITE_CREATORS" desc="Text for Thanks for supporting your favorite creators">
-        Thanks for supporting your favorite creators
-      </message>
-      <message name="IDS_LOGGED_OUT_OF_CUSTODIAN_DESCRIPTION"  desc="Text for logged out message description">
-        It looks like you're logged out of <ph name="CUSTODIAN">%1$s</ph> for iBrowe Rewards. Log in again to continue.
-      </message>
-      <message name="IDS_INFO_CREATOR_NOT_VERIFIED"  desc="Text for This creator is not verified description">
-        This creator is not yet verified with iBrowe Creators. You'll be able to send them contributions once they're verified. <ph name="LEARN_MORE">%1$s</ph>
-      </message>
-      <message name="IDS_SEND_CONTRIBUTION"  desc="Text for Send contribution">
-        Send Contribution
-      </message>
-      <message name="IDS_CAN_NOT_SEND_YOUR_CONTRIBUTION"  desc="Text for Can't send your contribution">
-        Can't send your contribution
-      </message>
-      <message name="IDS_USE_BRAVE_REWARDS"  desc="Text for Use iBrowe Rewards">
-        Use iBrowe Rewards
-      </message>
-      <message name="IDS_USE_WEB3_WALLET"  desc="Text for Use Web3 wallet">
-        Use Web3 wallet
-      </message>
-      <message name="IDS_BRAVE_REWARDS_BALANCE"  desc="Text for iBrowe Rewards balance">
-        iBrowe Rewards balance
-      </message>
-      <message name="IDS_SET_AS_MONTHLY_CONTRIBUTION"  desc="Text for Set as monthly contribution">
-        Set as monthly contribution
-      </message>
-      <message name="IDS__10"  desc="Text for 10" translateable="false">
-        10
-      </message>
-      <message name="IDS__5"  desc="Text for 5" translateable="false">
-        5
-      </message>
-      <message name="IDS__1"  desc="Text for 1" translateable="false">
-        1
-      </message>
-      <message name="IDS_CUSTOM"  desc="Text for custom">
-        Custom
-      </message>
-      <message name="IDS_THERE_WAS_A_PROBLEM_SENDING_YOUR_CONTRIBUTION"  desc="Text for There was a problem sending your contribution">
-        There was a problem sending your contribution
-      </message>
-      <message name="IDS_PLEASE_TRY_AGAIN"  desc="Text for Please try again">
-        Please try again.
-      </message>
-      <message name="IDS_TIPPING_TOOLTIP_DESCRIPTION"  desc="Text for tipping tooltip description">
-        This creator has registered with iBrowe and can receive contributions from iBrowe Rewards users. <ph name="LEARN_MORE">%1$s</ph>
-      </message>
-      <message name="IDS_BRAVE_REWARDS_MAY_NOT_WORK_WHILE_NOTIFICATIONS_ARE_DISABLED"  desc="Text for iBrowe Rewards may not work while notifications are disabled.">
-        iBrowe Rewards may not work while notifications are disabled.
+      <message name="IDS_PASSWORD_SETTINGS_IMPORT_ACTION_DESCRIPTION" desc="Description for the password import action in Android settings">
+        Select a .csv file that contains your passwords to import them to iBrowe's password manager.
       </message>
       <message name="IDS_BLOCK_SWITCH_TO_APP_NOTICES"  desc="Text for Block 'Switch to App' Notices">
         Block 'Switch to App' Notices
@@ -334,9 +205,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       </message>
       <message name="IDS_LET_US_KNOW_HOW_WE_CAN_IMPROVE_BRAVE"  desc="Text for Let us know how we can improve iBrowe.">
         Let us know how we can improve iBrowe.
-      </message>
-      <message name="IDS_SUPPORT_THIS_CREATOR"  desc="Text for Support this creator">
-        Support this creator
       </message>
       <message name="IDS_BRAVE_NOTIFICATION_PERMISSION_RATIONALE_DIALOG_TITLE" desc="The title of a dialog shown to users before asking for notification permission.">
         iBrowe notifications make it easier
@@ -392,26 +260,14 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_SHIELDS" desc="Content description for the button that is enable, disable iBrowe Shields.">
         Enable/Disable iBrowe Shields
       </message>
+    <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_PIP" desc="Content description for the button that triggers picture-in-picture mode for YouTube videos.">
+      Enter picture-in-picture mode
+    </message>
       <message name="IDS_STATS_NOTIFICATION_PRIVACY_UPDATES_DESCRIPTION"  desc="Text for Notification on description">
         Get weekly privacy updates on tracker &amp; ad blocking.
       </message>
       <message name="IDS_STATS_NOTIFICATION_ON"  desc="Text for Turn on notifications">
         Turn on notifications
-      </message>
-      <message name="IDS_PROCESSING_FEE"  desc="Text for iBrowe collects 5% of the tip amount as a processing fee">
-        iBrowe collects 5% of the sent amount as a processing fee.
-      </message>
-      <message name="IDS_BAT" desc="Text for BAT" translateable="false">
-        BAT
-      </message>
-      <message name="IDS_USD" desc="Text for USD" translateable="false">
-        USD
-      </message>
-      <message name="IDS_EXCHANGE_BUTTON" desc="Text for exchange for content description">
-        exchange
-      </message>
-      <message name="IDS_BRAVE_REWARDS_TIP_SUCCESS_TWEET" desc="Text of a tweet after tipping a verified creator.">
-        I just contributed <ph name="AMOUNT">%1$s<ex>ContributionAmount</ex></ph> BAT using the iBrowe Browser. See how you can support your favorite creators and sites too: https://ibrowe.com/rewards
       </message>
       <message name="IDS_DE_AMP_SWITCH" desc="Switch to activate De-AMP feature">
         Auto-redirect AMP pages
@@ -476,14 +332,14 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_PREFS_SUPPORT_SECTION" desc="Title for the support section ">
         Support
       </message>
-      <message name="IDS_PREFS_SECTION_BRAVE_ACCOUNT" desc="Title for the iBrowe Account section in settings">
-        iBrowe Account
-      </message>
-      <message name="IDS_GET_STARTED" desc="Button text to get started with iBrowe Account">
-        Get started
-      </message>
       <message name="IDS_PREFS_SECTION_FEATURES" desc="Title for iBrowe-specific features section">
         Features
+      </message>
+      <message name="IDS_PREFS_SECTION_ADS" desc="Title for iBrowe Origin Ads section">
+        Ads
+      </message>
+      <message name="IDS_PREFS_SECTION_ANALYTICS" desc="Title for iBrowe Origin Analytics section">
+        Analytics
       </message>
       <message name="IDS_BRAVE_SHIELDS_AND_PRIVACY" desc="Label for the settings related to shields and privacy">
         iBrowe Shields &amp; privacy
@@ -506,23 +362,8 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_SHOW_SEARCH_SUGGESTIONS_TITLE" desc="Title for a switch in Settings that controls URL and search autocompletion and informs the user about the data shared by this feature.">
         Show search suggestions
       </message>
-      <message name="IDS_AUTOCOMPLETE_TOP_SUGGESTIONS_TITLE" desc="The label for settings switch controlling whether or not top suggestions show up in autocomplete">
-        Show top suggestions
-      </message>
-      <message name="IDS_INDEX_OTHER_SEARCH_ENGINES_TITLE" desc="Title for the settings related to index other search engines">
-        Index other search engines
-      </message>
-      <message name="IDS_INDEX_OTHER_SEARCH_ENGINES_TEXT" desc="Text for the settings related to index other search engines">
-        Automatically indexes websites that follow the OpenSearch spec.
-      </message>
       <message name="IDS_MENU_EXIT" desc="Menu item for exit browser. [CHAR-LIMIT=27]">
         Exit
-      </message>
-      <message name="IDS_BLOCK_COOKIE_CONSENT_NOTICES_TITLE" desc="Title for Block cookie consent notices setting.">
-        Block cookie consent notices
-      </message>
-      <message name="IDS_BLOCK_COOKIE_CONSENT_NOTICES_SUMMARY" desc="Summary for Block cookie consent notices setting.">
-        Blocks website pop-ups that ask you to accept / decline cookies on their site
       </message>
       <message name="IDS_UNSTOPPABLE_DOMAINS_TITLE" desc="Title for Unstoppable Domains settings.">
         Unstoppable Domains
@@ -755,6 +596,12 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_FORGET_FIRST_PARTY_STORAGE_SUMMARY" desc="Extended text for First Party Storage cleanup shields setting.">
         Clears cookies and other site data when you close a site
       </message>
+      <message name="IDS_BRAVE_ALLOW_ELEMENT_BLOCKER_IN_PRIVATE_LABEL" desc="Shields panel toggle label that would allow element blocker in private mode.">
+        Allow element blocking in private windows
+      </message>
+      <message name="IDS_BRAVE_ALLOW_ELEMENT_BLOCKER_IN_PRIVATE_SUMMARY" desc="Shields panel toggle summary that would allow element blocker in private mode.">
+        Enables the Shields Block Elements feature in private windows. Note that elements blocked in private windows will also be blocked in non-private windows.
+      </message>
       <message name="IDS_CLOSE_TABS_ON_EXIT_SUMMARY" desc="Summary for closing tabs on exit.">
         Don't persist tabs between browsing sessions
       </message>
@@ -814,20 +661,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_WEBSITE_SETTINGS_GOOGLE_SIGN_IN_ALLOW_EXCEPTIONS" desc="Label for G sign-in site settings.">
         Allowed to use third-party cookies for legacy Google Sign-In
       </message>
-      <!-- LOCALHOST SIGN IN SITE SETTING -->
-      <message name="IDS_LOCALHOST_TITLE" desc="Label for localhost site settings.">
-        Localhost access
-      </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_LOCALHOST_ASK" desc="Label for localhost site settings.">
-        Sites can request access to localhost resources
-      </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_LOCALHOST_BLOCK" desc="Label for localhost site settings.">
-        Don't allow access to localhost resources
-      </message>
-      <message name="IDS_WEBSITE_SETTINGS_LOCALHOST_ALLOW_EXCEPTIONS" desc="Label for localhost site settings.">
-        Allowed to access localhost resources
-      </message>
-
       <message name="IDS_PREFS_SECTION_BRAVE_SHIELDS_GLOBALS" desc="Title for iBrowe shields global defaults section in the privacy preferences screen">
         iBrowe shields global defaults
       </message>
@@ -902,12 +735,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_ONBOARDING_SET_DEFAULT" desc="Text for set default onboarding">
         With iBrowe as default, every link you tap opens with iBrowe's privacy protections.
       </message>
-      <message name="IDS_PRIVACY_ONBOARDING_INDIA" desc="Text for privacy onboarding for india">
-        Block ads. Save data. Every single day.
-      </message>
-      <message name="IDS_ONBOARDING_SET_DEFAULT_INDIA" desc="Text for set default onboarding for india">
-        With iBrowe as default, every link you tap gets iBrowe's ad-block protection. Every page, video, and stream.
-      </message>
       <message name="IDS_P3A_TITLE" desc="Text for p3a title onboarding">
         Help make iBrowe better.
       </message>
@@ -943,9 +770,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       </message>
       <message name="IDS_SKIP" desc="Text for skip button in onboarding">
         Skip
-      </message>
-      <message name="IDS_SKIP_FOR_NOW" desc="Text for skip for now button in onboarding">
-        Skip for now
       </message>
       <message name="IDS_LEARN_MORE_ONBOARDING" desc="Text for learn more button onboarding">
         Learn more
@@ -1016,9 +840,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_MENU_BRAVE_REWARDS" desc="Title for ibrowe rewards menu item">
         iBrowe Rewards
       </message>
-      <message name="IDS_LOGGED_OUT_STATE_DIALOG_TEXT" desc="Rewards logged out state text">
-        Log in to <ph name="WALLET_PROVIDER">%1$s</ph> to see your balance
-      </message>
       <message name="IDS_BRAVE_CANCEL" desc="Set default browser modal button text">
         Cancel
       </message>
@@ -1067,35 +888,23 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_NEWS_TITLE" desc="Title for iBrowe news settings">
         iBrowe News
       </message>
-      <message name="IDS_BRAVE_UI_USD" desc="USD value of tokens">
-        ≈ <ph name="VALUE">%1$s<ex>0.0</ex></ph> USD
+      <message name="IDS_CUSTOMIZE_MENU_TITLE" desc="Title for customize menu settings">
+        Customize menu
+      </message>
+      <message name="IDS_CUSTOMIZE_MAIN_MENU_SECTION_TITLE" desc="Title for main menu customization settings">
+        Main menu
+      </message>
+      <message name="IDS_CUSTOMIZE_PAGE_ACTIONS_SECTION_TITLE" desc="Title for page actions customization settings">
+        Page actions
+      </message>
+      <message name="IDS_CUSTOMIZE_PAGE_ACTIONS_SECTION_SUMMARY" desc="Description for page actions customization settings">
+        The following items will only be visible on the menu when supported by the current open webpage.
+      </message>
+        <message name="IDS_WEBAPP" desc="WebApp placeholder used in menu item customization preferences">
+        WebApp
       </message>
       <message name="IDS_BRAVE_UI_SETTINGS" desc="Settings button text">
         Settings
-      </message>
-      <message name="IDS_BRAVE_UI_VERIFIED_PUBLISHER" desc="A message that a particular publisher is verified">
-        Verified Creator
-      </message>
-      <message name="IDS_BRAVE_UI_NOT_VERIFIED_PUBLISHER" desc="A message that a particular publisher is not verified">
-        Unverified Creator
-      </message>
-      <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE" desc="A message about auto-contribute">
-        Auto-Contribute
-      </message>
-      <message name="IDS_BALANCE" desc="Title text for `Your Balance` section in iBrowe rewards panel">
-        Balance
-      </message>
-      <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_DESCRIPTION" desc="A notication message description about auto-contribute">
-        You've contributed <ph name="BAT_VALUE">%1$s<ex>50</ex></ph> BAT.
-      </message>
-      <message name="IDS_BRAVE_UI_NOTIFICATION_DESC_CONTR_ERROR" desc="A notification about contribution processing problem">
-        There was a problem processing your contribution.
-      </message>
-      <message name="IDS_BRAVE_UI_ON_YOUTUBE" desc="A suffix to YouTube channel creator">
-        on YouTube
-      </message>
-      <message name="IDS_BRAVE_UI_ON_TWITCH" desc="A suffix to Twitch channel creator">
-        on Twitch
       </message>
       <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TITLE" desc="Title for iBrowe Ads offer.">
         iBrowe Ads are here!
@@ -1265,9 +1074,6 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_SHOW_ADS_WHEN_BRAVE_IS_NOT_IN_USE_SUMMARY" desc="Summary for Show Ads when iBrowe is not in use option in iBrowe rewards settings.">
         Show notification ads when iBrowe is not in use
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_OPTION_DESCRIPTION" desc="Description for preference to reset iBrowe Rewards.">
-        This will delete your iBrowe Rewards and reset all of your iBrowe Rewards data
-      </message>
       <message name="IDS_RESET_BRAVE_REWARDS_DATA" desc="Description for preference to reset 'iBrowe Rewards' data.">
         <ph name="BEGIN_LINK1">&lt;link1&gt;</ph>Reset iBrowe Rewards data&#8230;<ph name="END_LINK1">&lt;/link1&gt;</ph>
       </message>
@@ -1414,24 +1220,6 @@ Are you sure you want to do this?
       <!-- <message name="IDS_CLEAR_DOWNLOADS_TITLE" desc="Title for Clear download in Clear Browsing Data dialog">
         Download history
       </message> -->
-      <message name="IDS_BRAVE_UI_CONTRIBUTION_TIPS" desc="Title for monthly tips processed notification">
-        Contributions
-      </message>
-      <message name="IDS_BRAVE_UI_TIPS_PROCESSED_NOTIFICATION" desc="Message for monthly tips processed notification">
-        Your monthly contributions have been processed.
-      </message>
-      <message name="IDS_BRAVE_UI_TURN_ON_ADS" desc="Prompt to turn on Ads via notification">
-        Turn on Ads
-      </message>
-      <message name="IDS_BRAVE_UI_BRAVE_ADS_LAUNCH_TITLE" desc="Message used in notification to let users know Ads is available">
-        iBrowe Ads has arrived!
-      </message>
-      <message name="IDS_BRAVE_UI_PENDING_CONTRIBUTION_TITLE" desc="Notification title for pending contribution type">
-        Pending Contribution
-      </message>
-      <message name="IDS_BRAVE_UI_VERIFIED_PUBLISHER_NOTIFICATION" desc="Notification text that tells user which publisher just verified">
-        Creator <ph name="PUBLISHER_NAME">%1$s<ex>ibrowe.com</ex></ph> recently verified
-      </message>
       <message name="IDS_TOKEN" desc="Text for token">
         token
       </message>
@@ -1465,6 +1253,24 @@ Are you sure you want to do this?
       <message name="IDS_SHOW_BRAVE_STATS" desc="New tab page settings title">
         Show iBrowe Stats
       </message>
+      <message name="IDS_OPENING_SCREEN_TITLE" desc="Title for opening screen settings category">
+        Opening Screen
+      </message>
+      <message name="IDS_OPENING_SCREEN_LAST_OPEN_TAB" desc="Option for last open tab">
+        Last open tab
+      </message>
+      <message name="IDS_OPENING_SCREEN_NEW_TAB_AFTER_INACTIVITY" desc="Option for new tab after inactivity">
+        {HOURS, plural,
+          =1 {New tab after <ph name="HOURS_ONE">%1$d<ex>1</ex></ph> hour of inactivity}
+          other {New tab after <ph name="HOURS_MANY">%1$d<ex>2</ex></ph> hours of inactivity}
+        }
+      </message>
+      <message name="IDS_OPENING_SCREEN_NEW_TAB" desc="Option for new tab">
+        New tab
+      </message>
+      <message name="IDS_RECENT_TABS_DIALOG_TITLE" desc="Title for recent tabs dialog">
+        Get back to your most recent tab
+      </message>
       <message name="IDS_PHOTO_BY" desc="Text for image credit for background images on NTP">
         Photo by <ph name="PHOTO_BY">%1$s</ph>
       </message>
@@ -1477,35 +1283,11 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_UI_WALLET_BUTTON_LOGGED_OUT" desc="iBrowe rewards panel logged out state text">
         Logged out
       </message>
-      <message name="IDS_BRAVE_UI_WALLET_BUTTON_CONNECT" desc="">
-        Connect
-      </message>
       <message name="IDS_BRAVE_UI_WALLET_BUTTON_CONNECTED" desc="">
         Connected
       </message>
-      <message name="IDS_UPHOLD">
-        Uphold
-      </message>
-      <message name="IDS_BITFLYER">
-        bitFlyer
-      </message>
-      <message name="IDS_GEMINI">
-        Gemini
-      </message>
-      <message name="IDS_ZEBPAY">
-        ZebPay
-      </message>
-      <message name="IDS_USER_WALLET_GOTO_PROVIDER">
-        Go to my <ph name="WALLET_PROVIDER">%1$s</ph> account
-      </message>
-      <message name="IDS_LOGIN_PROVIDER">
-        Log in to your <ph name="WALLET_PROVIDER">%1$s</ph> account
-      </message>
       <message name="IDS_USER_WALLET_STATUS_NOT_CONNECTED">
         Not connected
-      </message>
-      <message name="IDS_BRAVE_DEFAULT" desc="Text for ibrowe default settings option.">
-        iBrowe Default
       </message>
       <message name="IDS_SHARE_BRAVE_WITH_YOUR_FRIENDS" desc="Title text for share dialog.">
         Share iBrowe with your friends!
@@ -1522,23 +1304,8 @@ Are you sure you want to do this?
       <message name="IDS_PREFS_ABOUT_SECTION" desc="Title for the about section in settings.">
         About
       </message>
-      <message name="IDS_NEVER" desc="Text for rate ibrowe dialog button.">
-        Never
-      </message>
       <message name="IDS_MAYBE_LATER" desc="Text for rate ibrowe dialog button.">
         Maybe Later
-      </message>
-      <message name="IDS_REWARDS_PANEL_PAYOUT_PENDING_TEXT" desc="Text for rewards panel payout pending text">
-        The payout for <ph name="CURRENT_MONTH">%1$s</ph> rewards will begin processing by <ph name="PAYOUT_DATE">%2$s</ph>.
-      </message>
-      <message name="IDS_REWARDS_PANEL_PAYOUT_PROCESSING_TEXT" desc="Text for rewards panel payout processing text">
-        The payout for <ph name="CURRENT_MONTH">%1$s</ph> rewards is in progress. <ph name="CHECK_STATUS">%2$s</ph>
-      </message>
-      <message name="IDS_REWARDS_PANEL_PAYOUT_COMPLETE_TEXT" desc="Text for rewards panel payout complete text">
-        The payout for <ph name="CURRENT_MONTH">%1$s</ph> rewards has completed. <ph name="SUPPORT">%2$s</ph>
-      </message>
-      <message name="IDS_REWARDS_PANEL_PAYOUT_CHECK_STATUS_TEXT" desc="Text for rewards panel payout check status text">
-        Check status
       </message>
       <message name="IDS_BLOCK_TRACKERS_ADS_OPTION_1" desc="Text for block trackers and ads option.">
         Block trackers &amp; ads (Aggressive)
@@ -1651,6 +1418,27 @@ Are you sure you want to do this?
       <message name="IDS_BRAVE_SHIELDS_BLOCK_ELEMENT_TEXT" desc="Shields block element button label.">
         Block element
       </message>
+      <message name="IDS_BRAVE_SHIELDS_SHRED_SITES_DATA_TEXT" desc="Shields menu shred site's data item text.">
+        Shred site's data
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_SHRED_SITES_DATA_SUB_TEXT" desc="Shields menu shred site's data item sub text.">
+        Auto shred: <ph name="AUTO_SHRED_MODE_TEXT">%1$s</ph>
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_SHRED_SITES_DATA_NOW_TEXT" desc="Shields menu shred site's data now item text.">
+        Shred site data now
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_AUTO_SHRED_SITES_DATA_TEXT" desc="Shields menu auto shred site's data item text.">
+        Auto shred
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_AUTO_SHRED_NEVER_MODE_TEXT" desc="Shields menu auto shred never mode item text.">
+        Never
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_AUTO_SHRED_SITE_TAB_CLOSED_MODE_TEXT" desc="Shields menu auto shred site tab closed mode item text.">
+        Site tab closed
+      </message>
+      <message name="IDS_BRAVE_SHIELDS_AUTO_SHRED_APP_CLOSE_MODE_TEXT" desc="Shields menu auto shred app close mode item text.">
+        App close
+      </message>   
       <message name="IDS_REPORT_BROKEN_SITE_TEXT" desc="Shields text for broken text warning message.">
         Report a broken site
       </message>
@@ -1861,83 +1649,11 @@ Are you sure you want to do this?
       <message name="IDS_PRIVACY_STATS" desc="Private stats title text.">
         Privacy Stats
       </message>
-      <message name="IDS_SUMMARY" desc="Summary section text">
-        Summary
-      </message>
-      <message name="IDS_START_USING_BRAVE_REWARDS" desc="iBrowe rewards enable ads text">
-        Start using iBrowe Rewards
-      </message>
-      <message name="IDS_EARN_TOKENS_AND_GIVE_BACK" desc="iBrowe rewards title text">
-        Earn Tokens &amp; Give Back
-      </message>
-      <message name="IDS_BRAVE_REWARDS_MODAL_TEXT" desc="iBrowe rewards modal text">
-        Earn tokens by viewing privacy-respecting ads and support your favorite sites and content creators automatically.
-      </message>
-      <message name="IDS_BRAVE_REWARDS_TOS_TEXT" desc="iBrowe rewards tos text">
-        By proceeding, you agree to the <ph name="TERMS_OF_SERVICE">%1$s</ph> and <ph name="PRIVACY_POLICY">%2$s</ph>.
-      </message>
       <message name="IDS_PRIVACY_POLICY" desc="iBrowe rewards tos text">
         Privacy Policy
       </message>
-      <message name="IDS_BRAVE_REWARDS_ONBOARDING_TOS_TEXT" desc="iBrowe rewards onboarding tos text">
-        By enabling Rewards, you agree to the <ph name="TERMS_OF_SERVICE">%1$s</ph> and <ph name="PRIVACY_POLICY">%2$s</ph>.
-      </message>
-      <message name="IDS_TAKE_QUICK_TOUR" desc="iBrowe rewards quick tour text">
-        Let’s take a quick tour
-      </message>
-      <message name="IDS_WELCOME_TO_BRAVE_REWARDS" desc="iBrowe rewards onboarding title">
-        Welcome to iBrowe Rewards!
-      </message>
-      <message name="IDS_WELCOME_TO_BRAVE_REWARDS_TEXT" desc="iBrowe rewards onboarding title">
-        iBrowe Private Ads reward you with tokens to support content creators unlike traditional ads, all while keeping your personal information private.
-      </message>
-      <message name="IDS_WHERE_DO_ADS_SHOW_UP" desc="iBrowe rewards onboarding title">
-        Where do ads show up?
-      </message>
-      <message name="IDS_WHERE_DO_ADS_SHOW_UP_TEXT" desc="iBrowe rewards onboarding title">
-        iBrowe Private Ads appear as notifications on your screen. You control how often you see these ads.
-      </message>
-      <message name="IDS_GIVING_BACK_MADE_EFFORTLESS" desc="iBrowe rewards onboarding title">
-        Giving back made effortless
-      </message>
-      <message name="IDS_GIVING_BACK_MADE_EFFORTLESS_TEXT" desc="iBrowe rewards onboarding title">
-        Creators receive your token contributions automatically based on your engagement levels that we measure as ‘Attention’.
-      </message>
-      <message name="IDS_SAY_THANK_YOU_WITH_TIPS" desc="iBrowe rewards onboarding title">
-        Say thank you with contributions
-      </message>
-      <message name="IDS_SAY_THANK_YOU_WITH_TIPS_TEXT" desc="iBrowe rewards onboarding title">
-        Tipping is a way to personally encourage and support content or creators that you love. Get tippin'!
-      </message>
-      <message name="IDS_BASIC_SETTINGS" desc="iBrowe rewards onboarding title">
-        Lastly, let’s get you set up
-      </message>
-      <message name="IDS_YOU_CAN_CHANGE_THIS_LATER" desc="iBrowe rewards onboarding text">
-        You can change this later.
-      </message>
-      <message name="IDS_SLIDER" desc="Text for slider">
-        Slider
-      </message>
-      <message name="IDS_HOW_OFTEN_DO_YOU_SEE_ADS" desc="iBrowe rewards onboarding text">
-        How often do you want to see ads?
-      </message>
-      <message name="IDS_MORE_PRIVATE_ADS" desc="iBrowe rewards onboarding text">
-        More private ads, more rewards.
-      </message>
-      <message name="IDS_ADS_PER_HOUR" desc="iBrowe rewards onboarding text">
-        <ph name="ADS_PER_HOUR">%1$s</ph> Ads per hour
-      </message>
-      <message name="IDS_YOU_ARE_DONE" desc="iBrowe rewards onboarding title">
-        Woohoo, you’re all set!
-      </message>
-      <message name="IDS_YOU_ARE_DONE_TEXT" desc="iBrowe rewards onboarding title">
-        By using iBrowe Rewards, you are protecting your privacy and helping make the web a better place for everyone. And that’s awesome!
-      </message>
       <message name="IDS_GO_BACK" desc="Go back button text">
         Go Back
-      </message>
-      <message name="IDS_LETS_TAKE_A_QUICK_TOUR" desc="iBrowe rewards onboarding button text">
-        Let's Take A Quick Tour
       </message>
       <message name="IDS_AUTOMATICALLY_OPEN_WHEN_POSSIBLE_TITLE" desc="Title for preference that allows the user to open downloads automatically.">
         Automatically open when possible
@@ -1989,9 +1705,6 @@ Are you sure you want to do this?
       </message>
       <message name="IDS_SETTINGS_WEBRTC_POLICY_DISABLE_NON_PROXIED_UDP" desc="Select value">
         Disable non-proxied UDP
-      </message>
-      <message name="IDS_SEND_WITH_CUSTODIAN" desc="Text for send with Custodian">
-        Send with <ph name="CUSTODIAN">%1$s</ph>
       </message>
     <message name="IDS_SEND" desc="iBrowe Wallet send button text">
       Send
@@ -2166,9 +1879,6 @@ Are you sure you want to do this?
     </message>
     <message name="IDS_UNLOCK" desc="iBrowe Wallet onboarding text">
       Unlock
-    </message>
-    <message name="IDS_PASSWORD" desc="iBrowe Wallet onboarding text">
-      Password
     </message>
     <message name="IDS_ENTER_YOUR_PASSWORD" desc="iBrowe Wallet onboarding password hint">
       Enter your password
@@ -2614,9 +2324,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_DISABLE_SHARING_HUB" desc="Menu item for disabling sharing hub.">
       Disable Sharing Hub
     </message>
-    <message name="IDS_EDIT" desc="iBrowe wallet accounts text">
-      Edit
-    </message>
     <message name="IDS_WALLET_ACCOUNTS_UPDATE" desc="iBrowe wallet accounts update text">
       Update
     </message>
@@ -2742,39 +2449,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_WALLET_ADD_CUSTOM_ASSET_DECIMALS" desc="Add custom asset dialog Decimals of precision field">
       Decimals of precision
-    </message>
-    <message name="IDS_REWARDS_SUMMARY" desc="Text for `Rewards Summary` button in iBrowe rewards panel">
-      Rewards Summary
-    </message>
-    <message name="IDS_REWARDS_FROM_ADS" desc="Title text for `Rewards from Ads` section in iBrowe rewards panel">
-      Rewards from Ads
-    </message>
-    <message name="IDS_AUTO_CONTRIBUTE" desc="Title text for `Auto-Contribute` section in iBrowe rewards panel">
-      Auto-Contribute
-    </message>
-    <message name="IDS_ADS_SEEN_THIS_MONTH" desc="Title text for `Ads seen this month` section in iBrowe rewards panel">
-      Ads seen this month
-    </message>
-    <message name="IDS_TIP" desc="Text for `Tip` button in iBrowe rewards panel">
-      Contribute
-    </message>
-    <message name="IDS_SET" desc="iBrowe rewards panel text">
-      Set
-    </message>
-    <message name="IDS_ATTENTION" desc="iBrowe rewards panel text">
-      Attention
-    </message>
-    <message name="IDS_UNVERIFIED_CREATOR" desc="iBrowe rewards panel text">
-      Unverified Creator
-    </message>
-    <message name="IDS_MONTHLY_TIP" desc="Title text for `Monthly tip` section in iBrowe rewards panel">
-      Monthly Contribution
-    </message>
-    <message name="IDS_BAT_TEXT" desc="iBrowe rewards panel text" translateable="false">
-      BAT
-    </message>
-    <message name="IDS_BRAVE_REWARDS_BAT_VALUE_TEXT" desc="BAT value text">
-      <ph name="VALUE">%1$s<ex>0</ex></ph> BAT
     </message>
     <message name="IDS_BRAVE_WALLET_NETWORKS_TITLE" desc="iBrowe wallet networks pref title text">
       Networks
@@ -3355,18 +3029,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_BRAVE_WALLET_UNKNOWN" desc="Transaction subtype of Unknown">
       Unknown
     </message>
-    <message name="IDS_SELECT_YOUR_COUNTRY_TITLE" desc="Declare geo modal title">
-      Select your country
-    </message>
-    <message name="IDS_DECLARE_GEO_FAILED_RESPONSE_TEXT" desc="Declare geo failed modal text">
-      Unfortunately, there was an error while trying to set up iBrowe Rewards. Please try again.
-    </message>
-    <message name="IDS_SOMETHING_WENT_WRONG_TEXT" desc="Declare geo failed modal title">
-      Something went wrong
-    </message>
-    <message name="IDS_RETRY_TEXT" desc="Declare geo failed modal action text">
-      Retry
-    </message>
     <message name="IDS_CLOSE_TEXT" desc="Declare geo success modal action text">
       Close
     </message>
@@ -3386,10 +3048,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Top Visited Site
     </message>
     <message name="IDS_SEARCH_WITH_BRAVE" desc="String used in QuickActionSearchAndBookmarkWidget's search bar">
-      Search with iBrowe
-    </message>
-    <message name="IDS_SEARCH_WITH_SEARCH_ENGINE" desc="Dynamic string used in QuickActionSearchAndBookmarkWidget's search bar. Placeholder is replaced by default search engine.">
-      Search with <ph name="DEFAULT_SEARCH_ENGINE">%1$s</ph>
+      Search
     </message>
     <message name="IDS_HOME_SCREEN_WIDGET" desc="Home scren widget option in settings">
       Home screen widget
@@ -3422,7 +3081,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       View message in ASCII encoding
     </message>
     <message name="IDS_WALLET_SIGN_MESSAGE_DETAILS_MESSAGE_SECTION" desc="A message section template of sign message details" translateable="false">
-      <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Message:<ph name="END_BOLD">&lt;/b&gt;</ph><ph name="BREAK">&lt;br&gt;</ph><ph name="ESCAPED_MESSAGE_TEXT">%1$s</ph>
+      <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Message:<ph name="END_BOLD">&lt;/b&gt;</ph><ph name="BREAK">&lt;br/&gt;</ph><ph name="ESCAPED_MESSAGE_TEXT">%1$s</ph>
     </message>
     <message name="IDS_BRAVE_WALLET_ORIGIN" desc="Title for hyperlink Origin Label">
       Origin
@@ -3449,7 +3108,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Expiration time
     </message>
     <message name="IDS_WALLET_SIGN_MESSAGE_DETAILS_DOMAIN_SECTION" desc="A domain section template of sign message details" translateable="false">
-      <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Domain:<ph name="END_BOLD">&lt;/b&gt;</ph><ph name="BREAK">&lt;br&gt;</ph><ph name="ESCAPED_DOMAIN_TEXT">%1$s</ph><ph name="BREAK">&lt;br&gt;</ph>
+      <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Domain:<ph name="END_BOLD">&lt;/b&gt;</ph><ph name="BREAK">&lt;br/&gt;</ph><ph name="ESCAPED_DOMAIN_TEXT">%1$s</ph><ph name="BREAK">&lt;br/&gt;</ph>
     </message>
     <message name="IDS_BRAVE_WALLET_SECURITY_RISK_DETECTED" desc="Sign in with iBrowe Wallet Error Security risk">
       Security risk detected
@@ -3475,77 +3134,8 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_SAFE_BROWSING_NO_GOOGLE_PLAY_SERVICES_DIALOG_MESSAGE" desc="iBrowe no Google Play Services dialog message">
       Safe Browsing has been disabled on your device. To enable it, ensure that Google Play Services is installed and that it's up to date.
     </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_SWITCH_OFF_SUB_TEXT" desc="A sub title for ibrowe rewards panel unverified state when rewards is off">
-      Turn on to help support content creators
-    </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_SWITCH_ON_SUB_TEXT" desc="A sub title for ibrowe rewards panel unverified state when rewards is on">
-      You are helping support iBrowe and the BAT community
-    </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_OFF_SECTION_TEXT" desc="Rewards panel unverified state section text when rewards is disabled">
-      Using iBrowe Rewards helps support content creators, and lets you earn BAT.
-    </message>
-    <message name="IDS_READY_TO_START_EARNING_TEXT" desc="Rewards panel unverified state section text when rewards is enabled">
-      Ready to start earning?
-    </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_ON_SECTION_TEXT" desc="Rewards panel unverified state section text when rewards is enabled">
-      Connect or create an account with one of our partners.
-    </message>
-    <message name="IDS_LEARN_MORE_ABOUT_BAT" desc="Rewards panel unverified state section learn more text">
-      Learn more about earning BAT
-    </message>
-    <message name="IDS_REWARDS_SETTINGS" desc="Rewards panel settings button text">
-      Rewards settings
-    </message>
-    <message name="IDS_CONNECT_ACCOUNT" desc="Rewards panel connect account button text">
-      Connect account
-    </message>
-    <message name="IDS_REWARDS_PANEL_UNVERIFIED_CREATOR_SECTION_TEXT" desc="Rewards panel unverified creator section text">
-      This month, You've visited <ph name="CREATOR_COUNT">%1$s<ex>2</ex></ph> creators supported by iBrowe Rewards
-    </message>
-    <message name="IDS_EMPTY_UNVERIFIED_STATE_TEXT" desc="Rewards panel unverified state text" translateable="false">
-      - -
-    </message>
-    <message name="IDS_CONNECT_ACCOUNT_MODAL_TEXT" desc="Rewards panel onboarding connect account text">
-      Connect a custodial account so you can earn BAT and withdraw your rewards
-    </message>
-    <message name="IDS_I_WILL_DO_IT_LATER" desc="Rewards panel onboarding connect account modal dismiss action text">
-      I'll do it later
-    </message>
-    <message name="IDS_LOGGED_OUT_NOTIFICATION_ACTION_TEXT" desc="Rewards panel logged out notification action text">
-      Reconnect
-    </message>
-    <message name="IDS_LOGGED_OUT_NOTIFICATION_TITLE" desc="Rewards panel logged out notification title">
-      You are logged out
-    </message>
-    <message name="IDS_LOGGED_OUT_NOTIFICATION_TEXT" desc="Rewards panel logged out notification text">
-      This can happen to keep your account secure. Press below to reconnect now.
-    </message>
-    <message name="IDS_MONTHLY_TIP_FAILED_NOTIFICATION_TITLE" desc="Rewards panel monthly tip failed notification title">
-      Monthly contribution failed
-    </message>
-    <message name="IDS_MONTHLY_TIP_FAILED_NOTIFICATION_TEXT" desc="Rewards panel monthly tip failed notification text">
-      There was a problem processing your contribution.
-    </message>
-    <message name="IDS_BAT_UNAVAILABLE_NOTIFICATION_TITLE" desc="Rewards panel BAT unavailable notification title">
-      Error: BAT unavailable
-    </message>
-    <message name="IDS_BAT_UNAVAILABLE_NOTIFICATION_TEXT" desc="Rewards panel BAT unavailable notification text">
-      BAT is not yet supported in your region on Uphold.
-    </message>
-    <message name="IDS_LIMITED_FUNCTIONALITY_NOTIFICATION_TITLE" desc="Rewards panel limited functionality notification title">
-      Error: Limited Uphold account functionality
-    </message>
-    <message name="IDS_LIMITED_FUNCTIONALITY_NOTIFICATION_TEXT" desc="Rewards panel limited functionality notification text">
-      According to Uphold, there are currently some limitations on your Uphold account. Please log in to your Uphold account and check whether there are any notices or remaining account requirements to complete, then try again.
-    </message>
     <message name="IDS_BRAVE_ADS_TEXT" desc="iBrowe ads text">
       iBrowe Ads
-    </message>
-    <message name="IDS_WALLET_GENERATION_DISABLED_ERROR_TITLE" desc="wallet generation disabled error title">
-      iBrowe Rewards not available
-    </message>
-    <message name="IDS_WALLET_GENERATION_DISABLED_ERROR_TEXT" desc="wallet generation disabled error text">
-      New signups for iBrowe Rewards are currently disabled in your region. However, you can always try again later. <ph name="LEARN_MORE">%1$s</ph>
     </message>
     <message name="IDS_BRAVE_WALLET_NETWORK_FILTER_PRIMARY" desc="Network filter title for primary networks">
       Primary Networks
@@ -3555,21 +3145,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_BRAVE_WALLET_NETWORK_FILTER_TEST" desc="Network filter title for test networks">
       Test Networks
-    </message>
-    <message name="IDS_SPEEDREADER_MESSAGE_TITLE" desc="Message shown on the speedreader prompt.">
-      View page with Speedreader?
-    </message>
-    <message name="IDS_SPEEDREADER_MESSAGE_BUTTON" desc="The label for the button to enable speedreader on current page.">
-      Enable
-    </message>
-    <message name="IDS_ENABLE_SPEEDREADER_TITLE" desc="Title for preference that enables or disables Speedreader.">
-      Enable Speedreader
-    </message>
-    <message name="IDS_ENABLE_SPEEDREADER_SUMMARY" desc="Summary for preference that enables or disables Speedreader">
-      Automatically loads eligible articles in reader mode
-    </message>
-    <message name="IDS_BRAVE_SPEEDREADER_TITLE" desc="Title for on demand speedreader menu item">
-      View in reader mode
     </message>
     <message name="IDS_SETTINGS_ENABLE_NFT_DISCOVERY_LABEL" desc="The label for enabling NFT discovery">
       Enable NFT discovery
@@ -3587,7 +3162,52 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Select all
     </message>
     <message name="IDS_MENU_BRAVE_LEO" desc="iBrowe AI menu item text">
-      Leo
+      Leo AI
+    </message>
+    <message name="IDS_MENU_ORIGIN" desc="iBrowe Origin settings menu item text">
+      Origin
+    </message>
+    <message name="IDS_ORIGIN_REWARDS_TOGGLE" desc="iBrowe Origin rewards toggle title">
+      Rewards
+    </message>
+    <message name="IDS_ORIGIN_CRASH_REPORTS_TOGGLE" desc="iBrowe Origin automatically send crash reports toggle title">
+      Automatically send crash reports
+    </message>
+    <message name="IDS_ORIGIN_PRIVACY_PRESERVING_ANALYTICS_TOGGLE" desc="iBrowe Origin privacy preserving analytics toggle title">
+      Privacy preserving analytics
+    </message>
+    <message name="IDS_ORIGIN_EMAIL_ALIASES_TOGGLE" desc="iBrowe Origin email aliases toggle title">
+      Email aliases
+    </message>
+    <message name="IDS_ORIGIN_LEO_AI_TOGGLE" desc="iBrowe Origin Leo AI toggle title">
+      Leo AI
+    </message>
+    <message name="IDS_ORIGIN_NEWS_TOGGLE" desc="iBrowe Origin News toggle title">
+      News
+    </message>
+    <message name="IDS_ORIGIN_STATISTICS_REPORTING_TOGGLE" desc="iBrowe Origin Statistics reporting toggle title">
+      Statistics reporting
+    </message>
+    <message name="IDS_ORIGIN_VPN_TOGGLE" desc="iBrowe Origin VPN toggle title">
+      VPN
+    </message>
+    <message name="IDS_ORIGIN_WALLET_TOGGLE" desc="iBrowe Origin Wallet toggle title">
+      Wallet
+    </message>
+    <message name="IDS_ORIGIN_WEB_DISCOVERY_PROJECT_TOGGLE" desc="iBrowe Origin Web Discovery Project toggle title">
+      Web Discovery Project
+    </message>
+    <message name="IDS_ORIGIN_RESET_TO_DEFAULTS" desc="iBrowe Origin reset to defaults preference title">
+      Reset to defaults
+    </message>
+    <message name="IDS_ORIGIN_TOGGLE_ENABLED_DESCRIPTION" desc="Description shown when a toggle is enabled in iBrowe Origin settings">
+      This feature is enabled because you opted into it
+    </message>
+    <message name="IDS_ORIGIN_DESCRIPTION_TEXT" desc="iBrowe Origin description text explaining the subscription">
+      iBrowe Origin is a subscription-based way to disable the revenue-generating features that otherwise support iBrowe as a business. iBrowe Origin subscribers will continue to benefit from our industry-leading privacy, adblock, and speed (via iBrowe Shields), as well as regular software updates, Chromium patches, and security and privacy improvements. They'll also unlock the option to disable features like iBrowe Leo, News, Rewards, Wallet, VPN, Web3 domains, and more.&lt;br/&gt;&lt;br/&gt;Subscribers will see a new control panel in the browser settings menu. Existing features—as well as any new features we ship in the future—would appear here, and be toggled off by default.&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Note: iBrowe Origin will not disable browser features that you currently use, and will not affect iBrowe Search features or iBrowe Search Ads.&lt;/b&gt;
+    </message>
+    <message name="IDS_LINK_SUBSCRIPTION_TITLE_ORIGIN" desc="iBrowe Origin link subscription settings title text">
+      Link purchase to your iBrowe account
     </message>
     <message name="IDS_BRAVE_WALLET_SIGN_IN_WITH_BRAVE_WALLET" desc="Sign in with iBrowe Wallet Title">
       Sign in with iBrowe Wallet
@@ -3647,7 +3267,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Manage Subscription
     </message>
     <message name="IDS_BRAVE_LEO_PREMIUM" desc="Title for iBrowe Leo plans dialog">
-      Leo Premium
+      Leo AI Premium
     </message>
     <message name="IDS_ONE_YEAR_SUBSCRIPTION" desc="iBrowe Leo and Origin yearly plan text">
       One year
@@ -3659,7 +3279,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Monthly
     </message>
     <message name="IDS_ASK_LEO_AUTO_SUGGESTION" desc="Omnibox iBrowe Leo auto suggestion description">
-      Ask Leo
+      Ask Leo AI
     </message>
     <!-- Start of Playlist strings -->
     <message name="IDS_REMEMBER_FILE_PLAYBACK_POSITION" desc="Remember file playback position title for playlist settings">
@@ -3844,7 +3464,7 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <!-- End of Playlist strings -->
     <message name="IDS_LEO_UNLEASH_POWER" desc="Title for iBrowe Leo subscription purchase">
-      Unleash Leo's full powers with Premium:
+      Unleash Leo AI's full powers with Premium:
     </message>
     <message name="IDS_LEO_TIP_EXPLORE_TITLE" desc="Title for iBrowe Leo subscription Explore tip">
       Explore different AI models
@@ -3885,12 +3505,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_LEO_DEFAULT_MODEL_PREF_SCREEN" desc="Title for Leo Default Model settings screen.">
       Default model
     </message>
-    <message name="IDS_SOLANA_ELIGIBLE_UI_TITLE" desc="Solana payout eligible ui title">
-      Receive BAT directly to a self-custody crypto address
-    </message>
-    <message name="IDS_SOLANA_ELIGIBLE_UI_TEXT" desc="Solana payout eligible ui text">
-      We’ve added a new way for you to receive your monthly BAT rewards. Connect an account from one of our partners or use the new self-custody option to start earning now.
-    </message>
     <message name="IDS_LEO_GO_PREMIUM_PREF" desc="Title for Leo Go premium settings.">
       Go Premium
     </message>
@@ -3908,95 +3522,6 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       If your current service provider is insecure, iBrowe uses a secure alternative DNS provider
     </message>
     <!-- End of Secure DNS Settings -->
-    <!-- Autofill Service strings -->
-    <message name="IDS_CITY" desc="Autofill field for city">
-      city
-    </message>
-    <message name="IDS_TOWN" desc="Autofill field for town">
-      town
-    </message>
-    <message name="IDS_PREFECTURE" desc="Autofill field for prefecture">
-      prefecture
-    </message>
-    <message name="IDS_REGION" desc="Autofill field for region">
-      region
-    </message>
-    <message name="IDS_STATE" desc="Autofill field for state">
-      state
-    </message>
-    <message name="IDS_ORGANIZATION" desc="Autofill field for organization">
-      organization
-    </message>
-    <message name="IDS_COMPANY" desc="Autofill field for company">
-      company
-    </message>
-    <message name="IDS_COUNTRY" desc="Autofill field for country">
-      country
-    </message>
-    <message name="IDS_LABEL" desc="Autofill field for label">
-      label
-    </message>
-    <message name="IDS_CONTAINER" desc="Autofill field for container">
-      container
-    </message>
-    <message name="IDS_USERNAME" desc="Autofill field for username">
-      username
-    </message>
-    <message name="IDS_LOGIN" desc="Autofill field for login">
-      login
-    </message>
-    <message name="IDS_ID" desc="Autofill field for id">
-      id
-    </message>
-    <message name="IDS_EMAIL" desc="Autofill field for email">
-      email
-    </message>
-    <message name="IDS_NAME" desc="Autofill field for name">
-      name
-    </message>
-    <message name="IDS_FIRST" desc="Autofill field for first name">
-      first
-    </message>
-    <message name="IDS_LAST" desc="Autofill field for last name">
-      last
-    </message>
-    <message name="IDS_FULL" desc="Autofill field for full name">
-      full
-    </message>
-    <message name="IDS_PHONE" desc="Autofill field for phone">
-      phone
-    </message>
-    <message name="IDS_MOBILE" desc="Autofill field for mobile">
-      mobile
-    </message>
-    <message name="IDS_ADDRESS" desc="Autofill field for address">
-      address
-    </message>
-    <message name="IDS_APARTMENT" desc="Autofill field for apartment">
-      apartment
-    </message>
-    <message name="IDS_PINCODE" desc="Autofill field for pincode">
-      pin code
-    </message>
-    <message name="IDS_POSTALCODE" desc="Autofill field for postal code">
-      postal code
-    </message>
-    <message name="IDS_ZIP" desc="Autofill field for zip code">
-      zip
-    </message>
-    <!-- End of Autofill Service strings -->
-    <message name="IDS_I_AGREE_ACTION" desc="CTA text for tos rewards panel">
-      I agree
-    </message>
-    <message name="IDS_REWARDS_TOS_TITLE" desc="Terms of service text for rewards panel">
-      Updated Terms of Service
-    </message>
-    <message name="IDS_REWARDS_TOS_UPDATE_TEXT" desc="Terms of service text for rewards panel">
-      We’ve updated the Terms of Service for iBrowe Rewards. We’ve made these updates to clarify our terms and ensure they cover new features. If you continue to use iBrowe Rewards, you are agreeing to the updated Terms of Service. If you do not agree, you can <ph name="RESET_START">&lt;reset&gt;</ph>reset<ph name="RESET_END">&lt;/reset&gt;</ph> iBrowe Rewards, which will disable the feature.
-    </message>
-    <message name="IDS_REWARDS_TOS_UPDATE_LINK_TEXT" desc="Terms of service text for rewards panel">
-      See <ph name="TOS_START">&lt;tos&gt;</ph>iBrowe Rewards Terms of Service<ph name="TOS_END">&lt;/tos&gt;</ph>
-    </message>
     <message name="IDS_ENABLE_MULTI_WINDOWS_TITLE" desc="Title for preference that enables or disables multiple windows.">
       Enable multiple windows
     </message>
@@ -4054,7 +3579,19 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     <message name="IDS_BRAVE_EXIT_CONFIRMATION" desc="A confirmation shown on Exit iBrowe">
       Are you sure you want to exit iBrowe?
     </message>
-    <message name="IDS_BRAVE_CLEAR_AI_HISTORY_TITLE" desc="A title to delete Leo AI history">
+    <message name="IDS_BRAVE_SHRED_DATA_DIALOG_TITLE" desc="Shred data confirmation dialog title">
+      Shred site data?
+    </message>
+    <message name="IDS_BRAVE_SHRED_DATA_CONFIRMATION" desc="A confirmation shown on shred site data">
+      Shredding will delete site data and close all '<ph name="SITE_NAME">%1$s</ph>' tabs. This cannot be undone.
+    </message>
+    <message name="IDS_BRAVE_MENU_SHRED_TEXT" desc="Shred menu item text to delete browsing data securely.">
+      Shred site data
+    </message>
+    <message name="IDS_BRAVE_SHRED_DATA_DIALOG_OK_BUTTON_TEXT" desc="Shred data confirmation dialog OK button text">
+      Shred data
+    </message>
+     <message name="IDS_BRAVE_CLEAR_AI_HISTORY_TITLE" desc="A title to delete Leo AI history">
       Leo AI
     </message>
     <message name="IDS_BRAVE_CLEAR_AI_HISTORY_SUMMARY" desc="A summary to delete Leo AI history">
@@ -4085,16 +3622,13 @@ If you don't accept this request, VPN will not reconnect and your internet conne
       Try 7 days free
     </message>
     <message name="IDS_ORIGIN_PAYWALL_TEXT_1" desc="iBrowe Origin paywall text">
-      Support iBrowe's industry-leading work for Web privacy and open-source adblocking lists
+      Support our mission &amp; open-source work
     </message>
     <message name="IDS_ORIGIN_PAYWALL_TEXT_2" desc="iBrowe Origin paywall text">
-      Optimized for a more minimalist browser interface
+      Minimal browser UI centered on Shields
     </message>
     <message name="IDS_ORIGIN_PAYWALL_TEXT_3" desc="iBrowe Origin paywall text">
-      A core of iBrowe Shields for adblock, privacy, and speed
-    </message>
-    <message name="IDS_ORIGIN_PAYWALL_TEXT_4" desc="iBrowe Origin paywall text">
-      Support for IT-managed policies at work
+      Maintain core adblock, privacy, &amp; speed
     </message>
     <message name="IDS_YEARLY_SUBSCRIPTION_BEST_VALUE" desc="iBrowe Origin yearly plan best value text">
       best value
@@ -4138,6 +3672,47 @@ If you don't accept this request, VPN will not reconnect and your internet conne
     </message>
     <message name="IDS_PASSWORD_SETTINGS_EXPORT_ERROR_DETAILS" desc="A short prefix to introduce a technical error message passed to the user from Android after exporting passwords through a temporary file fails. Both the prefix and the error message are shown in the body of an alert dialog.">
       Details: <ph name="ERROR_DESCRIPTION">%1$s<ex>IOException: No space left on device</ex></ph>
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_SELECT_FILE" desc="A button in the settings page that triggers import of passwords from a CSV file.">
+      Select file
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_ERROR_UNKNOWN" desc="Message is shown on the dialog for importing passwords if no passwords were imported and we don't know the cause of error. Probably error in the backend or in our systems.">
+      Your passwords weren't imported
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_SUCCESS_TITLE" desc="The title of a dialog, which offers the ability for the user to import passwords into Password Manager. Shown when import has successfully finished with no errors.">
+      Import successful!
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_ERROR_BAD_FORMAT" desc="Message is shown on the dialog for importing passwords if no passwords were imported because file is not formated correctly">
+      Can't import passwords. Check <ph name="FILENAME">&lt;span class="bold-text"&gt;$1&lt;/span&gt;<ex>&lt;span class="bold-text"&gt;filename.csv&lt;/span&gt;</ex></ph> and make sure it's formatted correctly. <ph name="BEGIN_LINK">&lt;a href="$2" target="_blank"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;</ph>
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_FILE_SIZE_EXCEEDED" desc="Message is shown on the dialog for importing passwords if no passwords were imported because file size exceeds 1 MB.">
+      Can't import passwords. The file size should be less than 1 MB.
+    </message>
+    <!-- Silences a build warning, If there is a better way to silence this, please change it. We should never be limiting to 1 password per import -->
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_ERROR_LIMIT_EXCEEDED" desc="Message is shown on the dialog for importing passwords if no passwords were imported because user tried to import more than `NUMBER` passwords from a single file.">
+      {COUNT, plural,
+        =1 {Can't import passwords. You can only import 1 password at a time.}
+        other {Can't import passwords. You can only import up to <ph name="COUNT_MANY"><ex>3000</ex>%1$d</ph> passwords at a time.}}
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_CONFLICT_DEVICE" desc="An error message for a row that wasn't imported, because the provided credential is already stored on their device. It is shown on the dialog for importing passwords if some passwords weren't imported.">
+      A password for this account is already saved on this device
+    </message>
+    <message name="IDS_PASSWORD_MANAGER_UI_IMPORT_ALREADY_ACTIVE" desc="Message is shown on the dialog for importing passwords if the import process is already running in another tab.">
+      You're already importing passwords in another tab
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_IMPORT_FILE_READ_ERROR" desc="The message to display if there is an error reading the CSV file selected by the user.">
+      Failed to read the selected file. <ph name="EXCEPTION_INFO">%1$s</ph>
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_IMPORT_FILE_SUCCESS_COUNT" desc="Shows the user a brief message along with the total number of passwords imported.">
+      {IMPORT_COUNT, plural,
+        =1 {Successfully imported 1 password.}
+        other {Successfully imported <ph name="IMPORT_COUNT_MANY">%1$d</ph> passwords.}}
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_IMPORT_FILE_ERROR_TITLE" desc="The title message that shows to the user if there was an error importing their CSV.">
+      Import failed.
+    </message>
+    <message name="IDS_PASSWORD_SETTINGS_MANAGER_NOT_AVAILABLE" desc="The message to display if the app is not able to get an instance of the PasswordManager class.">
+      Password manager not available.
     </message>
     <message name="IDS_LOCKSCREEN_DESCRIPTION_EXPORT" desc="When a user attempts to export saved passwords in iBrowe's settings, iBrowe launches a lock screen to verify the user's identity and displays the following explanation.">
       Unlock to export your passwords

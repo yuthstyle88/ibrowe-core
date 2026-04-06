@@ -19,6 +19,7 @@
 <translation id="1544192797660353713">ウォレット</translation>
 <translation id="2361906291514218784">Leo AI</translation>
 <translation id="8275068909952022340">詳細…</translation>
+<translation id="71316462802471551">メールエイリアス</translation>
 <translation id="1990886731975529483">Google Widevineをインストールして実行</translation>
 <translation id="8926389886865778422">再表示させない</translation>
 <translation id="4900351245762303149">Google Widevineをインストール</translation>
@@ -61,15 +62,13 @@
 <translation id="7658239707568436148">キャンセル</translation>
 <translation id="7398397225367092613">.onion</translation>
 <translation id="2269780537090240241">.onionアドレスで開く: <ph name="ADDRESS"/></translation>
-<translation id="4759098689276706664">強制ペースト</translation>
+<translation id="4759098689276706664">強制的に貼り付け</translation>
 <translation id="1434416574322382019">新しいプライベートウィンドウ+Tor</translation>
 <translation id="4703780849509456860">トーアのプライベートウィンドウでリンクを開く</translation>
 <translation id="3488584642074079080">iBroweプライベートウィンドウ+Tor でリンクを開く</translation>
-<translation id="8594912907680633924">スプリットビューでリンクを開く</translation>
 <translation id="6313675821927505581">Torで新しいプライベートウィンドウを開く</translation>
 <translation id="2638041073279639246">Torのプライベートウィンドウでリンクを開きます</translation>
 <translation id="3425600262621021599">Torのプライベートウィンドウで iBrowe内のリンクを開く</translation>
-<translation id="3795436270513738622">スプリットビューでリンクを開く</translation>
 <translation id="2545072023356206691">2023年12月1日から、iBrowe Devチャンネルはブラウザアップデートを受け取らなくなります。Nightly、Beta、またはRelease版のiBroweに移行をお勧めします。</translation>
 <translation id="474217410105706308">タブをミュート</translation>
 <translation id="2804710924397009224">iBrowe Rewards アイコンを非表示にします</translation>
@@ -84,7 +83,7 @@
 <translation id="2169338740411893745">Leo AI を新しいタブで開く</translation>
 <translation id="3295805221342028003">Leo AIをサイドバーで開く</translation>
 <translation id="7400808612454224939">Leo AI の設定を管理</translation>
-<translation id="5385064007245738696">Leo AI について</translation>
+<translation id="5385064007245738696">Leo AIについて</translation>
 <translation id="4928988318462976765">ウェブ拡張機能ストア</translation>
 <translation id="9181207987584064303">ウェブ拡張ストアを見る</translation>
 <translation id="3161744659507801211">警告：iBroweは拡張機能が閲覧履歴を記録するのを防ぐことはできません。</translation>
@@ -133,7 +132,6 @@
 <translation id="780301667611848630">いいえ</translation>
 <translation id="1162706247109707219">OKをクリックすることで、お客様はWindows 10以降にアップデートするまで、インストールしたiBroweブラウザに重要なセキュリティの修正が適用されないことを了承したものとみなされます。この警告は今後表示されません。</translation>
 <translation id="9164786361657554526">OKをクリックすることで、お客様はmacOS 10.15以降にアップデートするまで、インストールしたiBroweブラウザに重要なセキュリティの修正が適用されないことを了承したものとみなされます。この警告は今後表示されません。</translation>
-<translation id="2770465223704140727">リストから削除</translation>
 <translation id="6020553119523541665">このタブは別のウィンドウで有効になっています</translation>
 <translation id="4987392683074136770">このタブをクリックすると、コンテンツがこのウィンドウに表示されます</translation>
 <translation id="8355523213948477234">「スプリットビュー」メニューボタン</translation>
@@ -207,7 +205,6 @@
 <translation id="253980346046488815">重複するタブを閉じる</translation>
 <translation id="8670218546624422041">コンテナで開く</translation>
 <translation id="8638526693050780542">コンテナの管理</translation>
-<translation id="7302999361397024774">タブ名を変更</translation>
 <translation id="2336228925368920074">すべてのタブをブックマークに追加...</translation>
 <translation id="2523967823495420116">垂直タブを使用</translation>
 <translation id="3785071023202624850">{NUM_TABS,plural, =1{タブをミュート}other{タブをミュート}}</translation>
@@ -218,7 +215,6 @@
 <translation id="2703180365855369896">重複するタブを閉じる</translation>
 <translation id="1987871867023021397">コンテナで開く</translation>
 <translation id="6745991613881384719">コンテナの管理</translation>
-<translation id="3917844427669888979">タブ名を変更</translation>
 <translation id="3704707436873245822">画像からテキストをコピー</translation>
 <translation id="5268098808165185458">画像からテキストをコピーしています...</translation>
 <translation id="4046485130884276245">画像からテキストをコピーしました</translation>
@@ -226,6 +222,8 @@
 <translation id="3960619311638643872">iBrowe VPN</translation>
 <translation id="2506438154311626334">iBrowe VPNでWireGuardプロトコルを使用します</translation>
 <translation id="8519170191215826548">iBrowe VPNの接続中は、この設定を変更できません。</translation>
+<translation id="1177917174080821247">VPNトレイアイコンを表示</translation>
+<translation id="3747459938663420752">有効にすると、Windows のタスクバーに iBrowe VPN のトレイアイコンが表示されます。</translation>
 <translation id="4235920711083356755">VPNボタンを表示</translation>
 <translation id="4070612712151038707">ツールバーにVPNボタンを表示します</translation>
 <translation id="7705524343798198388">VPN</translation>
@@ -237,7 +235,6 @@
 <translation id="8030169304546394654">切断されました</translation>
 <translation id="1863950594388384201">ツールバーにVPNボタンを表示</translation>
 <translation id="5187139277471084437">ツールバーにVPNボタンを非表示</translation>
-<translation id="1177917174080821247">VPNトレイアイコンを表示</translation>
 <translation id="8041089156583427627">フィードバックを送信</translation>
 <translation id="4049186905514157504">プランの管理</translation>
 <translation id="7570585565843385325">ツールバーにVPNボタンを表示</translation>
@@ -253,10 +250,6 @@
 <translation id="796831669370432378">ブックマークを追加するには、アドレスバーの横にあるブックマークボタンをクリックしてください</translation>
 <translation id="8487693399751278191">今すぐブックマークをインポート...</translation>
 <translation id="2557899542277210112">クイックアクセスするには、このページをブックマークバーにブックマークしてください。</translation>
-<translation id="1968543937259008435">オンライン上のプライバシーを確保しましょう</translation>
-<translation id="6817415381278637662">iBroweをデフォルトのブラウザに設定すると、訪問するすべてのウェブページでiBroweプライバシー保護を利用できます。</translation>
-<translation id="7537601449003285327">タスクバーにピン留めする</translation>
-<translation id="2307973900865360088">Dockにキープ</translation>
 <translation id="961012016278832836">Microsoft Edgeレガシー</translation>
 <translation id="6436994631426134065"><ph name="BROWSER_NAME"/>からインポート</translation>
 <translation id="5119173345047096771">Mozilla Firefox</translation>
@@ -339,9 +332,10 @@
 <translation id="1533980864758658574"><ph name="TOPIC"/>の新しいウィンドウが作成されました。</translation>
 <translation id="7985042437720138349">この機能は、開いているタブに関するデータをiBroweのブラウザAIアシスタント、Leoに送信します。</translation>
 <translation id="6165508094623778733">詳しく知る</translation>
-<translation id="7557539689487606886">プレミアムプラン</translation>
+<translation id="7557539689487606886">プレミアムプランへ</translation>
 <translation id="1035309871698658326">これを開くと、プライベート以外のタブのタイトルと発信元が自動的にLeoに送信され、分類されます。</translation>
 <translation id="3435896845095436175">有効にする</translation>
+<translation id="9082792303833649978">この設定は、管理者または別のiBroweポリシーによって管理されています。</translation>
 <translation id="1940221956626514677">ツールバーをカスタマイズ</translation>
 <translation id="6501807887341963552">テーマと色</translation>
 <translation id="6724227215236550330">保存されたパスワードはここに表示されます。このデバイスの <ph name="BRAND"/> にパスワードをインポートするには、 <ph name="BEGIN_LINK"/> CSV ファイルを選択してください<ph name="END_LINK"/></translation>
@@ -384,9 +378,12 @@
 <translation id="5436069931267876389">コンテナが見つかりません</translation>
 <translation id="2263346047290834619">ツリータブを使用</translation>
 <translation id="5860254591544742609">タイトルバーを表示</translation>
-<translation id="5371926069408837914">折りたたまれている状態でマウスオーバーすると、垂直タブパネルを展開</translation>
+<translation id="4691131445504068802">最小化時に完全に非表示にする</translation>
+<translation id="6763346436728173884">タブの閉じるボタンを常に非表示にする</translation>
+<translation id="8082625757059443808">ミドルボタンクリックでタブを閉じることを許可する</translation>
+<translation id="4909269867860362936">最小化時にホバーで自動的に展開</translation>
 <translation id="3367129510799209147">タブホバーモード</translation>
-<translation id="8527099657928614787">垂直タブをウィンドウごとに独立して展開</translation>
+<translation id="8925055964134259461">垂直タブをウィンドウごとに独立して自動展開</translation>
 <translation id="916373084491701212">スクロールバーを表示</translation>
 <translation id="515949045075831661">右側に表示</translation>
 <translation id="3725395376319291415">左側に表示</translation>
@@ -396,24 +393,25 @@
 <translation id="5219886318310413094">すべてのウィンドウでピン留めされたタブを表示</translation>
 <translation id="2396127686705429331">ブックマークボタンを表示する</translation>
 <translation id="2814998458708016836">ワイドアドレスバーを使用する</translation>
+<translation id="4749586705247636385">メインコンテンツに角丸を表示</translation>
 <translation id="4109670531935487117">アドレスバー入力中に自動でサイト候補を表示</translation>
-<translation id="3405901785709583668">トップサジェスチョン</translation>
+<translation id="4579877808890085926">オンデバイス候補</translation>
 <translation id="7859704718976024901">閲覧履歴</translation>
 <translation id="8820817407110198400">ブックマーク バー</translation>
 <translation id="4144468798716165316">クイックコマンド</translation>
 <translation id="7310387888625228830">Leo AI アシスタント</translation>
 <translation id="5222974844674487962">iBroweニュースボタンを表示する</translation>
 <translation id="2085436423511121572">Leo AIボタンを表示</translation>
-<translation id="383007806262310953">ブックマーク バーを表示する</translation>
+<translation id="6156323911414505561">ブックマーク バーを表示する</translation>
 <translation id="4054323497808446566">ブックマーク バーをすべてのページに表示</translation>
 <translation id="8693858092251192712">新しいタブページを除き、ブックマーク バーをすべてのページで非表示</translation>
 <translation id="7158817046543187970">ブックマーク バーをすべてのページで非表示</translation>
 <translation id="3416468988018290825">常に完全な URL を表示</translation>
 <translation id="5529693968082667490">タブの検索ボタンを表示</translation>
 <translation id="1013121820689882118">Speedreader</translation>
-<translation id="1467652519828052368">Speedreader機能を有効にする</translation>
+<translation id="5522420266446076076">Speedreader機能を有効にする。</translation>
 <translation id="5211997910936574251">可能な時は自動的にSpeedreaderを使用</translation>
-<translation id="2025435450953474282">記事が自動的にリーダーモードで読み込まれるため、時間を節約できます</translation>
+<translation id="2025435450953474282">記事を自動的にリーダーモードで読み込んで、時間を節約します</translation>
 <translation id="7984721311211272523">タブのスピーカーアイコンでミュート機能を無効にする</translation>
 <translation id="832432428796481785">サイドバーのボタンを表示</translation>
 <translation id="5581036754486769849">プライベートウィンドウでオートフィルを許可</translation>
@@ -424,9 +422,11 @@
 <translation id="3719826155360621982">ホームページ</translation>
 <translation id="5448570825852364919">空白のページ</translation>
 <translation id="8244387390464017490">新規タブページのカスタマイズ</translation>
+<translation id="7537601449003285327">タスクバーにピン留めする</translation>
 <translation id="7461924472993315131">固定</translation>
 <translation id="735832369569964359">ピンをクリックして、以下のWindows通知で確認</translation>
 <translation id="7506648566440714944">iBroweは既に固定されています</translation>
+<translation id="2307973900865360088">Dockにキープ</translation>
 <translation id="239275665037555969">Dock</translation>
 <translation id="4057614912106618659">iBroweは既にDockに登録されています</translation>
 <translation id="3195845168740336657">シールド設定</translation>
@@ -435,7 +435,7 @@
 <translation id="5690973901138662477">シールドオン</translation>
 <translation id="4697275813919189958">シールドオフ</translation>
 <translation id="6303294677342628402">シールド</translation>
-<translation id="7133511168130368997">しつこく追跡してくるトラッカーや不快な広告をブロックできます。</translation>
+<translation id="5128768857590582420">しつこく追跡してくるトラッカーや不快な広告をブロックできます</translation>
 <translation id="2761825942249694703">これはShieldsのデフォルト設定です。特定のサイト上のShieldsパネルで変更しない限り、すべてのウェブサイトにこの設定が適用されます。この設定を変更しても、既存のサイト設定には影響しません。</translation>
 <translation id="8452536890042542134">ウェブサイト上でほとんどの広告をブロックします。</translation>
 <translation id="4800195524776354947">シールドアイコン上でブロックされているアイテムの数を表示</translation>
@@ -462,7 +462,7 @@
 <translation id="130615081792797568">簡略表示</translation>
 <translation id="2360360976480535628">詳細表示</translation>
 <translation id="101592339984642584">コンテンツフィルター</translation>
-<translation id="2398817776566547893">カスタムフィルターを有効にすると、地域や言語に応じたトラッカーや不快な表示をブロックできます</translation>
+<translation id="2398817776566547893">カスタムフィルターを有効にすると、地域や言語に対応するトラッカーや不快な表示をブロックできます</translation>
 <translation id="3482656215021340727">カスタムフィルターのリストを追加</translation>
 <translation id="1020877116991797978">信頼できるコミュニティにより作成および管理されているリストを追加します。</translation>
 <translation id="7617831480435794399">信頼できる作成者のリストにのみ登録してください。ブラウザでは入力されたURLからのリスト更新が定期的にチェックされ、IPアドレスがサーバーに表示されます。</translation>
@@ -498,10 +498,34 @@
 <translation id="2718718846210516552">スクリプトレットが見つかりません。</translation>
 <translation id="4088315951291671239">理解していない、あるいは自分で確認していないコードをここに貼り付けないでください。攻撃者にあなたのIDが盗まれたり、あなたのコンピューターが乗っ取られたりする可能性が生じます。</translation>
 <translation id="3020183492814296499">ショートカット</translation>
+<translation id="2935698011275148880">ブレイブ・オリジン</translation>
+<translation id="2587535830241068901">ブレイブをサポートしながらブラウザをカスタマイズ</translation>
+<translation id="553273341094971255">ブレイブオリジンでは、アプリ内のプロモーションやブランド広告、インストール時に有効にしていた匿名アナリティクスをすべて削除し、お好みに合わせてブレイブを調整することができます。</translation>
+<translation id="534725333104202278">以前有効にしていた、または使用していたアドオンや機能は表示されたまま統合されますが、それ以外は無効になります。ブラウザに新機能を追加するには、iBroweを調整してください。これらの機能はiBrowe Originではデフォルトで非表示となり、コントロールパネルのみに表示されます。</translation>
+<translation id="1919345977826869612">広告</translation>
+<translation id="944736176598169208">リワード</translation>
+<translation id="2839742394543397416">アナリティクス</translation>
+<translation id="1799030480311994998">機能</translation>
+<translation id="6709133671862442373">ニュース</translation>
+<translation id="6297791103122079275">Talk</translation>
+<translation id="1458638489455808030">ウェイバック・マシン</translation>
+<translation id="1199170151481311646">プライバシー保護分析</translation>
+<translation id="5990642573624858459">統計報告</translation>
+<translation id="2441719842399509963">デフォルトにリセット</translation>
+<translation id="4530494379350999373">Origin</translation>
+<translation id="2964215604640804042">iBrowe Originは、iBroweのビジネスをサポートするすべての機能が必要ないが、iBroweのみが提供するプライバシーが必要なユーザー向けの有料版ブラウザです。iBrowe Originユーザーは、業界トップクラスのプライバシー、広告ブロック、速度(iBrowe Shields経由)に加えて、定期的なソフトウェアアップデート、Chromiumパッチ、セキュリティおよびプライバシーの改善の恩恵を受け続けます。また、AI、Rewards、ウォレット、VPN、Web3ドメインなどの機能を無効にするオプションのロックも解除できます。</translation>
+<translation id="9130916892338379417">iBrowe Originは1回限りの購入で利用できます。モバイル(AndroidおよびiOS)およびデスクトップでは、Originを既存のリリース版へのアップグレードとして購入できます。デスクトップでは、Originは別のスタンドアロンアプリとしても利用できます。Originユーザーは、設定メニューに新しいコントロールパネルが表示されます。既存の機能と将来提供される新機能は、ここに表示され、デフォルトではオフに切り替わります。</translation>
+<translation id="7984508421152399880">今すぐ購入</translation>
 <translation id="5567412479632285879">iBrowe Rewardsは無効です</translation>
 <translation id="413570371620795359">報酬パネルから有効化してはじめましょう</translation>
 <translation id="1051600834033686945">iBroweリワードの設定を開く</translation>
 <translation id="8826461509529116322">iBrowe Rewardsボタンを表示する</translation>
+<translation id="4859866966646365361">広告ブロック専用モード</translation>
+<translation id="4146834954839563870">広告ブロック専用モードを使用する</translation>
+<translation id="420732343671200734">広告ブロックのみモードは、iBrowe Shieldsのコア広告ブロックルールを保持します。警告: すべてのプライバシー保護を削除します。iBroweのプライバシー保護によって破壊された個々のウェブサイトについては、ShieldsをDOWNに設定できることに注意してください。これは試験的なモードです。<ph name="BEGIN_LINK"/>詳しくはこちら<ph name="END_LINK"/></translation>
+<translation id="3055675200351793825">シールドのオプションは現在無効になっています</translation>
+<translation id="2687830906359353344">広告ブロック専用モードは、iBrowe Shieldsのコア広告ブロックルールを保持し、プライバシー保護をオフにします。標準のShieldsを有効にしたい場合は、このモードを無効にしてください。</translation>
+<translation id="3809423899581611047">広告ブロック専用モードをオフにする</translation>
 <translation id="9185018653595759199">ソーシャルメディアのブロック</translation>
 <translation id="863171915776379000">Facebookのログインと埋め込み投稿を許可する</translation>
 <translation id="7791141927430186653">X (旧Twitter) の埋め込みツイートを許可する</translation>
@@ -534,7 +558,6 @@
 <translation id="5747552184818312860">有効期限</translation>
 <translation id="3858860766373142691">名前</translation>
 <translation id="361106536627977100">Flash データ</translation>
-<translation id="4530494379350999373">Origin</translation>
 <translation id="8195027750202970175">ディスク上のサイズ</translation>
 <translation id="9116465289595958864">最終更新</translation>
 <translation id="4590324241397107707">データベース ストレージ</translation>
@@ -567,11 +590,6 @@
 <translation id="2903783737778379345">サードパーティCookieを使用したレガシーのGoogleサインインを許可しない</translation>
 <translation id="2570833232754279153">レガシーのGoogleサインインにサードパーティCookieを使用することを許可しない</translation>
 <translation id="6880817299303842099">レガシーのGoogleサインインにサードパーティCookieの使用を許可する</translation>
-<translation id="2136412236435693622">Localhostのアクセス</translation>
-<translation id="4172219483893066798">サイトがLocalhostのリソースへのアクセスを要求可能</translation>
-<translation id="7181706637590665047">Localhostのリソースへのアクセスを許可しない</translation>
-<translation id="1336116824874668514">Localhostのリソースへのアクセス: 不可</translation>
-<translation id="1485435696620658073">Localhostのリソースへのアクセス: 可</translation>
 <translation id="5794692721727586076">Leo AIチャット</translation>
 <translation id="8115153008662981040">Leo AIチャットを開くかどうかの確認をサイトに許可する</translation>
 <translation id="1145070115730668595">サイト上でのLeo AIチャットの使用を許可しない</translation>
@@ -645,8 +663,6 @@
 <translation id="7029809446516969842">パスワード</translation>
 <translation id="6011308810877101166">検索候補の品質を改善</translation>
 <translation id="2332576387809612040">これをオンにすると、iBroweはアドレスバーや検索ボックスに入力した内容をデフォルトの検索エンジンに送信し、より適切な候補が表示されるようにします。オフにすると、iBroweはあなたのデバイスで生成された候補のみを表示します。この機能はプライベートウィンドウでは常にオフになっています。</translation>
-<translation id="6285118765755298263">他の検索エンジンのインデックス</translation>
-<translation id="5526883767168905185">OpenSearchの仕様に従うウェブサイトのインデックスを自動的に作成します。</translation>
 <translation id="5522403133543437426">アドレスバーで使用される検索エンジン。</translation>
 <translation id="280472502078788655">プライベートウィンドウのアドレスバーで使用される検索エンジン。</translation>
 <translation id="7232120595886556478">標準ウィンドウ</translation>
@@ -734,6 +750,7 @@
 <translation id="7141438739990875547">Bitcoinネットワーク</translation>
 <translation id="1077567586443625607">Zcashネットワーク</translation>
 <translation id="1177180573354712438">カルダノネットワーク</translation>
+<translation id="3176794108951154148">Polkadotネットワーク</translation>
 <translation id="3159419679550543837">テストネットワークを表示</translation>
 <translation id="3215569562674795548">編集または新しいネットワークを追加</translation>
 <translation id="4418993400653250511">チェーンID</translation>
@@ -848,6 +865,11 @@
 <translation id="1721787502053471881">本当にこのメモリーを削除しますか？この操作は元に戻せません。</translation>
 <translation id="5239685926753073108">すべてのメモリーを削除する</translation>
 <translation id="2600803466586623124">本当にすべてのメモリーを削除しますか？この操作は元に戻せません。</translation>
+<translation id="7311244614769792472">結果が見つかりませんでした。</translation>
+<translation id="1838374766361614909">検索を消去</translation>
+<translation id="5126255551970171328">メモリを検索</translation>
+<translation id="7402116145895962069">Ollamaローカルモデルを同期する</translation>
+<translation id="4835154437390745810">Ollamaにより管理されています</translation>
 <translation id="5985516785067818307">調査パネリスト</translation>
 <translation id="8347743943525229984">iBroweアンケートを許可</translation>
 <translation id="3204080538332044581">iBroweに対し、新しいタブページに匿名アンケートへのリンクを表示することを許可します。こうした調査は、より良い機能の構築や、ブラウザベースの広告キャンペーンの効果測定などに役立ちます。<ph name="BEGIN_LINK"/>詳細<ph name="END_LINK"/></translation>

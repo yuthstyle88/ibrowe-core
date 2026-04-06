@@ -101,7 +101,7 @@
 "vpn.contactFormTimezone" = "iOS टाइमज़ोन";
 
 /* Title for contact form email. */
-"vpn.contactFormTitle" = "Brave Firewall + VPN समस्या";
+"vpn.contactFormTitle" = "Brave VPN समस्या";
 
 /* Button text to enable Brave VPN */
 "vpn.enableButton" = "सक्षम करें";
@@ -275,7 +275,7 @@
 "vpn.settingsTransportProtocol" = "ट्रांसपोर्ट प्रोटोकॉल";
 
 /* Button to allow the user to view the App Store receipt. */
-"vpn.settingsViewReceipt" = "App Store की रसीद देखें";
+"vpn.settingsViewReceipt" = "App Store रसीद देखें";
 
 /* The title of the toggle in settings that disconnects the internet connection, when not connected to the VPN. Emergency Shutoff, Kill Switch, Safety Switch, etc. */
 "vpn.settingsVPNKillSwitchDescription" = "चालू होने पर, अगर आपका VPN कनेक्शन अचानक से टूट जाता है, तो IP address और डेटा लीक रोकने के लिए आपका डिवाइस अपने-आप इंटरनेट से डिसकनेक्ट हो जाएगा। [ज़्यादा जानें](%@)";
@@ -296,7 +296,7 @@
 "vpn.vpnBackgroundNotificationBody" = "बैकग्राउंड में भी, Brave आपकी सुरक्षा करता रहेगा।";
 
 /* Notification title to tell user that the vpn is turned on even in background */
-"vpn.vpnBackgroundNotificationTitle" = "Brave Firewall + VPN चालू है";
+"vpn.vpnBackgroundNotificationTitle" = "Brave VPN चालू है";
 
 /* Text for description of list item which chooses the optimal server for the country region */
 "vpn.vpnCityRegionOptimalDescription" = "जो सबसे अच्छा सर्वर मौजूद हो, वह इस्तेमाल करें";
@@ -311,7 +311,7 @@
 "vpn.vpnConfigGenericErrorTitle" = "गड़बड़ी";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
-"vpn.vpnConfigPermissionDeniedErrorBody" = "आपका डिवाइस काम कर पाए, इसके लिए Brave Firewall + VPN पर VPN प्रोफ़ाइल इंस्टॉल करना ज़रूरी होता है। ";
+"vpn.vpnConfigPermissionDeniedErrorBody" = "आपका डिवाइस काम कर पाए, इसके लिए Brave VPN पर VPN प्रोफ़ाइल इंस्टॉल करना ज़रूरी होता है। ";
 
 /* Title for an alert when the user didn't allow to install VPN profile */
 "vpn.vpnConfigPermissionDeniedErrorTitle" = "अनुमति नहीं दी गई";
@@ -320,7 +320,7 @@
 "vpn.vpnErrorOfferCodeFailedBody" = "ऑफ़र कोड रिडीम नहीं कर पाए। कृपया फिर से कोशिश करें या अपने ऑफ़र कोड की जानकारी जाँचकर फिर से कोशिश करें।";
 
 /* Message for error when VPN could not be purchased. */
-"vpn.vpnErrorPurchaseFailedBody" = "खरीदारी पूरी नहीं हो पाई। कृपया फिर से कोशिश करें या Apple पर अपने भुगतान की जानकारी देखकर फिर से कोशिश करें।";
+"vpn.vpnErrorPurchaseFailedBody" = "खरीदारी पूरी नहीं हो पाई। कृपया फिर से कोशिश करे या Apple पर अपने भुगतान की जानकारी देखकर फिर से कोशिश करें।";
 
 /* Title for error when VPN could not be purchased. */
 "vpn.vpnErrorPurchaseFailedTitle" = "गड़बड़ी";
@@ -341,7 +341,7 @@
 "vpn.vpnRegionChangedTitle" = "VPN क्षेत्र बदल गया";
 
 /* Message for alert to reset vpn configuration */
-"vpn.vpnResetAlertBody" = "इससे आपका Brave Firewall + VPN कॉन्फ़िगरेशन रीसेट हो जाएगा और सभी गड़बड़ियाँ ठीक हो जाएँगी। इस प्रोसेस में एक मिनट लग सकता है।";
+"vpn.vpnResetAlertBody" = "इससे आपका Brave VPN कॉन्फ़िगरेशन रीसेट हो जाएगा और सभी गड़बड़ियाँ ठीक हो जाएँगी। इस प्रोसेस में एक मिनट लग सकता है।";
 
 /* Title for alert to reset vpn configuration */
 "vpn.vpnResetAlertTitle" = "कॉन्फ़िगरेशन रीसेट करें";

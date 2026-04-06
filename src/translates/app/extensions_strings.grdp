@@ -26,15 +26,6 @@
   <message name="IDS_EXTENSIONS_ENABLE_ERROR_COLLECTION" desc="The checkbox for enabling error collection for an extension.">
     Collect errors
   </message>
-  <message name="IDS_EXTENSIONS_ENABLE_TOGGLE_TOOLTIP_DISABLED" desc="The tooltip for the enable extension toggle when the extension is disabled.">
-    This extension cannot read and change site information or run in the background
-  </message>
-  <message name="IDS_EXTENSIONS_ENABLE_TOGGLE_TOOLTIP_ENABLED" desc="The tooltip for the enable extension toggle when the extension is enabled but does not have host permissions.">
-    This extension may run in the background
-  </message>
-  <message name="IDS_EXTENSIONS_ENABLE_TOGGLE_TOOLTIP_ENABLED_WITH_SITE_ACCESS" desc="The tooltip for the enable extension toggle when the extension is enabled and has host permissions.">
-    This extension may read and change site information or run in the background
-  </message>
   <message name="IDS_EXTENSIONS_ERROR_NO_ERRORS_CODE_MESSAGE" desc="The text displayed in the 'code' section when an extension has no errors.">
     Nothing to see here, move along.
   </message>
@@ -731,8 +722,17 @@
   <message name="IDS_EXTENSIONS_ZERO_STATE_IPH_HEADER" desc="Header of the extensions zero state in-product help promo.">
     Enhance your browser with extensions
   </message>
+  <message name="IDS_EXTENSIONS_ZERO_STATE_IPH_HEADER_V2" desc="Header of the extensions zero state in-product help promo.">
+    Supercharge your browser with extensions and themes
+  </message>
   <message name="IDS_EXTENSIONS_ZERO_STATE_CHIPS_IPH_DESCRIPTION" desc="An one line description for the extensions zero state in-product-help promo.">
     Extensions are add-ons for iBrowe that can help you do more
+  </message>
+  <message name="IDS_EXTENSIONS_ZERO_STATE_CHIPS_WITH_LINK_IPH_LINK_LABEL" desc="A label of extensions links to chrome web store home page.">
+    Extensions
+  </message>
+  <message name="IDS_EXTENSIONS_ZERO_STATE_CHIPS_WITH_LINK_IPH_DESCRIPTION" desc="An one line description for the extensions zero state in-product-help promo with links to chrome web store home page.">
+    are add-ons for iBrowe that can help you do more
   </message>
   <message name="IDS_EXTENSIONS_ZERO_STATE_PLAIN_LINK_IPH_DESCRIPTION" desc="An one line description for the extensions zero state in-product-help promo.">
     Extensions are add-ons to iBrowe that can help you
@@ -763,6 +763,9 @@
   </message>
   <message name="IDS_EXTENSIONS_ZERO_STATE_IPH_AI_PRODUCTIVITY_COLLECTION_LINK" desc="Link text for the button that opens the Web Store ai productivity collection page.">
     Enhance with AI
+  </message>
+  <message name="IDS_EXTENSIONS_ZERO_STATE_IPH_WEB_STORE_LINK" desc="Link text for the button that opens the Web Store page.">
+    Visit Web Store
   </message>
   <message name="IDS_EXTENSIONS_ZERO_STATE_IPH_DISMISS_BUTTON_TEXT" desc="Text on the button that dismisses the extensions zero state promo IPH.">
     Got it

@@ -181,6 +181,21 @@
 /* A label displayed above the resource type of a request that was blocked in Blocked Requests view. */
 "shields.resourceTypeLabel" = "Ressurstype";
 
+/* A description beside a toggle that appears in the Shred settings screen, within Shields & Privacy settings. */
+"shields.shredHistoryRowDescription" = "Om Shred skal fjerne historikkelementer.";
+
+/* A title beside a toggle that appears in the Shred settings screen, within Shields & Privacy settings. */
+"shields.shredHistoryRowTitle" = "Shred fjerner historikk";
+
+/* A row description that appears in the Shields & Privacy settings. */
+"shields.shredRowDescription" = "Oppdater Auto Shred og juster hvilke data som blir rasert.";
+
+/* A row title that appears in the Shields & Privacy settings. */
+"shields.shredRowTitle" = "Makuler";
+
+/* A title for the Shred settings screen, within Shields & Privacy settings. */
+"shields.shredSettingsViewTitle" = "Makuler";
+
 /* A label displayed above the source url of a request that was blocked in Blocked Requests view. */
 "shields.sourceURLLabel" = "Kilde-URL";
 
@@ -196,11 +211,13 @@
 /* An option setting for automatically shredding when the site is closed */
 "ShredOnSiteTabsClosed" = "Når faner for nettstedet lukkes";
 
+/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'. */
+"ShredSiteAllTabsConfirmationMessage" = "Makulering vil lukke alle faner, og slette alle nettsteddataene. Dette kan ikke angres.";
+
 /* A list row label for accessing the shred settings screen */
 "ShredSiteData" = "Makuler nettstedsdata";
 
-/* A message for a confirmation window that appears when a user clicks on 'Shred All Tabs'.
-A message for a confirmation window that appears when a user clicks on 'Shred Data'. */
+/* A message for a confirmation window that appears when a user clicks on 'Shred Data'. */
 "ShredSiteDataConfirmationMessage" = "Makulering lukker alle fanene som er åpne for dette nettstedet, og sletter alle nettsteddataene. Handlingen kan ikke angres.";
 
 /* A title for a confirmation window that appears when a user clicks on 'Shred Data' */
@@ -208,6 +225,9 @@ A message for a confirmation window that appears when a user clicks on 'Shred Da
 
 /* A button title that shreds site data immediately */
 "ShredSiteDataNow" = "Makuler nettsteddataene nå";
+
+/* A message for a confirmation window that appears when a user clicks on 'Shred' with multiple tabs selected. */
+"shredSiteSelectedTabsConfirmationMessage" = "Makulering vil lukke de valgte fanene, og slette alle nettsteddataene. Dette kan ikke angres.";
 
 /* A page title for the warning page that appears when http was blocked */
 "SiteIsNotSecure" = "Nettstedet er ikke sikkert";

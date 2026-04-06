@@ -196,6 +196,7 @@
 <translation id="7279636930553631442">Vyskakovací okno s nabídkou odběru zpravodaje</translation>
 <translation id="6136090320163235283">Widget sociálních médií</translation>
 <translation id="6657720240983439091">Widget chatu</translation>
+<translation id="3597441883564676263">Prohlížeč není podporován</translation>
 <translation id="7138678301420049075">Jiné</translation>
 <translation id="4046860372562593546">Spravovat reklamy iBrowe</translation>
 <translation id="5136973036012418831">Mějte kontrolu nad tím, jaké druhy reklam a jak často se vám zobrazují.</translation>
@@ -482,14 +483,21 @@
 <translation id="1518915449477235311">Povolit webu <ph name="URL"/> otevírání konverzací Leo AI v iBrowe?</translation>
 <translation id="4355784577209159847">Povolit používání souborů cookie třetích stran pro starší službu přihlášení Google</translation>
 <translation id="5770656036486891920">Web <ph name="URL"/> chce používat soubory cookie třetích stran pro starší způsob přihlášení ke službě Google</translation>
-<translation id="6053826678715267477">Povolit přístup k prostředkům localhost</translation>
-<translation id="2973562729984406132"><ph name="URL"/> požaduje přístup ke zdrojům localhost</translation>
 <translation id="2104347391516032700">Služba odměn BAT</translation>
 <translation id="5939518447894949180">Resetovat</translation>
 <translation id="3349204812119681938">Obnovit odměny iBrowe</translation>
 <translation id="4915997950539925115">Resetováním bude váš aktuální profil Odměny iBrowe smazán a Odměny iBrowe již nebudou aktivní. Pokud později znovu aktivujete Odměny iBrowe, začnete s novým profilem. Pro více informací si přečtěte náš článek podpory<ph name="LINK_BEGIN"/> o resetování<ph name="LINK_END"/>.</translation>
 <translation id="4806029412510565611">Chápu, že můj současný profil odměn iBrowe a data budou z mého zařízení odstraněna a přečetl/a jsem si <ph name="LINK_BEGIN"/>článek podpory o resetování<ph name="LINK_END"/>.</translation>
 <translation id="8835777704176513489">Zakázat a resetovat odměny</translation>
+<translation id="1570055891464728855">Resetovat nyní</translation>
+<translation id="6431824580671230473">Nemusíte se bát: jakékoli BAT, které již máte na účtu <ph name="PROVIDER"/>, nebude resetem ovlivněno.</translation>
+<translation id="2881473942058010900">Zatímco jste připojeni k <ph name="PROVIDER"/>, nezískáváte BAT za zobrazené Ads. Resetujte Odměny iBrowe a připojte jiný účet pro výplaty, abyste mohli dále vydělávat. <ph name="LINK_BEGIN"/>Zjistit více<ph name="LINK_END"/></translation>
+<translation id="5803444802570526678">Účet <ph name="PROVIDER"/> již není podporován.</translation>
+<translation id="3794463124070392793">Potvrďte svou oblast</translation>
+<translation id="4620879582500359234">Jakékoli BAT, které již máte na účtu <ph name="PROVIDER"/>, tam zůstanou.</translation>
+<translation id="935303782545595866">Vaše 30denní historie Ads a další nastavení Odměn iBrowe budou resetována.</translation>
+<translation id="6279637499952804615">Po tomto kroku si budete moci zvolit jiný účet pro výplaty.</translation>
+<translation id="5419770758409992826">Váš účet <ph name="PROVIDER"/> bude odpojen a váš profil Odměn iBrowe bude resetován.</translation>
 <translation id="7717357606512850995">Zkontrolovat stav</translation>
 <translation id="6473937687348632190">Výplata odměn za <ph name="MONTH"/> byla dokončena.</translation>
 <translation id="1711367267038576241">Výplata odměn za <ph name="MONTH"/> se bude zpracovávat dne <ph name="DATE"/>.</translation>
@@ -515,15 +523,19 @@
 }</translation>
 <translation id="3264975266761862670">Jste připraveni začít vydělávat?</translation>
 <translation id="2784412028126205842">Připojte výplatní účet</translation>
-<translation id="766126983336630294">{ADS_VIEWED, plural,
-      =0 {Tento měsíc jste viděli <ph name="COUNT_BEGIN"/># reklam<ph name="COUNT_END"/>}
-      =1 {Mohli jste dostat zaplaceno za <ph name="COUNT_BEGIN"/># reklamu<ph name="COUNT_END"/>, kterou jste tento měsíc shlédli.}
-      other {Mohli jste dostat zaplaceno za <ph name="COUNT_BEGIN"/># reklamy/reklam<ph name="COUNT_END"/>, které jste tento měsíc shlédli.}
+<translation id="1789518312567918588">{ADS_VIEWED, plural,
+      =0 {Tento měsíc jste viděli <ph name="COUNT_BEGIN"/> # reklam<ph name="COUNT_END"/>}
+      =1 {Mohli jste dostat zaplaceno za <ph name="COUNT_BEGIN"/> # reklamu<ph name="COUNT_END"/>, kterou jste tento měsíc viděli.}
+      few {Mohli jste dostat zaplaceno za <ph name="COUNT_BEGIN"/> # reklamy<ph name="COUNT_END"/>, které jste tento měsíc viděli.}
+      many {Mohli jste dostat zaplaceno za <ph name="COUNT_BEGIN"/> # reklam<ph name="COUNT_END"/>, které jste tento měsíc viděli.}
+      other {Mohli jste dostat zaplaceno za <ph name="COUNT_BEGIN"/> # reklam<ph name="COUNT_END"/>, které jste tento měsíc viděli.}
     }</translation>
-<translation id="8611388433418909120">{ADS_VIEWED, plural,
-      =0 {Tento měsíc jste viděli <ph name="COUNT_BEGIN"/># reklam<ph name="COUNT_END"/>}
-      =1 {Za zobrazení <ph name="COUNT_BEGIN"/># reklamy<ph name="COUNT_END"/> jste si tento měsíc vydělali}
-      other {Za zobrazení <ph name="COUNT_BEGIN"/># reklam<ph name="COUNT_END"/> jste si tento měsíc vydělali}
+<translation id="1100743684843603297">{ADS_VIEWED, plural,
+      =0 {Tento měsíc jste viděli <ph name="COUNT_BEGIN"/> # reklam<ph name="COUNT_END"/>}
+      =1 {Za zobrazení <ph name="COUNT_BEGIN"/> # reklamy<ph name="COUNT_END"/> jste si tento měsíc vydělali}
+      few {Za zobrazení <ph name="COUNT_BEGIN"/> # reklamy<ph name="COUNT_END"/> jste si tento měsíc vydělali}
+      many {Za zobrazení <ph name="COUNT_BEGIN"/> # reklam<ph name="COUNT_END"/> jste si tento měsíc vydělali}
+      other {Za zobrazení <ph name="COUNT_BEGIN"/> # reklam<ph name="COUNT_END"/> jste si tento měsíc vydělali}
     }</translation>
 <translation id="6067959437127691361">Používání odměn iBrowe pomáhá podporovat autory obsahu a umožňuje vám vydělávat tokeny BAT.</translation>
 <translation id="2359808026110333948">Continue</translation>
@@ -601,7 +613,7 @@
 <translation id="5802986777701714573">Přidali jsme nový způsob zasílání měsíčních odměn BAT. Připojte si účet od některého z našich partnerů nebo využijte novou možnost vlastního úschovy a hned začněte vydělávat.</translation>
 <translation id="3251885322612056119">Aktualizované smluvní podmínky</translation>
 <translation id="7454675823870922788">Aktualizovali jsme smluvní podmínky pro Odměny iBrowe. Tyto aktualizace jsme provedli, abychom objasnili naše podmínky a zajistili, aby zahrnovaly nové funkce. Pokud budete pokračovat v používání Odměn iBrowe, souhlasíte tak s aktualizovanými smluvními podmínkami. Pokud nesouhlasíte, můžete <ph name="LINK_BEGIN"/>resetovat<ph name="LINK_END"/> Odměny iBrowe, což tuto funkci deaktivuje.</translation>
-<translation id="56057964000416013">Aktualizovali jsme naše Podmínky služby. Chcete-li i nadále používat Odměny iBrowe, přečtěte si aktualizované podmínky a souhlaste s nimi.</translation>
+<translation id="616595399243298960">Aktualizovali jsme naše Podmínky služby. Chcete-li i nadále používat Odměny iBrowe, přečtěte si aktualizované podmínky a souhlaste s nimi.</translation>
 <translation id="5192526308598085294">Viz <ph name="LINK_BEGIN"/>Smluvní podmínky Odměn iBrowe<ph name="LINK_END"/></translation>
 <translation id="4130750466177569591">Souhlasím</translation>
 <translation id="343114360276812078">Přečíst podmínky</translation>
@@ -649,6 +661,8 @@
 <translation id="6751803821780922506">Vyberte si, kde si přejete přijmout tokeny BAT.</translation>
 <translation id="3162035476318501831">Další informace o regionech a podpoře.</translation>
 <translation id="7329170127335794328">V současné době není ve vašem regionu k dispozici</translation>
+<translation id="1947910788470806100">Zatím nemáme ve vaší oblasti žádné možnosti pro výplatu. Zkuste to znovu později a ověřte, zda se dostupnost změnila.</translation>
+<translation id="271689813824682404">Možnosti výplaty nejsou dostupné</translation>
 <translation id="966956302643313970">Abyste začali získávat odměny v podobě základních tokeny pozornosti (BAT), proveďte propojení účtu. Tokeny BAT, které získáte, budou každý měsíc automaticky převedeny na váš účet.</translation>
 <translation id="4009439571146350519">Nebo jiná peněženka, která podporuje síť Solana</translation>
 <translation id="333231090524745752"><ph name="TOS_LINK_BEGIN"/>Podmínky používání<ph name="TOS_LINK_END"/> a <ph name="PP_LINK_BEGIN"/>Zásady ochrany osobních údajů<ph name="PP_LINK_END"/>.</translation>
@@ -689,7 +703,6 @@
 <translation id="3266055641283174315">Typ reklamy</translation>
 <translation id="8706824117053903390">Zobrazení tento měsíc</translation>
 <translation id="5105890735834548623">Nastavení reklam</translation>
-<translation id="96989662637180657">Reklamy Vyhledávání iBrowe se zobrazují na <ph name="LINK_BEGIN"/>Vyhledávání iBrowe<ph name="LINK_END"/>.</translation>
 <translation id="3138160233953903250">Nastavení reklam</translation>
 <translation id="2446517297521536638">Mějte kontrolu nad tím, jaké druhy Reklam iBrowe vidíte, a jak často. Čím více vidíte, tím více můžete vydělat.</translation>
 <translation id="3479272537858623647">Tady se zobrazuje počet iBrowe Ads, které jsme vám zobrazili tento měsíc a které vás oprávňují k získání BAT.</translation>
@@ -856,6 +869,14 @@
       other {<ph name="EXCHANGE_NAME"/> + {SWAP_EXCHANGE_STEPS} kroky}
     }</translation>
 <translation id="8621264173374071200"><ph name="EXCHANGE_NAME"/> prostřednictvím <ph name="PROVIDER_NAME"/></translation>
+<translation id="646023614746251785">Potvrdit výměnu</translation>
+<translation id="6264944956989873014">Potvrdit bridge</translation>
+<translation id="7067917728851842589">Potvrdit odeslání</translation>
+<translation id="2841837950101800123">Poskytovatel</translation>
+<translation id="1114725160772317155">Stav poskytovatele</translation>
+<translation id="2351357639951873714">Potvrdit ochranu</translation>
+<translation id="7480044382160806610">Potvrdit zrušení stínění</translation>
+<translation id="8332923694292360653">Utratit</translation>
 <translation id="3735740477244556633">Seřadit podle</translation>
 <translation id="6484605214219822434">Můstek recenzí</translation>
 <translation id="3365052891357224017">Odhad. čas</translation>
@@ -876,6 +897,8 @@
 <translation id="7465227658364622464">Jupiter zpracuje adresu Solana a IP adresu pro provedení transakce (včetně získání cenových nabídek). Jupiter bude tyto údaje používat POUZE pro účely zpracování transakcí.</translation>
 <translation id="712738518060477110">Nabídka zahrnuje <ph name="SWAP_FEE_PERCENTAGE"/> poplatek iBrowe.</translation>
 <translation id="8368540604723748428">Příliš mnoho desetinných čárek</translation>
+<translation id="4797709125717981664">Minimální požadovaná hodnota je 1 ADA</translation>
+<translation id="3826737479910350533">Odesílaná částka je příliš malá</translation>
 <translation id="6575120282593094155">Nemáte účet <ph name="ACCOUNT_TYPE"/>. Chcete jej nyní vytvořit?</translation>
 <translation id="1426410128494586442">Ano</translation>
 <translation id="4250680216510889253">Ne</translation>
@@ -922,7 +945,7 @@
 <translation id="2274014756904854136">Pro pokračování dvojitě klepněte na obrazovku</translation>
 <translation id="7795718119973968770">Vaše peněženka je zamčena pro vaši bezpečnost. Pro pokračování peněženku odemkněte.</translation>
 <translation id="9175546523521600401">Zamknout peněženku</translation>
-<translation id="765834632354589737">Záložní peněženka</translation>
+<translation id="7117128722034148989">Zálohovat peněženku</translation>
 <translation id="1108298724135935307">Připojené weby</translation>
 <translation id="5716350339763180836">Zůstatky</translation>
 <translation id="5538251867290702601">Graf</translation>
@@ -965,6 +988,8 @@
 <translation id="3451958544919449297">Ukládání aktiv ZEC Testnet</translation>
 <translation id="8459631690385393533">Uložit aktiva Cardano</translation>
 <translation id="4915057812371523845">Uložit aktiva Cardano Testnet</translation>
+<translation id="5387140102951033657">Podporuje aktiva Substrate na posílacím řetězci Polkadot a parachainy Substrate</translation>
+<translation id="5601177227092533167">Podporuje aktiva Substrate na Westend posílacím řetězci a parachainy Substrate</translation>
 <translation id="8500387257977999003">Soukromý klíč <ph name="PROTOCOL"/></translation>
 <translation id="8275038454117074363">Import</translation>
 <translation id="232925166623833246">Importovat z hardwarové peněženky</translation>
@@ -1022,6 +1047,7 @@
 <translation id="2416098547200943834">POZNÁMKA: Soukromý klíč se poskytuje jako hexadecimálně kódovaný JSON, který obsahuje informace o soukromém klíči a protokolu. <ph name="LINK_START"/>Více informací<ph name="LINK_END"/>.</translation>
 <translation id="7657130382217527063">POZNÁMKA: Soukromý klíč se musí poskytovat jako hexadecimálně kódovaný JSON, který obsahuje informace o soukromém klíči a protokolu. <ph name="LINK_START"/>Více informací<ph name="LINK_END"/>.</translation>
 <translation id="4482913669726886926">POZNÁMKA: Podporovány jsou pouze rozšířené klíče <ph name="FORMAT"/>.</translation>
+<translation id="9133762451347918196">Testnet účty</translation>
 <translation id="42126664696688958">Export</translation>
 <translation id="1366855498335432549">Vklad</translation>
 <translation id="790104325876206743">Nastavení účtu</translation>
@@ -1029,6 +1055,11 @@
 <translation id="836614343069504000">Začněte vkladem nebo nákupem tokenů. Pokud nevidíte tokeny z importovaného účtu, zkontrolujte filtry a nastavení zobrazení. Neznámé tokeny může být nutné přidat jako vlastní prostředky.</translation>
 <translation id="2902856457593699108">Zobrazit klíč</translation>
 <translation id="8033497299373164724">Skrýt klíč</translation>
+<translation id="7514365320538308">Stáhnout</translation>
+<translation id="4505811804838254812">Zadejte heslo pro šifrování souboru exportu vašeho účtu.</translation>
+<translation id="4664684820522660564">Zadejte heslo pro šifrování</translation>
+<translation id="6873030689896652259">Potvrďte heslo pro šifrování</translation>
+<translation id="5148285448107770349">Heslo musí mít alespoň 8 znaků</translation>
 <translation id="2702143907607790516">Název účtu se nepodařilo aktualizovat, zkuste to znovu.</translation>
 <translation id="3318280255740629162">25 %</translation>
 <translation id="2636487255623744079">50 %</translation>
@@ -1049,9 +1080,6 @@
 <translation id="1506421160138798546">odhad</translation>
 <translation id="59223531494896848">Limit</translation>
 <translation id="8569380433211549748">Cena v</translation>
-<translation id="2490428413101944234">Zkušební kohoutek</translation>
-<translation id="3352959425838279177">Získejte Ether z kohoutku pro <ph name="SELECTED_NETWORK"/></translation>
-<translation id="6449626816252815844">Zvolit způsob nákupu</translation>
 <translation id="8009571545960303544">Je vyžadován váš podpis</translation>
 <translation id="5294062982587710720">Upozorňujeme, že služba iBrowe nemůže ověřit, co se stane, pokud z vaší strany dojde k podpisu. Podpis může autorizovat téměř jakoukoli operaci na vašem účtu nebo vaším jménem, (mimo jiné) včetně předání úplné kontroly nad vaším účtem a kryptoaktivy tomu, kdo o to žádá. Podepište se tedy pouze tehdy, pokud jste si jisti, že tuto akci chcete provést, a pokud důvěřujete webu, který o to žádá.</translation>
 <translation id="3474375934783434676">Podepisujete na vlastní nebezpečí</translation>
@@ -1059,6 +1087,7 @@
 <translation id="3586931643579894722">Skrýt podrobnosti</translation>
 <translation id="7702907602086592255">Doména</translation>
 <translation id="3586752056660754651">Podepsat</translation>
+<translation id="4217653732094303705">Veřejný šifrovací klíč</translation>
 <translation id="3484981968509595506">Váš veřejný šifrovací klíč je vyžadován ze strany DApp</translation>
 <translation id="2300240008330189182"><ph name="URL"/> žádá o veřejný šifrovací klíč vaší peněženky. Pokud s poskytnutím tohoto klíče souhlasíte, bude vám web moci sestavovat šifrované zprávy.</translation>
 <translation id="3340247553212049934">Poskytnout</translation>
@@ -1076,6 +1105,10 @@
 <translation id="8904889345035514635">Aktuální příspěvky</translation>
 <translation id="7073918978411974168">Navrhovaný příspěvek</translation>
 <translation id="9019403281000653275">Zažádáno o neomezené schválení</translation>
+<translation id="9108474191347769758">Limit výdajů</translation>
+<translation id="2102091845281366189">Cíl schválení</translation>
+<translation id="772196962479335292">Aktuální limit schválení</translation>
+<translation id="8215431557133305629">Navrhovaný limit schválení</translation>
 <translation id="4717431746210146708">Chcete tomuto webu povolit přidání sítě?</translation>
 <translation id="2521480044079508357">Díky tomu budete moci tuto síť používat v rámci peněženky iBrowe Wallet.</translation>
 <translation id="1982257600591932657">Název sítě</translation>
@@ -1092,7 +1125,7 @@
 <translation id="3948067511324628726">Poplatek za plyn</translation>
 <translation id="7163997622278957886">Nabídka</translation>
 <translation id="1074360622426001342">Částka + plyn</translation>
-<translation id="2186011161688824046">Částka + poplatek</translation>
+<translation id="7542099582407803878">Částka + síťový poplatek</translation>
 <translation id="7084089311475827950">Chybí údaje.</translation>
 <translation id="5821668936183240062">další</translation>
 <translation id="793994607260936590">první</translation>
@@ -1201,12 +1234,12 @@
 <translation id="4932382283590063268">Adresa příjemce je vaše vlastní adresa.</translation>
 <translation id="3124753063207986114">Adresa příjemce je smluvní adresa tokenu.</translation>
 <translation id="7029817408221097939">Neplatná jednotná adresa</translation>
-<translation id="6370376419663123629">Adresa se zdá být nesprávná</translation>
-<translation id="3767148796886402380">Zkontrolujte adresu a ujistěte se, že je zadána správně (např. malá a velká písmena).</translation>
+<translation id="5749543778008369411">Adrese chybí kontrolní součet</translation>
+<translation id="8225310967627152630">Platnost této adresy nelze ověřit. Abyste se vyhnuli potenciální ztrátě prostředků, pečlivě zkontrolujte adresu před odesláním.</translation>
+<translation id="5139218857087774333">Adresa vypadá nesprávně (neplatný kontrolní součet)</translation>
+<translation id="6551446819927864899">Zdá se, že tato adresa obsahuje překlep. Zkontrolujte adresu a zadejte ji znovu.</translation>
 <translation id="2585599787090762065">Jak to mohu vyřešit?</translation>
 <translation id="5517732667776806421">Chybí informace o kontrolním součtu (checksum)</translation>
-<translation id="2975056993833847787">Tuto adresu nelze ověřit (chybí kontrolní součet). Chcete pokračovat?</translation>
-<translation id="6320252966164556855">Adresa neprošla ověřením (neplatný kontrolní součet). Prosím, zkuste to znovu a nahraďte malá písmena vělkými.</translation>
 <translation id="4667144295226514387">Chybějící limit Gas</translation>
 <translation id="2021522108838444624">Částka musí být vyšší než 0</translation>
 <translation id="8464365289405373974">Je vyžadována adresa příjemce</translation>
@@ -1232,6 +1265,8 @@
 <translation id="471055802670233033">Utrácíte</translation>
 <translation id="7916618590403748182">Dostanete</translation>
 <translation id="8328657208304368165">Potvrdit objednávku</translation>
+<translation id="3784821115971261512">Adresa programu</translation>
+<translation id="6302865118026274740">Adresa vkladu</translation>
 <translation id="8220255674527598378">Výměna kryptoměny Solana</translation>
 <translation id="5071303414930953888">Účet <ph name="ACCOUNT_NUMBER"/></translation>
 <translation id="2330177808960134000">Nejprve je třeba odemknout peněženku</translation>
@@ -1291,10 +1326,7 @@
 <translation id="4312994183947987913">Koupit/uložit</translation>
 <translation id="5133421763709317473">Nebyla nalezena žádná aktiva odpovídající vyhledávání nebo filtru</translation>
 <translation id="6423985584914773314">Neplatná adresa FIL</translation>
-<translation id="5522073372365069684">Koupit pomocí Ramp</translation>
 <translation id="6153197326949684688">Prodat prostřednictvím <ph name="OFFRAMP_PROVIDER"/></translation>
-<translation id="7902920577183739843">Koupit pomocí Sardine</translation>
-<translation id="3301984548406568819">Finanční a transakční údaje zpracovávají partneři naší platformy. iBrowe tato data neshromažďuje, ani k nim nemá přístup.</translation>
 <translation id="5795821518596541838">Partner transakcí</translation>
 <translation id="1916136859742693273">iBrowe Wallet používá k agregaci a zpřístupnění různých poskytovatelů kryptoměn ve vašem regionu službu Meld.io. Za účelem dokončení transakce sdílíme se službou Meld.io informace zahrnující adresu vaší peněženky a kód země. Další informace najdete v podmínkách použití služby Meld.</translation>
 <translation id="245827814248186739">Četl/a jsem a souhlasím s <ph name="LINK_BEFORE"/>Podmínkami použití služby Meld<ph name="LINK_AFTER"/></translation>
@@ -1315,19 +1347,8 @@
 <translation id="4196022627437957774">Přejete si založit účet <ph name="ACCOUNT_TYPE"/> ?</translation>
 <translation id="5982914754413312620">Abyste mohli přijímat <ph name="TOKEN_SYMBOL"/> , musíte mít účet <ph name="ACCOUNT_TYPE"/>.</translation>
 <translation id="3067168166931605141">Název účtu</translation>
-<translation id="6534275647567011533">Koupit prostřednictvím Transak</translation>
-<translation id="5973390321030037823">Koupit pomocí Link</translation>
-<translation id="1932640759496708012">Nakoupit pomocí Coinbase Pay</translation>
-<translation id="8725252491405767337">Ramp.Network</translation>
-<translation id="1130009472404762036">Sardine</translation>
-<translation id="503018546142690471">Transak</translation>
-<translation id="7295150312737713113">Link by Stripe</translation>
-<translation id="7191335763519723663">Coinbase Pay</translation>
-<translation id="7667423728712601865">Nakupujte kryptoměny prostřednictvím karet Visa nebo Mastercard.</translation>
-<translation id="3648994606506382289">Nejjednodušší, nejrychlejší a nejlevnější způsob, jak nakoupit kryptoměny pomocí platební karty a bankovních převodů.</translation>
-<translation id="3101839349578102016">Okamžitý nákup s vaším bankovním účtem. Nižší poplatky.</translation>
-<translation id="8280898387224328221">Zaplatit kreditem, debetem, bankovním účtem</translation>
-<translation id="2218174283683424104">Nakupujte s nejdůvěryhodnějším jménem v oblasti kryptoměn.</translation>
+<translation id="1213870770696612739">Minimální částka: <ph name="AMOUNT"/></translation>
+<translation id="3041074161036535192">Maximální částka: <ph name="AMOUNT"/></translation>
 <translation id="8528916244724490964">Všechny sítě</translation>
 <translation id="7721139939763655123">Od nejnižší k nejvyšší hodnotě</translation>
 <translation id="5458608274117818139">Od nejvyšší k nejnižší hodnotě</translation>
@@ -1372,8 +1393,13 @@
 <translation id="7694836973509310467">Bridging</translation>
 <translation id="8419958386475786929"><ph name="SWAPPING_OR_BRIDGING"/> na webu <ph name="NETWORK"/></translation>
 <translation id="7903225589949400974">Došlo k chybě při pokusu o <ph name="SWAP_OR_BRIDGE"/> na <ph name="NETWORK"/></translation>
+<translation id="7220786058474068424">Zpracování</translation>
+<translation id="3248185426436836442">Probíhá</translation>
+<translation id="5503843345634715425">Vráceno</translation>
 <translation id="1778601041100951971">Stínění <ph name="AMOUNT"/></translation>
+<translation id="6439110433198887239">Zrušení stínění <ph name="AMOUNT"/></translation>
 <translation id="5549369333299694936"><ph name="AMOUNT"/> byla zastíněna</translation>
+<translation id="3860973324426281816"><ph name="AMOUNT"/> bylo odstíněno</translation>
 <translation id="6622332794280225311">{PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} další nevyřízená transakce.}
       few {{PENDING_TRANSACTIONS} další nevyřízené transakce.}
@@ -1399,6 +1425,7 @@
 <translation id="5601436886921227795">Interakce Dapp</translation>
 <translation id="9104177294757104789">Odeslat <ph name="VALUE"/></translation>
 <translation id="4048336522751528394">Prohodit <ph name="MAKER"/> na <ph name="TAKER"/></translation>
+<translation id="5140590056890937774">Přemostění <ph name="SOURCE"/> na <ph name="DESTINATION"/></translation>
 <translation id="1748114617341025015">Vytváření účtu přidruženého tokenu</translation>
 <translation id="4418115887224983240">Nepodařilo se vytvořit účet přidruženého tokenu</translation>
 <translation id="7165697599360786670">Účet přidruženého tokenu vytvořen</translation>
@@ -1419,6 +1446,8 @@
 <translation id="1908159733454294871">Bylo zjištěno bezpečnostní riziko</translation>
 <translation id="3621202678540785336">Vstup</translation>
 <translation id="3009178788565917040">Výstup</translation>
+<translation id="7953669802889559161">Vstupy</translation>
+<translation id="4554024082642878647">Výstupy</translation>
 <translation id="1965889974717516497">Sekundární sítě</translation>
 <translation id="7691821949666755802">Testovací sítě</translation>
 <translation id="2816106784624007524">Limit paliva musí být celé číslo větší než 0</translation>
@@ -1567,8 +1596,6 @@
 <translation id="1422451606553326863">Koupit kryptoměny</translation>
 <translation id="3887541341068007345">Kontrola rozšíření peněženky...</translation>
 <translation id="8407091560429310499">Výběr aktiva</translation>
-<translation id="756590380936155533">Chcete-li dokončit nákup <ph name="ASSET_TICKER"/>, vyberte jednoho z našich partnerů</translation>
-<translation id="7880860489474966219">Po dokončení budou vaše prostředky převedeny do iBrowe Wallet</translation>
 <translation id="6182661078713714878">Vklad krypto</translation>
 <translation id="3683305208314702347">Vklad <ph name="VALUE"/></translation>
 <translation id="5768739294929936862">Vložte tokeny Solana nebo SPL</translation>
@@ -1625,12 +1652,16 @@
 <translation id="3356580495013324916">Aby bylo možné peněženku iBrowe Wallet zálohovat, musíte zadat heslo.</translation>
 <translation id="7545441766078366279">Schválit <ph name="TOKEN"/></translation>
 <translation id="3115303896544539834">Nedostatečný <ph name="TOKEN"/> zůstatek</translation>
+<translation id="6612125470074657311">Částka příliš nízká</translation>
+<translation id="5838312420826727653">Nepodporovaný/é token/y</translation>
+<translation id="4930106154893104117">Neplatný požadavek</translation>
 <translation id="3453833142586986467">Vybrat token</translation>
 <translation id="4937657825850660613">Polovinu</translation>
 <translation id="7639814793732182496">Max</translation>
 <translation id="6584782231358487640">Zadejte částku</translation>
 <translation id="477281933640372562">Načítání nabídky</translation>
 <translation id="5450317966495183014">Dostanete (přibližně)</translation>
+<translation id="387870937508841726">Dostanete (min.)</translation>
 <translation id="8747614139273050577">Z tokenu</translation>
 <translation id="1726158192333401896">Na token</translation>
 <translation id="1817370679212109974">Nová nabídka za <ph name="COUNTDOWN"/></translation>
@@ -1655,6 +1686,7 @@
 <translation id="8044899503464538266">Pomalu</translation>
 <translation id="3569512916300900704">Average</translation>
 <translation id="7019805045859631636">Rychle</translation>
+<translation id="1345580220012169610">Odhadovaný poplatek</translation>
 <translation id="632241521608275119">Tolerance posunu</translation>
 <translation id="6778140392042462129">Burzy</translation>
 <translation id="6173494033320397682">Pouze přímé směny</translation>
@@ -1708,6 +1740,9 @@
 <translation id="6276584161122912863">Cena za gas</translation>
 <translation id="6132197290665156212">Odhadovaný síťový poplatek</translation>
 <translation id="1788636309517085411">Použít výchozí</translation>
+<translation id="3968375068626660591">Tento poplatek za gas nahradí původní.</translation>
+<translation id="1661088862481901887">To vytvoří novou transakci s novým poplatkem za gas, který přepíše a zruší čekající transakci. Zrušení je možné pouze v případě, že je transakce stále čekající v síti.</translation>
+<translation id="5797060124625958778">Priorita rychlosti</translation>
 <translation id="6213230117190778270">Obrdžet</translation>
 <translation id="6748108480210050150">From</translation>
 <translation id="4875290286426670462">Neomezené <ph name="ASSET_SYMBOL"/></translation>
@@ -1737,7 +1772,6 @@
 <translation id="2410455471299328417">Tuto službu poskytuje <ph name="BOLD_BEFORE"/>Blowfish.xyz<ph name="BOLD_AFTER"/> a podléhá jejich <ph name="TERMS_LINK_BEFORE"/>Smluvním podmínkám<ph name="TERMS_LINK_AFTER"/> a<ph name="PRIVACY_POLICY_LINK_BEFORE"/>Zásadám ochrany osobních údajů<ph name="PRIVACY_POLICY_LINK_AFTER"/></translation>
 <translation id="8688672835843460752">Available</translation>
 <translation id="5296640085393149413">Prostředky, které můžete použít.</translation>
-<translation id="3248185426436836442">Probíhá</translation>
 <translation id="2515906149804238711">Čekající změna zůstatku v peněžence.</translation>
 <translation id="7700365440186054030">Vaše dostupné prostředky plus všechny dosud nepotvrzené transakce.</translation>
 <translation id="4118601537508887039">Některé zůstatky mohou být nedostupné</translation>
@@ -1803,10 +1837,14 @@
 <translation id="7747318989577709780">Účet se synchronizuje</translation>
 <translation id="9086302186042011942">Synchronizace</translation>
 <translation id="99991973626409495">Zkontrolovat štít</translation>
+<translation id="6779429520470417361">Zkontrolovat zrušení stínění</translation>
 <translation id="3114681061018999547">Chrání se</translation>
+<translation id="1564172583156967455">Zrušení stínění</translation>
 <translation id="8897189056319316783">Štít ZEC</translation>
+<translation id="508249542337194541">Zrušit stínění ZEC</translation>
 <translation id="3382275793825152362">Finance chráněné štíty</translation>
 <translation id="8631765320256788981">Posíláte finance ze svého transaprentního účtu na svůj účet chráněný štíty.</translation>
+<translation id="3860364671495430495">Posíláte finance ze svého chráněného účtu na svůj transparentní účet.</translation>
 <translation id="7144878232160441200">Opakovat</translation>
 <translation id="9094621390791852268">Náhled transakce se nezdařil.</translation>
 <translation id="4982713341035600933">Odhadovaná změna zůstatku</translation>
@@ -2084,6 +2122,8 @@ other {# zdrojů}
 <translation id="4292565651642921086">Zaměřit další skupinu karet</translation>
 <translation id="874783686573493196">Zaměřit předchozí skupinu karet</translation>
 <translation id="9169594135889675189">Přidat novou kartu do skupiny</translation>
+<translation id="1722567105086139392">Odkaz</translation>
+<translation id="4729794914864902904">Zrušit propojení</translation>
 <translation id="1926106318101432555">Otevřít záložku…</translation>
 <translation id="6118819645013156507">Přepnout na okno…</translation>
 <translation id="1623204575967809688">Sloučit aktuální okno do…</translation>
@@ -2109,6 +2149,7 @@ other {# zdrojů}
 <translation id="5329136173514538969">Zrušit rozdělení karet</translation>
 <translation id="7595612919377246359">Vyměnit pozice karet</translation>
 <translation id="2367972762794486313">Zobrazit aplikace</translation>
+<translation id="3468387898712904997">Nový e-mailový alias</translation>
 <translation id="8591883849678260674">Zobrazit originál</translation>
 <translation id="1969654232209826429">min. čtení</translation>
 <translation id="4101707289420716287">Vypnout Speedreader</translation>
@@ -2142,16 +2183,15 @@ other {# zdrojů}
 <translation id="5872363163901278000">Zvýšit rychlost přehrávání</translation>
 <translation id="6129027151000961048">Leo</translation>
 <translation id="8637805148029768813">Funkce tvůrce shrnutí je momentálně dostupná pouze pro vybrané články a další webové stránky typu long-form.</translation>
-<translation id="1223498995510244364">Shrnout</translation>
 <translation id="7491773233732232424">O Leo</translation>
 <translation id="4611072979071082355">iBrowe Leo je soukromý asistent s umělou inteligencí, který vám usnadní používání webu. Leo je k dispozici zdarma s omezeným přístupem. iBrowe Leo Premium nabízí více modelů, vyšší limity a poskytuje předplatitelům časný přístup k novým funkcím. Výchozí model se čas od času mění. Další podrobnosti viz <ph name="LINK_BEFORE"/>Centrum nápovědy iBrowe<ph name="LINK_AFTER"/>.</translation>
 <translation id="7297056998057521697">Když ve výchozím nastaven položíte Leovi otázku týkající se prohlížené webové stránky, bude její obsah nebo jakýkoli text, který na stránce zvýrazníte, a také váš vyhledávací dotaz odeslán na servery společnosti iBrowe, aby vám Leo mohl poskytnout odpověď. V některých případech odešle Leo dotazy odvozené z vašeho zadání do vyhledávače iBrowe a použije výsledky vyhledávání k lepšímu zodpovězení vašeho dotazu. iBrowe nezaručuje přesnost odpovědí a odpovědi mohou obsahovat nepřesné, zavádějící nebo nepravdivé informace. Do vyhledávače iBrowe Leo nezadávejte citlivé nebo soukromé informace a v případě odpovědí týkajících se zdraví, financí, osobní bezpečnosti apod. buďte obezřetní. Nastavení Lea můžete kdykoli upravit. Přejděte do Nastavení a zvolte možnost Leo.</translation>
 <translation id="6644545214304085600">Leo neshromažďuje identifikátory, jako je vaše IP adresa, které by bylo možné s vámi spojit. Naše modely netrénujeme na základě vašich údajů, včetně vašich dotazů vyhledávání nebo Leových odpovědí. Na našich serverech nejsou ukládány žádné osobní údaje, ani je společnost iBrowe neuchovává. Další informace naleznete v našich <ph name="LINK_BEFORE"/>zásadách ochrany osobních údajů<ph name="LINK_AFTER"/>.</translation>
 <translation id="4348006373172097089">{PAGE_COUNT, plural,
-      one {}
-      few {Ask a question about the content of these pages}
-      many {Ask a question about the content of these pages}=1 {Ask a question about the content of this page}
-      other {Ask a question about the content of these pages}
+      =1 {Položit otázku k obsahu této stránky}
+      few {Položit otázku k obsahu těchto stránek}
+      many {Položit otázku k obsahu těchto stránek}
+      other {Položit otázku k obsahu těchto stránek}
     }</translation>
 <translation id="6961721183181597848">Jak vám dnes mohu pomoci?</translation>
 <translation id="2966135729673253768">Kontaktujte nás</translation>
@@ -2160,10 +2200,10 @@ other {# zdrojů}
 <translation id="4524675003624341892">Navrhnout otázky…</translation>
 <translation id="4567071417854988869">Shrnout toto video</translation>
 <translation id="4264902191243445258">{PAGE_COUNT, plural,
-      one {}
-      few {Summarize these pages}
-      many {Summarize these pages}=1 {Summarize this page}
-      other {Summarize these pages}
+      =1 {Shrnutí této stránky}
+      few {Shrnutí těchto stránek}
+      many {Shrnutí těchto stránek}
+      other {Shrnutí těchto stránek}
     }</translation>
 <translation id="7921782882718083488">Shrnout tuto stránku</translation>
 <translation id="7932221068776853847">Odpojením ukončíte odesílání obsahu této stránky asistentovi Leo a zahájíte novou konverzaci</translation>
@@ -2177,14 +2217,25 @@ other {# zdrojů}
 <translation id="8151638057146502721">Konfigurovat</translation>
 <translation id="999273441077650169">Model se dynamicky mění, aby použil ten nejlepší pro daný úkol.<ph name="LINK_BEFORE"/>Dozvědět se více<ph name="LINK_AFTER"/></translation>
 <translation id="1238020084128916796">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Llama 3.1 8B, který vytvořila společnost Meta, aby byl výkonný a použitelný v mnoha případech. Model Llama je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
-<translation id="7127671672828944579">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Qwen 14B, který vytvořila společnost Alibaba Cloud, aby byl výkonný a použitelný v mnoha případech. Model Qwen je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
-<translation id="2328524194917949829">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Gemma 3 12B, který vytvořila společnost Google DeepMind, aby byl výkonný a použitelný v mnoha případech. Model Gemma je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
-<translation id="634682910381645550">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model DeepSeek R1, který vytvořila společnost DeepSeek pro provádění hlubokých úkolů uvažování. Model DeepSeek R1 je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
-<translation id="8932568551552504373">Dobrý den, jsem Leo.Jsem AI asistentem od iBrowe. Využívám model Claude Instant, který vytvořila společnost Anthropic ke zpracování úloh konverzace a zpracování textu. Model Claude Instant je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="3852808100039989429">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Qwen VL 30B, který vytvořila společnost Alibaba Cloud, aby byl výkonný a použitelný v mnoha případech. Model Qwen je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="6406961656408495869">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model DeepSeek V3.1, který vytvořila společnost DeepSeek, aby byl výkonný a použitelný v mnoha případech. Model DeepSeek V3.1 je hostován na NEAR prostřednictvím jejich ověřitelně soukromé zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="8932568551552504373">Ahoj, jsem Leo. Jsem AI asistent od iBrowe. Mě pohání Claude Instant, model vytvořený společností Anthropic pro konverzační a textové úkoly. Claude Instant je hostován iBrowe na vlastní zabezpečené infrastruktuře.<ph name="LINK_BEFORE"/>Více informací<ph name="LINK_AFTER"/></translation>
 <translation id="3789772321824682783">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Claude Haiku, který vytvořila společnost Anthropic ke zpracování úloh konverzace a zpracování textu. Model Claude Haiku je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
 <translation id="1778885220602472158">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Claude Sonnet, který vytvořila společnost Anthropic ke zpracování úloh konverzace a zpracování textu. Model Claude Sonnet je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="1058830842518828124">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Llama 4 Scout, který vytvořila společnost Meta, aby byl výkonný a použitelný v mnoha případech. Model Llama 4 Scout je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="6277330815126859513">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Llama 4 Maverick, který vytvořila společnost Meta, aby byl výkonný a použitelný v mnoha případech. Model Llama 4 Maverick je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="5833148755396048122">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model GPT OSS 20B, který vytvořila společnost OpenAI, aby byl výkonný a použitelný v mnoha případech. Model GPT OSS 20B je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="5414593137581221307">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model GPT OSS 120B, který vytvořila společnost OpenAI, aby byl výkonný a použitelný v mnoha případech. Model GPT OSS 120B je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="5037359072717016032">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Mistral Large, který vytvořila společnost Mistral, aby byl výkonný a použitelný v mnoha případech. Model Mistral Large je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="8947618429500471804">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Pixtral Large, který vytvořila společnost Mistral, aby byl výkonný a použitelný v mnoha případech. Model Pixtral Large je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="4026902371301997261">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Qwen 3 235B, který vytvořila společnost Alibaba Cloud, aby byl výkonný a použitelný v mnoha případech. Model Qwen 3 235B je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="768541432895104346">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Deepseek V3.1, který vytvořila společnost Deepseek, aby byl výkonný a použitelný v mnoha případech. Model Deepseek V3.1 je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="3767678495358551728">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Qwen 3 Coder 480B, který vytvořila společnost Alibaba Cloud, aby byl výkonný a použitelný v mnoha případech. Model Qwen 3 Coder 480B je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="3369866806475938617">Dobrý den, jsem Leo. Jsem AI asistentem od iBrowe. Využívám model Claude Opus, který vytvořila společnost Anthropic ke zpracování úloh konverzace a zpracování textu. Model Claude Opus je hostován společností iBrowe prostřednictvím vlastní zabezpečené infrastruktury.<ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
 <translation id="963346402440669081">Premium</translation>
 <translation id="5807427080183870259">Místní</translation>
+<translation id="830868413617744215">Beta</translation>
+<translation id="4773408460773097271">Ollama</translation>
 <translation id="631371844654031449">Doporučené modely</translation>
 <translation id="6568044140836233369">Zobrazit všechny modely</translation>
 <translation id="6187065185557150870">Chat</translation>
@@ -2193,6 +2244,7 @@ other {# zdrojů}
 <translation id="7557539689487606886">Přejít na Premium</translation>
 <translation id="1691256669639196606">Správa předplatného</translation>
 <translation id="3840096463915153852">Historie konverzací</translation>
+<translation id="6761921176674289184">Spravovat paměti</translation>
 <translation id="2304783958703511257">Pokročilá nastavení</translation>
 <translation id="3037594989275592390">Jazykové modely</translation>
 <translation id="5543505256451301851">Vyzkoušet 7 dní zdarma</translation>
@@ -2217,6 +2269,7 @@ other {# zdrojů}
 <translation id="9109355817507033196">Odpověď se nelíbí</translation>
 <translation id="4049425842478222936">Odpověď se líbí</translation>
 <translation id="6393149565874086128">Přidat zpětnou vazbu</translation>
+<translation id="4621961534325272682">Konverzace zkopírována do schránky</translation>
 <translation id="3521125531016408657">Odpověď se líbí</translation>
 <translation id="8202517001427388906">Odpověď se nelíbí</translation>
 <translation id="1379399209929302811">Odeslat zpětnou vazbu k umělé inteligenci iBrowe</translation>
@@ -2229,6 +2282,24 @@ other {# zdrojů}
 <translation id="7488762544858401571">Upraveno</translation>
 <translation id="5604254791550001355">Upravit výzvu</translation>
 <translation id="8115786586976830777">Zkopírovat výzvu</translation>
+<translation id="3666616415490815310">Uložit jako dovednost</translation>
+<translation id="6574544364990812112">Moje dovednosti</translation>
+<translation id="6696824203401957025">Nová dovednost</translation>
+<translation id="6410279677882692627">Dovednosti se zobrazí v nástrojích [/] a jsou přístupné pouhým zadáním níže nastaveného "/name".</translation>
+<translation id="1344606707744657196">Model pro pohotové řešení</translation>
+<translation id="8458341576712814616">Zkratka</translation>
+<translation id="1326559827339317236">Zde zadejte svou zkratku</translation>
+<translation id="5032574515228824816">Prompt</translation>
+<translation id="2573797314568446575">Zde zadejte svou výzvu</translation>
+<translation id="900733896273558337">Upravit dovednost</translation>
+<translation id="7662963028545588801">Odstranit dovednost</translation>
+<translation id="4209790625997566418">Opravdu chcete tuto dovednost odstranit? Tuto akci nelze vzít zpět.</translation>
+<translation id="7161540406494327389">Je vyžadována zkratka</translation>
+<translation id="3722223049736774445">Zkratka může obsahovat pouze písmena, číslice, podtržítko a pomlčku.</translation>
+<translation id="6997214168632888867">Zkratka musí mít maximálně 64 znaků</translation>
+<translation id="2806891468525657116">Zkratka již existuje</translation>
+<translation id="5497501845974700950">Je vyžadována výzva</translation>
+<translation id="5642369858603376334">Výzva musí mít maximálně 5000 znaků</translation>
 <translation id="1406205536570262057">Upravit odpověď</translation>
 <translation id="3386725253392845084">Opakovat stejný model</translation>
 <translation id="2461822463642141190">Aktuální</translation>
@@ -2243,6 +2314,8 @@ other {# zdrojů}
 <translation id="6495402307502950726">Vymazat konverzaci</translation>
 <translation id="903201991022343217">Zahájit novou konverzaci</translation>
 <translation id="8171760814579050200">Přejmenovat konverzaci</translation>
+<translation id="402386227879573975">Kopírovat celou konverzaci</translation>
+<translation id="5397794290049113714">Vy</translation>
 <translation id="7754678742055438573">Odstranit konverzaci</translation>
 <translation id="1946267518364740045">Odůvodnění...</translation>
 <translation id="4198859185714743678">Odůvodnění dokončeno</translation>
@@ -2254,7 +2327,8 @@ other {# zdrojů}
 <translation id="1243966363662220847">Zpětná vazba k odpovědi</translation>
 <translation id="7417895556119762861">Když odpovědi dáte lajk nebo dislajk, odešlete společnosti iBrowe hodnocení, konverzaci, model, jazyk, verzi a prémiový stav, aby bylo možné Lea vylepšit. <ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
 <translation id="7494736170250048402">Odeslat Leovi zprávu</translation>
-<translation id="4084869091337186002">Zprostředkovatel obsahu umělé inteligence, Leo, je v tomto profilu vždy povolen</translation>
+<translation id="6222803935921999130">Otevřít profilové okno procházení pomocí AI</translation>
+<translation id="1530903352777607099">Zprostředkovatel obsahu umělé inteligence, Leo, je v tomto profilu vždy povolen</translation>
 <translation id="8650874793377330048">Zastavit odpovědi</translation>
 <translation id="8712637175834984815">Hotovo</translation>
 <translation id="1093419424466417703">Stránka je pro Leo příliš dlouhá. V rozhovoru může chybět nějaký kontext. Leo zvládl z obsahu stránky přečíst <ph name="PERCENTAGE"/>.</translation>
@@ -2266,31 +2340,42 @@ other {# zdrojů}
 <translation id="7307396647043599949"><ph name="COUNT"/> další(ch)…</translation>
 <translation id="8103700533980268469">Zavřít toto oznámení</translation>
 <translation id="3417835166382867856">Vyhledávat v kartách</translation>
+<translation id="3828029223314399057">Vyhledávání záložek</translation>
+<translation id="381480092025168632">Historie vyhledávání v prohlížeči</translation>
+<translation id="7311244614769792472">Nebyly nalezeny žádné výsledky</translation>
+<translation id="3112448569149476523">Zkuste jiný vyhledávač</translation>
 <translation id="1352836459737874921">Připnutí obsahu z ostatních karet</translation>
-<translation id="3028258613451571431">Pošlete obsah internetových stránek z karty prohlížeče, a poskytněte tak Leovi více kontextu pro konverzaci</translation>
-<translation id="4300920590112551536">Karty prohlížeče</translation>
-<translation id="1446346932629101482">Pro lepší souvislosti přidejte obsah karty. Obsah bude odeslán Leovi spolu s vašimi zprávami.</translation>
-<translation id="7193316103691252734">Žádné odpovídající karty</translation>
+<translation id="7173836072258346701">Připojení obsahu ze záložek</translation>
+<translation id="163680814308917875">Připojení obsahu z historie prohlížeče</translation>
+<translation id="7039179822221107025">Pošlete obsah internetových stránek z karty prohlížeče, a poskytněte tak Leovi více kontextu pro konverzaci.</translation>
+<translation id="1602382615168212961">Odesílejte obsah stránek z karet v záložkách, abyste Leovi poskytli více souvislostí pro konverzaci.</translation>
+<translation id="4808122506413075135">Odešlete obsah stránky z historie prohlížeče, abyste Leovi poskytli více souvislostí pro konverzaci.</translation>
+<translation id="220541218939267992">Obsah stránky bude odeslán Leovi společně s vašimi zprávami.</translation>
+<translation id="2152389270152475874">Přidejte karty, záložky nebo historii pro poskytnutí kontextu. Vybraný obsah bude odeslán Leovi spolu s vašimi zprávami.</translation>
 <translation id="2315654674554095762">Leo si nyní bude pamatovat vaše konverzace, abyste se k nim mohli vracet. Jsou uloženy šifrované ve vašem zařízení a můžete je kdykoli smazat.</translation>
 <translation id="7821251979960635244">Po zahájení konverzace se zde zobrazí historie vašich konverzací.</translation>
 <translation id="887511360213807449">Historie je vypnutá</translation>
 <translation id="5380979378058584412">Chcete-li zobrazit své předchozí konverzace se službou Leo, musíte povolit historii konverzací.</translation>
-<translation id="6291843235651817590">Obecný chat</translation>
+<translation id="7348809809749151120">Rychlý • Vyhledávač</translation>
 <translation id="3185367320601718531">Konverzace a generování textu</translation>
-<translation id="7979673624064378842">Bleskově rychlý chat</translation>
-<translation id="2836330653441111204">Vyvážená rychlost a inteligence</translation>
-<translation id="6695329447007213917">Obecný chat, kódování a další</translation>
-<translation id="7168072214482631597">Obecné porozumění textu a obrázkům</translation>
-<translation id="7226508434216060960">Model uvažování</translation>
+<translation id="2793458212460902934">Rychlý • Vyhledávač • Nástroje</translation>
+<translation id="8506027496671575183">Vyhledávač • Vize • Nástroje</translation>
+<translation id="3184606955650139158">Rychlý • Vyhledávač • Vize</translation>
+<translation id="7465032796278724624">Ověřitelný soukromý režim s NEAR AI TEE</translation>
 <translation id="8782867266498869301">Model se dynamicky mění, aby použil ten nejlepší pro danou úlohu</translation>
+<translation id="3213834013136637671">Vyhledávač • Vize</translation>
 <translation id="3965507912994218570">Nastavení asistenta Leo</translation>
-<translation id="1037324977127422019">Ahoj, já jsem Leo!</translation>
-<translation id="8930348081963284873">Asistent s umělou inteligencí zabudovaný přímo do prohlížeče iBrowe.</translation>
-<translation id="3528849152231418380">Potřebujete pomoci s webovými stránkami?</translation>
-<translation id="1558192229187362674">Dokážu vytvářet shrnutí, rozšířit obsah webu a mnoho dalšího.</translation>
-<translation id="861953757568623294">Dokážu vytvářet shrnutí, rozšířit obsah webu a mnoho dalšího. Nevíte, kde začít? Zkuste třeba:</translation>
-<translation id="5642775487085641191">Chcete si jen popovídat?</translation>
-<translation id="8857222718794549840">Zeptejte se mě na cokoli! Můžeme si popovídat o jakémkoli tématu. Stále se učím a zdokonaluji, abych mohl poskytovat lepší odpovědi.</translation>
+<translation id="3754337604877048671">Představujeme Leo AI</translation>
+<translation id="5295261408976371809">Váš <ph name="TEXT_BEFORE"/>soukromý<ph name="TEXT_AFTER"/> AI asistent, přímo vestavěný do prohlížeče.</translation>
+<translation id="7452913484571004528">Opravdu soukromá AI</translation>
+<translation id="8525501048785085223">Leo neukládá ani nesdílí konverzace, a nepoužívá je k tréninku modelu. Není vyžadován žádný účet ani přihlášení. Stačí otevřít a začít chatovat. Soukromě.</translation>
+<translation id="6401201054391523929">Chatujte se svými panely a soubory</translation>
+<translation id="8522038408130089105">Potřebujete více informací o stránkách, které navštěvujete? Stačí je přidat do chatu. Přiložte své panely a místní soubory pro rychlé a relevantní odpovědi.</translation>
+<translation id="3844955602461425647">Automatizujte nudnou práci</translation>
+<translation id="2196247864500723577">Nechte iBrowe prohlížet s vámi a interagovat se vším, co v prohlížeči děláte. Přenechte nudné úkony a ušetřete čas pro důležité záležitosti.</translation>
+<translation id="235457946228076038">Přineste svůj vlastní model</translation>
+<translation id="7024005267156189454">Propojte vlastní AI modely, ať už běží lokálně nebo vzdáleně. Přizpůsobte chování, výstupy a funkce Lea podle svých preferencí.</translation>
+<translation id="7291578285403921288">Zjistit více o Leo AI</translation>
 <translation id="9051226419897869406">Chatujte bez porušení soukromí s iBrowe Leo</translation>
 <translation id="2414904697165579184">Utvářejte odpovědi na základě obsahu karty či karet</translation>
 <translation id="8258324391302611485">Obsah této stránky bude odeslán Leovi společně s vašimi zprávami.</translation>
@@ -2299,6 +2384,7 @@ other {# zdrojů}
 <translation id="8732450785281947197">Nástroje UI Leo</translation>
 <translation id="6535533770697728087">Rychlé akce</translation>
 <translation id="3237710083340813756">Přepsat</translation>
+<translation id="1223498995510244364">Shrnout</translation>
 <translation id="1252805982772190086">Krátký příspěvek</translation>
 <translation id="2087555497198267113">Dlouhý příspěvek</translation>
 <translation id="4170307327863874820">Příspěvek na blogu</translation>
@@ -2325,7 +2411,9 @@ other {# zdrojů}
 <translation id="4250229828105606438">Snímek obrazovky</translation>
 <translation id="7949596341600215809">Snímek celé stránky</translation>
 <translation id="6332876390231524389">Obsah aktuální karty</translation>
-<translation id="7742969455167760092">Otevřené karty...</translation>
+<translation id="6397861830483632092">Otevřené karty…</translation>
+<translation id="802080272588201037">Záložky…</translation>
+<translation id="2716127283451902393">Historie…</translation>
 <translation id="49269513399674318">Použít mikrofon</translation>
 <translation id="3895031624234442305">Vlastní modely</translation>
 <translation id="4572010449071015143">Zahájit novou konverzaci</translation>
@@ -2337,13 +2425,47 @@ other {# zdrojů}
 <translation id="2593275000606533518">Spavovat vše</translation>
 <translation id="8410199626695516952">Dobře, to si nebudu pamatovat</translation>
 <translation id="8419849467765474535">Nepodařilo se uložit paměť. Zkuste to prosím znovu.</translation>
+<translation id="5517580030864973329">Přechod na novou adresu webové stránky</translation>
+<translation id="9197920788851078696">Navigace na webovou stránku <ph name="URL"/></translation>
+<translation id="5095252080770652994">Progress</translation>
+<translation id="8332385567036775056">Kroky</translation>
+<translation id="4521931942079977149">Kliknutí na stránku</translation>
+<translation id="7732267913911704962">Přetahování na stránce</translation>
+<translation id="7703800915509570212">Navigace zpět</translation>
+<translation id="4875586490950981498">Navigace vpřed</translation>
+<translation id="738881387603843066">Pohyb myší</translation>
+<translation id="4850669014075537160">Rolování</translation>
+<translation id="1265072406500460724">Výběr z rozevírací nabídky</translation>
+<translation id="7573920298077917439">Psaní textu</translation>
+<translation id="4089034800311309656">Čekání na stránku</translation>
+<translation id="4798146464408730445">Nebyly nalezeny žádné dovednosti. Vytvořte novou kliknutím na tlačítko "Nová".</translation>
+<translation id="271033894570825754">Nový</translation>
+<translation id="8266605059880650542">Zaznamenání některých informací o stránce pro pozdější použití</translation>
+<translation id="5103625298494362646">Režim AI procházení funguje s modely, které podporují nástroje. Nepodporované modely jsou v tomto seznamu skryty.</translation>
+<translation id="3397808797783614750">Povolení AI, aby pro vás automaticky prohledávala web, může mít škodlivé a nechtěné důsledky pro vaše soukromí, finanční prostředky a online komunikaci. <ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
+<translation id="4522025297473237294">Bezpečnostní varování</translation>
+<translation id="6077070599873946984">iBrowe AI potřebuje vaše oprávnění k: <ph name="TOOL_LABEL"/></translation>
+<translation id="4163837693685963037">Operace byla vyhodnocena jako potenciálně neodpovídající vašemu požadavku:</translation>
+<translation id="3927932062596804919">Odmítnout</translation>
+<translation id="4569155249847375786">Ověřeno</translation>
+<translation id="8200772114523450471">Pokračovat</translation>
+<translation id="7607002721634913082">Pozastaveno</translation>
+<translation id="4773299976671772492">Zastaveno</translation>
+<translation id="6946722113367118030">Přemýšlím</translation>
+<translation id="2113810663179257944">Spuštění kódu</translation>
+<translation id="6338250692384725496">Spuštěn kód v izolovaném prostředí pro pomoc s vaším dotazem</translation>
+<translation id="4379566111233326721">Kód:</translation>
+<translation id="3542130965673205258">Výstup:</translation>
+<translation id="3428245742224818842">Prohlížení pomocí AI</translation>
+<translation id="2854657728271352435">O profilu pro prohlížení pomocí AI</translation>
+<translation id="2301685062527585986">Aby byly vaše data v bezpečí, tento izolovaný profil pro prohlížení pomocí AI zajišťuje, že AI agent nemá přístup k vašemu hlavnímu profilu pro prohlížení. Má oprávnění pouze k návštěvě a interakci se stránkami podle potřeby. Můžete zvýšit svou produktivitu tím, že mu zadáte úkoly a necháte ho prohlížet za vás.</translation>
+<translation id="648116453147783450">Vaše data a relace</translation>
+<translation id="4879348540868082026">Pokud se na webové stránky přihlásíte pomocí tohoto profilu, AI agent pro prohlížení v iBrowe může vidět informace na těchto stránkách, pokud jsou otevřené — ať už je navštěvuje sám, nebo když jej požádáte, aby na nich něco udělal.</translation>
+<translation id="5583803492921648196">Přepnout zpět</translation>
+<translation id="864117099189791993">Můžete se kdykoli přepnout zpět na svůj běžný profil v hlavní nabídce nebo v nabídce profilu na panelu nástrojů. Prohlížení pomocí AI se vždy otevře v profilu pro prohlížení pomocí AI.</translation>
 <translation id="3486480638399578250">Chraňte svou osobní e-mailovou adresu</translation>
 <translation id="7765422154906712751">Vytvářejte jedinečné, náhodné adresy, které přeposílají na váš iBrowe účet a mohou být kdykoli odstraněny. Uchovejte skutečnou e-mailovou adresu skrytou před inzerenty.</translation>
-<translation id="5222676887888702881">Odhlásit se</translation>
-<translation id="8090292425230843109">Odhlásit se z E-mailových aliasů</translation>
-<translation id="8471990782451394141">Připojování k iBrowe účtu...</translation>
 <translation id="71316462802471551">E-mailové aliasy</translation>
-<translation id="5713644099811900409">iBrowe účet</translation>
 <translation id="6002159997868894136">Kliknutím zkopírujete alias</translation>
 <translation id="8105770564756958406">Používáno <ph name="DOMAINS"/></translation>
 <translation id="5006956315579221642">Vytvořte až 5 bezplatných e-mailových aliasů, abyste ochránili svou skutečnou e-mailovou adresu.</translation>
@@ -2367,8 +2489,8 @@ other {# zdrojů}
 <translation id="646524615209870492">Odstraní alis <ph name="ALIAS"/>, což povede ke ztrátě možnosti přijímat e-maily.</translation>
 <translation id="8133100642915054515">Chyba při odstraňování aliasu. Zkontrolujte připojení k internetu a zkuste to znovu.</translation>
 <translation id="8465742443901727718">Tuto akci nelze vrátit zpět. Jste si jisti, že chcete pokračovat?</translation>
-<translation id="8662104432574824754">Pro začátek se přihlaste nebo si vytvořte iBrowe účet</translation>
-<translation id="8069030342700068465">Zadejte svou e-mailovou adresu, abyste získali bezpečný přihlašovací odkaz, který vám bude zaslán na váš e-mail. Kliknutím na tento odkaz buď vytvoříte, nebo získáte přístup k iBrowe účtu a umožní vám používat bezplatnou službu E-mailové aliasy.</translation>
+<translation id="9162685486229945876">Přihlaste se nebo si vytvořte iBrowe účet</translation>
+<translation id="1335007417599138852">iBrowe účet vám umožní přístup k určitým produktům iBrowe a snadné synchronizaci informací na všech vašich zařízeních.</translation>
 <translation id="2133391407495495735">Získat přihlašovací odkaz</translation>
 <translation id="2650906829817220223">Chyba při vyžadování ověření. Zkontrolujte připojení k internetu a zkuste to znovu.</translation>
 <translation id="3699624789011381381">E-mailová adresa</translation>
@@ -2382,6 +2504,10 @@ other {# zdrojů}
 <translation id="7508412964869396375">Ze služby iBrowe Accounts nebyl obdržen žádný ověřovací token.</translation>
 <translation id="3179527991526213624">Žádná odpověď ze služby iBrowe Accounts</translation>
 <translation id="7911439408853154309">Ověření e-mailu se nezdařilo</translation>
+<translation id="2595463802839066496">Služba Email Aliases neodpovídá</translation>
+<translation id="367191282389216837">Neplatná odpověď služby Email Aliases</translation>
+<translation id="7203490731644771170">Chyba služby Email Aliases: <ph name="ERROR"/></translation>
+<translation id="8767862600155091621">Chyba: Alias není k dispozici</translation>
 <translation id="8370801182970639038">Automaticky (<ph name="LOCALE"/>)</translation>
 <translation id="8343473178272604223">Povolit vyhledávače</translation>
 <translation id="8285901519864208412">Skrýt kartu Odměny</translation>
@@ -2397,7 +2523,7 @@ other {# zdrojů}
 <translation id="466214682712474574">Pro zobrazení zůstatku se přihlaste ke svému účtu <ph name="PROVIDER"/></translation>
 <translation id="8332875111286275890">Pro zobrazení zůstatku se přihlaste</translation>
 <translation id="5430001801813715388">ODMĚNY</translation>
-<translation id="5966055668402779222">Zeptat se Vyhledávače iBrowe</translation>
+<translation id="2430295257226173518">Ptejte se na cokoli a najděte vše, co hledáte…</translation>
 <translation id="167018310108390163">Přizpůsobit novou stránku</translation>
 <translation id="6851426306697017546">Zobrazit hodiny</translation>
 <translation id="4844370919312937270">Zobrazit widget pro vyhledávání na nových kartách</translation>
@@ -2427,8 +2553,19 @@ other {# zdrojů}
 <translation id="8458987127502506209">Aktivovat štíty iBrowe</translation>
 <translation id="8443488493738411048"><ph name="STATUS_BEFORE"/>Štíty jsou zapnuty<ph name="STATUS_AFTER"/> pro tuto stránku</translation>
 <translation id="2458631245058451506"><ph name="STATUS_BEFORE"/>Štíty jsou vypnuty<ph name="STATUS_AFTER"/> pro tuto stránku</translation>
-<translation id="5623354834493649144">Pokud se stránka nezobrazuje správně, zkuste vypnout Štíty.
-   <ph name="NOTE_BEFORE"/>Poznámka: to může způsobit omezení ochrany soukromí iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="4724752924364329714">Pokud se vám tento web zdá nefunkční, zkuste vypnout štít.</translation>
+<translation id="3992385019509961907"><ph name="NOTE_BEFORE"/>Poznámka: může to omezit ochranu soukromí iBrowe.<ph name="NOTE_AFTER"/></translation>
+<translation id="3620004479054499575">Máte s tímto webem problémy?</translation>
+<translation id="9176447766421988172">Zkoušíme experiment, který má zvýšit kompatibilitu webových stránek a při kterém ponecháváme povoleno pouze blokování reklam. Upozornění: Odstraní všechny ochrany soukromí. Chcete to vyzkoušet? <ph name="LINK_BEFORE"/>Více informací<ph name="LINK_AFTER"/>.</translation>
+<translation id="5372101283158221516">Vezměte prosím na vědomí, že u jednotlivých webových stránek, které jsou narušeny ochranou soukromí iBrowe, můžete nastavit štít na hodnotu DOLŮ.</translation>
+<translation id="2850777974644218370">Povolení režimu Pouze blokování reklam</translation>
+<translation id="6623668214089604469">Funguje nyní web správně?</translation>
+<translation id="8978860854770042258">Pokud je tato stránka stále nefunkční, zvažte prosím zaslání zprávy.</translation>
+<translation id="4677356505199464553">Vypadá to dobře</translation>
+<translation id="1992750560347846445">Stránka pro nahlašování</translation>
+<translation id="2863270180245144869">Režim Pouze blokování reklam povolen</translation>
+<translation id="3773808439655997805">Aktuálně používáte režim Pouze blokování reklam. Tento režim pouze blokuje reklamy (pokud jsou Štíty AKTIVNÍ). Pokud se chcete vrátit k plnému režimu Štítů, deaktivujte tento režim v nastavení.</translation>
+<translation id="4820891023903368625">Blokování reklam <ph name="LINK_BEFORE"/>Více informací<ph name="LINK_AFTER"/></translation>
 <translation id="8377155647357436161">Počet zablokovaných sledovačů, reklam, atd. <ph name="LINK_BEFORE"/>Další informace<ph name="LINK_AFTER"/></translation>
 <translation id="7604553853176833536">Ochrana štíty iBrowe není zapnuta <ph name="LINK_BEFORE"/>Zjistit více<ph name="LINK_AFTER"/></translation>
 <translation id="650318023204990401">Pokročilé nastavení</translation>
@@ -2444,6 +2581,12 @@ other {# zdrojů}
 <translation id="3570081523466826008">Upgradovat spojení k HTTPS</translation>
 <translation id="131231380815754440">Aktivovat HTTPS</translation>
 <translation id="4824468494729001999">Blokovat skripty</translation>
+<translation id="5465091511225410553">(vynuceno)</translation>
+<translation id="8646614940337543907">(vynuceno rozšířením)</translation>
+<translation id="3559821445144429594">(vynuceno zásadou)</translation>
+<translation id="550374350047782149">(vynuceno seznamem výjimek)</translation>
+<translation id="68858161161918073">(vynuceno správcem)</translation>
+<translation id="5735057546627037489">(vynuceno pomocí PWA)</translation>
 <translation id="3246600097575692802">Aktivovat blokování skriptů</translation>
 <translation id="3603525299146223354">Sledovače a reklamy</translation>
 <translation id="4448697385961650078">Blokovat sledování &amp; ads</translation>
@@ -2454,6 +2597,8 @@ other {# zdrojů}
 <translation id="6975864539539353406">Vymaže soubory cookie a další data webu při zavření webové stránky</translation>
 <translation id="6486971767955110687">Ukládat kontaktní údaje pro budoucí hlášení o nefunkčních stránkách</translation>
 <translation id="4085787265464238844">Pokud poskytnete kontaktní údaje, budou uloženy pro budoucí hlášení.</translation>
+<translation id="7740929262043547697">Povolit blokování prvků v soukromých oknech</translation>
+<translation id="1260864846935682371">Povolí funkci Štítů Blokovat prvky v soukromých oknech. Všimněte si, že prvky blokované v soukromých oknech budou blokovány i v běžných oknech.</translation>
 <translation id="6883611015375728278">Blokovat všechny soubory cookie</translation>
 <translation id="5657156137487675418">Povolit všechny soubory cookies</translation>
 <translation id="8366221601425141146">Shromažďování otisků zařízení bylo zablokováno</translation>
@@ -2462,7 +2607,6 @@ other {# zdrojů}
 <translation id="8034285923190068220">Povolit fingerprinting</translation>
 <translation id="7638541189782135885">Neupgradovat HTTP připojení.</translation>
 <translation id="2570787596946026998">Připojit pouze přes HTTPS.</translation>
-<translation id="1992750560347846445">Stránka pro nahlašování</translation>
 <translation id="2387532482048804818">Dejte nám vědět, pokud se stránka nezobrazovala správně se zapnutými štíty.</translation>
 <translation id="3795015906457257780">Tuto stránku procházíte bez ochrany soukromí iBrowe.</translation>
 <translation id="7194012750329511146">Štíty iBrowe odrazily
@@ -2480,6 +2624,9 @@ other {# zdrojů}
       other {Na <ph name="SITE_URL"/> štíty iBrowe zablokovaly # trackerů}
 }</translation>
 <translation id="2540598191934725677">Kliknutím na ikonu iBrowe zobrazíte Štíty iBrowe.</translation>
+<translation id="542789539047208469">Informace o webu</translation>
+<translation id="7586067492365979844">Štíty iBrowe mají nový domov a design. Nyní se integrují s informacemi o webu pro jednotné prostředí.</translation>
+<translation id="9114542678887529043">Štíty iBrowe mají nový domov a design. Přístup k nim získáte kliknutím na ikonu webu v adresním řádku.</translation>
 <translation id="6294662480095808915">Ochrana soukromí. Vždy.</translation>
 <translation id="4366423156486478559">Nastavte si iBrowe jako výchozí prohlížeč a budete mít ochranu od iBrowe při otevření každého odkazu.</translation>
 <translation id="3830912418080848377">Importovat nastavení</translation>
@@ -2491,6 +2638,7 @@ other {# zdrojů}
 <translation id="2273851479262317744">Nastavit iBrowe jako výchozí prohlížeč</translation>
 <translation id="5037676449506322593">Vybrat vše</translation>
 <translation id="5148943178722443958">Pomozte vylepšit iBrowe.</translation>
+<translation id="479535542793009168">Stabilita a diagnostika</translation>
 <translation id="1097073572755862978">Pokud dojde k pádu nebo zamrznutí, odešlete diagnostické hlášení. <ph name="LINK_BEFORE"/>Zjistěte více informací.<ph name="LINK_AFTER"/></translation>
 <translation id="6629244688368006959">Sdílejte soukromé a anonymní produktové informace o tom, jaké uživatelé používají funkce iBrowe. <ph name="LINK_BEFORE"/>Zjistit více.<ph name="LINK_AFTER"/></translation>
 <translation id="7415454883318062233">Nastavení je dokončeno</translation>
@@ -2507,13 +2655,16 @@ other {# zdrojů}
 <translation id="6764845498618413165">Zjistit více.</translation>
 <translation id="7818938154803162778">Jistě, pomohu vám</translation>
 <translation id="7207456302801184289">Vítá vás iBrowe</translation>
-<translation id="6716580298071890302">Použít tmavší motiv</translation>
+<translation id="4988030440045495002">Ultra tmavý motiv</translation>
 <translation id="2422927186524098759">Postranní panel</translation>
 <translation id="2361906291514218784">Umělá inteligence Leo</translation>
 <translation id="7705524343798198388">VPN</translation>
 <translation id="8000020256436988724">Panel nástrojů</translation>
 <translation id="6225572914528673855">Adresní řádek</translation>
+<translation id="6821966107067356137">Přidat RSS kanál</translation>
+<translation id="2478076885740497414">Instalovat aplikaci</translation>
 <translation id="8293206222192510085">Přidat záložku</translation>
+<translation id="1010029336854254368">Nabídka Sdílení</translation>
 <translation id="7758460733045216901">Panel záložek</translation>
 <translation id="958268166261124668">iBrowe VPN: Připojeno</translation>
 <translation id="6021669293402055982">iBrowe VPN: Odpojeno</translation>
@@ -2615,5 +2766,6 @@ Pojďme vás připojit!</translation>
     stávající karty</translation>
 <translation id="451189393813405346">Zeptat se Lea</translation>
 <translation id="1602850501393095406">Zvýrazněte stisknutím symbolu ↑</translation>
+<translation id="8367705492654390392">Zeptejte se na cokoli</translation>
 <translation id="8525248723479742219">Přehrát později</translation>
 </translationbundle>

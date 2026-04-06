@@ -145,6 +145,14 @@
     }
   </message>
   <message name="IDS_BRAVE_WALLET_EXCHANGE_VIA_PROVIDER" desc="Exchange being used via API provider"><ph name="EXCHANGE_NAME"><ex>0x</ex>$1</ph> via <ph name="PROVIDER_NAME"><ex>Li.Fi</ex>$2</ph></message>
+  <message name="IDS_BRAVE_WALLET_CONFIRM_SWAP" desc="Confirm swap title">Confirm swap</message>
+  <message name="IDS_BRAVE_WALLET_CONFIRM_BRIDGE" desc="Confirm bridge title">Confirm bridge</message>
+  <message name="IDS_BRAVE_WALLET_CONFIRM_SEND" desc="Confirm send title">Confirm send</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_PROVIDER " desc="Swap provider label">Provider</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_PROVIDER_STATUS" desc="Swap provider status label in transaction details">Provider status</message>
+  <message name="IDS_BRAVE_WALLET_CONFIRM_SHIELD" desc="Confirm shield title">Confirm shield</message>
+  <message name="IDS_BRAVE_WALLET_CONFIRM_UNSHIELD" desc="Confirm unshield title">Confirm unshield</message>
+  <message name="IDS_BRAVE_WALLET_SPEND" desc="Spend button">Spend</message>
   <message name="IDS_BRAVE_WALLET_SORT_BY" desc="Sort by button label">Sort by</message>
   <message name="IDS_BRAVE_WALLET_REVIEW_BRIDGE" desc="Review bridge button">Review bridge</message>
   <message name="IDS_BRAVE_WALLET_EST_TIME" desc="Bridge and Swap estimated time label">Est time</message>
@@ -165,6 +173,8 @@
   <message name="IDS_BRAVE_WALLET_JUPITER_SWAP_DISCLAIMER_DESCRIPTION" desc="Swap Jupiter Security and Privacy Disclaimer Description">Jupiter will process the Solana address and IP address to fulfill a transaction (including getting quotes). Jupiter will ONLY use this data for the purposes of processing transactions.</message>
   <message name="IDS_BRAVE_WALLET_SWAP_FEES_NOTICE" desc="Swap fees notice">Quote includes a <ph name="SWAP_FEE_PERCENTAGE">$1</ph> iBrowe fee.</message>
   <message name="IDS_BRAVE_WALLET_DECIMAL_PLACES_ERROR" desc="Amount decimal places error">Too many decimal places</message>
+  <message name="IDS_BRAVE_WALLET_MIN_ONE_ADA_ERROR" desc="Minimum required ADA value for sending error">Minimum required is 1 ADA</message>
+  <message name="IDS_BRAVE_WALLET_AMOUNT_TOO_SMALL_ERROR" desc="Send amount is too small error">Send amount is too small</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_DESCRIPTION" desc="Create Account Tab Description">You don’t yet have a <ph name="ACCOUNT_TYPE"><ex>Solana</ex>$1</ph> account. Create one now?</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_YES" desc="Create Account Tab Yes Button">Yes</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_NO" desc="Create Account Tab No Button">No</message>
@@ -218,7 +228,7 @@
   <message name="IDS_BRAVE_WALLET_UNLOCK_ANDROID_DESCRIPTION" desc="Unlock android wallet screen description">Your wallet is locked for your security. Unlock wallet to continue.</message>
   <message name="IDS_BRAVE_WALLET_WALLET_POPUP_SETTINGS" desc="Wallet popup settings button">Settings</message>
   <message name="IDS_BRAVE_WALLET_WALLET_POPUP_LOCK" desc="Wallet popup lock crypto button">Lock wallet</message>
-  <message name="IDS_BRAVE_WALLET_WALLET_POPUP_BACKUP" desc="Wallet popup backup wallet button">Backup Wallet</message>
+  <message name="IDS_BRAVE_WALLET_WALLET_POPUP_BACKUP" desc="Wallet popup backup wallet button">Backup wallet</message>
   <message name="IDS_BRAVE_WALLET_WALLET_POPUP_CONNECTED_SITES" desc="Wallet popup connected sites button">Connected sites</message>
   <message name="IDS_BRAVE_WALLET_WALLET_POPUP_HIDE_BALANCES" desc="Wallet popup hide balances checkbox">Balances</message>
   <message name="IDS_BRAVE_WALLET_WALLET_POPUP_SHOW_GRAPH" desc="Wallet popup show graph checkbox">Graph</message>
@@ -264,6 +274,8 @@
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_ZCASH_TESTNET_DESCRIPTION" desc="Add account modal create account ZCash Testnet description">Store ZEC Testnet assets</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_CARDANO_DESCRIPTION" desc="Add account modal create account Cardano description">Store Cardano assets</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_CARDANO_TESTNET_DESCRIPTION" desc="Add account modal create account Cardano Testnet description">Store Cardano Testnet assets</message>
+  <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_POLKADOT_DESCRIPTION" desc="Add account modal create account Polkadot description">Supports Substrate assets on Polkadot relay chain and Substrate parachains</message>
+  <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_POLKADOT_TESTNET_DESCRIPTION" desc="Add account modal create account Polkadot Tesnet description">Supports Substrate assets on Westend relay chain and Substrate parachains</message>
   <message name="IDS_BRAVE_WALLET_FILECOIN_PRIVATE_KEY_PROTOCOL" desc="Add account modal filecoin private key protocol">Private key <ph name="PROTOCOL"><ex>BLS12-381</ex>$1</ph></message>
   <message name="IDS_BRAVE_WALLET_ADD_ACCOUNT_IMPORT" desc="Add account modal import button">Import</message>
   <message name="IDS_BRAVE_WALLET_ADD_ACCOUNT_IMPORT_HARDWARE" desc="Add account modal import hardware wallet button">Import from hardware wallet</message>
@@ -327,6 +339,7 @@
   <message name="IDS_BRAVE_WALLET_FIL_EXPORT_PRIVATE_KEY_FORMAT_DESCRIPTION" desc="Filecoin private key format description">NOTE: Private key is provided as a hex-encoded JSON that contains private key and protocol information. <ph name="LINK_START">$1</ph>Learn more<ph name="LINK_END">/$1</ph>.</message>
   <message name="IDS_BRAVE_WALLET_FIL_IMPORT_PRIVATE_KEY_FORMAT_DESCRIPTION" desc="Filecoin private key format description">NOTE: Private key must be provided as a hex-encoded JSON that contains private key and protocol information. <ph name="LINK_START">$1</ph>Learn more<ph name="LINK_END">/$1</ph>.</message>
   <message name="IDS_BRAVE_WALLET_BTC_IMPORT_PRIVATE_KEY_FORMAT_DESCRIPTION" desc="Bitcoin private key input format description">NOTE: Only <ph name="FORMAT"><ex>zprv</ex>$1</ph> extended keys are supported.</message>
+  <message name="IDS_BRAVE_WALLET_TESTNET_ACCOUNTS" desc="Testnet accounts label">Testnet accounts</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNTS_EXPORT" desc="Account list item Export button">Export</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNTS_DEPOSIT" desc="Account list item Deposit button">Deposit</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNTS_REMOVE" desc="Account list item Remove button">Remove</message>
@@ -335,6 +348,12 @@
   <message name="IDS_BRAVE_WALLET_NO_AVAILABLE_ASSETS_DESCRIPTION" desc="No availible assets description on the portfolio page">Deposit or purchase tokens to get started. If you don't see tokens from an imported account, check the filters and display settings. Unknown tokens may need to be added as custom assets.</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_SHOW_KEY" desc="Account settings modal show key button">Show key</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_HIDE_KEY" desc="Account settings modal hide key button">Hide key</message>
+  <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_DOWNLOAD_KEY" desc="Account settings modal download key button">Download</message>
+  <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_ENTER_PASSWORD_TO_ENCRYPT" desc="Account settings modal enter password to encrypt message">Enter a password to encrypt your account export file.</message>
+  <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_ENCRYPTION_PASSWORD" desc="Account settings modal encryption password placeholder">Enter encryption password</message>
+  <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_CONFIRM_ENCRYPTION_PASSWORD" desc="Account settings modal confirm encryption password placeholder">Confirm encryption password</message>
+  <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_PASSWORDS_DO_NOT_MATCH" desc="Account settings modal passwords do not match error">Passwords do not match</message>
+  <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_ENCRYPTION_PASSWORD_TOO_SHORT" desc="Account settings modal encryption password too short error">Password must be at least 8 characters</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_SETTINGS_UPDATE_ERROR" desc="Account settings modal failed to updated name error">Failed to update account name, please try again.</message>
   <message name="IDS_BRAVE_WALLET_PRESET25" desc="Swap preset 25% button">25%</message>
   <message name="IDS_BRAVE_WALLET_PRESET50" desc="Swap preset 50% button">50%</message>
@@ -357,9 +376,6 @@
   <message name="IDS_BRAVE_WALLET_SWAP_MARKET" desc="Swap tab market button">Market</message>
   <message name="IDS_BRAVE_WALLET_SWAP_LIMIT" desc="Swap tab limit button">Limit</message>
   <message name="IDS_BRAVE_WALLET_SWAP_PRICE_IN" desc="Swap tab price label">Price in</message>
-  <message name="IDS_BRAVE_WALLET_BUY_TITLE" desc="Buy tab faucet button">Test faucet</message>
-  <message name="IDS_BRAVE_WALLET_BUY_DESCRIPTION" desc="Buy tab faucet description to get test crypto">Get Ether from a faucet for <ph name="SELECTED_NETWORK"><ex>Goerli Network</ex>$1</ph></message>
-  <message name="IDS_BRAVE_WALLET_BUY_CONTINUE_BUTTON" desc="Buy tab continue button">Select purchase method</message>
   <message name="IDS_BRAVE_WALLET_SIGN_TRANSACTION_TITLE" desc="Sign panel title">Your signature is being requested</message>
   <message name="IDS_BRAVE_WALLET_SIGN_WARNING" desc="Sign panel warning message">Note that iBrowe can’t verify what will happen if you sign. A signature could authorize nearly any operation in your account or on your behalf, including (but not limited to) giving total control of your account and crypto assets to the site making the request. Only sign if you’re sure you want to take this action, and trust the requesting site.</message>
   <message name="IDS_BRAVE_WALLET_SIGN_WARNING_TITLE" desc="Sign panel risk title">Sign at your own risk</message>
@@ -367,6 +383,7 @@
   <message name="IDS_BRAVE_WALLET_SIGN_TRANSACTION_EIP712_MESSAGE_HIDE_DETAILS" desc="Sign panel EIP-712 message hide details">Hide details</message>
   <message name="IDS_BRAVE_WALLET_SIGN_TRANSACTION_EIP712_MESSAGE_DOMAIN" desc="Sign panel EIP-712 message domain">Domain</message>
   <message name="IDS_BRAVE_WALLET_SIGN_TRANSACTION_BUTTON" desc="Sign panel sign button">Sign</message>
+  <message name="IDS_BRAVE_WALLET_PUBLIC_ENCRYPTION_KEY" desc="Public encryption key title">Public encryption key</message>
   <message name="IDS_BRAVE_WALLET_PROVIDE_ENCRYPTION_KEY_TITLE" desc="Provide Encryption Key Panel Title">A DApp is requesting your public encryption key</message>
   <message name="IDS_BRAVE_WALLET_PROVIDE_ENCRYPTION_KEY_DESCRIPTION" desc="Provide Encryption Key Panel Details"><ph name="URL">$1</ph> is requesting your wallet's public encryption key. If you consent to providing this key, the site will be able to compose encrypted messages to you.</message>
   <message name="IDS_BRAVE_WALLET_PROVIDE_ENCRYPTION_KEY_BUTTON" desc="Provide Encryption Key Panel Provide Button">Provide</message>
@@ -384,6 +401,10 @@
   <message name="IDS_BRAVE_WALLET_ALLOW_SPEND_CURRENT_ALLOWANCE" desc="Allow spend panel current approval limit">Current allowance</message>
   <message name="IDS_BRAVE_WALLET_ALLOW_SPEND_PROPOSED_ALLOWANCE" desc="Allow spend panel proposed approval">Proposed allowance</message>
   <message name="IDS_BRAVE_WALLET_ALLOW_SPEND_UNLIMITED_WARNING_TITLE" desc="Allow spend panel unlimited approval warning">Unlimited approval requested</message>
+  <message name="IDS_BRAVE_WALLET_SPEND_LIMIT" desc="Allow spend panel spend limit label">Spend limit</message>
+  <message name="IDS_BRAVE_WALLET_APPROVAL_TARGET" desc="Allow spend panel approval target label">Approval target</message>
+  <message name="IDS_BRAVE_WALLET_CURRENT_APPROVAL_LIMIT" desc="Allow spend panel current approval limit label">Current approval limit</message>
+  <message name="IDS_BRAVE_WALLET_PROPOSED_APPROVAL_LIMIT" desc="Allow spend panel proposed approval limit label">Proposed approval limit</message>
   <message name="IDS_BRAVE_WALLET_ALLOW_ADD_NETWORK_TITLE" desc="Add network panel title">Allow this site to add a network?</message>
   <message name="IDS_BRAVE_WALLET_ALLOW_ADD_NETWORK_DESCRIPTION" desc="Add network panel description">This will allow this network to be used within iBrowe Wallet.</message>
   <message name="IDS_BRAVE_WALLET_ALLOW_ADD_NETWORK_LEARN_MORE_BUTTON" desc="Add network panel learn more button">Learn more.</message>
@@ -403,7 +424,7 @@
   <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_TRANSACTION_FEE" desc="Confirm transaction panel transaction fee label">Transaction fee</message>
   <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_BID" desc="Confirm transaction panel bid label">Bid</message>
   <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_AMOUNT_GAS" desc="Confirm transaction panel total gas label">Amount + gas</message>
-  <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_AMOUNT_FEE" desc="Confirm transaction panel total fee label">Amount + fee</message>
+  <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_AMOUNT_FEE" desc="Confirm transaction panel total fee label">Amount + Network fee</message>
   <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_NO_DATA" desc="Confirm transaction panel no data placeholder">No data.</message>
   <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_NEXT" desc="Confirm transaction panel next transaction button">next</message>
   <message name="IDS_BRAVE_WALLET_CONFIRM_TRANSACTION_FIRST" desc="Confirm transaction panel first transaction button">first</message>
@@ -523,12 +544,12 @@
   <message name="IDS_BRAVE_WALLET_SAME_ADDRESS_ERROR" desc="Send input trying to send crypto to their own address">The receiving address is your own address.</message>
   <message name="IDS_BRAVE_WALLET_CONTRACT_ADDRESS_ERROR" desc="Send input trying to send crypto to a tokens contract address">The receiving address is a token's contract address.</message>
   <message name="IDS_BRAVE_WALLET_ZCASH_UNIFIED_ADDRESS_ERROR" desc="Send input trying to send zcash crypto to wrong unified address">Invalid unified address</message>
-  <message name="IDS_BRAVE_WALLET_FAILED_CHECKSUM_TITLE" desc="Send input failed checksum title">Address doesn’t look correct</message>
-  <message name="IDS_BRAVE_WALLET_FAILED_CHECKSUM_DESCRIPTION" desc="Send input failed checksum title">Check your address to make sure it’s the right address (e.g. letters with lower or upper case).</message>
+  <message name="IDS_BRAVE_WALLET_MISSING_CHECKSUM_TITLE" desc="Send input missing checksum title">Address is missing checksum</message>
+  <message name="IDS_BRAVE_WALLET_MISSING_CHECKSUM_DESCRIPTION" desc="Send input missing checksum description">Validity of this address cannot be verified. To avoid a potential loss of funds, review the address carefully before sending.</message>
+  <message name="IDS_BRAVE_WALLET_INVALID_CHECKSUM_TITLE" desc="Send input invalid checksum title">Address doesn't look correct (invalid checksum)</message>
+  <message name="IDS_BRAVE_WALLET_INVALID_CHECKSUM_DESCRIPTION" desc="Send input invalid checksum description">This address appears to have a typo. Please review the address and type it again.</message>
   <message name="IDS_BRAVE_WALLET_HOW_TO_SOLVE" desc="How to solve button text">How can I solve it?</message>
   <message name="IDS_BRAVE_WALLET_CHECKSUM_WARNING_TITLE" desc="Send input address missing checksum information title">Missing checksum information</message>
-  <message name="IDS_BRAVE_WALLET_ADDRESS_MISSING_CHECKSUM_INFO_WARNING" desc="Send input address missing checksum information">This address cannot be verified (missing checksum). Proceed?</message>
-  <message name="IDS_BRAVE_WALLET_NOT_VALID_CHECKSUM_ADDRESS_ERROR" desc="Send input address has invalid checksum information">Address did not pass verification (invalid checksum). Please try again, replacing lowercase letters with uppercase.</message>
   <message name="IDS_BRAVE_WALLET_MISSING_GAS_LIMIT_ERROR" desc="Transaction has missing gas limit information">Missing gas limit</message>
   <message name="IDS_BRAVE_WALLET_ZERO_BALANCE_ERROR" desc="Send amount must be greater than 0 error">Amount must be greater than 0</message>
   <message name="IDS_BRAVE_WALLET_ADDRESS_REQUIRED_ERROR" desc="Address field is required error">To address is required</message>
@@ -558,6 +579,8 @@
   <message name="IDS_BRAVE_WALLET_SWAP_REVIEW_SPEND" desc="Swap review text for spending asset">You spend</message>
   <message name="IDS_BRAVE_WALLET_SWAP_REVIEW_RECEIVE" desc="Swap review text for receiving asset">You'll receive</message>
   <message name="IDS_BRAVE_WALLET_SWAP_REVIEW_HEADER" desc="Swap review header title">Confirm order</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_PROGRAM_ADDRESS" desc="Swap program address label">Program address</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_DEPOSIT_ADDRESS" desc="Swap deposit address label">Deposit address</message>
   <message name="IDS_BRAVE_WALLET_SOLANA_SWAP" desc="Generic Solana Swap message">Solana Swap</message>
   <message name="IDS_BRAVE_WALLET_NUMBERED_ACCOUNT_NAME" desc="The name with account number.">Account <ph name="ACCOUNT_NUMBER">$1<ex>1</ex></ph></message>
   <message name="IDS_BRAVE_WALLET_SIGN_MESSAGE_UNLOCK_FIRST" desc="Sign message error">Wallet needs to be unlocked first</message>
@@ -636,10 +659,7 @@
   <message name="IDS_BRAVE_WALLET_MARKET_DATA_BUY_DEPOSIT_COLUMN" desc="Market data table buy/deposit column name">Buy/Deposit</message>
   <message name="IDS_BRAVE_WALLET_MARKET_DATA_NO_ASSETS_FOUND" desc="Text displayed when market data table rows are empty">No assets matching search or filter found</message>
   <message name="IDS_BRAVE_WALLET_NOT_VALID_FIL_ADDRESS" desc="Send input not valid FIL address error">Not a valid FIL address</message>
-  <message name="IDS_BRAVE_WALLET_BUY_WITH_RAMP" desc="Buy with Ramp option label">Buy with Ramp</message>
   <message name="IDS_BRAVE_WALLET_SELL_WITH_PROVIDER" desc="Sell with Provider option label">Sell with <ph name="OFFRAMP_PROVIDER">$1<ex>Ramp</ex></ph></message>
-  <message name="IDS_BRAVE_WALLET_BUY_WITH_SARDINE" desc="Buy with Sardine option label">Buy with Sardine</message>
-  <message name="IDS_BRAVE_WALLET_BUY_DISCLAIMER" desc="iBrowe disclaimer text in buy screen">Financial and transaction data is processed by our onramp partners. iBrowe does not collect or have access to such data.</message>
   <message name="IDS_BRAVE_WALLET_TRANSACTIONS_PARTNER" desc="Transactions partner modal title">Transactions partner</message>
   <message name="IDS_BRAVE_WALLET_TRANSACTION_PARTNER_CONSENT" desc="Meld consent description">iBrowe Wallet uses Meld.io to help aggregate and surface various crypto providers for your region. We will share information with Meld.io to complete the transaction, including your wallet address and country code. For more information please read Meld’s terms of use.</message>
   <message name="IDS_BRAVE_WALLET_MELD_TERMS_OF_USE" desc="Meld terms of use checkbox label">I have read and agree to the <ph name="LINK_BEFORE">$1</ph>Meld's Terms of use<ph name="LINK_AFTER">/$1</ph></message>
@@ -660,19 +680,8 @@
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_TO_BUY_TITLE" desc="Create account modal title">Do you want to create a <ph name="ACCOUNT_TYPE">$1<ex>Zcash</ex></ph> account?</message>
   <message name="IDS_BRAVE_WALLET_CREATE_ACCOUNT_TO_BUY_DESCRIPTION" desc="Create account modal description">In order to receive <ph name="TOKEN_SYMBOL">$1<ex>ZEC</ex></ph> you will need a <ph name="ACCOUNT_TYPE">$2<ex>Zcash</ex></ph> account.</message>
   <message name="IDS_BRAVE_WALLET_ACCOUNT_NAME" desc="Account name input label">Account name</message>
-  <message name="IDS_BRAVE_WALLET_BUY_WITH_TRANSAK" desc="Buy with Transak option label">Buy with Transak</message>
-  <message name="IDS_BRAVE_WALLET_BUY_WITH_STRIPE" desc="Buy with Stripe option label">Buy with Link</message>
-  <message name="IDS_BRAVE_WALLET_BUY_WITH_COINBASE" desc="Buy with Coinbase Pay option label">Buy with Coinbase Pay</message>
-  <message name="IDS_BRAVE_WALLET_BUY_RAMP_NETWORK_NAME" desc="Ramp.Network onramp provider name">Ramp.Network</message>
-  <message name="IDS_BRAVE_WALLET_BUY_SARDINE_NAME" desc="Sardine onramp provider name">Sardine</message>
-  <message name="IDS_BRAVE_WALLET_BUY_TRANSAK_NAME" desc="Transak onramp provider name">Transak</message>
-  <message name="IDS_BRAVE_WALLET_BUY_STRIPE_NAME" desc="Stripe onramp provider name">Link by Stripe</message>
-  <message name="IDS_BRAVE_WALLET_BUY_COINBASE_NAME" desc="Coinbase Pay onramp provider name">Coinbase Pay</message>
-  <message name="IDS_BRAVE_WALLET_BUY_RAMP_DESCRIPTION" desc="Ramp.Network description in buy options list">Buy crypto with Visa or Mastercard.</message>
-  <message name="IDS_BRAVE_WALLET_BUY_SARDINE_DESCRIPTION" desc="Sardine description in buy options list">Easiest, fastest and cheapest way to buy crypto with card and bank transfers.</message>
-  <message name="IDS_BRAVE_WALLET_BUY_TRANSAK_DESCRIPTION" desc="Transak description in buy options list">Instant buy with your bank account. Lower fees.</message>
-  <message name="IDS_BRAVE_WALLET_BUY_STRIPE_DESCRIPTION" desc="Stripe description in buy options list">Pay with credit, debit, bank account</message>
-  <message name="IDS_BRAVE_WALLET_BUY_COINBASE_DESCRIPTION" desc="Coinbase Pay description in buy options list">Buy with the most trusted name in crypto.</message>
+  <message name="IDS_BRAVE_WALLET_MINIMUM_AMOUNT" desc="Minimum amount error label">Minimum amount: <ph name="AMOUNT">$1<ex>$2 USD</ex></ph></message>
+  <message name="IDS_BRAVE_WALLET_MAXIMUM_AMOUNT" desc="Maximum amount error label">Maximum amount: <ph name="AMOUNT">$1<ex>$1000 USD</ex></ph></message>
   <message name="IDS_BRAVE_WALLET_NETWORK_FILTER_ALL" desc="Network Filter Selector All Networks">All Networks</message>
   <message name="IDS_BRAVE_WALLET_ASSET_FILTER_LOW_TO_HIGH" desc="Asset Filter Selector Low to High">Low to High</message>
   <message name="IDS_BRAVE_WALLET_ASSET_FILTER_HIGH_TO_LOW" desc="Asset Filter Selector High to Low">High to Low</message>
@@ -703,6 +712,7 @@
   <message name="IDS_BRAVE_WALLET_ZEC_TESTNET_ACCOUNT_DESCRIPTION" desc="ZCash testnet account description" translateable="false">Zcash Testnet</message>
   <message name="IDS_BRAVE_WALLET_CARDANO_ACCOUNT_DESCRIPTION" desc="Cardano account description" translateable="false">Cardano Mainnet</message>
   <message name="IDS_BRAVE_WALLET_CARDANO_TESTNET_ACCOUNT_DESCRIPTION" desc="Cardano testnet account description" translateable="false">Cardano Testnet</message>
+  <message name="IDS_BRAVE_WALLET_POLKADOT_MAINNET_ACCOUNT_DESCRIPTION" desc="Polkadot account description" translateable="false">Polkadot mainnet</message>
   <message name="IDS_BRAVE_WALLET_SHOW_NETWORK_LOGO_ON_NFTS_TITLE" desc="Show network logo filter title">Network Logo</message>
   <message name="IDS_BRAVE_WALLET_SHOW_NETWORK_LOGO_ON_NFTS_DESCRIPTION" desc="Show network logo filter description">Show network logo on NFTs</message>
   <message name="IDS_BRAVE_WALLET_SHOW_SPAM_NFTS_TITLE" desc="Show spam NFTs filter title">Spam NFTs</message>
@@ -726,8 +736,13 @@
   <message name="IDS_BRAVE_WALLET_BRIDGING" desc="Transaction intent Bridging label">Bridging</message>
   <message name="IDS_BRAVE_WALLET_SWAPPING_OR_BRIDGING_ON_NETWORK" desc="Transaction intent Swapping or Bridging on network description"><ph name="SWAPPING_OR_BRIDGING"><ex>Swapping</ex>$1</ph> on <ph name="NETWORK"><ex>Solana Mainnet Beta</ex>$2</ph></message>
   <message name="IDS_BRAVE_WALLET_ERROR_ATTEMPTING_TO_TRANSACT_ON_NETWORK" desc="Transaction intent error attempting to Swap or Bride on network description">There was an error attempting to <ph name="SWAP_OR_BRIDGE"><ex>swap</ex>$1</ph> on <ph name="NETWORK"><ex>Solana Mainnet Beta</ex>$2</ph></message>
+  <message name="IDS_BRAVE_WALLET_SWAP_PROCESSING" desc="Swap transaction processing title">Processing</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_PENDING" desc="Swap transaction pending title">Pending</message>
+  <message name="IDS_BRAVE_WALLET_SWAP_REFUNDED" desc="Swap transaction refunded title">Refunded</message>
   <message name="IDS_BRAVE_WALLET_SHIELDING_AMOUNT" desc="Transaction intent shielding amount description">Shielding <ph name="AMOUNT"><ex>1.5 ZEC</ex>$1</ph></message>
+  <message name="IDS_BRAVE_WALLET_UNSHIELDING_AMOUNT" desc="Transaction intent unshielding amount description">Unshielding <ph name="AMOUNT"><ex>1.5 ZEC</ex>$1</ph></message>
   <message name="IDS_BRAVE_WALLET_AMOUNT_HAS_BEEN_SHIELDED" desc="Transaction intent amount has been shielded description"><ph name="AMOUNT"><ex>1.5 ZEC</ex>$1</ph> has been shielded</message>
+  <message name="IDS_BRAVE_WALLET_AMOUNT_HAS_BEEN_UNSHIELDED" desc="Transaction intent amount has been unshielded description"><ph name="AMOUNT"><ex>1.5 ZEC</ex>$1</ph> has been unshielded</message>
   <message name="IDS_BRAVE_WALLET_PENDING_TRANSACTIONS" desc="Transaction complete panel, amount of transactions still pending.">
     {PENDING_TRANSACTIONS, plural,
       =1 {{PENDING_TRANSACTIONS} more transaction pending.}
@@ -756,6 +771,7 @@
   <message name="IDS_BRAVE_WALLET_TRANSACTION_INTENT_DAPP_INTERACTION" desc="Transaction intent for dapp interactions">Dapp interaction</message>
   <message name="IDS_BRAVE_WALLET_TRANSACTION_INTENT_SEND" desc="Transaction intent for transfers">Send <ph name="VALUE">$1<ex>1000 USDC</ex></ph></message>
   <message name="IDS_BRAVE_WALLET_TRANSACTION_INTENT_SWAP" desc="Transaction intent for swaps">Swap <ph name="MAKER">$1<ex>1000 USDC</ex></ph> to <ph name="TAKER">$2<ex>990 USDT</ex></ph></message>
+  <message name="IDS_BRAVE_WALLET_TRANSACTION_INTENT_BRIDGE" desc="Transaction intent for bridges">Bridge <ph name="SOURCE">$1<ex>1000 USDC</ex></ph> to <ph name="DESTINATION">$2<ex>990 USDT</ex></ph></message>
   <message name="IDS_BRAVE_WALLET_CREATING_ASSOCIATED_TOKEN_ACCOUNT" desc="Transaction intent for creating associated token account">Creating associated token account</message>
   <message name="IDS_BRAVE_WALLET_FAILED_TO_CREATE_ASSOCIATED_TOKEN_ACCOUNT" desc="Transaction intent for failed to create associated token account">Failed to create associated token account</message>
   <message name="IDS_BRAVE_WALLET_ASSOCIATED_TOKEN_ACCOUNT_CREATED" desc="Transaction intent for associated token account created">Associated token account created</message>
@@ -777,10 +793,13 @@
   <message name="IDS_BRAVE_WALLET_SECURITY_RISK_DETECTED" desc="Sign in with iBrowe Wallet Error Security risk">Security risk detected</message>
   <message name="IDS_BRAVE_WALLET_INPUT" desc="Transaction Details Input Label">Input</message>
   <message name="IDS_BRAVE_WALLET_OUTPUT" desc="Transaction Details Output Label">Output</message>
+  <message name="IDS_BRAVE_WALLET_INPUTS" desc="Transaction Details Inputs Label">Inputs</message>
+  <message name="IDS_BRAVE_WALLET_OUTPUTS" desc="Transaction Details Outputs Label">Outputs</message>
   <message name="IDS_BRAVE_WALLET_VALUE" desc="Transaction Details Value Label">Value</message>
+  <message name="IDS_BRAVE_WALLET_TOKEN" desc="Transaction Details Token Label">Token</message>
   <message name="IDS_BRAVE_WALLET_NETWORK_FILTER_SECONDARY" desc="Network Filter Selector Secondary Networks">Secondary networks</message>
   <message name="IDS_BRAVE_WALLET_NETWORK_FILTER_TEST_NETWORKS" desc="Network Filter Selector Test Networks">Test networks</message>
-  <message name="IDS_BRAVE_WALLET_EDIT_GAS_LIMIT_ERROR" desc="An eroor regarding an incorrect gas limit value">
+  <message name="IDS_BRAVE_WALLET_EDIT_GAS_LIMIT_ERROR" desc="An error regarding an incorrect gas limit value">
     Gas limit must be an integer greater than 0
   </message>
   <message name="IDS_WALLET_FIL_SEND_TRANSACTION_TO" desc="Error message if transaction 'to' is empty">Transaction data 'to' must be specified</message>
@@ -938,8 +957,6 @@
   <message name="IDS_BRAVE_WALLET_DEPOSIT_CRYPTO_BUTTON" desc="Deposit Crypto button text">Deposit</message>
   <message name="IDS_BRAVE_WALLET_CHECKING_INSTALLED_EXTENSIONS" desc="Loading text while checking for installed crypto wallet extensions">Checking for wallet extensions...</message>
   <message name="IDS_BRAVE_WALLET_BUY_SELECT_ASSET" desc="Continue button text for buy crypto flow when an asset is not yet selected">Select an asset</message>
-  <message name="IDS_BRAVE_WALLET_FUND_WALLET_TITLE" desc="Fund wallet screen title text">To finish your <ph name="ASSET_TICKER">$1<ex>1</ex></ph> purchase, select one of our partners</message>
-  <message name="IDS_BRAVE_WALLET_FUND_WALLET_DESCRIPTION" desc="Fund wallet screen description text">On completion, your funds will be transfered to your iBrowe Wallet</message>
   <message name="IDS_BRAVE_WALLET_DEPOSIT_FUNDS_TITLE" desc="Deposit funds screen title">Deposit crypto</message>
   <message name="IDS_BRAVE_WALLET_DEPOSIT_X" desc="Generic prompt to deposit an asset">Deposit <ph name="VALUE">$1</ph></message>
   <message name="IDS_BRAVE_WALLET_DEPOSIT_SOL_SPL_TOKENS" desc="Description of depositable Solana wallet assets">Deposit Solana or SPL tokens</message>
@@ -1004,12 +1021,17 @@
   <message name="IDS_BRAVE_SWAP_APPROVE_TOKEN" desc="Text for swap button while approving ERC20 token">Approve <ph name="TOKEN">$1</ph></message>
   <message name="IDS_BRAVE_SWAP_INSUFFICIENT_BALANCE" desc="Text for swap button when token token balance is insufficient">Insufficient <ph name="TOKEN">$1</ph> balance</message>
   <message name="IDS_BRAVE_SWAP_INSUFFICIENT_LIQUIDITY" desc="Swap CTA text for insufficient liquidity">Insufficient liquidity</message>
+  <message name="IDS_BRAVE_SWAP_AMOUNT_TOO_LOW" desc="Swap CTA text when the swap amount is too low">Amount too low</message>
+  <message name="IDS_BRAVE_SWAP_UNSUPPORTED_NETWORK" desc="Swap CTA text when the network is not supported">Unsupported network</message>
+  <message name="IDS_BRAVE_SWAP_UNSUPPORTED_TOKENS" desc="Swap CTA text when the token pair is not supported">Unsupported token(s)</message>
+  <message name="IDS_BRAVE_SWAP_INVALID_REQUEST" desc="Swap CTA text when the swap request is invalid">Invalid request</message>
   <message name="IDS_BRAVE_SWAP_SELECT_TOKEN" desc="Dropdown text to select token">Select token</message>
   <message name="IDS_BRAVE_SWAP_HALF" desc="Amount preset button text for half">Half</message>
   <message name="IDS_BRAVE_SWAP_MAX" desc="Amount preset button text for max">Max</message>
   <message name="IDS_BRAVE_SWAP_ENTER_AN_AMOUNT" desc="Text prompting to enter an amount">Enter an amount</message>
   <message name="IDS_BRAVE_WALLET_FETCHING_QUOTE" desc="Loader text while quotes are fetched">Fetching quote</message>
   <message name="IDS_BRAVE_WALLET_RECEIVE_ESTIMATE" desc="Swap receive estimate label">Receive (est.)</message>
+  <message name="IDS_BRAVE_WALLET_RECEIVE_MINIMUM" desc="Swap receive minimum label">Receive (min.)</message>
   <message name="IDS_BRAVE_WALLET_FROM_TOKEN" desc="Swap from token label">From token</message>
   <message name="IDS_BRAVE_WALLET_TO_TOKEN" desc="Swap to token label">To token</message>
   <message name="IDS_BRAVE_WALLET_NEW_QUOTE_IN" desc="Swap new quote in label">New quote in <ph name="COUNTDOWN">$1<ex>00:05</ex></ph></message>
@@ -1035,6 +1057,7 @@
   <message name="IDS_BRAVE_SWAP_AVERAGE" desc="Gas price corresponding to average speed for confirmation">Average</message>
   <message name="IDS_BRAVE_SWAP_FAST" desc="Gas price corresponding to fast speed for confirmation">Fast</message>
   <message name="IDS_BRAVE_SWAP_GWEI" desc="Unit to use for gas price (giga-wei)">Gwei</message>
+  <message name="IDS_BRAVE_WALLET_ESTIMATED_FEE" desc="Estimated fee">Estimated fee</message>
   <message name="IDS_BRAVE_SWAP_SLIPPAGE_TOLERANCE" desc="Percentage tolerance to allow for slippage during the swap">Slippage tolerance</message>
   <message name="IDS_BRAVE_SWAP_EXCHANGES" desc="Exchanges to use for the swap trade">Exchanges</message>
   <message name="IDS_BRAVE_SWAP_DIRECT_ROUTE_TITLE" desc="Text indicating that swap must use direct routes in the trade">Direct route only</message>
@@ -1103,6 +1126,9 @@
   <message name="IDS_BRAVE_WALLET_GAS_PRICE" desc="Label for gas price">Gas price</message>
   <message name="IDS_BRAVE_WALLET_EDIT_GAS_ESTIMATED_NETWORK_FEE" desc="Label for estimated network fee">Estimated network fee</message>
   <message name="IDS_BRAVE_WALLET_USE_DEFAULT" desc="Label for use default">Use default</message>
+  <message name="IDS_BRAVE_WALLET_GAS_FEE_TOOLTIP" desc="Tooltip text for gas fee">This gas fee will replace the original.</message>
+  <message name="IDS_BRAVE_WALLET_GAS_FEE_TOOLTIP_DESCRIPTION" desc="Tooltip description for gas fee">This will create a new transaction with a new gas fee to override and cancel the pending one. A cancellation can only be attempted if the transaction is still pending on the network.</message>
+  <message name="IDS_BRAVE_WALLET_SPEED_PRIORITY" desc="Label for speed priority">Speed priority</message>
   <message name="IDS_WALLET_EIP6963_PROVIDER_NAME" desc="Provider name which will be return when announce ethereum provider">iBrowe Wallet</message>
   <message name="IDS_BRAVE_WALLET_RECEIVE" desc="Receive asset event title">Receive</message>
   <message name="IDS_BRAVE_WALLET_FROM" desc="From address label">From</message>
@@ -1208,10 +1234,14 @@
   <message name="IDS_BRAVE_WALLET_ACCOUNT_IS_SYNCING" desc="Account is syncing label">Account is syncing</message>
   <message name="IDS_BRAVE_WALLET_SYNCING" desc="Syncing label">Syncing</message>
   <message name="IDS_BRAVE_WALLET_REVIEW_SHIELD" desc="Review shield button label">Review shield</message>
+  <message name="IDS_BRAVE_WALLET_REVIEW_UNSHIELD" desc="Review unshield button label">Review unshield</message>
   <message name="IDS_BRAVE_WALLET_SHIELDING" desc="Shielding label">Shielding</message>
+  <message name="IDS_BRAVE_WALLET_UNSHIELDING" desc="Unshielding label">Unshielding</message>
   <message name="IDS_BRAVE_WALLET_SHIELD_ZEC" desc="Shield ZEC button label">Shield ZEC</message>
+  <message name="IDS_BRAVE_WALLET_UNSHIELD_ZEC" desc="Unshield ZEC button label">Unshield ZEC</message>
   <message name="IDS_BRAVE_WALLET_SHIELD_FUNDS" desc="Shield funds button label">Shield funds</message>
   <message name="IDS_BRAVE_WALLET_SHIELDING_FUNDS_ALERT_DESCRIPTION" desc="Shielding funds alert description">You are sending funds from your transparent account to your shielded account.</message>
+  <message name="IDS_BRAVE_WALLET_UNSHIELDING_FUNDS_ALERT_DESCRIPTION" desc="Unshielding funds alert description">You are sending funds from your shielded account to your transparent account.</message>
   <message name="IDS_BRAVE_WALLET_BUTTON_RETRY" desc="Retry an action">Retry</message>
   <message name="IDS_BRAVE_WALLET_TRANSACTION_PREVIEW_FAILED" desc="Explanation that simulation of a transaction has failed">Transaction preview failed.</message>
   <message name="IDS_BRAVE_WALLET_ESTIMATED_BALANCE_CHANGE" desc="Grouping header for estimated balance changes">Estimated balance change</message>

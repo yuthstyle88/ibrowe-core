@@ -1,24 +1,32 @@
 {
-    "name": "ibrowe",
-    "version": "1.0.0",
-    "description": "Next generation iBrowe browser for macOS, Windows, Linux, and Android",
-    "homepage": "https://github.com/yuthstyle88/ibrowe-core#readme",
-    "config": {
-      "projects": {
-        "chrome": {
-          "dir": "src",
-          "tag": "139.0.7258.127",
-          "repository": {
-            "url": "https://github.com/brave/chromium"
-          }
+  "name": "ibrowe",
+  "version": "1.88.138",
+  "description": "Next generation iBrowe browser for macOS, Windows, Linux, and Android",
+  "homepage": "https://github.com/yuthstyle88/ibrowe-core#readme",
+  "config": {
+    "projects": {
+      "chrome": {
+        "dir": "src",
+        "tag": "146.0.7680.178",
+        "repository": {
+          "url": "https://chromium.googlesource.com/chromium/src.git"
         },
-        "depot_tools": {
-          "dir": "vendor/depot_tools",
-          "repository": {
-            "url": "https://chromium.googlesource.com/chromium/tools/depot_tools.git"
-          }
+        "custom_deps": {
+          "src/testing/libfuzzer/fuzzers/wasm_corpus": null,
+          "src/third_party/chromium-variations": null
+        },
+        "custom_vars": {
+          "checkout_clang_coverage_tools": true,
+          "checkout_clangd": true,
+          "download_reclient": true
+        }
+      },
+      "depot_tools": {
+        "dir": "vendor/depot_tools",
+        "repository": {
+          "url": "https://chromium.googlesource.com/chromium/tools/depot_tools.git"
         }
       }
     }
   }
-  
+}

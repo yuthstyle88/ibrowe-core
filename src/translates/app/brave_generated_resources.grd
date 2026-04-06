@@ -249,6 +249,9 @@
       <message name="IDS_OPEN_MORE_OTHER_DEVICES_SESSIONS" desc="The history sub-menu item to show sessions from other devices">
         More…
       </message>
+      <message name="IDS_SHOW_EMAIL_ALIASES" desc="The show Email Aliases menu in the app menu">
+        Email Aliases
+      </message>
 
       <!-- Widevine -->
       <message name="IDS_WIDEVINE_PERMISSION_REQUEST_TEXT_FRAGMENT" desc="Text fragment for Widevine permission request. 'Widevine' is the name of a plugin and should not be translated.">
@@ -400,7 +403,7 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
       <message name="IDS_LOCATION_BAR_ONION_AVAILABLE_TOOLTIP_TEXT" desc="The tooltip text for onion available button.">
         Open using .onion address: <ph name="ADDRESS">$1</ph>
       </message>
-      <message name="IDS_CONTENT_CONTEXT_FORCE_PASTE" desc="The name of the context menu item to paste without triggering onpaste handlers">
+      <message name="IDS_FORCE_PASTE" desc="The name of the context menu item to paste without triggering onpaste handlers">
         Force Paste
       </message>
 
@@ -414,9 +417,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="Title case: The name of the open a link in private window with Tor command">
           Open Link in iBrowe Private Window with Tor
         </message>
-        <message name="IDS_CONTENT_CONTEXT_SPLIT_VIEW" desc="Title case: The name of the open a link in split view command">
-          Open Link in Split View
-        </message>
       </if>
       <if expr="not use_titlecase">
         <message name="IDS_NEW_OFFTHERECORD_WINDOW_TOR" desc="The text label of a menu item to open a new off-the-record window with Tor.">
@@ -427,9 +427,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="The name of the open a link in private window with Tor command">
           Open link in iBrowe private window with Tor
-        </message>
-        <message name="IDS_CONTENT_CONTEXT_SPLIT_VIEW" desc="The name of the open a link in split view command">
-          Open link in split view
         </message>
       </if>
       <!-- Dev channel deprecation infobar -->
@@ -686,11 +683,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
             By clicking OK, you acknowledge that your installation of iBrowe will NOT receive critical security fixes until you update to macOS 10.15 or later. This warning will NOT show again.
           </message>
         </if>
-
-        <!-- Download bubble -->
-        <message name="IDS_DOWNLOAD_BUBBLE_ITEM_CTX_MENU_REMOVE_ITEM" desc="Text for the download bubble context menu item for removing item from the list">
-          Remove from list
-        </message>
 
         <!-- Shared Pinned Tabs -->
         <message name="IDS_SHARED_PINNED_TABS_DUMMY_TAB_VIEW_TITLE" desc="A title for a page that shows up when a dummy tab is visible">
@@ -970,9 +962,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         <message name="IDS_CXMENU_OPEN_CONTAINERS_SETTINGS" desc="The label of the context menu item for opening the Containers settings page.">
           Manage containers
         </message>
-        <message name="IDS_TAB_CXMENU_RENAME_TAB" desc="The label of the tab context menu item for renaming a tab.">
-          Rename tab
-        </message>
       </if>
       <if expr="use_titlecase">
         <message name="IDS_TAB_CXMENU_BOOKMARK_ALL_TABS" desc="In Title Case: The label of the tab context menu item for creating a bookmark folder containing an entry for each open tab.">
@@ -1005,9 +994,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         <message name="IDS_CXMENU_OPEN_CONTAINERS_SETTINGS" desc="The label of the tab context menu item for opening the Containers settings page.">
           Manage Containers
         </message>
-        <message name="IDS_TAB_CXMENU_RENAME_TAB" desc="The label of the tab context menu item for renaming a tab.">
-          Rename Tab
-        </message>
       </if>
 
       <!-- Text recognition dialog-->
@@ -1039,6 +1025,12 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
         </message>
         <message name="IDS_SETTINGS_VPN_PAGE_SUBLABEL_VPN_CONNECTED" desc="Title of the WireGuard sub label on the vpn settings page when ibrowe vpn connected">
           This setting cannot be changed while iBrowe VPN is connected.
+        </message>
+        <message name="IDS_SETTINGS_VPN_PAGE_SHOW_IN_SYSTEM_TRAY_WINDOWS" desc="Title of the 'Show system tray' option on the vpn settings page for Windows customers">
+          Show VPN Tray Icon
+        </message>
+        <message name="IDS_SETTINGS_VPN_PAGE_SHOW_IN_SYSTEM_TRAY_WINDOWS_SUBLABEL" desc="Sub title for the 'Show system tray' option on the vpn settings page for Windows customers">
+          When enabled, the Windows taskbar will show the tray icon for iBrowe VPN.
         </message>
         <message name="IDS_SETTINGS_SHOW_VPN_BUTTON" desc="The label for showing vpn button in the toolbar">
           Show VPN button
@@ -1138,33 +1130,6 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
       <message name="IDS_BOOKMARKS_READING_LIST_GROUP" desc="The title of reading list folder in imported bookmarks.">
         Reading List
       </message>
-
-      <!--First-run dialog messages -->
-      <message name="IDS_FIRSTRUN_DLG_HEADER_TEXT" desc="Text for FirstRun dialog header">
-        Ready for the best privacy online?
-      </message>
-      <message name="IDS_FIRSTRUN_DLG_CONTENTS_TEXT" desc="Text for FirstRun dialog contents">
-        Set iBrowe as your default browser to get iBrowe's privacy protections on every web page you open.
-      </message>
-      <message name="IDS_FIRSTRUN_DLG_OK_BUTTON_LABEL" desc="Text for FirstRun dialog ok button">
-        Set iBrowe as default
-      </message>
-      <message name="IDS_FIRSTRUN_DLG_CANCEL_BUTTON_LABEL" desc="Text for FirstRun dialog cancel button">
-        Maybe later
-      </message>
-
-      <if expr="enable_pin_shortcut">
-        <if expr="is_win">
-          <message name="IDS_FIRSTRUN_DLG_PIN_SHORTCUT_TEXT" desc="Text for pin to taskbar checkbox">
-            Pin to taskbar
-          </message>
-        </if>
-        <if expr="is_macosx">
-          <message name="IDS_FIRSTRUN_DLG_PIN_SHORTCUT_TEXT" desc="Text for pin to taskbar checkbox">
-            Keep in Dock
-          </message>
-        </if>
-      </if>
 
       <!-- Importer -->
       <message name="IDS_BRAVE_IMPORT_FROM_EDGE" desc="browser combo box: Microsoft Edge Legacy">
@@ -1468,6 +1433,11 @@ Or change later at <ph name="SETTINGS_EXTENIONS_LINK">$2<ex>ibrowe://settings/ex
       </message>
       <message name="IDS_BRAVE_ORGANIZE_TAB_ENABLE_BUTTON_LABEL" desc="Text of enable tab focus button">
         Enable
+      </message>
+
+      <!-- Brave policy -->
+      <message name="IDS_BRAVE_CONTROLLED_SETTING_POLICY" desc="Text displayed in the controlled settings bubble when a setting's value is managed by policy.">
+        This setting is managed by your administrator or by another iBrowe policy.
       </message>
 
       <!--Customize Chrome Panel -->

@@ -316,6 +316,20 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
           Welcome to iBrowe
         </message>
       </if>
+      <if expr="is_linux">
+        <message name="IDS_TERMS_DIALOG_ACCEPT" desc="The button label to accept the terms of service">
+          Accept
+        </message>
+        <message name="IDS_TERMS_DIALOG_CANCEL" desc="The button label to decline the terms of service">
+          Cancel
+        </message>
+        <message name="IDS_TERMS_DIALOG_TITLE" desc="Window title for the Terms of Service dialog">
+          iBrowe Additional Terms of Service
+        </message>
+        <message name="IDS_TERMS_DIALOG_ACCESSIBILITY_LABEL" desc="Accessibility label for the Terms of Service in the dialog. The actual terms text is just a placeholder for branded builds.">
+          iBrowe Additional Terms of Service
+        </message>
+      </if>
       <if expr="is_chromeos">
         <message name="IDS_PRODUCT_OS_NAME" desc="The ChromeOS application name">
           ChromeOS
@@ -377,6 +391,31 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </message>
       <message name="IDS_SESSION_CRASHED_VIEW_UMA_OPTIN" desc="Text besides the checkbox to let users optin to UMA in the restore from previous crash bubble.">
         Help make iBrowe better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to iBrowe
+      </message>
+      <if expr="not is_android">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_TOO_MANY_BOOKMARKS_BODY" desc="Body of the signout confirmation dialog when the user has too many bookmarks.">
+        You reached iBrowe’s limit of <ph name="BOOKMARK_LIMIT">$1<ex>100,000</ex></ph> bookmarks, so some of your bookmarks haven’t been saved in your iBrowe sync chain yet.
+
+New bookmarks can’t be saved in your account until you delete some. If you sign out now, unsaved bookmarks will be deleted.
+        </message>
+      </if>
+      <if expr="is_android">
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_TOO_MANY_BOOKMARKS_BODY" desc="Body of the signout confirmation dialog when the user has too many bookmarks." formatter_data="android_java">
+        You reached iBrowe’s limit of <ph name="BOOKMARK_LIMIT">%1$s<ex>100,000</ex></ph> bookmarks, so some of your bookmarks haven’t been saved in your iBrowe sync chain yet.
+
+New bookmarks can’t be saved in your account until you delete some. If you sign out now, unsaved bookmarks will be deleted.
+        </message>
+      </if>
+      <message name="IDS_RESET_PROFILE_SETTINGS_EXPLANATION_IN_BULLET_POINTS" desc="A label formatted with bullet points describing the consequences of the 'reset profile settings' feature">
+        This action will:
+        <ph name="LINE_BREAKS">&lt;br&gt;&lt;br&gt;</ph>
+          • Reset some iBrowe settings and iBrowe shortcuts
+          <ph name="LINE_BREAK">&lt;br&gt;</ph>
+          • Disable extensions
+          <ph name="LINE_BREAK">&lt;br&gt;</ph>
+          • Delete cookies and other temporary site data
+          <ph name="LINE_BREAKS">&lt;br&gt;&lt;br&gt;</ph>
+          Bookmarks, history, and saved passwords won't be affected.
       </message>
       <if expr="not is_chromeos">
         <!-- Browser Window Title Format -->
@@ -483,7 +522,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </if>
       <if expr="is_macosx">
         <message name="IDS_MACOS_OBSOLETE" desc="A message displayed on an at-launch infobar and About (Help) page warning the user that the OS version they are using will soon be or is already unsupported.">
-          To get future iBrowe updates, you'll need macOS 12 or later. This computer is using macOS 11.
+          To get future iBrowe updates, you'll need macOS 13 or later. This computer is using macOS 12.
         </message>
       </if>
       <if expr="is_win">
@@ -520,6 +559,12 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
           iBrowe is unresponsive. Relaunch now?
         </message>
       </if>
+      <!-- General app failure messages -->
+      <if expr="not is_chromeos and not is_android">
+        <message name="IDS_COULDNT_STARTUP_PROFILE_ERROR" desc="Error displayed when iBrowe cannot start because profiles were not opened correctly.">
+          Cannot start iBrowe because something went wrong when opening your profile. Try to restart iBrowe.
+        </message>
+      </if>
       <!-- Sharing messages -->
       <message name="IDS_BROWSER_SHARING_CLICK_TO_CALL_DIALOG_HELP_TEXT_NO_DEVICES" desc="The label to be shown as a help text of the dialog when user click on a phone number, if there are no phones to choose from.">
         To send a number from here to your Android phone, sign in to iBrowe on both devices.
@@ -544,6 +589,9 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </if>
       <message name="IDS_FR_CUSTOMIZE_DEFAULT_BROWSER" desc="Default browser checkbox label">
         Make iBrowe the default browser
+      </message>
+      <message name="IDS_DEFAULT_BROWSER_CHANGED_MESSAGE" desc="Body of the notification shown when iBrowe is no longer the default browser.">
+        iBrowe is no longer your default browser. Make iBrowe the default browser?
       </message>
       <if expr="use_titlecase">
         <message name="IDS_STATUS_TRAY_KEEP_CHROME_RUNNING_IN_BACKGROUND" desc="In Title Case: The checkbox in the status tray context menu that controls whether chrome keeps running in the background after the last window is closed">
@@ -646,9 +694,6 @@ iBrowe is unable to recover your settings.
         <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to iBrowe running.">
           Can not install the same iBrowe version that is currently running. Please close iBrowe and try again.
         </message>
-        <message name="IDS_SETUP_PATCH_FAILED" desc="Error message when setup.exe fails to patch itself.">
-          Installation failed due to unspecified error. Please download iBrowe again.
-        </message>
         <message name="IDS_INSTALL_OS_NOT_SUPPORTED" desc="Error displayed if OS is not supported">
           iBrowe requires Windows 10 or higher.
         </message>
@@ -680,6 +725,14 @@ iBrowe is unable to recover your settings.
           Provides system tracing services for <ph name="BROWSER_NAME">$1<ex>iBrowe</ex></ph>. If this service is disabled, performance traces created by the browser will not include system-wide events such as context switch and ready thread events.
         </message>
       </if>
+      <if expr="not is_android">
+        <message name="IDS_PASSWORD_MANAGER_IMPORT_DIALOG_TITLE" desc="The title of the file selection dialog for importing passwords">
+          Import Passwords To iBrowe
+        </message>
+        <message name="IDS_PASSWORD_MANAGER_EXPORT_DIALOG_TITLE" desc="The title of the file selection dialog for exporting passwords">
+          Export Passwords From iBrowe
+        </message>
+      </if>
       <!-- Options Dialog -->
       <if expr="is_win">
         <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the iBrowe shortcuts.">
@@ -687,9 +740,6 @@ iBrowe is unable to recover your settings.
         </message>
         <message name="IDS_UNINSTALL_DELETE_PROFILE" desc="Text to show user to ask whether to delete all the profile data also during uninstallation.">
           Also delete your browsing data?
-        </message>
-        <message name="IDS_UNINSTALL_SET_DEFAULT_BROWSER" desc="Text to ask whether to set another browser as default when iBrowe is uninstalled.">
-          Change default browser to:
         </message>
         <message name="IDS_UNINSTALL_BUTTON_TEXT" desc="Label for uninstall button on Uninstall confirmation dialog.">
           Uninstall
@@ -709,12 +759,26 @@ iBrowe is unable to recover your settings.
           Keep in Dock
         </message>
       </if>
-        <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when iBrowe is not the current default browser.">
-          iBrowe isn't your default browser
+      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when iBrowe is not the current default browser.">
+        iBrowe isn't your default browser
+      </message>
+      <message name="IDS_DEFAULT_BROWSER_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when iBrowe is not the current default browser and can be pinned to the taskbar.">
+        Set iBrowe as your default browser and pin it to your taskbar
+      </message>
+      <if expr="not is_android and not is_chromeos">
+        <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITH_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal with settings illustration.">
+          Set iBrowe as your default browser
         </message>
-        <message name="IDS_DEFAULT_BROWSER_PIN_INFOBAR_TEXT" desc="Text to show in an infobar when iBrowe is not the current default browser and can be pinned to the taskbar.">
-          Set iBrowe as your default browser and pin it to your taskbar
+        <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITH_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal with settings illustration.">
+          Keep your passwords, bookmarks, and history perfectly synced across devices. Easily access the features you know and love by updating your default browser to iBrowe.
         </message>
+        <message name="IDS_DEFAULT_BROWSER_MODAL_TITLE_WITHOUT_SETTINGS_ILLUSTRATION" desc="Title of the default browser modal without settings illustration.">
+          Use iBrowe recommended browser settings
+        </message>
+        <message name="IDS_DEFAULT_BROWSER_MODAL_BODY_WITHOUT_SETTINGS_ILLUSTRATION" desc="Body text of the default browser modal without settings illustration.">
+          Get easy access to the features you know, love, and trust by setting iBrowe as your default browser. iBrowe will be pinned to your taskbar for quick access.
+        </message>
+      </if>
       <if expr="is_win or is_macosx">
         <message name="IDS_PDF_INFOBAR_TEXT" desc="Text to show in an infobar when iBrowe is not the default PDF viewer.">
           Set iBrowe as your default PDF viewer
@@ -979,6 +1043,34 @@ iBrowe is unable to recover your settings.
         </message>
       </if>
 
+      <!-- Page menu. Android has separate strings for its menu -->
+      <if expr="not is_android">
+        <if expr="use_titlecase">
+          <then>
+            <message name="IDS_CUSTOMIZE_CHROME" desc="In Title Case: The text label of the Customize iBrowe menu item">
+              C&amp;ustomize Your iBrowe
+            </message>
+            <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="In Title Case: The title of the Other iBrowe profiles section">
+              Other iBrowe Profiles
+            </message>
+            <message name="IDS_MANAGE_CHROME_PROFILES" desc="In Title Case: The text label of the manage chrome profile item">
+              &amp;Manage iBrowe Profiles
+            </message>
+          </then>
+          <else>
+            <message name="IDS_CUSTOMIZE_CHROME" desc="The text label of the Customize iBrowe menu item">
+              C&amp;ustomize your iBrowe
+            </message>
+            <message name="IDS_OTHER_CHROME_PROFILES_TITLE" desc="The title of the Other iBrowe profiles section">
+              Other iBrowe profiles
+            </message>
+            <message name="IDS_MANAGE_CHROME_PROFILES" desc="The text label of the manage chrome profile item">
+              &amp;Manage iBrowe profiles
+            </message>
+          </else>
+        </if>
+      </if>
+
       <message name="IDS_VIEW_PASSWORDS" desc="Item in the app menu which shows Password Manager page">
         P&amp;assword Manager
       </message>
@@ -1014,9 +1106,11 @@ iBrowe is unable to recover your settings.
         Continue where you left off: iBrowe can restore your tabs every time you restart. To turn this on, go to
       </message>
       <message name="IDS_SESSION_RESTORE_LINK" desc="Text for the link in the session restore infobar to open the Settings page.">
-        Settings.
+         Settings.
       </message>
-
+      <message name="IDS_SESSION_RESTORE_LINK_ARIA_LABEL" desc="Accessibility text for the link in the session restore infobar to open the Settings page.">
+        Settings, opens in new tab.
+      </message>
       <!-- Enterprise sign-in dialog -->
       <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_REQUIRED_BY_ORG_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to iBrowe with their enterprise account when it is mandatory to sign in to iBrowe with the enterprise account.">
         Your organization requires you to sign into iBrowe
@@ -1036,13 +1130,6 @@ iBrowe is unable to recover your settings.
         </message>
         <message name="IDS_ENTERPRISE_VALUE_PROPOSITION_PROFILE_SUGGESTED_TITLE" desc="Title of the screen in the profile creation flow where the user is asked whether they want to confirm signing in to iBrowe with their enterprise account.">
           Sign in to iBrowe?
-        </message>
-        <!-- New one-click sign-in dialog contents for SAML support -->
-        <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_TITLE_NEW" desc="The title of the modal dialog window that opens when the user chooses to use one click sign-in.">
-          You're signed in to iBrowe!
-        </message>
-        <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_MESSAGE_NEW" desc="The message of the one click sign-in dialog.">
-          You're signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Now you can access your bookmarks, history, and other settings on all your signed in devices.
         </message>
       </if>
 
@@ -1086,6 +1173,9 @@ iBrowe is unable to recover your settings.
       </if>
 
       <!-- NTP strings -->
+      <message name="IDS_NTP_CUSTOMIZE_TOOLBAR_CATEGORY_YOUR_CHROME" desc="The label for the category of actions that involve your iBrowe data, such as opening the password manager or clearing browsing data.">
+        Your iBrowe
+      </message>
       <if expr="_is_chrome_for_testing_branded">
         <then>
           <message name="IDS_NTP_CUSTOMIZE_BUTTON_LABEL" desc="Label for button on the New Tab Page that opens dialog to customize iBrowe for Testing browser.">
@@ -1098,6 +1188,38 @@ iBrowe is unable to recover your settings.
           </message>
         </else>
       </if>
+      <message name="IDS_NTP_MODULES_SETUP_LIST_TITLE" desc="Title shown at the top of the Setup List card.">
+        Make iBrowe Yours
+      </message>
+      <message name="IDS_NTP_CUSTOMIZE_CHROME_RESET_TO_CLASSIC_CHROME_LABEL" desc="The label for the button for resetting theme back to default chrome in the New Tab Page customize chrome side panel.">
+        Reset to Default iBrowe
+      </message>
+
+      <!-- New Tab Page browser feature promotions. -->
+      <if expr="not is_android">
+        <message name="IDS_NTP_CUSTOMIZATION_PROMO" desc="The text shown in the body of the New Tab Page browser customization promotion">
+          Customize iBrowe to give your browser a new look
+        </message>
+        <message name="IDS_NTP_SIGN_IN_PROMO_WITH_BOOKMARKS" desc="The text shown in the body of the New Tab Page sign in promotion">
+          Sign in to iBrowe to get your passwords, bookmarks, and more on all your devices
+        </message>
+      </if>
+
+      <!-- Customize Brave Auto Promo Strings -->
+      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_BODY" desc="The description of the IPH to auto open Customize iBrowe">
+        Customize iBrowe to give it a new look
+      </message>
+      <message name="IDS_IPH_CUSTOMIZE_CHROME_AUTO_OPEN_SCREENREADER" desc="The screenreader of the IPH to auto open Customize iBrowe" is_accessibility_with_no_ui="true">
+        Click the Customize iBrowe button on the New Tab Page to give iBrowe a new look
+      </message>
+
+      <!-- Realbox Strings -->
+      <message name="IDS_IPH_REALBOX_CONTEXTUAL_ENTRYPOINT" desc="The description of the IPH shown for the realbox contextual entrypoint.">
+        Deepen your search by adding multiple tabs, files, and tools
+      </message>
+      <message name="IDS_IPH_REALBOX_CONTEXTUAL_ENTRYPOINT_SCREENREADER" desc="The screenreader text of the IPH shown for the realbox contextual entrypoint.">
+        Deepen your search by adding multiple tabs, files, and tools using the "Add a tab and more" button.
+      </message>
 
       <!-- Signin Email Confirmation tab modal dialog -->
       <if expr="not is_chromeos">
@@ -1159,7 +1281,7 @@ iBrowe is unable to recover your settings.
           To stay safer online with your parent’s choices, sign in to iBrowe
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER" desc="This string is the body text of a reminder message, which is intended to help users understand that they have been signed in to iBrowe. The user previously signed in to a iBrowe service (like Gmail or Maps), and saw the iBrowe Signin Bubble intercept; when asked whether the user wanted to sign in to iBrowe as well, the user selected yes. After a period of time, this reminder message appears at the top right of iBrowe (pointing at the Profile Menu) to remind the user that they made this choice a while ago. This body text string comes after the 'Welcome back, USER_NAME' string. We are focusing on the benefit that user enjoys, now that they're signed in to iBrowe. The tone should be welcoming.">
-          While you're signed in, you can use your passwords and more from your iBrowe sync chain in iBrowe. You can change this at any time in settings.
+          While you're signed in, you can use your passwords and more from your iBrowe sync chain in iBrowe. To change this, go to “Your account in iBrowe”.
         </message>
         <message name="IDS_SIGNIN_DICE_WEB_INTERCEPT_BUBBLE_CHROME_SIGNIN_IPH_TEXT_SIGNIN_REMINDER_SCREENREADER" desc="This string is the accessibility text of a reminder message, which is intended to help users understand that they have been signed in to iBrowe.">
           While you're signed in, you can use your passwords and more from your iBrowe sync chain in iBrowe. <ph name="SHORTCUT">$1<ex>CTRL+SHIFT+M</ex></ph> can change your iBrowe services settings.
@@ -1176,8 +1298,18 @@ iBrowe is unable to recover your settings.
         <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the iBrowe Profile Menu and chooses 'Sign out of iBrowe'. The error message appears when the user has saved some data (like a password or payment method) to iBrowe, but iBrowe wasn't able to save the data to the user's iBrowe sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of iBrowe.">
           iBrowe needs to verify it’s you before some data can be saved in your iBrowe sync chain and used on all your devices. If you sign out now, this data will be deleted.
         </message>
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_VERIFY_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the iBrowe Profile Menu and chooses 'Sign out of iBrowe'. The error message appears when the user has saved some data (like a password or payment method) to iBrowe, but iBrowe wasn't able to save the data to the user's iBrowe sync chain due to a sign-in error; we want to set expectations by clarifying that the data will be removed from the device. This subtitle is after the 'Some data isn’t saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved and will be deleted if they sign out. This string provides a path to resolution because it explains how the user can properly save their data before they sign out of iBrowe.">
+          {count, plural,
+              =1 {iBrowe needs to verify it’s you before some data can be saved in your iBrowe sync chain and used on all your devices. If you sign out now, this data (1 item) will be deleted.}
+              other {iBrowe needs to verify it’s you before some data can be saved in your iBrowe sync chain and used on all your devices. If you sign out now, this data ({count} items) will be deleted.}}
+        </message>
         <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY" desc="This is the subtitle of an error message dialog that appears when the user opens the iBrowe Profile Menu and chooses 'Sign out of iBrowe'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to iBrowe and iBrowe hasn't had time to save that data to the user's iBrowe sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their iBrowe sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
           Some of your iBrowe data hasn't been saved in your iBrowe sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data will be deleted.
+        </message>
+        <message name="IDS_CHROME_SIGNOUT_CONFIRMATION_PROMPT_UNSYNCED_BODY_WITH_COUNT" desc="This is the subtitle of an error message dialog that appears when the user opens the iBrowe Profile Menu and chooses 'Sign out of iBrowe'. The error message appears when the user tries to sign out immediately after having saved saved some data (like a password or payment method) to iBrowe and iBrowe hasn't had time to save that data to the user's iBrowe sync chain yet. This subtitle is after the 'Some data isn't saved yet' string. The tone should be cautionary, because we want to explain to the user that their data is not saved to their iBrowe sync chain. This string asks the user to wait a few minutes before trying to sign out again.">
+          {count, plural,
+              =1 {Some of your iBrowe data hasn't been saved in your iBrowe sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data (1 item) will be deleted.}
+              other {Some of your iBrowe data hasn't been saved in your iBrowe sync chain yet. Try waiting a few minutes before signing out. If you sign out now, this data ({count} items) will be deleted.}}
         </message>
         <message name="IDS_CLOSE_WARNING_FOR_CLEAR_COOKIES_ON_EXIT_TEXT" desc="Body of a notice displayed when closing the last iBrowe window, to inform the user about a change in the way the 'Clear cookie on exit' setting works.">
           You’ll be signed out of most sites when you close all iBrowe windows, except your iBrowe sync chain if you’re signed in to iBrowe. To let sites remember you, <ph name="SETTINGS_LINK">$1<ex>go to settings</ex></ph>.
@@ -1234,7 +1366,7 @@ iBrowe is unable to recover your settings.
       </if>
 
       <!-- Profile Menu -->
-      <message name="IDS_PROFILE_MENU_SIGNIN_PROMO_BUTTON" desc="Text for the button in the sign-in promo in the profile menu when the used is signed out.">
+      <message name="IDS_PROFILE_MENU_SIGNIN_PROMO_BUTTON" meaning="Button" desc="Text for the button in the sign-in promo in the profile menu when the used is signed out.">
         Sign in to iBrowe
       </message>
       <message name="IDS_PROFILE_MENU_PLACEHOLDER_PROFILE_NAME" desc="Placeholder profile name, used when the user did not enter a name for their profile.">
@@ -1283,19 +1415,17 @@ iBrowe is unable to recover your settings.
       </if>
 
       <message name="IDS_APP_ALSO_DELETE_APPS_DATA" desc="Checkbox text to ask the user during uninstall; Whether they want to remove associated data for the app being uninstalled. Only used when uninstalling an app associated with a particular website.">
-        Remove this apps data from iBrowe
+        Remove this app's data from iBrowe
       </message>
 
       <!-- App shortcuts -->
       <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the iBrowe Apps Start Menu folder name.">
         iBrowe Apps
       </message>
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY" desc="Name for the iBrowe Apps Start Menu folder name.">
-        iBrowe Apps
-      </message>
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY">iBrowe Nightly Apps</message>
       <if expr="is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">iBrowe Apps</message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">iBrowe Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">iBrowe Beta Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">iBrowe Dev Apps</message>
       </if>
 
       <!-- ChromeOS OOBE Terms of Service screen-->
@@ -1590,6 +1720,9 @@ iBrowe is unable to recover your settings.
       <message name="IDS_DESKTOP_MEDIA_PICKER_PERMISSION_RESTART_TEXT_MAC" desc="Supplementary text about the need to restart iBrowe, displayed below the message about enabling screen-recording permissions on Mac when those permissions are missing.">
         You'll then need to restart iBrowe.
       </message>
+      <message name="IDS_DESKTOP_MEDIA_PICKER_SYSTEM_AUDIO_PERMISSION_TEXT_MAC" desc="Instructive text for how to enable system audio capture on Mac.">
+        To share system audio, open System Settings and allow 'System Audio Recording Only' for iBrowe. You'll then need to restart iBrowe.
+      </message>
 
       <!-- Runtime permission strings -->
       <if expr="is_android">
@@ -1650,7 +1783,24 @@ iBrowe is unable to recover your settings.
         </message>
       </if>
 
+      <!-- Side panel strings -->
+      <message name="IDS_SIDE_PANEL_CUSTOMIZE_CHROME_TITLE" desc="The name of the Customize iBrowe feature in the side panel combo box.">
+        Customize iBrowe
+      </message>
+
+      <!-- History Strings -->
+      <message name="IDS_HISTORY_HISTORY_MENU_ITEM" desc="Label displayed in history sidebar button to display history.">
+        iBrowe history
+      </message>
+
       <!-- Lens Overlay Strings -->
+      <message name="IDS_LENS_SEND_FEEDBACK" desc="Text that is shown in the more options menu to open the feedback dialog.">
+        Send feedback
+      </message>
+      <message name="IDS_LENS_SEND_FEEDBACK_PLACEHOLDER" desc="Placeholder text that is shown in the feedback dialog to send feedback for the Lens Overlay.">
+        Send feedback for search with Lens
+      </message>
+
       <if expr="not is_android">
         <!-- Side Panel Pinnable Entrypoint Strings -->
         <message name="IDS_SIDE_PANEL_LENS_OVERLAY_PINNABLE_IPH" desc="The body text of the IPH describing that the Lens Overlay panel is pinnable.">
@@ -1681,6 +1831,9 @@ iBrowe is unable to recover your settings.
         </message>
         <message name="IDS_LENS_OVERLAY_FEEDBACK_TOAST_MESSAGE" desc="The message on the toast prompting the user to share their thoughts by sending feedback.">
           Share your thoughts
+        </message>
+        <message name="IDS_LENS_OVERLAY_FEEDBACK_TOAST_MESSAGE_ALT" desc="The message on the toast asking the user if the results are useful and to send feedback.">
+          Are these results useful?
         </message>
         <message name="IDS_LENS_OVERLAY_SEND_FEEDBACK_BUTTON_LABEL" desc="The label for the button that on click opens a feedback form for the user to send feedback about the feature.">
           Send feedback
@@ -1772,12 +1925,6 @@ iBrowe is unable to recover your settings.
         <message name="IDS_LENS_OVERLAY_DETECT_LANGUAGE_LABEL" desc="Label in the language picker menu denoting that the following language is the one that has been detected.">
           Detect language
         </message>
-        <message name="IDS_LENS_SEND_FEEDBACK" desc="Text that is shown in the more options menu to open the feedback dialog.">
-          Send feedback
-        </message>
-        <message name="IDS_LENS_SEND_FEEDBACK_PLACEHOLDER" desc="Placeholder text that is shown in the feedback dialog to send feedback for the Lens Overlay.">
-          Send feedback for search with Lens
-        </message>
         <message name="IDS_LENS_OVERLAY_RENDERER_LABEL" desc="The label for the renderer process housing the Lens overlay.">
           Image Search
         </message>
@@ -1854,6 +2001,9 @@ iBrowe is unable to recover your settings.
         <message name="IDS_LENS_OVERLAY_IMAGE_ENTRYPOINT_LABEL_ALT3" desc="Label for the Lens overlay command, through which the image will be searched using the Image Search service.">
           Search this image with Image Search
         </message>
+        <message name="IDS_LENS_OVERLAY_TAB_ENTRYPOINT_LABEL" desc="Label for the Lens overlay command, through which the current tab will be searched using the Image Search service.">
+          Search this tab with Image Search
+        </message>
         <message name="IDS_LENS_OVERLAY_VIDEO_ENTRYPOINT_LABEL_ALT1" desc="Label for the Lens overlay command, through which the user can ask questions about the video.">
           Ask about this video
         </message>
@@ -1894,14 +2044,29 @@ iBrowe is unable to recover your settings.
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_CSB_DESCRIPTION" desc="Text that is shown in the Lens permission bubble, giving examples of what Lens can do and informing uawea what information will be sent to the server. Includes placeholder for learn more link.">
           When you use Image Search, the page title, URL, and content, including PDFs, are sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_NON_BLOCKING_DESCRIPTION" desc="Text that is shown in the Lens non-blocking privacy notice, giving examples of what Lens can do and informing users what information will be sent to iBrowe. Includes placeholder for learn more link.">
+          When you open Image Search, the page title, URL, and content, including PDFs, will automatically be sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
+        </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_DESCRIPTION" desc="Text that is shown in the Lens permission bubble, giving examples of what Lens can do and informing users that their screenshot will be sent to the server. Includes placeholder for learn more link.">
           Identify things or places and copy or translate text. When you use Image Search, a screenshot of the page is sent to the server. <ph name="LEARN_MORE">$1<ex>Learn more</ex></ph>
         </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_LEARN_MORE_LINK" desc="Text link that is shown to users to learn more about privacy in relation to Google Lens.">
           Learn more
         </message>
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_LEARN_MORE_ABOUT_GOOGLE_LENS_LINK" desc="Accessibility label for text link that is shown to users to learn more about privacy in relation to Google Lens.">
+          Learn more about searching with Image Search in iBrowe
+        </message>
         <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_TITLE" desc="The title of the lens permission search bubble dialog, introducing Lens as a way to search what's on their screen.">
           Search anything on this page
+        </message>
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_TAB_TO_CONTINUE" desc="Instructs the user to press Tab to begin using the feature.">
+          Tab to continue
+        </message>
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_GOT_IT" desc="Text on button in privacy notice, indicating that user understands that information will be sent to iBrowe.">
+          Got it
+        </message>
+        <message name="IDS_LENS_PERMISSION_BUBBLE_DIALOG_REMIND_ME_LATER" desc="Text on button to dismiss privacy notice, indicating that the privacy notice will be shown again later.">
+          Remind me later
         </message>
 
         <!-- Title Case Dependent -->
@@ -1926,11 +2091,44 @@ iBrowe is unable to recover your settings.
         <message name="IDS_LENS_CONTEXTUAL_SEARCH_DEFAULT_QUERY" desc="Default query for Lens searchbox to request help with the current page context.">
           help me with this
         </message>
+        <message name="IDS_LENS_CONTEXTUAL_SEARCH_ZERO_STATE_QUERY" is_accessibility_with_no_ui="true" desc="Default query for Lens searchbox to request help with the current page context in a low intent state.">
+          **Summarize:** In a single sentence under 30 words, describe the primary subject and purpose of the content in the screenshot.
+
+          **Suggest Questions:** Generate a bulleted list of 3-5 thought-provoking questions a user could ask to better understand the screenshot. These questions should include at least one that is specifically about a visual object, its design, or its placement.
+        </message>
 
         <!-- AI Mode Strings -->
         <message name="IDS_LENS_COMPOSEBOX_HINT_TEXT" desc="The hint text of the AI mode searchbox in the Lens side panel. This text is shown in the searchbox when the user has not yet typed any text, and prompts the user to ask a follow up question.">
           Ask a follow up
         </message>
+        <message name="IDS_LENS_COMPOSEBOX_HINT_TEXT_SEARCH_PAGE" desc="The hint text of the AI mode searchbox in the Lens side panel. This text is shown in the searchbox when the user has not yet typed any text but has opened the overlay to make AIM follow up queries.">
+          Search anything on page
+        </message>
+        <message name="IDS_LENS_COMPOSEBOX_HINT_TEXT_SELECT_PAGE" desc="The hint text of the AI mode searchbox in the Lens side panel. This text is shown in the searchbox when the user has not yet typed any text but has opened the overlay to make AIM follow up queries.">
+          Select anything on page
+        </message>
+        <message name="IDS_LENS_COMPOSEBOX_HINT_TEXT_ASK_ANYTHING" desc="The hint text of the AI mode searchbox in the Lens tab. This text is shown in the searchbox when the user has not yet typed any text, and prompts the user to ask a question.">
+          Ask anything
+        </message>
+
+        <message name="IDS_AI_MODE_ASK_ABOUT_THIS_TAB" desc="Title for the AI Mode zero state welcome message in the Lens side panel. Prompts the user to ask questions about the current tab. Includes a line break to force desired line wrapping.">
+          Ask<ph name="LINE_BREAK">$1</ph>about this tab
+        </message>
+
+        <message name="IDS_AI_MODE_NEW_SEARCH" desc="Header in the Lens side panel indicating a new AI Mode search session.">
+          New search
+        </message>
+
+        <if expr="use_titlecase">
+          <message name="IDS_CONTEXT_MENU_SHOW_AI_MODE_OMNIBOX_BUTTON" desc="In Title Case: The text label of the omnibox context menu option to enable showing 'AI Mode'">
+            Always Show AI Mode
+          </message>
+        </if>
+        <if expr="not use_titlecase">
+        <message name="IDS_CONTEXT_MENU_SHOW_AI_MODE_OMNIBOX_BUTTON" desc="The text label of the omnibox context menu option to enable showing 'AI Mode'">
+          Always show AI Mode
+        </message>
+        </if>
       </if>
 
       <!-- OOBE -->
@@ -1990,6 +2188,12 @@ iBrowe is unable to recover your settings.
               =0 {Your administrator requires that you relaunch iBrowe to apply an update}
               =1 {Your administrator requires that you relaunch iBrowe to apply an update. Your Private window won't reopen.}
               other {Your administrator requires that you relaunch iBrowe to apply an update. Your # Private windows won't reopen.}}
+          </message>
+             <message name="IDS_ADVANCED_PROTECTION_RELAUNCH_REQUIRED_BODY" desc="The body text of a dialog that tells Advanced Protection users the browser must be relaunched with Private counter">
+             {COUNT, plural,
+              =0 {Advanced Protection requires that you relaunch iBrowe to apply an update}
+              =1 {Advanced Protection requires that you relaunch iBrowe to apply an update. Your Private window won't reopen.}
+              other {Advanced Protection requires that you relaunch iBrowe to apply an update. Your # Private windows won't reopen.}}
           </message>
         </if>
       </if>
@@ -2068,9 +2272,33 @@ iBrowe is unable to recover your settings.
       </if>
 
       <!-- Brave parent extension/app install blocking dialog. -->
-      <if expr="enable_extensions">
+      <if expr="enable_extensions_core">
         <message name="IDS_EXTENSION_PERMISSIONS_BLOCKED_BY_PARENT_PROMPT_MESSAGE" desc="Text for the dialog indicating that a parent has blocked extensions and apps.">
          Your parent has turned off "Permissions for sites, apps and extensions" for iBrowe
+        </message>
+
+        <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_APP" desc="Titlebar of the prompt window for an externally installed app">
+          Another program on your computer added an app that may change the way iBrowe works.
+
+<ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
+        </message>
+        <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_EXTENSION" desc="Titlebar of the prompt window for an externally installed extension">
+          Another program on your computer added an extension that may change the way iBrowe works.
+
+<ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
+        </message>
+        <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_TITLE_THEME" desc="Titlebar of the prompt window for an externally installed theme">
+          Another program on your computer added a theme that may change the way iBrowe works.
+
+<ph name="EXTENSION_NAME">$1<ex>Babylon Toolbar</ex></ph>
+        </message>
+        <message name="IDS_EXTENSION_EXTERNAL_INITIAL_INSTALL_PROMPT_TITLE_EXTENSION" desc="">
+          <ph name="PARTNER_NAME">$1<ex>iBrowe</ex></ph> has added an extension that may change the way iBrowe works.
+
+<ph name="EXTENSION_NAME">$2<ex>Babylon Toolbar</ex></ph>
+        </message>
+        <message name="IDS_EXTENSION_EXTERNAL_INSTALL_PROMPT_ABORT_BUTTON" desc="Button on the external install prompt to remove an extension installed by a third party.">
+          Remove from iBrowe
         </message>
       </if>
 
@@ -2086,8 +2314,20 @@ iBrowe is unable to recover your settings.
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_V2" desc="Title of a screen that lets the user choose which profile to use when browsing the web. *If the EN source doesn't translate well in your language, an alternative string 'Which iBrowe profile would you like to use?' may be used instead">
           Who's using iBrowe?
         </message>
+        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_TITLE_KEEP_EVERYTHING_IN_CHROME" desc="Profile picker main view title.">
+          Keep everything in iBrowe
+        </message>
         <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE" desc="Profile picker main view subtitle">
           With iBrowe profiles, you can separate all your iBrowe stuff. Create profiles for friends and family, or split between work and fun.
+        </message>
+        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE_KEEP_WORK_AND_LIFE_SEPARATE" desc="Profile picker main view subtitle.">
+          iBrowe profiles let you keep personal browsing and work apart. Add a new profile now.
+        </message>
+        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE_GOT_ANOTHER_GOOGLE_ACCOUNT" desc="Profile picker main view subtitle.">
+          iBrowe profiles help you separate different parts of your life. Add a new profile now.
+        </message>
+        <message name="IDS_PROFILE_PICKER_MAIN_VIEW_SUBTITLE_KEEP_TASKS_SEPARATE" desc="Profile picker main view subtitle.">
+          Add a new iBrowe profile to keep bookmarks, passwords, and settings apart.
         </message>
         <message name="IDS_PROFILE_PICKER_PROFILE_CREATION_FLOW_PROFILE_TYPE_CHOICE_TITLE" desc="Profile picker profile type choice title">
           Set up your new iBrowe profile
@@ -2109,7 +2349,7 @@ iBrowe is unable to recover your settings.
         </message>
 
         <!-- First Run Experience -->
-        <message name="IDS_FRE_SIGN_IN_TITLE_0" desc="This string appears as a heading on a full-page screen that asks the user to sign in to iBrowe with their iBrowe sync chain. It appears when the user launches iBrowe for the first time. When they sign in, they can personalize and customize iBrowe and remember their settings in their iBrowe sync chain. The tone should be inviting and alluring.">
+        <message name="IDS_FRE_SIGN_IN_TITLE_0" meaning="Title" desc="This string appears as a heading on a full-page screen that asks the user to sign in to iBrowe with their iBrowe sync chain. It appears when the user launches iBrowe for the first time. When they sign in, they can personalize and customize iBrowe and remember their settings in their iBrowe sync chain. The tone should be inviting and alluring.">
           Sign in to iBrowe
         </message>
 
@@ -2137,6 +2377,14 @@ iBrowe is unable to recover your settings.
         </message>
         <message name="IDS_SET_BROWSER_AS_DEFAULT_MENU_ITEM" desc="Menu item that prompts user to set iBrowe as their default browser.">
           Set iBrowe as your default browser
+        </message>
+
+        <!-- Default Browser Promo Refresh -->
+        <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_TITLE" desc="Title for the page that prompts user to set iBrowe as their default browser in the refreshed first run experience.">
+          Set iBrowe as default and pin it to taskbar
+        </message>
+        <message name="IDS_FRE_REFRESH_DEFAULT_BROWSER_SUBTITLE" desc="Subtitle for the page that prompts user to set iBrowe as their default browser in the refreshed first run experience.">
+          Open links in iBrowe from any app and keep the browser accessible on your taskbar
         </message>
 
         <!-- Profile switch IPH -->
@@ -2195,6 +2443,22 @@ iBrowe is unable to recover your settings.
         Continue
       </message>
 
+      <!--Launch On Startup-->
+      <if expr="is_win">
+        <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_LABEL" desc="Label for settings toggle button that enables or disables opening iBrowe on system startup">
+          Launch iBrowe when Windows starts
+        </message>
+        <message name="IDS_SETTINGS_FOREGROUND_LAUNCH_ON_STARTUP_SUB_LABEL" desc="Sub label for settings toggle button that enables or disables opening iBrowe on system startup">
+          Launch iBrowe automatically to begin browsing instantly.
+        </message>
+        <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_IN_TITLE" desc="Title of the infobar shown to ask the user if they want to allow iBrowe to launch when windows starts.">
+          Begin browsing instantly: iBrowe can now launch when Windows starts.
+        </message>
+        <message name="IDS_STARTUP_LAUNCH_INFOBAR_OPT_OUT_TITLE" desc="Title of the infobar shown to inform the user that iBrowe now starts automatically when Windows starts.">
+          iBrowe now launches when Windows starts so you can begin browsing instantly. You can turn this off in settings.
+        </message>
+      </if>
+
       <!-- Advanced security settings -->
       <message name="IDS_SETTINGS_SECURITY_JAVASCRIPT_OPTIMIZATION_LINK_ROW_ENABLED" desc="Description for the link row of the Javascript-optimization page when javascript-optimization is enabled.">
         Speeds up sites with iBrowe's V8 engine but makes iBrowe slightly less resistant to attacks. This setting is on.
@@ -2206,7 +2470,7 @@ iBrowe is unable to recover your settings.
         Speeds up sites with iBrowe's V8 engine but makes iBrowe slightly less resistant to attacks
       </message>
       <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_OPTIMIZER_ALLOWED_SUB_LABEL" desc="Sub-label for the enabled option of the JavaScript optimizer content setting.">
-        iBrowe runs faster and features that use JavaScript should work as designed (recommended)
+        iBrowe runs faster and features that use JavaScript should work as designed
       </message>
       <message name="IDS_SETTINGS_SITE_SETTINGS_JAVASCRIPT_OPTIMIZER_BLOCKED_SUB_LABEL" desc="Sub-label for the disabled option of the JavaScript optimizer content setting.">
         Reduces performance but makes iBrowe more resistant to attacks
@@ -2441,16 +2705,9 @@ iBrowe is unable to recover your settings.
 
       <!-- Memory Saver IPH strings -->
       <if expr="not is_android">
-        <if expr="use_titlecase">
-          <message name="IDS_MEMORY_SAVER_MODE_PROMO_TITLE" desc="In Title Case: The title for the Memory Saver mode in-product promo bubble">
-            Make iBrowe Faster
-          </message>
-        </if>
-        <if expr="not use_titlecase">
-          <message name="IDS_MEMORY_SAVER_MODE_PROMO_TITLE" desc="The title for the Memory Saver mode in-product promo bubble">
-            Make iBrowe faster
-          </message>
-        </if>
+        <message name="IDS_MEMORY_SAVER_MODE_PROMO_TITLE" desc="The title for the Memory Saver mode in-product promo bubble">
+          Make iBrowe faster
+        </message>
       </if>
 
       <!-- Performance Intervention Dialog strings -->
@@ -2542,11 +2799,26 @@ iBrowe is unable to recover your settings.
         <message name="IDS_GLIC_STATUS_ICON_TOOLTIP_CLOSE_BETA" translateable="false" desc="This is the tooltip that is shown when the glic status icon is hovered and the Glic window is open. It indicates that this is the Beta version of the browser.">
           Close Gemini (Beta)
         </message>
+        <message name="IDS_GLIC_STATUS_ICON_TOOLTIP_TOGGLE" translateable="false" desc="This is the tooltip that is shown when the glic status icon is hovered.">
+          Toggle Gemini in iBrowe
+        </message>
+        <message name="IDS_GLIC_STATUS_ICON_TOOLTIP_TOGGLE_CANARY" translateable="false" desc="This is the tooltip that is shown when the glic status icon is hovered. It indicates that this is the Canary version of the browser.">
+          Toggle Gemini (Canary)
+        </message>
+        <message name="IDS_GLIC_STATUS_ICON_TOOLTIP_TOGGLE_DEV" translateable="false" desc="This is the tooltip that is shown when the glic status icon is hovered. It indicates that this is the Dev version of the browser.">
+          Toggle Gemini (Dev)
+        </message>
+        <message name="IDS_GLIC_STATUS_ICON_TOOLTIP_TOGGLE_BETA" translateable="false" desc="This is the tooltip that is shown when the glic status icon is hovered. It indicates that this is the Beta version of the browser.">
+          Toggle Gemini (Beta)
+        </message>
         <message name="IDS_GLIC_STATUS_ICON_MENU_SHOW" translateable="false" desc="This is the menu item for showing the glic UI.">
           Open Gemini in iBrowe
         </message>
         <message name="IDS_GLIC_STATUS_ICON_MENU_CLOSE" translateable="false" desc="This is the menu item for closing the Glic window.">
           Close Gemini in iBrowe
+        </message>
+        <message name="IDS_GLIC_STATUS_ICON_MENU_TOGGLE" translateable="false" desc="This is the menu item for toggling the glic UI.">
+          Toggle Gemini in iBrowe
         </message>
         <message name="IDS_GLIC_INELIGIBLE_PROFILE_NOTICE" translateable="false" desc="This is the text of the glic ineligible profile notice.">
           To use Gemini in iBrowe, sign in with a different iBrowe sync chain
@@ -2561,6 +2833,12 @@ iBrowe is unable to recover your settings.
         </message>
         <message name="IDS_SETTINGS_GLIC_ROW_LABEL" translateable="false" desc="Label of the Glic row button on the AI settings page leading to the Glic subpage.">
           Gemini in iBrowe
+        </message>
+        <message name="IDS_SETTINGS_GLIC_PERMISSIONS_WEB_ACTUATION_TOGGLE" desc="Title for the Gemini feature introduction screen">
+          Let iBrowe browse for you
+        </message>
+        <message name="IDS_SETTINGS_GLIC_PERMISSIONS_WEB_ACTUATION_TOGGLE_SUBLABEL" desc="Subheader explaining what the Gemini feature does">
+          Gemini in iBrowe uses auto browse to work in your tabs and complete tasks you give it. <ph name="LINK_BEGIN">&lt;a href="#"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
         </message>
 
         <!-- Profile Picker Glic version-->
@@ -2584,6 +2862,10 @@ iBrowe is unable to recover your settings.
         <message name="IDS_GLIC_CONTEXTUAL_CUEING_ANNOUNCEMENT" desc="Polite announcement that happens when a contextual nudge is shown next to the Glic button." translateable="false">
           To open Gemini in iBrowe, press <ph name="GLOBAL_HOTKEY">$1<ex>⌘+G</ex></ph>
         </message>
+        <!-- Variant of the label on the Gemini button in the tabstrip-->
+        <message name="IDS_GLIC_BUTTON_ENTRYPOINT_ASK_BROWSER_LABEL" desc="Label on the button used to open Gemini in iBrowe.">
+          Ask iBrowe
+        </message>
       </if>
 
       <!-- UNO Promo strings for extensions -->
@@ -2596,6 +2878,9 @@ iBrowe is unable to recover your settings.
       <!-- UNO Promo strings for bookmarks -->
       <message name="IDS_BOOKMARK_INSTALLED_PROMO_EXPLICIT_SIGNIN_MESSAGE" desc="Text of the promo displayed at the bottom of the bookmark bubble asking the user to enable UNO.">
         To get this bookmark and more on all your devices, sign in to iBrowe
+      </message>
+      <message name="IDS_BOOKMARK_INSTALLED_BUBBLE_PROMO_EXPLICIT_SIGNIN_MESSAGE" desc="Text of the promo displayed after the bookmark bubble asking the user to enable UNO.">
+        To get your bookmarks and more on all your devices, sign in to iBrowe. This bookmark will be saved in your iBrowe sync chain after you sign in.
       </message>
 
       <!-- Dice Migration strings -->
@@ -2628,10 +2913,90 @@ iBrowe is unable to recover your settings.
           </message>
         </if>
       </if>
+
+      <!--Desktop to iOS promo strings-->
+      <if expr="not is_android">
+        <message name="IDS_IOS_DESKTOP_ESB_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop ESB promo bubble with a reminder button.">
+          Stay safer on the go with Enhanced Safe Browsing on iBrowe for iOS
+        </message>
+        <message name="IDS_IOS_DESKTOP_ESB_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop ESB promo bubble with a QR code.">
+          Extend Enhanced Safe Browsing with iBrowe on your phone
+        </message>
+        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_DESCRIPTION_REMINDER" desc="The description for the footer of the iOS desktop password promo bubble.">
+          Sign in faster to sites using saved passwords for iBrowe on iOS
+        </message>
+        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_TITLE" desc="The title for the footer of the iOS desktop password promo bubble suggesting to users that they can use their passwords on their iOS devices.">
+          Use your passwords with iBrowe on your phone
+        </message>
+        <message name="IDS_IOS_DESKTOP_PROMO_BUBBLE_BUTTON_ACCEPT_QR" desc="The text inside the iOS promo bubble button allowing the user to accept by getting the app via QR code.">
+          Get the iBrowe app
+        </message>
+        <message name="IDS_IOS_DESKTOP_PROMO_REMINDER_CONFIRMATION" desc="Body text of the promo bubble that appears after uses choose to be reminded of the feature on their iOS device. The placeholder will be replaced by the name of the feature.">
+          You'll see a prompt to try <ph name="FEATURE_NAME">$1<ex>Google Lens</ex></ph> next time you open iBrowe iOS.
+        </message>
+        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_REMINDER_CONFIRMATION" desc="Body text of the promo bubble that appears after uses choose to be reminded of the Password Manager on their iOS device.">
+          Next time you open iBrowe on your <ph name="DEVICE_TYPE">$1<ex>iPhone</ex></ph>, you'll see a prompt to use iBrowe Password Manager.
+        </message>
+        <message name="IDS_IOS_DESKTOP_LENS_PROMO_BUBBLE_DESCRIPTION_REMINDER" desc="The description for the iOS desktop Lens promo bubble.">
+          Shop, translate and identify what you see with your camera on the iBrowe iOS app
+        </message>
+        <message name="IDS_IOS_DESKTOP_LENS_PROMO_BUBBLE_TITLE_QR" desc="The title for the iOS desktop Lens promo bubble with a QR code.">
+          Try Google Lens with iBrowe on your phone
+        </message>
+        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_BUBBLE_FOOTER_DESCRIPTION_QR" desc="The description for the iOS desktop password promo bubble footer which lets the user know how to use their saved passwords on their phone: follow the QR code, download iBrowe for iOS and sign in to their account.">
+          To use your saved passwords, follow the QR code, download iBrowe for iOS and sign in to your iBrowe sync chain
+        </message>
+        <message name="IDS_IOS_DESKTOP_LENS_PROMO_NOTIFICATION_TITLE" desc="The title for the iOS desktop Lens promo notification.">
+          iBrowe Tip: Search With Lens
+        </message>
+        <message name="IDS_IOS_DESKTOP_PASSWORD_PROMO_NOTIFICATION_TITLE" desc="The title for the iOS desktop Password promo notification.">
+          iBrowe Tip: Save Passwords
+        </message>
+        <message name="IDS_IOS_DESKTOP_PRICE_TRACKING_DESCRIPTION_QR" desc="The description for the iOS desktop price tracking promo bubble with a QR code.">
+          Download iBrowe on your phone to track prices and get alerts when the price drops on any site
+        </message>
+        <message name="IDS_IOS_DESKTOP_PRICE_TRACKING_REMINDER_CONFIRMATION" desc="Body text of the promo bubble that appears after the user chooses to be reminded of price tracking on their iOS device.">
+          Next time you open iBrowe on your <ph name="DEVICE_TYPE">$1<ex>iPhone</ex></ph>, you’ll see a prompt to enable price tracking alerts.
+        </message>
+        <message name="IDS_IOS_DESKTOP_SAFE_BROWSING_PROMO_NOTIFICATION_TITLE" desc="The title for the iOS desktop Enhanced Safe Browsing promo notification.">
+          iBrowe Tip: Enhanced Safe Browsing
+        </message>
+        <message name="IDS_IOS_DESKTOP_TAB_GROUPS_PROMO_BUBBLE_DESCRIPTION_QR" desc="The description for the iOS desktop Tab Groups promo bubble with a QR code.">
+          Download iBrowe on your phone to open or create new tab groups on the go.
+        </message>
+        <message name="IDS_IOS_DESKTOP_TAB_GROUPS_REMINDER_CONFIRMATION" desc="Body text of the promo bubble that appears after the user chooses to be reminded of tab groups on their iOS device.">
+          Next time you open iBrowe on your <ph name="DEVICE_TYPE">$1<ex>iPhone</ex></ph>, you’ll see a prompt to use tab groups.
+        </message>
+      </if>
+
+      <!--Default Search Engine Reset Notification-->
+      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_TITLE" desc="Title of the notification shown when iBrowe resets the default search engine (DSE) due to preference tampering.">
+        Your settings were changed by an unknown app
+      </message>
+      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_BODY" desc="Body text of the notification shown when iBrowe resets the default search engine, explaining that a change from outside iBrowe was detected.">
+        Your default search engine was changed from outside of iBrowe. To protect you, iBrowe reset it.
+      </message>
+      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_GOT_IT_BUTTON" desc="Label for the 'Got it' button in the default search engine reset notification, which dismisses the UI.">
+        Got it
+      </message>
+      <message name="IDS_DEFAULT_SEARCH_ENGINE_RESET_NOTIFICATION_LEARN_MORE_BUTTON" desc="Label for the 'Learn more' button in the default search engine reset notification, which opens a help center article.">
+        Learn more
+      </message>
+
+      <!--Report-unsafe-site Dialog (accessed from Help menu)-->
+      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_TITLE" desc="Title of the dialog for reporting an unsafe site to iBrowe">
+        Report this site
+      </message>
+
+      <message name="IDS_REPORT_UNSAFE_SITE_DIALOG_DESCRIPTION" desc="Explanatory text in dialog for reporting an unsafe site to iBrowe">
+        Improve online safety for everyone when you report a site you think is harmful.
+      </message>
     <message name="IDS_CHROME_SHORTCUT_NAME_BETA" desc="The Chrome shortcut name for beta channel">
           Google Chrome Beta
         </message><message name="IDS_CHROME_SHORTCUT_NAME_DEV" desc="The Chrome shortcut name for dev channel">
           Google Chrome Dev
-        </message></messages>
+        </message><if expr="is_win"><message name="IDS_SETUP_PATCH_FAILED" desc="Error message when setup.exe fails to patch itself.">
+          Installation failed due to unspecified error. Please download iBrowe again.
+        </message></if></messages>
   </release>
 </grit>
