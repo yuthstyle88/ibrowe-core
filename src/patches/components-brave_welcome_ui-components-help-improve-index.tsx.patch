@@ -1,8 +1,8 @@
 diff --git a/components/brave_welcome_ui/components/help-improve/index.tsx b/components/brave_welcome_ui/components/help-improve/index.tsx
-index f07cf35970f9f11ca3a77b025a4fa016ef64a7aa..09445fe9c4a019c9ae09cca61ce2376b79b17930 100644
+index ef368561a6a07136215a4d2264e59de3de15d568..a3c8e3c5c2e01ec80e0bd1b50870f9d6dd52286d 100644
 --- a/components/brave_welcome_ui/components/help-improve/index.tsx
 +++ b/components/brave_welcome_ui/components/help-improve/index.tsx
-@@ -18,27 +18,34 @@ interface InputCheckboxProps {
+@@ -19,27 +19,33 @@ interface InputCheckboxProps {
  }
  
  const changeSettingsNote = formatLocale('braveWelcomeChangeSettingsNote', {
@@ -11,37 +11,36 @@ index f07cf35970f9f11ca3a77b025a4fa016ef64a7aa..09445fe9c4a019c9ae09cca61ce2376b
 -  }}>
 -    {content}
 -  </a>
-+    $1: content => (
-+        <a
-+            href="ibrowe://settings/privacy"
-+            onClick={e => {
-+                e.preventDefault()
-+                chrome.send('openSettingsPage', ['privacy'])
-+            }}
-+        >
-+            {content}
-+        </a>
-+    )
++  $1: content => (
++    <a
++      href="ibrowe://settings/privacy"
++      onClick={e => {
++        e.preventDefault()
++        WelcomeBrowserProxyImpl.getInstance().openSettingsPage()
++      }}
++    >
++      {content}
++    </a>
++  )
  })
  
-+
  const readPrivacyPolicy = formatLocale('braveWelcomePrivacyPolicyNote', {
 -  $1: content => <a href='https://brave.com/privacy/browser' target='_blank'>
-+  $1: content => <a href='https://community.ibrowe.com/c/privacyupdates' target='_blank'>
++  $1: content => <a href='https://ibrowe.com/en/ibrowe-privacy' target='_blank'>
      {content}
    </a>
  })
  
  const diagnosticReportsLabel = formatLocale('braveWelcomeSendReportsLabel', {
--  $1: content => <a href='https://support.brave.com/hc/en-us/articles/360017905872-How-do-I-enable-or-disable-automatic-crash-reporting' target='_blank'>
-+  $1: content => <a href='https://support.ibrowe.com/hc/en-us/articles/360017905872-How-do-I-enable-or-disable-automatic-crash-reporting' target='_blank'>
+-  $1: content => <a href='https://support.brave.app/hc/en-us/articles/360017905872-How-do-I-enable-or-disable-automatic-crash-reporting' target='_blank'>
++  $1: content => <a href='https://community.ibrowe.com/post/406' target='_blank'>
      {content}
    </a>
  })
  
  const braveProductUsageDataLabel = formatLocale('braveWelcomeSendInsightsLabel', {
--  $1: content => <a href='https://support.brave.com/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-' target='_blank'>
-+  $1: content => <a href='https://support.ibrowe.com/hc/en-us/articles/9140465918093-What-is-P3A-in-iBrowe-' target='_blank'>
+-  $1: content => <a href='https://support.brave.app/hc/en-us/articles/9140465918093-What-is-P3A-in-Brave-' target='_blank'>
++  $1: content => <a href='https://community.ibrowe.com/post/384' target='_blank'>
      {content}
    </a>
  })
