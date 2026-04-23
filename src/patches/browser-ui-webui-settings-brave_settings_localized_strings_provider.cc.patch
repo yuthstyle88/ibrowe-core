@@ -1,20 +1,86 @@
 diff --git a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-index 5cc9b5dbb2177689233f05e8b553bc1808c7332c..931769e87aae1f55060843849ebfc7c5f1360851 100644
+index 1aed43e8fba6f557f12ca2ee669edba51b818672..ae90288d6473f41a023650b6a553bac413e05fe1 100644
 --- a/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
 +++ b/browser/ui/webui/settings/brave_settings_localized_strings_provider.cc
-@@ -53,12 +53,12 @@ namespace {
- constexpr char16_t kBraveAccountSelfCustodyLearnMoreURL[] =
-     u"https://search.brave.com";
- constexpr char16_t kBraveAccountTermsOfServiceURL[] =
--    u"https://brave.com/terms-of-use/";
-+    u"https://ibrowe.com/terms-of-use/";
- constexpr char16_t kBraveAccountPrivacyAgreementURL[] =
--    u"https://brave.com/privacy/browser/";
-+    u"https://ibrowe.com/ibrowe-privacy";
+@@ -73,62 +73,60 @@ namespace settings {
+ namespace {
  
  constexpr char16_t kWebRTCLearnMoreURL[] =
--    u"https://support.brave.com/hc/en-us/articles/"
-+    u"https://support.ibrowe.com/hc/en-us/articles/"
-     u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
+-    u"https://support.brave.app/hc/en-us/articles/"
+-    u"360017989132-How-do-I-change-my-Privacy-Settings-#webrtc";
++    u"https://community.ibrowe.com/post/434";
  constexpr char16_t kBraveBuildInstructionsUrl[] =
-     u"https://github.com/brave/brave-browser/wiki";
+-    u"https://github.com/brave/brave-browser/wiki";
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki";
+ constexpr char16_t kBraveLicenseUrl[] = u"https://mozilla.org/MPL/2.0/";
+ constexpr char16_t kBraveReleaseTagPrefix[] =
+-    u"https://github.com/brave/brave-browser/releases/tag/v";
++    u"https://github.com/yuthstyle88/ibrowe-browser/releases/tag/v";
+ #if BUILDFLAG(ENABLE_CONTAINERS)
+ constexpr char16_t kContainersLearnMoreURL[] =
+-    u"https://support.brave.app/hc/en-us/articles/39077103885325";
++    u"https://support.ibrowe.com/hc/en-us/articles/39077103885325";
+ #endif
+ constexpr char16_t kGoogleLoginLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Allow-Google-login---Third-Parties-and-Extensions";
+ constexpr char16_t kUnstoppableDomainsLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Resolve-Methods-for-Unstoppable-Domains";
+ constexpr char16_t kEnsOffchainLookupLearnMoreURL[] =
+-    u"https://github.com/brave/brave-browser/wiki/ENS-offchain-lookup";
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/ENS-offchain-lookup";
+ constexpr char16_t kBraveSyncGuideUrl[] =
+-    u"https://support.brave.app/hc/en-us/articles/360047642371-Sync-FAQ";
++    u"https://support.ibrowe.com/hc/en-us/articles/360047642371-Sync-FAQ";
+ constexpr char16_t kDeAmpLearnMoreUrl[] =
+-    u"https://support.brave.app/hc/en-us/articles/8611298579981";
++    u"https://community.ibrowe.com/post/242";
+ constexpr char16_t kDebounceLearnMoreUrl[] =
+-    u"https://brave.com/privacy-updates/11-debouncing/";
++    u"https://community.ibrowe.com/c/privacyupdates";
+ constexpr char16_t kEnableNftDiscoveryLearnMoreUrl[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"NFT-Discovery";
+ constexpr char16_t kBlockAllCookiesLearnMoreUrl[] =
+-    u"https://github.com/brave/brave-browser/wiki/"
++    u"https://github.com/yuthstyle88/ibrowe-browser/wiki/"
+     u"Block-all-cookies-global-Shields-setting";
+ 
+ #if BUILDFLAG(ENABLE_AI_CHAT)
+ constexpr char16_t kLeoCustomModelsLearnMoreURL[] =
+-    u"https://support.brave.app/hc/en-us/articles/"
++    u"https://support.ibrowe.com/hc/en-us/articles/"
+     u"34070140231821-How-do-I-use-the-Bring-Your-Own-Model-BYOM-with-Brave-Leo";
+ 
+ constexpr char16_t kTabOrganizationLearnMoreURL[] =
+-    u"https://support.brave.app/hc/en-us/articles/"
+-    u"35200007195917-How-to-use-Tab-Focus-Mode";
++    u"https://community.ibrowe.com/post/114";
+ 
+ constexpr char16_t kLeoMemoryLearnMoreURL[] =
+-    u"https://support.brave.app/hc/en-us/articles/38441287509261";
++    u"https://support.ibrowe.com/hc/en-us/articles/38441287509261";
+ 
+ constexpr char16_t kLeoPrivacyPolicyURL[] =
+-    u"https://brave.com/privacy/browser/#brave-leo";
++    u"https://ibrowe.com/ibrowe-privacy#brave-leo";
+ #endif
+ 
+ constexpr char16_t kAdBlockOnlyModeLearnMoreURL[] =
+-    u"https://support.brave.app/hc/en-us/articles/38076796692109";
++    u"https://support.ibrowe.com/hc/en-us/articles/38076796692109";
+ 
+ constexpr char16_t kSurveyPanelistLearnMoreURL[] =
+-    u"https://support.brave.app/hc/en-us/articles/36550092449165";
++    u"https://community.ibrowe.com/post/747";
+ 
+ constexpr char16_t kExtensionsV2LearnMoreURL[] =
+-    u"https://brave.com/blog/brave-shields-manifest-v3/";
++    u"https://ibrowe.com/shields/";
+ 
+ void BraveAddCommonStrings(content::WebUIDataSource* html_source,
+                            Profile* profile) {
